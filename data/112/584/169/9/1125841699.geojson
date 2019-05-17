@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.63333,50.03333,7.63333,50.03333",
-    "geom:latitude":50.03333,
-    "geom:longitude":7.63333,
+    "geom:area":0.000728,
+    "geom:area_square_m":5782443.656771,
+    "geom:bbox":"7.60987557808,50.024803204,7.66496991196,50.0483815623",
+    "geom:latitude":50.035269,
+    "geom:longitude":7.634634,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":514,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u5229\u5e03\u65af\u8c6a\u68ee"
+    ],
+    "name:deu_x_preferred":[
+        "Liebshausen"
     ],
     "name:dut_x_preferred":[
         "Liebshausen"
@@ -82,6 +85,8 @@
     "name:war_x_preferred":[
         "Liebshausen"
     ],
+    "nav:latitude":50.03333,
+    "nav:longitude":7.63333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -93,7 +98,10 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":578010,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
@@ -110,7 +118,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497292963,
-    "wof:geomhash":"d612d5026e2dd08798648b06119e55b2",
+    "wof:geomhash":"be45dc15e39a0f78cac3b88ced1966f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -121,7 +129,7 @@
         }
     ],
     "wof:id":1125841699,
-    "wof:lastmodified":1513950969,
+    "wof:lastmodified":1558134524,
     "wof:name":"Liebshausen",
     "wof:parent_id":102063601,
     "wof:placetype":"locality",
@@ -129,14 +137,16 @@
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125280963
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.63333,
-    50.03333,
-    7.63333,
-    50.03333
+    7.609875578076515,
+    50.02480320401482,
+    7.664969911956177,
+    50.048381562334086
 ],
-  "geometry": {"coordinates":[7.63333,50.03333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.63916070841594,50.02480320401482],[7.63760738985877,50.0249928963814],[7.62905210803982,50.02509848946967],[7.6222655710522,50.02661124163404],[7.61986613627576,50.02768519688122],[7.61791263576319,50.02648334394478],[7.61446060949289,50.02877315125923],[7.61376852081798,50.03233025919611],[7.61181724838625,50.03475700312257],[7.61061857197373,50.03639783637121],[7.61023284525717,50.03689587647085],[7.60987557807652,50.03748109821551],[7.62230289488707,50.04278342801047],[7.63832261054532,50.04838156233409],[7.63915188009265,50.04672970639581],[7.64714082889353,50.04229418396488],[7.65824248800099,50.03619245164887],[7.66482271952985,50.03270092693801],[7.66496991195618,50.03211036157348],[7.66137128001149,50.03187244314107],[7.65828487785934,50.0314989391911],[7.65584236854647,50.03088864282407],[7.65289880654134,50.0301530613767],[7.64708447784481,50.02875627218335],[7.64497685155415,50.02824434772665],[7.63916070841594,50.02480320401482]]]],"type":"MultiPolygon"}
 }

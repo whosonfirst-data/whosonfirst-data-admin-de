@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.53333,50.7,7.53333,50.7",
-    "geom:latitude":50.7,
-    "geom:longitude":7.53333,
+    "geom:area":0.000201,
+    "geom:area_square_m":1573876.065971,
+    "geom:bbox":"7.51900009885,50.6967920679,7.54781901054,50.7070231357",
+    "geom:latitude":50.701739,
+    "geom:longitude":7.533296,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":163,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u798f\u5c14\u65af\u7279\u6885\u4f26"
+    ],
+    "name:deu_x_preferred":[
+        "Forstmehren"
     ],
     "name:dut_x_preferred":[
         "Forstmehren"
@@ -94,6 +97,8 @@
     "name:war_x_preferred":[
         "Forstmehren"
     ],
+    "nav:latitude":50.7,
+    "nav:longitude":7.53333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -105,7 +110,10 @@
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":93881,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
@@ -122,7 +130,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497293174,
-    "wof:geomhash":"2f17ca548e0b5ed31a5637f3deb954a9",
+    "wof:geomhash":"2111dd8d78a81d82998825c37775c663",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -133,7 +141,7 @@
         }
     ],
     "wof:id":1125846241,
-    "wof:lastmodified":1513948512,
+    "wof:lastmodified":1558134463,
     "wof:name":"Forstmehren",
     "wof:parent_id":102063679,
     "wof:placetype":"locality",
@@ -141,14 +149,16 @@
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125339793
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.53333,
-    50.7,
-    7.53333,
-    50.7
+    7.519000098845996,
+    50.69679206785253,
+    7.547819010538999,
+    50.70702313570166
 ],
-  "geometry": {"coordinates":[7.53333,50.7],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.519000098846,50.70373599449145],[7.52042610287213,50.70560973453151],[7.51971188830648,50.70702313570166],[7.53164211940263,50.70517756799177],[7.53631817638862,50.70500925562788],[7.53744883216653,50.70551546465992],[7.5434107936909,50.70586603915518],[7.54581325883261,50.70532406596195],[7.54477910611725,50.7021729772601],[7.547819010539,50.69939603411875],[7.54588742273542,50.69810406800698],[7.53668844099005,50.69739158928675],[7.5364854787603,50.69679206785253],[7.53229665574341,50.69689181945938],[7.53229110482183,50.69764809035186],[7.5299939781661,50.69765218495622],[7.52846512056147,50.69694656660919],[7.5271368790033,50.69843428329364],[7.52575188116226,50.69769630492861],[7.52499684747573,50.69730769135233],[7.52510802775617,50.69778781253738],[7.52270631205326,50.69898673429476],[7.5234952601223,50.70017767667375],[7.52028724802295,50.70112168041059],[7.52037560886023,50.70373539921946],[7.519000098846,50.70373599449145]]]],"type":"MultiPolygon"}
 }

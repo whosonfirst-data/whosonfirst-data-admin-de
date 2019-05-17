@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.31667,49.78333,7.31667,49.78333",
-    "geom:latitude":49.78333,
-    "geom:longitude":7.31667,
+    "geom:area":0.000165,
+    "geom:area_square_m":1319680.764209,
+    "geom:bbox":"7.29996318772,49.7703047117,7.3291355242,49.783309314",
+    "geom:latitude":49.777069,
+    "geom:longitude":7.315831,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":163,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u4e0a\u97e6\u96f7\u65af\u5df4"
+    ],
+    "name:deu_x_preferred":[
+        "Oberw\u00f6rresbach"
     ],
     "name:dut_x_preferred":[
         "Oberw\u00f6rresbach"
@@ -85,20 +88,38 @@
     "name:war_x_preferred":[
         "Oberw\u00f6rresbach"
     ],
+    "nav:latitude":49.78333,
+    "nav:longitude":7.31667,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2858476,
     "qs_pg:gn_pop":163,
     "qs_pg:name":"Oberw\u00f6rresbach",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":2,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":2,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":577505,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12628150,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         102191581,
         85633111,
@@ -113,7 +134,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497300390,
-    "wof:geomhash":"f125c122a0af12a85483573d32d5540a",
+    "wof:geomhash":"1e45daf9df1a2de49305c4ba809d9b15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -124,7 +145,7 @@
         }
     ],
     "wof:id":1126013093,
-    "wof:lastmodified":1513952365,
+    "wof:lastmodified":1558134490,
     "wof:name":"Oberw\u00f6rresbach",
     "wof:parent_id":102063535,
     "wof:placetype":"locality",
@@ -132,14 +153,17 @@
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125359057,
+        1125291827
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.31667,
-    49.78333,
-    7.31667,
-    49.78333
+    7.299963187716816,
+    49.77030471170378,
+    7.329135524197697,
+    49.78330931398023
 ],
-  "geometry": {"coordinates":[7.31667,49.78333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.30063068242958,49.77080726513501],[7.30043437720715,49.77166767017029],[7.29996318771682,49.77330952130893],[7.30073714708164,49.77356707478213],[7.30337368742822,49.77482272470318],[7.30433470182535,49.77528037546706],[7.30655657044794,49.77532491838442],[7.31012784722681,49.77639792349952],[7.31241942626751,49.77810124999537],[7.31103276051001,49.7790798683189],[7.31587163570142,49.78220543955802],[7.31775653139839,49.78284498378289],[7.32023428803627,49.78330931398023],[7.32331764869359,49.78295441418341],[7.32679645905739,49.78167396509057],[7.3291355241977,49.77892077035945],[7.3279870746943,49.777857078682],[7.32722009976513,49.77714667619569],[7.32476098749644,49.77633106878421],[7.32219525688995,49.77627098611495],[7.32091641404842,49.77605991729201],[7.32126217353485,49.77458518369621],[7.31905588558137,49.77410011641423],[7.31699323934402,49.77354699403829],[7.31284396776483,49.77267898720044],[7.3114648152521,49.77262076711895],[7.30993422444956,49.77168202653463],[7.30804225848287,49.77030471170378],[7.30732079734983,49.7711996028391],[7.30659018009966,49.77223053789847],[7.30063068242958,49.77080726513501]]]],"type":"MultiPolygon"}
 }

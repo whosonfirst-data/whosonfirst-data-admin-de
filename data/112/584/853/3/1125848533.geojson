@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"8.18722,49.52111,8.18722,49.52111",
-    "geom:latitude":49.52111,
-    "geom:longitude":8.18722,
+    "geom:area":0.000412,
+    "geom:area_square_m":3309172.473219,
+    "geom:bbox":"8.04610517898,49.4703461211,8.20145443668,49.5290754244",
+    "geom:latitude":49.510957,
+    "geom:longitude":8.156063,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":411,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u8fbe\u80af\u6d77\u59c6"
+    ],
+    "name:deu_x_preferred":[
+        "Dackenheim"
     ],
     "name:dut_x_preferred":[
         "Dackenheim"
@@ -94,20 +97,38 @@
     "name:war_x_preferred":[
         "Dackenheim"
     ],
+    "nav:latitude":49.52111,
+    "nav:longitude":8.18722,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2939508,
     "qs_pg:gn_pop":411,
     "qs_pg:name":"Dackenheim",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":1,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":579488,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12627219,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         102191581,
         85633111,
@@ -122,7 +143,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497293275,
-    "wof:geomhash":"0246f7ab87baf6a34bfdc7c2073486f9",
+    "wof:geomhash":"8b5c5d048775d4fdadc6479b22d55ecf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -133,7 +154,7 @@
         }
     ],
     "wof:id":1125848533,
-    "wof:lastmodified":1513947629,
+    "wof:lastmodified":1558134618,
     "wof:name":"Dackenheim",
     "wof:parent_id":102063485,
     "wof:placetype":"locality",
@@ -141,14 +162,17 @@
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125340873,
+        1125403521
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.18722,
-    49.52111,
-    8.18722,
-    49.52111
+    8.046105178978848,
+    49.470346121110154,
+    8.201454436679,
+    49.52907542442527
 ],
-  "geometry": {"coordinates":[8.18722,49.52111],"type":"Point"}
+  "geometry": {"coordinates":[[[[8.1979531425674,49.52907542442527],[8.19961073417941,49.52422198014853],[8.20011947670786,49.52157162093418],[8.201454436679,49.51951632113939],[8.19903170756517,49.51885376202608],[8.19662972257268,49.5182402110698],[8.19327586081969,49.51731070296567],[8.19123051132607,49.5165175889807],[8.17984426918948,49.5146961419969],[8.17529088681519,49.51396738135993],[8.17089228181927,49.52396627571829],[8.16980130460761,49.52365575027068],[8.16912479955475,49.52505486896425],[8.16868897874843,49.52605393063286],[8.17524528399984,49.5271431528618],[8.1815098316848,49.52683992490216],[8.18636254481313,49.52713746534064],[8.1979531425674,49.52907542442527]]],[[[8.067827296225,49.47531286166735],[8.06655249575544,49.47294516499809],[8.06293577713209,49.47263305792313],[8.05844292970625,49.47149445861321],[8.05596798427562,49.47186207725421],[8.0521779701947,49.47140078979422],[8.05016354165409,49.47034612111015],[8.04610517897885,49.47062099161537],[8.04693505287772,49.47383434633322],[8.05016727774434,49.47491268915648],[8.05199949164406,49.47489305515506],[8.05312323233637,49.47599394489848],[8.05281424894995,49.47744537824222],[8.05736990405619,49.47732619424096],[8.06174557421317,49.47645205338003],[8.06809407335233,49.47658772315143],[8.067827296225,49.47531286166735]]]],"type":"MultiPolygon"}
 }

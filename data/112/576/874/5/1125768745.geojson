@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.73333,50.63333,7.73333,50.63333",
-    "geom:latitude":50.63333,
-    "geom:longitude":7.73333,
+    "geom:area":0.000291,
+    "geom:area_square_m":2284611.748659,
+    "geom:bbox":"7.70870838431,50.6175893677,7.7315360039,50.6381288445",
+    "geom:latitude":50.628284,
+    "geom:longitude":7.722478,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":144,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u97e6\u5c14\u80af\u5df4\u8d6b"
+    ],
+    "name:deu_x_preferred":[
+        "Welkenbach"
     ],
     "name:dut_x_preferred":[
         "Welkenbach"
@@ -91,6 +94,8 @@
     "name:war_x_preferred":[
         "Welkenbach"
     ],
+    "nav:latitude":50.63333,
+    "nav:longitude":7.73333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -102,7 +107,10 @@
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":576483,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
@@ -119,7 +127,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497289989,
-    "wof:geomhash":"b7993e999e4b18e57c63cf46616d3764",
+    "wof:geomhash":"b859610950f0ecbc5c3dc0ffd862a13e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -130,7 +138,7 @@
         }
     ],
     "wof:id":1125768745,
-    "wof:lastmodified":1513955146,
+    "wof:lastmodified":1558134545,
     "wof:name":"Welkenbach",
     "wof:parent_id":102063657,
     "wof:placetype":"locality",
@@ -138,14 +146,16 @@
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125359801
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.73333,
-    50.63333,
-    7.73333,
-    50.63333
+    7.708708384311403,
+    50.617589367729565,
+    7.731536003897173,
+    50.63812884451427
 ],
-  "geometry": {"coordinates":[7.73333,50.63333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.73110479726053,50.61847893133884],[7.72930350693458,50.61758936772956],[7.72053422035315,50.62202478162648],[7.7087083843114,50.62191073951139],[7.71110130106454,50.62331914079736],[7.71164103596652,50.6258983279621],[7.71372637400172,50.63152214801828],[7.71634388812738,50.63582613925204],[7.71744925912235,50.63632441406025],[7.71975169764933,50.63653479924537],[7.72328407951418,50.63698648282809],[7.72567660777948,50.6372970666894],[7.72785935209312,50.63812884451427],[7.73153600389717,50.63653323380558],[7.73150438287149,50.6351548679956],[7.73045082777448,50.63310372768726],[7.73089788833373,50.62310703672245],[7.73110479726053,50.61847893133884]]]],"type":"MultiPolygon"}
 }

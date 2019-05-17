@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"11.26667,53.33333,11.26667,53.33333",
-    "geom:latitude":53.33333,
-    "geom:longitude":11.26667,
+    "geom:area":0.001391,
+    "geom:area_square_m":10270620.752341,
+    "geom:bbox":"11.2279130457,53.3138098208,11.2831007853,53.353996192",
+    "geom:latitude":53.331785,
+    "geom:longitude":11.25079,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":212,
@@ -21,6 +21,9 @@
     "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:chi_x_preferred":[
         "\u5927\u514b\u62c9\u59c6\u65af"
+    ],
+    "name:deu_x_preferred":[
+        "Gro\u00df Krams"
     ],
     "name:dut_x_preferred":[
         "Gro\u00df Krams"
@@ -85,6 +88,8 @@
     "name:war_x_preferred":[
         "Gro\u00df Krams"
     ],
+    "nav:latitude":53.33333,
+    "nav:longitude":11.26667,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -96,7 +101,10 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":578880,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
@@ -113,7 +121,7 @@
     },
     "wof:country":"DE",
     "wof:created":1497292380,
-    "wof:geomhash":"a229daecedeb05311647e96b3bfefdf4",
+    "wof:geomhash":"5aa97936b77bf22eab02dd495b1f04e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -124,7 +132,7 @@
         }
     ],
     "wof:id":1125828391,
-    "wof:lastmodified":1513949053,
+    "wof:lastmodified":1558135166,
     "wof:name":"Gro\u00df Krams",
     "wof:parent_id":102064029,
     "wof:placetype":"locality",
@@ -132,14 +140,16 @@
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125298511
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    11.26667,
-    53.33333,
-    11.26667,
-    53.33333
+    11.227913045677367,
+    53.31380982083212,
+    11.283100785254936,
+    53.35399619195181
 ],
-  "geometry": {"coordinates":[11.26667,53.33333],"type":"Point"}
+  "geometry": {"coordinates":[[[[11.23139871030921,53.31485353006138],[11.23194178014172,53.32025713118272],[11.23226182668699,53.32406974604962],[11.23260350281764,53.32813926547071],[11.22791304567737,53.33467354004022],[11.22918280973975,53.33602443807924],[11.22867250717418,53.33875978760772],[11.22857084508877,53.34078266388644],[11.2336864425388,53.34766387985341],[11.2347121557064,53.35152251134024],[11.23886953682365,53.35399619195181],[11.24660453250148,53.35037229481998],[11.25346665094515,53.34759810622161],[11.27889801808304,53.33670794289841],[11.28310078525494,53.33407470764004],[11.27458996800249,53.32912235532867],[11.26722585027855,53.32180737570646],[11.26695879995966,53.31509494133079],[11.26711025847382,53.31431202892573],[11.26547699102513,53.3144660325632],[11.25679067896155,53.31380982083212],[11.25249947491821,53.31388113731564],[11.25042943844013,53.31394773579323],[11.24549336697721,53.31404971137453],[11.23208755154072,53.31475954395862],[11.23139871030921,53.31485353006138]]]],"type":"MultiPolygon"}
 }
