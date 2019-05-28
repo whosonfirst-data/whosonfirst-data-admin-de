@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.53333,50.6,7.53333,50.6",
-    "geom:latitude":50.6,
-    "geom:longitude":7.53333,
+    "geom:area":0.000254,
+    "geom:area_square_m":1993571.383518,
+    "geom:bbox":"7.53480748151,50.5889841589,7.55890849866,50.6064157395",
+    "geom:latitude":50.597167,
+    "geom:longitude":7.545823,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":785,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u666e\u83b1\u514b\u8c6a\u68ee"
+    ],
+    "name:deu_x_preferred":[
+        "Pleckhausen"
     ],
     "name:dut_x_preferred":[
         "Pleckhausen"
@@ -85,24 +88,43 @@
     "name:war_x_preferred":[
         "Pleckhausen"
     ],
+    "nav:latitude":50.6,
+    "nav:longitude":7.53333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2853271,
     "qs_pg:gn_pop":785,
     "qs_pg:name":"Pleckhausen",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":1,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":577385,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12627933,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685317,
+        85633111,
         102063679
     ],
     "wof:breaches":[],
@@ -113,33 +135,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497292355,
-    "wof:geomhash":"3cc01cb6009a22a048ec3c2b06112224",
+    "wof:geomhash":"0457f21864b6ab8590792b637e698ea5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063679,
+            "localadmin_id":1377685317,
             "locality_id":1125827743,
             "region_id":85682491
         }
     ],
     "wof:id":1125827743,
-    "wof:lastmodified":1513952730,
+    "wof:lastmodified":1558996145,
     "wof:name":"Pleckhausen",
-    "wof:parent_id":102063679,
+    "wof:parent_id":1377685317,
     "wof:placetype":"locality",
     "wof:population":785,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125417187,
+        1125293945
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.53333,
-    50.6,
-    7.53333,
-    50.6
+    7.53480748151424,
+    50.58898415892978,
+    7.55890849866215,
+    50.6064157394738
 ],
-  "geometry": {"coordinates":[7.53333,50.6],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.55890849866215,50.59878870486598],[7.55851074422699,50.59836435195921],[7.55745988994471,50.5973020238198],[7.55613111767085,50.59616056064464],[7.5548142971064,50.59483028427169],[7.55376020869249,50.59382186476706],[7.5524659891821,50.59325754540205],[7.55103396635241,50.5926356618636],[7.54997150483208,50.59176206318193],[7.54933225731045,50.59068315519715],[7.54891106048407,50.58973588508446],[7.5476854162095,50.58898415892978],[7.5402709210249,50.58946966584648],[7.53922772965141,50.59030738510501],[7.53840715872045,50.59097971409686],[7.5371779104742,50.59207378564751],[7.53589525352124,50.59301422747367],[7.53480748151424,50.59510161294835],[7.53708719442351,50.59953652286038],[7.53857760278919,50.60102454619117],[7.53870860710315,50.6036483307652],[7.54215811017406,50.60436708028139],[7.54459067363875,50.60640142790657],[7.54515850634343,50.6064157394738],[7.54603794577014,50.60553287233888],[7.54697875496738,50.6046615470018],[7.54822444258418,50.60375689053983],[7.54936041966562,50.60302051061507],[7.54989954948914,50.60277314489351],[7.55279779549639,50.60258601175127],[7.55363195565023,50.60169781156545],[7.55645613217801,50.60111248716718],[7.55622789163025,50.60069244744299],[7.55773880411766,50.60073996138347],[7.55847449528201,50.60051557544101],[7.55888246547302,50.6001027421047],[7.55884914821756,50.5995075768602],[7.55890849866215,50.59878870486598]]]],"type":"MultiPolygon"}
 }

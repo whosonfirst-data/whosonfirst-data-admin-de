@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.53333,50.68333,7.53333,50.68333",
-    "geom:latitude":50.68333,
-    "geom:longitude":7.53333,
+    "geom:area":0.000085,
+    "geom:area_square_m":665867.475051,
+    "geom:bbox":"7.52236520661,50.6732064976,7.53925878211,50.6836038799",
+    "geom:latitude":50.677935,
+    "geom:longitude":7.52993,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":135,
@@ -50,6 +50,9 @@
         "Ziegenhain"
     ],
     "name:dan_x_preferred":[
+        "Ziegenhain"
+    ],
+    "name:deu_x_preferred":[
         "Ziegenhain"
     ],
     "name:dut_x_preferred":[
@@ -241,6 +244,8 @@
     "name:zul_x_preferred":[
         "Ziegenhain"
     ],
+    "nav:latitude":50.68333,
+    "nav:longitude":7.53333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -252,13 +257,17 @@
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":576286,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685317,
+        85633111,
         102063679
     ],
     "wof:breaches":[],
@@ -269,33 +278,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497289885,
-    "wof:geomhash":"f9acfa40baba1b7091526fd6afba1f9c",
+    "wof:geomhash":"989fd4a4dbdc1469a506a4074d2c7a93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063679,
+            "localadmin_id":1377685317,
             "locality_id":1125765717,
             "region_id":85682491
         }
     ],
     "wof:id":1125765717,
-    "wof:lastmodified":1513955617,
+    "wof:lastmodified":1559009562,
     "wof:name":"Ziegenhain",
-    "wof:parent_id":102063679,
+    "wof:parent_id":1377685317,
     "wof:placetype":"locality",
     "wof:population":135,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125334533
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.53333,
-    50.68333,
-    7.53333,
-    50.68333
+    7.52236520661436,
+    50.6732064975877,
+    7.53925878211086,
+    50.68360387987053
 ],
-  "geometry": {"coordinates":[7.53333,50.68333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.53848435733139,50.67467320371247],[7.53767598154623,50.67512976022101],[7.53577178670937,50.67476579887671],[7.5349089501254,50.67541004404118],[7.53293986865844,50.67472920003386],[7.53006206725985,50.67563687165921],[7.52821122646949,50.67510306108111],[7.52886036504919,50.67425526509741],[7.5258945396028,50.6732064975877],[7.52326741859895,50.6755162178491],[7.52236520661436,50.67633045528889],[7.5246182617973,50.67855863568717],[7.52364354796925,50.67939803374847],[7.53257491399054,50.68360387987053],[7.53343677807012,50.68353087197378],[7.5330055515612,50.68239407188132],[7.53398802781612,50.68165385083783],[7.53332893894685,50.68109665336381],[7.53405827148345,50.68054804757674],[7.53438923484863,50.67980012108136],[7.53499188211153,50.67901413428607],[7.53597470883023,50.67849002566783],[7.53484097307206,50.67759649463714],[7.53925878211086,50.6754224279893],[7.53848435733139,50.67467320371247]]]],"type":"MultiPolygon"}
 }

@@ -4,11 +4,12 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000031,
-    "geom:area_square_m":259261.060315,
-    "geom:bbox":"7.80597973937,47.9290446046,7.81686896874,47.9344943996",
-    "geom:latitude":47.932091,
-    "geom:longitude":7.810608,
+    "geom:area":0.000458,
+    "geom:area_square_m":3792170.584273,
+    "geom:bbox":"7.79181230787,47.9220367001,7.83013145771,47.942492519",
+    "geom:latitude":47.931036,
+    "geom:longitude":7.810469,
+    "gn:gn_country":null,
     "gn:population":1191,
     "iso:country":"DE",
     "lbl:latitude":47.932502,
@@ -48,6 +49,9 @@
         "S\u00f6lden"
     ],
     "name:dan_x_preferred":[
+        "S\u00f6lden"
+    ],
+    "name:deu_x_preferred":[
         "S\u00f6lden"
     ],
     "name:dut_x_preferred":[
@@ -242,6 +246,8 @@
     "name:zul_x_preferred":[
         "S\u00f6lden"
     ],
+    "nav:latitude":47.932502,
+    "nav:longitude":7.809618,
     "qs:a0":"Bundesrepublik Deutschland",
     "qs:a1":"*Baden-W\u00fcrttemberg",
     "qs:a1r":"0",
@@ -256,17 +262,40 @@
     "qs:pop":0,
     "qs:source":"UCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
     "qs:type":"rural point-in-poly",
-    "src:geom":"quattroshapes",
+    "qs_pg:aaroncc":"DE",
+    "qs_pg:gn_country":null,
+    "qs_pg:name":"Gemeinde S\u00f6lden",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Baden-W\u00fcrttemberg",
+    "qs_pg:photos":140,
+    "qs_pg:photos_1k":28,
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":3,
+    "qs_pg:photos_all":140,
+    "qs_pg:photos_sr":3,
+    "qs_pg:pop_sr":0,
+    "qs_pg:qs_id":894266,
+    "qs_pg:qs_pg_placetype":"localadmin",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12623350,
+    "src:geom":"de-bkg",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl:centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":315,
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Baden-W\u00fcrttemberg",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         85682567,
         102191581,
         85633111,
+        1377689197,
         404227543,
         102063241
     ],
@@ -279,34 +308,37 @@
         "wd:id":"Q705735"
     },
     "wof:country":"DE",
-    "wof:geomhash":"598611cccbf9a3df65a945c6a31a3eca",
+    "wof:geomhash":"c15b0b45bf114bc71b8af8a1c498337e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063241,
+            "localadmin_id":1377689197,
             "locality_id":101764023,
             "macrocounty_id":404227543,
             "region_id":85682567
         }
     ],
     "wof:id":101764023,
-    "wof:lastmodified":1553815482,
+    "wof:lastmodified":1558995604,
     "wof:name":"S\u00f6lden",
-    "wof:parent_id":102063241,
+    "wof:parent_id":1377689197,
     "wof:placetype":"locality",
     "wof:population":1191,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125398851
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.80597973936801,
-    47.9290446045506,
-    7.81686896874118,
-    47.93449439958914
+    7.7918123078682,
+    47.92203670007488,
+    7.83013145770729,
+    47.94249251897563
 ],
-  "geometry": {"coordinates":[[[7.81132823186493,47.93449439958914],[7.81140531475057,47.93269557106123],[7.81541655639785,47.93277541258783],[7.81545502471869,47.93187599610769],[7.8167920842946,47.93190257687195],[7.81686896874118,47.9301037416422],[7.81553195618073,47.9300771619578],[7.81549349131285,47.9309765792309],[7.81148239071808,47.9308967409479],[7.81152092610768,47.9299973252966],[7.81018391862199,47.92997068054018],[7.81022247578835,47.92907126503331],[7.80888549307872,47.9290446045506],[7.80880833000299,47.93084343408447],[7.80747130155203,47.93081675625029],[7.80743269390905,47.93171616988042],[7.8060956432227,47.93168947523606],[7.80597973936801,47.93438771212084],[7.81132823186493,47.93449439958914]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[[7.7918123078682,47.93246452559356],[7.7934442912525,47.93541004360477],[7.79511752456361,47.93540646701317],[7.79348666435959,47.93634648735951],[7.79466545603553,47.9395056306061],[7.80380522236499,47.94249251897563],[7.80524283490386,47.94215018914075],[7.80611534966813,47.93891579451216],[7.81514558456984,47.93703320767636],[7.82185903127274,47.93368112363299],[7.82613323585045,47.93285032663911],[7.82522783807418,47.93128121634447],[7.82652454360589,47.92957708164339],[7.82914961064679,47.92879579065537],[7.83013145770729,47.92721884026438],[7.82859177646274,47.92203670007488],[7.821162027105,47.92234959539933],[7.81823403185563,47.92403164901212],[7.8111565759768,47.92253572225353],[7.8077632092895,47.92292890723854],[7.80102025496564,47.92560480137495],[7.7972173743287,47.93005289768014],[7.7918123078682,47.93246452559356]]]],"type":"MultiPolygon"}
 }

@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"8.14333,49.7075,8.14333,49.7075",
-    "geom:latitude":49.7075,
-    "geom:longitude":8.14333,
+    "geom:area":0.000243,
+    "geom:area_square_m":1942820.674013,
+    "geom:bbox":"8.13180391864,49.7015815482,8.15579044379,49.7212888834",
+    "geom:latitude":49.710597,
+    "geom:longitude":8.145276,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":152,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u4e01\u7279\u65af\u6d77\u59c6"
+    ],
+    "name:deu_x_preferred":[
+        "Dintesheim"
     ],
     "name:dut_x_preferred":[
         "Dintesheim"
@@ -94,24 +97,43 @@
     "name:war_x_preferred":[
         "Dintesheim"
     ],
+    "nav:latitude":49.7075,
+    "nav:longitude":8.14333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2936866,
     "qs_pg:gn_pop":152,
     "qs_pg:name":"Dintesheim",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":1,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":579393,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12627155,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377686179,
+        85633111,
         102063529
     ],
     "wof:breaches":[],
@@ -122,33 +144,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497292121,
-    "wof:geomhash":"5a9598817781785fbbbcc4354dbe6916",
+    "wof:geomhash":"927ff3f97df288b4d4b3f388db87524c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063529,
+            "localadmin_id":1377686179,
             "locality_id":1125822237,
             "region_id":85682491
         }
     ],
     "wof:id":1125822237,
-    "wof:lastmodified":1513947808,
+    "wof:lastmodified":1558995926,
     "wof:name":"Dintesheim",
-    "wof:parent_id":102063529,
+    "wof:parent_id":1377686179,
     "wof:placetype":"locality",
     "wof:population":152,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125361047,
+        1125337433
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.14333,
-    49.7075,
-    8.14333,
-    49.7075
+    8.13180391864373,
+    49.70158154817616,
+    8.15579044379475,
+    49.72128888344036
 ],
-  "geometry": {"coordinates":[8.14333,49.7075],"type":"Point"}
+  "geometry": {"coordinates":[[[[8.14134750671047,49.71690814663286],[8.14308037902585,49.71779929508848],[8.14377131355157,49.71702155803947],[8.14778309285916,49.71899510424453],[8.15248748053617,49.72128888344036],[8.15579044379475,49.71623560613894],[8.15496466644433,49.71383324031171],[8.15344359774287,49.71004831303412],[8.15025832786597,49.70680494367077],[8.15270233859953,49.70537040895066],[8.1443609898265,49.70340612865288],[8.13713748381815,49.70158154817616],[8.13295552466614,49.70586883309181],[8.13180391864373,49.70697892145017],[8.13761661319189,49.70983656993393],[8.13886873859869,49.710618754887],[8.13737900953202,49.71182987092126],[8.14033642600441,49.71293560549395],[8.1430400048847,49.71440502906626],[8.14134750671047,49.71690814663286]]]],"type":"MultiPolygon"}
 }

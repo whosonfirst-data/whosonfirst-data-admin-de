@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.51667,50.7,7.51667,50.7",
-    "geom:latitude":50.7,
-    "geom:longitude":7.51667,
+    "geom:area":0.000181,
+    "geom:area_square_m":1415081.937182,
+    "geom:bbox":"7.50410254181,50.6880897386,7.52510802776,50.7037359945",
+    "geom:latitude":50.695478,
+    "geom:longitude":7.514993,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":55,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u57c3\u5c14\u65af\u8d39\u5c14\u5fb7"
+    ],
+    "name:deu_x_preferred":[
+        "Ersfeld"
     ],
     "name:dut_x_preferred":[
         "Ersfeld"
@@ -103,24 +106,43 @@
     "name:zho_x_preferred":[
         "\u57c3\u5c14\u65af\u8d39\u5c14\u5fb7"
     ],
+    "nav:latitude":50.7,
+    "nav:longitude":7.51667,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2929269,
     "qs_pg:gn_pop":55,
     "qs_pg:name":"Ersfeld",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":1,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":579213,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12627869,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685301,
+        85633111,
         102063679
     ],
     "wof:breaches":[],
@@ -131,33 +153,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497292389,
-    "wof:geomhash":"b98e188ea6139dc07a584cc8854405f4",
+    "wof:geomhash":"fd0b8dc62f8968bd2dd7b5190c514214",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063679,
+            "localadmin_id":1377685301,
             "locality_id":1125828599,
             "region_id":85682491
         }
     ],
     "wof:id":1125828599,
-    "wof:lastmodified":1513948328,
+    "wof:lastmodified":1559009618,
     "wof:name":"Ersfeld",
-    "wof:parent_id":102063679,
+    "wof:parent_id":1377685301,
     "wof:placetype":"locality",
     "wof:population":55,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125339773,
+        1125337625
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.51667,
-    50.7,
-    7.51667,
-    50.7
+    7.50410254180758,
+    50.6880897385955,
+    7.52510802775617,
+    50.70373599449145
 ],
-  "geometry": {"coordinates":[7.51667,50.7],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.52157179892144,50.68988052399751],[7.52030218807769,50.6889831976089],[7.5177736466067,50.6880897385955],[7.5169018113312,50.68866683820622],[7.51330877512535,50.69096421729948],[7.50834788890134,50.69151472104738],[7.50528116274865,50.69067294950949],[7.50459992669907,50.6914774750792],[7.50608961251992,50.69278574734749],[7.50492126705744,50.69309769968017],[7.50549074533349,50.69460727954201],[7.50410254180758,50.69878571019836],[7.51377245867872,50.69944990326996],[7.5171660268867,50.70114932640914],[7.519000098846,50.70373599449145],[7.52037560886023,50.70373539921946],[7.52028724802295,50.70112168041059],[7.5234952601223,50.70017767667375],[7.52270631205326,50.69898673429476],[7.52510802775617,50.69778781253738],[7.52499684747573,50.69730769135233],[7.52438394759748,50.69691372290335],[7.52389977259679,50.69627992802969],[7.5233034850948,50.69495886919635],[7.52317738814253,50.69404612346099],[7.52265267255299,50.69249277226962],[7.52074195762483,50.69177721699594],[7.51964950166708,50.69090261118152],[7.52087499922477,50.69035125129206],[7.52157179892144,50.68988052399751]]]],"type":"MultiPolygon"}
 }

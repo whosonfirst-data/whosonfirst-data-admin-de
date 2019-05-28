@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"8.98333,53.95,8.98333,53.95",
-    "geom:latitude":53.95,
-    "geom:longitude":8.98333,
+    "geom:area":0.000178,
+    "geom:area_square_m":1298399.418726,
+    "geom:bbox":"8.98130622606,53.9422583901,9.00110902096,53.9578806912",
+    "geom:latitude":53.949431,
+    "geom:longitude":8.988552,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":348,
@@ -26,6 +26,9 @@
         "\u9a6c\u5c14\u5185\u5c14\u4ee3\u5e0c"
     ],
     "name:dan_x_preferred":[
+        "Marnerdeich"
+    ],
+    "name:deu_x_preferred":[
         "Marnerdeich"
     ],
     "name:dut_x_preferred":[
@@ -97,6 +100,8 @@
     "name:war_x_preferred":[
         "Marnerdeich"
     ],
+    "nav:latitude":53.95,
+    "nav:longitude":8.98333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -108,13 +113,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":577882,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682517,
+        102191581,
+        1377683403,
+        85633111,
         102064119
     ],
     "wof:breaches":[],
@@ -125,33 +134,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497301204,
-    "wof:geomhash":"6f398333f7a02302898bb62f59734df3",
+    "wof:geomhash":"dd786c580345b80fb00c03854e1fb298",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102064119,
+            "localadmin_id":1377683403,
             "locality_id":1126026989,
             "region_id":85682517
         }
     ],
     "wof:id":1126026989,
-    "wof:lastmodified":1513951288,
+    "wof:lastmodified":1558995843,
     "wof:name":"Marnerdeich",
-    "wof:parent_id":102064119,
+    "wof:parent_id":1377683403,
     "wof:placetype":"locality",
     "wof:population":348,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125330107
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.98333,
-    53.95,
-    8.98333,
-    53.95
+    8.98130622605782,
+    53.94225839010968,
+    9.00110902095997,
+    53.95788069122739
 ],
-  "geometry": {"coordinates":[8.98333,53.95],"type":"Point"}
+  "geometry": {"coordinates":[[[[8.98858480365189,53.95788069122739],[8.98944347048794,53.95509703003135],[8.99652646481969,53.95598224949502],[8.99554429260122,53.95487433461606],[8.99323558263,53.95424451054146],[8.99181230246145,53.95312224558127],[8.99226148925713,53.95203161060812],[8.99284792085354,53.95137387360876],[8.99398455367576,53.95110011867531],[8.99449638182942,53.95039655135363],[8.99428583867276,53.94944168352794],[8.99543207028912,53.94888952137005],[8.99643502987718,53.94851530439379],[8.9978223391226,53.94715744992794],[8.99890229493138,53.94631696211458],[9.00110902095997,53.94548103763169],[8.99405571131908,53.94378782584419],[8.99338617579548,53.94421097711643],[8.98498709536832,53.94225839010968],[8.98255922699988,53.94418742336902],[8.98130622605782,53.94735258945012],[8.98138321318,53.953417877079],[8.98152912811595,53.95447080472421],[8.98212569297215,53.95614014272024],[8.98652687753516,53.95704715060265],[8.98858480365189,53.95788069122739]]]],"type":"MultiPolygon"}
 }

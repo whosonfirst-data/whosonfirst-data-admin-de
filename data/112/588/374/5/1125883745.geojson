@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.58333,50.23333,7.58333,50.23333",
-    "geom:latitude":50.23333,
-    "geom:longitude":7.58333,
+    "geom:area":0.00021,
+    "geom:area_square_m":1658974.684908,
+    "geom:bbox":"7.57843496079,50.2339993274,7.60861734337,50.2488125693",
+    "geom:latitude":50.240948,
+    "geom:longitude":7.590011,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":602,
@@ -20,6 +20,9 @@
     "mz:is_current":1,
     "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:baq_x_preferred":[
+        "Filsen"
+    ],
+    "name:deu_x_preferred":[
         "Filsen"
     ],
     "name:dut_x_preferred":[
@@ -91,24 +94,43 @@
     "name:war_x_preferred":[
         "Filsen"
     ],
+    "nav:latitude":50.23333,
+    "nav:longitude":7.58333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2926861,
     "qs_pg:gn_pop":602,
     "qs_pg:name":"Filsen",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":123,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":374306,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12628645,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685659,
+        85633111,
         102063601
     ],
     "wof:breaches":[],
@@ -119,33 +141,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497294966,
-    "wof:geomhash":"dfa82a0d6df48e062ea689f9f4b0a005",
+    "wof:geomhash":"297a85923d58a64a481b1d4496f3860c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063601,
+            "localadmin_id":1377685659,
             "locality_id":1125883745,
             "region_id":85682491
         }
     ],
     "wof:id":1125883745,
-    "wof:lastmodified":1513948463,
+    "wof:lastmodified":1558996046,
     "wof:name":"Filsen",
-    "wof:parent_id":102063601,
+    "wof:parent_id":1377685659,
     "wof:placetype":"locality",
     "wof:population":602,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125414937,
+        1125324575
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.58333,
-    50.23333,
-    7.58333,
-    50.23333
+    7.57843496078691,
+    50.23399932736736,
+    7.60861734336781,
+    50.24881256932053
 ],
-  "geometry": {"coordinates":[7.58333,50.23333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.58997916766356,50.23399932736736],[7.5871098714704,50.23426948725457],[7.5844969652076,50.23471763575917],[7.58272312507782,50.23533230153001],[7.58109058256645,50.23626276069104],[7.5799802455869,50.23739710289038],[7.57907872965936,50.23851770015686],[7.57864111458376,50.23934516541404],[7.57843496078691,50.24027382931799],[7.57843532482518,50.24122681750278],[7.57879310381886,50.24234079918885],[7.5798664234534,50.24382688465217],[7.58120274436856,50.24514857168563],[7.58239260724507,50.24611533763456],[7.58403784160113,50.24698562318405],[7.5855496042103,50.24774443582665],[7.58706919573077,50.24837736367077],[7.58824997309582,50.24881256932053],[7.59273847058837,50.24343380058849],[7.59931737427918,50.2435374809392],[7.59950478459466,50.2430019597539],[7.60191883934782,50.24286524829143],[7.60280184625242,50.24281522957845],[7.60306573641704,50.24194847467326],[7.60503104303521,50.2418345582859],[7.60641933751369,50.24175406762286],[7.60661681583238,50.24013826644745],[7.60645787106867,50.23929684625927],[7.60861734336781,50.23728035227936],[7.6023186304582,50.23857094648312],[7.59835367386034,50.2385640769222],[7.59506091213235,50.23855826725012],[7.59346421594419,50.23849444625973],[7.59013110938179,50.23836114803689],[7.59020309072906,50.23514838742128],[7.58997916766356,50.23399932736736]]]],"type":"MultiPolygon"}
 }

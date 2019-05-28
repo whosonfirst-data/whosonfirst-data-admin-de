@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"8.09833,49.58722,8.09833,49.58722",
-    "geom:latitude":49.58722,
-    "geom:longitude":8.09833,
+    "geom:area":0.000462,
+    "geom:area_square_m":3704952.273761,
+    "geom:bbox":"8.07737194378,49.5759024527,8.1149685055,49.5948084736",
+    "geom:latitude":49.586265,
+    "geom:longitude":8.095922,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":615,
@@ -50,6 +50,9 @@
         "Lautersheim"
     ],
     "name:dan_x_preferred":[
+        "Lautersheim"
+    ],
+    "name:deu_x_preferred":[
         "Lautersheim"
     ],
     "name:dut_x_preferred":[
@@ -241,6 +244,8 @@
     "name:zul_x_preferred":[
         "Lautersheim"
     ],
+    "nav:latitude":49.58722,
+    "nav:longitude":8.09833,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -252,13 +257,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":578061,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377686327,
+        85633111,
         102063511
     ],
     "wof:breaches":[],
@@ -269,33 +278,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497292102,
-    "wof:geomhash":"b80804019d030989d7e2d0212a5f9c7e",
+    "wof:geomhash":"435ab8d3e21c580f57bfb38877b53bfe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063511,
+            "localadmin_id":1377686327,
             "locality_id":1125821791,
             "region_id":85682491
         }
     ],
     "wof:id":1125821791,
-    "wof:lastmodified":1513950831,
+    "wof:lastmodified":1559009587,
     "wof:name":"Lautersheim",
-    "wof:parent_id":102063511,
+    "wof:parent_id":1377686327,
     "wof:placetype":"locality",
     "wof:population":615,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125387429
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.09833,
-    49.58722,
-    8.09833,
-    49.58722
+    8.07737194377959,
+    49.57590245270476,
+    8.11496850550076,
+    49.59480847363354
 ],
-  "geometry": {"coordinates":[8.09833,49.58722],"type":"Point"}
+  "geometry": {"coordinates":[[[[8.08318762411027,49.59246552014496],[8.0892977889048,49.59458518223871],[8.08970664025591,49.59389181747251],[8.09852260381405,49.59480847363354],[8.09916852064555,49.59297698606628],[8.10907252322019,49.59345686696472],[8.11008911103663,49.59195719806742],[8.11175600076107,49.59212743170868],[8.11341563245227,49.58994824527718],[8.11496850550076,49.58463447119289],[8.11197468349104,49.58442725824045],[8.11200533419531,49.58353681523187],[8.10859818773952,49.58301474833262],[8.10332721622171,49.5801848419546],[8.10404837618655,49.57960606753865],[8.1026502474543,49.57905437090548],[8.10394479102611,49.57808271457582],[8.09907387340432,49.57805136940753],[8.08952112631637,49.57643491123408],[8.08650279181268,49.57590245270476],[8.08524748473745,49.58047515553825],[8.08400275716397,49.58017852930902],[8.08368834795901,49.58009980107122],[8.07936561740767,49.58809925798582],[8.07737194377959,49.59000978731543],[8.08318762411027,49.59246552014496]]]],"type":"MultiPolygon"}
 }

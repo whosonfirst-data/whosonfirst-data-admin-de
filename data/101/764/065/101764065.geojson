@@ -4,11 +4,14 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000042,
-    "geom:area_square_m":349004.108772,
-    "geom:bbox":"7.82114265553,47.9528012277,7.83581904087,47.9601813297",
-    "geom:latitude":47.956893,
-    "geom:longitude":7.830011,
+    "geom:area":0.000479,
+    "geom:area_square_m":3967499.89536,
+    "geom:bbox":"7.80913212439,47.9439810641,7.85558415925,47.9622739281",
+    "geom:latitude":47.953974,
+    "geom:longitude":7.833598,
+    "gn:gn_country":"DE",
+    "gn:gn_fcode":"ADM4",
+    "gn:gn_pop":1464,
     "gn:population":1312,
     "iso:country":"DE",
     "lbl:latitude":47.958291,
@@ -24,6 +27,9 @@
         "Au"
     ],
     "name:dan_x_preferred":[
+        "Au"
+    ],
+    "name:deu_x_preferred":[
         "Au"
     ],
     "name:dut_x_preferred":[
@@ -50,6 +56,9 @@
     "name:hun_x_preferred":[
         "Au"
     ],
+    "name:hye_x_preferred":[
+        "\u0531\u0578\u0582"
+    ],
     "name:ind_x_preferred":[
         "Au"
     ],
@@ -58,6 +67,9 @@
     ],
     "name:jpn_x_preferred":[
         "\u30a2\u30a6"
+    ],
+    "name:kat_x_preferred":[
+        "\u10d0\u10e3"
     ],
     "name:kaz_x_preferred":[
         "\u0410\u0443"
@@ -107,6 +119,8 @@
     "name:war_x_preferred":[
         "Au"
     ],
+    "nav:latitude":47.958291,
+    "nav:longitude":7.831122,
     "qs:a0":"Bundesrepublik Deutschland",
     "qs:a1":"*Baden-W\u00fcrttemberg",
     "qs:a1r":"0",
@@ -121,16 +135,42 @@
     "qs:pop":0,
     "qs:source":"UCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
     "qs:type":"rural point-in-poly",
-    "src:geom":"quattroshapes",
+    "qs_pg:aaroncc":"DE",
+    "qs_pg:gn_country":"DE",
+    "qs_pg:gn_fcode":"ADM4",
+    "qs_pg:gn_id":7602400,
+    "qs_pg:gn_pop":1464,
+    "qs_pg:name":"Au",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Baden-W\u00fcrttemberg",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":16,
+    "qs_pg:photos_sr":0,
+    "qs_pg:pop_sr":3,
+    "qs_pg:qs_id":1041790,
+    "qs_pg:qs_pg_placetype":"localadmin",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12623314,
+    "src:geom":"de-bkg",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl:centroid":"mapshaper",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Baden-W\u00fcrttemberg",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         85682567,
         102191581,
         85633111,
+        1377689197,
         404227543,
         102063241
     ],
@@ -143,34 +183,38 @@
         "wd:id":"Q506881"
     },
     "wof:country":"DE",
-    "wof:geomhash":"57f6a9428a2f47ff75ad44aa9d5c7804",
+    "wof:geomhash":"cf802506260e776c463de886c7de73db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063241,
+            "localadmin_id":1377689197,
             "locality_id":101764065,
             "macrocounty_id":404227543,
             "region_id":85682567
         }
     ],
     "wof:id":101764065,
-    "wof:lastmodified":1553815482,
+    "wof:lastmodified":1558996262,
     "wof:name":"Au",
-    "wof:parent_id":102063241,
+    "wof:parent_id":1377689197,
     "wof:placetype":"locality",
     "wof:population":1312,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125393955,
+        1125347939
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.8211426555257,
-    47.95280122773869,
-    7.83581904086969,
-    47.96018132969687
+    7.80913212439387,
+    47.94398106412937,
+    7.85558415924963,
+    47.96227392810226
 ],
-  "geometry": {"coordinates":[[[7.83046819379069,47.95647817201967],[7.83054465366325,47.95467934630619],[7.8292069921178,47.95465293108384],[7.82928349219503,47.95285410486554],[7.8266082670292,47.95280122773869],[7.82653167281166,47.9546000518074],[7.82118104935904,47.95449409792889],[7.8211426555257,47.95539350721742],[7.82248033302818,47.95542002064161],[7.82244196100794,47.95631943007419],[7.82377966331279,47.95634592775968],[7.82381801179554,47.95544651778846],[7.82783105568211,47.95552591156411],[7.82775449822321,47.95732473433964],[7.82909222912048,47.95735116745118],[7.8289774506635,47.96004940026739],[7.83566647717561,47.96018132969687],[7.83581904086969,47.95658367442559],[7.83046819379069,47.95647817201967]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[[7.85558415924963,47.9502052007791],[7.85296771667331,47.9493144775097],[7.85206927433203,47.95083970746209],[7.8481527564933,47.95047502441891],[7.84721684241798,47.94870749088314],[7.8450940440394,47.94835019833853],[7.84487088320798,47.94627615434685],[7.84193120253224,47.94667245594119],[7.8376588405365,47.94447294897626],[7.83555693183323,47.94398106412937],[7.83361235767525,47.9448671653921],[7.83316723143793,47.94513462720157],[7.83286371424219,47.94550797719744],[7.83189737026117,47.94526788430852],[7.83006714066623,47.94648247666468],[7.82841981888207,47.94798025149132],[7.82571297703065,47.94882740832249],[7.82155867330649,47.95007900764125],[7.81794265284531,47.95231991164886],[7.80946316093392,47.95461210919724],[7.80913212439387,47.95896618448374],[7.83646145369129,47.96021946518803],[7.84587179260952,47.96227392810226],[7.84887074115415,47.96079064204615],[7.84895504163468,47.95672735249338],[7.8532893104408,47.95530329013896],[7.85400797830019,47.95213678207624],[7.85558415924963,47.9502052007791]]]],"type":"MultiPolygon"}
 }

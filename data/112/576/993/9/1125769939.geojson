@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.85,50.4,7.85,50.4",
-    "geom:latitude":50.4,
-    "geom:longitude":7.85,
+    "geom:area":0.000242,
+    "geom:area_square_m":1908671.551753,
+    "geom:bbox":"7.82128283573,50.3955364211,7.85358872427,50.4102873374",
+    "geom:latitude":50.40193,
+    "geom:longitude":7.838558,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":505,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u7fc1\u7279\u5c14\u65af\u8c6a\u68ee"
+    ],
+    "name:deu_x_preferred":[
+        "Untershausen"
     ],
     "name:dut_x_preferred":[
         "Untershausen"
@@ -85,24 +88,43 @@
     "name:war_x_preferred":[
         "Untershausen"
     ],
+    "nav:latitude":50.4,
+    "nav:longitude":7.85,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2818682,
     "qs_pg:gn_pop":505,
     "qs_pg:name":"Untershausen",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":1,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":576642,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12628761,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685789,
+        85633111,
         102063657
     ],
     "wof:breaches":[],
@@ -113,33 +135,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497290025,
-    "wof:geomhash":"5198c408ac624263cb35b85558b312b0",
+    "wof:geomhash":"cfe23cb9cf4fe4d4352639cadadfedd2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063657,
+            "localadmin_id":1377685789,
             "locality_id":1125769939,
             "region_id":85682491
         }
     ],
     "wof:id":1125769939,
-    "wof:lastmodified":1513954740,
+    "wof:lastmodified":1558996099,
     "wof:name":"Untershausen",
-    "wof:parent_id":102063657,
+    "wof:parent_id":1377685789,
     "wof:placetype":"locality",
     "wof:population":505,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125291955,
+        1125422525
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.85,
-    50.4,
-    7.85,
-    50.4
+    7.82128283572688,
+    50.39553642110549,
+    7.85358872426721,
+    50.41028733740305
 ],
-  "geometry": {"coordinates":[7.85,50.4],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.84175372276726,50.39582047794215],[7.84041934889482,50.39724817382417],[7.8380373256749,50.39553642110549],[7.83472700889414,50.39628804966807],[7.83356642576052,50.39656860513253],[7.83228384905387,50.39689764574553],[7.82796128469095,50.39686930255471],[7.82534911903152,50.39945559341117],[7.82419654715539,50.40040115535201],[7.82509200500058,50.40075511829394],[7.82128283572688,50.40357457830257],[7.82216677132171,50.40437846996679],[7.82254455704081,50.407142338208],[7.8317645836484,50.4043044468309],[7.83135702294556,50.4037665909642],[7.83095208715723,50.40323218688483],[7.83458266234249,50.40230800852938],[7.83612232490758,50.40273083356192],[7.83672923406319,50.40279751707605],[7.83861429293684,50.40300461555494],[7.84007514900201,50.40407380898637],[7.84177298083502,50.40693113693199],[7.84302869510085,50.40742619903298],[7.8476438523375,50.40924550639741],[7.84792315710226,50.41028733740305],[7.85115971072328,50.40985773335255],[7.84974246378176,50.40725912000664],[7.85358872426721,50.40375534757368],[7.85194846443442,50.40111561517296],[7.84823279542655,50.3991981431628],[7.84500906576991,50.39753431202498],[7.84594049651058,50.3967545132295],[7.84438262961566,50.39590823702586],[7.84345322355658,50.39665205653373],[7.84265710134681,50.39626251514557],[7.84175372276726,50.39582047794215]]]],"type":"MultiPolygon"}
 }

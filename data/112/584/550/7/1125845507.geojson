@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.63333,50.71667,7.63333,50.71667",
-    "geom:latitude":50.71667,
-    "geom:longitude":7.63333,
+    "geom:area":0.000219,
+    "geom:area_square_m":1712161.746529,
+    "geom:bbox":"7.61128820983,50.7005580239,7.63614622761,50.7158497676",
+    "geom:latitude":50.708113,
+    "geom:longitude":7.624103,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":247,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u514b\u6ed5\u8c6a\u68ee"
+    ],
+    "name:deu_x_preferred":[
+        "Kettenhausen"
     ],
     "name:dut_x_preferred":[
         "Kettenhausen"
@@ -91,6 +94,8 @@
     "name:war_x_preferred":[
         "Kettenhausen"
     ],
+    "nav:latitude":50.71667,
+    "nav:longitude":7.63333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -102,13 +107,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":93593,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685301,
+        85633111,
         102063679
     ],
     "wof:breaches":[],
@@ -119,33 +128,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497293138,
-    "wof:geomhash":"32058e6fd482a5b9aac8a86485b01600",
+    "wof:geomhash":"94c5b0b1656760b23aca7cf84a52200c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063679,
+            "localadmin_id":1377685301,
             "locality_id":1125845507,
             "region_id":85682491
         }
     ],
     "wof:id":1125845507,
-    "wof:lastmodified":1513950329,
+    "wof:lastmodified":1559009616,
     "wof:name":"Kettenhausen",
-    "wof:parent_id":102063679,
+    "wof:parent_id":1377685301,
     "wof:placetype":"locality",
     "wof:population":247,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125279755
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.63333,
-    50.71667,
-    7.63333,
-    50.71667
+    7.61128820983234,
+    50.70055802394354,
+    7.63614622760566,
+    50.71584976756802
 ],
-  "geometry": {"coordinates":[7.63333,50.71667],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.62444563419604,50.71584976756802],[7.62708592753101,50.71397036327419],[7.62819461857219,50.71139558901794],[7.63026784629238,50.71158207614702],[7.63192285482966,50.70865163440019],[7.63550129109576,50.70810994476244],[7.63543658491296,50.70731595465833],[7.63341965693022,50.70644661393888],[7.63457500484941,50.70541270283655],[7.63421958907943,50.70519680078152],[7.63614622760566,50.70314646437016],[7.63379549693645,50.70055802394354],[7.62516179186421,50.70169452752929],[7.62557304902432,50.70261419440131],[7.62062802512902,50.7038574333032],[7.61679456271178,50.70482102249299],[7.61196707194586,50.70710186836312],[7.6157176559825,50.70836598507276],[7.61128820983234,50.71348714797406],[7.61401120965874,50.71371875670368],[7.61638127375626,50.71392029254046],[7.61596030404979,50.71476523283853],[7.61710261364268,50.71509984107386],[7.61851509589597,50.71404546647513],[7.62444563419604,50.71584976756802]]]],"type":"MultiPolygon"}
 }

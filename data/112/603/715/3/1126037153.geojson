@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"6.56667,50.11667,6.56667,50.11667",
-    "geom:latitude":50.11667,
-    "geom:longitude":6.56667,
+    "geom:area":0.000134,
+    "geom:area_square_m":1062579.63769,
+    "geom:bbox":"6.54543335188,50.1068324903,6.57069048871,50.115488099",
+    "geom:latitude":50.110616,
+    "geom:longitude":6.557109,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":253,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u65b0\u6d77\u4f26\u5df4\u8d6b"
+    ],
+    "name:deu_x_preferred":[
+        "Neuheilenbach"
     ],
     "name:dut_x_preferred":[
         "Neuheilenbach"
@@ -94,6 +97,8 @@
     "name:war_x_preferred":[
         "Neuheilenbach"
     ],
+    "nav:latitude":50.11667,
+    "nav:longitude":6.56667,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -105,13 +110,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":93366,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685961,
+        85633111,
         102063613
     ],
     "wof:breaches":[],
@@ -122,33 +131,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497301865,
-    "wof:geomhash":"9cb4ed05166563968360eda778e15051",
+    "wof:geomhash":"c01b481ef43d136a8a260b509f9ad9a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063613,
+            "localadmin_id":1377685961,
             "locality_id":1126037153,
             "region_id":85682491
         }
     ],
     "wof:id":1126037153,
-    "wof:lastmodified":1513951890,
+    "wof:lastmodified":1558996799,
     "wof:name":"Neuheilenbach",
-    "wof:parent_id":102063613,
+    "wof:parent_id":1377685961,
     "wof:placetype":"locality",
     "wof:population":253,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125360719
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    6.56667,
-    50.11667,
-    6.56667,
-    50.11667
+    6.54543335187627,
+    50.10683249027084,
+    6.57069048870562,
+    50.11548809901045
 ],
-  "geometry": {"coordinates":[6.56667,50.11667],"type":"Point"}
+  "geometry": {"coordinates":[[[[6.57069048870562,50.1108912102383],[6.56851087014122,50.11037105388138],[6.5673928338851,50.11011097929845],[6.56806661572672,50.10942237392041],[6.56492926741117,50.10924225490796],[6.56328755394835,50.10759088836102],[6.56158318478947,50.10809421678515],[6.5559535011239,50.10713964033759],[6.55434609892791,50.10686702854751],[6.55308465285417,50.10686218235437],[6.54543335187627,50.10683249027084],[6.54617896682098,50.10817059186785],[6.54556530533463,50.11009625602948],[6.5478200132806,50.1116159316684],[6.54915186800415,50.11277927537748],[6.54995663696066,50.1130413725628],[6.55092711748486,50.11316502858985],[6.55244849385472,50.11323563264045],[6.55586942695414,50.11371420503407],[6.56106000622445,50.11548809901045],[6.56317405534937,50.11517353308385],[6.56412889897023,50.11269507364349],[6.56512573874507,50.11258003550019],[6.5675304595302,50.11264416986583],[6.56970923651365,50.11274957791113],[6.57069048870562,50.1108912102383]]]],"type":"MultiPolygon"}
 }

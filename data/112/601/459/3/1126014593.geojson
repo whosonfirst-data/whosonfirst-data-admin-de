@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"11.21667,51.05,11.21667,51.05",
-    "geom:latitude":51.05,
-    "geom:longitude":11.21667,
+    "geom:area":0.000435,
+    "geom:area_square_m":3384812.071059,
+    "geom:bbox":"11.1973038723,51.0436556012,11.2290696262,51.0652869608",
+    "geom:latitude":51.054476,
+    "geom:longitude":11.211246,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":331,
@@ -20,6 +20,9 @@
     "mz:is_current":1,
     "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:baq_x_preferred":[
+        "Ballstedt"
+    ],
+    "name:deu_x_preferred":[
         "Ballstedt"
     ],
     "name:dut_x_preferred":[
@@ -73,6 +76,8 @@
     "name:war_x_preferred":[
         "Ballstedt"
     ],
+    "nav:latitude":51.05,
+    "nav:longitude":11.21667,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -84,13 +89,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":579905,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682541,
+        102191581,
+        1377690503,
+        85633111,
         102063719
     ],
     "wof:breaches":[],
@@ -101,33 +110,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497300473,
-    "wof:geomhash":"09753d2efe2f50599e2567fd51048144",
+    "wof:geomhash":"7316bec149ce8ac0b42e3ae7f322b6c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063719,
+            "localadmin_id":1377690503,
             "locality_id":1126014593,
             "region_id":85682541
         }
     ],
     "wof:id":1126014593,
-    "wof:lastmodified":1513946707,
+    "wof:lastmodified":1559012930,
     "wof:name":"Ballstedt",
-    "wof:parent_id":102063719,
+    "wof:parent_id":1377690503,
     "wof:placetype":"locality",
     "wof:population":331,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125327007
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    11.21667,
-    51.05,
-    11.21667,
-    51.05
+    11.19730387233514,
+    51.04365560115479,
+    11.22906962623199,
+    51.06528696081526
 ],
-  "geometry": {"coordinates":[11.21667,51.05],"type":"Point"}
+  "geometry": {"coordinates":[[[[11.21646719039075,51.06468691237282],[11.2180976609314,51.0630123050697],[11.21786083375489,51.06062935649705],[11.21943325086123,51.06074564025563],[11.22137305443301,51.05694560406475],[11.22435296399972,51.05760197375091],[11.22399347201991,51.05652447262253],[11.22614067151168,51.05506248639398],[11.2266843608908,51.05423837515838],[11.22697269732301,51.05335573225216],[11.22564004818047,51.04953196756918],[11.22906962623199,51.04885374445161],[11.21680178677211,51.04662634543098],[11.20820629077914,51.04365560115479],[11.20699717459475,51.04485963944578],[11.20487724301195,51.04436859535449],[11.20187127421929,51.0475719289166],[11.19853953797152,51.05191984632585],[11.19821575496238,51.05411723450369],[11.19870931498113,51.05655266785827],[11.19730387233514,51.05708294531562],[11.1993406298446,51.06054388178316],[11.20212536646414,51.06528696081526],[11.20663912588916,51.06444091969291],[11.2101494095361,51.06334887745474],[11.21646719039075,51.06468691237282]]]],"type":"MultiPolygon"}
 }

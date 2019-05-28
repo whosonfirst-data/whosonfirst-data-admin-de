@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"8.16944,49.64667,8.16944,49.64667",
-    "geom:latitude":49.64667,
-    "geom:longitude":8.16944,
+    "geom:area":0.000573,
+    "geom:area_square_m":4586751.047831,
+    "geom:bbox":"8.15024196869,49.6415794292,8.18741322206,49.6667900547",
+    "geom:latitude":49.653,
+    "geom:longitude":8.169037,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":604,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u9ed8\u5c14\u65af\u6d77\u59c6"
+    ],
+    "name:deu_x_preferred":[
+        "M\u00f6lsheim"
     ],
     "name:dut_x_preferred":[
         "M\u00f6lsheim"
@@ -85,6 +88,8 @@
     "name:war_x_preferred":[
         "M\u00f6lsheim"
     ],
+    "nav:latitude":49.64667,
+    "nav:longitude":8.16944,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -96,13 +101,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":93407,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377686197,
+        85633111,
         102063529
     ],
     "wof:breaches":[],
@@ -113,33 +122,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497293118,
-    "wof:geomhash":"806703c772e68d47466c3dde25f7ac22",
+    "wof:geomhash":"aca331e105361d0552efa87b3acce5b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063529,
+            "localadmin_id":1377686197,
             "locality_id":1125845067,
             "region_id":85682491
         }
     ],
     "wof:id":1125845067,
-    "wof:lastmodified":1513951654,
+    "wof:lastmodified":1559009615,
     "wof:name":"M\u00f6lsheim",
-    "wof:parent_id":102063529,
+    "wof:parent_id":1377686197,
     "wof:placetype":"locality",
     "wof:population":604,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125271873
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.16944,
-    49.64667,
-    8.16944,
-    49.64667
+    8.15024196868743,
+    49.64157942920546,
+    8.18741322205948,
+    49.66679005468195
 ],
-  "geometry": {"coordinates":[8.16944,49.64667],"type":"Point"}
+  "geometry": {"coordinates":[[[[8.18741322205948,49.64414906487351],[8.18588795040717,49.64387487211797],[8.18591474807803,49.64275032210017],[8.17840382765098,49.64157942920546],[8.17699508493922,49.64290064827046],[8.17523512389369,49.64232446623687],[8.1751455772948,49.64302469123299],[8.16806831874705,49.64262708664036],[8.16578582626638,49.64196798214541],[8.16115689581111,49.64224146495367],[8.16102075596335,49.64303972992765],[8.15828983650765,49.64445941195662],[8.15522608627952,49.64446799692035],[8.15598966999368,49.64641900596852],[8.15640839321656,49.64748978260604],[8.1581919708069,49.64730167078006],[8.15784420469221,49.64986873494328],[8.15638840509416,49.65467210091599],[8.15450172639006,49.65808039079012],[8.15203198435741,49.65755215274953],[8.15024196868743,49.66124141756861],[8.17354372564387,49.66679005468195],[8.17734645128543,49.65903735626694],[8.18118306468288,49.6539855142392],[8.18573386572098,49.64876815245448],[8.18741322205948,49.64414906487351]]]],"type":"MultiPolygon"}
 }

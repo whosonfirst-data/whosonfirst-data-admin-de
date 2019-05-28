@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.53333,49.8,7.53333,49.8",
-    "geom:latitude":49.8,
-    "geom:longitude":7.53333,
+    "geom:area":0.000058,
+    "geom:area_square_m":466727.77193,
+    "geom:bbox":"7.53535030549,49.7996085822,7.54757387986,49.8072870625",
+    "geom:latitude":49.80322,
+    "geom:longitude":7.541672,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":329,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u9a6c\u5c14\u5ef7\u65af\u6cf0\u56e0"
+    ],
+    "name:deu_x_preferred":[
+        "Martinstein"
     ],
     "name:dut_x_preferred":[
         "Martinstein"
@@ -94,6 +97,8 @@
     "name:zho_x_preferred":[
         "\u9a6c\u5c14\u5ef7\u65af\u6cf0\u56e0"
     ],
+    "nav:latitude":49.8,
+    "nav:longitude":7.53333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -112,7 +117,10 @@
     "qs_pg:qs_pg_placetype_gp":"Town",
     "qs_pg:woe_adm0":23424829,
     "qs_pg:woe_id":674131,
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
@@ -120,9 +128,10 @@
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"Town",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685419,
+        85633111,
         102063551
     ],
     "wof:breaches":[],
@@ -134,33 +143,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497290238,
-    "wof:geomhash":"95cfcee6d6fc1a303ab1af202868c15d",
+    "wof:geomhash":"1be90398dba3f8ae9ae4597ac2f7b4eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063551,
+            "localadmin_id":1377685419,
             "locality_id":1125775479,
             "region_id":85682491
         }
     ],
     "wof:id":1125775479,
-    "wof:lastmodified":1513951300,
+    "wof:lastmodified":1559009616,
     "wof:name":"Martinstein",
-    "wof:parent_id":102063551,
+    "wof:parent_id":1377685419,
     "wof:placetype":"locality",
     "wof:population":329,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125279989
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.53333,
-    49.8,
-    7.53333,
-    49.8
+    7.53535030548912,
+    49.79960858223431,
+    7.54757387986063,
+    49.8072870625265
 ],
-  "geometry": {"coordinates":[7.53333,49.8],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.54281643069423,49.80559696317007],[7.54348170729366,49.8049659996334],[7.5473852093574,49.80528366400748],[7.54676961518332,49.80332279757184],[7.54757387986063,49.80202013033418],[7.54699174070143,49.79974499710239],[7.54590127492674,49.79960858223431],[7.54456849960037,49.79978999250332],[7.54315389814981,49.80039244349658],[7.54205925539553,49.80099420989686],[7.54039039964222,49.80098673668444],[7.53926716178048,49.80038426825426],[7.53803077645316,49.80124815677431],[7.53704899874145,49.8017009453831],[7.53535030548912,49.80239493384872],[7.53580544253905,49.80316905484986],[7.53614116773404,49.80399128438602],[7.53691293078731,49.80611836760139],[7.53718794115256,49.8072870625265],[7.54281643069423,49.80559696317007]]]],"type":"MultiPolygon"}
 }

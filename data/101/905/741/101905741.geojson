@@ -4,11 +4,14 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000036,
-    "geom:area_square_m":299126.71077,
-    "geom:bbox":"8.73629972729,48.2388576194,8.74578555268,48.2460696664",
-    "geom:latitude":48.242336,
-    "geom:longitude":8.74164,
+    "geom:area":0.000537,
+    "geom:area_square_m":4424453.140779,
+    "geom:bbox":"8.72900633483,48.2288735024,8.76397728405,48.2585776439",
+    "geom:latitude":48.241775,
+    "geom:longitude":8.748244,
+    "gn:gn_country":null,
+    "gn:gn_fcode":"ADM4",
+    "gn:gn_pop":408,
     "gn:population":414,
     "iso:country":"DE",
     "lbl:latitude":48.242459,
@@ -287,6 +290,8 @@
     "name:zul_x_preferred":[
         "Dautmergen"
     ],
+    "nav:latitude":48.242459,
+    "nav:longitude":8.741963,
     "qs:a0":"Bundesrepublik Deutschland",
     "qs:a1":"*Baden-W\u00fcrttemberg",
     "qs:a1r":"0",
@@ -301,17 +306,43 @@
     "qs:pop":0,
     "qs:source":"UCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
     "qs:type":"rural hamlet single local_admin match",
-    "src:geom":"quattroshapes",
+    "qs_pg:aaroncc":"DE",
+    "qs_pg:gn_country":null,
+    "qs_pg:gn_fcode":"ADM4",
+    "qs_pg:gn_id":6555947,
+    "qs_pg:gn_pop":408,
+    "qs_pg:name":"Gemeinde Dautmergen",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Baden-W\u00fcrttemberg",
+    "qs_pg:photos":1,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":1,
+    "qs_pg:photos_all":1,
+    "qs_pg:photos_sr":1,
+    "qs_pg:pop_sr":0,
+    "qs_pg:qs_id":1019437,
+    "qs_pg:qs_pg_placetype":"localadmin",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12623658,
+    "src:geom":"de-bkg",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl:centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":52,
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Baden-W\u00fcrttemberg",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         85682567,
         102191581,
         85633111,
+        1377690145,
         404227573,
         102063279
     ],
@@ -325,12 +356,13 @@
         "wd:id":"Q506821"
     },
     "wof:country":"DE",
-    "wof:geomhash":"35e54c993ed0fc57d72c7c0bbd0f74a3",
+    "wof:geomhash":"e50c8d6c0d54cd2cdb590abbc5db6036",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063279,
+            "localadmin_id":1377690145,
             "locality_id":101905741,
             "macrocounty_id":404227573,
             "region_id":85682567
@@ -340,22 +372,25 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1527714533,
+    "wof:lastmodified":1558997118,
     "wof:name":"Dautmergen",
-    "wof:parent_id":102063279,
+    "wof:parent_id":1377690145,
     "wof:placetype":"locality",
     "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125393987,
+        1125335965
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    8.73629972728787,
-    48.23885761941887,
-    8.7457855526751,
-    48.24606966638135
+    8.72900633482958,
+    48.2288735024066,
+    8.76397728404775,
+    48.2585776438932
 ],
-  "geometry": {"coordinates":[[[8.74293814723995,48.24606966638135],[8.74296049599815,48.24517007695135],[8.74430613174411,48.24518538408273],[8.74439542104039,48.24158702146599],[8.74574096189087,48.2416023109505],[8.7457855526751,48.23980312682988],[8.74309456734062,48.2397725327238],[8.74311690903073,48.23887294074422],[8.74177144138127,48.23885761941887],[8.74174907578674,48.23975721108451],[8.74040358497621,48.23974187305379],[8.74038119446578,48.24064146404038],[8.7376901672672,48.24061073817671],[8.73766772793203,48.24151032816894],[8.73632219154484,48.24149494033446],[8.73629972728787,48.24239452964702],[8.73899084862359,48.24242528955472],[8.73892359322076,48.24512405719889],[8.74161486099507,48.24515475342685],[8.74159248832495,48.24605434254261],[8.74293814723995,48.24606966638135]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[[8.7610949265862,48.23403772799944],[8.75995314591978,48.23229151376149],[8.75676485180004,48.23376079800637],[8.75317969783106,48.23351509899786],[8.74393386311699,48.23121869850745],[8.73954932165094,48.2288735024066],[8.73501513526834,48.2314536904382],[8.73067705899082,48.22979734382977],[8.72913320988723,48.22958763097596],[8.72900633482958,48.23198662930989],[8.73551769334906,48.23469910663771],[8.73344876307333,48.23683314783833],[8.73681121243997,48.23916222242382],[8.73386933461861,48.2438542092656],[8.73488624086571,48.24365469736806],[8.73658597283391,48.24655961701789],[8.74664478533918,48.25180120203588],[8.74875727542343,48.25373229826682],[8.76024484977209,48.25711585790362],[8.76397728404775,48.2585776438932],[8.75679735946123,48.24801465153244],[8.75956347199245,48.2455674542036],[8.75998331352613,48.24473777489917],[8.76214710383304,48.2421820802765],[8.75942004459824,48.24125770638998],[8.76247336870176,48.23904880568681],[8.7635124068046,48.23631346894552],[8.7610949265862,48.23403772799944]]]],"type":"MultiPolygon"}
 }

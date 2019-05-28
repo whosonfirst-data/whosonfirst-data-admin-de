@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"11.83333,50.81667,11.83333,50.81667",
-    "geom:latitude":50.81667,
-    "geom:longitude":11.83333,
+    "geom:area":0.000505,
+    "geom:area_square_m":3943901.554514,
+    "geom:bbox":"11.8181493203,50.8049375696,11.858951574,50.8246453586",
+    "geom:latitude":50.815828,
+    "geom:longitude":11.837775,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":186,
@@ -27,6 +27,9 @@
     ],
     "name:chi_x_preferred":[
         "\u514b\u83b1\u5185\u8d1d\u5c14\u65af\u591a\u592b"
+    ],
+    "name:deu_x_preferred":[
+        "Kleinebersdorf"
     ],
     "name:dut_x_preferred":[
         "Kleinebersdorf"
@@ -88,6 +91,8 @@
     "name:war_x_preferred":[
         "Kleinebersdorf"
     ],
+    "nav:latitude":50.81667,
+    "nav:longitude":11.83333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -99,13 +104,17 @@
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":578291,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682541,
+        102191581,
+        1377689027,
+        85633111,
         102063705
     ],
     "wof:breaches":[],
@@ -116,33 +125,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497292984,
-    "wof:geomhash":"f8faecc8d10c258c9f031e4133b1dfb3",
+    "wof:geomhash":"7670fc186d57a9c9fced4a9a71ca8b0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063705,
+            "localadmin_id":1377689027,
             "locality_id":1125842285,
             "region_id":85682541
         }
     ],
     "wof:id":1125842285,
-    "wof:lastmodified":1513950434,
+    "wof:lastmodified":1559012933,
     "wof:name":"Kleinebersdorf",
-    "wof:parent_id":102063705,
+    "wof:parent_id":1377689027,
     "wof:placetype":"locality",
     "wof:population":186,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125327795
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    11.83333,
-    50.81667,
-    11.83333,
-    50.81667
+    11.8181493202604,
+    50.80493756964331,
+    11.85895157404383,
+    50.82464535856543
 ],
-  "geometry": {"coordinates":[11.83333,50.81667],"type":"Point"}
+  "geometry": {"coordinates":[[[[11.8470685231255,50.82393175848064],[11.84786754123989,50.82306757310225],[11.85391495351462,50.82241225095632],[11.85765357056235,50.82199961872753],[11.85875791664045,50.8218697078854],[11.85895157404383,50.82022960879914],[11.8579551088936,50.82016028015874],[11.85699336038805,50.81738181614624],[11.85576736981421,50.81528136281452],[11.85669068118171,50.81479362161927],[11.85595833999186,50.81257041062171],[11.85347652755978,50.81172647397364],[11.84856096693528,50.81119876441573],[11.84810504406791,50.81115006764475],[11.84417268400614,50.8107277346346],[11.83357143269484,50.80706146205461],[11.82867916924782,50.80583072747506],[11.82257542893645,50.80493756964331],[11.82218045150363,50.81003550599797],[11.82216854250575,50.81261835446861],[11.8181493202604,50.81665063009455],[11.82880997816782,50.82286435966311],[11.83671759825088,50.82464535856543],[11.84075553952729,50.82376187727756],[11.8470685231255,50.82393175848064]]]],"type":"MultiPolygon"}
 }

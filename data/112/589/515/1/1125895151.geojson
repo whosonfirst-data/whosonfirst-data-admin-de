@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.48333,49.5,7.48333,49.5",
-    "geom:latitude":49.5,
-    "geom:longitude":7.48333,
+    "geom:area":0.000624,
+    "geom:area_square_m":5009857.933748,
+    "geom:bbox":"7.46941541956,49.4953732167,7.50562940632,49.5225769063",
+    "geom:latitude":49.509734,
+    "geom:longitude":7.486954,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":489,
@@ -17,8 +17,11 @@
     "lbl:latitude":49.5,
     "lbl:longitude":7.48333,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:note":"Quattroshapes Point Gazetteer import 20170519",
+    "name:deu_x_preferred":[
+        "Neunkirchen am Potzberg"
+    ],
     "name:kaz_x_preferred":[
         "\u041d\u043e\u0439\u043d\u043a\u0438\u0440\u0445\u0435\u043d-\u0430\u043c-\u041f\u043e\u0446\u0431\u0435\u0440\u0433"
     ],
@@ -34,6 +37,8 @@
     "name:zho_x_preferred":[
         "\u6ce2\u8328\u8d1d\u683c\u5c71\u9e93\u8bfa\u56e0\u57fa\u5174"
     ],
+    "nav:latitude":49.5,
+    "nav:longitude":7.48333,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -52,7 +57,10 @@
     "qs_pg:qs_pg_placetype_gp":"Town",
     "qs_pg:woe_adm0":23424829,
     "qs_pg:woe_id":678855,
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
@@ -60,9 +68,10 @@
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"Town",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377686501,
+        85633111,
         102063499
     ],
     "wof:breaches":[],
@@ -73,33 +82,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497295515,
-    "wof:geomhash":"cbccec01917c099d9145e2f0f87bd9d1",
+    "wof:geomhash":"95ec281f70798fa29b48c4ad65767de4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063499,
+            "localadmin_id":1377686501,
             "locality_id":1125895151,
             "region_id":85682491
         }
     ],
     "wof:id":1125895151,
-    "wof:lastmodified":1509399067,
+    "wof:lastmodified":1558995932,
     "wof:name":"Neunkirchen am Potzberg",
-    "wof:parent_id":102063499,
+    "wof:parent_id":1377686501,
     "wof:placetype":"locality",
     "wof:population":489,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125422551
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.48333,
-    49.5,
-    7.48333,
-    49.5
+    7.46941541955778,
+    49.49537321669367,
+    7.50562940632032,
+    49.52257690634453
 ],
-  "geometry": {"coordinates":[7.48333,49.5],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.50098626938389,49.51825842718574],[7.50236776790932,49.51210074824456],[7.5011673171835,49.50985401018565],[7.50562940632032,49.51080080250921],[7.50463100785116,49.50753307640284],[7.50078640206154,49.50313632905895],[7.49750391679645,49.50168951707624],[7.49643767619684,49.50017557304256],[7.49457262283145,49.49751491307092],[7.48908841653206,49.49591913835749],[7.48752194568918,49.49537321669367],[7.4865253929082,49.49667002698062],[7.48280163098513,49.49715282485599],[7.47934950264355,49.49713539402188],[7.47883547176947,49.49849016590858],[7.47485916542621,49.50928085356173],[7.46941541955778,49.5127783352433],[7.469828739209,49.52109977508825],[7.46965793572741,49.52204957532616],[7.47454823569215,49.52257690634453],[7.47634477618895,49.52139249459903],[7.48072504085564,49.519372232017],[7.48271680799261,49.51893300510691],[7.48474250777952,49.51913354795963],[7.48688874889915,49.51931300180206],[7.48845468441537,49.51927336205511],[7.4912141446442,49.51849314358041],[7.49195717063676,49.5191166009645],[7.49510251885931,49.51936871149262],[7.49511480375742,49.52005126177663],[7.49794881775888,49.51971374313649],[7.49940626841729,49.51933957160501],[7.50098626938389,49.51825842718574]]]],"type":"MultiPolygon"}
 }

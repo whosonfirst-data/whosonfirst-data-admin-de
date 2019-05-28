@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"7.6,49.83333,7.6,49.83333",
-    "geom:latitude":49.83333,
-    "geom:longitude":7.6,
+    "geom:area":0.000337,
+    "geom:area_square_m":2690816.76674,
+    "geom:bbox":"7.58276671188,49.8217487093,7.61373201417,49.8393098846",
+    "geom:latitude":49.830281,
+    "geom:longitude":7.597284,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":245,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u5965\u6069"
+    ],
+    "name:deu_x_preferred":[
+        "Auen"
     ],
     "name:dut_x_preferred":[
         "Auen"
@@ -97,6 +100,8 @@
     "name:zho_x_preferred":[
         "\u5965\u6069"
     ],
+    "nav:latitude":49.83333,
+    "nav:longitude":7.6,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
@@ -108,13 +113,17 @@
     "qs_pg:pop_sr":2,
     "qs_pg:qs_id":579928,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377685419,
+        85633111,
         102063551
     ],
     "wof:breaches":[],
@@ -125,33 +134,36 @@
     },
     "wof:country":"DE",
     "wof:created":1497293317,
-    "wof:geomhash":"972eb13eb5b005eee6bd99249023f906",
+    "wof:geomhash":"2d6460697ec89d4fe06b7065bfbb51cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063551,
+            "localadmin_id":1377685419,
             "locality_id":1125849337,
             "region_id":85682491
         }
     ],
     "wof:id":1125849337,
-    "wof:lastmodified":1553816570,
+    "wof:lastmodified":1559009605,
     "wof:name":"Auen",
-    "wof:parent_id":102063551,
+    "wof:parent_id":1377685419,
     "wof:placetype":"locality",
     "wof:population":245,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125339811
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    7.6,
-    49.83333,
-    7.6,
-    49.83333
+    7.58276671187961,
+    49.82174870933017,
+    7.61373201417096,
+    49.83930988455378
 ],
-  "geometry": {"coordinates":[7.6,49.83333],"type":"Point"}
+  "geometry": {"coordinates":[[[[7.59877357969888,49.83930988455378],[7.60268533865831,49.83657350278217],[7.60831449787563,49.83717608908429],[7.60969493546157,49.83553651662715],[7.61120243778885,49.83475841204725],[7.61181486031336,49.83405832394672],[7.61373201417096,49.83186658365466],[7.60764506119999,49.82873155448881],[7.60805064759413,49.82686910526568],[7.60392063793726,49.82498115457269],[7.6011916479475,49.8231509313346],[7.59974758092531,49.82194937745767],[7.59775387511975,49.82174870933017],[7.59396164071468,49.82278317508034],[7.59171040539359,49.82300841587941],[7.5895683772735,49.82324084508888],[7.5887330484674,49.82333147514954],[7.5838696805294,49.82482327963197],[7.58348452753778,49.82592044868105],[7.58276671187961,49.82904985347814],[7.58540466719639,49.83074725473025],[7.58409462249546,49.83239720204624],[7.58510672058456,49.83337922957863],[7.59625976505429,49.83821926322342],[7.59877357969888,49.83930988455378]]]],"type":"MultiPolygon"}
 }

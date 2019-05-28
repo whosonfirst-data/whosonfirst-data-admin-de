@@ -4,11 +4,11 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.0,
-    "geom:area_square_m":0.0,
-    "geom:bbox":"6.97838,50.25511,6.97838,50.25511",
-    "geom:latitude":50.25511,
-    "geom:longitude":6.97838,
+    "geom:area":0.000158,
+    "geom:area_square_m":1245271.498054,
+    "geom:bbox":"6.96651252469,50.2443974792,6.98733194229,50.260337478",
+    "geom:latitude":50.252585,
+    "geom:longitude":6.97561,
     "gn:gn_country":"DE",
     "gn:gn_fcode":"PPLA4",
     "gn:gn_pop":111,
@@ -24,6 +24,9 @@
     ],
     "name:chi_x_preferred":[
         "\u8d21\u5fb7\u62c9\u7279"
+    ],
+    "name:deu_x_preferred":[
+        "Gunderath"
     ],
     "name:dut_x_preferred":[
         "Gunderath"
@@ -85,24 +88,43 @@
     "name:war_x_preferred":[
         "Gunderath"
     ],
+    "nav:latitude":50.25511,
+    "nav:longitude":6.97838,
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":"DE",
     "qs_pg:gn_fcode":"PPLA4",
     "qs_pg:gn_id":2913687,
     "qs_pg:gn_pop":111,
     "qs_pg:name":"Gunderath",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Rheinland-Pfalz",
+    "qs_pg:photos":28,
+    "qs_pg:photos_1k":6,
+    "qs_pg:photos_9k":1,
     "qs_pg:photos_9r":0,
+    "qs_pg:photos_all":28,
     "qs_pg:photos_sr":0,
     "qs_pg:pop_sr":1,
     "qs_pg:qs_id":93766,
     "qs_pg:qs_pg_placetype":"locality",
-    "src:geom":"qs_pg",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12629311,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "qs_pg"
+    ],
     "src:lbl:centroid":"qs_pg",
     "src:population":"geonames",
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Rheinland-Pfalz",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
-        102191581,
-        85633111,
         85682491,
+        102191581,
+        1377686001,
+        85633111,
         102063629
     ],
     "wof:breaches":[],
@@ -113,33 +135,37 @@
     },
     "wof:country":"DE",
     "wof:created":1497293958,
-    "wof:geomhash":"9f4d723faed701828b1f2139ca9e1a97",
+    "wof:geomhash":"8627e153403db0b7f05a06e2ecf8f1e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063629,
+            "localadmin_id":1377686001,
             "locality_id":1125864127,
             "region_id":85682491
         }
     ],
     "wof:id":1125864127,
-    "wof:lastmodified":1513949186,
+    "wof:lastmodified":1559009612,
     "wof:name":"Gunderath",
-    "wof:parent_id":102063629,
+    "wof:parent_id":1377686001,
     "wof:placetype":"locality",
     "wof:population":111,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125370227,
+        1125282021
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    6.97838,
-    50.25511,
-    6.97838,
-    50.25511
+    6.96651252468639,
+    50.24439747923585,
+    6.98733194229296,
+    50.2603374780237
 ],
-  "geometry": {"coordinates":[6.97838,50.25511],"type":"Point"}
+  "geometry": {"coordinates":[[[[6.97124843415887,50.24439747923585],[6.97013903557417,50.24476865558344],[6.96856700995482,50.24531472721614],[6.96651252468639,50.25116951670114],[6.97035224930433,50.25242283638251],[6.96844194078062,50.25241802621485],[6.96881248294879,50.25422199775812],[6.97122938392794,50.25440454031428],[6.97061268271738,50.2553223590945],[6.97154222391092,50.25605349230589],[6.97272236270467,50.25698169019047],[6.97394073423631,50.25732130550951],[6.97493824742652,50.25759934348745],[6.97368703797685,50.25798421698753],[6.97585078093008,50.25952981647136],[6.97698153666736,50.2603374780237],[6.9797883057583,50.25982020127253],[6.98192226439739,50.25890388229193],[6.98285629777888,50.25862628739905],[6.98260180156635,50.25733037226954],[6.98129380616007,50.25640746258064],[6.98101393401856,50.25526389483754],[6.98188713202779,50.25504749599678],[6.98239568584364,50.25412089745814],[6.98291047977069,50.25319629403695],[6.98396383906343,50.25301243332635],[6.98503395440731,50.25260388450965],[6.98609631082437,50.25135737237687],[6.98733194229296,50.25080074862548],[6.98086404436138,50.24993572346699],[6.97335832182506,50.24717378070625],[6.97124843415887,50.24439747923585]]]],"type":"MultiPolygon"}
 }

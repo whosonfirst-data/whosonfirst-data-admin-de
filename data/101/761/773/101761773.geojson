@@ -4,11 +4,14 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000044,
-    "geom:area_square_m":358918.39258,
-    "geom:bbox":"9.6473130114,48.6359277527,9.65411403778,48.6449362447",
-    "geom:latitude":48.640753,
-    "geom:longitude":9.650909,
+    "geom:area":0.000397,
+    "geom:area_square_m":3240588.021026,
+    "geom:bbox":"9.64121255366,48.6230097272,9.66167162481,48.6536788334",
+    "geom:latitude":48.639513,
+    "geom:longitude":9.651661,
+    "gn:gn_country":"DE",
+    "gn:gn_fcode":"PPLA4",
+    "gn:gn_pop":1426,
     "gn:population":1426,
     "iso:country":"DE",
     "lbl:latitude":48.640816,
@@ -284,6 +287,8 @@
     "name:zul_x_preferred":[
         "Gammelshausen"
     ],
+    "nav:latitude":48.640816,
+    "nav:longitude":9.650569,
     "qs:a0":"Bundesrepublik Deutschland",
     "qs:a1":"*Baden-W\u00fcrttemberg",
     "qs:a1r":"0",
@@ -298,15 +303,42 @@
     "qs:pop":0,
     "qs:source":"UCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
     "qs:type":"rural point-in-poly",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "qs_pg:aaroncc":"DE",
+    "qs_pg:gn_country":"DE",
+    "qs_pg:gn_fcode":"PPLA4",
+    "qs_pg:gn_id":2922753,
+    "qs_pg:gn_pop":1426,
+    "qs_pg:name":"Gemeinde Gammelshausen",
+    "qs_pg:name_adm0":"Deutschland",
+    "qs_pg:name_adm1":"Baden-W\u00fcrttemberg",
+    "qs_pg:photos":3,
+    "qs_pg:photos_1k":1,
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":1,
+    "qs_pg:photos_all":3,
+    "qs_pg:photos_sr":1,
+    "qs_pg:pop_sr":3,
+    "qs_pg:qs_id":939012,
+    "qs_pg:qs_pg_placetype":"localadmin",
+    "qs_pg:qs_pg_placetype_gp":"LocalAdmin",
+    "qs_pg:woe_adm0":23424829,
+    "qs_pg:woe_id":12624074,
+    "src:geom":"de-bkg",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl:centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":31,
+    "woe:adm0_id":23424829,
+    "woe:name_adm0":"Deutschland",
+    "woe:name_adm1":"Baden-W\u00fcrttemberg",
+    "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         85682567,
         102191581,
         85633111,
+        1377687227,
         404227549,
         102063325
     ],
@@ -320,12 +352,13 @@
         "wk:page":"Gammelshausen"
     },
     "wof:country":"DE",
-    "wof:geomhash":"f3d74c4679e809936521f48c9f8d1d14",
+    "wof:geomhash":"5a7a07eb22b2f15d2b48efa8ff76b219",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
             "country_id":85633111,
             "county_id":102063325,
+            "localadmin_id":1377687227,
             "locality_id":101761773,
             "macrocounty_id":404227549,
             "region_id":85682567
@@ -335,22 +368,25 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1527714601,
+    "wof:lastmodified":1558995635,
     "wof:name":"Gammelshausen",
-    "wof:parent_id":102063325,
+    "wof:parent_id":1377687227,
     "wof:placetype":"locality",
     "wof:population":1426,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1125375051,
+        1125282631
+    ],
     "wof:tags":[]
 },
   "bbox": [
-    9.64731301140193,
-    48.63592775274117,
-    9.65411403777762,
-    48.64493624474653
+    9.6412125536601,
+    48.62300972724476,
+    9.66167162481304,
+    48.65367883336356
 ],
-  "geometry": {"coordinates":[[[9.65275764011903,48.64043414088167],[9.65278887988984,48.6359362567415],[9.65007632925131,48.63592775274117],[9.65007003306181,48.6368273300601],[9.6487137336569,48.63682305315456],[9.64869477015128,48.63952178284296],[9.64733839774453,48.63951748912558],[9.64731301140193,48.643115790352],[9.65002595169727,48.64312436195229],[9.6500133544377,48.64492351092133],[9.65408291293835,48.64493624474653],[9.65411403777762,48.64043836850351],[9.65275764011903,48.64043414088167]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[[9.66167162481304,48.62955792048633],[9.65618281106379,48.62844614121626],[9.65379034876542,48.62637752603909],[9.65337115424675,48.62570772280419],[9.65358585793838,48.62409176369977],[9.65158016813871,48.62362711317724],[9.64891548707971,48.62300972724476],[9.64810783994693,48.62376740843492],[9.6469064605842,48.62552969983686],[9.64565860883207,48.6279185173526],[9.64477674600899,48.63212683259398],[9.64706476657491,48.63628121891993],[9.64506872311016,48.63636477714925],[9.64539675152953,48.64473979976185],[9.64143877719087,48.64986226340746],[9.6412125536601,48.6511465219608],[9.64310402966954,48.65318458628935],[9.64450694840697,48.65213422717721],[9.64625845183445,48.65364955971238],[9.65478202823768,48.65367883336356],[9.65548176864938,48.64933152164282],[9.65984072303118,48.64943320783321],[9.65995971921934,48.64877976996834],[9.66060280733747,48.64792804934049],[9.65972561949189,48.64569666156966],[9.6584439479796,48.64402136306411],[9.65821416172641,48.64122259371553],[9.66167162481304,48.62955792048633]]]],"type":"MultiPolygon"}
 }
