@@ -26,8 +26,14 @@
     "mz:max_zoom":18.0,
     "mz:min_zoom":15.0,
     "mz:tier_locality":2,
+    "name:afr_x_preferred":[
+        "rem"
+    ],
     "name:ara_x_preferred":[
         "\u0645\u0643\u0628\u062d"
+    ],
+    "name:ara_x_variant":[
+        "\u0645\u0643\u0627\u0628\u062d"
     ],
     "name:arg_x_preferred":[
         "Freno"
@@ -41,11 +47,20 @@
     "name:cat_x_preferred":[
         "Fre"
     ],
+    "name:cat_x_variant":[
+        "fre"
+    ],
     "name:ces_x_preferred":[
         "Brzda"
     ],
+    "name:ces_x_variant":[
+        "brzda"
+    ],
     "name:dan_x_preferred":[
         "Bremse"
+    ],
+    "name:dan_x_variant":[
+        "bremse"
     ],
     "name:deu_x_preferred":[
         "Bremse"
@@ -53,6 +68,12 @@
     "name:deu_x_variant":[
         "Brake",
         "Brakel"
+    ],
+    "name:ell_x_preferred":[
+        "\u03c6\u03c1\u03ad\u03bd\u03bf"
+    ],
+    "name:eng_x_preferred":[
+        "brake"
     ],
     "name:epo_x_preferred":[
         "Bremso"
@@ -74,6 +95,9 @@
     ],
     "name:fra_x_preferred":[
         "Frein"
+    ],
+    "name:fra_x_variant":[
+        "frein"
     ],
     "name:gla_x_preferred":[
         "Breig"
@@ -105,6 +129,9 @@
     "name:ita_x_preferred":[
         "Freno"
     ],
+    "name:ita_x_variant":[
+        "freno"
+    ],
     "name:jpn_x_preferred":[
         "\u30d6\u30ec\u30fc\u30ad"
     ],
@@ -114,11 +141,20 @@
     "name:kor_x_preferred":[
         "\uc81c\ub3d9\uae30"
     ],
+    "name:lat_x_preferred":[
+        "Frenum"
+    ],
+    "name:lav_x_preferred":[
+        "bremze"
+    ],
     "name:mkd_x_preferred":[
         "\u041a\u043e\u0447\u043d\u0438\u0446\u0430"
     ],
     "name:mon_x_preferred":[
         "\u0422\u043e\u043e\u0440\u043c\u043e\u0441"
+    ],
+    "name:mon_x_variant":[
+        "\u0422\u043e\u0440\u043c\u043e\u0441"
     ],
     "name:msa_x_preferred":[
         "Brek"
@@ -129,14 +165,23 @@
     "name:nld_x_preferred":[
         "Rem"
     ],
+    "name:nld_x_variant":[
+        "rem"
+    ],
     "name:osx_x_preferred":[
         "Brakal"
     ],
     "name:pol_x_preferred":[
         "Hamulec"
     ],
+    "name:pol_x_variant":[
+        "hamulec"
+    ],
     "name:por_x_preferred":[
         "Trav\u00e3o"
+    ],
+    "name:por_x_variant":[
+        "trav\u00e3o"
     ],
     "name:ron_x_preferred":[
         "Fr\u00e2n\u0103"
@@ -145,7 +190,8 @@
         "\u041c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u043e\u0440\u043c\u043e\u0437"
     ],
     "name:rus_x_variant":[
-        "\u0411\u0440\u0430\u043a\u0435\u043b\u044c"
+        "\u0411\u0440\u0430\u043a\u0435\u043b\u044c",
+        "\u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u043e\u0440\u043c\u043e\u0437"
     ],
     "name:slk_x_preferred":[
         "Brzda"
@@ -156,17 +202,26 @@
     "name:spa_x_preferred":[
         "Freno"
     ],
+    "name:spa_x_variant":[
+        "freno"
+    ],
     "name:sqi_x_preferred":[
         "Frenat"
     ],
     "name:srp_x_preferred":[
         "\u0411\u0440\u0430\u043a\u0435\u043b"
     ],
+    "name:srp_x_variant":[
+        "\u043a\u043e\u0447\u043d\u0438\u0446\u0430"
+    ],
     "name:swa_x_preferred":[
         "Breki"
     ],
     "name:swe_x_preferred":[
         "Broms"
+    ],
+    "name:swe_x_variant":[
+        "broms"
     ],
     "name:tgk_x_preferred":[
         "\u0422\u043e\u0440\u043c\u043e\u0437"
@@ -180,12 +235,21 @@
     "name:ukr_x_preferred":[
         "\u041c\u0435\u0445\u0430\u043d\u0456\u0447\u043d\u0435 \u0433\u0430\u043b\u044c\u043c\u043e"
     ],
+    "name:ukr_x_variant":[
+        "\u0433\u0430\u043b\u044c\u043c\u043e"
+    ],
     "name:unk_x_variant":[
         "Brakel",
         "Brake"
     ],
     "name:vie_x_preferred":[
         "Phanh xe"
+    ],
+    "name:vie_x_variant":[
+        "Th\u1eafng"
+    ],
+    "name:yue_x_preferred":[
+        "\u903c\u529b"
     ],
     "name:zho_x_preferred":[
         "\u715e\u8eca"
@@ -225,13 +289,13 @@
     "src:population":"geonames",
     "wd:wordcount":2301,
     "wof:belongsto":[
-        85682513,
         102191581,
         85633111,
         1377691439,
         404227571,
         101748767,
-        102063869
+        102063869,
+        85682513
     ],
     "wof:breaches":[
         85794927
@@ -261,7 +325,7 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1558998793,
+    "wof:lastmodified":1563252298,
     "wof:name":"Brake",
     "wof:parent_id":101748767,
     "wof:placetype":"neighbourhood",
