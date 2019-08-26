@@ -9,17 +9,19 @@
     "geom:bbox":"8.59755231182,48.9082836141,8.66212330142,48.9570588945",
     "geom:latitude":48.933549,
     "geom:longitude":8.627637,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":6185,
-    "gn:population":6287,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":6185,
     "iso:country":"DE",
     "lbl:latitude":48.930402,
     "lbl:longitude":8.63639,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.930402,
     "mps:longitude":8.63639,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "K\u00e4mpfelbach"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":1403,
     "woe:adm0_id":23424829,
@@ -317,10 +319,12 @@
     "wof:concordances":{
         "gn:id":3209435,
         "gp:id":15002669,
-        "qs:id":1152342,
         "qs_pg:id":130355,
         "wd:id":"Q81265",
         "wk:page":"K\u00e4mpfelbach"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1152342
     },
     "wof:country":"DE",
     "wof:geomhash":"87fb1f0698f88fc90363460abb704646",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101842691,
-    "wof:lastmodified":1561773624,
+    "wof:lastmodified":1566716867,
     "wof:name":"K\u00e4mpfelbach",
     "wof:parent_id":1377688987,
     "wof:placetype":"locality",

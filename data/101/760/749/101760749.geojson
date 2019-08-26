@@ -9,17 +9,19 @@
     "geom:bbox":"8.42735388651,49.0395142949,8.52859767481,49.1399233727",
     "geom:latitude":49.091488,
     "geom:longitude":8.475491,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":23580,
-    "gn:population":23414,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":23580,
     "iso:country":"DE",
     "lbl:latitude":49.064488,
     "lbl:longitude":8.469585,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":49.064488,
     "mps:longitude":8.469585,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Stutensee"
     ],
@@ -323,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:area":45.65,
     "wd:latitude":49.064722,
@@ -346,10 +348,12 @@
     "wof:concordances":{
         "gn:id":2825311,
         "gp:id":698057,
-        "qs:id":1243858,
         "qs_pg:id":846016,
         "wd:id":"Q22884",
         "wk:page":"Stutensee"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1243858
     },
     "wof:country":"DE",
     "wof:geomhash":"3e7f5bdc5b01a2f473d72299ea1bd9ef",
@@ -365,7 +369,7 @@
         }
     ],
     "wof:id":101760749,
-    "wof:lastmodified":1563266519,
+    "wof:lastmodified":1566717133,
     "wof:name":"Stutensee",
     "wof:parent_id":1377688267,
     "wof:placetype":"locality",

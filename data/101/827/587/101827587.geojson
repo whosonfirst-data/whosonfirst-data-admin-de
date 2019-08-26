@@ -9,17 +9,19 @@
     "geom:bbox":"8.4467266724,48.9023740981,8.49554055517,48.9463698312",
     "geom:latitude":48.923829,
     "geom:longitude":8.469849,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":12402,
-    "gn:population":12010,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":12402,
     "iso:country":"DE",
     "lbl:latitude":48.928579,
     "lbl:longitude":8.474229,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":48.928579,
     "mps:longitude":8.474229,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Waldbronn"
     ],
@@ -310,7 +312,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":170,
     "woe:adm0_id":23424829,
@@ -329,10 +331,12 @@
     "wof:concordances":{
         "gn:id":2815077,
         "gp:id":20160506,
-        "qs:id":1152336,
         "qs_pg:id":501567,
         "wd:id":"Q542533",
         "wk:page":"Waldbronn"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1152336
     },
     "wof:country":"DE",
     "wof:geomhash":"31d00bc54a5aa551d8b16164d1556bd5",
@@ -348,7 +352,7 @@
         }
     ],
     "wof:id":101827587,
-    "wof:lastmodified":1561773599,
+    "wof:lastmodified":1566716807,
     "wof:name":"Waldbronn",
     "wof:parent_id":1377688277,
     "wof:placetype":"locality",

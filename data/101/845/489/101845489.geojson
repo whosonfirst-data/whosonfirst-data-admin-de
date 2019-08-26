@@ -13,10 +13,13 @@
     "iso:country":"DE",
     "lbl:latitude":47.606861,
     "lbl:longitude":12.901314,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":47.606861,
     "mps:longitude":12.901314,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0631\u0627\u0645\u0633\u0622\u0648"
     ],
@@ -128,9 +131,6 @@
     "name:ukr_x_preferred":[
         "\u0420\u0430\u043c\u0437\u0430\u0443-\u0431\u0430\u0439-\u0411\u0435\u0440\u0445\u0442\u0435\u0441\u0433\u0430\u0434\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Ramsau"
-    ],
     "name:uzb_x_preferred":[
         "Ramsau bei Berchtesgaden"
     ],
@@ -170,7 +170,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":162,
     "wof:belongsto":[
@@ -185,10 +185,12 @@
     "wof:concordances":{
         "gn:id":2850603,
         "gp:id":686789,
-        "qs:id":906493,
         "qs_pg:id":253854,
         "wd:id":"Q253472",
         "wk:page":"Ramsau bei Berchtesgaden"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":906493
     },
     "wof:country":"DE",
     "wof:geomhash":"3b3eae60c6c49f60c84082c1bfb1e543",
@@ -204,7 +206,7 @@
         }
     ],
     "wof:id":101845489,
-    "wof:lastmodified":1564166269,
+    "wof:lastmodified":1566716856,
     "wof:name":"Ramsau b. Berchtesgaden",
     "wof:parent_id":1377690937,
     "wof:placetype":"locality",

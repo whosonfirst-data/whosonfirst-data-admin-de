@@ -9,17 +9,19 @@
     "geom:bbox":"9.99600789988,51.184531341,10.1497907322,51.2545759154",
     "geom:latitude":51.216472,
     "geom:longitude":10.071223,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4948,
-    "gn:population":4768,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4948,
     "iso:country":"DE",
     "lbl:latitude":51.221874,
     "lbl:longitude":10.055146,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":51.221874,
     "mps:longitude":10.055146,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Meinhard"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -316,10 +318,12 @@
     "wof:concordances":{
         "gn:id":2848798,
         "gp:id":15002710,
-        "qs:id":95233,
-        "qs_pg:id":473290,
+        "qs_pg:id":95233,
         "wd:id":"Q504474",
         "wk:page":"Meinhard"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":473290
     },
     "wof:country":"DE",
     "wof:geomhash":"e8ed5a96e04c75162e87dc0c07beb061",
@@ -335,7 +339,7 @@
         }
     ],
     "wof:id":101810047,
-    "wof:lastmodified":1563264828,
+    "wof:lastmodified":1566716886,
     "wof:name":"Meinhard",
     "wof:parent_id":1377685119,
     "wof:placetype":"locality",

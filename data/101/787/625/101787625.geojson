@@ -9,17 +9,19 @@
     "geom:bbox":"11.3274824248,47.792698346,11.4182212936,47.9335981935",
     "geom:latitude":47.874155,
     "geom:longitude":11.362499,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4138,
-    "gn:population":4047,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4138,
     "iso:country":"DE",
     "lbl:latitude":47.903223,
     "lbl:longitude":11.368348,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":47.903223,
     "mps:longitude":11.368348,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "M\u00fcnsing"
     ],
@@ -307,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":28,
     "woe:adm0_id":23424829,
@@ -326,10 +328,12 @@
     "wof:concordances":{
         "gn:id":2867486,
         "gp:id":676847,
-        "qs:id":847367,
         "qs_pg:id":264335,
         "wd:id":"Q532939",
         "wk:page":"M\u00fcnsing"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":847367
     },
     "wof:country":"DE",
     "wof:geomhash":"245b24be8efc9910ab371a36f59795e1",
@@ -345,7 +349,7 @@
         }
     ],
     "wof:id":101787625,
-    "wof:lastmodified":1563269423,
+    "wof:lastmodified":1566717539,
     "wof:name":"M\u00fcnsing",
     "wof:parent_id":1377691089,
     "wof:placetype":"locality",

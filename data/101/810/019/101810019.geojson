@@ -9,17 +9,19 @@
     "geom:bbox":"6.62450605253,51.01508882,6.76171597097,51.111350395",
     "geom:latitude":51.056876,
     "geom:longitude":6.69066,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13037,
-    "gn:population":12554,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":13037,
     "iso:country":"DE",
     "lbl:latitude":51.032481,
     "lbl:longitude":6.693026,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.032481,
     "mps:longitude":6.693026,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Rommerskirchen"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":150,
     "woe:adm0_id":23424829,
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":2845273,
         "gp:id":689489,
-        "qs:id":93161,
-        "qs_pg:id":981960,
+        "qs_pg:id":93161,
         "wd:id":"Q255235",
         "wk:page":"Rommerskirchen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":981960
     },
     "wof:country":"DE",
     "wof:geomhash":"c9e5bcaeaec93496f502dfc2df803bf1",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101810019,
-    "wof:lastmodified":1563264941,
+    "wof:lastmodified":1566716905,
     "wof:name":"Rommerskirchen",
     "wof:parent_id":1377689775,
     "wof:placetype":"locality",

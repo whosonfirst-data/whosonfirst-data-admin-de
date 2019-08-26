@@ -9,17 +9,19 @@
     "geom:bbox":"10.7951989092,48.3415419349,10.859811259,48.3805066487",
     "geom:latitude":48.359761,
     "geom:longitude":10.831522,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":14740,
-    "gn:population":14705,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":14740,
     "iso:country":"DE",
     "lbl:latitude":48.364917,
     "lbl:longitude":10.847708,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":48.364917,
     "mps:longitude":10.847708,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Stadtbergen"
     ],
@@ -242,7 +244,7 @@
     "name:ukr_x_preferred":[
         "\u0428\u0442\u0430\u0434\u0442\u0431\u0435\u0440\u0433\u0435\u043d"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Stadtberger"
     ],
     "name:uzb_x_preferred":[
@@ -316,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:latitude":48.366667,
     "wd:longitude":10.85,
@@ -338,10 +340,12 @@
     "wof:concordances":{
         "gn:id":2829790,
         "gp:id":696212,
-        "qs:id":141733,
-        "qs_pg:id":1151607,
+        "qs_pg:id":141733,
         "wd:id":"Q503300",
         "wk:page":"Stadtbergen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1151607
     },
     "wof:country":"DE",
     "wof:geomhash":"69b02f21d2db8ec404f7adc9c534e358",
@@ -357,7 +361,7 @@
         }
     ],
     "wof:id":101756239,
-    "wof:lastmodified":1563266706,
+    "wof:lastmodified":1566717160,
     "wof:name":"Stadtbergen",
     "wof:parent_id":1377693469,
     "wof:placetype":"locality",

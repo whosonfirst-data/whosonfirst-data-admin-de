@@ -9,17 +9,19 @@
     "geom:bbox":"7.69144870227,51.3891112269,7.89761553043,51.4785333261",
     "geom:latitude":51.437131,
     "geom:longitude":7.80321,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":56078,
-    "gn:population":58451,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":56078,
     "iso:country":"DE",
     "lbl:latitude":51.441248,
     "lbl:longitude":7.787012,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.5,
     "mps:latitude":51.441248,
     "mps:longitude":7.787012,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":8.0,
     "name:afr_x_preferred":[
         "Menden"
     ],
@@ -242,9 +244,6 @@
     "name:ukr_x_preferred":[
         "\u041c\u0435\u043d\u0434\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Menden"
-    ],
     "name:uzb_x_preferred":[
         "Menden"
     ],
@@ -307,7 +306,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682513,
@@ -321,10 +320,12 @@
     "wof:concordances":{
         "gn:id":2871984,
         "gp:id":674745,
-        "qs:id":210715,
-        "qs_pg:id":264334,
+        "qs_pg:id":210715,
         "wd:id":"Q4086",
         "wk:page":"Menden"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":264334
     },
     "wof:country":"DE",
     "wof:geomhash":"6adcc1efb64bb314ad0e6edc715140a9",
@@ -340,7 +341,7 @@
         }
     ],
     "wof:id":101748691,
-    "wof:lastmodified":1563266128,
+    "wof:lastmodified":1566717080,
     "wof:name":"Menden (Sauerland)",
     "wof:parent_id":1377692391,
     "wof:placetype":"locality",

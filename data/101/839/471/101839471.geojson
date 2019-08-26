@@ -9,17 +9,19 @@
     "geom:bbox":"7.65724647066,50.754972009,7.69671350341,50.77786565",
     "geom:latitude":50.765463,
     "geom:longitude":7.675444,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3298,
-    "gn:population":3406,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3298,
     "iso:country":"DE",
     "lbl:latitude":50.763249,
     "lbl:longitude":7.678753,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.763249,
     "mps:longitude":7.678753,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ces_x_preferred":[
         "Hamm"
     ],
@@ -89,9 +91,6 @@
     "name:ukr_x_preferred":[
         "\u0413\u0430\u043c\u043c"
     ],
-    "name:unk_x_variant":[
-        "Hamm"
-    ],
     "name:uzb_x_preferred":[
         "Hamm"
     ],
@@ -135,7 +134,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682491,
@@ -148,10 +147,12 @@
     "wof:concordances":{
         "gn:id":2911245,
         "gp:id":20163204,
-        "qs:id":255089,
-        "qs_pg:id":955732,
+        "qs_pg:id":255089,
         "wd:id":"Q656322",
         "wk:page":"Hamm (Verbandsgemeinde)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":955732
     },
     "wof:country":"DE",
     "wof:geomhash":"6c395c309a671d312f83b0af4b121500",
@@ -166,7 +167,7 @@
         }
     ],
     "wof:id":101839471,
-    "wof:lastmodified":1563269010,
+    "wof:lastmodified":1566717479,
     "wof:name":"Hamm (Sieg)",
     "wof:parent_id":1377685327,
     "wof:placetype":"locality",

@@ -9,13 +9,14 @@
     "geom:bbox":"7.47396294277,51.8401911513,7.77422178774,52.0601755096",
     "geom:latitude":51.954317,
     "geom:longitude":7.62365,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":275543,
-    "gn:population":270184,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":275543,
     "iso:country":"DE",
     "lbl:latitude":51.954044,
     "lbl:longitude":7.624747,
+    "lbl:max_zoom":13.0,
+    "lbl:min_zoom":8.0,
     "mps:latitude":51.954044,
     "mps:longitude":7.624747,
     "mz:hierarchy_label":1,
@@ -333,7 +334,7 @@
     "name:ukr_x_preferred":[
         "\u041c\u044e\u043d\u0441\u0442\u0435\u0440"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Muenster"
     ],
     "name:urd_x_preferred":[
@@ -496,7 +497,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682513,
@@ -511,10 +512,12 @@
         "gn:id":2867543,
         "gp:id":676864,
         "loc:id":"n82040141",
-        "qs:id":240501,
-        "qs_pg:id":1068063,
+        "qs_pg:id":240501,
         "wd:id":"Q2742",
         "wk:page":"M\u00fcnster"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1068063
     },
     "wof:coterminous":[
         102063863
@@ -533,7 +536,7 @@
         }
     ],
     "wof:id":101913895,
-    "wof:lastmodified":1563266424,
+    "wof:lastmodified":1566717117,
     "wof:name":"M\u00fcnster",
     "wof:parent_id":1377690775,
     "wof:placetype":"locality",

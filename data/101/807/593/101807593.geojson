@@ -9,17 +9,19 @@
     "geom:bbox":"9.99512509702,52.222073815,10.1434405583,52.3419403185",
     "geom:latitude":52.269203,
     "geom:longitude":10.077424,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9350,
-    "gn:population":9815,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9350,
     "iso:country":"DE",
     "lbl:latitude":52.259262,
     "lbl:longitude":10.067558,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":52.259262,
     "mps:longitude":10.067558,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Hohenhameln"
     ],
@@ -162,7 +164,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":81,
     "woe:adm0_id":23424829,
@@ -180,10 +182,12 @@
     "wof:concordances":{
         "gn:id":2901731,
         "gp:id":661194,
-        "qs:id":142398,
-        "qs_pg:id":954220,
+        "qs_pg:id":142398,
         "wd:id":"Q569132",
         "wk:page":"Hohenhameln"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":954220
     },
     "wof:country":"DE",
     "wof:geomhash":"eeda24ce7a7d09576774f3a16ef9b747",
@@ -198,7 +202,7 @@
         }
     ],
     "wof:id":101807593,
-    "wof:lastmodified":1563268285,
+    "wof:lastmodified":1566717378,
     "wof:name":"Hohenhameln",
     "wof:parent_id":1377686041,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"9.11459613961,48.4128359075,9.25573276834,48.5784391246",
     "geom:latitude":48.493891,
     "geom:longitude":9.188262,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":112132,
-    "gn:population":112627,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":112132,
     "iso:country":"DE",
     "lbl:latitude":48.492368,
     "lbl:longitude":9.205621,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.0,
     "mps:latitude":48.492368,
     "mps:longitude":9.205621,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":7.0,
     "name:afr_x_preferred":[
         "Reutlingen"
     ],
@@ -311,9 +313,6 @@
     "name:ukr_x_preferred":[
         "\u0420\u043e\u0439\u0442\u043b\u0456\u043d\u0433\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Reutlingen"
-    ],
     "name:urd_x_preferred":[
         "\u0631\u06cc\u0648\u062a\u0644\u06cc\u0646\u062c\u06cc\u0646"
     ],
@@ -388,7 +387,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:area":87.03,
     "wd:latitude":48.483333,
@@ -411,10 +410,12 @@
     "wof:concordances":{
         "gn:id":2847736,
         "gp:id":688262,
-        "qs:id":426872,
-        "qs_pg:id":1150438,
+        "qs_pg:id":426872,
         "wd:id":"Q3085",
         "wk:page":"Reutlingen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1150438
     },
     "wof:country":"DE",
     "wof:geomhash":"0e8c6ffc00ed2e914b7f240b00511299",
@@ -430,7 +431,7 @@
         }
     ],
     "wof:id":101748489,
-    "wof:lastmodified":1563266112,
+    "wof:lastmodified":1566717078,
     "wof:name":"Reutlingen",
     "wof:parent_id":1377689907,
     "wof:placetype":"locality",

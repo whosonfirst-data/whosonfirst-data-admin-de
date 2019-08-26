@@ -9,17 +9,19 @@
     "geom:bbox":"12.8522092417,52.2737925429,13.0228409721,52.3923207943",
     "geom:latitude":52.325923,
     "geom:longitude":12.938513,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10172,
-    "gn:population":10054,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10172,
     "iso:country":"DE",
     "lbl:latitude":52.339546,
     "lbl:longitude":12.984502,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":52.339546,
     "mps:longitude":12.984502,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Schwielowsee"
     ],
@@ -291,7 +293,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -308,10 +310,12 @@
     "wof:concordances":{
         "gn:id":6547682,
         "gp:id":29352115,
-        "qs:id":378452,
-        "qs_pg:id":1155080,
+        "qs_pg:id":378452,
         "wd:id":"Q625403",
         "wk:page":"Schwielowsee (municipality)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1155080
     },
     "wof:country":"DE",
     "wof:geomhash":"abb36094b42747df938ccfbea03617dd",
@@ -326,7 +330,7 @@
         }
     ],
     "wof:id":101820657,
-    "wof:lastmodified":1563264399,
+    "wof:lastmodified":1566716824,
     "wof:name":"Schwielowsee",
     "wof:parent_id":1377683817,
     "wof:placetype":"locality",

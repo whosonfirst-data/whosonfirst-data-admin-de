@@ -9,17 +9,19 @@
     "geom:bbox":"8.54758632273,50.1554761514,8.59041694942,50.1950918649",
     "geom:latitude":50.170926,
     "geom:longitude":8.57103,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9988,
-    "gn:population":10170,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9988,
     "iso:country":"DE",
     "lbl:latitude":50.16922,
     "lbl:longitude":8.572149,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":50.16922,
     "mps:longitude":8.572149,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Steinbach"
     ],
@@ -230,9 +232,6 @@
     "name:ukr_x_preferred":[
         "\u0428\u0442\u0430\u0439\u043d\u0431\u0430\u0445"
     ],
-    "name:unk_x_variant":[
-        "Steinbach"
-    ],
     "name:uzb_x_preferred":[
         "Steinbach"
     ],
@@ -295,7 +294,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":50.167778,
     "wd:longitude":8.571875,
@@ -312,10 +311,12 @@
     "wof:concordances":{
         "gn:id":2828797,
         "gp:id":696641,
-        "qs:id":847264,
-        "qs_pg:id":1166648,
+        "qs_pg:id":847264,
         "wd:id":"Q622573",
         "wk:page":"Steinbach (Taunus)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1166648
     },
     "wof:country":"DE",
     "wof:geomhash":"4873d1118be111dca621930bc80ca8e3",
@@ -331,7 +332,7 @@
         }
     ],
     "wof:id":101840053,
-    "wof:lastmodified":1564166277,
+    "wof:lastmodified":1566717308,
     "wof:name":"Steinbach (Taunus)",
     "wof:parent_id":1377693439,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"8.49628538504,50.2006699102,8.71238031398,50.274665887",
     "geom:latitude":50.235815,
     "geom:longitude":8.599531,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":51887,
-    "gn:population":52108,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":51887,
     "iso:country":"DE",
     "lbl:latitude":50.23041,
     "lbl:longitude":8.610123,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.5,
     "mps:latitude":50.23041,
     "mps:longitude":8.610123,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":8.0,
     "name:afr_x_preferred":[
         "Bad Homburg vor der H\u00f6he"
     ],
@@ -182,7 +184,7 @@
     "name:ukr_x_preferred":[
         "\u0411\u0430\u0434-\u0413\u043e\u043c\u0431\u0443\u0440\u0433"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Stadt Bad Homburg v.d. H\u00f6he"
     ],
     "name:uzb_x_preferred":[
@@ -232,7 +234,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":50.229236,
     "wd:longitude":8.610486,
@@ -249,9 +251,11 @@
     "wof:concordances":{
         "gn:id":2953436,
         "gp:id":636438,
-        "qs:id":639132,
         "qs_pg:id":366805,
         "wd:id":"Q4165"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":639132
     },
     "wof:country":"DE",
     "wof:geomhash":"72a00a319a53f9d805377f1ca76c78e5",
@@ -267,7 +271,7 @@
         }
     ],
     "wof:id":101748581,
-    "wof:lastmodified":1564166274,
+    "wof:lastmodified":1566717071,
     "wof:name":"Bad Homburg v.d. H\u00f6he",
     "wof:parent_id":1377693359,
     "wof:placetype":"locality",

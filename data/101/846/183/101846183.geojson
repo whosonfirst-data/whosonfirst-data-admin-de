@@ -9,17 +9,19 @@
     "geom:bbox":"9.76869848267,49.7420684701,9.81347577298,49.7786684344",
     "geom:latitude":49.759839,
     "geom:longitude":9.792064,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4860,
-    "gn:population":4647,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4860,
     "iso:country":"DE",
     "lbl:latitude":49.463335,
     "lbl:longitude":9.076778,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":49.463335,
     "mps:longitude":9.076778,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Waldbrunn"
     ],
@@ -303,7 +305,7 @@
         "quattroshapes",
         "de-bkg"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
@@ -322,10 +324,12 @@
     "wof:concordances":{
         "gn:id":3274262,
         "gp:id":15002823,
-        "qs:id":1031994,
         "qs_pg:id":22223,
         "wd:id":"Q552231",
         "wk:page":"Waldbrunn, Baden-W\u00fcrttemberg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1031994
     },
     "wof:country":"DE",
     "wof:geomhash":"c4881dbaf12868084e2afb54e3f7aa0d",
@@ -341,7 +345,7 @@
         }
     ],
     "wof:id":101846183,
-    "wof:lastmodified":1563267199,
+    "wof:lastmodified":1566717228,
     "wof:name":"Waldbrunn",
     "wof:parent_id":1377688519,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"8.01172292101,51.4215599815,8.23608050357,51.5332055915",
     "geom:latitude":51.484879,
     "geom:longitude":8.123335,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":11486,
-    "gn:population":11559,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":11486,
     "iso:country":"DE",
     "lbl:latitude":51.497096,
     "lbl:longitude":8.1347,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.497096,
     "mps:longitude":8.1347,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "M\u00f6hnesee"
     ],
@@ -286,7 +288,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":125,
     "woe:adm0_id":23424829,
@@ -305,9 +307,11 @@
     "wof:concordances":{
         "gn:id":3207377,
         "gp:id":15002714,
-        "qs:id":147365,
-        "qs_pg:id":1061814,
+        "qs_pg:id":147365,
         "wd:id":"Q11140"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1061814
     },
     "wof:country":"DE",
     "wof:geomhash":"c9d1de45612f619db1d4cb6452130d66",
@@ -323,7 +327,7 @@
         }
     ],
     "wof:id":101810249,
-    "wof:lastmodified":1563264934,
+    "wof:lastmodified":1566716904,
     "wof:name":"M\u00f6hnesee",
     "wof:parent_id":1377692641,
     "wof:placetype":"locality",

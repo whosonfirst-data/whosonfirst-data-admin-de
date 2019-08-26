@@ -9,17 +9,19 @@
     "geom:bbox":"10.3218775433,47.3702694771,10.475964914,47.5611344798",
     "geom:latitude":47.466852,
     "geom:longitude":10.401614,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4837,
-    "gn:population":4863,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4837,
     "iso:country":"DE",
     "lbl:latitude":47.506131,
     "lbl:longitude":10.371389,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":47.506131,
     "mps:longitude":10.371389,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Bad Hindelang"
     ],
@@ -316,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":696,
     "woe:adm0_id":23424829,
@@ -335,10 +337,12 @@
     "wof:concordances":{
         "gn:id":2904473,
         "gp:id":660049,
-        "qs:id":466859,
-        "qs_pg:id":903040,
+        "qs_pg:id":466859,
         "wd:id":"Q522573",
         "wk:page":"Argyll"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":903040
     },
     "wof:country":"DE",
     "wof:geomhash":"49ec05d3aa3ae2deb105c396df3530cd",
@@ -354,7 +358,7 @@
         }
     ],
     "wof:id":101788909,
-    "wof:lastmodified":1563269155,
+    "wof:lastmodified":1566717501,
     "wof:name":"Bad Hindelang",
     "wof:parent_id":1377693541,
     "wof:placetype":"locality",

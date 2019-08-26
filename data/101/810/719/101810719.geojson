@@ -9,17 +9,19 @@
     "geom:bbox":"7.57378935003,50.5330355281,7.6233841698,50.5603369061",
     "geom:latitude":50.546465,
     "geom:longitude":7.599448,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1000,
-    "gn:population":1011,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1000,
     "iso:country":"DE",
     "lbl:latitude":50.544374,
     "lbl:longitude":7.597885,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":50.544374,
     "mps:longitude":7.597885,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Dernbach"
     ],
@@ -270,7 +272,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":133,
     "woe:adm0_id":23424829,
@@ -288,9 +290,11 @@
     "wof:concordances":{
         "gn:id":2938065,
         "gp:id":29349074,
-        "qs:id":279293,
-        "qs_pg:id":887120,
+        "qs_pg:id":279293,
         "wd:id":"Q404469"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":887120
     },
     "wof:country":"DE",
     "wof:geomhash":"ed0f9ea8ebdb244846effaa32426f182",
@@ -305,7 +309,7 @@
         }
     ],
     "wof:id":101810719,
-    "wof:lastmodified":1563264984,
+    "wof:lastmodified":1566716912,
     "wof:name":"Dernbach",
     "wof:parent_id":1377685639,
     "wof:placetype":"locality",

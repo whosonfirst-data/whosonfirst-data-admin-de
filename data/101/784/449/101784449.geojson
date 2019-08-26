@@ -9,17 +9,19 @@
     "geom:bbox":"10.8789633339,48.5840821476,10.9316143369,48.6516759272",
     "geom:latitude":48.619669,
     "geom:longitude":10.905937,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1023,
-    "gn:population":1124,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1023,
     "iso:country":"DE",
     "lbl:latitude":48.621842,
     "lbl:longitude":10.904617,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":48.621842,
     "mps:longitude":10.904617,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "M\u00fcnster"
     ],
@@ -283,7 +285,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682571,
@@ -297,9 +299,11 @@
     "wof:concordances":{
         "gn:id":2867555,
         "gp:id":676859,
-        "qs:id":4,
-        "qs_pg:id":1240702,
+        "qs_pg:id":4,
         "wd:id":"Q256895"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1240702
     },
     "wof:country":"DE",
     "wof:geomhash":"7cb26bc9d56fa8b813937bd6398d9921",
@@ -315,7 +319,7 @@
         }
     ],
     "wof:id":101784449,
-    "wof:lastmodified":1561773727,
+    "wof:lastmodified":1566717102,
     "wof:name":"M\u00fcnster",
     "wof:parent_id":1377693437,
     "wof:placetype":"locality",

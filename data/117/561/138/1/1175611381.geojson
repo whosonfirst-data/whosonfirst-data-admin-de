@@ -9,17 +9,19 @@
     "geom:bbox":"9.92568089205,54.0175577277,10.0584678807,54.1498848282",
     "geom:latitude":54.081128,
     "geom:longitude":9.984472,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":76897,
-    "gn:population":78383,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":76897,
     "iso:country":"DE",
     "lbl:latitude":54.070224,
     "lbl:longitude":9.982761,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.5,
     "mps:latitude":54.070224,
     "mps:longitude":9.982761,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":8.0,
     "name:afr_x_preferred":[
         "Neum\u00fcnster"
     ],
@@ -263,9 +265,6 @@
     "name:ukr_x_preferred":[
         "\u041d\u043e\u0439\u043c\u044e\u043d\u0441\u0442\u0435\u0440"
     ],
-    "name:unk_x_variant":[
-        "Neum\u00fcnster"
-    ],
     "name:uzb_x_preferred":[
         "Neum\u00fcnster"
     ],
@@ -339,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -356,10 +355,12 @@
     "wof:concordances":{
         "gn:id":2864475,
         "gp:id":678808,
-        "qs:id":5,
-        "qs_pg:id":455919,
+        "qs_pg:id":5,
         "wd:id":"Q3879",
         "wk:page":"Neum\u00fcnster"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":455919
     },
     "wof:coterminous":[
         102064105
@@ -377,7 +378,7 @@
         }
     ],
     "wof:id":1175611381,
-    "wof:lastmodified":1563253192,
+    "wof:lastmodified":1566713067,
     "wof:name":"Neum\u00fcnster",
     "wof:parent_id":1377683385,
     "wof:placetype":"locality",

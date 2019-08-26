@@ -9,17 +9,19 @@
     "geom:bbox":"8.41676526818,54.7060405342,8.50490226456,54.7524026614",
     "geom:latitude":54.734753,
     "geom:longitude":8.46245,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":562,
-    "gn:population":566,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":562,
     "iso:country":"DE",
     "lbl:latitude":54.730805,
     "lbl:longitude":8.453634,
+    "lbl:max_zoom":17.0,
+    "lbl:min_zoom":12.5,
     "mps:latitude":54.730805,
     "mps:longitude":8.453634,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Oldsum"
     ],
@@ -309,7 +311,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":511,
     "woe:adm0_id":23424829,
@@ -326,9 +328,11 @@
     "wof:concordances":{
         "gn:id":3208561,
         "gp:id":20164987,
-        "qs:id":992554,
-        "qs_pg:id":1118465,
+        "qs_pg:id":992554,
         "wd:id":"Q20785"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1118465
     },
     "wof:country":"DE",
     "wof:geomhash":"f817b7e206bb1f53e6b46ea67d11d23d",
@@ -342,7 +346,7 @@
         }
     ],
     "wof:id":101906391,
-    "wof:lastmodified":1563263333,
+    "wof:lastmodified":1566716671,
     "wof:name":"Oldsum",
     "wof:parent_id":1377683629,
     "wof:placetype":"locality",

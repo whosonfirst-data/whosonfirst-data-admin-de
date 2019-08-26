@@ -9,13 +9,14 @@
     "geom:bbox":"9.87167328783,49.7101618295,10.0143975383,49.8456301077",
     "geom:latitude":49.784663,
     "geom:longitude":9.940874,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":133195,
-    "gn:population":133731,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":133195,
     "iso:country":"DE",
     "lbl:latitude":49.784984,
     "lbl:longitude":9.941828,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.0,
     "mps:latitude":49.784984,
     "mps:longitude":9.941828,
     "mz:hierarchy_label":1,
@@ -310,9 +311,6 @@
     "name:ukr_x_preferred":[
         "\u0412\u044e\u0440\u0446\u0431\u0443\u0440\u0433"
     ],
-    "name:unk_x_variant":[
-        "Wurzburg"
-    ],
     "name:urd_x_preferred":[
         "\u0648\u0632\u0628\u0631\u06af"
     ],
@@ -464,7 +462,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -482,10 +480,12 @@
     "wof:concordances":{
         "gn:id":2805615,
         "gp:id":708287,
-        "qs:id":240496,
-        "qs_pg:id":849400,
+        "qs_pg:id":240496,
         "wd:id":"Q2999",
         "wk:page":"W\u00fcrzburg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":849400
     },
     "wof:coterminous":[
         102063517
@@ -504,7 +504,7 @@
         }
     ],
     "wof:id":101748557,
-    "wof:lastmodified":1563265972,
+    "wof:lastmodified":1566717065,
     "wof:name":"W\u00fcrzburg",
     "wof:parent_id":1377690317,
     "wof:placetype":"locality",

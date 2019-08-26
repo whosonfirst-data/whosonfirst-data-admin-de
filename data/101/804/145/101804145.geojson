@@ -9,17 +9,19 @@
     "geom:bbox":"8.51699923514,52.3330463907,8.72420311079,52.4163477191",
     "geom:latitude":52.371539,
     "geom:longitude":8.624436,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":25240,
-    "gn:population":26378,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":25240,
     "iso:country":"DE",
     "lbl:latitude":52.380084,
     "lbl:longitude":8.624842,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":52.380084,
     "mps:longitude":8.624842,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Espelkamp"
     ],
@@ -236,7 +238,7 @@
     "name:ukr_x_preferred":[
         "\u0415\u0441\u043f\u0435\u043b\u044c\u043a\u0430\u043c\u043f"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Mittwald"
     ],
     "name:uzb_x_preferred":[
@@ -310,7 +312,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":71,
     "woe:adm0_id":23424829,
@@ -329,10 +331,12 @@
     "wof:concordances":{
         "gn:id":2928874,
         "gp:id":648787,
-        "qs:id":350528,
         "qs_pg:id":142607,
         "wd:id":"Q182691",
         "wk:page":"Jarkovac"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":350528
     },
     "wof:country":"DE",
     "wof:geomhash":"8acca20caa8199b3a488ed050a913e56",
@@ -348,7 +352,7 @@
         }
     ],
     "wof:id":101804145,
-    "wof:lastmodified":1563265605,
+    "wof:lastmodified":1566717011,
     "wof:name":"Espelkamp",
     "wof:parent_id":1377691903,
     "wof:placetype":"locality",

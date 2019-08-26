@@ -9,17 +9,19 @@
     "geom:bbox":"8.66874016043,51.6068035181,8.85952603904,51.6956740229",
     "geom:latitude":51.651609,
     "geom:longitude":8.769907,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13508,
-    "gn:population":13144,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":13508,
     "iso:country":"DE",
     "lbl:latitude":51.668598,
     "lbl:longitude":8.725358,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.668598,
     "mps:longitude":8.725358,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Borchen"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":293,
     "woe:adm0_id":23424829,
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":3207325,
         "gp:id":20171916,
-        "qs:id":1031600,
         "qs_pg:id":343363,
         "wd:id":"Q183374",
         "wk:page":"Borchen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1031600
     },
     "wof:country":"DE",
     "wof:geomhash":"3bd0e68873fcddecf483efe716531a7d",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101808937,
-    "wof:lastmodified":1563268654,
+    "wof:lastmodified":1566717429,
     "wof:name":"Borchen",
     "wof:parent_id":1377692007,
     "wof:placetype":"locality",

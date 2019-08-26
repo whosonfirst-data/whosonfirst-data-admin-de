@@ -9,17 +9,19 @@
     "geom:bbox":"9.07297099196,52.8931891222,9.18872075952,52.9736033588",
     "geom:latitude":52.928739,
     "geom:longitude":9.136687,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2931,
-    "gn:population":2954,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":2931,
     "iso:country":"DE",
     "lbl:latitude":52.924316,
     "lbl:longitude":9.133119,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":52.924316,
     "mps:longitude":9.133119,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Blender"
     ],
@@ -297,7 +299,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
@@ -315,10 +317,12 @@
     "wof:concordances":{
         "gn:id":2947810,
         "gp:id":639474,
-        "qs:id":209288,
         "qs_pg:id":142830,
         "wd:id":"Q506791",
         "wk:page":"Blender, Germany"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":209288
     },
     "wof:country":"DE",
     "wof:geomhash":"97df9eb01f2397eb9458100ea7fe8845",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101808025,
-    "wof:lastmodified":1563268663,
+    "wof:lastmodified":1566717430,
     "wof:name":"Blender",
     "wof:parent_id":1377688085,
     "wof:placetype":"locality",

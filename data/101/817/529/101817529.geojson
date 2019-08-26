@@ -9,17 +9,19 @@
     "geom:bbox":"13.408369839,54.5355897608,13.5491588288,54.5800275545",
     "geom:latitude":54.561455,
     "geom:longitude":13.491752,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1024,
-    "gn:population":1015,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1024,
     "iso:country":"DE",
     "lbl:latitude":54.568184,
     "lbl:longitude":13.477686,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":54.568184,
     "mps:longitude":13.477686,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Glowe"
     ],
@@ -294,7 +296,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":386,
     "woe:adm0_id":23424829,
@@ -312,10 +314,12 @@
     "wof:concordances":{
         "gn:id":2919782,
         "gp:id":652891,
-        "qs:id":142519,
-        "qs_pg:id":1145933,
+        "qs_pg:id":142519,
         "wd:id":"Q561014",
         "wk:page":"Glowe"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1145933
     },
     "wof:country":"DE",
     "wof:geomhash":"ecd9e4cb816b3de9830208f28f8677ff",
@@ -330,7 +334,7 @@
         }
     ],
     "wof:id":101817529,
-    "wof:lastmodified":1563265071,
+    "wof:lastmodified":1566716926,
     "wof:name":"Glowe",
     "wof:parent_id":1377684975,
     "wof:placetype":"locality",

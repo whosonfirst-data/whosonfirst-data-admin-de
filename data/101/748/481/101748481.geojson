@@ -9,13 +9,14 @@
     "geom:bbox":"10.764189862,48.2582322637,10.959205528,48.4586536446",
     "geom:latitude":48.345591,
     "geom:longitude":10.885504,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":263646,
-    "gn:population":259196,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":263646,
     "iso:country":"DE",
     "lbl:latitude":48.369338,
     "lbl:longitude":10.896842,
+    "lbl:max_zoom":13.0,
+    "lbl:min_zoom":8.0,
     "mps:latitude":48.369338,
     "mps:longitude":10.896842,
     "mz:hierarchy_label":1,
@@ -378,7 +379,7 @@
     "name:ukr_x_preferred":[
         "\u0410\u0443\u0433\u0441\u0431\u0443\u0440\u0433"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Augsberg"
     ],
     "name:urd_x_preferred":[
@@ -547,7 +548,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682571,
@@ -562,10 +563,12 @@
         "gn:id":2954172,
         "gp:id":636080,
         "loc:id":"n50073906",
-        "qs:id":352777,
-        "qs_pg:id":1143881,
+        "qs_pg:id":352777,
         "wd:id":"Q2749",
         "wk:page":"Augsburg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1143881
     },
     "wof:coterminous":[
         102063283
@@ -584,7 +587,7 @@
         }
     ],
     "wof:id":101748481,
-    "wof:lastmodified":1563266095,
+    "wof:lastmodified":1566717076,
     "wof:megacity":0,
     "wof:name":"Augsburg",
     "wof:parent_id":1377692203,

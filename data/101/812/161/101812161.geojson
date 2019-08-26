@@ -9,17 +9,19 @@
     "geom:bbox":"9.0126823961,50.2027804469,9.07737637224,50.2496333347",
     "geom:latitude":50.224699,
     "geom:longitude":9.047406,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3249,
-    "gn:population":3349,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":3249,
     "iso:country":"DE",
     "lbl:latitude":50.216744,
     "lbl:longitude":9.042575,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.216744,
     "mps:longitude":9.042575,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Ronneburg"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":751,
     "woe:adm0_id":23424829,
@@ -317,10 +319,12 @@
     "wof:concordances":{
         "gn:id":6553191,
         "gp:id":15002769,
-        "qs:id":378785,
-        "qs_pg:id":927583,
+        "qs_pg:id":378785,
         "wd:id":"Q622215",
         "wk:page":"Ronneburg, Hesse"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":927583
     },
     "wof:country":"DE",
     "wof:geomhash":"a653ee44478b8faf0f820ee3ae5691fd",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101812161,
-    "wof:lastmodified":1563267495,
+    "wof:lastmodified":1566717270,
     "wof:name":"Ronneburg",
     "wof:parent_id":1377693683,
     "wof:placetype":"locality",

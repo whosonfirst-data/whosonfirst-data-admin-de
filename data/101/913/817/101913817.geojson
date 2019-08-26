@@ -9,17 +9,19 @@
     "geom:bbox":"6.8049309224,51.3512410002,6.95925457796,51.4712854225",
     "geom:latitude":51.413761,
     "geom:longitude":6.878445,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":167471,
-    "gn:population":166654,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":167471,
     "iso:country":"DE",
     "lbl:latitude":51.437117,
     "lbl:longitude":6.894836,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.0,
     "mps:latitude":51.437117,
     "mps:longitude":6.894836,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":7.0,
     "name:afr_x_preferred":[
         "M\u00fclheim an der Ruhr"
     ],
@@ -274,7 +276,7 @@
     "name:ukr_x_variant":[
         "\u041c\u044e\u043b\u044c\u0445\u0430\u0439\u043c \u0430\u043d \u0434\u0435\u0440 \u0420\u0443\u0440"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Stadt M\u00fclheim an der Ruhr"
     ],
     "name:urd_x_preferred":[
@@ -333,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682513,
@@ -347,10 +349,12 @@
     "wof:concordances":{
         "gn:id":2867838,
         "gp:id":676694,
-        "qs:id":634083,
-        "qs_pg:id":787634,
+        "qs_pg:id":634083,
         "wd:id":"Q2899",
         "wk:page":"M\u00fclheim"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":787634
     },
     "wof:coterminous":[
         102063777
@@ -369,7 +373,7 @@
         }
     ],
     "wof:id":101913817,
-    "wof:lastmodified":1563266417,
+    "wof:lastmodified":1566717116,
     "wof:name":"M\u00fclheim an der Ruhr",
     "wof:parent_id":1377689441,
     "wof:placetype":"locality",

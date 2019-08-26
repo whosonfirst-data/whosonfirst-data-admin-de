@@ -9,17 +9,19 @@
     "geom:bbox":"9.88455090873,52.321564705,10.1555216893,52.431513676",
     "geom:latitude":52.381329,
     "geom:longitude":10.018237,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":43339,
-    "gn:population":43920,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":43339,
     "iso:country":"DE",
     "lbl:latitude":52.378343,
     "lbl:longitude":9.977866,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":52.378343,
     "mps:longitude":9.977866,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Lehrte"
     ],
@@ -242,9 +244,6 @@
     "name:ukr_x_preferred":[
         "\u041b\u0435\u0440\u0442\u0435"
     ],
-    "name:unk_x_variant":[
-        "Lehrte"
-    ],
     "name:uzb_x_preferred":[
         "Lehrte"
     ],
@@ -312,7 +311,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":52.3725,
     "wd:longitude":9.976944,
@@ -332,10 +331,12 @@
     "wof:concordances":{
         "gn:id":2879367,
         "gp:id":670953,
-        "qs:id":470405,
-        "qs_pg:id":1148129,
+        "qs_pg:id":470405,
         "wd:id":"Q7057",
         "wk:page":"Lehrte"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1148129
     },
     "wof:country":"DE",
     "wof:geomhash":"f296baea65d772222b7a9fa21e8b4fd5",
@@ -350,7 +351,7 @@
         }
     ],
     "wof:id":101807699,
-    "wof:lastmodified":1563268397,
+    "wof:lastmodified":1566717393,
     "wof:name":"Lehrte",
     "wof:parent_id":1377686353,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"13.7395917526,52.4376094038,13.9178699284,52.5297147839",
     "geom:latitude":52.480989,
     "geom:longitude":13.826382,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":15344,
-    "gn:population":15093,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":15344,
     "iso:country":"DE",
     "lbl:latitude":52.468061,
     "lbl:longitude":13.795016,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":52.468061,
     "mps:longitude":13.795016,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:aar_x_preferred":[
         "R\u00fcdersdorf"
     ],
@@ -636,7 +638,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -653,9 +655,11 @@
     "wof:concordances":{
         "gn:id":6547614,
         "gp:id":690261,
-        "qs:id":1037500,
-        "qs_pg:id":1082428,
+        "qs_pg:id":1037500,
         "wd:id":"Q39791"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1082428
     },
     "wof:country":"DE",
     "wof:geomhash":"c458f19f9e2ad7ec5855358612877834",
@@ -670,7 +674,7 @@
         }
     ],
     "wof:id":101841449,
-    "wof:lastmodified":1563267026,
+    "wof:lastmodified":1566717203,
     "wof:name":"R\u00fcdersdorf bei Berlin",
     "wof:parent_id":1377694669,
     "wof:placetype":"locality",

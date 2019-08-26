@@ -9,17 +9,19 @@
     "geom:bbox":"7.04733636596,51.6954408797,7.32150333435,51.8219209458",
     "geom:latitude":51.752634,
     "geom:longitude":7.185936,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":37961,
-    "gn:population":37246,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":37961,
     "iso:country":"DE",
     "lbl:latitude":51.743302,
     "lbl:longitude":7.180898,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":51.743302,
     "mps:longitude":7.180898,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Haltern am See"
     ],
@@ -275,7 +277,7 @@
     "name:ukr_x_preferred":[
         "\u0413\u0430\u043b\u044c\u0442\u0435\u0440\u043d-\u0430\u043c-\u0417\u0435"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Haltern in Westfalen"
     ],
     "name:uzb_x_preferred":[
@@ -352,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":404,
     "woe:adm0_id":23424829,
@@ -371,9 +373,11 @@
     "wof:concordances":{
         "gn:id":2911395,
         "gp:id":656920,
-        "qs:id":1152198,
-        "qs_pg:id":1344211,
+        "qs_pg:id":1152198,
         "wd:id":"Q14900"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1344211
     },
     "wof:country":"DE",
     "wof:geomhash":"55ac27e2d1a64cf9410ec61729aa0ea6",
@@ -389,7 +393,7 @@
         }
     ],
     "wof:id":101808913,
-    "wof:lastmodified":1563268693,
+    "wof:lastmodified":1566717435,
     "wof:name":"Haltern am See",
     "wof:parent_id":1377691059,
     "wof:placetype":"locality",

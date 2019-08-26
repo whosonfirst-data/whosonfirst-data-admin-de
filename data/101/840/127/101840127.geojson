@@ -9,17 +9,19 @@
     "geom:bbox":"7.96424818092,50.7454790631,8.07931876593,50.8201235447",
     "geom:latitude":50.786703,
     "geom:longitude":8.016157,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13764,
-    "gn:population":14225,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":13764,
     "iso:country":"DE",
     "lbl:latitude":50.789593,
     "lbl:longitude":8.006669,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":50.789593,
     "mps:longitude":8.006669,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Neunkirchen"
     ],
@@ -283,7 +285,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682513,
@@ -297,10 +299,12 @@
     "wof:concordances":{
         "gn:id":2864424,
         "gp:id":678850,
-        "qs:id":1243899,
         "qs_pg:id":169577,
         "wd:id":"Q10958",
         "wk:page":"Neunkirchen (Siegerland)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1243899
     },
     "wof:country":"DE",
     "wof:geomhash":"8a73cd67b61c331a89f085122480d9f1",
@@ -316,7 +320,7 @@
         }
     ],
     "wof:id":101840127,
-    "wof:lastmodified":1563267786,
+    "wof:lastmodified":1566717309,
     "wof:name":"Neunkirchen",
     "wof:parent_id":1377692557,
     "wof:placetype":"locality",

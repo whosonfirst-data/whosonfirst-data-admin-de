@@ -9,17 +9,19 @@
     "geom:bbox":"7.57510425882,53.0577073643,7.66915159185,53.2144914598",
     "geom:latitude":53.146618,
     "geom:longitude":7.613516,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10635,
-    "gn:population":10699,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10635,
     "iso:country":"DE",
     "lbl:latitude":53.136451,
     "lbl:longitude":7.61777,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":53.136451,
     "mps:longitude":7.61777,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Ostrhauderfehn"
     ],
@@ -300,7 +302,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
@@ -318,10 +320,12 @@
     "wof:concordances":{
         "gn:id":2856213,
         "gp:id":683808,
-        "qs:id":1081094,
-        "qs_pg:id":1243886,
+        "qs_pg:id":1081094,
         "wd:id":"Q559568",
         "wk:page":"Ostrhauderfehn"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1243886
     },
     "wof:country":"DE",
     "wof:geomhash":"1f7f920965bf80966cc4fdc1d35f16f6",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101806311,
-    "wof:lastmodified":1561773896,
+    "wof:lastmodified":1566717473,
     "wof:name":"Ostrhauderfehn",
     "wof:parent_id":1377688805,
     "wof:placetype":"locality",

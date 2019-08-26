@@ -9,17 +9,19 @@
     "geom:bbox":"12.8592486043,50.4040884403,13.0222310328,50.4671258077",
     "geom:latitude":50.440528,
     "geom:longitude":12.947435,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2501,
-    "gn:population":2592,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":2501,
     "iso:country":"DE",
     "lbl:latitude":50.419427,
     "lbl:longitude":12.974449,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.419427,
     "mps:longitude":12.974449,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0623\u0648\u0628\u0631\u0641\u064a\u0632\u0646\u062a\u0627\u0644"
     ],
@@ -131,7 +133,7 @@
     "name:ukr_x_preferred":[
         "\u041e\u0431\u0435\u0440\u0432\u0456\u0437\u0435\u043d\u0442\u0430\u043b\u044c"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Kurort Oberwiesenthal"
     ],
     "name:uzb_x_preferred":[
@@ -187,7 +189,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":747,
     "woe:adm0_id":23424829,
@@ -205,10 +207,12 @@
     "wof:concordances":{
         "gn:id":2858529,
         "gp:id":682612,
-        "qs:id":1073547,
-        "qs_pg:id":1166540,
+        "qs_pg:id":1073547,
         "wd:id":"Q57926",
         "wk:page":"Oberwiesenthal"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1166540
     },
     "wof:country":"DE",
     "wof:geomhash":"ddf50eb2df545897590cea63fae92fd5",
@@ -223,7 +227,7 @@
         }
     ],
     "wof:id":101847889,
-    "wof:lastmodified":1563267696,
+    "wof:lastmodified":1566717296,
     "wof:name":"Oberwiesenthal",
     "wof:parent_id":1377685567,
     "wof:placetype":"locality",

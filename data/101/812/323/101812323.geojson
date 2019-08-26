@@ -9,17 +9,19 @@
     "geom:bbox":"8.10152902347,50.4275890468,8.21571747899,50.4995180752",
     "geom:latitude":50.460234,
     "geom:longitude":8.150875,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":5664,
-    "gn:population":5541,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":5664,
     "iso:country":"DE",
     "lbl:latitude":50.457949,
     "lbl:longitude":8.124342,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":50.457949,
     "mps:longitude":8.124342,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Beselich"
     ],
@@ -292,7 +294,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":1981,
     "woe:adm0_id":23424829,
@@ -311,10 +313,12 @@
     "wof:concordances":{
         "gn:id":3208028,
         "gp:id":15002581,
-        "qs:id":1031605,
         "qs_pg:id":231121,
         "wd:id":"Q634252",
         "wk:page":"Beselich"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1031605
     },
     "wof:country":"DE",
     "wof:geomhash":"2f733fe52a33c33b22eceffcf19b24c7",
@@ -330,7 +334,7 @@
         }
     ],
     "wof:id":101812323,
-    "wof:lastmodified":1561773805,
+    "wof:lastmodified":1566717277,
     "wof:name":"Beselich",
     "wof:parent_id":1377683587,
     "wof:placetype":"locality",

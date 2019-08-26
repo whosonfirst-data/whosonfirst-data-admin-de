@@ -9,17 +9,19 @@
     "geom:bbox":"8.06997746159,50.2762873039,8.23307321572,50.3602036758",
     "geom:latitude":50.318385,
     "geom:longitude":8.151295,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9918,
-    "gn:population":9727,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":9918,
     "iso:country":"DE",
     "lbl:latitude":50.30851,
     "lbl:longitude":8.162053,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":50.30851,
     "mps:longitude":8.162053,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "H\u00fcnfelden"
     ],
@@ -221,7 +223,7 @@
     "name:ukr_x_preferred":[
         "\u0413\u044e\u043d\u0444\u0435\u043b\u044c\u0434\u0435\u043d"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Helden"
     ],
     "name:uzb_x_preferred":[
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":614,
     "woe:adm0_id":23424829,
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":2907008,
         "gp:id":15002661,
-        "qs:id":1031617,
-        "qs_pg:id":1163764,
+        "qs_pg:id":1031617,
         "wd:id":"Q621638",
         "wk:page":"H\u00fcnfelden"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1163764
     },
     "wof:country":"DE",
     "wof:geomhash":"2c957e058aeb5ccef50b36c80cbf2aee",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101812319,
-    "wof:lastmodified":1561773812,
+    "wof:lastmodified":1566717289,
     "wof:name":"H\u00fcnfelden",
     "wof:parent_id":1377683651,
     "wof:placetype":"locality",

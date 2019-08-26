@@ -9,17 +9,19 @@
     "geom:bbox":"8.72117068004,49.6228438504,8.88696336879,49.6848438775",
     "geom:latitude":49.655606,
     "geom:longitude":8.790618,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10657,
-    "gn:population":11181,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10657,
     "iso:country":"DE",
     "lbl:latitude":49.650927,
     "lbl:longitude":8.78443,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":49.650927,
     "mps:longitude":8.78443,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "F\u00fcrth"
     ],
@@ -283,7 +285,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -301,10 +303,12 @@
     "wof:concordances":{
         "gn:id":2923543,
         "gp:id":651223,
-        "qs:id":847538,
         "qs_pg:id":209483,
         "wd:id":"Q1483706",
         "wk:page":"Udomlya"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":847538
     },
     "wof:country":"DE",
     "wof:geomhash":"7acc4a02c79edf729f3ca20132c90cfd",
@@ -320,7 +324,7 @@
         }
     ],
     "wof:id":101813051,
-    "wof:lastmodified":1561773839,
+    "wof:lastmodified":1566717339,
     "wof:name":"F\u00fcrth",
     "wof:parent_id":1377692881,
     "wof:placetype":"locality",

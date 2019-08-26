@@ -13,10 +13,13 @@
     "iso:country":"DE",
     "lbl:latitude":52.566852,
     "lbl:longitude":14.075291,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":52.566852,
     "mps:longitude":14.075291,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Buckow"
     ],
@@ -236,9 +239,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u0443\u043a\u043e\u0432"
     ],
-    "name:unk_x_variant":[
-        "Buckow"
-    ],
     "name:uzb_x_preferred":[
         "Buckow"
     ],
@@ -289,7 +289,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682553,
@@ -302,9 +302,11 @@
     "wof:concordances":{
         "gn:id":2942126,
         "gp:id":22661922,
-        "qs:id":865795,
         "qs_pg:id":257579,
         "wd:id":"Q552366"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":865795
     },
     "wof:country":"DE",
     "wof:geomhash":"e4332abe2062fa3fe20e751bc75b65fc",
@@ -319,7 +321,7 @@
         }
     ],
     "wof:id":101816247,
-    "wof:lastmodified":1563264497,
+    "wof:lastmodified":1566716837,
     "wof:name":"Buckow (M\u00e4rkische Schweiz)",
     "wof:parent_id":1377683349,
     "wof:placetype":"locality",

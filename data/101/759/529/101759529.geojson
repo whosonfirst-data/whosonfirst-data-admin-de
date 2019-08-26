@@ -9,17 +9,19 @@
     "geom:bbox":"7.98004379045,49.2875647167,8.20197754647,49.3437940505",
     "geom:latitude":49.311668,
     "geom:longitude":8.104212,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2069,
-    "gn:population":2034,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":2069,
     "iso:country":"DE",
     "lbl:latitude":49.30059,
     "lbl:longitude":8.163985,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":49.30059,
     "mps:longitude":8.163985,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:deu_x_preferred":[
         "Kirrweiler (Pfalz)"
     ],
@@ -86,9 +88,6 @@
     "name:ukr_x_preferred":[
         "\u041a\u0456\u0440\u0440\u0432\u0430\u0439\u043b\u0435\u0440"
     ],
-    "name:unk_x_variant":[
-        "Kirrweiler"
-    ],
     "name:uzb_x_preferred":[
         "Kirrweiler"
     ],
@@ -135,7 +134,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682491,
@@ -148,10 +147,12 @@
     "wof:concordances":{
         "gn:id":2890277,
         "gp:id":666080,
-        "qs:id":201762,
         "qs_pg:id":93585,
         "wd:id":"Q654122",
         "wk:page":"Kirrweiler"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":201762
     },
     "wof:country":"DE",
     "wof:geomhash":"6f59d395d0bdb5e9a14952389cac7759",
@@ -166,7 +167,7 @@
         }
     ],
     "wof:id":101759529,
-    "wof:lastmodified":1563266968,
+    "wof:lastmodified":1566717195,
     "wof:name":"Kirrweiler (Pfalz)",
     "wof:parent_id":1377686553,
     "wof:placetype":"locality",

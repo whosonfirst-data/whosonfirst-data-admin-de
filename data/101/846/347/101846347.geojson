@@ -9,17 +9,19 @@
     "geom:bbox":"7.94452760297,51.6140900304,8.21178626345,51.7230597209",
     "geom:latitude":51.674837,
     "geom:longitude":8.08879,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":12307,
-    "gn:population":11866,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":12307,
     "iso:country":"DE",
     "lbl:latitude":51.663596,
     "lbl:longitude":8.045266,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.663596,
     "mps:longitude":8.045266,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Lippetal"
     ],
@@ -289,7 +291,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":152,
     "woe:adm0_id":23424829,
@@ -308,9 +310,11 @@
     "wof:concordances":{
         "gn:id":2876931,
         "gp:id":15002695,
-        "qs:id":939616,
-        "qs_pg:id":1061810,
+        "qs_pg:id":939616,
         "wd:id":"Q11136"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1061810
     },
     "wof:country":"DE",
     "wof:geomhash":"dafe5b64952394f9cc1b8e65c211101d",
@@ -326,7 +330,7 @@
         }
     ],
     "wof:id":101846347,
-    "wof:lastmodified":1561773778,
+    "wof:lastmodified":1566717222,
     "wof:name":"Lippetal",
     "wof:parent_id":1377692627,
     "wof:placetype":"locality",

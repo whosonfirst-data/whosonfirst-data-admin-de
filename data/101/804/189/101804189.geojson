@@ -9,17 +9,19 @@
     "geom:bbox":"7.64482055748,53.3565178871,7.81548453398,53.4724347325",
     "geom:latitude":53.409957,
     "geom:longitude":7.727934,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13299,
-    "gn:population":13157,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":13299,
     "iso:country":"DE",
     "lbl:latitude":53.415941,
     "lbl:longitude":7.740848,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":53.415941,
     "mps:longitude":7.740848,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Wiesmoor"
     ],
@@ -300,7 +302,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":2107,
     "woe:adm0_id":23424829,
@@ -318,10 +320,12 @@
     "wof:concordances":{
         "gn:id":2809134,
         "gp:id":706421,
-        "qs:id":1193368,
         "qs_pg:id":1038063,
         "wd:id":"Q511989",
         "wk:page":"Wiesmoor"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1193368
     },
     "wof:country":"DE",
     "wof:geomhash":"400b7df9e46312b753a058eadb5a3608",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101804189,
-    "wof:lastmodified":1563265606,
+    "wof:lastmodified":1566717011,
     "wof:name":"Wiesmoor",
     "wof:parent_id":1377688291,
     "wof:placetype":"locality",

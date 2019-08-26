@@ -9,17 +9,19 @@
     "geom:bbox":"7.18289218664,49.2596762234,7.31662125866,49.3399058179",
     "geom:latitude":49.297585,
     "geom:longitude":7.251594,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10081,
-    "gn:population":10330,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10081,
     "iso:country":"DE",
     "lbl:latitude":49.284176,
     "lbl:longitude":7.230887,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":49.284176,
     "mps:longitude":7.230887,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Kirkel"
     ],
@@ -297,7 +299,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":205,
     "woe:adm0_id":23424829,
@@ -315,10 +317,12 @@
     "wof:concordances":{
         "gn:id":2890322,
         "gp:id":666059,
-        "qs:id":1039410,
-        "qs_pg:id":1147554,
+        "qs_pg:id":1039410,
         "wd:id":"Q553589",
         "wk:page":"Kirkel"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1147554
     },
     "wof:country":"DE",
     "wof:geomhash":"01b8161405dcfb1eb834b2034815de80",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101759623,
-    "wof:lastmodified":1563266986,
+    "wof:lastmodified":1566717198,
     "wof:name":"Kirkel",
     "wof:parent_id":1377694043,
     "wof:placetype":"locality",

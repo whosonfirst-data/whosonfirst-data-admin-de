@@ -9,17 +9,19 @@
     "geom:bbox":"7.64825652402,49.044967435,7.75978111343,49.1302305852",
     "geom:latitude":49.090363,
     "geom:longitude":7.69728,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1565,
-    "gn:population":1672,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1565,
     "iso:country":"DE",
     "lbl:latitude":49.089769,
     "lbl:longitude":7.707148,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":49.089769,
     "mps:longitude":7.707148,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Fischbach bei Dahn"
     ],
@@ -224,7 +226,7 @@
     "name:ukr_x_preferred":[
         "\u0424\u0456\u0448\u0431\u0430\u0445-\u0431\u0430\u0439-\u0414\u0430\u043d"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Fischbach"
     ],
     "name:uzb_x_preferred":[
@@ -297,7 +299,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":86,
     "woe:adm0_id":23424829,
@@ -315,9 +317,11 @@
     "wof:concordances":{
         "gn:id":2926632,
         "gp:id":649797,
-        "qs:id":450996,
-        "qs_pg:id":579166,
+        "qs_pg:id":450996,
         "wd:id":"Q374915"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":579166
     },
     "wof:country":"DE",
     "wof:geomhash":"2c4b0c599bcece0c2809c30e51ca6ff3",
@@ -332,7 +336,7 @@
         }
     ],
     "wof:id":101842711,
-    "wof:lastmodified":1563264727,
+    "wof:lastmodified":1566716870,
     "wof:name":"Fischbach bei Dahn",
     "wof:parent_id":1377686741,
     "wof:placetype":"locality",

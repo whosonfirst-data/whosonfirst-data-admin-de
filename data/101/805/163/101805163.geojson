@@ -9,17 +9,19 @@
     "geom:bbox":"9.90647244342,54.4900760073,10.0273949366,54.5679598704",
     "geom:latitude":54.530487,
     "geom:longitude":9.966839,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1449,
-    "gn:population":1462,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1449,
     "iso:country":"DE",
     "lbl:latitude":54.530565,
     "lbl:longitude":9.990644,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":54.530565,
     "mps:longitude":9.990644,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:dan_x_preferred":[
         "Vabs"
     ],
@@ -135,7 +137,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":40,
     "wof:belongsto":[
@@ -149,10 +151,12 @@
     "wof:concordances":{
         "gn:id":2815812,
         "gp:id":703056,
-        "qs:id":906801,
-        "qs_pg:id":987312,
+        "qs_pg:id":906801,
         "wd:id":"Q180480",
         "wk:page":"Waabs"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":987312
     },
     "wof:country":"DE",
     "wof:geomhash":"e69913a2d8a3efa45b54198ef14a6acf",
@@ -167,7 +171,7 @@
         }
     ],
     "wof:id":101805163,
-    "wof:lastmodified":1563265736,
+    "wof:lastmodified":1566717030,
     "wof:name":"Waabs",
     "wof:parent_id":1377684295,
     "wof:placetype":"locality",

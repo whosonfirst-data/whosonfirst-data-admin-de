@@ -9,17 +9,19 @@
     "geom:bbox":"10.2915749966,52.2758229223,10.4411844297,52.3789630514",
     "geom:latitude":52.330951,
     "geom:longitude":10.372345,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10074,
-    "gn:population":10147,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10074,
     "iso:country":"DE",
     "lbl:latitude":52.321631,
     "lbl:longitude":10.393931,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":52.321631,
     "mps:longitude":10.393931,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Wendeburg"
     ],
@@ -306,7 +308,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":65,
     "woe:adm0_id":23424829,
@@ -324,9 +326,11 @@
     "wof:concordances":{
         "gn:id":2811317,
         "gp:id":705221,
-        "qs:id":378318,
         "qs_pg:id":141575,
         "wd:id":"Q566922"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":378318
     },
     "wof:country":"DE",
     "wof:geomhash":"625a6a370cdad2785352d126df98ba5c",
@@ -341,7 +345,7 @@
         }
     ],
     "wof:id":101820651,
-    "wof:lastmodified":1563264384,
+    "wof:lastmodified":1566716821,
     "wof:name":"Wendeburg",
     "wof:parent_id":1377686075,
     "wof:placetype":"locality",

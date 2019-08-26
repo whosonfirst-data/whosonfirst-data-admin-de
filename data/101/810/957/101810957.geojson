@@ -9,17 +9,19 @@
     "geom:bbox":"7.80043115767,50.7038378179,7.84106725594,50.7281984143",
     "geom:latitude":50.71726,
     "geom:longitude":7.820543,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1057,
-    "gn:population":1012,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1057,
     "iso:country":"DE",
     "lbl:latitude":50.716613,
     "lbl:longitude":7.824722,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":50.716613,
     "mps:longitude":7.824722,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Malberg"
     ],
@@ -279,7 +281,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682491,
@@ -292,10 +294,12 @@
     "wof:concordances":{
         "gn:id":2874142,
         "gp:id":20162715,
-        "qs:id":1152321,
         "qs_pg:id":275991,
         "wd:id":"Q642849",
         "wk:page":"Malberg, Altenkirchen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1152321
     },
     "wof:country":"DE",
     "wof:geomhash":"b62f9383aacc88fd6452eb8739195c5b",
@@ -310,7 +314,7 @@
         }
     ],
     "wof:id":101810957,
-    "wof:lastmodified":1561773638,
+    "wof:lastmodified":1566716897,
     "wof:name":"Malberg",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",

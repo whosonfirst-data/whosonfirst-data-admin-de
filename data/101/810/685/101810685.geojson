@@ -9,17 +9,19 @@
     "geom:bbox":"8.61609840457,50.5024130152,8.7112626825,50.5640256618",
     "geom:latitude":50.532254,
     "geom:longitude":8.668193,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":12159,
-    "gn:population":12172,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":12159,
     "iso:country":"DE",
     "lbl:latitude":50.529531,
     "lbl:longitude":8.653661,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":50.529531,
     "mps:longitude":8.653661,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Linden"
     ],
@@ -301,7 +303,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":50.533333,
     "wd:longitude":8.65,
@@ -322,10 +324,12 @@
     "wof:concordances":{
         "gn:id":2877448,
         "gp:id":654942,
-        "qs:id":1033556,
         "qs_pg:id":578000,
         "wd:id":"Q625743",
         "wk:page":"Linden, Hesse"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1033556
     },
     "wof:country":"DE",
     "wof:geomhash":"fceb21e45bf09e60207ac9d16b46c0e8",
@@ -341,7 +345,7 @@
         }
     ],
     "wof:id":101810685,
-    "wof:lastmodified":1563264922,
+    "wof:lastmodified":1566716902,
     "wof:name":"Linden",
     "wof:parent_id":1377694533,
     "wof:placetype":"locality",

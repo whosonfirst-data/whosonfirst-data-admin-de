@@ -9,17 +9,19 @@
     "geom:bbox":"11.7030284688,49.3254904784,11.856617693,49.4300975916",
     "geom:latitude":49.379218,
     "geom:longitude":11.78537,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3745,
-    "gn:population":3690,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3745,
     "iso:country":"DE",
     "lbl:latitude":49.399877,
     "lbl:longitude":11.758663,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":49.399877,
     "mps:longitude":11.758663,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Ursensollen"
     ],
@@ -301,7 +303,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":109,
     "woe:adm0_id":23424829,
@@ -320,10 +322,12 @@
     "wof:concordances":{
         "gn:id":2818155,
         "gp:id":701860,
-        "qs:id":92938,
-        "qs_pg:id":215267,
+        "qs_pg:id":92938,
         "wd:id":"Q532954",
         "wk:page":"Ursensollen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":215267
     },
     "wof:country":"DE",
     "wof:geomhash":"d777a199fed239ce8bb76114415fcaef",
@@ -339,7 +343,7 @@
         }
     ],
     "wof:id":101826931,
-    "wof:lastmodified":1563265409,
+    "wof:lastmodified":1566716983,
     "wof:name":"Ursensollen",
     "wof:parent_id":1377685765,
     "wof:placetype":"locality",

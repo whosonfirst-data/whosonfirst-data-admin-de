@@ -9,17 +9,19 @@
     "geom:bbox":"12.3767305432,50.8840788776,12.6541150894,51.0056502673",
     "geom:latitude":50.934128,
     "geom:longitude":12.499325,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3582,
-    "gn:population":3858,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":3582,
     "iso:country":"DE",
     "lbl:latitude":50.976909,
     "lbl:longitude":12.512208,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.976909,
     "mps:longitude":12.512208,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:bak_x_preferred":[
         "\u041d\u043e\u0431\u0438\u0446"
     ],
@@ -147,7 +149,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
@@ -165,10 +167,12 @@
     "wof:concordances":{
         "gn:id":2862322,
         "gp:id":680233,
-        "qs:id":1166510,
         "qs_pg:id":93317,
         "wd:id":"Q542641",
         "wk:page":"Nobitz"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1166510
     },
     "wof:country":"DE",
     "wof:geomhash":"ebe0fc47eff9bfc7169e17c1f321be29",
@@ -183,7 +187,7 @@
         }
     ],
     "wof:id":101823279,
-    "wof:lastmodified":1563267308,
+    "wof:lastmodified":1566717243,
     "wof:name":"Nobitz",
     "wof:parent_id":1377691091,
     "wof:placetype":"locality",

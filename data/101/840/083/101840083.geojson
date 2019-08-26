@@ -9,17 +9,19 @@
     "geom:bbox":"7.96419168156,50.4007662246,8.05500941149,50.4453061046",
     "geom:latitude":50.417989,
     "geom:longitude":8.010449,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":7981,
-    "gn:population":7972,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":7981,
     "iso:country":"DE",
     "lbl:latitude":50.410549,
     "lbl:longitude":8.032661,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":50.410549,
     "mps:longitude":8.032661,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:als_x_preferred":[
         "Elz"
     ],
@@ -155,7 +157,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":66,
     "woe:adm0_id":23424829,
@@ -174,10 +176,12 @@
     "wof:concordances":{
         "gn:id":2930628,
         "gp:id":647801,
-        "qs:id":1145351,
         "qs_pg:id":579238,
         "wd:id":"Q631198",
         "wk:page":"Kadanwari"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1145351
     },
     "wof:country":"DE",
     "wof:geomhash":"afbc698582ade779a8f361a43ce6d589",
@@ -193,7 +197,7 @@
         }
     ],
     "wof:id":101840083,
-    "wof:lastmodified":1563267774,
+    "wof:lastmodified":1566717308,
     "wof:name":"Elz",
     "wof:parent_id":1377683633,
     "wof:placetype":"locality",

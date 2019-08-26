@@ -9,17 +9,19 @@
     "geom:bbox":"9.16684956038,52.7583482704,9.32577764507,52.8224480233",
     "geom:latitude":52.801503,
     "geom:longitude":9.241897,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1860,
-    "gn:population":1784,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1860,
     "iso:country":"DE",
     "lbl:latitude":52.806571,
     "lbl:longitude":9.195497,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":52.806571,
     "mps:longitude":9.195497,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Hassel"
     ],
@@ -294,7 +296,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":41,
     "wof:belongsto":[
@@ -308,9 +310,11 @@
     "wof:concordances":{
         "gn:id":2909444,
         "gp:id":657735,
-        "qs:id":1238960,
         "qs_pg:id":142458,
         "wd:id":"Q634109"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1238960
     },
     "wof:country":"DE",
     "wof:geomhash":"15c16d3cfeaa0da10acc32eb79f30bcc",
@@ -325,7 +329,7 @@
         }
     ],
     "wof:id":101807841,
-    "wof:lastmodified":1564166278,
+    "wof:lastmodified":1566717391,
     "wof:name":"Hassel (Weser)",
     "wof:parent_id":1377686987,
     "wof:placetype":"locality",

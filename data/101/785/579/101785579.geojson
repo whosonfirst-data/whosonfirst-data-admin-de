@@ -9,17 +9,19 @@
     "geom:bbox":"13.1452073005,48.3430095207,13.2471923032,48.4169583279",
     "geom:latitude":48.380666,
     "geom:longitude":13.195777,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4984,
-    "gn:population":5115,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4984,
     "iso:country":"DE",
     "lbl:latitude":48.360783,
     "lbl:longitude":13.20105,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.360783,
     "mps:longitude":13.20105,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Rotthalm\u00fcnster"
     ],
@@ -233,7 +235,7 @@
     "name:ukr_x_preferred":[
         "\u0420\u043e\u0442\u0442\u0430\u043b\u044c\u043c\u044e\u043d\u0441\u0442\u0435\u0440"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Minster"
     ],
     "name:uzb_x_preferred":[
@@ -307,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
@@ -326,9 +328,11 @@
     "wof:concordances":{
         "gn:id":2843682,
         "gp:id":690099,
-        "qs:id":369348,
-        "qs_pg:id":1038565,
+        "qs_pg:id":369348,
         "wd:id":"Q517994"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1038565
     },
     "wof:country":"DE",
     "wof:geomhash":"03d29a70b754c6364188b07421dbd54e",
@@ -344,7 +348,7 @@
         }
     ],
     "wof:id":101785579,
-    "wof:lastmodified":1563265851,
+    "wof:lastmodified":1566717048,
     "wof:name":"Rotthalm\u00fcnster",
     "wof:parent_id":1377684877,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"7.58876057832,50.2676084872,7.75570488471,50.3601293133",
     "geom:latitude":50.305415,
     "geom:longitude":7.66591,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":17980,
-    "gn:population":18749,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":17980,
     "iso:country":"DE",
     "lbl:latitude":50.300421,
     "lbl:longitude":7.609618,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":50.300421,
     "mps:longitude":7.609618,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Lahnstein"
     ],
@@ -236,9 +238,6 @@
     "name:ukr_x_preferred":[
         "\u041b\u0430\u043d\u0448\u0442\u0430\u0439\u043d"
     ],
-    "name:unk_x_variant":[
-        "Lahnstein"
-    ],
     "name:uzb_x_preferred":[
         "Lahnstein"
     ],
@@ -309,7 +308,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":2036,
     "woe:adm0_id":23424829,
@@ -327,10 +326,12 @@
     "wof:concordances":{
         "gn:id":2881889,
         "gp:id":669811,
-        "qs:id":1039311,
-        "qs_pg:id":1147991,
+        "qs_pg:id":1039311,
         "wd:id":"Q569639",
         "wk:page":"Lahnstein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1147991
     },
     "wof:country":"DE",
     "wof:geomhash":"78f349a59c139ec37b450a9d54639465",
@@ -345,7 +346,7 @@
         }
     ],
     "wof:id":101753105,
-    "wof:lastmodified":1563263320,
+    "wof:lastmodified":1566716669,
     "wof:name":"Lahnstein",
     "wof:parent_id":1377685715,
     "wof:placetype":"locality",
