@@ -9,17 +9,19 @@
     "geom:bbox":"13.4673579645,52.6086940669,13.6686677992,52.7571014991",
     "geom:latitude":52.686833,
     "geom:longitude":13.575719,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":36154,
-    "gn:population":34866,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":36154,
     "iso:country":"DE",
     "lbl:latitude":52.678721,
     "lbl:longitude":13.576713,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":52.678721,
     "mps:longitude":13.576713,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Bernau bei Berlin"
     ],
@@ -254,9 +256,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u0435\u0440\u043d\u0430\u0443"
     ],
-    "name:unk_x_variant":[
-        "Bernau bei Berlin"
-    ],
     "name:uzb_x_preferred":[
         "Bernau bei Berlin"
     ],
@@ -327,7 +326,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:elevation":68.0,
     "wd:latitude":52.666667,
@@ -348,10 +347,12 @@
     "wof:concordances":{
         "gn:id":2950096,
         "gp:id":638275,
-        "qs:id":385768,
-        "qs_pg:id":1040203,
+        "qs_pg:id":385768,
         "wd:id":"Q9300",
         "wk:page":"Bernau bei Berlin"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1040203
     },
     "wof:country":"DE",
     "wof:geomhash":"1b0cba12ccb99b91e5d51255474cafe2",
@@ -366,7 +367,7 @@
         }
     ],
     "wof:id":101758637,
-    "wof:lastmodified":1561773735,
+    "wof:lastmodified":1566717123,
     "wof:name":"Bernau bei Berlin",
     "wof:parent_id":1377694207,
     "wof:placetype":"locality",

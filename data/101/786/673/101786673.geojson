@@ -13,10 +13,13 @@
     "iso:country":"DE",
     "lbl:latitude":48.134345,
     "lbl:longitude":12.582834,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.134345,
     "mps:longitude":12.582834,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Garching an der Alz"
     ],
@@ -236,9 +239,6 @@
     "name:ukr_x_preferred":[
         "\u0413\u0430\u0440\u0445\u0456\u043d\u0433-\u0430\u043d-\u0434\u0435\u0440-\u0410\u043b\u044c\u0446"
     ],
-    "name:unk_x_variant":[
-        "Garching"
-    ],
     "name:uzb_x_preferred":[
         "Garching an der Alz"
     ],
@@ -293,7 +293,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":26,
     "wof:belongsto":[
@@ -308,9 +308,11 @@
     "wof:concordances":{
         "gn:id":2922583,
         "gp:id":651522,
-        "qs:id":639189,
         "qs_pg:id":142548,
         "wd:id":"Q259542"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":639189
     },
     "wof:country":"DE",
     "wof:geomhash":"049abe31b82480487bc2c9097edd0379",
@@ -326,7 +328,7 @@
         }
     ],
     "wof:id":101786673,
-    "wof:lastmodified":1564166280,
+    "wof:lastmodified":1566717518,
     "wof:name":"Garching a.d. Alz",
     "wof:parent_id":1377690735,
     "wof:placetype":"locality",

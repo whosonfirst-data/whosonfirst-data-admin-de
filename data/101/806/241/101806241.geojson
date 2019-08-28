@@ -9,18 +9,20 @@
     "geom:bbox":"8.21085051388,52.9919107508,8.43662893578,53.1033641202",
     "geom:latitude":53.042327,
     "geom:longitude":8.322876,
-    "geonames:id":"2890494,2909268",
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13932,
-    "gn:population":13499,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:id":"2890494,2909268",
+    "gn:population":13932,
     "iso:country":"DE",
     "lbl:latitude":53.019548,
     "lbl:longitude":8.35477,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":53.019548,
     "mps:longitude":8.35477,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Hatten"
     ],
@@ -289,7 +291,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":587,
     "woe:adm0_id":23424829,
@@ -307,9 +309,11 @@
     "wof:concordances":{
         "gn:id":2909268,
         "gp:id":657814,
-        "qs:id":578756,
-        "qs_pg:id":954038,
+        "qs_pg:id":578756,
         "wd:id":"Q633508"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":954038
     },
     "wof:country":"DE",
     "wof:geomhash":"234e128990ce512889ba24beeb13b757",
@@ -324,7 +328,7 @@
         }
     ],
     "wof:id":101806241,
-    "wof:lastmodified":1561773893,
+    "wof:lastmodified":1566717464,
     "wof:name":"Hatten",
     "wof:parent_id":1377688913,
     "wof:placetype":"locality",

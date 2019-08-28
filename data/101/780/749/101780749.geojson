@@ -9,17 +9,19 @@
     "geom:bbox":"11.9899897025,49.2480135953,12.2102161551,49.3825617092",
     "geom:latitude":49.317822,
     "geom:longitude":12.088543,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":27804,
-    "gn:population":28235,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":27804,
     "iso:country":"DE",
     "lbl:latitude":49.318502,
     "lbl:longitude":12.104752,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":49.318502,
     "mps:longitude":12.104752,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Schwandorf"
     ],
@@ -242,7 +244,7 @@
     "name:ukr_x_preferred":[
         "\u0428\u0432\u0430\u043d\u0434\u043e\u0440\u0444"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Stadt Schwandorf"
     ],
     "name:uzb_x_preferred":[
@@ -319,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -337,10 +339,12 @@
     "wof:concordances":{
         "gn:id":2834662,
         "gp:id":20158474,
-        "qs:id":1038447,
-        "qs_pg:id":1190489,
+        "qs_pg:id":1038447,
         "wd:id":"Q504768",
         "wk:page":"Schwandorf"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1190489
     },
     "wof:country":"DE",
     "wof:geomhash":"a0f9d249ee2e785f8cf4285462c5ed74",
@@ -356,7 +360,7 @@
         }
     ],
     "wof:id":101780749,
-    "wof:lastmodified":1563269481,
+    "wof:lastmodified":1566717547,
     "wof:name":"Schwandorf",
     "wof:parent_id":1377686779,
     "wof:placetype":"locality",

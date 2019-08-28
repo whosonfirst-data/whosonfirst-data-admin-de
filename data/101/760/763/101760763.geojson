@@ -9,17 +9,19 @@
     "geom:bbox":"8.54341912032,48.985539477,8.66105718974,49.0607422523",
     "geom:latitude":49.021108,
     "geom:longitude":8.601572,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9033,
-    "gn:population":9318,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":9033,
     "iso:country":"DE",
     "lbl:latitude":49.029178,
     "lbl:longitude":8.576259,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":49.029178,
     "mps:longitude":8.576259,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Walzbachtal"
     ],
@@ -310,7 +312,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":28,
     "woe:adm0_id":23424829,
@@ -329,10 +331,12 @@
     "wof:concordances":{
         "gn:id":2814358,
         "gp:id":703846,
-        "qs:id":373721,
-        "qs_pg:id":1152620,
+        "qs_pg:id":373721,
         "wd:id":"Q521524",
         "wk:page":"Walzbachtal"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1152620
     },
     "wof:country":"DE",
     "wof:geomhash":"1772ca4a9d905c48f4d7be02e524d62e",
@@ -348,7 +352,7 @@
         }
     ],
     "wof:id":101760763,
-    "wof:lastmodified":1561773736,
+    "wof:lastmodified":1566717124,
     "wof:name":"Walzbachtal",
     "wof:parent_id":1377688181,
     "wof:placetype":"locality",

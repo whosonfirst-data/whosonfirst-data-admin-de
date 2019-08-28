@@ -9,17 +9,19 @@
     "geom:bbox":"9.16615695406,53.1066049057,9.28789310783,53.1720884417",
     "geom:latitude":53.144044,
     "geom:longitude":9.221405,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1724,
-    "gn:population":1778,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1724,
     "iso:country":"DE",
     "lbl:latitude":53.131065,
     "lbl:longitude":9.205968,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":53.131065,
     "mps:longitude":9.205968,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Ree\u00dfum"
     ],
@@ -288,7 +290,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":140,
     "woe:adm0_id":23424829,
@@ -306,9 +308,11 @@
     "wof:concordances":{
         "gn:id":2849528,
         "gp:id":687310,
-        "qs:id":93203,
-        "qs_pg:id":955981,
+        "qs_pg:id":93203,
         "wd:id":"Q514658"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":955981
     },
     "wof:country":"DE",
     "wof:geomhash":"04700d8b4570aa857a5a876f8f5810f7",
@@ -323,7 +327,7 @@
         }
     ],
     "wof:id":101806433,
-    "wof:lastmodified":1561773895,
+    "wof:lastmodified":1566717470,
     "wof:name":"Ree\u00dfum",
     "wof:parent_id":1377687721,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"8.37058960029,47.7809812396,8.47331028438,47.8565680298",
     "geom:latitude":47.827622,
     "geom:longitude":8.425711,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1228,
-    "gn:population":1201,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":1228,
     "iso:country":"DE",
     "lbl:latitude":47.837712,
     "lbl:longitude":8.443445,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":47.837712,
     "mps:longitude":8.443445,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Wutach"
     ],
@@ -296,7 +298,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":3205693,
         "gp:id":15002851,
-        "qs:id":95215,
-        "qs_pg:id":984766,
+        "qs_pg:id":95215,
         "wd:id":"Q518913",
         "wk:page":"Wutach (village)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":984766
     },
     "wof:country":"DE",
     "wof:geomhash":"b83a51fdd8e65f3db882b1110c0ef09e",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101765183,
-    "wof:lastmodified":1563263675,
+    "wof:lastmodified":1566716717,
     "wof:name":"Wutach",
     "wof:parent_id":1377689817,
     "wof:placetype":"locality",

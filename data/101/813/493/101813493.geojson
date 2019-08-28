@@ -12,10 +12,13 @@
     "iso:country":"DE",
     "lbl:latitude":49.973762,
     "lbl:longitude":8.564151,
+    "lbl:max_zoom":18.0,
+    "lbl:min_zoom":13.5,
     "mps:latitude":49.973762,
     "mps:longitude":8.564151,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":12.0,
     "name:afr_x_preferred":[
         "M\u00f6rfelden-Walldorf"
     ],
@@ -226,9 +229,6 @@
     "name:ukr_x_preferred":[
         "\u041c\u0435\u0440\u0444\u0435\u043b\u044c\u0434\u0435\u043d-\u0412\u0430\u043b\u043b\u044c\u0434\u043e\u0440\u0444"
     ],
-    "name:unk_x_variant":[
-        "M\u00f6rfelden-Walldorf"
-    ],
     "name:uzb_x_preferred":[
         "M\u00f6rfelden-Walldorf"
     ],
@@ -280,7 +280,7 @@
     "src:geom_alt":[
         "quattroshapes_pg"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -293,9 +293,11 @@
     "wof:concordances":{
         "gn:id":3272460,
         "gp:id":20162174,
-        "qs:id":5,
-        "qs_pg:id":223642,
+        "qs_pg:id":5,
         "wd:id":"Q16007"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":223642
     },
     "wof:country":"DE",
     "wof:geomhash":"46126e4049b3f091596cca218b2729a7",
@@ -311,7 +313,7 @@
         }
     ],
     "wof:id":101813493,
-    "wof:lastmodified":1561773837,
+    "wof:lastmodified":1566717335,
     "wof:name":"M\u00f6rfelden",
     "wof:parent_id":1377693299,
     "wof:placetype":"locality",

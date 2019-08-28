@@ -9,17 +9,19 @@
     "geom:bbox":"8.44792951493,48.8583123047,8.55421692584,48.9535533464",
     "geom:latitude":48.905068,
     "geom:longitude":8.503218,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":15789,
-    "gn:population":15600,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":15789,
     "iso:country":"DE",
     "lbl:latitude":48.914689,
     "lbl:longitude":8.505527,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":48.914689,
     "mps:longitude":8.505527,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Karlsbad"
     ],
@@ -292,7 +294,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682567,
@@ -306,10 +308,12 @@
     "wof:concordances":{
         "gn:id":3209432,
         "gp:id":15002670,
-        "qs:id":1031694,
         "qs_pg:id":130351,
         "wd:id":"Q542659",
         "wk:page":"Karlsbad (Baden)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1031694
     },
     "wof:country":"DE",
     "wof:geomhash":"cb934869310ee6b98bb38da747c242b2",
@@ -325,7 +329,7 @@
         }
     ],
     "wof:id":101762027,
-    "wof:lastmodified":1563264026,
+    "wof:lastmodified":1566716767,
     "wof:name":"Karlsbad",
     "wof:parent_id":1377688205,
     "wof:placetype":"locality",

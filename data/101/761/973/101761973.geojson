@@ -9,17 +9,19 @@
     "geom:bbox":"8.51617662963,48.8731939134,8.63454026969,48.9203281049",
     "geom:latitude":48.896762,
     "geom:longitude":8.576245,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9042,
-    "gn:population":9082,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9042,
     "iso:country":"DE",
     "lbl:latitude":48.900958,
     "lbl:longitude":8.576132,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.900958,
     "mps:longitude":8.576132,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Keltern"
     ],
@@ -304,7 +306,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":76,
     "woe:adm0_id":23424829,
@@ -323,10 +325,12 @@
     "wof:concordances":{
         "gn:id":3209434,
         "gp:id":15002674,
-        "qs:id":1152341,
         "qs_pg:id":1080061,
         "wd:id":"Q80700",
         "wk:page":"Keltern"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1152341
     },
     "wof:country":"DE",
     "wof:geomhash":"d438ad1f1f68070172c42dc3e12de076",
@@ -342,7 +346,7 @@
         }
     ],
     "wof:id":101761973,
-    "wof:lastmodified":1561773763,
+    "wof:lastmodified":1566717189,
     "wof:name":"Keltern",
     "wof:parent_id":1377688955,
     "wof:placetype":"locality",

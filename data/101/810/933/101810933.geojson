@@ -9,17 +9,19 @@
     "geom:bbox":"8.53353864938,50.5562939249,8.60793145015,50.6275194035",
     "geom:latitude":50.590587,
     "geom:longitude":8.566311,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":8235,
-    "gn:population":8074,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":8235,
     "iso:country":"DE",
     "lbl:latitude":50.587775,
     "lbl:longitude":8.551965,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":50.587775,
     "mps:longitude":8.551965,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Lahnau"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":473,
     "woe:adm0_id":23424829,
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":2881651,
         "gp:id":15002683,
-        "qs:id":1152328,
-        "qs_pg:id":1178084,
+        "qs_pg:id":1152328,
         "wd:id":"Q622428",
         "wk:page":"Lahnau"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1178084
     },
     "wof:country":"DE",
     "wof:geomhash":"814506069bf22841322753b749500f25",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101810933,
-    "wof:lastmodified":1561773640,
+    "wof:lastmodified":1566716901,
     "wof:name":"Lahnau",
     "wof:parent_id":1377683507,
     "wof:placetype":"locality",

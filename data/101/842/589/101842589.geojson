@@ -12,10 +12,13 @@
     "iso:country":"DE",
     "lbl:latitude":47.734105,
     "lbl:longitude":9.244091,
+    "lbl:max_zoom":18.0,
+    "lbl:min_zoom":13.5,
     "mps:latitude":47.734105,
     "mps:longitude":9.244091,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":12.0,
     "name:afr_x_preferred":[
         "Uhldingen-M\u00fchlhofen"
     ],
@@ -238,9 +241,6 @@
     "name:ukr_x_preferred":[
         "\u0423\u043b\u044c\u0434\u0456\u043d\u0433\u0435\u043d-\u041c\u044e\u043b\u044c\u0433\u043e\u0444\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Uhldingen-M\u00fchlhofen"
-    ],
     "name:uzb_x_preferred":[
         "Uhldingen-M\u00fchlhofen"
     ],
@@ -289,7 +289,7 @@
     "src:geom_alt":[
         "quattroshapes_pg"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -302,9 +302,11 @@
     "wof:concordances":{
         "gn:id":3205690,
         "gp:id":22528060,
-        "qs:id":365968,
-        "qs_pg:id":905505,
+        "qs_pg:id":365968,
         "wd:id":"Q527642"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":905505
     },
     "wof:country":"DE",
     "wof:geomhash":"d1cebc965c0c6e93d83acbf1e1ee138b",
@@ -320,7 +322,7 @@
         }
     ],
     "wof:id":101842589,
-    "wof:lastmodified":1561773623,
+    "wof:lastmodified":1566716864,
     "wof:name":"Oberuhldingen",
     "wof:parent_id":1377690457,
     "wof:placetype":"locality",

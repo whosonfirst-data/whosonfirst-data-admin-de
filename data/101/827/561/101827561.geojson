@@ -9,17 +9,19 @@
     "geom:bbox":"9.11501174023,48.9753556446,9.23511993769,49.0337518139",
     "geom:latitude":49.002658,
     "geom:longitude":9.172105,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":11681,
-    "gn:population":11883,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":11681,
     "iso:country":"DE",
     "lbl:latitude":48.999952,
     "lbl:longitude":9.145572,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.999952,
     "mps:longitude":9.145572,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Besigheim"
     ],
@@ -245,9 +247,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u0435\u0437\u0456\u0433\u0430\u0439\u043c"
     ],
-    "name:unk_x_variant":[
-        "Besigheim"
-    ],
     "name:uzb_x_preferred":[
         "Besigheim"
     ],
@@ -322,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:area":16.84,
     "wd:latitude":48.998889,
@@ -345,10 +344,12 @@
     "wof:concordances":{
         "gn:id":2949803,
         "gp:id":638471,
-        "qs:id":241049,
         "qs_pg:id":209273,
         "wd:id":"Q61825",
         "wk:page":"Besigheim"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":241049
     },
     "wof:country":"DE",
     "wof:geomhash":"f12bffa3599fb5e8429bc43732daaf76",
@@ -364,7 +365,7 @@
         }
     ],
     "wof:id":101827561,
-    "wof:lastmodified":1561773595,
+    "wof:lastmodified":1566716800,
     "wof:name":"Besigheim",
     "wof:parent_id":1377687361,
     "wof:placetype":"locality",

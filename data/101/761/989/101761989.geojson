@@ -9,17 +9,19 @@
     "geom:bbox":"8.46753058549,48.8098773726,8.56912611017,48.8823045093",
     "geom:latitude":48.844447,
     "geom:longitude":8.523859,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10762,
-    "gn:population":10728,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10762,
     "iso:country":"DE",
     "lbl:latitude":48.845065,
     "lbl:longitude":8.539783,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":48.845065,
     "mps:longitude":8.539783,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Straubenhardt"
     ],
@@ -301,7 +303,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":755,
     "woe:adm0_id":23424829,
@@ -320,10 +322,12 @@
     "wof:concordances":{
         "gn:id":3209433,
         "gp:id":15002812,
-        "qs:id":1031695,
-        "qs_pg:id":1310944,
+        "qs_pg:id":1031695,
         "wd:id":"Q81498",
         "wk:page":"Straubenhardt"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1310944
     },
     "wof:country":"DE",
     "wof:geomhash":"6ffa2ed9a81c90101a6539d9fdec59f3",
@@ -339,7 +343,7 @@
         }
     ],
     "wof:id":101761989,
-    "wof:lastmodified":1563266925,
+    "wof:lastmodified":1566717189,
     "wof:name":"Straubenhardt",
     "wof:parent_id":1377688971,
     "wof:placetype":"locality",

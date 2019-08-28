@@ -9,17 +9,19 @@
     "geom:bbox":"9.34209987989,54.7810934061,9.42293404921,54.8427356183",
     "geom:latitude":54.811748,
     "geom:longitude":9.383253,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":11420,
-    "gn:population":11596,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":11420,
     "iso:country":"DE",
     "lbl:latitude":54.801825,
     "lbl:longitude":9.393634,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":54.801825,
     "mps:longitude":9.393634,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Harrislee"
     ],
@@ -291,7 +293,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":50,
     "woe:adm0_id":23424829,
@@ -309,10 +311,12 @@
     "wof:concordances":{
         "gn:id":2910302,
         "gp:id":657405,
-        "qs:id":1039642,
-        "qs_pg:id":1066637,
+        "qs_pg:id":1039642,
         "wd:id":"Q539243",
         "wk:page":"Harrislee"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1066637
     },
     "wof:country":"DE",
     "wof:geomhash":"217a5619cf75b85d62f2e20d2c2133f0",
@@ -327,7 +331,7 @@
         }
     ],
     "wof:id":101756553,
-    "wof:lastmodified":1563266674,
+    "wof:lastmodified":1566717156,
     "wof:name":"Harrislee",
     "wof:parent_id":1377684339,
     "wof:placetype":"locality",

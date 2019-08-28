@@ -9,17 +9,19 @@
     "geom:bbox":"8.38173275942,48.5160444785,8.53521376555,48.6394575674",
     "geom:latitude":48.585871,
     "geom:longitude":8.456085,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2338,
-    "gn:population":2190,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":2338,
     "iso:country":"DE",
     "lbl:latitude":48.593397,
     "lbl:longitude":8.418916,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":48.593397,
     "mps:longitude":8.418916,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:als_x_preferred":[
         "Seewald"
     ],
@@ -160,7 +162,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":137,
     "woe:adm0_id":23424829,
@@ -179,10 +181,12 @@
     "wof:concordances":{
         "gn:id":3209427,
         "gp:id":15002795,
-        "qs:id":581885,
         "qs_pg:id":224185,
         "wd:id":"Q81692",
         "wk:page":"Seewald"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":581885
     },
     "wof:country":"DE",
     "wof:geomhash":"6a9f027ce5504b742a1ff76f90ccfbe9",
@@ -198,7 +202,7 @@
         }
     ],
     "wof:id":101763055,
-    "wof:lastmodified":1561773504,
+    "wof:lastmodified":1566716593,
     "wof:name":"Seewald",
     "wof:parent_id":1377689081,
     "wof:placetype":"locality",

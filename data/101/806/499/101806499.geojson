@@ -9,17 +9,19 @@
     "geom:bbox":"7.31411917634,53.6190668976,7.5549819456,53.6868456059",
     "geom:latitude":53.655834,
     "geom:longitude":7.417097,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4752,
-    "gn:population":4796,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":4752,
     "iso:country":"DE",
     "lbl:latitude":53.645804,
     "lbl:longitude":7.431601,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":53.645804,
     "mps:longitude":7.431601,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Dornum"
     ],
@@ -306,7 +308,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":237,
     "woe:adm0_id":23424829,
@@ -324,10 +326,12 @@
     "wof:concordances":{
         "gn:id":2935633,
         "gp:id":645388,
-        "qs:id":1145106,
         "qs_pg:id":579349,
         "wd:id":"Q567381",
         "wk:page":"Dornum"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1145106
     },
     "wof:country":"DE",
     "wof:geomhash":"06d6c99f9d7a82bf32b3319d02a833cd",
@@ -342,7 +346,7 @@
         }
     ],
     "wof:id":101806499,
-    "wof:lastmodified":1563268814,
+    "wof:lastmodified":1566717453,
     "wof:name":"Dornum",
     "wof:parent_id":1377688301,
     "wof:placetype":"locality",

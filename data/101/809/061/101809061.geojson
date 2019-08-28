@@ -9,17 +9,19 @@
     "geom:bbox":"7.25559376652,51.8770298259,7.46229518802,51.9706231661",
     "geom:latitude":51.922045,
     "geom:longitude":7.361884,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":20118,
-    "gn:population":20427,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":20118,
     "iso:country":"DE",
     "lbl:latitude":51.926768,
     "lbl:longitude":7.355655,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":51.926768,
     "mps:longitude":7.355655,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Nottuln"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":182,
     "woe:adm0_id":23424829,
@@ -317,10 +319,12 @@
     "wof:concordances":{
         "gn:id":2861733,
         "gp:id":680521,
-        "qs:id":1166525,
         "qs_pg:id":1038913,
         "wd:id":"Q14939",
         "wk:page":"Nottuln"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1166525
     },
     "wof:country":"DE",
     "wof:geomhash":"eb7e513c49b1b6b1bc8f1a81fb02a266",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101809061,
-    "wof:lastmodified":1563268588,
+    "wof:lastmodified":1566717419,
     "wof:name":"Nottuln",
     "wof:parent_id":1377690999,
     "wof:placetype":"locality",

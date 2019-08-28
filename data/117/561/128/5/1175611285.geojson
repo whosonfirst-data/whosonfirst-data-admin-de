@@ -9,17 +9,19 @@
     "geom:bbox":"7.5669652947,47.5768783883,7.64954671579,47.6344404012",
     "geom:latitude":47.605897,
     "geom:longitude":7.610752,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":29851,
-    "gn:population":29548,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":29851,
     "iso:country":"DE",
     "lbl:latitude":47.561099,
     "lbl:longitude":7.63973,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":47.561099,
     "mps:longitude":7.63973,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Weil am Rhein"
     ],
@@ -253,9 +255,6 @@
     "name:ukr_x_preferred":[
         "\u0412\u0430\u0439\u043b\u044c-\u043d\u0430-\u0420\u0435\u0439\u043d\u0456"
     ],
-    "name:unk_x_variant":[
-        "Weil am Rhein"
-    ],
     "name:uzb_x_preferred":[
         "Weil am Rhein"
     ],
@@ -315,7 +314,7 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:area":19.47,
     "wd:latitude":47.594722,
@@ -335,10 +334,12 @@
         "fct:id":"075dd000-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812636,
         "gp:id":704674,
-        "qs:id":5,
-        "qs_pg:id":141592,
+        "qs_pg:id":5,
         "wd:id":"Q61909",
         "wk:page":"Weil am Rhein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":141592
     },
     "wof:country":"DE",
     "wof:geomhash":"37188e783d9c186c08ac8bedc844184d",
@@ -354,7 +355,7 @@
         }
     ],
     "wof:id":1175611285,
-    "wof:lastmodified":1563253183,
+    "wof:lastmodified":1566713066,
     "wof:name":"Weil am Rhein",
     "wof:parent_id":1377685675,
     "wof:placetype":"locality",

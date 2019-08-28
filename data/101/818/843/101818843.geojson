@@ -9,17 +9,19 @@
     "geom:bbox":"10.8590781821,53.8187783019,10.9993975381,53.8936272088",
     "geom:latitude":53.855783,
     "geom:longitude":10.942091,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4378,
-    "gn:population":4317,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":4378,
     "iso:country":"DE",
     "lbl:latitude":53.854432,
     "lbl:longitude":10.92942,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":53.854432,
     "mps:longitude":10.92942,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Sch\u00f6nberg"
     ],
@@ -239,9 +241,6 @@
     "name:ukr_x_preferred":[
         "\u0428\u0435\u043d\u0431\u0435\u0440\u0433"
     ],
-    "name:unk_x_variant":[
-        "Sch\u00f6nberg"
-    ],
     "name:vec_x_preferred":[
         "Sch\u00f6nberg"
     ],
@@ -306,7 +305,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":277,
     "woe:adm0_id":23424829,
@@ -324,9 +323,11 @@
     "wof:concordances":{
         "gn:id":2836952,
         "gp:id":692868,
-        "qs:id":1143171,
         "qs_pg:id":577033,
         "wd:id":"Q225144"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1143171
     },
     "wof:country":"DE",
     "wof:geomhash":"5c29a7faf07da08c27780aeebffb10ab",
@@ -341,7 +342,7 @@
         }
     ],
     "wof:id":101818843,
-    "wof:lastmodified":1563264086,
+    "wof:lastmodified":1566716776,
     "wof:name":"Sch\u00f6nberg",
     "wof:parent_id":1377685007,
     "wof:placetype":"locality",

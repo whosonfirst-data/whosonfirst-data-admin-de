@@ -9,17 +9,19 @@
     "geom:bbox":"7.32094006284,49.4583834872,7.36865903927,49.4953081977",
     "geom:latitude":49.477314,
     "geom:longitude":7.350293,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1350,
-    "gn:population":1368,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1350,
     "iso:country":"DE",
     "lbl:latitude":49.477846,
     "lbl:longitude":7.349103,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":49.477846,
     "mps:longitude":7.349103,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Herschweiler-Pettersheim"
     ],
@@ -297,7 +299,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":15533,
     "woe:adm0_id":23424829,
@@ -315,10 +317,12 @@
     "wof:concordances":{
         "gn:id":2905581,
         "gp:id":659505,
-        "qs:id":1039591,
         "qs_pg:id":814583,
         "wd:id":"Q563841",
         "wk:page":"Herschweiler-Pettersheim"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1039591
     },
     "wof:country":"DE",
     "wof:geomhash":"81531e149215a035b037aecd33e2d870",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101815753,
-    "wof:lastmodified":1563267647,
+    "wof:lastmodified":1566717290,
     "wof:name":"Herschweiler-Pettersheim",
     "wof:parent_id":1377686491,
     "wof:placetype":"locality",

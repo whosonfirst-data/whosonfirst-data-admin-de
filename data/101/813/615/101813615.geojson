@@ -9,17 +9,19 @@
     "geom:bbox":"9.60029071657,49.8339858602,9.68431593417,49.8917153967",
     "geom:latitude":49.864256,
     "geom:longitude":9.644856,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1389,
-    "gn:population":1403,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":1389,
     "iso:country":"DE",
     "lbl:latitude":49.868495,
     "lbl:longitude":9.636883,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":49.868495,
     "mps:longitude":9.636883,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Karbach"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":357,
     "woe:adm0_id":23424829,
@@ -317,10 +319,12 @@
     "wof:concordances":{
         "gn:id":2892986,
         "gp:id":664998,
-        "qs:id":142308,
-        "qs_pg:id":578381,
+        "qs_pg:id":142308,
         "wd:id":"Q546100",
         "wk:page":"Karbach, Bavaria"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":578381
     },
     "wof:country":"DE",
     "wof:geomhash":"d6247a610a953bce40fd4190fdca42d9",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101813615,
-    "wof:lastmodified":1561773837,
+    "wof:lastmodified":1566717334,
     "wof:name":"Karbach",
     "wof:parent_id":1377691571,
     "wof:placetype":"locality",

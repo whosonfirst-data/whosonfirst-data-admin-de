@@ -9,17 +9,19 @@
     "geom:bbox":"8.55634779604,51.2466884394,8.78159844951,51.3436134969",
     "geom:latitude":51.291367,
     "geom:longitude":8.656006,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":6293,
-    "gn:population":6564,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":6293,
     "iso:country":"DE",
     "lbl:latitude":51.294936,
     "lbl:longitude":8.609573,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":51.294936,
     "mps:longitude":8.609573,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Willingen"
     ],
@@ -233,9 +235,6 @@
     "name:ukr_x_preferred":[
         "\u0412\u0456\u043b\u043b\u0456\u043d\u0433\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Willingen"
-    ],
     "name:uzb_x_preferred":[
         "Willingen"
     ],
@@ -298,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682531,
@@ -312,10 +311,12 @@
     "wof:concordances":{
         "gn:id":2808545,
         "gp:id":706715,
-        "qs:id":907291,
         "qs_pg:id":576404,
         "wd:id":"Q509580",
         "wk:page":"Willingen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":907291
     },
     "wof:country":"DE",
     "wof:geomhash":"4cf0f9e7056b52fbb23ec3d287bc593a",
@@ -331,7 +332,7 @@
         }
     ],
     "wof:id":101810125,
-    "wof:lastmodified":1563264993,
+    "wof:lastmodified":1566716913,
     "wof:name":"Willingen (Upland)",
     "wof:parent_id":1377685057,
     "wof:placetype":"locality",

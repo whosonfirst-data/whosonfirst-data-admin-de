@@ -9,17 +9,19 @@
     "geom:bbox":"10.7911777974,50.6612771432,10.8695326134,50.7342124422",
     "geom:latitude":50.70528,
     "geom:longitude":10.826031,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2458,
-    "gn:population":2591,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":2458,
     "iso:country":"DE",
     "lbl:latitude":50.717021,
     "lbl:longitude":10.835618,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.717021,
     "mps:longitude":10.835618,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Geraberg"
     ],
@@ -294,7 +296,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
@@ -312,10 +314,12 @@
     "wof:concordances":{
         "gn:id":2921228,
         "gp:id":652155,
-        "qs:id":1243979,
         "qs_pg:id":1066273,
         "wd:id":"Q649035",
         "wk:page":"Geraberg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1243979
     },
     "wof:country":"DE",
     "wof:geomhash":"b18499c41e0eff629df1bc72455e542c",
@@ -330,7 +334,7 @@
         }
     ],
     "wof:id":101823123,
-    "wof:lastmodified":1563267341,
+    "wof:lastmodified":1566717247,
     "wof:name":"Geraberg",
     "wof:parent_id":1377690407,
     "wof:placetype":"locality",

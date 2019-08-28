@@ -9,17 +9,19 @@
     "geom:bbox":"6.91018184294,49.4367563781,7.06278374453,49.5266181773",
     "geom:latitude":49.487756,
     "geom:longitude":6.995223,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":12842,
-    "gn:population":13157,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":12842,
     "iso:country":"DE",
     "lbl:latitude":49.482693,
     "lbl:longitude":7.036943,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":49.482693,
     "mps:longitude":7.036943,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Tholey"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":475,
     "woe:adm0_id":23424829,
@@ -313,9 +315,11 @@
     "wof:concordances":{
         "gn:id":2822713,
         "gp:id":699271,
-        "qs:id":270807,
-        "qs_pg:id":1038280,
+        "qs_pg:id":270807,
         "wd:id":"Q638618"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1038280
     },
     "wof:country":"DE",
     "wof:geomhash":"151a7e75a7dd4c63815a45aaf59f20ac",
@@ -330,7 +334,7 @@
         }
     ],
     "wof:id":101813007,
-    "wof:lastmodified":1561773829,
+    "wof:lastmodified":1566717322,
     "wof:name":"Tholey",
     "wof:parent_id":1377694147,
     "wof:placetype":"locality",

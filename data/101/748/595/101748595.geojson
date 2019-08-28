@@ -9,17 +9,19 @@
     "geom:bbox":"7.02348632387,50.6318660298,7.2108718637,50.7744354664",
     "geom:latitude":50.705812,
     "geom:longitude":7.109812,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":319841,
-    "gn:population":313125,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":319841,
     "iso:country":"DE",
     "lbl:latitude":50.724104,
     "lbl:longitude":7.114887,
+    "lbl:max_zoom":13.0,
+    "lbl:min_zoom":8.0,
     "mps:latitude":50.724104,
     "mps:longitude":7.114887,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":6.0,
     "name:afr_x_preferred":[
         "Bonn"
     ],
@@ -496,7 +498,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
     "wd:area":141.06,
     "wd:elevation":60.0,
@@ -516,10 +518,12 @@
     "wof:concordances":{
         "gn:id":2946447,
         "gp:id":640161,
-        "qs:id":6,
-        "qs_pg:id":785914,
+        "qs_pg:id":6,
         "wd:id":"Q586",
         "wk:page":"Bonn"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":785914
     },
     "wof:coterminous":[
         102063661
@@ -538,7 +542,7 @@
         }
     ],
     "wof:id":101748595,
-    "wof:lastmodified":1563265965,
+    "wof:lastmodified":1566717064,
     "wof:name":"Bonn",
     "wof:parent_id":1377689971,
     "wof:placetype":"locality",

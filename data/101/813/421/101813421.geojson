@@ -9,17 +9,19 @@
     "geom:bbox":"8.55404247634,49.7248947521,8.64642220434,49.7666712536",
     "geom:latitude":49.741498,
     "geom:longitude":8.591213,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9187,
-    "gn:population":9300,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9187,
     "iso:country":"DE",
     "lbl:latitude":49.740831,
     "lbl:longitude":8.62263,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":49.740831,
     "mps:longitude":8.62263,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Alsbach-H\u00e4hnlein"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
@@ -314,10 +316,12 @@
     "wof:concordances":{
         "gn:id":3272934,
         "gp:id":20162155,
-        "qs:id":342975,
         "qs_pg:id":147402,
         "wd:id":"Q552252",
         "wk:page":"Alsbach-H\u00e4hnlein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":342975
     },
     "wof:country":"DE",
     "wof:geomhash":"574f455b798c635443d3d8ebb15c58db",
@@ -333,7 +337,7 @@
         }
     ],
     "wof:id":101813421,
-    "wof:lastmodified":1563267959,
+    "wof:lastmodified":1566717331,
     "wof:name":"Alsbach-H\u00e4hnlein",
     "wof:parent_id":1377693029,
     "wof:placetype":"locality",

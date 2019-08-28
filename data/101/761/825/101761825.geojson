@@ -9,17 +9,19 @@
     "geom:bbox":"8.60198673264,48.6718906645,8.73405413386,48.7261754362",
     "geom:latitude":48.697474,
     "geom:longitude":8.667016,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":2991,
-    "gn:population":3053,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":2991,
     "iso:country":"DE",
     "lbl:latitude":48.691824,
     "lbl:longitude":8.68897,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":48.691824,
     "mps:longitude":8.68897,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Bad Teinach-Zavelstein"
     ],
@@ -242,9 +244,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u0430\u0434-\u0422\u0430\u0439\u043d\u0430\u0445-\u0426\u0430\u0444\u0435\u043b\u044c\u0448\u0442\u0430\u0439\u043d"
     ],
-    "name:unk_x_variant":[
-        "Bad Teinach-Zavelstein"
-    ],
     "name:uzb_x_preferred":[
         "Bad Teinach-Zavelstein"
     ],
@@ -310,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":48.688333,
     "wd:longitude":8.688056,
@@ -327,10 +326,12 @@
     "wof:concordances":{
         "gn:id":3206153,
         "gp:id":636520,
-        "qs:id":1143978,
         "qs_pg:id":147353,
         "wd:id":"Q503266",
         "wk:page":"Bad Teinach-Zavelstein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1143978
     },
     "wof:country":"DE",
     "wof:geomhash":"99a9b037d9ff5563f59457cce3e63215",
@@ -346,7 +347,7 @@
         }
     ],
     "wof:id":101761825,
-    "wof:lastmodified":1563266908,
+    "wof:lastmodified":1566717187,
     "wof:name":"Bad Teinach-Zavelstein",
     "wof:parent_id":1377688875,
     "wof:placetype":"locality",

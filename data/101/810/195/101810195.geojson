@@ -9,17 +9,19 @@
     "geom:bbox":"9.93583024728,51.4172212871,10.1860118915,51.5356294382",
     "geom:latitude":51.475247,
     "geom:longitude":10.06371,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9314,
-    "gn:population":9063,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9314,
     "iso:country":"DE",
     "lbl:latitude":51.446992,
     "lbl:longitude":10.044105,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":51.446992,
     "mps:longitude":10.044105,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Gleichen"
     ],
@@ -303,7 +305,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -320,10 +322,12 @@
     "wof:concordances":{
         "gn:id":2919999,
         "gp:id":23410742,
-        "qs:id":581809,
-        "qs_pg:id":994068,
+        "qs_pg:id":581809,
         "wd:id":"Q643951",
         "wk:page":"Gleichen, Lower Saxony"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":994068
     },
     "wof:country":"DE",
     "wof:geomhash":"b100e77670d2c193d4f67693701b8af2",
@@ -338,7 +342,7 @@
         }
     ],
     "wof:id":101810195,
-    "wof:lastmodified":1563264786,
+    "wof:lastmodified":1566716880,
     "wof:name":"Gleichen",
     "wof:parent_id":1377685081,
     "wof:placetype":"locality",

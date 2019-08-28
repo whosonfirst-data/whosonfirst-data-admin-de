@@ -9,17 +9,19 @@
     "geom:bbox":"9.21677452608,48.3874497455,9.31573745543,48.4622296527",
     "geom:latitude":48.423052,
     "geom:longitude":9.268903,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9050,
-    "gn:population":9030,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9050,
     "iso:country":"DE",
     "lbl:latitude":48.431949,
     "lbl:longitude":9.256171,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.431949,
     "mps:longitude":9.256171,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Lichtenstein"
     ],
@@ -298,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":107,
     "woe:adm0_id":23424829,
@@ -317,10 +319,12 @@
     "wof:concordances":{
         "gn:id":2878032,
         "gp:id":15002691,
-        "qs:id":375260,
         "qs_pg:id":201967,
         "wd:id":"Q83218",
         "wk:page":"Lichtenstein, Baden-W\u00fcrttemberg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":375260
     },
     "wof:country":"DE",
     "wof:geomhash":"28ab9152431ffdbc424f0146a29c1721",
@@ -336,7 +340,7 @@
         }
     ],
     "wof:id":101762915,
-    "wof:lastmodified":1563264011,
+    "wof:lastmodified":1566716766,
     "wof:name":"Lichtenstein",
     "wof:parent_id":1377689927,
     "wof:placetype":"locality",

@@ -9,15 +9,18 @@
     "geom:bbox":"8.14342669745,49.8954019865,8.34303053532,50.035296206",
     "geom:latitude":49.974204,
     "geom:longitude":8.241505,
-    "gn:gn_country":null,
+    "gn:country":null,
     "gn:population":184997,
     "iso:country":"DE",
     "lbl:latitude":49.997895,
     "lbl:longitude":8.253032,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.0,
     "mps:latitude":49.997895,
     "mps:longitude":8.253032,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":7.0,
     "name:afr_x_preferred":[
         "Mainz"
     ],
@@ -369,9 +372,6 @@
     "name:ukr_x_preferred":[
         "\u041c\u0430\u0439\u043d\u0446"
     ],
-    "name:unk_x_variant":[
-        "Mayence"
-    ],
     "name:urd_x_preferred":[
         "\u0645\u06cc\u0646\u0632"
     ],
@@ -448,7 +448,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -466,10 +466,12 @@
         "gn:id":2874225,
         "gp:id":673515,
         "loc:id":"n79091241",
-        "qs:id":8,
-        "qs_pg:id":1067814,
+        "qs_pg:id":8,
         "wd:id":"Q1720",
         "wk:page":"Mainz"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1067814
     },
     "wof:coterminous":[
         102063557
@@ -487,7 +489,7 @@
         }
     ],
     "wof:id":1175611405,
-    "wof:lastmodified":1563253206,
+    "wof:lastmodified":1566713069,
     "wof:name":"Mainz",
     "wof:parent_id":1377686119,
     "wof:placetype":"locality",

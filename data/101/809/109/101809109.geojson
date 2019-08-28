@@ -9,17 +9,19 @@
     "geom:bbox":"8.15049459001,51.8422081151,8.31717957789,51.949688245",
     "geom:latitude":51.900207,
     "geom:longitude":8.231884,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":16067,
-    "gn:population":15875,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":16067,
     "iso:country":"DE",
     "lbl:latitude":51.880801,
     "lbl:longitude":8.231816,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.880801,
     "mps:longitude":8.231816,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Herzebrock-Clarholz"
     ],
@@ -295,7 +297,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":73,
     "woe:adm0_id":23424829,
@@ -314,9 +316,11 @@
     "wof:concordances":{
         "gn:id":2905487,
         "gp:id":20171357,
-        "qs:id":1157479,
-        "qs_pg:id":1182559,
+        "qs_pg:id":1157479,
         "wd:id":"Q225120"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1182559
     },
     "wof:country":"DE",
     "wof:geomhash":"973007716513f48ced600125501feaab",
@@ -332,7 +336,7 @@
         }
     ],
     "wof:id":101809109,
-    "wof:lastmodified":1561773871,
+    "wof:lastmodified":1566717415,
     "wof:name":"Herzebrock-Clarholz",
     "wof:parent_id":1377691487,
     "wof:placetype":"locality",

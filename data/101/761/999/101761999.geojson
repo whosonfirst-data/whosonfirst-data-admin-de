@@ -9,17 +9,19 @@
     "geom:bbox":"9.42601292669,48.8205915232,9.52344661482,48.8926900301",
     "geom:latitude":48.854908,
     "geom:longitude":9.470278,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":6059,
-    "gn:population":5995,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":6059,
     "iso:country":"DE",
     "lbl:latitude":48.862252,
     "lbl:longitude":9.470803,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.862252,
     "mps:longitude":9.470803,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Berglen"
     ],
@@ -316,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":70,
     "woe:adm0_id":23424829,
@@ -335,10 +337,12 @@
     "wof:concordances":{
         "gn:id":2950551,
         "gp:id":15002579,
-        "qs:id":581886,
-        "qs_pg:id":910016,
+        "qs_pg:id":581886,
         "wd:id":"Q83209",
         "wk:page":"Berglen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":910016
     },
     "wof:country":"DE",
     "wof:geomhash":"e03e8649831ec7264b0162d0148b0102",
@@ -354,7 +358,7 @@
         }
     ],
     "wof:id":101761999,
-    "wof:lastmodified":1563266853,
+    "wof:lastmodified":1566717180,
     "wof:name":"Berglen",
     "wof:parent_id":1377687487,
     "wof:placetype":"locality",

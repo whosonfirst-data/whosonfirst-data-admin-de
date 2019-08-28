@@ -9,17 +9,19 @@
     "geom:bbox":"13.060246135,54.4577212442,13.1583165159,54.6055244162",
     "geom:latitude":54.54898,
     "geom:longitude":13.103616,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1032,
-    "gn:population":1010,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1032,
     "iso:country":"DE",
     "lbl:latitude":54.567715,
     "lbl:longitude":13.104286,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":54.567715,
     "mps:longitude":13.104286,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0647\u064a\u062f\u064a\u0646\u0633\u064a"
     ],
@@ -134,9 +136,6 @@
     "name:ukr_x_preferred":[
         "\u0406\u043d\u0437\u0435\u043b\u044c-\u0413\u0456\u0434\u0434\u0435\u043d\u0437\u0435"
     ],
-    "name:unk_x_variant":[
-        "Hiddensee"
-    ],
     "name:uzb_x_preferred":[
         "Hiddensee"
     ],
@@ -192,7 +191,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -209,9 +208,11 @@
     "wof:concordances":{
         "gn:id":3209281,
         "gp:id":20165994,
-        "qs:id":378492,
         "qs_pg:id":147387,
         "wd:id":"Q3218"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":378492
     },
     "wof:country":"DE",
     "wof:geomhash":"d91965b8ad0548b578dbebf65a70db91",
@@ -226,7 +227,7 @@
         }
     ],
     "wof:id":101817509,
-    "wof:lastmodified":1563265085,
+    "wof:lastmodified":1566716928,
     "wof:name":"Insel Hiddensee",
     "wof:parent_id":1377693551,
     "wof:placetype":"locality",

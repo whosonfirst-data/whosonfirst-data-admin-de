@@ -9,17 +9,19 @@
     "geom:bbox":"10.0126194897,54.3711253479,10.0869734573,54.4283759538",
     "geom:latitude":54.400837,
     "geom:longitude":10.057169,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1092,
-    "gn:population":1144,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":1092,
     "iso:country":"DE",
     "lbl:latitude":54.410585,
     "lbl:longitude":10.061146,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":54.410585,
     "mps:longitude":10.061146,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Felm"
     ],
@@ -297,7 +299,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
@@ -315,9 +317,11 @@
     "wof:concordances":{
         "gn:id":2927236,
         "gp:id":649543,
-        "qs:id":93884,
-        "qs_pg:id":1145581,
+        "qs_pg:id":93884,
         "wd:id":"Q556172"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1145581
     },
     "wof:country":"DE",
     "wof:geomhash":"66eff2ccd312cd30270a343e9f2a9085",
@@ -332,7 +336,7 @@
         }
     ],
     "wof:id":101805157,
-    "wof:lastmodified":1561773691,
+    "wof:lastmodified":1566717027,
     "wof:name":"Felm",
     "wof:parent_id":1377684205,
     "wof:placetype":"locality",

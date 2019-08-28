@@ -9,18 +9,20 @@
     "geom:bbox":"9.00427724372,49.7390522611,9.13440913978,49.7995039246",
     "geom:latitude":49.773352,
     "geom:longitude":9.077974,
-    "geonames:id":"2874749,3278304",
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":7063,
-    "gn:population":6873,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:id":"2874749,3278304",
+    "gn:population":7063,
     "iso:country":"DE",
     "lbl:latitude":49.78553,
     "lbl:longitude":9.037898,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":49.78553,
     "mps:longitude":9.037898,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "L\u00fctzelbach"
     ],
@@ -222,9 +224,6 @@
     "name:ukr_x_preferred":[
         "\u041b\u044e\u0442\u0446\u0435\u043b\u044c\u0431\u0430\u0445"
     ],
-    "name:unk_x_variant":[
-        "L\u00fctzelbach"
-    ],
     "name:uzb_x_preferred":[
         "L\u00fctzelbach"
     ],
@@ -296,7 +295,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":206,
     "woe:adm0_id":23424829,
@@ -315,9 +314,11 @@
     "wof:concordances":{
         "gn:id":2874768,
         "gp:id":676593,
-        "qs:id":3,
-        "qs_pg:id":1039177,
+        "qs_pg:id":3,
         "wd:id":"Q624842"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1039177
     },
     "wof:country":"DE",
     "wof:geomhash":"b271d70405efe90829d42a0efd54c195",
@@ -333,7 +334,7 @@
         }
     ],
     "wof:id":101813099,
-    "wof:lastmodified":1563267887,
+    "wof:lastmodified":1566717323,
     "wof:name":"L\u00fctzelbach",
     "wof:parent_id":1377693905,
     "wof:placetype":"locality",

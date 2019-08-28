@@ -36,10 +36,13 @@
     "iso:country":"DE",
     "lbl:latitude":50.289016,
     "lbl:longitude":11.002436,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.289016,
     "mps:longitude":11.002436,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u062f\u0648\u0631\u0641\u0644\u064a\u0633-\u0625\u0633\u0628\u0622\u062e"
     ],
@@ -136,9 +139,6 @@
     "name:ukr_x_preferred":[
         "\u0414\u0435\u0440\u0444\u043b\u0435\u0441-\u0415\u0441\u0431\u0430\u0445"
     ],
-    "name:unk_x_variant":[
-        "D\u00f6rfles"
-    ],
     "name:uzb_x_preferred":[
         "D\u00f6rfles-Esbach"
     ],
@@ -173,7 +173,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":27,
     "wof:belongsto":[
@@ -188,9 +188,11 @@
     "wof:concordances":{
         "gn:id":2936051,
         "gp:id":20156282,
-        "qs:id":348924,
-        "qs_pg:id":1292197,
+        "qs_pg:id":348924,
         "wd:id":"Q120307"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1292197
     },
     "wof:country":"DE",
     "wof:geomhash":"644adf39d2b384a473c13be00a2059b8",
@@ -206,7 +208,7 @@
         }
     ],
     "wof:id":101913857,
-    "wof:lastmodified":1563266426,
+    "wof:lastmodified":1566717118,
     "wof:name":"D\u00f6rfles-Esbach",
     "wof:parent_id":1377687715,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"9.1772202076,49.2059778183,9.26783688542,49.2767685588",
     "geom:latitude":49.240221,
     "geom:longitude":9.217921,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":18837,
-    "gn:population":18274,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":18837,
     "iso:country":"DE",
     "lbl:latitude":49.222457,
     "lbl:longitude":9.216365,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":49.222457,
     "mps:longitude":9.216365,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Bad Friedrichshall"
     ],
@@ -251,7 +253,7 @@
     "name:ukr_x_variant":[
         "\u0411\u0430\u0434-\u0424\u0440\u0456\u0434\u0440\u0456\u043a\u0441\u0433\u0430\u043b\u043b\u044c"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Friedrichshall"
     ],
     "name:uzb_x_preferred":[
@@ -328,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":49.233333,
     "wd:longitude":9.216667,
@@ -349,10 +351,12 @@
     "wof:concordances":{
         "gn:id":2953457,
         "gp:id":636423,
-        "qs:id":1030578,
-        "qs_pg:id":1143948,
+        "qs_pg:id":1030578,
         "wd:id":"Q502646",
         "wk:page":"Bad Friedrichshall"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1143948
     },
     "wof:country":"DE",
     "wof:geomhash":"46899fde57978e7e1410f049ae27e86b",
@@ -368,7 +372,7 @@
         }
     ],
     "wof:id":101758625,
-    "wof:lastmodified":1563266454,
+    "wof:lastmodified":1566717123,
     "wof:name":"Bad Friedrichshall",
     "wof:parent_id":1377687625,
     "wof:placetype":"locality",

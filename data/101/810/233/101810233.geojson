@@ -9,17 +9,19 @@
     "geom:bbox":"9.25033782961,51.2498728833,9.4002999336,51.3092781828",
     "geom:latitude":51.281744,
     "geom:longitude":9.328457,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10286,
-    "gn:population":10019,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":10286,
     "iso:country":"DE",
     "lbl:latitude":51.282558,
     "lbl:longitude":9.313735,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":51.282558,
     "mps:longitude":9.313735,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Schauenburg"
     ],
@@ -281,9 +283,6 @@
     "name:ukr_x_preferred":[
         "\u0428\u0430\u0443\u0435\u043d\u0431\u0443\u0440\u0433"
     ],
-    "name:unk_x_variant":[
-        "Schaumburg"
-    ],
     "name:uzb_x_preferred":[
         "Schauenburg"
     ],
@@ -359,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
@@ -378,10 +377,12 @@
     "wof:concordances":{
         "gn:id":2840134,
         "gp:id":15002777,
-        "qs:id":1031597,
-        "qs_pg:id":1336960,
+        "qs_pg:id":1031597,
         "wd:id":"Q175419",
         "wk:page":"Schauenburg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1336960
     },
     "wof:country":"DE",
     "wof:geomhash":"f6f3c34f3d61217bbfa46e98b60b6223",
@@ -397,7 +398,7 @@
         }
     ],
     "wof:id":101810233,
-    "wof:lastmodified":1563264856,
+    "wof:lastmodified":1566716891,
     "wof:name":"Schauenburg",
     "wof:parent_id":1377684637,
     "wof:placetype":"locality",

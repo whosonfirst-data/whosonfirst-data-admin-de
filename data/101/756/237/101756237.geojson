@@ -9,17 +9,19 @@
     "geom:bbox":"9.79793653735,48.3731632485,9.94239429342,48.4933724037",
     "geom:latitude":48.431835,
     "geom:longitude":9.866243,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":15441,
-    "gn:population":15059,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":15441,
     "iso:country":"DE",
     "lbl:latitude":48.417386,
     "lbl:longitude":9.914988,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":48.417386,
     "mps:longitude":9.914988,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Blaustein"
     ],
@@ -316,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":182,
     "woe:adm0_id":23424829,
@@ -335,10 +337,12 @@
     "wof:concordances":{
         "gn:id":3209450,
         "gp:id":15002584,
-        "qs:id":1244235,
         "qs_pg:id":1195838,
         "wd:id":"Q535646",
         "wk:page":"Blaustein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1244235
     },
     "wof:country":"DE",
     "wof:geomhash":"ef4cdc9a2f2e81719c9a7bb3a0481956",
@@ -354,7 +358,7 @@
         }
     ],
     "wof:id":101756237,
-    "wof:lastmodified":1563266710,
+    "wof:lastmodified":1566717160,
     "wof:name":"Blaustein",
     "wof:parent_id":1377690193,
     "wof:placetype":"locality",

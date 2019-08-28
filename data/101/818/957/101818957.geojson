@@ -9,17 +9,19 @@
     "geom:bbox":"12.4204096709,54.0056137282,12.5402788467,54.0580191182",
     "geom:latitude":54.031286,
     "geom:longitude":12.471827,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3967,
-    "gn:population":4212,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3967,
     "iso:country":"DE",
     "lbl:latitude":54.028688,
     "lbl:longitude":12.463097,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":54.028688,
     "mps:longitude":12.463097,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Tessin"
     ],
@@ -227,9 +229,6 @@
     "name:ukr_x_preferred":[
         "\u0422\u0435\u0441\u0441\u0456\u043d"
     ],
-    "name:unk_x_variant":[
-        "Tessin"
-    ],
     "name:vec_x_preferred":[
         "Tessin"
     ],
@@ -289,7 +288,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":58,
     "wof:belongsto":[
@@ -303,10 +302,12 @@
     "wof:concordances":{
         "gn:id":2823419,
         "gp:id":698898,
-        "qs:id":308424,
-        "qs_pg:id":934607,
+        "qs_pg:id":308424,
         "wd:id":"Q326057",
         "wk:page":"Tessin, Germany"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":934607
     },
     "wof:country":"DE",
     "wof:geomhash":"d516b279b32d858354708664a5a31771",
@@ -321,7 +322,7 @@
         }
     ],
     "wof:id":101818957,
-    "wof:lastmodified":1563264138,
+    "wof:lastmodified":1566716784,
     "wof:name":"Tessin",
     "wof:parent_id":1377684723,
     "wof:placetype":"locality",

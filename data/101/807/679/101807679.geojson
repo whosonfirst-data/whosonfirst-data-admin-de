@@ -9,17 +9,19 @@
     "geom:bbox":"8.2972136813,52.3523070062,8.56805400084,52.5146933756",
     "geom:latitude":52.427372,
     "geom:longitude":8.453191,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":13917,
-    "gn:population":13607,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":13917,
     "iso:country":"DE",
     "lbl:latitude":52.434281,
     "lbl:longitude":8.459552,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":52.434281,
     "mps:longitude":8.459552,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Stemwede"
     ],
@@ -292,7 +294,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
@@ -311,10 +313,12 @@
     "wof:concordances":{
         "gn:id":3213274,
         "gp:id":15002810,
-        "qs:id":1031984,
-        "qs_pg:id":1310946,
+        "qs_pg:id":1031984,
         "wd:id":"Q183052",
         "wk:page":"Stemwede"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1310946
     },
     "wof:country":"DE",
     "wof:geomhash":"5b0f349f72fbd298f93627a4d4ff75b0",
@@ -330,7 +334,7 @@
         }
     ],
     "wof:id":101807679,
-    "wof:lastmodified":1561773862,
+    "wof:lastmodified":1566717392,
     "wof:name":"Stemwede",
     "wof:parent_id":1377691979,
     "wof:placetype":"locality",

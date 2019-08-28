@@ -9,17 +9,19 @@
     "geom:bbox":"12.2565517557,52.000741761,12.5813140949,52.1788190418",
     "geom:latitude":52.090064,
     "geom:longitude":12.429188,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":4817,
-    "gn:population":4519,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":4817,
     "iso:country":"DE",
     "lbl:latitude":52.115946,
     "lbl:longitude":12.454814,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":52.115946,
     "mps:longitude":12.454814,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Wiesenburg/Mark"
     ],
@@ -236,9 +238,6 @@
     "name:ukr_x_preferred":[
         "\u0412\u0456\u0437\u0435\u043d\u0431\u0443\u0440\u0433"
     ],
-    "name:unk_x_variant":[
-        "Wiesenburg"
-    ],
     "name:uzb_x_preferred":[
         "Wiesenburg/Mark"
     ],
@@ -301,7 +300,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":286,
     "wof:belongsto":[
@@ -315,9 +314,11 @@
     "wof:concordances":{
         "gn:id":2809259,
         "gp:id":29352479,
-        "qs:id":632737,
         "qs_pg:id":576421,
         "wd:id":"Q623510"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":632737
     },
     "wof:country":"DE",
     "wof:geomhash":"423c50603a468c6f89dc512b77ae9bcd",
@@ -332,7 +333,7 @@
         }
     ],
     "wof:id":101847259,
-    "wof:lastmodified":1563267708,
+    "wof:lastmodified":1566717298,
     "wof:name":"Wiesenburg/Mark",
     "wof:parent_id":1377683869,
     "wof:placetype":"locality",

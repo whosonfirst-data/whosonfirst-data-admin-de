@@ -9,17 +9,19 @@
     "geom:bbox":"9.24543130632,54.7014332758,9.45237568335,54.8121655128",
     "geom:latitude":54.756952,
     "geom:longitude":9.333826,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":10816,
-    "gn:population":6152,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":10816,
     "iso:country":"DE",
     "lbl:latitude":54.769889,
     "lbl:longitude":9.324748,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":54.769889,
     "mps:longitude":9.324748,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Handewitt"
     ],
@@ -291,7 +293,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":52,
     "woe:adm0_id":23424829,
@@ -309,9 +311,11 @@
     "wof:concordances":{
         "gn:id":2910986,
         "gp:id":657104,
-        "qs:id":1237781,
         "qs_pg:id":93735,
         "wd:id":"Q551497"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1237781
     },
     "wof:country":"DE",
     "wof:geomhash":"da4a2baafd4dc2059e81d5aba7f1e3a7",
@@ -326,7 +330,7 @@
         }
     ],
     "wof:id":101806897,
-    "wof:lastmodified":1563268963,
+    "wof:lastmodified":1566717473,
     "wof:name":"Handewitt",
     "wof:parent_id":1377684347,
     "wof:placetype":"locality",

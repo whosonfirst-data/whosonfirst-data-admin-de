@@ -9,17 +9,19 @@
     "geom:bbox":"12.0193746619,48.5081697567,12.2848696302,48.5955091196",
     "geom:latitude":48.544717,
     "geom:longitude":12.159471,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":62735,
-    "gn:population":60488,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":62735,
     "iso:country":"DE",
     "lbl:latitude":48.533862,
     "lbl:longitude":12.148372,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.5,
     "mps:latitude":48.533862,
     "mps:longitude":12.148372,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":8.0,
     "name:afr_x_preferred":[
         "Landshut"
     ],
@@ -293,9 +295,6 @@
     "name:ukr_x_preferred":[
         "\u041b\u0430\u043d\u0434\u0441\u0433\u0443\u0442"
     ],
-    "name:unk_x_variant":[
-        "Landshut"
-    ],
     "name:uzb_x_preferred":[
         "Landshut"
     ],
@@ -370,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -388,10 +387,12 @@
     "wof:concordances":{
         "gn:id":2881485,
         "gp:id":669994,
-        "qs:id":1039296,
         "qs_pg:id":432240,
         "wd:id":"Q3974",
         "wk:page":"Landshut"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1039296
     },
     "wof:coterminous":[
         102063299
@@ -410,7 +411,7 @@
         }
     ],
     "wof:id":101748491,
-    "wof:lastmodified":1563266034,
+    "wof:lastmodified":1566717071,
     "wof:name":"Landshut",
     "wof:parent_id":1377683771,
     "wof:placetype":"locality",

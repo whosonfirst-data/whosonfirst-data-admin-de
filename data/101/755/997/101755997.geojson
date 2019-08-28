@@ -9,17 +9,19 @@
     "geom:bbox":"6.85325230195,51.0648856225,6.92801186284,51.1313254288",
     "geom:latitude":51.095811,
     "geom:longitude":6.891096,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":43065,
-    "gn:population":40205,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":43065,
     "iso:country":"DE",
     "lbl:latitude":51.094252,
     "lbl:longitude":6.893574,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":51.094252,
     "mps:longitude":6.893574,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Monheim am Rhein"
     ],
@@ -245,7 +247,7 @@
     "name:ukr_x_preferred":[
         "\u041c\u043e\u043d\u0433\u0430\u0439\u043c-\u0430\u043c-\u0420\u0430\u0439\u043d"
     ],
-    "name:unk_x_variant":[
+    "name:und_x_variant":[
         "Stadt Monheim am Rhein"
     ],
     "name:uzb_x_preferred":[
@@ -319,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":602,
     "woe:adm0_id":23424829,
@@ -338,10 +340,12 @@
     "wof:concordances":{
         "gn:id":2869791,
         "gp:id":675964,
-        "qs:id":638515,
         "qs_pg:id":142116,
         "wd:id":"Q7062",
         "wk:page":"Monheim am Rhein"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":638515
     },
     "wof:country":"DE",
     "wof:geomhash":"b6178903ac37aa83c32ccbfc1e3c1fce",
@@ -357,7 +361,7 @@
         }
     ],
     "wof:id":101755997,
-    "wof:lastmodified":1563263269,
+    "wof:lastmodified":1566716662,
     "wof:name":"Monheim am Rhein",
     "wof:parent_id":1377689677,
     "wof:placetype":"locality",

@@ -9,17 +9,19 @@
     "geom:bbox":"6.92697027332,51.2172448007,7.04244027516,51.2948197934",
     "geom:latitude":51.257146,
     "geom:longitude":6.978216,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":39374,
-    "gn:population":39550,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":39374,
     "iso:country":"DE",
     "lbl:latitude":51.252811,
     "lbl:longitude":6.970846,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":51.252811,
     "mps:longitude":6.970846,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "Mettmann"
     ],
@@ -233,9 +235,6 @@
     "name:ukr_x_preferred":[
         "\u041c\u0435\u0442\u0442\u043c\u0430\u043d"
     ],
-    "name:unk_x_variant":[
-        "Mettmann"
-    ],
     "name:uzb_x_preferred":[
         "Mettmann"
     ],
@@ -307,7 +306,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -325,9 +324,11 @@
     "wof:concordances":{
         "gn:id":2871535,
         "gp:id":675048,
-        "qs:id":1318361,
         "qs_pg:id":455906,
         "wd:id":"Q14878"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1318361
     },
     "wof:country":"DE",
     "wof:geomhash":"59157952d9bb1ab5341ba529b151cec2",
@@ -343,7 +344,7 @@
         }
     ],
     "wof:id":101810021,
-    "wof:lastmodified":1563264944,
+    "wof:lastmodified":1566716906,
     "wof:name":"Mettmann",
     "wof:parent_id":1377689669,
     "wof:placetype":"locality",

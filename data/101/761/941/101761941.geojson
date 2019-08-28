@@ -9,17 +9,19 @@
     "geom:bbox":"10.1117873245,48.8887774621,10.2038475935,48.9482081796",
     "geom:latitude":48.920681,
     "geom:longitude":10.150942,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3362,
-    "gn:population":3275,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3362,
     "iso:country":"DE",
     "lbl:latitude":48.926944,
     "lbl:longitude":10.137857,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":48.926944,
     "mps:longitude":10.137857,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Rainau"
     ],
@@ -310,7 +312,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
@@ -329,10 +331,12 @@
     "wof:concordances":{
         "gn:id":2850806,
         "gp:id":15002747,
-        "qs:id":581854,
         "qs_pg:id":218832,
         "wd:id":"Q531926",
         "wk:page":"Rainau"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":581854
     },
     "wof:country":"DE",
     "wof:geomhash":"460662a5c8d8a5a9d34e9c11c04ffede",
@@ -348,7 +352,7 @@
         }
     ],
     "wof:id":101761941,
-    "wof:lastmodified":1563266875,
+    "wof:lastmodified":1566717182,
     "wof:name":"Rainau",
     "wof:parent_id":1377688061,
     "wof:placetype":"locality",

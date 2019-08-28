@@ -9,17 +9,19 @@
     "geom:bbox":"9.22903880657,53.6493777111,9.48745338063,53.7908564734",
     "geom:latitude":53.709119,
     "geom:longitude":9.368128,
-    "gn:gn_country":null,
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":11929,
-    "gn:population":12364,
+    "gn:country":null,
+    "gn:fcode":"ADM4",
+    "gn:population":11929,
     "iso:country":"DE",
     "lbl:latitude":53.709403,
     "lbl:longitude":9.381669,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":10.5,
     "mps:latitude":53.709403,
     "mps:longitude":9.381669,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":10.0,
     "name:afr_x_preferred":[
         "Drochtersen"
     ],
@@ -303,7 +305,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":134,
     "woe:adm0_id":23424829,
@@ -321,10 +323,12 @@
     "wof:concordances":{
         "gn:id":2934915,
         "gp:id":645752,
-        "qs:id":1040005,
-        "qs_pg:id":1145156,
+        "qs_pg:id":1040005,
         "wd:id":"Q505599",
         "wk:page":"Drochtersen"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1145156
     },
     "wof:country":"DE",
     "wof:geomhash":"31b9d7f2d1d60107e2d9f8fe8fe24c1c",
@@ -339,7 +343,7 @@
         }
     ],
     "wof:id":101806577,
-    "wof:lastmodified":1563268988,
+    "wof:lastmodified":1566717476,
     "wof:name":"Drochtersen",
     "wof:parent_id":1377687875,
     "wof:placetype":"locality",

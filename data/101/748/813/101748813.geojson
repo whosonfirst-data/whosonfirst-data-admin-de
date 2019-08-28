@@ -9,17 +9,19 @@
     "geom:bbox":"12.3611800882,52.3115119182,12.7242568188,52.5409082592",
     "geom:latitude":52.402713,
     "geom:longitude":12.519327,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":72264,
-    "gn:population":59826,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":72264,
     "iso:country":"DE",
     "lbl:latitude":52.421197,
     "lbl:longitude":12.523106,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":9.5,
     "mps:latitude":52.421197,
     "mps:longitude":12.523106,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":8.0,
     "name:afr_x_preferred":[
         "Brandenburg an der Havel"
     ],
@@ -302,9 +304,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u0440\u0430\u043d\u0434\u0435\u043d\u0431\u0443\u0440\u0433-\u043d\u0430-\u0425\u0430\u0444\u0435\u043b\u0456"
     ],
-    "name:unk_x_variant":[
-        "Brandenburg an der Havel"
-    ],
     "name:uzb_x_preferred":[
         "Brandenburg an der Havel"
     ],
@@ -378,7 +377,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -395,10 +394,12 @@
     "wof:concordances":{
         "gn:id":2857129,
         "gp:id":640720,
-        "qs:id":279302,
-        "qs_pg:id":905696,
+        "qs_pg:id":279302,
         "wd:id":"Q3931",
         "wk:page":"Brandenburg an der Havel"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":905696
     },
     "wof:coterminous":[
         102063929
@@ -416,7 +417,7 @@
         }
     ],
     "wof:id":101748813,
-    "wof:lastmodified":1563266109,
+    "wof:lastmodified":1566717078,
     "wof:name":"Brandenburg an der Havel",
     "wof:parent_id":1377694165,
     "wof:placetype":"locality",

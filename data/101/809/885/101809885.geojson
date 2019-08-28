@@ -9,17 +9,19 @@
     "geom:bbox":"8.60210424207,50.9237917479,8.73581425105,50.9967068159",
     "geom:latitude":50.95686,
     "geom:longitude":8.677188,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3508,
-    "gn:population":3594,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3508,
     "iso:country":"DE",
     "lbl:latitude":50.96163,
     "lbl:longitude":8.717798,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":50.96163,
     "mps:longitude":8.717798,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "M\u00fcnchhausen"
     ],
@@ -286,7 +288,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wof:belongsto":[
         85682531,
@@ -300,10 +302,12 @@
     "wof:concordances":{
         "gn:id":2867674,
         "gp:id":676772,
-        "qs:id":374022,
         "qs_pg:id":185395,
         "wd:id":"Q582545",
         "wk:page":"M\u00fcnchhausen am Christenberg"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":374022
     },
     "wof:country":"DE",
     "wof:geomhash":"40777ae9de31b5b461590435ed905012",
@@ -319,7 +323,7 @@
         }
     ],
     "wof:id":101809885,
-    "wof:lastmodified":1563268579,
+    "wof:lastmodified":1566717418,
     "wof:name":"M\u00fcnchhausen",
     "wof:parent_id":1377683885,
     "wof:placetype":"locality",

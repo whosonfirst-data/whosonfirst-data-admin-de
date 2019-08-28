@@ -9,17 +9,19 @@
     "geom:bbox":"13.6923864837,54.3238546983,13.7672700569,54.3558770151",
     "geom:latitude":54.34333,
     "geom:longitude":13.724561,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":1251,
-    "gn:population":1280,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":1251,
     "iso:country":"DE",
     "lbl:latitude":54.342597,
     "lbl:longitude":13.733195,
+    "lbl:max_zoom":16.0,
+    "lbl:min_zoom":12.0,
     "mps:latitude":54.342597,
     "mps:longitude":13.733195,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "G\u00f6hren"
     ],
@@ -288,7 +290,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
@@ -306,9 +308,11 @@
     "wof:concordances":{
         "gn:id":2919480,
         "gp:id":683824,
-        "qs:id":141939,
-        "qs_pg:id":578974,
+        "qs_pg:id":141939,
         "wd:id":"Q628382"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":578974
     },
     "wof:country":"DE",
     "wof:geomhash":"5018b5386ff028a73e572b3d36d7a166",
@@ -323,7 +327,7 @@
         }
     ],
     "wof:id":101817543,
-    "wof:lastmodified":1561773650,
+    "wof:lastmodified":1566716925,
     "wof:name":"G\u00f6hren",
     "wof:parent_id":1377684961,
     "wof:placetype":"locality",

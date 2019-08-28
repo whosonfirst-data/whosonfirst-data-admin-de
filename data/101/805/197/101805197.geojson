@@ -9,17 +9,19 @@
     "geom:bbox":"9.87021644786,54.6257673086,10.0368224179,54.7013382974",
     "geom:latitude":54.662351,
     "geom:longitude":9.952616,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":9663,
-    "gn:population":9677,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":9663,
     "iso:country":"DE",
     "lbl:latitude":54.660394,
     "lbl:longitude":9.927115,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":54.660394,
     "mps:longitude":9.927115,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Kappeln"
     ],
@@ -239,9 +241,6 @@
     "name:ukr_x_preferred":[
         "\u041a\u0430\u043f\u043f\u0435\u043b\u044c\u043d"
     ],
-    "name:unk_x_variant":[
-        "Kappeln"
-    ],
     "name:uzb_x_preferred":[
         "Kappeln"
     ],
@@ -312,7 +311,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":134,
     "woe:adm0_id":23424829,
@@ -330,10 +329,12 @@
     "wof:concordances":{
         "gn:id":2893024,
         "gp:id":664847,
-        "qs:id":1167073,
         "qs_pg:id":578382,
         "wd:id":"Q516567",
         "wk:page":"Kappeln"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1167073
     },
     "wof:country":"DE",
     "wof:geomhash":"5a09c1bcd121ff7b3b43efdcbdef64b2",
@@ -348,7 +349,7 @@
         }
     ],
     "wof:id":101805197,
-    "wof:lastmodified":1563265737,
+    "wof:lastmodified":1566717031,
     "wof:name":"Kappeln",
     "wof:parent_id":1377684311,
     "wof:placetype":"locality",

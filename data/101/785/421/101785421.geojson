@@ -9,17 +9,19 @@
     "geom:bbox":"12.0451093131,48.2924893477,12.2461216234,48.3981626016",
     "geom:latitude":48.339198,
     "geom:longitude":12.146736,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":8962,
-    "gn:population":8690,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":8962,
     "iso:country":"DE",
     "lbl:latitude":48.345731,
     "lbl:longitude":12.132042,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.0,
     "mps:latitude":48.345731,
     "mps:longitude":12.132042,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u062a\u0622\u0648\u0641\u0643\u064a\u0631\u0634\u064a\u0646"
     ],
@@ -101,9 +103,6 @@
     "name:ukr_x_preferred":[
         "\u0422\u0430\u0443\u0444\u043a\u0456\u0440\u0445\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "Taufkirchen"
-    ],
     "name:uzb_x_preferred":[
         "Taufkirchen"
     ],
@@ -145,7 +144,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":51,
     "wof:belongsto":[
@@ -160,10 +159,12 @@
     "wof:concordances":{
         "gn:id":2817206,
         "gp:id":551361,
-        "qs:id":1038295,
-        "qs_pg:id":1151233,
+        "qs_pg:id":1038295,
         "wd:id":"Q545342",
         "wk:page":"Taufkirchen (Vils)"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1151233
     },
     "wof:country":"DE",
     "wof:geomhash":"8925581b0fc874d5ef8103a1777e941a",
@@ -179,7 +180,7 @@
         }
     ],
     "wof:id":101785421,
-    "wof:lastmodified":1564166273,
+    "wof:lastmodified":1566717044,
     "wof:name":"Taufkirchen (Vils)",
     "wof:parent_id":1377691753,
     "wof:placetype":"locality",

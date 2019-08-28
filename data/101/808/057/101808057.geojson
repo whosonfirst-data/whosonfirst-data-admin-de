@@ -9,17 +9,19 @@
     "geom:bbox":"9.55734645193,52.7381491448,9.66112354212,52.7972282882",
     "geom:latitude":52.765441,
     "geom:longitude":9.59654,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":3136,
-    "gn:population":3168,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":3136,
     "iso:country":"DE",
     "lbl:latitude":52.765232,
     "lbl:longitude":9.596037,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":52.765232,
     "mps:longitude":9.596037,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:dan_x_preferred":[
         "Hodenhagen"
     ],
@@ -144,7 +146,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":106,
     "woe:adm0_id":23424829,
@@ -162,9 +164,11 @@
     "wof:concordances":{
         "gn:id":2902818,
         "gp:id":662721,
-        "qs:id":357957,
-        "qs_pg:id":1039552,
+        "qs_pg:id":357957,
         "wd:id":"Q639047"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1039552
     },
     "wof:country":"DE",
     "wof:geomhash":"454b02011712e3cdde6b5c8a78fc9dee",
@@ -179,7 +183,7 @@
         }
     ],
     "wof:id":101808057,
-    "wof:lastmodified":1563268724,
+    "wof:lastmodified":1566717438,
     "wof:name":"Hodenhagen",
     "wof:parent_id":1377687831,
     "wof:placetype":"locality",

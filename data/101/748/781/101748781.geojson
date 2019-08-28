@@ -9,13 +9,14 @@
     "geom:bbox":"11.518539728,52.0255949706,11.7643546534,52.2284205411",
     "geom:latitude":52.116542,
     "geom:longitude":11.641403,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":230456,
-    "gn:population":229826,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":230456,
     "iso:country":"DE",
     "lbl:latitude":52.125911,
     "lbl:longitude":11.626831,
+    "lbl:max_zoom":13.0,
+    "lbl:min_zoom":8.0,
     "mps:latitude":52.125911,
     "mps:longitude":11.626831,
     "mz:hierarchy_label":1,
@@ -520,7 +521,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:latitude":52.133333,
     "wd:longitude":11.616667,
@@ -536,9 +537,11 @@
     "wof:concordances":{
         "gn:id":2874545,
         "gp:id":673361,
-        "qs:id":93468,
-        "qs_pg:id":1148455,
+        "qs_pg:id":93468,
         "wd:id":"Q1733"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":1148455
     },
     "wof:coterminous":[
         102063887
@@ -556,7 +559,7 @@
         }
     ],
     "wof:id":101748781,
-    "wof:lastmodified":1563266149,
+    "wof:lastmodified":1566717082,
     "wof:name":"Magdeburg",
     "wof:parent_id":1377688155,
     "wof:placetype":"locality",

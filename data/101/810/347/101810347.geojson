@@ -9,17 +9,19 @@
     "geom:bbox":"8.47265800633,51.4661503665,8.71310467593,51.6318808427",
     "geom:latitude":51.555029,
     "geom:longitude":8.584332,
-    "gn:gn_country":"DE",
-    "gn:gn_fcode":"ADM4",
-    "gn:gn_pop":21531,
-    "gn:population":22263,
+    "gn:country":"DE",
+    "gn:fcode":"ADM4",
+    "gn:population":21531,
     "iso:country":"DE",
     "lbl:latitude":51.550449,
     "lbl:longitude":8.559135,
+    "lbl:max_zoom":14.0,
+    "lbl:min_zoom":10.0,
     "mps:latitude":51.550449,
     "mps:longitude":8.559135,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":9.0,
     "name:afr_x_preferred":[
         "B\u00fcren"
     ],
@@ -248,9 +250,6 @@
     "name:ukr_x_preferred":[
         "\u0411\u044e\u0440\u0435\u043d"
     ],
-    "name:unk_x_variant":[
-        "B\u00fcren"
-    ],
     "name:uzb_x_preferred":[
         "B\u00fcren"
     ],
@@ -322,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":116,
     "woe:adm0_id":23424829,
@@ -341,9 +340,11 @@
     "wof:concordances":{
         "gn:id":2941568,
         "gp:id":642459,
-        "qs:id":213350,
-        "qs_pg:id":228879,
+        "qs_pg:id":213350,
         "wd:id":"Q183404"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":228879
     },
     "wof:country":"DE",
     "wof:geomhash":"8078f6e46fe849652ba9ab70d8b8e3b6",
@@ -359,7 +360,7 @@
         }
     ],
     "wof:id":101810347,
-    "wof:lastmodified":1563264878,
+    "wof:lastmodified":1566716896,
     "wof:name":"B\u00fcren",
     "wof:parent_id":1377692015,
     "wof:placetype":"locality",
