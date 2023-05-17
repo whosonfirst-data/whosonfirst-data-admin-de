@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sien",
+    "eurostat:nuts_2021_id":"07134082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134082",
+    "eurostat:population":531,
+    "eurostat:population_year":2020,
     "geom:area":0.001036,
     "geom:area_square_m":8285326.273421,
     "geom:bbox":"7.47851263165,49.6748757203,7.52630384518,49.7097565546",
@@ -276,7 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3681,
     "wof:belongsto":[
         85682491,
@@ -287,6 +300,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134082",
+        "eurostat:nuts_2021_id":"07134082",
         "gn:id":2832363,
         "gp:id":694935,
         "qs_pg:id":576907,
@@ -298,7 +313,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3ae3529c7f5a989f5a477ce744b9b624",
+    "wof:geomhash":"50d394c212e9e042a0b26ca8ecb593ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -310,11 +325,11 @@
         }
     ],
     "wof:id":101906857,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351982,
     "wof:name":"Sien",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":611,
+    "wof:population":531,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

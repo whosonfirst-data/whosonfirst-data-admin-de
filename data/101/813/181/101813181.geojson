@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mettenheim",
+    "eurostat:nuts_2021_id":"07331045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331045",
+    "eurostat:population":1659,
+    "eurostat:population_year":2020,
     "geom:area":0.000807,
-    "geom:area_square_m":6450968.703985,
+    "geom:area_square_m":6450968.703983,
     "geom:bbox":"8.28653881994,49.7318706935,8.35636843151,49.749206434",
     "geom:latitude":49.74052,
     "geom:longitude":8.325349,
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331045",
+        "eurostat:nuts_2021_id":"07331045",
         "gn:id":2871555,
         "gp:id":675035,
         "qs_pg:id":577845,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0657de52d4e48a23adcdde60064212d9",
+    "wof:geomhash":"7a6a1d90475487f69248f74839aaac60",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101813181,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351888,
     "wof:name":"Mettenheim",
     "wof:parent_id":1377686189,
     "wof:placetype":"locality",
-    "wof:population":1551,
+    "wof:population":1659,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

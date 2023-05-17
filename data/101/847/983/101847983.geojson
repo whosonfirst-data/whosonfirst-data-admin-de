@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dierhagen",
+    "eurostat:nuts_2021_id":"13073017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073017",
+    "eurostat:population":1532,
+    "eurostat:population_year":2020,
     "geom:area":0.003857,
     "geom:area_square_m":27847185.057428,
     "geom:bbox":"12.2781302753,54.2491502773,12.3938689663,54.3260855631",
@@ -296,7 +308,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073017",
+        "eurostat:nuts_2021_id":"13073017",
         "gn:id":2856196,
         "gp:id":683823,
         "qs_pg:id":247070,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"837f86482433be7e5cb7203f5724be75",
+    "wof:geomhash":"9ae2c2de97649100cefc51c601fd3a71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101847983,
-    "wof:lastmodified":1582342556,
+    "wof:lastmodified":1684351964,
     "wof:name":"Dierhagen",
     "wof:parent_id":1377684935,
     "wof:placetype":"locality",
-    "wof:population":1691,
+    "wof:population":1532,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sulzbach-Laufen",
+    "eurostat:nuts_2021_id":"08127079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127079",
+    "eurostat:population":2506,
+    "eurostat:population_year":2020,
     "geom:area":0.005412,
-    "geom:area_square_m":43942407.000336,
+    "geom:area_square_m":43942407.000333,
     "geom:bbox":"9.79434352234,48.9175958784,9.91416829026,49.0004004333",
     "geom:latitude":48.957637,
     "geom:longitude":9.855389,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682567,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127079",
+        "eurostat:nuts_2021_id":"08127079",
         "gn:id":6555557,
         "gp:id":20160325,
         "qs_pg:id":636166,
@@ -325,7 +340,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46a2690c401a57fbf022a5c58beb13c1",
+    "wof:geomhash":"492fc4d13fac2b60e7b28048cf7b3ba2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101760951,
-    "wof:lastmodified":1582342495,
+    "wof:lastmodified":1684351803,
     "wof:name":"Sulzbach-Laufen",
     "wof:parent_id":1377687889,
     "wof:placetype":"locality",
-    "wof:population":2536,
+    "wof:population":2506,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

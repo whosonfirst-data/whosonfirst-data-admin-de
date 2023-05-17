@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herbsleben",
+    "eurostat:nuts_2021_id":"16064022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064022",
+    "eurostat:population":2924,
+    "eurostat:population_year":2020,
     "geom:area":0.003212,
-    "geom:area_square_m":24933141.703057,
+    "geom:area_square_m":24933141.703064,
     "geom:bbox":"10.7804305725,51.0944815828,10.8999701142,51.1412671524",
     "geom:latitude":51.117437,
     "geom:longitude":10.840292,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064022",
+        "eurostat:nuts_2021_id":"16064022",
         "gn:id":2906185,
         "gp:id":659197,
         "qs_pg:id":1039603,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d92c10cfa6a25d6353755754ac37570e",
+    "wof:geomhash":"a6f0578f669b341004e2d0add39323ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101821947,
-    "wof:lastmodified":1582342421,
+    "wof:lastmodified":1684351918,
     "wof:name":"Herbsleben",
     "wof:parent_id":1377689825,
     "wof:placetype":"locality",
-    "wof:population":3140,
+    "wof:population":2924,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

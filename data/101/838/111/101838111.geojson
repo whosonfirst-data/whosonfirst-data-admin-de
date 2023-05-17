@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcnsterdorf",
+    "eurostat:nuts_2021_id":"01061072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061072",
+    "eurostat:population":1881,
+    "eurostat:population_year":2020,
     "geom:area":0.000701,
     "geom:area_square_m":5103792.974125,
     "geom:bbox":"9.51292077055,53.8870379389,9.56208136309,53.9138051223",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061072",
+        "eurostat:nuts_2021_id":"01061072",
         "gn:id":2867527,
         "gp:id":676873,
         "qs_pg:id":93379,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"61323abd91381bd9dcfaffeaf99878d3",
+    "wof:geomhash":"81dfe3a127e8a45ad57fb0666eb75f4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101838111,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351946,
     "wof:name":"M\u00fcnsterdorf",
     "wof:parent_id":1377684653,
     "wof:placetype":"locality",
-    "wof:population":1924,
+    "wof:population":1881,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

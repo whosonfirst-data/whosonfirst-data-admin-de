@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zellertal",
+    "eurostat:nuts_2021_id":"07333501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333501",
+    "eurostat:population":1166,
+    "eurostat:population_year":2020,
     "geom:area":0.000874,
-    "geom:area_square_m":7000261.098546,
+    "geom:area_square_m":7000261.098545,
     "geom:bbox":"8.11762687089,49.6195073868,8.16115689581,49.6612414176",
     "geom:latitude":49.640497,
     "geom:longitude":8.141165,
@@ -128,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "wof:belongsto":[
         85682491,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333501",
+        "eurostat:nuts_2021_id":"07333501",
         "gn:id":3272932,
         "gp:id":20163627,
         "qs_pg:id":95336,
@@ -149,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"37eeb6dc6e16bf601586c9ef39f431d2",
+    "wof:geomhash":"6a4b6433a0c037d3a15701286d1d2bc3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +176,11 @@
         }
     ],
     "wof:id":101846201,
-    "wof:lastmodified":1582342528,
+    "wof:lastmodified":1684351959,
     "wof:name":"Zellertal",
     "wof:parent_id":1377686327,
     "wof:placetype":"locality",
-    "wof:population":1231,
+    "wof:population":1166,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

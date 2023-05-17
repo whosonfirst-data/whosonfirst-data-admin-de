@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08222000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mannheim, Universit\u00e4tsstadt",
+    "eurostat:nuts_2021_id":"08222000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE126",
+    "eurostat:nuts_2021_level_lau":"08222000",
+    "eurostat:population":310658,
+    "eurostat:population_year":2020,
     "geom:area":0.018012,
-    "geom:area_square_m":144648666.828905,
+    "geom:area_square_m":144648666.8289,
     "geom:bbox":"8.41414,49.411042,8.590068,49.590478",
     "geom:latitude":49.49942,
     "geom:longitude":8.500323,
@@ -541,17 +553,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063473,
         1377688443,
         404227555,
-        85682567
+        102063473
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08222000",
+        "eurostat:nuts_2021_id":"08222000",
         "gn:id":2873891,
         "gp:id":673711,
         "loc:id":"n79142598",
@@ -568,7 +583,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c8b9804a410c0d0f8c83a902c0209bc7",
+    "wof:geomhash":"e40017c861930aca89037ee4c3bb34bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -581,11 +596,11 @@
         }
     ],
     "wof:id":101748549,
-    "wof:lastmodified":1608050596,
+    "wof:lastmodified":1684351786,
     "wof:name":"Mannheim",
     "wof:parent_id":1377688443,
     "wof:placetype":"locality",
-    "wof:population":307960,
+    "wof:population":310658,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

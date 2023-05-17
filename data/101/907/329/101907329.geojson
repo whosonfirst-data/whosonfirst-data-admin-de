@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arft",
+    "eurostat:nuts_2021_id":"07137006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137006",
+    "eurostat:population":256,
+    "eurostat:population_year":2020,
     "geom:area":0.00072,
     "geom:area_square_m":5677766.10159,
     "geom:bbox":"7.04416473491,50.3777867652,7.09969542524,50.4003663138",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137006",
+        "eurostat:nuts_2021_id":"07137006",
         "gn:id":2955619,
         "gp:id":670157,
         "qs_pg:id":94199,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"86c64716ef25b141fc18b726d2d91c68",
+    "wof:geomhash":"2b7fb0f5fd8e7e34dae1f584a7b52f59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101907329,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351987,
     "wof:name":"Arft",
     "wof:parent_id":1377685565,
     "wof:placetype":"locality",
-    "wof:population":295,
+    "wof:population":256,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

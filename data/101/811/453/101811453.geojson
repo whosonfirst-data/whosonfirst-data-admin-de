@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mogendorf",
+    "eurostat:nuts_2021_id":"07143047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143047",
+    "eurostat:population":1286,
+    "eurostat:population_year":2020,
     "geom:area":0.000543,
-    "geom:area_square_m":4268078.717509,
+    "geom:area_square_m":4268078.71751,
     "geom:bbox":"7.72681833469,50.4802960891,7.77578428724,50.5008328952",
     "geom:latitude":50.490719,
     "geom:longitude":7.749819,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143047",
+        "eurostat:nuts_2021_id":"07143047",
         "gn:id":2870212,
         "gp:id":694956,
         "qs_pg:id":374031,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"20c88a02125d2832f4143a3578c73087",
+    "wof:geomhash":"9a4d53ef64c850658a195dd472df2426",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101811453,
-    "wof:lastmodified":1582342385,
+    "wof:lastmodified":1684351879,
     "wof:name":"Mogendorf",
     "wof:parent_id":1377685843,
     "wof:placetype":"locality",
-    "wof:population":1204,
+    "wof:population":1286,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

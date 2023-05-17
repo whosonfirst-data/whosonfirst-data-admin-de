@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rimbach",
+    "eurostat:nuts_2021_id":"09277141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277141",
+    "eurostat:population":908,
+    "eurostat:population_year":2020,
     "geom:area":0.002779,
     "geom:area_square_m":22783944.056235,
     "geom:bbox":"12.6229580092,48.4306604055,12.6967325638,48.5022065227",
@@ -95,7 +107,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -106,13 +119,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277141",
+        "eurostat:nuts_2021_id":"09277141",
         "gn:id":2846759
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"cf9241999ecff6d9d31e1c5b16445562",
+    "wof:geomhash":"7332443118330dd0151bd6ee788ca736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +140,11 @@
         }
     ],
     "wof:id":1209926099,
-    "wof:lastmodified":1582342057,
+    "wof:lastmodified":1684352057,
     "wof:name":"Rimbach",
     "wof:parent_id":1377685239,
     "wof:placetype":"locality",
-    "wof:population":913,
+    "wof:population":908,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

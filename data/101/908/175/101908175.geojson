@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Penkow",
+    "eurostat:nuts_2021_id":"13071114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071114",
+    "eurostat:population":261,
+    "eurostat:population_year":2020,
     "geom:area":0.001268,
-    "geom:area_square_m":9337149.586861,
+    "geom:area_square_m":9337149.586863,
     "geom:bbox":"12.4476892567,53.4360488525,12.5051253241,53.4731596166",
     "geom:latitude":53.456146,
     "geom:longitude":12.478071,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071114",
+        "eurostat:nuts_2021_id":"13071114",
         "gn:id":2854958,
         "gp:id":684484,
         "qs_pg:id":577415,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"da9bb9bb1062986a626ff8930897f148",
+    "wof:geomhash":"19c29ba1981998d7f50634748100e05e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101908175,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351993,
     "wof:name":"Penkow",
     "wof:parent_id":1377684451,
     "wof:placetype":"locality",
-    "wof:population":266,
+    "wof:population":261,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rothenstein",
+    "eurostat:nuts_2021_id":"16074079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074079",
+    "eurostat:population":1139,
+    "eurostat:population_year":2020,
     "geom:area":0.001349,
     "geom:area_square_m":10535706.795287,
     "geom:bbox":"11.5566139467,50.8305242348,11.6353698463,50.8641063449",
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":75,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074079",
+        "eurostat:nuts_2021_id":"16074079",
         "gn:id":2901430,
         "gp:id":689975,
         "qs_pg:id":141844,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d69ed8e54db96e718a547b0252797208",
+    "wof:geomhash":"0ef39871d677dd60f98754f7d94cca8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101823191,
-    "wof:lastmodified":1582342533,
+    "wof:lastmodified":1684351924,
     "wof:name":"Rothenstein",
     "wof:parent_id":1377689037,
     "wof:placetype":"locality",
-    "wof:population":1432,
+    "wof:population":1139,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

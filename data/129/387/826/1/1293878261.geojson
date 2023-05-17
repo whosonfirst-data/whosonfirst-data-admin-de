@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinen",
+    "eurostat:nuts_2021_id":"07143075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143075",
+    "eurostat:population":241,
+    "eurostat:population_year":2020,
     "geom:area":0.00053,
     "geom:area_square_m":4163180.723225,
     "geom:bbox":"7.796650466,50.5569282266,7.82947450705,50.5857872537",
@@ -95,7 +107,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -105,13 +118,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143075",
+        "eurostat:nuts_2021_id":"07143075",
         "gn:id":2828227
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a680c24a99835dc890a146bdf452c842",
+    "wof:geomhash":"75e2a682d582eb07a43fa3745a89b863",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +138,11 @@
         }
     ],
     "wof:id":1293878261,
-    "wof:lastmodified":1582342025,
+    "wof:lastmodified":1684352060,
     "wof:name":"Steinen",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":259,
+    "wof:population":241,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

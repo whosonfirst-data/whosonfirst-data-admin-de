@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Heilbrunn",
+    "eurostat:nuts_2021_id":"09173111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173111",
+    "eurostat:population":3961,
+    "eurostat:population_year":2020,
     "geom:area":0.004846,
-    "geom:area_square_m":40282301.018698,
+    "geom:area_square_m":40282301.018696,
     "geom:bbox":"11.398001,47.717404,11.4993,47.792132",
     "geom:latitude":47.754626,
     "geom:longitude":11.450691,
@@ -175,22 +187,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063225,
         1377691001,
         404227567,
-        85682571
+        102063225
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173111",
+        "eurostat:nuts_2021_id":"09173111",
         "gn:id":2953443,
         "gp:id":636432,
         "qs_pg:id":579936,
@@ -205,7 +220,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ef3d41d89f7a0fd24251e8811e59239",
+    "wof:geomhash":"102b85c898cc4d67e03dfab341f79dd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101787623,
-    "wof:lastmodified":1608052015,
+    "wof:lastmodified":1684351842,
     "wof:name":"Bad Heilbrunn",
     "wof:parent_id":1377691001,
     "wof:placetype":"locality",
-    "wof:population":3697,
+    "wof:population":3961,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

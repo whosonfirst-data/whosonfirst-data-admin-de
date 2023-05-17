@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03405000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wilhelmshaven, Stadt",
+    "eurostat:nuts_2021_id":"03405000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE945",
+    "eurostat:nuts_2021_level_lau":"03405000",
+    "eurostat:population":76089,
+    "eurostat:population_year":2020,
     "geom:area":0.014582,
-    "geom:area_square_m":107083607.290363,
+    "geom:area_square_m":107083607.290369,
     "geom:bbox":"7.993269,53.501758,8.169435,53.638109",
     "geom:latitude":53.566891,
     "geom:longitude":8.087482,
@@ -345,20 +357,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064027,
         1377688133,
-        85682555
+        85633111,
+        102064027
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03405000",
+        "eurostat:nuts_2021_id":"03405000",
         "gn:id":2808720,
         "gp:id":706614,
         "loc:id":"n84208034",
@@ -375,7 +390,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"962a320a23ef675243451789ea106fd3",
+    "wof:geomhash":"77f3804d2a2f1e2cdf4793b8b14b852c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -387,11 +402,11 @@
         }
     ],
     "wof:id":101748847,
-    "wof:lastmodified":1608050584,
+    "wof:lastmodified":1684351790,
     "wof:name":"Wilhelmshaven",
     "wof:parent_id":1377688133,
     "wof:placetype":"locality",
-    "wof:population":84393,
+    "wof:population":76089,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

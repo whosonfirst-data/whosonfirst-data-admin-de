@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09179118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eichenau",
+    "eurostat:nuts_2021_id":"09179118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21C",
+    "eurostat:nuts_2021_level_lau":"09179118",
+    "eurostat:population":11922,
+    "eurostat:population_year":2020,
     "geom:area":0.000811,
     "geom:area_square_m":6687972.6248,
     "geom:bbox":"11.288737,48.152394,11.340318,48.180897",
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":373,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063271,
         1377691991,
         404227567,
-        85682571
+        102063271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09179118",
+        "eurostat:nuts_2021_id":"09179118",
         "fct:id":"071cce52-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2932382,
         "gp:id":646958,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"164e27446e1b5ffaf8d0848ee1c85bd0",
+    "wof:geomhash":"83a402f25860fddce6214cdddcaf8a7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050797,
+    "wof:lastmodified":1684351793,
     "wof:name":"Eichenau",
     "wof:parent_id":1377691991,
     "wof:placetype":"locality",
-    "wof:population":11637,
+    "wof:population":11922,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

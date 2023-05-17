@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mildstedt",
+    "eurostat:nuts_2021_id":"01054084",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054084",
+    "eurostat:population":3925,
+    "eurostat:population_year":2020,
     "geom:area":0.001211,
-    "geom:area_square_m":8699153.761918,
+    "geom:area_square_m":8699153.761917,
     "geom:bbox":"9.08487358938,54.4479840596,9.1496581464,54.4837737485",
     "geom:latitude":54.469239,
     "geom:longitude":9.11237,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054084",
+        "eurostat:nuts_2021_id":"01054084",
         "gn:id":2871128,
         "gp:id":675283,
         "qs_pg:id":36383,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ea7b5959a1a4101e154d4e5cb85419bd",
+    "wof:geomhash":"a1adeb1832a11aa27eeda796819ff21e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101838189,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351947,
     "wof:name":"Mildstedt",
     "wof:parent_id":1377683557,
     "wof:placetype":"locality",
-    "wof:population":3697,
+    "wof:population":3925,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

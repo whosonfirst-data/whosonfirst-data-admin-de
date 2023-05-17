@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hoppegarten",
+    "eurostat:nuts_2021_id":"12064227",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064227",
+    "eurostat:population":18079,
+    "eurostat:population_year":2020,
     "geom:area":0.004221,
     "geom:area_square_m":31761004.203855,
     "geom:bbox":"13.610543,52.468357,13.686531,52.571011",
@@ -137,17 +149,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":237,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063963,
         1377694657,
-        85682553
+        85633111,
+        102063963
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064227",
+        "eurostat:nuts_2021_id":"12064227",
         "gn:id":2899172,
         "gp:id":643527,
         "qs_pg:id":4,
@@ -161,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23b0ab477f30c10b2fdd1269391b3b99",
+    "wof:geomhash":"e57d956867010ee8a5c48a3f46505a1e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101756507,
-    "wof:lastmodified":1608050826,
+    "wof:lastmodified":1684351796,
     "wof:name":"Hoppegarten",
     "wof:parent_id":1377694657,
     "wof:placetype":"locality",
-    "wof:population":16575,
+    "wof:population":18079,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

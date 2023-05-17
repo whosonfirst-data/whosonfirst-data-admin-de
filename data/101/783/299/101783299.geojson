@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Polsingen",
+    "eurostat:nuts_2021_id":"09577162",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577162",
+    "eurostat:population":1827,
+    "eurostat:population_year":2020,
     "geom:area":0.004173,
-    "geom:area_square_m":33899588.753629,
+    "geom:area_square_m":33899588.753634,
     "geom:bbox":"10.669265,48.899538,10.800034,48.963253",
     "geom:latitude":48.933129,
     "geom:longitude":10.729355,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063389,
         1377690217,
         404227565,
-        85682571
+        102063389
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577162",
+        "eurostat:nuts_2021_id":"09577162",
         "gn:id":2852809,
         "gp:id":685570,
         "qs_pg:id":279199,
@@ -183,7 +198,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"36641494d32a06dc5220fca47eac078d",
+    "wof:geomhash":"9dca6c0170ccb9ac7a7d82506b883350",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,12 +211,12 @@
         }
     ],
     "wof:id":101783299,
-    "wof:lastmodified":1608050652,
+    "wof:lastmodified":1684351829,
     "wof:name":"Polsingen",
     "wof:parent_id":1377690217,
     "wof:placetype":"locality",
-    "wof:population":2042,
-    "wof:population_rank":4,
+    "wof:population":1827,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

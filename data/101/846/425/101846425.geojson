@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03452010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Halbemond",
+    "eurostat:nuts_2021_id":"03452010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE947",
+    "eurostat:nuts_2021_level_lau":"03452010",
+    "eurostat:population":1005,
+    "eurostat:population_year":2020,
     "geom:area":0.000878,
-    "geom:area_square_m":6449958.328901,
+    "geom:area_square_m":6449958.3289,
     "geom:bbox":"7.2453658147,53.5566180746,7.32631861938,53.5796625621",
     "geom:latitude":53.567906,
     "geom:longitude":7.287648,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03452010",
+        "eurostat:nuts_2021_id":"03452010",
         "gn:id":2911683,
         "gp:id":656779,
         "qs_pg:id":1039653,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fc26987df9fffa99cac8aed2a84cb09e",
+    "wof:geomhash":"3eac20067f6c2c3ec3ad407a9afefb00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101846425,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351961,
     "wof:name":"Halbemond",
     "wof:parent_id":1377688319,
     "wof:placetype":"locality",
-    "wof:population":1041,
+    "wof:population":1005,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

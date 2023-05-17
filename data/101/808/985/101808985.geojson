@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Emmerich am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"05154008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154008",
+    "eurostat:population":30961,
+    "eurostat:population_year":2020,
     "geom:area":0.010497,
-    "geom:area_square_m":80181916.290504,
+    "geom:area_square_m":80181916.290505,
     "geom:bbox":"6.103341,51.805448,6.389543,51.905222",
     "geom:latitude":51.850144,
     "geom:longitude":6.248441,
@@ -344,7 +356,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":80.4,
     "wd:elevation":17.0,
     "wd:latitude":51.835,
@@ -356,15 +369,17 @@
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689495,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154008",
+        "eurostat:nuts_2021_id":"05154008",
         "gn:id":2930509,
         "gp:id":647861,
         "qs_pg:id":142645,
@@ -379,7 +394,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5d8b4825dcb13c1624ce723b5e2cad48",
+    "wof:geomhash":"1d108724cae7531678ff1bbb81745122",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -392,11 +407,11 @@
         }
     ],
     "wof:id":101808985,
-    "wof:lastmodified":1608051685,
+    "wof:lastmodified":1684351866,
     "wof:name":"Emmerich am Rhein",
     "wof:parent_id":1377689495,
     "wof:placetype":"locality",
-    "wof:population":30279,
+    "wof:population":30961,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

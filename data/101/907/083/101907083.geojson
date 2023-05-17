@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buch",
+    "eurostat:nuts_2021_id":"07141019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141019",
+    "eurostat:population":604,
+    "eurostat:population_year":2020,
     "geom:area":0.000512,
     "geom:area_square_m":4050117.132875,
     "geom:bbox":"7.85958447729,50.1987088131,7.90557305507,50.2181105409",
@@ -295,7 +307,8 @@
         "de"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141019",
+        "eurostat:nuts_2021_id":"07141019",
         "gn:id":2942837,
         "gp:id":641877,
         "qs_pg:id":579580,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "de-bkg"
     ],
-    "wof:geomhash":"0e05b7225ca79764f4d9c6d00546c35e",
+    "wof:geomhash":"0c4a599d473501dfd39c7488284b470c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101907083,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351984,
     "wof:name":"Buch",
     "wof:parent_id":1377685677,
     "wof:placetype":"locality",
-    "wof:population":943,
+    "wof:population":604,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

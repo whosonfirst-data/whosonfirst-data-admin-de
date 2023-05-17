@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langenwei\u00dfbach",
+    "eurostat:nuts_2021_id":"14524150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524150",
+    "eurostat:population":2473,
+    "eurostat:population_year":2020,
     "geom:area":0.002885,
-    "geom:area_square_m":22624905.407143,
+    "geom:area_square_m":22624905.40714,
     "geom:bbox":"12.564044,50.608542,12.656419,50.665814",
     "geom:latitude":50.636836,
     "geom:longitude":12.604524,
@@ -132,17 +144,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686431,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524150",
+        "eurostat:nuts_2021_id":"14524150",
         "gn:id":6551124,
         "gp:id":670092,
         "qs_pg:id":632632,
@@ -156,7 +171,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ab49792ea4bbd1bcda3de743c7e2d90",
+    "wof:geomhash":"7cb844195a50bf2252e4a442aec17bba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101824715,
-    "wof:lastmodified":1608051138,
+    "wof:lastmodified":1684351930,
     "wof:name":"Langenwei\u00dfbach",
     "wof:parent_id":1377686431,
     "wof:placetype":"locality",
-    "wof:population":2580,
+    "wof:population":2473,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

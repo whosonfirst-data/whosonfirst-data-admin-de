@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siebenbach",
+    "eurostat:nuts_2021_id":"07137099",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137099",
+    "eurostat:population":206,
+    "eurostat:population_year":2020,
     "geom:area":0.000399,
     "geom:area_square_m":3144633.339851,
     "geom:bbox":"7.01905386637,50.3677141021,7.05956685077,50.3941094755",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -131,6 +144,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137099",
+        "eurostat:nuts_2021_id":"07137099",
         "gn:id":2832736,
         "qs_pg:id":576920,
         "wd:id":"Q647021"
@@ -140,7 +155,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a2cfbdcaaa10fc29614ce820031f503d",
+    "wof:geomhash":"ec01303d23683edf429b49c51d2991a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +167,11 @@
         }
     ],
     "wof:id":1125789033,
-    "wof:lastmodified":1582343040,
+    "wof:lastmodified":1684352014,
     "wof:name":"Siebenbach",
     "wof:parent_id":1377685565,
     "wof:placetype":"locality",
-    "wof:population":205,
+    "wof:population":206,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schmalensee",
+    "eurostat:nuts_2021_id":"01060072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060072",
+    "eurostat:population":486,
+    "eurostat:population_year":2020,
     "geom:area":0.001208,
     "geom:area_square_m":8763752.455965,
     "geom:bbox":"10.2560702322,54.059278733,10.3065693622,54.1003998317",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060072",
+        "eurostat:nuts_2021_id":"01060072",
         "gn:id":2838087,
         "gp:id":692350,
         "qs_pg:id":577049,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"07b8c332c04a6409065b56267e22ee05",
+    "wof:geomhash":"acccfca8a0dbd7208db1169e20877c15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101906189,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351977,
     "wof:name":"Schmalensee",
     "wof:parent_id":1377684545,
     "wof:placetype":"locality",
-    "wof:population":493,
+    "wof:population":486,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

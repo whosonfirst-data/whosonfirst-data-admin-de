@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Golmsdorf",
+    "eurostat:nuts_2021_id":"16074026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074026",
+    "eurostat:population":698,
+    "eurostat:population_year":2020,
     "geom:area":0.000976,
     "geom:area_square_m":7599377.07803,
     "geom:bbox":"11.6467369691,50.9489390447,11.6946042228,50.9896022419",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074026",
+        "eurostat:nuts_2021_id":"16074026",
         "gn:id":2919189,
         "gp:id":638639,
         "qs_pg:id":93824,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"13e7f3f2ae68a0a723cda570237eea28",
+    "wof:geomhash":"6162c0f642ff4955ce300b3012ac44b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101910279,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352005,
     "wof:name":"Golmsdorf",
     "wof:parent_id":1377689057,
     "wof:placetype":"locality",
-    "wof:population":713,
+    "wof:population":698,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

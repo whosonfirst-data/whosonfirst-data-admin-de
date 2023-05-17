@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ollendorf",
+    "eurostat:nuts_2021_id":"16068039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068039",
+    "eurostat:population":414,
+    "eurostat:population_year":2020,
     "geom:area":0.001179,
     "geom:area_square_m":9169157.205293,
     "geom:bbox":"11.1605683284,51.0229201526,11.2174493061,51.0577997089",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068039",
+        "eurostat:nuts_2021_id":"16068039",
         "gn:id":2857328,
         "gp:id":683243,
         "qs_pg:id":577477,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"745463f54d4099351bf94781931100b9",
+    "wof:geomhash":"09c38efcacd8f490d4619fd53c54b258",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910505,
-    "wof:lastmodified":1582342651,
+    "wof:lastmodified":1684352007,
     "wof:name":"Ollendorf",
     "wof:parent_id":1377690251,
     "wof:placetype":"locality",
-    "wof:population":487,
+    "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

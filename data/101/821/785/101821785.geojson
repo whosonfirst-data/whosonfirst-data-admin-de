@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Calau, Stadt",
+    "eurostat:nuts_2021_id":"12066052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066052",
+    "eurostat:population":7720,
+    "eurostat:population_year":2020,
     "geom:area":0.021332,
     "geom:area_square_m":163308133.240208,
     "geom:bbox":"13.798085,51.678489,14.050601,51.839589",
@@ -309,19 +321,22 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.745833,
     "wd:longitude":13.950833,
     "wd:wordcount":795,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063849,
         1377683417,
-        85682553
+        85633111,
+        102063849
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066052",
+        "eurostat:nuts_2021_id":"12066052",
         "gn:id":2940424,
         "gp:id":642969,
         "qs_pg:id":1244007,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"378c1aea12a148e577b65cd0888223c3",
+    "wof:geomhash":"4a15f24976c957e0d576fd053f88ad40",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101821785,
-    "wof:lastmodified":1608050197,
+    "wof:lastmodified":1684351917,
     "wof:name":"Calau",
     "wof:parent_id":1377683417,
     "wof:placetype":"locality",
-    "wof:population":9299,
+    "wof:population":7720,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06531004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fernwald",
+    "eurostat:nuts_2021_id":"06531004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE721",
+    "eurostat:nuts_2021_level_lau":"06531004",
+    "eurostat:population":6911,
+    "eurostat:population_year":2020,
     "geom:area":0.002741,
-    "geom:area_square_m":21532183.631425,
+    "geom:area_square_m":21532183.631427,
     "geom:bbox":"8.738865,50.531046,8.823891,50.593332",
     "geom:latitude":50.562765,
     "geom:longitude":8.777378,
@@ -295,22 +307,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":119,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063653,
         1377694463,
         404227577,
-        85682531
+        102063653
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06531004",
+        "eurostat:nuts_2021_id":"06531004",
         "gn:id":3208052,
         "gp:id":15002618,
         "qs_pg:id":267491,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ae03dedbe5e992c354bc1cba27e83b6",
+    "wof:geomhash":"c89a2e3d4c385d8fea7c284f7205b641",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101810703,
-    "wof:lastmodified":1608050076,
+    "wof:lastmodified":1684351874,
     "wof:name":"Fernwald",
     "wof:parent_id":1377694463,
     "wof:placetype":"locality",
-    "wof:population":6466,
+    "wof:population":6911,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

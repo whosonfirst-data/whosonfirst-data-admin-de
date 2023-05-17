@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weinstadt, Stadt",
+    "eurostat:nuts_2021_id":"08119091",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119091",
+    "eurostat:population":27082,
+    "eurostat:population_year":2020,
     "geom:area":0.003877,
-    "geom:area_square_m":31577529.935657,
+    "geom:area_square_m":31577529.935658,
     "geom:bbox":"9.335927,48.757389,9.437175,48.838241",
     "geom:latitude":48.798103,
     "geom:longitude":9.389603,
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":31.71,
     "wd:latitude":48.811111,
     "wd:longitude":9.365556,
@@ -336,15 +349,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063379,
         1377687503,
         404227549,
-        85682567
+        102063379
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119091",
+        "eurostat:nuts_2021_id":"08119091",
         "gn:id":2812145,
         "gp:id":704843,
         "qs_pg:id":141590,
@@ -357,7 +372,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40b186c975f395c1c05b9988843db016",
+    "wof:geomhash":"f83a2684112691a0d480bdd52dee7641",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,12 +385,12 @@
         }
     ],
     "wof:id":101756289,
-    "wof:lastmodified":1608050802,
+    "wof:lastmodified":1684351793,
     "wof:name":"Weinstadt",
     "wof:parent_id":1377687503,
     "wof:placetype":"locality",
-    "wof:population":12765,
-    "wof:population_rank":6,
+    "wof:population":27082,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

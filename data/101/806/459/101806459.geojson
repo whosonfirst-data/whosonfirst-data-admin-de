@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brockel",
+    "eurostat:nuts_2021_id":"03357009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357009",
+    "eurostat:population":1363,
+    "eurostat:population_year":2020,
     "geom:area":0.003377,
     "geom:area_square_m":25073901.938858,
     "geom:bbox":"9.46900949742,53.0535234327,9.58767843918,53.1172214968",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":153,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357009",
+        "eurostat:nuts_2021_id":"03357009",
         "gn:id":2943997,
         "gp:id":705389,
         "qs_pg:id":94048,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0dbe6baf0496ec20434ca78f6baa034e",
+    "wof:geomhash":"94cbaf4be7714398fa42c820f457fee7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101806459,
-    "wof:lastmodified":1582342621,
+    "wof:lastmodified":1684351851,
     "wof:name":"Brockel",
     "wof:parent_id":1377687675,
     "wof:placetype":"locality",
-    "wof:population":1394,
+    "wof:population":1363,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

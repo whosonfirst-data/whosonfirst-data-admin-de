@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Havelberg, Hansestadt",
+    "eurostat:nuts_2021_id":"15090225",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090225",
+    "eurostat:population":6547,
+    "eurostat:population_year":2020,
     "geom:area":0.019985,
-    "geom:area_square_m":149340740.45786,
+    "geom:area_square_m":149340740.457854,
     "geom:bbox":"12.022296,52.727215,12.257536,52.893586",
     "geom:latitude":52.82017,
     "geom:longitude":12.146336,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":196,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen-Anhalt",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063905,
         1377689185,
-        85682519
+        85633111,
+        102063905
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090225",
+        "eurostat:nuts_2021_id":"15090225",
         "gn:id":2908644,
         "gp:id":658133,
         "qs_pg:id":142453,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"68cb73bb8680d9457373aa419c9ed95a",
+    "wof:geomhash":"f9f15bd25e450d9d113a9a98d1d29386",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101819959,
-    "wof:lastmodified":1608050266,
+    "wof:lastmodified":1684351910,
     "wof:name":"Havelberg",
     "wof:parent_id":1377689185,
     "wof:placetype":"locality",
-    "wof:population":7078,
+    "wof:population":6547,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meyn",
+    "eurostat:nuts_2021_id":"01059144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059144",
+    "eurostat:population":735,
+    "eurostat:population_year":2020,
     "geom:area":0.001767,
     "geom:area_square_m":12611251.154059,
     "geom:bbox":"9.19540368149,54.7358221314,9.27786560204,54.7691609603",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059144",
+        "eurostat:nuts_2021_id":"01059144",
         "gn:id":2871394,
         "gp:id":675131,
         "qs_pg:id":93423,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6ffbb03ce4b82e9c1f693524a3e9045a",
+    "wof:geomhash":"8b8c0672614f5b99da2e028e9c641f7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101906411,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351979,
     "wof:name":"Meyn",
     "wof:parent_id":1377684419,
     "wof:placetype":"locality",
-    "wof:population":611,
+    "wof:population":735,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

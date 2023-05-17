@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukirchen/Plei\u00dfe",
+    "eurostat:nuts_2021_id":"14524210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524210",
+    "eurostat:population":3872,
+    "eurostat:population_year":2020,
     "geom:area":0.002161,
-    "geom:area_square_m":16891600.259946,
+    "geom:area_square_m":16891600.259945,
     "geom:bbox":"12.3358137037,50.7593461773,12.4320321401,50.808468544",
     "geom:latitude":50.783317,
     "geom:longitude":12.386859,
@@ -96,7 +108,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -106,6 +119,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524210",
+        "eurostat:nuts_2021_id":"14524210",
         "gn:id":2864749,
         "gp:id":20161698,
         "qs_pg:id":980079
@@ -114,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6bb35284b66566ed08fd5d0d96482c47",
+    "wof:geomhash":"9f21a882ff3f7f26b8223872ae6a26c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +141,11 @@
         }
     ],
     "wof:id":101841235,
-    "wof:lastmodified":1582342520,
+    "wof:lastmodified":1684351952,
     "wof:name":"Neukirchen/Plei\u00dfe",
     "wof:parent_id":1377686461,
     "wof:placetype":"locality",
-    "wof:population":4492,
+    "wof:population":3872,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

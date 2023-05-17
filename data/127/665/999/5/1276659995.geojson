@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fraunberg",
+    "eurostat:nuts_2021_id":"09177120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177120",
+    "eurostat:population":3742,
+    "eurostat:population_year":2020,
     "geom:area":0.005114,
-    "geom:area_square_m":42019871.914812,
+    "geom:area_square_m":42019871.91481,
     "geom:bbox":"11.933337,48.332112,12.064842,48.391795",
     "geom:latitude":48.360479,
     "geom:longitude":12.001711,
@@ -74,17 +86,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063291,
         1377691711,
         404227567,
-        85682571
+        102063291
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177120",
+        "eurostat:nuts_2021_id":"09177120",
         "gn:id":2925275
     },
     "wof:coterminous":[
@@ -94,7 +109,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"3e421865054ccd74a95440e4980e2af1",
+    "wof:geomhash":"e61d8ac180b62a245089cc8e843297b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -107,11 +122,11 @@
         }
     ],
     "wof:id":1276659995,
-    "wof:lastmodified":1608048888,
+    "wof:lastmodified":1684352059,
     "wof:name":"Fraunberg",
     "wof:parent_id":1377691711,
     "wof:placetype":"locality",
-    "wof:population":3418,
+    "wof:population":3742,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

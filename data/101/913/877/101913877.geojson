@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03461006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lemwerder",
+    "eurostat:nuts_2021_id":"03461006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94G",
+    "eurostat:nuts_2021_level_lau":"03461006",
+    "eurostat:population":7122,
+    "eurostat:population_year":2020,
     "geom:area":0.004827,
-    "geom:area_square_m":35806388.637064,
+    "geom:area_square_m":35806388.637065,
     "geom:bbox":"8.53732,53.099276,8.657681,53.176046",
     "geom:latitude":53.136904,
     "geom:longitude":8.597297,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064025,
         1377689287,
-        85682555
+        85633111,
+        102064025
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03461006",
+        "eurostat:nuts_2021_id":"03461006",
         "gn:id":2878912,
         "gp:id":22237383,
         "qs_pg:id":142222,
@@ -188,7 +203,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9a5e1f96916af4881c3955d4a666a02a",
+    "wof:geomhash":"de780081093d427a7cb748eb5801cdb7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101913877,
-    "wof:lastmodified":1608050721,
+    "wof:lastmodified":1684352008,
     "wof:name":"Lemwerder",
     "wof:parent_id":1377689287,
     "wof:placetype":"locality",
-    "wof:population":7325,
+    "wof:population":7122,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

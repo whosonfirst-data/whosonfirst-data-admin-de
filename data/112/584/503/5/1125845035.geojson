@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nerzweiler",
+    "eurostat:nuts_2021_id":"07336065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336065",
+    "eurostat:population":110,
+    "eurostat:population_year":2020,
     "geom:area":0.000255,
     "geom:area_square_m":2042704.841193,
     "geom:bbox":"7.5432570094,49.5970211553,7.57054902892,49.6140772412",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336065",
+        "eurostat:nuts_2021_id":"07336065",
         "gn:id":2866472,
         "qs_pg:id":93376,
         "wd:id":"Q554277"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"83bd2849a5763c567e90528ba7746dea",
+    "wof:geomhash":"41dd0adf1e2d9aba4bb34822dd33be54",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125845035,
-    "wof:lastmodified":1582343046,
+    "wof:lastmodified":1684352027,
     "wof:name":"Nerzweiler",
     "wof:parent_id":1377686483,
     "wof:placetype":"locality",
-    "wof:population":134,
+    "wof:population":110,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

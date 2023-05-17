@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rasdorf, Point-Alpha-Gemeinde",
+    "eurostat:nuts_2021_id":"06631022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631022",
+    "eurostat:population":1554,
+    "eurostat:population_year":2020,
     "geom:area":0.003832,
-    "geom:area_square_m":30002894.556869,
+    "geom:area_square_m":30002894.556865,
     "geom:bbox":"9.850985,50.672172,9.941503,50.757537",
     "geom:latitude":50.717124,
     "geom:longitude":9.897404,
@@ -294,22 +306,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":169,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684239,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631022",
+        "eurostat:nuts_2021_id":"06631022",
         "fct:id":"071bd3f8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850293,
         "gp:id":12632757,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f00a218602f710d88b52beb1a3303c9c",
+    "wof:geomhash":"9d9863320cedf5034f0287cecbba01b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050080,
+    "wof:lastmodified":1684351876,
     "wof:name":"Rasdorf",
     "wof:parent_id":1377684239,
     "wof:placetype":"locality",
-    "wof:population":1833,
+    "wof:population":1554,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"G\u00fcnzburg",
+    "eurostat:name_local":"G\u00fcnzburg",
+    "eurostat:nuts_2021_id":"DE278",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE278",
+    "eurostat:population":128436,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"3",
     "geom:area":0.092643,
-    "geom:area_square_m":761263748.735237,
+    "geom:area_square_m":761263748.735204,
     "geom:bbox":"10.133895,48.159847,10.599539,48.527744",
     "geom:latitude":48.352824,
     "geom:longitude":10.381121,
@@ -177,8 +191,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"762",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"G\u00fcnzburg",
@@ -191,19 +205,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227547,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE278",
         "hasc:id":"DE.BY.GN"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"281668e31cc84fa526b2f44f96091b6e",
+    "wof:geomhash":"eca70cb396ec37b4733844b054a40d38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,12 +229,12 @@
         }
     ],
     "wof:id":102063295,
-    "wof:lastmodified":1587164313,
+    "wof:lastmodified":1684351509,
     "wof:name":"G\u00fcnzburg",
     "wof:parent_id":404227547,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":120183,
+    "wof:population":128436,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"GN",

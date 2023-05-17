@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harbke",
+    "eurostat:nuts_2021_id":"15083275",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083275",
+    "eurostat:population":1750,
+    "eurostat:population_year":2020,
     "geom:area":0.002431,
     "geom:area_square_m":18426536.99487,
     "geom:bbox":"11.0126264737,52.1717012252,11.0880453501,52.2186765625",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682519,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083275",
+        "eurostat:nuts_2021_id":"15083275",
         "gn:id":2910694,
         "gp:id":657239,
         "qs_pg:id":578781,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4a59bfe45c569c9be94f1fcbd739c9d9",
+    "wof:geomhash":"ec411f0442b2dd964eb8d8bf043476bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101819665,
-    "wof:lastmodified":1582342433,
+    "wof:lastmodified":1684351907,
     "wof:name":"Harbke",
     "wof:parent_id":1377688405,
     "wof:placetype":"locality",
-    "wof:population":1935,
+    "wof:population":1750,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

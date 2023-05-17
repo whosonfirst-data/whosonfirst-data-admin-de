@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bilsen",
+    "eurostat:nuts_2021_id":"01056004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056004",
+    "eurostat:population":812,
+    "eurostat:population_year":2020,
     "geom:area":0.000848,
     "geom:area_square_m":6198425.385933,
     "geom:bbox":"9.85782241644,53.7483803947,9.9014301384,53.7817356488",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":92,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056004",
+        "eurostat:nuts_2021_id":"01056004",
         "gn:id":2948902,
         "gp:id":638954,
         "qs_pg:id":94118,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7a9d80dbcaf2ddc70d18f208b15e71fd",
+    "wof:geomhash":"43f245b08c4dc6993fcc8d8ffbe83538",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101906099,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351976,
     "wof:name":"Bilsen",
     "wof:parent_id":1377683989,
     "wof:placetype":"locality",
-    "wof:population":720,
+    "wof:population":812,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

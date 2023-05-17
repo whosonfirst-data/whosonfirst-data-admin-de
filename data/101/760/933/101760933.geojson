@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerabronn, Stadt",
+    "eurostat:nuts_2021_id":"08127032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127032",
+    "eurostat:population":4272,
+    "eurostat:population_year":2020,
     "geom:area":0.00509,
-    "geom:area_square_m":41085709.243274,
+    "geom:area_square_m":41085709.243271,
     "geom:bbox":"9.85934801525,49.192380335,9.99052044082,49.2871745097",
     "geom:latitude":49.245203,
     "geom:longitude":9.917072,
@@ -337,7 +349,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":34.47,
     "wd:latitude":49.249444,
     "wd:longitude":9.920278,
@@ -357,6 +370,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127032",
+        "eurostat:nuts_2021_id":"08127032",
         "gn:id":2921226,
         "gp:id":652157,
         "qs_pg:id":270917,
@@ -371,7 +386,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"57ceb224312c255c0fdf84fcba05822e",
+    "wof:geomhash":"3bda963b499cc0c546855d2fad3880d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
         }
     ],
     "wof:id":101760933,
-    "wof:lastmodified":1582342495,
+    "wof:lastmodified":1684351803,
     "wof:name":"Gerabronn",
     "wof:parent_id":1377687871,
     "wof:placetype":"locality",
-    "wof:population":3581,
+    "wof:population":4272,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

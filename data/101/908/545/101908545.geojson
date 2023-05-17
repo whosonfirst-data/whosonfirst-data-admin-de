@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Veelb\u00f6ken",
+    "eurostat:nuts_2021_id":"13074081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074081",
+    "eurostat:population":639,
+    "eurostat:population_year":2020,
     "geom:area":0.004459,
-    "geom:area_square_m":32605016.816979,
+    "geom:area_square_m":32605016.816978,
     "geom:bbox":"11.1267189143,53.70816616,11.2344087663,53.7946524777",
     "geom:latitude":53.74476,
     "geom:longitude":11.173947,
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074081",
+        "eurostat:nuts_2021_id":"13074081",
         "gn:id":2817798,
         "gp:id":660053,
         "qs_pg:id":576616,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3b7f050f1fe0c52e1cc1019410437ec8",
+    "wof:geomhash":"d1ac29e194cf9215f1ea91d2bbdad516",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101908545,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351997,
     "wof:name":"Veelb\u00f6ken",
     "wof:parent_id":1377693595,
     "wof:placetype":"locality",
-    "wof:population":791,
+    "wof:population":639,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

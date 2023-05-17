@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Paska",
+    "eurostat:nuts_2021_id":"16075079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075079",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "geom:area":0.000823,
     "geom:area_square_m":6460324.715295,
     "geom:bbox":"11.6080462491,50.5912153908,11.6488689919,50.6349235451",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075079",
+        "eurostat:nuts_2021_id":"16075079",
         "gn:id":2855333,
         "qs_pg:id":577428,
         "wd:id":"Q659304"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"17d5709a77460d321622e911f2946b2f",
+    "wof:geomhash":"10dc4071cbbf5a756b2baed771c092ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125884469,
-    "wof:lastmodified":1582342993,
+    "wof:lastmodified":1684352037,
     "wof:name":"Paska",
     "wof:parent_id":1377690819,
     "wof:placetype":"locality",
-    "wof:population":140,
+    "wof:population":100,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

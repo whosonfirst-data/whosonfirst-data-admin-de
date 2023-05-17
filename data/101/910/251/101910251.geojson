@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindenkreuz",
+    "eurostat:nuts_2021_id":"16076044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076044",
+    "eurostat:population":441,
+    "eurostat:population_year":2020,
     "geom:area":0.001132,
-    "geom:area_square_m":8835453.825214,
+    "geom:area_square_m":8835453.825213,
     "geom:bbox":"11.8904210286,50.8263230265,11.9511084884,50.862691777",
     "geom:latitude":50.84614,
     "geom:longitude":11.918872,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076044",
+        "eurostat:nuts_2021_id":"16076044",
         "gn:id":2877259,
         "gp:id":671996,
         "qs_pg:id":577995,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b4027fc630aa893e92faf00b6dd04c9e",
+    "wof:geomhash":"d8c684b04ccff709cf1b03c8eb060569",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910251,
-    "wof:lastmodified":1582342654,
+    "wof:lastmodified":1684352005,
     "wof:name":"Lindenkreuz",
     "wof:parent_id":1377690915,
     "wof:placetype":"locality",
-    "wof:population":511,
+    "wof:population":441,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

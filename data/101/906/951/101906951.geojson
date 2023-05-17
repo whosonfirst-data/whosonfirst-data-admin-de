@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfostheim, M",
+    "eurostat:nuts_2021_id":"09671122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671122",
+    "eurostat:population":16365,
+    "eurostat:population_year":2020,
     "geom:area":0.005603,
-    "geom:area_square_m":44615156.43393,
+    "geom:area_square_m":44615146.705359,
     "geom:bbox":"9.019036,49.865594,9.111983,49.956246",
     "geom:latitude":49.915857,
     "geom:longitude":9.06529,
@@ -309,22 +321,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1434,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693209,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671122",
+        "eurostat:nuts_2021_id":"09671122",
         "gn:id":2915196,
         "gp:id":676283,
         "wd:id":"Q504246",
@@ -334,7 +349,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"afd3bf995979f5c57929123ac3111a49",
+    "wof:geomhash":"3b7f76c24baf48b129d419d3eb162b46",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101906951,
-    "wof:lastmodified":1671037568,
+    "wof:lastmodified":1684351983,
     "wof:name":"Gro\u00dfostheim",
     "wof:parent_id":1377693209,
     "wof:placetype":"locality",
-    "wof:population":16346,
+    "wof:population":16365,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

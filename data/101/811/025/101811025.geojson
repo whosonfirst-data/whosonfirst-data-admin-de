@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lahntal",
+    "eurostat:nuts_2021_id":"06534012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534012",
+    "eurostat:population":6905,
+    "eurostat:population_year":2020,
     "geom:area":0.005191,
-    "geom:area_square_m":40516699.647925,
+    "geom:area_square_m":40516699.647927,
     "geom:bbox":"8.61469,50.831868,8.794711,50.890324",
     "geom:latitude":50.862481,
     "geom:longitude":8.691781,
@@ -297,22 +309,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":528,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683857,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534012",
+        "eurostat:nuts_2021_id":"06534012",
         "gn:id":3208081,
         "gp:id":697186,
         "qs_pg:id":95257,
@@ -326,7 +341,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11c26148769280ea20a8d87ae54c9dc2",
+    "wof:geomhash":"013c637ef026710d5b3daba3f2608df1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101811025,
-    "wof:lastmodified":1608049914,
+    "wof:lastmodified":1684351878,
     "wof:name":"Lahntal",
     "wof:parent_id":1377683857,
     "wof:placetype":"locality",
-    "wof:population":6853,
+    "wof:population":6905,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

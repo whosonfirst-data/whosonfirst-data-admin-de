@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Birnbach",
+    "eurostat:nuts_2021_id":"07132009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132009",
+    "eurostat:population":626,
+    "eurostat:population_year":2020,
     "geom:area":0.00039,
-    "geom:area_square_m":3053663.981559,
+    "geom:area_square_m":3053663.981558,
     "geom:bbox":"7.56587915069,50.6971947191,7.59910297478,50.7157160527",
     "geom:latitude":50.706486,
     "geom:longitude":7.581928,
@@ -137,7 +149,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132009",
+        "eurostat:nuts_2021_id":"07132009",
         "gn:id":2948383,
         "wk:page":"Birnbach"
     },
@@ -158,7 +173,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"794617841cc2c66f892fb42033dd0fe6",
+    "wof:geomhash":"997155a673949db00ac2d361ea687767",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +185,11 @@
         }
     ],
     "wof:id":1242768151,
-    "wof:lastmodified":1582343086,
+    "wof:lastmodified":1684352058,
     "wof:name":"Birnbach",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":642,
+    "wof:population":626,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

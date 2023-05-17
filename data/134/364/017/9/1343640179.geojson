@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osterrade",
+    "eurostat:nuts_2021_id":"01051086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051086",
+    "eurostat:population":413,
+    "eurostat:population_year":2020,
     "geom:area":0.002362,
-    "geom:area_square_m":17088771.462827,
+    "geom:area_square_m":17088771.462826,
     "geom:bbox":"9.3090275637,54.1720852633,9.4403726805,54.2076048825",
     "geom:latitude":54.18985,
     "geom:longitude":9.377279,
@@ -140,7 +152,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -150,13 +163,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051086",
+        "eurostat:nuts_2021_id":"01051086",
         "gn:id":2856396
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e0511ddcb2175a4128547104eefa1230",
+    "wof:geomhash":"6efce9922217fa59f19251f562923c97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":1343640179,
-    "wof:lastmodified":1582341944,
+    "wof:lastmodified":1684352062,
     "wof:name":"Osterrade",
     "wof:parent_id":1377683419,
     "wof:placetype":"locality",
-    "wof:population":409,
+    "wof:population":413,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenahr",
+    "eurostat:nuts_2021_id":"06532013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532013",
+    "eurostat:population":4772,
+    "eurostat:population_year":2020,
     "geom:area":0.005824,
-    "geom:area_square_m":45643184.617787,
+    "geom:area_square_m":45643184.617784,
     "geom:bbox":"8.41422,50.624715,8.567551,50.70218",
     "geom:latitude":50.669054,
     "geom:longitude":8.492605,
@@ -282,18 +294,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":318,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683489,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532013",
+        "eurostat:nuts_2021_id":"06532013",
         "gn:id":2901989,
         "gp:id":648312,
         "qs_pg:id":578607,
@@ -307,7 +322,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1010f456afea9ce7ddedafa442f4c4e2",
+    "wof:geomhash":"d2c2f91dd7aa6a7942cdf6ec40b87a48",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -320,11 +335,11 @@
         }
     ],
     "wof:id":101810929,
-    "wof:lastmodified":1608050111,
+    "wof:lastmodified":1684351877,
     "wof:name":"Hohenahr",
     "wof:parent_id":1377683489,
     "wof:placetype":"locality",
-    "wof:population":4844,
+    "wof:population":4772,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

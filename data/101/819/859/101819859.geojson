@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Milower Land",
+    "eurostat:nuts_2021_id":"12063189",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063189",
+    "eurostat:population":4322,
+    "eurostat:population_year":2020,
     "geom:area":0.021349,
-    "geom:area_square_m":160596449.648224,
+    "geom:area_square_m":160596449.648211,
     "geom:bbox":"12.141811,52.438951,12.449626,52.631912",
     "geom:latitude":52.529047,
     "geom:longitude":12.277888,
@@ -290,17 +302,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":98,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063953,
         1377694605,
-        85682553
+        85633111,
+        102063953
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063189",
+        "eurostat:nuts_2021_id":"12063189",
         "gn:id":2871097,
         "gp:id":675305,
         "qs_pg:id":403713,
@@ -313,7 +328,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d4a49f5b1d907ed0443ba5753403aef",
+    "wof:geomhash":"9f601cb67568569506c221b863a4fb55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101819859,
-    "wof:lastmodified":1608050249,
+    "wof:lastmodified":1684351909,
     "wof:name":"Milower Land",
     "wof:parent_id":1377694605,
     "wof:placetype":"locality",
-    "wof:population":4352,
+    "wof:population":4322,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

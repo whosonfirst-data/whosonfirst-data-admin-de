@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sanitz",
+    "eurostat:nuts_2021_id":"13072091",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072091",
+    "eurostat:population":6048,
+    "eurostat:population_year":2020,
     "geom:area":0.011276,
-    "geom:area_square_m":81820828.926965,
+    "geom:area_square_m":81820828.926964,
     "geom:bbox":"12.297378,53.995591,12.463592,54.124298",
     "geom:latitude":54.068523,
     "geom:longitude":12.383086,
@@ -287,17 +299,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":266,
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675573,
         1377684601,
-        85682487
+        85633111,
+        1377675573
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072091",
+        "eurostat:nuts_2021_id":"13072091",
         "gn:id":2841683,
         "gp:id":691022,
         "qs_pg:id":3,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d71e6fe455b7f7151955d792d323134",
+    "wof:geomhash":"90dc5639f888e912cc2092b6f3c331a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101817383,
-    "wof:lastmodified":1608050147,
+    "wof:lastmodified":1684351896,
     "wof:name":"Sanitz",
     "wof:parent_id":1377684601,
     "wof:placetype":"locality",
-    "wof:population":5700,
+    "wof:population":6048,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

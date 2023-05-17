@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Detern, Flecken",
+    "eurostat:nuts_2021_id":"03457006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457006",
+    "eurostat:population":2760,
+    "eurostat:population_year":2020,
     "geom:area":0.005828,
-    "geom:area_square_m":43154938.825832,
+    "geom:area_square_m":43154938.82583,
     "geom:bbox":"7.51068949824,53.1775422959,7.7338698351,53.2378520036",
     "geom:latitude":53.211568,
     "geom:longitude":7.637749,
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457006",
+        "eurostat:nuts_2021_id":"03457006",
         "gn:id":2937944,
         "gp:id":644260,
         "qs_pg:id":279292,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9663557946eda5fea62903c58a89cd16",
+    "wof:geomhash":"084a6bb8f817d18124323205262f7046",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101806319,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351849,
     "wof:name":"Detern",
     "wof:parent_id":1377688867,
     "wof:placetype":"locality",
-    "wof:population":2687,
+    "wof:population":2760,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

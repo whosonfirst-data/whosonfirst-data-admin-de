@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Finningen",
+    "eurostat:nuts_2021_id":"09773150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773150",
+    "eurostat:population":1708,
+    "eurostat:population_year":2020,
     "geom:area":0.003424,
-    "geom:area_square_m":27972929.118845,
+    "geom:area_square_m":27972929.118843,
     "geom:bbox":"10.4636016969,48.6084997762,10.5328848171,48.6993058797",
     "geom:latitude":48.652355,
     "geom:longitude":10.498661,
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "wof:belongsto":[
         85682571,
@@ -181,6 +194,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773150",
+        "eurostat:nuts_2021_id":"09773150",
         "fct:id":"0762455e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3208334,
         "gp:id":20157517,
@@ -193,7 +208,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"938b603627823b7ddd3a8f6614610115",
+    "wof:geomhash":"99647b50987fa026cf6a285c196b3ab2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342444,
+    "wof:lastmodified":1684351957,
     "wof:name":"Finningen",
     "wof:parent_id":1377692501,
     "wof:placetype":"locality",
-    "wof:population":1681,
+    "wof:population":1708,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

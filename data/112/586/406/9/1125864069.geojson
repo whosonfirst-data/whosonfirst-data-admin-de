@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haserich",
+    "eurostat:nuts_2021_id":"07135039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135039",
+    "eurostat:population":207,
+    "eurostat:population_year":2020,
     "geom:area":0.000555,
     "geom:area_square_m":4408682.198108,
     "geom:bbox":"7.30933176066,50.0253385964,7.34667029438,50.0504755456",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135039",
+        "eurostat:nuts_2021_id":"07135039",
         "gn:id":2909587,
         "qs_pg:id":93726,
         "wd:id":"Q564674"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"23a5bde97981bad22cd4d6579c4864aa",
+    "wof:geomhash":"b813e67cb7e6cefc1fa4615c069a5ec6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125864069,
-    "wof:lastmodified":1582342990,
+    "wof:lastmodified":1684352034,
     "wof:name":"Haserich",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":224,
+    "wof:population":207,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

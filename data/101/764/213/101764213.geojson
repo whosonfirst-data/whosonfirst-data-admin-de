@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08437031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gammertingen, Stadt",
+    "eurostat:nuts_2021_id":"08437031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE149",
+    "eurostat:nuts_2021_level_lau":"08437031",
+    "eurostat:population":6318,
+    "eurostat:population_year":2020,
     "geom:area":0.006409,
-    "geom:area_square_m":52771281.765268,
+    "geom:area_square_m":52771281.765267,
     "geom:bbox":"9.18274304015,48.2215167968,9.35049857455,48.2890578849",
     "geom:latitude":48.252402,
     "geom:longitude":9.261328,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.249444,
     "wd:longitude":9.2175,
     "wd:wordcount":37,
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08437031",
+        "eurostat:nuts_2021_id":"08437031",
         "gn:id":2922747,
         "gp:id":651451,
         "qs_pg:id":142552,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6d19e68122af2ececa83686de2174194",
+    "wof:geomhash":"ddc6a7cba219286c0bc0f30f95185b30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101764213,
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351814,
     "wof:name":"Gammertingen",
     "wof:parent_id":1377690623,
     "wof:placetype":"locality",
-    "wof:population":6790,
+    "wof:population":6318,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

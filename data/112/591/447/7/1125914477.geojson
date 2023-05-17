@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wohratal",
+    "eurostat:nuts_2021_id":"06534022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534022",
+    "eurostat:population":2165,
+    "eurostat:population_year":2020,
     "geom:area":0.003915,
-    "geom:area_square_m":30505003.156469,
+    "geom:area_square_m":30505003.156471,
     "geom:bbox":"8.878962,50.898781,8.975647,50.971159",
     "geom:latitude":50.933511,
     "geom:longitude":8.928135,
@@ -279,21 +291,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377685217,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534022",
+        "eurostat:nuts_2021_id":"06534022",
         "gp:id":20162372,
         "qs_pg:id":60021,
         "wd:id":"Q569791"
@@ -306,7 +321,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"891ace071403539f3c9938be70b4ebb6",
+    "wof:geomhash":"b0e8cad65d38905e35c2c676a13225ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":1125914477,
-    "wof:lastmodified":1608054072,
+    "wof:lastmodified":1684352039,
     "wof:name":"Wohratal",
     "wof:parent_id":1377685217,
     "wof:placetype":"locality",
-    "wof:population":2372,
+    "wof:population":2165,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

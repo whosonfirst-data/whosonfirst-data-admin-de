@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westerdeichstrich",
+    "eurostat:nuts_2021_id":"01051132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051132",
+    "eurostat:population":874,
+    "eurostat:population_year":2020,
     "geom:area":0.001015,
-    "geom:area_square_m":7348950.425913,
+    "geom:area_square_m":7348950.425915,
     "geom:bbox":"8.81732126825,54.144502616,8.89053762477,54.1734140507",
     "geom:latitude":54.156853,
     "geom:longitude":8.852311,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":150,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051132",
+        "eurostat:nuts_2021_id":"01051132",
         "gn:id":2810399,
         "gp:id":697317,
         "qs_pg:id":576453,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3cce3a4acf470207de25da4681f239c6",
+    "wof:geomhash":"6cbfe549e703cf8273dc70824b41cb4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101906263,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351978,
     "wof:name":"Westerdeichstrich",
     "wof:parent_id":1377683425,
     "wof:placetype":"locality",
-    "wof:population":926,
+    "wof:population":874,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Strohkirchen",
+    "eurostat:nuts_2021_id":"13076131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076131",
+    "eurostat:population":317,
+    "eurostat:population_year":2020,
     "geom:area":0.001999,
     "geom:area_square_m":14738451.697139,
     "geom:bbox":"11.2731741928,53.3719897603,11.3644431899,53.4118798385",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076131",
+        "eurostat:nuts_2021_id":"13076131",
         "gn:id":2825740,
         "gp:id":697893,
         "qs_pg:id":93016,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5a708ab2ad7a45862b4dc5d1cca8efec",
+    "wof:geomhash":"cfd300939df8f0a9229114df6ae411fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101908083,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351993,
     "wof:name":"Strohkirchen",
     "wof:parent_id":1377685279,
     "wof:placetype":"locality",
-    "wof:population":364,
+    "wof:population":317,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

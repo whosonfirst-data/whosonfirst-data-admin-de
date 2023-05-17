@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bretthausen",
+    "eurostat:nuts_2021_id":"07143214",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143214",
+    "eurostat:population":200,
+    "eurostat:population_year":2020,
     "geom:area":0.000428,
-    "geom:area_square_m":3356343.789338,
+    "geom:area_square_m":3356343.789339,
     "geom:bbox":"8.05376955515,50.6630982508,8.08713503616,50.6870646883",
     "geom:latitude":50.673818,
     "geom:longitude":8.071087,
@@ -128,7 +140,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -138,6 +151,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143214",
+        "eurostat:nuts_2021_id":"07143214",
         "gn:id":2944195,
         "wk:page":"Bretthausen"
     },
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"8495a17c24eca7e4983182e6905072be",
+    "wof:geomhash":"867e5abbf9064bc36e7e659b57a75b1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,12 +172,12 @@
         }
     ],
     "wof:id":1276640999,
-    "wof:lastmodified":1582342043,
+    "wof:lastmodified":1684352059,
     "wof:name":"Bretthausen",
     "wof:parent_id":1377685807,
     "wof:placetype":"locality",
-    "wof:population":183,
-    "wof:population_rank":1,
+    "wof:population":200,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

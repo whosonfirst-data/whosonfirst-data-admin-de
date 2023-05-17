@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09179126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00f6benzell",
+    "eurostat:nuts_2021_id":"09179126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21C",
+    "eurostat:nuts_2021_level_lau":"09179126",
+    "eurostat:population":20029,
+    "eurostat:population_year":2020,
     "geom:area":0.000783,
-    "geom:area_square_m":6454460.36341,
+    "geom:area_square_m":6454460.363411,
     "geom:bbox":"11.354363,48.177828,11.392991,48.206318",
     "geom:latitude":48.193446,
     "geom:longitude":11.375444,
@@ -185,22 +197,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":325,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063271,
         1377692029,
         404227567,
-        85682571
+        102063271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09179126",
+        "eurostat:nuts_2021_id":"09179126",
         "fct:id":"07412234-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2917221,
         "gp:id":654294,
@@ -215,7 +230,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6998116e0d91417234092418b01f23ea",
+    "wof:geomhash":"fd615094da01a639f9975e31290299b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,12 +246,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049409,
+    "wof:lastmodified":1684351791,
     "wof:name":"Gr\u00f6benzell",
     "wof:parent_id":1377692029,
     "wof:placetype":"locality",
-    "wof:population":19110,
-    "wof:population_rank":6,
+    "wof:population":20029,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,6 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Krefeld, Kreisfreie Stadt",
+    "eurostat:name_local":"Krefeld, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA14",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA14",
+    "eurostat:population":227050,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.017631,
     "geom:area_square_m":136171858.925697,
     "geom:bbox":"6.477765,51.286828,6.706166,51.406307",
@@ -390,8 +404,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"138",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Krefeld",
@@ -405,12 +419,13 @@
     "wd:wordcount":1810,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227561,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA14",
         "hasc:id":"DE.NW.KF",
         "wd:id":"Q2805"
     },
@@ -422,7 +437,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"04280880b96cc14dfccf969bb0440134",
+    "wof:geomhash":"0255c7ad78cdcb258845990f706f95da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -433,12 +448,12 @@
         }
     ],
     "wof:id":102063769,
-    "wof:lastmodified":1608053515,
+    "wof:lastmodified":1684351522,
     "wof:name":"Krefeld",
     "wof:parent_id":404227561,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":222247,
+    "wof:population":227050,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"KF",

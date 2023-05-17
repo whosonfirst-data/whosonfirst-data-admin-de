@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitenbrunn",
+    "eurostat:nuts_2021_id":"09778121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778121",
+    "eurostat:population":2361,
+    "eurostat:population_year":2020,
     "geom:area":0.005058,
-    "geom:area_square_m":41742420.327262,
+    "geom:area_square_m":41742420.327263,
     "geom:bbox":"10.3441952542,48.0811535652,10.4500129632,48.1794670324",
     "geom:latitude":48.134222,
     "geom:longitude":10.386586,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778121",
+        "eurostat:nuts_2021_id":"09778121",
         "gn:id":2944638,
         "gp:id":641041,
         "qs_pg:id":579622,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"85c0461d569f4760aac6269c330df5ef",
+    "wof:geomhash":"5515f5b7090c217925134aeff896e21e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101786519,
-    "wof:lastmodified":1582342639,
+    "wof:lastmodified":1684351838,
     "wof:name":"Breitenbrunn",
     "wof:parent_id":1377693203,
     "wof:placetype":"locality",
-    "wof:population":2300,
+    "wof:population":2361,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

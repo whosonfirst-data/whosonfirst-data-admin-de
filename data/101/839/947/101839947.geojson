@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frickenhausen a.Main, M",
+    "eurostat:nuts_2021_id":"09679131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679131",
+    "eurostat:population":1244,
+    "eurostat:population_year":2020,
     "geom:area":0.001316,
     "geom:area_square_m":10530531.226684,
     "geom:bbox":"10.0615868304,49.6570816909,10.1334146247,49.7053250066",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682571,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679131",
+        "eurostat:nuts_2021_id":"09679131",
         "gn:id":2924836,
         "gp:id":650625,
         "qs_pg:id":1039844,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"86c39b3d88462a5aab0d5b978b3f9551",
+    "wof:geomhash":"379f790851aa1ee5700be72d4e75c875",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101839947,
-    "wof:lastmodified":1582342624,
+    "wof:lastmodified":1684351949,
     "wof:name":"Frickenhausen a. Main",
     "wof:parent_id":1377691951,
     "wof:placetype":"locality",
-    "wof:population":1289,
+    "wof:population":1244,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

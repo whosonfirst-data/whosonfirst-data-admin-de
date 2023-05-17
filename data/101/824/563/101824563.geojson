@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schleiz, Stadt",
+    "eurostat:nuts_2021_id":"16075098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075098",
+    "eurostat:population":8947,
+    "eurostat:population_year":2020,
     "geom:area":0.010548,
-    "geom:area_square_m":82857255.334354,
+    "geom:area_square_m":82857255.334348,
     "geom:bbox":"11.693971,50.51551,11.944137,50.606613",
     "geom:latitude":50.560297,
     "geom:longitude":11.820889,
@@ -321,21 +333,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":282,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690743,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075098",
+        "eurostat:nuts_2021_id":"16075098",
         "gn:id":2838673,
         "gp:id":692138,
         "qs_pg:id":1247825,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"19351f3c9046b06781bf7b7458171e47",
+    "wof:geomhash":"7d0fb50f6d2aa75b8b76b56521fa2b6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101824563,
-    "wof:lastmodified":1608051144,
+    "wof:lastmodified":1684351929,
     "wof:name":"Schleiz",
     "wof:parent_id":1377690743,
     "wof:placetype":"locality",
-    "wof:population":8976,
+    "wof:population":8947,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

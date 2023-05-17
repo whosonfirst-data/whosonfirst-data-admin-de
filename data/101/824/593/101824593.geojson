@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leutenberg, Stadt",
+    "eurostat:nuts_2021_id":"16073106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073106",
+    "eurostat:population":2079,
+    "eurostat:population_year":2020,
     "geom:area":0.007288,
-    "geom:area_square_m":57241361.954541,
+    "geom:area_square_m":57241361.954537,
     "geom:bbox":"11.384501,50.522917,11.555163,50.603581",
     "geom:latitude":50.565541,
     "geom:longitude":11.474145,
@@ -150,17 +162,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063671,
         1377690635,
-        85682541
+        85633111,
+        102063671
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073106",
+        "eurostat:nuts_2021_id":"16073106",
         "gn:id":2878308,
         "gp:id":671464,
         "qs_pg:id":1039240,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"78bf6ebc3256f5f740deaf9cf010e868",
+    "wof:geomhash":"bc064b1d426fd6f62075d3a3fcfdc887",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101824593,
-    "wof:lastmodified":1608051113,
+    "wof:lastmodified":1684351930,
     "wof:name":"Leutenberg",
     "wof:parent_id":1377690635,
     "wof:placetype":"locality",
-    "wof:population":2521,
+    "wof:population":2079,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

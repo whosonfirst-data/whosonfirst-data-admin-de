@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hauenstein",
+    "eurostat:nuts_2021_id":"07340014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340014",
+    "eurostat:population":4016,
+    "eurostat:population_year":2020,
     "geom:area":0.001732,
-    "geom:area_square_m":13995583.065112,
+    "geom:area_square_m":13995583.065113,
     "geom:bbox":"7.80306598259,49.162385969,7.87334344848,49.2084357829",
     "geom:latitude":49.185045,
     "geom:longitude":7.838658,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340014",
+        "eurostat:nuts_2021_id":"07340014",
         "gn:id":2909129,
         "gp:id":657891,
         "qs_pg:id":1039628,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cf070300b36e275f62009d0c4c271d13",
+    "wof:geomhash":"c80c74567ce3b11eb32c311dee8fe1d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101760985,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351804,
     "wof:name":"Hauenstein",
     "wof:parent_id":1377686751,
     "wof:placetype":"locality",
-    "wof:population":4148,
+    "wof:population":4016,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

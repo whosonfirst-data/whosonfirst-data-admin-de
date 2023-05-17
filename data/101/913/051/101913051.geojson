@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fchst\u00e4dt",
+    "eurostat:nuts_2021_id":"12070348",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070348",
+    "eurostat:population":456,
+    "eurostat:population_year":2020,
     "geom:area":0.003852,
     "geom:area_square_m":28718656.901886,
     "geom:bbox":"11.8227411957,52.8916656596,11.9411118111,52.9535549977",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":94,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070348",
+        "eurostat:nuts_2021_id":"12070348",
         "gn:id":2843190,
         "gp:id":690363,
         "qs_pg:id":277253,
@@ -164,7 +179,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b58335d75e599c5793428e2f3b7d879f",
+    "wof:geomhash":"157a9cc2de7261bc3658678b8f00aee2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101913051,
-    "wof:lastmodified":1582342490,
+    "wof:lastmodified":1684352007,
     "wof:name":"R\u00fchst\u00e4dt",
     "wof:parent_id":1377683985,
     "wof:placetype":"locality",
-    "wof:population":606,
+    "wof:population":456,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Parsberg, St",
+    "eurostat:nuts_2021_id":"09373151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373151",
+    "eurostat:population":7292,
+    "eurostat:population_year":2020,
     "geom:area":0.00698,
     "geom:area_square_m":56431152.96344,
     "geom:bbox":"11.664051,49.09637,11.790346,49.228698",
@@ -319,22 +331,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":254,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686117,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373151",
+        "eurostat:nuts_2021_id":"09373151",
         "gn:id":2855388,
         "gp:id":684259,
         "qs_pg:id":246124,
@@ -349,7 +364,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"065ea5a98b052dd97f06bc8b70aeaeeb",
+    "wof:geomhash":"4a2d11c8a4dd502bbece577c426545d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101782075,
-    "wof:lastmodified":1608050531,
+    "wof:lastmodified":1684351823,
     "wof:name":"Parsberg",
     "wof:parent_id":1377686117,
     "wof:placetype":"locality",
-    "wof:population":6772,
+    "wof:population":7292,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

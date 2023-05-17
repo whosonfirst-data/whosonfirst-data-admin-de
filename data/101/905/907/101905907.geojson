@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vorderweidenthal",
+    "eurostat:nuts_2021_id":"07337079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337079",
+    "eurostat:population":583,
+    "eurostat:population_year":2020,
     "geom:area":0.001254,
-    "geom:area_square_m":10147062.933472,
+    "geom:area_square_m":10147062.933471,
     "geom:bbox":"7.85316107867,49.1140161354,7.92066505643,49.1475648199",
     "geom:latitude":49.127993,
     "geom:longitude":7.888198,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337079",
+        "eurostat:nuts_2021_id":"07337079",
         "gn:id":2816141,
         "gp:id":702907,
         "qs_pg:id":92916,
@@ -170,7 +185,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f02e8f85aa0322d80fe71af171e2fcf1",
+    "wof:geomhash":"1608861cba10c536285d7b8af90431f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101905907,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"Vorderweidenthal",
     "wof:parent_id":1377686519,
     "wof:placetype":"locality",
-    "wof:population":680,
+    "wof:population":583,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

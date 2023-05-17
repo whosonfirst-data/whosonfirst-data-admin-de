@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meddewade",
+    "eurostat:nuts_2021_id":"01062046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062046",
+    "eurostat:population":920,
+    "eurostat:population_year":2020,
     "geom:area":0.000385,
     "geom:area_square_m":2809858.226808,
     "geom:bbox":"10.4225031213,53.7946211782,10.4507035767,53.8199101216",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062046",
+        "eurostat:nuts_2021_id":"01062046",
         "gn:id":2872558,
         "gp:id":674435,
         "qs_pg:id":93451,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"299579a1bbcd0842589ae66c44d49767",
+    "wof:geomhash":"f3f0569832ea194c3c1b5fb44d971f65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101908499,
-    "wof:lastmodified":1582342343,
+    "wof:lastmodified":1684351996,
     "wof:name":"Meddewade",
     "wof:parent_id":1377684795,
     "wof:placetype":"locality",
-    "wof:population":756,
+    "wof:population":920,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

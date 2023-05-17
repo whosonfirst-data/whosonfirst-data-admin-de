@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilar",
+    "eurostat:nuts_2021_id":"16063084",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063084",
+    "eurostat:population":846,
+    "eurostat:population_year":2020,
     "geom:area":0.001814,
     "geom:area_square_m":14191502.101481,
     "geom:bbox":"10.094718069,50.7372882654,10.1748930963,50.7795294569",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063084",
+        "eurostat:nuts_2021_id":"16063084",
         "gn:id":2812634,
         "gp:id":704679,
         "qs_pg:id":576502,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7816744731b5e622a0ba33b3f48708a2",
+    "wof:geomhash":"1e99cb5153283dc1f0fdad51cd6662df",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907571,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351989,
     "wof:name":"Weilar",
     "wof:parent_id":1377689681,
     "wof:placetype":"locality",
-    "wof:population":898,
+    "wof:population":846,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

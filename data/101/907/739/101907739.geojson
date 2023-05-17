@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gandesbergen",
+    "eurostat:nuts_2021_id":"03256008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256008",
+    "eurostat:population":480,
+    "eurostat:population_year":2020,
     "geom:area":0.000914,
     "geom:area_square_m":6839209.610977,
     "geom:bbox":"9.20474257389,52.7433456776,9.30271219702,52.7728129441",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256008",
+        "eurostat:nuts_2021_id":"03256008",
         "gn:id":2922728,
         "gp:id":651462,
         "qs_pg:id":579075,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96d480acb92bc26960e8676f7815c93e",
+    "wof:geomhash":"c31457df7489e36bb7a9eab4120aecc2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101907739,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351990,
     "wof:name":"Gandesbergen",
     "wof:parent_id":1377686987,
     "wof:placetype":"locality",
-    "wof:population":478,
+    "wof:population":480,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

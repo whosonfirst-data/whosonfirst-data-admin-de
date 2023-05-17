@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13003000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rostock, Hansestadt",
+    "eurostat:nuts_2021_id":"13003000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE803",
+    "eurostat:nuts_2021_level_lau":"13003000",
+    "eurostat:population":209191,
+    "eurostat:population_year":2020,
     "geom:area":0.023255,
-    "geom:area_square_m":168423585.839654,
+    "geom:area_square_m":168423585.839659,
     "geom:bbox":"11.998485,54.050618,12.293673,54.244696",
     "geom:latitude":54.147339,
     "geom:longitude":12.143215,
@@ -518,21 +530,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":8.0,
     "wd:latitude":54.083333,
     "wd:longitude":12.133333,
     "wd:population":203431,
     "wd:wordcount":3234,
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        102064115,
         1377684353,
-        85682487
+        85633111,
+        102064115
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13003000",
+        "eurostat:nuts_2021_id":"13003000",
         "gn:id":2844588,
         "gp:id":689776,
         "qs_pg:id":239800,
@@ -547,7 +562,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1842421cd6858d1480e5f5691aba43b3",
+    "wof:geomhash":"c76ee4e1c7d53166eabc39619f05a6e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -559,11 +574,11 @@
         }
     ],
     "wof:id":101748865,
-    "wof:lastmodified":1608050590,
+    "wof:lastmodified":1684351790,
     "wof:name":"Rostock",
     "wof:parent_id":1377684353,
     "wof:placetype":"locality",
-    "wof:population":203431,
+    "wof:population":209191,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09189124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Inzell",
+    "eurostat:nuts_2021_id":"09189124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21M",
+    "eurostat:nuts_2021_level_lau":"09189124",
+    "eurostat:population":4826,
+    "eurostat:population_year":2020,
     "geom:area":0.005436,
-    "geom:area_square_m":45182880.902947,
+    "geom:area_square_m":45182880.902945,
     "geom:bbox":"12.710581,47.73288,12.848618,47.810195",
     "geom:latitude":47.768241,
     "geom:longitude":12.768246,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":604,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063251,
         1377694507,
         404227567,
-        85682571
+        102063251
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09189124",
+        "eurostat:nuts_2021_id":"09189124",
         "fct:id":"07465e3e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2895898,
         "gp:id":663601,
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"273a83f96fa4ebe84d3a68fba6e5f8e3",
+    "wof:geomhash":"c4ce2b0ffd4eb5fca83a35bfecfc815e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608052024,
+    "wof:lastmodified":1684351844,
     "wof:name":"Inzell",
     "wof:parent_id":1377694507,
     "wof:placetype":"locality",
-    "wof:population":4320,
+    "wof:population":4826,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

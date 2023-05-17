@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stoltenberg",
+    "eurostat:nuts_2021_id":"01057081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057081",
+    "eurostat:population":330,
+    "eurostat:population_year":2020,
     "geom:area":0.001062,
     "geom:area_square_m":7655675.858065,
     "geom:bbox":"10.309383633,54.3259999413,10.3914650071,54.3535087124",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057081",
+        "eurostat:nuts_2021_id":"01057081",
         "gn:id":2826511,
         "qs_pg:id":576807,
         "wd:id":"Q550340"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"1881d29b6f982e27c40ffb091861db89",
+    "wof:geomhash":"e4b538ae87e9d4011f5ac2e8c875826c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125851023,
-    "wof:lastmodified":1582343035,
+    "wof:lastmodified":1684352031,
     "wof:name":"Stoltenberg",
     "wof:parent_id":1377684101,
     "wof:placetype":"locality",
-    "wof:population":381,
+    "wof:population":330,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

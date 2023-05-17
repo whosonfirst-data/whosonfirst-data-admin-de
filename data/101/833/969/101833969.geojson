@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09188139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Starnberg, St",
+    "eurostat:nuts_2021_id":"09188139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21L",
+    "eurostat:nuts_2021_level_lau":"09188139",
+    "eurostat:population":23488,
+    "eurostat:population_year":2020,
     "geom:area":0.007477,
-    "geom:area_square_m":61848171.394911,
+    "geom:area_square_m":61848171.394908,
     "geom:bbox":"11.224319,47.97299,11.434069,48.039318",
     "geom:latitude":48.010347,
     "geom:longitude":11.332759,
@@ -231,17 +243,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063243,
         1377694409,
         404227567,
-        85682571
+        102063243
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09188139",
+        "eurostat:nuts_2021_id":"09188139",
         "gn:id":2829457,
         "gp:id":696362,
         "qs_pg:id":1074348,
@@ -256,7 +271,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"91455e486344dc442dc98d46039b1c6f",
+    "wof:geomhash":"e7845b9ff8a2411093a3f08385eb3352",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -269,11 +284,11 @@
         }
     ],
     "wof:id":101833969,
-    "wof:lastmodified":1608050420,
+    "wof:lastmodified":1684351944,
     "wof:name":"Starnberg",
     "wof:parent_id":1377694409,
     "wof:placetype":"locality",
-    "wof:population":23086,
+    "wof:population":23488,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

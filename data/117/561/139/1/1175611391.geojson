@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06433007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kelsterbach, Stadt",
+    "eurostat:nuts_2021_id":"06433007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE717",
+    "eurostat:nuts_2021_level_lau":"06433007",
+    "eurostat:population":17029,
+    "eurostat:population_year":2020,
     "geom:area":0.002027,
     "geom:area_square_m":16097031.161844,
     "geom:bbox":"8.47018,50.026032,8.5593,50.08366",
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.068819,
     "wd:longitude":8.530139,
     "wd:population":14981,
@@ -325,15 +338,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063561,
         1377693289,
         404227581,
-        85682531
+        102063561
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06433007",
+        "eurostat:nuts_2021_id":"06433007",
         "gn:id":2891742,
         "gp:id":665403,
         "qs_pg:id":228832,
@@ -347,7 +362,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9931ad740f38604d12a30fce5a43b842",
+    "wof:geomhash":"b4d4a043c0de795f87546244032dd26d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":1175611391,
-    "wof:lastmodified":1608048941,
+    "wof:lastmodified":1684352056,
     "wof:name":"Kelsterbach",
     "wof:parent_id":1377693289,
     "wof:placetype":"locality",
-    "wof:population":14981,
+    "wof:population":17029,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

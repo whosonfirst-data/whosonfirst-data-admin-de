@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hartha, Stadt",
+    "eurostat:nuts_2021_id":"14522250",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522250",
+    "eurostat:population":6949,
+    "eurostat:population_year":2020,
     "geom:area":0.006967,
-    "geom:area_square_m":54081515.540059,
+    "geom:area_square_m":54081515.540062,
     "geom:bbox":"12.883973,51.071223,13.042453,51.156795",
     "geom:latitude":51.113983,
     "geom:longitude":12.968043,
@@ -307,17 +319,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685911,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522250",
+        "eurostat:nuts_2021_id":"14522250",
         "gn:id":2910140,
         "gp:id":649935,
         "qs_pg:id":1039640,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8cadf384a992126457be23b2c7453b8d",
+    "wof:geomhash":"483dfcb5fb2fcbb678d6c97e49281cd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101821837,
-    "wof:lastmodified":1608050221,
+    "wof:lastmodified":1684351917,
     "wof:name":"Hartha",
     "wof:parent_id":1377685911,
     "wof:placetype":"locality",
-    "wof:population":7227,
+    "wof:population":6949,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

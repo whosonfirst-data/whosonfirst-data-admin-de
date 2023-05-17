@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klettgau",
+    "eurostat:nuts_2021_id":"08337062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337062",
+    "eurostat:population":7578,
+    "eurostat:population_year":2020,
     "geom:area":0.005479,
-    "geom:area_square_m":45654175.495022,
+    "geom:area_square_m":45654175.49502,
     "geom:bbox":"8.354717,47.601453,8.484583,47.686678",
     "geom:latitude":47.631707,
     "geom:longitude":8.41817,
@@ -147,18 +159,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":305,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063207,
         1377689779,
         404227543,
-        85682567
+        102063207
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337062",
+        "eurostat:nuts_2021_id":"08337062",
         "gn:id":3205662,
         "gp:id":648606,
         "qs_pg:id":95214,
@@ -172,7 +187,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a52b561d93fabe5794254fad28d595c7",
+    "wof:geomhash":"8ac0d361916a050b292ab71369612f98",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101765185,
-    "wof:lastmodified":1608049550,
+    "wof:lastmodified":1684351816,
     "wof:name":"Klettgau",
     "wof:parent_id":1377689779,
     "wof:placetype":"locality",
-    "wof:population":7462,
+    "wof:population":7578,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

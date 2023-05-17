@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pingelshagen",
+    "eurostat:nuts_2021_id":"13074062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074062",
+    "eurostat:population":526,
+    "eurostat:population_year":2020,
     "geom:area":0.000301,
     "geom:area_square_m":2200860.678337,
     "geom:bbox":"11.3277730005,53.6716077508,11.3581726175,53.694573628",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074062",
+        "eurostat:nuts_2021_id":"13074062",
         "gn:id":2853668,
         "gp:id":685107,
         "qs_pg:id":577394,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5b5ac169b0672ccb7b7bfb7a8022219e",
+    "wof:geomhash":"c03c328372b270bcab0fa4d94a8124f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908553,
-    "wof:lastmodified":1582342348,
+    "wof:lastmodified":1684351997,
     "wof:name":"Pingelshagen",
     "wof:parent_id":1377693623,
     "wof:placetype":"locality",
-    "wof:population":626,
+    "wof:population":526,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

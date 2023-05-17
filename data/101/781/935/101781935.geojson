@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgsalach",
+    "eurostat:nuts_2021_id":"09577120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577120",
+    "eurostat:population":1156,
+    "eurostat:population_year":2020,
     "geom:area":0.002374,
-    "geom:area_square_m":19247065.965899,
+    "geom:area_square_m":19247065.965898,
     "geom:bbox":"11.0642836937,48.99579869,11.1218950618,49.0677218088",
     "geom:latitude":49.034201,
     "geom:longitude":11.090927,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -169,6 +182,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577120",
+        "eurostat:nuts_2021_id":"09577120",
         "gn:id":2941172,
         "gp:id":642625,
         "loc:id":"n96092833",
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d2f61128bafab3d984db238269113b6d",
+    "wof:geomhash":"3a48e1acf5cc473e4c89f2235c67eeb0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101781935,
-    "wof:lastmodified":1582342635,
+    "wof:lastmodified":1684351821,
     "wof:name":"Burgsalach",
     "wof:parent_id":1377690277,
     "wof:placetype":"locality",
-    "wof:population":1262,
+    "wof:population":1156,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

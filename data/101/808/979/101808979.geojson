@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03155001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Gandersheim, Stadt",
+    "eurostat:nuts_2021_id":"03155001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE918",
+    "eurostat:nuts_2021_level_lau":"03155001",
+    "eurostat:population":9623,
+    "eurostat:population_year":2020,
     "geom:area":0.011767,
     "geom:area_square_m":89814817.108684,
     "geom:bbox":"9.92815,51.825207,10.11822,51.947799",
@@ -198,21 +210,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":522,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063793,
         1377685929,
-        85682555
+        85633111,
+        102063793
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03155001",
+        "eurostat:nuts_2021_id":"03155001",
         "gn:id":2953456,
         "gp:id":636424,
         "qs_pg:id":1343556,
@@ -227,7 +242,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"581f11b68d72096e16528897ad41c010",
+    "wof:geomhash":"dc11b4e4870712f947dba4f2c8889585",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -239,12 +254,12 @@
         }
     ],
     "wof:id":101808979,
-    "wof:lastmodified":1608051682,
+    "wof:lastmodified":1684351865,
     "wof:name":"Bad Gandersheim",
     "wof:parent_id":1377685929,
     "wof:placetype":"locality",
-    "wof:population":11099,
-    "wof:population_rank":6,
+    "wof:population":9623,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

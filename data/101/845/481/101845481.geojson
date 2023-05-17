@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rottenbuch",
+    "eurostat:nuts_2021_id":"09190145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190145",
+    "eurostat:population":1797,
+    "eurostat:population_year":2020,
     "geom:area":0.0038,
-    "geom:area_square_m":31605065.476,
+    "geom:area_square_m":31605065.476003,
     "geom:bbox":"10.9056987376,47.6944774377,11.044953763,47.7630981528",
     "geom:latitude":47.727668,
     "geom:longitude":10.964272,
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190145",
+        "eurostat:nuts_2021_id":"09190145",
         "gn:id":2843731,
         "gp:id":690065,
         "qs_pg:id":577159,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9585d703dead4b9ddaae5f59050bd86b",
+    "wof:geomhash":"739b3b0574168b97f9e3af86fe36b083",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101845481,
-    "wof:lastmodified":1582342390,
+    "wof:lastmodified":1684351958,
     "wof:name":"Rottenbuch",
     "wof:parent_id":1377683745,
     "wof:placetype":"locality",
-    "wof:population":1771,
+    "wof:population":1797,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

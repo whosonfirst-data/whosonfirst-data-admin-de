@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfr\u00f6hrsdorf, Stadt",
+    "eurostat:nuts_2021_id":"14625200",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625200",
+    "eurostat:population":9615,
+    "eurostat:population_year":2020,
     "geom:area":0.005289,
     "geom:area_square_m":41026511.017747,
     "geom:bbox":"13.953869,51.117602,14.112901,51.173674",
@@ -194,21 +206,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686719,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625200",
+        "eurostat:nuts_2021_id":"14625200",
         "gn:id":2915124,
         "gp:id":655173,
         "qs_pg:id":903327,
@@ -223,7 +238,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"00cfa4aa932591ae4b1f13b63008b48a",
+    "wof:geomhash":"7d249b369be01d157bf63c524fd54e1b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -235,11 +250,11 @@
         }
     ],
     "wof:id":101841323,
-    "wof:lastmodified":1608050987,
+    "wof:lastmodified":1684351953,
     "wof:name":"Gro\u00dfr\u00f6hrsdorf",
     "wof:parent_id":1377686719,
     "wof:placetype":"locality",
-    "wof:population":7306,
+    "wof:population":9615,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

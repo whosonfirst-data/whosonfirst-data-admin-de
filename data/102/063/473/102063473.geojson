@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Mannheim, Stadtkreis",
+    "eurostat:name_local":"Mannheim, Stadtkreis",
+    "eurostat:nuts_2021_id":"DE126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE126",
+    "eurostat:population":311831,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.018012,
-    "geom:area_square_m":144648666.828908,
+    "geom:area_square_m":144648666.828905,
     "geom:bbox":"8.41414,49.411042,8.590068,49.590478",
     "geom:latitude":49.49942,
     "geom:longitude":8.500323,
@@ -426,8 +440,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"145",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Mannheim",
@@ -441,12 +455,13 @@
     "wd:wordcount":4673,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227555,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE126",
         "hasc:id":"DE.BW.MN",
         "wd:id":"Q2119"
     },
@@ -458,7 +473,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90db05074e17c0ebb0abc1c503957d42",
+    "wof:geomhash":"257b3284cac6ee9f205a1f987f150fab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -469,12 +484,12 @@
         }
     ],
     "wof:id":102063473,
-    "wof:lastmodified":1608052900,
+    "wof:lastmodified":1684351514,
     "wof:name":"Mannheim",
     "wof:parent_id":404227555,
     "wof:placetype":"county",
     "wof:placetype_local":"urban district",
-    "wof:population":290117,
+    "wof:population":311831,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"MN",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625610",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfenberg, Stadt",
+    "eurostat:nuts_2021_id":"14625610",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625610",
+    "eurostat:population":3096,
+    "eurostat:population_year":2020,
     "geom:area":0.006553,
-    "geom:area_square_m":50786633.860705,
+    "geom:area_square_m":50786633.860709,
     "geom:bbox":"14.538583,51.144335,14.69912,51.230593",
     "geom:latitude":51.186851,
     "geom:longitude":14.628379,
@@ -169,16 +181,19 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686905,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625610",
+        "eurostat:nuts_2021_id":"14625610",
         "gn:id":2811941,
         "gp:id":704930,
         "qs_pg:id":470655,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"000bf4cc89f93bdc2fc9ef0ed0b21cdd",
+    "wof:geomhash":"6259d9aed496c565e4911c8530788d0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101822197,
-    "wof:lastmodified":1608051481,
+    "wof:lastmodified":1684351920,
     "wof:name":"Wei\u00dfenberg",
     "wof:parent_id":1377686905,
     "wof:placetype":"locality",
-    "wof:population":3583,
+    "wof:population":3096,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Finsing",
+    "eurostat:nuts_2021_id":"09177118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177118",
+    "eurostat:population":4693,
+    "eurostat:population_year":2020,
     "geom:area":0.002795,
-    "geom:area_square_m":23021878.596623,
+    "geom:area_square_m":23021878.596621,
     "geom:bbox":"11.748096,48.205264,11.858339,48.266458",
     "geom:latitude":48.231361,
     "geom:longitude":11.79578,
@@ -143,21 +155,24 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063291,
         1377691691,
         404227567,
-        85682571
+        102063291
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177118",
+        "eurostat:nuts_2021_id":"09177118",
         "gn:id":2926703,
         "wk:page":"Finsing"
     },
@@ -168,7 +183,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"c8cf35aebcb57240608e5e8249db6c58",
+    "wof:geomhash":"ff4162bf1a6051ea6ee5d677d4fe1aa3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":1292906077,
-    "wof:lastmodified":1608048860,
+    "wof:lastmodified":1684352060,
     "wof:name":"Finsing",
     "wof:parent_id":1377691691,
     "wof:placetype":"locality",
-    "wof:population":4068,
+    "wof:population":4693,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

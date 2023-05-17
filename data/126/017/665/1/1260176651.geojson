@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinhorst",
+    "eurostat:nuts_2021_id":"01053122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053122",
+    "eurostat:population":554,
+    "eurostat:population_year":2020,
     "geom:area":0.002221,
-    "geom:area_square_m":16248509.111638,
+    "geom:area_square_m":16248509.11164,
     "geom:bbox":"10.4518693851,53.6970808841,10.5354696121,53.756962077",
     "geom:latitude":53.728161,
     "geom:longitude":10.488801,
@@ -89,7 +101,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -99,13 +112,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053122",
+        "eurostat:nuts_2021_id":"01053122",
         "gn:id":2827950
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"c4063d5c1f2a3c6330d4e7f2a4a626e3",
+    "wof:geomhash":"68f52ca7e03f264ed6cb31f2975361e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +132,11 @@
         }
     ],
     "wof:id":1260176651,
-    "wof:lastmodified":1582342071,
+    "wof:lastmodified":1684352059,
     "wof:name":"Steinhorst",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":545,
+    "wof:population":554,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

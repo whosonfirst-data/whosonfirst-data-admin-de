@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12072240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ludwigsfelde, Stadt",
+    "eurostat:nuts_2021_id":"12072240",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40H",
+    "eurostat:nuts_2021_level_lau":"12072240",
+    "eurostat:population":26800,
+    "eurostat:population_year":2020,
     "geom:area":0.01452,
-    "geom:area_square_m":109814689.20274,
+    "geom:area_square_m":109814689.202741,
     "geom:bbox":"13.136839,52.245069,13.392895,52.339593",
     "geom:latitude":52.291528,
     "geom:longitude":13.263572,
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.299722,
     "wd:longitude":13.266667,
     "wd:population":23956,
@@ -322,14 +335,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063911,
         1377684169,
-        85682553
+        85633111,
+        102063911
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12072240",
+        "eurostat:nuts_2021_id":"12072240",
         "gn:id":2875379,
         "gp:id":672950,
         "qs_pg:id":119230,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"91905f8302ee1ddde1ec940b97b5c29d",
+    "wof:geomhash":"ef69013dcb4e16faed922cc47b778648",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101819587,
-    "wof:lastmodified":1608050263,
+    "wof:lastmodified":1684351906,
     "wof:name":"Ludwigsfelde",
     "wof:parent_id":1377684169,
     "wof:placetype":"locality",
-    "wof:population":23956,
+    "wof:population":26800,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

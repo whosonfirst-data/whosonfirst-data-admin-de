@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09775143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pfaffenhofen a.d.Roth, M",
+    "eurostat:nuts_2021_id":"09775143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE279",
+    "eurostat:nuts_2021_level_lau":"09775143",
+    "eurostat:population":7243,
+    "eurostat:population_year":2020,
     "geom:area":0.005188,
-    "geom:area_square_m":42624525.757621,
+    "geom:area_square_m":42624525.757619,
     "geom:bbox":"10.1041308135,48.3283050206,10.2329804913,48.4057985486",
     "geom:latitude":48.361083,
     "geom:longitude":10.161825,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":897,
     "wof:belongsto":[
         85682571,
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09775143",
+        "eurostat:nuts_2021_id":"09775143",
         "gn:id":2854384,
         "gp:id":684793,
         "qs_pg:id":342951,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fb06d723aa0afe9d2bdddf7bfe9efdd7",
+    "wof:geomhash":"542123ef0218bbfefe522cebd97d3da5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101842639,
-    "wof:lastmodified":1582342394,
+    "wof:lastmodified":1684351956,
     "wof:name":"Pfaffenhofen a.d. Roth",
     "wof:parent_id":1377692745,
     "wof:placetype":"locality",
-    "wof:population":7158,
+    "wof:population":7243,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

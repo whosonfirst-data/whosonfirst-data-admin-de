@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09479152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Selb, GKSt",
+    "eurostat:nuts_2021_id":"09479152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24D",
+    "eurostat:nuts_2021_level_lau":"09479152",
+    "eurostat:population":14895,
+    "eurostat:population_year":2020,
     "geom:area":0.01081,
-    "geom:area_square_m":85626431.288044,
+    "geom:area_square_m":85626431.288051,
     "geom:bbox":"12.019662,50.116662,12.215995,50.219942",
     "geom:latitude":50.165168,
     "geom:longitude":12.132864,
@@ -320,22 +332,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063597,
         1377688701,
         404227583,
-        85682571
+        102063597
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09479152",
+        "eurostat:nuts_2021_id":"09479152",
         "gn:id":2833296,
         "gp:id":694401,
         "loc:id":"n85308079",
@@ -351,7 +366,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b69f27efd761f5849a8c869d703a1b7c",
+    "wof:geomhash":"fda2019a5bdd2606e6779894d359a191",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
         }
     ],
     "wof:id":101825981,
-    "wof:lastmodified":1608051443,
+    "wof:lastmodified":1684351933,
     "wof:name":"Selb",
     "wof:parent_id":1377688701,
     "wof:placetype":"locality",
-    "wof:population":17132,
+    "wof:population":14895,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

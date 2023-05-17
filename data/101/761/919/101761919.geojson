@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08136050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberkochen, Stadt",
+    "eurostat:nuts_2021_id":"08136050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11D",
+    "eurostat:nuts_2021_level_lau":"08136050",
+    "eurostat:population":7890,
+    "eurostat:population_year":2020,
     "geom:area":0.002887,
-    "geom:area_square_m":23524521.68482,
+    "geom:area_square_m":23524521.684818,
     "geom:bbox":"10.056863,48.753203,10.148408,48.808924",
     "geom:latitude":48.780973,
     "geom:longitude":10.100405,
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.783889,
     "wd:longitude":10.105278,
     "wd:wordcount":1115,
@@ -325,15 +338,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063369,
         1377685455,
         404227549,
-        85682567
+        102063369
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08136050",
+        "eurostat:nuts_2021_id":"08136050",
         "gn:id":2860049,
         "gp:id":681565,
         "qs_pg:id":1256725,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"19b1b4eaaf8b39357a06d7d209c303ea",
+    "wof:geomhash":"34745c9085dea78ae5c8d0bb62052279",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101761919,
-    "wof:lastmodified":1608050933,
+    "wof:lastmodified":1684351806,
     "wof:name":"Oberkochen",
     "wof:parent_id":1377685455,
     "wof:placetype":"locality",
-    "wof:population":8373,
+    "wof:population":7890,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

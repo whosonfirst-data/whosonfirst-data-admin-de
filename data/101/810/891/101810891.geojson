@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grebenau, Stadt",
+    "eurostat:nuts_2021_id":"06535006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535006",
+    "eurostat:population":2381,
+    "eurostat:population_year":2020,
     "geom:area":0.007059,
-    "geom:area_square_m":55250840.534518,
+    "geom:area_square_m":55250840.534519,
     "geom:bbox":"9.353463,50.691198,9.507558,50.769515",
     "geom:latitude":50.730195,
     "geom:longitude":9.436111,
@@ -292,20 +304,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.75,
     "wd:longitude":9.466667,
     "wd:wordcount":173,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377685267,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535006",
+        "eurostat:nuts_2021_id":"06535006",
         "gn:id":2917858,
         "gp:id":703694,
         "qs_pg:id":1152202,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4e17286e342f281c9fdd497250f8a917",
+    "wof:geomhash":"f76efb1f1aae5c403d0899cd56856d4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101810891,
-    "wof:lastmodified":1608050100,
+    "wof:lastmodified":1684351876,
     "wof:name":"Grebenau",
     "wof:parent_id":1377685267,
     "wof:placetype":"locality",
-    "wof:population":2728,
+    "wof:population":2381,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

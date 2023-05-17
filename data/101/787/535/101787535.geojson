@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09182114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fischbachau",
+    "eurostat:nuts_2021_id":"09182114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21F",
+    "eurostat:nuts_2021_level_lau":"09182114",
+    "eurostat:population":5631,
+    "eurostat:population_year":2020,
     "geom:area":0.009096,
     "geom:area_square_m":75641931.452442,
     "geom:bbox":"11.884617,47.67156,12.022926,47.787319",
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":224,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063221,
         1377692413,
         404227567,
-        85682571
+        102063221
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09182114",
+        "eurostat:nuts_2021_id":"09182114",
         "fct:id":"073e8240-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2926586,
         "gp:id":649799,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f9b58c1af3533fdee01c9ca66808597",
+    "wof:geomhash":"67c9e77c1a4fff27ae7594b779e24c86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051985,
+    "wof:lastmodified":1684351841,
     "wof:name":"Fischbachau",
     "wof:parent_id":1377692413,
     "wof:placetype":"locality",
-    "wof:population":5471,
+    "wof:population":5631,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

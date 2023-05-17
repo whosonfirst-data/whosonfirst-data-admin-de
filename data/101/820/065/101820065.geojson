@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Wilsnack, Stadt",
+    "eurostat:nuts_2021_id":"12070008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070008",
+    "eurostat:population":2533,
+    "eurostat:population_year":2020,
     "geom:area":0.010663,
-    "geom:area_square_m":79399501.015097,
+    "geom:area_square_m":79399501.015093,
     "geom:bbox":"11.8303740966,52.9292722574,12.0333590591,53.0116427049",
     "geom:latitude":52.973139,
     "geom:longitude":11.931581,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.95,
     "wd:longitude":11.949722,
     "wd:wordcount":489,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070008",
+        "eurostat:nuts_2021_id":"12070008",
         "gn:id":2953316,
         "gp:id":636529,
         "qs_pg:id":1232144,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"960df809a739a84ed020d65c28f88fe9",
+    "wof:geomhash":"254ae7d4184935a324ec4889a1a99d81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101820065,
-    "wof:lastmodified":1582342377,
+    "wof:lastmodified":1684351912,
     "wof:name":"Bad Wilsnack",
     "wof:parent_id":1377683985,
     "wof:placetype":"locality",
-    "wof:population":2941,
+    "wof:population":2533,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

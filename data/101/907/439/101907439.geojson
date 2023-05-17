@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schenkelberg",
+    "eurostat:nuts_2021_id":"07143066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143066",
+    "eurostat:population":642,
+    "eurostat:population_year":2020,
     "geom:area":0.000427,
     "geom:area_square_m":3351715.347343,
     "geom:bbox":"7.76596723785,50.5742662992,7.79469139995,50.6081750442",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":198,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143066",
+        "eurostat:nuts_2021_id":"07143066",
         "gn:id":2839760,
         "gp:id":691691,
         "qs_pg:id":93118,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ed7a9a7b4e5c38791b4d2dae452d880a",
+    "wof:geomhash":"6f3c003f26bfa264b93bac2a5cf26bff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101907439,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351988,
     "wof:name":"Schenkelberg",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":692,
+    "wof:population":642,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

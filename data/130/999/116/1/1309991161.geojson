@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kalenborn",
+    "eurostat:nuts_2021_id":"07131036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131036",
+    "eurostat:population":677,
+    "eurostat:population_year":2020,
     "geom:area":0.000551,
-    "geom:area_square_m":4326516.554897,
+    "geom:area_square_m":4326516.554896,
     "geom:bbox":"6.97067898614,50.543067946,7.00752484536,50.5657342062",
     "geom:latitude":50.554297,
     "geom:longitude":6.989128,
@@ -85,6 +97,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -98,13 +112,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131036",
+        "eurostat:nuts_2021_id":"07131036",
         "gn:id":2893859
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"5c07bd944e43bfe4e4dbca1d209deab8",
+    "wof:geomhash":"76a28611ba0b12a2b6b74e65953a182f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,10 +132,12 @@
         }
     ],
     "wof:id":1309991161,
-    "wof:lastmodified":1582342836,
+    "wof:lastmodified":1684352061,
     "wof:name":"Kalenborn",
     "wof:parent_id":1377685273,
     "wof:placetype":"locality",
+    "wof:population":677,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

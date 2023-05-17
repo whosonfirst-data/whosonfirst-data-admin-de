@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flacht",
+    "eurostat:nuts_2021_id":"07141043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141043",
+    "eurostat:population":1025,
+    "eurostat:population_year":2020,
     "geom:area":0.000539,
     "geom:area_square_m":4257095.765547,
     "geom:bbox":"8.00292245727,50.3227088463,8.05738478958,50.3525416023",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141043",
+        "eurostat:nuts_2021_id":"07141043",
         "gn:id":2926419,
         "gp:id":679738,
         "qs_pg:id":279267,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"562f82b78ab0b43e6ca2d4df5b38c628",
+    "wof:geomhash":"adef5525094196038f8203816403cbec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101812115,
-    "wof:lastmodified":1582342551,
+    "wof:lastmodified":1684351882,
     "wof:name":"Flacht",
     "wof:parent_id":1377685735,
     "wof:placetype":"locality",
-    "wof:population":1189,
+    "wof:population":1025,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

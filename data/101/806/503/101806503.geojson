@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03452008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hage, Flecken",
+    "eurostat:nuts_2021_id":"03452008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE947",
+    "eurostat:nuts_2021_level_lau":"03452008",
+    "eurostat:population":6272,
+    "eurostat:population_year":2020,
     "geom:area":0.002236,
     "geom:area_square_m":16405809.023611,
     "geom:bbox":"7.26852288335,53.5769353767,7.34403773585,53.6331056685",
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":209,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03452008",
+        "eurostat:nuts_2021_id":"03452008",
         "gn:id":2912681,
         "gp:id":656343,
         "qs_pg:id":977452,
@@ -179,7 +194,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8a61f2d8fbcd50494911df6fac5d5060",
+    "wof:geomhash":"258f98f5d342f06ece73038e85931246",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101806503,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351852,
     "wof:name":"Hage",
     "wof:parent_id":1377688319,
     "wof:placetype":"locality",
-    "wof:population":5848,
+    "wof:population":6272,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

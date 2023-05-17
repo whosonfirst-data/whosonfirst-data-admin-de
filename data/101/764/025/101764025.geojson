@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stegen",
+    "eurostat:nuts_2021_id":"08315109",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315109",
+    "eurostat:population":4511,
+    "eurostat:population_year":2020,
     "geom:area":0.003169,
     "geom:area_square_m":26216264.935061,
     "geom:bbox":"7.92625413193,47.9750214965,8.0188059237,48.025680046",
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -183,6 +196,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315109",
+        "eurostat:nuts_2021_id":"08315109",
         "gn:id":2827103,
         "gp:id":696523,
         "qs_pg:id":847266,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"16214f2144760a9b5d94bd310945587e",
+    "wof:geomhash":"5658a3736801e490da9d2c680f9d558d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101764025,
-    "wof:lastmodified":1582342299,
+    "wof:lastmodified":1684351811,
     "wof:name":"Stegen",
     "wof:parent_id":1377689161,
     "wof:placetype":"locality",
-    "wof:population":4490,
+    "wof:population":4511,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

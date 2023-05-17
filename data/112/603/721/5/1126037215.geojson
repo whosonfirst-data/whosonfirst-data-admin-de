@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Merschbach",
+    "eurostat:nuts_2021_id":"07231083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231083",
+    "eurostat:population":72,
+    "eurostat:population_year":2020,
     "geom:area":0.000401,
     "geom:area_square_m":3200758.275773,
     "geom:bbox":"6.99344886354,49.7944468147,7.02039975679,49.8215163022",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231083",
+        "eurostat:nuts_2021_id":"07231083",
         "gn:id":2871749,
         "qs_pg:id":93434,
         "wd:id":"Q654804"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"69ec672c5ce29eb225189d70a11842a1",
+    "wof:geomhash":"001f6591e4756728fd604ed87699b093",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126037215,
-    "wof:lastmodified":1582342987,
+    "wof:lastmodified":1684352052,
     "wof:name":"Merschbach",
     "wof:parent_id":1377685893,
     "wof:placetype":"locality",
-    "wof:population":52,
+    "wof:population":72,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

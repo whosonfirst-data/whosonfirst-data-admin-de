@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tessin b. Boizenburg",
+    "eurostat:nuts_2021_id":"13076138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076138",
+    "eurostat:population":419,
+    "eurostat:population_year":2020,
     "geom:area":0.00139,
     "geom:area_square_m":10253887.044504,
     "geom:bbox":"10.8152359179,53.3565193253,10.8799457535,53.4077374718",
@@ -125,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682487,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076138",
+        "eurostat:nuts_2021_id":"13076138",
         "gn:id":6551192,
         "gp:id":698896,
         "qs_pg:id":632686,
@@ -146,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3622817f1e6ed4055bf5114e46aad65d",
+    "wof:geomhash":"b8ec4745e510d7887736eed4cd967898",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":101908085,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351993,
     "wof:name":"Tessin b. Boizenburg",
     "wof:parent_id":1377685235,
     "wof:placetype":"locality",
-    "wof:population":416,
+    "wof:population":419,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

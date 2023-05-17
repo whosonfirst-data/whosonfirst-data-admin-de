@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kronweiler",
+    "eurostat:nuts_2021_id":"07134048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134048",
+    "eurostat:population":319,
+    "eurostat:population_year":2020,
     "geom:area":0.000443,
     "geom:area_square_m":3544351.914432,
     "geom:bbox":"7.24173387634,49.6487636339,7.27363696377,49.6728198584",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":412,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134048",
+        "eurostat:nuts_2021_id":"07134048",
         "gn:id":2883627,
         "gp:id":669080,
         "qs_pg:id":578180,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"37355f7072907b34661fc3a58ed15c59",
+    "wof:geomhash":"b84cd8df5c652f9305633decf539c720",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101906903,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351982,
     "wof:name":"Kronweiler",
     "wof:parent_id":1377685453,
     "wof:placetype":"locality",
-    "wof:population":363,
+    "wof:population":319,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hausen",
+    "eurostat:nuts_2021_id":"09673129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673129",
+    "eurostat:population":675,
+    "eurostat:population_year":2020,
     "geom:area":0.003078,
-    "geom:area_square_m":24210934.895402,
+    "geom:area_square_m":24210934.895401,
     "geom:bbox":"10.0302943982,50.4764965785,10.1593858779,50.5184807238",
     "geom:latitude":50.497314,
     "geom:longitude":10.087493,
@@ -174,7 +186,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":187,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -190,6 +203,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673129",
+        "eurostat:nuts_2021_id":"09673129",
         "gn:id":2908875,
         "gp:id":658008,
         "wd:id":"Q583335"
@@ -198,7 +213,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f7d82a1b117136388156636706b9a7c",
+    "wof:geomhash":"8fc6971fd5973b6660f6bb4f40a3b135",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
         }
     ],
     "wof:id":101907347,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351987,
     "wof:name":"Hausen",
     "wof:parent_id":1377690857,
     "wof:placetype":"locality",
-    "wof:population":717,
+    "wof:population":675,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

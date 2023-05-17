@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dickendorf",
+    "eurostat:nuts_2021_id":"07132020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132020",
+    "eurostat:population":345,
+    "eurostat:population_year":2020,
     "geom:area":0.000185,
     "geom:area_square_m":1448826.831703,
     "geom:bbox":"7.8444470909,50.7252889754,7.86146796631,50.7442109313",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132020",
+        "eurostat:nuts_2021_id":"07132020",
         "gn:id":2937694,
         "qs_pg:id":579420,
         "wd:id":"Q566935"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f5cc38effcee85d2b66b6b715916b87d",
+    "wof:geomhash":"2cf6eb55e50dd0c2ee33ee3baf39bb02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125853249,
-    "wof:lastmodified":1582343035,
+    "wof:lastmodified":1684352032,
     "wof:name":"Dickendorf",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":375,
+    "wof:population":345,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

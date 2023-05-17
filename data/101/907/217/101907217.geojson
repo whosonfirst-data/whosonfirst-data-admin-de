@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Picklie\u00dfem",
+    "eurostat:nuts_2021_id":"07232105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232105",
+    "eurostat:population":273,
+    "eurostat:population_year":2020,
     "geom:area":0.00071,
     "geom:area_square_m":5641516.339046,
     "geom:bbox":"6.62874916626,49.9799979343,6.67397709672,50.0025308942",
@@ -125,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232105",
+        "eurostat:nuts_2021_id":"07232105",
         "gn:id":6554489,
         "gp:id":685002,
         "qs_pg:id":635300,
@@ -146,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"02d05680731e8086c969e01e4489d2c3",
+    "wof:geomhash":"6fbb1cef0d786f377916346bb21f4653",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":101907217,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351986,
     "wof:name":"Picklie\u00dfem",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":287,
+    "wof:population":273,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

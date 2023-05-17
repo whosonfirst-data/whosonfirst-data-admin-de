@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meinhard",
+    "eurostat:nuts_2021_id":"06636007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636007",
+    "eurostat:population":4568,
+    "eurostat:population_year":2020,
     "geom:area":0.005075,
-    "geom:area_square_m":39307841.329014,
+    "geom:area_square_m":39307841.329018,
     "geom:bbox":"9.996008,51.184531,10.149791,51.254576",
     "geom:latitude":51.216472,
     "geom:longitude":10.071223,
@@ -301,21 +313,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685119,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636007",
+        "eurostat:nuts_2021_id":"06636007",
         "gn:id":2848798,
         "gp:id":15002710,
         "qs_pg:id":95233,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b1baa06204f74e83f104b7f74f3adf40",
+    "wof:geomhash":"cda0ba44eb8bce1b7b0881e09dd26f4a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101810047,
-    "wof:lastmodified":1608050043,
+    "wof:lastmodified":1684351870,
     "wof:name":"Meinhard",
     "wof:parent_id":1377685119,
     "wof:placetype":"locality",
-    "wof:population":4768,
+    "wof:population":4568,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwaf\u00f6rden",
+    "eurostat:nuts_2021_id":"03251032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251032",
+    "eurostat:population":1490,
+    "eurostat:population_year":2020,
     "geom:area":0.003522,
-    "geom:area_square_m":26363206.313323,
+    "geom:area_square_m":26363206.313324,
     "geom:bbox":"8.77685416375,52.7138865522,8.89292348857,52.775291259",
     "geom:latitude":52.739846,
     "geom:longitude":8.839968,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682555,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251032",
+        "eurostat:nuts_2021_id":"03251032",
         "gn:id":2835454,
         "gp:id":20167100,
         "qs_pg:id":373843,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"41db4270f28e854abd3c93566e6554d3",
+    "wof:geomhash":"1564e4ac320cb8a5c40655f54a2234b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101807943,
-    "wof:lastmodified":1582342593,
+    "wof:lastmodified":1684351862,
     "wof:name":"Schwaf\u00f6rden",
     "wof:parent_id":1377686559,
     "wof:placetype":"locality",
-    "wof:population":1493,
+    "wof:population":1490,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15002000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Halle (Saale), Stadt",
+    "eurostat:nuts_2021_id":"15002000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE02",
+    "eurostat:nuts_2021_level_lau":"15002000",
+    "eurostat:population":238762,
+    "eurostat:population_year":2020,
     "geom:area":0.017561,
-    "geom:area_square_m":135235118.435748,
+    "geom:area_square_m":135235118.435743,
     "geom:bbox":"11.8570530393,51.4028701812,12.0884357123,51.543214033",
     "geom:latitude":51.479781,
     "geom:longitude":11.968495,
@@ -438,7 +450,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.483056,
     "wd:longitude":11.971944,
     "wd:wordcount":3466,
@@ -451,6 +464,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15002000",
+        "eurostat:nuts_2021_id":"15002000",
         "gn:id":2911522,
         "gp:id":656853,
         "loc:id":"n79127825",
@@ -469,7 +484,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"166ddfcbb0fefeb6f67988d49a447adc",
+    "wof:geomhash":"8759e2f4e780701f51698bc84fbe3dbb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -481,11 +496,11 @@
         }
     ],
     "wof:id":101748705,
-    "wof:lastmodified":1582342470,
+    "wof:lastmodified":1684351788,
     "wof:name":"Halle (Saale)",
     "wof:parent_id":1377688145,
     "wof:placetype":"locality",
-    "wof:population":234107,
+    "wof:population":238762,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

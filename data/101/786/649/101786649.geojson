@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09179149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"T\u00fcrkenfeld",
+    "eurostat:nuts_2021_id":"09179149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21C",
+    "eurostat:nuts_2021_level_lau":"09179149",
+    "eurostat:population":3689,
+    "eurostat:population_year":2020,
     "geom:area":0.001934,
-    "geom:area_square_m":15968987.748967,
+    "geom:area_square_m":15968987.748968,
     "geom:bbox":"11.055551,48.087802,11.14027,48.131381",
     "geom:latitude":48.108388,
     "geom:longitude":11.094017,
@@ -165,22 +177,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":164,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063271,
         1377692075,
         404227567,
-        85682571
+        102063271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09179149",
+        "eurostat:nuts_2021_id":"09179149",
         "fct:id":"071cd226-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2820756,
         "gp:id":700242,
@@ -196,7 +211,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0ad1b74e84cc3e537475e24002e0c5e9",
+    "wof:geomhash":"11b719dbac69d5eb273e8cb922137146",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051960,
+    "wof:lastmodified":1684351840,
     "wof:name":"T\u00fcrkenfeld",
     "wof:parent_id":1377692075,
     "wof:placetype":"locality",
-    "wof:population":3397,
+    "wof:population":3689,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwegenheim",
+    "eurostat:nuts_2021_id":"07334028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334028",
+    "eurostat:population":3056,
+    "eurostat:population_year":2020,
     "geom:area":0.001538,
-    "geom:area_square_m":12408933.164283,
+    "geom:area_square_m":12408933.164284,
     "geom:bbox":"8.30524595761,49.258089986,8.3689082077,49.2977431563",
     "geom:latitude":49.27671,
     "geom:longitude":8.335395,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334028",
+        "eurostat:nuts_2021_id":"07334028",
         "gn:id":2834611,
         "gp:id":693787,
         "qs_pg:id":93080,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5c821207b0957da9fbb54d89c5e7ab0b",
+    "wof:geomhash":"b3e1d1bafa370d258fd67872d32190bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101759519,
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351797,
     "wof:name":"Schwegenheim",
     "wof:parent_id":1377686405,
     "wof:placetype":"locality",
-    "wof:population":2996,
+    "wof:population":3056,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

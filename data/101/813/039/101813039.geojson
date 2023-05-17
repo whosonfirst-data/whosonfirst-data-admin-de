@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Einhausen",
+    "eurostat:nuts_2021_id":"06431006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431006",
+    "eurostat:population":6427,
+    "eurostat:population_year":2020,
     "geom:area":0.003357,
-    "geom:area_square_m":26862120.092293,
+    "geom:area_square_m":26862120.092289,
     "geom:bbox":"8.478554,49.641612,8.569948,49.717292",
     "geom:latitude":49.680422,
     "geom:longitude":8.529075,
@@ -304,18 +316,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":8,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377692873,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431006",
+        "eurostat:nuts_2021_id":"06431006",
         "gn:id":2931752,
         "gp:id":666924,
         "qs_pg:id":579261,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8fbe48552649feb4bfb980e8a209aa3e",
+    "wof:geomhash":"d3a477cd3cbd23748e514c7dc26dd7af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101813039,
-    "wof:lastmodified":1608051348,
+    "wof:lastmodified":1684351887,
     "wof:name":"Einhausen",
     "wof:parent_id":1377692873,
     "wof:placetype":"locality",
-    "wof:population":5933,
+    "wof:population":6427,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

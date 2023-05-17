@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gudensberg, Stadt",
+    "eurostat:nuts_2021_id":"06634007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634007",
+    "eurostat:population":9710,
+    "eurostat:population_year":2020,
     "geom:area":0.00592,
-    "geom:area_square_m":45889858.362711,
+    "geom:area_square_m":45889858.362709,
     "geom:bbox":"9.301755,51.138735,9.430741,51.254938",
     "geom:latitude":51.18148,
     "geom:longitude":9.362959,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.183333,
     "wd:longitude":9.366667,
     "wd:wordcount":1591,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684673,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634007",
+        "eurostat:nuts_2021_id":"06634007",
         "gn:id":2913890,
         "gp:id":655696,
         "qs_pg:id":1039686,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4eb188c1f41f543abb7ae4e4f2b72157",
+    "wof:geomhash":"9047c03a24c6aa2702c7c8506afc3bd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101809957,
-    "wof:lastmodified":1608051628,
+    "wof:lastmodified":1684351869,
     "wof:name":"Gudensberg",
     "wof:parent_id":1377684673,
     "wof:placetype":"locality",
-    "wof:population":9032,
+    "wof:population":9710,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

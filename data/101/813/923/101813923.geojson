@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zemmer",
+    "eurostat:nuts_2021_id":"07235151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235151",
+    "eurostat:population":3061,
+    "eurostat:population_year":2020,
     "geom:area":0.003058,
     "geom:area_square_m":24364187.691745,
     "geom:bbox":"6.63625952902,49.8543619882,6.72476335415,49.9176067181",
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235151",
+        "eurostat:nuts_2021_id":"07235151",
         "gn:id":2804791,
         "gp:id":20163225,
         "qs_pg:id":576268,
@@ -155,7 +170,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2e698737b8b7e0e176c18bddab9f9df7",
+    "wof:geomhash":"7b1b43eea7839ae531a2d06a905a98ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101813923,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351893,
     "wof:name":"Zemmer",
     "wof:parent_id":1377686073,
     "wof:placetype":"locality",
-    "wof:population":2900,
+    "wof:population":3061,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15081135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gardelegen, Hansestadt",
+    "eurostat:nuts_2021_id":"15081135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE04",
+    "eurostat:nuts_2021_level_lau":"15081135",
+    "eurostat:population":22251,
+    "eurostat:population_year":2020,
     "geom:area":0.084146,
-    "geom:area_square_m":633258657.568359,
+    "geom:area_square_m":633258657.568357,
     "geom:bbox":"11.051668,52.386779,11.605164,52.638476",
     "geom:latitude":52.509942,
     "geom:longitude":11.364509,
@@ -312,17 +324,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":339,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063961,
         1377688173,
-        85682519
+        85633111,
+        102063961
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15081135",
+        "eurostat:nuts_2021_id":"15081135",
         "gn:id":2922580,
         "gp:id":651525,
         "qs_pg:id":455694,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2fd883725be791364af155b54e5e415",
+    "wof:geomhash":"dfed6d4eef4c55d80c285e5a3471ca5c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,12 +364,12 @@
         }
     ],
     "wof:id":101819875,
-    "wof:lastmodified":1608050248,
+    "wof:lastmodified":1684351909,
     "wof:name":"Gardelegen",
     "wof:parent_id":1377688173,
     "wof:placetype":"locality",
-    "wof:population":11868,
-    "wof:population_rank":6,
+    "wof:population":22251,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St. Peter",
+    "eurostat:nuts_2021_id":"08315095",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315095",
+    "eurostat:population":2626,
+    "eurostat:population_year":2020,
     "geom:area":0.004317,
-    "geom:area_square_m":35693234.758887,
+    "geom:area_square_m":35693234.758888,
     "geom:bbox":"7.99431274306,47.9937758643,8.1021382468,48.0634129287",
     "geom:latitude":48.030762,
     "geom:longitude":8.047675,
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":133,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315095",
+        "eurostat:nuts_2021_id":"08315095",
         "gn:id":2841488,
         "gp:id":696104,
         "qs_pg:id":1117218,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"aa8036beb360fbbfa379ea8946314c7b",
+    "wof:geomhash":"8c2ddf65e490ebd24015d91ab2946420",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101764019,
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351811,
     "wof:name":"St. Peter",
     "wof:parent_id":1377685491,
     "wof:placetype":"locality",
-    "wof:population":2509,
+    "wof:population":2626,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

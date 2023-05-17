@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Almersbach",
+    "eurostat:nuts_2021_id":"07132001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132001",
+    "eurostat:population":412,
+    "eurostat:population_year":2020,
     "geom:area":0.000075,
     "geom:area_square_m":587734.229349,
     "geom:bbox":"7.61399527951,50.6714335327,7.63686153297,50.6774774555",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132001",
+        "eurostat:nuts_2021_id":"07132001",
         "gn:id":2958235,
         "qs_pg:id":94229,
         "wd:id":"Q566903"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"bc1d42da0e3c3b4914891b80568eb2a8",
+    "wof:geomhash":"679963271440123043561064c1cb873b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125846885,
-    "wof:lastmodified":1582343047,
+    "wof:lastmodified":1684352030,
     "wof:name":"Almersbach",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":448,
+    "wof:population":412,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

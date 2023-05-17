@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Delitzsch, Stadt",
+    "eurostat:nuts_2021_id":"14730070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730070",
+    "eurostat:population":24823,
+    "eurostat:population_year":2020,
     "geom:area":0.010889,
-    "geom:area_square_m":83752656.956611,
+    "geom:area_square_m":83752656.956605,
     "geom:bbox":"12.272287,51.480623,12.452354,51.586649",
     "geom:latitude":51.534873,
     "geom:longitude":12.357509,
@@ -343,21 +355,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1744,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064235,
         1377687955,
-        85682523
+        85633111,
+        102064235
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730070",
+        "eurostat:nuts_2021_id":"14730070",
         "gn:id":2938376,
         "gp:id":644082,
         "qs_pg:id":1255015,
@@ -372,7 +387,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"87ba35e6b56303df4d5d0e50aec1800a",
+    "wof:geomhash":"4c69e18ab336d8a62a7c8dad479bfb7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
         }
     ],
     "wof:id":101822365,
-    "wof:lastmodified":1608051445,
+    "wof:lastmodified":1684351922,
     "wof:name":"Delitzsch",
     "wof:parent_id":1377687955,
     "wof:placetype":"locality",
-    "wof:population":24998,
+    "wof:population":24823,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

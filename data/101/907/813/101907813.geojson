@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Woggersin",
+    "eurostat:nuts_2021_id":"13071161",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071161",
+    "eurostat:population":527,
+    "eurostat:population_year":2020,
     "geom:area":0.000865,
     "geom:area_square_m":6346331.060043,
     "geom:bbox":"13.1936517705,53.5949823466,13.2500701414,53.6207410664",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071161",
+        "eurostat:nuts_2021_id":"13071161",
         "gn:id":2807098,
         "gp:id":707449,
         "qs_pg:id":92820,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c7e64e7ec48f9d45566a0b3da3cc5926",
+    "wof:geomhash":"7b457f6add034a58b5aaa2011a9d1969",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101907813,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351991,
     "wof:name":"Woggersin",
     "wof:parent_id":1377684479,
     "wof:placetype":"locality",
-    "wof:population":572,
+    "wof:population":527,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

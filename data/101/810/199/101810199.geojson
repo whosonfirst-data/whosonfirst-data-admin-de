@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaufungen",
+    "eurostat:nuts_2021_id":"06633015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633015",
+    "eurostat:population":12503,
+    "eurostat:population_year":2020,
     "geom:area":0.003417,
-    "geom:area_square_m":26432775.989064,
+    "geom:area_square_m":26432775.989062,
     "geom:bbox":"9.551599,51.246277,9.671376,51.305103",
     "geom:latitude":51.278058,
     "geom:longitude":9.619995,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":577,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684565,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633015",
+        "eurostat:nuts_2021_id":"06633015",
         "fct:id":"0733fe38-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3336895,
         "gp:id":15002673,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9f8fcbed2ee640ef241f38a294bd76c6",
+    "wof:geomhash":"a34086ce19609a0f26f1d440759df370",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050076,
+    "wof:lastmodified":1684351872,
     "wof:name":"Kaufungen",
     "wof:parent_id":1377684565,
     "wof:placetype":"locality",
-    "wof:population":12683,
+    "wof:population":12503,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

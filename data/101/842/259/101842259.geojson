@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfhansdorf",
+    "eurostat:nuts_2021_id":"01062023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062023",
+    "eurostat:population":9366,
+    "eurostat:population_year":2020,
     "geom:area":0.001621,
     "geom:area_square_m":11877879.632811,
     "geom:bbox":"10.251821,53.640854,10.31692,53.689365",
@@ -147,17 +159,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":456,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684749,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062023",
+        "eurostat:nuts_2021_id":"01062023",
         "gn:id":2915556,
         "gp:id":655018,
         "qs_pg:id":93782,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9469615b7ea37dc1e1b2acc9cc93875c",
+    "wof:geomhash":"c0d4a36e18bc596004e6bb77179318e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101842259,
-    "wof:lastmodified":1608049971,
+    "wof:lastmodified":1684351955,
     "wof:name":"Gro\u00dfhansdorf",
     "wof:parent_id":1377684749,
     "wof:placetype":"locality",
-    "wof:population":9009,
+    "wof:population":9366,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

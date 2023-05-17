@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zotzenheim",
+    "eurostat:nuts_2021_id":"07339068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339068",
+    "eurostat:population":612,
+    "eurostat:population_year":2020,
     "geom:area":0.000415,
     "geom:area_square_m":3305029.49197,
     "geom:bbox":"7.95211999407,49.8625555811,7.99181351749,49.8893647829",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":279,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339068",
+        "eurostat:nuts_2021_id":"07339068",
         "gn:id":2803857,
         "gp:id":705091,
         "qs_pg:id":576269,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"33cd2047913f2ad34b73bd42f4c0e2fe",
+    "wof:geomhash":"e262ccef991ae36376dadcf5cf34ff0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907003,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351983,
     "wof:name":"Zotzenheim",
     "wof:parent_id":1377686731,
     "wof:placetype":"locality",
-    "wof:population":646,
+    "wof:population":612,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

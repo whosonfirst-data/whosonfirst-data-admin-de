@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Hersfeld, Kreisstadt",
+    "eurostat:nuts_2021_id":"06632002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632002",
+    "eurostat:population":29944,
+    "eurostat:population_year":2020,
     "geom:area":0.009425,
-    "geom:area_square_m":73552842.661397,
+    "geom:area_square_m":73552842.6614,
     "geom:bbox":"9.612866,50.813708,9.829866,50.90961",
     "geom:latitude":50.865035,
     "geom:longitude":9.70126,
@@ -345,7 +357,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.868333,
     "wd:longitude":9.706667,
     "wd:population":28800,
@@ -355,15 +368,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684267,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632002",
+        "eurostat:nuts_2021_id":"06632002",
         "gn:id":2953439,
         "gp:id":636435,
         "loc:id":"n80145336",
@@ -379,7 +394,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"60de067b294b0fd53fdd02742385ff1e",
+    "wof:geomhash":"bf23394aa68daff9d6f0c6a88841b665",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -392,11 +407,11 @@
         }
     ],
     "wof:id":101811045,
-    "wof:lastmodified":1608049934,
+    "wof:lastmodified":1684351878,
     "wof:name":"Bad Hersfeld",
     "wof:parent_id":1377684267,
     "wof:placetype":"locality",
-    "wof:population":28800,
+    "wof:population":29944,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

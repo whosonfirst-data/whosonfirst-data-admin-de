@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reinfeld (Holstein), Stadt",
+    "eurostat:nuts_2021_id":"01062061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062061",
+    "eurostat:population":9041,
+    "eurostat:population_year":2020,
     "geom:area":0.002404,
     "geom:area_square_m":17543268.001987,
     "geom:bbox":"10.4447949384,53.8145297836,10.5306462974,53.8589969884",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":517,
     "wof:belongsto":[
         85682517,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062061",
+        "eurostat:nuts_2021_id":"01062061",
         "gn:id":2848811,
         "gp:id":687671,
         "qs_pg:id":969602,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f063c769eb173fe404ac6f2ebb208c9",
+    "wof:geomhash":"d9d28aaa21f7b9c7f44ec62c655ebbd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101818765,
-    "wof:lastmodified":1582342358,
+    "wof:lastmodified":1684351903,
     "wof:name":"Reinfeld (Holstein)",
     "wof:parent_id":1377684775,
     "wof:placetype":"locality",
-    "wof:population":8340,
+    "wof:population":9041,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

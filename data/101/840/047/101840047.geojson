@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06439003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eltville am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"06439003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71D",
+    "eurostat:nuts_2021_level_lau":"06439003",
+    "eurostat:population":16971,
+    "eurostat:population_year":2020,
     "geom:area":0.005867,
-    "geom:area_square_m":46585837.445564,
+    "geom:area_square_m":46585837.445562,
     "geom:bbox":"8.0034830297,50.0051293048,8.15822755421,50.0950715754",
     "geom:latitude":50.047657,
     "geom:longitude":8.081753,
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
@@ -181,6 +194,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06439003",
+        "eurostat:nuts_2021_id":"06439003",
         "gn:id":2930646,
         "gp:id":647789,
         "loc:id":"n97017798",
@@ -193,7 +208,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9fc37dc811046c11de996ed900033cde",
+    "wof:geomhash":"0a616bd79567864f64dce2d46fa9337e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101840047,
-    "wof:lastmodified":1582342559,
+    "wof:lastmodified":1684351950,
     "wof:name":"Eltville am Rhein",
     "wof:parent_id":1377694079,
     "wof:placetype":"locality",
-    "wof:population":16845,
+    "wof:population":16971,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

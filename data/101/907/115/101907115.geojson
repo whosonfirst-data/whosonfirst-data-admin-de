@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hambuch",
+    "eurostat:nuts_2021_id":"07135038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135038",
+    "eurostat:population":710,
+    "eurostat:population_year":2020,
     "geom:area":0.000603,
     "geom:area_square_m":4768567.990467,
     "geom:bbox":"7.14932313079,50.2121355587,7.1921916853,50.2359228905",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":719,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135038",
+        "eurostat:nuts_2021_id":"07135038",
         "gn:id":2911306,
         "gp:id":656954,
         "qs_pg:id":578790,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bfc1a1afe160c0558874c35ce3c0bf70",
+    "wof:geomhash":"96b12d8eb53d640b394b1dbe01e801d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907115,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351984,
     "wof:name":"Hambuch",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":683,
+    "wof:population":710,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauchhammer, Stadt",
+    "eurostat:nuts_2021_id":"12066176",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066176",
+    "eurostat:population":14336,
+    "eurostat:population_year":2020,
     "geom:area":0.011516,
-    "geom:area_square_m":88639689.011512,
+    "geom:area_square_m":88639689.011513,
     "geom:bbox":"13.634137,51.455972,13.872677,51.553913",
     "geom:latitude":51.503567,
     "geom:longitude":13.75369,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.5,
     "wd:longitude":13.8,
     "wd:population":15624,
@@ -328,14 +341,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063849,
         1377683435,
-        85682553
+        85633111,
+        102063849
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066176",
+        "eurostat:nuts_2021_id":"12066176",
         "gn:id":2880221,
         "gp:id":670544,
         "loc:id":"n92038656",
@@ -351,7 +366,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5ba5c9c2d34b86390f6b47e1a01dc9b2",
+    "wof:geomhash":"b4a61ba0ac07d268f9e5100140085cfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101822441,
-    "wof:lastmodified":1608051456,
+    "wof:lastmodified":1684351923,
     "wof:name":"Lauchhammer",
     "wof:parent_id":1377683435,
     "wof:placetype":"locality",
-    "wof:population":15624,
+    "wof:population":14336,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

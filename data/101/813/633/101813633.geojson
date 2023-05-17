@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erlenbach b.Marktheidenfeld",
+    "eurostat:nuts_2021_id":"09677125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677125",
+    "eurostat:population":2390,
+    "eurostat:population_year":2020,
     "geom:area":0.00194,
-    "geom:area_square_m":15476849.804043,
+    "geom:area_square_m":15476849.804042,
     "geom:bbox":"9.59127047313,49.8035314877,9.67996325224,49.8430379445",
     "geom:latitude":49.822332,
     "geom:longitude":9.643351,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":459,
     "wof:belongsto":[
         85682571,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677125",
+        "eurostat:nuts_2021_id":"09677125",
         "gn:id":2929483,
         "gp:id":648461,
         "qs_pg:id":905674,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c926bbc9dbe13fbd28d91ce44b09aa40",
+    "wof:geomhash":"a5cb0fa8c8d3bdd429efd3a7baeee178",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101813633,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351893,
     "wof:name":"Erlenbach b. Marktheidenfeld",
     "wof:parent_id":1377691571,
     "wof:placetype":"locality",
-    "wof:population":2418,
+    "wof:population":2390,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

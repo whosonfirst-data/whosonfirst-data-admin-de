@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilen unter den Rinnen",
+    "eurostat:nuts_2021_id":"08417071",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417071",
+    "eurostat:population":589,
+    "eurostat:population_year":2020,
     "geom:area":0.00035,
     "geom:area_square_m":2882470.74007,
     "geom:bbox":"8.75641759254,48.1795832328,8.79266154849,48.1971909949",
@@ -128,7 +140,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417071",
+        "eurostat:nuts_2021_id":"08417071",
         "gn:id":2812617,
         "wk:page":"Weilen_unter_den_Rinnen"
     },
@@ -146,7 +161,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"5e7316dfc48ff181709d8b985aa93db2",
+    "wof:geomhash":"c1070b18d025a398c21a9bf3410a9398",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1193146367,
-    "wof:lastmodified":1582342065,
+    "wof:lastmodified":1684352057,
     "wof:name":"Weilen unter den Rinnen",
     "wof:parent_id":1377690145,
     "wof:placetype":"locality",
-    "wof:population":638,
+    "wof:population":589,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

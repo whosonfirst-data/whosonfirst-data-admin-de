@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Venningen",
+    "eurostat:nuts_2021_id":"07337077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337077",
+    "eurostat:population":914,
+    "eurostat:population_year":2020,
     "geom:area":0.001223,
-    "geom:area_square_m":9865052.820626,
+    "geom:area_square_m":9865052.820627,
     "geom:bbox":"7.97297710281,49.2721782854,8.19999491605,49.3338857433",
     "geom:latitude":49.289463,
     "geom:longitude":8.138827,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337077",
+        "eurostat:nuts_2021_id":"07337077",
         "gn:id":2930004,
         "gp:id":702176,
         "qs_pg:id":92936,
@@ -174,7 +189,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3e12fc5984fef73580620cd6b75e36d5",
+    "wof:geomhash":"b81aa469385f3ef74d22d8cf801fd4a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101905873,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"Venningen",
     "wof:parent_id":1377686525,
     "wof:placetype":"locality",
-    "wof:population":956,
+    "wof:population":914,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

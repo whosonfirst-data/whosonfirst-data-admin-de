@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerlingen, Stadt",
+    "eurostat:nuts_2021_id":"08118019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118019",
+    "eurostat:population":19817,
+    "eurostat:population_year":2020,
     "geom:area":0.002133,
     "geom:area_square_m":17378751.08988,
     "geom:bbox":"9.03022,48.753597,9.086742,48.817064",
@@ -328,7 +340,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":16.99,
     "wd:latitude":48.8,
     "wd:longitude":9.065278,
@@ -339,15 +352,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063373,
         1377687273,
         404227549,
-        85682567
+        102063373
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118019",
+        "eurostat:nuts_2021_id":"08118019",
         "gn:id":2921061,
         "gp:id":652259,
         "qs_pg:id":1344093,
@@ -362,7 +377,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bb47aed7e2a728b496a3d9194d2808da",
+    "wof:geomhash":"3bfe057a8684964ec9e8729dd039884b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
         }
     ],
     "wof:id":101755907,
-    "wof:lastmodified":1608049395,
+    "wof:lastmodified":1684351791,
     "wof:name":"Gerlingen",
     "wof:parent_id":1377687273,
     "wof:placetype":"locality",
-    "wof:population":13706,
+    "wof:population":19817,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

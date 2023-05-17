@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03354008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gusborn",
+    "eurostat:nuts_2021_id":"03354008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE934",
+    "eurostat:nuts_2021_level_lau":"03354008",
+    "eurostat:population":1196,
+    "eurostat:population_year":2020,
     "geom:area":0.006511,
     "geom:area_square_m":48362147.112081,
     "geom:bbox":"11.1438739416,53.0264780908,11.2502606092,53.1444002939",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03354008",
+        "eurostat:nuts_2021_id":"03354008",
         "gn:id":3209065,
         "gp:id":666391,
         "qs_pg:id":95286,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6f39e3a4956b3fef26789bcaa2ed1ee",
+    "wof:geomhash":"7452842319df731436e5004a319b46e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101818457,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351899,
     "wof:name":"Gusborn",
     "wof:parent_id":1377687431,
     "wof:placetype":"locality",
-    "wof:population":1229,
+    "wof:population":1196,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

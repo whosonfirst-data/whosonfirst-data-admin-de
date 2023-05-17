@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorscheid",
+    "eurostat:nuts_2021_id":"07235080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235080",
+    "eurostat:population":524,
+    "eurostat:population_year":2020,
     "geom:area":0.000628,
     "geom:area_square_m":5020028.475204,
     "geom:bbox":"6.83015913837,49.7252528285,6.86826399714,49.7508452137",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235080",
+        "eurostat:nuts_2021_id":"07235080",
         "gn:id":2875874,
         "qs_pg:id":577955,
         "wd:id":"Q543415"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"3bfd19095d1bdbf6461a8d91d1e78c48",
+    "wof:geomhash":"0c0a5ff9da3f48deeee382c134ea84ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125772643,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Lorscheid",
     "wof:parent_id":1377686047,
     "wof:placetype":"locality",
-    "wof:population":623,
+    "wof:population":524,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

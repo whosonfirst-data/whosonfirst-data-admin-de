@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vellberg, Stadt",
+    "eurostat:nuts_2021_id":"08127089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127089",
+    "eurostat:population":4477,
+    "eurostat:population_year":2020,
     "geom:area":0.003877,
-    "geom:area_square_m":31382304.800234,
+    "geom:area_square_m":31382304.800237,
     "geom:bbox":"9.83988862305,49.0743236328,9.95484942089,49.1395800953",
     "geom:latitude":49.106854,
     "geom:longitude":9.904964,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.087778,
     "wd:longitude":9.881667,
     "wd:wordcount":45,
@@ -321,6 +334,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127089",
+        "eurostat:nuts_2021_id":"08127089",
         "gn:id":2817694,
         "gp:id":697396,
         "qs_pg:id":1038219,
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c7e568e6c539ef72832887b8da3eb037",
+    "wof:geomhash":"f4ef9d8564e5273f8112d07d0d27266d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
         }
     ],
     "wof:id":101760949,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351803,
     "wof:name":"Vellberg",
     "wof:parent_id":1377687881,
     "wof:placetype":"locality",
-    "wof:population":4264,
+    "wof:population":4477,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

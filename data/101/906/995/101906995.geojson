@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bubenheim",
+    "eurostat:nuts_2021_id":"07339008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339008",
+    "eurostat:population":843,
+    "eurostat:population_year":2020,
     "geom:area":0.000546,
     "geom:area_square_m":4346854.553427,
     "geom:bbox":"8.05648161427,49.9103214191,8.10151106102,49.9311791338",
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":55,
     "wof:belongsto":[
         85682491,
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339008",
+        "eurostat:nuts_2021_id":"07339008",
         "gn:id":2942939,
         "gp:id":641861,
         "qs_pg:id":579581,
@@ -177,7 +192,7 @@
         "de-bkg",
         "quattroshapes"
     ],
-    "wof:geomhash":"43e0d737ae77c39f7f0ce57f8c26e4d8",
+    "wof:geomhash":"b8aa8256d96e46b0cd79ea885f4de883",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101906995,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351983,
     "wof:name":"Bubenheim",
     "wof:parent_id":1377686695,
     "wof:placetype":"locality",
-    "wof:population":841,
+    "wof:population":843,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

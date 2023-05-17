@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09572126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gremsdorf",
+    "eurostat:nuts_2021_id":"09572126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE257",
+    "eurostat:nuts_2021_level_lau":"09572126",
+    "eurostat:population":1616,
+    "eurostat:population_year":2020,
     "geom:area":0.001618,
-    "geom:area_square_m":12941656.801805,
+    "geom:area_square_m":12941656.801804,
     "geom:bbox":"10.8244329512,49.6621065702,10.8762490229,49.7060710354",
     "geom:latitude":49.684083,
     "geom:longitude":10.849081,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09572126",
+        "eurostat:nuts_2021_id":"09572126",
         "gn:id":2917714,
         "gp:id":654078,
         "qs_pg:id":578908,
@@ -334,7 +349,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6371f39d22d2b1feba9e8e9f27809b12",
+    "wof:geomhash":"65c2182d1865dda809f48308cd845dea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101826967,
-    "wof:lastmodified":1582342439,
+    "wof:lastmodified":1684351938,
     "wof:name":"Gremsdorf",
     "wof:parent_id":1377689209,
     "wof:placetype":"locality",
-    "wof:population":1541,
+    "wof:population":1616,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

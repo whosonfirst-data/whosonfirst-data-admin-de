@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Esslingen am Neckar, Stadt",
+    "eurostat:nuts_2021_id":"08116019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116019",
+    "eurostat:population":94145,
+    "eurostat:population_year":2020,
     "geom:area":0.005688,
-    "geom:area_square_m":46385065.679,
+    "geom:area_square_m":46385065.678999,
     "geom:bbox":"9.255955,48.706616,9.416488,48.775876",
     "geom:latitude":48.741239,
     "geom:longitude":9.326425,
@@ -382,7 +394,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":46.38,
     "wd:latitude":48.740556,
     "wd:longitude":9.310833,
@@ -393,15 +406,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063329,
         1377686967,
         404227549,
-        85682567
+        102063329
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116019",
+        "eurostat:nuts_2021_id":"08116019",
         "gn:id":2928751,
         "gp:id":648849,
         "qs_pg:id":1343998,
@@ -416,7 +431,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b5fbe70f14fcdb77b3b5553cbb4f4413",
+    "wof:geomhash":"e3d80ccd3917ce17735e3adf28a8b364",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -429,11 +444,11 @@
         }
     ],
     "wof:id":101748503,
-    "wof:lastmodified":1608050549,
+    "wof:lastmodified":1684351785,
     "wof:name":"Esslingen am Neckar",
     "wof:parent_id":1377686967,
     "wof:placetype":"locality",
-    "wof:population":86886,
+    "wof:population":94145,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

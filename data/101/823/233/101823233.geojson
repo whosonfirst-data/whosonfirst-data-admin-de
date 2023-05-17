@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedrichroda, Stadt",
+    "eurostat:nuts_2021_id":"16067019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067019",
+    "eurostat:population":7195,
+    "eurostat:population_year":2020,
     "geom:area":0.004734,
-    "geom:area_square_m":36959012.007901,
+    "geom:area_square_m":36959012.007903,
     "geom:bbox":"10.514479,50.813304,10.645325,50.893642",
     "geom:latitude":50.852707,
     "geom:longitude":10.575183,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":227,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063711,
         1377690065,
-        85682541
+        85633111,
+        102063711
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067019",
+        "eurostat:nuts_2021_id":"16067019",
         "gn:id":2924656,
         "gp:id":650735,
         "qs_pg:id":391583,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9dc5be624aa2d45b7627df83312c377f",
+    "wof:geomhash":"2f2a565b745f55766f39f28bc451b949",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101823233,
-    "wof:lastmodified":1608051077,
+    "wof:lastmodified":1684351925,
     "wof:name":"Friedrichroda",
     "wof:parent_id":1377690065,
     "wof:placetype":"locality",
-    "wof:population":5492,
+    "wof:population":7195,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

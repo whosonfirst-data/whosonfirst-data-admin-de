@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vogtsburg im Kaiserstuhl, Stadt",
+    "eurostat:nuts_2021_id":"08315133",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315133",
+    "eurostat:population":6097,
+    "eurostat:population_year":2020,
     "geom:area":0.004519,
-    "geom:area_square_m":37326896.417722,
+    "geom:area_square_m":37326896.417725,
     "geom:bbox":"7.573677,48.053196,7.700483,48.116597",
     "geom:latitude":48.090245,
     "geom:longitude":7.636051,
@@ -70,21 +82,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063241,
         1377689133,
         404227543,
-        85682567
+        102063241
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315133",
+        "eurostat:nuts_2021_id":"08315133",
         "gn:id":6558095,
         "gp:id":15002821,
         "qs_pg:id":399972
@@ -100,7 +115,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a1c503ac758a019a73cd0e695644ab7a",
+    "wof:geomhash":"3ea344306eb767bfb9745255feceb3fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -113,11 +128,11 @@
         }
     ],
     "wof:id":101764027,
-    "wof:lastmodified":1608049261,
+    "wof:lastmodified":1684351811,
     "wof:name":"Vogtsburg im Kaiserstuhl",
     "wof:parent_id":1377689133,
     "wof:placetype":"locality",
-    "wof:population":5737,
+    "wof:population":6097,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

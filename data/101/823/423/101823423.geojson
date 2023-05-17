@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hainichen, Stadt",
+    "eurostat:nuts_2021_id":"14522230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522230",
+    "eurostat:population":8558,
+    "eurostat:population_year":2020,
     "geom:area":0.006629,
     "geom:area_square_m":51638260.201562,
     "geom:bbox":"13.058119,50.909868,13.209637,51.008581",
@@ -93,21 +105,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":8,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685891,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522230",
+        "eurostat:nuts_2021_id":"14522230",
         "gn:id":2911795,
         "gp:id":656726,
         "qs_pg:id":977482,
@@ -121,7 +136,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"043bf287286b8a51074b5f3da170db94",
+    "wof:geomhash":"fb2b4f8c88cce1b44846771ee4ddc5b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -133,11 +148,11 @@
         }
     ],
     "wof:id":101823423,
-    "wof:lastmodified":1608051068,
+    "wof:lastmodified":1684351926,
     "wof:name":"Hainichen",
     "wof:parent_id":1377685891,
     "wof:placetype":"locality",
-    "wof:population":9511,
+    "wof:population":8558,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

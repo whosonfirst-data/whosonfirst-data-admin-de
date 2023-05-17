@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aldingen",
+    "eurostat:nuts_2021_id":"08327002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327002",
+    "eurostat:population":7592,
+    "eurostat:population_year":2020,
     "geom:area":0.002713,
-    "geom:area_square_m":22407110.718379,
+    "geom:area_square_m":22407110.718378,
     "geom:bbox":"8.63404241008,48.0630356011,8.72288666245,48.1212699149",
     "geom:latitude":48.094177,
     "geom:longitude":8.68308,
@@ -308,7 +320,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":381,
     "wof:belongsto":[
         85682567,
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327002",
+        "eurostat:nuts_2021_id":"08327002",
         "fct:id":"07159060-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2958575,
         "gp:id":633868,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3c90f72154ef5a888ee5c16cdec3b175",
+    "wof:geomhash":"2d89f5085d88ef3f5511c815ecd6ad39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351812,
     "wof:name":"Aldingen",
     "wof:parent_id":1377689629,
     "wof:placetype":"locality",
-    "wof:population":7589,
+    "wof:population":7592,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

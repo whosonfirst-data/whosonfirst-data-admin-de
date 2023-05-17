@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Halblech",
+    "eurostat:nuts_2021_id":"09777173",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777173",
+    "eurostat:population":3520,
+    "eurostat:population_year":2020,
     "geom:area":0.01491,
-    "geom:area_square_m":124287060.99313,
+    "geom:area_square_m":124287060.993131,
     "geom:bbox":"10.736798,47.533381,10.952786,47.667216",
     "geom:latitude":47.611267,
     "geom:longitude":10.847034,
@@ -161,22 +173,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063239,
         1377693015,
         404227547,
-        85682571
+        102063239
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777173",
+        "eurostat:nuts_2021_id":"09777173",
         "gn:id":2911648,
         "gp:id":656799,
         "qs_pg:id":394389,
@@ -191,7 +206,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d243d3b36e9603cfdbbc66d74a8e0a1",
+    "wof:geomhash":"e5da113198bbfc9e0d0dc6d7ae15b846",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101786443,
-    "wof:lastmodified":1608051961,
+    "wof:lastmodified":1684351837,
     "wof:name":"Halblech",
     "wof:parent_id":1377693015,
     "wof:placetype":"locality",
-    "wof:population":3521,
+    "wof:population":3520,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

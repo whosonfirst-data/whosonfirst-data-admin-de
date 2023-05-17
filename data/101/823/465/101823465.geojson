@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084565",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wetterzeube",
+    "eurostat:nuts_2021_id":"15084565",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084565",
+    "eurostat:population":1737,
+    "eurostat:population_year":2020,
     "geom:area":0.005373,
     "geom:area_square_m":41808738.391007,
     "geom:bbox":"11.9684321706,50.9686133472,12.101471494,51.0334367849",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682519,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084565",
+        "eurostat:nuts_2021_id":"15084565",
         "gn:id":2809944,
         "gp:id":705991,
         "qs_pg:id":92846,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6e4b3e4b2342185476fdab31f158eb17",
+    "wof:geomhash":"93bfd840223369b6f0bac186288570c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101823465,
-    "wof:lastmodified":1582342532,
+    "wof:lastmodified":1684351927,
     "wof:name":"Wetterzeube",
     "wof:parent_id":1377688495,
     "wof:placetype":"locality",
-    "wof:population":1145,
+    "wof:population":1737,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

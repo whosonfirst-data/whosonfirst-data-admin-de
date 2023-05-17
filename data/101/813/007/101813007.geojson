@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tholey",
+    "eurostat:nuts_2021_id":"10046118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046118",
+    "eurostat:population":12032,
+    "eurostat:population_year":2020,
     "geom:area":0.007146,
-    "geom:area_square_m":57400565.854475,
+    "geom:area_square_m":57400565.854476,
     "geom:bbox":"6.910182,49.436756,7.062784,49.526618",
     "geom:latitude":49.487756,
     "geom:longitude":6.995223,
@@ -298,21 +310,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":475,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063493,
         1377694147,
-        85682479
+        85633111,
+        102063493
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046118",
+        "eurostat:nuts_2021_id":"10046118",
         "gn:id":2822713,
         "gp:id":699271,
         "qs_pg:id":270807,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5c58049833cff9adfeba51bc80b44ac7",
+    "wof:geomhash":"1a174d813aabeacd5c31573c5baf2e49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101813007,
-    "wof:lastmodified":1608051339,
+    "wof:lastmodified":1684351886,
     "wof:name":"Tholey",
     "wof:parent_id":1377694147,
     "wof:placetype":"locality",
-    "wof:population":13157,
+    "wof:population":12032,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

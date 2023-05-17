@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puderbach",
+    "eurostat:nuts_2021_id":"07138057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138057",
+    "eurostat:population":2391,
+    "eurostat:population_year":2020,
     "geom:area":0.001408,
     "geom:area_square_m":11050404.902897,
     "geom:bbox":"7.5750893505,50.5836393069,7.63969282103,50.6202479291",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138057",
+        "eurostat:nuts_2021_id":"07138057",
         "gn:id":2851767,
         "gp:id":686184,
         "qs_pg:id":141905,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"06882661e1cf979145780f772c47c499",
+    "wof:geomhash":"b9a1e1ae17fec6ffe05fddc931a5d224",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101810731,
-    "wof:lastmodified":1582342399,
+    "wof:lastmodified":1684351875,
     "wof:name":"Puderbach",
     "wof:parent_id":1377685639,
     "wof:placetype":"locality",
-    "wof:population":2259,
+    "wof:population":2391,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

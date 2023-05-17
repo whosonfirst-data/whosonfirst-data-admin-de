@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Konstanz, Universit\u00e4tsstadt",
+    "eurostat:nuts_2021_id":"08335043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335043",
+    "eurostat:population":84911,
+    "eurostat:population_year":2020,
     "geom:area":0.006476,
-    "geom:area_square_m":53884491.026016,
+    "geom:area_square_m":53884491.026012,
     "geom:bbox":"9.08540354788,47.6539378625,9.21783774671,47.7625697988",
     "geom:latitude":47.706711,
     "geom:longitude":9.150348,
@@ -381,7 +393,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":53.99,
     "wd:latitude":47.663333,
     "wd:longitude":9.175278,
@@ -401,6 +414,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335043",
+        "eurostat:nuts_2021_id":"08335043",
         "gn:id":2885679,
         "gp:id":668213,
         "loc:id":"n79090081",
@@ -413,7 +428,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"11e4079f7e69c65d51ebb8734f6e4fea",
+    "wof:geomhash":"b2498c10087356326764a5cc59182869",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -426,11 +441,11 @@
         }
     ],
     "wof:id":101748473,
-    "wof:lastmodified":1582342472,
+    "wof:lastmodified":1684351785,
     "wof:name":"Konstanz",
     "wof:parent_id":1377689709,
     "wof:placetype":"locality",
-    "wof:population":55478,
+    "wof:population":84911,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

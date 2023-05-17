@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09261000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landshut",
+    "eurostat:nuts_2021_id":"09261000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE221",
+    "eurostat:nuts_2021_level_lau":"09261000",
+    "eurostat:population":73411,
+    "eurostat:population_year":2020,
     "geom:area":0.008058,
-    "geom:area_square_m":65965359.679122,
+    "geom:area_square_m":65965359.679123,
     "geom:bbox":"12.019375,48.50817,12.28487,48.595509",
     "geom:latitude":48.544717,
     "geom:longitude":12.159471,
@@ -370,21 +382,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063299,
         1377683771,
         404227559,
-        85682571
+        102063299
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09261000",
+        "eurostat:nuts_2021_id":"09261000",
         "gn:id":2881485,
         "gp:id":669994,
         "qs_pg:id":432240,
@@ -403,7 +418,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6dd63d2b01d355a129633402e52c5102",
+    "wof:geomhash":"89f8862defe24b310b7841bb93a7674a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -416,11 +431,11 @@
         }
     ],
     "wof:id":101748491,
-    "wof:lastmodified":1608050566,
+    "wof:lastmodified":1684351785,
     "wof:name":"Landshut",
     "wof:parent_id":1377683771,
     "wof:placetype":"locality",
-    "wof:population":60488,
+    "wof:population":73411,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwabsoien",
+    "eurostat:nuts_2021_id":"09190151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190151",
+    "eurostat:population":1394,
+    "eurostat:population_year":2020,
     "geom:area":0.002042,
     "geom:area_square_m":16945389.397458,
     "geom:bbox":"10.7582978665,47.8240284109,10.8603920162,47.8639411259",
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190151",
+        "eurostat:nuts_2021_id":"09190151",
         "gn:id":2835470,
         "gp:id":693447,
         "qs_pg:id":93092,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ffb02195857f7f662fab1d2d956a57a1",
+    "wof:geomhash":"b1890b7ee0437fe85e64211dd8161a4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101787587,
-    "wof:lastmodified":1582342645,
+    "wof:lastmodified":1684351841,
     "wof:name":"Schwabsoien",
     "wof:parent_id":1377683709,
     "wof:placetype":"locality",
-    "wof:population":1344,
+    "wof:population":1394,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

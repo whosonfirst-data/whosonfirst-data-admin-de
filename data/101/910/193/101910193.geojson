@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ritschenhausen",
+    "eurostat:nuts_2021_id":"16066057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066057",
+    "eurostat:population":328,
+    "eurostat:population_year":2020,
     "geom:area":0.000939,
-    "geom:area_square_m":7384745.722784,
+    "geom:area_square_m":7384745.722783,
     "geom:bbox":"10.4013703115,50.489731944,10.4541689825,50.5220157381",
     "geom:latitude":50.507138,
     "geom:longitude":10.427446,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066057",
+        "eurostat:nuts_2021_id":"16066057",
         "gn:id":2846426,
         "gp:id":688891,
         "qs_pg:id":577225,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6cb3e20c4d4b9b2d4e72186c02cef1e3",
+    "wof:geomhash":"56fcd9a897b955224ee052b96902702c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910193,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Ritschenhausen",
     "wof:parent_id":1377690037,
     "wof:placetype":"locality",
-    "wof:population":380,
+    "wof:population":328,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

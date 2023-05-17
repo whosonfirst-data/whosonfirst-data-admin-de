@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03361009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oyten",
+    "eurostat:nuts_2021_id":"03361009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93B",
+    "eurostat:nuts_2021_level_lau":"03361009",
+    "eurostat:population":15863,
+    "eurostat:population_year":2020,
     "geom:area":0.00851,
-    "geom:area_square_m":63220525.939668,
+    "geom:area_square_m":63220525.939671,
     "geom:bbox":"8.961377,53.036954,9.150893,53.104697",
     "geom:latitude":53.072602,
     "geom:longitude":9.049895,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":155,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063979,
         1377688067,
-        85682555
+        85633111,
+        102063979
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03361009",
+        "eurostat:nuts_2021_id":"03361009",
         "gn:id":2855791,
         "gp:id":684064,
         "qs_pg:id":1038791,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d96d8426d156aeaae13c27cf15d84d4b",
+    "wof:geomhash":"ff21135f3ad6a87a0aea0e1a28e91830",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101806957,
-    "wof:lastmodified":1608051761,
+    "wof:lastmodified":1684351857,
     "wof:name":"Oyten",
     "wof:parent_id":1377688067,
     "wof:placetype":"locality",
-    "wof:population":15286,
+    "wof:population":15863,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

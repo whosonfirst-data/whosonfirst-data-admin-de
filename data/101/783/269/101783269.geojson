@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perkam",
+    "eurostat:nuts_2021_id":"09278172",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278172",
+    "eurostat:population":1545,
+    "eurostat:population_year":2020,
     "geom:area":0.001751,
-    "geom:area_square_m":14244682.425656,
+    "geom:area_square_m":14244682.425655,
     "geom:bbox":"12.4008174813,48.8414047561,12.4805932555,48.888298377",
     "geom:latitude":48.86481,
     "geom:longitude":12.44397,
@@ -142,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278172",
+        "eurostat:nuts_2021_id":"09278172",
         "gn:id":2854861,
         "gp:id":20155282,
         "qs_pg:id":93252,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9cdc9719b38c7e9f37fc3944960d4981",
+    "wof:geomhash":"d7db1225883537e0d660afea59994311",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101783269,
-    "wof:lastmodified":1582342477,
+    "wof:lastmodified":1684351829,
     "wof:name":"Perkam",
     "wof:parent_id":1377685465,
     "wof:placetype":"locality",
-    "wof:population":1411,
+    "wof:population":1545,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

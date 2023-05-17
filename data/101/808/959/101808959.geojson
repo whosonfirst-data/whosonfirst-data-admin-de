@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05762016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brakel, Stadt",
+    "eurostat:nuts_2021_id":"05762016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA44",
+    "eurostat:nuts_2021_level_lau":"05762016",
+    "eurostat:population":16137,
+    "eurostat:population_year":2020,
     "geom:area":0.022614,
-    "geom:area_square_m":173268934.608334,
+    "geom:area_square_m":173268934.608335,
     "geom:bbox":"9.063231,51.62807,9.28673,51.797792",
     "geom:latitude":51.709679,
     "geom:longitude":9.18,
@@ -320,22 +332,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":286,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063837,
         1377691681,
         404227571,
-        85682513
+        102063837
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05762016",
+        "eurostat:nuts_2021_id":"05762016",
         "gn:id":2945542,
         "gp:id":640659,
         "qs_pg:id":239876,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8b6b0ba67c828460450bf72b131691a2",
+    "wof:geomhash":"33ca5705777b76beda1d55222d328f6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101808959,
-    "wof:lastmodified":1608051687,
+    "wof:lastmodified":1684351865,
     "wof:name":"Brakel",
     "wof:parent_id":1377691681,
     "wof:placetype":"locality",
-    "wof:population":17808,
+    "wof:population":16137,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

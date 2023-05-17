@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143293",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stahlhofen am Wiesensee",
+    "eurostat:nuts_2021_id":"07143293",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143293",
+    "eurostat:population":334,
+    "eurostat:population_year":2020,
     "geom:area":0.00031,
     "geom:area_square_m":2432413.445482,
     "geom:bbox":"7.97180588157,50.5791481864,8.00089832912,50.5969619091",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143293",
+        "eurostat:nuts_2021_id":"07143293",
         "gn:id":6554268,
         "gp:id":20163040,
         "qs_pg:id":1163933,
@@ -147,7 +162,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f6a6a0e84e72d08f701349d576e0b876",
+    "wof:geomhash":"568cc4479e7d702a64637bf03a030620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1125797461,
-    "wof:lastmodified":1582343044,
+    "wof:lastmodified":1684352014,
     "wof:name":"Stahlhofen am Wiesensee",
     "wof:parent_id":1377685835,
     "wof:placetype":"locality",
-    "wof:population":332,
+    "wof:population":334,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

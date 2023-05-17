@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salzhausen",
+    "eurostat:nuts_2021_id":"03353030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353030",
+    "eurostat:population":4870,
+    "eurostat:population_year":2020,
     "geom:area":0.004704,
-    "geom:area_square_m":34821904.0613,
+    "geom:area_square_m":34821904.061295,
     "geom:bbox":"10.0901883062,53.1792103806,10.2365162028,53.2664095132",
     "geom:latitude":53.222421,
     "geom:longitude":10.180118,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -180,6 +193,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353030",
+        "eurostat:nuts_2021_id":"03353030",
         "gn:id":2899775,
         "gp:id":690865,
         "qs_pg:id":141828,
@@ -194,7 +209,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f489533a214624a4bbafd4d3db24b29b",
+    "wof:geomhash":"c13941359c1ae8738a761507cf8f02ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101806395,
-    "wof:lastmodified":1582342616,
+    "wof:lastmodified":1684351850,
     "wof:name":"Salzhausen",
     "wof:parent_id":1377687405,
     "wof:placetype":"locality",
-    "wof:population":4406,
+    "wof:population":4870,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

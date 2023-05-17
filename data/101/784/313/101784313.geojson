@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Essenbach, M",
+    "eurostat:nuts_2021_id":"09274128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274128",
+    "eurostat:population":11999,
+    "eurostat:population_year":2020,
     "geom:area":0.010183,
-    "geom:area_square_m":83236864.237619,
+    "geom:area_square_m":83236864.23762,
     "geom:bbox":"12.128548,48.56433,12.306881,48.675124",
     "geom:latitude":48.621724,
     "geom:longitude":12.217221,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684445,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274128",
+        "eurostat:nuts_2021_id":"09274128",
         "gn:id":2928804,
         "gp:id":648824,
         "qs_pg:id":253200,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2d31ea195627253f3cfaf6646434fe24",
+    "wof:geomhash":"81d446062a19a8611e38d8fdef088c75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101784313,
-    "wof:lastmodified":1608050684,
+    "wof:lastmodified":1684351832,
     "wof:name":"Essenbach",
     "wof:parent_id":1377684445,
     "wof:placetype":"locality",
-    "wof:population":11070,
+    "wof:population":11999,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

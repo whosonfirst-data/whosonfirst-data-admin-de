@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Garching b.M\u00fcnchen, St",
+    "eurostat:nuts_2021_id":"09184119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184119",
+    "eurostat:population":17760,
+    "eurostat:population_year":2020,
     "geom:area":0.003343,
-    "geom:area_square_m":27525796.604676,
+    "geom:area_square_m":27525796.604681,
     "geom:bbox":"11.598881073,48.2168205264,11.6849295231,48.2730545648",
     "geom:latitude":48.248301,
     "geom:longitude":11.640257,
@@ -177,7 +189,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":418,
     "wof:belongsto":[
         85682571,
@@ -189,6 +202,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184119",
+        "eurostat:nuts_2021_id":"09184119",
         "gn:id":2922582,
         "gp:id":651524,
         "qs_pg:id":581754,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d6ff0d84fab470b0b2dfba3dae40f3f6",
+    "wof:geomhash":"756ac250bb7fe84b0720eea288d0b254",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101832995,
-    "wof:lastmodified":1582342446,
+    "wof:lastmodified":1684351944,
     "wof:name":"Garching b. M\u00fcnchen",
     "wof:parent_id":1377692749,
     "wof:placetype":"locality",
-    "wof:population":15303,
+    "wof:population":17760,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rodalben, Stadt",
+    "eurostat:nuts_2021_id":"07340038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340038",
+    "eurostat:population":6711,
+    "eurostat:population_year":2020,
     "geom:area":0.001977,
-    "geom:area_square_m":15963457.484348,
+    "geom:area_square_m":15963457.484347,
     "geom:bbox":"7.59650553335,49.2179774924,7.67593514849,49.2567601898",
     "geom:latitude":49.238366,
     "geom:longitude":7.632715,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":420,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340038",
+        "eurostat:nuts_2021_id":"07340038",
         "gn:id":2846158,
         "gp:id":689039,
         "qs_pg:id":235867,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1fce38d57ea21e5448e18d490e973d58",
+    "wof:geomhash":"e27e907a24c12c720b3b89570b57b524",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101759581,
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351798,
     "wof:name":"Rodalben",
     "wof:parent_id":1377686769,
     "wof:placetype":"locality",
-    "wof:population":7638,
+    "wof:population":6711,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

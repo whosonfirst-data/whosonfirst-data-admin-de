@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kalkofen",
+    "eurostat:nuts_2021_id":"07333036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333036",
+    "eurostat:population":155,
+    "eurostat:population_year":2020,
     "geom:area":0.000229,
     "geom:area_square_m":1831184.306252,
     "geom:bbox":"7.82694563993,49.7275270419,7.85460238597,49.7439114163",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333036",
+        "eurostat:nuts_2021_id":"07333036",
         "gn:id":2893779,
         "qs_pg:id":93618,
         "wd:id":"Q562506"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"33095aa4bb92d283d300e0203132d144",
+    "wof:geomhash":"77fdd6bcce124b6de3752c9b87d5ff24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125845639,
-    "wof:lastmodified":1582343053,
+    "wof:lastmodified":1684352027,
     "wof:name":"Kalkofen",
     "wof:parent_id":1377686309,
     "wof:placetype":"locality",
-    "wof:population":189,
+    "wof:population":155,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

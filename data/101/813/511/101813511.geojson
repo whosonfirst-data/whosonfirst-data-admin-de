@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldalgesheim",
+    "eurostat:nuts_2021_id":"07339062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339062",
+    "eurostat:population":4093,
+    "eurostat:population_year":2020,
     "geom:area":0.00199,
-    "geom:area_square_m":15830566.881046,
+    "geom:area_square_m":15830566.881043,
     "geom:bbox":"7.76974284132,49.9332795529,7.85179464546,49.9857993484",
     "geom:latitude":49.962159,
     "geom:longitude":7.814875,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":630,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339062",
+        "eurostat:nuts_2021_id":"07339062",
         "gn:id":2815186,
         "gp:id":703361,
         "qs_pg:id":398021,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"990458e420abbc88fe48598f718b49f3",
+    "wof:geomhash":"62aec877dc1b5a7c9ab419692e7729f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101813511,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351892,
     "wof:name":"Waldalgesheim",
     "wof:parent_id":1377686681,
     "wof:placetype":"locality",
-    "wof:population":3676,
+    "wof:population":4093,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

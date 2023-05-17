@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522490",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rochlitz, Stadt",
+    "eurostat:nuts_2021_id":"14522490",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522490",
+    "eurostat:population":5710,
+    "eurostat:population_year":2020,
     "geom:area":0.003027,
-    "geom:area_square_m":23533590.537736,
+    "geom:area_square_m":23533590.537735,
     "geom:bbox":"12.7114771862,51.0092185515,12.8167730597,51.0787982486",
     "geom:latitude":51.042212,
     "geom:longitude":12.773319,
@@ -196,7 +208,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2536,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -211,6 +224,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522490",
+        "eurostat:nuts_2021_id":"14522490",
         "gn:id":2846261,
         "gp:id":688973,
         "loc:id":"n97029667",
@@ -223,7 +238,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dda10d1c2aceecea6f551cf88964ff94",
+    "wof:geomhash":"7734d8eb6bd7ab187bf49ba594c04704",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -235,11 +250,11 @@
         }
     ],
     "wof:id":101821835,
-    "wof:lastmodified":1582342420,
+    "wof:lastmodified":1684351917,
     "wof:name":"Rochlitz",
     "wof:parent_id":1377686141,
     "wof:placetype":"locality",
-    "wof:population":6847,
+    "wof:population":5710,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

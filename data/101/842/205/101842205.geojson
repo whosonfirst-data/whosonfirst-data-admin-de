@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Diespeck",
+    "eurostat:nuts_2021_id":"09575118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575118",
+    "eurostat:population":3812,
+    "eurostat:population_year":2020,
     "geom:area":0.00262,
     "geom:area_square_m":20999566.234605,
     "geom:bbox":"10.5463003344,49.5748463928,10.6990133695,49.623728608",
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682571,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575118",
+        "eurostat:nuts_2021_id":"09575118",
         "fct:id":"073b7bae-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2937223,
         "gp:id":644581,
@@ -184,7 +199,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b4b4200b44593442fba855f62cceb991",
+    "wof:geomhash":"83e350f84c35c5955ea15157c21a0381",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342392,
+    "wof:lastmodified":1684351955,
     "wof:name":"Diespeck",
     "wof:parent_id":1377689879,
     "wof:placetype":"locality",
-    "wof:population":3690,
+    "wof:population":3812,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

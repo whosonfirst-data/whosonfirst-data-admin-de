@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eibenstock, Stadt",
+    "eurostat:nuts_2021_id":"14521170",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521170",
+    "eurostat:population":7261,
+    "eurostat:population_year":2020,
     "geom:area":0.014154,
-    "geom:area_square_m":111397925.451969,
+    "geom:area_square_m":111397925.451971,
     "geom:bbox":"12.495637,50.405646,12.703201,50.539878",
     "geom:latitude":50.469598,
     "geom:longitude":12.610399,
@@ -178,21 +190,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":911,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685451,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521170",
+        "eurostat:nuts_2021_id":"14521170",
         "gn:id":2932738,
         "gp:id":646876,
         "qs_pg:id":982717,
@@ -207,7 +222,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9eaa5724c1183378aca5a7c581948ea0",
+    "wof:geomhash":"fecc379d8e9b04ee76817a84186e80c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -219,11 +234,11 @@
         }
     ],
     "wof:id":101824653,
-    "wof:lastmodified":1608051161,
+    "wof:lastmodified":1684351930,
     "wof:name":"Eibenstock",
     "wof:parent_id":1377685451,
     "wof:placetype":"locality",
-    "wof:population":6706,
+    "wof:population":7261,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

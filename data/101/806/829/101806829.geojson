@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Todenb\u00fcttel",
+    "eurostat:nuts_2021_id":"01058164",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058164",
+    "eurostat:population":1020,
+    "eurostat:population_year":2020,
     "geom:area":0.001611,
     "geom:area_square_m":11668546.511939,
     "geom:bbox":"9.52231528974,54.11761482,9.59402790649,54.1595324407",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058164",
+        "eurostat:nuts_2021_id":"01058164",
         "gn:id":2822030,
         "gp:id":699574,
         "qs_pg:id":92973,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c2fbafe51be2847ed84a80172a37a787",
+    "wof:geomhash":"0051fa3d452df31a0ee6ac8ef04a1527",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101806829,
-    "wof:lastmodified":1582342612,
+    "wof:lastmodified":1684351855,
     "wof:name":"Todenb\u00fcttel",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":1134,
+    "wof:population":1020,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

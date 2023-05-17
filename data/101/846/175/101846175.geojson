@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nbrunn",
+    "eurostat:nuts_2021_id":"08226081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226081",
+    "eurostat:population":2824,
+    "eurostat:population_year":2020,
     "geom:area":0.004275,
     "geom:area_square_m":34391712.847946,
     "geom:bbox":"8.88257867507,49.3836431032,8.98997813988,49.4508253988",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226081",
+        "eurostat:nuts_2021_id":"08226081",
         "gn:id":2836890,
         "gp:id":20160618,
         "qs_pg:id":93101,
@@ -159,7 +174,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c66f58a632e7228a7868971c9d2858ff",
+    "wof:geomhash":"78803c0464b88cbce45d67e985e6a6f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101846175,
-    "wof:lastmodified":1582342526,
+    "wof:lastmodified":1684351959,
     "wof:name":"Sch\u00f6nbrunn",
     "wof:parent_id":1377688721,
     "wof:placetype":"locality",
-    "wof:population":2876,
+    "wof:population":2824,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

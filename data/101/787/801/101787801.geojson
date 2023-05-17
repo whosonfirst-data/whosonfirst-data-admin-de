@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778168",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Markt Rettenbach, M",
+    "eurostat:nuts_2021_id":"09778168",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778168",
+    "eurostat:population":3859,
+    "eurostat:population_year":2020,
     "geom:area":0.0062,
     "geom:area_square_m":51340081.309364,
     "geom:bbox":"10.334787,47.898165,10.448393,47.996657",
@@ -148,18 +160,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063255,
         1377693141,
         404227547,
-        85682571
+        102063255
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778168",
+        "eurostat:nuts_2021_id":"09778168",
         "gn:id":2873288,
         "gp:id":674023,
         "qs_pg:id":1240235,
@@ -174,7 +189,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c2ae3762d38d31905993f69c37ff84e0",
+    "wof:geomhash":"b25055a2051d243286d1b0de8913d122",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101787801,
-    "wof:lastmodified":1608052021,
+    "wof:lastmodified":1684351844,
     "wof:name":"Markt Rettenbach",
     "wof:parent_id":1377693141,
     "wof:placetype":"locality",
-    "wof:population":3688,
+    "wof:population":3859,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

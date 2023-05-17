@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03459019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Georgsmarienh\u00fctte, Stadt",
+    "eurostat:nuts_2021_id":"03459019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94E",
+    "eurostat:nuts_2021_level_lau":"03459019",
+    "eurostat:population":31756,
+    "eurostat:population_year":2020,
     "geom:area":0.00732,
-    "geom:area_square_m":55470209.647958,
+    "geom:area_square_m":55470209.647956,
     "geom:bbox":"7.988477,52.167501,8.151549,52.239968",
     "geom:latitude":52.204651,
     "geom:longitude":8.075096,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":672,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063947,
         1377689039,
-        85682555
+        85633111,
+        102063947
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03459019",
+        "eurostat:nuts_2021_id":"03459019",
         "gn:id":2921242,
         "gp:id":652151,
         "qs_pg:id":142528,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4e222a43ef86be16a4cf7d6544e7a610",
+    "wof:geomhash":"88f86bdd08a7d8e7af83642c83099447",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101807745,
-    "wof:lastmodified":1608051576,
+    "wof:lastmodified":1684351859,
     "wof:name":"Georgsmarienh\u00fctte",
     "wof:parent_id":1377689039,
     "wof:placetype":"locality",
-    "wof:population":32580,
+    "wof:population":31756,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

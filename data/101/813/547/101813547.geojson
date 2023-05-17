@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rothenbuch",
+    "eurostat:nuts_2021_id":"09671148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671148",
+    "eurostat:population":1770,
+    "eurostat:population_year":2020,
     "geom:area":0.000822,
-    "geom:area_square_m":6535591.74122,
+    "geom:area_square_m":6535591.741219,
     "geom:bbox":"9.376085,49.927559,9.486634,49.981351",
     "geom:latitude":49.962429,
     "geom:longitude":9.405705,
@@ -156,22 +168,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":929,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690447,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671148",
+        "eurostat:nuts_2021_id":"09671148",
         "fct:id":"071d1042-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2844072,
         "gp:id":12635403,
@@ -186,7 +201,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0df9a35729beba2acea65781bffd7dc7",
+    "wof:geomhash":"717f8709a2a0e87d68cbe1ef51fbacbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051399,
+    "wof:lastmodified":1684351892,
     "wof:name":"Rothenbuch",
     "wof:parent_id":1377690447,
     "wof:placetype":"locality",
-    "wof:population":1976,
+    "wof:population":1770,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729410",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wurzen, Stadt",
+    "eurostat:nuts_2021_id":"14729410",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729410",
+    "eurostat:population":16209,
+    "eurostat:population_year":2020,
     "geom:area":0.00887,
-    "geom:area_square_m":68513464.11503,
+    "geom:area_square_m":68513464.115028,
     "geom:bbox":"12.710946,51.300981,12.907886,51.392465",
     "geom:latitude":51.341384,
     "geom:longitude":12.798504,
@@ -313,17 +325,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1058,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687873,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729410",
+        "eurostat:nuts_2021_id":"14729410",
         "gn:id":2805597,
         "gp:id":708290,
         "qs_pg:id":1346064,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"edc337bb8afec67e168b47c1efbdf87f",
+    "wof:geomhash":"bcad153842fafd837c5879dd745f567b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101822003,
-    "wof:lastmodified":1608051493,
+    "wof:lastmodified":1684351919,
     "wof:name":"Wurzen",
     "wof:parent_id":1377687873,
     "wof:placetype":"locality",
-    "wof:population":15233,
+    "wof:population":16209,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gutach (Schwarzwaldbahn)",
+    "eurostat:nuts_2021_id":"08317039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317039",
+    "eurostat:population":2314,
+    "eurostat:population_year":2020,
     "geom:area":0.00385,
-    "geom:area_square_m":31706453.948094,
+    "geom:area_square_m":31706453.948093,
     "geom:bbox":"8.16613933608,48.204652598,8.2461522813,48.2885347361",
     "geom:latitude":48.242734,
     "geom:longitude":8.203692,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682567,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317039",
+        "eurostat:nuts_2021_id":"08317039",
         "gn:id":2913428,
         "gp:id":655988,
         "qs_pg:id":1066514,
@@ -318,7 +333,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8e05d4836a87f9a307078243f2c83e44",
+    "wof:geomhash":"3ee0ce67a80b22b7e79b045f093ee9f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101759509,
-    "wof:lastmodified":1582342517,
+    "wof:lastmodified":1684351797,
     "wof:name":"Gutach (Schwarzwaldbahn)",
     "wof:parent_id":1377689349,
     "wof:placetype":"locality",
-    "wof:population":2202,
+    "wof:population":2314,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

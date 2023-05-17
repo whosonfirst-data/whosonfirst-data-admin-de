@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08421000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ulm, Universit\u00e4tsstadt",
+    "eurostat:nuts_2021_id":"08421000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE144",
+    "eurostat:nuts_2021_level_lau":"08421000",
+    "eurostat:population":126790,
+    "eurostat:population_year":2020,
     "geom:area":0.014493,
-    "geom:area_square_m":119000104.257725,
+    "geom:area_square_m":119000104.257739,
     "geom:bbox":"9.843791,48.306878,10.042414,48.4685",
     "geom:latitude":48.390838,
     "geom:longitude":9.949976,
@@ -471,7 +483,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":118.69,
     "wd:latitude":48.4,
     "wd:longitude":9.983333,
@@ -482,15 +495,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063289,
         1377690163,
         404227573,
-        85682567
+        102063289
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08421000",
+        "eurostat:nuts_2021_id":"08421000",
         "gn:id":2820256,
         "gp:id":677807,
         "loc:id":"n2005067662",
@@ -507,7 +522,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"71b1712fbe5964d91d27b80eb45d4604",
+    "wof:geomhash":"264fff836e6fb945f28edddbeb8e56a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -520,11 +535,11 @@
         }
     ],
     "wof:id":101748485,
-    "wof:lastmodified":1608050552,
+    "wof:lastmodified":1684351785,
     "wof:name":"Ulm",
     "wof:parent_id":1377690163,
     "wof:placetype":"locality",
-    "wof:population":119218,
+    "wof:population":126790,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

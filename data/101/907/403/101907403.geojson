@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kroppach",
+    "eurostat:nuts_2021_id":"07143250",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143250",
+    "eurostat:population":689,
+    "eurostat:population_year":2020,
     "geom:area":0.000515,
     "geom:area_square_m":4030003.982468,
     "geom:bbox":"7.72457028806,50.6815241322,7.75533052764,50.7109676908",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":244,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143250",
+        "eurostat:nuts_2021_id":"07143250",
         "gn:id":2883589,
         "gp:id":652533,
         "qs_pg:id":578179,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9330d685fbd26c77c1062d471837c7a1",
+    "wof:geomhash":"ed230a2cfa286dec596127bec729c07f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907403,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351987,
     "wof:name":"Kroppach",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":668,
+    "wof:population":689,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

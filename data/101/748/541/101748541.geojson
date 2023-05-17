@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07312000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaiserslautern, Stadt",
+    "eurostat:nuts_2021_id":"07312000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB32",
+    "eurostat:nuts_2021_level_lau":"07312000",
+    "eurostat:population":100030,
+    "eurostat:population_year":2020,
     "geom:area":0.017383,
-    "geom:area_square_m":139786679.565983,
+    "geom:area_square_m":139786679.565979,
     "geom:bbox":"7.627168,49.358614,7.870739,49.495132",
     "geom:latitude":49.432854,
     "geom:longitude":7.760678,
@@ -407,20 +419,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063455,
         1377686091,
-        85682491
+        85633111,
+        102063455
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07312000",
+        "eurostat:nuts_2021_id":"07312000",
         "gn:id":2894003,
         "gp:id":664474,
         "qs_pg:id":787089,
@@ -435,7 +450,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"526369fccdaf6dedb2179503ad6b55ce",
+    "wof:geomhash":"307ac00b20fe9a449be7fcb0bca703c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -447,12 +462,12 @@
         }
     ],
     "wof:id":101748541,
-    "wof:lastmodified":1608050600,
+    "wof:lastmodified":1684351786,
     "wof:name":"Kaiserslautern",
     "wof:parent_id":1377686091,
     "wof:placetype":"locality",
-    "wof:population":98732,
-    "wof:population_rank":8,
+    "wof:population":100030,
+    "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

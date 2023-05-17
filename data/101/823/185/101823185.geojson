@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcnchenbernsdorf, Stadt",
+    "eurostat:nuts_2021_id":"16076049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076049",
+    "eurostat:population":2949,
+    "eurostat:population_year":2020,
     "geom:area":0.001953,
-    "geom:area_square_m":15251793.056021,
+    "geom:area_square_m":15251793.056023,
     "geom:bbox":"11.901462799,50.8053730334,11.9871449135,50.852648658",
     "geom:latitude":50.828489,
     "geom:longitude":11.941189,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":415,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076049",
+        "eurostat:nuts_2021_id":"16076049",
         "gn:id":2867707,
         "gp:id":676759,
         "qs_pg:id":867141,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5d287212cd644dfaa6aad5f5a8c00841",
+    "wof:geomhash":"581b2e0b03453c077be17a0fe4ec4fef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101823185,
-    "wof:lastmodified":1582342536,
+    "wof:lastmodified":1684351924,
     "wof:name":"M\u00fcnchenbernsdorf",
     "wof:parent_id":1377690915,
     "wof:placetype":"locality",
-    "wof:population":3450,
+    "wof:population":2949,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

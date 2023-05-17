@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6rrstadt",
+    "eurostat:nuts_2021_id":"07333009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333009",
+    "eurostat:population":917,
+    "eurostat:population_year":2020,
     "geom:area":0.001961,
     "geom:area_square_m":15719478.577187,
     "geom:bbox":"7.89352591972,49.5616989107,7.9790362856,49.6109992759",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333009",
+        "eurostat:nuts_2021_id":"07333009",
         "gn:id":2946031,
         "gp:id":640381,
         "qs_pg:id":579670,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"73a8685ad6435f478eb22aa46bdb9f85",
+    "wof:geomhash":"14dce6ffe08204120695aebc174c0d5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101906821,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351981,
     "wof:name":"B\u00f6rrstadt",
     "wof:parent_id":1377686355,
     "wof:placetype":"locality",
-    "wof:population":964,
+    "wof:population":917,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

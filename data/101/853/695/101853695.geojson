@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Missen-Wilhams",
+    "eurostat:nuts_2021_id":"09780127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780127",
+    "eurostat:population":1442,
+    "eurostat:population_year":2020,
     "geom:area":0.004195,
-    "geom:area_square_m":34982342.129705,
+    "geom:area_square_m":34982342.129701,
     "geom:bbox":"10.058318115,47.5675210539,10.1681984868,47.6274894308",
     "geom:latitude":47.598392,
     "geom:longitude":10.111319,
@@ -151,7 +163,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780127",
+        "eurostat:nuts_2021_id":"09780127",
         "gn:id":3205552,
         "gp:id":675386,
         "qs_pg:id":95203,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"40942712d263a47f02ea8122002f10f4",
+    "wof:geomhash":"cacf418e6dcda43a118638564c097264",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101853695,
-    "wof:lastmodified":1582342603,
+    "wof:lastmodified":1684351965,
     "wof:name":"Missen-Wilhams",
     "wof:parent_id":1377693661,
     "wof:placetype":"locality",
-    "wof:population":1441,
+    "wof:population":1442,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

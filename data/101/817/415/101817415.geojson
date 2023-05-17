@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bosau",
+    "eurostat:nuts_2021_id":"01055007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055007",
+    "eurostat:population":3389,
+    "eurostat:population_year":2020,
     "geom:area":0.008835,
-    "geom:area_square_m":64068664.161142,
+    "geom:area_square_m":64068664.161144,
     "geom:bbox":"10.417471,54.058735,10.600266,54.133836",
     "geom:latitude":54.094133,
     "geom:longitude":10.509132,
@@ -157,21 +169,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":818,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064123,
         1377683683,
-        85682517
+        85633111,
+        102064123
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055007",
+        "eurostat:nuts_2021_id":"01055007",
         "gn:id":2945945,
         "gp:id":640439,
         "qs_pg:id":1040129,
@@ -186,7 +201,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1e1e8879c0d7ef6c078367ad30da3a9a",
+    "wof:geomhash":"c03cd3db5e441e3c2f71099c93151343",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
         }
     ],
     "wof:id":101817415,
-    "wof:lastmodified":1608050141,
+    "wof:lastmodified":1684351897,
     "wof:name":"Bosau",
     "wof:parent_id":1377683683,
     "wof:placetype":"locality",
-    "wof:population":3611,
+    "wof:population":3389,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

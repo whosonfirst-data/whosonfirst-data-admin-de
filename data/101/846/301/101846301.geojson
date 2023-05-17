@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05366004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad M\u00fcnstereifel, Stadt",
+    "eurostat:nuts_2021_id":"05366004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA28",
+    "eurostat:nuts_2021_level_lau":"05366004",
+    "eurostat:population":17440,
+    "eurostat:population_year":2020,
     "geom:area":0.019128,
     "geom:area_square_m":150347648.938492,
     "geom:bbox":"6.691056,50.453134,6.93137,50.609499",
@@ -305,18 +317,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":432,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063667,
         1377690225,
         404227541,
-        85682513
+        102063667
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05366004",
+        "eurostat:nuts_2021_id":"05366004",
         "gn:id":2953398,
         "gp:id":636469,
         "loc:id":"n86055843",
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b7b47653b4321a8f4fe9e0062cd06371",
+    "wof:geomhash":"fa67a1f7f7ed308a52951eaafa6180d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
         }
     ],
     "wof:id":101846301,
-    "wof:lastmodified":1608051015,
+    "wof:lastmodified":1684351960,
     "wof:name":"Bad M\u00fcnstereifel",
     "wof:parent_id":1377690225,
     "wof:placetype":"locality",
-    "wof:population":19051,
+    "wof:population":17440,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

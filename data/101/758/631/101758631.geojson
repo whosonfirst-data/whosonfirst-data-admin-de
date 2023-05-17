@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rhens, Stadt",
+    "eurostat:nuts_2021_id":"07137221",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137221",
+    "eurostat:population":2946,
+    "eurostat:population_year":2020,
     "geom:area":0.002015,
-    "geom:area_square_m":15927068.539749,
+    "geom:area_square_m":15927068.53975,
     "geom:bbox":"7.5305848674,50.2569232927,7.62891254909,50.2975303805",
     "geom:latitude":50.27581,
     "geom:longitude":7.580951,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":64,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137221",
+        "eurostat:nuts_2021_id":"07137221",
         "gn:id":2847588,
         "gp:id":688345,
         "qs_pg:id":141864,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e5796524cf009ed908a808fb836b74f3",
+    "wof:geomhash":"a31fe1856c784c6700f19c3dbd36265f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101758631,
-    "wof:lastmodified":1582342491,
+    "wof:lastmodified":1684351796,
     "wof:name":"Rhens",
     "wof:parent_id":1377685601,
     "wof:placetype":"locality",
-    "wof:population":3016,
+    "wof:population":2946,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

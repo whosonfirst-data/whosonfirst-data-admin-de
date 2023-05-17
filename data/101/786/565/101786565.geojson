@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Finning",
+    "eurostat:nuts_2021_id":"09181120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181120",
+    "eurostat:population":1949,
+    "eurostat:population_year":2020,
     "geom:area":0.002831,
-    "geom:area_square_m":23410580.945769,
+    "geom:area_square_m":23410580.945768,
     "geom:bbox":"10.9676930156,47.9893190121,11.0544264462,48.0507245434",
     "geom:latitude":48.021189,
     "geom:longitude":11.013192,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181120",
+        "eurostat:nuts_2021_id":"09181120",
         "gn:id":3208333,
         "gp:id":15002620,
         "qs_pg:id":581856,
@@ -197,7 +212,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c357c56726e4d1bc73a3342934f0b41",
+    "wof:geomhash":"d8989e464c74e2bdbca10ec6e56d335b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101786565,
-    "wof:lastmodified":1582342640,
+    "wof:lastmodified":1684351839,
     "wof:name":"Finning",
     "wof:parent_id":1377692375,
     "wof:placetype":"locality",
-    "wof:population":1655,
+    "wof:population":1949,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

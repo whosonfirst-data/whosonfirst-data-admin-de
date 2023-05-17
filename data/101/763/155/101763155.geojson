@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kohlberg",
+    "eurostat:nuts_2021_id":"08116036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116036",
+    "eurostat:population":2308,
+    "eurostat:population_year":2020,
     "geom:area":0.000535,
     "geom:area_square_m":4377294.296502,
     "geom:bbox":"9.30919049477,48.5502918241,9.3515503295,48.5717176429",
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116036",
+        "eurostat:nuts_2021_id":"08116036",
         "fct:id":"0748af68-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2886731,
         "gp:id":12623185,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d66456ec9633134e10ae20b71246b27e",
+    "wof:geomhash":"97da2f3fac681218332e997db4357740",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342296,
+    "wof:lastmodified":1684351811,
     "wof:name":"Kohlberg",
     "wof:parent_id":1377687097,
     "wof:placetype":"locality",
-    "wof:population":2304,
+    "wof:population":2308,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

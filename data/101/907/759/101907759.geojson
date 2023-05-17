@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hilkenbrook",
+    "eurostat:nuts_2021_id":"03454022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454022",
+    "eurostat:population":773,
+    "eurostat:population_year":2020,
     "geom:area":0.001484,
-    "geom:area_square_m":11049121.615156,
+    "geom:area_square_m":11049121.615155,
     "geom:bbox":"7.66170039838,52.9622416432,7.72316076314,53.0156317535",
     "geom:latitude":52.98937,
     "geom:longitude":7.698537,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454022",
+        "eurostat:nuts_2021_id":"03454022",
         "gn:id":2904735,
         "gp:id":659924,
         "qs_pg:id":578646,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0b3e04ec759a77177ddf7f85b0831e6c",
+    "wof:geomhash":"d963508c6a09d73e9593b70ceed5ce24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101907759,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351990,
     "wof:name":"Hilkenbrook",
     "wof:parent_id":1377688589,
     "wof:placetype":"locality",
-    "wof:population":805,
+    "wof:population":773,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

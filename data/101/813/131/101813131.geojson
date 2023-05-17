@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Udenheim",
+    "eurostat:nuts_2021_id":"07331064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331064",
+    "eurostat:population":1330,
+    "eurostat:population_year":2020,
     "geom:area":0.000951,
     "geom:area_square_m":7577177.042592,
     "geom:bbox":"8.1480760588,49.8522106734,8.2055060843,49.8886587284",
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":431,
     "wof:belongsto":[
         85682491,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331064",
+        "eurostat:nuts_2021_id":"07331064",
         "gn:id":2820499,
         "gp:id":700381,
         "qs_pg:id":141633,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c5d02f00f9d29dcc4d65104d1feba7e0",
+    "wof:geomhash":"884b8e8005877b36645c8f82271bd290",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101813131,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351888,
     "wof:name":"Udenheim",
     "wof:parent_id":1377686215,
     "wof:placetype":"locality",
-    "wof:population":1327,
+    "wof:population":1330,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

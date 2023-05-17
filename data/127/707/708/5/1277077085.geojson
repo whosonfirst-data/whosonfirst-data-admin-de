@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reut",
+    "eurostat:nuts_2021_id":"09277140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277140",
+    "eurostat:population":1681,
+    "eurostat:population_year":2020,
     "geom:area":0.003714,
-    "geom:area_square_m":30551634.51235,
+    "geom:area_square_m":30551634.512346,
     "geom:bbox":"12.8894562617,48.2581644103,12.9699074977,48.3374045121",
     "geom:latitude":48.303051,
     "geom:longitude":12.930296,
@@ -149,7 +161,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -164,6 +177,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277140",
+        "eurostat:nuts_2021_id":"09277140",
         "gn:id":2847865,
         "wk:page":"Reut"
     },
@@ -171,7 +186,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"5343a2ec5fdb7f58f084e714b6aadef7",
+    "wof:geomhash":"e7b2c14f79d802ebc0e116267ad06c49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":1277077085,
-    "wof:lastmodified":1582342038,
+    "wof:lastmodified":1684352059,
     "wof:name":"Reut",
     "wof:parent_id":1377685265,
     "wof:placetype":"locality",
-    "wof:population":1779,
+    "wof:population":1681,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

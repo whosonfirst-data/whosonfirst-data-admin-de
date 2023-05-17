@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohengandern",
+    "eurostat:nuts_2021_id":"16061048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061048",
+    "eurostat:population":591,
+    "eurostat:population_year":2020,
     "geom:area":0.000896,
     "geom:area_square_m":6916036.983442,
     "geom:bbox":"9.92329327518,51.3516908746,9.97205752816,51.3820652108",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061048",
+        "eurostat:nuts_2021_id":"16061048",
         "gn:id":2901756,
         "gp:id":661180,
         "qs_pg:id":578592,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d9f1ade42a4be1554535b8e6ec267267",
+    "wof:geomhash":"901fb099d34fe677af114e745976c749",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907617,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351989,
     "wof:name":"Hohengandern",
     "wof:parent_id":1377689455,
     "wof:placetype":"locality",
-    "wof:population":586,
+    "wof:population":591,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

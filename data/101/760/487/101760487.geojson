@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gaiberg",
+    "eurostat:nuts_2021_id":"08226022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226022",
+    "eurostat:population":2392,
+    "eurostat:population_year":2020,
     "geom:area":0.000511,
     "geom:area_square_m":4115061.003004,
     "geom:bbox":"8.7205860256,49.3475187403,8.76124923061,49.3753428488",
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":249,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -332,6 +345,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226022",
+        "eurostat:nuts_2021_id":"08226022",
         "fct:id":"073f5b98-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2923334,
         "gp:id":651335,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e0584b64e828fdd76f98a41e3686bdad",
+    "wof:geomhash":"b7aa731fbe7fa0fae48c835db901a990",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351799,
     "wof:name":"Gaiberg",
     "wof:parent_id":1377688757,
     "wof:placetype":"locality",
-    "wof:population":2437,
+    "wof:population":2392,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

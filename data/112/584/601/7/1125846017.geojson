@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hahnweiler",
+    "eurostat:nuts_2021_id":"07134033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134033",
+    "eurostat:population":170,
+    "eurostat:population_year":2020,
     "geom:area":0.000266,
-    "geom:area_square_m":2131123.859059,
+    "geom:area_square_m":2131123.859058,
     "geom:bbox":"7.20975873811,49.5648339464,7.24082944893,49.5808944757",
     "geom:latitude":49.571405,
     "geom:longitude":7.22257,
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134033",
+        "eurostat:nuts_2021_id":"07134033",
         "gn:id":2912167,
         "qs_pg:id":93757,
         "wd:id":"Q566894"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c0daa25707d52a14391799636098f271",
+    "wof:geomhash":"64b163b05bd9797dc194b9b839bfc0ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,12 +163,12 @@
         }
     ],
     "wof:id":1125846017,
-    "wof:lastmodified":1582343058,
+    "wof:lastmodified":1684352028,
     "wof:name":"Hahnweiler",
     "wof:parent_id":1377685445,
     "wof:placetype":"locality",
-    "wof:population":236,
-    "wof:population_rank":2,
+    "wof:population":170,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

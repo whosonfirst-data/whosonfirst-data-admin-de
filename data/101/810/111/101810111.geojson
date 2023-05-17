@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Volkmarsen, Stadt",
+    "eurostat:nuts_2021_id":"06635020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635020",
+    "eurostat:population":6746,
+    "eurostat:population_year":2020,
     "geom:area":0.008769,
-    "geom:area_square_m":67634752.268317,
+    "geom:area_square_m":67634752.268318,
     "geom:bbox":"9.02681,51.356458,9.174385,51.466003",
     "geom:latitude":51.410155,
     "geom:longitude":9.103948,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.383333,
     "wd:longitude":9.116667,
     "wd:wordcount":370,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377685039,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635020",
+        "eurostat:nuts_2021_id":"06635020",
         "gn:id":2816616,
         "gp:id":702677,
         "qs_pg:id":1038190,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b7b2e43bf8e528ffa507740af05ecbf",
+    "wof:geomhash":"466eec9210184c6c4d42fd3d3feee56d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101810111,
-    "wof:lastmodified":1608050061,
+    "wof:lastmodified":1684351871,
     "wof:name":"Volkmarsen",
     "wof:parent_id":1377685039,
     "wof:placetype":"locality",
-    "wof:population":6959,
+    "wof:population":6746,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

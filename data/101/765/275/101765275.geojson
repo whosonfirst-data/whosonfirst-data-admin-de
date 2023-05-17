@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hilzingen",
+    "eurostat:nuts_2021_id":"08335035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335035",
+    "eurostat:population":8766,
+    "eurostat:population_year":2020,
     "geom:area":0.006346,
-    "geom:area_square_m":52725546.1334,
+    "geom:area_square_m":52725546.133401,
     "geom:bbox":"8.683483,47.742144,8.82356,47.815571",
     "geom:latitude":47.780402,
     "geom:longitude":8.760369,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063219,
         1377689655,
         404227543,
-        85682567
+        102063219
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335035",
+        "eurostat:nuts_2021_id":"08335035",
         "fct:id":"07446a16-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2904591,
         "gp:id":660008,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f07d9c2168d2c6523bd762b75b2249aa",
+    "wof:geomhash":"0e8ac96f78a4fd55f3a1cbde23bf97cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049524,
+    "wof:lastmodified":1684351817,
     "wof:name":"Hilzingen",
     "wof:parent_id":1377689655,
     "wof:placetype":"locality",
-    "wof:population":8258,
+    "wof:population":8766,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

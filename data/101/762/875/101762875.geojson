@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08325012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dornhan, Stadt",
+    "eurostat:nuts_2021_id":"08325012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE135",
+    "eurostat:nuts_2021_level_lau":"08325012",
+    "eurostat:population":6039,
+    "eurostat:population_year":2020,
     "geom:area":0.005432,
-    "geom:area_square_m":44634191.274169,
+    "geom:area_square_m":44634191.274171,
     "geom:bbox":"8.470392,48.316693,8.586262,48.405586",
     "geom:latitude":48.357219,
     "geom:longitude":8.530039,
@@ -307,20 +319,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.349444,
     "wd:longitude":8.512222,
     "wd:wordcount":42,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063277,
         1377689447,
         404227543,
-        85682567
+        102063277
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08325012",
+        "eurostat:nuts_2021_id":"08325012",
         "gn:id":2935702,
         "gp:id":645346,
         "qs_pg:id":175246,
@@ -335,7 +350,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1e49454d9a917951f615f077fbaaaf3f",
+    "wof:geomhash":"38f823f63f8479a468fa6975699b4830",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101762875,
-    "wof:lastmodified":1608049700,
+    "wof:lastmodified":1684351808,
     "wof:name":"Dornhan",
     "wof:parent_id":1377689447,
     "wof:placetype":"locality",
-    "wof:population":6157,
+    "wof:population":6039,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

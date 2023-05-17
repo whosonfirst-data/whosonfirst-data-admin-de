@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Badem",
+    "eurostat:nuts_2021_id":"07232007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232007",
+    "eurostat:population":1250,
+    "eurostat:population_year":2020,
     "geom:area":0.001164,
-    "geom:area_square_m":9253342.814814,
+    "geom:area_square_m":9253342.814815,
     "geom:bbox":"6.57766837166,49.9887082493,6.63493221332,50.0232689361",
     "geom:latitude":50.005183,
     "geom:longitude":6.608108,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232007",
+        "eurostat:nuts_2021_id":"07232007",
         "gn:id":2953508,
         "gp:id":636546,
         "qs_pg:id":1040245,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"52ce06f7c4b79d8bbae41f1a95537258",
+    "wof:geomhash":"1e48ba10fae293d825fd74a39543140f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101812019,
-    "wof:lastmodified":1582342550,
+    "wof:lastmodified":1684351881,
     "wof:name":"Badem",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":1135,
+    "wof:population":1250,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

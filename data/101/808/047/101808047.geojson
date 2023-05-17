@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03453010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindern (Oldenburg)",
+    "eurostat:nuts_2021_id":"03453010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE948",
+    "eurostat:nuts_2021_level_lau":"03453010",
+    "eurostat:population":4925,
+    "eurostat:population_year":2020,
     "geom:area":0.008766,
-    "geom:area_square_m":65483664.835217,
+    "geom:area_square_m":65483664.835216,
     "geom:bbox":"7.69064884603,52.7825237905,7.85662342608,52.8795822492",
     "geom:latitude":52.833497,
     "geom:longitude":7.778177,
@@ -287,7 +299,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03453010",
+        "eurostat:nuts_2021_id":"03453010",
         "gn:id":2877216,
         "gp:id":672013,
         "qs_pg:id":201928,
@@ -307,7 +322,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"928d8932a1539af6e4b43ece62ca2350",
+    "wof:geomhash":"c6c403a502c463649c85b1c44b3ee4c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101808047,
-    "wof:lastmodified":1582342605,
+    "wof:lastmodified":1684351863,
     "wof:name":"Lindern (Oldenburg)",
     "wof:parent_id":1377688421,
     "wof:placetype":"locality",
-    "wof:population":4613,
+    "wof:population":4925,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

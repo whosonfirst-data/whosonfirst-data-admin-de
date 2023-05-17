@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wieseth",
+    "eurostat:nuts_2021_id":"09571223",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571223",
+    "eurostat:population":1325,
+    "eurostat:population_year":2020,
     "geom:area":0.002538,
-    "geom:area_square_m":20520134.191275,
+    "geom:area_square_m":20520134.191273,
     "geom:bbox":"10.4307387194,49.1434216479,10.5155528835,49.1977674307",
     "geom:latitude":49.168794,
     "geom:longitude":10.474537,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571223",
+        "eurostat:nuts_2021_id":"09571223",
         "fct:id":"071c461c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2809181,
         "gp:id":706402,
@@ -341,7 +356,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"28ac03fad3123a35ca8a31da20b970b2",
+    "wof:geomhash":"e862c993c2c3097c3ce36fd95ccc5e6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342459,
+    "wof:lastmodified":1684351823,
     "wof:name":"Wieseth",
     "wof:parent_id":1377689051,
     "wof:placetype":"locality",
-    "wof:population":1377,
+    "wof:population":1325,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

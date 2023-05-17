@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05166016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nettetal, Stadt",
+    "eurostat:nuts_2021_id":"05166016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1E",
+    "eurostat:nuts_2021_level_lau":"05166016",
+    "eurostat:population":42496,
+    "eurostat:population_year":2020,
     "geom:area":0.010701,
-    "geom:area_square_m":82703239.415586,
+    "geom:area_square_m":82703239.415589,
     "geom:bbox":"6.15408,51.252814,6.325038,51.3658",
     "geom:latitude":51.316731,
     "geom:longitude":6.249719,
@@ -294,21 +306,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063773,
         1377689811,
         404227561,
-        85682513
+        102063773
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05166016",
+        "eurostat:nuts_2021_id":"05166016",
         "gn:id":2866333,
         "gp:id":677566,
         "qs_pg:id":240351,
@@ -325,7 +340,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"138e38e0474257420431e80a02f18ce6",
+    "wof:geomhash":"7920f3db2ae94cedfa1e8acaec0bb13a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":1126028803,
-    "wof:lastmodified":1608053885,
+    "wof:lastmodified":1684352050,
     "wof:name":"Nettetal",
     "wof:parent_id":1377689811,
     "wof:placetype":"locality",
-    "wof:population":42417,
+    "wof:population":42496,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

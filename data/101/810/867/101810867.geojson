@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirtorf, Stadt",
+    "eurostat:nuts_2021_id":"06535010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535010",
+    "eurostat:population":3150,
+    "eurostat:population_year":2020,
     "geom:area":0.010163,
-    "geom:area_square_m":79467198.672792,
+    "geom:area_square_m":79467198.672788,
     "geom:bbox":"9.015212,50.714472,9.188712,50.832947",
     "geom:latitude":50.777774,
     "geom:longitude":9.114478,
@@ -301,20 +313,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.766667,
     "wd:longitude":9.1,
     "wd:wordcount":439,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377683945,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535010",
+        "eurostat:nuts_2021_id":"06535010",
         "gn:id":2890222,
         "gp:id":666100,
         "qs_pg:id":253510,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9569d2f570809e8ad1230568da97b459",
+    "wof:geomhash":"acdbf0cc379343d2f9c4d700f06f814f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101810867,
-    "wof:lastmodified":1608050053,
+    "wof:lastmodified":1684351876,
     "wof:name":"Kirtorf",
     "wof:parent_id":1377683945,
     "wof:placetype":"locality",
-    "wof:population":3649,
+    "wof:population":3150,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

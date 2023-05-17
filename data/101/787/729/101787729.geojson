@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aschau i.Chiemgau",
+    "eurostat:nuts_2021_id":"09187114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187114",
+    "eurostat:population":5760,
+    "eurostat:population_year":2020,
     "geom:area":0.009497,
     "geom:area_square_m":78969059.489563,
     "geom:bbox":"12.241167,47.678202,12.38166,47.807645",
@@ -164,18 +176,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377693951,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187114",
+        "eurostat:nuts_2021_id":"09187114",
         "fct:id":"07229864-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2955264,
         "gp:id":20153237,
@@ -194,7 +209,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"411910e3dcea034f6e373dcd0cd285fe",
+    "wof:geomhash":"2f4ac9ad56f4f581b190edc4ff8a1f2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608052030,
+    "wof:lastmodified":1684351843,
     "wof:name":"Aschau i. Chiemgau",
     "wof:parent_id":1377693951,
     "wof:placetype":"locality",
-    "wof:population":5410,
+    "wof:population":5760,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

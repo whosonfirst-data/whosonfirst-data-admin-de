@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Doberlug-Kirchhain, Stadt",
+    "eurostat:nuts_2021_id":"12062092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062092",
+    "eurostat:population":8920,
+    "eurostat:population_year":2020,
     "geom:area":0.019548,
-    "geom:area_square_m":149992736.436949,
+    "geom:area_square_m":149992736.436948,
     "geom:bbox":"13.338337,51.591776,13.65141,51.704707",
     "geom:latitude":51.645178,
     "geom:longitude":13.502504,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.616667,
     "wd:longitude":13.566667,
     "wd:wordcount":487,
@@ -328,14 +341,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063839,
         1377694441,
-        85682553
+        85633111,
+        102063839
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062092",
+        "eurostat:nuts_2021_id":"12062092",
         "gn:id":2936631,
         "gp:id":644930,
         "qs_pg:id":142686,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3f17385699249bbce70d82db2b8da243",
+    "wof:geomhash":"0be12136cf65ca3527b14b86d35b2cd2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,12 +377,12 @@
         }
     ],
     "wof:id":101820839,
-    "wof:lastmodified":1608049889,
+    "wof:lastmodified":1684351913,
     "wof:name":"Doberlug-Kirchhain",
     "wof:parent_id":1377694441,
     "wof:placetype":"locality",
-    "wof:population":10151,
-    "wof:population_rank":6,
+    "wof:population":8920,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

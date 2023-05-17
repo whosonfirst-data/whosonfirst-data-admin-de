@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06436001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Soden am Taunus, Stadt",
+    "eurostat:nuts_2021_id":"06436001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71A",
+    "eurostat:nuts_2021_level_lau":"06436001",
+    "eurostat:population":22855,
+    "eurostat:population_year":2020,
     "geom:area":0.001537,
-    "geom:area_square_m":12180938.356631,
+    "geom:area_square_m":12180938.356633,
     "geom:bbox":"8.45186146269,50.1289475895,8.51769161936,50.1735063567",
     "geom:latitude":50.152616,
     "geom:longitude":8.486164,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06436001",
+        "eurostat:nuts_2021_id":"06436001",
         "fct:id":"0769d896-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953339,
         "gp:id":636510,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3c3fb8ef14ab21a4acdac9ac7292cf4e",
+    "wof:geomhash":"57d0064d1c2c130ed1598f40ff00602a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342321,
+    "wof:lastmodified":1684351791,
     "wof:name":"Bad Soden am Taunus",
     "wof:parent_id":1377693745,
     "wof:placetype":"locality",
-    "wof:population":21357,
+    "wof:population":22855,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

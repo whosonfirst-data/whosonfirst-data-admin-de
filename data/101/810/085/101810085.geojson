@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05954028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sprockh\u00f6vel, Stadt",
+    "eurostat:nuts_2021_id":"05954028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA56",
+    "eurostat:nuts_2021_level_lau":"05954028",
+    "eurostat:population":24739,
+    "eurostat:population_year":2020,
     "geom:area":0.006184,
-    "geom:area_square_m":47771113.180988,
+    "geom:area_square_m":47771113.180992,
     "geom:bbox":"7.16989,51.294993,7.316115,51.385005",
     "geom:latitude":51.338191,
     "geom:longitude":7.254061,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":143,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063779,
         1377692171,
         404227579,
-        85682513
+        102063779
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05954028",
+        "eurostat:nuts_2021_id":"05954028",
         "gn:id":2829998,
         "gp:id":695962,
         "qs_pg:id":222470,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8d9a4dae68d698239042b5b513f9bf22",
+    "wof:geomhash":"fd0e5c987704e3a099988de08a12a835",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810085,
-    "wof:lastmodified":1608050040,
+    "wof:lastmodified":1684351871,
     "wof:name":"Sprockh\u00f6vel",
     "wof:parent_id":1377692171,
     "wof:placetype":"locality",
-    "wof:population":26400,
+    "wof:population":24739,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

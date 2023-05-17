@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vellmar, Stadt",
+    "eurostat:nuts_2021_id":"06633026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633026",
+    "eurostat:population":18207,
+    "eurostat:population_year":2020,
     "geom:area":0.001805,
     "geom:area_square_m":13935415.720368,
     "geom:bbox":"9.428237,51.34269,9.501291,51.381852",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.35,
     "wd:longitude":9.466667,
     "wd:wordcount":168,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377685297,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633026",
+        "eurostat:nuts_2021_id":"06633026",
         "gn:id":3207197,
         "gp:id":15002820,
         "qs_pg:id":895592,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"34b26f4921969403f2be9c3e8e905a55",
+    "wof:geomhash":"2a0deb271d811b1925bcb38c981ffe28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101756015,
-    "wof:lastmodified":1608050798,
+    "wof:lastmodified":1684351792,
     "wof:name":"Vellmar",
     "wof:parent_id":1377685297,
     "wof:placetype":"locality",
-    "wof:population":18623,
+    "wof:population":18207,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

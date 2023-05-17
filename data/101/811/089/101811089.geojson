@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vacha, Stadt",
+    "eurostat:nuts_2021_id":"16063082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063082",
+    "eurostat:population":5125,
+    "eurostat:population_year":2020,
     "geom:area":0.005684,
-    "geom:area_square_m":44405853.452416,
+    "geom:area_square_m":44405853.452412,
     "geom:bbox":"9.990586,50.755511,10.087347,50.88004",
     "geom:latitude":50.813351,
     "geom:longitude":10.044916,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689611,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063082",
+        "eurostat:nuts_2021_id":"16063082",
         "gn:id":2817970,
         "gp:id":701980,
         "qs_pg:id":1038236,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"228a400a7b0bd9fb3bac683a7ee2b3e8",
+    "wof:geomhash":"32c7a945b7a96aa7a1436dbbc7ee3fe4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,12 +214,12 @@
         }
     ],
     "wof:id":101811089,
-    "wof:lastmodified":1608049934,
+    "wof:lastmodified":1684351878,
     "wof:name":"Vacha",
     "wof:parent_id":1377689611,
     "wof:placetype":"locality",
-    "wof:population":3856,
-    "wof:population_rank":4,
+    "wof:population":5125,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

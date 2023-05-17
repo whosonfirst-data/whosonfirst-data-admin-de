@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thalhausen",
+    "eurostat:nuts_2021_id":"07138072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138072",
+    "eurostat:population":736,
+    "eurostat:population_year":2020,
     "geom:area":0.000463,
-    "geom:area_square_m":3644684.547542,
+    "geom:area_square_m":3644684.547541,
     "geom:bbox":"7.569402173,50.4923752408,7.59605401673,50.5236907356",
     "geom:latitude":50.507452,
     "geom:longitude":7.582138,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138072",
+        "eurostat:nuts_2021_id":"07138072",
         "gn:id":2823087,
         "gp:id":699056,
         "qs_pg:id":1029390,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ed47ee4eab2f80773721bf39dd935c77",
+    "wof:geomhash":"b2722c00f83e3a1af96fac755db52274",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907395,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351987,
     "wof:name":"Thalhausen",
     "wof:parent_id":1377685653,
     "wof:placetype":"locality",
-    "wof:population":746,
+    "wof:population":736,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

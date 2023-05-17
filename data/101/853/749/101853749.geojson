@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unteregg",
+    "eurostat:nuts_2021_id":"09778207",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778207",
+    "eurostat:population":1387,
+    "eurostat:population_year":2020,
     "geom:area":0.002859,
-    "geom:area_square_m":23679928.991226,
+    "geom:area_square_m":23679928.991227,
     "geom:bbox":"10.4309046048,47.922055346,10.5212003489,47.9759366337",
     "geom:latitude":47.951481,
     "geom:longitude":10.475978,
@@ -163,7 +175,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682571,
@@ -175,6 +188,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778207",
+        "eurostat:nuts_2021_id":"09778207",
         "gn:id":2819782,
         "gp:id":20173015,
         "qs_pg:id":576662,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"836c1b0f22347846a6b7a94ea6f37b17",
+    "wof:geomhash":"b8741db9f8ca81015bcd50de68f43892",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101853749,
-    "wof:lastmodified":1582342603,
+    "wof:lastmodified":1684351965,
     "wof:name":"Unteregg",
     "wof:parent_id":1377693257,
     "wof:placetype":"locality",
-    "wof:population":1370,
+    "wof:population":1387,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seeburg",
+    "eurostat:nuts_2021_id":"03159032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159032",
+    "eurostat:population":1579,
+    "eurostat:population_year":2020,
     "geom:area":0.001748,
-    "geom:area_square_m":13435266.473718,
+    "geom:area_square_m":13435266.473716,
     "geom:bbox":"10.1118925158,51.541284566,10.1933733243,51.5869545459",
     "geom:latitude":51.563996,
     "geom:longitude":10.152469,
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159032",
+        "eurostat:nuts_2021_id":"03159032",
         "gn:id":2827271,
         "gp:id":694093,
         "qs_pg:id":25287,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"832864c31a89616bbce019c3ffe2696b",
+    "wof:geomhash":"5ea8f95bacd239e90c2db76247311ba2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101810173,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351872,
     "wof:name":"Seeburg",
     "wof:parent_id":1377686247,
     "wof:placetype":"locality",
-    "wof:population":1649,
+    "wof:population":1579,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

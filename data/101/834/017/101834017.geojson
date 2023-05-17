@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vilshofen an der Donau, St",
+    "eurostat:nuts_2021_id":"09275154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275154",
+    "eurostat:population":16758,
+    "eurostat:population_year":2020,
     "geom:area":0.010585,
     "geom:area_square_m":86525475.394665,
     "geom:bbox":"13.091514,48.570994,13.319057,48.680278",
@@ -172,18 +184,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":137,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684833,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275154",
+        "eurostat:nuts_2021_id":"09275154",
         "gn:id":2817202,
         "gp:id":702395,
         "qs_pg:id":247071,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d6c4178d833cb79c1b7a6161bbbc0442",
+    "wof:geomhash":"4a3147cb4fcd94bfb6e55f7b40a3528c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101834017,
-    "wof:lastmodified":1608050429,
+    "wof:lastmodified":1684351945,
     "wof:name":"Vilshofen an der Donau",
     "wof:parent_id":1377684833,
     "wof:placetype":"locality",
-    "wof:population":16695,
+    "wof:population":16758,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

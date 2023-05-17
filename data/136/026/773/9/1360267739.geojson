@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sonnenstein",
+    "eurostat:nuts_2021_id":"16061117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061117",
+    "eurostat:population":4505,
+    "eurostat:population_year":2020,
     "geom:area":0.012239,
-    "geom:area_square_m":94133836.029343,
+    "geom:area_square_m":94133836.029346,
     "geom:bbox":"10.342275,51.478472,10.539484,51.592533",
     "geom:latitude":51.537138,
     "geom:longitude":10.432055,
@@ -52,15 +64,19 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063795,
         1377689407,
-        85682541
+        85633111,
+        102063795
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061117",
+        "eurostat:nuts_2021_id":"16061117",
         "gn:id":2831134
     },
     "wof:coterminous":[
@@ -70,7 +86,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"b86dc3b5d9b3c05559401543b6e49502",
+    "wof:geomhash":"cde8597e64865fed339b1b947c47121f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -82,10 +98,12 @@
         }
     ],
     "wof:id":1360267739,
-    "wof:lastmodified":1608048967,
+    "wof:lastmodified":1684352063,
     "wof:name":"Sonnenstein",
     "wof:parent_id":1377689407,
     "wof:placetype":"locality",
+    "wof:population":4505,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

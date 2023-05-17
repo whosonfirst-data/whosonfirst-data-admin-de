@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521460",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Olbernhau, Stadt",
+    "eurostat:nuts_2021_id":"14521460",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521460",
+    "eurostat:population":10840,
+    "eurostat:population_year":2020,
     "geom:area":0.015942,
-    "geom:area_square_m":124939143.705551,
+    "geom:area_square_m":124939143.705563,
     "geom:bbox":"13.236828,50.59597,13.447707,50.752959",
     "geom:latitude":50.668037,
     "geom:longitude":13.335021,
@@ -181,21 +193,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":485,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685585,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521460",
+        "eurostat:nuts_2021_id":"14521460",
         "gn:id":2857484,
         "gp:id":683147,
         "qs_pg:id":979402,
@@ -210,7 +225,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2b9ee2bfd7f656224dd27f68bb19dacf",
+    "wof:geomhash":"86f73e340d8a6559e6f7813253b3953f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -222,11 +237,11 @@
         }
     ],
     "wof:id":101823053,
-    "wof:lastmodified":1608051071,
+    "wof:lastmodified":1684351923,
     "wof:name":"Olbernhau",
     "wof:parent_id":1377685585,
     "wof:placetype":"locality",
-    "wof:population":11162,
+    "wof:population":10840,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

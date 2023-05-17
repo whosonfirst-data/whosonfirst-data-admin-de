@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitenbach a. Herzberg",
+    "eurostat:nuts_2021_id":"06632004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632004",
+    "eurostat:population":1658,
+    "eurostat:population_year":2020,
     "geom:area":0.005377,
     "geom:area_square_m":42042163.843985,
     "geom:bbox":"9.434233,50.734649,9.560011,50.81505",
@@ -295,18 +307,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":583,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684285,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632004",
+        "eurostat:nuts_2021_id":"06632004",
         "gn:id":2944707,
         "gp:id":641015,
         "qs_pg:id":639157,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"695b8beedf1bc5f930900b92e4a99f92",
+    "wof:geomhash":"6b8c91aee6dba3b1c058efa7212d66f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101811461,
-    "wof:lastmodified":1608049943,
+    "wof:lastmodified":1684351879,
     "wof:name":"Breitenbach a. Herzberg",
     "wof:parent_id":1377684285,
     "wof:placetype":"locality",
-    "wof:population":1736,
+    "wof:population":1658,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

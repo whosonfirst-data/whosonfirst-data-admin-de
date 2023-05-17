@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09188117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Andechs",
+    "eurostat:nuts_2021_id":"09188117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21L",
+    "eurostat:nuts_2021_level_lau":"09188117",
+    "eurostat:population":3781,
+    "eurostat:population_year":2020,
     "geom:area":0.004879,
-    "geom:area_square_m":40389864.305742,
+    "geom:area_square_m":40389864.305744,
     "geom:bbox":"11.149588,47.921432,11.245562,48.022445",
     "geom:latitude":47.968719,
     "geom:longitude":11.207622,
@@ -316,17 +328,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063243,
         1377694327,
         404227567,
-        85682571
+        102063243
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09188117",
+        "eurostat:nuts_2021_id":"09188117",
         "fct:id":"07360ab6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2956253,
         "gp:id":635113,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7973568c816c984ba28ef755c24ebf53",
+    "wof:geomhash":"01219b2ca09b390144fa3855a0cdab39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051985,
+    "wof:lastmodified":1684351843,
     "wof:name":"Andechs",
     "wof:parent_id":1377694327,
     "wof:placetype":"locality",
-    "wof:population":3181,
+    "wof:population":3781,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

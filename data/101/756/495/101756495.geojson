@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626520",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6pstal",
+    "eurostat:nuts_2021_id":"14626520",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626520",
+    "eurostat:population":2396,
+    "eurostat:population_year":2020,
     "geom:area":0.003891,
-    "geom:area_square_m":30151694.76436,
+    "geom:area_square_m":30151694.764358,
     "geom:bbox":"14.8825701707,51.1542396335,14.9734457527,51.2317980093",
     "geom:latitude":51.191937,
     "geom:longitude":14.932094,
@@ -143,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682523,
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626520",
+        "eurostat:nuts_2021_id":"14626520",
         "gn:id":6548649,
         "gp:id":646232,
         "qs_pg:id":631153,
@@ -164,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4efd63eb3cd3a25780727bc41a4181b4",
+    "wof:geomhash":"d7b2241259bed6eca6f711c9c9333e97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101756495,
-    "wof:lastmodified":1582342503,
+    "wof:lastmodified":1684351796,
     "wof:name":"Sch\u00f6pstal",
     "wof:parent_id":1377687241,
     "wof:placetype":"locality",
-    "wof:population":2479,
+    "wof:population":2396,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

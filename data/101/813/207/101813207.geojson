@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09675117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dettelbach, St",
+    "eurostat:nuts_2021_id":"09675117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE268",
+    "eurostat:nuts_2021_level_lau":"09675117",
+    "eurostat:population":7295,
+    "eurostat:population_year":2020,
     "geom:area":0.007595,
-    "geom:area_square_m":60602171.879128,
+    "geom:area_square_m":60602171.879124,
     "geom:bbox":"10.056396,49.777044,10.208139,49.849952",
     "geom:latitude":49.81141,
     "geom:longitude":10.131053,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":176,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063531,
         1377691085,
         404227569,
-        85682571
+        102063531
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09675117",
+        "eurostat:nuts_2021_id":"09675117",
         "gn:id":2937932,
         "gp:id":644267,
         "qs_pg:id":1166937,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5eb44873c0f4337336b06a5fd8aa56f7",
+    "wof:geomhash":"6a549e7b0378897f1eeeff21d85823b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101813207,
-    "wof:lastmodified":1608051385,
+    "wof:lastmodified":1684351889,
     "wof:name":"Dettelbach",
     "wof:parent_id":1377691085,
     "wof:placetype":"locality",
-    "wof:population":6888,
+    "wof:population":7295,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klein B\u00fcnzow",
+    "eurostat:nuts_2021_id":"13075061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075061",
+    "eurostat:population":672,
+    "eurostat:population_year":2020,
     "geom:area":0.00474,
     "geom:area_square_m":34505262.777789,
     "geom:bbox":"13.5779489975,53.8907336388,13.6930249482,53.9712347458",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.933333,
     "wd:longitude":13.633333,
     "wd:wordcount":50,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075061",
+        "eurostat:nuts_2021_id":"13075061",
         "gn:id":2889642,
         "gp:id":654535,
         "qs_pg:id":578292,
@@ -161,7 +176,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b0a5be7d3a694a2fa646a266ef9fb270",
+    "wof:geomhash":"2bac8432d16e62395aa3e5df0d5c9b5b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101908747,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351999,
     "wof:name":"Klein B\u00fcnzow",
     "wof:parent_id":1377685173,
     "wof:placetype":"locality",
-    "wof:population":904,
+    "wof:population":672,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

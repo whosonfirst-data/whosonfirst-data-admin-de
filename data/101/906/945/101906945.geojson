@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirf",
+    "eurostat:nuts_2021_id":"07235062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235062",
+    "eurostat:population":804,
+    "eurostat:population_year":2020,
     "geom:area":0.002388,
-    "geom:area_square_m":19155312.433936,
+    "geom:area_square_m":19155312.433937,
     "geom:bbox":"6.42146247123,49.5303557796,6.53165033624,49.5721785894",
     "geom:latitude":49.55294,
     "geom:longitude":6.478074,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235062",
+        "eurostat:nuts_2021_id":"07235062",
         "gn:id":2890324,
         "gp:id":675088,
         "qs_pg:id":93587,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8718bfe5579d1e51e3b936f38efa3792",
+    "wof:geomhash":"3e0b9cc3e57fbee58cbdde813be7e9b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906945,
-    "wof:lastmodified":1582342332,
+    "wof:lastmodified":1684351983,
     "wof:name":"Kirf",
     "wof:parent_id":1377686055,
     "wof:placetype":"locality",
-    "wof:population":728,
+    "wof:population":804,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

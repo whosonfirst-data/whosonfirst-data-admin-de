@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fahrdorf",
+    "eurostat:nuts_2021_id":"01059026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059026",
+    "eurostat:population":2576,
+    "eurostat:population_year":2020,
     "geom:area":0.00145,
     "geom:area_square_m":10409883.65939,
     "geom:bbox":"9.56689238346,54.4740743063,9.63338078766,54.5121436164",
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":84,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059026",
+        "eurostat:nuts_2021_id":"01059026",
         "gn:id":2928170,
         "gp:id":672647,
         "qs_pg:id":279268,
@@ -188,7 +203,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8cc269872e9a87c1aee92df7fca1c0a1",
+    "wof:geomhash":"e4295a08515929619005db5477c68cea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101846461,
-    "wof:lastmodified":1582342528,
+    "wof:lastmodified":1684351962,
     "wof:name":"Fahrdorf",
     "wof:parent_id":1377684367,
     "wof:placetype":"locality",
-    "wof:population":2453,
+    "wof:population":2576,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

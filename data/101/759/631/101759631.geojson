@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00f6rnitz",
+    "eurostat:nuts_2021_id":"09571228",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571228",
+    "eurostat:population":1834,
+    "eurostat:population_year":2020,
     "geom:area":0.003064,
     "geom:area_square_m":24736688.426919,
     "geom:bbox":"10.1761360351,49.208357682,10.2760736553,49.2742854836",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682571,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571228",
+        "eurostat:nuts_2021_id":"09571228",
         "gn:id":2806124,
         "gp:id":20158762,
         "qs_pg:id":92812,
@@ -319,7 +334,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"73e92c6c538506d68e2c6a5d68b44439",
+    "wof:geomhash":"713a6d9d7fb9efbd8e95cfe3f884a513",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101759631,
-    "wof:lastmodified":1582342517,
+    "wof:lastmodified":1684351798,
     "wof:name":"W\u00f6rnitz",
     "wof:parent_id":1377689023,
     "wof:placetype":"locality",
-    "wof:population":1701,
+    "wof:population":1834,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

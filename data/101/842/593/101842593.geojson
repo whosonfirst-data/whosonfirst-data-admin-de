@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08435042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukirch",
+    "eurostat:nuts_2021_id":"08435042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE147",
+    "eurostat:nuts_2021_level_lau":"08435042",
+    "eurostat:population":2683,
+    "eurostat:population_year":2020,
     "geom:area":0.003214,
-    "geom:area_square_m":26768215.492512,
+    "geom:area_square_m":26768215.49251,
     "geom:bbox":"9.65770023026,47.6315301745,9.74434382118,47.6887080221",
     "geom:latitude":47.659867,
     "geom:longitude":9.702389,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "wof:belongsto":[
         85682567,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08435042",
+        "eurostat:nuts_2021_id":"08435042",
         "fct:id":"0715d0ca-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2864774,
         "gp:id":12623792,
@@ -322,7 +337,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48939ebdad240f607eed2a6bc5be3964",
+    "wof:geomhash":"675dce61c80bae965a18eb65b8bf5484",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342390,
+    "wof:lastmodified":1684351956,
     "wof:name":"Neukirch",
     "wof:parent_id":1377690473,
     "wof:placetype":"locality",
-    "wof:population":2612,
+    "wof:population":2683,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

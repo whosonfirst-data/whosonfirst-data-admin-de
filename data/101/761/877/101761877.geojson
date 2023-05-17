@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzgerlingen, Stadt",
+    "eurostat:nuts_2021_id":"08115024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115024",
+    "eurostat:population":13247,
+    "eurostat:population_year":2020,
     "geom:area":0.001639,
-    "geom:area_square_m":13394369.643962,
+    "geom:area_square_m":13394369.643963,
     "geom:bbox":"8.98392914677,48.5961937984,9.04861468845,48.6642114719",
     "geom:latitude":48.637925,
     "geom:longitude":9.017164,
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.639167,
     "wd:longitude":9.010833,
     "wd:wordcount":1016,
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115024",
+        "eurostat:nuts_2021_id":"08115024",
         "gn:id":2899880,
         "gp:id":661870,
         "qs_pg:id":142380,
@@ -198,7 +213,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f2bee0239b6595ec465ed1e3af69262a",
+    "wof:geomhash":"bb9c574bc5506d15f071c33340c212a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
         }
     ],
     "wof:id":101761877,
-    "wof:lastmodified":1582342513,
+    "wof:lastmodified":1684351806,
     "wof:name":"Holzgerlingen",
     "wof:parent_id":1377686931,
     "wof:placetype":"locality",
-    "wof:population":11613,
+    "wof:population":13247,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

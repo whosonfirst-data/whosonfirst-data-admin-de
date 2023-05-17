@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landscheide",
+    "eurostat:nuts_2021_id":"01061063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061063",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "geom:area":0.001029,
     "geom:area_square_m":7495270.925053,
     "geom:bbox":"9.2291820365,53.9007182402,9.29340273578,53.9367943766",
@@ -134,7 +146,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -144,13 +157,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061063",
+        "eurostat:nuts_2021_id":"01061063",
         "gn:id":2881499
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"d7ba4427954cf75945a29de8486f43cb",
+    "wof:geomhash":"d89a6c021454e33cf9f6ceb3ac14c267",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":1343836745,
-    "wof:lastmodified":1582341945,
+    "wof:lastmodified":1684352063,
     "wof:name":"Landscheide",
     "wof:parent_id":1377684697,
     "wof:placetype":"locality",
-    "wof:population":246,
+    "wof:population":265,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

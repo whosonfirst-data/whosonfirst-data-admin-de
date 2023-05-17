@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saalfeld/Saale, Stadt",
+    "eurostat:nuts_2021_id":"16073077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073077",
+    "eurostat:population":29278,
+    "eurostat:population_year":2020,
     "geom:area":0.014746,
-    "geom:area_square_m":115663497.846925,
+    "geom:area_square_m":115663497.846922,
     "geom:bbox":"11.2104769975,50.5711577721,11.4240952654,50.680387843",
     "geom:latitude":50.627907,
     "geom:longitude":11.314614,
@@ -215,7 +227,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -225,6 +238,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073077",
+        "eurostat:nuts_2021_id":"16073077",
         "gn:id":2842688,
         "gp:id":690612,
         "qs_pg:id":866500,
@@ -235,7 +250,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7c053feca6451a45257382e747cd9202",
+    "wof:geomhash":"ccac04b4e55d3ae40ac3e98dc7da5080",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -247,11 +262,11 @@
         }
     ],
     "wof:id":101824577,
-    "wof:lastmodified":1582342543,
+    "wof:lastmodified":1684351929,
     "wof:name":"Saalfeld/Saale",
     "wof:parent_id":1377690617,
     "wof:placetype":"locality",
-    "wof:population":28023,
+    "wof:population":29278,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

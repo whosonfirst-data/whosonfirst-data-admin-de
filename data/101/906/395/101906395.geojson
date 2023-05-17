@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Midlum",
+    "eurostat:nuts_2021_id":"01054083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054083",
+    "eurostat:population":427,
+    "eurostat:population_year":2020,
     "geom:area":0.001177,
-    "geom:area_square_m":8404278.123749,
+    "geom:area_square_m":8404278.12375,
     "geom:bbox":"8.50375019855,54.6970582999,8.54244646335,54.7558715403",
     "geom:latitude":54.733522,
     "geom:longitude":8.52208,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":23,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054083",
+        "eurostat:nuts_2021_id":"01054083",
         "gn:id":2871243,
         "gp:id":675217,
         "qs_pg:id":93421,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2914877e34edad6e71fae4384de4670",
+    "wof:geomhash":"54c2c156dfad2ae7b8b76d45602cc85b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101906395,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351979,
     "wof:name":"Midlum",
     "wof:parent_id":1377683629,
     "wof:placetype":"locality",
-    "wof:population":345,
+    "wof:population":427,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

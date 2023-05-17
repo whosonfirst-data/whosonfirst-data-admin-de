@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burghaun, Marktgemeinde",
+    "eurostat:nuts_2021_id":"06631002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631002",
+    "eurostat:population":6364,
+    "eurostat:population_year":2020,
     "geom:area":0.008325,
-    "geom:area_square_m":65187096.460255,
+    "geom:area_square_m":65187096.460254,
     "geom:bbox":"9.606825,50.667387,9.770996,50.752296",
     "geom:latitude":50.709034,
     "geom:longitude":9.691888,
@@ -146,22 +158,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":168,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684057,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631002",
+        "eurostat:nuts_2021_id":"06631002",
         "fct:id":"073a4658-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2941283,
         "gp:id":642573,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"14991e20e34adac7459899fe295ddc4c",
+    "wof:geomhash":"b04acda38d9ff0c8d33c6e9b9cc1ab36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051671,
+    "wof:lastmodified":1684351864,
     "wof:name":"Burghaun",
     "wof:parent_id":1377684057,
     "wof:placetype":"locality",
-    "wof:population":6713,
+    "wof:population":6364,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

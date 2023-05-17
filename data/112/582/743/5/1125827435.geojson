@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vastorf",
+    "eurostat:nuts_2021_id":"03355038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355038",
+    "eurostat:population":825,
+    "eurostat:population_year":2020,
     "geom:area":0.002968,
     "geom:area_square_m":21985732.824304,
     "geom:bbox":"10.507254481,53.1704708638,10.6131692139,53.2187580022",
@@ -132,7 +144,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -142,6 +155,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355038",
+        "eurostat:nuts_2021_id":"03355038",
         "gn:id":2817823,
         "qs_pg:id":576617,
         "wd:id":"Q594491"
@@ -151,7 +166,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d731899965b7ede18a54ae2854c089eb",
+    "wof:geomhash":"2c0bb10300ddebd95944d602862b6744",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":1125827435,
-    "wof:lastmodified":1582343030,
+    "wof:lastmodified":1684352017,
     "wof:name":"Vastorf",
     "wof:parent_id":1377687553,
     "wof:placetype":"locality",
-    "wof:population":943,
+    "wof:population":825,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

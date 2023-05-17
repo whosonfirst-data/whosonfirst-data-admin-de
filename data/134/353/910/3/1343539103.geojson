@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gramzow",
+    "eurostat:nuts_2021_id":"12073225",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073225",
+    "eurostat:population":1800,
+    "eurostat:population_year":2020,
     "geom:area":0.008893,
-    "geom:area_square_m":65858495.134543,
+    "geom:area_square_m":65858495.134538,
     "geom:bbox":"13.9214765986,53.1425758007,14.0978380941,53.2648535494",
     "geom:latitude":53.2073,
     "geom:longitude":14.01433,
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -135,13 +148,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073225",
+        "eurostat:nuts_2021_id":"12073225",
         "gn:id":2918135
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"cba2df997f75f0d007970d62ce97c60b",
+    "wof:geomhash":"53dae28be75f6bacb354a77f275d8a62",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +168,11 @@
         }
     ],
     "wof:id":1343539103,
-    "wof:lastmodified":1582341943,
+    "wof:lastmodified":1684352062,
     "wof:name":"Gramzow",
     "wof:parent_id":1377684335,
     "wof:placetype":"locality",
-    "wof:population":1950,
+    "wof:population":1800,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

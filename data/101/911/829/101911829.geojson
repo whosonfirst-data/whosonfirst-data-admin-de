@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenfels",
+    "eurostat:nuts_2021_id":"08335096",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335096",
+    "eurostat:population":2072,
+    "eurostat:population_year":2020,
     "geom:area":0.003686,
-    "geom:area_square_m":30562904.592614,
+    "geom:area_square_m":30562904.592618,
     "geom:bbox":"9.04858218182,47.8542797921,9.1511052053,47.9215966618",
     "geom:latitude":47.88838,
     "geom:longitude":9.099326,
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335096",
+        "eurostat:nuts_2021_id":"08335096",
         "gn:id":3209419,
         "gp:id":15002855,
         "qs_pg:id":1176566,
@@ -314,7 +329,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5473babb3cde7230a09699ca6dc9637b",
+    "wof:geomhash":"2d0c2c1d69331630751a51bf59013c8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,12 +342,12 @@
         }
     ],
     "wof:id":101911829,
-    "wof:lastmodified":1582342631,
+    "wof:lastmodified":1684352007,
     "wof:name":"Hohenfels",
     "wof:parent_id":1377689727,
     "wof:placetype":"locality",
-    "wof:population":1978,
-    "wof:population_rank":3,
+    "wof:population":2072,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

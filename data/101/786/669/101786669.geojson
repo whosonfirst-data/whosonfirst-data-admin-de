@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f6henkirchen-Siegertsbrunn",
+    "eurostat:nuts_2021_id":"09184127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184127",
+    "eurostat:population":10880,
+    "eurostat:population_year":2020,
     "geom:area":0.002837,
-    "geom:area_square_m":23460922.44646,
+    "geom:area_square_m":23460922.446462,
     "geom:bbox":"11.69391,47.997501,11.788655,48.040896",
     "geom:latitude":48.020302,
     "geom:longitude":11.738171,
@@ -164,22 +176,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692791,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184127",
+        "eurostat:nuts_2021_id":"09184127",
         "fct:id":"07341058-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3205535,
         "gp:id":20153216,
@@ -195,7 +210,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b70d5793488e1ae8a1fb292c2c316c6e",
+    "wof:geomhash":"dc186d5b3230f28717bff3427959c7b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,12 +226,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051945,
+    "wof:lastmodified":1684351840,
     "wof:name":"H\u00f6henkirchen-Siegertsbrunn",
     "wof:parent_id":1377692791,
     "wof:placetype":"locality",
-    "wof:population":9465,
-    "wof:population_rank":5,
+    "wof:population":10880,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

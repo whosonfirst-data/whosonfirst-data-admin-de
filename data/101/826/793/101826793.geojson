@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Queidersbach",
+    "eurostat:nuts_2021_id":"07335037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335037",
+    "eurostat:population":2824,
+    "eurostat:population_year":2020,
     "geom:area":0.001803,
     "geom:area_square_m":14512220.174772,
     "geom:bbox":"7.60393346529,49.3566864661,7.69148803999,49.3983260944",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335037",
+        "eurostat:nuts_2021_id":"07335037",
         "gn:id":2851459,
         "gp:id":636795,
         "qs_pg:id":577335,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c545e64816ecbf68c186657e8e0ff876",
+    "wof:geomhash":"b3266c4967fde0ac15ec91e49727c97c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101826793,
-    "wof:lastmodified":1582342439,
+    "wof:lastmodified":1684351936,
     "wof:name":"Queidersbach",
     "wof:parent_id":1377686437,
     "wof:placetype":"locality",
-    "wof:population":2834,
+    "wof:population":2824,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

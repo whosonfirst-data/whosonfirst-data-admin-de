@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcndersbach",
+    "eurostat:nuts_2021_id":"07143268",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143268",
+    "eurostat:population":770,
+    "eurostat:population_year":2020,
     "geom:area":0.001174,
     "geom:area_square_m":9213783.627581,
     "geom:bbox":"7.70097950364,50.5850600252,7.76835800309,50.6193915244",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":221,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143268",
+        "eurostat:nuts_2021_id":"07143268",
         "gn:id":2867606,
         "gp:id":676821,
         "qs_pg:id":374012,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"182c97a4908f50f2dbbe4880dde12bcf",
+    "wof:geomhash":"2ac4ff42593b084be8eb99f670872288",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907427,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351988,
     "wof:name":"M\u00fcndersbach",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":806,
+    "wof:population":770,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

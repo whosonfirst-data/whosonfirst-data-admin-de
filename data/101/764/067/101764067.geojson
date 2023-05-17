@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breisach am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"08315015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315015",
+    "eurostat:population":15488,
+    "eurostat:population_year":2020,
     "geom:area":0.006595,
-    "geom:area_square_m":54545067.262375,
+    "geom:area_square_m":54545067.262373,
     "geom:bbox":"7.56852904687,47.9542576862,7.68388084025,48.0910256208",
     "geom:latitude":48.016758,
     "geom:longitude":7.621532,
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -342,6 +355,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315015",
+        "eurostat:nuts_2021_id":"08315015",
         "fct:id":"07396760-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2944800,
         "gp:id":640962,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"370b5228e3ddf7819ee84111c47c3767",
+    "wof:geomhash":"bc68e06011a5ca6f5859a5df81cffeda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351812,
     "wof:name":"Breisach am Rhein",
     "wof:parent_id":1377689151,
     "wof:placetype":"locality",
-    "wof:population":14367,
+    "wof:population":15488,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

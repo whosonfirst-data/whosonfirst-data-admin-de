@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigsbrunn, St",
+    "eurostat:nuts_2021_id":"09772163",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772163",
+    "eurostat:population":28059,
+    "eurostat:population_year":2020,
     "geom:area":0.002386,
     "geom:area_square_m":19638602.771711,
     "geom:bbox":"10.855066,48.228203,10.910751,48.294059",
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":301,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693415,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772163",
+        "eurostat:nuts_2021_id":"09772163",
         "gn:id":2885908,
         "gp:id":668121,
         "qs_pg:id":684092,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"13bc00955e264b62f607b9284901711e",
+    "wof:geomhash":"5f1c1a997f5629fed7aa43cc8e66a4e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101755843,
-    "wof:lastmodified":1608049400,
+    "wof:lastmodified":1684351790,
     "wof:name":"K\u00f6nigsbrunn",
     "wof:parent_id":1377693415,
     "wof:placetype":"locality",
-    "wof:population":27494,
+    "wof:population":28059,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

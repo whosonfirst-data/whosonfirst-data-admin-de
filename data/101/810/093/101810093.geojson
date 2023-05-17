@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Korbach, Hansestadt, Kreisstadt",
+    "eurostat:nuts_2021_id":"06635015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635015",
+    "eurostat:population":23458,
+    "eurostat:population_year":2020,
     "geom:area":0.016011,
-    "geom:area_square_m":123874642.713846,
+    "geom:area_square_m":123874642.713847,
     "geom:bbox":"8.727598,51.208874,8.965325,51.333998",
     "geom:latitude":51.266283,
     "geom:longitude":8.842684,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":384.0,
     "wd:latitude":51.283333,
     "wd:longitude":8.866667,
@@ -318,15 +331,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377684993,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635015",
+        "eurostat:nuts_2021_id":"06635015",
         "gn:id":2885536,
         "gp:id":668269,
         "qs_pg:id":313983,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2f063f1813ebd6af8fff9e6152b5118",
+    "wof:geomhash":"3a719f79edf9c9b28ff833c137f03586",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101810093,
-    "wof:lastmodified":1608050107,
+    "wof:lastmodified":1684351871,
     "wof:name":"Korbach",
     "wof:parent_id":1377684993,
     "wof:placetype":"locality",
-    "wof:population":23169,
+    "wof:population":23458,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

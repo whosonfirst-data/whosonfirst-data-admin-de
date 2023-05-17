@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08125059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6wenstein, Stadt",
+    "eurostat:nuts_2021_id":"08125059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE118",
+    "eurostat:nuts_2021_level_lau":"08125059",
+    "eurostat:population":3373,
+    "eurostat:population_year":2020,
     "geom:area":0.002816,
     "geom:area_square_m":22797223.099108,
     "geom:bbox":"9.33669602704,49.0576994735,9.4513791077,49.1201914686",
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.1,
     "wd:longitude":9.383333,
     "wd:wordcount":73,
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08125059",
+        "eurostat:nuts_2021_id":"08125059",
         "gn:id":2875656,
         "gp:id":698957,
         "qs_pg:id":1039191,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d2937fc9e552f6f9a0262787d8bafe5b",
+    "wof:geomhash":"d11182a24719ec30c05ea561e57d1dd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101760891,
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351803,
     "wof:name":"L\u00f6wenstein",
     "wof:parent_id":1377687719,
     "wof:placetype":"locality",
-    "wof:population":3070,
+    "wof:population":3373,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

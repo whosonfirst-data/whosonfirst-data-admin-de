@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ballenstedt, Stadt",
+    "eurostat:nuts_2021_id":"15085040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085040",
+    "eurostat:population":8846,
+    "eurostat:population_year":2020,
     "geom:area":0.011307,
-    "geom:area_square_m":86594787.230379,
+    "geom:area_square_m":86594787.230381,
     "geom:bbox":"11.139716,51.665077,11.313262,51.799817",
     "geom:latitude":51.729314,
     "geom:longitude":11.222743,
@@ -321,17 +333,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":945,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063857,
         1377688523,
-        85682519
+        85633111,
+        102063857
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085040",
+        "eurostat:nuts_2021_id":"15085040",
         "gn:id":2953060,
         "gp:id":636725,
         "loc:id":"n00032618",
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3acafc5ed2a7de9929e892f6fbeec35d",
+    "wof:geomhash":"b672c51c06eee7a67018c9a12add98a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101820913,
-    "wof:lastmodified":1608049872,
+    "wof:lastmodified":1684351914,
     "wof:name":"Ballenstedt",
     "wof:parent_id":1377688523,
     "wof:placetype":"locality",
-    "wof:population":8064,
+    "wof:population":8846,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

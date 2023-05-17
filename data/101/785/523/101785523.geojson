@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bobingen, St",
+    "eurostat:nuts_2021_id":"09772125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772125",
+    "eurostat:population":17307,
+    "eurostat:population_year":2020,
     "geom:area":0.005985,
-    "geom:area_square_m":49256535.31298,
+    "geom:area_square_m":49256535.312977,
     "geom:bbox":"10.671847,48.24159,10.873738,48.307467",
     "geom:latitude":48.272968,
     "geom:longitude":10.788274,
@@ -169,18 +181,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1352,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377692401,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772125",
+        "eurostat:nuts_2021_id":"09772125",
         "gn:id":2947449,
         "gp:id":639656,
         "qs_pg:id":944846,
@@ -195,7 +210,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"59f790f7560600f77d4738cdf38aebd7",
+    "wof:geomhash":"bd0f80200b8f767b0f76f83eed19bd45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101785523,
-    "wof:lastmodified":1608050497,
+    "wof:lastmodified":1684351836,
     "wof:name":"Bobingen",
     "wof:parent_id":1377692401,
     "wof:placetype":"locality",
-    "wof:population":16682,
+    "wof:population":17307,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

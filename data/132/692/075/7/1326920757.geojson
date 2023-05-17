@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brohl",
+    "eurostat:nuts_2021_id":"07135016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135016",
+    "eurostat:population":340,
+    "eurostat:population_year":2020,
     "geom:area":0.00074,
-    "geom:area_square_m":5858707.906268,
+    "geom:area_square_m":5858707.906267,
     "geom:bbox":"7.26248381878,50.1900581978,7.297160371,50.2318242358",
     "geom:latitude":50.214176,
     "geom:longitude":7.280777,
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -135,6 +148,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135016",
+        "eurostat:nuts_2021_id":"07135016",
         "gn:id":2943897,
         "wk:page":"Brohl"
     },
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"68240a21e02a47beadc6f78e35f3214c",
+    "wof:geomhash":"6b304e5231e3dceb6634a03a649c920b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1326920757,
-    "wof:lastmodified":1582341875,
+    "wof:lastmodified":1684352061,
     "wof:name":"Brohl",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":378,
+    "wof:population":340,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

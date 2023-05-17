@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weiler bei Bingen",
+    "eurostat:nuts_2021_id":"07339063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339063",
+    "eurostat:population":2576,
+    "eurostat:population_year":2020,
     "geom:area":0.002828,
     "geom:area_square_m":22488913.125682,
     "geom:bbox":"7.72692320435,49.9463185406,7.88847590411,50.0054130193",
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":550,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -333,6 +346,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339063",
+        "eurostat:nuts_2021_id":"07339063",
         "gn:id":2812580,
         "gp:id":704691,
         "qs_pg:id":576500,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cbd77aae4537ab21d78a6985894addfb",
+    "wof:geomhash":"5bb73743a6b42d520e298f7827e76134",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101813539,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351892,
     "wof:name":"Weiler bei Bingen",
     "wof:parent_id":1377686681,
     "wof:placetype":"locality",
-    "wof:population":2712,
+    "wof:population":2576,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

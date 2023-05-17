@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haldenwang",
+    "eurostat:nuts_2021_id":"09780122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780122",
+    "eurostat:population":3814,
+    "eurostat:population_year":2020,
     "geom:area":0.00321,
-    "geom:area_square_m":26670152.717808,
+    "geom:area_square_m":26670152.717811,
     "geom:bbox":"10.313972,47.756687,10.397619,47.833262",
     "geom:latitude":47.791144,
     "geom:longitude":10.358869,
@@ -286,17 +298,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693533,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780122",
+        "eurostat:nuts_2021_id":"09780122",
         "gn:id":2911580,
         "gp:id":656822,
         "qs_pg:id":578799,
@@ -311,7 +326,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d4fe14bb58ebc25bc69d3dec7dd9f853",
+    "wof:geomhash":"ac5beee6ef7e699441d532af6507090a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101787519,
-    "wof:lastmodified":1608051998,
+    "wof:lastmodified":1684351840,
     "wof:name":"Haldenwang",
     "wof:parent_id":1377693533,
     "wof:placetype":"locality",
-    "wof:population":3634,
+    "wof:population":3814,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

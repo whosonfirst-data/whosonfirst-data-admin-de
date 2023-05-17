@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Daaden, Stadt",
+    "eurostat:nuts_2021_id":"07132018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132018",
+    "eurostat:population":4243,
+    "eurostat:population_year":2020,
     "geom:area":0.002478,
-    "geom:area_square_m":19386131.922636,
+    "geom:area_square_m":19386131.922632,
     "geom:bbox":"7.91714660397,50.7206850773,8.02763266568,50.7636004725",
     "geom:latitude":50.741941,
     "geom:longitude":7.97327,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132018",
+        "eurostat:nuts_2021_id":"07132018",
         "gn:id":2939650,
         "gp:id":643426,
         "qs_pg:id":142750,
@@ -176,7 +191,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"65cca74016018686a1c9081376439de0",
+    "wof:geomhash":"d8f681c0f728ae1387f0f1ffb5671faa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101810973,
-    "wof:lastmodified":1582342409,
+    "wof:lastmodified":1684351877,
     "wof:name":"Daaden",
     "wof:parent_id":1377685309,
     "wof:placetype":"locality",
-    "wof:population":4499,
+    "wof:population":4243,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

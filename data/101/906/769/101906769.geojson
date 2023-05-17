@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ulmet",
+    "eurostat:nuts_2021_id":"07336099",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336099",
+    "eurostat:population":674,
+    "eurostat:population_year":2020,
     "geom:area":0.000884,
-    "geom:area_square_m":7088449.409416,
+    "geom:area_square_m":7088449.409417,
     "geom:bbox":"7.41548317774,49.5750115569,7.48738301023,49.5983769735",
     "geom:latitude":49.585068,
     "geom:longitude":7.453197,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":5120,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336099",
+        "eurostat:nuts_2021_id":"07336099",
         "gn:id":2820240,
         "gp:id":700523,
         "qs_pg:id":92957,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"35df106ffb4dee4f49b97b0594d2dabd",
+    "wof:geomhash":"714b9ae2bca3771fa47b0f27e01e2dc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101906769,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351981,
     "wof:name":"Ulmet",
     "wof:parent_id":1377686501,
     "wof:placetype":"locality",
-    "wof:population":799,
+    "wof:population":674,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

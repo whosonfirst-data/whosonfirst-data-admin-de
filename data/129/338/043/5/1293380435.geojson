@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesbach",
+    "eurostat:nuts_2021_id":"07340227",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340227",
+    "eurostat:population":518,
+    "eurostat:population_year":2020,
     "geom:area":0.0005,
-    "geom:area_square_m":4029214.188783,
+    "geom:area_square_m":4029214.188782,
     "geom:bbox":"7.43503434073,49.3260307589,7.48180279876,49.3509418443",
     "geom:latitude":49.338792,
     "geom:longitude":7.458337,
@@ -74,7 +86,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -84,13 +97,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340227",
+        "eurostat:nuts_2021_id":"07340227",
         "gn:id":2809357
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"43dee95a37a10ffc3542cd2a75d2b8fa",
+    "wof:geomhash":"4187d55f6e173cc0ec89c8a51700b1d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -102,11 +117,11 @@
         }
     ],
     "wof:id":1293380435,
-    "wof:lastmodified":1582342019,
+    "wof:lastmodified":1684352060,
     "wof:name":"Wiesbach",
     "wof:parent_id":1377686787,
     "wof:placetype":"locality",
-    "wof:population":513,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

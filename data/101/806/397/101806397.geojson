@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rotenburg (W\u00fcmme), Stadt",
+    "eurostat:nuts_2021_id":"03357039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357039",
+    "eurostat:population":21956,
+    "eurostat:population_year":2020,
     "geom:area":0.013272,
-    "geom:area_square_m":98498642.023932,
+    "geom:area_square_m":98498642.023939,
     "geom:bbox":"9.27088713824,53.0519512503,9.47093095603,53.1922808505",
     "geom:latitude":53.11462,
     "geom:longitude":9.368169,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357039",
+        "eurostat:nuts_2021_id":"03357039",
         "gn:id":2844437,
         "gp:id":689813,
         "qs_pg:id":1345387,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a7ed92c34c71c1e7164ad07484d90410",
+    "wof:geomhash":"549cf36becc67803d409710104b50e1e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101806397,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351850,
     "wof:name":"Rotenburg (W\u00fcmme)",
     "wof:parent_id":1377687649,
     "wof:placetype":"locality",
-    "wof:population":22139,
+    "wof:population":21956,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

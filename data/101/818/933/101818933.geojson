@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Anklam, Stadt",
+    "eurostat:nuts_2021_id":"13075005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075005",
+    "eurostat:population":12331,
+    "eurostat:population_year":2020,
     "geom:area":0.007653,
-    "geom:area_square_m":55839158.601572,
+    "geom:area_square_m":55839158.601573,
     "geom:bbox":"13.623056,53.774339,13.816526,53.875859",
     "geom:latitude":53.836363,
     "geom:longitude":13.697879,
@@ -340,21 +352,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":954,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675571,
         1377685015,
-        85682487
+        85633111,
+        1377675571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075005",
+        "eurostat:nuts_2021_id":"13075005",
         "gn:id":2956018,
         "gp:id":635208,
         "qs_pg:id":389251,
@@ -369,7 +384,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5bd02d5eaf9bdc1d1966933e83c81932",
+    "wof:geomhash":"bc1a8598818ca1aca9297d0ec9a6aabb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -381,11 +396,11 @@
         }
     ],
     "wof:id":101818933,
-    "wof:lastmodified":1608049765,
+    "wof:lastmodified":1684351905,
     "wof:name":"Anklam",
     "wof:parent_id":1377685015,
     "wof:placetype":"locality",
-    "wof:population":14694,
+    "wof:population":12331,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

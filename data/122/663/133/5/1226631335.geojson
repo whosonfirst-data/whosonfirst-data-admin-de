@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elben",
+    "eurostat:nuts_2021_id":"07132024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132024",
+    "eurostat:population":338,
+    "eurostat:population_year":2020,
     "geom:area":0.00031,
     "geom:area_square_m":2426465.693076,
     "geom:bbox":"7.82414971793,50.7411379846,7.8444470909,50.7705267786",
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -135,13 +148,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132024",
+        "eurostat:nuts_2021_id":"07132024",
         "gn:id":2931288
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"7455ffb858be91b859c69e49d2720934",
+    "wof:geomhash":"b23dceab8871e564ad0ab337b01cb90e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +168,11 @@
         }
     ],
     "wof:id":1226631335,
-    "wof:lastmodified":1582343146,
+    "wof:lastmodified":1684352058,
     "wof:name":"Elben",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":336,
+    "wof:population":338,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

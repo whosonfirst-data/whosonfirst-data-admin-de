@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09472118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Betzenstein, St",
+    "eurostat:nuts_2021_id":"09472118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE246",
+    "eurostat:nuts_2021_level_lau":"09472118",
+    "eurostat:population":2443,
+    "eurostat:population_year":2020,
     "geom:area":0.006439,
-    "geom:area_square_m":51527863.837416,
+    "geom:area_square_m":51527863.837411,
     "geom:bbox":"11.3466545946,49.6138753678,11.4690264542,49.7239141795",
     "geom:latitude":49.672684,
     "geom:longitude":11.415622,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09472118",
+        "eurostat:nuts_2021_id":"09472118",
         "gn:id":2949654,
         "gp:id":638555,
         "qs_pg:id":65239,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"911d99845f88a0fa46a78aac04898b64",
+    "wof:geomhash":"1572cbc7a5a057fa41e6ab4c6c83b4fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101827165,
-    "wof:lastmodified":1582342371,
+    "wof:lastmodified":1684351941,
     "wof:name":"Betzenstein",
     "wof:parent_id":1377687575,
     "wof:placetype":"locality",
-    "wof:population":2476,
+    "wof:population":2443,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

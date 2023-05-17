@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eching",
+    "eurostat:nuts_2021_id":"09178120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178120",
+    "eurostat:population":14015,
+    "eurostat:population_year":2020,
     "geom:area":0.004415,
-    "geom:area_square_m":36317249.537512,
+    "geom:area_square_m":36317249.53751,
     "geom:bbox":"11.573183,48.265886,11.698956,48.331511",
     "geom:latitude":48.297165,
     "geom:longitude":11.626552,
@@ -322,21 +334,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063307,
         1377691827,
         404227567,
-        85682571
+        102063307
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178120",
+        "eurostat:nuts_2021_id":"09178120",
         "fct:id":"071cde2e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2933799,
         "gp:id":646341,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f84c9e63b2435062a2e99140f438f4f3",
+    "wof:geomhash":"5f6cc656f938b539559e838aece43dd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050427,
+    "wof:lastmodified":1684351945,
     "wof:name":"Eching",
     "wof:parent_id":1377691827,
     "wof:placetype":"locality",
-    "wof:population":12804,
+    "wof:population":14015,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

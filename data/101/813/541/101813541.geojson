@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Egelsbach",
+    "eurostat:nuts_2021_id":"06438003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438003",
+    "eurostat:population":11489,
+    "eurostat:population_year":2020,
     "geom:area":0.001868,
     "geom:area_square_m":14855737.340887,
     "geom:bbox":"8.603913,49.948205,8.703712,50.013156",
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1011,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377693967,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438003",
+        "eurostat:nuts_2021_id":"06438003",
         "gn:id":2933246,
         "gp:id":12632628,
         "qs_pg:id":93951,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55edddb3bf41c9218074e4e0e35131cc",
+    "wof:geomhash":"3e3c28f71da3d1810a915a853ce73e16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,12 +356,12 @@
         }
     ],
     "wof:id":101813541,
-    "wof:lastmodified":1608051403,
+    "wof:lastmodified":1684351892,
     "wof:name":"Egelsbach",
     "wof:parent_id":1377693967,
     "wof:placetype":"locality",
-    "wof:population":9645,
-    "wof:population_rank":5,
+    "wof:population":11489,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6pfersdorf",
+    "eurostat:nuts_2021_id":"16077011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077011",
+    "eurostat:population":224,
+    "eurostat:population_year":2020,
     "geom:area":0.000741,
     "geom:area_square_m":5778933.940755,
     "geom:bbox":"12.5820950291,50.9026738235,12.6212731978,50.9313789733",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077011",
+        "eurostat:nuts_2021_id":"16077011",
         "gn:id":2919073,
         "gp:id":653293,
         "qs_pg:id":578956,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c56ea70196dbcea37c030e8edc4d91c4",
+    "wof:geomhash":"357628dde73be5b0b9b13c0c559ec066",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101910385,
-    "wof:lastmodified":1582342654,
+    "wof:lastmodified":1684352006,
     "wof:name":"G\u00f6pfersdorf",
     "wof:parent_id":1377691091,
     "wof:placetype":"locality",
-    "wof:population":237,
+    "wof:population":224,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

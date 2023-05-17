@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cavertitz",
+    "eurostat:nuts_2021_id":"14730050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730050",
+    "eurostat:population":2214,
+    "eurostat:population_year":2020,
     "geom:area":0.008934,
-    "geom:area_square_m":68930352.364469,
+    "geom:area_square_m":68930352.364471,
     "geom:bbox":"13.02006,51.345239,13.21015,51.435777",
     "geom:latitude":51.392972,
     "geom:longitude":13.101505,
@@ -151,21 +163,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064235,
         1377687937,
-        85682523
+        85633111,
+        102064235
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730050",
+        "eurostat:nuts_2021_id":"14730050",
         "fct:id":"073a937e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2940218,
         "gp:id":643096,
@@ -181,7 +196,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"66a1bd6e1638758f2fb87e6300402e1d",
+    "wof:geomhash":"cc69895d209f03e15e6708129e746e98",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051508,
+    "wof:lastmodified":1684351922,
     "wof:name":"Cavertitz",
     "wof:parent_id":1377687937,
     "wof:placetype":"locality",
-    "wof:population":2584,
+    "wof:population":2214,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

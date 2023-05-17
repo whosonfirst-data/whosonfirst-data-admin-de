@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ellerstadt",
+    "eurostat:nuts_2021_id":"07332013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332013",
+    "eurostat:population":2388,
+    "eurostat:population_year":2020,
     "geom:area":0.000761,
     "geom:area_square_m":6117174.95,
     "geom:bbox":"8.23392938757,49.453294452,8.27743590331,49.479151001",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1143,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332013",
+        "eurostat:nuts_2021_id":"07332013",
         "gn:id":2930965,
         "gp:id":647614,
         "qs_pg:id":1039931,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d3c2441e1cf52b0ddedc15fd528a394e",
+    "wof:geomhash":"8666baf70e949e108f6c4d948f206bfc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101815703,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Ellerstadt",
     "wof:parent_id":1377686289,
     "wof:placetype":"locality",
-    "wof:population":2304,
+    "wof:population":2388,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

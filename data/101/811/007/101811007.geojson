@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Endbach",
+    "eurostat:nuts_2021_id":"06534003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534003",
+    "eurostat:population":7917,
+    "eurostat:population_year":2020,
     "geom:area":0.005065,
-    "geom:area_square_m":39613695.985348,
+    "geom:area_square_m":39613695.985347,
     "geom:bbox":"8.433563,50.722021,8.524293,50.815482",
     "geom:latitude":50.766517,
     "geom:longitude":8.478535,
@@ -142,18 +154,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":899,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683777,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534003",
+        "eurostat:nuts_2021_id":"06534003",
         "gn:id":2930408,
         "gp:id":663071,
         "qs_pg:id":1039925,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e331a5093c10e0ba1a8f9da0afc1aa75",
+    "wof:geomhash":"e1c3593fac860e9c4a10ed38dd534767",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101811007,
-    "wof:lastmodified":1608049917,
+    "wof:lastmodified":1684351878,
     "wof:name":"Bad Endbach",
     "wof:parent_id":1377683777,
     "wof:placetype":"locality",
-    "wof:population":8734,
+    "wof:population":7917,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

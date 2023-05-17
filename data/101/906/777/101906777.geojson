@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pfeffelbach",
+    "eurostat:nuts_2021_id":"07336077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336077",
+    "eurostat:population":883,
+    "eurostat:population_year":2020,
     "geom:area":0.001403,
     "geom:area_square_m":11254800.627781,
     "geom:bbox":"7.29896585698,49.5199060855,7.35695039551,49.5587415575",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":5743,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336077",
+        "eurostat:nuts_2021_id":"07336077",
         "gn:id":2854151,
         "gp:id":684871,
         "qs_pg:id":373923,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"354afb607a68c53f56ccd89d3cdc63d0",
+    "wof:geomhash":"7f3637d271e68806ad158b791891379a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,12 +178,12 @@
         }
     ],
     "wof:id":101906777,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351981,
     "wof:name":"Pfeffelbach",
     "wof:parent_id":1377686501,
     "wof:placetype":"locality",
-    "wof:population":1001,
-    "wof:population_rank":3,
+    "wof:population":883,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

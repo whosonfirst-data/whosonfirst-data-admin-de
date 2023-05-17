@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hennef (Sieg), Stadt",
+    "eurostat:nuts_2021_id":"05382020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382020",
+    "eurostat:population":47290,
+    "eurostat:population_year":2020,
     "geom:area":0.01347,
-    "geom:area_square_m":105367040.865591,
+    "geom:area_square_m":105367040.865595,
     "geom:bbox":"7.22743062102,50.696285987,7.43917411287,50.8131369556",
     "geom:latitude":50.755883,
     "geom:longitude":7.329426,
@@ -302,7 +314,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":195,
     "wof:belongsto":[
         85682491,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382020",
+        "eurostat:nuts_2021_id":"05382020",
         "gp:id":697616,
         "wd:id":"Q6961"
     },
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d508e1652de8db249621a2d6925c2f00",
+    "wof:geomhash":"af1017c818e8d8eabbbb1d2450830da5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101907381,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351987,
     "wof:name":"Hennef (Sieg)",
     "wof:parent_id":1377685613,
     "wof:placetype":"locality",
-    "wof:population":45455,
+    "wof:population":47290,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00fcmmel",
+    "eurostat:nuts_2021_id":"07131033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131033",
+    "eurostat:population":480,
+    "eurostat:population_year":2020,
     "geom:area":0.001986,
     "geom:area_square_m":15628754.151288,
     "geom:bbox":"6.74324395309,50.4523683784,6.85504571008,50.4913191658",
@@ -267,7 +279,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131033",
+        "eurostat:nuts_2021_id":"07131033",
         "gn:id":2897715,
         "qs_pg:id":578488,
         "wd:id":"Q553824"
@@ -286,7 +301,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"7644e8b300e263f03bb5aa9b428f66a3",
+    "wof:geomhash":"6daa3214e4a532213221cbde61d3c001",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -298,11 +313,11 @@
         }
     ],
     "wof:id":1126037167,
-    "wof:lastmodified":1582342987,
+    "wof:lastmodified":1684352052,
     "wof:name":"H\u00fcmmel",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":553,
+    "wof:population":480,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

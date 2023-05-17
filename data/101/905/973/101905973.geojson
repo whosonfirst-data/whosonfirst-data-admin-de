@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bottenbach",
+    "eurostat:nuts_2021_id":"07340205",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340205",
+    "eurostat:population":741,
+    "eurostat:population_year":2020,
     "geom:area":0.000754,
     "geom:area_square_m":6090447.146318,
     "geom:bbox":"7.48164291218,49.1745382224,7.530399093,49.201434098",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340205",
+        "eurostat:nuts_2021_id":"07340205",
         "gn:id":2945787,
         "gp:id":640529,
         "qs_pg:id":94078,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"60579feea2db51c6c8be74221e7ff213",
+    "wof:geomhash":"30398deddedd92bba7f250e64c08863f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101905973,
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351975,
     "wof:name":"Bottenbach",
     "wof:parent_id":1377686759,
     "wof:placetype":"locality",
-    "wof:population":746,
+    "wof:population":741,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

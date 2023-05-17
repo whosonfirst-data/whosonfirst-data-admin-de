@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinbach",
+    "eurostat:nuts_2021_id":"07140148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140148",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "geom:area":0.000329,
-    "geom:area_square_m":2613574.460746,
+    "geom:area_square_m":2613611.366821,
     "geom:bbox":"7.572385,50.034324,7.610233,50.052108",
     "geom:latitude":50.042264,
     "geom:longitude":7.59086,
@@ -107,7 +119,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -117,13 +130,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140148",
+        "eurostat:nuts_2021_id":"07140148",
         "gn:id":2828806
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"df450560be97bc26e31dc1a996adf291",
+    "wof:geomhash":"1469ec51677edc44ddab36c003b75015",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -135,11 +150,11 @@
         }
     ],
     "wof:id":1343346679,
-    "wof:lastmodified":1636499942,
+    "wof:lastmodified":1684352062,
     "wof:name":"Steinbach",
     "wof:parent_id":1377685695,
     "wof:placetype":"locality",
-    "wof:population":115,
+    "wof:population":135,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

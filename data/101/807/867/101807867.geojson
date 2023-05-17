@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leese",
+    "eurostat:nuts_2021_id":"03256018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256018",
+    "eurostat:population":1672,
+    "eurostat:population_year":2020,
     "geom:area":0.003947,
-    "geom:area_square_m":29710233.036579,
+    "geom:area_square_m":29710233.036581,
     "geom:bbox":"9.07857570578,52.4744303861,9.17804272348,52.5331155452",
     "geom:latitude":52.505583,
     "geom:longitude":9.135612,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256018",
+        "eurostat:nuts_2021_id":"03256018",
         "gn:id":2879685,
         "gp:id":670814,
         "qs_pg:id":93513,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"13bda91ada8fa2f4c6835b3224eaec19",
+    "wof:geomhash":"6d8da121acf8b3368d0da5cab4794302",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101807867,
-    "wof:lastmodified":1582342588,
+    "wof:lastmodified":1684351861,
     "wof:name":"Leese",
     "wof:parent_id":1377686995,
     "wof:placetype":"locality",
-    "wof:population":1749,
+    "wof:population":1672,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

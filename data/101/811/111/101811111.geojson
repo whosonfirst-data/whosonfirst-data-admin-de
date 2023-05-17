@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ottrau",
+    "eurostat:nuts_2021_id":"06634020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634020",
+    "eurostat:population":2128,
+    "eurostat:population_year":2020,
     "geom:area":0.006176,
-    "geom:area_square_m":48250323.581012,
+    "geom:area_square_m":48250323.581013,
     "geom:bbox":"9.31475,50.772845,9.4767,50.848189",
     "geom:latitude":50.812463,
     "geom:longitude":9.392826,
@@ -134,18 +146,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":183,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684811,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634020",
+        "eurostat:nuts_2021_id":"06634020",
         "fct:id":"071be320-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2855923,
         "gp:id":683996,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"63b7b85b2752141abda45e2d33e320bf",
+    "wof:geomhash":"6967f4cd48e817c4f26bc73671e2c82f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049924,
+    "wof:lastmodified":1684351879,
     "wof:name":"Ottrau",
     "wof:parent_id":1377684811,
     "wof:placetype":"locality",
-    "wof:population":2496,
+    "wof:population":2128,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

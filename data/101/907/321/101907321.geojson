@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcrlenbach",
+    "eurostat:nuts_2021_id":"07233227",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233227",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "geom:area":0.002733,
-    "geom:area_square_m":21654288.434041,
+    "geom:area_square_m":21654288.434039,
     "geom:bbox":"6.54819697454,50.1260441168,6.67218962462,50.1644311935",
     "geom:latitude":50.147031,
     "geom:longitude":6.615396,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1350,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233227",
+        "eurostat:nuts_2021_id":"07233227",
         "gn:id":2929500,
         "gp:id":676909,
         "qs_pg:id":495892,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"479ab7d5fdd48de967211a8974da80bd",
+    "wof:geomhash":"3b78dbf2bc5a279abf845462cb5edaa8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101907321,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351986,
     "wof:name":"M\u00fcrlenbach",
     "wof:parent_id":1377685981,
     "wof:placetype":"locality",
-    "wof:population":631,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

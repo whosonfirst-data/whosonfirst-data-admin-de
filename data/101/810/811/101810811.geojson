@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poppenhausen (Wasserkuppe)",
+    "eurostat:nuts_2021_id":"06631021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631021",
+    "eurostat:population":2662,
+    "eurostat:population_year":2020,
     "geom:area":0.005173,
-    "geom:area_square_m":40685161.757622,
+    "geom:area_square_m":40685161.75762,
     "geom:bbox":"9.82099549187,50.4568044356,9.95111725805,50.5307770602",
     "geom:latitude":50.498797,
     "geom:longitude":9.886145,
@@ -283,7 +295,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631021",
+        "eurostat:nuts_2021_id":"06631021",
         "gn:id":2852656,
         "gp:id":685663,
         "qs_pg:id":1254520,
@@ -305,7 +320,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73dfcffabb05f44008bbac2aa0a0d1dc",
+    "wof:geomhash":"1d007c57b7815712044016fddb6c2210",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101810811,
-    "wof:lastmodified":1582342400,
+    "wof:lastmodified":1684351875,
     "wof:name":"Poppenhausen (Wasserkuppe)",
     "wof:parent_id":1377684231,
     "wof:placetype":"locality",
-    "wof:population":2685,
+    "wof:population":2662,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

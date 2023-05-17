@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09176129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfmehring",
+    "eurostat:nuts_2021_id":"09176129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE219",
+    "eurostat:nuts_2021_level_lau":"09176129",
+    "eurostat:population":7278,
+    "eurostat:population_year":2020,
     "geom:area":0.005785,
-    "geom:area_square_m":47138970.332346,
+    "geom:area_square_m":47138970.33234,
     "geom:bbox":"11.489323,48.732764,11.605119,48.833512",
     "geom:latitude":48.780562,
     "geom:longitude":11.543401,
@@ -170,22 +182,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063381,
         1377691519,
         404227567,
-        85682571
+        102063381
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09176129",
+        "eurostat:nuts_2021_id":"09176129",
         "fct:id":"071c6994-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2915277,
         "gp:id":12634603,
@@ -200,7 +215,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8a3dfea1059d5983ad6518915614d142",
+    "wof:geomhash":"a99e04067f7e927fa1b3bcafaad1fa92",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050841,
+    "wof:lastmodified":1684351793,
     "wof:name":"Gro\u00dfmehring",
     "wof:parent_id":1377691519,
     "wof:placetype":"locality",
-    "wof:population":6655,
+    "wof:population":7278,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

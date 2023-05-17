@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weil der Stadt, Stadt",
+    "eurostat:nuts_2021_id":"08115050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115050",
+    "eurostat:population":19220,
+    "eurostat:population_year":2020,
     "geom:area":0.00528,
     "geom:area_square_m":43034994.690295,
     "geom:bbox":"8.799385,48.716916,8.932253,48.802431",
@@ -337,7 +349,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.750833,
     "wd:longitude":8.870556,
     "wd:wordcount":578,
@@ -346,15 +359,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686877,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115050",
+        "eurostat:nuts_2021_id":"08115050",
         "fct:id":"075dd032-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812625,
         "gp:id":704676,
@@ -371,7 +386,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c957ce2ec96cd39a4881827e36c962c3",
+    "wof:geomhash":"53fe46f3ed8e7646f0e1a738b27b77ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -387,11 +402,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050906,
+    "wof:lastmodified":1684351806,
     "wof:name":"Weil der Stadt",
     "wof:parent_id":1377686877,
     "wof:placetype":"locality",
-    "wof:population":19338,
+    "wof:population":19220,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

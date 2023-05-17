@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stolpe an der Peene",
+    "eurostat:nuts_2021_id":"13075128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075128",
+    "eurostat:population":281,
+    "eurostat:population_year":2020,
     "geom:area":0.002472,
-    "geom:area_square_m":18021202.581312,
+    "geom:area_square_m":18021202.581314,
     "geom:bbox":"13.4890561428,53.8482824248,13.6221925222,53.8845187911",
     "geom:latitude":53.866175,
     "geom:longitude":13.550382,
@@ -226,7 +238,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -236,6 +249,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075128",
+        "eurostat:nuts_2021_id":"13075128",
         "gn:id":2826538,
         "wd:id":"Q671964",
         "wk:page":"Stolpe_an_der_Peene"
@@ -244,7 +259,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"296a32fbdad9432763aec369d1e92363",
+    "wof:geomhash":"b95798e854dcc3da9a45b9296692c676",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -256,11 +271,11 @@
         }
     ],
     "wof:id":1343248663,
-    "wof:lastmodified":1582341946,
+    "wof:lastmodified":1684352062,
     "wof:name":"Stolpe an der Peene",
     "wof:parent_id":1377685091,
     "wof:placetype":"locality",
-    "wof:population":434,
+    "wof:population":281,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

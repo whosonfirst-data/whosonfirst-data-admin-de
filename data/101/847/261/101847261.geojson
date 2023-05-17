@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nwalde-Glien",
+    "eurostat:nuts_2021_id":"12063273",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063273",
+    "eurostat:population":9864,
+    "eurostat:population_year":2020,
     "geom:area":0.012894,
-    "geom:area_square_m":96745490.626983,
+    "geom:area_square_m":96745490.626988,
     "geom:bbox":"12.901158,52.586956,13.164576,52.692529",
     "geom:latitude":52.641999,
     "geom:longitude":13.039918,
@@ -288,17 +300,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":408,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063953,
         1377694625,
-        85682553
+        85633111,
+        102063953
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063273",
+        "eurostat:nuts_2021_id":"12063273",
         "gn:id":2836444,
         "gp:id":693155,
         "qs_pg:id":1167167,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"50ecced884e0983756a06be1eb2a5178",
+    "wof:geomhash":"aa82a3d6848ae83fc5ec6bb11c1cf623",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101847261,
-    "wof:lastmodified":1608051266,
+    "wof:lastmodified":1684351962,
     "wof:name":"Sch\u00f6nwalde-Glien",
     "wof:parent_id":1377694625,
     "wof:placetype":"locality",
-    "wof:population":9021,
+    "wof:population":9864,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

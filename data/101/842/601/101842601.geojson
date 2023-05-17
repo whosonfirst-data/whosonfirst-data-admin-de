@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08336014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Efringen-Kirchen",
+    "eurostat:nuts_2021_id":"08336014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE139",
+    "eurostat:nuts_2021_level_lau":"08336014",
+    "eurostat:population":8669,
+    "eurostat:population_year":2020,
     "geom:area":0.005243,
-    "geom:area_square_m":43657248.175437,
+    "geom:area_square_m":43657248.175439,
     "geom:bbox":"7.51159,47.632135,7.636333,47.707754",
     "geom:latitude":47.671758,
     "geom:longitude":7.567203,
@@ -316,18 +328,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063211,
         1377685579,
         404227543,
-        85682567
+        102063211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08336014",
+        "eurostat:nuts_2021_id":"08336014",
         "fct:id":"0715a0a0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2933274,
         "gp:id":12623558,
@@ -342,7 +357,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7bb8810ea69edefd39f7ef7dad754211",
+    "wof:geomhash":"8c79cd4ed1fd732257e78e5ca7cbb073",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049992,
+    "wof:lastmodified":1684351956,
     "wof:name":"Efringen-Kirchen",
     "wof:parent_id":1377685579,
     "wof:placetype":"locality",
-    "wof:population":8235,
+    "wof:population":8669,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

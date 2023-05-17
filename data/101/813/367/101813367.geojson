@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mertesdorf",
+    "eurostat:nuts_2021_id":"07235085",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235085",
+    "eurostat:population":1670,
+    "eurostat:population_year":2020,
     "geom:area":0.000842,
-    "geom:area_square_m":6727533.884113,
+    "geom:area_square_m":6727533.88411,
     "geom:bbox":"6.68556470202,49.7534220309,6.7633552692,49.7832981311",
     "geom:latitude":49.770088,
     "geom:longitude":6.724275,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235085",
+        "eurostat:nuts_2021_id":"07235085",
         "gn:id":2871719,
         "gp:id":665046,
         "qs_pg:id":1039117,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"27d43ab3ed05c0a37de554965860ca41",
+    "wof:geomhash":"106c5bd0c50219b0f1b18d6e4d53e111",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101813367,
-    "wof:lastmodified":1582342568,
+    "wof:lastmodified":1684351890,
     "wof:name":"Mertesdorf",
     "wof:parent_id":1377686047,
     "wof:placetype":"locality",
-    "wof:population":1658,
+    "wof:population":1670,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6rner",
+    "eurostat:nuts_2021_id":"16064037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064037",
+    "eurostat:population":1638,
+    "eurostat:population_year":2020,
     "geom:area":0.003962,
-    "geom:area_square_m":30677896.995141,
+    "geom:area_square_m":30677896.99514,
     "geom:bbox":"10.5431423688,51.1915142069,10.6353399435,51.270318863",
     "geom:latitude":51.234098,
     "geom:longitude":10.589772,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":389,
     "wof:belongsto":[
         85682541,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064037",
+        "eurostat:nuts_2021_id":"16064037",
         "gn:id":2885436,
         "gp:id":668316,
         "qs_pg:id":93553,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"01ca7d61990f5d62779abbe14bcfab2f",
+    "wof:geomhash":"c1fbc3f5d747b4703a9c7a56d7172748",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101821963,
-    "wof:lastmodified":1582342418,
+    "wof:lastmodified":1684351918,
     "wof:name":"K\u00f6rner",
     "wof:parent_id":1377689815,
     "wof:placetype":"locality",
-    "wof:population":1923,
+    "wof:population":1638,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

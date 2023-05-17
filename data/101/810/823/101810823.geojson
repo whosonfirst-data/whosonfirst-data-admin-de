@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Salzschlirf",
+    "eurostat:nuts_2021_id":"06631001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631001",
+    "eurostat:population":3436,
+    "eurostat:population_year":2020,
     "geom:area":0.001658,
     "geom:area_square_m":13004773.150377,
     "geom:bbox":"9.466069,50.610336,9.550266,50.664347",
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":24,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684049,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631001",
+        "eurostat:nuts_2021_id":"06631001",
         "fct:id":"0736d3f6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953359,
         "gp:id":636497,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"18314f77b0d2ff4143687ee8aba9b6eb",
+    "wof:geomhash":"a3307c4ed526e15dbdfa38c1597830b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050084,
+    "wof:lastmodified":1684351875,
     "wof:name":"Bad Salzschlirf",
     "wof:parent_id":1377684049,
     "wof:placetype":"locality",
-    "wof:population":3204,
+    "wof:population":3436,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

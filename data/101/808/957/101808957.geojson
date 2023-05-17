@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05762004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Driburg, Stadt",
+    "eurostat:nuts_2021_id":"05762004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA44",
+    "eurostat:nuts_2021_level_lau":"05762004",
+    "eurostat:population":18959,
+    "eurostat:population_year":2020,
     "geom:area":0.015038,
-    "geom:area_square_m":115192155.014983,
+    "geom:area_square_m":115192155.014974,
     "geom:bbox":"8.964368,51.643953,9.117196,51.797365",
     "geom:latitude":51.721867,
     "geom:longitude":9.038265,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1414,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063837,
         1377691655,
         404227571,
-        85682513
+        102063837
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05762004",
+        "eurostat:nuts_2021_id":"05762004",
         "gn:id":2953525,
         "gp:id":636409,
         "loc:id":"n50074533",
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"444970cd2f34736a28426a4ebbe4f8ee",
+    "wof:geomhash":"7ce67c8530bb264bf81eced861d4751f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101808957,
-    "wof:lastmodified":1608051686,
+    "wof:lastmodified":1684351865,
     "wof:name":"Bad Driburg",
     "wof:parent_id":1377691655,
     "wof:placetype":"locality",
-    "wof:population":19553,
+    "wof:population":18959,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

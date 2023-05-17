@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krauthausen",
+    "eurostat:nuts_2021_id":"16063046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063046",
+    "eurostat:population":1590,
+    "eurostat:population_year":2020,
     "geom:area":0.002335,
-    "geom:area_square_m":18159901.202077,
+    "geom:area_square_m":18159901.202076,
     "geom:bbox":"10.192621926,50.9972177205,10.3169877041,51.0514668883",
     "geom:latitude":51.023102,
     "geom:longitude":10.260829,
@@ -126,7 +138,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063046",
+        "eurostat:nuts_2021_id":"16063046",
         "gn:id":2884628,
         "gp:id":668692,
         "qs_pg:id":142271,
@@ -149,7 +164,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8c65e2299fa4f936b59c7e8f5cb9c09c",
+    "wof:geomhash":"805579544653807d1c38344beeb38a02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +176,11 @@
         }
     ],
     "wof:id":101856155,
-    "wof:lastmodified":1582342448,
+    "wof:lastmodified":1684351969,
     "wof:name":"Krauthausen",
     "wof:parent_id":1377689689,
     "wof:placetype":"locality",
-    "wof:population":1667,
+    "wof:population":1590,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

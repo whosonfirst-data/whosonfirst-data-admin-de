@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03456023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uelsen",
+    "eurostat:nuts_2021_id":"03456023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94B",
+    "eurostat:nuts_2021_level_lau":"03456023",
+    "eurostat:population":5687,
+    "eurostat:population_year":2020,
     "geom:area":0.002569,
     "geom:area_square_m":19339247.449476,
     "geom:bbox":"6.84521486669,52.4630421795,6.92399758531,52.5182230607",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":668,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03456023",
+        "eurostat:nuts_2021_id":"03456023",
         "gn:id":2820458,
         "gp:id":690965,
         "qs_pg:id":1038259,
@@ -170,7 +185,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"473f13d77e3070db3148c8ff0fe023a9",
+    "wof:geomhash":"78be7e79411c3c5f87eae407d7c05e13",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101807737,
-    "wof:lastmodified":1582342586,
+    "wof:lastmodified":1684351859,
     "wof:name":"Uelsen",
     "wof:parent_id":1377688759,
     "wof:placetype":"locality",
-    "wof:population":5171,
+    "wof:population":5687,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

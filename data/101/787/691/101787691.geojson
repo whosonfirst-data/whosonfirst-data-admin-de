@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaltental, M",
+    "eurostat:nuts_2021_id":"09777141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777141",
+    "eurostat:population":1694,
+    "eurostat:population_year":2020,
     "geom:area":0.00268,
-    "geom:area_square_m":22210039.472957,
+    "geom:area_square_m":22210039.472961,
     "geom:bbox":"10.7215660281,47.8712916502,10.7914559284,47.9405739995",
     "geom:latitude":47.906913,
     "geom:longitude":10.756365,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":23,
     "wof:belongsto":[
         85682571,
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777141",
+        "eurostat:nuts_2021_id":"09777141",
         "gn:id":3205541,
         "gp:id":647504,
         "qs_pg:id":95211,
@@ -178,7 +193,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e1d35da270c4a582bb99e4b7b61cca5",
+    "wof:geomhash":"6428f6ed1ab92201358dacb244921272",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101787691,
-    "wof:lastmodified":1582342647,
+    "wof:lastmodified":1684351843,
     "wof:name":"Kaltental",
     "wof:parent_id":1377693039,
     "wof:placetype":"locality",
-    "wof:population":1635,
+    "wof:population":1694,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

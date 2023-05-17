@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lohme",
+    "eurostat:nuts_2021_id":"13073052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073052",
+    "eurostat:population":449,
+    "eurostat:population_year":2020,
     "geom:area":0.001913,
-    "geom:area_square_m":13712187.602795,
+    "geom:area_square_m":13712187.602797,
     "geom:bbox":"13.5457316097,54.5479041688,13.6421596234,54.5854675769",
     "geom:latitude":54.571747,
     "geom:longitude":13.596393,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073052",
+        "eurostat:nuts_2021_id":"13073052",
         "gn:id":2876215,
         "gp:id":672502,
         "qs_pg:id":1067757,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f3b9c6310d8bf0e441bae0d50de68c18",
+    "wof:geomhash":"f5c039843cc4d0d3d335be9475fc572f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101911729,
-    "wof:lastmodified":1582342631,
+    "wof:lastmodified":1684352007,
     "wof:name":"Lohme",
     "wof:parent_id":1377684975,
     "wof:placetype":"locality",
-    "wof:population":629,
+    "wof:population":449,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

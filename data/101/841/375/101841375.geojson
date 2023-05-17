@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Torgau, Stadt",
+    "eurostat:nuts_2021_id":"14730310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730310",
+    "eurostat:population":19883,
+    "eurostat:population_year":2020,
     "geom:area":0.013308,
-    "geom:area_square_m":102367495.387779,
+    "geom:area_square_m":102367495.387783,
     "geom:bbox":"12.9045065307,51.4747173611,13.1057497568,51.6018931331",
     "geom:latitude":51.532392,
     "geom:longitude":12.995066,
@@ -336,7 +348,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1102,
     "wof:belongsto":[
         85682523,
@@ -347,6 +360,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730310",
+        "eurostat:nuts_2021_id":"14730310",
         "gn:id":2821807,
         "gp:id":699672,
         "qs_pg:id":906966,
@@ -358,7 +373,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f76bf2c36207f588eefb9d0097e2d006",
+    "wof:geomhash":"bb8b7713d1003d16a5cb92f42b3ebac5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101841375,
-    "wof:lastmodified":1582342524,
+    "wof:lastmodified":1684351953,
     "wof:name":"Torgau",
     "wof:parent_id":1377688123,
     "wof:placetype":"locality",
-    "wof:population":18746,
+    "wof:population":19883,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

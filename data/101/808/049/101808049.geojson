@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03453009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lastrup",
+    "eurostat:nuts_2021_id":"03453009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE948",
+    "eurostat:nuts_2021_level_lau":"03453009",
+    "eurostat:population":6955,
+    "eurostat:population_year":2020,
     "geom:area":0.011418,
-    "geom:area_square_m":85372713.358891,
+    "geom:area_square_m":85372713.358889,
     "geom:bbox":"7.792268,52.751234,8.004412,52.836383",
     "geom:latitude":52.792399,
     "geom:longitude":7.901372,
@@ -291,17 +303,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063983,
         1377688409,
-        85682555
+        85633111,
+        102063983
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03453009",
+        "eurostat:nuts_2021_id":"03453009",
         "gn:id":2880357,
         "gp:id":670480,
         "qs_pg:id":578068,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d306d2f1e0698240e81f822dbe6c9e20",
+    "wof:geomhash":"a6abda90a04b9a705d4cead8755e747e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101808049,
-    "wof:lastmodified":1608051674,
+    "wof:lastmodified":1684351863,
     "wof:name":"Lastrup",
     "wof:parent_id":1377688409,
     "wof:placetype":"locality",
-    "wof:population":6684,
+    "wof:population":6955,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

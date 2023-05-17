@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hildburghausen, Stadt",
+    "eurostat:nuts_2021_id":"16069024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069024",
+    "eurostat:population":11831,
+    "eurostat:population_year":2020,
     "geom:area":0.009218,
-    "geom:area_square_m":72599352.291799,
+    "geom:area_square_m":72599352.291803,
     "geom:bbox":"10.640202,50.394459,10.830692,50.480305",
     "geom:latitude":50.437118,
     "geom:longitude":10.727919,
@@ -330,7 +342,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.426111,
     "wd:longitude":10.728889,
     "wd:population":11670,
@@ -340,14 +353,16 @@
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063647,
         1377690281,
-        85682541
+        85633111,
+        102063647
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069024",
+        "eurostat:nuts_2021_id":"16069024",
         "gn:id":2904804,
         "gp:id":659886,
         "qs_pg:id":228825,
@@ -362,7 +377,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6f6980c7628aee410f989f503c8749de",
+    "wof:geomhash":"69bd7b5a2ef1691a0f8fde9c42b7762a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -374,11 +389,11 @@
         }
     ],
     "wof:id":101824465,
-    "wof:lastmodified":1608051134,
+    "wof:lastmodified":1684351928,
     "wof:name":"Hildburghausen",
     "wof:parent_id":1377690281,
     "wof:placetype":"locality",
-    "wof:population":11670,
+    "wof:population":11831,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

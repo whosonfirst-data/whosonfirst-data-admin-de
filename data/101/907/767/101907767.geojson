@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Renkenberge",
+    "eurostat:nuts_2021_id":"03454043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454043",
+    "eurostat:population":695,
+    "eurostat:population_year":2020,
     "geom:area":0.00256,
-    "geom:area_square_m":19098483.109503,
+    "geom:area_square_m":19098483.109502,
     "geom:bbox":"7.33706077083,52.8627893906,7.43988520197,52.9191086685",
     "geom:latitude":52.891134,
     "geom:longitude":7.386315,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454043",
+        "eurostat:nuts_2021_id":"03454043",
         "gn:id":2848207,
         "gp:id":687985,
         "qs_pg:id":577261,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"194c28a9bb2f89515d36bdfa58d42f34",
+    "wof:geomhash":"eb7f863eaf82140adb7e3f4677cab176",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101907767,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351990,
     "wof:name":"Renkenberge",
     "wof:parent_id":1377688571,
     "wof:placetype":"locality",
-    "wof:population":717,
+    "wof:population":695,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

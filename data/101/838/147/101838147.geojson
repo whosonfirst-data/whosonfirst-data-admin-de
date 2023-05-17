@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenholz",
+    "eurostat:nuts_2021_id":"01058005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058005",
+    "eurostat:population":9998,
+    "eurostat:population_year":2020,
     "geom:area":0.002524,
     "geom:area_square_m":18168306.498248,
     "geom:bbox":"10.070131,54.369486,10.139818,54.4245",
@@ -144,21 +156,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064145,
         1377684133,
-        85682517
+        85633111,
+        102064145
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058005",
+        "eurostat:nuts_2021_id":"01058005",
         "gn:id":2957588,
         "gp:id":634492,
         "qs_pg:id":142965,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0b1d8234f259ec1ef10310e735f7fa52",
+    "wof:geomhash":"a9c5235068471c804e74a78b15cf60cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101838147,
-    "wof:lastmodified":1608051600,
+    "wof:lastmodified":1684351947,
     "wof:name":"Altenholz",
     "wof:parent_id":1377684133,
     "wof:placetype":"locality",
-    "wof:population":9737,
+    "wof:population":9998,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

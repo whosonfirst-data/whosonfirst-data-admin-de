@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenb\u00fcrg, Stadt",
+    "eurostat:nuts_2021_id":"08236043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236043",
+    "eurostat:population":8362,
+    "eurostat:population_year":2020,
     "geom:area":0.003497,
-    "geom:area_square_m":28468466.784031,
+    "geom:area_square_m":28468466.784033,
     "geom:bbox":"8.51694841377,48.7845148319,8.62290080991,48.8664912257",
     "geom:latitude":48.826017,
     "geom:longitude":8.57279,
@@ -314,7 +326,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":28.16,
     "wd:latitude":48.846111,
     "wd:longitude":8.588889,
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236043",
+        "eurostat:nuts_2021_id":"08236043",
         "gn:id":2865812,
         "gp:id":678120,
         "qs_pg:id":1073600,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4743aabc104e201197bf1e703b05851a",
+    "wof:geomhash":"096c546be665482810523c6e199b998d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101842693,
-    "wof:lastmodified":1582342392,
+    "wof:lastmodified":1684351957,
     "wof:name":"Neuenb\u00fcrg",
     "wof:parent_id":1377689015,
     "wof:placetype":"locality",
-    "wof:population":5937,
+    "wof:population":8362,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

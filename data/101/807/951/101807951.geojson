@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenkirchen",
+    "eurostat:nuts_2021_id":"03251028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251028",
+    "eurostat:population":1206,
+    "eurostat:population_year":2020,
     "geom:area":0.001976,
-    "geom:area_square_m":14784595.593109,
+    "geom:area_square_m":14784595.593108,
     "geom:bbox":"8.68241037216,52.7513974805,8.79868047279,52.7901945791",
     "geom:latitude":52.771397,
     "geom:longitude":8.735793,
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":141,
     "wof:belongsto":[
         85682555,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251028",
+        "eurostat:nuts_2021_id":"03251028",
         "gn:id":2865638,
         "gp:id":678241,
         "qs_pg:id":577706,
@@ -300,7 +315,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"670f71ebe62c9d2e1c3485ce681e6544",
+    "wof:geomhash":"f460e173143ba829266c2b18acb5f81b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -312,11 +327,11 @@
         }
     ],
     "wof:id":101807951,
-    "wof:lastmodified":1582342590,
+    "wof:lastmodified":1684351862,
     "wof:name":"Neuenkirchen",
     "wof:parent_id":1377686559,
     "wof:placetype":"locality",
-    "wof:population":1114,
+    "wof:population":1206,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

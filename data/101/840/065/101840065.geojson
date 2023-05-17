@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06435015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hasselroth",
+    "eurostat:nuts_2021_id":"06435015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE719",
+    "eurostat:nuts_2021_level_lau":"06435015",
+    "eurostat:population":7345,
+    "eurostat:population_year":2020,
     "geom:area":0.002386,
     "geom:area_square_m":18901117.893617,
     "geom:bbox":"9.057264,50.142634,9.159309,50.18811",
@@ -291,22 +303,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":217,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063631,
         1377693601,
         404227581,
-        85682531
+        102063631
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06435015",
+        "eurostat:nuts_2021_id":"06435015",
         "gn:id":3208063,
         "gp:id":678200,
         "qs_pg:id":1031614,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2860182fffabc30a39d0e9c374baf892",
+    "wof:geomhash":"827af1ddbaa3b340931095f5b1cf7814",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101840065,
-    "wof:lastmodified":1608051296,
+    "wof:lastmodified":1684351950,
     "wof:name":"Hasselroth",
     "wof:parent_id":1377693601,
     "wof:placetype":"locality",
-    "wof:population":7243,
+    "wof:population":7345,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

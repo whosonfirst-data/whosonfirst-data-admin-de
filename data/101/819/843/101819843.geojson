@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meinersen",
+    "eurostat:nuts_2021_id":"03151017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151017",
+    "eurostat:population":8140,
+    "eurostat:population_year":2020,
     "geom:area":0.007133,
-    "geom:area_square_m":53720534.012256,
+    "geom:area_square_m":53720534.012257,
     "geom:bbox":"10.2595644123,52.4293781688,10.4007771461,52.5280500431",
     "geom:latitude":52.478263,
     "geom:longitude":10.331183,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":73,
     "wof:belongsto":[
         85682555,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151017",
+        "eurostat:nuts_2021_id":"03151017",
         "gn:id":2872244,
         "gp:id":674613,
         "qs_pg:id":279223,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"23f27f18b197356d83e1fdb882ebd7b0",
+    "wof:geomhash":"611105571ee848077fdbe2f18d4c68ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101819843,
-    "wof:lastmodified":1582342427,
+    "wof:lastmodified":1684351909,
     "wof:name":"Meinersen",
     "wof:parent_id":1377684917,
     "wof:placetype":"locality",
-    "wof:population":8322,
+    "wof:population":8140,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

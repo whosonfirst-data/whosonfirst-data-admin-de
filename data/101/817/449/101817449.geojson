@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fctjenburg, Stadt",
+    "eurostat:nuts_2021_id":"01057048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057048",
+    "eurostat:population":5269,
+    "eurostat:population_year":2020,
     "geom:area":0.000842,
-    "geom:area_square_m":6075740.352458,
+    "geom:area_square_m":6075740.352459,
     "geom:bbox":"10.5516907615,54.2830258732,10.6160235261,54.309116317",
     "geom:latitude":54.298124,
     "geom:longitude":10.582538,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057048",
+        "eurostat:nuts_2021_id":"01057048",
         "gn:id":2874919,
         "gp:id":673163,
         "qs_pg:id":263633,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2daa935648ad6eb408683438eed0a84c",
+    "wof:geomhash":"da51863b21f5ab4577dae7d0a2f85411",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101817449,
-    "wof:lastmodified":1582342413,
+    "wof:lastmodified":1684351897,
     "wof:name":"L\u00fctjenburg",
     "wof:parent_id":1377684073,
     "wof:placetype":"locality",
-    "wof:population":5814,
+    "wof:population":5269,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

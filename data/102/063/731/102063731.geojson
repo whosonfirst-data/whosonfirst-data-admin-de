@@ -4,6 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Solingen, Kreisfreie Stadt",
+    "eurostat:name_local":"Solingen, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA19",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA19",
+    "eurostat:population":158957,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.011436,
     "geom:area_square_m":88679055.145022,
     "geom:bbox":"6.951094,51.11524,7.173951,51.220503",
@@ -372,8 +386,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"90",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Solingen",
@@ -387,12 +401,13 @@
     "wd:wordcount":2683,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227561,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA19",
         "hasc:id":"DE.NW.SL",
         "wd:id":"Q2942"
     },
@@ -404,7 +419,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f070741583bd441271d874f2687bcbcd",
+    "wof:geomhash":"6abc1bd50940bdf5de6a4ace3329864e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -415,12 +430,12 @@
         }
     ],
     "wof:id":102063731,
-    "wof:lastmodified":1608053038,
+    "wof:lastmodified":1684351521,
     "wof:name":"Solingen",
     "wof:parent_id":404227561,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":155265,
+    "wof:population":158957,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"SL",

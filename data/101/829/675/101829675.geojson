@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Memmingerberg",
+    "eurostat:nuts_2021_id":"09778171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778171",
+    "eurostat:population":3164,
+    "eurostat:population_year":2020,
     "geom:area":0.00074,
     "geom:area_square_m":6127577.169312,
     "geom:bbox":"10.2009964387,47.980129464,10.2442968151,48.0047519242",
@@ -158,7 +170,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -174,6 +187,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778171",
+        "eurostat:nuts_2021_id":"09778171",
         "gn:id":2871990,
         "gp:id":674740,
         "qs_pg:id":1148644,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1ff03bc69d05ecb4565fbf2de4bc538e",
+    "wof:geomhash":"7c173667784d8f0769fb1f965fc88556",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
         }
     ],
     "wof:id":101829675,
-    "wof:lastmodified":1582342382,
+    "wof:lastmodified":1684351944,
     "wof:name":"Memmingerberg",
     "wof:parent_id":1377693249,
     "wof:placetype":"locality",
-    "wof:population":2579,
+    "wof:population":3164,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fellheim",
+    "eurostat:nuts_2021_id":"09778139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778139",
+    "eurostat:population":1152,
+    "eurostat:population_year":2020,
     "geom:area":0.000629,
     "geom:area_square_m":5198186.555368,
     "geom:bbox":"10.1340232766,48.0590561795,10.1713490613,48.0954741779",
@@ -148,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682571,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778139",
+        "eurostat:nuts_2021_id":"09778139",
         "gn:id":2927249,
         "gp:id":649538,
         "qs_pg:id":93885,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aa46682c8bf048713600cd7f54abc767",
+    "wof:geomhash":"f024c439de6b809ee408ee333bcc2db4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101764153,
-    "wof:lastmodified":1582342301,
+    "wof:lastmodified":1684351813,
     "wof:name":"Fellheim",
     "wof:parent_id":1377693221,
     "wof:placetype":"locality",
-    "wof:population":1197,
+    "wof:population":1152,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Koberg",
+    "eurostat:nuts_2021_id":"01053069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053069",
+    "eurostat:population":783,
+    "eurostat:population_year":2020,
     "geom:area":0.001604,
-    "geom:area_square_m":11756944.529034,
+    "geom:area_square_m":11756944.529036,
     "geom:bbox":"10.4973848413,53.6124417913,10.5568547944,53.6579966229",
     "geom:latitude":53.635336,
     "geom:longitude":10.5272,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053069",
+        "eurostat:nuts_2021_id":"01053069",
         "gn:id":2886971,
         "gp:id":667667,
         "qs_pg:id":578244,
@@ -315,7 +330,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c8a91ab14982ae9ea32e60dc2c7f8677",
+    "wof:geomhash":"65b69125b65fda96889029b727766989",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101908381,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351995,
     "wof:name":"Koberg",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":727,
+    "wof:population":783,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

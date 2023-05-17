@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldbrunn (Westerwald)",
+    "eurostat:nuts_2021_id":"06533016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533016",
+    "eurostat:population":5706,
+    "eurostat:population_year":2020,
     "geom:area":0.00378,
-    "geom:area_square_m":29722886.150924,
+    "geom:area_square_m":29722886.150922,
     "geom:bbox":"8.06898966475,50.4819645778,8.16634183808,50.5410580249",
     "geom:latitude":50.51124,
     "geom:longitude":8.113539,
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533016",
+        "eurostat:nuts_2021_id":"06533016",
         "gn:id":3208129,
         "gp:id":15002824,
         "qs_pg:id":832645,
@@ -308,7 +323,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"91ad236c29a5c4742da88a8e581b95fd",
+    "wof:geomhash":"64c6e493e1f7d03913d503839e6137d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101810663,
-    "wof:lastmodified":1582342408,
+    "wof:lastmodified":1684351874,
     "wof:name":"Waldbrunn (Westerwald)",
     "wof:parent_id":1377683723,
     "wof:placetype":"locality",
-    "wof:population":6124,
+    "wof:population":5706,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

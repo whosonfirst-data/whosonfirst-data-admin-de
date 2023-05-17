@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lasbek",
+    "eurostat:nuts_2021_id":"01062089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062089",
+    "eurostat:population":1258,
+    "eurostat:population_year":2020,
     "geom:area":0.001717,
     "geom:area_square_m":12557618.311141,
     "geom:bbox":"10.3249301733,53.7188792458,10.4212992741,53.7701591489",
@@ -139,7 +151,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682517,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062089",
+        "eurostat:nuts_2021_id":"01062089",
         "gn:id":2880400,
         "gp:id":670455,
         "qs_pg:id":1039290,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"a5a26de5fb6c61f2d212ee714da9230f",
+    "wof:geomhash":"17884880939490a346548156426af53c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101874407,
-    "wof:lastmodified":1582342396,
+    "wof:lastmodified":1684351970,
     "wof:name":"Lasbek",
     "wof:parent_id":1377684795,
     "wof:placetype":"locality",
-    "wof:population":1162,
+    "wof:population":1258,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

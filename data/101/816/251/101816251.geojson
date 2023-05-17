@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Parchim, Stadt",
+    "eurostat:nuts_2021_id":"13076108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076108",
+    "eurostat:population":17773,
+    "eurostat:population_year":2020,
     "geom:area":0.017013,
-    "geom:area_square_m":125333290.056733,
+    "geom:area_square_m":125333290.05673,
     "geom:bbox":"11.638506,53.368331,11.938968,53.503615",
     "geom:latitude":53.430697,
     "geom:longitude":11.82543,
@@ -321,20 +333,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675569,
         1377685221,
-        85682487
+        85633111,
+        1377675569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076108",
+        "eurostat:nuts_2021_id":"13076108",
         "gn:id":2855441,
         "gp:id":684229,
         "qs_pg:id":141919,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b4139cbb0d1846bf5316e3c0fcb4445",
+    "wof:geomhash":"ae38882cd475cdbb5ee2e7acdcadf37d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101816251,
-    "wof:lastmodified":1608049901,
+    "wof:lastmodified":1684351895,
     "wof:name":"Parchim",
     "wof:parent_id":1377685221,
     "wof:placetype":"locality",
-    "wof:population":19161,
+    "wof:population":17773,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

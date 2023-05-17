@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grainau",
+    "eurostat:nuts_2021_id":"09180118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180118",
+    "eurostat:population":3441,
+    "eurostat:population_year":2020,
     "geom:area":0.005838,
-    "geom:area_square_m":48814108.332822,
+    "geom:area_square_m":48814108.332819,
     "geom:bbox":"10.932492,47.418394,11.065563,47.48484",
     "geom:latitude":47.454456,
     "geom:longitude":11.007068,
@@ -140,17 +152,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063197,
         1377692125,
         404227567,
-        85682571
+        102063197
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180118",
+        "eurostat:nuts_2021_id":"09180118",
         "gn:id":2918204,
         "wk:page":"Grainau"
     },
@@ -161,7 +176,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e4a47b0839227d901caa03bb5b26a451",
+    "wof:geomhash":"f720a5f244a47b4703fa3922c61a2a2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":1276659993,
-    "wof:lastmodified":1608048887,
+    "wof:lastmodified":1684352059,
     "wof:name":"Grainau",
     "wof:parent_id":1377692125,
     "wof:placetype":"locality",
-    "wof:population":3674,
+    "wof:population":3441,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08426087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ochsenhausen, Stadt",
+    "eurostat:nuts_2021_id":"08426087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE146",
+    "eurostat:nuts_2021_level_lau":"08426087",
+    "eurostat:population":8981,
+    "eurostat:population_year":2020,
     "geom:area":0.00724,
-    "geom:area_square_m":59819064.264171,
+    "geom:area_square_m":59819064.264163,
     "geom:bbox":"9.86366197838,48.0178237534,10.011247542,48.1225368085",
     "geom:latitude":48.075656,
     "geom:longitude":9.93462,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":59.95,
     "wd:latitude":48.072222,
     "wd:longitude":9.948056,
@@ -339,6 +352,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08426087",
+        "eurostat:nuts_2021_id":"08426087",
         "gn:id":2858326,
         "gp:id":682740,
         "qs_pg:id":906415,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"63b66b4e7f87e62a9357a69570b0cc2a",
+    "wof:geomhash":"8a2a26ac5b0f3fb666daf4406ded7e2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101828685,
-    "wof:lastmodified":1582342412,
+    "wof:lastmodified":1684351943,
     "wof:name":"Ochsenhausen",
     "wof:parent_id":1377690347,
     "wof:placetype":"locality",
-    "wof:population":5831,
+    "wof:population":8981,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

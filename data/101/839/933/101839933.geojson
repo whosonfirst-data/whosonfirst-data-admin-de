@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schneeberg, M",
+    "eurostat:nuts_2021_id":"09676156",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676156",
+    "eurostat:population":1769,
+    "eurostat:population_year":2020,
     "geom:area":0.002051,
-    "geom:area_square_m":16427054.888336,
+    "geom:area_square_m":16427054.888338,
     "geom:bbox":"9.232898,49.580868,9.299296,49.661862",
     "geom:latitude":49.623873,
     "geom:longitude":9.256062,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":547,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691385,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676156",
+        "eurostat:nuts_2021_id":"09676156",
         "gn:id":2837472,
         "gp:id":692621,
         "qs_pg:id":348046,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f237a2aae6d12387c6487255f144739b",
+    "wof:geomhash":"70711f8019e5ee1bc7cf78f1c5f17aa4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101839933,
-    "wof:lastmodified":1608051837,
+    "wof:lastmodified":1684351949,
     "wof:name":"Schneeberg",
     "wof:parent_id":1377691385,
     "wof:placetype":"locality",
-    "wof:population":1803,
+    "wof:population":1769,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

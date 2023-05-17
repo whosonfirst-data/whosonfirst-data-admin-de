@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Clingen, Stadt",
+    "eurostat:nuts_2021_id":"16065012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065012",
+    "eurostat:population":1068,
+    "eurostat:population_year":2020,
     "geom:area":0.001382,
-    "geom:area_square_m":10699031.558646,
+    "geom:area_square_m":10699031.558649,
     "geom:bbox":"10.8879816139,51.2054013717,10.9409333875,51.2609837397",
     "geom:latitude":51.22802,
     "geom:longitude":10.916405,
@@ -145,7 +157,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "wof:belongsto":[
         85682541,
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065012",
+        "eurostat:nuts_2021_id":"16065012",
         "gn:id":2939972,
         "gp:id":643213,
         "qs_pg:id":348095,
@@ -168,7 +183,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"076645f366e43616e324ad7efb96e813",
+    "wof:geomhash":"0fc17a8c668425595028e1c497914729",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101874367,
-    "wof:lastmodified":1582342397,
+    "wof:lastmodified":1684351970,
     "wof:name":"Clingen",
     "wof:parent_id":1377689909,
     "wof:placetype":"locality",
-    "wof:population":1103,
+    "wof:population":1068,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

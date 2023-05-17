@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neu-Seeland",
+    "eurostat:nuts_2021_id":"12066226",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066226",
+    "eurostat:population":610,
+    "eurostat:population_year":2020,
     "geom:area":0.004966,
-    "geom:area_square_m":38151910.342185,
+    "geom:area_square_m":38151910.342176,
     "geom:bbox":"14.058485097,51.5404006611,14.1655648823,51.6393226077",
     "geom:latitude":51.592611,
     "geom:longitude":14.117865,
@@ -296,7 +308,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":60,
     "wof:belongsto":[
         85682553,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066226",
+        "eurostat:nuts_2021_id":"12066226",
         "gn:id":6547635,
         "gp:id":688073,
         "qs_pg:id":103904,
@@ -317,7 +332,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e59266e210d01e8c6ad2daeb8a81756",
+    "wof:geomhash":"85adb1b267b325006564ed3e479abd74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101909287,
-    "wof:lastmodified":1582342283,
+    "wof:lastmodified":1684352002,
     "wof:name":"Neu-Seeland",
     "wof:parent_id":1377683475,
     "wof:placetype":"locality",
-    "wof:population":614,
+    "wof:population":610,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

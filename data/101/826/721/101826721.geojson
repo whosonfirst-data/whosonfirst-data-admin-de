@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10043114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neunkirchen, Kreisstadt",
+    "eurostat:nuts_2021_id":"10043114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC03",
+    "eurostat:nuts_2021_level_lau":"10043114",
+    "eurostat:population":46179,
+    "eurostat:population_year":2020,
     "geom:area":0.009204,
-    "geom:area_square_m":74147359.058886,
+    "geom:area_square_m":74147359.058884,
     "geom:bbox":"7.105953,49.287301,7.266678,49.406547",
     "geom:latitude":49.346744,
     "geom:longitude":7.192928,
@@ -323,7 +335,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":252.0,
     "wd:latitude":49.35,
     "wd:longitude":7.166667,
@@ -334,14 +347,16 @@
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063445,
         1377693857,
-        85682479
+        85633111,
+        102063445
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10043114",
+        "eurostat:nuts_2021_id":"10043114",
         "gn:id":2864435,
         "gp:id":678852,
         "qs_pg:id":455937,
@@ -356,7 +371,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92dd6b377ff0ffbdb06cd97e546b6c41",
+    "wof:geomhash":"e0872cbd4921ca9071c73bcea9662dff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
         }
     ],
     "wof:id":101826721,
-    "wof:lastmodified":1608050359,
+    "wof:lastmodified":1684351935,
     "wof:name":"Neunkirchen",
     "wof:parent_id":1377693857,
     "wof:placetype":"locality",
-    "wof:population":45794,
+    "wof:population":46179,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

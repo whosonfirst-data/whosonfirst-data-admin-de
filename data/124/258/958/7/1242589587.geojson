@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenberg",
+    "eurostat:nuts_2021_id":"09777125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777125",
+    "eurostat:population":1180,
+    "eurostat:population_year":2020,
     "geom:area":0.001617,
-    "geom:area_square_m":13478818.289405,
+    "geom:area_square_m":13478818.289401,
     "geom:bbox":"10.5479498362,47.5901999772,10.632066938,47.6282558956",
     "geom:latitude":47.610276,
     "geom:longitude":10.597708,
@@ -305,7 +317,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777125",
+        "eurostat:nuts_2021_id":"09777125",
         "gn:id":2931550,
         "wk:page":"Eisenberg%2C_Bavaria"
     },
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"217cfbcd047fd02a47e61654586a24e9",
+    "wof:geomhash":"3e1c5dea1ff8259b41fe35bd5e527e51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":1242589587,
-    "wof:lastmodified":1582343084,
+    "wof:lastmodified":1684352058,
     "wof:name":"Eisenberg",
     "wof:parent_id":1377693087,
     "wof:placetype":"locality",
-    "wof:population":1186,
+    "wof:population":1180,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

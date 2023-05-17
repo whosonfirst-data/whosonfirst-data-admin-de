@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hartmannsdorf b. Kirchberg",
+    "eurostat:nuts_2021_id":"14524100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524100",
+    "eurostat:population":1373,
+    "eurostat:population_year":2020,
     "geom:area":0.003393,
-    "geom:area_square_m":26637985.063872,
+    "geom:area_square_m":26637985.063874,
     "geom:bbox":"12.5043545588,50.5530540195,12.6155495054,50.6262458464",
     "geom:latitude":50.583464,
     "geom:longitude":12.562197,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682523,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524100",
+        "eurostat:nuts_2021_id":"14524100",
         "gn:id":6551203,
         "gp:id":20161692,
         "qs_pg:id":632694,
@@ -165,7 +180,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"147745d18eeb1c68f06d278576301c72",
+    "wof:geomhash":"00f7abb86d7dbb653fd8e783cf50ee11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101824709,
-    "wof:lastmodified":1582342537,
+    "wof:lastmodified":1684351930,
     "wof:name":"Hartmannsdorf b. Kirchberg",
     "wof:parent_id":1377686537,
     "wof:placetype":"locality",
-    "wof:population":1404,
+    "wof:population":1373,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

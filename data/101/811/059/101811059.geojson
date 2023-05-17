@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05358016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00fcrtgenwald",
+    "eurostat:nuts_2021_id":"05358016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA26",
+    "eurostat:nuts_2021_level_lau":"05358016",
+    "eurostat:population":8700,
+    "eurostat:population_year":2020,
     "geom:area":0.011175,
     "geom:area_square_m":87498668.175273,
     "geom:bbox":"6.284373,50.650826,6.458205,50.774593",
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":185,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063707,
         1377690115,
         404227541,
-        85682513
+        102063707
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05358016",
+        "eurostat:nuts_2021_id":"05358016",
         "gn:id":2897219,
         "gp:id":663021,
         "qs_pg:id":217811,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d91262ad9a44abe7affd9b998dc729f1",
+    "wof:geomhash":"9579d744788a77a28a4cbdcd53bbe7cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101811059,
-    "wof:lastmodified":1608049941,
+    "wof:lastmodified":1684351878,
     "wof:name":"H\u00fcrtgenwald",
     "wof:parent_id":1377690115,
     "wof:placetype":"locality",
-    "wof:population":8876,
+    "wof:population":8700,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

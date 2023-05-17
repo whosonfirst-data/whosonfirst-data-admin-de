@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07111000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Koblenz, Stadt",
+    "eurostat:nuts_2021_id":"07111000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB11",
+    "eurostat:nuts_2021_level_lau":"07111000",
+    "eurostat:population":114052,
+    "eurostat:population_year":2020,
     "geom:area":0.013384,
-    "geom:area_square_m":105606487.021844,
+    "geom:area_square_m":105606487.021843,
     "geom:bbox":"7.48414,50.282959,7.695964,50.410319",
     "geom:latitude":50.348529,
     "geom:longitude":7.579536,
@@ -515,20 +527,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063623,
         1377685219,
-        85682491
+        85633111,
+        102063623
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07111000",
+        "eurostat:nuts_2021_id":"07111000",
         "gn:id":2886946,
         "gp:id":667675,
         "loc:id":"n81032661",
@@ -545,7 +560,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8c63f10a0a3bfa0a2ab7c6fc6e18117e",
+    "wof:geomhash":"804c7c99632046bcbef0fbce1ab555c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -557,11 +572,11 @@
         }
     ],
     "wof:id":101751761,
-    "wof:lastmodified":1608050853,
+    "wof:lastmodified":1684351790,
     "wof:name":"Koblenz",
     "wof:parent_id":1377685219,
     "wof:placetype":"locality",
-    "wof:population":107319,
+    "wof:population":114052,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

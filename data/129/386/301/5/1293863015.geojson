@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohndorf",
+    "eurostat:nuts_2021_id":"14521290",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521290",
+    "eurostat:population":3486,
+    "eurostat:population_year":2020,
     "geom:area":0.000657,
     "geom:area_square_m":5144092.351735,
     "geom:bbox":"12.649685,50.729264,12.694731,50.754893",
@@ -128,16 +140,19 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685487,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521290",
+        "eurostat:nuts_2021_id":"14521290",
         "gn:id":2900889
     },
     "wof:coterminous":[
@@ -147,7 +162,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ffc0276b75a6991087652b08de7042d8",
+    "wof:geomhash":"eacbbe2f36d0a274d48b07c69cfc82ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1293863015,
-    "wof:lastmodified":1608048868,
+    "wof:lastmodified":1684352060,
     "wof:name":"Hohndorf",
     "wof:parent_id":1377685487,
     "wof:placetype":"locality",
-    "wof:population":3976,
+    "wof:population":3486,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

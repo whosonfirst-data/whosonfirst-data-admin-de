@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bartow",
+    "eurostat:nuts_2021_id":"13071006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071006",
+    "eurostat:population":450,
+    "eurostat:population_year":2020,
     "geom:area":0.003437,
-    "geom:area_square_m":25088077.513832,
+    "geom:area_square_m":25088077.513829,
     "geom:bbox":"13.2808691576,53.7963002846,13.3969864148,53.8490767872",
     "geom:latitude":53.821191,
     "geom:longitude":13.347584,
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071006",
+        "eurostat:nuts_2021_id":"13071006",
         "gn:id":2952345,
         "gp:id":637080,
         "qs_pg:id":94158,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b0096cb066bd4303a5d36508cd457de9",
+    "wof:geomhash":"b3b450160be10dd5965ffdf85413e2c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101908627,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351998,
     "wof:name":"Bartow",
     "wof:parent_id":1377684533,
     "wof:placetype":"locality",
-    "wof:population":600,
+    "wof:population":450,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

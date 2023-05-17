@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fctzow",
+    "eurostat:nuts_2021_id":"13074050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074050",
+    "eurostat:population":1513,
+    "eurostat:population_year":2020,
     "geom:area":0.003376,
     "geom:area_square_m":24733635.317274,
     "geom:bbox":"11.1414449674,53.6267460987,11.2162757649,53.6994378393",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":109,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074050",
+        "eurostat:nuts_2021_id":"13074050",
         "gn:id":2874710,
         "gp:id":673283,
         "qs_pg:id":1039176,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"18e45e8eca2a830080358a9abcab8017",
+    "wof:geomhash":"625add53944be2cb8740992e6cd37b44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101816509,
-    "wof:lastmodified":1582342383,
+    "wof:lastmodified":1684351896,
     "wof:name":"L\u00fctzow",
     "wof:parent_id":1377693623,
     "wof:placetype":"locality",
-    "wof:population":1626,
+    "wof:population":1513,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

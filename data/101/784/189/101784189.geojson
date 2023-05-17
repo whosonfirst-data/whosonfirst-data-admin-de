@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gammelsdorf",
+    "eurostat:nuts_2021_id":"09178125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178125",
+    "eurostat:population":1461,
+    "eurostat:population_year":2020,
     "geom:area":0.002615,
     "geom:area_square_m":21401361.592768,
     "geom:bbox":"11.8954048783,48.5244330883,11.9728002497,48.5866303562",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":78,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178125",
+        "eurostat:nuts_2021_id":"09178125",
         "fct:id":"071cdf0a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2922754,
         "gp:id":651444,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"89935c9ca53afcd984f370cc6294f061",
+    "wof:geomhash":"366ba39f6311e374bac977bbc8a9e118",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342484,
+    "wof:lastmodified":1684351830,
     "wof:name":"Gammelsdorf",
     "wof:parent_id":1377691955,
     "wof:placetype":"locality",
-    "wof:population":1471,
+    "wof:population":1461,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

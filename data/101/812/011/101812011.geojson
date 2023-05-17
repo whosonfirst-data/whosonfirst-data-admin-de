@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arzfeld",
+    "eurostat:nuts_2021_id":"07232201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232201",
+    "eurostat:population":1383,
+    "eurostat:population_year":2020,
     "geom:area":0.002421,
-    "geom:area_square_m":19206345.515185,
+    "geom:area_square_m":19206345.515186,
     "geom:bbox":"6.23556452237,50.0590045188,6.32783244309,50.1173446315",
     "geom:latitude":50.086712,
     "geom:longitude":6.272259,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232201",
+        "eurostat:nuts_2021_id":"07232201",
         "gn:id":2955363,
         "gp:id":635560,
         "qs_pg:id":579955,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0e3373ba427275a71ff90bd26faa3b0b",
+    "wof:geomhash":"0d7dae29f3308dae55443feb81d68eb9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101812011,
-    "wof:lastmodified":1582342549,
+    "wof:lastmodified":1684351881,
     "wof:name":"Arzfeld",
     "wof:parent_id":1377685925,
     "wof:placetype":"locality",
-    "wof:population":1276,
+    "wof:population":1383,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirschkau",
+    "eurostat:nuts_2021_id":"16075048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075048",
+    "eurostat:population":208,
+    "eurostat:population_year":2020,
     "geom:area":0.000772,
-    "geom:area_square_m":6062604.255244,
+    "geom:area_square_m":6062604.255243,
     "geom:bbox":"11.8718098556,50.5859045655,11.9232248736,50.6192548206",
     "geom:latitude":50.601972,
     "geom:longitude":11.897412,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075048",
+        "eurostat:nuts_2021_id":"16075048",
         "gn:id":2890235,
         "gp:id":666094,
         "qs_pg:id":93584,
@@ -159,7 +174,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b29b823d165b1e24d5c3ca86b8574057",
+    "wof:geomhash":"edbf9bbf50b011ff8c908a67a1c7f119",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101910151,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352004,
     "wof:name":"Kirschkau",
     "wof:parent_id":1377690785,
     "wof:placetype":"locality",
-    "wof:population":241,
+    "wof:population":208,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

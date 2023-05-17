@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tiefenbach",
+    "eurostat:nuts_2021_id":"07140150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140150",
+    "eurostat:population":750,
+    "eurostat:population_year":2020,
     "geom:area":0.000708,
-    "geom:area_square_m":5636882.367011,
+    "geom:area_square_m":5636882.36701,
     "geom:bbox":"7.52538741134,49.919417106,7.56677438969,49.9502762053",
     "geom:latitude":49.936017,
     "geom:longitude":7.547021,
@@ -276,7 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -286,6 +299,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140150",
+        "eurostat:nuts_2021_id":"07140150",
         "gn:id":2822432,
         "gp:id":20173821,
         "qs_pg:id":373771,
@@ -297,7 +312,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b320f64e2ba4892df178c23f8e3db262",
+    "wof:geomhash":"6708999b8571cd930a544212fbaed5af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -309,11 +324,11 @@
         }
     ],
     "wof:id":101907097,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351984,
     "wof:name":"Tiefenbach",
     "wof:parent_id":1377685709,
     "wof:placetype":"locality",
-    "wof:population":793,
+    "wof:population":750,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

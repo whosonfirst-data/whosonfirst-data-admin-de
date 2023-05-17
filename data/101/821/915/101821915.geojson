@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nebra (Unstrut), Stadt",
+    "eurostat:nuts_2021_id":"15084360",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084360",
+    "eurostat:population":3064,
+    "eurostat:population_year":2020,
     "geom:area":0.003257,
     "geom:area_square_m":25192894.630909,
     "geom:bbox":"11.5184261586,51.2510181166,11.6349007092,51.320382121",
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":339,
     "wof:belongsto":[
         85682519,
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084360",
+        "eurostat:nuts_2021_id":"15084360",
         "gn:id":2866793,
         "gp:id":677291,
         "qs_pg:id":1039018,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8402e31a1d32f5a906e3c628b214e147",
+    "wof:geomhash":"06f761c78e4d8a3d12282bdf9428a092",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101821915,
-    "wof:lastmodified":1582342420,
+    "wof:lastmodified":1684351918,
     "wof:name":"Nebra (Unstrut)",
     "wof:parent_id":1377688503,
     "wof:placetype":"locality",
-    "wof:population":2690,
+    "wof:population":3064,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

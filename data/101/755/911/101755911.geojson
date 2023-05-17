@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00f6rth am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"07334501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334501",
+    "eurostat:population":18120,
+    "eurostat:population_year":2020,
     "geom:area":0.016113,
-    "geom:area_square_m":130621626.037826,
+    "geom:area_square_m":130621626.037825,
     "geom:bbox":"8.066227,48.979208,8.350523,49.092409",
     "geom:latitude":49.034154,
     "geom:longitude":8.188729,
@@ -157,17 +169,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063405,
         1377686373,
-        85682491
+        85633111,
+        102063405
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334501",
+        "eurostat:nuts_2021_id":"07334501",
         "fct:id":"075fca90-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2806083,
         "gp:id":708036,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"de3ffa6c48575877cd99b1bc2956cd54",
+    "wof:geomhash":"eefca280bab23ecc90c79b1aaf0a1f28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049413,
+    "wof:lastmodified":1684351791,
     "wof:name":"W\u00f6rth am Rhein",
     "wof:parent_id":1377686373,
     "wof:placetype":"locality",
-    "wof:population":17272,
+    "wof:population":18120,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

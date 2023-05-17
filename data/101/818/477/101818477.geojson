@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068353",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rheinsberg, Stadt",
+    "eurostat:nuts_2021_id":"12068353",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068353",
+    "eurostat:population":8007,
+    "eurostat:population_year":2020,
     "geom:area":0.044095,
-    "geom:area_square_m":327225353.070614,
+    "geom:area_square_m":327225353.070616,
     "geom:bbox":"12.641107,53.004989,13.027622,53.210252",
     "geom:latitude":53.119341,
     "geom:longitude":12.841016,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.098333,
     "wd:longitude":12.895833,
     "wd:wordcount":250,
@@ -324,14 +337,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063997,
         1377683697,
-        85682553
+        85633111,
+        102063997
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068353",
+        "eurostat:nuts_2021_id":"12068353",
         "gn:id":2847612,
         "gp:id":688332,
         "qs_pg:id":141865,
@@ -346,7 +361,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5e64193dc8025c2ec43368362284012d",
+    "wof:geomhash":"24f693fc69cbd75188bf848b7e07f3ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101818477,
-    "wof:lastmodified":1608049731,
+    "wof:lastmodified":1684351899,
     "wof:name":"Rheinsberg",
     "wof:parent_id":1377683697,
     "wof:placetype":"locality",
-    "wof:population":9113,
+    "wof:population":8007,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

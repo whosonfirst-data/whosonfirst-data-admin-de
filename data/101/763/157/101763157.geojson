@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lenningen",
+    "eurostat:nuts_2021_id":"08116079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116079",
+    "eurostat:population":8252,
+    "eurostat:population_year":2020,
     "geom:area":0.005051,
-    "geom:area_square_m":41348201.215121,
+    "geom:area_square_m":41348201.21512,
     "geom:bbox":"9.43625274039,48.5123033328,9.58247526311,48.5853137589",
     "geom:latitude":48.548343,
     "geom:longitude":9.501859,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":95,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116079",
+        "eurostat:nuts_2021_id":"08116079",
         "gn:id":3206207,
         "gp:id":701200,
         "qs_pg:id":277836,
@@ -323,7 +338,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0530680bdd9f1d02b30bd2d70b0ddc4d",
+    "wof:geomhash":"f37cb952525674ab24fb79709cd40eb7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101763157,
-    "wof:lastmodified":1582342294,
+    "wof:lastmodified":1684351811,
     "wof:name":"Lenningen",
     "wof:parent_id":1377687081,
     "wof:placetype":"locality",
-    "wof:population":7955,
+    "wof:population":8252,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

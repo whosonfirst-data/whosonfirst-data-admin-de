@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biendorf",
+    "eurostat:nuts_2021_id":"13072014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072014",
+    "eurostat:population":1205,
+    "eurostat:population_year":2020,
     "geom:area":0.005564,
-    "geom:area_square_m":40384359.099935,
+    "geom:area_square_m":40384359.099934,
     "geom:bbox":"11.6655977138,54.0178913765,11.7748053561,54.1058270968",
     "geom:latitude":54.06024,
     "geom:longitude":11.720576,
@@ -136,7 +148,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682487,
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072014",
+        "eurostat:nuts_2021_id":"13072014",
         "gn:id":2949160,
         "gp:id":20165580,
         "qs_pg:id":94116,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"ff68973f98f8f40233c1f5421ea4b0f2",
+    "wof:geomhash":"2523d0a6d8947e18fccdd0705720e241",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101874423,
-    "wof:lastmodified":1582342396,
+    "wof:lastmodified":1684351970,
     "wof:name":"Biendorf",
     "wof:parent_id":1377684703,
     "wof:placetype":"locality",
-    "wof:population":1051,
+    "wof:population":1205,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

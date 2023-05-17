@@ -27,8 +27,20 @@
     "de-bkg:wdk":"2009/01/01",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09188124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herrsching a.Ammersee",
+    "eurostat:nuts_2021_id":"09188124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21L",
+    "eurostat:nuts_2021_level_lau":"09188124",
+    "eurostat:population":10711,
+    "eurostat:population_year":2020,
     "geom:area":0.002563,
-    "geom:area_square_m":21204731.729397,
+    "geom:area_square_m":21204731.729396,
     "geom:bbox":"11.129254,47.957605,11.212777,48.046186",
     "geom:latitude":48.007875,
     "geom:longitude":11.165824,
@@ -311,17 +323,20 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063243,
         1377694363,
         404227567,
-        85682571
+        102063243
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09188124",
+        "eurostat:nuts_2021_id":"09188124",
         "fct:id":"07441746-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2905604,
         "gp:id":659489,
@@ -337,7 +352,7 @@
         "de-bkg",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"651e338ec37a05e8de042c86d6b896e2",
+    "wof:geomhash":"67faf044e82cd092e4cae39d4fbdbeca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608052029,
+    "wof:lastmodified":1684351843,
     "wof:name":"Herrsching a. Ammersee",
     "wof:parent_id":1377694363,
     "wof:placetype":"locality",
-    "wof:population":10000,
+    "wof:population":10711,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10041514",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kleinblittersdorf",
+    "eurostat:nuts_2021_id":"10041514",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC01",
+    "eurostat:nuts_2021_level_lau":"10041514",
+    "eurostat:population":10818,
+    "eurostat:population_year":2020,
     "geom:area":0.003361,
-    "geom:area_square_m":27183473.057189,
+    "geom:area_square_m":27183473.05719,
     "geom:bbox":"7.027647,49.111915,7.129299,49.181565",
     "geom:latitude":49.153101,
     "geom:longitude":7.069438,
@@ -289,17 +301,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063433,
         1377693715,
-        85682479
+        85633111,
+        102063433
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10041514",
+        "eurostat:nuts_2021_id":"10041514",
         "gn:id":2889709,
         "gp:id":593856,
         "qs_pg:id":374144,
@@ -314,7 +329,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5fb2c8275130171542e0b8995a844d3e",
+    "wof:geomhash":"af4b02505d42d4cc5b3ad22928d22ea3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101827601,
-    "wof:lastmodified":1608049834,
+    "wof:lastmodified":1684351942,
     "wof:name":"Kleinblittersdorf",
     "wof:parent_id":1377693715,
     "wof:placetype":"locality",
-    "wof:population":12948,
+    "wof:population":10818,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

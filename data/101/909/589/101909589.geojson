@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03101000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braunschweig, Stadt",
+    "eurostat:nuts_2021_id":"03101000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE911",
+    "eurostat:nuts_2021_level_lau":"03101000",
+    "eurostat:population":249406,
+    "eurostat:population_year":2020,
     "geom:area":0.025326,
-    "geom:area_square_m":191612734.786542,
+    "geom:area_square_m":191612734.786547,
     "geom:bbox":"10.4124136891,52.1865105584,10.642989265,52.3574693038",
     "geom:latitude":52.275245,
     "geom:longitude":10.524079,
@@ -465,7 +477,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -475,6 +488,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03101000",
+        "eurostat:nuts_2021_id":"03101000",
         "gn:id":2945024,
         "gp:id":637084,
         "qs_pg:id":1056248,
@@ -488,7 +503,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55929c3c70c8f09b620bdc8b7e508367",
+    "wof:geomhash":"416ceb6b75add8c7ec1960a8ac91f0d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -500,11 +515,11 @@
         }
     ],
     "wof:id":101909589,
-    "wof:lastmodified":1582342287,
+    "wof:lastmodified":1684352002,
     "wof:name":"Braunschweig",
     "wof:parent_id":1377686093,
     "wof:placetype":"locality",
-    "wof:population":244715,
+    "wof:population":249406,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

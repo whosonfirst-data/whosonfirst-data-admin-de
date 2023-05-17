@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bausendorf",
+    "eurostat:nuts_2021_id":"07231004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231004",
+    "eurostat:population":1340,
+    "eurostat:population_year":2020,
     "geom:area":0.001462,
     "geom:area_square_m":11616296.620193,
     "geom:bbox":"6.94668434558,50.003203884,7.01564132933,50.0446437132",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":311,
     "wof:belongsto":[
         85682491,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231004",
+        "eurostat:nuts_2021_id":"07231004",
         "gn:id":2951894,
         "gp:id":637258,
         "qs_pg:id":579882,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"39ad45d776325e284cd887f9dcc061e7",
+    "wof:geomhash":"9a68a42d3391247a5d7f74cf34f02b9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101811847,
-    "wof:lastmodified":1582342387,
+    "wof:lastmodified":1684351880,
     "wof:name":"Bausendorf",
     "wof:parent_id":1377685909,
     "wof:placetype":"locality",
-    "wof:population":1339,
+    "wof:population":1340,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

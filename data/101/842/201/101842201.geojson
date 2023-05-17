@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neustadt a.d.Aisch, St",
+    "eurostat:nuts_2021_id":"09575153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575153",
+    "eurostat:population":13259,
+    "eurostat:population_year":2020,
     "geom:area":0.007626,
     "geom:area_square_m":61147519.774437,
     "geom:bbox":"10.4609435421,49.5284241556,10.6827521996,49.6050664621",
@@ -177,7 +189,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":972,
     "wof:belongsto":[
         85682571,
@@ -189,6 +202,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575153",
+        "eurostat:nuts_2021_id":"09575153",
         "gn:id":2864057,
         "gp:id":679057,
         "qs_pg:id":1255069,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"39a7d89109131a83e4f36b5bd10b7745",
+    "wof:geomhash":"f82d1f6f89f51867a1218c537e8c338c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101842201,
-    "wof:lastmodified":1582342394,
+    "wof:lastmodified":1684351955,
     "wof:name":"Neustadt a.d. Aisch",
     "wof:parent_id":1377689835,
     "wof:placetype":"locality",
-    "wof:population":12448,
+    "wof:population":13259,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nordhackstedt",
+    "eurostat:nuts_2021_id":"01059149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059149",
+    "eurostat:population":479,
+    "eurostat:population_year":2020,
     "geom:area":0.001747,
     "geom:area_square_m":12475100.617587,
     "geom:bbox":"9.13626039105,54.7154975393,9.19684649908,54.7514463158",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059149",
+        "eurostat:nuts_2021_id":"01059149",
         "gn:id":2861996,
         "gp:id":680418,
         "qs_pg:id":577582,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a08c7858e55aaa140ed5b035d0fabe24",
+    "wof:geomhash":"e51ec5ce2aafe5a4a9ec585b15d93c9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101906423,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351980,
     "wof:name":"Nordhackstedt",
     "wof:parent_id":1377684419,
     "wof:placetype":"locality",
-    "wof:population":516,
+    "wof:population":479,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

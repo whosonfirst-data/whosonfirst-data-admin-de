@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09775164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfenhorn, St",
+    "eurostat:nuts_2021_id":"09775164",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE279",
+    "eurostat:nuts_2021_level_lau":"09775164",
+    "eurostat:population":13521,
+    "eurostat:population_year":2020,
     "geom:area":0.006494,
-    "geom:area_square_m":53410223.060324,
+    "geom:area_square_m":53410223.060326,
     "geom:bbox":"10.115751,48.259076,10.241173,48.34458",
     "geom:latitude":48.304597,
     "geom:longitude":10.173662,
@@ -157,22 +169,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1335,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063293,
         1377692735,
         404227547,
-        85682571
+        102063293
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09775164",
+        "eurostat:nuts_2021_id":"09775164",
         "gn:id":2811879,
         "gp:id":704965,
         "qs_pg:id":1038106,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1c24bf25273cb1d5a1af8f90c2dd75fb",
+    "wof:geomhash":"18d4991e64fdedf0a3de594f054507a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101762895,
-    "wof:lastmodified":1608049701,
+    "wof:lastmodified":1684351808,
     "wof:name":"Wei\u00dfenhorn",
     "wof:parent_id":1377692735,
     "wof:placetype":"locality",
-    "wof:population":13377,
+    "wof:population":13521,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

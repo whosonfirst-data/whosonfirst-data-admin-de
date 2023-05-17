@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bersteland",
+    "eurostat:nuts_2021_id":"12061017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061017",
+    "eurostat:population":902,
+    "eurostat:population_year":2020,
     "geom:area":0.003816,
     "geom:area_square_m":29083303.450954,
     "geom:bbox":"13.7012739571,51.9025349179,13.8167491075,51.984264285",
@@ -128,7 +140,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -138,6 +151,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061017",
+        "eurostat:nuts_2021_id":"12061017",
         "gn:id":9539181,
         "wk:page":"Bersteland"
     },
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"c4798b22de1496dcb81dc5ab37e04bb6",
+    "wof:geomhash":"dc3c09bb7d7714cf8406d569c101b783",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1326610851,
-    "wof:lastmodified":1582341875,
+    "wof:lastmodified":1684352061,
     "wof:name":"Bersteland",
     "wof:parent_id":1377694423,
     "wof:placetype":"locality",
-    "wof:population":907,
+    "wof:population":902,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

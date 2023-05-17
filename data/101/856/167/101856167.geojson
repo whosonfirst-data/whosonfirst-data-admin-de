@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084445",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nburg",
+    "eurostat:nuts_2021_id":"15084445",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084445",
+    "eurostat:population":1050,
+    "eurostat:population_year":2020,
     "geom:area":0.001893,
-    "geom:area_square_m":14682359.829944,
+    "geom:area_square_m":14682359.829945,
     "geom:bbox":"11.8348523632,51.1373865688,11.9176638218,51.188000913",
     "geom:latitude":51.161064,
     "geom:longitude":11.876661,
@@ -130,7 +142,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084445",
+        "eurostat:nuts_2021_id":"15084445",
         "gn:id":2836834,
         "gp:id":692937,
         "qs_pg:id":577031,
@@ -152,7 +167,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0f3391354edc5c15cdd089e3581bec18",
+    "wof:geomhash":"047ca2016a00cc1b219142dd1cd4adc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +179,11 @@
         }
     ],
     "wof:id":101856167,
-    "wof:lastmodified":1582342447,
+    "wof:lastmodified":1684351969,
     "wof:name":"Sch\u00f6nburg",
     "wof:parent_id":1377688513,
     "wof:placetype":"locality",
-    "wof:population":1133,
+    "wof:population":1050,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

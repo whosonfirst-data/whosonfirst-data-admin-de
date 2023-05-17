@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kriegsfeld",
+    "eurostat:nuts_2021_id":"07333040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333040",
+    "eurostat:population":1001,
+    "eurostat:population_year":2020,
     "geom:area":0.003279,
-    "geom:area_square_m":26223500.88594,
+    "geom:area_square_m":26223500.885943,
     "geom:bbox":"7.88946144472,49.6598802637,7.97589287183,49.7313044021",
     "geom:latitude":49.699415,
     "geom:longitude":7.927802,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333040",
+        "eurostat:nuts_2021_id":"07333040",
         "gn:id":2883961,
         "gp:id":668934,
         "qs_pg:id":578187,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0040fe34650e1a66945fb18db583a39f",
+    "wof:geomhash":"309d7f29197ad50cee19cd78c5602e85",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101813083,
-    "wof:lastmodified":1582342563,
+    "wof:lastmodified":1684351887,
     "wof:name":"Kriegsfeld",
     "wof:parent_id":1377686337,
     "wof:placetype":"locality",
-    "wof:population":1111,
+    "wof:population":1001,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fehmarn, Stadt",
+    "eurostat:nuts_2021_id":"01055046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055046",
+    "eurostat:population":12638,
+    "eurostat:population_year":2020,
     "geom:area":0.025272,
-    "geom:area_square_m":181620915.661277,
+    "geom:area_square_m":181620915.661286,
     "geom:bbox":"11.004257,54.401323,11.312892,54.536107",
     "geom:latitude":54.465182,
     "geom:longitude":11.148447,
@@ -343,7 +355,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":733,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -351,12 +364,14 @@
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         102191581,
-        85633111,
         1377683819,
+        85633111,
         85682517
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055046",
+        "eurostat:nuts_2021_id":"01055046",
         "gn:id":8051091,
         "gp:id":29352014,
         "qs_pg:id":488767,
@@ -371,7 +386,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b110940216570ae396fa877ec27c7dc",
+    "wof:geomhash":"21b8000cc5a5b624567c79613f563445",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,11 +397,11 @@
         }
     ],
     "wof:id":101817507,
-    "wof:lastmodified":1608050156,
+    "wof:lastmodified":1684351898,
     "wof:name":"Fehmarn",
     "wof:parent_id":1377683819,
     "wof:placetype":"locality",
-    "wof:population":12942,
+    "wof:population":12638,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Spangenberg, Liebenbachstadt",
+    "eurostat:nuts_2021_id":"06634024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634024",
+    "eurostat:population":6046,
+    "eurostat:population_year":2020,
     "geom:area":0.012485,
-    "geom:area_square_m":96910899.756751,
+    "geom:area_square_m":96910899.75675,
     "geom:bbox":"9.582444,51.069188,9.780937,51.173314",
     "geom:latitude":51.117706,
     "geom:longitude":9.693654,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.116667,
     "wd:longitude":9.666667,
     "wd:wordcount":292,
@@ -322,15 +335,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684841,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634024",
+        "eurostat:nuts_2021_id":"06634024",
         "gn:id":2830829,
         "gp:id":695675,
         "qs_pg:id":141746,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6d726439a6f1b183c12109af589f1f58",
+    "wof:geomhash":"a43a7520e289e7213665d0862151b69a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101809969,
-    "wof:lastmodified":1608051632,
+    "wof:lastmodified":1684351869,
     "wof:name":"Spangenberg",
     "wof:parent_id":1377684841,
     "wof:placetype":"locality",
-    "wof:population":6570,
+    "wof:population":6046,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

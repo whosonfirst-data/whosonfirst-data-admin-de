@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05358008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00fcren, Stadt",
+    "eurostat:nuts_2021_id":"05358008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA26",
+    "eurostat:nuts_2021_level_lau":"05358008",
+    "eurostat:population":91216,
+    "eurostat:population_year":2020,
     "geom:area":0.010805,
-    "geom:area_square_m":84439060.64767,
+    "geom:area_square_m":84439060.647668,
     "geom:bbox":"6.385915,50.741549,6.538342,50.857573",
     "geom:latitude":50.80325,
     "geom:longitude":6.461204,
@@ -340,21 +352,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063707,
         1377690097,
         404227541,
-        85682513
+        102063707
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05358008",
+        "eurostat:nuts_2021_id":"05358008",
         "gn:id":2934486,
         "gp:id":645985,
         "loc:id":"n80162578",
@@ -370,7 +385,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"326445b09e474708e99b59dbf9646cf6",
+    "wof:geomhash":"264d101c78c95eb0f4dc4ea7b211272f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101748629,
-    "wof:lastmodified":1608050557,
+    "wof:lastmodified":1684351787,
     "wof:name":"D\u00fcren",
     "wof:parent_id":1377690097,
     "wof:placetype":"locality",
-    "wof:population":93440,
+    "wof:population":91216,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenstadt",
+    "eurostat:nuts_2021_id":"09190111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190111",
+    "eurostat:population":3305,
+    "eurostat:population_year":2020,
     "geom:area":0.002216,
-    "geom:area_square_m":18398842.239106,
+    "geom:area_square_m":18398842.239104,
     "geom:bbox":"10.8253559767,47.7756137342,10.8890695915,47.8688858855",
     "geom:latitude":47.822757,
     "geom:longitude":10.859133,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -170,6 +183,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190111",
+        "eurostat:nuts_2021_id":"09190111",
         "gn:id":2957469,
         "gp:id":634590,
         "qs_pg:id":579997,
@@ -180,7 +195,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1669ae742ab5b5f082d0e76c87f905b8",
+    "wof:geomhash":"4ee8a4d93af350804530d6e76d5daf99",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101833953,
-    "wof:lastmodified":1582342449,
+    "wof:lastmodified":1684351944,
     "wof:name":"Altenstadt",
     "wof:parent_id":1377683709,
     "wof:placetype":"locality",
-    "wof:population":3282,
+    "wof:population":3305,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

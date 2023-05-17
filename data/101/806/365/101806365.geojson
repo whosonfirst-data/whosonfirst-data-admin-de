@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Welle",
+    "eurostat:nuts_2021_id":"03353038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353038",
+    "eurostat:population":1198,
+    "eurostat:population_year":2020,
     "geom:area":0.002705,
-    "geom:area_square_m":20017703.234478,
+    "geom:area_square_m":20017703.234479,
     "geom:bbox":"9.75131541444,53.1902572012,9.83293145716,53.2729472352",
     "geom:latitude":53.233361,
     "geom:longitude":9.797166,
@@ -273,7 +285,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":75,
     "wof:belongsto":[
         85682555,
@@ -284,6 +297,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353038",
+        "eurostat:nuts_2021_id":"03353038",
         "gn:id":2811537,
         "gp:id":20166645,
         "qs_pg:id":576486,
@@ -294,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b1628f504deaabc649771c3fb836d82a",
+    "wof:geomhash":"8222e89a10b82ca93054ef461519532f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -306,11 +321,11 @@
         }
     ],
     "wof:id":101806365,
-    "wof:lastmodified":1582342610,
+    "wof:lastmodified":1684351850,
     "wof:name":"Welle",
     "wof:parent_id":1377687415,
     "wof:placetype":"locality",
-    "wof:population":1251,
+    "wof:population":1198,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kraichtal, Stadt",
+    "eurostat:nuts_2021_id":"08215097",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215097",
+    "eurostat:population":14681,
+    "eurostat:population_year":2020,
     "geom:area":0.00994,
     "geom:area_square_m":80420633.292945,
     "geom:bbox":"8.641012,49.088139,8.842161,49.173408",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":80.56,
     "wd:latitude":49.124167,
     "wd:longitude":8.714722,
@@ -321,15 +334,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688213,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215097",
+        "eurostat:nuts_2021_id":"08215097",
         "gn:id":2884882,
         "gp:id":668578,
         "qs_pg:id":1033022,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3a3168220f29a0c73d4dda5a67058230",
+    "wof:geomhash":"216d4987ddee0a0d7b7d7dbe4031393a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101760765,
-    "wof:lastmodified":1608050740,
+    "wof:lastmodified":1684351801,
     "wof:name":"Kraichtal",
     "wof:parent_id":1377688213,
     "wof:placetype":"locality",
-    "wof:population":14112,
+    "wof:population":14681,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

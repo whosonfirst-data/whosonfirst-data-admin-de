@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08425137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Illerkirchberg",
+    "eurostat:nuts_2021_id":"08425137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE145",
+    "eurostat:nuts_2021_level_lau":"08425137",
+    "eurostat:population":4840,
+    "eurostat:population_year":2020,
     "geom:area":0.001369,
-    "geom:area_square_m":11256642.606887,
+    "geom:area_square_m":11256642.606886,
     "geom:bbox":"9.97362018923,48.2917874747,10.0378357265,48.3519871991",
     "geom:latitude":48.323478,
     "geom:longitude":10.006966,
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -191,6 +204,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08425137",
+        "eurostat:nuts_2021_id":"08425137",
         "gn:id":2860077,
         "gp:id":23410766,
         "qs_pg:id":493275,
@@ -205,7 +220,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b44925a04d46d5e5b75788925dfe49db",
+    "wof:geomhash":"d9f78ca349e72149d7e011bcf86f1981",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101762985,
-    "wof:lastmodified":1582342355,
+    "wof:lastmodified":1684351809,
     "wof:name":"Illerkirchberg",
     "wof:parent_id":1377690247,
     "wof:placetype":"locality",
-    "wof:population":4686,
+    "wof:population":4840,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

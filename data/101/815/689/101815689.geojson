@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hirschberg an der Bergstra\u00dfe",
+    "eurostat:nuts_2021_id":"08226107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226107",
+    "eurostat:population":9920,
+    "eurostat:population_year":2020,
     "geom:area":0.001532,
-    "geom:area_square_m":12301167.460681,
+    "geom:area_square_m":12301167.460682,
     "geom:bbox":"8.626116,49.487878,8.713255,49.525691",
     "geom:latitude":49.504287,
     "geom:longitude":8.663039,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":66,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688713,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226107",
+        "eurostat:nuts_2021_id":"08226107",
         "fct:id":"0715fc30-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3272929,
         "gp:id":15002651,
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"56bca2f481fdbb4e4b4cc6a61d7bfd8e",
+    "wof:geomhash":"7bc567af9e0a99a884da82ee63f6eeae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051242,
+    "wof:lastmodified":1684351894,
     "wof:name":"Hirschberg an der Bergstra\u00dfe",
     "wof:parent_id":1377688713,
     "wof:placetype":"locality",
-    "wof:population":9294,
+    "wof:population":9920,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

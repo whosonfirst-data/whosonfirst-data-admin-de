@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heilbad Heiligenstadt, Stadt",
+    "eurostat:nuts_2021_id":"16061045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061045",
+    "eurostat:population":17129,
+    "eurostat:population_year":2020,
     "geom:area":0.008003,
-    "geom:area_square_m":61784031.497683,
+    "geom:area_square_m":61784031.497679,
     "geom:bbox":"10.072117,51.300845,10.218113,51.432733",
     "geom:latitude":51.364675,
     "geom:longitude":10.14182,
@@ -180,21 +192,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1648,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063795,
         1377689381,
-        85682541
+        85633111,
+        102063795
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061045",
+        "eurostat:nuts_2021_id":"16061045",
         "gn:id":2907545,
         "gp:id":658558,
         "qs_pg:id":1066726,
@@ -209,7 +224,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"acd1e3cb77182ab5b66abb6fbf73fd31",
+    "wof:geomhash":"4fa086307de5e9242b7039386d30c6ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -221,11 +236,11 @@
         }
     ],
     "wof:id":101810143,
-    "wof:lastmodified":1608050063,
+    "wof:lastmodified":1684351871,
     "wof:name":"Heilbad Heiligenstadt",
     "wof:parent_id":1377689381,
     "wof:placetype":"locality",
-    "wof:population":17230,
+    "wof:population":17129,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Knittlingen, Stadt",
+    "eurostat:nuts_2021_id":"08236033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236033",
+    "eurostat:population":8090,
+    "eurostat:population_year":2020,
     "geom:area":0.003222,
     "geom:area_square_m":26123643.077909,
     "geom:bbox":"8.729753,48.992926,8.839095,49.046313",
@@ -305,22 +317,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":26.31,
     "wd:latitude":49.023889,
     "wd:longitude":8.756944,
     "wd:population":5275,
     "wd:wordcount":595,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063377,
         1377688937,
         404227555,
-        85682567
+        102063377
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236033",
+        "eurostat:nuts_2021_id":"08236033",
         "gn:id":2887140,
         "gp:id":667616,
         "qs_pg:id":142284,
@@ -335,7 +350,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"48f4ce41ff74e3f56f63cd6d6ecdd897",
+    "wof:geomhash":"62b96daad3ef831ee7b226de6fde2f51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101760681,
-    "wof:lastmodified":1608050744,
+    "wof:lastmodified":1684351800,
     "wof:name":"Knittlingen",
     "wof:parent_id":1377688937,
     "wof:placetype":"locality",
-    "wof:population":5275,
+    "wof:population":8090,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

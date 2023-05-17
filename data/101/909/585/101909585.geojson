@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heinersbr\u00fcck",
+    "eurostat:nuts_2021_id":"12071176",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071176",
+    "eurostat:population":579,
+    "eurostat:population_year":2020,
     "geom:area":0.003132,
     "geom:area_square_m":23940537.986249,
     "geom:bbox":"14.4684348483,51.7806083564,14.5638448495,51.8517518635",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071176",
+        "eurostat:nuts_2021_id":"12071176",
         "gn:id":2907309,
         "gp:id":658662,
         "qs_pg:id":1146714,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6ac3012ddf0f42d259e5fe3e8743857d",
+    "wof:geomhash":"ad55d261c6b18319c7b27b4752828d72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101909585,
-    "wof:lastmodified":1582342293,
+    "wof:lastmodified":1684352002,
     "wof:name":"Heinersbr\u00fcck",
     "wof:parent_id":1377684107,
     "wof:placetype":"locality",
-    "wof:population":692,
+    "wof:population":579,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

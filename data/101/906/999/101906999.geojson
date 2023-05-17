@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aspisheim",
+    "eurostat:nuts_2021_id":"07339002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339002",
+    "eurostat:population":870,
+    "eurostat:population_year":2020,
     "geom:area":0.000728,
     "geom:area_square_m":5795206.117169,
     "geom:bbox":"7.96059913589,49.889775936,8.00763811455,49.9210893844",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":161,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339002",
+        "eurostat:nuts_2021_id":"07339002",
         "gn:id":2955053,
         "gp:id":635726,
         "qs_pg:id":579940,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"634c3e0efeaf968a3b99e814f49f9270",
+    "wof:geomhash":"cf058b6044c75af407336d65d5755e32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906999,
-    "wof:lastmodified":1582342323,
+    "wof:lastmodified":1684351983,
     "wof:name":"Aspisheim",
     "wof:parent_id":1377686731,
     "wof:placetype":"locality",
-    "wof:population":973,
+    "wof:population":870,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

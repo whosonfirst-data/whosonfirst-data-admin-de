@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirschweiler",
+    "eurostat:nuts_2021_id":"07134047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134047",
+    "eurostat:population":1057,
+    "eurostat:population_year":2020,
     "geom:area":0.000609,
-    "geom:area_square_m":4863051.958484,
+    "geom:area_square_m":4863051.958485,
     "geom:bbox":"7.22713614846,49.7386745864,7.26967832444,49.7730091832",
     "geom:latitude":49.757327,
     "geom:longitude":7.247803,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":482,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134047",
+        "eurostat:nuts_2021_id":"07134047",
         "gn:id":2890226,
         "gp:id":659686,
         "qs_pg:id":93579,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e90df6de9d28a64badca8a7207a8f28f",
+    "wof:geomhash":"59537bc000aa74f4766842d3db4eb7c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101813221,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351889,
     "wof:name":"Kirschweiler",
     "wof:parent_id":1377685437,
     "wof:placetype":"locality",
-    "wof:population":1169,
+    "wof:population":1057,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

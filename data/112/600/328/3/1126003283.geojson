@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Onsdorf",
+    "eurostat:nuts_2021_id":"07235101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235101",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "geom:area":0.000433,
     "geom:area_square_m":3464275.821018,
     "geom:bbox":"6.46710349592,49.6314622794,6.50837396255,49.6579738864",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235101",
+        "eurostat:nuts_2021_id":"07235101",
         "gn:id":2857224,
         "qs_pg:id":577471,
         "wd:id":"Q656764"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"81ff69529acc65b092894a0f0c3bd633",
+    "wof:geomhash":"88f23e0d9700db4bc0baa015bcf5c0f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126003283,
-    "wof:lastmodified":1582343022,
+    "wof:lastmodified":1684352043,
     "wof:name":"Onsdorf",
     "wof:parent_id":1377686037,
     "wof:placetype":"locality",
-    "wof:population":151,
+    "wof:population":150,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

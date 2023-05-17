@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Fallingbostel, Stadt",
+    "eurostat:nuts_2021_id":"03358008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358008",
+    "eurostat:population":11926,
+    "eurostat:population_year":2020,
     "geom:area":0.008721,
-    "geom:area_square_m":65040578.429148,
+    "geom:area_square_m":65040578.429147,
     "geom:bbox":"9.658225,52.838589,9.860748,52.95768",
     "geom:latitude":52.903851,
     "geom:longitude":9.739524,
@@ -172,21 +184,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1078,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063989,
         1377687767,
-        85682555
+        85633111,
+        102063989
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358008",
+        "eurostat:nuts_2021_id":"03358008",
         "gn:id":2927871,
         "gp:id":649306,
         "qs_pg:id":905869,
@@ -201,7 +216,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4d67d320cb455f63fd05057e8fc852d8",
+    "wof:geomhash":"a2345328f860105d1406ad29f58cb8f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101808067,
-    "wof:lastmodified":1608051702,
+    "wof:lastmodified":1684351863,
     "wof:name":"Bad Fallingbostel",
     "wof:parent_id":1377687767,
     "wof:placetype":"locality",
-    "wof:population":13473,
+    "wof:population":11926,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

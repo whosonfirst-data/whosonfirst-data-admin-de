@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00fcckingen",
+    "eurostat:nuts_2021_id":"07141049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141049",
+    "eurostat:population":1088,
+    "eurostat:population_year":2020,
     "geom:area":0.000296,
-    "geom:area_square_m":2329774.542606,
+    "geom:area_square_m":2329774.542605,
     "geom:bbox":"7.98962653702,50.3872918684,8.02375727345,50.4009428426",
     "geom:latitude":50.394663,
     "geom:longitude":8.008468,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141049",
+        "eurostat:nuts_2021_id":"07141049",
         "gn:id":2913905,
         "gp:id":636132,
         "qs_pg:id":93762,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7b108e1c5868ff964f390e226eca1015",
+    "wof:geomhash":"752f01f7805da8f3a22065590fda0f0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101812109,
-    "wof:lastmodified":1582342548,
+    "wof:lastmodified":1684351882,
     "wof:name":"G\u00fcckingen",
     "wof:parent_id":1377685729,
     "wof:placetype":"locality",
-    "wof:population":1041,
+    "wof:population":1088,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

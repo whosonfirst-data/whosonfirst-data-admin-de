@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harmsdorf",
+    "eurostat:nuts_2021_id":"01055020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055020",
+    "eurostat:population":651,
+    "eurostat:population_year":2020,
     "geom:area":0.002468,
-    "geom:area_square_m":17840982.516327,
+    "geom:area_square_m":17840982.516324,
     "geom:bbox":"10.7801338683,54.1965847207,10.8579270817,54.262874143",
     "geom:latitude":54.229958,
     "geom:longitude":10.822358,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055020",
+        "eurostat:nuts_2021_id":"01055020",
         "gn:id":2910391,
         "gp:id":657357,
         "qs_pg:id":578768,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e89efdbd0fc0b4a74ee4a8082579ab84",
+    "wof:geomhash":"41e2ede105106014ba7440a3e1a4ee1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101908829,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351999,
     "wof:name":"Harmsdorf",
     "wof:parent_id":1377683837,
     "wof:placetype":"locality",
-    "wof:population":735,
+    "wof:population":651,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

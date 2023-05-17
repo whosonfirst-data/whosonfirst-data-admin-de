@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e4tzlingen",
+    "eurostat:nuts_2021_id":"03360016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360016",
+    "eurostat:population":469,
+    "eurostat:population_year":2020,
     "geom:area":0.001143,
     "geom:area_square_m":8510863.295235,
     "geom:bbox":"10.6407318904,52.9644541588,10.70611937,52.9912165235",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":15,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360016",
+        "eurostat:nuts_2021_id":"03360016",
         "gn:id":2850104,
         "gp:id":12629789,
         "qs_pg:id":577310,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c08f2fafd5839bccebad02f81a146036",
+    "wof:geomhash":"cabbd1c6ed577905b46ee1a27402411b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101907987,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351991,
     "wof:name":"R\u00e4tzlingen",
     "wof:parent_id":1377687983,
     "wof:placetype":"locality",
-    "wof:population":503,
+    "wof:population":469,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

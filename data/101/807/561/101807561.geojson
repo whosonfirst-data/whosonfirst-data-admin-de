@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05758036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vlotho, Stadt",
+    "eurostat:nuts_2021_id":"05758036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA43",
+    "eurostat:nuts_2021_level_lau":"05758036",
+    "eurostat:population":18380,
+    "eurostat:population_year":2020,
     "geom:area":0.010078,
-    "geom:area_square_m":76472785.746077,
+    "geom:area_square_m":76472785.746074,
     "geom:bbox":"8.729166,52.101688,8.927116,52.196205",
     "geom:latitude":52.147032,
     "geom:longitude":8.837975,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":416,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063891,
         1377691647,
         404227571,
-        85682513
+        102063891
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05758036",
+        "eurostat:nuts_2021_id":"05758036",
         "gn:id":2817105,
         "gp:id":702451,
         "qs_pg:id":1274705,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c912d744497c92e75f6da34a6565e7ab",
+    "wof:geomhash":"92c23e422194397e51de9e54f247b942",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,12 +368,12 @@
         }
     ],
     "wof:id":101807561,
-    "wof:lastmodified":1608051516,
+    "wof:lastmodified":1684351857,
     "wof:name":"Vlotho",
     "wof:parent_id":1377691647,
     "wof:placetype":"locality",
-    "wof:population":20214,
-    "wof:population_rank":7,
+    "wof:population":18380,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fcmmelsheim",
+    "eurostat:nuts_2021_id":"07133087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133087",
+    "eurostat:population":1347,
+    "eurostat:population_year":2020,
     "geom:area":0.000405,
-    "geom:area_square_m":3222886.775507,
+    "geom:area_square_m":3222886.775506,
     "geom:bbox":"7.83689909028,49.92183542,7.86938361591,49.942953521",
     "geom:latitude":49.933635,
     "geom:longitude":7.854176,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2286,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133087",
+        "eurostat:nuts_2021_id":"07133087",
         "gn:id":2843104,
         "gp:id":642609,
         "qs_pg:id":1038559,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"59bd5895516fc0f723fccd8710891632",
+    "wof:geomhash":"21d6b20c7a3b35fd3b5c71425c227220",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101813461,
-    "wof:lastmodified":1582342571,
+    "wof:lastmodified":1684351891,
     "wof:name":"R\u00fcmmelsheim",
     "wof:parent_id":1377685399,
     "wof:placetype":"locality",
-    "wof:population":1435,
+    "wof:population":1347,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

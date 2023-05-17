@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dollerup",
+    "eurostat:nuts_2021_id":"01059106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059106",
+    "eurostat:population":1021,
+    "eurostat:population_year":2020,
     "geom:area":0.001821,
     "geom:area_square_m":12985190.397068,
     "geom:bbox":"9.64660139106,54.7564819711,9.71775649557,54.8051767301",
@@ -272,7 +284,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059106",
+        "eurostat:nuts_2021_id":"01059106",
         "gn:id":2936366,
         "gp:id":697779,
         "qs_pg:id":93982,
@@ -294,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6c8f74ebbafbd267ac4bd38c8613ec12",
+    "wof:geomhash":"2a24436121a5bcb3b40d61d03212ca70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -306,11 +321,11 @@
         }
     ],
     "wof:id":101846451,
-    "wof:lastmodified":1582342527,
+    "wof:lastmodified":1684351962,
     "wof:name":"Dollerup",
     "wof:parent_id":1377684393,
     "wof:placetype":"locality",
-    "wof:population":1035,
+    "wof:population":1021,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

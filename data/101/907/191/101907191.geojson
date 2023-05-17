@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neidenbach",
+    "eurostat:nuts_2021_id":"07232087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232087",
+    "eurostat:population":868,
+    "eurostat:population_year":2020,
     "geom:area":0.001185,
-    "geom:area_square_m":9403585.646846,
+    "geom:area_square_m":9403585.646847,
     "geom:bbox":"6.53997696628,50.0726952137,6.59328125626,50.1138923533",
     "geom:latitude":50.094969,
     "geom:longitude":6.561924,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232087",
+        "eurostat:nuts_2021_id":"07232087",
         "gn:id":2866611,
         "gp:id":677406,
         "qs_pg:id":577714,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"04e720f3c077989c912b7836716cf98d",
+    "wof:geomhash":"e3989d7037fbc37bb647b5009d91dd8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907191,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351985,
     "wof:name":"Neidenbach",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":917,
+    "wof:population":868,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

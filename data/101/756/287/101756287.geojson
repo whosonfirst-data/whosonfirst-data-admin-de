@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Korb",
+    "eurostat:nuts_2021_id":"08119041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119041",
+    "eurostat:population":10770,
+    "eurostat:population_year":2020,
     "geom:area":0.001036,
     "geom:area_square_m":8427996.520294,
     "geom:bbox":"9.34212,48.824284,9.396309,48.863762",
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":109,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063379,
         1377687451,
         404227549,
-        85682567
+        102063379
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119041",
+        "eurostat:nuts_2021_id":"08119041",
         "fct:id":"0748e97e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2885540,
         "gp:id":668265,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"976a2cecaf2d0dbac2d50d213c0d41d1",
+    "wof:geomhash":"1599e19411935badd18c497469f16ca7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050801,
+    "wof:lastmodified":1684351793,
     "wof:name":"Korb",
     "wof:parent_id":1377687451,
     "wof:placetype":"locality",
-    "wof:population":10459,
+    "wof:population":10770,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

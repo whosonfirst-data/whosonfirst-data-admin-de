@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moorgrund",
+    "eurostat:nuts_2021_id":"16063094",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063094",
+    "eurostat:population":3358,
+    "eurostat:population_year":2020,
     "geom:area":0.006847,
-    "geom:area_square_m":53438271.317809,
+    "geom:area_square_m":53438271.31781,
     "geom:bbox":"10.218455,50.810212,10.34147,50.914007",
     "geom:latitude":50.861512,
     "geom:longitude":10.282864,
@@ -134,17 +146,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689631,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063094",
+        "eurostat:nuts_2021_id":"16063094",
         "gn:id":6549906,
         "gp:id":655769,
         "qs_pg:id":631521,
@@ -158,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b404b0151bd7e7c64bf2af90b6479bce",
+    "wof:geomhash":"edeba9d21984bc6ac4e83da2427abef9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +185,11 @@
         }
     ],
     "wof:id":101823329,
-    "wof:lastmodified":1608051108,
+    "wof:lastmodified":1684351925,
     "wof:name":"Moorgrund",
     "wof:parent_id":1377689631,
     "wof:placetype":"locality",
-    "wof:population":3421,
+    "wof:population":3358,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St.Gangloff",
+    "eurostat:nuts_2021_id":"16074093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074093",
+    "eurostat:population":1177,
+    "eurostat:population_year":2020,
     "geom:area":0.001211,
-    "geom:area_square_m":9449832.411345,
+    "geom:area_square_m":9449832.411346,
     "geom:bbox":"11.8105674183,50.8324806562,11.9208693904,50.8670575226",
     "geom:latitude":50.854182,
     "geom:longitude":11.863822,
@@ -125,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682541,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074093",
+        "eurostat:nuts_2021_id":"16074093",
         "gn:id":2841636,
         "gp:id":20160952,
         "qs_pg:id":501603,
@@ -147,7 +162,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"02b31c71376fc548d9b040e4fdaad1aa",
+    "wof:geomhash":"65424844dd25f00f7314395a01222cb6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":101823199,
-    "wof:lastmodified":1582342533,
+    "wof:lastmodified":1684351924,
     "wof:name":"St. Gangloff",
     "wof:parent_id":1377689047,
     "wof:placetype":"locality",
-    "wof:population":1322,
+    "wof:population":1177,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

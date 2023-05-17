@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siegbach",
+    "eurostat:nuts_2021_id":"06532019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532019",
+    "eurostat:population":2549,
+    "eurostat:population_year":2020,
     "geom:area":0.00369,
-    "geom:area_square_m":28865716.581691,
+    "geom:area_square_m":28865716.58169,
     "geom:bbox":"8.369128,50.712823,8.459317,50.797289",
     "geom:latitude":50.750741,
     "geom:longitude":8.415975,
@@ -291,18 +303,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":546,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683543,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532019",
+        "eurostat:nuts_2021_id":"06532019",
         "fct:id":"073441fe-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6949638,
         "gp:id":15002797,
@@ -317,7 +332,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be4af6c7cd85d562dacf6bb8b3e73a2e",
+    "wof:geomhash":"2245192a6b10462845dd689442e72004",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050111,
+    "wof:lastmodified":1684351877,
     "wof:name":"Siegbach",
     "wof:parent_id":1377683543,
     "wof:placetype":"locality",
-    "wof:population":2720,
+    "wof:population":2549,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

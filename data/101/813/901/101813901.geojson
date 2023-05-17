@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df-Rohrheim",
+    "eurostat:nuts_2021_id":"06431010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431010",
+    "eurostat:population":3764,
+    "eurostat:population_year":2020,
     "geom:area":0.002485,
-    "geom:area_square_m":19868357.063115,
+    "geom:area_square_m":19868357.063114,
     "geom:bbox":"8.425547,49.695615,8.541442,49.734645",
     "geom:latitude":49.714315,
     "geom:longitude":8.478285,
@@ -283,18 +295,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":373,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377692909,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431010",
+        "eurostat:nuts_2021_id":"06431010",
         "gn:id":2915128,
         "gp:id":666572,
         "qs_pg:id":374255,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"535fbfb2d4588164585e906b89a8d9e3",
+    "wof:geomhash":"1703ad82d2dc0ecbe57175e9de04cafc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101813901,
-    "wof:lastmodified":1608051318,
+    "wof:lastmodified":1684351893,
     "wof:name":"Gro\u00df-Rohrheim",
     "wof:parent_id":1377692909,
     "wof:placetype":"locality",
-    "wof:population":3822,
+    "wof:population":3764,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

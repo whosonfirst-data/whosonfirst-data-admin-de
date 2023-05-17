@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waren (M\u00fcritz), Stadt",
+    "eurostat:nuts_2021_id":"13071156",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071156",
+    "eurostat:population":21057,
+    "eurostat:population_year":2020,
     "geom:area":0.021579,
-    "geom:area_square_m":158780735.030245,
+    "geom:area_square_m":158780735.030235,
     "geom:bbox":"12.5822466892,53.396110181,12.7948099999,53.5849576727",
     "geom:latitude":53.482472,
     "geom:longitude":12.691841,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2778,
     "wof:belongsto":[
         85682487,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071156",
+        "eurostat:nuts_2021_id":"13071156",
         "gn:id":2814131,
         "gp:id":703964,
         "qs_pg:id":907203,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fb252179483d070f33bb72d0b0572284",
+    "wof:geomhash":"f84dd459b2d677eff758566c9e2974b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101818633,
-    "wof:lastmodified":1582342360,
+    "wof:lastmodified":1684351902,
     "wof:name":"Waren (M\u00fcritz)",
     "wof:parent_id":1377684415,
     "wof:placetype":"locality",
-    "wof:population":21470,
+    "wof:population":21057,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

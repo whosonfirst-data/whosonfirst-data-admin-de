@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mehlingen",
+    "eurostat:nuts_2021_id":"07335026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335026",
+    "eurostat:population":3856,
+    "eurostat:population_year":2020,
     "geom:area":0.002674,
-    "geom:area_square_m":21476038.427938,
+    "geom:area_square_m":21476038.427937,
     "geom:bbox":"7.7984153722,49.4620837624,7.88565731666,49.5308803771",
     "geom:latitude":49.487434,
     "geom:longitude":7.842968,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335026",
+        "eurostat:nuts_2021_id":"07335026",
         "gn:id":2872428,
         "gp:id":674506,
         "qs_pg:id":1039134,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8243d89dccef980f67a053d51b3a85b5",
+    "wof:geomhash":"eb03024a2549389d82cd11693402598f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101812931,
-    "wof:lastmodified":1582342544,
+    "wof:lastmodified":1684351886,
     "wof:name":"Mehlingen",
     "wof:parent_id":1377686429,
     "wof:placetype":"locality",
-    "wof:population":3882,
+    "wof:population":3856,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vollmershain",
+    "eurostat:nuts_2021_id":"16077049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077049",
+    "eurostat:population":311,
+    "eurostat:population_year":2020,
     "geom:area":0.000643,
     "geom:area_square_m":5017579.059939,
     "geom:bbox":"12.2629435642,50.841539435,12.3129903976,50.8654453738",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077049",
+        "eurostat:nuts_2021_id":"16077049",
         "gn:id":2816559,
         "qs_pg:id":92923,
         "wd:id":"Q47030"
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"2a8dcc1b9e465a16382d959ab084e709",
+    "wof:geomhash":"b7da2dad33fb9d56c0f0ae5ae901e1f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1125779783,
-    "wof:lastmodified":1582343061,
+    "wof:lastmodified":1684352011,
     "wof:name":"Vollmershain",
     "wof:parent_id":1377691075,
     "wof:placetype":"locality",
-    "wof:population":331,
+    "wof:population":311,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

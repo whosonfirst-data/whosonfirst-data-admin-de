@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mendig, Stadt",
+    "eurostat:nuts_2021_id":"07137069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137069",
+    "eurostat:population":8928,
+    "eurostat:population_year":2020,
     "geom:area":0.003007,
-    "geom:area_square_m":23711665.072651,
+    "geom:area_square_m":23711665.072652,
     "geom:bbox":"7.19284794048,50.3567030734,7.32977403205,50.3979758336",
     "geom:latitude":50.375401,
     "geom:longitude":7.266029,
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -174,6 +187,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137069",
+        "eurostat:nuts_2021_id":"07137069",
         "gn:id":2871979,
         "gp:id":674749,
         "qs_pg:id":142150,
@@ -185,7 +200,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"76bcda16955e2ab60a97e155823fe551",
+    "wof:geomhash":"fb4061f15afad9a7488eb661db4d2be8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101812241,
-    "wof:lastmodified":1582342549,
+    "wof:lastmodified":1684351884,
     "wof:name":"Mendig",
     "wof:parent_id":1377685571,
     "wof:placetype":"locality",
-    "wof:population":8813,
+    "wof:population":8928,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

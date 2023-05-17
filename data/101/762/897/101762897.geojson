@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09775152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Senden, St",
+    "eurostat:nuts_2021_id":"09775152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE279",
+    "eurostat:nuts_2021_level_lau":"09775152",
+    "eurostat:population":22529,
+    "eurostat:population_year":2020,
     "geom:area":0.003078,
     "geom:area_square_m":25308414.552178,
     "geom:bbox":"10.009038,48.298455,10.12482,48.343181",
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.316667,
     "wd:longitude":10.066667,
     "wd:population":19010,
@@ -326,15 +339,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063293,
         1377692719,
         404227547,
-        85682571
+        102063293
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09775152",
+        "eurostat:nuts_2021_id":"09775152",
         "gn:id":2833080,
         "gp:id":694522,
         "qs_pg:id":867632,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c5997fd94391610c72b2ffaaaf3d139e",
+    "wof:geomhash":"2f227cf568874faa99cd89fae29960a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,12 +376,12 @@
         }
     ],
     "wof:id":101762897,
-    "wof:lastmodified":1608049714,
+    "wof:lastmodified":1684351808,
     "wof:name":"Senden",
     "wof:parent_id":1377692719,
     "wof:placetype":"locality",
-    "wof:population":19010,
-    "wof:population_rank":6,
+    "wof:population":22529,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

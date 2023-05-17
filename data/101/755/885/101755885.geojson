@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e4felfing",
+    "eurostat:nuts_2021_id":"09184120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184120",
+    "eurostat:population":13766,
+    "eurostat:population_year":2020,
     "geom:area":0.001137,
     "geom:area_square_m":9387923.449974,
     "geom:bbox":"11.400385,48.106783,11.465714,48.13763",
@@ -314,22 +326,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":83,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692753,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184120",
+        "eurostat:nuts_2021_id":"09184120",
         "fct:id":"0740cab4-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2918368,
         "gp:id":653731,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e93fb2798c06dc9744878d0464508282",
+    "wof:geomhash":"b3708a8cd48b136cfc18a0c1b38c2ce4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049411,
+    "wof:lastmodified":1684351791,
     "wof:name":"Gr\u00e4felfing",
     "wof:parent_id":1377692753,
     "wof:placetype":"locality",
-    "wof:population":12978,
+    "wof:population":13766,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

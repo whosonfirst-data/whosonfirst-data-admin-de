@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kleinkarlbach",
+    "eurostat:nuts_2021_id":"07332031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332031",
+    "eurostat:population":835,
+    "eurostat:population_year":2020,
     "geom:area":0.000316,
-    "geom:area_square_m":2537540.088172,
+    "geom:area_square_m":2537540.088173,
     "geom:bbox":"8.14163600529,49.5290852208,8.17142091908,49.5457764907",
     "geom:latitude":49.537841,
     "geom:longitude":8.157312,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":378,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332031",
+        "eurostat:nuts_2021_id":"07332031",
         "gn:id":2888676,
         "gp:id":666968,
         "qs_pg:id":578288,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b075be48d397531f1d98f0511d26331c",
+    "wof:geomhash":"35ff53f1fdd7502401e98a9cd4ccfd07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101906749,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351981,
     "wof:name":"Kleinkarlbach",
     "wof:parent_id":1377686301,
     "wof:placetype":"locality",
-    "wof:population":900,
+    "wof:population":835,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

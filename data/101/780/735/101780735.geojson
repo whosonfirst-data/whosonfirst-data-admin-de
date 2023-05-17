@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Colmberg, M",
+    "eurostat:nuts_2021_id":"09571130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571130",
+    "eurostat:population":2036,
+    "eurostat:population_year":2020,
     "geom:area":0.004724,
-    "geom:area_square_m":38036440.016628,
+    "geom:area_square_m":38036440.016629,
     "geom:bbox":"10.350321,49.322812,10.468861,49.414922",
     "geom:latitude":49.366793,
     "geom:longitude":10.401256,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377693107,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571130",
+        "eurostat:nuts_2021_id":"09571130",
         "gn:id":2939907,
         "gp:id":643256,
         "qs_pg:id":896345,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a0d259b790c0a374fdd5c913f72bb93a",
+    "wof:geomhash":"b5ce817b6dd08094b524606b51a9949d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101780735,
-    "wof:lastmodified":1608052042,
+    "wof:lastmodified":1684351819,
     "wof:name":"Colmberg",
     "wof:parent_id":1377693107,
     "wof:placetype":"locality",
-    "wof:population":2142,
+    "wof:population":2036,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

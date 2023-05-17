@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flintsbach a.Inn",
+    "eurostat:nuts_2021_id":"09187131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187131",
+    "eurostat:population":3025,
+    "eurostat:population_year":2020,
     "geom:area":0.003746,
-    "geom:area_square_m":31174082.356979,
+    "geom:area_square_m":31174082.35698,
     "geom:bbox":"12.0445106512,47.6784413215,12.164716502,47.7454200029",
     "geom:latitude":47.704318,
     "geom:longitude":12.105111,
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187131",
+        "eurostat:nuts_2021_id":"09187131",
         "gn:id":2926170,
         "gp:id":15002622,
         "qs_pg:id":201965,
@@ -148,7 +163,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4c847501ac1059cecb3b5bbbc930c2a0",
+    "wof:geomhash":"e3c864079b3c3f3af4152205cf78865d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +176,11 @@
         }
     ],
     "wof:id":101835181,
-    "wof:lastmodified":1582342446,
+    "wof:lastmodified":1684351945,
     "wof:name":"Flintsbach a. Inn",
     "wof:parent_id":1377694059,
     "wof:placetype":"locality",
-    "wof:population":2870,
+    "wof:population":3025,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

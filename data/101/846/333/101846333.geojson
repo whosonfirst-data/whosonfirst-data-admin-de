@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ederm\u00fcnde",
+    "eurostat:nuts_2021_id":"06634002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634002",
+    "eurostat:population":7332,
+    "eurostat:population_year":2020,
     "geom:area":0.003347,
-    "geom:area_square_m":25919885.555375,
+    "geom:area_square_m":25919885.555374,
     "geom:bbox":"9.326604,51.188189,9.466979,51.257647",
     "geom:latitude":51.217098,
     "geom:longitude":9.401952,
@@ -285,18 +297,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":189,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377685347,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634002",
+        "eurostat:nuts_2021_id":"06634002",
         "gn:id":3207171,
         "gp:id":654227,
         "qs_pg:id":1031585,
@@ -310,7 +325,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb10d4e9db224b15f6075c6381dea358",
+    "wof:geomhash":"402dcb989420e9b4308a4bc7bfc7c53e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101846333,
-    "wof:lastmodified":1608051036,
+    "wof:lastmodified":1684351960,
     "wof:name":"Ederm\u00fcnde",
     "wof:parent_id":1377685347,
     "wof:placetype":"locality",
-    "wof:population":7300,
+    "wof:population":7332,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

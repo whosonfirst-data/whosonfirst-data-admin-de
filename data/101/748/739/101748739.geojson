@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05915000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hamm, Stadt",
+    "eurostat:nuts_2021_id":"05915000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA54",
+    "eurostat:nuts_2021_level_lau":"05915000",
+    "eurostat:population":179916,
+    "eurostat:population_year":2020,
     "geom:area":0.02957,
-    "geom:area_square_m":226792310.814422,
+    "geom:area_square_m":226792310.814423,
     "geom:bbox":"7.675536,51.578052,7.997529,51.744766",
     "geom:latitude":51.665175,
     "geom:longitude":7.823586,
@@ -325,21 +337,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063827,
         1377692103,
         404227579,
-        85682513
+        102063827
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05915000",
+        "eurostat:nuts_2021_id":"05915000",
         "gn:id":2911240,
         "gp:id":656997,
         "qs_pg:id":455758,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8ecf4086400faf0b4faf45c4efff303a",
+    "wof:geomhash":"b16a359bd446a04b37faf93994f67e6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
         }
     ],
     "wof:id":101748739,
-    "wof:lastmodified":1608050546,
+    "wof:lastmodified":1684351788,
     "wof:name":"Hamm",
     "wof:parent_id":1377692103,
     "wof:placetype":"locality",
-    "wof:population":185327,
+    "wof:population":179916,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

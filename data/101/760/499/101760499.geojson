@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ammersbek",
+    "eurostat:nuts_2021_id":"01062090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062090",
+    "eurostat:population":9848,
+    "eurostat:population_year":2020,
     "geom:area":0.002415,
-    "geom:area_square_m":17678430.731665,
+    "geom:area_square_m":17678430.731663,
     "geom:bbox":"10.140273,53.667833,10.245567,53.714178",
     "geom:latitude":53.6932,
     "geom:longitude":10.192314,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":66,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684789,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062090",
+        "eurostat:nuts_2021_id":"01062090",
         "gn:id":3213720,
         "gp:id":15002569,
         "qs_pg:id":236234,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e14e517d4614190a34ab063de91ea321",
+    "wof:geomhash":"09c5c708949b9fc692f306f03473a043",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101760499,
-    "wof:lastmodified":1608050753,
+    "wof:lastmodified":1684351799,
     "wof:name":"Ammersbek",
     "wof:parent_id":1377684789,
     "wof:placetype":"locality",
-    "wof:population":9722,
+    "wof:population":9848,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

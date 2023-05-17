@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08225115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schefflenz",
+    "eurostat:nuts_2021_id":"08225115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE127",
+    "eurostat:nuts_2021_level_lau":"08225115",
+    "eurostat:population":3910,
+    "eurostat:population_year":2020,
     "geom:area":0.004587,
-    "geom:area_square_m":36905518.675891,
+    "geom:area_square_m":36905518.675893,
     "geom:bbox":"9.23400344656,49.3716400191,9.34690521928,49.4370298588",
     "geom:latitude":49.403529,
     "geom:longitude":9.288385,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "wof:belongsto":[
         85682567,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08225115",
+        "eurostat:nuts_2021_id":"08225115",
         "gn:id":3209468,
         "gp:id":675543,
         "qs_pg:id":581891,
@@ -319,7 +334,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e21a853a3c7411f5ab727654f264fda",
+    "wof:geomhash":"a42bfa7929de489dab32f11859f40097",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101815725,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351895,
     "wof:name":"Schefflenz",
     "wof:parent_id":1377688537,
     "wof:placetype":"locality",
-    "wof:population":3986,
+    "wof:population":3910,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

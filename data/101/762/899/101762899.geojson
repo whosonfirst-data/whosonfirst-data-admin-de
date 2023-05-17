@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09775134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nersingen",
+    "eurostat:nuts_2021_id":"09775134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE279",
+    "eurostat:nuts_2021_level_lau":"09775134",
+    "eurostat:population":9512,
+    "eurostat:population_year":2020,
     "geom:area":0.00295,
-    "geom:area_square_m":24210383.539021,
+    "geom:area_square_m":24210383.539022,
     "geom:bbox":"10.087401,48.3973,10.182841,48.446669",
     "geom:latitude":48.424237,
     "geom:longitude":10.138594,
@@ -158,18 +170,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":177,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063293,
         1377692679,
         404227547,
-        85682571
+        102063293
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09775134",
+        "eurostat:nuts_2021_id":"09775134",
         "fct:id":"071c9efa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2866473,
         "gp:id":677502,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e7d7a7eebcbad59aad6267bc415cb147",
+    "wof:geomhash":"eeac429266d2dd68a0f7292e4ae779ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049713,
+    "wof:lastmodified":1684351808,
     "wof:name":"Nersingen",
     "wof:parent_id":1377692679,
     "wof:placetype":"locality",
-    "wof:population":9177,
+    "wof:population":9512,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remshalden",
+    "eurostat:nuts_2021_id":"08119090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119090",
+    "eurostat:population":14096,
+    "eurostat:population_year":2020,
     "geom:area":0.001892,
     "geom:area_square_m":15403553.463657,
     "geom:bbox":"9.403597,48.788646,9.478199,48.845227",
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":68,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063379,
         1377687493,
         404227549,
-        85682567
+        102063379
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119090",
+        "eurostat:nuts_2021_id":"08119090",
         "gn:id":2848261,
         "gp:id":655458,
         "qs_pg:id":1029478,
@@ -335,7 +350,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"691399313f7bb6f7b92a61c7d2b0c6e8",
+    "wof:geomhash":"4270a1e27914e7777d47f43dbe567104",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101762005,
-    "wof:lastmodified":1608049713,
+    "wof:lastmodified":1684351807,
     "wof:name":"Remshalden",
     "wof:parent_id":1377687493,
     "wof:placetype":"locality",
-    "wof:population":13527,
+    "wof:population":14096,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

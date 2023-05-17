@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05966012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Finnentrop",
+    "eurostat:nuts_2021_id":"05966012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA59",
+    "eurostat:nuts_2021_level_lau":"05966012",
+    "eurostat:population":16955,
+    "eurostat:population_year":2020,
     "geom:area":0.013411,
-    "geom:area_square_m":103908590.695733,
+    "geom:area_square_m":103908590.695736,
     "geom:bbox":"7.898282,51.128368,8.121932,51.248207",
     "geom:latitude":51.199602,
     "geom:longitude":8.009485,
@@ -131,17 +143,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063739,
         1377692459,
         404227579,
-        85682513
+        102063739
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05966012",
+        "eurostat:nuts_2021_id":"05966012",
         "gn:id":2926716,
         "wk:page":"Finnentrop"
     },
@@ -152,7 +167,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"89a256ce7474671f24c64fe3c1bd8aaa",
+    "wof:geomhash":"1c061a1ac098ffbee45c760408821a9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":1260076051,
-    "wof:lastmodified":1608048916,
+    "wof:lastmodified":1684352059,
     "wof:name":"Finnentrop",
     "wof:parent_id":1377692459,
     "wof:placetype":"locality",
-    "wof:population":18427,
+    "wof:population":16955,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

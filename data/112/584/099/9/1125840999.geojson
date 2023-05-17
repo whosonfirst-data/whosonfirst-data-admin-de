@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nisterberg",
+    "eurostat:nuts_2021_id":"07132079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132079",
+    "eurostat:population":350,
+    "eurostat:population_year":2020,
     "geom:area":0.000572,
     "geom:area_square_m":4480679.131234,
     "geom:bbox":"7.9639226046,50.675734,8.00520762989,50.6939851625",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132079",
+        "eurostat:nuts_2021_id":"07132079",
         "gn:id":2862355,
         "qs_pg:id":577599,
         "wd:id":"Q643324"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"48cfb1fa50b1b01c8efd8cf4232a8d65",
+    "wof:geomhash":"e5503a0e407f6b87a5e690275f793744",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1125840999,
-    "wof:lastmodified":1582343050,
+    "wof:lastmodified":1684352021,
     "wof:name":"Nisterberg",
     "wof:parent_id":1377685309,
     "wof:placetype":"locality",
-    "wof:population":449,
+    "wof:population":350,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

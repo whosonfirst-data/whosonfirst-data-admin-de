@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6hl-Iggelheim",
+    "eurostat:nuts_2021_id":"07338005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338005",
+    "eurostat:population":10394,
+    "eurostat:population_year":2020,
     "geom:area":0.004068,
-    "geom:area_square_m":32763164.988213,
+    "geom:area_square_m":32763164.988212,
     "geom:bbox":"8.268885,49.316122,8.379678,49.405419",
     "geom:latitude":49.362513,
     "geom:longitude":8.321754,
@@ -143,21 +155,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":344,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063479,
         1377686577,
-        85682491
+        85633111,
+        102063479
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338005",
+        "eurostat:nuts_2021_id":"07338005",
         "gn:id":3272463,
         "gp:id":663251,
         "qs_pg:id":147400,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8d4a61563af094939c40d2f6365291a2",
+    "wof:geomhash":"1cf3d16aaab94e9985b8d5f8ad0061dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101759665,
-    "wof:lastmodified":1608050961,
+    "wof:lastmodified":1684351799,
     "wof:name":"B\u00f6hl-Iggelheim",
     "wof:parent_id":1377686577,
     "wof:placetype":"locality",
-    "wof:population":10797,
+    "wof:population":10394,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

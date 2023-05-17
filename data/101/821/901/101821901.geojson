@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenm\u00f6lsen, Stadt",
+    "eurostat:nuts_2021_id":"15084235",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084235",
+    "eurostat:population":9611,
+    "eurostat:population_year":2020,
     "geom:area":0.009721,
-    "geom:area_square_m":75384458.020688,
+    "geom:area_square_m":75384458.020686,
     "geom:bbox":"12.012726,51.113952,12.213084,51.205205",
     "geom:latitude":51.16097,
     "geom:longitude":12.114665,
@@ -150,17 +162,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063747,
         1377688431,
-        85682519
+        85633111,
+        102063747
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084235",
+        "eurostat:nuts_2021_id":"15084235",
         "gn:id":2901601,
         "gp:id":661260,
         "qs_pg:id":142395,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e77839c9a81df6cf08d8de32952f2890",
+    "wof:geomhash":"cac82c1c0bb192730069065aedc16355",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101821901,
-    "wof:lastmodified":1608050175,
+    "wof:lastmodified":1684351918,
     "wof:name":"Hohenm\u00f6lsen",
     "wof:parent_id":1377688431,
     "wof:placetype":"locality",
-    "wof:population":9772,
+    "wof:population":9611,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10041513",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heusweiler",
+    "eurostat:nuts_2021_id":"10041513",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC01",
+    "eurostat:nuts_2021_level_lau":"10041513",
+    "eurostat:population":18062,
+    "eurostat:population_year":2020,
     "geom:area":0.005028,
     "geom:area_square_m":40504132.610773,
     "geom:bbox":"6.862702,49.317699,7.022393,49.377668",
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063433,
         1377693705,
-        85682479
+        85633111,
+        102063433
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10041513",
+        "eurostat:nuts_2021_id":"10041513",
         "gn:id":2904985,
         "gp:id":659801,
         "qs_pg:id":578645,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"715bd4a46f2e6005b06ecc3d422ee598",
+    "wof:geomhash":"c3dffff9b2ea48e31c424875653d4c95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,12 +356,12 @@
         }
     ],
     "wof:id":101759595,
-    "wof:lastmodified":1608050938,
+    "wof:lastmodified":1684351798,
     "wof:name":"Heusweiler",
     "wof:parent_id":1377693705,
     "wof:placetype":"locality",
-    "wof:population":20006,
-    "wof:population_rank":7,
+    "wof:population":18062,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

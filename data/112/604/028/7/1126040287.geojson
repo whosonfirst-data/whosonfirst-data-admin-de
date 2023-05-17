@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fredeburg",
+    "eurostat:nuts_2021_id":"01053030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053030",
+    "eurostat:population":41,
+    "eurostat:population_year":2020,
     "geom:area":0.001375,
     "geom:area_square_m":10077109.784205,
     "geom:bbox":"10.7023169224,53.6317551236,10.757185885,53.6808176095",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053030",
+        "eurostat:nuts_2021_id":"01053030",
         "gn:id":2925239,
         "qs_pg:id":579137,
         "wd:id":"Q552924"
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a0503270c935044c1bfe80b82066e14d",
+    "wof:geomhash":"e569be78504d3fde726c1dced3e5b1ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1126040287,
-    "wof:lastmodified":1582342982,
+    "wof:lastmodified":1684352054,
     "wof:name":"Fredeburg",
     "wof:parent_id":1377683513,
     "wof:placetype":"locality",
-    "wof:population":39,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

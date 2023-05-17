@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08125007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Wimpfen, Stadt",
+    "eurostat:nuts_2021_id":"08125007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE118",
+    "eurostat:nuts_2021_level_lau":"08125007",
+    "eurostat:population":7225,
+    "eurostat:population_year":2020,
     "geom:area":0.002394,
     "geom:area_square_m":19335638.050109,
     "geom:bbox":"9.109388,49.206501,9.20386,49.251371",
@@ -326,7 +338,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":19.38,
     "wd:latitude":49.230556,
     "wd:longitude":9.163056,
@@ -337,15 +350,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        1377675595,
         1377687579,
         404227549,
-        85682567
+        1377675595
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08125007",
+        "eurostat:nuts_2021_id":"08125007",
         "gn:id":2953315,
         "gp:id":636530,
         "qs_pg:id":246799,
@@ -360,7 +375,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8836dbc997089a9b44b881106f291534",
+    "wof:geomhash":"f5dcb3e5e4ba8cae4ce10a9f8c7f73a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -373,11 +388,11 @@
         }
     ],
     "wof:id":101756307,
-    "wof:lastmodified":1608050790,
+    "wof:lastmodified":1684351794,
     "wof:name":"Bad Wimpfen",
     "wof:parent_id":1377687579,
     "wof:placetype":"locality",
-    "wof:population":5117,
+    "wof:population":7225,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

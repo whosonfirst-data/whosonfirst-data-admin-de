@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03356001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Axstedt",
+    "eurostat:nuts_2021_id":"03356001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE936",
+    "eurostat:nuts_2021_level_lau":"03356001",
+    "eurostat:population":1192,
+    "eurostat:population_year":2020,
     "geom:area":0.001433,
-    "geom:area_square_m":10575966.170817,
+    "geom:area_square_m":10575966.170816,
     "geom:bbox":"8.73581046613,53.3341443513,8.812805274,53.3793678608",
     "geom:latitude":53.355366,
     "geom:longitude":8.773457,
@@ -134,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":83,
     "wof:belongsto":[
         85682555,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03356001",
+        "eurostat:nuts_2021_id":"03356001",
         "gn:id":2953840,
         "gp:id":636243,
         "qs_pg:id":1040262,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"501f975251ae269bdd5233dc9e35a9a6",
+    "wof:geomhash":"6f61e4e4ff01562273a6c91f39b1747f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101806301,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351849,
     "wof:name":"Axstedt",
     "wof:parent_id":1377687621,
     "wof:placetype":"locality",
-    "wof:population":1182,
+    "wof:population":1192,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

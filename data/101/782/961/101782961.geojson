@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bayerbach b.Ergoldsbach",
+    "eurostat:nuts_2021_id":"09274119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274119",
+    "eurostat:population":1929,
+    "eurostat:population_year":2020,
     "geom:area":0.003112,
     "geom:area_square_m":25394887.642178,
     "geom:bbox":"12.2652390103,48.6758392866,12.3464687136,48.7476042712",
@@ -45,7 +57,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -56,6 +69,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274119",
+        "eurostat:nuts_2021_id":"09274119",
         "gn:id":6559215,
         "gp:id":637276,
         "qs_pg:id":639226
@@ -64,7 +79,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39c543449eebbedcf69e9e2c98261da4",
+    "wof:geomhash":"283365dfed89f60f849a1473f42fe8d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -77,11 +92,11 @@
         }
     ],
     "wof:id":101782961,
-    "wof:lastmodified":1582342462,
+    "wof:lastmodified":1684351824,
     "wof:name":"Bayerbach b. Ergoldsbach",
     "wof:parent_id":1377684553,
     "wof:placetype":"locality",
-    "wof:population":1755,
+    "wof:population":1929,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

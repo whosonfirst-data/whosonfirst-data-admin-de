@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ellerau",
+    "eurostat:nuts_2021_id":"01060019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060019",
+    "eurostat:population":6319,
+    "eurostat:population_year":2020,
     "geom:area":0.000979,
-    "geom:area_square_m":7156043.061599,
+    "geom:area_square_m":7156043.061601,
     "geom:bbox":"9.8918711613,53.7479822076,9.96609674694,53.7720729085",
     "geom:latitude":53.76024,
     "geom:longitude":9.92725,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060019",
+        "eurostat:nuts_2021_id":"01060019",
         "gn:id":2931038,
         "gp:id":647579,
         "qs_pg:id":1039936,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b7fb5b780a341bb3401dc0f7352dfe7",
+    "wof:geomhash":"de62b21dece55c45c5c438230b43d3b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101806631,
-    "wof:lastmodified":1582342621,
+    "wof:lastmodified":1684351853,
     "wof:name":"Ellerau",
     "wof:parent_id":1377683921,
     "wof:placetype":"locality",
-    "wof:population":5500,
+    "wof:population":6319,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

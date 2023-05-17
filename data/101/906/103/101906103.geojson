@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seeth-Ekholt",
+    "eurostat:nuts_2021_id":"01056046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056046",
+    "eurostat:population":871,
+    "eurostat:population_year":2020,
     "geom:area":0.000914,
     "geom:area_square_m":6686564.733045,
     "geom:bbox":"9.70971934092,53.722939058,9.76579887581,53.7515480695",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056046",
+        "eurostat:nuts_2021_id":"01056046",
         "gn:id":2833571,
         "gp:id":20165382,
         "qs_pg:id":576942,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d3f58361399fedcc392c9b41f3fae82",
+    "wof:geomhash":"3e23623b9993f1446f019aae64fd1698",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906103,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351976,
     "wof:name":"Seeth-Ekholt",
     "wof:parent_id":1377683971,
     "wof:placetype":"locality",
-    "wof:population":853,
+    "wof:population":871,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

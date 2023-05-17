@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15089310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sta\u00dffurt, Stadt",
+    "eurostat:nuts_2021_id":"15089310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0C",
+    "eurostat:nuts_2021_level_lau":"15089310",
+    "eurostat:population":24923,
+    "eurostat:population_year":2020,
     "geom:area":0.0192,
-    "geom:area_square_m":146565474.540911,
+    "geom:area_square_m":146565474.540903,
     "geom:bbox":"11.4953249713,51.7975298813,11.743925342,51.9559772454",
     "geom:latitude":51.877739,
     "geom:longitude":11.613242,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":424,
     "wof:belongsto":[
         85682519,
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15089310",
+        "eurostat:nuts_2021_id":"15089310",
         "gn:id":2829422,
         "gp:id":696373,
         "qs_pg:id":245469,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c2b9a00821ad9f047c4e4fa5ef84d05a",
+    "wof:geomhash":"c66f2262a2cc2139fd25b87c9398be01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101821029,
-    "wof:lastmodified":1582342422,
+    "wof:lastmodified":1684351915,
     "wof:name":"Sta\u00dffurt",
     "wof:parent_id":1377689149,
     "wof:placetype":"locality",
-    "wof:population":22960,
+    "wof:population":24923,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

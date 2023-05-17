@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rielasingen-Worblingen",
+    "eurostat:nuts_2021_id":"08335100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335100",
+    "eurostat:population":12060,
+    "eurostat:population_year":2020,
     "geom:area":0.002225,
-    "geom:area_square_m":18509692.625572,
+    "geom:area_square_m":18509692.625571,
     "geom:bbox":"8.80485151646,47.7034526614,8.88653092774,47.7517220681",
     "geom:latitude":47.727972,
     "geom:longitude":8.843675,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":83,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335100",
+        "eurostat:nuts_2021_id":"08335100",
         "fct:id":"07340176-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2847003,
         "gp:id":688632,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d972c0ec8801ede714ffc16bb8f594bc",
+    "wof:geomhash":"cec02ed0ef3008e3b7e31764859fb0f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342411,
+    "wof:lastmodified":1684351943,
     "wof:name":"Rielasingen-Worblingen",
     "wof:parent_id":1377689719,
     "wof:placetype":"locality",
-    "wof:population":11953,
+    "wof:population":12060,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

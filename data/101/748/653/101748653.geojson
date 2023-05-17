@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05374012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gummersbach, Stadt",
+    "eurostat:nuts_2021_id":"05374012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2A",
+    "eurostat:nuts_2021_level_lau":"05374012",
+    "eurostat:population":50952,
+    "eurostat:population_year":2020,
     "geom:area":0.012237,
-    "geom:area_square_m":95161689.034644,
+    "geom:area_square_m":95161689.034642,
     "geom:bbox":"7.435237,50.974694,7.716121,51.086504",
     "geom:latitude":51.029776,
     "geom:longitude":7.568841,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":684,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063741,
         1377690425,
         404227541,
-        85682513
+        102063741
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05374012",
+        "eurostat:nuts_2021_id":"05374012",
         "gn:id":2913761,
         "gp:id":655764,
         "qs_pg:id":142474,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2b40b34e8e777ad4e2a95dc3b06a422f",
+    "wof:geomhash":"716ef710c65656f349d6550923931084",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101748653,
-    "wof:lastmodified":1608050593,
+    "wof:lastmodified":1684351787,
     "wof:name":"Gummersbach",
     "wof:parent_id":1377690425,
     "wof:placetype":"locality",
-    "wof:population":53131,
+    "wof:population":50952,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

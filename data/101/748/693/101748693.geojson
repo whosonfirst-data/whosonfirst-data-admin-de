@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcdenscheid, Stadt",
+    "eurostat:nuts_2021_id":"05962032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962032",
+    "eurostat:population":72313,
+    "eurostat:population_year":2020,
     "geom:area":0.011262,
-    "geom:area_square_m":87237297.689796,
+    "geom:area_square_m":87237297.689799,
     "geom:bbox":"7.552342,51.15527,7.723188,51.271326",
     "geom:latitude":51.212754,
     "geom:longitude":7.639119,
@@ -331,18 +343,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":827,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692373,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962032",
+        "eurostat:nuts_2021_id":"05962032",
         "gn:id":2875457,
         "gp:id":672897,
         "qs_pg:id":455877,
@@ -357,7 +372,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c21a77c9721ced5e395bc1bc7e4880bb",
+    "wof:geomhash":"7670297371d1f5162cb0d1952782589a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101748693,
-    "wof:lastmodified":1608050562,
+    "wof:lastmodified":1684351788,
     "wof:name":"L\u00fcdenscheid",
     "wof:parent_id":1377692373,
     "wof:placetype":"locality",
-    "wof:population":79386,
+    "wof:population":72313,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

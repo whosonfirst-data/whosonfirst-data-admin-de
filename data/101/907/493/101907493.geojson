@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nomborn",
+    "eurostat:nuts_2021_id":"07143055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143055",
+    "eurostat:population":719,
+    "eurostat:population_year":2020,
     "geom:area":0.000486,
     "geom:area_square_m":3827544.912693,
     "geom:bbox":"7.87723524807,50.4173637855,7.92172211946,50.4382476436",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":216,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143055",
+        "eurostat:nuts_2021_id":"07143055",
         "gn:id":2862249,
         "gp:id":680263,
         "qs_pg:id":577591,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"646bcb951e7d071d3cd17f8f932841bd",
+    "wof:geomhash":"a154ceb717fd0f0ac20c4c3f623f931e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101907493,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351988,
     "wof:name":"Nomborn",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":715,
+    "wof:population":719,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

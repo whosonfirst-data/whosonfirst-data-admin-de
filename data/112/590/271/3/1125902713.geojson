@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lug",
+    "eurostat:nuts_2021_id":"07340030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340030",
+    "eurostat:population":579,
+    "eurostat:population_year":2020,
     "geom:area":0.000294,
     "geom:area_square_m":2380075.804693,
     "geom:bbox":"7.88153803016,49.1716491293,7.91669978772,49.1911748034",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340030",
+        "eurostat:nuts_2021_id":"07340030",
         "gn:id":2875292,
         "qs_pg:id":1029782,
         "wd:id":"Q631895"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"eae646529529d1e764c0077c8cb2cabf",
+    "wof:geomhash":"b67ccd2dd170aed1516bc12eea3f5fd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125902713,
-    "wof:lastmodified":1582343005,
+    "wof:lastmodified":1684352038,
     "wof:name":"Lug",
     "wof:parent_id":1377686751,
     "wof:placetype":"locality",
-    "wof:population":637,
+    "wof:population":579,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

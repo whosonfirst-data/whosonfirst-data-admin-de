@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lassan, Stadt",
+    "eurostat:nuts_2021_id":"13075074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075074",
+    "eurostat:population":1483,
+    "eurostat:population_year":2020,
     "geom:area":0.003837,
-    "geom:area_square_m":27923285.263383,
+    "geom:area_square_m":27923285.263386,
     "geom:bbox":"13.748357235,53.9263259625,13.8845663732,53.97896259",
     "geom:latitude":53.949991,
     "geom:longitude":13.81676,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":23,
     "wof:belongsto":[
         85682487,
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075074",
+        "eurostat:nuts_2021_id":"13075074",
         "gn:id":2880375,
         "gp:id":670469,
         "qs_pg:id":903655,
@@ -321,7 +336,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cf98ba42904e0b82be889841ca607abf",
+    "wof:geomhash":"8b430e3acc06ac5db69f3307145b76a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101818945,
-    "wof:lastmodified":1582342367,
+    "wof:lastmodified":1684351905,
     "wof:name":"Lassan",
     "wof:parent_id":1377685067,
     "wof:placetype":"locality",
-    "wof:population":1462,
+    "wof:population":1483,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

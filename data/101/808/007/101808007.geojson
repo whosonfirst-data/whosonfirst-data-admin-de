@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stavern",
+    "eurostat:nuts_2021_id":"03454050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454050",
+    "eurostat:population":1064,
+    "eurostat:population_year":2020,
     "geom:area":0.006783,
     "geom:area_square_m":50712213.833745,
     "geom:bbox":"7.33063982383,52.7352653003,7.47607922622,52.8531532462",
@@ -296,7 +308,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454050",
+        "eurostat:nuts_2021_id":"03454050",
         "gn:id":6552920,
         "gp:id":654710,
         "qs_pg:id":104232,
@@ -321,7 +336,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ed5dfb9a3180b24ad721e4daf634f56",
+    "wof:geomhash":"7f23afdb5b795b0f37bfa947756f72f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101808007,
-    "wof:lastmodified":1582342606,
+    "wof:lastmodified":1684351863,
     "wof:name":"Stavern",
     "wof:parent_id":1377688601,
     "wof:placetype":"locality",
-    "wof:population":1070,
+    "wof:population":1064,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

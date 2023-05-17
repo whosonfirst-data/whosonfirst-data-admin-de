@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09279134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reisbach, M",
+    "eurostat:nuts_2021_id":"09279134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22C",
+    "eurostat:nuts_2021_level_lau":"09279134",
+    "eurostat:population":7771,
+    "eurostat:population_year":2020,
     "geom:area":0.011499,
-    "geom:area_square_m":94093214.42011,
+    "geom:area_square_m":94093214.420113,
     "geom:bbox":"12.526093,48.481405,12.717111,48.624839",
     "geom:latitude":48.568202,
     "geom:longitude":12.6324,
@@ -175,21 +187,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063343,
         1377685589,
         404227559,
-        85682571
+        102063343
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09279134",
+        "eurostat:nuts_2021_id":"09279134",
         "gn:id":2848621,
         "gp:id":687786,
         "qs_pg:id":906500,
@@ -204,7 +219,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4d2b1e81fcd83e88e1e7b760116980e1",
+    "wof:geomhash":"57e15bf963bd0bd4cc6010db826d67fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
         }
     ],
     "wof:id":101784437,
-    "wof:lastmodified":1608050673,
+    "wof:lastmodified":1684351833,
     "wof:name":"Reisbach",
     "wof:parent_id":1377685589,
     "wof:placetype":"locality",
-    "wof:population":7610,
+    "wof:population":7771,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

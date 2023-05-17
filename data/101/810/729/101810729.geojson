@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Anhausen",
+    "eurostat:nuts_2021_id":"07138002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138002",
+    "eurostat:population":1346,
+    "eurostat:population_year":2020,
     "geom:area":0.001194,
     "geom:area_square_m":9393878.183865,
     "geom:bbox":"7.51208266399,50.4839799522,7.57323112181,50.5220515833",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138002",
+        "eurostat:nuts_2021_id":"07138002",
         "gn:id":2956044,
         "gp:id":635194,
         "qs_pg:id":579971,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1a31a80dee3a11834482a2a2af315772",
+    "wof:geomhash":"d494d52e1182555d3c5e016f5f6079c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101810729,
-    "wof:lastmodified":1582342410,
+    "wof:lastmodified":1684351875,
     "wof:name":"Anhausen",
     "wof:parent_id":1377685653,
     "wof:placetype":"locality",
-    "wof:population":1324,
+    "wof:population":1346,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

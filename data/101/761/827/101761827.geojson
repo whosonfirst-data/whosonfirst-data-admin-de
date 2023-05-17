@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Calw, Stadt",
+    "eurostat:nuts_2021_id":"08235085",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235085",
+    "eurostat:population":23578,
+    "eurostat:population_year":2020,
     "geom:area":0.00728,
-    "geom:area_square_m":59401312.367957,
+    "geom:area_square_m":59401312.367956,
     "geom:bbox":"8.65807643036,48.6480825997,8.80523056632,48.7619363445",
     "geom:latitude":48.709525,
     "geom:longitude":8.736033,
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":347.0,
     "wd:latitude":48.714444,
     "wd:longitude":8.7375,
@@ -351,6 +364,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235085",
+        "eurostat:nuts_2021_id":"08235085",
         "gn:id":2940383,
         "gp:id":642991,
         "qs_pg:id":1343785,
@@ -362,7 +377,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d7817cfb49e798704a661a835630bd15",
+    "wof:geomhash":"b92894925c6872e82595f32daffe5947",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
         }
     ],
     "wof:id":101761827,
-    "wof:lastmodified":1582342510,
+    "wof:lastmodified":1684351805,
     "wof:name":"Calw",
     "wof:parent_id":1377688883,
     "wof:placetype":"locality",
-    "wof:population":22600,
+    "wof:population":23578,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

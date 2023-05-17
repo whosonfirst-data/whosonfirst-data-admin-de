@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143243",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hof",
+    "eurostat:nuts_2021_id":"07143243",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143243",
+    "eurostat:population":1196,
+    "eurostat:population_year":2020,
     "geom:area":0.001027,
-    "geom:area_square_m":8049451.884778,
+    "geom:area_square_m":8049534.235523,
     "geom:bbox":"7.984483,50.656724,8.03766,50.697001",
     "geom:latitude":50.673897,
     "geom:longitude":8.012652,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143243",
+        "eurostat:nuts_2021_id":"07143243",
         "gn:id":2902767,
         "gp:id":660685,
         "qs_pg:id":578599,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c5bca79f06e9e6e3bca4d2228ac11869",
+    "wof:geomhash":"988546b0d47763cc9d9fe5a81e4787c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101810753,
-    "wof:lastmodified":1636499971,
+    "wof:lastmodified":1684351875,
     "wof:name":"Hof",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":1284,
+    "wof:population":1196,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

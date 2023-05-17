@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00fcderhastedt",
+    "eurostat:nuts_2021_id":"01051110",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051110",
+    "eurostat:population":755,
+    "eurostat:population_year":2020,
     "geom:area":0.002143,
-    "geom:area_square_m":15551682.564542,
+    "geom:area_square_m":15551682.564541,
     "geom:bbox":"9.16054877932,54.0281730567,9.24508370176,54.0776127302",
     "geom:latitude":54.05433,
     "geom:longitude":9.208033,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051110",
+        "eurostat:nuts_2021_id":"01051110",
         "gn:id":2825142,
         "gp:id":698147,
         "qs_pg:id":576780,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c23123c9c7eac015c701858dc1a41395",
+    "wof:geomhash":"1bfdbdabf7ece0ab4ec339b5373d6329",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101906285,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351978,
     "wof:name":"S\u00fcderhastedt",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":860,
+    "wof:population":755,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

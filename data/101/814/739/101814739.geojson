@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad D\u00fcrkheim, Stadt",
+    "eurostat:nuts_2021_id":"07332002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332002",
+    "eurostat:population":18575,
+    "eurostat:population_year":2020,
     "geom:area":0.012599,
-    "geom:area_square_m":101271983.550048,
+    "geom:area_square_m":101271983.550052,
     "geom:bbox":"7.951261,49.399471,8.254433,49.504225",
     "geom:latitude":49.453989,
     "geom:longitude":8.087193,
@@ -327,20 +339,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063485,
         1377686233,
-        85682491
+        85633111,
+        102063485
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332002",
+        "eurostat:nuts_2021_id":"07332002",
         "fct:id":"0736c3a2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953522,
         "gp:id":636411,
@@ -356,7 +371,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a97e4570e52514093ad88f68cdf55352",
+    "wof:geomhash":"47d5bf38ed3e90e865af84b31757e70c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051310,
+    "wof:lastmodified":1684351893,
     "wof:name":"Bad D\u00fcrkheim",
     "wof:parent_id":1377686233,
     "wof:placetype":"locality",
-    "wof:population":18698,
+    "wof:population":18575,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

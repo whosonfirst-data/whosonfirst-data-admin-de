@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geiselbach",
+    "eurostat:nuts_2021_id":"09671119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671119",
+    "eurostat:population":2003,
+    "eurostat:population_year":2020,
     "geom:area":0.001578,
-    "geom:area_square_m":12511402.587059,
+    "geom:area_square_m":12511402.58706,
     "geom:bbox":"9.158747,50.096291,9.224732,50.146714",
     "geom:latitude":50.120054,
     "geom:longitude":9.195213,
@@ -157,22 +169,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":552,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690351,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671119",
+        "eurostat:nuts_2021_id":"09671119",
         "fct:id":"073fb278-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2921755,
         "gp:id":12635386,
@@ -187,7 +202,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d727d21013de348a19873f04eb8fccf2",
+    "wof:geomhash":"d6112f061dabcc15f0eb31546cff74a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049948,
+    "wof:lastmodified":1684351879,
     "wof:name":"Geiselbach",
     "wof:parent_id":1377690351,
     "wof:placetype":"locality",
-    "wof:population":2135,
+    "wof:population":2003,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Klosterlausnitz",
+    "eurostat:nuts_2021_id":"16074003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074003",
+    "eurostat:population":3405,
+    "eurostat:population_year":2020,
     "geom:area":0.002104,
     "geom:area_square_m":16402845.502929,
     "geom:bbox":"11.8101402016,50.8913367354,11.9175661352,50.9288800256",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074003",
+        "eurostat:nuts_2021_id":"16074003",
         "gn:id":2953421,
         "gp:id":636446,
         "qs_pg:id":37649,
@@ -176,7 +191,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"47b7f6e58002c04aefe8a0421e5daf3a",
+    "wof:geomhash":"6c209723c4ca6cb305d42e653853ffae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101841251,
-    "wof:lastmodified":1582342520,
+    "wof:lastmodified":1684351952,
     "wof:name":"Bad Klosterlausnitz",
     "wof:parent_id":1377690707,
     "wof:placetype":"locality",
-    "wof:population":3521,
+    "wof:population":3405,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

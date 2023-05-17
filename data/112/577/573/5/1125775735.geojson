@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwanheim",
+    "eurostat:nuts_2021_id":"07340047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340047",
+    "eurostat:population":590,
+    "eurostat:population_year":2020,
     "geom:area":0.000851,
     "geom:area_square_m":6883534.027144,
     "geom:bbox":"7.85513852518,49.1527751224,7.91328852055,49.1861672437",
@@ -264,7 +276,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -274,6 +287,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340047",
+        "eurostat:nuts_2021_id":"07340047",
         "gn:id":2835248,
         "qs_pg:id":1029412,
         "wd:id":"Q648624"
@@ -283,7 +298,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"45fc02df1dd21861a7bf01107f748971",
+    "wof:geomhash":"7c782e307caa9fc93bcb3344e53d0466",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":1125775735,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Schwanheim",
     "wof:parent_id":1377686751,
     "wof:placetype":"locality",
-    "wof:population":602,
+    "wof:population":590,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

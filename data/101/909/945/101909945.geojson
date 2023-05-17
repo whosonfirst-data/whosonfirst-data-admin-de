@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064420",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reitwein",
+    "eurostat:nuts_2021_id":"12064420",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064420",
+    "eurostat:population":465,
+    "eurostat:population_year":2020,
     "geom:area":0.003187,
-    "geom:area_square_m":23990765.350689,
+    "geom:area_square_m":23990765.350691,
     "geom:bbox":"14.5490788987,52.4693049958,14.6353706614,52.5258626493",
     "geom:latitude":52.497984,
     "geom:longitude":14.591463,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":87,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064420",
+        "eurostat:nuts_2021_id":"12064420",
         "gn:id":2848364,
         "gp:id":687885,
         "qs_pg:id":259675,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"350e13b91194ac84e889e7b161ab48c0",
+    "wof:geomhash":"1443f79389bd90f81e5bd95cfcd987c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101909945,
-    "wof:lastmodified":1582342293,
+    "wof:lastmodified":1684352003,
     "wof:name":"Reitwein",
     "wof:parent_id":1377694681,
     "wof:placetype":"locality",
-    "wof:population":531,
+    "wof:population":465,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

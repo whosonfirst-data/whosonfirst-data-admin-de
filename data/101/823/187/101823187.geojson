@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenberg, Stadt",
+    "eurostat:nuts_2021_id":"16074018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074018",
+    "eurostat:population":10849,
+    "eurostat:population_year":2020,
     "geom:area":0.003182,
-    "geom:area_square_m":24782467.686587,
+    "geom:area_square_m":24782467.68659,
     "geom:bbox":"11.8461199239,50.934323289,11.9329865264,50.9890567923",
     "geom:latitude":50.961955,
     "geom:longitude":11.891702,
@@ -198,7 +210,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":111,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -213,6 +226,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074018",
+        "eurostat:nuts_2021_id":"16074018",
         "gn:id":2931521,
         "gp:id":647334,
         "qs_pg:id":1256698,
@@ -224,7 +239,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dfbf1d6d322a74c18587099a1b37f1b5",
+    "wof:geomhash":"a14d93acfc67095d5ecc9d6ec0ba680c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -236,11 +251,11 @@
         }
     ],
     "wof:id":101823187,
-    "wof:lastmodified":1582342532,
+    "wof:lastmodified":1684351924,
     "wof:name":"Eisenberg",
     "wof:parent_id":1377690697,
     "wof:placetype":"locality",
-    "wof:population":11438,
+    "wof:population":10849,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

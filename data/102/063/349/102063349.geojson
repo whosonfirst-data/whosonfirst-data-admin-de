@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Stuttgart, Stadtkreis",
+    "eurostat:name_local":"Stuttgart, Stadtkreis",
+    "eurostat:nuts_2021_id":"DE111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE111",
+    "eurostat:population":626275,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.025666,
-    "geom:area_square_m":209149264.889308,
+    "geom:area_square_m":209149264.889301,
     "geom:bbox":"9.038994,48.689956,9.315387,48.867249",
     "geom:latitude":48.774575,
     "geom:longitude":9.172065,
@@ -471,8 +485,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"207",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Stuttgart",
@@ -485,12 +499,13 @@
     "statoids:type":"urban district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227549,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE111",
         "hasc:id":"DE.BW.SU",
         "wd:id":"Q1022"
     },
@@ -502,7 +517,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6360d7800516db04dc1fb4636820c0dc",
+    "wof:geomhash":"a3e022bba4933e9b99061d280e001a18",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -513,12 +528,12 @@
         }
     ],
     "wof:id":102063349,
-    "wof:lastmodified":1608052867,
+    "wof:lastmodified":1684351511,
     "wof:name":"Stuttgart",
     "wof:parent_id":404227549,
     "wof:placetype":"county",
     "wof:placetype_local":"urban district",
-    "wof:population":585890,
+    "wof:population":626275,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"SU",

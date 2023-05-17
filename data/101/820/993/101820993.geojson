@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15091010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Annaburg, Stadt",
+    "eurostat:nuts_2021_id":"15091010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0E",
+    "eurostat:nuts_2021_level_lau":"15091010",
+    "eurostat:population":6629,
+    "eurostat:population_year":2020,
     "geom:area":0.029434,
-    "geom:area_square_m":225537355.249369,
+    "geom:area_square_m":225537355.249349,
     "geom:bbox":"12.829713,51.637303,13.187072,51.780627",
     "geom:latitude":51.707259,
     "geom:longitude":13.015624,
@@ -312,17 +324,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":443,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063859,
         1377689253,
-        85682519
+        85633111,
+        102063859
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15091010",
+        "eurostat:nuts_2021_id":"15091010",
         "gn:id":2955999,
         "gp:id":635215,
         "qs_pg:id":345062,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"adfe2a7e37fe79021f9c01dd012d0c57",
+    "wof:geomhash":"14ade8f76886359c14cf811f05caac24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,12 +364,12 @@
         }
     ],
     "wof:id":101820993,
-    "wof:lastmodified":1608049876,
+    "wof:lastmodified":1684351915,
     "wof:name":"Annaburg",
     "wof:parent_id":1377689253,
     "wof:placetype":"locality",
-    "wof:population":3512,
-    "wof:population_rank":4,
+    "wof:population":6629,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

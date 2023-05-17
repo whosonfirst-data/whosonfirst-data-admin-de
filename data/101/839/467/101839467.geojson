@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Betzdorf, Stadt",
+    "eurostat:nuts_2021_id":"07132006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132006",
+    "eurostat:population":10064,
+    "eurostat:population_year":2020,
     "geom:area":0.001212,
-    "geom:area_square_m":9474897.440494,
+    "geom:area_square_m":9474897.440495,
     "geom:bbox":"7.82767902704,50.7618693252,7.88865468931,50.8038032154",
     "geom:latitude":50.783509,
     "geom:longitude":7.86112,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":23,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132006",
+        "eurostat:nuts_2021_id":"07132006",
         "gn:id":2949669,
         "gp:id":638544,
         "qs_pg:id":1343668,
@@ -183,7 +198,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c64caf6db0148a74d0498d390629b1aa",
+    "wof:geomhash":"d653ed327362cc234dd3323fd2a1df20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,11 +210,11 @@
         }
     ],
     "wof:id":101839467,
-    "wof:lastmodified":1582342625,
+    "wof:lastmodified":1684351947,
     "wof:name":"Betzdorf",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":10560,
+    "wof:population":10064,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

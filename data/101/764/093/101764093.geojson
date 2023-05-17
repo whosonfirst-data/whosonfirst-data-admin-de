@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wehingen",
+    "eurostat:nuts_2021_id":"08327051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327051",
+    "eurostat:population":3667,
+    "eurostat:population_year":2020,
     "geom:area":0.001763,
-    "geom:area_square_m":14543924.761844,
+    "geom:area_square_m":14543924.761845,
     "geom:bbox":"8.76908110757,48.1264485452,8.84142942154,48.1724111148",
     "geom:latitude":48.147989,
     "geom:longitude":8.804299,
@@ -142,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327051",
+        "eurostat:nuts_2021_id":"08327051",
         "fct:id":"07159664-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2813308,
         "gp:id":12623508,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"41c9c0b70a63ffe16e7323ca6ad0feb8",
+    "wof:geomhash":"f674d158cbb80bbbb38821bf445f57d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351812,
     "wof:name":"Wehingen",
     "wof:parent_id":1377689605,
     "wof:placetype":"locality",
-    "wof:population":3731,
+    "wof:population":3667,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

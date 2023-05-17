@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stein-Wingert",
+    "eurostat:nuts_2021_id":"07143296",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143296",
+    "eurostat:population":238,
+    "eurostat:population_year":2020,
     "geom:area":0.000448,
     "geom:area_square_m":3505123.17908,
     "geom:bbox":"7.71626628823,50.7084631194,7.75094006093,50.7343085968",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -131,6 +144,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143296",
+        "eurostat:nuts_2021_id":"07143296",
         "gn:id":2827608,
         "gp:id":696592,
         "qs_pg:id":1151664,
@@ -144,7 +159,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d06bf0f736ca0756351f09f0b8f29675",
+    "wof:geomhash":"163f16bf4135d69ed8140e58e8c9be1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":1125967717,
-    "wof:lastmodified":1582343010,
+    "wof:lastmodified":1684352041,
     "wof:name":"Stein-Wingert",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":215,
+    "wof:population":238,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

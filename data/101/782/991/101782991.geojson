@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09186122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geisenfeld, St",
+    "eurostat:nuts_2021_id":"09186122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21J",
+    "eurostat:nuts_2021_level_lau":"09186122",
+    "eurostat:population":11473,
+    "eurostat:population_year":2020,
     "geom:area":0.010793,
-    "geom:area_square_m":88112293.194022,
+    "geom:area_square_m":88112293.194024,
     "geom:bbox":"11.538533,48.630226,11.71262,48.74909",
     "geom:latitude":48.68387,
     "geom:longitude":11.619838,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":107,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063335,
         1377693913,
         404227567,
-        85682571
+        102063335
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09186122",
+        "eurostat:nuts_2021_id":"09186122",
         "gn:id":2921713,
         "gp:id":651930,
         "qs_pg:id":470316,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"333789650c81ea94d30a69444cde085c",
+    "wof:geomhash":"6b57b195cf37db53a9d5f1ffb8f8277a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,12 +368,12 @@
         }
     ],
     "wof:id":101782991,
-    "wof:lastmodified":1608050500,
+    "wof:lastmodified":1684351825,
     "wof:name":"Geisenfeld",
     "wof:parent_id":1377693913,
     "wof:placetype":"locality",
-    "wof:population":9769,
-    "wof:population_rank":5,
+    "wof:population":11473,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

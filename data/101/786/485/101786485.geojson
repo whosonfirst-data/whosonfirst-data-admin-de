@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09189152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tittmoning, St",
+    "eurostat:nuts_2021_id":"09189152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21M",
+    "eurostat:nuts_2021_level_lau":"09189152",
+    "eurostat:population":5823,
+    "eurostat:population_year":2020,
     "geom:area":0.008686,
-    "geom:area_square_m":71803069.504857,
+    "geom:area_square_m":71803069.504859,
     "geom:bbox":"12.680556,47.98551,12.808436,48.114357",
     "geom:latitude":48.046725,
     "geom:longitude":12.740122,
@@ -171,18 +183,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":394,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063251,
         1377683495,
         404227567,
-        85682571
+        102063251
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09189152",
+        "eurostat:nuts_2021_id":"09189152",
         "gn:id":2822075,
         "gp:id":699557,
         "qs_pg:id":316449,
@@ -196,7 +211,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"757e72e59279a90d9a1adf2200a2f7eb",
+    "wof:geomhash":"fbcbbb755682a59cb1e739ea0fe98dc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101786485,
-    "wof:lastmodified":1608051937,
+    "wof:lastmodified":1684351838,
     "wof:name":"Tittmoning",
     "wof:parent_id":1377683495,
     "wof:placetype":"locality",
-    "wof:population":6084,
+    "wof:population":5823,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

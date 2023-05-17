@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00fcm, Stadt",
+    "eurostat:nuts_2021_id":"07232296",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232296",
+    "eurostat:population":5510,
+    "eurostat:population_year":2020,
     "geom:area":0.002881,
     "geom:area_square_m":22801440.93427,
     "geom:bbox":"6.34893652893,50.1754602002,6.45726101413,50.2339589836",
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":355,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232296",
+        "eurostat:nuts_2021_id":"07232296",
         "gn:id":2851826,
         "gp:id":686142,
         "qs_pg:id":245681,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"40cd9d945f6c7dde412ca976a290ae2e",
+    "wof:geomhash":"f3c0bc4791716b6aeab448409dae2327",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101812025,
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351881,
     "wof:name":"Pr\u00fcm",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":5471,
+    "wof:population":5510,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

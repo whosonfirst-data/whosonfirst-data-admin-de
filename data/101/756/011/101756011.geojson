@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05954008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ennepetal, Stadt der Kluterth\u00f6hle",
+    "eurostat:nuts_2021_id":"05954008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA56",
+    "eurostat:nuts_2021_level_lau":"05954008",
+    "eurostat:population":30142,
+    "eurostat:population_year":2020,
     "geom:area":0.007458,
-    "geom:area_square_m":57681168.948724,
+    "geom:area_square_m":57681168.948726,
     "geom:bbox":"7.296837,51.238784,7.432432,51.331665",
     "geom:latitude":51.28261,
     "geom:longitude":7.365543,
@@ -308,22 +320,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":248,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063779,
         1377692131,
         404227579,
-        85682513
+        102063779
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05954008",
+        "eurostat:nuts_2021_id":"05954008",
         "gn:id":2930043,
         "gp:id":648131,
         "qs_pg:id":969457,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b6ea814e4580d7665dd1ed5398ec8b6",
+    "wof:geomhash":"c56d3859fab8968b37b5293f9a630f94",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101756011,
-    "wof:lastmodified":1608050831,
+    "wof:lastmodified":1684351792,
     "wof:name":"Ennepetal",
     "wof:parent_id":1377692131,
     "wof:placetype":"locality",
-    "wof:population":32607,
+    "wof:population":30142,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

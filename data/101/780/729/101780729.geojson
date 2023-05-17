@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geslau",
+    "eurostat:nuts_2021_id":"09571155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571155",
+    "eurostat:population":1322,
+    "eurostat:population_year":2020,
     "geom:area":0.005184,
     "geom:area_square_m":41745751.645586,
     "geom:bbox":"10.2487431361,49.3306274648,10.3734940832,49.394262115",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571155",
+        "eurostat:nuts_2021_id":"09571155",
         "fct:id":"073ff986-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2920830,
         "gp:id":12634403,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c259400722486cdd4a78253aa2fd3c8",
+    "wof:geomhash":"71732e5ff86eac5ee34ba3ee9533879a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342651,
+    "wof:lastmodified":1684351819,
     "wof:name":"Geslau",
     "wof:parent_id":1377689017,
     "wof:placetype":"locality",
-    "wof:population":1424,
+    "wof:population":1322,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

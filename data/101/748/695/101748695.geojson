@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Iserlohn, Stadt",
+    "eurostat:nuts_2021_id":"05962024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962024",
+    "eurostat:population":92174,
+    "eurostat:population_year":2020,
     "geom:area":0.016182,
-    "geom:area_square_m":124870294.323864,
+    "geom:area_square_m":124870294.323861,
     "geom:bbox":"7.584788,51.30173,7.744362,51.473559",
     "geom:latitude":51.386947,
     "geom:longitude":7.669733,
@@ -343,22 +355,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":818,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692353,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962024",
+        "eurostat:nuts_2021_id":"05962024",
         "gn:id":2895669,
         "gp:id":663738,
         "qs_pg:id":578456,
@@ -373,7 +388,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7dcc9439f77ee690f6f41b668b65189f",
+    "wof:geomhash":"d951cbc93f54f4c1c3baf0618492d94f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -386,11 +401,11 @@
         }
     ],
     "wof:id":101748695,
-    "wof:lastmodified":1608050565,
+    "wof:lastmodified":1684351788,
     "wof:name":"Iserlohn",
     "wof:parent_id":1377692353,
     "wof:placetype":"locality",
-    "wof:population":97910,
+    "wof:population":92174,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

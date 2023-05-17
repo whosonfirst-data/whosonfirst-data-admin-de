@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brieselang",
+    "eurostat:nuts_2021_id":"12063036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063036",
+    "eurostat:population":12193,
+    "eurostat:population_year":2020,
     "geom:area":0.005912,
-    "geom:area_square_m":44411544.321238,
+    "geom:area_square_m":44411544.321233,
     "geom:bbox":"12.898627,52.558577,13.050541,52.615658",
     "geom:latitude":52.589374,
     "geom:longitude":12.970003,
@@ -298,21 +310,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":104,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063953,
         1377694571,
-        85682553
+        85633111,
+        102063953
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063036",
+        "eurostat:nuts_2021_id":"12063036",
         "gn:id":2944126,
         "gp:id":641281,
         "qs_pg:id":847689,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0f03bb61bceb253195d27d46ce462fbf",
+    "wof:geomhash":"391188fe7c384104870162b4f4191ab6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101819851,
-    "wof:lastmodified":1608050252,
+    "wof:lastmodified":1684351909,
     "wof:name":"Brieselang",
     "wof:parent_id":1377694571,
     "wof:placetype":"locality",
-    "wof:population":10379,
+    "wof:population":12193,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625500",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ralbitz-Rosenthal",
+    "eurostat:nuts_2021_id":"14625500",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625500",
+    "eurostat:population":1702,
+    "eurostat:population_year":2020,
     "geom:area":0.004096,
-    "geom:area_square_m":31663521.581556,
+    "geom:area_square_m":31663521.581559,
     "geom:bbox":"14.1737327662,51.2641970812,14.2713869549,51.3399225596",
     "geom:latitude":51.306156,
     "geom:longitude":14.234489,
@@ -156,7 +168,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":125,
     "wof:belongsto":[
         85682523,
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625500",
+        "eurostat:nuts_2021_id":"14625500",
         "gn:id":6548729,
         "gp:id":689645,
         "qs_pg:id":631205,
@@ -178,7 +193,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"edf61aa531fbf59200ca67c0879378d9",
+    "wof:geomhash":"59a01940c4ecbc843469455158d00590",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101863115,
-    "wof:lastmodified":1582342631,
+    "wof:lastmodified":1684351969,
     "wof:name":"Ralbitz-Rosenthal",
     "wof:parent_id":1377687001,
     "wof:placetype":"locality",
-    "wof:population":1706,
+    "wof:population":1702,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

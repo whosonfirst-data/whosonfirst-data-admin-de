@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12052000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cottbus, Stadt",
+    "eurostat:nuts_2021_id":"12052000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE402",
+    "eurostat:nuts_2021_level_lau":"12052000",
+    "eurostat:population":99678,
+    "eurostat:population_year":2020,
     "geom:area":0.021494,
     "geom:area_square_m":164460901.766356,
     "geom:bbox":"14.273307,51.692482,14.501343,51.864162",
@@ -497,7 +509,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -511,6 +524,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12052000",
+        "eurostat:nuts_2021_id":"12052000",
         "gn:id":2939811,
         "gp:id":643312,
         "qs_pg:id":455616,
@@ -526,7 +541,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c7cecdadddf484a3956a258b4b46b6f3",
+    "wof:geomhash":"77379878a691f67f24f285532f548d9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -538,11 +553,11 @@
         }
     ],
     "wof:id":101748763,
-    "wof:lastmodified":1636499972,
+    "wof:lastmodified":1684351788,
     "wof:name":"Cottbus",
     "wof:parent_id":1377694173,
     "wof:placetype":"locality",
-    "wof:population":84754,
+    "wof:population":99678,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

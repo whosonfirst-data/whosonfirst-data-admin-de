@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schindhard",
+    "eurostat:nuts_2021_id":"07340043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340043",
+    "eurostat:population":528,
+    "eurostat:population_year":2020,
     "geom:area":0.000536,
     "geom:area_square_m":4332929.651012,
     "geom:bbox":"7.80118996975,49.124646885,7.837444796,49.1500843338",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340043",
+        "eurostat:nuts_2021_id":"07340043",
         "gn:id":2839124,
         "gp:id":691936,
         "qs_pg:id":577066,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c2fc2b4fe1ee29334273231b37a1e956",
+    "wof:geomhash":"edca16c8715b7b64389a8ee13489c879",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101905979,
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351975,
     "wof:name":"Schindhard",
     "wof:parent_id":1377686741,
     "wof:placetype":"locality",
-    "wof:population":634,
+    "wof:population":528,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

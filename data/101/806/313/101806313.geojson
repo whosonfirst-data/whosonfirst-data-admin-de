@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leer (Ostfriesland), Stadt",
+    "eurostat:nuts_2021_id":"03457013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457013",
+    "eurostat:population":34786,
+    "eurostat:population_year":2020,
     "geom:area":0.009451,
-    "geom:area_square_m":69929438.299391,
+    "geom:area_square_m":69929438.299381,
     "geom:bbox":"7.3666439757,53.2028500877,7.54344080161,53.2923304372",
     "geom:latitude":53.24364,
     "geom:longitude":7.461283,
@@ -324,7 +336,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457013",
+        "eurostat:nuts_2021_id":"03457013",
         "gn:id":2879697,
         "gp:id":670807,
         "qs_pg:id":455865,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92624599db78e83a3e292a101a26e8ea",
+    "wof:geomhash":"f0c6c6f25d11d49da074932d86ad5e70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101806313,
-    "wof:lastmodified":1582342616,
+    "wof:lastmodified":1684351849,
     "wof:name":"Leer (Ostfriesland)",
     "wof:parent_id":1377688785,
     "wof:placetype":"locality",
-    "wof:population":33886,
+    "wof:population":34786,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

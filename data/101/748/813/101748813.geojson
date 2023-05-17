@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12051000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brandenburg an der Havel, Stadt",
+    "eurostat:nuts_2021_id":"12051000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE401",
+    "eurostat:nuts_2021_level_lau":"12051000",
+    "eurostat:population":72184,
+    "eurostat:population_year":2020,
     "geom:area":0.03028,
-    "geom:area_square_m":228433136.285755,
+    "geom:area_square_m":228433136.285765,
     "geom:bbox":"12.3611800882,52.3115119182,12.7242568188,52.5409082592",
     "geom:latitude":52.402713,
     "geom:longitude":12.519327,
@@ -378,7 +390,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -392,6 +405,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12051000",
+        "eurostat:nuts_2021_id":"12051000",
         "gn:id":2857129,
         "gp:id":640720,
         "qs_pg:id":279302,
@@ -409,7 +424,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8510c79703a074b40d49a994fadc4f12",
+    "wof:geomhash":"19b047e4c42c018b7d48afed71970398",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -421,11 +436,11 @@
         }
     ],
     "wof:id":101748813,
-    "wof:lastmodified":1582342472,
+    "wof:lastmodified":1684351789,
     "wof:name":"Brandenburg an der Havel",
     "wof:parent_id":1377694165,
     "wof:placetype":"locality",
-    "wof:population":59826,
+    "wof:population":72184,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

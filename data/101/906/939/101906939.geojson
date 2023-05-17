@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuh\u00fctten",
+    "eurostat:nuts_2021_id":"07235093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235093",
+    "eurostat:population":732,
+    "eurostat:population_year":2020,
     "geom:area":0.001318,
     "geom:area_square_m":10549392.666459,
     "geom:bbox":"7.00102363048,49.6283584414,7.06512474259,49.6893019465",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":570,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235093",
+        "eurostat:nuts_2021_id":"07235093",
         "gn:id":2864828,
         "gp:id":678628,
         "qs_pg:id":93362,
@@ -159,7 +174,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"91bcf9e7e8997ffcbff9edbe2ed2ba64",
+    "wof:geomhash":"57a5365bd1cc89492ef72de9e09c8757",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906939,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351983,
     "wof:name":"Neuh\u00fctten",
     "wof:parent_id":1377686019,
     "wof:placetype":"locality",
-    "wof:population":831,
+    "wof:population":732,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

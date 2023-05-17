@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hottenbach",
+    "eurostat:nuts_2021_id":"07134044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134044",
+    "eurostat:population":575,
+    "eurostat:population_year":2020,
     "geom:area":0.001399,
-    "geom:area_square_m":11157564.87892,
+    "geom:area_square_m":11157564.878919,
     "geom:bbox":"7.22639052458,49.8126424048,7.32885381033,49.8423388514",
     "geom:latitude":49.829099,
     "geom:longitude":7.282442,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2216,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134044",
+        "eurostat:nuts_2021_id":"07134044",
         "gn:id":2898431,
         "gp:id":662544,
         "qs_pg:id":578502,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bf83844cc8d1aa8213c7fc0ae28cf980",
+    "wof:geomhash":"1df74ac93ac7f2c9a6504a77357caddf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906861,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351982,
     "wof:name":"Hottenbach",
     "wof:parent_id":1377685475,
     "wof:placetype":"locality",
-    "wof:population":677,
+    "wof:population":575,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

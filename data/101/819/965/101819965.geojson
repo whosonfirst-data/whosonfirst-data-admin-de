@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klietz",
+    "eurostat:nuts_2021_id":"15090310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090310",
+    "eurostat:population":1739,
+    "eurostat:population_year":2020,
     "geom:area":0.008811,
-    "geom:area_square_m":66071956.536072,
+    "geom:area_square_m":66071956.536071,
     "geom:bbox":"12.0110992372,52.6202530154,12.150145113,52.7160694856",
     "geom:latitude":52.669121,
     "geom:longitude":12.070871,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682519,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090310",
+        "eurostat:nuts_2021_id":"15090310",
         "gn:id":2887805,
         "gp:id":20163516,
         "qs_pg:id":578266,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f80b01b7496d9ab8624f08872d1910e1",
+    "wof:geomhash":"0ae975a499b3258c7681a0e48e6c8269",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101819965,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351910,
     "wof:name":"Klietz",
     "wof:parent_id":1377689237,
     "wof:placetype":"locality",
-    "wof:population":1618,
+    "wof:population":1739,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

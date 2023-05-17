@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14713000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leipzig, Stadt",
+    "eurostat:nuts_2021_id":"14713000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED51",
+    "eurostat:nuts_2021_level_lau":"14713000",
+    "eurostat:population":593145,
+    "eurostat:population_year":2020,
     "geom:area":0.038574,
-    "geom:area_square_m":297949095.469722,
+    "geom:area_square_m":297949095.469716,
     "geom:bbox":"12.236881,51.238154,12.542607,51.448067",
     "geom:latitude":51.342204,
     "geom:longitude":12.374771,
@@ -630,17 +642,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064225,
         1377687677,
-        85682523
+        85633111,
+        102064225
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "dbp:id":"Leipzig",
+        "eg:gisco_id":"DE_14713000",
+        "eurostat:nuts_2021_id":"14713000",
         "fb:id":"en.leipzig",
         "fct:id":"074a8234-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2879139,
@@ -660,7 +675,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"556da1d4b199888189e06120ff328b52",
+    "wof:geomhash":"4a399311c5b08ce7299ac774d20e2f9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -675,11 +690,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050581,
+    "wof:lastmodified":1684351787,
     "wof:name":"Leipzig",
     "wof:parent_id":1377687677,
     "wof:placetype":"locality",
-    "wof:population":504971,
+    "wof:population":593145,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

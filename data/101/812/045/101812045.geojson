@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06434013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilrod",
+    "eurostat:nuts_2021_id":"06434013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE718",
+    "eurostat:nuts_2021_level_lau":"06434013",
+    "eurostat:population":6493,
+    "eurostat:population_year":2020,
     "geom:area":0.008971,
     "geom:area_square_m":70808798.825109,
     "geom:bbox":"8.315194,50.274716,8.46592,50.387157",
@@ -289,18 +301,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":533,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063617,
         1377693463,
         404227581,
-        85682531
+        102063617
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06434013",
+        "eurostat:nuts_2021_id":"06434013",
         "gn:id":3208136,
         "gp:id":15002834,
         "qs_pg:id":1152333,
@@ -318,7 +333,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"86a400a0f7e3289e4af7a79c1745090e",
+    "wof:geomhash":"bac2db410cbc43a94cf89877ed6ca93c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101812045,
-    "wof:lastmodified":1608051214,
+    "wof:lastmodified":1684351881,
     "wof:name":"Weilrod",
     "wof:parent_id":1377693463,
     "wof:placetype":"locality",
-    "wof:population":6213,
+    "wof:population":6493,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

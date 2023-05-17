@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagen",
+    "eurostat:nuts_2021_id":"01060031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060031",
+    "eurostat:population":482,
+    "eurostat:population_year":2020,
     "geom:area":0.001112,
-    "geom:area_square_m":8090339.698747,
+    "geom:area_square_m":8090339.698749,
     "geom:bbox":"9.80147324192,53.9243284661,9.8677741239,53.9612350343",
     "geom:latitude":53.944726,
     "geom:longitude":9.832194,
@@ -276,7 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -286,6 +299,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060031",
+        "eurostat:nuts_2021_id":"01060031",
         "gn:id":2912605,
         "gp:id":656365,
         "qs_pg:id":578811,
@@ -296,7 +311,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a8592118f97143078d4677c8f4ac5727",
+    "wof:geomhash":"045061c041e4a07a358f5ac2bb148a71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -308,11 +323,11 @@
         }
     ],
     "wof:id":101906205,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351977,
     "wof:name":"Hagen",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":381,
+    "wof:population":482,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

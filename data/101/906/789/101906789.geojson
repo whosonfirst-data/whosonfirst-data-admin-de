@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wahnwegen",
+    "eurostat:nuts_2021_id":"07336101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336101",
+    "eurostat:population":690,
+    "eurostat:population_year":2020,
     "geom:area":0.000586,
     "geom:area_square_m":4708084.676256,
     "geom:bbox":"7.35893000887,49.462102378,7.38725427069,49.4989419479",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2803,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336101",
+        "eurostat:nuts_2021_id":"07336101",
         "gn:id":2815369,
         "gp:id":703259,
         "qs_pg:id":576569,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4fad3668ddd35270584bd26c0d347d51",
+    "wof:geomhash":"543089c4b048d311c5d790412305975a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906789,
-    "wof:lastmodified":1582342333,
+    "wof:lastmodified":1684351981,
     "wof:name":"Wahnwegen",
     "wof:parent_id":1377686491,
     "wof:placetype":"locality",
-    "wof:population":728,
+    "wof:population":690,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

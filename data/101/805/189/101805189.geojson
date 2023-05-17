@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcrschau",
+    "eurostat:nuts_2021_id":"01059057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059057",
+    "eurostat:population":1105,
+    "eurostat:population_year":2020,
     "geom:area":0.002319,
-    "geom:area_square_m":16630718.014955,
+    "geom:area_square_m":16630718.014958,
     "geom:bbox":"9.42689526066,54.5252836722,9.54529651665,54.5654205855",
     "geom:latitude":54.545089,
     "geom:longitude":9.483042,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":78,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059057",
+        "eurostat:nuts_2021_id":"01059057",
         "gn:id":2875027,
         "gp:id":29351493,
         "qs_pg:id":142173,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e04ffb4e1b6e1e1a83be0b647f8adab6",
+    "wof:geomhash":"69be76694bc7838e01d2ba23efb9f4e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101805189,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351848,
     "wof:name":"L\u00fcrschau",
     "wof:parent_id":1377684455,
     "wof:placetype":"locality",
-    "wof:population":1101,
+    "wof:population":1105,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

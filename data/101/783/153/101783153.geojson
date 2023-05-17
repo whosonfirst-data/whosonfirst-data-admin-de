@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wemding, St",
+    "eurostat:nuts_2021_id":"09779228",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779228",
+    "eurostat:population":5828,
+    "eurostat:population_year":2020,
     "geom:area":0.003897,
-    "geom:area_square_m":31687489.35069,
+    "geom:area_square_m":31687489.350692,
     "geom:bbox":"10.662211344,48.8491328315,10.775971162,48.9081804913",
     "geom:latitude":48.877901,
     "geom:longitude":10.70929,
@@ -178,7 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":120,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -194,6 +207,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779228",
+        "eurostat:nuts_2021_id":"09779228",
         "gn:id":2811342,
         "gp:id":705210,
         "qs_pg:id":1038104,
@@ -205,7 +220,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b03ac7abbaacc0d5f87ba9f85064bafe",
+    "wof:geomhash":"2286ddd60411922d27947b74f47473ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101783153,
-    "wof:lastmodified":1582342478,
+    "wof:lastmodified":1684351827,
     "wof:name":"Wemding",
     "wof:parent_id":1377693419,
     "wof:placetype":"locality",
-    "wof:population":5669,
+    "wof:population":5828,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

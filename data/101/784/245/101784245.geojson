@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bayerbach",
+    "eurostat:nuts_2021_id":"09277112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277112",
+    "eurostat:population":1689,
+    "eurostat:population_year":2020,
     "geom:area":0.002356,
     "geom:area_square_m":19340272.776952,
     "geom:bbox":"13.088388418,48.3900897422,13.1746741796,48.4359967131",
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682571,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277112",
+        "eurostat:nuts_2021_id":"09277112",
         "gn:id":2951856,
         "gp:id":637275,
         "qs_pg:id":301130,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"243ec041d555840b9fafa2831a0d0dd2",
+    "wof:geomhash":"c19a1c1a11f6c07b420bf6f8e5909dde",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101784245,
-    "wof:lastmodified":1582342483,
+    "wof:lastmodified":1684351831,
     "wof:name":"Bayerbach",
     "wof:parent_id":1377685257,
     "wof:placetype":"locality",
-    "wof:population":1651,
+    "wof:population":1689,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

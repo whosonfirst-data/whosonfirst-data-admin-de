@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Naunhof, Stadt",
+    "eurostat:nuts_2021_id":"14729300",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729300",
+    "eurostat:population":8774,
+    "eurostat:population_year":2020,
     "geom:area":0.005,
     "geom:area_square_m":38667681.706188,
     "geom:bbox":"12.5141044344,51.2478076721,12.6753593989,51.3157263636",
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -190,6 +203,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729300",
+        "eurostat:nuts_2021_id":"14729300",
         "gn:id":2866862,
         "gp:id":677255,
         "qs_pg:id":1013860,
@@ -204,7 +219,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"70d98eabb6cc1253bce20274bb09d140",
+    "wof:geomhash":"db10a6df5dc27c29cf1efe365e4d67cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101822029,
-    "wof:lastmodified":1582342582,
+    "wof:lastmodified":1684351919,
     "wof:name":"Naunhof",
     "wof:parent_id":1377687901,
     "wof:placetype":"locality",
-    "wof:population":8753,
+    "wof:population":8774,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

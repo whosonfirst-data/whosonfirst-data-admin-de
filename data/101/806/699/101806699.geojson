@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kollmar",
+    "eurostat:nuts_2021_id":"01061118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061118",
+    "eurostat:population":1676,
+    "eurostat:population_year":2020,
     "geom:area":0.003477,
-    "geom:area_square_m":25423362.938735,
+    "geom:area_square_m":25423362.938734,
     "geom:bbox":"9.43339288582,53.7194980866,9.55091606228,53.767688583",
     "geom:latitude":53.747863,
     "geom:longitude":9.488913,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061118",
+        "eurostat:nuts_2021_id":"01061118",
         "gn:id":2886303,
         "gp:id":667902,
         "qs_pg:id":1147782,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9d2526a7929937a3b3a218521dae844f",
+    "wof:geomhash":"9c551b2700ea38775508c16a3ddefe05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101806699,
-    "wof:lastmodified":1582342620,
+    "wof:lastmodified":1684351854,
     "wof:name":"Kollmar",
     "wof:parent_id":1377684663,
     "wof:placetype":"locality",
-    "wof:population":1793,
+    "wof:population":1676,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

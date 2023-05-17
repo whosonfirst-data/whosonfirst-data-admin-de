@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Glinde, Stadt",
+    "eurostat:nuts_2021_id":"01062018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062018",
+    "eurostat:population":18466,
+    "eurostat:population_year":2020,
     "geom:area":0.001438,
-    "geom:area_square_m":10566711.04781,
+    "geom:area_square_m":10566711.047811,
     "geom:bbox":"10.179555,53.520047,10.236186,53.558326",
     "geom:latitude":53.540082,
     "geom:longitude":10.21246,
@@ -153,17 +165,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684739,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062018",
+        "eurostat:nuts_2021_id":"01062018",
         "gn:id":2919880,
         "gp:id":652846,
         "qs_pg:id":944897,
@@ -178,7 +193,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4e91eeceb138b0862e7fef48b5fbda52",
+    "wof:geomhash":"fdfe8bdae56fffebfece240dd6fac794",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101756537,
-    "wof:lastmodified":1608050821,
+    "wof:lastmodified":1684351796,
     "wof:name":"Glinde",
     "wof:parent_id":1377684739,
     "wof:placetype":"locality",
-    "wof:population":16210,
+    "wof:population":18466,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Felde",
+    "eurostat:nuts_2021_id":"01058050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058050",
+    "eurostat:population":2121,
+    "eurostat:population_year":2020,
     "geom:area":0.00194,
-    "geom:area_square_m":13993852.019975,
+    "geom:area_square_m":13993852.019976,
     "geom:bbox":"9.88150208861,54.282317419,9.96221332137,54.327338937",
     "geom:latitude":54.307638,
     "geom:longitude":9.926597,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682517,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058050",
+        "eurostat:nuts_2021_id":"01058050",
         "gn:id":2927430,
         "gp:id":640759,
         "qs_pg:id":352682,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c641786f255d2f5abed84bf1ecdfd900",
+    "wof:geomhash":"d19a13cee5d18a0360b5aea5c7d157f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101805167,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351847,
     "wof:name":"Felde",
     "wof:parent_id":1377684187,
     "wof:placetype":"locality",
-    "wof:population":2159,
+    "wof:population":2121,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

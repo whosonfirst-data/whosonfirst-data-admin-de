@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wurmannsquick, M",
+    "eurostat:nuts_2021_id":"09277153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277153",
+    "eurostat:population":3520,
+    "eurostat:population_year":2020,
     "geom:area":0.006001,
-    "geom:area_square_m":49309840.289871,
+    "geom:area_square_m":49309840.289873,
     "geom:bbox":"12.737615,48.312623,12.876581,48.390575",
     "geom:latitude":48.355679,
     "geom:longitude":12.811859,
@@ -304,18 +316,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685223,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277153",
+        "eurostat:nuts_2021_id":"09277153",
         "gn:id":2805694,
         "gp:id":708251,
         "qs_pg:id":755108,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c2daa699799faa069fa77a7f0ceaefc5",
+    "wof:geomhash":"2fcc1ffa25e736a00d39b0a179bf792a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101785559,
-    "wof:lastmodified":1608050456,
+    "wof:lastmodified":1684351837,
     "wof:name":"Wurmannsquick",
     "wof:parent_id":1377685223,
     "wof:placetype":"locality",
-    "wof:population":3710,
+    "wof:population":3520,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

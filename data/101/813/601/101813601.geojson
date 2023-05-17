@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Urspringen",
+    "eurostat:nuts_2021_id":"09677193",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677193",
+    "eurostat:population":1400,
+    "eurostat:population_year":2020,
     "geom:area":0.002235,
-    "geom:area_square_m":17802787.67268,
+    "geom:area_square_m":17802787.672679,
     "geom:bbox":"9.65000624985,49.8757928041,9.70870543395,49.9309753749",
     "geom:latitude":49.904929,
     "geom:longitude":9.678458,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":445,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677193",
+        "eurostat:nuts_2021_id":"09677193",
         "gn:id":2818142,
         "gp:id":701871,
         "qs_pg:id":92937,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"84cf51ccb8e4b21a8ea4de12a3ccfa5b",
+    "wof:geomhash":"ee156153a776faed8daf955d27431792",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101813601,
-    "wof:lastmodified":1582342570,
+    "wof:lastmodified":1684351892,
     "wof:name":"Urspringen",
     "wof:parent_id":1377691571,
     "wof:placetype":"locality",
-    "wof:population":1350,
+    "wof:population":1400,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

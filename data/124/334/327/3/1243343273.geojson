@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alt Bukow",
+    "eurostat:nuts_2021_id":"13072002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072002",
+    "eurostat:population":478,
+    "eurostat:population_year":2020,
     "geom:area":0.002081,
-    "geom:area_square_m":15121297.772204,
+    "geom:area_square_m":15121297.772202,
     "geom:bbox":"11.5763558258,53.9827053359,11.6623353404,54.0277090682",
     "geom:latitude":54.003918,
     "geom:longitude":11.614332,
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -132,6 +145,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072002",
+        "eurostat:nuts_2021_id":"13072002",
         "gn:id":2958048,
         "wk:page":"Alt_Bukow"
     },
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e60a8f72e4918ec744345fea0124ed55",
+    "wof:geomhash":"55438125ead0aceb68f60d8b14e92ac4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1243343273,
-    "wof:lastmodified":1582343085,
+    "wof:lastmodified":1684352058,
     "wof:name":"Alt Bukow",
     "wof:parent_id":1377684703,
     "wof:placetype":"locality",
-    "wof:population":558,
+    "wof:population":478,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

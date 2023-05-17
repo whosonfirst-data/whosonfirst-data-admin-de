@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08426014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Schussenried, Stadt",
+    "eurostat:nuts_2021_id":"08426014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE146",
+    "eurostat:nuts_2021_level_lau":"08426014",
+    "eurostat:population":8808,
+    "eurostat:population_year":2020,
     "geom:area":0.006631,
-    "geom:area_square_m":54855313.174203,
+    "geom:area_square_m":54855313.1742,
     "geom:bbox":"9.59664103272,47.965202284,9.70929873158,48.0521858957",
     "geom:latitude":48.00973,
     "geom:longitude":9.654442,
@@ -334,7 +346,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.006667,
     "wd:longitude":9.658611,
     "wd:wordcount":178,
@@ -352,6 +365,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08426014",
+        "eurostat:nuts_2021_id":"08426014",
         "gn:id":2835635,
         "gp:id":693410,
         "qs_pg:id":1038462,
@@ -363,7 +378,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c24d887faf2788fa874b928c399e8d13",
+    "wof:geomhash":"8c3898ea547b9764639cd4f683322c0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -376,11 +391,11 @@
         }
     ],
     "wof:id":101764281,
-    "wof:lastmodified":1582342299,
+    "wof:lastmodified":1684351814,
     "wof:name":"Bad Schussenried",
     "wof:parent_id":1377690311,
     "wof:placetype":"locality",
-    "wof:population":8319,
+    "wof:population":8808,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

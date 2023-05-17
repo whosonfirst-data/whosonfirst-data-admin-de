@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bickenbach",
+    "eurostat:nuts_2021_id":"06432003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432003",
+    "eurostat:population":6033,
+    "eurostat:population_year":2020,
     "geom:area":0.001166,
-    "geom:area_square_m":9310304.863688,
+    "geom:area_square_m":9310304.863686,
     "geom:bbox":"8.560754,49.743922,8.626073,49.775386",
     "geom:latitude":49.760796,
     "geom:longitude":8.598658,
@@ -319,22 +331,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693047,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432003",
+        "eurostat:nuts_2021_id":"06432003",
         "gn:id":2949295,
         "gp:id":638746,
         "qs_pg:id":579775,
@@ -351,7 +366,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f47e8f62afa71007b3950458f689b455",
+    "wof:geomhash":"811d0777d37247f8a0875322b333a52d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
         }
     ],
     "wof:id":101813403,
-    "wof:lastmodified":1608051395,
+    "wof:lastmodified":1684351890,
     "wof:name":"Bickenbach",
     "wof:parent_id":1377693047,
     "wof:placetype":"locality",
-    "wof:population":5338,
+    "wof:population":6033,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehlenz",
+    "eurostat:nuts_2021_id":"07232030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232030",
+    "eurostat:population":462,
+    "eurostat:population_year":2020,
     "geom:area":0.000747,
     "geom:area_square_m":5930127.385586,
     "geom:bbox":"6.44460896575,50.0296507722,6.4881492038,50.0624095918",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232030",
+        "eurostat:nuts_2021_id":"07232030",
         "gn:id":2932904,
         "gp:id":20163146,
         "qs_pg:id":93955,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0ea3dd0744ab6ca06390af8e49417262",
+    "wof:geomhash":"146146e92fdf18ed48ed85f304058077",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907199,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351985,
     "wof:name":"Ehlenz",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":451,
+    "wof:population":462,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

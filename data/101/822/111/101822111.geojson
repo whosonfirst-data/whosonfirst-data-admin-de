@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leinefelde-Worbis, Stadt",
+    "eurostat:nuts_2021_id":"16061115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061115",
+    "eurostat:population":20115,
+    "eurostat:population_year":2020,
     "geom:area":0.014225,
-    "geom:area_square_m":109693392.564244,
+    "geom:area_square_m":109693392.564243,
     "geom:bbox":"10.221829,51.345544,10.422859,51.488079",
     "geom:latitude":51.416885,
     "geom:longitude":10.332615,
@@ -320,21 +332,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063795,
         1377689389,
-        85682541
+        85633111,
+        102063795
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061115",
+        "eurostat:nuts_2021_id":"16061115",
         "gn:id":2879193,
         "gp:id":671036,
         "qs_pg:id":884558,
@@ -347,7 +362,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cf6b489f508a5ad2571131da17e8729",
+    "wof:geomhash":"3726c80c4db9d43c8833de33f4eb40c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,12 +374,12 @@
         }
     ],
     "wof:id":101822111,
-    "wof:lastmodified":1608051472,
+    "wof:lastmodified":1684351920,
     "wof:name":"Leinefelde-Worbis",
     "wof:parent_id":1377689389,
     "wof:placetype":"locality",
-    "wof:population":13740,
-    "wof:population_rank":6,
+    "wof:population":20115,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

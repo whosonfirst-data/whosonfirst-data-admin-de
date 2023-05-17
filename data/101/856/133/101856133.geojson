@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gem\u00fcnden (Felda)",
+    "eurostat:nuts_2021_id":"06535005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535005",
+    "eurostat:population":2715,
+    "eurostat:population_year":2020,
     "geom:area":0.007075,
-    "geom:area_square_m":55424431.511635,
+    "geom:area_square_m":55424431.511632,
     "geom:bbox":"9.00718370571,50.6379726188,9.15026538582,50.7310329715",
     "geom:latitude":50.68584,
     "geom:longitude":9.088757,
@@ -282,7 +294,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "wof:belongsto":[
         85682531,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535005",
+        "eurostat:nuts_2021_id":"06535005",
         "gn:id":6553237,
         "gp:id":679489,
         "qs_pg:id":634216,
@@ -305,7 +320,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"028779560703a60cc4757c890b93f588",
+    "wof:geomhash":"1ecf9cf515c9b89cb7148eca35bbac19",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101856133,
-    "wof:lastmodified":1582342446,
+    "wof:lastmodified":1684351968,
     "wof:name":"Gem\u00fcnden (Felda)",
     "wof:parent_id":1377685261,
     "wof:placetype":"locality",
-    "wof:population":2809,
+    "wof:population":2715,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

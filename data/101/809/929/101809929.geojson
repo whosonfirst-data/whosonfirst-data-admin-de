@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05370004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erkelenz, Stadt",
+    "eurostat:nuts_2021_id":"05370004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA29",
+    "eurostat:nuts_2021_level_lau":"05370004",
+    "eurostat:population":43206,
+    "eurostat:population_year":2020,
     "geom:area":0.015063,
-    "geom:area_square_m":117045154.984639,
+    "geom:area_square_m":117045154.984638,
     "geom:bbox":"6.200252,51.012778,6.477169,51.117198",
     "geom:latitude":51.067862,
     "geom:longitude":6.338685,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":7021,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063729,
         1377690323,
         404227541,
-        85682513
+        102063729
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05370004",
+        "eurostat:nuts_2021_id":"05370004",
         "gn:id":2929622,
         "gp:id":648378,
         "loc:id":"n86033693",
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"45477aa8d0ac41ba84b75ca38109b476",
+    "wof:geomhash":"8b2ed66f2368ba54706dd209caac3c64",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101809929,
-    "wof:lastmodified":1608051647,
+    "wof:lastmodified":1684351869,
     "wof:name":"Erkelenz",
     "wof:parent_id":1377690323,
     "wof:placetype":"locality",
-    "wof:population":44650,
+    "wof:population":43206,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09183114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchbach, M",
+    "eurostat:nuts_2021_id":"09183114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21G",
+    "eurostat:nuts_2021_level_lau":"09183114",
+    "eurostat:population":3185,
+    "eurostat:population_year":2020,
     "geom:area":0.003478,
-    "geom:area_square_m":28601803.115244,
+    "geom:area_square_m":28601803.11524,
     "geom:bbox":"12.248828,48.284341,12.36909,48.3318",
     "geom:latitude":48.307227,
     "geom:longitude":12.302955,
@@ -147,18 +159,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063281,
         1377692555,
         404227567,
-        85682571
+        102063281
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09183114",
+        "eurostat:nuts_2021_id":"09183114",
         "fct:id":"0720674c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2942795,
         "gp:id":20152977,
@@ -173,7 +188,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d538b481db93ddd1842098f6b7ed2660",
+    "wof:geomhash":"4cd392b3a1359c3d7e7a79f285996a21",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050475,
+    "wof:lastmodified":1684351834,
     "wof:name":"Buchbach",
     "wof:parent_id":1377692555,
     "wof:placetype":"locality",
-    "wof:population":3128,
+    "wof:population":3185,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

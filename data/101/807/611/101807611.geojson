@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03257001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ahnsen",
+    "eurostat:nuts_2021_id":"03257001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE928",
+    "eurostat:nuts_2021_level_lau":"03257001",
+    "eurostat:population":1018,
+    "eurostat:population_year":2020,
     "geom:area":0.000471,
     "geom:area_square_m":3564985.565385,
     "geom:bbox":"9.08028839551,52.2447540839,9.11886673148,52.2664727835",
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03257001",
+        "eurostat:nuts_2021_id":"03257001",
         "gn:id":2959145,
         "gp:id":633569,
         "qs_pg:id":884403,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"39af250411ce8ae473ed7928ef4f3ab9",
+    "wof:geomhash":"a90c5fc5770ad4614970f235a5175bdc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101807611,
-    "wof:lastmodified":1582342587,
+    "wof:lastmodified":1684351858,
     "wof:name":"Ahnsen",
     "wof:parent_id":1377687039,
     "wof:placetype":"locality",
-    "wof:population":1233,
+    "wof:population":1018,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

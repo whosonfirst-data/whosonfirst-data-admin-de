@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333503",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winnweiler",
+    "eurostat:nuts_2021_id":"07333503",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333503",
+    "eurostat:population":4855,
+    "eurostat:population_year":2020,
     "geom:area":0.002707,
-    "geom:area_square_m":21709026.042619,
+    "geom:area_square_m":21709026.042618,
     "geom:bbox":"7.80031953376,49.5308803771,7.91217357334,49.5889656285",
     "geom:latitude":49.564972,
     "geom:longitude":7.851421,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333503",
+        "eurostat:nuts_2021_id":"07333503",
         "gn:id":2807852,
         "gp:id":707067,
         "qs_pg:id":1038037,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c8530457197885567541c1232997c106",
+    "wof:geomhash":"7ce91a44c4e54ff3912fb189e523eb4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101813071,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351887,
     "wof:name":"Winnweiler",
     "wof:parent_id":1377686355,
     "wof:placetype":"locality",
-    "wof:population":4850,
+    "wof:population":4855,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

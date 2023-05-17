@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232255",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lascheid",
+    "eurostat:nuts_2021_id":"07232255",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232255",
+    "eurostat:population":84,
+    "eurostat:population_year":2020,
     "geom:area":0.000431,
     "geom:area_square_m":3416461.120816,
     "geom:bbox":"6.37785392668,50.0994800815,6.42988960424,50.1197569182",
@@ -261,7 +273,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -271,6 +284,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232255",
+        "eurostat:nuts_2021_id":"07232255",
         "gn:id":2880396,
         "qs_pg:id":578081,
         "wd:id":"Q642376"
@@ -280,7 +295,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"e1a1b492a9c7a44e649c7fe87bbe35dd",
+    "wof:geomhash":"3601ab6815fd8ff115d1331e9e205a94",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -292,11 +307,11 @@
         }
     ],
     "wof:id":1126013453,
-    "wof:lastmodified":1582343020,
+    "wof:lastmodified":1684352046,
     "wof:name":"Lascheid",
     "wof:parent_id":1377685925,
     "wof:placetype":"locality",
-    "wof:population":74,
+    "wof:population":84,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

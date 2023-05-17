@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aukrug",
+    "eurostat:nuts_2021_id":"01058009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058009",
+    "eurostat:population":3861,
+    "eurostat:population_year":2020,
     "geom:area":0.006857,
-    "geom:area_square_m":49743440.64716,
+    "geom:area_square_m":49743440.647161,
     "geom:bbox":"9.70312953426,54.0432764602,9.86088811302,54.1125215669",
     "geom:latitude":54.078427,
     "geom:longitude":9.790685,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":187,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058009",
+        "eurostat:nuts_2021_id":"01058009",
         "gn:id":3208536,
         "gp:id":20163915,
         "qs_pg:id":147376,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3ed060ad6b83f3f0e9e09c5c116500db",
+    "wof:geomhash":"70b96ad29d8474df68eded15c5ffa572",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101806863,
-    "wof:lastmodified":1582342621,
+    "wof:lastmodified":1684351856,
     "wof:name":"Aukrug",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":3846,
+    "wof:population":3861,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

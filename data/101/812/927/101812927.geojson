@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Olsbr\u00fccken",
+    "eurostat:nuts_2021_id":"07335033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335033",
+    "eurostat:population":1053,
+    "eurostat:population_year":2020,
     "geom:area":0.000922,
     "geom:area_square_m":7397427.450856,
     "geom:bbox":"7.64136940124,49.5219101595,7.69361002991,49.5604034117",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1076,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335033",
+        "eurostat:nuts_2021_id":"07335033",
         "gn:id":2857289,
         "gp:id":683260,
         "qs_pg:id":1038832,
@@ -301,7 +316,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cc75a6548178958b938f0df5e8178fc8",
+    "wof:geomhash":"313ff84bffcee8c6012deed912fa1721",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101812927,
-    "wof:lastmodified":1582342551,
+    "wof:lastmodified":1684351886,
     "wof:name":"Olsbr\u00fccken",
     "wof:parent_id":1377686473,
     "wof:placetype":"locality",
-    "wof:population":1187,
+    "wof:population":1053,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

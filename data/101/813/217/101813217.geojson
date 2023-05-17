@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Idar-Oberstein, Stadt",
+    "eurostat:nuts_2021_id":"07134045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134045",
+    "eurostat:population":28520,
+    "eurostat:population_year":2020,
     "geom:area":0.011448,
-    "geom:area_square_m":91555878.155083,
+    "geom:area_square_m":91555878.155074,
     "geom:bbox":"7.253074,49.648947,7.445246,49.754808",
     "geom:latitude":49.701894,
     "geom:longitude":7.352885,
@@ -334,21 +346,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":11675,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063535,
         1377685437,
-        85682491
+        85633111,
+        102063535
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134045",
+        "eurostat:nuts_2021_id":"07134045",
         "gn:id":2896753,
         "gp:id":663216,
         "qs_pg:id":508658,
@@ -363,7 +378,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"67618196e9716b4efe6868bd8e8561e8",
+    "wof:geomhash":"6f8bcb3662f7cf6a03aeac551fd7efa3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
         }
     ],
     "wof:id":101813217,
-    "wof:lastmodified":1608051331,
+    "wof:lastmodified":1684351889,
     "wof:name":"Idar-Oberstein",
     "wof:parent_id":1377685437,
     "wof:placetype":"locality",
-    "wof:population":31610,
+    "wof:population":28520,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

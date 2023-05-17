@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Walschleben",
+    "eurostat:nuts_2021_id":"16068057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068057",
+    "eurostat:population":1825,
+    "eurostat:population_year":2020,
     "geom:area":0.00216,
-    "geom:area_square_m":16779904.419284,
+    "geom:area_square_m":16779904.419285,
     "geom:bbox":"10.8653263355,51.048334183,10.9759623155,51.0942649976",
     "geom:latitude":51.0683,
     "geom:longitude":10.928446,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068057",
+        "eurostat:nuts_2021_id":"16068057",
         "gn:id":2814479,
         "gp:id":635129,
         "qs_pg:id":141605,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6eaf4a0e2a645678cde04198c08baa13",
+    "wof:geomhash":"56dff490975c7529bbe28296c4c188da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101823451,
-    "wof:lastmodified":1582342535,
+    "wof:lastmodified":1684351926,
     "wof:name":"Walschleben",
     "wof:parent_id":1377690221,
     "wof:placetype":"locality",
-    "wof:population":1904,
+    "wof:population":1825,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

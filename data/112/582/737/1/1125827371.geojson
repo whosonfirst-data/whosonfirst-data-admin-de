@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werkhausen",
+    "eurostat:nuts_2021_id":"07132114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132114",
+    "eurostat:population":227,
+    "eurostat:population_year":2020,
     "geom:area":0.000751,
     "geom:area_square_m":5875402.902897,
     "geom:bbox":"7.5161723837,50.712254692,7.55837001662,50.746343145",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132114",
+        "eurostat:nuts_2021_id":"07132114",
         "gn:id":2810883,
         "qs_pg:id":576460,
         "wd:id":"Q562619"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"6d5dc79b898c18d7afb3c203e6e7fa03",
+    "wof:geomhash":"5320b475893c9bbd8448a0651958705e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125827371,
-    "wof:lastmodified":1582343023,
+    "wof:lastmodified":1684352017,
     "wof:name":"Werkhausen",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":237,
+    "wof:population":227,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

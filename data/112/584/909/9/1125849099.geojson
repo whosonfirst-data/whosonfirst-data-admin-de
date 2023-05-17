@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Betteldorf",
+    "eurostat:nuts_2021_id":"07233006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233006",
+    "eurostat:population":255,
+    "eurostat:population_year":2020,
     "geom:area":0.000414,
     "geom:area_square_m":3269668.228881,
     "geom:bbox":"6.74001730358,50.2448387954,6.77390851527,50.2652807235",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233006",
+        "eurostat:nuts_2021_id":"07233006",
         "gn:id":2949750,
         "qs_pg:id":579784,
         "wd:id":"Q566430"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d5fa8246d296aa315452ab7c59074c15",
+    "wof:geomhash":"44d0b1acc2e2d5c19e38a288b514016b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125849099,
-    "wof:lastmodified":1582343044,
+    "wof:lastmodified":1684352031,
     "wof:name":"Betteldorf",
     "wof:parent_id":1377685969,
     "wof:placetype":"locality",
-    "wof:population":310,
+    "wof:population":255,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

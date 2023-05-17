@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Umpferstedt",
+    "eurostat:nuts_2021_id":"16071089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071089",
+    "eurostat:population":631,
+    "eurostat:population_year":2020,
     "geom:area":0.000945,
-    "geom:area_square_m":7354460.749027,
+    "geom:area_square_m":7354460.749026,
     "geom:bbox":"11.3881720487,50.96211152,11.4359518222,50.990840248",
     "geom:latitude":50.97516,
     "geom:longitude":11.412092,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071089",
+        "eurostat:nuts_2021_id":"16071089",
         "gn:id":2820164,
         "gp:id":693480,
         "qs_pg:id":576658,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b58b0eb5a5d669d3b7441fd7f8c32a4f",
+    "wof:geomhash":"279fd4f5cb5982d35cc98ca2a3bb6011",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101910437,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352006,
     "wof:name":"Umpferstedt",
     "wof:parent_id":1377690487,
     "wof:placetype":"locality",
-    "wof:population":647,
+    "wof:population":631,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

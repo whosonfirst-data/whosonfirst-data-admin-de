@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Polch, Stadt",
+    "eurostat:nuts_2021_id":"07137089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137089",
+    "eurostat:population":6837,
+    "eurostat:population_year":2020,
     "geom:area":0.003587,
-    "geom:area_square_m":28328715.466368,
+    "geom:area_square_m":28328715.46637,
     "geom:bbox":"7.24683800548,50.2801244407,7.37846176927,50.3291671444",
     "geom:latitude":50.304485,
     "geom:longitude":7.310272,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137089",
+        "eurostat:nuts_2021_id":"07137089",
         "gn:id":2852909,
         "gp:id":685512,
         "qs_pg:id":1038728,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"72e2a8a2f63fa2328ea1796e5bd3956d",
+    "wof:geomhash":"ecb879fb56126cf8b5d541cde80fa113",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101812271,
-    "wof:lastmodified":1582342550,
+    "wof:lastmodified":1684351884,
     "wof:name":"Polch",
     "wof:parent_id":1377685553,
     "wof:placetype":"locality",
-    "wof:population":6590,
+    "wof:population":6837,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

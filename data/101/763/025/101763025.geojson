@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08425020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blaubeuren, Stadt",
+    "eurostat:nuts_2021_id":"08425020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE145",
+    "eurostat:nuts_2021_level_lau":"08425020",
+    "eurostat:population":12422,
+    "eurostat:population_year":2020,
     "geom:area":0.009627,
     "geom:area_square_m":79014115.421894,
     "geom:bbox":"9.67898721407,48.353527692,9.8662718147,48.4570288606",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":246,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -341,6 +354,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08425020",
+        "eurostat:nuts_2021_id":"08425020",
         "gn:id":2947949,
         "gp:id":639416,
         "qs_pg:id":1343697,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"775e5092ead8536bd26876265dc601bb",
+    "wof:geomhash":"37e2398342f350bed63c9cdebda27979",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101763025,
-    "wof:lastmodified":1582342295,
+    "wof:lastmodified":1684351809,
     "wof:name":"Blaubeuren",
     "wof:parent_id":1377690205,
     "wof:placetype":"locality",
-    "wof:population":11797,
+    "wof:population":12422,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

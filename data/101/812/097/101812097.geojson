@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weisel",
+    "eurostat:nuts_2021_id":"07141136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141136",
+    "eurostat:population":1039,
+    "eurostat:population_year":2020,
     "geom:area":0.001669,
-    "geom:area_square_m":13232203.87669,
+    "geom:area_square_m":13232203.876689,
     "geom:bbox":"7.77824746199,50.0996239739,7.85401610166,50.1441501845",
     "geom:latitude":50.122422,
     "geom:longitude":7.808833,
@@ -284,7 +296,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682491,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141136",
+        "eurostat:nuts_2021_id":"07141136",
         "gn:id":2812099,
         "gp:id":23411822,
         "qs_pg:id":506934,
@@ -304,7 +319,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e79000cf78ef5a9834734a8f3dd3173",
+    "wof:geomhash":"e950ba3d7bb4dce7128b45c12a2ec7d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101812097,
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351882,
     "wof:name":"Weisel",
     "wof:parent_id":1377685763,
     "wof:placetype":"locality",
-    "wof:population":1161,
+    "wof:population":1039,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

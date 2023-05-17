@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hainsfarth",
+    "eurostat:nuts_2021_id":"09779154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779154",
+    "eurostat:population":1423,
+    "eurostat:population_year":2020,
     "geom:area":0.002173,
     "geom:area_square_m":17641291.21228,
     "geom:bbox":"10.610173844,48.9323996406,10.686469021,48.9818290781",
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":906,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -182,6 +195,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779154",
+        "eurostat:nuts_2021_id":"09779154",
         "gn:id":2911769,
         "gp:id":656740,
         "qs_pg:id":93747,
@@ -192,7 +207,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ba74f74a9ef36ff93f169975261f82c1",
+    "wof:geomhash":"311963a8b497ac63a87c837422a68501",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101783155,
-    "wof:lastmodified":1582342479,
+    "wof:lastmodified":1684351827,
     "wof:name":"Hainsfarth",
     "wof:parent_id":1377693401,
     "wof:placetype":"locality",
-    "wof:population":1486,
+    "wof:population":1423,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

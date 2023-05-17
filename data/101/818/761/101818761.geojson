@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Oldesloe, Stadt",
+    "eurostat:nuts_2021_id":"01062004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062004",
+    "eurostat:population":24690,
+    "eurostat:population_year":2020,
     "geom:area":0.007174,
-    "geom:area_square_m":52373413.13658,
+    "geom:area_square_m":52373413.136577,
     "geom:bbox":"10.295332,53.769091,10.43675,53.864883",
     "geom:latitude":53.814081,
     "geom:longitude":10.377304,
@@ -189,21 +201,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":200,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684719,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062004",
+        "eurostat:nuts_2021_id":"01062004",
         "gn:id":2953385,
         "gp:id":636482,
         "qs_pg:id":1040232,
@@ -218,7 +233,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"309c994619ed3e4a3194d6d3fc9adb57",
+    "wof:geomhash":"d698f61777cb66b31dd95326f2371b0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -230,11 +245,11 @@
         }
     ],
     "wof:id":101818761,
-    "wof:lastmodified":1608049764,
+    "wof:lastmodified":1684351903,
     "wof:name":"Bad Oldesloe",
     "wof:parent_id":1377684719,
     "wof:placetype":"locality",
-    "wof:population":24322,
+    "wof:population":24690,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

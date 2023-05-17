@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedelsheim",
+    "eurostat:nuts_2021_id":"07332020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332020",
+    "eurostat:population":1446,
+    "eurostat:population_year":2020,
     "geom:area":0.000508,
     "geom:area_square_m":4085278.388757,
     "geom:bbox":"8.20626977817,49.4372809879,8.23604284828,49.4666198277",
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":299,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332020",
+        "eurostat:nuts_2021_id":"07332020",
         "gn:id":2924774,
         "gp:id":12627230,
         "qs_pg:id":1039839,
@@ -179,7 +194,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"df47de18bc391aa9157b36f69badd53b",
+    "wof:geomhash":"3dbd9dd27e535e703f77dec72ccd5427",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101815705,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Friedelsheim",
     "wof:parent_id":1377686289,
     "wof:placetype":"locality",
-    "wof:population":1499,
+    "wof:population":1446,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gol\u00dfen, Stadt",
+    "eurostat:nuts_2021_id":"12061164",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061164",
+    "eurostat:population":2509,
+    "eurostat:population_year":2020,
     "geom:area":0.008334,
-    "geom:area_square_m":63484636.06987,
+    "geom:area_square_m":63484636.069866,
     "geom:bbox":"13.4908091938,51.9249730349,13.7013430113,52.0104732007",
     "geom:latitude":51.970923,
     "geom:longitude":13.609495,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.966667,
     "wd:longitude":13.599722,
     "wd:wordcount":390,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061164",
+        "eurostat:nuts_2021_id":"12061164",
         "gn:id":2919177,
         "gp:id":653225,
         "qs_pg:id":142508,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a67c84e35a2f130130a41ea40a8ed330",
+    "wof:geomhash":"82c95fa3bc76e1738adf49bfdde4caf4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101821201,
-    "wof:lastmodified":1582342424,
+    "wof:lastmodified":1684351916,
     "wof:name":"Gol\u00dfen",
     "wof:parent_id":1377694423,
     "wof:placetype":"locality",
-    "wof:population":2813,
+    "wof:population":2509,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

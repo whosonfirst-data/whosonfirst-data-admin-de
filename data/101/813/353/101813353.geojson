@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gusterath",
+    "eurostat:nuts_2021_id":"07235037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235037",
+    "eurostat:population":2025,
+    "eurostat:population_year":2020,
     "geom:area":0.00055,
     "geom:area_square_m":4401536.424877,
     "geom:bbox":"6.69349049219,49.6955021341,6.73210789135,49.7191403447",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235037",
+        "eurostat:nuts_2021_id":"07235037",
         "gn:id":2913445,
         "gp:id":655975,
         "qs_pg:id":209576,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6a52810af8b5835b5f4da7356e4414af",
+    "wof:geomhash":"827f05be0b5a8b3f482548fb65c18372",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,12 +352,12 @@
         }
     ],
     "wof:id":101813353,
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351890,
     "wof:name":"Gusterath",
     "wof:parent_id":1377686047,
     "wof:placetype":"locality",
-    "wof:population":1909,
-    "wof:population_rank":3,
+    "wof:population":2025,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

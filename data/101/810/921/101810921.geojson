@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Greifenstein",
+    "eurostat:nuts_2021_id":"06532010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532010",
+    "eurostat:population":6566,
+    "eurostat:population_year":2020,
     "geom:area":0.00858,
-    "geom:area_square_m":67347367.159244,
+    "geom:area_square_m":67347367.159248,
     "geom:bbox":"8.151592,50.550027,8.362617,50.633415",
     "geom:latitude":50.594967,
     "geom:longitude":8.257239,
@@ -142,22 +154,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":947,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683465,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532010",
+        "eurostat:nuts_2021_id":"06532010",
         "fct:id":"0740fa7a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2917793,
         "gp:id":654030,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"88f3d5011a645727ed6bc236cac5d33f",
+    "wof:geomhash":"bfb10d448deb786833aa92328128447d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050117,
+    "wof:lastmodified":1684351877,
     "wof:name":"Greifenstein",
     "wof:parent_id":1377683465,
     "wof:placetype":"locality",
-    "wof:population":7507,
+    "wof:population":6566,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

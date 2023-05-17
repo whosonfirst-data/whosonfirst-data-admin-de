@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leimersheim",
+    "eurostat:nuts_2021_id":"07334016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334016",
+    "eurostat:population":2556,
+    "eurostat:population_year":2020,
     "geom:area":0.001594,
-    "geom:area_square_m":12900118.701851,
+    "geom:area_square_m":12900118.701853,
     "geom:bbox":"8.29118072569,49.1012585391,8.37111336484,49.1452291287",
     "geom:latitude":49.126497,
     "geom:longitude":8.342412,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334016",
+        "eurostat:nuts_2021_id":"07334016",
         "gn:id":2879230,
         "gp:id":671021,
         "qs_pg:id":142224,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5c74c5929058e28f2f8d886cb05bdfa4",
+    "wof:geomhash":"a5a429660291a6fc814d82844e015ae4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101760787,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351801,
     "wof:name":"Leimersheim",
     "wof:parent_id":1377686411,
     "wof:placetype":"locality",
-    "wof:population":2624,
+    "wof:population":2556,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

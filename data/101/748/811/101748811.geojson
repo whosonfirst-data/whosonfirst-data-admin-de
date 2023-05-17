@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Minden, Stadt",
+    "eurostat:nuts_2021_id":"05770024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770024",
+    "eurostat:population":81716,
+    "eurostat:population_year":2020,
     "geom:area":0.01333,
-    "geom:area_square_m":100798986.34484,
+    "geom:area_square_m":100798986.344842,
     "geom:bbox":"8.792086,52.246742,8.998261,52.364875",
     "geom:latitude":52.300702,
     "geom:longitude":8.898366,
@@ -361,18 +373,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":6394,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691939,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770024",
+        "eurostat:nuts_2021_id":"05770024",
         "gn:id":2871040,
         "gp:id":675337,
         "qs_pg:id":347079,
@@ -390,7 +405,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8f936ada0b50ced6a733aac904d2d1b9",
+    "wof:geomhash":"ea1bdd998fa9c47bd3c7f7f7eb6e604a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -403,11 +418,11 @@
         }
     ],
     "wof:id":101748811,
-    "wof:lastmodified":1608050552,
+    "wof:lastmodified":1684351789,
     "wof:name":"Minden",
     "wof:parent_id":1377691939,
     "wof:placetype":"locality",
-    "wof:population":82879,
+    "wof:population":81716,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

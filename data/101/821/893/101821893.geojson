@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084355",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Naumburg (Saale), Stadt",
+    "eurostat:nuts_2021_id":"15084355",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084355",
+    "eurostat:population":32155,
+    "eurostat:population_year":2020,
     "geom:area":0.016748,
-    "geom:area_square_m":129946131.129665,
+    "geom:area_square_m":129946131.129668,
     "geom:bbox":"11.6476743435,51.0727467317,11.8737077739,51.2022044872",
     "geom:latitude":51.134564,
     "geom:longitude":11.770387,
@@ -327,7 +339,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084355",
+        "eurostat:nuts_2021_id":"15084355",
         "gn:id":2866906,
         "gp:id":677216,
         "qs_pg:id":1344972,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d33cd26663eac80bc1f7564f3fcccb5d",
+    "wof:geomhash":"ec843fd3063261363a6c2b7048c56ea9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101821893,
-    "wof:lastmodified":1582342420,
+    "wof:lastmodified":1684351918,
     "wof:name":"Naumburg (Saale)",
     "wof:parent_id":1377688449,
     "wof:placetype":"locality",
-    "wof:population":29722,
+    "wof:population":32155,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

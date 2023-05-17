@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pocking, St",
+    "eurostat:nuts_2021_id":"09275141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275141",
+    "eurostat:population":16041,
+    "eurostat:population_year":2020,
     "geom:area":0.008423,
-    "geom:area_square_m":69155270.441041,
+    "geom:area_square_m":69155270.441037,
     "geom:bbox":"13.229069,48.360679,13.42318,48.439367",
     "geom:latitude":48.39529,
     "geom:longitude":13.327539,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":250,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684773,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275141",
+        "eurostat:nuts_2021_id":"09275141",
         "gn:id":2853065,
         "gp:id":685424,
         "qs_pg:id":185582,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"839568a75def5b33431631bf6d8b3992",
+    "wof:geomhash":"fb7568773e607a0db93711fb7eb1e7fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101784351,
-    "wof:lastmodified":1608050688,
+    "wof:lastmodified":1684351832,
     "wof:name":"Pocking",
     "wof:parent_id":1377684773,
     "wof:placetype":"locality",
-    "wof:population":14646,
+    "wof:population":16041,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

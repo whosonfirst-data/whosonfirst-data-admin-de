@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wetzlar, Stadt",
+    "eurostat:nuts_2021_id":"06532023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532023",
+    "eurostat:population":52955,
+    "eurostat:population_year":2020,
     "geom:area":0.009665,
-    "geom:area_square_m":75909413.249359,
+    "geom:area_square_m":75909413.24936,
     "geom:bbox":"8.444301,50.507842,8.618907,50.633364",
     "geom:latitude":50.566101,
     "geom:longitude":8.513891,
@@ -367,20 +379,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.566667,
     "wd:longitude":8.5,
     "wd:wordcount":4429,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683579,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532023",
+        "eurostat:nuts_2021_id":"06532023",
         "gn:id":2809889,
         "gp:id":706030,
         "qs_pg:id":391655,
@@ -395,7 +410,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"360989cea2f7848793cc47c160303e69",
+    "wof:geomhash":"f945d3c60b05d22700d548cbca4716d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -408,11 +423,11 @@
         }
     ],
     "wof:id":101748599,
-    "wof:lastmodified":1608050575,
+    "wof:lastmodified":1684351786,
     "wof:name":"Wetzlar",
     "wof:parent_id":1377683579,
     "wof:placetype":"locality",
-    "wof:population":52656,
+    "wof:population":52955,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

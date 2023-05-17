@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kumhausen",
+    "eurostat:nuts_2021_id":"09274146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274146",
+    "eurostat:population":5463,
+    "eurostat:population_year":2020,
     "geom:area":0.004503,
-    "geom:area_square_m":36899295.920124,
+    "geom:area_square_m":36899295.920121,
     "geom:bbox":"12.133336,48.461982,12.266303,48.534212",
     "geom:latitude":48.498814,
     "geom:longitude":12.191074,
@@ -157,22 +169,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":115,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684471,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274146",
+        "eurostat:nuts_2021_id":"09274146",
         "fct:id":"074994aa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2882563,
         "gp:id":669482,
@@ -188,7 +203,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e76450763267f2b4a1e26939345ffe7b",
+    "wof:geomhash":"9309099027f795e919fdaea0a2526fa3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,12 +219,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050845,
+    "wof:lastmodified":1684351793,
     "wof:name":"Kumhausen",
     "wof:parent_id":1377684471,
     "wof:placetype":"locality",
-    "wof:population":4812,
-    "wof:population_rank":4,
+    "wof:population":5463,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

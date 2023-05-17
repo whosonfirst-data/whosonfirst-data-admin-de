@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ilsenburg (Harz), Stadt",
+    "eurostat:nuts_2021_id":"15085190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085190",
+    "eurostat:population":9565,
+    "eurostat:population_year":2020,
     "geom:area":0.008246,
-    "geom:area_square_m":62987295.424022,
+    "geom:area_square_m":62987295.42402,
     "geom:bbox":"10.5767976168,51.7894630555,10.7578958844,51.8875944672",
     "geom:latitude":51.849494,
     "geom:longitude":10.668293,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085190",
+        "eurostat:nuts_2021_id":"15085190",
         "gn:id":2896483,
         "gp:id":663361,
         "loc:id":"n2008003843",
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"da3029d6679f6a926041f90f69e6f0f5",
+    "wof:geomhash":"f7f2eea03bbbfa638a5a81c51a89d20d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101820963,
-    "wof:lastmodified":1582342375,
+    "wof:lastmodified":1684351914,
     "wof:name":"Ilsenburg (Harz)",
     "wof:parent_id":1377688575,
     "wof:placetype":"locality",
-    "wof:population":6326,
+    "wof:population":9565,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

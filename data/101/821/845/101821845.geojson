@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522510",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ro\u00dfwein, Stadt",
+    "eurostat:nuts_2021_id":"14522510",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522510",
+    "eurostat:population":7502,
+    "eurostat:population_year":2020,
     "geom:area":0.00572,
-    "geom:area_square_m":44432410.600116,
+    "geom:area_square_m":44432410.600117,
     "geom:bbox":"13.08123,51.048902,13.259992,51.114128",
     "geom:latitude":51.078643,
     "geom:longitude":13.176315,
@@ -167,21 +179,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377686069,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522510",
+        "eurostat:nuts_2021_id":"14522510",
         "gn:id":2844604,
         "gp:id":689772,
         "qs_pg:id":1345388,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"984c8fccb53c57f4e6be6cee1e5e9c17",
+    "wof:geomhash":"3b0aa7f49ed92bc2b5fc63387588bd0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101821845,
-    "wof:lastmodified":1608050181,
+    "wof:lastmodified":1684351917,
     "wof:name":"Ro\u00dfwein",
     "wof:parent_id":1377686069,
     "wof:placetype":"locality",
-    "wof:population":7568,
+    "wof:population":7502,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcdershagen",
+    "eurostat:nuts_2021_id":"13073053",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073053",
+    "eurostat:population":544,
+    "eurostat:population_year":2020,
     "geom:area":0.00193,
-    "geom:area_square_m":13926368.430656,
+    "geom:area_square_m":13926368.430655,
     "geom:bbox":"12.5867634585,54.2854549059,12.6537102495,54.3295039737",
     "geom:latitude":54.30602,
     "geom:longitude":12.622287,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":187,
     "wof:belongsto":[
         85682487,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073053",
+        "eurostat:nuts_2021_id":"13073053",
         "gn:id":2875426,
         "gp:id":672917,
         "qs_pg:id":54407,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8726d13f2cee7bd9e39795b39c1be2df",
+    "wof:geomhash":"0358747016f4343c0bbd2f2314ac8fdd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101908869,
-    "wof:lastmodified":1582342343,
+    "wof:lastmodified":1684352000,
     "wof:name":"L\u00fcdershagen",
     "wof:parent_id":1377684881,
     "wof:placetype":"locality",
-    "wof:population":572,
+    "wof:population":544,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

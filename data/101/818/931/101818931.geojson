@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Usedom, Stadt",
+    "eurostat:nuts_2021_id":"13075137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075137",
+    "eurostat:population":1725,
+    "eurostat:population_year":2020,
     "geom:area":0.005329,
-    "geom:area_square_m":38858158.686462,
+    "geom:area_square_m":38858158.686461,
     "geom:bbox":"13.8217869995,53.839788059,13.9944038245,53.9109180322",
     "geom:latitude":53.867568,
     "geom:longitude":13.913484,
@@ -354,7 +366,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":959,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -369,6 +382,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075137",
+        "eurostat:nuts_2021_id":"13075137",
         "gn:id":2818107,
         "gp:id":701890,
         "qs_pg:id":141624,
@@ -379,7 +394,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"66e39f33f5efeecc3aa6db2715b56dea",
+    "wof:geomhash":"03aeeffae8a1afdb4fcd3f66fe44e31c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -391,11 +406,11 @@
         }
     ],
     "wof:id":101818931,
-    "wof:lastmodified":1582342357,
+    "wof:lastmodified":1684351905,
     "wof:name":"Usedom",
     "wof:parent_id":1377685171,
     "wof:placetype":"locality",
-    "wof:population":1929,
+    "wof:population":1725,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

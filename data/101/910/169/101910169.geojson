@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cursdorf",
+    "eurostat:nuts_2021_id":"16073013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073013",
+    "eurostat:population":598,
+    "eurostat:population_year":2020,
     "geom:area":0.001764,
-    "geom:area_square_m":13855997.008531,
+    "geom:area_square_m":13855997.008529,
     "geom:bbox":"11.0887427472,50.5308604323,11.1613576126,50.5808824002",
     "geom:latitude":50.553166,
     "geom:longitude":11.12016,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073013",
+        "eurostat:nuts_2021_id":"16073013",
         "gn:id":2939665,
         "gp:id":643419,
         "qs_pg:id":579495,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8c34e70481c69e53fbf77b0668fa038f",
+    "wof:geomhash":"d3b968fc2a962997f326f89e1c562ea6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101910169,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Cursdorf",
     "wof:parent_id":1377690667,
     "wof:placetype":"locality",
-    "wof:population":767,
+    "wof:population":598,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

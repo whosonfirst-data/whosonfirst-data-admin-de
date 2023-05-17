@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kastl, M",
+    "eurostat:nuts_2021_id":"09371132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371132",
+    "eurostat:population":2502,
+    "eurostat:population_year":2020,
     "geom:area":0.008041,
     "geom:area_square_m":64749682.032656,
     "geom:bbox":"11.623903,49.307443,11.750794,49.417213",
@@ -283,17 +295,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685717,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371132",
+        "eurostat:nuts_2021_id":"09371132",
         "gn:id":2892460,
         "gp:id":665104,
         "qs_pg:id":1255054,
@@ -308,7 +323,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ac8442bb1b6a347e8a267839b27fc16e",
+    "wof:geomhash":"619d7e0b54214945f8c463a38b34303e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101780767,
-    "wof:lastmodified":1608052041,
+    "wof:lastmodified":1684351820,
     "wof:name":"Kastl",
     "wof:parent_id":1377685717,
     "wof:placetype":"locality",
-    "wof:population":2701,
+    "wof:population":2502,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

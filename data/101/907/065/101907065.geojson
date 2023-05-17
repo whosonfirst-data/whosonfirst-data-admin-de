@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mittelsinn",
+    "eurostat:nuts_2021_id":"09677159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677159",
+    "eurostat:population":814,
+    "eurostat:population_year":2020,
     "geom:area":0.001808,
-    "geom:area_square_m":14313106.77927,
+    "geom:area_square_m":14313106.779271,
     "geom:bbox":"9.58245799649,50.1716711138,9.66142626194,50.2072630976",
     "geom:latitude":50.188785,
     "geom:longitude":9.619127,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":639,
     "wof:belongsto":[
         85682571,
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677159",
+        "eurostat:nuts_2021_id":"09677159",
         "gn:id":2870567,
         "gp:id":675558,
         "qs_pg:id":577798,
@@ -333,7 +348,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"31705ab1cd6aac490d6310d0fca842b3",
+    "wof:geomhash":"93245b08b2040eaac077158fc532ca7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101907065,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351984,
     "wof:name":"Mittelsinn",
     "wof:parent_id":1377691579,
     "wof:placetype":"locality",
-    "wof:population":940,
+    "wof:population":814,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

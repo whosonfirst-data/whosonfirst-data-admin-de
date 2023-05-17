@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Konnersreuth, M",
+    "eurostat:nuts_2021_id":"09377131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377131",
+    "eurostat:population":1729,
+    "eurostat:population_year":2020,
     "geom:area":0.002905,
     "geom:area_square_m":23086532.37377,
     "geom:bbox":"12.187822,49.976892,12.267879,50.038054",
@@ -166,18 +178,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":546,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063559,
         1377686919,
         404227545,
-        85682571
+        102063559
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377131",
+        "eurostat:nuts_2021_id":"09377131",
         "gn:id":2885713,
         "gp:id":668195,
         "qs_pg:id":1,
@@ -195,7 +210,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e530b3185ff680d85a2561d69bc204ab",
+    "wof:geomhash":"db7f19a81278a0408548339a4f6111be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101825797,
-    "wof:lastmodified":1608051408,
+    "wof:lastmodified":1684351931,
     "wof:name":"Konnersreuth",
     "wof:parent_id":1377686919,
     "wof:placetype":"locality",
-    "wof:population":1869,
+    "wof:population":1729,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

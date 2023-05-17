@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eberg\u00f6tzen",
+    "eurostat:nuts_2021_id":"03159011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159011",
+    "eurostat:population":1942,
+    "eurostat:population_year":2020,
     "geom:area":0.00254,
     "geom:area_square_m":19515001.126798,
     "geom:bbox":"10.0397903476,51.5527608048,10.1438157414,51.6098410397",
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":150,
     "wof:belongsto":[
         85682555,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159011",
+        "eurostat:nuts_2021_id":"03159011",
         "gn:id":2934009,
         "gp:id":646200,
         "qs_pg:id":1039955,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"84641a62878f7318ddd6e9f8843a609c",
+    "wof:geomhash":"ad385e3cf4921307c83862e1210a7da8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101846339,
-    "wof:lastmodified":1582342524,
+    "wof:lastmodified":1684351960,
     "wof:name":"Eberg\u00f6tzen",
     "wof:parent_id":1377686247,
     "wof:placetype":"locality",
-    "wof:population":1886,
+    "wof:population":1942,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

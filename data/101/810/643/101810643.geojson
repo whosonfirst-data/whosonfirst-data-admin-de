@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nordheim v.d.Rh\u00f6n",
+    "eurostat:nuts_2021_id":"09673147",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673147",
+    "eurostat:population":1110,
+    "eurostat:population_year":2020,
     "geom:area":0.002098,
     "geom:area_square_m":16508669.898469,
     "geom:bbox":"10.1540287981,50.4633411799,10.2348836642,50.5160741732",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682571,
@@ -138,6 +151,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673147",
+        "eurostat:nuts_2021_id":"09673147",
         "gn:id":2861969,
         "gp:id":680386,
         "qs_pg:id":487835,
@@ -149,7 +164,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"00b617509f1b9856bd633c58ff0f0939",
+    "wof:geomhash":"b24efbfbd8fd6baaecd50a046babd634",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101810643,
-    "wof:lastmodified":1582342400,
+    "wof:lastmodified":1684351874,
     "wof:name":"Nordheim v.d. Rh\u00f6n",
     "wof:parent_id":1377690857,
     "wof:placetype":"locality",
-    "wof:population":1105,
+    "wof:population":1110,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09463000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coburg",
+    "eurostat:nuts_2021_id":"09463000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE243",
+    "eurostat:nuts_2021_level_lau":"09463000",
+    "eurostat:population":41072,
+    "eurostat:population_year":2020,
     "geom:area":0.006071,
-    "geom:area_square_m":47985345.724807,
+    "geom:area_square_m":47985345.72481,
     "geom:bbox":"10.88739,50.221694,11.063871,50.298638",
     "geom:latitude":50.263935,
     "geom:longitude":10.964462,
@@ -370,7 +382,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -385,6 +398,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09463000",
+        "eurostat:nuts_2021_id":"09463000",
         "gn:id":2939951,
         "gp:id":643228,
         "qs_pg:id":455618,
@@ -400,7 +415,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"563a7ccb1ff69beac4616a9b3392b20e",
+    "wof:geomhash":"c3070a62181e80365124915be45a4788",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -413,11 +428,11 @@
         }
     ],
     "wof:id":101841155,
-    "wof:lastmodified":1636499973,
+    "wof:lastmodified":1684351951,
     "wof:name":"Coburg",
     "wof:parent_id":1377687041,
     "wof:placetype":"locality",
-    "wof:population":41901,
+    "wof:population":41072,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

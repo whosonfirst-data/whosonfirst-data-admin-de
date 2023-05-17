@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boitzenburger Land",
+    "eurostat:nuts_2021_id":"12073069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073069",
+    "eurostat:population":3089,
+    "eurostat:population_year":2020,
     "geom:area":0.029296,
-    "geom:area_square_m":216729313.984647,
+    "geom:area_square_m":216729313.984664,
     "geom:bbox":"13.372087,53.189495,13.727982,53.35102",
     "geom:latitude":53.253394,
     "geom:longitude":13.552746,
@@ -299,21 +311,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":98,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064021,
         1377684245,
-        85682553
+        85633111,
+        102064021
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073069",
+        "eurostat:nuts_2021_id":"12073069",
         "gn:id":2946828,
         "gp:id":639971,
         "qs_pg:id":912529,
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7cc085ab7ad19562623a15f42cc5e0f8",
+    "wof:geomhash":"3b889f92ab6252ef1eef421ffc697837",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101816491,
-    "wof:lastmodified":1608049902,
+    "wof:lastmodified":1684351895,
     "wof:name":"Boitzenburger Land",
     "wof:parent_id":1377684245,
     "wof:placetype":"locality",
-    "wof:population":3360,
+    "wof:population":3089,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

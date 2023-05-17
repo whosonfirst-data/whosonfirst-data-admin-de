@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wernigerode, Stadt",
+    "eurostat:nuts_2021_id":"15085370",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085370",
+    "eurostat:population":32534,
+    "eurostat:population_year":2020,
     "geom:area":0.022109,
-    "geom:area_square_m":169002243.589032,
+    "geom:area_square_m":169002243.589035,
     "geom:bbox":"10.574174,51.751903,10.900627,51.887188",
     "geom:latitude":51.816486,
     "geom:longitude":10.744978,
@@ -371,17 +383,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1439,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063857,
         1377688629,
-        85682519
+        85633111,
+        102063857
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085370",
+        "eurostat:nuts_2021_id":"15085370",
         "gn:id":2810808,
         "gp:id":705515,
         "loc:id":"n83030320",
@@ -397,7 +412,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f8196d83c9851dfefa210994b9f01684",
+    "wof:geomhash":"863defa986f866c5a4a9b49665e9d7d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -409,11 +424,11 @@
         }
     ],
     "wof:id":101820907,
-    "wof:lastmodified":1608049845,
+    "wof:lastmodified":1684351914,
     "wof:name":"Wernigerode",
     "wof:parent_id":1377688629,
     "wof:placetype":"locality",
-    "wof:population":34463,
+    "wof:population":32534,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maulbronn, Stadt",
+    "eurostat:nuts_2021_id":"08236038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236038",
+    "eurostat:population":6616,
+    "eurostat:population_year":2020,
     "geom:area":0.003146,
     "geom:area_square_m":25519114.845643,
     "geom:bbox":"8.75497404773,48.9714326054,8.88179369725,49.0229111908",
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":25.44,
     "wd:latitude":49.000278,
     "wd:longitude":8.810833,
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236038",
+        "eurostat:nuts_2021_id":"08236038",
         "gn:id":2872777,
         "gp:id":674318,
         "qs_pg:id":787524,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1fc97a64d18697df308febab4b0504ed",
+    "wof:geomhash":"70f14175131bf7d143c82cd135377127",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,12 +368,12 @@
         }
     ],
     "wof:id":101760675,
-    "wof:lastmodified":1582342492,
+    "wof:lastmodified":1684351800,
     "wof:name":"Maulbronn",
     "wof:parent_id":1377688997,
     "wof:placetype":"locality",
-    "wof:population":4334,
-    "wof:population_rank":4,
+    "wof:population":6616,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

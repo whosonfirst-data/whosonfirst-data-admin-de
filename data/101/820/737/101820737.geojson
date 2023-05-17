@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071372",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Spremberg, Stadt",
+    "eurostat:nuts_2021_id":"12071372",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071372",
+    "eurostat:population":21998,
+    "eurostat:population_year":2020,
     "geom:area":0.026259,
-    "geom:area_square_m":201743204.115433,
+    "geom:area_square_m":201743204.115422,
     "geom:bbox":"14.227051,51.505018,14.547487,51.653912",
     "geom:latitude":51.58774,
     "geom:longitude":14.378718,
@@ -332,21 +344,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":449,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063875,
         1377684069,
-        85682553
+        85633111,
+        102063875
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071372",
+        "eurostat:nuts_2021_id":"12071372",
         "gn:id":6550659,
         "gp:id":695928,
         "qs_pg:id":456107,
@@ -360,7 +375,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bec2b93efb2d7895ec04ce10cb51928c",
+    "wof:geomhash":"b0a440f3199b5c6c3e21b62967e3633a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
         }
     ],
     "wof:id":101820737,
-    "wof:lastmodified":1608049848,
+    "wof:lastmodified":1684351913,
     "wof:name":"Spremberg",
     "wof:parent_id":1377684069,
     "wof:placetype":"locality",
-    "wof:population":26348,
+    "wof:population":21998,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

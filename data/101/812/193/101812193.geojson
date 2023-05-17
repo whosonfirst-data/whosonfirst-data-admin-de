@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Butzbach, Friedrich-Ludwig-Weidig-Stadt",
+    "eurostat:nuts_2021_id":"06440005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440005",
+    "eurostat:population":26432,
+    "eurostat:population_year":2020,
     "geom:area":0.013416,
-    "geom:area_square_m":105699375.665006,
+    "geom:area_square_m":105699375.664999,
     "geom:bbox":"8.514139,50.367623,8.737117,50.485212",
     "geom:latitude":50.419081,
     "geom:longitude":8.631343,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.436667,
     "wd:longitude":8.662222,
     "wd:wordcount":255,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694249,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440005",
+        "eurostat:nuts_2021_id":"06440005",
         "gn:id":2940512,
         "gp:id":642929,
         "qs_pg:id":455604,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"00fe5a068b4dc6b4dc16afe74bd127dd",
+    "wof:geomhash":"5bf6287b0abf494ac5240e7ef4734303",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101812193,
-    "wof:lastmodified":1608051178,
+    "wof:lastmodified":1684351883,
     "wof:name":"Butzbach",
     "wof:parent_id":1377694249,
     "wof:placetype":"locality",
-    "wof:population":25156,
+    "wof:population":26432,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

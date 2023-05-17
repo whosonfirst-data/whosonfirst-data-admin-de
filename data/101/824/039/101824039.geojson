@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16070011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elgersburg",
+    "eurostat:nuts_2021_id":"16070011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0F",
+    "eurostat:nuts_2021_level_lau":"16070011",
+    "eurostat:population":1249,
+    "eurostat:population_year":2020,
     "geom:area":0.001237,
     "geom:area_square_m":9692563.095571,
     "geom:bbox":"10.80982137,50.6604854736,10.8729894992,50.7152862961",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16070011",
+        "eurostat:nuts_2021_id":"16070011",
         "gn:id":2931171,
         "gp:id":647519,
         "qs_pg:id":93939,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b830477310aa48a6b4c47a5c5a6d19d7",
+    "wof:geomhash":"053ba8ab51620b0dc8a64beab06a1fe9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101824039,
-    "wof:lastmodified":1582342539,
+    "wof:lastmodified":1684351927,
     "wof:name":"Elgersburg",
     "wof:parent_id":1377690407,
     "wof:placetype":"locality",
-    "wof:population":1234,
+    "wof:population":1249,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

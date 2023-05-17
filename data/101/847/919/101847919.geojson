@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfpostwitz/O.L.",
+    "eurostat:nuts_2021_id":"14625190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625190",
+    "eurostat:population":2741,
+    "eurostat:population_year":2020,
     "geom:area":0.002118,
     "geom:area_square_m":16440148.610202,
     "geom:bbox":"14.4169459478,51.1039196927,14.4872651925,51.1510284076",
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625190",
+        "eurostat:nuts_2021_id":"14625190",
         "gn:id":7602473,
         "gp:id":655156,
         "qs_pg:id":810982,
@@ -175,7 +190,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6e42c7237bfb082c8b61f4d5c3f9c3d",
+    "wof:geomhash":"42c5be7bb9d0f7949a1e388820862d30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101847919,
-    "wof:lastmodified":1582342558,
+    "wof:lastmodified":1684351964,
     "wof:name":"Gro\u00dfpostwitz/O.L.",
     "wof:parent_id":1377686955,
     "wof:placetype":"locality",
-    "wof:population":2770,
+    "wof:population":2741,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

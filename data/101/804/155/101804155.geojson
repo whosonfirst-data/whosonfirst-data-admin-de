@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Husum",
+    "eurostat:nuts_2021_id":"03256016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256016",
+    "eurostat:population":2341,
+    "eurostat:population_year":2020,
     "geom:area":0.005243,
-    "geom:area_square_m":39403817.43276,
+    "geom:area_square_m":39403817.432764,
     "geom:bbox":"9.18526642919,52.5354314565,9.33954742154,52.6081602539",
     "geom:latitude":52.572269,
     "geom:longitude":9.254819,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256016",
+        "eurostat:nuts_2021_id":"03256016",
         "gn:id":2897136,
         "gp:id":654740,
         "qs_pg:id":1039506,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"819637f34bf2069d94ebae3b02cc5640",
+    "wof:geomhash":"16edddad3609dfeaeb65893a4af2e349",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101804155,
-    "wof:lastmodified":1582342445,
+    "wof:lastmodified":1684351846,
     "wof:name":"Husum",
     "wof:parent_id":1377686995,
     "wof:placetype":"locality",
-    "wof:population":2336,
+    "wof:population":2341,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

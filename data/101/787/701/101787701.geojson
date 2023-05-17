@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friesenried",
+    "eurostat:nuts_2021_id":"09777128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777128",
+    "eurostat:population":1580,
+    "eurostat:population_year":2020,
     "geom:area":0.002677,
     "geom:area_square_m":22201260.065196,
     "geom:bbox":"10.4791720619,47.8451822412,10.571650346,47.8957268824",
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777128",
+        "eurostat:nuts_2021_id":"09777128",
         "gn:id":2924371,
         "gp:id":650894,
         "qs_pg:id":142575,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8b190cbb40494200ba569819bc1f6af8",
+    "wof:geomhash":"3ad7722c6623b40dc5763c3e66804342",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101787701,
-    "wof:lastmodified":1582342643,
+    "wof:lastmodified":1684351843,
     "wof:name":"Friesenried",
     "wof:parent_id":1377693057,
     "wof:placetype":"locality",
-    "wof:population":1523,
+    "wof:population":1580,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

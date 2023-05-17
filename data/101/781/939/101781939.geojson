@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Absberg, M",
+    "eurostat:nuts_2021_id":"09577111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577111",
+    "eurostat:population":1382,
+    "eurostat:population_year":2020,
     "geom:area":0.002335,
     "geom:area_square_m":18880073.891519,
     "geom:bbox":"10.812854613,49.1274473988,10.9163238856,49.1886254164",
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -332,6 +345,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577111",
+        "eurostat:nuts_2021_id":"09577111",
         "gn:id":2959803,
         "gp:id":633229,
         "qs_pg:id":142992,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d7a4a8441cbdc7b2c495a14d2731444d",
+    "wof:geomhash":"22646277235c144778bd95756e027ae0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101781939,
-    "wof:lastmodified":1582342634,
+    "wof:lastmodified":1684351821,
     "wof:name":"Absberg",
     "wof:parent_id":1377690249,
     "wof:placetype":"locality",
-    "wof:population":1336,
+    "wof:population":1382,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenfelde",
+    "eurostat:nuts_2021_id":"01057029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057029",
+    "eurostat:population":1017,
+    "eurostat:population_year":2020,
     "geom:area":0.001461,
-    "geom:area_square_m":10522909.122475,
+    "geom:area_square_m":10522909.122473,
     "geom:bbox":"10.4750720677,54.3497086955,10.5398624271,54.3892822701",
     "geom:latitude":54.371308,
     "geom:longitude":10.506124,
@@ -148,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057029",
+        "eurostat:nuts_2021_id":"01057029",
         "gn:id":2901783,
         "gp:id":661156,
         "qs_pg:id":1039544,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"36b58756571daa2d0e4e0f34099ada4b",
+    "wof:geomhash":"fb4dc6598e9ebc8a1a550c767984ee2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101847289,
-    "wof:lastmodified":1582342555,
+    "wof:lastmodified":1684351963,
     "wof:name":"Hohenfelde",
     "wof:parent_id":1377684073,
     "wof:placetype":"locality",
-    "wof:population":1104,
+    "wof:population":1017,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

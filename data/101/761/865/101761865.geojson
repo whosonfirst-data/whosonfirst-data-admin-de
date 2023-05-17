@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rutesheim, Stadt",
+    "eurostat:nuts_2021_id":"08115042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115042",
+    "eurostat:population":10912,
+    "eurostat:population_year":2020,
     "geom:area":0.002006,
-    "geom:area_square_m":16336929.772998,
+    "geom:area_square_m":16336929.772996,
     "geom:bbox":"8.871871,48.78942,8.968183,48.831618",
     "geom:latitude":48.811869,
     "geom:longitude":8.932494,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":16.22,
     "wd:latitude":48.809722,
     "wd:longitude":8.945,
@@ -324,15 +337,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686849,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115042",
+        "eurostat:nuts_2021_id":"08115042",
         "fct:id":"07154d6c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2842824,
         "gp:id":690546,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"929e932b8b4b5351513e1fc5a4547dbd",
+    "wof:geomhash":"c58435a0840577d1caeea1d883f484ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,12 +378,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050927,
+    "wof:lastmodified":1684351806,
     "wof:name":"Rutesheim",
     "wof:parent_id":1377686849,
     "wof:placetype":"locality",
-    "wof:population":5273,
-    "wof:population_rank":5,
+    "wof:population":10912,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

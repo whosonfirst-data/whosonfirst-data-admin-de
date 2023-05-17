@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zirkow",
+    "eurostat:nuts_2021_id":"13073106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073106",
+    "eurostat:population":682,
+    "eurostat:population_year":2020,
     "geom:area":0.00353,
-    "geom:area_square_m":25420711.505661,
+    "geom:area_square_m":25420711.505662,
     "geom:bbox":"13.5112617889,54.3590433548,13.6144104004,54.4135179613",
     "geom:latitude":54.38543,
     "geom:longitude":13.561135,
@@ -305,7 +317,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":312,
     "wof:belongsto":[
         85682487,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073106",
+        "eurostat:nuts_2021_id":"13073106",
         "gn:id":2804041,
         "gp:id":709069,
         "wd:id":"Q205860"
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5baf190eaefab4dff344a657caeba756",
+    "wof:geomhash":"8da784cea8f530ea3fa032001d84ac73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101908923,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684352001,
     "wof:name":"Zirkow",
     "wof:parent_id":1377684961,
     "wof:placetype":"locality",
-    "wof:population":655,
+    "wof:population":682,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

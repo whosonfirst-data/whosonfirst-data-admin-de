@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09185118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergheim",
+    "eurostat:nuts_2021_id":"09185118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21I",
+    "eurostat:nuts_2021_level_lau":"09185118",
+    "eurostat:population":1878,
+    "eurostat:population_year":2020,
     "geom:area":0.003548,
-    "geom:area_square_m":28921980.976771,
+    "geom:area_square_m":28921980.97677,
     "geom:bbox":"11.160397046,48.7324504285,11.3063472246,48.7973518308",
     "geom:latitude":48.76401,
     "geom:longitude":11.232626,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":88,
     "wof:belongsto":[
         85682571,
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09185118",
+        "eurostat:nuts_2021_id":"09185118",
         "gn:id":2950444,
         "gp:id":638100,
         "qs_pg:id":4,
@@ -163,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd57f626dfdc80fe0089ad76318718e8",
+    "wof:geomhash":"1f5fe154ae3bdb85fb5d3b33ba506628",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101783001,
-    "wof:lastmodified":1582342477,
+    "wof:lastmodified":1684351825,
     "wof:name":"Bergheim",
     "wof:parent_id":1377693793,
     "wof:placetype":"locality",
-    "wof:population":1864,
+    "wof:population":1878,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06433006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df-Gerau, Stadt",
+    "eurostat:nuts_2021_id":"06433006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE717",
+    "eurostat:nuts_2021_level_lau":"06433006",
+    "eurostat:population":25559,
+    "eurostat:population_year":2020,
     "geom:area":0.006828,
-    "geom:area_square_m":54372476.548111,
+    "geom:area_square_m":54372476.548107,
     "geom:bbox":"8.404588,49.862883,8.55084,49.965787",
     "geom:latitude":49.911024,
     "geom:longitude":8.477204,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.921389,
     "wd:longitude":8.481806,
     "wd:wordcount":1322,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063561,
         1377693281,
         404227581,
-        85682531
+        102063561
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06433006",
+        "eurostat:nuts_2021_id":"06433006",
         "gn:id":2915613,
         "gp:id":654778,
         "qs_pg:id":353902,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"036d41fec66aa5a3822e0ea8749057b7",
+    "wof:geomhash":"cb1c5df7082623b57a93a3fe90f6b9e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101813485,
-    "wof:lastmodified":1608051324,
+    "wof:lastmodified":1684351891,
     "wof:name":"Gro\u00df-Gerau",
     "wof:parent_id":1377693281,
     "wof:placetype":"locality",
-    "wof:population":23641,
+    "wof:population":25559,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

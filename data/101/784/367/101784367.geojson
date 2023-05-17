@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tiefenbach",
+    "eurostat:nuts_2021_id":"09275151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275151",
+    "eurostat:population":6772,
+    "eurostat:population_year":2020,
     "geom:area":0.006034,
-    "geom:area_square_m":49309933.349351,
+    "geom:area_square_m":49309933.349349,
     "geom:bbox":"13.288581,48.60162,13.443874,48.671592",
     "geom:latitude":48.635814,
     "geom:longitude":13.370099,
@@ -154,22 +166,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":273,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684821,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275151",
+        "eurostat:nuts_2021_id":"09275151",
         "fct:id":"075adac6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2822436,
         "gp:id":20158427,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7aa9916c192b76ee796199dcbbc46aad",
+    "wof:geomhash":"247bebf8c5f24769d04d9842cd8f7fc0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050689,
+    "wof:lastmodified":1684351832,
     "wof:name":"Tiefenbach",
     "wof:parent_id":1377684821,
     "wof:placetype":"locality",
-    "wof:population":6669,
+    "wof:population":6772,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

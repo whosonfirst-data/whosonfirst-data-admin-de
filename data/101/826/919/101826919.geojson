@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vilseck, St",
+    "eurostat:nuts_2021_id":"09371156",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371156",
+    "eurostat:population":6306,
+    "eurostat:population_year":2020,
     "geom:area":0.007991,
-    "geom:area_square_m":64023727.679379,
+    "geom:area_square_m":64023727.679377,
     "geom:bbox":"11.724552,49.564198,11.882976,49.652942",
     "geom:latitude":49.611652,
     "geom:longitude":11.798379,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1257,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685777,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371156",
+        "eurostat:nuts_2021_id":"09371156",
         "gn:id":2817207,
         "gp:id":702391,
         "qs_pg:id":1249953,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"32e93827dcb61b719b05b5db375ba6eb",
+    "wof:geomhash":"5010591fe5dd16e3dd4e918a30f5ad0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101826919,
-    "wof:lastmodified":1608050360,
+    "wof:lastmodified":1684351938,
     "wof:name":"Vilseck",
     "wof:parent_id":1377685777,
     "wof:placetype":"locality",
-    "wof:population":6560,
+    "wof:population":6306,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

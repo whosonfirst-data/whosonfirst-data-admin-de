@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09473159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00f6dental, St",
+    "eurostat:nuts_2021_id":"09473159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE247",
+    "eurostat:nuts_2021_level_lau":"09473159",
+    "eurostat:population":13169,
+    "eurostat:population_year":2020,
     "geom:area":0.006282,
-    "geom:area_square_m":49606583.101075,
+    "geom:area_square_m":49606583.101076,
     "geom:bbox":"10.984899,50.2603,11.098914,50.365774",
     "geom:latitude":50.309043,
     "geom:longitude":11.036045,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":143,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063615,
         1377687787,
         404227583,
-        85682571
+        102063615
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09473159",
+        "eurostat:nuts_2021_id":"09473159",
         "gn:id":3207410,
         "gp:id":15002763,
         "qs_pg:id":266166,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4654ffeedd522aa68fecdda0ecb129ff",
+    "wof:geomhash":"bf1d243302c19e769d58f62412643627",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101824369,
-    "wof:lastmodified":1608051144,
+    "wof:lastmodified":1684351927,
     "wof:name":"R\u00f6dental",
     "wof:parent_id":1377687787,
     "wof:placetype":"locality",
-    "wof:population":13712,
+    "wof:population":13169,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ruschberg",
+    "eurostat:nuts_2021_id":"07134075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134075",
+    "eurostat:population":782,
+    "eurostat:population_year":2020,
     "geom:area":0.000906,
     "geom:area_square_m":7256799.176425,
     "geom:bbox":"7.26135221462,49.604336532,7.31329730761,49.6389092745",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":388,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134075",
+        "eurostat:nuts_2021_id":"07134075",
         "gn:id":2842930,
         "gp:id":690488,
         "qs_pg:id":577147,
@@ -148,7 +163,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cfe590dd4bd9bf30b487ea2e7e6460c5",
+    "wof:geomhash":"2f7312b204ea256a271525ba5f306e80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101906909,
-    "wof:lastmodified":1582342321,
+    "wof:lastmodified":1684351982,
     "wof:name":"Ruschberg",
     "wof:parent_id":1377685445,
     "wof:placetype":"locality",
-    "wof:population":857,
+    "wof:population":782,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

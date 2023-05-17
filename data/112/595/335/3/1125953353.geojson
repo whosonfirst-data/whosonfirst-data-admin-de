@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heilbach",
+    "eurostat:nuts_2021_id":"07232047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232047",
+    "eurostat:population":119,
+    "eurostat:population_year":2020,
     "geom:area":0.000802,
     "geom:area_square_m":6368851.286573,
     "geom:bbox":"6.27891795674,50.0420374083,6.31747206137,50.0794959496",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232047",
+        "eurostat:nuts_2021_id":"07232047",
         "gn:id":2907676,
         "qs_pg:id":578719,
         "wd:id":"Q560395"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9768ea4a97d5e0019521fc73dc61ac05",
+    "wof:geomhash":"21e60cfeae880bb7943148ed9403d38e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125953353,
-    "wof:lastmodified":1582342973,
+    "wof:lastmodified":1684352040,
     "wof:name":"Heilbach",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":129,
+    "wof:population":119,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hebertsfelden",
+    "eurostat:nuts_2021_id":"09277124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277124",
+    "eurostat:population":3653,
+    "eurostat:population_year":2020,
     "geom:area":0.006067,
-    "geom:area_square_m":49777851.588501,
+    "geom:area_square_m":49777851.588502,
     "geom:bbox":"12.770328,48.378363,12.868358,48.487136",
     "geom:latitude":48.42711,
     "geom:longitude":12.819469,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685109,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277124",
+        "eurostat:nuts_2021_id":"09277124",
         "gn:id":2908531,
         "gp:id":658186,
         "qs_pg:id":1039623,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d92d2c78d2fc8cb74675807079ffd4d9",
+    "wof:geomhash":"b483084feb67e1ebd10d0514e585d549",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101784259,
-    "wof:lastmodified":1608050672,
+    "wof:lastmodified":1684351831,
     "wof:name":"Hebertsfelden",
     "wof:parent_id":1377685109,
     "wof:placetype":"locality",
-    "wof:population":3756,
+    "wof:population":3653,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

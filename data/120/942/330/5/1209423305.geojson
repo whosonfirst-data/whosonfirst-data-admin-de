@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rauhenebrach",
+    "eurostat:nuts_2021_id":"09674187",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674187",
+    "eurostat:population":2899,
+    "eurostat:population_year":2020,
     "geom:area":0.007667,
-    "geom:area_square_m":61067527.943306,
+    "geom:area_square_m":61067527.943303,
     "geom:bbox":"10.457201,49.855248,10.663103,49.932881",
     "geom:latitude":49.89559,
     "geom:longitude":10.568257,
@@ -305,21 +317,24 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377691019,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674187",
+        "eurostat:nuts_2021_id":"09674187",
         "gn:id":2889929
     },
     "wof:coterminous":[
@@ -329,7 +344,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"cb0ea98a15f4f3297e0ec7e23ec1fe15",
+    "wof:geomhash":"2dc88f0f66f484943e4cc94a0410e8ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":1209423305,
-    "wof:lastmodified":1608048905,
+    "wof:lastmodified":1684352057,
     "wof:name":"Rauhenebrach",
     "wof:parent_id":1377691019,
     "wof:placetype":"locality",
-    "wof:population":2941,
+    "wof:population":2899,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

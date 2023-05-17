@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hopferau",
+    "eurostat:nuts_2021_id":"09777135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777135",
+    "eurostat:population":1205,
+    "eurostat:population_year":2020,
     "geom:area":0.001565,
-    "geom:area_square_m":13050509.308815,
+    "geom:area_square_m":13050509.308814,
     "geom:bbox":"10.6105099975,47.5848125454,10.6701592195,47.6324839873",
     "geom:latitude":47.60821,
     "geom:longitude":10.644001,
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -175,6 +188,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777135",
+        "eurostat:nuts_2021_id":"09777135",
         "gn:id":2899202,
         "gp:id":662168,
         "qs_pg:id":1165329,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"712d4e2fec8bf433606296560fae8435",
+    "wof:geomhash":"45bd9b2f0045b94cb96b39d23bf881f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101788943,
-    "wof:lastmodified":1582342634,
+    "wof:lastmodified":1684351846,
     "wof:name":"Hopferau",
     "wof:parent_id":1377693087,
     "wof:placetype":"locality",
-    "wof:population":1050,
+    "wof:population":1205,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

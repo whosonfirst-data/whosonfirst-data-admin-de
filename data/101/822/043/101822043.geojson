@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zwenkau, Stadt",
+    "eurostat:nuts_2021_id":"14729430",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729430",
+    "eurostat:population":9280,
+    "eurostat:population_year":2020,
     "geom:area":0.005962,
-    "geom:area_square_m":46176207.863351,
+    "geom:area_square_m":46176207.863348,
     "geom:bbox":"12.236932,51.176536,12.368936,51.259733",
     "geom:latitude":51.218559,
     "geom:longitude":12.308039,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.2175,
     "wd:longitude":12.324167,
     "wd:wordcount":397,
@@ -319,14 +332,16 @@
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687883,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729430",
+        "eurostat:nuts_2021_id":"14729430",
         "gn:id":2803588,
         "gp:id":709349,
         "qs_pg:id":1346111,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"35116b358d16986448a1658d7559ec95",
+    "wof:geomhash":"4360a9f007d36c6cba48837918a3f459",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101822043,
-    "wof:lastmodified":1608051491,
+    "wof:lastmodified":1684351919,
     "wof:name":"Zwenkau",
     "wof:parent_id":1377687883,
     "wof:placetype":"locality",
-    "wof:population":8905,
+    "wof:population":9280,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

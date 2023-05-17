@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09771140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hollenbach",
+    "eurostat:nuts_2021_id":"09771140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE275",
+    "eurostat:nuts_2021_level_lau":"09771140",
+    "eurostat:population":2401,
+    "eurostat:population_year":2020,
     "geom:area":0.003186,
-    "geom:area_square_m":26114650.092103,
+    "geom:area_square_m":26114650.092102,
     "geom:bbox":"11.017413,48.454015,11.113906,48.523527",
     "geom:latitude":48.486684,
     "geom:longitude":11.061019,
@@ -183,22 +195,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063301,
         1377692263,
         404227547,
-        85682571
+        102063301
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09771140",
+        "eurostat:nuts_2021_id":"09771140",
         "fct:id":"074541e8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2900590,
         "gp:id":12634734,
@@ -212,7 +227,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"920b7fe10bd73875ffbba2a84485953c",
+    "wof:geomhash":"bd8713af6fabe60111b7bc2c368a6d28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050687,
+    "wof:lastmodified":1684351830,
     "wof:name":"Hollenbach",
     "wof:parent_id":1377692263,
     "wof:placetype":"locality",
-    "wof:population":2372,
+    "wof:population":2401,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

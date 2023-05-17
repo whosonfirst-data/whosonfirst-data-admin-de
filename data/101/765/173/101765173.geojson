@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Immenstadt i.Allg\u00e4u, St",
+    "eurostat:nuts_2021_id":"09780124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780124",
+    "eurostat:population":14314,
+    "eurostat:population_year":2020,
     "geom:area":0.009753,
-    "geom:area_square_m":81359505.906696,
+    "geom:area_square_m":81359505.906692,
     "geom:bbox":"10.1198302513,47.5127278974,10.272409217,47.6298166153",
     "geom:latitude":47.574098,
     "geom:longitude":10.195411,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780124",
+        "eurostat:nuts_2021_id":"09780124",
         "gn:id":2896261,
         "gp:id":663457,
         "qs_pg:id":1077837,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"907fd25b61111589c8d005743f231ae7",
+    "wof:geomhash":"c767a9e8017c146bbdb25676d7cce781",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101765173,
-    "wof:lastmodified":1582342335,
+    "wof:lastmodified":1684351816,
     "wof:name":"Immenstadt i. Allg\u00e4u",
     "wof:parent_id":1377693547,
     "wof:placetype":"locality",
-    "wof:population":14431,
+    "wof:population":14314,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

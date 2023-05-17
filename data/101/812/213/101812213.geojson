@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hirzenhain",
+    "eurostat:nuts_2021_id":"06440011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440011",
+    "eurostat:population":2882,
+    "eurostat:population_year":2020,
     "geom:area":0.002002,
-    "geom:area_square_m":15776692.199197,
+    "geom:area_square_m":15776692.199194,
     "geom:bbox":"9.093567,50.379084,9.180333,50.442213",
     "geom:latitude":50.409333,
     "geom:longitude":9.137131,
@@ -283,18 +295,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694303,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440011",
+        "eurostat:nuts_2021_id":"06440011",
         "fct:id":"07449f54-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2903504,
         "gp:id":660427,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b025f5e525a1fb6b04d81ae06b1af93b",
+    "wof:geomhash":"8aba48b0199cd2b81f32806b8ed9cba3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051221,
+    "wof:lastmodified":1684351883,
     "wof:name":"Hirzenhain",
     "wof:parent_id":1377694303,
     "wof:placetype":"locality",
-    "wof:population":3026,
+    "wof:population":2882,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baumgarten",
+    "eurostat:nuts_2021_id":"13072009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072009",
+    "eurostat:population":785,
+    "eurostat:population_year":2020,
     "geom:area":0.005345,
     "geom:area_square_m":39011563.383676,
     "geom:bbox":"11.7897714884,53.7868216739,11.9037239166,53.8598924875",
@@ -113,7 +125,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -123,13 +136,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072009",
+        "eurostat:nuts_2021_id":"13072009",
         "gn:id":2951970
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"04f9acd88af820c3c430dc8f10848532",
+    "wof:geomhash":"5032cff2ffc0683ddb679edccd03e32d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -141,11 +156,11 @@
         }
     ],
     "wof:id":1327213587,
-    "wof:lastmodified":1582341881,
+    "wof:lastmodified":1684352062,
     "wof:name":"Baumgarten",
     "wof:parent_id":1377684641,
     "wof:placetype":"locality",
-    "wof:population":842,
+    "wof:population":785,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

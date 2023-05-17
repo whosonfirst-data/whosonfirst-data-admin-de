@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heddesheim",
+    "eurostat:nuts_2021_id":"08226028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226028",
+    "eurostat:population":11683,
+    "eurostat:population_year":2020,
     "geom:area":0.001821,
-    "geom:area_square_m":14616256.978259,
+    "geom:area_square_m":14616256.978258,
     "geom:bbox":"8.572597,49.492124,8.641343,49.541561",
     "geom:latitude":49.516302,
     "geom:longitude":8.610098,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688577,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226028",
+        "eurostat:nuts_2021_id":"08226028",
         "fct:id":"0715f276-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2908398,
         "gp:id":658241,
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"38978b9af723f644959a6d12d61148a8",
+    "wof:geomhash":"895f7cf26f031dfda052c8bd1776acd9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051205,
+    "wof:lastmodified":1684351886,
     "wof:name":"Heddesheim",
     "wof:parent_id":1377688577,
     "wof:placetype":"locality",
-    "wof:population":11544,
+    "wof:population":11683,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

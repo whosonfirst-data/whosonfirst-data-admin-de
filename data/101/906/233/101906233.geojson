@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00fclp",
+    "eurostat:nuts_2021_id":"01051105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051105",
+    "eurostat:population":396,
+    "eurostat:population_year":2020,
     "geom:area":0.001296,
     "geom:area_square_m":9366616.609915,
     "geom:bbox":"8.90342146297,54.2290928283,8.96045046888,54.2661144853",
@@ -90,7 +102,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -101,6 +114,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051105",
+        "eurostat:nuts_2021_id":"01051105",
         "gn:id":2835945,
         "gp:id":693353,
         "qs_pg:id":576999,
@@ -111,7 +126,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e128a2185623637ec6ffba66a3f62554",
+    "wof:geomhash":"c7c5a3536c5e0e876ac14378e0e6f4a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +138,11 @@
         }
     ],
     "wof:id":101906233,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351977,
     "wof:name":"Sch\u00fclp",
     "wof:parent_id":1377683425,
     "wof:placetype":"locality",
-    "wof:population":483,
+    "wof:population":396,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

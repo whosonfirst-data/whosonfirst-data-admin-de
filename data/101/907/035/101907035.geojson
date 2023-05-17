@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergweiler",
+    "eurostat:nuts_2021_id":"07231007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231007",
+    "eurostat:population":865,
+    "eurostat:population_year":2020,
     "geom:area":0.001659,
-    "geom:area_square_m":13196891.400846,
+    "geom:area_square_m":13196891.400848,
     "geom:bbox":"6.77384988897,49.9514358974,6.86146082023,49.9920346675",
     "geom:latitude":49.973324,
     "geom:longitude":6.818522,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1052,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231007",
+        "eurostat:nuts_2021_id":"07231007",
         "gn:id":2950233,
         "gp:id":680878,
         "qs_pg:id":579807,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"eec48a8425bad27aeacb7d8b02893d30",
+    "wof:geomhash":"a568087d31d5f1aa54fa896b6d54c606",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101907035,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351984,
     "wof:name":"Bergweiler",
     "wof:parent_id":1377685901,
     "wof:placetype":"locality",
-    "wof:population":880,
+    "wof:population":865,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

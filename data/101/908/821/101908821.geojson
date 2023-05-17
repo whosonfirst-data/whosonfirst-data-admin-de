@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Benitz",
+    "eurostat:nuts_2021_id":"13072011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072011",
+    "eurostat:population":390,
+    "eurostat:population_year":2020,
     "geom:area":0.001308,
-    "geom:area_square_m":9513774.704678,
+    "geom:area_square_m":9513774.704676,
     "geom:bbox":"12.063543874,53.9616981485,12.1285488431,54.0023129189",
     "geom:latitude":53.97897,
     "geom:longitude":12.09552,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072011",
+        "eurostat:nuts_2021_id":"13072011",
         "gn:id":2951081,
         "gp:id":662710,
         "qs_pg:id":579824,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e1218e43757c91f002dcbb277ad551e5",
+    "wof:geomhash":"c6629715362cbde6bc94c085e2797c0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101908821,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351999,
     "wof:name":"Benitz",
     "wof:parent_id":1377684717,
     "wof:placetype":"locality",
-    "wof:population":428,
+    "wof:population":390,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

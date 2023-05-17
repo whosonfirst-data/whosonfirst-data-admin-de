@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08426064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kanzach",
+    "eurostat:nuts_2021_id":"08426064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE146",
+    "eurostat:nuts_2021_level_lau":"08426064",
+    "eurostat:population":508,
+    "eurostat:population_year":2020,
     "geom:area":0.001337,
     "geom:area_square_m":11044528.322225,
     "geom:bbox":"9.53631004574,48.0657917389,9.59467659496,48.1072909039",
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -335,6 +348,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08426064",
+        "eurostat:nuts_2021_id":"08426064",
         "fct:id":"0715c8dc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2893186,
         "gp:id":664796,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0e6f8120416cd402ec9781f49abbddbf",
+    "wof:geomhash":"b0e652dd030ee76744869933063adf3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351972,
     "wof:name":"Kanzach",
     "wof:parent_id":1377690301,
     "wof:placetype":"locality",
-    "wof:population":520,
+    "wof:population":508,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

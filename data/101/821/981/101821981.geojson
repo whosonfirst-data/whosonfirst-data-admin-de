@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ebeleben, Stadt",
+    "eurostat:nuts_2021_id":"16065014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065014",
+    "eurostat:population":2663,
+    "eurostat:population_year":2020,
     "geom:area":0.005271,
-    "geom:area_square_m":40778345.062749,
+    "geom:area_square_m":40778345.062747,
     "geom:bbox":"10.6771297164,51.2120401297,10.7830113391,51.3318775442",
     "geom:latitude":51.27173,
     "geom:longitude":10.72491,
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682541,
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065014",
+        "eurostat:nuts_2021_id":"16065014",
         "gn:id":2934097,
         "gp:id":646158,
         "qs_pg:id":184810,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fd1314c6771923dba0c47856b42ed4b7",
+    "wof:geomhash":"d8544b1f7cf16293ba2652e1313a915f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101821981,
-    "wof:lastmodified":1582342425,
+    "wof:lastmodified":1684351919,
     "wof:name":"Ebeleben",
     "wof:parent_id":1377689923,
     "wof:placetype":"locality",
-    "wof:population":3155,
+    "wof:population":2663,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

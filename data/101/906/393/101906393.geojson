@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wrixum",
+    "eurostat:nuts_2021_id":"01054163",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054163",
+    "eurostat:population":608,
+    "eurostat:population_year":2020,
     "geom:area":0.001057,
-    "geom:area_square_m":7553860.398481,
+    "geom:area_square_m":7553860.39848,
     "geom:bbox":"8.52374556504,54.6850096479,8.58619666982,54.7299888025",
     "geom:latitude":54.70989,
     "geom:longitude":8.550527,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":161,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054163",
+        "eurostat:nuts_2021_id":"01054163",
         "gn:id":2805992,
         "gp:id":708084,
         "qs_pg:id":492748,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"78e05e1895b9746075ad1963fe173e6b",
+    "wof:geomhash":"24a5138020a37fb7560dd100a847686a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101906393,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351979,
     "wof:name":"Wrixum",
     "wof:parent_id":1377683629,
     "wof:placetype":"locality",
-    "wof:population":670,
+    "wof:population":608,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

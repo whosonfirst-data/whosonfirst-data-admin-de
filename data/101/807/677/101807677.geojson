@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Preu\u00dfisch Oldendorf, Stadt",
+    "eurostat:nuts_2021_id":"05770036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770036",
+    "eurostat:population":12188,
+    "eurostat:population_year":2020,
     "geom:area":0.009032,
-    "geom:area_square_m":68279732.745292,
+    "geom:area_square_m":68279732.74529,
     "geom:bbox":"8.43941,52.26011,8.569195,52.366873",
     "geom:latitude":52.31122,
     "geom:longitude":8.504655,
@@ -292,18 +304,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":277,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691961,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770036",
+        "eurostat:nuts_2021_id":"05770036",
         "gn:id":2852144,
         "gp:id":685960,
         "qs_pg:id":141913,
@@ -318,7 +333,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96b0b819b82d4853ab76501f91556014",
+    "wof:geomhash":"a158554ba07041374713a78236152da9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101807677,
-    "wof:lastmodified":1608051560,
+    "wof:lastmodified":1684351858,
     "wof:name":"Preu\u00dfisch Oldendorf",
     "wof:parent_id":1377691961,
     "wof:placetype":"locality",
-    "wof:population":13447,
+    "wof:population":12188,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

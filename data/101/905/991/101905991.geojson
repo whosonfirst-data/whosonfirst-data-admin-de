@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10041100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saarbr\u00fccken, Landeshauptstadt",
+    "eurostat:nuts_2021_id":"10041100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC01",
+    "eurostat:nuts_2021_level_lau":"10041100",
+    "eurostat:population":180374,
+    "eurostat:population_year":2020,
     "geom:area":0.020875,
-    "geom:area_square_m":168527580.580884,
+    "geom:area_square_m":168527580.580888,
     "geom:bbox":"6.827222,49.172427,7.137411,49.321704",
     "geom:latitude":49.239813,
     "geom:longitude":7.006796,
@@ -472,22 +484,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.233333,
     "wd:longitude":7.0,
     "wd:wordcount":4084,
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063437,
         1377694063,
-        85682479
+        85633111,
+        102063437
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682479
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10041100",
+        "eurostat:nuts_2021_id":"10041100",
         "gn:id":2842647,
         "gp:id":688018,
         "qs_pg:id":1062829,
@@ -498,7 +513,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58634f0723f18c0a87fc9b3c98b06971",
+    "wof:geomhash":"c1a1e44ca37c17de6d4dcc10e15ca883",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -510,11 +525,11 @@
         }
     ],
     "wof:id":101905991,
-    "wof:lastmodified":1607462669,
+    "wof:lastmodified":1684351975,
     "wof:name":"Saarbr\u00fccken",
     "wof:parent_id":1377694063,
     "wof:placetype":"locality",
-    "wof:population":181227,
+    "wof:population":180374,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

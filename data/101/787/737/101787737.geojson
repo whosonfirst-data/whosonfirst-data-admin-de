@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Raubling",
+    "eurostat:nuts_2021_id":"09187165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187165",
+    "eurostat:population":11472,
+    "eurostat:population_year":2020,
     "geom:area":0.005421,
-    "geom:area_square_m":45036588.517814,
+    "geom:area_square_m":45036588.517813,
     "geom:bbox":"12.020077,47.739468,12.146142,47.819304",
     "geom:latitude":47.787465,
     "geom:longitude":12.08451,
@@ -163,22 +175,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377694163,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187165",
+        "eurostat:nuts_2021_id":"09187165",
         "fct:id":"07150172-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850085,
         "gp:id":687069,
@@ -194,7 +209,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e7938dbeadf2f8a0322fed9abcd2842d",
+    "wof:geomhash":"40f973f6583380181b6f5927ae4818e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051981,
+    "wof:lastmodified":1684351843,
     "wof:name":"Raubling",
     "wof:parent_id":1377694163,
     "wof:placetype":"locality",
-    "wof:population":11382,
+    "wof:population":11472,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

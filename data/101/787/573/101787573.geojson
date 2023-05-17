@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Iffeldorf",
+    "eurostat:nuts_2021_id":"09190132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190132",
+    "eurostat:population":2682,
+    "eurostat:population_year":2020,
     "geom:area":0.0033,
-    "geom:area_square_m":27413931.058149,
+    "geom:area_square_m":27413931.058151,
     "geom:bbox":"11.2755091579,47.7608192316,11.3782083568,47.8175884735",
     "geom:latitude":47.786906,
     "geom:longitude":11.322955,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190132",
+        "eurostat:nuts_2021_id":"09190132",
         "gn:id":2896731,
         "gp:id":663230,
         "qs_pg:id":1147231,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2beeec1e2128954f6801938298682308",
+    "wof:geomhash":"8984e60b8518cf41c37a1be2aa66bdc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101787573,
-    "wof:lastmodified":1582342645,
+    "wof:lastmodified":1684351841,
     "wof:name":"Iffeldorf",
     "wof:parent_id":1377683753,
     "wof:placetype":"locality",
-    "wof:population":2528,
+    "wof:population":2682,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

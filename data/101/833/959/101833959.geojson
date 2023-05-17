@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09172114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Reichenhall, GKSt",
+    "eurostat:nuts_2021_id":"09172114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE215",
+    "eurostat:nuts_2021_level_lau":"09172114",
+    "eurostat:population":18443,
+    "eurostat:population_year":2020,
     "geom:area":0.005034,
-    "geom:area_square_m":41869211.73668,
+    "geom:area_square_m":41869211.736677,
     "geom:bbox":"12.795692,47.680457,12.944765,47.772265",
     "geom:latitude":47.730104,
     "geom:longitude":12.861032,
@@ -220,22 +232,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":560,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063227,
         1377690869,
         404227567,
-        85682571
+        102063227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09172114",
+        "eurostat:nuts_2021_id":"09172114",
         "gn:id":2953371,
         "gp:id":636489,
         "qs_pg:id":1343600,
@@ -250,7 +265,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"eab25c4435b758112dd9c90476761c1f",
+    "wof:geomhash":"11d8012918e27cc847d420396818c77c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -263,11 +278,11 @@
         }
     ],
     "wof:id":101833959,
-    "wof:lastmodified":1608050419,
+    "wof:lastmodified":1684351944,
     "wof:name":"Bad Reichenhall",
     "wof:parent_id":1377690869,
     "wof:placetype":"locality",
-    "wof:population":16910,
+    "wof:population":18443,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

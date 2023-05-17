@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brokdorf",
+    "eurostat:nuts_2021_id":"01061018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061018",
+    "eurostat:population":965,
+    "eurostat:population_year":2020,
     "geom:area":0.001832,
     "geom:area_square_m":13355153.020277,
     "geom:bbox":"9.27448250472,53.8454287347,9.35753503885,53.8932070715",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":316,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061018",
+        "eurostat:nuts_2021_id":"01061018",
         "gn:id":2943851,
         "gp:id":641440,
         "qs_pg:id":347435,
@@ -176,7 +191,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7b3bc4df8d444708276d1e1901272aa8",
+    "wof:geomhash":"1eda2529014f4d1832730450d319f790",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,12 +203,12 @@
         }
     ],
     "wof:id":101806711,
-    "wof:lastmodified":1582342623,
+    "wof:lastmodified":1684351854,
     "wof:name":"Brokdorf",
     "wof:parent_id":1377684697,
     "wof:placetype":"locality",
-    "wof:population":1082,
-    "wof:population_rank":3,
+    "wof:population":965,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

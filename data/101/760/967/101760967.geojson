@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosengarten",
+    "eurostat:nuts_2021_id":"08127100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127100",
+    "eurostat:population":5149,
+    "eurostat:population_year":2020,
     "geom:area":0.003808,
     "geom:area_square_m":30857379.182865,
     "geom:bbox":"9.64596506553,49.0297902167,9.75780724961,49.098160051",
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127100",
+        "eurostat:nuts_2021_id":"08127100",
         "gn:id":2845015,
         "gp:id":15002770,
         "qs_pg:id":244519,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73ae7e025776aaf99fc311981fe0d44b",
+    "wof:geomhash":"247a3208b80af91b122a285b0596d6bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101760967,
-    "wof:lastmodified":1582342495,
+    "wof:lastmodified":1684351804,
     "wof:name":"Rosengarten",
     "wof:parent_id":1377687917,
     "wof:placetype":"locality",
-    "wof:population":5047,
+    "wof:population":5149,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

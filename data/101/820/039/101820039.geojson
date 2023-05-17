@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6wenberger Land",
+    "eurostat:nuts_2021_id":"12065198",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065198",
+    "eurostat:population":8411,
+    "eurostat:population_year":2020,
     "geom:area":0.032747,
-    "geom:area_square_m":244324124.685467,
+    "geom:area_square_m":244324124.685475,
     "geom:bbox":"13.017828,52.794868,13.374455,52.956773",
     "geom:latitude":52.887105,
     "geom:longitude":13.181696,
@@ -295,21 +307,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":377,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063995,
         1377683383,
-        85682553
+        85633111,
+        102063995
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065198",
+        "eurostat:nuts_2021_id":"12065198",
         "gn:id":2875680,
         "gp:id":672784,
         "qs_pg:id":1025673,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"82131e69c2d654c7e779a432e1dc3dca",
+    "wof:geomhash":"c499d9ab1fc6fa39285ba982976b8215",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101820039,
-    "wof:lastmodified":1608049866,
+    "wof:lastmodified":1684351911,
     "wof:name":"L\u00f6wenberger Land",
     "wof:parent_id":1377683383,
     "wof:placetype":"locality",
-    "wof:population":7967,
+    "wof:population":8411,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

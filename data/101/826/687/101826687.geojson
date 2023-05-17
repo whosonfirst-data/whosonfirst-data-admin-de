@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08325049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rottweil, Stadt",
+    "eurostat:nuts_2021_id":"08325049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE135",
+    "eurostat:nuts_2021_level_lau":"08325049",
+    "eurostat:population":25182,
+    "eurostat:population_year":2020,
     "geom:area":0.008704,
-    "geom:area_square_m":71781497.37463,
+    "geom:area_square_m":71781497.374631,
     "geom:bbox":"8.54475437729,48.1173636254,8.74420945021,48.2226704822",
     "geom:latitude":48.168781,
     "geom:longitude":8.650212,
@@ -335,7 +347,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.168056,
     "wd:longitude":8.624722,
     "wd:wordcount":539,
@@ -353,6 +366,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08325049",
+        "eurostat:nuts_2021_id":"08325049",
         "gn:id":2843636,
         "gp:id":690132,
         "qs_pg:id":456036,
@@ -364,7 +379,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1c7d6dec4a78cac15d8a21ff9226545b",
+    "wof:geomhash":"a85c9fb55cc76b6e61248b30cc3ac7e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -377,11 +392,11 @@
         }
     ],
     "wof:id":101826687,
-    "wof:lastmodified":1582342436,
+    "wof:lastmodified":1684351935,
     "wof:name":"Rottweil",
     "wof:parent_id":1377689471,
     "wof:placetype":"locality",
-    "wof:population":25510,
+    "wof:population":25182,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

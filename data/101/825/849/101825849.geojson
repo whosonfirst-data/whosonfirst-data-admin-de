@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zapfendorf, M",
+    "eurostat:nuts_2021_id":"09471214",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471214",
+    "eurostat:population":5005,
+    "eurostat:population_year":2020,
     "geom:area":0.003818,
     "geom:area_square_m":30335666.280799,
     "geom:bbox":"10.90949,49.980393,11.008231,50.049999",
@@ -151,18 +163,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":625,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687239,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471214",
+        "eurostat:nuts_2021_id":"09471214",
         "gn:id":2805228,
         "gp:id":708487,
         "qs_pg:id":1037968,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c5e5b885481e54ed54dba55effa69430",
+    "wof:geomhash":"db0053c12bbe8f85f0083ca9b4bef66c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101825849,
-    "wof:lastmodified":1608051433,
+    "wof:lastmodified":1684351931,
     "wof:name":"Zapfendorf",
     "wof:parent_id":1377687239,
     "wof:placetype":"locality",
-    "wof:population":5017,
+    "wof:population":5005,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

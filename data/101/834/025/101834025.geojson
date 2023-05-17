@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mertingen",
+    "eurostat:nuts_2021_id":"09779181",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779181",
+    "eurostat:population":4045,
+    "eurostat:population_year":2020,
     "geom:area":0.004704,
-    "geom:area_square_m":38427850.306649,
+    "geom:area_square_m":38427850.306652,
     "geom:bbox":"10.736345,48.61893,10.847913,48.686773",
     "geom:latitude":48.651562,
     "geom:longitude":10.791832,
@@ -160,18 +172,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":79,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063365,
         1377693353,
         404227547,
-        85682571
+        102063365
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779181",
+        "eurostat:nuts_2021_id":"09779181",
         "gn:id":2871716,
         "gp:id":675128,
         "qs_pg:id":1039116,
@@ -186,7 +201,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9adc7696b044fb929e7f49da9eaba107",
+    "wof:geomhash":"6aedfeeb7daf2250e43c68c0ec4c9ab4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101834025,
-    "wof:lastmodified":1608050426,
+    "wof:lastmodified":1684351945,
     "wof:name":"Mertingen",
     "wof:parent_id":1377693353,
     "wof:placetype":"locality",
-    "wof:population":3748,
+    "wof:population":4045,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

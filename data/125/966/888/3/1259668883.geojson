@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beuren",
+    "eurostat:nuts_2021_id":"07135008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135008",
+    "eurostat:population":413,
+    "eurostat:population_year":2020,
     "geom:area":0.001371,
-    "geom:area_square_m":10874985.04514,
+    "geom:area_square_m":10874985.045141,
     "geom:bbox":"7.03698734769,50.0644695509,7.09806334761,50.1046622855",
     "geom:latitude":50.084918,
     "geom:longitude":7.066063,
@@ -107,7 +119,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -117,6 +130,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135008",
+        "eurostat:nuts_2021_id":"07135008",
         "gn:id":2949562,
         "wk:page":"Beuren%2C_Cochem-Zell"
     },
@@ -124,7 +139,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ff984d16fe732e96777b41c2b268e66e",
+    "wof:geomhash":"a0e8eae1aa027b41bda7fa6a64e61c0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -136,11 +151,11 @@
         }
     ],
     "wof:id":1259668883,
-    "wof:lastmodified":1582343109,
+    "wof:lastmodified":1684352058,
     "wof:name":"Beuren",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":450,
+    "wof:population":413,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

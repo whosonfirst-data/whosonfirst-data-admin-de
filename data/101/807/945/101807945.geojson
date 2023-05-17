@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwarme",
+    "eurostat:nuts_2021_id":"03251033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251033",
+    "eurostat:population":2553,
+    "eurostat:population_year":2020,
     "geom:area":0.003257,
-    "geom:area_square_m":24291908.354451,
+    "geom:area_square_m":24291908.35445,
     "geom:bbox":"8.98104774567,52.865516702,9.07478327499,52.9270012571",
     "geom:latitude":52.901325,
     "geom:longitude":9.02287,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251033",
+        "eurostat:nuts_2021_id":"03251033",
         "gn:id":2835223,
         "gp:id":20167155,
         "qs_pg:id":1038442,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c14c1a1f91458659f45043f5877d31b",
+    "wof:geomhash":"6176a2845958dfab6a18ae0e0fd9a9b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101807945,
-    "wof:lastmodified":1582342593,
+    "wof:lastmodified":1684351862,
     "wof:name":"Schwarme",
     "wof:parent_id":1377686531,
     "wof:placetype":"locality",
-    "wof:population":2544,
+    "wof:population":2553,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

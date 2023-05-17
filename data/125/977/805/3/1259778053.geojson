@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Katzwinkel",
+    "eurostat:nuts_2021_id":"07233037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233037",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "geom:area":0.000481,
-    "geom:area_square_m":3802775.117096,
+    "geom:area_square_m":3802775.117095,
     "geom:bbox":"6.89873002384,50.2410187029,6.93947417954,50.2701950475",
     "geom:latitude":50.252293,
     "geom:longitude":6.912311,
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -126,6 +139,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233037",
+        "eurostat:nuts_2021_id":"07233037",
         "gn:id":2892104,
         "wk:page":"Katzwinkel%2C_Vulkaneifel"
     },
@@ -133,7 +148,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"75e40f08ecaa890ac6264884a1c8223f",
+    "wof:geomhash":"f5aa19b005ded2313072f62ae376c90c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1259778053,
-    "wof:lastmodified":1582343108,
+    "wof:lastmodified":1684352058,
     "wof:name":"Katzwinkel",
     "wof:parent_id":1377686001,
     "wof:placetype":"locality",
-    "wof:population":139,
+    "wof:population":125,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

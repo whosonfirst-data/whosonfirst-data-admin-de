@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lahnstein, Stadt",
+    "eurostat:nuts_2021_id":"07141075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141075",
+    "eurostat:population":18042,
+    "eurostat:population_year":2020,
     "geom:area":0.004701,
-    "geom:area_square_m":37127589.935113,
+    "geom:area_square_m":37127589.935111,
     "geom:bbox":"7.588761,50.267608,7.755705,50.360129",
     "geom:latitude":50.305415,
     "geom:longitude":7.66591,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2036,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063621,
         1377685715,
-        85682491
+        85633111,
+        102063621
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141075",
+        "eurostat:nuts_2021_id":"07141075",
         "gn:id":2881889,
         "gp:id":669811,
         "qs_pg:id":1039311,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2bb79cac4acdfd1c84286d6053a6d2bf",
+    "wof:geomhash":"d6d86fa4999ba7a0a343a6aa3924a194",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101753105,
-    "wof:lastmodified":1608049417,
+    "wof:lastmodified":1684351790,
     "wof:name":"Lahnstein",
     "wof:parent_id":1377685715,
     "wof:placetype":"locality",
-    "wof:population":18749,
+    "wof:population":18042,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

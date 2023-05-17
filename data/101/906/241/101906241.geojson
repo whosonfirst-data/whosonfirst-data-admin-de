@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dellstedt",
+    "eurostat:nuts_2021_id":"01051019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051019",
+    "eurostat:population":736,
+    "eurostat:population_year":2020,
     "geom:area":0.003013,
-    "geom:area_square_m":21774099.674056,
+    "geom:area_square_m":21774099.674058,
     "geom:bbox":"9.33557070253,54.221088698,9.44442147612,54.2677234019",
     "geom:latitude":54.243034,
     "geom:longitude":9.388774,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051019",
+        "eurostat:nuts_2021_id":"01051019",
         "gn:id":2938332,
         "gp:id":644102,
         "qs_pg:id":94008,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"df4798c94fc1257e24410f24d2a6eda5",
+    "wof:geomhash":"391c6ec9aa3e84eae809ab33edb22709",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101906241,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351978,
     "wof:name":"Dellstedt",
     "wof:parent_id":1377683407,
     "wof:placetype":"locality",
-    "wof:population":792,
+    "wof:population":736,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

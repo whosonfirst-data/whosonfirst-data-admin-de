@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberreichenbach",
+    "eurostat:nuts_2021_id":"08235055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235055",
+    "eurostat:population":2836,
+    "eurostat:population_year":2020,
     "geom:area":0.004462,
-    "geom:area_square_m":36388687.777813,
+    "geom:area_square_m":36388687.777811,
     "geom:bbox":"8.57121143366,48.7077821343,8.69343639074,48.7721032006",
     "geom:latitude":48.73912,
     "geom:longitude":8.63264,
@@ -101,7 +113,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -112,13 +125,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235055",
+        "eurostat:nuts_2021_id":"08235055",
         "gn:id":2859360
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"148a9e8952eddb5568754de29b5683f4",
+    "wof:geomhash":"37a9d19856e76d6c1f5d1e4f5c182e6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +146,11 @@
         }
     ],
     "wof:id":1243071331,
-    "wof:lastmodified":1582343081,
+    "wof:lastmodified":1684352058,
     "wof:name":"Oberreichenbach",
     "wof:parent_id":1377688883,
     "wof:placetype":"locality",
-    "wof:population":2922,
+    "wof:population":2836,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberarnbach",
+    "eurostat:nuts_2021_id":"07335031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335031",
+    "eurostat:population":430,
+    "eurostat:population_year":2020,
     "geom:area":0.000625,
     "geom:area_square_m":5028511.709966,
     "geom:bbox":"7.56400807917,49.3692118697,7.60322308589,49.3993715336",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335031",
+        "eurostat:nuts_2021_id":"07335031",
         "gn:id":2861407,
         "qs_pg:id":244524,
         "wd:id":"Q652200"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f5b0a8cb90373cfe39deac59f593173f",
+    "wof:geomhash":"eb096e520d07eb4d82fd3f56b79a5932",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126044467,
-    "wof:lastmodified":1582342981,
+    "wof:lastmodified":1684352054,
     "wof:name":"Oberarnbach",
     "wof:parent_id":1377686447,
     "wof:placetype":"locality",
-    "wof:population":440,
+    "wof:population":430,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

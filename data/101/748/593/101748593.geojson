@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fulda, Stadt",
+    "eurostat:nuts_2021_id":"06631009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631009",
+    "eurostat:population":68635,
+    "eurostat:population_year":2020,
     "geom:area":0.013152,
-    "geom:area_square_m":103308039.97086,
+    "geom:area_square_m":103308039.970856,
     "geom:bbox":"9.565875,50.49972,9.7319,50.628668",
     "geom:latitude":50.563104,
     "geom:longitude":9.65231,
@@ -259,7 +271,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":261.0,
     "wd:latitude":50.552778,
     "wd:longitude":9.6775,
@@ -270,15 +283,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684121,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631009",
+        "eurostat:nuts_2021_id":"06631009",
         "gn:id":2923822,
         "gp:id":651092,
         "qs_pg:id":142555,
@@ -293,7 +308,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cd439f904bb7b792280e6a384ec1b695",
+    "wof:geomhash":"ee67cd1ea639d149f093bda57dd5d896",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -306,11 +321,11 @@
         }
     ],
     "wof:id":101748593,
-    "wof:lastmodified":1608050544,
+    "wof:lastmodified":1684351786,
     "wof:name":"Fulda",
     "wof:parent_id":1377684121,
     "wof:placetype":"locality",
-    "wof:population":65540,
+    "wof:population":68635,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

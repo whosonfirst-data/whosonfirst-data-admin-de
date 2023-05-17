@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwalbach",
+    "eurostat:nuts_2021_id":"10044118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044118",
+    "eurostat:population":17099,
+    "eurostat:population_year":2020,
     "geom:area":0.003396,
-    "geom:area_square_m":27376258.052595,
+    "geom:area_square_m":27376258.052594,
     "geom:bbox":"6.782868,49.281819,6.882912,49.334083",
     "geom:latitude":49.306551,
     "geom:longitude":6.832901,
@@ -121,21 +133,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693955,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044118",
+        "eurostat:nuts_2021_id":"10044118",
         "gn:id":2835382,
         "gp:id":654188,
         "qs_pg:id":1038451,
@@ -149,7 +164,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5e92a34d5b8df12b51380171930f72cb",
+    "wof:geomhash":"9b51689814c98b8a146df768579677fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +176,11 @@
         }
     ],
     "wof:id":101759639,
-    "wof:lastmodified":1608050960,
+    "wof:lastmodified":1684351798,
     "wof:name":"Schwalbach",
     "wof:parent_id":1377693955,
     "wof:placetype":"locality",
-    "wof:population":18708,
+    "wof:population":17099,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

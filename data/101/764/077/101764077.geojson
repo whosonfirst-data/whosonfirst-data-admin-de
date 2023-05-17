@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Denkingen",
+    "eurostat:nuts_2021_id":"08327010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327010",
+    "eurostat:population":2702,
+    "eurostat:population_year":2020,
     "geom:area":0.0018,
     "geom:area_square_m":14857649.092996,
     "geom:bbox":"8.69796875234,48.0923643685,8.77386823355,48.1297702772",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327010",
+        "eurostat:nuts_2021_id":"08327010",
         "fct:id":"073b3842-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2938245,
         "gp:id":644149,
@@ -335,7 +350,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"88ecd842f66a54e428608f89cdbc9e1a",
+    "wof:geomhash":"5cd323db82d5e62e56ef9ea15b5648ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342299,
+    "wof:lastmodified":1684351812,
     "wof:name":"Denkingen",
     "wof:parent_id":1377689629,
     "wof:placetype":"locality",
-    "wof:population":2530,
+    "wof:population":2702,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

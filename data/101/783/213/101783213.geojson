@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08136087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riesb\u00fcrg",
+    "eurostat:nuts_2021_id":"08136087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11D",
+    "eurostat:nuts_2021_level_lau":"08136087",
+    "eurostat:population":2281,
+    "eurostat:population_year":2020,
     "geom:area":0.002204,
     "geom:area_square_m":17932278.484684,
     "geom:bbox":"10.3870170821,48.8074912511,10.454106806,48.884933372",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "wof:belongsto":[
         85682567,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08136087",
+        "eurostat:nuts_2021_id":"08136087",
         "gn:id":3208318,
         "gp:id":15002761,
         "qs_pg:id":581855,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b68ed59d25d8ef3619fbf1fc68131195",
+    "wof:geomhash":"1a7f60cfee877efef85bf5e0a4397eb9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101783213,
-    "wof:lastmodified":1582342480,
+    "wof:lastmodified":1684351828,
     "wof:name":"Riesb\u00fcrg",
     "wof:parent_id":1377685471,
     "wof:placetype":"locality",
-    "wof:population":2286,
+    "wof:population":2281,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

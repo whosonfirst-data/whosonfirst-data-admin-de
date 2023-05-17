@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05314000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bonn, Stadt",
+    "eurostat:nuts_2021_id":"05314000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA22",
+    "eurostat:nuts_2021_level_lau":"05314000",
+    "eurostat:population":329673,
+    "eurostat:population_year":2020,
     "geom:area":0.018023,
     "geom:area_square_m":141140008.268569,
     "geom:bbox":"7.023486,50.631866,7.210872,50.774435",
@@ -499,7 +511,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":141.06,
     "wd:elevation":60.0,
     "wd:latitude":50.733889,
@@ -507,15 +520,17 @@
     "wd:population":311287,
     "wd:wordcount":4713,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063661,
         1377689971,
         404227541,
-        85682513
+        102063661
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05314000",
+        "eurostat:nuts_2021_id":"05314000",
         "gn:id":2946447,
         "gp:id":640161,
         "qs_pg:id":6,
@@ -534,7 +549,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a1d0bdb4dc21c66397e89bbe08363d20",
+    "wof:geomhash":"d74c552e92a558e55092a111ce80f578",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -547,11 +562,11 @@
         }
     ],
     "wof:id":101748595,
-    "wof:lastmodified":1608050547,
+    "wof:lastmodified":1684351786,
     "wof:name":"Bonn",
     "wof:parent_id":1377689971,
     "wof:placetype":"locality",
-    "wof:population":311287,
+    "wof:population":329673,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

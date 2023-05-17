@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberstreu",
+    "eurostat:nuts_2021_id":"09673151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673151",
+    "eurostat:population":1492,
+    "eurostat:population_year":2020,
     "geom:area":0.002804,
-    "geom:area_square_m":22102734.937127,
+    "geom:area_square_m":22102734.937126,
     "geom:bbox":"10.2296857883,50.3728048167,10.3264479644,50.423576358",
     "geom:latitude":50.400197,
     "geom:longitude":10.279299,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673151",
+        "eurostat:nuts_2021_id":"09673151",
         "gn:id":2858874,
         "gp:id":675579,
         "qs_pg:id":577543,
@@ -178,7 +193,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f628cad5a51fbe62a1de6abfe9dc2d5c",
+    "wof:geomhash":"523cea5180a56da2ae5ba98647a1f219",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101847207,
-    "wof:lastmodified":1582342558,
+    "wof:lastmodified":1684351962,
     "wof:name":"Oberstreu",
     "wof:parent_id":1377690829,
     "wof:placetype":"locality",
-    "wof:population":1689,
+    "wof:population":1492,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

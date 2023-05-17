@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wasserliesch",
+    "eurostat:nuts_2021_id":"07235143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235143",
+    "eurostat:population":2215,
+    "eurostat:population_year":2020,
     "geom:area":0.000957,
     "geom:area_square_m":7652282.099327,
     "geom:bbox":"6.51008650784,49.6860029378,6.56259162319,49.7140101227",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235143",
+        "eurostat:nuts_2021_id":"07235143",
         "gn:id":2813728,
         "gp:id":704121,
         "qs_pg:id":1038135,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7d2b3ae9c06acb26ec662f190cc5fd16",
+    "wof:geomhash":"56f2d1c17138709aef8b6387cec8f6f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101756371,
-    "wof:lastmodified":1582342501,
+    "wof:lastmodified":1684351794,
     "wof:name":"Wasserliesch",
     "wof:parent_id":1377686037,
     "wof:placetype":"locality",
-    "wof:population":2265,
+    "wof:population":2215,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

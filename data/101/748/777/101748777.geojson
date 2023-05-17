@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Detmold, Stadt",
+    "eurostat:nuts_2021_id":"05766020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766020",
+    "eurostat:population":74254,
+    "eurostat:population_year":2020,
     "geom:area":0.016876,
-    "geom:area_square_m":128665615.842276,
+    "geom:area_square_m":128665615.842278,
     "geom:bbox":"8.763125,51.858902,8.989339,51.99818",
     "geom:latitude":51.932703,
     "geom:longitude":8.881938,
@@ -346,21 +358,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691781,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766020",
+        "eurostat:nuts_2021_id":"05766020",
         "gn:id":2937936,
         "gp:id":644266,
         "qs_pg:id":142708,
@@ -375,7 +390,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a34604294502927f83a7ce6beeceb3fb",
+    "wof:geomhash":"669508b83f613fa583684f516e18922c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -388,11 +403,11 @@
         }
     ],
     "wof:id":101748777,
-    "wof:lastmodified":1608050571,
+    "wof:lastmodified":1684351789,
     "wof:name":"Detmold",
     "wof:parent_id":1377691781,
     "wof:placetype":"locality",
-    "wof:population":73680,
+    "wof:population":74254,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

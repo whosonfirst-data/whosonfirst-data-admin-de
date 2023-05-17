@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osterby",
+    "eurostat:nuts_2021_id":"01059151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059151",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "geom:area":0.001727,
-    "geom:area_square_m":12308114.565473,
+    "geom:area_square_m":12308114.565475,
     "geom:bbox":"9.16852118077,54.7809826275,9.25008113945,54.8171415564",
     "geom:latitude":54.796904,
     "geom:longitude":9.213904,
@@ -266,7 +278,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682517,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059151",
+        "eurostat:nuts_2021_id":"01059151",
         "gn:id":2856635,
         "gp:id":683602,
         "wd:id":"Q114592"
@@ -285,7 +300,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0543dcf1069ec62775eb70e4363fd145",
+    "wof:geomhash":"e8c7d31ff2d9c3c735be4815465b5248",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -297,11 +312,11 @@
         }
     ],
     "wof:id":101906405,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351979,
     "wof:name":"Osterby",
     "wof:parent_id":1377684419,
     "wof:placetype":"locality",
-    "wof:population":313,
+    "wof:population":314,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

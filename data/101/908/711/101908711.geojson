@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pudagla",
+    "eurostat:nuts_2021_id":"13075111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075111",
+    "eurostat:population":481,
+    "eurostat:population_year":2020,
     "geom:area":0.001787,
-    "geom:area_square_m":13000773.086111,
+    "geom:area_square_m":13000773.086112,
     "geom:bbox":"14.0355999457,53.942033643,14.1057095208,53.9905904698",
     "geom:latitude":53.966576,
     "geom:longitude":14.068938,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":90,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075111",
+        "eurostat:nuts_2021_id":"13075111",
         "gn:id":2851774,
         "gp:id":686181,
         "qs_pg:id":955684,
@@ -314,7 +329,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3a0911e0d1d8aae1ce1dfedc42d0b07c",
+    "wof:geomhash":"de5ce05de1fbc6363d6e2b0f847503a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101908711,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351998,
     "wof:name":"Pudagla",
     "wof:parent_id":1377685171,
     "wof:placetype":"locality",
-    "wof:population":443,
+    "wof:population":481,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

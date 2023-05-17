@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08416009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dettenhausen",
+    "eurostat:nuts_2021_id":"08416009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE142",
+    "eurostat:nuts_2021_level_lau":"08416009",
+    "eurostat:population":5390,
+    "eurostat:population_year":2020,
     "geom:area":0.001357,
-    "geom:area_square_m":11093555.640325,
+    "geom:area_square_m":11093555.640324,
     "geom:bbox":"9.07765,48.578595,9.131774,48.622815",
     "geom:latitude":48.598264,
     "geom:longitude":9.104119,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":377,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063305,
         1377689999,
         404227573,
-        85682567
+        102063305
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08416009",
+        "eurostat:nuts_2021_id":"08416009",
         "fct:id":"0715b194-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2937919,
         "gp:id":644273,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd996994cdaab86aae63af410349f44d",
+    "wof:geomhash":"304a66e889257cac51f06632f6c3f81d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,7 +375,7 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049697,
+    "wof:lastmodified":1684351808,
     "wof:name":"Dettenhausen",
     "wof:parent_id":1377689999,
     "wof:placetype":"locality",

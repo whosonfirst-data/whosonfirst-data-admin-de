@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grimma, Stadt",
+    "eurostat:nuts_2021_id":"14729160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729160",
+    "eurostat:population":28173,
+    "eurostat:population_year":2020,
     "geom:area":0.028057,
-    "geom:area_square_m":217245714.589501,
+    "geom:area_square_m":217245714.589486,
     "geom:bbox":"12.639959,51.157327,12.931578,51.312494",
     "geom:latitude":51.229814,
     "geom:longitude":12.793596,
@@ -340,21 +352,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":581,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687761,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729160",
+        "eurostat:nuts_2021_id":"14729160",
         "gn:id":2917325,
         "gp:id":654247,
         "qs_pg:id":245424,
@@ -369,7 +384,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3097bcf5d0280810c3728d38ec552f69",
+    "wof:geomhash":"0486dda17ef9318ca90a9997ca1d8fad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -381,12 +396,12 @@
         }
     ],
     "wof:id":101821999,
-    "wof:lastmodified":1608050178,
+    "wof:lastmodified":1684351919,
     "wof:name":"Grimma",
     "wof:parent_id":1377687761,
     "wof:placetype":"locality",
-    "wof:population":17991,
-    "wof:population_rank":6,
+    "wof:population":28173,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

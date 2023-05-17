@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03460010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Visbek",
+    "eurostat:nuts_2021_id":"03460010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94F",
+    "eurostat:nuts_2021_level_lau":"03460010",
+    "eurostat:population":9925,
+    "eurostat:population_year":2020,
     "geom:area":0.011216,
-    "geom:area_square_m":83792328.155334,
+    "geom:area_square_m":83792328.155335,
     "geom:bbox":"8.235422,52.776003,8.406386,52.884258",
     "geom:latitude":52.831631,
     "geom:longitude":8.313098,
@@ -303,21 +315,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":530,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063955,
         1377689231,
-        85682555
+        85633111,
+        102063955
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03460010",
+        "eurostat:nuts_2021_id":"03460010",
         "gn:id":2817139,
         "gp:id":702437,
         "qs_pg:id":1038209,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4c23e332d20bfa1ea8899e27e5bf363c",
+    "wof:geomhash":"ab558a8728026bceb64a4ebe092299c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101807815,
-    "wof:lastmodified":1608051557,
+    "wof:lastmodified":1684351860,
     "wof:name":"Visbek",
     "wof:parent_id":1377689231,
     "wof:placetype":"locality",
-    "wof:population":9164,
+    "wof:population":9925,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

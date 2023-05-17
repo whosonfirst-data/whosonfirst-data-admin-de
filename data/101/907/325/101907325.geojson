@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Strohn",
+    "eurostat:nuts_2021_id":"07233070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233070",
+    "eurostat:population":484,
+    "eurostat:population_year":2020,
     "geom:area":0.001086,
-    "geom:area_square_m":8613394.317967,
+    "geom:area_square_m":8613394.317968,
     "geom:bbox":"6.89805580477,50.0905511686,6.95398050595,50.1262817947",
     "geom:latitude":50.10578,
     "geom:longitude":6.926179,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1298,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233070",
+        "eurostat:nuts_2021_id":"07233070",
         "gn:id":2825733,
         "gp:id":697895,
         "qs_pg:id":1151892,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fc3840dff1a4c0387c5e548716783e1b",
+    "wof:geomhash":"aa0dbe5c0ff0ba37d859f2396c531c4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101907325,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351987,
     "wof:name":"Strohn",
     "wof:parent_id":1377685969,
     "wof:placetype":"locality",
-    "wof:population":493,
+    "wof:population":484,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

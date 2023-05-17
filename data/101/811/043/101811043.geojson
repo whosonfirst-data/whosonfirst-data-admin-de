@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05334028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Simmerath",
+    "eurostat:nuts_2021_id":"05334028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2D",
+    "eurostat:nuts_2021_level_lau":"05334028",
+    "eurostat:population":15404,
+    "eurostat:population_year":2020,
     "geom:area":0.01408,
-    "geom:area_square_m":110471288.547562,
+    "geom:area_square_m":110471288.54756,
     "geom:bbox":"6.244771,50.529836,6.419697,50.686384",
     "geom:latitude":50.614064,
     "geom:longitude":6.328111,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063693,
         1377690061,
         404227541,
-        85682513
+        102063693
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05334028",
+        "eurostat:nuts_2021_id":"05334028",
         "gn:id":2896252,
         "gp:id":695095,
         "qs_pg:id":1038402,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"618439b65a458547e6a6f75354059fda",
+    "wof:geomhash":"9da1b9f1777254e1ba2fffd937a2dab8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
         }
     ],
     "wof:id":101811043,
-    "wof:lastmodified":1608049937,
+    "wof:lastmodified":1684351878,
     "wof:name":"Simmerath",
     "wof:parent_id":1377690061,
     "wof:placetype":"locality",
-    "wof:population":15646,
+    "wof:population":15404,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

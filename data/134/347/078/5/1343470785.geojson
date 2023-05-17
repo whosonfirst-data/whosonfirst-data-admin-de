@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stadelhofen",
+    "eurostat:nuts_2021_id":"09471189",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471189",
+    "eurostat:population":1245,
+    "eurostat:population_year":2020,
     "geom:area":0.005168,
-    "geom:area_square_m":41087135.97554,
+    "geom:area_square_m":41087135.975541,
     "geom:bbox":"11.1067977629,49.9551449931,11.2529401927,50.0252419361",
     "geom:latitude":49.990108,
     "geom:longitude":11.17564,
@@ -134,7 +146,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -145,13 +158,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471189",
+        "eurostat:nuts_2021_id":"09471189",
         "gn:id":2829879
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e45d8cd067ec082e22533e09ac27b18f",
+    "wof:geomhash":"f232945a6fda2b5f654b17f906f98b3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +179,11 @@
         }
     ],
     "wof:id":1343470785,
-    "wof:lastmodified":1582341946,
+    "wof:lastmodified":1684352062,
     "wof:name":"Stadelhofen",
     "wof:parent_id":1377687265,
     "wof:placetype":"locality",
-    "wof:population":1260,
+    "wof:population":1245,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

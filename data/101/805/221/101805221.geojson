@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sankt Peter-Ording",
+    "eurostat:nuts_2021_id":"01054113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054113",
+    "eurostat:population":3997,
+    "eurostat:population_year":2020,
     "geom:area":0.00342,
     "geom:area_square_m":24671203.772454,
     "geom:bbox":"8.59937692793,54.2781310464,8.70697808712,54.3429665549",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":813,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054113",
+        "eurostat:nuts_2021_id":"01054113",
         "gn:id":2841484,
         "gp:id":639883,
         "loc:id":"n95041922",
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7376a712e0df655f2baaf09a7ed083ef",
+    "wof:geomhash":"ea78c8e47d0eff207b0327b9a7af2923",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101805221,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351848,
     "wof:name":"Sankt Peter-Ording",
     "wof:parent_id":1377683593,
     "wof:placetype":"locality",
-    "wof:population":4092,
+    "wof:population":3997,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

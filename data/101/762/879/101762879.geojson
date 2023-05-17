@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hechingen, Stadt",
+    "eurostat:nuts_2021_id":"08417031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417031",
+    "eurostat:population":19259,
+    "eurostat:population_year":2020,
     "geom:area":0.008087,
-    "geom:area_square_m":66454455.936844,
+    "geom:area_square_m":66454455.936842,
     "geom:bbox":"8.88954946605,48.2999780455,9.06191525288,48.3910310544",
     "geom:latitude":48.352461,
     "geom:longitude":8.97626,
@@ -337,7 +349,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":66.44,
     "wd:latitude":48.351667,
     "wd:longitude":8.963333,
@@ -357,6 +370,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417031",
+        "eurostat:nuts_2021_id":"08417031",
         "gn:id":2908495,
         "gp:id":658204,
         "qs_pg:id":358443,
@@ -368,7 +383,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"20d8f9acb9768a8dd8da35df82788708",
+    "wof:geomhash":"b67b6fd2c750d4d5b845eb3d10c45c24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -381,11 +396,11 @@
         }
     ],
     "wof:id":101762879,
-    "wof:lastmodified":1582342356,
+    "wof:lastmodified":1684351808,
     "wof:name":"Hechingen",
     "wof:parent_id":1377690127,
     "wof:placetype":"locality",
-    "wof:population":16064,
+    "wof:population":19259,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

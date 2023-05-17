@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nieby",
+    "eurostat:nuts_2021_id":"01059147",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059147",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "geom:area":0.001145,
-    "geom:area_square_m":8163570.980942,
+    "geom:area_square_m":8163570.980941,
     "geom:bbox":"9.8996975635,54.7642779715,9.96361701243,54.7999882813",
     "geom:latitude":54.779413,
     "geom:longitude":9.926836,
@@ -146,7 +158,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -160,13 +173,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059147",
+        "eurostat:nuts_2021_id":"01059147",
         "gn:id":2863694
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e8fd0b6ac4f157165619643877eb7644",
+    "wof:geomhash":"5782def4b1af4183159eb4bc4b5a8676",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":1276865095,
-    "wof:lastmodified":1582342038,
+    "wof:lastmodified":1684352059,
     "wof:name":"Nieby",
     "wof:parent_id":1377684447,
     "wof:placetype":"locality",
-    "wof:population":139,
+    "wof:population":130,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

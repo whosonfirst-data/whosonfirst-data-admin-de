@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08136038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauchheim, Stadt",
+    "eurostat:nuts_2021_id":"08136038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11D",
+    "eurostat:nuts_2021_level_lau":"08136038",
+    "eurostat:population":4698,
+    "eurostat:population_year":2020,
     "geom:area":0.004947,
-    "geom:area_square_m":40235490.970255,
+    "geom:area_square_m":40235490.970257,
     "geom:bbox":"10.2000912444,48.8356444031,10.3267181786,48.9073397297",
     "geom:latitude":48.869085,
     "geom:longitude":10.259491,
@@ -323,7 +335,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":40.86,
     "wd:latitude":48.871667,
     "wd:longitude":10.244444,
@@ -343,6 +356,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08136038",
+        "eurostat:nuts_2021_id":"08136038",
         "gn:id":2880215,
         "gp:id":670545,
         "qs_pg:id":213053,
@@ -354,7 +369,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d224b72df586a7ea8f0d8802bd986f52",
+    "wof:geomhash":"c62fd4ce2f46bb123562dded2b1f2597",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101761959,
-    "wof:lastmodified":1582342512,
+    "wof:lastmodified":1684351807,
     "wof:name":"Lauchheim",
     "wof:parent_id":1377688069,
     "wof:placetype":"locality",
-    "wof:population":2859,
+    "wof:population":4698,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

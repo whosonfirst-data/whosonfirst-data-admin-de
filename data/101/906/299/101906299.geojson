@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Helse",
+    "eurostat:nuts_2021_id":"01051046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051046",
+    "eurostat:population":828,
+    "eurostat:population_year":2020,
     "geom:area":0.001616,
     "geom:area_square_m":11755586.882633,
     "geom:bbox":"8.98600762381,53.95509703,9.05553110695,53.9912093778",
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051046",
+        "eurostat:nuts_2021_id":"01051046",
         "gn:id":2906678,
         "gp:id":658962,
         "qs_pg:id":578701,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b538f354ffe118a64b3ae43911668935",
+    "wof:geomhash":"4d694d809571830852e34c0b041617cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
         }
     ],
     "wof:id":101906299,
-    "wof:lastmodified":1582342332,
+    "wof:lastmodified":1684351978,
     "wof:name":"Helse",
     "wof:parent_id":1377683403,
     "wof:placetype":"locality",
-    "wof:population":990,
+    "wof:population":828,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

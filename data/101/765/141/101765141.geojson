@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Albbruck",
+    "eurostat:nuts_2021_id":"08337002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337002",
+    "eurostat:population":7365,
+    "eurostat:population_year":2020,
     "geom:area":0.004765,
-    "geom:area_square_m":39716754.756441,
+    "geom:area_square_m":39716754.756439,
     "geom:bbox":"8.07105,47.582659,8.167255,47.670249",
     "geom:latitude":47.622346,
     "geom:longitude":8.121563,
@@ -317,22 +329,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063207,
         1377689763,
         404227543,
-        85682567
+        102063207
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337002",
+        "eurostat:nuts_2021_id":"08337002",
         "fct:id":"0715a546-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2958744,
         "gp:id":633757,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4b575678cf9836a4cc40074c791aa718",
+    "wof:geomhash":"5701b8db38cb7f36c7779330d0b87e6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049546,
+    "wof:lastmodified":1684351815,
     "wof:name":"Albbruck",
     "wof:parent_id":1377689763,
     "wof:placetype":"locality",
-    "wof:population":7372,
+    "wof:population":7365,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

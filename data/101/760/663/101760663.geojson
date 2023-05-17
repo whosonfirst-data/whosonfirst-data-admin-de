@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6nnigheim, Stadt",
+    "eurostat:nuts_2021_id":"08118010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118010",
+    "eurostat:population":8141,
+    "eurostat:population_year":2020,
     "geom:area":0.002471,
-    "geom:area_square_m":20030451.138611,
+    "geom:area_square_m":20030451.138609,
     "geom:bbox":"9.01514177788,49.0079894857,9.13540693413,49.06166227",
     "geom:latitude":49.033463,
     "geom:longitude":9.08755,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":20.12,
     "wd:latitude":49.040833,
     "wd:longitude":9.095,
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118010",
+        "eurostat:nuts_2021_id":"08118010",
         "gn:id":2946428,
         "gp:id":640171,
         "qs_pg:id":1343712,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cc5207ac76a31fadde347cc380b9d265",
+    "wof:geomhash":"a3daa15a44c7751d2f5cfefa016099d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101760663,
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351800,
     "wof:name":"B\u00f6nnigheim",
     "wof:parent_id":1377687377,
     "wof:placetype":"locality",
-    "wof:population":5215,
+    "wof:population":8141,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

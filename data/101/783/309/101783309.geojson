@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09276127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchdorf i.Wald",
+    "eurostat:nuts_2021_id":"09276127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE229",
+    "eurostat:nuts_2021_level_lau":"09276127",
+    "eurostat:population":2100,
+    "eurostat:population_year":2020,
     "geom:area":0.003734,
-    "geom:area_square_m":30345013.414874,
+    "geom:area_square_m":30345013.414876,
     "geom:bbox":"13.214721,48.872689,13.296022,48.960301",
     "geom:latitude":48.912805,
     "geom:longitude":13.259454,
@@ -135,18 +147,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063395,
         1377684955,
         404227559,
-        85682571
+        102063395
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09276127",
+        "eurostat:nuts_2021_id":"09276127",
         "gn:id":2890599,
         "gp:id":665899,
         "qs_pg:id":578336,
@@ -161,7 +176,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6dac0a9585c0b0f6da5fd51b4e5322b0",
+    "wof:geomhash":"1d8930c6b64b54a2798db7fe2d3d5201",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101783309,
-    "wof:lastmodified":1608050604,
+    "wof:lastmodified":1684351829,
     "wof:name":"Kirchdorf i. Wald",
     "wof:parent_id":1377684955,
     "wof:placetype":"locality",
-    "wof:population":2176,
+    "wof:population":2100,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

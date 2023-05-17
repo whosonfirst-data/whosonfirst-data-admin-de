@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09473132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfheirath",
+    "eurostat:nuts_2021_id":"09473132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE247",
+    "eurostat:nuts_2021_level_lau":"09473132",
+    "eurostat:population":2667,
+    "eurostat:population_year":2020,
     "geom:area":0.002788,
-    "geom:area_square_m":22075408.206575,
+    "geom:area_square_m":22075408.206573,
     "geom:bbox":"10.870217,50.150338,10.980309,50.205903",
     "geom:latitude":50.178572,
     "geom:longitude":10.920437,
@@ -173,22 +185,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063615,
         1377687731,
         404227583,
-        85682571
+        102063615
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09473132",
+        "eurostat:nuts_2021_id":"09473132",
         "fct:id":"071cf7ec-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2915529,
         "gp:id":655029,
@@ -204,7 +219,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8625fa433029fd34f4be995127b04baa",
+    "wof:geomhash":"2c733fdf3ae74e940e72a70cfaf7f495",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -220,11 +235,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051264,
+    "wof:lastmodified":1684351963,
     "wof:name":"Gro\u00dfheirath",
     "wof:parent_id":1377687731,
     "wof:placetype":"locality",
-    "wof:population":2640,
+    "wof:population":2667,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03351004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergen, Stadt",
+    "eurostat:nuts_2021_id":"03351004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE931",
+    "eurostat:nuts_2021_level_lau":"03351004",
+    "eurostat:population":13430,
+    "eurostat:population_year":2020,
     "geom:area":0.021921,
-    "geom:area_square_m":163924820.224061,
+    "geom:area_square_m":163924820.224078,
     "geom:bbox":"9.89572,52.7068,10.161912,52.891653",
     "geom:latitude":52.787736,
     "geom:longitude":9.998781,
@@ -313,20 +325,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063959,
         1377687101,
-        85682555
+        85633111,
+        102063959
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03351004",
+        "eurostat:nuts_2021_id":"03351004",
         "gn:id":2950622,
         "gp:id":637997,
         "qs_pg:id":1231362,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"60556a87d0a58637690797c92d5b0ce0",
+    "wof:geomhash":"1914840bc6a6e1496fee1349f0c2e138",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101807897,
-    "wof:lastmodified":1608051569,
+    "wof:lastmodified":1684351861,
     "wof:name":"Bergen",
     "wof:parent_id":1377687101,
     "wof:placetype":"locality",
-    "wof:population":13609,
+    "wof:population":13430,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

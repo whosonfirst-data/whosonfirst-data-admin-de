@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altrip",
+    "eurostat:nuts_2021_id":"07338001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338001",
+    "eurostat:population":7709,
+    "eurostat:population_year":2020,
     "geom:area":0.001293,
-    "geom:area_square_m":10396555.188107,
+    "geom:area_square_m":10396555.188105,
     "geom:bbox":"8.45211377405,49.4080838101,8.50835743081,49.4440530257",
     "geom:latitude":49.428455,
     "geom:longitude":8.482356,
@@ -155,7 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -170,6 +183,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338001",
+        "eurostat:nuts_2021_id":"07338001",
         "gn:id":2956891,
         "gp:id":634833,
         "qs_pg:id":213823,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f34814ba4b708048bb559e0dc6925413",
+    "wof:geomhash":"b7a7e6410221bf95d76d7327a41f5e4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101756319,
-    "wof:lastmodified":1582342504,
+    "wof:lastmodified":1684351794,
     "wof:name":"Altrip",
     "wof:parent_id":1377686645,
     "wof:placetype":"locality",
-    "wof:population":7802,
+    "wof:population":7709,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

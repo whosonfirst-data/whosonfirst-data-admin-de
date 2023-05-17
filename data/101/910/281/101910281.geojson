@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Petersberg",
+    "eurostat:nuts_2021_id":"16074067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074067",
+    "eurostat:population":286,
+    "eurostat:population_year":2020,
     "geom:area":0.001038,
     "geom:area_square_m":8080339.618802,
     "geom:bbox":"11.8065872794,50.9606825567,11.8796331729,50.9983931028",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":160,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074067",
+        "eurostat:nuts_2021_id":"16074067",
         "gn:id":2854704,
         "gp:id":667290,
         "qs_pg:id":93259,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"05217386cef23f5dbbc72a9755a064e5",
+    "wof:geomhash":"2d6fea3ffa088d3dae2b9daf39b87240",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101910281,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352005,
     "wof:name":"Petersberg",
     "wof:parent_id":1377690697,
     "wof:placetype":"locality",
-    "wof:population":303,
+    "wof:population":286,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

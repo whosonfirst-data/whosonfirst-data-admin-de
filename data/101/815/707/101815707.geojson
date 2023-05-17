@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meckenheim",
+    "eurostat:nuts_2021_id":"07332035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332035",
+    "eurostat:population":3393,
+    "eurostat:population_year":2020,
     "geom:area":0.001784,
-    "geom:area_square_m":14359145.880937,
+    "geom:area_square_m":14359145.880936,
     "geom:bbox":"8.19877251428,49.3781966948,8.27301977191,49.4214312062",
     "geom:latitude":49.397732,
     "geom:longitude":8.239183,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332035",
+        "eurostat:nuts_2021_id":"07332035",
         "gn:id":2872583,
         "gp:id":674419,
         "qs_pg:id":1039137,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a7f5f33ad098df5623e5d530782f5e1d",
+    "wof:geomhash":"a0a9b8ef65d98a270821e42757d187f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101815707,
-    "wof:lastmodified":1582342552,
+    "wof:lastmodified":1684351894,
     "wof:name":"Meckenheim",
     "wof:parent_id":1377686261,
     "wof:placetype":"locality",
-    "wof:population":3376,
+    "wof:population":3393,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

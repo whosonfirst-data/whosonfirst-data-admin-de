@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hanhofen",
+    "eurostat:nuts_2021_id":"07338010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338010",
+    "eurostat:population":2576,
+    "eurostat:population_year":2020,
     "geom:area":0.00072,
     "geom:area_square_m":5804233.799414,
     "geom:bbox":"8.31443133115,49.3042779623,8.36599531084,49.3352612969",
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338010",
+        "eurostat:nuts_2021_id":"07338010",
         "gn:id":2910881,
         "gp:id":12627605,
         "qs_pg:id":93733,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0ec5e2ac644ded873cf2e04d758dfa84",
+    "wof:geomhash":"c7580743bbecfcef5004d97e5402209b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101759663,
-    "wof:lastmodified":1582342517,
+    "wof:lastmodified":1684351799,
     "wof:name":"Hanhofen",
     "wof:parent_id":1377686639,
     "wof:placetype":"locality",
-    "wof:population":2304,
+    "wof:population":2576,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

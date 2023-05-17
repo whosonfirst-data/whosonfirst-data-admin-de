@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00fcnderich",
+    "eurostat:nuts_2021_id":"07135073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135073",
+    "eurostat:population":810,
+    "eurostat:population_year":2020,
     "geom:area":0.000676,
     "geom:area_square_m":5367093.365343,
     "geom:bbox":"7.10190202781,50.017703016,7.14475874649,50.0506740769",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2691,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135073",
+        "eurostat:nuts_2021_id":"07135073",
         "gn:id":2851689,
         "gp:id":686229,
         "qs_pg:id":1150136,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c249123f9c09b07cd036d38c52ab14f1",
+    "wof:geomhash":"c2e586d5228e2aecc33c98cee8f23e63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101907149,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351985,
     "wof:name":"P\u00fcnderich",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":953,
+    "wof:population":810,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

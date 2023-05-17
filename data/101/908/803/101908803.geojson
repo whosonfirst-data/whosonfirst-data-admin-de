@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thelkow",
+    "eurostat:nuts_2021_id":"13072107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072107",
+    "eurostat:population":454,
+    "eurostat:population_year":2020,
     "geom:area":0.003504,
     "geom:area_square_m":25446144.162495,
     "geom:bbox":"12.509036768,54.0058968075,12.5988656193,54.0726551051",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072107",
+        "eurostat:nuts_2021_id":"13072107",
         "gn:id":2822870,
         "gp:id":699185,
         "qs_pg:id":576737,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3ba4376158f3b52a1e94ea803f8cf2e9",
+    "wof:geomhash":"436b58c15ba558fba0bbdea3974b9905",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101908803,
-    "wof:lastmodified":1582342343,
+    "wof:lastmodified":1684351999,
     "wof:name":"Thelkow",
     "wof:parent_id":1377684723,
     "wof:placetype":"locality",
-    "wof:population":514,
+    "wof:population":454,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

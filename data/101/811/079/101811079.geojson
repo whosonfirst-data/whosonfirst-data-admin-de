@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geisa, Stadt",
+    "eurostat:nuts_2021_id":"16063032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063032",
+    "eurostat:population":4767,
+    "eurostat:population_year":2020,
     "geom:area":0.009118,
-    "geom:area_square_m":71416306.924277,
+    "geom:area_square_m":71416306.924279,
     "geom:bbox":"9.87697592156,50.626825685,10.0788934606,50.757077442",
     "geom:latitude":50.695956,
     "geom:longitude":9.960752,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":949,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063032",
+        "eurostat:nuts_2021_id":"16063032",
         "gn:id":2921816,
         "gp:id":651900,
         "qs_pg:id":1039814,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"200a6dd423e45e91f367d31ed70028ff",
+    "wof:geomhash":"8e3e151a6b0e5f5228a46239c4b4fd28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101811079,
-    "wof:lastmodified":1582342384,
+    "wof:lastmodified":1684351878,
     "wof:name":"Geisa",
     "wof:parent_id":1377689707,
     "wof:placetype":"locality",
-    "wof:population":3561,
+    "wof:population":4767,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Germersheim, Stadt",
+    "eurostat:nuts_2021_id":"07334007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334007",
+    "eurostat:population":20798,
+    "eurostat:population_year":2020,
     "geom:area":0.002724,
-    "geom:area_square_m":22006804.555962,
+    "geom:area_square_m":22006804.555964,
     "geom:bbox":"8.339764,49.176383,8.405252,49.256064",
     "geom:latitude":49.213583,
     "geom:longitude":8.371262,
@@ -321,20 +333,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063405,
         1377686363,
-        85682491
+        85633111,
+        102063405
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334007",
+        "eurostat:nuts_2021_id":"07334007",
         "gn:id":2921034,
         "gp:id":652275,
         "qs_pg:id":905971,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0bc0091f8caf21f95c77f80a157472a2",
+    "wof:geomhash":"5d7d852b80f4eadeabcba69485dcc9c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101760767,
-    "wof:lastmodified":1608050765,
+    "wof:lastmodified":1684351801,
     "wof:name":"Germersheim",
     "wof:parent_id":1377686363,
     "wof:placetype":"locality",
-    "wof:population":20972,
+    "wof:population":20798,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

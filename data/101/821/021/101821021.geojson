@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15091110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e4fenhainichen, Stadt",
+    "eurostat:nuts_2021_id":"15091110",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0E",
+    "eurostat:nuts_2021_level_lau":"15091110",
+    "eurostat:population":11540,
+    "eurostat:population_year":2020,
     "geom:area":0.020849,
-    "geom:area_square_m":159730559.523623,
+    "geom:area_square_m":159730559.523627,
     "geom:bbox":"12.323906,51.618358,12.641892,51.800027",
     "geom:latitude":51.713713,
     "geom:longitude":12.473377,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":500,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen-Anhalt",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063859,
         1377689279,
-        85682519
+        85633111,
+        102063859
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15091110",
+        "eurostat:nuts_2021_id":"15091110",
         "gn:id":2918321,
         "gp:id":653756,
         "qs_pg:id":903315,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a46bf2d335b2b15fda1c959f81069b3d",
+    "wof:geomhash":"778c8abe8fd7b74142eb3db2666b899b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,12 +365,12 @@
         }
     ],
     "wof:id":101821021,
-    "wof:lastmodified":1608050217,
+    "wof:lastmodified":1684351915,
     "wof:name":"Gr\u00e4fenhainichen",
     "wof:parent_id":1377689279,
     "wof:placetype":"locality",
-    "wof:population":7833,
-    "wof:population_rank":5,
+    "wof:population":11540,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

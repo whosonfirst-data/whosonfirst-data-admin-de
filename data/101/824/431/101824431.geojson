@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16072018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sonneberg, Stadt",
+    "eurostat:nuts_2021_id":"16072018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0H",
+    "eurostat:nuts_2021_level_lau":"16072018",
+    "eurostat:population":23516,
+    "eurostat:population_year":2020,
     "geom:area":0.010777,
-    "geom:area_square_m":84923585.29409,
+    "geom:area_square_m":84923585.294096,
     "geom:bbox":"11.114045,50.320957,11.284967,50.50757",
     "geom:latitude":50.409686,
     "geom:longitude":11.194503,
@@ -333,20 +345,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063639,
         1377690545,
-        85682541
+        85633111,
+        102063639
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16072018",
+        "eurostat:nuts_2021_id":"16072018",
         "gn:id":2831250,
         "gp:id":695489,
         "qs_pg:id":1038385,
@@ -361,7 +376,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6aeeb7bfb0f1074dede334a56400f358",
+    "wof:geomhash":"e3dbe0d5313b72146843c572a16f0a66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -373,11 +388,11 @@
         }
     ],
     "wof:id":101824431,
-    "wof:lastmodified":1608051132,
+    "wof:lastmodified":1684351928,
     "wof:name":"Sonneberg",
     "wof:parent_id":1377690545,
     "wof:placetype":"locality",
-    "wof:population":23908,
+    "wof:population":23516,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09562000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erlangen",
+    "eurostat:nuts_2021_id":"09562000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE252",
+    "eurostat:nuts_2021_level_lau":"09562000",
+    "eurostat:population":112528,
+    "eurostat:population_year":2020,
     "geom:area":0.009698,
-    "geom:area_square_m":77749885.198185,
+    "geom:area_square_m":77749885.198188,
     "geom:bbox":"10.9162538019,49.5331309503,11.0533981994,49.6455853289",
     "geom:latitude":49.582336,
     "geom:longitude":10.978148,
@@ -417,7 +429,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -428,6 +441,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09562000",
+        "eurostat:nuts_2021_id":"09562000",
         "gn:id":2929567,
         "gp:id":648418,
         "qs_pg:id":142618,
@@ -441,7 +456,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f5c03959206affb8ecfecfbacc8df26",
+    "wof:geomhash":"b53bf3e665c6012e639ef8f998f1fa26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -454,11 +469,11 @@
         }
     ],
     "wof:id":101910073,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352004,
     "wof:name":"Erlangen",
     "wof:parent_id":1377689145,
     "wof:placetype":"locality",
-    "wof:population":102675,
+    "wof:population":112528,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reckendorf",
+    "eurostat:nuts_2021_id":"09471175",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471175",
+    "eurostat:population":2017,
+    "eurostat:population_year":2020,
     "geom:area":0.001626,
     "geom:area_square_m":12920148.512401,
     "geom:bbox":"10.7843481509,50.0088152323,10.86038228,50.0518367868",
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":843,
     "wof:belongsto":[
         85682571,
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471175",
+        "eurostat:nuts_2021_id":"09471175",
         "fct:id":"0753c1f0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2849674,
         "gp:id":687220,
@@ -179,7 +194,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aa82aaa1dde5de5547af39924a65d05a",
+    "wof:geomhash":"3417d86667a2730f92ebf8f4dbb66df9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,11 +210,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342576,
+    "wof:lastmodified":1684351931,
     "wof:name":"Reckendorf",
     "wof:parent_id":1377687257,
     "wof:placetype":"locality",
-    "wof:population":2003,
+    "wof:population":2017,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

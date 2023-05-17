@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Neuenahr-Ahrweiler, Stadt",
+    "eurostat:nuts_2021_id":"07131007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131007",
+    "eurostat:population":28468,
+    "eurostat:population_year":2020,
     "geom:area":0.008045,
-    "geom:area_square_m":63239784.927709,
+    "geom:area_square_m":63239784.927707,
     "geom:bbox":"7.054308,50.476855,7.208733,50.582435",
     "geom:latitude":50.529716,
     "geom:longitude":7.124948,
@@ -324,21 +336,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":425,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063651,
         1377685227,
-        85682491
+        85633111,
+        102063651
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131007",
+        "eurostat:nuts_2021_id":"07131007",
         "fct:id":"0733ed76-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953391,
         "gp:id":636475,
@@ -357,7 +372,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"defd8ac8f046e0fddb1024f0ba241535",
+    "wof:geomhash":"ba2cfcfc53504ad15e5dd5a08db49a31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050103,
+    "wof:lastmodified":1684351874,
     "wof:name":"Bad Neuenahr-Ahrweiler",
     "wof:parent_id":1377685227,
     "wof:placetype":"locality",
-    "wof:population":27823,
+    "wof:population":28468,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

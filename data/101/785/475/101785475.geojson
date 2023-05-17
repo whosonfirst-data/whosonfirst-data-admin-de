@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09774144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jettingen-Scheppach, M",
+    "eurostat:nuts_2021_id":"09774144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE278",
+    "eurostat:nuts_2021_level_lau":"09774144",
+    "eurostat:population":7131,
+    "eurostat:population_year":2020,
     "geom:area":0.006625,
     "geom:area_square_m":54395005.063577,
     "geom:bbox":"10.391295,48.349049,10.548523,48.430293",
@@ -154,18 +166,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":229,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063295,
         1377692553,
         404227547,
-        85682571
+        102063295
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09774144",
+        "eurostat:nuts_2021_id":"09774144",
         "gn:id":3336896,
         "gp:id":664139,
         "qs_pg:id":848237,
@@ -180,7 +195,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0c71869f7a633dbf7ecc8dd037d57d26",
+    "wof:geomhash":"d94572115a4fde185c0ca59e953581f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101785475,
-    "wof:lastmodified":1608050483,
+    "wof:lastmodified":1684351836,
     "wof:name":"Jettingen-Scheppach",
     "wof:parent_id":1377692553,
     "wof:placetype":"locality",
-    "wof:population":6865,
+    "wof:population":7131,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

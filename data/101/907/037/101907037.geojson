@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kinheim",
+    "eurostat:nuts_2021_id":"07231068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231068",
+    "eurostat:population":803,
+    "eurostat:population_year":2020,
     "geom:area":0.001159,
-    "geom:area_square_m":9218289.030398,
+    "geom:area_square_m":9218289.030397,
     "geom:bbox":"7.00739757119,49.9599708393,7.08387509405,50.0078137142",
     "geom:latitude":49.984551,
     "geom:longitude":7.047492,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":189,
     "wof:belongsto":[
         85682491,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231068",
+        "eurostat:nuts_2021_id":"07231068",
         "gn:id":2890845,
         "gp:id":665776,
         "qs_pg:id":578324,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d6b7b757afe394ba07c2a21feed1c212",
+    "wof:geomhash":"2a6b207e9c6fe59b7e03133ba014efe3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101907037,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351984,
     "wof:name":"Kinheim",
     "wof:parent_id":1377685883,
     "wof:placetype":"locality",
-    "wof:population":828,
+    "wof:population":803,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberweid",
+    "eurostat:nuts_2021_id":"16066052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066052",
+    "eurostat:population":497,
+    "eurostat:population_year":2020,
     "geom:area":0.001289,
     "geom:area_square_m":10123184.742163,
     "geom:bbox":"10.0451094138,50.5620780399,10.0910811185,50.6017205036",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066052",
+        "eurostat:nuts_2021_id":"16066052",
         "gn:id":2858636,
         "gp:id":682532,
         "qs_pg:id":277286,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cd18b5b0d55a76c36153b2d64dfc398e",
+    "wof:geomhash":"080aab089ed4bf076e19ec6a1ea8dc78",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907519,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351988,
     "wof:name":"Oberweid",
     "wof:parent_id":1377690019,
     "wof:placetype":"locality",
-    "wof:population":590,
+    "wof:population":497,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

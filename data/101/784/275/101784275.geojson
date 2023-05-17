@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laugna",
+    "eurostat:nuts_2021_id":"09773143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773143",
+    "eurostat:population":1601,
+    "eurostat:population_year":2020,
     "geom:area":0.003358,
-    "geom:area_square_m":27507815.403924,
+    "geom:area_square_m":27507815.403923,
     "geom:bbox":"10.6578527762,48.4804629499,10.7651586478,48.5427984805",
     "geom:latitude":48.511513,
     "geom:longitude":10.707665,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682571,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773143",
+        "eurostat:nuts_2021_id":"09773143",
         "fct:id":"071c9450-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2880102,
         "gp:id":670613,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"237d5155d816851f206861bf2900a09e",
+    "wof:geomhash":"a3685e25a3b72b6a01b7af9726cf6f00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342483,
+    "wof:lastmodified":1684351831,
     "wof:name":"Laugna",
     "wof:parent_id":1377692509,
     "wof:placetype":"locality",
-    "wof:population":1583,
+    "wof:population":1601,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

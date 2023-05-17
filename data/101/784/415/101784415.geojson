@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09185127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehekirchen",
+    "eurostat:nuts_2021_id":"09185127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21I",
+    "eurostat:nuts_2021_level_lau":"09185127",
+    "eurostat:population":3822,
+    "eurostat:population_year":2020,
     "geom:area":0.007645,
-    "geom:area_square_m":62465389.20713,
+    "geom:area_square_m":62465389.207134,
     "geom:bbox":"11.022521,48.594519,11.173857,48.675416",
     "geom:latitude":48.637733,
     "geom:longitude":11.097752,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063337,
         1377693713,
         404227567,
-        85682571
+        102063337
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09185127",
+        "eurostat:nuts_2021_id":"09185127",
         "gn:id":2932939,
         "gp:id":646762,
         "qs_pg:id":93948,
@@ -203,7 +218,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2ec19c00231854d15b86bd45f1af1860",
+    "wof:geomhash":"95a125945a7d59a6efe1bf94856bb538",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101784415,
-    "wof:lastmodified":1608050670,
+    "wof:lastmodified":1684351833,
     "wof:name":"Ehekirchen",
     "wof:parent_id":1377693713,
     "wof:placetype":"locality",
-    "wof:population":3782,
+    "wof:population":3822,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

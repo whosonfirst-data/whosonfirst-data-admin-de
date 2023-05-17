@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Datzeroth",
+    "eurostat:nuts_2021_id":"07138010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138010",
+    "eurostat:population":248,
+    "eurostat:population_year":2020,
     "geom:area":0.001004,
-    "geom:area_square_m":7896050.929883,
+    "geom:area_square_m":7896050.929882,
     "geom:bbox":"7.3950128039,50.4887214234,7.46200667007,50.5166519158",
     "geom:latitude":50.502911,
     "geom:longitude":7.42384,
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138010",
+        "eurostat:nuts_2021_id":"07138010",
         "gn:id":2938764,
         "qs_pg:id":579450,
         "wd:id":"Q566425"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"252e0e4af38583f022c60b861442f176",
+    "wof:geomhash":"63fcfa03dcea193325e6bb50d0e05f22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125953857,
-    "wof:lastmodified":1582342973,
+    "wof:lastmodified":1684352041,
     "wof:name":"Datzeroth",
     "wof:parent_id":1377685653,
     "wof:placetype":"locality",
-    "wof:population":230,
+    "wof:population":248,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

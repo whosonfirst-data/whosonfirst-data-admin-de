@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Patzig",
+    "eurostat:nuts_2021_id":"13073064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073064",
+    "eurostat:population":443,
+    "eurostat:population_year":2020,
     "geom:area":0.001141,
-    "geom:area_square_m":8203038.936889,
+    "geom:area_square_m":8203038.936888,
     "geom:bbox":"13.3470668106,54.4437276314,13.4193784108,54.4784222555",
     "geom:latitude":54.46599,
     "geom:longitude":13.384638,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073064",
+        "eurostat:nuts_2021_id":"13073064",
         "gn:id":2855226,
         "gp:id":684341,
         "qs_pg:id":577422,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ff5d74e1e7f0fa6cf787789661075ea",
+    "wof:geomhash":"a7976f5067f85aae29efb8d9ce1adfa6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908919,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684352001,
     "wof:name":"Patzig",
     "wof:parent_id":1377684925,
     "wof:placetype":"locality",
-    "wof:population":510,
+    "wof:population":443,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

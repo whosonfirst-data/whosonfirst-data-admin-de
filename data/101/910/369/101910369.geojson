@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haselbach",
+    "eurostat:nuts_2021_id":"16077015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077015",
+    "eurostat:population":800,
+    "eurostat:population_year":2020,
     "geom:area":0.000355,
     "geom:area_square_m":2759059.48239,
     "geom:bbox":"12.4104482158,51.0625029768,12.4499574894,51.0783251332",
@@ -140,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "wof:belongsto":[
         85682541,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077015",
+        "eurostat:nuts_2021_id":"16077015",
         "gn:id":2909865,
         "gp:id":657606,
         "wd:id":"Q37609"
@@ -159,7 +174,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16c362473edd69e39ff33e1d0589f434",
+    "wof:geomhash":"08b81cf0d873631a910c34d673efb2b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101910369,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352006,
     "wof:name":"Haselbach",
     "wof:parent_id":1377691057,
     "wof:placetype":"locality",
-    "wof:population":810,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

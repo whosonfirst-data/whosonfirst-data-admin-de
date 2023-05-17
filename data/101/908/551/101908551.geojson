@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thandorf",
+    "eurostat:nuts_2021_id":"13074078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074078",
+    "eurostat:population":181,
+    "eurostat:population_year":2020,
     "geom:area":0.001249,
-    "geom:area_square_m":9126762.809902,
+    "geom:area_square_m":9126762.8099,
     "geom:bbox":"10.7925499011,53.7544984125,10.8494878153,53.7924209934",
     "geom:latitude":53.771327,
     "geom:longitude":10.817666,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074078",
+        "eurostat:nuts_2021_id":"13074078",
         "gn:id":2823024,
         "gp:id":699097,
         "qs_pg:id":576738,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3cc8079e24052c1d929b7eea0a003686",
+    "wof:geomhash":"330a1dab8df5c83b1ead881fbe5b2720",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908551,
-    "wof:lastmodified":1582342339,
+    "wof:lastmodified":1684351997,
     "wof:name":"Thandorf",
     "wof:parent_id":1377693649,
     "wof:placetype":"locality",
-    "wof:population":180,
+    "wof:population":181,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

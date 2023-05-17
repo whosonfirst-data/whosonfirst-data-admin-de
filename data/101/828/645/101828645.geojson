@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aach, Stadt",
+    "eurostat:nuts_2021_id":"08335001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335001",
+    "eurostat:population":2295,
+    "eurostat:population_year":2020,
     "geom:area":0.001286,
-    "geom:area_square_m":10668578.252503,
+    "geom:area_square_m":10668578.252504,
     "geom:bbox":"8.83105864295,47.8253574216,8.88793283812,47.8636297117",
     "geom:latitude":47.843685,
     "geom:longitude":8.858079,
@@ -343,7 +355,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -359,6 +372,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335001",
+        "eurostat:nuts_2021_id":"08335001",
         "gn:id":2959946,
         "gp:id":633171,
         "qs_pg:id":1040378,
@@ -369,7 +384,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a2045aa353c3b889598b177b9b38397d",
+    "wof:geomhash":"f86a4d60d1c08dd76173f1b41873266a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,11 +397,11 @@
         }
     ],
     "wof:id":101828645,
-    "wof:lastmodified":1582342411,
+    "wof:lastmodified":1684351943,
     "wof:name":"Aach",
     "wof:parent_id":1377689685,
     "wof:placetype":"locality",
-    "wof:population":2248,
+    "wof:population":2295,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwarzburg",
+    "eurostat:nuts_2021_id":"16073082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073082",
+    "eurostat:population":533,
+    "eurostat:population_year":2020,
     "geom:area":0.001827,
-    "geom:area_square_m":14325658.962828,
+    "geom:area_square_m":14325658.96283,
     "geom:bbox":"11.1478010415,50.6206948501,11.2606584982,50.6702788308",
     "geom:latitude":50.646224,
     "geom:longitude":11.200475,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073082",
+        "eurostat:nuts_2021_id":"16073082",
         "gn:id":2835105,
         "gp:id":693644,
         "qs_pg:id":958486,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f737b23da5a1b666858cb2451e87e48a",
+    "wof:geomhash":"a93a26d6c4d819ba18330355fb96b8f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101910163,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352005,
     "wof:name":"Schwarzburg",
     "wof:parent_id":1377688983,
     "wof:placetype":"locality",
-    "wof:population":642,
+    "wof:population":533,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

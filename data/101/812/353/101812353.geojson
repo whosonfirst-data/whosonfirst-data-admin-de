@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hundsangen",
+    "eurostat:nuts_2021_id":"07143037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143037",
+    "eurostat:population":2056,
+    "eurostat:population_year":2020,
     "geom:area":0.000973,
     "geom:area_square_m":7661163.949113,
     "geom:bbox":"7.95854109877,50.4428923697,8.01076600094,50.4742452535",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":613,
     "wof:belongsto":[
         85682491,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143037",
+        "eurostat:nuts_2021_id":"07143037",
         "gn:id":2897557,
         "gp:id":662903,
         "qs_pg:id":1039510,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a9c1d611f6e0f7ad895109491ef3a255",
+    "wof:geomhash":"c01bf4eecbfbf1c7c1b5405b7f5e002d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101812353,
-    "wof:lastmodified":1582342544,
+    "wof:lastmodified":1684351885,
     "wof:name":"Hundsangen",
     "wof:parent_id":1377685825,
     "wof:placetype":"locality",
-    "wof:population":2103,
+    "wof:population":2056,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

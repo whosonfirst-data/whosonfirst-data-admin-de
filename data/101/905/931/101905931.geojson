@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dinkelsb\u00fchl, GKSt",
+    "eurostat:nuts_2021_id":"09571136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571136",
+    "eurostat:population":11836,
+    "eurostat:population_year":2020,
     "geom:area":0.009274,
     "geom:area_square_m":75117551.007461,
     "geom:bbox":"10.2049976487,49.0285427491,10.4314697576,49.1299137254",
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":913,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571136",
+        "eurostat:nuts_2021_id":"09571136",
         "gn:id":2936886,
         "gp:id":20160338,
         "wd:id":"Q491743",
@@ -346,7 +361,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce3ca0c59f391a682a5fc54acbc4c456",
+    "wof:geomhash":"954858ba42fe8631aaf05d89abb0426d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101905931,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"Dinkelsb\u00fchl",
     "wof:parent_id":1377687863,
     "wof:placetype":"locality",
-    "wof:population":11724,
+    "wof:population":11836,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

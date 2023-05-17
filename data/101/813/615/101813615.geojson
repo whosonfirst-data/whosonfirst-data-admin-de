@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Karbach, M",
+    "eurostat:nuts_2021_id":"09677146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677146",
+    "eurostat:population":1456,
+    "eurostat:population_year":2020,
     "geom:area":0.003025,
-    "geom:area_square_m":24113060.496025,
+    "geom:area_square_m":24113060.496026,
     "geom:bbox":"9.60029071657,49.8339858602,9.68431593417,49.8917153967",
     "geom:latitude":49.864256,
     "geom:longitude":9.644856,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":357,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -317,6 +330,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677146",
+        "eurostat:nuts_2021_id":"09677146",
         "gn:id":2892986,
         "gp:id":664998,
         "qs_pg:id":142308,
@@ -331,7 +346,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d6247a610a953bce40fd4190fdca42d9",
+    "wof:geomhash":"1d91b85c5e8a55e298ae1d8a805f06a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101813615,
-    "wof:lastmodified":1582342569,
+    "wof:lastmodified":1684351893,
     "wof:name":"Karbach",
     "wof:parent_id":1377691571,
     "wof:placetype":"locality",
-    "wof:population":1403,
+    "wof:population":1456,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

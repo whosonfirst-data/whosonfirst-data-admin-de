@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09771114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aindling, M",
+    "eurostat:nuts_2021_id":"09771114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE275",
+    "eurostat:nuts_2021_level_lau":"09771114",
+    "eurostat:population":4485,
+    "eurostat:population_year":2020,
     "geom:area":0.003798,
-    "geom:area_square_m":31117538.506584,
+    "geom:area_square_m":31117538.506587,
     "geom:bbox":"10.9369330025,48.4680341301,11.0344671457,48.5496734099",
     "geom:latitude":48.507383,
     "geom:longitude":10.980808,
@@ -178,7 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -194,6 +207,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09771114",
+        "eurostat:nuts_2021_id":"09771114",
         "gn:id":2958835,
         "gp:id":633717,
         "qs_pg:id":1315916,
@@ -205,7 +220,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4ff4a1baf4f914446cc913d16d9f03d1",
+    "wof:geomhash":"639d336a769d2b4d7fd6cbcf5692450e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101784169,
-    "wof:lastmodified":1582342483,
+    "wof:lastmodified":1684351830,
     "wof:name":"Aindling",
     "wof:parent_id":1377692317,
     "wof:placetype":"locality",
-    "wof:population":4451,
+    "wof:population":4485,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

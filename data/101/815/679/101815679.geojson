@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Limburgerhof",
+    "eurostat:nuts_2021_id":"07338017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338017",
+    "eurostat:population":11461,
+    "eurostat:population_year":2020,
     "geom:area":0.001173,
-    "geom:area_square_m":9439585.694352,
+    "geom:area_square_m":9439585.694354,
     "geom:bbox":"8.365999,49.393061,8.415094,49.434159",
     "geom:latitude":49.415152,
     "geom:longitude":8.394009,
@@ -138,21 +150,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":640,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063479,
         1377686589,
-        85682491
+        85633111,
+        102063479
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338017",
+        "eurostat:nuts_2021_id":"07338017",
         "gn:id":2877647,
         "gp:id":671835,
         "qs_pg:id":1039219,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e050e4a5b2897c8acec2ccff5f853748",
+    "wof:geomhash":"3e6d5439f373078316f598720be113e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101815679,
-    "wof:lastmodified":1608051250,
+    "wof:lastmodified":1684351894,
     "wof:name":"Limburgerhof",
     "wof:parent_id":1377686589,
     "wof:placetype":"locality",
-    "wof:population":10753,
+    "wof:population":11461,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

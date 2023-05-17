@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00f6dermark, Stadt",
+    "eurostat:nuts_2021_id":"06438012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438012",
+    "eurostat:population":28249,
+    "eurostat:population_year":2020,
     "geom:area":0.003746,
-    "geom:area_square_m":29791883.597136,
+    "geom:area_square_m":29791883.597135,
     "geom:bbox":"8.741652,49.947863,8.853613,50.008984",
     "geom:latitude":49.973804,
     "geom:longitude":8.806486,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.9775,
     "wd:longitude":8.828056,
     "wd:wordcount":1738,
@@ -313,15 +326,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377694047,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438012",
+        "eurostat:nuts_2021_id":"06438012",
         "gn:id":3272938,
         "gp:id":15002764,
         "qs_pg:id":44624,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8fd22d261dff5c8067ffd0da83a31eff",
+    "wof:geomhash":"cd852c4764ff4e8575cadab7224bc693",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101813543,
-    "wof:lastmodified":1608051353,
+    "wof:lastmodified":1684351892,
     "wof:name":"R\u00f6dermark",
     "wof:parent_id":1377694047,
     "wof:placetype":"locality",
-    "wof:population":26449,
+    "wof:population":28249,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

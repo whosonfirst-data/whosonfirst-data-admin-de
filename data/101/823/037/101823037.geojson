@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00f6\u00dfneck, Stadt",
+    "eurostat:nuts_2021_id":"16075085",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075085",
+    "eurostat:population":11842,
+    "eurostat:population_year":2020,
     "geom:area":0.003094,
-    "geom:area_square_m":24233388.581165,
+    "geom:area_square_m":24233388.581164,
     "geom:bbox":"11.537912,50.676209,11.633087,50.733692",
     "geom:latitude":50.702665,
     "geom:longitude":11.585274,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":233,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690733,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075085",
+        "eurostat:nuts_2021_id":"16075085",
         "gn:id":2852512,
         "gp:id":685757,
         "qs_pg:id":244990,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c97540e47c2cd10aa684965746df9832",
+    "wof:geomhash":"bd66c84f7ca10e9d014122875fb2bbef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101823037,
-    "wof:lastmodified":1608051076,
+    "wof:lastmodified":1684351923,
     "wof:name":"P\u00f6\u00dfneck",
     "wof:parent_id":1377690733,
     "wof:placetype":"locality",
-    "wof:population":13624,
+    "wof:population":11842,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

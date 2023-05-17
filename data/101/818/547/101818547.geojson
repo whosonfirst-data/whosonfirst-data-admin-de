@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073572",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Templin, Stadt",
+    "eurostat:nuts_2021_id":"12073572",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073572",
+    "eurostat:population":15728,
+    "eurostat:population_year":2020,
     "geom:area":0.050847,
-    "geom:area_square_m":377463767.395062,
+    "geom:area_square_m":377463767.395053,
     "geom:bbox":"13.321776,52.986826,13.672051,53.217157",
     "geom:latitude":53.104722,
     "geom:longitude":13.498116,
@@ -186,21 +198,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":598,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064021,
         1377684289,
-        85682553
+        85633111,
+        102064021
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073572",
+        "eurostat:nuts_2021_id":"12073572",
         "gn:id":2823533,
         "gp:id":698831,
         "qs_pg:id":1345721,
@@ -215,7 +230,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d9525863c4a8800cab01bfc9da8f9e57",
+    "wof:geomhash":"b49757985ee3f6e4d3cc8adcb4b73048",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -227,11 +242,11 @@
         }
     ],
     "wof:id":101818547,
-    "wof:lastmodified":1608049788,
+    "wof:lastmodified":1684351900,
     "wof:name":"Templin",
     "wof:parent_id":1377684289,
     "wof:placetype":"locality",
-    "wof:population":17634,
+    "wof:population":15728,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

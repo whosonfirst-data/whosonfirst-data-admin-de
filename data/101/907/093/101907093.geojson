@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riesweiler",
+    "eurostat:nuts_2021_id":"07140127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140127",
+    "eurostat:population":725,
+    "eurostat:population_year":2020,
     "geom:area":0.002124,
-    "geom:area_square_m":16904226.659198,
+    "geom:area_square_m":16904226.659199,
     "geom:bbox":"7.53865042243,49.9126080274,7.6186860484,49.9724001239",
     "geom:latitude":49.940548,
     "geom:longitude":7.57629,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1096,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140127",
+        "eurostat:nuts_2021_id":"07140127",
         "gn:id":2846847,
         "gp:id":688695,
         "qs_pg:id":577234,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"169e2f1b57fdfee9776066ce181c3cd2",
+    "wof:geomhash":"99e03e681b86bc351cd1c03cea43b267",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907093,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351984,
     "wof:name":"Riesweiler",
     "wof:parent_id":1377685695,
     "wof:placetype":"locality",
-    "wof:population":716,
+    "wof:population":725,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

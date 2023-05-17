@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Badendorf",
+    "eurostat:nuts_2021_id":"01062003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062003",
+    "eurostat:population":865,
+    "eurostat:population_year":2020,
     "geom:area":0.000835,
     "geom:area_square_m":6090216.199869,
     "geom:bbox":"10.5485275751,53.8474218417,10.5949912855,53.8863731718",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062003",
+        "eurostat:nuts_2021_id":"01062003",
         "gn:id":2953498,
         "gp:id":636553,
         "qs_pg:id":579917,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"25f37f6107b9f38e9c811995b585edfb",
+    "wof:geomhash":"bddfb5ab1cf3c6b104c0f35e13b4a6ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101908495,
-    "wof:lastmodified":1582342351,
+    "wof:lastmodified":1684351996,
     "wof:name":"Badendorf",
     "wof:parent_id":1377684809,
     "wof:placetype":"locality",
-    "wof:population":779,
+    "wof:population":865,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

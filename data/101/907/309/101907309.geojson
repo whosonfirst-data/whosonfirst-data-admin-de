@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberstadtfeld",
+    "eurostat:nuts_2021_id":"07233055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233055",
+    "eurostat:population":556,
+    "eurostat:population_year":2020,
     "geom:area":0.001285,
     "geom:area_square_m":10173405.156093,
     "geom:bbox":"6.7166817638,50.1669012849,6.79249352652,50.1928509812",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1010,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233055",
+        "eurostat:nuts_2021_id":"07233055",
         "gn:id":2858971,
         "gp:id":682321,
         "qs_pg:id":577524,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"16c0eb0bd8be56f2c0347a317a85093e",
+    "wof:geomhash":"f03461f6740c0c03c11d0163df8d088c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907309,
-    "wof:lastmodified":1582342304,
+    "wof:lastmodified":1684351986,
     "wof:name":"Oberstadtfeld",
     "wof:parent_id":1377685969,
     "wof:placetype":"locality",
-    "wof:population":646,
+    "wof:population":556,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

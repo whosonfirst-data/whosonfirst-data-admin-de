@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Kissingen, GKSt",
+    "eurostat:nuts_2021_id":"09672114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672114",
+    "eurostat:population":22443,
+    "eurostat:population_year":2020,
     "geom:area":0.008823,
-    "geom:area_square_m":69828010.470133,
+    "geom:area_square_m":69828010.470141,
     "geom:bbox":"9.967495,50.143538,10.142518,50.250622",
     "geom:latitude":50.202498,
     "geom:longitude":10.059058,
@@ -346,21 +358,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063619,
         1377690521,
         404227569,
-        85682571
+        102063619
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672114",
+        "eurostat:nuts_2021_id":"09672114",
         "gn:id":2953424,
         "gp:id":636444,
         "qs_pg:id":411806,
@@ -375,7 +390,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6af7d9ef8b3bc3febc339b87d7fcc13d",
+    "wof:geomhash":"1642184a7afae4d6b4a35c19b7fffaf4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -388,11 +403,11 @@
         }
     ],
     "wof:id":101812049,
-    "wof:lastmodified":1608051186,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bad Kissingen",
     "wof:parent_id":1377690521,
     "wof:placetype":"locality",
-    "wof:population":21328,
+    "wof:population":22443,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

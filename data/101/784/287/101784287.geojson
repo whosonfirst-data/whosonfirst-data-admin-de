@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Binswangen",
+    "eurostat:nuts_2021_id":"09773116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773116",
+    "eurostat:population":1325,
+    "eurostat:population_year":2020,
     "geom:area":0.001454,
     "geom:area_square_m":11895918.293744,
     "geom:bbox":"10.6105760609,48.5421875958,10.6644608586,48.5965783901",
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":79,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -181,6 +194,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773116",
+        "eurostat:nuts_2021_id":"09773116",
         "fct:id":"07384dc6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2948750,
         "gp:id":12634798,
@@ -192,7 +207,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"317d1262570846eab398321fa71eda55",
+    "wof:geomhash":"85ebb772c37dbdf5266991a3b89a6f01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342483,
+    "wof:lastmodified":1684351831,
     "wof:name":"Binswangen",
     "wof:parent_id":1377692509,
     "wof:placetype":"locality",
-    "wof:population":1326,
+    "wof:population":1325,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

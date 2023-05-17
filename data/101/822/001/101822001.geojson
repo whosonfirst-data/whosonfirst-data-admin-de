@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukieritzsch",
+    "eurostat:nuts_2021_id":"14729320",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729320",
+    "eurostat:population":6885,
+    "eurostat:population_year":2020,
     "geom:area":0.007367,
-    "geom:area_square_m":57138909.22448,
+    "geom:area_square_m":57138909.224482,
     "geom:bbox":"12.323687,51.098045,12.490007,51.197653",
     "geom:latitude":51.152861,
     "geom:longitude":12.413262,
@@ -157,21 +169,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":106,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687829,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729320",
+        "eurostat:nuts_2021_id":"14729320",
         "fct:id":"074eda6e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2864778,
         "gp:id":678645,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bd80935adddc233d3e497fdb05c7d54a",
+    "wof:geomhash":"f32a100ba97e94e7882008e3b7dd8f2c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,12 +217,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051467,
+    "wof:lastmodified":1684351919,
     "wof:name":"Neukieritzsch",
     "wof:parent_id":1377687829,
     "wof:placetype":"locality",
-    "wof:population":3602,
-    "wof:population_rank":4,
+    "wof:population":6885,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

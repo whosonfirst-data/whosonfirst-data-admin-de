@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unterschlei\u00dfheim, St",
+    "eurostat:nuts_2021_id":"09184149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184149",
+    "eurostat:population":28950,
+    "eurostat:population_year":2020,
     "geom:area":0.001882,
-    "geom:area_square_m":15484431.850282,
+    "geom:area_square_m":15484431.850281,
     "geom:bbox":"11.515052,48.255103,11.595266,48.299546",
     "geom:latitude":48.2769,
     "geom:longitude":11.561116,
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.283333,
     "wd:longitude":11.566667,
     "wd:population":20643,
@@ -335,15 +348,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377693659,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184149",
+        "eurostat:nuts_2021_id":"09184149",
         "gn:id":2818766,
         "gp:id":701478,
         "qs_pg:id":1345766,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8eae730798bb02701a88ca671bc70f5d",
+    "wof:geomhash":"743966e6a5b847072a10e5be47d49350",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101832991,
-    "wof:lastmodified":1608050392,
+    "wof:lastmodified":1684351944,
     "wof:name":"Unterschlei\u00dfheim",
     "wof:parent_id":1377693659,
     "wof:placetype":"locality",
-    "wof:population":20643,
+    "wof:population":28950,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

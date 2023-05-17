@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hofheim i.UFr., St",
+    "eurostat:nuts_2021_id":"09674149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674149",
+    "eurostat:population":5095,
+    "eurostat:population_year":2020,
     "geom:area":0.007091,
-    "geom:area_square_m":56196727.299853,
+    "geom:area_square_m":56196727.299855,
     "geom:bbox":"10.4606867636,50.0924105528,10.6082615562,50.185303866",
     "geom:latitude":50.138167,
     "geom:longitude":10.536095,
@@ -140,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674149",
+        "eurostat:nuts_2021_id":"09674149",
         "gn:id":6559007,
         "gp:id":660867,
         "qs_pg:id":639026,
@@ -160,7 +175,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c8597a2c2117817a921cabbe91983d9",
+    "wof:geomhash":"c5d36dab433a05d5ec5a1eb2cba42e95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101825977,
-    "wof:lastmodified":1582342574,
+    "wof:lastmodified":1684351933,
     "wof:name":"Hofheim i. UFr.",
     "wof:parent_id":1377691063,
     "wof:placetype":"locality",
-    "wof:population":5115,
+    "wof:population":5095,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

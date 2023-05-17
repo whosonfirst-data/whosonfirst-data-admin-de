@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kandel, Stadt",
+    "eurostat:nuts_2021_id":"07334013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334013",
+    "eurostat:population":9034,
+    "eurostat:population_year":2020,
     "geom:area":0.003306,
-    "geom:area_square_m":26773195.829951,
+    "geom:area_square_m":26773195.829952,
     "geom:bbox":"8.13348134319,49.0589856077,8.25967893358,49.1108321117",
     "geom:latitude":49.08796,
     "geom:longitude":8.197701,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":98,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334013",
+        "eurostat:nuts_2021_id":"07334013",
         "gn:id":2893244,
         "gp:id":664780,
         "qs_pg:id":142310,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c32511b3f2161ef01b0603c9bd5d4bc9",
+    "wof:geomhash":"489b6ffdfdc450662037e30ccd82ff3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101760773,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351801,
     "wof:name":"Kandel",
     "wof:parent_id":1377686397,
     "wof:placetype":"locality",
-    "wof:population":8385,
+    "wof:population":9034,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

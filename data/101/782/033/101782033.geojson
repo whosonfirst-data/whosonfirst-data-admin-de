@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heideck, St",
+    "eurostat:nuts_2021_id":"09576126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576126",
+    "eurostat:population":4642,
+    "eurostat:population_year":2020,
     "geom:area":0.007196,
-    "geom:area_square_m":58221943.259165,
+    "geom:area_square_m":58221943.259166,
     "geom:bbox":"11.051854,49.080461,11.172033,49.179209",
     "geom:latitude":49.130535,
     "geom:longitude":11.121512,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.116667,
     "wd:longitude":11.116667,
     "wd:population":4108,
@@ -328,15 +341,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690031,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576126",
+        "eurostat:nuts_2021_id":"09576126",
         "fct:id":"074375d4-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2907983,
         "gp:id":12634538,
@@ -352,7 +367,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a75217723411f7f4f84177b147410c9b",
+    "wof:geomhash":"11505be8d66524e781136539773a8373",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050535,
+    "wof:lastmodified":1684351822,
     "wof:name":"Heideck",
     "wof:parent_id":1377690031,
     "wof:placetype":"locality",
-    "wof:population":4108,
+    "wof:population":4642,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

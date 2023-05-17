@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ramhusen",
+    "eurostat:nuts_2021_id":"01051090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051090",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "geom:area":0.000655,
     "geom:area_square_m":4770814.390292,
     "geom:bbox":"9.06261313769,53.9295548292,9.11048273848,53.9529535707",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051090",
+        "eurostat:nuts_2021_id":"01051090",
         "gn:id":2850686,
         "qs_pg:id":93220,
         "wd:id":"Q548287"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"75216364ec2a643e85f2fe4e276ab91f",
+    "wof:geomhash":"18c1af99434ea085e91753cd98d473e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126037081,
-    "wof:lastmodified":1582342983,
+    "wof:lastmodified":1684352052,
     "wof:name":"Ramhusen",
     "wof:parent_id":1377683403,
     "wof:placetype":"locality",
-    "wof:population":155,
+    "wof:population":148,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

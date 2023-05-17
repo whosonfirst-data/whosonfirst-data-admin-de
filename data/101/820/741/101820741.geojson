@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hochkirch",
+    "eurostat:nuts_2021_id":"14625230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625230",
+    "eurostat:population":2256,
+    "eurostat:population_year":2020,
     "geom:area":0.005368,
     "geom:area_square_m":41639671.896458,
     "geom:bbox":"14.522141,51.114353,14.642944,51.186813",
@@ -169,21 +181,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":251,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686737,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625230",
+        "eurostat:nuts_2021_id":"14625230",
         "fct:id":"07174fb8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2903125,
         "gp:id":660565,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d501de7cd144a1bda7ad11b8592e2703",
+    "wof:geomhash":"5c685e7538ce3db85147e06e839381e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +229,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049872,
+    "wof:lastmodified":1684351913,
     "wof:name":"Hochkirch",
     "wof:parent_id":1377686737,
     "wof:placetype":"locality",
-    "wof:population":2525,
+    "wof:population":2256,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08425055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hausen am Bussen",
+    "eurostat:nuts_2021_id":"08425055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE145",
+    "eurostat:nuts_2021_level_lau":"08425055",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "geom:area":0.000436,
     "geom:area_square_m":3589025.744659,
     "geom:bbox":"9.59647387007,48.1996440514,9.63917760624,48.219801265",
@@ -150,7 +162,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -161,13 +174,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08425055",
+        "eurostat:nuts_2021_id":"08425055",
         "gn:id":2908859
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"4a34e4b616b1581db71d110e7a2c713f",
+    "wof:geomhash":"e1c3f9c64cceef5426231c1a51b85d91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":1293592799,
-    "wof:lastmodified":1582342022,
+    "wof:lastmodified":1684352060,
     "wof:name":"Hausen am Bussen",
     "wof:parent_id":1377690283,
     "wof:placetype":"locality",
-    "wof:population":258,
+    "wof:population":249,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

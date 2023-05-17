@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03352046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Otterndorf, Stadt",
+    "eurostat:nuts_2021_id":"03352046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE932",
+    "eurostat:nuts_2021_level_lau":"03352046",
+    "eurostat:population":7311,
+    "eurostat:population_year":2020,
     "geom:area":0.004667,
-    "geom:area_square_m":34075551.529984,
+    "geom:area_square_m":34075551.529985,
     "geom:bbox":"8.83014995866,53.784931875,8.95899794991,53.8362985223",
     "geom:latitude":53.811877,
     "geom:longitude":8.899105,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1032,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -324,6 +337,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03352046",
+        "eurostat:nuts_2021_id":"03352046",
         "gn:id":2856024,
         "gp:id":683928,
         "qs_pg:id":1345179,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ca8c764bc651203ca37d9bf158f43261",
+    "wof:geomhash":"fa9bc4fdbb89cee7775d827e75c20bbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101806651,
-    "wof:lastmodified":1582342614,
+    "wof:lastmodified":1684351853,
     "wof:name":"Otterndorf",
     "wof:parent_id":1377687309,
     "wof:placetype":"locality",
-    "wof:population":6965,
+    "wof:population":7311,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00f6bnitz",
+    "eurostat:nuts_2021_id":"16074103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074103",
+    "eurostat:population":445,
+    "eurostat:population_year":2020,
     "geom:area":0.000275,
     "geom:area_square_m":2148771.955995,
     "geom:bbox":"11.7156132573,50.8254559982,11.7436898693,50.8475906859",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":447,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074103",
+        "eurostat:nuts_2021_id":"16074103",
         "gn:id":2821069,
         "gp:id":700077,
         "qs_pg:id":373736,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"45e48e28243809d1764df06b14dacfce",
+    "wof:geomhash":"8028bf6a1bc105257ae6ba49d6834408",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101910307,
-    "wof:lastmodified":1582342651,
+    "wof:lastmodified":1684352005,
     "wof:name":"Tr\u00f6bnitz",
     "wof:parent_id":1377689027,
     "wof:placetype":"locality",
-    "wof:population":494,
+    "wof:population":445,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03403000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oldenburg (Oldenburg), Stadt",
+    "eurostat:nuts_2021_id":"03403000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE943",
+    "eurostat:nuts_2021_level_lau":"03403000",
+    "eurostat:population":169077,
+    "eurostat:population_year":2020,
     "geom:area":0.008809,
     "geom:area_square_m":65335394.096032,
     "geom:bbox":"8.12795842274,53.080731,8.27980218751,53.203585",
@@ -464,7 +476,8 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -474,6 +487,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03403000",
+        "eurostat:nuts_2021_id":"03403000",
         "gn:id":2857458,
         "gp:id":683160,
         "qs_pg:id":787940,
@@ -484,7 +499,7 @@
     "wof:geom_alt":[
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"35640dc1bfa995a80c6462476f076b4f",
+    "wof:geomhash":"929e385f0ac59ded19b5de864cc0d74a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -496,11 +511,11 @@
         }
     ],
     "wof:id":101748835,
-    "wof:lastmodified":1582342468,
+    "wof:lastmodified":1684351789,
     "wof:name":"Oldenburg (Oldenburg)",
     "wof:parent_id":1377688111,
     "wof:placetype":"locality",
-    "wof:population":159218,
+    "wof:population":169077,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

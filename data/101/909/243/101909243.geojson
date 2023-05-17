@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bornstedt",
+    "eurostat:nuts_2021_id":"15087075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087075",
+    "eurostat:population":793,
+    "eurostat:population_year":2020,
     "geom:area":0.001226,
     "geom:area_square_m":9443330.547618,
     "geom:bbox":"11.4563693582,51.4523461851,11.5140227619,51.502132088",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682519,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087075",
+        "eurostat:nuts_2021_id":"15087075",
         "gn:id":2946056,
         "gp:id":640364,
         "qs_pg:id":579678,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7cd41dcc1d52f06d7d4796cfbd5081b0",
+    "wof:geomhash":"5fa481dfec7569bc4415d5dc23da4a1b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101909243,
-    "wof:lastmodified":1582342284,
+    "wof:lastmodified":1684352001,
     "wof:name":"Bornstedt",
     "wof:parent_id":1377688807,
     "wof:placetype":"locality",
-    "wof:population":992,
+    "wof:population":793,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

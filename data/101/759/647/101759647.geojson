@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00dcberherrn",
+    "eurostat:nuts_2021_id":"10044119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044119",
+    "eurostat:population":11379,
+    "eurostat:population_year":2020,
     "geom:area":0.004253,
-    "geom:area_square_m":34317602.434677,
+    "geom:area_square_m":34317602.434675,
     "geom:bbox":"6.660115,49.215274,6.762594,49.304437",
     "geom:latitude":49.260326,
     "geom:longitude":6.705567,
@@ -301,21 +313,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":77,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693961,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044119",
+        "eurostat:nuts_2021_id":"10044119",
         "gn:id":2820583,
         "gp:id":700330,
         "qs_pg:id":906996,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9d3f4570258d0d05300d59ff9e3b7326",
+    "wof:geomhash":"da1075994ce01649fc903918c6ea6b51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101759647,
-    "wof:lastmodified":1608050956,
+    "wof:lastmodified":1684351798,
     "wof:name":"\u00dcberherrn",
     "wof:parent_id":1377693961,
     "wof:placetype":"locality",
-    "wof:population":12071,
+    "wof:population":11379,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

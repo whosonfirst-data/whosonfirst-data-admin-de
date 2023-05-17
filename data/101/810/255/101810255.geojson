@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kamp-Lintfort, Stadt",
+    "eurostat:nuts_2021_id":"05170020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170020",
+    "eurostat:population":37596,
+    "eurostat:population_year":2020,
     "geom:area":0.008106,
-    "geom:area_square_m":62377498.791336,
+    "geom:area_square_m":62377498.791334,
     "geom:bbox":"6.44835,51.472282,6.59023,51.567061",
     "geom:latitude":51.515644,
     "geom:longitude":6.520327,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689899,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170020",
+        "eurostat:nuts_2021_id":"05170020",
         "gn:id":2893264,
         "gp:id":664759,
         "qs_pg:id":684093,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"725df4a3032f57ead7796c7991f5f234",
+    "wof:geomhash":"af88033eabd3fab326fda2ff4a8df70c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101810255,
-    "wof:lastmodified":1608050108,
+    "wof:lastmodified":1684351873,
     "wof:name":"Kamp-Lintfort",
     "wof:parent_id":1377689899,
     "wof:placetype":"locality",
-    "wof:population":39490,
+    "wof:population":37596,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

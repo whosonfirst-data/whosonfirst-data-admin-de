@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geisenhausen, M",
+    "eurostat:nuts_2021_id":"09274134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274134",
+    "eurostat:population":7391,
+    "eurostat:population_year":2020,
     "geom:area":0.00759,
-    "geom:area_square_m":62225858.273057,
+    "geom:area_square_m":62225858.273055,
     "geom:bbox":"12.194314,48.410676,12.341789,48.514941",
     "geom:latitude":48.469348,
     "geom:longitude":12.266931,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":193,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684453,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274134",
+        "eurostat:nuts_2021_id":"09274134",
         "gn:id":2921709,
         "gp:id":651933,
         "qs_pg:id":888381,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bc40813e5c125e4152f70b1c9d4b5502",
+    "wof:geomhash":"c22a88950645c91cb4a4b901300c63bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101784341,
-    "wof:lastmodified":1608050680,
+    "wof:lastmodified":1684351832,
     "wof:name":"Geisenhausen",
     "wof:parent_id":1377684453,
     "wof:placetype":"locality",
-    "wof:population":6367,
+    "wof:population":7391,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

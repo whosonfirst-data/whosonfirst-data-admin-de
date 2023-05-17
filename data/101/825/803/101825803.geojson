@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedenfels",
+    "eurostat:nuts_2021_id":"09377118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377118",
+    "eurostat:population":1223,
+    "eurostat:population_year":2020,
     "geom:area":0.002055,
-    "geom:area_square_m":16374006.837508,
+    "geom:area_square_m":16374006.837507,
     "geom:bbox":"12.056915,49.867799,12.137875,49.911867",
     "geom:latitude":49.890467,
     "geom:longitude":12.101781,
@@ -147,22 +159,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063559,
         1377686893,
         404227545,
-        85682571
+        102063559
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377118",
+        "eurostat:nuts_2021_id":"09377118",
         "fct:id":"071c3000-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2924766,
         "gp:id":12634335,
@@ -177,7 +192,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8426c0732293b61212fc8ce96b9fb6d5",
+    "wof:geomhash":"f5c67483e4a766fce3dd6e9dcf3e8fa8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051418,
+    "wof:lastmodified":1684351931,
     "wof:name":"Friedenfels",
     "wof:parent_id":1377686893,
     "wof:placetype":"locality",
-    "wof:population":1352,
+    "wof:population":1223,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

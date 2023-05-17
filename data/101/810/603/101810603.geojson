@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lautertal (Odenwald)",
+    "eurostat:nuts_2021_id":"06431014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431014",
+    "eurostat:population":7157,
+    "eurostat:population_year":2020,
     "geom:area":0.003841,
-    "geom:area_square_m":30706089.608107,
+    "geom:area_square_m":30706089.608105,
     "geom:bbox":"8.65572633131,49.6805657688,8.77470583867,49.7546215452",
     "geom:latitude":49.716456,
     "geom:longitude":8.709397,
@@ -276,7 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -287,6 +300,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431014",
+        "eurostat:nuts_2021_id":"06431014",
         "gn:id":2878286,
         "gp:id":670723,
         "qs_pg:id":374119,
@@ -301,7 +316,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6f254bdd2e2b9bf748065460343f04fe",
+    "wof:geomhash":"a55eb06659018848d433ac2bf006225f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -314,11 +329,11 @@
         }
     ],
     "wof:id":101810603,
-    "wof:lastmodified":1582342402,
+    "wof:lastmodified":1684351873,
     "wof:name":"Lautertal (Odenwald)",
     "wof:parent_id":1377692939,
     "wof:placetype":"locality",
-    "wof:population":7151,
+    "wof:population":7157,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

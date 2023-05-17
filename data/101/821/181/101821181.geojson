@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12072169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"J\u00fcterbog, Stadt",
+    "eurostat:nuts_2021_id":"12072169",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40H",
+    "eurostat:nuts_2021_level_lau":"12072169",
+    "eurostat:population":12372,
+    "eurostat:population_year":2020,
     "geom:area":0.023096,
-    "geom:area_square_m":175721349.738764,
+    "geom:area_square_m":175721349.738761,
     "geom:bbox":"12.95576,51.955132,13.232899,52.095972",
     "geom:latitude":52.025604,
     "geom:longitude":13.087845,
@@ -302,19 +314,22 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.993333,
     "wd:longitude":13.072778,
     "wd:wordcount":814,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063911,
         1377684155,
-        85682553
+        85633111,
+        102063911
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12072169",
+        "eurostat:nuts_2021_id":"12072169",
         "gn:id":2894394,
         "gp:id":664326,
         "qs_pg:id":142345,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5b0468415bf7674d6fc88acdb359dbc7",
+    "wof:geomhash":"73e364cfbe6830270dadf450576d2163",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101821181,
-    "wof:lastmodified":1608050199,
+    "wof:lastmodified":1684351916,
     "wof:name":"J\u00fcterbog",
     "wof:parent_id":1377684155,
     "wof:placetype":"locality",
-    "wof:population":13292,
+    "wof:population":12372,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

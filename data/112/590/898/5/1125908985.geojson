@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Loop",
+    "eurostat:nuts_2021_id":"01058098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058098",
+    "eurostat:population":198,
+    "eurostat:population_year":2020,
     "geom:area":0.001149,
     "geom:area_square_m":8321362.628991,
     "geom:bbox":"9.9189293126,54.1320388592,9.98423169772,54.1654111661",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058098",
+        "eurostat:nuts_2021_id":"01058098",
         "gn:id":2875965,
         "qs_pg:id":1033007,
         "wd:id":"Q667261"
@@ -146,7 +161,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"04a0bcd5a2261d63505d6f999b626c6f",
+    "wof:geomhash":"790b46358875efec63cafeac2f47e68a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":1125908985,
-    "wof:lastmodified":1582343005,
+    "wof:lastmodified":1684352039,
     "wof:name":"Loop",
     "wof:parent_id":1377684275,
     "wof:placetype":"locality",
-    "wof:population":197,
+    "wof:population":198,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

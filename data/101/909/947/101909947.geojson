@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lietzen",
+    "eurostat:nuts_2021_id":"12064288",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064288",
+    "eurostat:population":670,
+    "eurostat:population_year":2020,
     "geom:area":0.003866,
-    "geom:area_square_m":29117657.812195,
+    "geom:area_square_m":29117657.812192,
     "geom:bbox":"14.2498387555,52.4482918536,14.3823696511,52.4984931663",
     "geom:latitude":52.473117,
     "geom:longitude":14.325677,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "wof:belongsto":[
         85682553,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064288",
+        "eurostat:nuts_2021_id":"12064288",
         "gn:id":2877732,
         "gp:id":671786,
         "qs_pg:id":93502,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1274361218ca1afa51adac972a52b8ca",
+    "wof:geomhash":"f076dca60f1d88d197039a6904329dd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101909947,
-    "wof:lastmodified":1582342287,
+    "wof:lastmodified":1684352003,
     "wof:name":"Lietzen",
     "wof:parent_id":1377683353,
     "wof:placetype":"locality",
-    "wof:population":779,
+    "wof:population":670,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

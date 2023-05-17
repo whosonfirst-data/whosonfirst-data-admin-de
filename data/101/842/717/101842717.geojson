@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10045116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mandelbachtal",
+    "eurostat:nuts_2021_id":"10045116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC05",
+    "eurostat:nuts_2021_level_lau":"10045116",
+    "eurostat:population":10478,
+    "eurostat:population_year":2020,
     "geom:area":0.007156,
     "geom:area_square_m":57834781.822906,
     "geom:bbox":"7.10097,49.120467,7.203123,49.25078",
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063437,
         1377694051,
-        85682479
+        85633111,
+        102063437
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10045116",
+        "eurostat:nuts_2021_id":"10045116",
         "gn:id":3207558,
         "gp:id":646788,
         "qs_pg:id":1033542,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e0fa32b49555cdee8647902e0f0049f2",
+    "wof:geomhash":"ced44e4403ed8c7ab7e26d73d960202d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101842717,
-    "wof:lastmodified":1608049998,
+    "wof:lastmodified":1684351957,
     "wof:name":"Mandelbachtal",
     "wof:parent_id":1377694051,
     "wof:placetype":"locality",
-    "wof:population":10978,
+    "wof:population":10478,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

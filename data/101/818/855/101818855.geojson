@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grevesm\u00fchlen, Stadt",
+    "eurostat:nuts_2021_id":"13074026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074026",
+    "eurostat:population":10434,
+    "eurostat:population_year":2020,
     "geom:area":0.007138,
-    "geom:area_square_m":52052202.429423,
+    "geom:area_square_m":52052202.429419,
     "geom:bbox":"11.123864,53.824759,11.304981,53.89871",
     "geom:latitude":53.863045,
     "geom:longitude":11.201683,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":108,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675589,
         1377693557,
-        85682487
+        85633111,
+        1377675589
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074026",
+        "eurostat:nuts_2021_id":"13074026",
         "gn:id":2917520,
         "gp:id":654149,
         "qs_pg:id":1073063,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7baff9971d36f17a89d8848ab2cafa80",
+    "wof:geomhash":"71e9807e52a179b92916206c42d9a88e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101818855,
-    "wof:lastmodified":1608049783,
+    "wof:lastmodified":1684351904,
     "wof:name":"Grevesm\u00fchlen",
     "wof:parent_id":1377693557,
     "wof:placetype":"locality",
-    "wof:population":10975,
+    "wof:population":10434,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

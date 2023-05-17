@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15003000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Magdeburg, Landeshauptstadt",
+    "eurostat:nuts_2021_id":"15003000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE03",
+    "eurostat:nuts_2021_level_lau":"15003000",
+    "eurostat:population":237565,
+    "eurostat:population_year":2020,
     "geom:area":0.026309,
-    "geom:area_square_m":199762466.750161,
+    "geom:area_square_m":199762466.750157,
     "geom:bbox":"11.51854,52.025595,11.764355,52.228421",
     "geom:latitude":52.116542,
     "geom:longitude":11.641403,
@@ -522,22 +534,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.133333,
     "wd:longitude":11.616667,
     "wd:wordcount":3001,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063887,
         1377688155,
-        85682519
+        85633111,
+        102063887
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682519
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15003000",
+        "eurostat:nuts_2021_id":"15003000",
         "gn:id":2874545,
         "gp:id":673361,
         "qs_pg:id":93468,
@@ -555,7 +570,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b34f9cfa5c6dd156813efcfd3254f7b2",
+    "wof:geomhash":"0885e0c11b81158fc1dd3f9c23b7b162",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -567,11 +582,11 @@
         }
     ],
     "wof:id":101748781,
-    "wof:lastmodified":1608050598,
+    "wof:lastmodified":1684351789,
     "wof:name":"Magdeburg",
     "wof:parent_id":1377688155,
     "wof:placetype":"locality",
-    "wof:population":229826,
+    "wof:population":237565,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

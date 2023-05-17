@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gefell, Stadt",
+    "eurostat:nuts_2021_id":"16075131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075131",
+    "eurostat:population":2477,
+    "eurostat:population_year":2020,
     "geom:area":0.005714,
-    "geom:area_square_m":44994556.136946,
+    "geom:area_square_m":44994556.136947,
     "geom:bbox":"11.723429,50.399983,11.927886,50.473968",
     "geom:latitude":50.444343,
     "geom:longitude":11.82633,
@@ -303,17 +315,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690751,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075131",
+        "eurostat:nuts_2021_id":"16075131",
         "gn:id":2922089,
         "gp:id":651792,
         "qs_pg:id":184923,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"380fea682cbef0eb9832f438b5d2b8ec",
+    "wof:geomhash":"c046c7b8ac8de29cba9f79aeb6945002",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101824557,
-    "wof:lastmodified":1608051116,
+    "wof:lastmodified":1684351929,
     "wof:name":"Gefell",
     "wof:parent_id":1377690751,
     "wof:placetype":"locality",
-    "wof:population":2584,
+    "wof:population":2477,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574456",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Forsthof",
+    "eurostat:nuts_2021_id":"09574456",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574456",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.000821,
-    "geom:area_square_m":6600451.149383,
+    "geom:area_square_m":6600451.149381,
     "geom:bbox":"11.133968,49.417093,11.19916,49.441959",
     "geom:latitude":49.431325,
     "geom:longitude":11.168432,
@@ -43,16 +55,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063495,
         1377689691,
         404227565,
-        85682571
+        102063495
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574456",
+        "eurostat:nuts_2021_id":"09574456",
         "gn:id":2925744
     },
     "wof:coterminous":[
@@ -62,7 +78,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"3f5180586f0954e4e7f1227fe324cbd5",
+    "wof:geomhash":"739ac45b5771e2dabf0662cce5c3721d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -75,10 +91,11 @@
         }
     ],
     "wof:id":1226759565,
-    "wof:lastmodified":1608054527,
+    "wof:lastmodified":1684352058,
     "wof:name":"Forsthof",
     "wof:parent_id":1377689691,
     "wof:placetype":"locality",
+    "wof:population":0,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

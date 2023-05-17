@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hanshagen",
+    "eurostat:nuts_2021_id":"13075046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075046",
+    "eurostat:population":897,
+    "eurostat:population_year":2020,
     "geom:area":0.001348,
     "geom:area_square_m":9789833.257086,
     "geom:bbox":"13.5113685147,54.0253517504,13.5818065722,54.063908654",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682487,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075046",
+        "eurostat:nuts_2021_id":"13075046",
         "gn:id":2910775,
         "gp:id":657189,
         "qs_pg:id":354854,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c33fbb17da53c4d5678d4e1654f0f001",
+    "wof:geomhash":"e75d52300f442bdd4fa680503edb192d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101908729,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351999,
     "wof:name":"Hanshagen",
     "wof:parent_id":1377685123,
     "wof:placetype":"locality",
-    "wof:population":910,
+    "wof:population":897,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

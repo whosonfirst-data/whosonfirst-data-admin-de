@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heide, Stadt",
+    "eurostat:nuts_2021_id":"01051044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051044",
+    "eurostat:population":21852,
+    "eurostat:population_year":2020,
     "geom:area":0.004378,
     "geom:area_square_m":31671056.341154,
     "geom:bbox":"9.051273,54.161236,9.212735,54.218414",
@@ -195,7 +207,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":54.196111,
     "wd:longitude":9.093333,
     "wd:wordcount":255,
@@ -204,14 +217,16 @@
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064119,
         1377683393,
-        85682517
+        85633111,
+        102064119
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051044",
+        "eurostat:nuts_2021_id":"01051044",
         "gn:id":2908032,
         "gp:id":658400,
         "qs_pg:id":455757,
@@ -225,7 +240,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"69bb58b3d542c1646c824eb963370c6c",
+    "wof:geomhash":"548dcbcded6124f8fdc289c589c0dca0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -237,11 +252,11 @@
         }
     ],
     "wof:id":101838125,
-    "wof:lastmodified":1608051599,
+    "wof:lastmodified":1684351946,
     "wof:name":"Heide",
     "wof:parent_id":1377683393,
     "wof:placetype":"locality",
-    "wof:population":20599,
+    "wof:population":21852,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

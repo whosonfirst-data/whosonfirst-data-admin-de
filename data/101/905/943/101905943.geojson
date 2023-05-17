@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schmalenberg",
+    "eurostat:nuts_2021_id":"07340044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340044",
+    "eurostat:population":753,
+    "eurostat:population_year":2020,
     "geom:area":0.00128,
     "geom:area_square_m":10314656.885425,
     "geom:bbox":"7.6976497971,49.3133206141,7.7677575184,49.3452680022",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340044",
+        "eurostat:nuts_2021_id":"07340044",
         "gn:id":2838101,
         "gp:id":20161315,
         "qs_pg:id":7678,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ed96c0df46c8bee91e9b71dd3db1af4",
+    "wof:geomhash":"0760c911cbe6d1f7f2ff9ffdbcc89e54",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101905943,
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351974,
     "wof:name":"Schmalenberg",
     "wof:parent_id":1377686777,
     "wof:placetype":"locality",
-    "wof:population":814,
+    "wof:population":753,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kuden",
+    "eurostat:nuts_2021_id":"01051064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051064",
+    "eurostat:population":601,
+    "eurostat:population_year":2020,
     "geom:area":0.001558,
     "geom:area_square_m":11328582.549954,
     "geom:bbox":"9.15817592282,53.9417032866,9.24293397235,53.9922793498",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051064",
+        "eurostat:nuts_2021_id":"01051064",
         "gn:id":2883065,
         "gp:id":669308,
         "qs_pg:id":578150,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2c0c33fee359842a040ab5d927641edd",
+    "wof:geomhash":"cb7aed9b78a723b6ea3a8cc928e79680",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101906301,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351978,
     "wof:name":"Kuden",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":651,
+    "wof:population":601,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

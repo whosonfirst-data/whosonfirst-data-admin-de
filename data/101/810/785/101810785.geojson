@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alpenrod",
+    "eurostat:nuts_2021_id":"07143202",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143202",
+    "eurostat:population":1579,
+    "eurostat:population_year":2020,
     "geom:area":0.001495,
     "geom:area_square_m":11723536.794639,
     "geom:bbox":"7.82640893086,50.613760649,7.8933578103,50.6613415715",
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":509,
     "wof:belongsto":[
         85682491,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143202",
+        "eurostat:nuts_2021_id":"07143202",
         "gn:id":2958186,
         "gp:id":634106,
         "qs_pg:id":1040316,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"105fa318105cbb0a58d6e3b6c43dadb0",
+    "wof:geomhash":"c297f88becd467ece0b415d442d4d211",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101810785,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351875,
     "wof:name":"Alpenrod",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":1664,
+    "wof:population":1579,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

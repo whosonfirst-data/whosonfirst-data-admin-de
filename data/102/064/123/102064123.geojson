@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"1",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Ostholstein",
+    "eurostat:name_local":"Ostholstein",
+    "eurostat:nuts_2021_id":"DEF08",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:population":202014,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.166291,
-    "geom:area_square_m":1204317906.301911,
+    "geom:area_square_m":1204317906.301931,
     "geom:bbox":"10.417471,53.879556,11.131596,54.396642",
     "geom:latitude":54.147731,
     "geom:longitude":10.769588,
@@ -159,6 +173,8 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "wd:wordcount":305,
     "wof:belongsto":[
         102191581,
@@ -167,13 +183,14 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEF08",
         "wd:id":"Q2975"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "de-bkg-reversegeo"
     ],
-    "wof:geomhash":"002b67a80df1808fdbda76ecd7fb8fd4",
+    "wof:geomhash":"7e73b90656afa2f4e5cd4494e3075977",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,10 +200,12 @@
         }
     ],
     "wof:id":102064123,
-    "wof:lastmodified":1582341928,
+    "wof:lastmodified":1684351531,
     "wof:name":"Ostholstein",
     "wof:parent_id":85682517,
     "wof:placetype":"county",
+    "wof:population":202014,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

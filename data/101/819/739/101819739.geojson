@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Kreutz (Havel)",
+    "eurostat:nuts_2021_id":"12069249",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069249",
+    "eurostat:population":8618,
+    "eurostat:population_year":2020,
     "geom:area":0.013111,
-    "geom:area_square_m":98870431.819133,
+    "geom:area_square_m":98870431.81913,
     "geom:bbox":"12.655657787,52.3632741267,12.8658455988,52.4735334132",
     "geom:latitude":52.420803,
     "geom:longitude":12.763517,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -304,6 +317,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069249",
+        "eurostat:nuts_2021_id":"12069249",
         "gn:id":2915375,
         "gp:id":654562,
         "qs_pg:id":201334,
@@ -315,7 +330,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"02e9f270464ec123519d8fd7f7855950",
+    "wof:geomhash":"2d7a4144afd89eae6515f15f40d32c00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101819739,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351908,
     "wof:name":"Gro\u00df Kreutz (Havel)",
     "wof:parent_id":1377683769,
     "wof:placetype":"locality",
-    "wof:population":8453,
+    "wof:population":8618,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

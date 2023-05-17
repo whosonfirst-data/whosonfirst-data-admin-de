@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Apensen",
+    "eurostat:nuts_2021_id":"03359003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359003",
+    "eurostat:population":4351,
+    "eurostat:population_year":2020,
     "geom:area":0.002818,
-    "geom:area_square_m":20759781.963719,
+    "geom:area_square_m":20759781.963718,
     "geom:bbox":"9.54925923292,53.4172019675,9.64966201288,53.4729768344",
     "geom:latitude":53.438628,
     "geom:longitude":9.602697,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":123,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359003",
+        "eurostat:nuts_2021_id":"03359003",
         "gn:id":2955815,
         "gp:id":635309,
         "qs_pg:id":579961,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b81532924e9a93c16f78b12e3a86ef8f",
+    "wof:geomhash":"4f3444b16508749899640142a6b51ee0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101806573,
-    "wof:lastmodified":1582342616,
+    "wof:lastmodified":1684351853,
     "wof:name":"Apensen",
     "wof:parent_id":1377687903,
     "wof:placetype":"locality",
-    "wof:population":2987,
+    "wof:population":4351,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

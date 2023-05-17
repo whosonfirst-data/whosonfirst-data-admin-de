@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steingaden",
+    "eurostat:nuts_2021_id":"09190154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190154",
+    "eurostat:population":2888,
+    "eurostat:population_year":2020,
     "geom:area":0.007673,
-    "geom:area_square_m":63844112.494468,
+    "geom:area_square_m":63844112.494463,
     "geom:bbox":"10.8031556291,47.6550882922,10.9192928337,47.7716572961",
     "geom:latitude":47.708073,
     "geom:longitude":10.867322,
@@ -185,7 +197,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":316,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -201,6 +214,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190154",
+        "eurostat:nuts_2021_id":"09190154",
         "gn:id":2828089,
         "gp:id":696881,
         "loc:id":"n82050467",
@@ -213,7 +228,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d1cd9caaae0ac99a1d30c53b27bb1288",
+    "wof:geomhash":"6bb0256be1ba8ab1751484dda8d9ec44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -226,11 +241,11 @@
         }
     ],
     "wof:id":101787599,
-    "wof:lastmodified":1582342646,
+    "wof:lastmodified":1684351842,
     "wof:name":"Steingaden",
     "wof:parent_id":1377683763,
     "wof:placetype":"locality",
-    "wof:population":2828,
+    "wof:population":2888,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

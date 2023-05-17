@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dittelbrunn",
+    "eurostat:nuts_2021_id":"09678123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678123",
+    "eurostat:population":7347,
+    "eurostat:population_year":2020,
     "geom:area":0.003001,
-    "geom:area_square_m":23794454.770027,
+    "geom:area_square_m":23794454.770029,
     "geom:bbox":"10.168855,50.065782,10.234795,50.149831",
     "geom:latitude":50.111891,
     "geom:longitude":10.205886,
@@ -151,22 +163,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377693269,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678123",
+        "eurostat:nuts_2021_id":"09678123",
         "fct:id":"073ba6ce-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2936759,
         "gp:id":644845,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7de8d02528d7719235f7a832de051bf3",
+    "wof:geomhash":"8bbfdb1d4da8fb10d1f253beb8a8b711",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050805,
+    "wof:lastmodified":1684351795,
     "wof:name":"Dittelbrunn",
     "wof:parent_id":1377693269,
     "wof:placetype":"locality",
-    "wof:population":7620,
+    "wof:population":7347,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

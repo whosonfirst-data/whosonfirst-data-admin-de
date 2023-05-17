@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09272129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jandelsbrunn",
+    "eurostat:nuts_2021_id":"09272129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE225",
+    "eurostat:nuts_2021_level_lau":"09272129",
+    "eurostat:population":3315,
+    "eurostat:population_year":2020,
     "geom:area":0.005226,
-    "geom:area_square_m":42627512.52484,
+    "geom:area_square_m":42627512.524843,
     "geom:bbox":"13.639929,48.685664,13.735636,48.773856",
     "geom:latitude":48.728162,
     "geom:longitude":13.68754,
@@ -161,18 +173,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063363,
         1377684021,
         404227559,
-        85682571
+        102063363
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09272129",
+        "eurostat:nuts_2021_id":"09272129",
         "gn:id":2895213,
         "gp:id":663949,
         "qs_pg:id":279239,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a561a4ef635b2efbfa8e91e474ff3f9e",
+    "wof:geomhash":"33a3b04e8382ab33381b2e9c254f094d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101783109,
-    "wof:lastmodified":1608050631,
+    "wof:lastmodified":1684351827,
     "wof:name":"Jandelsbrunn",
     "wof:parent_id":1377684021,
     "wof:placetype":"locality",
-    "wof:population":3408,
+    "wof:population":3315,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lehesten",
+    "eurostat:nuts_2021_id":"16074051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074051",
+    "eurostat:population":674,
+    "eurostat:population_year":2020,
     "geom:area":0.001582,
     "geom:area_square_m":12316771.703122,
     "geom:bbox":"11.5468737441,50.9659200035,11.6350920843,51.0000200151",
@@ -175,7 +187,8 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":212,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -190,6 +203,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074051",
+        "eurostat:nuts_2021_id":"16074051",
         "gn:id":2879545,
         "gp:id":670882,
         "qs_pg:id":284379,
@@ -201,7 +216,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7c481a50c6cb0ab5d4fd80286587837e",
+    "wof:geomhash":"aef6c9b18485d15a66c2cf39e55dc007",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,12 +228,12 @@
         }
     ],
     "wof:id":101824579,
-    "wof:lastmodified":1582342543,
+    "wof:lastmodified":1684351929,
     "wof:name":"Lehesten",
     "wof:parent_id":1377688991,
     "wof:placetype":"locality",
-    "wof:population":1807,
-    "wof:population_rank":3,
+    "wof:population":674,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

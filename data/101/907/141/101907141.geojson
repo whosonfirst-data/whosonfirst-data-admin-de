@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bremm",
+    "eurostat:nuts_2021_id":"07135012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135012",
+    "eurostat:population":724,
+    "eurostat:population_year":2020,
     "geom:area":0.001128,
     "geom:area_square_m":8948204.861651,
     "geom:bbox":"7.06856769952,50.0853892301,7.13576069741,50.1137874972",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1345,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135012",
+        "eurostat:nuts_2021_id":"07135012",
         "gn:id":2944335,
         "gp:id":641164,
         "qs_pg:id":1144604,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"24db84bd8e1a5b14d5d2c827a7e5ffe6",
+    "wof:geomhash":"65058755739385e75ac29c4b13c24e9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101907141,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351985,
     "wof:name":"Bremm",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":853,
+    "wof:population":724,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

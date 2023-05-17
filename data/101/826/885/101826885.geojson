@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Windsheim, St",
+    "eurostat:nuts_2021_id":"09575112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575112",
+    "eurostat:population":12369,
+    "eurostat:population_year":2020,
     "geom:area":0.009699,
-    "geom:area_square_m":77860935.615211,
+    "geom:area_square_m":77860935.615215,
     "geom:bbox":"10.34725,49.46183,10.534823,49.582052",
     "geom:latitude":49.516109,
     "geom:longitude":10.424629,
@@ -334,7 +346,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.5,
     "wd:longitude":10.416667,
     "wd:population":11195,
@@ -344,15 +357,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063505,
         1377689777,
         404227565,
-        85682571
+        102063505
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575112",
+        "eurostat:nuts_2021_id":"09575112",
         "fct:id":"071c53c8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953314,
         "gp:id":636531,
@@ -368,7 +383,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cc27b202efb80005a33c6d52dd5ec03b",
+    "wof:geomhash":"e4f739dd64e439c55fc25cf7183fd59b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050344,
+    "wof:lastmodified":1684351937,
     "wof:name":"Bad Windsheim",
     "wof:parent_id":1377689777,
     "wof:placetype":"locality",
-    "wof:population":11195,
+    "wof:population":12369,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

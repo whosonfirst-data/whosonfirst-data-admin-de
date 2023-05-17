@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dorfen, St",
+    "eurostat:nuts_2021_id":"09177115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177115",
+    "eurostat:population":14697,
+    "eurostat:population_year":2020,
     "geom:area":0.012065,
-    "geom:area_square_m":99283165.113049,
+    "geom:area_square_m":99283165.113057,
     "geom:bbox":"12.069702,48.225291,12.255138,48.327571",
     "geom:latitude":48.280211,
     "geom:longitude":12.165677,
@@ -193,22 +205,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063291,
         1377691675,
         404227567,
-        85682571
+        102063291
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177115",
+        "eurostat:nuts_2021_id":"09177115",
         "fct:id":"071cd956-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2936103,
         "gp:id":645225,
@@ -224,7 +239,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d8ff3c14d1934e104d2dc370c10007e1",
+    "wof:geomhash":"4536b65a4c63bdb3448e8e57ac50fc51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -240,11 +255,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050482,
+    "wof:lastmodified":1684351835,
     "wof:name":"Dorfen",
     "wof:parent_id":1377691675,
     "wof:placetype":"locality",
-    "wof:population":13487,
+    "wof:population":14697,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

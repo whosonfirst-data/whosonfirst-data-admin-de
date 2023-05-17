@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geiselberg",
+    "eurostat:nuts_2021_id":"07340012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340012",
+    "eurostat:population":757,
+    "eurostat:population_year":2020,
     "geom:area":0.000793,
-    "geom:area_square_m":6391273.944149,
+    "geom:area_square_m":6391273.944148,
     "geom:bbox":"7.66476556477,49.315038492,7.72416031141,49.3388073238",
     "geom:latitude":49.327293,
     "geom:longitude":7.690029,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340012",
+        "eurostat:nuts_2021_id":"07340012",
         "gn:id":2921746,
         "gp:id":651909,
         "qs_pg:id":579052,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"db1b8de4fb70ca2241c5d3a263418759",
+    "wof:geomhash":"4d6c408994ee51ca520911e10eac11f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101905945,
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351974,
     "wof:name":"Geiselberg",
     "wof:parent_id":1377686777,
     "wof:placetype":"locality",
-    "wof:population":868,
+    "wof:population":757,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boos",
+    "eurostat:nuts_2021_id":"09778120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778120",
+    "eurostat:population":2014,
+    "eurostat:population_year":2020,
     "geom:area":0.002125,
-    "geom:area_square_m":17549227.992638,
+    "geom:area_square_m":17549227.992637,
     "geom:bbox":"10.1692434776,48.0654151364,10.2446826061,48.1113874349",
     "geom:latitude":48.085922,
     "geom:longitude":10.207266,
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -174,6 +187,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778120",
+        "eurostat:nuts_2021_id":"09778120",
         "gn:id":2946378,
         "gp:id":640202,
         "qs_pg:id":579684,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"01e8c76cd2f9139de0d34a4e5bd5e879",
+    "wof:geomhash":"91c70866231a014c020bf2955a1db67f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,12 +217,12 @@
         }
     ],
     "wof:id":101764159,
-    "wof:lastmodified":1582342298,
+    "wof:lastmodified":1684351813,
     "wof:name":"Boos",
     "wof:parent_id":1377693221,
     "wof:placetype":"locality",
-    "wof:population":1946,
-    "wof:population_rank":3,
+    "wof:population":2014,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

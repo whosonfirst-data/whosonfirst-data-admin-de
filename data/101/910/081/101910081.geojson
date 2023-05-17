@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Falkenberg, M",
+    "eurostat:nuts_2021_id":"09377117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377117",
+    "eurostat:population":934,
+    "eurostat:population_year":2020,
     "geom:area":0.004923,
-    "geom:area_square_m":39247922.065651,
+    "geom:area_square_m":39247922.06565,
     "geom:bbox":"12.1692989739,49.8143918665,12.2838238512,49.8922774242",
     "geom:latitude":49.855123,
     "geom:longitude":12.224724,
@@ -142,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377117",
+        "eurostat:nuts_2021_id":"09377117",
         "gn:id":2928016,
         "gp:id":649257,
         "qs_pg:id":579189,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"436a0951f74156578a4b087b0687e130",
+    "wof:geomhash":"eaaea4bfd7fa82a2fe94dee902121776",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101910081,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352004,
     "wof:name":"Falkenberg",
     "wof:parent_id":1377687019,
     "wof:placetype":"locality",
-    "wof:population":969,
+    "wof:population":934,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

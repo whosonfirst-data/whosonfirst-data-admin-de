@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindenfels, Stadt",
+    "eurostat:nuts_2021_id":"06431015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431015",
+    "eurostat:population":5105,
+    "eurostat:population_year":2020,
     "geom:area":0.002628,
-    "geom:area_square_m":21021958.904682,
+    "geom:area_square_m":21021958.90468,
     "geom:bbox":"8.723324,49.672035,8.806871,49.738294",
     "geom:latitude":49.697409,
     "geom:longitude":8.767584,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.684861,
     "wd:longitude":8.780278,
     "wd:population":5050,
@@ -323,15 +336,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377692949,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431015",
+        "eurostat:nuts_2021_id":"06431015",
         "gn:id":2877315,
         "gp:id":671983,
         "qs_pg:id":969509,
@@ -346,7 +361,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"58797bf3bc84a61982ae29cd88320d32",
+    "wof:geomhash":"482c734a8f54781bbdb4b60fb7adac0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101846195,
-    "wof:lastmodified":1608051014,
+    "wof:lastmodified":1684351959,
     "wof:name":"Lindenfels",
     "wof:parent_id":1377692949,
     "wof:placetype":"locality",
-    "wof:population":5050,
+    "wof:population":5105,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

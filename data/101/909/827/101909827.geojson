@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obernholz",
+    "eurostat:nuts_2021_id":"03151019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151019",
+    "eurostat:population":820,
+    "eurostat:population_year":2020,
     "geom:area":0.00505,
-    "geom:area_square_m":37782944.179931,
+    "geom:area_square_m":37782944.17993,
     "geom:bbox":"10.5396053751,52.7361945043,10.669901372,52.7963563285",
     "geom:latitude":52.763773,
     "geom:longitude":10.601605,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151019",
+        "eurostat:nuts_2021_id":"03151019",
         "gn:id":3208615,
         "gp:id":20166155,
         "qs_pg:id":95281,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"afb7017a8709e309fa3638e8b1f0af92",
+    "wof:geomhash":"02c31bb2847d781cdf95c779ffc532a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101909827,
-    "wof:lastmodified":1582342283,
+    "wof:lastmodified":1684352003,
     "wof:name":"Obernholz",
     "wof:parent_id":1377684903,
     "wof:placetype":"locality",
-    "wof:population":944,
+    "wof:population":820,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

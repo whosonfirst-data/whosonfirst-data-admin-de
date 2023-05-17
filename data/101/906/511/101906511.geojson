@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oster-Ohrstedt",
+    "eurostat:nuts_2021_id":"01054101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054101",
+    "eurostat:population":632,
+    "eurostat:population_year":2020,
     "geom:area":0.001539,
-    "geom:area_square_m":11049934.77845,
+    "geom:area_square_m":11049934.778449,
     "geom:bbox":"9.20410131974,54.4955551473,9.29027967083,54.523692122",
     "geom:latitude":54.512212,
     "geom:longitude":9.249687,
@@ -284,7 +296,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682517,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054101",
+        "eurostat:nuts_2021_id":"01054101",
         "gn:id":2856398,
         "gp:id":683563,
         "qs_pg:id":577460,
@@ -305,7 +320,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d10ecf8f5c18eb03cc16f153d07e6b56",
+    "wof:geomhash":"1963e8db6a72d3a3031afaf52b7a6381",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -317,11 +332,11 @@
         }
     ],
     "wof:id":101906511,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351980,
     "wof:name":"Oster-Ohrstedt",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":697,
+    "wof:population":632,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

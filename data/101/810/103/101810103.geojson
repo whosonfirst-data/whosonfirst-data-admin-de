@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hatzfeld (Eder), Stadt",
+    "eurostat:nuts_2021_id":"06635014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635014",
+    "eurostat:population":2940,
+    "eurostat:population_year":2020,
     "geom:area":0.007442,
     "geom:area_square_m":57924715.186375,
     "geom:bbox":"8.47336820881,50.948567075,8.62390798748,51.0250418051",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635014",
+        "eurostat:nuts_2021_id":"06635014",
         "gn:id":2909194,
         "gp:id":657864,
         "qs_pg:id":169673,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c02ef38a03dd3906014c4f179b712e9e",
+    "wof:geomhash":"508a914cd2a22c843eb87bb59c105509",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -317,11 +332,11 @@
         }
     ],
     "wof:id":101810103,
-    "wof:lastmodified":1582342398,
+    "wof:lastmodified":1684351871,
     "wof:name":"Hatzfeld (Eder)",
     "wof:parent_id":1377684985,
     "wof:placetype":"locality",
-    "wof:population":3409,
+    "wof:population":2940,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Felm",
+    "eurostat:nuts_2021_id":"01058051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058051",
+    "eurostat:population":1179,
+    "eurostat:population_year":2020,
     "geom:area":0.002173,
-    "geom:area_square_m":15643867.809028,
+    "geom:area_square_m":15643867.809029,
     "geom:bbox":"10.0126194897,54.3711253479,10.0869734573,54.4283759538",
     "geom:latitude":54.400837,
     "geom:longitude":10.057169,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058051",
+        "eurostat:nuts_2021_id":"01058051",
         "gn:id":2927236,
         "gp:id":649543,
         "qs_pg:id":93884,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"66eff2ccd312cd30270a343e9f2a9085",
+    "wof:geomhash":"497a2107d1b3014c4813adc8243c204b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101805157,
-    "wof:lastmodified":1582342451,
+    "wof:lastmodified":1684351847,
     "wof:name":"Felm",
     "wof:parent_id":1377684205,
     "wof:placetype":"locality",
-    "wof:population":1144,
+    "wof:population":1179,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kausen",
+    "eurostat:nuts_2021_id":"07132059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132059",
+    "eurostat:population":761,
+    "eurostat:population_year":2020,
     "geom:area":0.000461,
     "geom:area_square_m":3609234.787924,
     "geom:bbox":"7.8558757693,50.734586277,7.89607649089,50.7562956723",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132059",
+        "eurostat:nuts_2021_id":"07132059",
         "gn:id":2892030,
         "gp:id":665279,
         "qs_pg:id":359147,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c009311afb478e634cea66b43facd5a8",
+    "wof:geomhash":"b92b32eb7ab82e0a98b54a38e4bd8eb9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101907533,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351988,
     "wof:name":"Kausen",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":758,
+    "wof:population":761,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

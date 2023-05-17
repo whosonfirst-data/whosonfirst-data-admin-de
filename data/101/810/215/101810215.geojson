@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Immenhausen, Stadt",
+    "eurostat:nuts_2021_id":"06633014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633014",
+    "eurostat:population":7053,
+    "eurostat:population_year":2020,
     "geom:area":0.003683,
-    "geom:area_square_m":28396565.114935,
+    "geom:area_square_m":28396565.114934,
     "geom:bbox":"9.444441,51.400019,9.549939,51.467552",
     "geom:latitude":51.429771,
     "geom:longitude":9.49519,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.416667,
     "wd:longitude":9.5,
     "wd:population":6815,
@@ -317,15 +330,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684559,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633014",
+        "eurostat:nuts_2021_id":"06633014",
         "gn:id":2896279,
         "gp:id":663443,
         "qs_pg:id":142364,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1f0ad3a621617d01fc0e8b09838f999c",
+    "wof:geomhash":"976d4f9f49180f08038c0417f013835b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810215,
-    "wof:lastmodified":1608050085,
+    "wof:lastmodified":1684351872,
     "wof:name":"Immenhausen",
     "wof:parent_id":1377684559,
     "wof:placetype":"locality",
-    "wof:population":6815,
+    "wof:population":7053,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

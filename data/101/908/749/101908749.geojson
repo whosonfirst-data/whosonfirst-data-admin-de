@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Polzin",
+    "eurostat:nuts_2021_id":"13075043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075043",
+    "eurostat:population":400,
+    "eurostat:population_year":2020,
     "geom:area":0.004024,
-    "geom:area_square_m":29320768.994814,
+    "geom:area_square_m":29320768.994815,
     "geom:bbox":"13.4845711369,53.8683659374,13.635834119,53.9139015288",
     "geom:latitude":53.8932,
     "geom:longitude":13.561533,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682487,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075043",
+        "eurostat:nuts_2021_id":"13075043",
         "gn:id":2915176,
         "gp:id":666545,
         "qs_pg:id":578862,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"299e47e63851d4d954519a2576afa0d1",
+    "wof:geomhash":"3c692abd351e5e3889bafccd3d140574",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101908749,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351999,
     "wof:name":"Gro\u00df Polzin",
     "wof:parent_id":1377685173,
     "wof:placetype":"locality",
-    "wof:population":511,
+    "wof:population":400,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

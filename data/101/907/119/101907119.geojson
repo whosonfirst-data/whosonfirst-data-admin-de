@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Forst (Eifel)",
+    "eurostat:nuts_2021_id":"07135031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135031",
+    "eurostat:population":368,
+    "eurostat:population_year":2020,
     "geom:area":0.000491,
-    "geom:area_square_m":3884045.814838,
+    "geom:area_square_m":3884045.814837,
     "geom:bbox":"7.23728745226,50.2124960144,7.27050058036,50.2347736466",
     "geom:latitude":50.222888,
     "geom:longitude":7.252975,
@@ -281,7 +293,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":667,
     "wof:belongsto":[
         85682491,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135031",
+        "eurostat:nuts_2021_id":"07135031",
         "gn:id":2925839,
         "gp:id":650102,
         "qs_pg:id":1236623,
@@ -302,7 +317,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e288e61ea37a4ad23d0c72aefc1d4659",
+    "wof:geomhash":"69ec08402448a9e10caf6b07febce1a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -314,11 +329,11 @@
         }
     ],
     "wof:id":101907119,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351984,
     "wof:name":"Forst (Eifel)",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":370,
+    "wof:population":368,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

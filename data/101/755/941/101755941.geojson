@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06436007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hofheim am Taunus, Kreisstadt",
+    "eurostat:nuts_2021_id":"06436007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71A",
+    "eurostat:nuts_2021_level_lau":"06436007",
+    "eurostat:population":39647,
+    "eurostat:population_year":2020,
     "geom:area":0.007186,
-    "geom:area_square_m":57002748.706634,
+    "geom:area_square_m":57002748.706639,
     "geom:bbox":"8.344187,50.045727,8.475652,50.142002",
     "geom:latitude":50.094562,
     "geom:longitude":8.408929,
@@ -188,21 +200,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063583,
         1377693803,
         404227581,
-        85682531
+        102063583
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06436007",
+        "eurostat:nuts_2021_id":"06436007",
         "gn:id":2902535,
         "gp:id":660868,
         "loc:id":"n81072008",
@@ -221,7 +236,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ee3fb24d9e8c79225582eafe54b8b6de",
+    "wof:geomhash":"1ba200b1d803d5dc014021daaacdcfc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -234,11 +249,11 @@
         }
     ],
     "wof:id":101755941,
-    "wof:lastmodified":1608049403,
+    "wof:lastmodified":1684351791,
     "wof:name":"Hofheim am Taunus",
     "wof:parent_id":1377693803,
     "wof:placetype":"locality",
-    "wof:population":37750,
+    "wof:population":39647,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

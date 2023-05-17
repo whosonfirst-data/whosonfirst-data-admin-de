@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03154007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grafhorst",
+    "eurostat:nuts_2021_id":"03154007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE917",
+    "eurostat:nuts_2021_level_lau":"03154007",
+    "eurostat:population":1048,
+    "eurostat:population_year":2020,
     "geom:area":0.00127,
     "geom:area_square_m":9574225.20153,
     "geom:bbox":"10.9033452505,52.422976522,10.9791692867,52.4717949273",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03154007",
+        "eurostat:nuts_2021_id":"03154007",
         "gn:id":2918253,
         "gp:id":653791,
         "qs_pg:id":93807,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"61bccd9bb283d4e3e67053876657d5cc",
+    "wof:geomhash":"5d3b3a783095ffffb298b8b3957ba4be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101819611,
-    "wof:lastmodified":1582342427,
+    "wof:lastmodified":1684351907,
     "wof:name":"Grafhorst",
     "wof:parent_id":1377685877,
     "wof:placetype":"locality",
-    "wof:population":1046,
+    "wof:population":1048,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zurow",
+    "eurostat:nuts_2021_id":"13074090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074090",
+    "eurostat:population":1304,
+    "eurostat:population_year":2020,
     "geom:area":0.005615,
     "geom:area_square_m":40949108.457022,
     "geom:bbox":"11.5496342388,53.811332535,11.7128828422,53.8964356953",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074090",
+        "eurostat:nuts_2021_id":"13074090",
         "gn:id":2803670,
         "gp:id":709299,
         "qs_pg:id":92782,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9b78916dc639b2312ca3f2f6115ad5f0",
+    "wof:geomhash":"f84a34a88ddba5bffa68f8a9460a22d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101818841,
-    "wof:lastmodified":1582342364,
+    "wof:lastmodified":1684351904,
     "wof:name":"Zurow",
     "wof:parent_id":1377693637,
     "wof:placetype":"locality",
-    "wof:population":1421,
+    "wof:population":1304,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

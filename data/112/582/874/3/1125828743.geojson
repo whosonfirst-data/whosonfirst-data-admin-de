@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bisterschied",
+    "eurostat:nuts_2021_id":"07333008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333008",
+    "eurostat:population":240,
+    "eurostat:population_year":2020,
     "geom:area":0.000633,
     "geom:area_square_m":5065395.834608,
     "geom:bbox":"7.72601778348,49.6270386236,7.76274706337,49.658580377",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333008",
+        "eurostat:nuts_2021_id":"07333008",
         "gn:id":2948190,
         "qs_pg:id":579745,
         "wd:id":"Q560270"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"356e5f0191e476ef4bc027b1e18215c1",
+    "wof:geomhash":"c880ca57dfd6d44349aaf9706ef1c2c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125828743,
-    "wof:lastmodified":1582343024,
+    "wof:lastmodified":1684352019,
     "wof:name":"Bisterschied",
     "wof:parent_id":1377686345,
     "wof:placetype":"locality",
-    "wof:population":283,
+    "wof:population":240,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

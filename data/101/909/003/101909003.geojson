@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marolterode",
+    "eurostat:nuts_2021_id":"16064043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064043",
+    "eurostat:population":320,
+    "eurostat:population_year":2020,
     "geom:area":0.000816,
-    "geom:area_square_m":6315886.221853,
+    "geom:area_square_m":6315886.221854,
     "geom:bbox":"10.6668960041,51.2163622615,10.7115644514,51.2450368814",
     "geom:latitude":51.229155,
     "geom:longitude":10.687243,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064043",
+        "eurostat:nuts_2021_id":"16064043",
         "gn:id":2873227,
         "gp:id":674068,
         "qs_pg:id":577880,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4f63aef692b251d87b39c371bd36b6fb",
+    "wof:geomhash":"15697a8ab5ddedd584232fb912117949",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101909003,
-    "wof:lastmodified":1582342291,
+    "wof:lastmodified":1684352001,
     "wof:name":"Marolterode",
     "wof:parent_id":1377689815,
     "wof:placetype":"locality",
-    "wof:population":364,
+    "wof:population":320,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

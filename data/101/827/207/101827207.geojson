@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Segeberg, Stadt",
+    "eurostat:nuts_2021_id":"01060005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060005",
+    "eurostat:population":17381,
+    "eurostat:population_year":2020,
     "geom:area":0.002568,
-    "geom:area_square_m":18691253.715043,
+    "geom:area_square_m":18691253.715044,
     "geom:bbox":"10.267798,53.917877,10.374103,53.972996",
     "geom:latitude":53.941491,
     "geom:longitude":10.312893,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":145,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064103,
         1377684483,
-        85682517
+        85633111,
+        102064103
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060005",
+        "eurostat:nuts_2021_id":"01060005",
         "gn:id":2953341,
         "gp:id":636509,
         "loc:id":"n83226341",
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0c08f26cb41b7627d4fd50456fa62ee4",
+    "wof:geomhash":"88e754cb2f38393f2c34f23959f644ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101827207,
-    "wof:lastmodified":1608049832,
+    "wof:lastmodified":1684351941,
     "wof:name":"Bad Segeberg",
     "wof:parent_id":1377684483,
     "wof:placetype":"locality",
-    "wof:population":16052,
+    "wof:population":17381,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

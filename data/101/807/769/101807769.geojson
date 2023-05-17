@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03459005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Laer",
+    "eurostat:nuts_2021_id":"03459005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94E",
+    "eurostat:nuts_2021_level_lau":"03459005",
+    "eurostat:population":9110,
+    "eurostat:population_year":2020,
     "geom:area":0.006118,
-    "geom:area_square_m":46471860.017875,
+    "geom:area_square_m":46471860.017876,
     "geom:bbox":"8.01946,52.057145,8.135619,52.137143",
     "geom:latitude":52.098698,
     "geom:longitude":8.083426,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063947,
         1377688975,
-        85682555
+        85633111,
+        102063947
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03459005",
+        "eurostat:nuts_2021_id":"03459005",
         "gn:id":2881972,
         "gp:id":20168489,
         "qs_pg:id":142262,
@@ -188,7 +203,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f51f8271ad744111f013ef907edf2a15",
+    "wof:geomhash":"3d4eab0e640e407d2774ccc2fdc2f360",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101807769,
-    "wof:lastmodified":1608051549,
+    "wof:lastmodified":1684351860,
     "wof:name":"Bad Laer",
     "wof:parent_id":1377688975,
     "wof:placetype":"locality",
-    "wof:population":9151,
+    "wof:population":9110,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

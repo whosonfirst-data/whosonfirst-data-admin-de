@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zuzenhausen",
+    "eurostat:nuts_2021_id":"08226101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226101",
+    "eurostat:population":2212,
+    "eurostat:population_year":2020,
     "geom:area":0.001428,
     "geom:area_square_m":11514293.384642,
     "geom:bbox":"8.78761378569,49.2808122105,8.85482452535,49.3151300125",
@@ -149,7 +161,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -164,6 +177,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226101",
+        "eurostat:nuts_2021_id":"08226101",
         "gn:id":2803642,
         "wk:page":"Zuzenhausen"
     },
@@ -171,7 +186,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"800f3894753a98f524350b32a4139a80",
+    "wof:geomhash":"6e40f9fda8977829282d019d4e61e7ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":1209628497,
-    "wof:lastmodified":1582342054,
+    "wof:lastmodified":1684352057,
     "wof:name":"Zuzenhausen",
     "wof:parent_id":1377688783,
     "wof:placetype":"locality",
-    "wof:population":2083,
+    "wof:population":2212,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

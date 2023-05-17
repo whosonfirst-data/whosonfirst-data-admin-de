@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaulsdorf",
+    "eurostat:nuts_2021_id":"16073038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073038",
+    "eurostat:population":2410,
+    "eurostat:population_year":2020,
     "geom:area":0.002785,
     "geom:area_square_m":21852893.998509,
     "geom:bbox":"11.3753902861,50.5786947504,11.4757706608,50.6436863251",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073038",
+        "eurostat:nuts_2021_id":"16073038",
         "gn:id":2892052,
         "gp:id":647049,
         "qs_pg:id":578359,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7239ea9b6004779807b4b78c8b06d776",
+    "wof:geomhash":"6193d2746d34e1fd4dfa9195dd75883e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101824597,
-    "wof:lastmodified":1582342540,
+    "wof:lastmodified":1684351930,
     "wof:name":"Kaulsdorf",
     "wof:parent_id":1377689001,
     "wof:placetype":"locality",
-    "wof:population":2980,
+    "wof:population":2410,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

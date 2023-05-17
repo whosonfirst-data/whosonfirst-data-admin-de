@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09183148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldkraiburg, St",
+    "eurostat:nuts_2021_id":"09183148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21G",
+    "eurostat:nuts_2021_level_lau":"09183148",
+    "eurostat:population":23392,
+    "eurostat:population_year":2020,
     "geom:area":0.002572,
     "geom:area_square_m":21193059.947188,
     "geom:bbox":"12.378002,48.167906,12.49107,48.226883",
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":213,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063281,
         1377692601,
         404227567,
-        85682571
+        102063281
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09183148",
+        "eurostat:nuts_2021_id":"09183148",
         "gn:id":2814874,
         "gp:id":703523,
         "qs_pg:id":456224,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e4f3f9d425c2ae2ff626763c5c5d4786",
+    "wof:geomhash":"7ea08018fb1a2ee210045eb251890bd3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101780677,
-    "wof:lastmodified":1608052045,
+    "wof:lastmodified":1684351818,
     "wof:name":"Waldkraiburg",
     "wof:parent_id":1377692601,
     "wof:placetype":"locality",
-    "wof:population":24676,
+    "wof:population":23392,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

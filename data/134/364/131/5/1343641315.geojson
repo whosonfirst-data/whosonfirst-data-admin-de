@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Warsow",
+    "eurostat:nuts_2021_id":"13076147",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076147",
+    "eurostat:population":667,
+    "eurostat:population_year":2020,
     "geom:area":0.002031,
-    "geom:area_square_m":14927147.072237,
+    "geom:area_square_m":14927147.072238,
     "geom:bbox":"11.2438464997,53.5176588588,11.3267140693,53.5605745861",
     "geom:latitude":53.541238,
     "geom:longitude":11.286256,
@@ -68,7 +80,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -78,13 +91,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076147",
+        "eurostat:nuts_2021_id":"13076147",
         "gn:id":2814011
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"7532c3773ac86fcbad559b707872841d",
+    "wof:geomhash":"10477d028b18c03baf3851781d55d620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -96,11 +111,11 @@
         }
     ],
     "wof:id":1343641315,
-    "wof:lastmodified":1582341944,
+    "wof:lastmodified":1684352062,
     "wof:name":"Warsow",
     "wof:parent_id":1377685331,
     "wof:placetype":"locality",
-    "wof:population":648,
+    "wof:population":667,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

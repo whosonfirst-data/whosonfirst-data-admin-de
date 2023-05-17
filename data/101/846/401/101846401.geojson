@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bawinkel",
+    "eurostat:nuts_2021_id":"03454002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454002",
+    "eurostat:population":2481,
+    "eurostat:population_year":2020,
     "geom:area":0.002693,
-    "geom:area_square_m":20229231.928865,
+    "geom:area_square_m":20229231.928861,
     "geom:bbox":"7.37965741919,52.5544675791,7.47490404424,52.6165660407",
     "geom:latitude":52.590218,
     "geom:longitude":7.420261,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454002",
+        "eurostat:nuts_2021_id":"03454002",
         "gn:id":2951863,
         "gp:id":637273,
         "qs_pg:id":579881,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2187bb6e739f1d1d72e8d023d5a1bd19",
+    "wof:geomhash":"7457ca4fa53315b80f2d2561f3291594",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101846401,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351961,
     "wof:name":"Bawinkel",
     "wof:parent_id":1377688579,
     "wof:placetype":"locality",
-    "wof:population":2343,
+    "wof:population":2481,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

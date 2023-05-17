@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10045115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirkel",
+    "eurostat:nuts_2021_id":"10045115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC05",
+    "eurostat:nuts_2021_level_lau":"10045115",
+    "eurostat:population":10039,
+    "eurostat:population_year":2020,
     "geom:area":0.004001,
-    "geom:area_square_m":32259561.638721,
+    "geom:area_square_m":32259561.638723,
     "geom:bbox":"7.182892,49.259676,7.316621,49.339906",
     "geom:latitude":49.297585,
     "geom:longitude":7.251594,
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":205,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063437,
         1377694043,
-        85682479
+        85633111,
+        102063437
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10045115",
+        "eurostat:nuts_2021_id":"10045115",
         "gn:id":2890322,
         "gp:id":666059,
         "qs_pg:id":1039410,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aaaaba0d488c56fdf6db24bd582825d6",
+    "wof:geomhash":"a73cd32b5c4bff81658567b2464b1316",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101759623,
-    "wof:lastmodified":1608050957,
+    "wof:lastmodified":1684351798,
     "wof:name":"Kirkel",
     "wof:parent_id":1377694043,
     "wof:placetype":"locality",
-    "wof:population":10330,
+    "wof:population":10039,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05758016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hiddenhausen",
+    "eurostat:nuts_2021_id":"05758016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA43",
+    "eurostat:nuts_2021_level_lau":"05758016",
+    "eurostat:population":19705,
+    "eurostat:population_year":2020,
     "geom:area":0.003174,
-    "geom:area_square_m":24080872.569198,
+    "geom:area_square_m":24080872.569197,
     "geom:bbox":"8.591299,52.130189,8.678736,52.182103",
     "geom:latitude":52.156031,
     "geom:longitude":8.635926,
@@ -310,18 +322,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":88,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063891,
         1377691599,
         404227571,
-        85682513
+        102063891
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05758016",
+        "eurostat:nuts_2021_id":"05758016",
         "gn:id":2912821,
         "gp:id":659844,
         "qs_pg:id":38562,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c3967935fd5d82b8d610f771a64da60f",
+    "wof:geomhash":"3b4d3d50045459243b80987cfb6c625c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,12 +367,12 @@
         }
     ],
     "wof:id":101807563,
-    "wof:lastmodified":1608051549,
+    "wof:lastmodified":1684351857,
     "wof:name":"Hiddenhausen",
     "wof:parent_id":1377691599,
     "wof:placetype":"locality",
-    "wof:population":20771,
-    "wof:population_rank":7,
+    "wof:population":19705,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

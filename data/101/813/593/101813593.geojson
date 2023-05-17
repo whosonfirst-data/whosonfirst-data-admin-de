@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waigolshausen",
+    "eurostat:nuts_2021_id":"09678190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678190",
+    "eurostat:population":2712,
+    "eurostat:population_year":2020,
     "geom:area":0.002975,
-    "geom:area_square_m":23666004.260322,
+    "geom:area_square_m":23666004.260321,
     "geom:bbox":"10.085974,49.929516,10.18989,49.977265",
     "geom:latitude":49.955852,
     "geom:longitude":10.141254,
@@ -146,22 +158,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377691765,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678190",
+        "eurostat:nuts_2021_id":"09678190",
         "fct:id":"075cfaae-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2815303,
         "gp:id":703288,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"71cfaeed4052721d2283f11c14eec8ff",
+    "wof:geomhash":"0cc45dd5afd5327ae5f806fe83184904",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051315,
+    "wof:lastmodified":1684351892,
     "wof:name":"Waigolshausen",
     "wof:parent_id":1377691765,
     "wof:placetype":"locality",
-    "wof:population":2931,
+    "wof:population":2712,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

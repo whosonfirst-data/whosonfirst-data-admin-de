@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oechsen",
+    "eurostat:nuts_2021_id":"16063062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063062",
+    "eurostat:population":597,
+    "eurostat:population_year":2020,
     "geom:area":0.001583,
     "geom:area_square_m":12384995.450212,
     "geom:bbox":"10.041245833,50.7039112609,10.0964606272,50.7587769599",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063062",
+        "eurostat:nuts_2021_id":"16063062",
         "gn:id":2857983,
         "gp:id":682869,
         "qs_pg:id":577499,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7a1ac8534801fdf3f7540dc83f861cf6",
+    "wof:geomhash":"1311cc2a726de6de3df75ec69d722461",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101907573,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351989,
     "wof:name":"Oechsen",
     "wof:parent_id":1377689681,
     "wof:placetype":"locality",
-    "wof:population":685,
+    "wof:population":597,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

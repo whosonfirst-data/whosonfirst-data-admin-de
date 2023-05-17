@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nienburg (Weser), Stadt",
+    "eurostat:nuts_2021_id":"03256022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256022",
+    "eurostat:population":31448,
+    "eurostat:population_year":2020,
     "geom:area":0.008616,
-    "geom:area_square_m":64647977.259621,
+    "geom:area_square_m":64647977.259619,
     "geom:bbox":"9.16293505813,52.5908361374,9.30852404506,52.6883878864",
     "geom:latitude":52.639171,
     "geom:longitude":9.232309,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256022",
+        "eurostat:nuts_2021_id":"03256022",
         "gn:id":2862620,
         "gp:id":680050,
         "qs_pg:id":1074083,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"941c4389ff08b1e3ca09bce731683972",
+    "wof:geomhash":"75a1dabad9308b47235740d618a59e11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101807827,
-    "wof:lastmodified":1582342586,
+    "wof:lastmodified":1684351860,
     "wof:name":"Nienburg (Weser)",
     "wof:parent_id":1377686917,
     "wof:placetype":"locality",
-    "wof:population":32629,
+    "wof:population":31448,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

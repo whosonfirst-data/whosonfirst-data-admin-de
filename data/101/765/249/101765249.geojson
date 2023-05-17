@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08336069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rheinfelden (Baden), Stadt",
+    "eurostat:nuts_2021_id":"08336069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE139",
+    "eurostat:nuts_2021_level_lau":"08336069",
+    "eurostat:population":33083,
+    "eurostat:population_year":2020,
     "geom:area":0.007484,
     "geom:area_square_m":62413953.987323,
     "geom:bbox":"7.70672592278,47.5422473717,7.84095557752,47.6252095412",
@@ -311,7 +323,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":62.84,
     "wd:latitude":47.561111,
     "wd:longitude":7.791667,
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08336069",
+        "eurostat:nuts_2021_id":"08336069",
         "gn:id":2847639,
         "gp:id":688325,
         "qs_pg:id":1150449,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92a1f17785550befc1cf8b634eb6ca7e",
+    "wof:geomhash":"44000f5edd3d1ce944554c71fc58d801",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101765249,
-    "wof:lastmodified":1582342337,
+    "wof:lastmodified":1684351817,
     "wof:name":"Rheinfelden (Baden)",
     "wof:parent_id":1377685769,
     "wof:placetype":"locality",
-    "wof:population":22215,
+    "wof:population":33083,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

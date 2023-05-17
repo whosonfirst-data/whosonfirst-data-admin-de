@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522590",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfenborn/Erzgeb.",
+    "eurostat:nuts_2021_id":"14522590",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522590",
+    "eurostat:population":2468,
+    "eurostat:population_year":2020,
     "geom:area":0.002857,
     "geom:area_square_m":22296688.230534,
     "geom:bbox":"13.337919483,50.8456116533,13.4475721311,50.8956856248",
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522590",
+        "eurostat:nuts_2021_id":"14522590",
         "gn:id":2811935,
         "gp:id":704936,
         "qs_pg:id":416136,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7ce285a3d4005390c6fe038e1d524e19",
+    "wof:geomhash":"1656bf668192ddb7f08fffbbc925da2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101823443,
-    "wof:lastmodified":1582342534,
+    "wof:lastmodified":1684351926,
     "wof:name":"Wei\u00dfenborn/Erzgeb.",
     "wof:parent_id":1377686113,
     "wof:placetype":"locality",
-    "wof:population":2586,
+    "wof:population":2468,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

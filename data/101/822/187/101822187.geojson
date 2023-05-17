@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauta, Stadt",
+    "eurostat:nuts_2021_id":"14625310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625310",
+    "eurostat:population":8363,
+    "eurostat:population_year":2020,
     "geom:area":0.005436,
-    "geom:area_square_m":41889524.623432,
+    "geom:area_square_m":41889524.623425,
     "geom:bbox":"14.033006,51.396702,14.183856,51.486637",
     "geom:latitude":51.450639,
     "geom:longitude":14.09768,
@@ -184,21 +196,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":123,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686773,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625310",
+        "eurostat:nuts_2021_id":"14625310",
         "gn:id":2879997,
         "gp:id":670654,
         "qs_pg:id":2,
@@ -216,7 +231,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"890c411a9896467244d5e430c4d666a3",
+    "wof:geomhash":"63ccab127a0b6c5639bcaad636229ef0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101822187,
-    "wof:lastmodified":1608051469,
+    "wof:lastmodified":1684351920,
     "wof:name":"Lauta",
     "wof:parent_id":1377686773,
     "wof:placetype":"locality",
-    "wof:population":8992,
+    "wof:population":8363,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

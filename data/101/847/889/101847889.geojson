@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberwiesenthal, Kurort, Stadt",
+    "eurostat:nuts_2021_id":"14521440",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521440",
+    "eurostat:population":2078,
+    "eurostat:population_year":2020,
     "geom:area":0.004993,
-    "geom:area_square_m":39323751.246462,
+    "geom:area_square_m":39323751.246461,
     "geom:bbox":"12.859249,50.404088,13.022231,50.467126",
     "geom:latitude":50.440528,
     "geom:longitude":12.947435,
@@ -190,21 +202,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":747,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685567,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521440",
+        "eurostat:nuts_2021_id":"14521440",
         "gn:id":2858529,
         "gp:id":682612,
         "qs_pg:id":1073547,
@@ -222,7 +237,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"412edbfef3e645b5f19bedfb50d5fc1a",
+    "wof:geomhash":"fe8c7664ebc33713acc1f761b0e03ef7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -234,11 +249,11 @@
         }
     ],
     "wof:id":101847889,
-    "wof:lastmodified":1608051260,
+    "wof:lastmodified":1684351963,
     "wof:name":"Oberwiesenthal",
     "wof:parent_id":1377685567,
     "wof:placetype":"locality",
-    "wof:population":2592,
+    "wof:population":2078,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

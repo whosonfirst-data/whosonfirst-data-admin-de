@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lehnstedt",
+    "eurostat:nuts_2021_id":"16071049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071049",
+    "eurostat:population":341,
+    "eurostat:population_year":2020,
     "geom:area":0.000832,
     "geom:area_square_m":6482532.71287,
     "geom:bbox":"11.4151463661,50.9226841706,11.4576018789,50.9628664495",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071049",
+        "eurostat:nuts_2021_id":"16071049",
         "gn:id":2879391,
         "gp:id":670942,
         "qs_pg:id":578056,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"47396910e05744c1e3e1a6aa0a67d7fb",
+    "wof:geomhash":"22823226ee275c4e63899f055684ee9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101910443,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352006,
     "wof:name":"Lehnstedt",
     "wof:parent_id":1377690487,
     "wof:placetype":"locality",
-    "wof:population":344,
+    "wof:population":341,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

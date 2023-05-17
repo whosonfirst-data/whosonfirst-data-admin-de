@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwalmtal",
+    "eurostat:nuts_2021_id":"06535017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535017",
+    "eurostat:population":2789,
+    "eurostat:population_year":2020,
     "geom:area":0.006915,
-    "geom:area_square_m":54175747.554114,
+    "geom:area_square_m":54175747.554115,
     "geom:bbox":"9.234292,50.628958,9.380122,50.739547",
     "geom:latitude":50.686776,
     "geom:longitude":9.30372,
@@ -286,18 +298,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377684011,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535017",
+        "eurostat:nuts_2021_id":"06535017",
         "gn:id":2835343,
         "gp:id":29348961,
         "qs_pg:id":1038449,
@@ -311,7 +326,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b43f5d731c549b1c76b4c468ef48433c",
+    "wof:geomhash":"9b608f930a026806a9cb05c4f2c3f086",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101810873,
-    "wof:lastmodified":1608050036,
+    "wof:lastmodified":1684351876,
     "wof:name":"Schwalmtal",
     "wof:parent_id":1377684011,
     "wof:placetype":"locality",
-    "wof:population":3159,
+    "wof:population":2789,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gebesee, Stadt",
+    "eurostat:nuts_2021_id":"16068014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068014",
+    "eurostat:population":2116,
+    "eurostat:population_year":2020,
     "geom:area":0.003066,
-    "geom:area_square_m":23800098.068488,
+    "geom:area_square_m":23800098.06849,
     "geom:bbox":"10.8764871077,51.0839993912,10.9572458765,51.1426741623",
     "geom:latitude":51.113919,
     "geom:longitude":10.915052,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068014",
+        "eurostat:nuts_2021_id":"16068014",
         "gn:id":2922177,
         "gp:id":651748,
         "qs_pg:id":1201884,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9f6342184c8070705961ceff592b502f",
+    "wof:geomhash":"73b9d12fa302c619b4e3b8514581ee7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101821883,
-    "wof:lastmodified":1582342422,
+    "wof:lastmodified":1684351918,
     "wof:name":"Gebesee",
     "wof:parent_id":1377690221,
     "wof:placetype":"locality",
-    "wof:population":2287,
+    "wof:population":2116,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

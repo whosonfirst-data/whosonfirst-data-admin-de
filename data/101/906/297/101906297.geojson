@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barlt",
+    "eurostat:nuts_2021_id":"01051006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051006",
+    "eurostat:population":752,
+    "eurostat:population_year":2020,
     "geom:area":0.003147,
-    "geom:area_square_m":22865217.717923,
+    "geom:area_square_m":22865217.717927,
     "geom:bbox":"8.96061218258,53.9966178776,9.11958570764,54.0415620172",
     "geom:latitude":54.019495,
     "geom:longitude":9.044341,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051006",
+        "eurostat:nuts_2021_id":"01051006",
         "gn:id":2952552,
         "gp:id":636977,
         "qs_pg:id":961790,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"68b943367b0ed34b3ff32fc6121f8da2",
+    "wof:geomhash":"8bc5fdd711eeb65abdfd7e00b1f28364",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101906297,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351978,
     "wof:name":"Barlt",
     "wof:parent_id":1377683419,
     "wof:placetype":"locality",
-    "wof:population":834,
+    "wof:population":752,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

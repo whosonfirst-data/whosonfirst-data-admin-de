@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kelbra (Kyffh\u00e4user), Stadt",
+    "eurostat:nuts_2021_id":"15087250",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087250",
+    "eurostat:population":3335,
+    "eurostat:population_year":2020,
     "geom:area":0.005246,
-    "geom:area_square_m":40439910.802351,
+    "geom:area_square_m":40439910.802349,
     "geom:bbox":"10.9781132257,51.4016443236,11.1764870809,51.4611449701",
     "geom:latitude":51.431257,
     "geom:longitude":11.089671,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087250",
+        "eurostat:nuts_2021_id":"15087250",
         "gn:id":2891844,
         "gp:id":665361,
         "qs_pg:id":77669,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f01ef5b00780f0bd87558bfbd707ea39",
+    "wof:geomhash":"fd4506855e7133b4f95d9ccad4ff6911",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101822417,
-    "wof:lastmodified":1582342582,
+    "wof:lastmodified":1684351922,
     "wof:name":"Kelbra (Kyffh\u00e4user)",
     "wof:parent_id":1377688799,
     "wof:placetype":"locality",
-    "wof:population":3117,
+    "wof:population":3335,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

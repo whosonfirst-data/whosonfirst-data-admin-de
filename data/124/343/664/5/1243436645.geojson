@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blankenburg",
+    "eurostat:nuts_2021_id":"16064007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064007",
+    "eurostat:population":156,
+    "eurostat:population_year":2020,
     "geom:area":0.000921,
     "geom:area_square_m":7136804.585108,
     "geom:bbox":"10.7201335289,51.1929463359,10.7734181577,51.2219542702",
@@ -92,7 +104,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -102,13 +115,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064007",
+        "eurostat:nuts_2021_id":"16064007",
         "gn:id":2948072
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"755c98333739644ce3c4921b6d9ded49",
+    "wof:geomhash":"06ec9ad4b5211812d5eddfce70cccbd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +135,11 @@
         }
     ],
     "wof:id":1243436645,
-    "wof:lastmodified":1582343088,
+    "wof:lastmodified":1684352058,
     "wof:name":"Blankenburg",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":172,
+    "wof:population":156,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

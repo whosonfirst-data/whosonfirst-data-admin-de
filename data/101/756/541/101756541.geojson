@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stockelsdorf",
+    "eurostat:nuts_2021_id":"01055040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055040",
+    "eurostat:population":16998,
+    "eurostat:population_year":2020,
     "geom:area":0.007812,
-    "geom:area_square_m":56870648.619963,
+    "geom:area_square_m":56870648.619965,
     "geom:bbox":"10.533857,53.879556,10.689358,53.982049",
     "geom:latitude":53.930022,
     "geom:longitude":10.617846,
@@ -156,21 +168,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":103,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064123,
         1377683783,
-        85682517
+        85633111,
+        102064123
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055040",
+        "eurostat:nuts_2021_id":"01055040",
         "gn:id":2826861,
         "gp:id":697379,
         "qs_pg:id":1038344,
@@ -188,7 +203,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"626a53cd3e1f821e83692c46ad13ff83",
+    "wof:geomhash":"a9e9fccf6d77eaaf4a7a9bc433aac01a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101756541,
-    "wof:lastmodified":1608050850,
+    "wof:lastmodified":1684351796,
     "wof:name":"Stockelsdorf",
     "wof:parent_id":1377683783,
     "wof:placetype":"locality",
-    "wof:population":16562,
+    "wof:population":16998,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

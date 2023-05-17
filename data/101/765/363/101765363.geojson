@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08326005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blumberg, Stadt",
+    "eurostat:nuts_2021_id":"08326005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE136",
+    "eurostat:nuts_2021_level_lau":"08326005",
+    "eurostat:population":10063,
+    "eurostat:population_year":2020,
     "geom:area":0.011892,
-    "geom:area_square_m":98705371.345727,
+    "geom:area_square_m":98705371.345729,
     "geom:bbox":"8.470146,47.770493,8.640146,47.892533",
     "geom:latitude":47.838054,
     "geom:longitude":8.556517,
@@ -293,22 +305,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":98.48,
     "wd:latitude":47.839167,
     "wd:longitude":8.534167,
     "wd:population":9814,
     "wd:wordcount":967,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063253,
         1377689527,
         404227543,
-        85682567
+        102063253
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08326005",
+        "eurostat:nuts_2021_id":"08326005",
         "gn:id":2947584,
         "gp:id":639584,
         "qs_pg:id":1040157,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b291b7d76f9231484de7cef40e3b9e7e",
+    "wof:geomhash":"0f7f026f8953d5fb008fe15a21424f2b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,12 +351,12 @@
         }
     ],
     "wof:id":101765363,
-    "wof:lastmodified":1608049520,
+    "wof:lastmodified":1684351818,
     "wof:name":"Blumberg",
     "wof:parent_id":1377689527,
     "wof:placetype":"locality",
-    "wof:population":9814,
-    "wof:population_rank":5,
+    "wof:population":10063,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

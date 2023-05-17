@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Domb\u00fchl, M",
+    "eurostat:nuts_2021_id":"09571137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571137",
+    "eurostat:population":1786,
+    "eurostat:population_year":2020,
     "geom:area":0.002182,
-    "geom:area_square_m":17613577.072407,
+    "geom:area_square_m":17613577.072408,
     "geom:bbox":"10.2645865106,49.2312639542,10.3340441061,49.2829390273",
     "geom:latitude":49.255279,
     "geom:longitude":10.297425,
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571137",
+        "eurostat:nuts_2021_id":"09571137",
         "gn:id":2936302,
         "gp:id":645116,
         "qs_pg:id":348865,
@@ -321,7 +336,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0b5c2f7d2a6dae5e5e574880d43f02c7",
+    "wof:geomhash":"d52ecd70b14ba2253ba1a54245cf7e0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101826727,
-    "wof:lastmodified":1582342443,
+    "wof:lastmodified":1684351935,
     "wof:name":"Domb\u00fchl",
     "wof:parent_id":1377689023,
     "wof:placetype":"locality",
-    "wof:population":1660,
+    "wof:population":1786,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

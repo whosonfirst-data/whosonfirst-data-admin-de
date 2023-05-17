@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weimar (Lahn)",
+    "eurostat:nuts_2021_id":"06534020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534020",
+    "eurostat:population":7167,
+    "eurostat:population_year":2020,
     "geom:area":0.005982,
-    "geom:area_square_m":46797765.87136,
+    "geom:area_square_m":46797765.871357,
     "geom:bbox":"8.63537077365,50.7162186541,8.77520568916,50.811894882",
     "geom:latitude":50.754285,
     "geom:longitude":8.697955,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":918,
     "wof:belongsto":[
         85682531,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534020",
+        "eurostat:nuts_2021_id":"06534020",
         "gn:id":6559133,
         "gp:id":679979,
         "qs_pg:id":639151,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3044be9c2b828e84d052d8fd0f05d61",
+    "wof:geomhash":"b1ae2c38749d0ee02f9097f63770c4d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101811009,
-    "wof:lastmodified":1582342385,
+    "wof:lastmodified":1684351878,
     "wof:name":"Weimar (Lahn)",
     "wof:parent_id":1377683927,
     "wof:placetype":"locality",
-    "wof:population":7017,
+    "wof:population":7167,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

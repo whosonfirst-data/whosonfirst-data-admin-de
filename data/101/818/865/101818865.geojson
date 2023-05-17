@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gnoien, Stadt",
+    "eurostat:nuts_2021_id":"13072035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072035",
+    "eurostat:population":2888,
+    "eurostat:population_year":2020,
     "geom:area":0.005642,
     "geom:area_square_m":41036278.15509,
     "geom:bbox":"12.6522982783,53.9290650141,12.7706113423,54.0087634282",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682487,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072035",
+        "eurostat:nuts_2021_id":"13072035",
         "gn:id":2919657,
         "gp:id":652970,
         "qs_pg:id":142518,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3761c79cf7b99a60235b27052c40d431",
+    "wof:geomhash":"7a89d3b07ec9415542aeb6ad6e6ed2cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101818865,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351904,
     "wof:name":"Gnoien",
     "wof:parent_id":1377684659,
     "wof:placetype":"locality",
-    "wof:population":3362,
+    "wof:population":2888,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

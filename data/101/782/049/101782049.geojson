@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Greding, St",
+    "eurostat:nuts_2021_id":"09576122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576122",
+    "eurostat:population":7163,
+    "eurostat:population_year":2020,
     "geom:area":0.012782,
-    "geom:area_square_m":103563461.487165,
+    "geom:area_square_m":103563461.48716,
     "geom:bbox":"11.248834,48.99793,11.426518,49.135368",
     "geom:latitude":49.059704,
     "geom:longitude":11.328305,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":720,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690023,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576122",
+        "eurostat:nuts_2021_id":"09576122",
         "gn:id":2917833,
         "gp:id":654009,
         "qs_pg:id":66595,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"03dc9f9a30964cb4999fc377afa6856d",
+    "wof:geomhash":"4bc94c193816f582f8e58218d74efa74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101782049,
-    "wof:lastmodified":1608050508,
+    "wof:lastmodified":1684351822,
     "wof:name":"Greding",
     "wof:parent_id":1377690023,
     "wof:placetype":"locality",
-    "wof:population":7238,
+    "wof:population":7163,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

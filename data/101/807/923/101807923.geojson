@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Asendorf",
+    "eurostat:nuts_2021_id":"03251002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251002",
+    "eurostat:population":2975,
+    "eurostat:population_year":2020,
     "geom:area":0.007734,
-    "geom:area_square_m":57875378.160386,
+    "geom:area_square_m":57875378.160385,
     "geom:bbox":"8.89477196486,52.7161187871,9.06466122306,52.8066600358",
     "geom:latitude":52.758596,
     "geom:longitude":9.000558,
@@ -164,7 +176,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":60,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251002",
+        "eurostat:nuts_2021_id":"03251002",
         "gn:id":2955127,
         "gp:id":635686,
         "qs_pg:id":279334,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cd6add3ac9498159de79beae4d4b2db9",
+    "wof:geomhash":"5ed0096dd034849294b5f58fd9cd7e52",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101807923,
-    "wof:lastmodified":1582342589,
+    "wof:lastmodified":1684351862,
     "wof:name":"Asendorf",
     "wof:parent_id":1377686531,
     "wof:placetype":"locality",
-    "wof:population":3108,
+    "wof:population":2975,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

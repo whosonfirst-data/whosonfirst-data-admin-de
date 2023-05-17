@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062417",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fcckersdorf",
+    "eurostat:nuts_2021_id":"12062417",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062417",
+    "eurostat:population":1348,
+    "eurostat:population_year":2020,
     "geom:area":0.003197,
     "geom:area_square_m":24571514.009439,
     "geom:bbox":"13.5197431788,51.5413884828,13.6355890546,51.5937657927",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682553,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062417",
+        "eurostat:nuts_2021_id":"12062417",
         "gn:id":2843493,
         "gp:id":22662323,
         "qs_pg:id":93148,
@@ -300,7 +315,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9aec6f2f6c9971cdd798f2d1dbdb3ddc",
+    "wof:geomhash":"c83af27e9aacf7e55755a7f5167a68f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -312,11 +327,11 @@
         }
     ],
     "wof:id":101847243,
-    "wof:lastmodified":1582342555,
+    "wof:lastmodified":1684351962,
     "wof:name":"R\u00fcckersdorf",
     "wof:parent_id":1377694527,
     "wof:placetype":"locality",
-    "wof:population":1773,
+    "wof:population":1348,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

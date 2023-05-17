@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16051000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erfurt, Stadt",
+    "eurostat:nuts_2021_id":"16051000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG01",
+    "eurostat:nuts_2021_level_lau":"16051000",
+    "eurostat:population":213981,
+    "eurostat:population_year":2020,
     "geom:area":0.034605,
-    "geom:area_square_m":269382067.533339,
+    "geom:area_square_m":269382067.533333,
     "geom:bbox":"10.855347,50.890233,11.175108,51.079952",
     "geom:latitude":50.983252,
     "geom:longitude":11.020215,
@@ -581,24 +593,27 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":269.15,
     "wd:latitude":50.978056,
     "wd:longitude":11.029167,
     "wd:population":206219,
     "wd:wordcount":10919,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063701,
         1377689327,
-        85682541
+        85633111,
+        102063701
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682541
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16051000",
+        "eurostat:nuts_2021_id":"16051000",
         "gn:id":2929670,
         "loc:id":"n83236143",
         "qs_pg:id":274241,
@@ -614,7 +629,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2d34313491980acd156a9a41d270055b",
+    "wof:geomhash":"6868d05e1f159dc433fe23872854aad5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -626,11 +641,11 @@
         }
     ],
     "wof:id":101748625,
-    "wof:lastmodified":1608050580,
+    "wof:lastmodified":1684351787,
     "wof:name":"Erfurt",
     "wof:parent_id":1377689327,
     "wof:placetype":"locality",
-    "wof:population":206219,
+    "wof:population":213981,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

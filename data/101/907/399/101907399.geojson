@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Atzelgift",
+    "eurostat:nuts_2021_id":"07143205",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143205",
+    "eurostat:population":607,
+    "eurostat:population_year":2020,
     "geom:area":0.000353,
     "geom:area_square_m":2764338.191236,
     "geom:bbox":"7.80867899186,50.6843497426,7.85749486864,50.7056787048",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":173,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143205",
+        "eurostat:nuts_2021_id":"07143205",
         "gn:id":2954884,
         "gp:id":635822,
         "qs_pg:id":579932,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"86d7318dbddc7dc63068b01df96ba12b",
+    "wof:geomhash":"ce45a4739bbdde0dcfd0647e87ffc1c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907399,
-    "wof:lastmodified":1582342306,
+    "wof:lastmodified":1684351987,
     "wof:name":"Atzelgift",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":638,
+    "wof:population":607,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

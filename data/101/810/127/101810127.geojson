@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosenthal, Stadt",
+    "eurostat:nuts_2021_id":"06635017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635017",
+    "eurostat:population":2165,
+    "eurostat:population_year":2020,
     "geom:area":0.006549,
-    "geom:area_square_m":50984922.644811,
+    "geom:area_square_m":50984922.644812,
     "geom:bbox":"8.727784,50.95125,8.919122,51.014275",
     "geom:latitude":50.97985,
     "geom:longitude":8.832257,
@@ -292,18 +304,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":548,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377685011,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635017",
+        "eurostat:nuts_2021_id":"06635017",
         "gn:id":2844924,
         "gp:id":689655,
         "qs_pg:id":1038583,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"06dcd35c05fd86b641a84e96bef5ce0e",
+    "wof:geomhash":"139e90b4b22a3c6ef5242f0943a65552",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101810127,
-    "wof:lastmodified":1608050062,
+    "wof:lastmodified":1684351871,
     "wof:name":"Rosenthal",
     "wof:parent_id":1377685011,
     "wof:placetype":"locality",
-    "wof:population":2209,
+    "wof:population":2165,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

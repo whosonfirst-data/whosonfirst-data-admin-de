@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barleben",
+    "eurostat:nuts_2021_id":"15083040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083040",
+    "eurostat:population":9180,
+    "eurostat:population_year":2020,
     "geom:area":0.00393,
-    "geom:area_square_m":29782438.295831,
+    "geom:area_square_m":29782438.295832,
     "geom:bbox":"11.536259,52.171821,11.709161,52.237441",
     "geom:latitude":52.203912,
     "geom:longitude":11.597503,
@@ -141,19 +153,22 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.2,
     "wd:longitude":11.633333,
     "wd:wordcount":62,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063925,
         1377688305,
-        85682519
+        85633111,
+        102063925
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083040",
+        "eurostat:nuts_2021_id":"15083040",
         "gn:id":2952564,
         "gp:id":636972,
         "qs_pg:id":579898,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b6e8f1aa8a1b1464c9d3dccbeaa63939",
+    "wof:geomhash":"70e3d7e3dfbb10b129f374ee91a5b27d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101819661,
-    "wof:lastmodified":1608050255,
+    "wof:lastmodified":1684351907,
     "wof:name":"Barleben",
     "wof:parent_id":1377688305,
     "wof:placetype":"locality",
-    "wof:population":5895,
+    "wof:population":9180,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

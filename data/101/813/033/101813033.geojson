@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heppenheim (Bergstra\u00dfe), Kreisstadt",
+    "eurostat:nuts_2021_id":"06431011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431011",
+    "eurostat:population":26097,
+    "eurostat:population_year":2020,
     "geom:area":0.006436,
     "geom:area_square_m":51531480.542474,
     "geom:bbox":"8.58898403169,49.6034719287,8.73111529893,49.6825269201",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431011",
+        "eurostat:nuts_2021_id":"06431011",
         "gn:id":2906268,
         "gp:id":659136,
         "qs_pg:id":1039604,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ac9c30afbd6e62fa5222779bc9b0b90",
+    "wof:geomhash":"ebf317f27d4a3d2a5f297ee11364525f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101813033,
-    "wof:lastmodified":1582342570,
+    "wof:lastmodified":1684351887,
     "wof:name":"Heppenheim (Bergstra\u00dfe)",
     "wof:parent_id":1377692917,
     "wof:placetype":"locality",
-    "wof:population":25442,
+    "wof:population":26097,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

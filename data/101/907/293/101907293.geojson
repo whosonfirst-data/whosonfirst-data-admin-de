@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nohn",
+    "eurostat:nuts_2021_id":"07233229",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233229",
+    "eurostat:population":452,
+    "eurostat:population_year":2020,
     "geom:area":0.001388,
-    "geom:area_square_m":10953539.474074,
+    "geom:area_square_m":10953539.474075,
     "geom:bbox":"6.76907173237,50.3031302824,6.81877494392,50.3617813358",
     "geom:latitude":50.32932,
     "geom:longitude":6.792477,
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1234,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233229",
+        "eurostat:nuts_2021_id":"07233229",
         "gn:id":2862292,
         "gp:id":680254,
         "qs_pg:id":577593,
@@ -148,7 +163,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"59bcaa178aa3b3320fbe58199b73f815",
+    "wof:geomhash":"500a34c1a8da176e85f586ca5672e834",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101907293,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351986,
     "wof:name":"Nohn",
     "wof:parent_id":1377685991,
     "wof:placetype":"locality",
-    "wof:population":449,
+    "wof:population":452,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

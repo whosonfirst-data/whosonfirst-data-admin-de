@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mommenheim",
+    "eurostat:nuts_2021_id":"07339037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339037",
+    "eurostat:population":3129,
+    "eurostat:population_year":2020,
     "geom:area":0.000976,
     "geom:area_square_m":7779110.527006,
     "geom:bbox":"8.24696511102,49.8656651979,8.29257808385,49.8983082057",
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":10,
     "wof:belongsto":[
         85682491,
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339037",
+        "eurostat:nuts_2021_id":"07339037",
         "gn:id":2869931,
         "gp:id":675909,
         "qs_pg:id":1148836,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a98348fc191d7cb26afc6b102cbd8a41",
+    "wof:geomhash":"76011a80714376a1c14d24b5fc37423f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101813519,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351892,
     "wof:name":"Mommenheim",
     "wof:parent_id":1377686725,
     "wof:placetype":"locality",
-    "wof:population":3053,
+    "wof:population":3129,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

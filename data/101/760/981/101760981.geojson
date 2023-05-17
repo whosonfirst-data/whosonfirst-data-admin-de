@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erfweiler",
+    "eurostat:nuts_2021_id":"07340009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340009",
+    "eurostat:population":1189,
+    "eurostat:population_year":2020,
     "geom:area":0.001091,
-    "geom:area_square_m":8824129.90403,
+    "geom:area_square_m":8824129.904029,
     "geom:bbox":"7.79888641322,49.1442605008,7.86233633108,49.1791764981",
     "geom:latitude":49.162552,
     "geom:longitude":7.821582,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340009",
+        "eurostat:nuts_2021_id":"07340009",
         "gn:id":2929665,
         "gp:id":691936,
         "qs_pg:id":93916,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"290a6f15adab2179e416f52898c23ca2",
+    "wof:geomhash":"bd3fbffb537c9fe8209f1e5202e71c34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101760981,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351804,
     "wof:name":"Erfweiler",
     "wof:parent_id":1377686741,
     "wof:placetype":"locality",
-    "wof:population":1250,
+    "wof:population":1189,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

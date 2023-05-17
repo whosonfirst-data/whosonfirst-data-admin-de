@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eschenbergen",
+    "eurostat:nuts_2021_id":"16067016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067016",
+    "eurostat:population":733,
+    "eurostat:population_year":2020,
     "geom:area":0.001611,
     "geom:area_square_m":12523688.650425,
     "geom:bbox":"10.7359513422,51.0117121675,10.7999325938,51.0570902362",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067016",
+        "eurostat:nuts_2021_id":"16067016",
         "gn:id":2929063,
         "gp:id":648694,
         "qs_pg:id":579206,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6930f09c431d3c62c85a7c59f2788c61",
+    "wof:geomhash":"3b96dea564e136eb2a03e323ef9395da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910329,
-    "wof:lastmodified":1582342658,
+    "wof:lastmodified":1684352006,
     "wof:name":"Eschenbergen",
     "wof:parent_id":1377690157,
     "wof:placetype":"locality",
-    "wof:population":779,
+    "wof:population":733,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

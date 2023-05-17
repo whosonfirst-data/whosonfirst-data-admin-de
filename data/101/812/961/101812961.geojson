@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wattenheim",
+    "eurostat:nuts_2021_id":"07332047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332047",
+    "eurostat:population":1623,
+    "eurostat:population_year":2020,
     "geom:area":0.001574,
-    "geom:area_square_m":12635417.391882,
+    "geom:area_square_m":12635417.391879,
     "geom:bbox":"7.94960149769,49.4740759296,8.09153129553,49.5324244802",
     "geom:latitude":49.505515,
     "geom:longitude":8.022383,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":550,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332047",
+        "eurostat:nuts_2021_id":"07332047",
         "gn:id":2813638,
         "gp:id":704164,
         "qs_pg:id":576520,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"024f3af70eba052344715e21860c063d",
+    "wof:geomhash":"750c408623cf17d7c92573ee0c224122",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101812961,
-    "wof:lastmodified":1582342548,
+    "wof:lastmodified":1684351886,
     "wof:name":"Wattenheim",
     "wof:parent_id":1377686301,
     "wof:placetype":"locality",
-    "wof:population":1632,
+    "wof:population":1623,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

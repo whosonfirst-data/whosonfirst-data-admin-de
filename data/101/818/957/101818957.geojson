@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tessin, Stadt",
+    "eurostat:nuts_2021_id":"13072105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072105",
+    "eurostat:population":3993,
+    "eurostat:population_year":2020,
     "geom:area":0.003372,
-    "geom:area_square_m":24488196.990649,
+    "geom:area_square_m":24488196.990648,
     "geom:bbox":"12.4204096709,54.0056137282,12.5402788467,54.0580191182",
     "geom:latitude":54.031286,
     "geom:longitude":12.471827,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "wof:belongsto":[
         85682487,
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072105",
+        "eurostat:nuts_2021_id":"13072105",
         "gn:id":2823419,
         "gp:id":698898,
         "qs_pg:id":308424,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d516b279b32d858354708664a5a31771",
+    "wof:geomhash":"3544414d8c67255384a068d19a9d94f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101818957,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351905,
     "wof:name":"Tessin",
     "wof:parent_id":1377684723,
     "wof:placetype":"locality",
-    "wof:population":4212,
+    "wof:population":3993,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

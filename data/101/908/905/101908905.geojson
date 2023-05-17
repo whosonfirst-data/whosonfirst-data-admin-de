@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breege",
+    "eurostat:nuts_2021_id":"13073013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073013",
+    "eurostat:population":608,
+    "eurostat:population_year":2020,
     "geom:area":0.00233,
-    "geom:area_square_m":16686598.377442,
+    "geom:area_square_m":16686598.377437,
     "geom:bbox":"13.2970100029,54.5722480239,13.4235162067,54.6272861427",
     "geom:latitude":54.599045,
     "geom:longitude":13.35187,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073013",
+        "eurostat:nuts_2021_id":"13073013",
         "gn:id":2944869,
         "gp:id":640916,
         "qs_pg:id":374415,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"67305a874be831126d0e2985c36d26d9",
+    "wof:geomhash":"0b31aa5e468a11697421fc4d96d6a85e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101908905,
-    "wof:lastmodified":1582342348,
+    "wof:lastmodified":1684352000,
     "wof:name":"Breege",
     "wof:parent_id":1377684975,
     "wof:placetype":"locality",
-    "wof:population":779,
+    "wof:population":608,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

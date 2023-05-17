@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rudersberg",
+    "eurostat:nuts_2021_id":"08119061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119061",
+    "eurostat:population":11348,
+    "eurostat:population_year":2020,
     "geom:area":0.004833,
-    "geom:area_square_m":39299093.008932,
+    "geom:area_square_m":39299093.008934,
     "geom:bbox":"9.478076,48.848565,9.601641,48.913585",
     "geom:latitude":48.880008,
     "geom:longitude":9.538034,
@@ -314,22 +326,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":117,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063379,
         1377687469,
         404227549,
-        85682567
+        102063379
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119061",
+        "eurostat:nuts_2021_id":"08119061",
         "fct:id":"0716133c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2843415,
         "gp:id":690255,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"adcfd46a07adf98e7d7c8b1412424b50",
+    "wof:geomhash":"e42b7ee9ed23f2efa90a520691631ad0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049712,
+    "wof:lastmodified":1684351807,
     "wof:name":"Rudersberg",
     "wof:parent_id":1377687469,
     "wof:placetype":"locality",
-    "wof:population":11726,
+    "wof:population":11348,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

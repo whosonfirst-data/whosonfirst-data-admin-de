@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uchte, Flecken",
+    "eurostat:nuts_2021_id":"03256033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256033",
+    "eurostat:population":4999,
+    "eurostat:population_year":2020,
     "geom:area":0.012024,
-    "geom:area_square_m":90474862.670835,
+    "geom:area_square_m":90474862.670833,
     "geom:bbox":"8.76663581851,52.4597363457,8.95635070101,52.5883462421",
     "geom:latitude":52.518399,
     "geom:longitude":8.878304,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256033",
+        "eurostat:nuts_2021_id":"03256033",
         "gn:id":2820537,
         "gp:id":700356,
         "qs_pg:id":261464,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f067b527d2c640686cf03fc4e7ba8de8",
+    "wof:geomhash":"3521951b50c78644a1bb74c30a9a7174",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101807831,
-    "wof:lastmodified":1582342591,
+    "wof:lastmodified":1684351860,
     "wof:name":"Uchte",
     "wof:parent_id":1377686977,
     "wof:placetype":"locality",
-    "wof:population":4892,
+    "wof:population":4999,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wachtberg",
+    "eurostat:nuts_2021_id":"05382072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382072",
+    "eurostat:population":20485,
+    "eurostat:population_year":2020,
     "geom:area":0.006303,
     "geom:area_square_m":49440242.104793,
     "geom:bbox":"7.037949,50.58591,7.195201,50.659692",
@@ -288,21 +300,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690739,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382072",
+        "eurostat:nuts_2021_id":"05382072",
         "gn:id":2815678,
         "gp:id":703104,
         "qs_pg:id":178487,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"fbe299dbb0543615587db46ccdb7606e",
+    "wof:geomhash":"9054d7a2c8b2dd88fc1fa38170a41d0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":1125863933,
-    "wof:lastmodified":1608053977,
+    "wof:lastmodified":1684352034,
     "wof:name":"Wachtberg",
     "wof:parent_id":1377690739,
     "wof:placetype":"locality",
-    "wof:population":20032,
+    "wof:population":20485,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

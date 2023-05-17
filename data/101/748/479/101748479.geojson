@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09162000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcnchen, Landeshauptstadt",
+    "eurostat:nuts_2021_id":"09162000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE212",
+    "eurostat:nuts_2021_level_lau":"09162000",
+    "eurostat:population":1484226,
+    "eurostat:population_year":2020,
     "geom:area":0.037641,
-    "geom:area_square_m":310510666.133767,
+    "geom:area_square_m":310510666.133771,
     "geom:bbox":"11.360877,48.061554,11.723083,48.248146",
     "geom:latitude":48.153211,
     "geom:longitude":11.547255,
@@ -764,18 +776,19 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063261,
         1377690691,
         404227567,
-        85682571
+        102063261
     ],
     "wof:breaches":[],
     "wof:capital_of":[
@@ -783,6 +796,8 @@
     ],
     "wof:concordances":{
         "dbp:id":"Munich",
+        "eg:gisco_id":"DE_09162000",
+        "eurostat:nuts_2021_id":"09162000",
         "fb:id":"en.munich",
         "gn:id":2867713,
         "gp:id":676756,
@@ -803,7 +818,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"03b741142dedd3ef8e7da8fe87eba981",
+    "wof:geomhash":"7517ed6bc193981faaf84fb4c560eb33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -816,12 +831,12 @@
         }
     ],
     "wof:id":101748479,
-    "wof:lastmodified":1607462675,
+    "wof:lastmodified":1684351785,
     "wof:megacity":1,
     "wof:name":"M\u00fcnchen",
     "wof:parent_id":1377690691,
     "wof:placetype":"locality",
-    "wof:population":1260391,
+    "wof:population":1484226,
     "wof:population_rank":12,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:scale":1,

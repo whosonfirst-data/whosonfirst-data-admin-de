@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eichelhardt",
+    "eurostat:nuts_2021_id":"07132022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132022",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "geom:area":0.000366,
     "geom:area_square_m":2868673.991307,
     "geom:bbox":"7.68161442998,50.7079680761,7.71516601914,50.727021084",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132022",
+        "eurostat:nuts_2021_id":"07132022",
         "gn:id":2932440,
         "gp:id":663745,
         "qs_pg:id":579288,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"74e518521eb211d8308ca553a549b360",
+    "wof:geomhash":"d3fda18274fa789c192c7cbfef164b16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907535,
-    "wof:lastmodified":1582342306,
+    "wof:lastmodified":1684351988,
     "wof:name":"Eichelhardt",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":496,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

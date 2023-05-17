@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwebheim",
+    "eurostat:nuts_2021_id":"09678176",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678176",
+    "eurostat:population":4206,
+    "eurostat:population_year":2020,
     "geom:area":0.00106,
-    "geom:area_square_m":8429002.954358,
+    "geom:area_square_m":8429002.954357,
     "geom:bbox":"10.235226,49.975603,10.288047,50.012889",
     "geom:latitude":49.990565,
     "geom:longitude":10.257802,
@@ -313,18 +325,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377691723,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678176",
+        "eurostat:nuts_2021_id":"09678176",
         "fct:id":"07579d66-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2834651,
         "gp:id":693770,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"614c8824461672fbfd43cd550d108359",
+    "wof:geomhash":"dfb78999f3997ab098b70adb4785b1fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051369,
+    "wof:lastmodified":1684351892,
     "wof:name":"Schwebheim",
     "wof:parent_id":1377691723,
     "wof:placetype":"locality",
-    "wof:population":4023,
+    "wof:population":4206,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

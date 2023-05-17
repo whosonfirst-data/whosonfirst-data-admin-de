@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rehlingen-Siersburg",
+    "eurostat:nuts_2021_id":"10044114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044114",
+    "eurostat:population":14349,
+    "eurostat:population_year":2020,
     "geom:area":0.007563,
-    "geom:area_square_m":60887346.341171,
+    "geom:area_square_m":60887346.341175,
     "geom:bbox":"6.537275,49.330057,6.704263,49.419209",
     "geom:latitude":49.374281,
     "geom:longitude":6.624583,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693917,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044114",
+        "eurostat:nuts_2021_id":"10044114",
         "gn:id":3207567,
         "gp:id":20163809,
         "qs_pg:id":985241,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2c6dd5047eb8816f4b0f4ec63ea7bdc7",
+    "wof:geomhash":"18fa16e952f63b2208a61bbe8d1e9d0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101842183,
-    "wof:lastmodified":1608049998,
+    "wof:lastmodified":1684351955,
     "wof:name":"Rehlingen-Siersburg",
     "wof:parent_id":1377693917,
     "wof:placetype":"locality",
-    "wof:population":15871,
+    "wof:population":14349,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

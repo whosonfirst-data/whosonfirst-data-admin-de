@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuruppin, Stadt",
+    "eurostat:nuts_2021_id":"12068320",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068320",
+    "eurostat:population":30785,
+    "eurostat:population_year":2020,
     "geom:area":0.040893,
-    "geom:area_square_m":304650608.030769,
+    "geom:area_square_m":304650608.030739,
     "geom:bbox":"12.658854,52.792218,12.986864,53.099179",
     "geom:latitude":52.951436,
     "geom:longitude":12.836379,
@@ -354,7 +366,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.922222,
     "wd:longitude":12.8,
     "wd:wordcount":677,
@@ -363,14 +376,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063997,
         1377683689,
-        85682553
+        85633111,
+        102063997
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068320",
+        "eurostat:nuts_2021_id":"12068320",
         "gn:id":2864276,
         "gp:id":678924,
         "qs_pg:id":142058,
@@ -385,7 +400,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ac09346e6385ff469beb373fb1d1af50",
+    "wof:geomhash":"bd71da2d85c110980d887dbcc077edcd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -397,11 +412,11 @@
         }
     ],
     "wof:id":101820043,
-    "wof:lastmodified":1608049883,
+    "wof:lastmodified":1684351911,
     "wof:name":"Neuruppin",
     "wof:parent_id":1377683689,
     "wof:placetype":"locality",
-    "wof:population":31901,
+    "wof:population":30785,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

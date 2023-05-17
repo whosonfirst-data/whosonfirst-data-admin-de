@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beselich",
+    "eurostat:nuts_2021_id":"06533001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533001",
+    "eurostat:population":5711,
+    "eurostat:population_year":2020,
     "geom:area":0.003989,
     "geom:area_square_m":31404394.782206,
     "geom:bbox":"8.101529,50.427589,8.215717,50.499518",
@@ -295,22 +307,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1981,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683587,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533001",
+        "eurostat:nuts_2021_id":"06533001",
         "gn:id":3208028,
         "gp:id":15002581,
         "qs_pg:id":231121,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"acd6a06bf1a765c5064d84ca881f7668",
+    "wof:geomhash":"3d2e0c54f9293bce1fc0f3a7ed4e4a85",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101812323,
-    "wof:lastmodified":1608051197,
+    "wof:lastmodified":1684351885,
     "wof:name":"Beselich",
     "wof:parent_id":1377683587,
     "wof:placetype":"locality",
-    "wof:population":5541,
+    "wof:population":5711,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

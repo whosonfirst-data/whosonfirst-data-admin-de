@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boxberg/O.L.",
+    "eurostat:nuts_2021_id":"14626060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626060",
+    "eurostat:population":4402,
+    "eurostat:population_year":2020,
     "geom:area":0.027955,
-    "geom:area_square_m":215700364.007499,
+    "geom:area_square_m":215700364.007501,
     "geom:bbox":"14.4579510125,51.299479193,14.7475027534,51.4780102586",
     "geom:latitude":51.391005,
     "geom:longitude":14.595891,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626060",
+        "eurostat:nuts_2021_id":"14626060",
         "gn:id":2945698,
         "gp:id":640579,
         "qs_pg:id":964094,
@@ -182,7 +197,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01b1090bb0c4e0a60151346fda5f6396",
+    "wof:geomhash":"2a7c6bf844cdf322e9a4085b542ddeb0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101822309,
-    "wof:lastmodified":1582342577,
+    "wof:lastmodified":1684351921,
     "wof:name":"Boxberg/O.L.",
     "wof:parent_id":1377687007,
     "wof:placetype":"locality",
-    "wof:population":3093,
+    "wof:population":4402,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

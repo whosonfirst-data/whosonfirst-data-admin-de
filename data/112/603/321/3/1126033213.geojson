@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069596",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seddiner See",
+    "eurostat:nuts_2021_id":"12069596",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069596",
+    "eurostat:population":4551,
+    "eurostat:population_year":2020,
     "geom:area":0.003163,
-    "geom:area_square_m":23932671.182879,
+    "geom:area_square_m":23932671.18288,
     "geom:bbox":"12.951881,52.254888,13.065426,52.30592",
     "geom:latitude":52.27675,
     "geom:longitude":13.001978,
@@ -279,20 +291,23 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063937,
         1377683825,
-        85682553
+        85633111,
+        102063937
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069596",
+        "eurostat:nuts_2021_id":"12069596",
         "gp:id":15002793,
         "qs_pg:id":1198424,
         "wd:id":"Q623943"
@@ -305,7 +320,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"4c0507f4bad745aa26b55b1410da1ab5",
+    "wof:geomhash":"e56b2b5f05c15c58fb43616d493c6a31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -317,11 +332,11 @@
         }
     ],
     "wof:id":1126033213,
-    "wof:lastmodified":1608053961,
+    "wof:lastmodified":1684352050,
     "wof:name":"Seddiner See",
     "wof:parent_id":1377683825,
     "wof:placetype":"locality",
-    "wof:population":3987,
+    "wof:population":4551,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

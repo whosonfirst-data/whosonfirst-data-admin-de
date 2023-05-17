@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauben",
+    "eurostat:nuts_2021_id":"09780125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780125",
+    "eurostat:population":3439,
+    "eurostat:population_year":2020,
     "geom:area":0.001006,
-    "geom:area_square_m":8359581.111117,
+    "geom:area_square_m":8359581.111116,
     "geom:bbox":"10.282646,47.767114,10.342004,47.798285",
     "geom:latitude":47.780182,
     "geom:longitude":10.309162,
@@ -149,18 +161,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693559,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780125",
+        "eurostat:nuts_2021_id":"09780125",
         "gn:id":6269602,
         "gp:id":660771,
         "qs_pg:id":2,
@@ -178,7 +193,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0cef313c2676bc93af9e00e57839b8eb",
+    "wof:geomhash":"29d42f8f2dc7d3489ac7a2892dd1926a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101787523,
-    "wof:lastmodified":1608052029,
+    "wof:lastmodified":1684351840,
     "wof:name":"Lauben",
     "wof:parent_id":1377693559,
     "wof:placetype":"locality",
-    "wof:population":3274,
+    "wof:population":3439,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gailingen am Hochrhein",
+    "eurostat:nuts_2021_id":"08335026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335026",
+    "eurostat:population":2915,
+    "eurostat:population_year":2020,
     "geom:area":0.001575,
-    "geom:area_square_m":13112053.756971,
+    "geom:area_square_m":13112053.75697,
     "geom:bbox":"8.72636102437,47.6748554681,8.81007841414,47.7161509372",
     "geom:latitude":47.695905,
     "geom:longitude":8.766926,
@@ -277,7 +289,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -288,6 +301,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335026",
+        "eurostat:nuts_2021_id":"08335026",
         "fct:id":"073f5d82-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6555862,
         "gp:id":651346,
@@ -299,7 +314,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b74caad067d07f2f791217f480bf8b7c",
+    "wof:geomhash":"d520c63b845bd76844adcbeb0587e6eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342335,
+    "wof:lastmodified":1684351815,
     "wof:name":"Gailingen am Hochrhein",
     "wof:parent_id":1377689693,
     "wof:placetype":"locality",
-    "wof:population":2772,
+    "wof:population":2915,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

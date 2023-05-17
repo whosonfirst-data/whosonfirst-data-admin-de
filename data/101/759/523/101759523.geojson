@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freisbach",
+    "eurostat:nuts_2021_id":"07334006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334006",
+    "eurostat:population":1146,
+    "eurostat:population_year":2020,
     "geom:area":0.000621,
     "geom:area_square_m":5010973.404819,
     "geom:bbox":"8.24760944542,49.2632485973,8.30021050038,49.2841452839",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334006",
+        "eurostat:nuts_2021_id":"07334006",
         "gn:id":2925047,
         "gp:id":650513,
         "qs_pg:id":93871,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"21b83732b1498ee84d75701b44e04d8e",
+    "wof:geomhash":"71351a8667add4dc645adab012b8adca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101759523,
-    "wof:lastmodified":1582342518,
+    "wof:lastmodified":1684351797,
     "wof:name":"Freisbach",
     "wof:parent_id":1377686405,
     "wof:placetype":"locality",
-    "wof:population":1040,
+    "wof:population":1146,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

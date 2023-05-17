@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08425033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehingen (Donau), Stadt",
+    "eurostat:nuts_2021_id":"08425033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE145",
+    "eurostat:nuts_2021_level_lau":"08425033",
+    "eurostat:population":26293,
+    "eurostat:population_year":2020,
     "geom:area":0.02153,
-    "geom:area_square_m":177158207.776626,
+    "geom:area_square_m":177158207.776642,
     "geom:bbox":"9.50589531515,48.2035264865,9.86397807266,48.3659448596",
     "geom:latitude":48.282525,
     "geom:longitude":9.677381,
@@ -177,7 +189,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -188,6 +201,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08425033",
+        "eurostat:nuts_2021_id":"08425033",
         "fct:id":"0715bc3e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2932924,
         "gp:id":646774,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"792f04edd72c58c4ab1fa9d5aa6f5093",
+    "wof:geomhash":"714467785de74f071452d08e9026dbdb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351815,
     "wof:name":"Ehingen (Donau)",
     "wof:parent_id":1377690231,
     "wof:placetype":"locality",
-    "wof:population":26097,
+    "wof:population":26293,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

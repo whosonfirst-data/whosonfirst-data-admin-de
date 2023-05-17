@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frauendorf",
+    "eurostat:nuts_2021_id":"12066064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066064",
+    "eurostat:population":702,
+    "eurostat:population_year":2020,
     "geom:area":0.002691,
-    "geom:area_square_m":20746077.435814,
+    "geom:area_square_m":20746077.43581,
     "geom:bbox":"13.7389471728,51.3976709105,13.8065476123,51.4607449497",
     "geom:latitude":51.432021,
     "geom:longitude":13.773584,
@@ -146,7 +158,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066064",
+        "eurostat:nuts_2021_id":"12066064",
         "gn:id":2925390,
         "gp:id":650334,
         "qs_pg:id":351209,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b41d9800c5d26aed5853b37a26fb7ab9",
+    "wof:geomhash":"8a00ed73c7fc30ba8a1b089dd76a016f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101909293,
-    "wof:lastmodified":1582342285,
+    "wof:lastmodified":1684352002,
     "wof:name":"Frauendorf",
     "wof:parent_id":1377683481,
     "wof:placetype":"locality",
-    "wof:population":824,
+    "wof:population":702,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

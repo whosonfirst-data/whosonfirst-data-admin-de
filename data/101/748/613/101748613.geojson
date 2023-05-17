@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16053000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jena, Stadt",
+    "eurostat:nuts_2021_id":"16053000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG03",
+    "eurostat:nuts_2021_level_lau":"16053000",
+    "eurostat:population":111343,
+    "eurostat:population_year":2020,
     "geom:area":0.014684,
-    "geom:area_square_m":114450149.225314,
+    "geom:area_square_m":114450149.225316,
     "geom:bbox":"11.499288,50.856189,11.67285,50.989057",
     "geom:latitude":50.924257,
     "geom:longitude":11.586971,
@@ -527,7 +539,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":114.76,
     "wd:elevation":143.0,
     "wd:latitude":50.927222,
@@ -539,14 +552,16 @@
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063689,
         1377689345,
-        85682541
+        85633111,
+        102063689
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16053000",
+        "eurostat:nuts_2021_id":"16053000",
         "gn:id":2895044,
         "gp:id":664055,
         "qs_pg:id":239785,
@@ -561,7 +576,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4c13d8e1a78b2d9f896668f331fe4535",
+    "wof:geomhash":"2995fad48585460487a9413bbb14c3ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -573,11 +588,11 @@
         }
     ],
     "wof:id":101748613,
-    "wof:lastmodified":1608050580,
+    "wof:lastmodified":1684351787,
     "wof:name":"Jena",
     "wof:parent_id":1377689345,
     "wof:placetype":"locality",
-    "wof:population":108207,
+    "wof:population":111343,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

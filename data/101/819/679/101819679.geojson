@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beeskow, Stadt",
+    "eurostat:nuts_2021_id":"12067036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067036",
+    "eurostat:population":8040,
+    "eurostat:population_year":2020,
     "geom:area":0.010222,
-    "geom:area_square_m":77513430.995887,
+    "geom:area_square_m":77513430.995883,
     "geom:bbox":"14.176604,52.131401,14.377504,52.243672",
     "geom:latitude":52.175641,
     "geom:longitude":14.270824,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.166667,
     "wd:longitude":14.25,
     "wd:wordcount":129,
@@ -327,14 +340,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063935,
         1377683499,
-        85682553
+        85633111,
+        102063935
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067036",
+        "eurostat:nuts_2021_id":"12067036",
         "gn:id":2951528,
         "gp:id":637455,
         "qs_pg:id":142855,
@@ -349,7 +364,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ec9ba447850a05bad2e20a04a87b684b",
+    "wof:geomhash":"9e7576d4a73d8e1217b867bc6e822966",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101819679,
-    "wof:lastmodified":1608050280,
+    "wof:lastmodified":1684351907,
     "wof:name":"Beeskow",
     "wof:parent_id":1377683499,
     "wof:placetype":"locality",
-    "wof:population":8468,
+    "wof:population":8040,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

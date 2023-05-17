@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ronsberg, M",
+    "eurostat:nuts_2021_id":"09777165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777165",
+    "eurostat:population":1734,
+    "eurostat:population_year":2020,
     "geom:area":0.001989,
-    "geom:area_square_m":16491015.845972,
+    "geom:area_square_m":16491015.845971,
     "geom:bbox":"10.358818,47.87624,10.450705,47.925679",
     "geom:latitude":47.901008,
     "geom:longitude":10.405841,
@@ -158,18 +170,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063239,
         1377692995,
         404227547,
-        85682571
+        102063239
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777165",
+        "eurostat:nuts_2021_id":"09777165",
         "gn:id":2845212,
         "gp:id":689524,
         "qs_pg:id":1242725,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"980dfc6c95b5e547e76d2c38679cd042",
+    "wof:geomhash":"ade64e5385a1247458183a4f1784a81a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101786437,
-    "wof:lastmodified":1608051944,
+    "wof:lastmodified":1684351837,
     "wof:name":"Ronsberg",
     "wof:parent_id":1377692995,
     "wof:placetype":"locality",
-    "wof:population":1675,
+    "wof:population":1734,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08415029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grafenberg",
+    "eurostat:nuts_2021_id":"08415029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE141",
+    "eurostat:nuts_2021_level_lau":"08415029",
+    "eurostat:population":2714,
+    "eurostat:population_year":2020,
     "geom:area":0.000424,
     "geom:area_square_m":3467430.411453,
     "geom:bbox":"9.28670691225,48.5589501293,9.32291589529,48.5812182938",
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08415029",
+        "eurostat:nuts_2021_id":"08415029",
         "gn:id":6547443,
         "gp:id":12623616,
         "qs_pg:id":630238,
@@ -325,7 +340,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b51d8690d61b68fb765adb819fd3d56",
+    "wof:geomhash":"ba21e9adc358c1f3a0cbf4c6700066f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101762909,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351808,
     "wof:name":"Grafenberg",
     "wof:parent_id":1377689947,
     "wof:placetype":"locality",
-    "wof:population":2589,
+    "wof:population":2714,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

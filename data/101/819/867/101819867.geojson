@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rhinow, Stadt",
+    "eurostat:nuts_2021_id":"12063260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063260",
+    "eurostat:population":1603,
+    "eurostat:population_year":2020,
     "geom:area":0.004228,
-    "geom:area_square_m":31644300.696497,
+    "geom:area_square_m":31644300.696496,
     "geom:bbox":"12.2680166463,52.7136084816,12.3679376884,52.7946490372",
     "geom:latitude":52.754071,
     "geom:longitude":12.320219,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.752778,
     "wd:longitude":12.344167,
     "wd:wordcount":280,
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063260",
+        "eurostat:nuts_2021_id":"12063260",
         "gn:id":2847574,
         "gp:id":688351,
         "qs_pg:id":141863,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"acb395a7ac8f7e685a21aa82e537dffa",
+    "wof:geomhash":"36f630be5b2467086192dc97b622336f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101819867,
-    "wof:lastmodified":1582342428,
+    "wof:lastmodified":1684351909,
     "wof:name":"Rhinow",
     "wof:parent_id":1377694641,
     "wof:placetype":"locality",
-    "wof:population":1923,
+    "wof:population":1603,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

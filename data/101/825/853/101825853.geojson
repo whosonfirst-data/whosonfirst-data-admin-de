@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Litzendorf",
+    "eurostat:nuts_2021_id":"09471155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471155",
+    "eurostat:population":6143,
+    "eurostat:population_year":2020,
     "geom:area":0.003243,
-    "geom:area_square_m":25824008.081205,
+    "geom:area_square_m":25824008.081203,
     "geom:bbox":"10.973282,49.893111,11.106787,49.93407",
     "geom:latitude":49.915051,
     "geom:longitude":11.039496,
@@ -151,22 +163,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":788,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687149,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471155",
+        "eurostat:nuts_2021_id":"09471155",
         "fct:id":"074b31e8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2876787,
         "gp:id":672221,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d5ef70d9ed546adf7d87c4e60e8bd900",
+    "wof:geomhash":"7afc9844ae1d9cbb7c01c1903933f0be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051436,
+    "wof:lastmodified":1684351931,
     "wof:name":"Litzendorf",
     "wof:parent_id":1377687149,
     "wof:placetype":"locality",
-    "wof:population":6101,
+    "wof:population":6143,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

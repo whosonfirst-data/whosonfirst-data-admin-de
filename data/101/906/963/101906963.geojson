@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schweppenhausen",
+    "eurostat:nuts_2021_id":"07133093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133093",
+    "eurostat:population":877,
+    "eurostat:population_year":2020,
     "geom:area":0.000356,
-    "geom:area_square_m":2834738.345038,
+    "geom:area_square_m":2834738.345039,
     "geom:bbox":"7.7662458956,49.9126536962,7.81181539992,49.935188822",
     "geom:latitude":49.922452,
     "geom:longitude":7.794642,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133093",
+        "eurostat:nuts_2021_id":"07133093",
         "gn:id":2834293,
         "gp:id":693915,
         "qs_pg:id":576965,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9232848068f9fc89527d4552b47ad158",
+    "wof:geomhash":"de2d5f1f34bcba32d6e9330b967a20ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101906963,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351983,
     "wof:name":"Schweppenhausen",
     "wof:parent_id":1377685427,
     "wof:placetype":"locality",
-    "wof:population":890,
+    "wof:population":877,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

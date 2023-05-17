@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ratshausen",
+    "eurostat:nuts_2021_id":"08417052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417052",
+    "eurostat:population":762,
+    "eurostat:population_year":2020,
     "geom:area":0.000702,
     "geom:area_square_m":5789627.790664,
     "geom:bbox":"8.78414950434,48.1791849739,8.83101849206,48.203539433",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
         85682567,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417052",
+        "eurostat:nuts_2021_id":"08417052",
         "fct:id":"0753a0bc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850165,
         "gp:id":12623671,
@@ -317,7 +332,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b538c5d40c3eb917da1dd437635f6237",
+    "wof:geomhash":"2c5248ba61b0796bb84245c00f4c6f77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351972,
     "wof:name":"Ratshausen",
     "wof:parent_id":1377690145,
     "wof:placetype":"locality",
-    "wof:population":835,
+    "wof:population":762,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

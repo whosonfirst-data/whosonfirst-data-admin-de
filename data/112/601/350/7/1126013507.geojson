@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00fchdorf",
+    "eurostat:nuts_2021_id":"16076038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076038",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "geom:area":0.000262,
     "geom:area_square_m":2055636.443046,
     "geom:bbox":"12.0963390155,50.6907265248,12.1215169596,50.7156960433",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076038",
+        "eurostat:nuts_2021_id":"16076038",
         "gn:id":2882879,
         "qs_pg:id":578148,
         "wd:id":"Q530041"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"844502b84161bfdcaac287e95264037c",
+    "wof:geomhash":"c6c1ae8529abb5f02efcc46c8c74bbaa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126013507,
-    "wof:lastmodified":1582343017,
+    "wof:lastmodified":1684352046,
     "wof:name":"K\u00fchdorf",
     "wof:parent_id":1377690969,
     "wof:placetype":"locality",
-    "wof:population":68,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

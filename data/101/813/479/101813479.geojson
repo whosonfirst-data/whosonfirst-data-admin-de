@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meisenheim, Stadt",
+    "eurostat:nuts_2021_id":"07133065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133065",
+    "eurostat:population":2796,
+    "eurostat:population_year":2020,
     "geom:area":0.001282,
-    "geom:area_square_m":10250620.331558,
+    "geom:area_square_m":10250620.33156,
     "geom:bbox":"7.64293475739,49.687791456,7.70365986289,49.7323377944",
     "geom:latitude":49.710151,
     "geom:longitude":7.671415,
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":7692,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133065",
+        "eurostat:nuts_2021_id":"07133065",
         "gn:id":2872173,
         "gp:id":674646,
         "qs_pg:id":977604,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3812690f7c78f1f0f9bf2c1491938ece",
+    "wof:geomhash":"2470b13281c572d1bf5a4df408082636",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101813479,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351891,
     "wof:name":"Meisenheim",
     "wof:parent_id":1377685405,
     "wof:placetype":"locality",
-    "wof:population":2887,
+    "wof:population":2796,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niederfell",
+    "eurostat:nuts_2021_id":"07137217",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137217",
+    "eurostat:population":1012,
+    "eurostat:population_year":2020,
     "geom:area":0.001448,
-    "geom:area_square_m":11445171.058501,
+    "geom:area_square_m":11445171.058502,
     "geom:bbox":"7.45416791294,50.2482661554,7.51529294913,50.3092839695",
     "geom:latitude":50.274692,
     "geom:longitude":7.480517,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137217",
+        "eurostat:nuts_2021_id":"07137217",
         "gn:id":2863444,
         "gp:id":669423,
         "qs_pg:id":577638,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5a964865541b2c922e22038134cd57be",
+    "wof:geomhash":"5f9c46cd895ec021b1a3e289d8b79873",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101840075,
-    "wof:lastmodified":1582342560,
+    "wof:lastmodified":1684351950,
     "wof:name":"Niederfell",
     "wof:parent_id":1377685601,
     "wof:placetype":"locality",
-    "wof:population":1091,
+    "wof:population":1012,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

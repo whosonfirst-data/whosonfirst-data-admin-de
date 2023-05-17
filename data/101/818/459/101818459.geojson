@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03354501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gartow, gemfr. Gebiet",
+    "eurostat:nuts_2021_id":"03354501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE934",
+    "eurostat:nuts_2021_level_lau":"03354501",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.006947,
     "geom:area_square_m":51709303.371275,
     "geom:bbox":"11.3174203986,52.9279948319,11.5050267595,53.0348879214",
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03354501",
+        "eurostat:nuts_2021_id":"03354501",
         "gn:id":2922438,
         "gp:id":651602,
         "qs_pg:id":55294,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"02add6a58ee873cab40c052e9441d64a",
+    "wof:geomhash":"8881a0112d7b9749c27a648279d8d258",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101818459,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351899,
     "wof:name":"Gartow",
     "wof:parent_id":1377687421,
     "wof:placetype":"locality",
-    "wof:population":1389,
+    "wof:population":0,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

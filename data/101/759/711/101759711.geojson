@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ha\u00dfloch",
+    "eurostat:nuts_2021_id":"07332025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332025",
+    "eurostat:population":20234,
+    "eurostat:population_year":2020,
     "geom:area":0.004988,
-    "geom:area_square_m":40180660.586358,
+    "geom:area_square_m":40180660.586357,
     "geom:bbox":"8.216389,49.311452,8.317414,49.389414",
     "geom:latitude":49.350826,
     "geom:longitude":8.266006,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1795,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063485,
         1377686251,
-        85682491
+        85633111,
+        102063485
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332025",
+        "eurostat:nuts_2021_id":"07332025",
         "gn:id":2909313,
         "gp:id":657791,
         "qs_pg:id":1039633,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2ec3c55645174ca4bbabe710885ab72e",
+    "wof:geomhash":"c7117e084636f5c142147cdb714e613d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101759711,
-    "wof:lastmodified":1608050965,
+    "wof:lastmodified":1684351799,
     "wof:name":"Ha\u00dfloch",
     "wof:parent_id":1377686251,
     "wof:placetype":"locality",
-    "wof:population":20779,
+    "wof:population":20234,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

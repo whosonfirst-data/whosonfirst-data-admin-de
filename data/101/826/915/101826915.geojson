@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freudenberg",
+    "eurostat:nuts_2021_id":"09371122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371122",
+    "eurostat:population":4138,
+    "eurostat:population_year":2020,
     "geom:area":0.010146,
-    "geom:area_square_m":81533334.208771,
+    "geom:area_square_m":81533334.208776,
     "geom:bbox":"11.872846,49.414568,12.042636,49.513428",
     "geom:latitude":49.468507,
     "geom:longitude":11.968985,
@@ -286,18 +298,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":79,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685691,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371122",
+        "eurostat:nuts_2021_id":"09371122",
         "gn:id":2924917,
         "gp:id":708385,
         "qs_pg:id":1039846,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0affe8264ae1db0f8a57b2bceea527b9",
+    "wof:geomhash":"6bd45bb2ca7ddc526398bb4d1e164dc3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101826915,
-    "wof:lastmodified":1608050323,
+    "wof:lastmodified":1684351938,
     "wof:name":"Freudenberg",
     "wof:parent_id":1377685691,
     "wof:placetype":"locality",
-    "wof:population":4268,
+    "wof:population":4138,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

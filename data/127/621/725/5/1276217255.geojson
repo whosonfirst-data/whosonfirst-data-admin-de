@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dahlem",
+    "eurostat:nuts_2021_id":"07232024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232024",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "geom:area":0.000523,
     "geom:area_square_m":4163874.174931,
     "geom:bbox":"6.58452249089,49.8965477539,6.61670442711,49.9249622568",
@@ -89,7 +101,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -99,13 +112,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232024",
+        "eurostat:nuts_2021_id":"07232024",
         "gn:id":2939443
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"1284ec43913b787a1fa8ef65c6ef8347",
+    "wof:geomhash":"684ecb6331716059027f09b914145100",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +132,11 @@
         }
     ],
     "wof:id":1276217255,
-    "wof:lastmodified":1582342039,
+    "wof:lastmodified":1684352059,
     "wof:name":"Dahlem",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":276,
+    "wof:population":249,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

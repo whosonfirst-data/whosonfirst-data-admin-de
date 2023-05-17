@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenbeuthen",
+    "eurostat:nuts_2021_id":"16073002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073002",
+    "eurostat:population":207,
+    "eurostat:population_year":2020,
     "geom:area":0.001028,
     "geom:area_square_m":8067476.014927,
     "geom:bbox":"11.5759887147,50.5797333907,11.6336298759,50.6125075142",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073002",
+        "eurostat:nuts_2021_id":"16073002",
         "gn:id":2957823,
         "qs_pg:id":580002,
         "wd:id":"Q436804"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"0a1b8a2e5d9846b26b0edcbb42ed4338",
+    "wof:geomhash":"42d60c8c50db7183f712ab8ede7f301a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126027451,
-    "wof:lastmodified":1582342980,
+    "wof:lastmodified":1684352050,
     "wof:name":"Altenbeuthen",
     "wof:parent_id":1377689001,
     "wof:placetype":"locality",
-    "wof:population":265,
+    "wof:population":207,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

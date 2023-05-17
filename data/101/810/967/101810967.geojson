@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weitefeld",
+    "eurostat:nuts_2021_id":"07132113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132113",
+    "eurostat:population":2246,
+    "eurostat:population_year":2020,
     "geom:area":0.001086,
     "geom:area_square_m":8499728.280097,
     "geom:bbox":"7.90228082078,50.7091045201,7.95617876951,50.7406187293",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132113",
+        "eurostat:nuts_2021_id":"07132113",
         "gn:id":2811685,
         "gp:id":20162740,
         "qs_pg:id":92869,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"67a700942ddca0d0415c5b75ab9217c5",
+    "wof:geomhash":"c65a033bda000e110267f4bbfb5db60e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101810967,
-    "wof:lastmodified":1582342405,
+    "wof:lastmodified":1684351877,
     "wof:name":"Weitefeld",
     "wof:parent_id":1377685309,
     "wof:placetype":"locality",
-    "wof:population":2451,
+    "wof:population":2246,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

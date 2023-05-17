@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09262000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Passau",
+    "eurostat:nuts_2021_id":"09262000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE222",
+    "eurostat:nuts_2021_level_lau":"09262000",
+    "eurostat:population":52803,
+    "eurostat:population_year":2020,
     "geom:area":0.008558,
-    "geom:area_square_m":70009032.02848,
+    "geom:area_square_m":70009032.028478,
     "geom:bbox":"13.302458,48.54045,13.514288,48.613392",
     "geom:latitude":48.582088,
     "geom:longitude":13.415042,
@@ -483,7 +495,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.566667,
     "wd:longitude":13.466667,
     "wd:population":48516,
@@ -502,6 +515,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09262000",
+        "eurostat:nuts_2021_id":"09262000",
         "gn:id":2855328,
         "gp:id":684294,
         "loc:id":"n80040815",
@@ -518,7 +533,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"37840fed0674140bbfe239714175ddeb",
+    "wof:geomhash":"8ef88ee27d5d7a0aca9c336c2dbdfd0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -531,12 +546,12 @@
         }
     ],
     "wof:id":101748495,
-    "wof:lastmodified":1636499972,
+    "wof:lastmodified":1684351785,
     "wof:name":"Passau",
     "wof:parent_id":1377683781,
     "wof:placetype":"locality",
-    "wof:population":48516,
-    "wof:population_rank":7,
+    "wof:population":52803,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

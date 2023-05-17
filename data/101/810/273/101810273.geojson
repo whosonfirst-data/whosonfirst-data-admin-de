@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Straelen, Stadt",
+    "eurostat:nuts_2021_id":"05154052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154052",
+    "eurostat:population":16257,
+    "eurostat:population_year":2020,
     "geom:area":0.009573,
-    "geom:area_square_m":73805857.36407,
+    "geom:area_square_m":73805857.364074,
     "geom:bbox":"6.20522,51.35502,6.323534,51.487918",
     "geom:latitude":51.428841,
     "geom:longitude":6.259373,
@@ -311,22 +323,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689591,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154052",
+        "eurostat:nuts_2021_id":"05154052",
         "gn:id":2826304,
         "gp:id":697642,
         "loc:id":"nr88009279",
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"440163f3f84ac5822be938ae9299f6c2",
+    "wof:geomhash":"9060fa31d4ec1b6affc2678de52ac102",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101810273,
-    "wof:lastmodified":1608050034,
+    "wof:lastmodified":1684351873,
     "wof:name":"Straelen",
     "wof:parent_id":1377689591,
     "wof:placetype":"locality",
-    "wof:population":15325,
+    "wof:population":16257,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

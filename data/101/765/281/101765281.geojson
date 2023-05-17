@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tengen, Stadt",
+    "eurostat:nuts_2021_id":"08335080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335080",
+    "eurostat:population":4657,
+    "eurostat:population_year":2020,
     "geom:area":0.007452,
-    "geom:area_square_m":61876439.121997,
+    "geom:area_square_m":61876439.122001,
     "geom:bbox":"8.613869,47.758181,8.733355,47.869503",
     "geom:latitude":47.816902,
     "geom:longitude":8.672637,
@@ -328,22 +340,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":89,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063219,
         1377689673,
         404227543,
-        85682567
+        102063219
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335080",
+        "eurostat:nuts_2021_id":"08335080",
         "gn:id":2823515,
         "gp:id":698835,
         "qs_pg:id":1077661,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1fd11d652f769937c1320c1e60970bc0",
+    "wof:geomhash":"e61b9a4a89079664e3468a0d8cb747b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101765281,
-    "wof:lastmodified":1608049524,
+    "wof:lastmodified":1684351817,
     "wof:name":"Tengen",
     "wof:parent_id":1377689673,
     "wof:placetype":"locality",
-    "wof:population":4670,
+    "wof:population":4657,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

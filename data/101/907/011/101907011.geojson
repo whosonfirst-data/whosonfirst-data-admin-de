@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friesenheim",
+    "eurostat:nuts_2021_id":"07339018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339018",
+    "eurostat:population":716,
+    "eurostat:population_year":2020,
     "geom:area":0.000428,
     "geom:area_square_m":3417397.148221,
     "geom:bbox":"8.23999168258,49.8215878581,8.28274942568,49.8477429405",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339018",
+        "eurostat:nuts_2021_id":"07339018",
         "gn:id":2924381,
         "gp:id":650887,
         "qs_pg:id":579100,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e6c82a55e6c8afcbfbcac2bac271b806",
+    "wof:geomhash":"793a894b0ddce6427578a9fadfda9636",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101907011,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351983,
     "wof:name":"Friesenheim",
     "wof:parent_id":1377686725,
     "wof:placetype":"locality",
-    "wof:population":647,
+    "wof:population":716,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

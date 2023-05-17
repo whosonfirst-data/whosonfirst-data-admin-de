@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ottenstein, Flecken",
+    "eurostat:nuts_2021_id":"03255031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255031",
+    "eurostat:population":1170,
+    "eurostat:population_year":2020,
     "geom:area":0.004284,
     "geom:area_square_m":32650106.212145,
     "geom:bbox":"9.34144485627,51.9222911558,9.45753748484,51.9810563804",
@@ -308,7 +320,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255031",
+        "eurostat:nuts_2021_id":"03255031",
         "gn:id":2856070,
         "gp:id":683911,
         "qs_pg:id":1157505,
@@ -334,7 +349,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5f08fa5112134421e4dbbc8d48974f9d",
+    "wof:geomhash":"bd6c0dbdb3bbd8c258cca096d035b397",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101809003,
-    "wof:lastmodified":1582342601,
+    "wof:lastmodified":1684351866,
     "wof:name":"Ottenstein",
     "wof:parent_id":1377686839,
     "wof:placetype":"locality",
-    "wof:population":1296,
+    "wof:population":1170,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

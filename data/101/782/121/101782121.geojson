@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feuchtwangen, St",
+    "eurostat:nuts_2021_id":"09571145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571145",
+    "eurostat:population":12479,
+    "eurostat:population_year":2020,
     "geom:area":0.016974,
-    "geom:area_square_m":137211175.08902,
+    "geom:area_square_m":137211175.089021,
     "geom:bbox":"10.228719,49.107076,10.441763,49.237979",
     "geom:latitude":49.175309,
     "geom:longitude":10.3212,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1789,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377693143,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571145",
+        "eurostat:nuts_2021_id":"09571145",
         "gn:id":2927048,
         "gp:id":649621,
         "qs_pg:id":245608,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"393a5807593f33b5be4c6f1a26189d19",
+    "wof:geomhash":"7b75b88dc45991f10d2d4941f3f2fb26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101782121,
-    "wof:lastmodified":1608050520,
+    "wof:lastmodified":1684351823,
     "wof:name":"Feuchtwangen",
     "wof:parent_id":1377693143,
     "wof:placetype":"locality",
-    "wof:population":12267,
+    "wof:population":12479,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

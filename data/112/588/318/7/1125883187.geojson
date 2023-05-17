@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sickerode",
+    "eurostat:nuts_2021_id":"16061086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061086",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "geom:area":0.000268,
     "geom:area_square_m":2076051.965318,
     "geom:bbox":"10.1080264888,51.2406028963,10.1350995726,51.2565910974",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061086",
+        "eurostat:nuts_2021_id":"16061086",
         "gn:id":2832772,
         "qs_pg:id":373796,
         "wd:id":"Q258459"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"6526e6d34ea80b47c122242fe1517ad4",
+    "wof:geomhash":"8bebd0a2bab42ee94d7bb2b3c0eababe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125883187,
-    "wof:lastmodified":1582342995,
+    "wof:lastmodified":1684352036,
     "wof:name":"Sickerode",
     "wof:parent_id":1377689491,
     "wof:placetype":"locality",
-    "wof:population":169,
+    "wof:population":150,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

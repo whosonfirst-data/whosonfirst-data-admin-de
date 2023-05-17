@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bahrenborstel",
+    "eurostat:nuts_2021_id":"03251003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251003",
+    "eurostat:population":1105,
+    "eurostat:population_year":2020,
     "geom:area":0.004145,
-    "geom:area_square_m":31160264.03059,
+    "geom:area_square_m":31160264.030591,
     "geom:bbox":"8.7331326375,52.5304793434,8.84851149085,52.5835457324",
     "geom:latitude":52.556739,
     "geom:longitude":8.791209,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251003",
+        "eurostat:nuts_2021_id":"03251003",
         "gn:id":2953240,
         "gp:id":636619,
         "qs_pg:id":94168,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"083e186b778e8081a41fbf8c4dba4144",
+    "wof:geomhash":"faff484ef195c6f40788cabd18f7d3c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101807927,
-    "wof:lastmodified":1582342593,
+    "wof:lastmodified":1684351862,
     "wof:name":"Bahrenborstel",
     "wof:parent_id":1377686541,
     "wof:placetype":"locality",
-    "wof:population":1253,
+    "wof:population":1105,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

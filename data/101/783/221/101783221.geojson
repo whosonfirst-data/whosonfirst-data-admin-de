@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09176160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schernfeld",
+    "eurostat:nuts_2021_id":"09176160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE219",
+    "eurostat:nuts_2021_level_lau":"09176160",
+    "eurostat:population":3272,
+    "eurostat:population_year":2020,
     "geom:area":0.006433,
     "geom:area_square_m":52262235.438763,
     "geom:bbox":"11.0271048639,48.8844390992,11.1848354761,48.9669147455",
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09176160",
+        "eurostat:nuts_2021_id":"09176160",
         "fct:id":"071c6606-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2839646,
         "gp:id":12634586,
@@ -190,7 +205,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1eceabe6ee757fdf4eefd5cc6f55d590",
+    "wof:geomhash":"d3346bdd1dfcd9c2acf2e96b4d9226fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342476,
+    "wof:lastmodified":1684351828,
     "wof:name":"Schernfeld",
     "wof:parent_id":1377691621,
     "wof:placetype":"locality",
-    "wof:population":3073,
+    "wof:population":3272,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

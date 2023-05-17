@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09271153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winzer, M",
+    "eurostat:nuts_2021_id":"09271153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE224",
+    "eurostat:nuts_2021_level_lau":"09271153",
+    "eurostat:population":3812,
+    "eurostat:population_year":2020,
     "geom:area":0.003352,
-    "geom:area_square_m":27348007.183228,
+    "geom:area_square_m":27348007.18323,
     "geom:bbox":"13.016043,48.682527,13.160208,48.746779",
     "geom:latitude":48.716617,
     "geom:longitude":13.096462,
@@ -170,22 +182,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063361,
         1377683925,
         404227559,
-        85682571
+        102063361
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09271153",
+        "eurostat:nuts_2021_id":"09271153",
         "gn:id":2807640,
         "gp:id":707155,
         "qs_pg:id":868451,
@@ -200,7 +215,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2f397a17e9a214a4db34ced2b4b2af7f",
+    "wof:geomhash":"71ea73723fb7c0976a2d1be59f0bd42b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101783059,
-    "wof:lastmodified":1608050646,
+    "wof:lastmodified":1684351826,
     "wof:name":"Winzer",
     "wof:parent_id":1377683925,
     "wof:placetype":"locality",
-    "wof:population":3964,
+    "wof:population":3812,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

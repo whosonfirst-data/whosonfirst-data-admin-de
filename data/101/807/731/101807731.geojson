@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03456002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Emlichheim",
+    "eurostat:nuts_2021_id":"03456002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94B",
+    "eurostat:nuts_2021_level_lau":"03456002",
+    "eurostat:population":7312,
+    "eurostat:population_year":2020,
     "geom:area":0.006438,
-    "geom:area_square_m":48331808.224944,
+    "geom:area_square_m":48331808.224945,
     "geom:bbox":"6.78911114358,52.5708098597,6.91898165461,52.6531166562",
     "geom:latitude":52.616628,
     "geom:longitude":6.852588,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":426,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -180,6 +193,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03456002",
+        "eurostat:nuts_2021_id":"03456002",
         "gn:id":2930546,
         "gp:id":29350565,
         "qs_pg:id":93928,
@@ -191,7 +206,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"af1106c50fbe84c026e4fe3cfc33ca69",
+    "wof:geomhash":"4659fdf9eff3903495363e079f6fa7cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101807731,
-    "wof:lastmodified":1582342586,
+    "wof:lastmodified":1684351859,
     "wof:name":"Emlichheim",
     "wof:parent_id":1377688729,
     "wof:placetype":"locality",
-    "wof:population":6820,
+    "wof:population":7312,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

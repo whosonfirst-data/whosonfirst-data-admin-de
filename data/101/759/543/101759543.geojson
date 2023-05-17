@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08125103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Widdern, Stadt",
+    "eurostat:nuts_2021_id":"08125103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE118",
+    "eurostat:nuts_2021_level_lau":"08125103",
+    "eurostat:population":1776,
+    "eurostat:population_year":2020,
     "geom:area":0.003137,
-    "geom:area_square_m":25277850.123138,
+    "geom:area_square_m":25277850.123137,
     "geom:bbox":"9.38832444077,49.2942534673,9.46800244128,49.3643369514",
     "geom:latitude":49.328923,
     "geom:longitude":9.425335,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.316667,
     "wd:longitude":9.416667,
     "wd:wordcount":41,
@@ -321,6 +334,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08125103",
+        "eurostat:nuts_2021_id":"08125103",
         "gn:id":2809718,
         "gp:id":706134,
         "qs_pg:id":1346415,
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3147d2f8619d5da7266004e3b2e8d507",
+    "wof:geomhash":"3874f381856dc1f940fdd7ac989830d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
         }
     ],
     "wof:id":101759543,
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351797,
     "wof:name":"Widdern",
     "wof:parent_id":1377687683,
     "wof:placetype":"locality",
-    "wof:population":1967,
+    "wof:population":1776,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

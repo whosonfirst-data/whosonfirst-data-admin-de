@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09372171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldm\u00fcnchen, St",
+    "eurostat:nuts_2021_id":"09372171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE235",
+    "eurostat:nuts_2021_level_lau":"09372171",
+    "eurostat:population":6677,
+    "eurostat:population_year":2020,
     "geom:area":0.012558,
-    "geom:area_square_m":101119437.735829,
+    "geom:area_square_m":101119437.735831,
     "geom:bbox":"12.609782,49.291826,12.786414,49.434547",
     "geom:latitude":49.367869,
     "geom:longitude":12.697225,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":93,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063457,
         1377685923,
         404227545,
-        85682571
+        102063457
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09372171",
+        "eurostat:nuts_2021_id":"09372171",
         "gn:id":2814846,
         "gp:id":703538,
         "qs_pg:id":984902,
@@ -183,7 +198,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e1d383a55b1820acd2520c283a55cf39",
+    "wof:geomhash":"7292bb820d163f1b8476d5e5fa396019",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101826739,
-    "wof:lastmodified":1608050298,
+    "wof:lastmodified":1684351936,
     "wof:name":"Waldm\u00fcnchen",
     "wof:parent_id":1377685923,
     "wof:placetype":"locality",
-    "wof:population":7392,
+    "wof:population":6677,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

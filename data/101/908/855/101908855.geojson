@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwartbuck",
+    "eurostat:nuts_2021_id":"01057076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057076",
+    "eurostat:population":748,
+    "eurostat:population_year":2020,
     "geom:area":0.001822,
-    "geom:area_square_m":13125657.187476,
+    "geom:area_square_m":13125657.187477,
     "geom:bbox":"10.4314601698,54.3517354467,10.4949263747,54.4031969464",
     "geom:latitude":54.375424,
     "geom:longitude":10.460602,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057076",
+        "eurostat:nuts_2021_id":"01057076",
         "gn:id":2835216,
         "gp:id":20165472,
         "qs_pg:id":373848,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"88f18a16194ea6288e29264503a81016",
+    "wof:geomhash":"89b0c401a9d73c31de72a22e3347c321",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101908855,
-    "wof:lastmodified":1582342352,
+    "wof:lastmodified":1684352000,
     "wof:name":"Schwartbuck",
     "wof:parent_id":1377684073,
     "wof:placetype":"locality",
-    "wof:population":895,
+    "wof:population":748,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

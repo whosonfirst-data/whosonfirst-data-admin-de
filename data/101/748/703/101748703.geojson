@@ -27,8 +27,20 @@
     "de-bkg:wdk":"2009/01/01",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arnsberg, Stadt",
+    "eurostat:nuts_2021_id":"05958004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958004",
+    "eurostat:population":73456,
+    "eurostat:population_year":2020,
     "geom:area":0.024927,
-    "geom:area_square_m":192222970.701991,
+    "geom:area_square_m":192222970.701982,
     "geom:bbox":"7.863767,51.354694,8.209618,51.491395",
     "geom:latitude":51.418259,
     "geom:longitude":8.02214,
@@ -345,17 +357,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692197,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958004",
+        "eurostat:nuts_2021_id":"05958004",
         "gn:id":2955471,
         "gp:id":663051,
         "qs_pg:id":1040294,
@@ -370,7 +385,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"91d37862508326c642e59c95fe25f290",
+    "wof:geomhash":"b14fdbe9543659a53db82209d3cf57f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101748703,
-    "wof:lastmodified":1608050577,
+    "wof:lastmodified":1684351788,
     "wof:name":"Arnsberg",
     "wof:parent_id":1377692197,
     "wof:placetype":"locality",
-    "wof:population":76612,
+    "wof:population":73456,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

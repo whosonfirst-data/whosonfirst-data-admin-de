@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071392",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tschernitz",
+    "eurostat:nuts_2021_id":"12071392",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071392",
+    "eurostat:population":1228,
+    "eurostat:population_year":2020,
     "geom:area":0.001719,
-    "geom:area_square_m":13205210.282389,
+    "geom:area_square_m":13205210.282392,
     "geom:bbox":"14.5696351019,51.5666257359,14.6543442729,51.6012312195",
     "geom:latitude":51.583075,
     "geom:longitude":14.611989,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
         85682553,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071392",
+        "eurostat:nuts_2021_id":"12071392",
         "gn:id":2820624,
         "gp:id":700307,
         "qs_pg:id":1038264,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"12cc95e9951a169afbcdc3fbe044e3be",
+    "wof:geomhash":"a6edea0cb769858ff9e52eff31672ff5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101821163,
-    "wof:lastmodified":1582342422,
+    "wof:lastmodified":1684351916,
     "wof:name":"Tschernitz",
     "wof:parent_id":1377684097,
     "wof:placetype":"locality",
-    "wof:population":1630,
+    "wof:population":1228,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

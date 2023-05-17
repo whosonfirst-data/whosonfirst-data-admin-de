@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hillesheim, Stadt",
+    "eurostat:nuts_2021_id":"07233029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233029",
+    "eurostat:population":3235,
+    "eurostat:population_year":2020,
     "geom:area":0.002612,
-    "geom:area_square_m":20636566.204975,
+    "geom:area_square_m":20636566.204976,
     "geom:bbox":"6.62719816744,50.2547074369,6.70692317069,50.320343281",
     "geom:latitude":50.287788,
     "geom:longitude":6.659612,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1697,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233029",
+        "eurostat:nuts_2021_id":"07233029",
         "gn:id":2904691,
         "gp:id":659946,
         "qs_pg:id":142403,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1cd8be14a3dbe8ac0b4f9360456f426d",
+    "wof:geomhash":"68cd1675aa2921f1a0db0a8e48d67341",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101812125,
-    "wof:lastmodified":1582342551,
+    "wof:lastmodified":1684351882,
     "wof:name":"Hillesheim",
     "wof:parent_id":1377685991,
     "wof:placetype":"locality",
-    "wof:population":3210,
+    "wof:population":3235,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

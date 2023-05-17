@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holle",
+    "eurostat:nuts_2021_id":"03254022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254022",
+    "eurostat:population":6936,
+    "eurostat:population_year":2020,
     "geom:area":0.007998,
-    "geom:area_square_m":60769411.889123,
+    "geom:area_square_m":60769411.889126,
     "geom:bbox":"10.063378,52.041734,10.202752,52.138679",
     "geom:latitude":52.085395,
     "geom:longitude":10.13812,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063895,
         1377686721,
-        85682555
+        85633111,
+        102063895
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254022",
+        "eurostat:nuts_2021_id":"03254022",
         "gn:id":2900422,
         "gp:id":661563,
         "qs_pg:id":578570,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cbf017aaf90100c393cf46efffbafb4b",
+    "wof:geomhash":"36885bcacb8c187e6f82d0df379a3b2a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101809201,
-    "wof:lastmodified":1608051644,
+    "wof:lastmodified":1684351868,
     "wof:name":"Holle",
     "wof:parent_id":1377686721,
     "wof:placetype":"locality",
-    "wof:population":7349,
+    "wof:population":6936,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

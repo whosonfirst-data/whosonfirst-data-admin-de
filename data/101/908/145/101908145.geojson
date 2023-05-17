@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blankenhof",
+    "eurostat:nuts_2021_id":"13071010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071010",
+    "eurostat:population":721,
+    "eurostat:population_year":2020,
     "geom:area":0.002453,
     "geom:area_square_m":18013108.033195,
     "geom:bbox":"13.0885439335,53.5553006709,13.1839001391,53.597597123",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071010",
+        "eurostat:nuts_2021_id":"13071010",
         "gn:id":2948052,
         "gp:id":643135,
         "qs_pg:id":94110,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f7c9c707080d4cae74689fe931e53672",
+    "wof:geomhash":"ef92c620f87fae79252107a4c9968ab0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101908145,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351993,
     "wof:name":"Blankenhof",
     "wof:parent_id":1377684479,
     "wof:placetype":"locality",
-    "wof:population":748,
+    "wof:population":721,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

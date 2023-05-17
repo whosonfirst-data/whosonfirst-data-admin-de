@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horneburg, Flecken",
+    "eurostat:nuts_2021_id":"03359027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359027",
+    "eurostat:population":6257,
+    "eurostat:population_year":2020,
     "geom:area":0.002312,
     "geom:area_square_m":17002061.061993,
     "geom:bbox":"9.50924213944,53.4852341933,9.61597308649,53.5296060251",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":350,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359027",
+        "eurostat:nuts_2021_id":"03359027",
         "gn:id":2898847,
         "gp:id":662360,
         "qs_pg:id":1039523,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dc241fca236d5943e74c89e6252cf9ed",
+    "wof:geomhash":"b512fad68364dc77e1c3506b62f1c44a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101806557,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351852,
     "wof:name":"Horneburg",
     "wof:parent_id":1377687929,
     "wof:placetype":"locality",
-    "wof:population":5547,
+    "wof:population":6257,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Karlsruhe, Landkreis",
+    "eurostat:name_local":"Karlsruhe, Landkreis",
+    "eurostat:nuts_2021_id":"DE123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:population":448487,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.133483,
-    "geom:area_square_m":1081068436.638082,
+    "geom:area_square_m":1081068436.63806,
     "geom:bbox":"8.258328,48.813073,8.894172,49.290027",
     "geom:latitude":49.081902,
     "geom:longitude":8.562799,
@@ -333,8 +347,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"1085",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Karlsruhe",
@@ -347,19 +361,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227555,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE123",
         "hasc:id":"DE.BW.KL"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21de66e6bcdbb807cee63f546e93c8f0",
+    "wof:geomhash":"00bbe02cf3e4c74543ebc3e0607b4335",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,12 +385,12 @@
         }
     ],
     "wof:id":102063403,
-    "wof:lastmodified":1587164316,
+    "wof:lastmodified":1684351512,
     "wof:name":"Karlsruhe",
     "wof:parent_id":404227555,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":424121,
+    "wof:population":448487,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"KL",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Latendorf",
+    "eurostat:nuts_2021_id":"01060052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060052",
+    "eurostat:population":606,
+    "eurostat:population_year":2020,
     "geom:area":0.002482,
-    "geom:area_square_m":18038616.174972,
+    "geom:area_square_m":18038616.17497,
     "geom:bbox":"10.039861502,53.9738909264,10.1276174194,54.0207752254",
     "geom:latitude":53.997817,
     "geom:longitude":10.081781,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060052",
+        "eurostat:nuts_2021_id":"01060052",
         "gn:id":2880355,
         "gp:id":658483,
         "qs_pg:id":578079,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"43febcff88b5be76fa3a415581950a80",
+    "wof:geomhash":"14fd4a4450c38a5d5b0d543d0f1e2b1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101906201,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351977,
     "wof:name":"Latendorf",
     "wof:parent_id":1377684597,
     "wof:placetype":"locality",
-    "wof:population":608,
+    "wof:population":606,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

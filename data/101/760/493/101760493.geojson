@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weinb\u00f6hla",
+    "eurostat:nuts_2021_id":"14627310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627310",
+    "eurostat:population":10342,
+    "eurostat:population_year":2020,
     "geom:area":0.002455,
     "geom:area_square_m":19037257.652652,
     "geom:bbox":"13.533597,51.143294,13.637664,51.185944",
@@ -302,21 +314,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687435,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627310",
+        "eurostat:nuts_2021_id":"14627310",
         "fct:id":"075de04a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812225,
         "gp:id":704800,
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6746dfcf5d4b973fb643d54b10395fe0",
+    "wof:geomhash":"65fb3ac7f5c6412d4cf80d1822055c6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050776,
+    "wof:lastmodified":1684351799,
     "wof:name":"Weinb\u00f6hla",
     "wof:parent_id":1377687435,
     "wof:placetype":"locality",
-    "wof:population":10456,
+    "wof:population":10342,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

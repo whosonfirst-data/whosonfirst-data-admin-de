@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berga/Elster, Stadt",
+    "eurostat:nuts_2021_id":"16076004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076004",
+    "eurostat:population":3258,
+    "eurostat:population_year":2020,
     "geom:area":0.005542,
-    "geom:area_square_m":43350334.873382,
+    "geom:area_square_m":43350334.873376,
     "geom:bbox":"12.0949460454,50.7101433442,12.2124900379,50.7972337108",
     "geom:latitude":50.754656,
     "geom:longitude":12.153816,
@@ -143,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076004",
+        "eurostat:nuts_2021_id":"16076004",
         "gn:id":2950697,
         "gp:id":637945,
         "qs_pg:id":1247089,
@@ -163,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ecad9949005f7d817bfddc5fe31e149",
+    "wof:geomhash":"a89661f0065d32b1db384c7dc2664c15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101823175,
-    "wof:lastmodified":1582342533,
+    "wof:lastmodified":1684351924,
     "wof:name":"Berga/Elster",
     "wof:parent_id":1377690845,
     "wof:placetype":"locality",
-    "wof:population":3869,
+    "wof:population":3258,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

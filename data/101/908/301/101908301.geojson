@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Passow",
+    "eurostat:nuts_2021_id":"13076109",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076109",
+    "eurostat:population":700,
+    "eurostat:population_year":2020,
     "geom:area":0.003369,
     "geom:area_square_m":24774461.867868,
     "geom:bbox":"12.0123548264,53.48762245,12.1129088753,53.5459825484",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076109",
+        "eurostat:nuts_2021_id":"13076109",
         "gn:id":2855300,
         "gp:id":684305,
         "qs_pg:id":577424,
@@ -303,7 +318,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bbd01efdd5577378ef6f3c6cb93daa3d",
+    "wof:geomhash":"b57032e8451017d42258ea21db768d0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908301,
-    "wof:lastmodified":1582342340,
+    "wof:lastmodified":1684351995,
     "wof:name":"Passow",
     "wof:parent_id":1377685253,
     "wof:placetype":"locality",
-    "wof:population":814,
+    "wof:population":700,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

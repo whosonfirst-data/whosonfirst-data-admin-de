@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hockenheim, Stadt",
+    "eurostat:nuts_2021_id":"08226032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226032",
+    "eurostat:population":21700,
+    "eurostat:population_year":2020,
     "geom:area":0.00429,
-    "geom:area_square_m":34569676.203856,
+    "geom:area_square_m":34569676.203855,
     "geom:bbox":"8.4555237988,49.3032701265,8.60402795409,49.3593100655",
     "geom:latitude":49.328159,
     "geom:longitude":8.530197,
@@ -226,7 +238,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":34.79,
     "wd:latitude":49.318056,
     "wd:longitude":8.547222,
@@ -246,6 +259,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226032",
+        "eurostat:nuts_2021_id":"08226032",
         "gn:id":2902852,
         "gp:id":660659,
         "qs_pg:id":1344325,
@@ -257,7 +272,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d61bb1b8278921ae10e49acd5d426f05",
+    "wof:geomhash":"7c2bcd57628a597bdc1d559191030c4a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -270,12 +285,12 @@
         }
     ],
     "wof:id":101759671,
-    "wof:lastmodified":1582342517,
+    "wof:lastmodified":1684351799,
     "wof:name":"Hockenheim",
     "wof:parent_id":1377688751,
     "wof:placetype":"locality",
-    "wof:population":13213,
-    "wof:population_rank":6,
+    "wof:population":21700,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

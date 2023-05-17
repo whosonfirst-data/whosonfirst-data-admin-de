@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altusried, M",
+    "eurostat:nuts_2021_id":"09780112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780112",
+    "eurostat:population":10149,
+    "eurostat:population_year":2020,
     "geom:area":0.010988,
-    "geom:area_square_m":91278039.937165,
+    "geom:area_square_m":91278039.937164,
     "geom:bbox":"10.064681,47.743603,10.29007,47.84063",
     "geom:latitude":47.790746,
     "geom:longitude":10.177175,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693465,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780112",
+        "eurostat:nuts_2021_id":"09780112",
         "gn:id":2956787,
         "gp:id":634876,
         "qs_pg:id":254558,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d90b54550d120470f320d37bab3a7fd2",
+    "wof:geomhash":"e229b4da9f978c66f656d2a52fbb16aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,12 +218,12 @@
         }
     ],
     "wof:id":101765167,
-    "wof:lastmodified":1608049520,
+    "wof:lastmodified":1684351816,
     "wof:name":"Altusried",
     "wof:parent_id":1377693465,
     "wof:placetype":"locality",
-    "wof:population":9950,
-    "wof:population_rank":5,
+    "wof:population":10149,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

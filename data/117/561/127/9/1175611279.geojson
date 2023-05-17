@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenbach (Hochschwarzwald)",
+    "eurostat:nuts_2021_id":"08315031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315031",
+    "eurostat:population":2131,
+    "eurostat:population_year":2020,
     "geom:area":0.003484,
-    "geom:area_square_m":28841563.683148,
+    "geom:area_square_m":28841563.683149,
     "geom:bbox":"8.19364648842,47.9414682346,8.32095212925,47.9978459989",
     "geom:latitude":47.973847,
     "geom:longitude":8.265748,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315031",
+        "eurostat:nuts_2021_id":"08315031",
         "gn:id":2931569,
         "gp:id":647328,
         "qs_pg:id":1236187,
@@ -171,7 +186,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e4c551fbe7815b921d9893a3a84d7de",
+    "wof:geomhash":"fa471154788c1edf6b0f015fe21cbafc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":1175611279,
-    "wof:lastmodified":1582342080,
+    "wof:lastmodified":1684352055,
     "wof:name":"Eisenbach (Hochschwarzwald)",
     "wof:parent_id":1377685525,
     "wof:placetype":"locality",
-    "wof:population":2254,
+    "wof:population":2131,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

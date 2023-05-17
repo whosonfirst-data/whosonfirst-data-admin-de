@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bestensee",
+    "eurostat:nuts_2021_id":"12061020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061020",
+    "eurostat:population":8002,
+    "eurostat:population_year":2020,
     "geom:area":0.004938,
-    "geom:area_square_m":37402597.884372,
+    "geom:area_square_m":37402597.884368,
     "geom:bbox":"13.588679,52.194921,13.711049,52.260695",
     "geom:latitude":52.229483,
     "geom:longitude":13.643772,
@@ -141,17 +153,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":102,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063913,
         1377694291,
-        85682553
+        85633111,
+        102063913
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061020",
+        "eurostat:nuts_2021_id":"12061020",
         "gn:id":2949777,
         "gp:id":638485,
         "qs_pg:id":1040201,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"be3f5a7daee13518e1d663bbf4c4bfca",
+    "wof:geomhash":"05350f84083a4927bf1ef615bf21cd37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101841427,
-    "wof:lastmodified":1608051001,
+    "wof:lastmodified":1684351953,
     "wof:name":"Bestensee",
     "wof:parent_id":1377694291,
     "wof:placetype":"locality",
-    "wof:population":6265,
+    "wof:population":8002,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

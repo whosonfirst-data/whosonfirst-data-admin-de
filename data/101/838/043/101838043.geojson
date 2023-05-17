@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05758008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Enger, Widukindstadt",
+    "eurostat:nuts_2021_id":"05758008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA43",
+    "eurostat:nuts_2021_level_lau":"05758008",
+    "eurostat:population":20490,
+    "eurostat:population_year":2020,
     "geom:area":0.00539,
-    "geom:area_square_m":40903141.488433,
+    "geom:area_square_m":40903141.488431,
     "geom:bbox":"8.497959,52.101529,8.616908,52.171541",
     "geom:latitude":52.138731,
     "geom:longitude":8.553605,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":224,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063891,
         1377691581,
         404227571,
-        85682513
+        102063891
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05758008",
+        "eurostat:nuts_2021_id":"05758008",
         "gn:id":2930182,
         "gp:id":648049,
         "qs_pg:id":905824,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d3c43ec7f6f8b773849eeb62a11a695a",
+    "wof:geomhash":"19f2d257dd77385eaa378fc24d240ad4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,12 +356,12 @@
         }
     ],
     "wof:id":101838043,
-    "wof:lastmodified":1608051596,
+    "wof:lastmodified":1684351945,
     "wof:name":"Enger",
     "wof:parent_id":1377691581,
     "wof:placetype":"locality",
-    "wof:population":19852,
-    "wof:population_rank":6,
+    "wof:population":20490,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

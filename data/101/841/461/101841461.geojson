@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Birkenwerder",
+    "eurostat:nuts_2021_id":"12065036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065036",
+    "eurostat:population":8133,
+    "eurostat:population_year":2020,
     "geom:area":0.002359,
     "geom:area_square_m":17674489.916639,
     "geom:bbox":"13.246009,52.680938,13.365183,52.725545",
@@ -141,21 +153,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":216,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063995,
         1377683357,
-        85682553
+        85633111,
+        102063995
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065036",
+        "eurostat:nuts_2021_id":"12065036",
         "gn:id":2948503,
         "gp:id":639131,
         "qs_pg:id":1040185,
@@ -170,7 +185,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c51ee44f162e174b764e5db6749301a",
+    "wof:geomhash":"195be3e90086cd458fcc2881850163b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101841461,
-    "wof:lastmodified":1608051006,
+    "wof:lastmodified":1684351954,
     "wof:name":"Birkenwerder",
     "wof:parent_id":1377683357,
     "wof:placetype":"locality",
-    "wof:population":7122,
+    "wof:population":8133,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

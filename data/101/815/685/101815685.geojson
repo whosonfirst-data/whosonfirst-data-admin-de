@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mutterstadt",
+    "eurostat:nuts_2021_id":"07338019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338019",
+    "eurostat:population":12844,
+    "eurostat:population_year":2020,
     "geom:area":0.002563,
-    "geom:area_square_m":20608425.792792,
+    "geom:area_square_m":20608425.792791,
     "geom:bbox":"8.307339,49.411952,8.387166,49.471047",
     "geom:latitude":49.441911,
     "geom:longitude":8.347279,
@@ -279,17 +291,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":90,
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063479,
         1377686595,
-        85682491
+        85633111,
+        102063479
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338019",
+        "eurostat:nuts_2021_id":"07338019",
         "gn:id":2867310,
         "gp:id":676993,
         "qs_pg:id":1039046,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"06401e19a19c4c432b5cf64b180fe22a",
+    "wof:geomhash":"4e92e58d2036d9f83dfa7d12f7a3db72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101815685,
-    "wof:lastmodified":1608051249,
+    "wof:lastmodified":1684351894,
     "wof:name":"Mutterstadt",
     "wof:parent_id":1377686595,
     "wof:placetype":"locality",
-    "wof:population":12383,
+    "wof:population":12844,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

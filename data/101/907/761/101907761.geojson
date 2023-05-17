@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breddenberg",
+    "eurostat:nuts_2021_id":"03454006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454006",
+    "eurostat:population":800,
+    "eurostat:population_year":2020,
     "geom:area":0.001188,
-    "geom:area_square_m":8851198.441966,
+    "geom:area_square_m":8851198.441967,
     "geom:bbox":"7.562439126,52.9352998197,7.61880156127,52.9814612827",
     "geom:latitude":52.960037,
     "geom:longitude":7.590853,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454006",
+        "eurostat:nuts_2021_id":"03454006",
         "gn:id":2944948,
         "gp:id":658370,
         "qs_pg:id":579641,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"749e2902444741d05be7ae811b098ee5",
+    "wof:geomhash":"6f4894d819dc281550560f0cd544379b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907761,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351990,
     "wof:name":"Breddenberg",
     "wof:parent_id":1377688589,
     "wof:placetype":"locality",
-    "wof:population":790,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

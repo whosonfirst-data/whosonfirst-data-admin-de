@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bogen, St",
+    "eurostat:nuts_2021_id":"09278118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278118",
+    "eurostat:population":10197,
+    "eurostat:population_year":2020,
     "geom:area":0.006146,
-    "geom:area_square_m":49947211.636548,
+    "geom:area_square_m":49947211.63655,
     "geom:bbox":"12.630708,48.871538,12.800737,48.95314",
     "geom:latitude":48.914948,
     "geom:longitude":12.718644,
@@ -181,22 +193,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":177,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685283,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278118",
+        "eurostat:nuts_2021_id":"09278118",
         "gn:id":2947026,
         "gp:id":639871,
         "qs_pg:id":1040154,
@@ -210,7 +225,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"86387695018582cf0dfd90d0434c87de",
+    "wof:geomhash":"e50fa7e4381d1f32a0484fba14ff9d76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -223,11 +238,11 @@
         }
     ],
     "wof:id":101783273,
-    "wof:lastmodified":1608050610,
+    "wof:lastmodified":1684351829,
     "wof:name":"Bogen",
     "wof:parent_id":1377685283,
     "wof:placetype":"locality",
-    "wof:population":10259,
+    "wof:population":10197,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

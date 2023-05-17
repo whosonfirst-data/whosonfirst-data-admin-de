@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horn-Bad Meinberg, Stadt",
+    "eurostat:nuts_2021_id":"05766032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766032",
+    "eurostat:population":17263,
+    "eurostat:population_year":2020,
     "geom:area":0.011763,
-    "geom:area_square_m":89805710.684666,
+    "geom:area_square_m":89805710.684663,
     "geom:bbox":"8.876715,51.789043,9.092021,51.92729",
     "geom:latitude":51.870401,
     "geom:longitude":8.969121,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":89,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691809,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766032",
+        "eurostat:nuts_2021_id":"05766032",
         "fct:id":"0733f2f8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2898894,
         "gp:id":662336,
@@ -346,7 +361,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"daed42e75b2a8a0059dbf5326dfa8b78",
+    "wof:geomhash":"43af5385505680d81e431a4c7fabe8d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051623,
+    "wof:lastmodified":1684351867,
     "wof:name":"Horn-Bad Meinberg",
     "wof:parent_id":1377691809,
     "wof:placetype":"locality",
-    "wof:population":17182,
+    "wof:population":17263,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

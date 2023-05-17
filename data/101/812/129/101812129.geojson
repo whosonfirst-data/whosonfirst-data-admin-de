@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerolstein, Stadt",
+    "eurostat:nuts_2021_id":"07233026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233026",
+    "eurostat:population":7757,
+    "eurostat:population_year":2020,
     "geom:area":0.008146,
-    "geom:area_square_m":64449471.056742,
+    "geom:area_square_m":64449471.056741,
     "geom:bbox":"6.56125637118,50.1562035735,6.73943263161,50.2640158349",
     "geom:latitude":50.21726,
     "geom:longitude":6.646404,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2930,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233026",
+        "eurostat:nuts_2021_id":"07233026",
         "gn:id":2920963,
         "gp:id":652318,
         "qs_pg:id":1344100,
@@ -182,7 +197,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6a343e6348230cf6a9a0395edb889988",
+    "wof:geomhash":"7ff99be56e553c47e21ab2f675acfe10",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101812129,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351882,
     "wof:name":"Gerolstein",
     "wof:parent_id":1377685981,
     "wof:placetype":"locality",
-    "wof:population":7664,
+    "wof:population":7757,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

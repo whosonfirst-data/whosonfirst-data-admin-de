@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521530",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schneeberg, Stadt",
+    "eurostat:nuts_2021_id":"14521530",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521530",
+    "eurostat:population":13873,
+    "eurostat:population_year":2020,
     "geom:area":0.002971,
     "geom:area_square_m":23318168.856675,
     "geom:bbox":"12.575886,50.563046,12.661067,50.620886",
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685609,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521530",
+        "eurostat:nuts_2021_id":"14521530",
         "gn:id":2837470,
         "gp:id":692624,
         "qs_pg:id":1219357,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7cac094a4f2b62dcb2894b57d7493bd5",
+    "wof:geomhash":"4664e5d3959ffe5b9f3c44dbd0edc1fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101841195,
-    "wof:lastmodified":1608050969,
+    "wof:lastmodified":1684351951,
     "wof:name":"Schneeberg",
     "wof:parent_id":1377685609,
     "wof:placetype":"locality",
-    "wof:population":16784,
+    "wof:population":13873,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

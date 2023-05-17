@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Liebenstein, Stadt",
+    "eurostat:nuts_2021_id":"16063099",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063099",
+    "eurostat:population":7748,
+    "eurostat:population_year":2020,
     "geom:area":0.006257,
-    "geom:area_square_m":48869038.991751,
+    "geom:area_square_m":48869038.991753,
     "geom:bbox":"10.296242,50.778133,10.412086,50.870281",
     "geom:latitude":50.829184,
     "geom:longitude":10.360148,
@@ -171,21 +183,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":91,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689653,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063099",
+        "eurostat:nuts_2021_id":"16063099",
         "gn:id":2953409,
         "gp:id":636458,
         "qs_pg:id":313851,
@@ -200,7 +215,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"56ec1b9d0ac501d5a12ecb8193e3a245",
+    "wof:geomhash":"2eef6a10627c8cbd09df10d29602b6bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,12 +227,12 @@
         }
     ],
     "wof:id":101841265,
-    "wof:lastmodified":1608051005,
+    "wof:lastmodified":1684351952,
     "wof:name":"Bad Liebenstein",
     "wof:parent_id":1377689653,
     "wof:placetype":"locality",
-    "wof:population":4094,
-    "wof:population_rank":4,
+    "wof:population":7748,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

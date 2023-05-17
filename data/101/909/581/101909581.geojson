@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tauer",
+    "eurostat:nuts_2021_id":"12071384",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071384",
+    "eurostat:population":691,
+    "eurostat:population_year":2020,
     "geom:area":0.005496,
-    "geom:area_square_m":41915590.713345,
+    "geom:area_square_m":41915590.713342,
     "geom:bbox":"14.4139064454,51.8713048612,14.5010915085,51.9688424913",
     "geom:latitude":51.921288,
     "geom:longitude":14.460184,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":115,
     "wof:belongsto":[
         85682553,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071384",
+        "eurostat:nuts_2021_id":"12071384",
         "gn:id":2823824,
         "gp:id":698699,
         "qs_pg:id":576760,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"13a3998386c06cf6af4315c0c9dbdbff",
+    "wof:geomhash":"70279328b8d15446f86bc9372f7e9495",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101909581,
-    "wof:lastmodified":1582342286,
+    "wof:lastmodified":1684352002,
     "wof:name":"Tauer",
     "wof:parent_id":1377684107,
     "wof:placetype":"locality",
-    "wof:population":785,
+    "wof:population":691,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

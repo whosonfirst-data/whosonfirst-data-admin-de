@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pluwig",
+    "eurostat:nuts_2021_id":"07235107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235107",
+    "eurostat:population":1681,
+    "eurostat:population_year":2020,
     "geom:area":0.000623,
-    "geom:area_square_m":4982586.932448,
+    "geom:area_square_m":4982586.932449,
     "geom:bbox":"6.69329590557,49.675731952,6.73007931783,49.7006024443",
     "geom:latitude":49.688102,
     "geom:longitude":6.712907,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235107",
+        "eurostat:nuts_2021_id":"07235107",
         "gn:id":2853089,
         "gp:id":685412,
         "qs_pg:id":93240,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2ee302173bf8e33351483c44aa5ea77d",
+    "wof:geomhash":"2513820ad8d0b0463766c3399cf4317e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101813349,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351890,
     "wof:name":"Pluwig",
     "wof:parent_id":1377686047,
     "wof:placetype":"locality",
-    "wof:population":1237,
+    "wof:population":1681,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09171111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alt\u00f6tting, St",
+    "eurostat:nuts_2021_id":"09171111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE214",
+    "eurostat:nuts_2021_level_lau":"09171111",
+    "eurostat:population":13001,
+    "eurostat:population_year":2020,
     "geom:area":0.002768,
     "geom:area_square_m":22803464.906989,
     "geom:bbox":"12.607637,48.199688,12.731497,48.254191",
@@ -212,21 +224,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063275,
         1377690709,
         404227567,
-        85682571
+        102063275
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09171111",
+        "eurostat:nuts_2021_id":"09171111",
         "gn:id":2956940,
         "gp:id":634819,
         "qs_pg:id":142959,
@@ -241,7 +256,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"047f49b40e7ce3dc5105e83c3f1564f7",
+    "wof:geomhash":"01cf8e41d2d7c22798223577321aedf3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -254,11 +269,11 @@
         }
     ],
     "wof:id":101833999,
-    "wof:lastmodified":1608050413,
+    "wof:lastmodified":1684351945,
     "wof:name":"Alt\u00f6tting",
     "wof:parent_id":1377690709,
     "wof:placetype":"locality",
-    "wof:population":12902,
+    "wof:population":13001,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

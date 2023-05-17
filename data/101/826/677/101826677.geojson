@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgberg i.Allg\u00e4u",
+    "eurostat:nuts_2021_id":"09780118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780118",
+    "eurostat:population":3301,
+    "eurostat:population_year":2020,
     "geom:area":0.00192,
-    "geom:area_square_m":16027221.712404,
+    "geom:area_square_m":16027221.712405,
     "geom:bbox":"10.245522,47.524188,10.3568,47.562477",
     "geom:latitude":47.544833,
     "geom:longitude":10.298949,
@@ -135,17 +147,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693501,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780118",
+        "eurostat:nuts_2021_id":"09780118",
         "gn:id":2941422,
         "gp:id":642517,
         "qs_pg:id":1201795,
@@ -159,7 +174,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"25241537a765f6f08e38676a858384ec",
+    "wof:geomhash":"fccacfd10718554c26db4df91191be5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101826677,
-    "wof:lastmodified":1608050347,
+    "wof:lastmodified":1684351935,
     "wof:name":"Burgberg i. Allg\u00e4u",
     "wof:parent_id":1377693501,
     "wof:placetype":"locality",
-    "wof:population":3124,
+    "wof:population":3301,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

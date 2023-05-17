@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03257008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchholz",
+    "eurostat:nuts_2021_id":"03257008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE928",
+    "eurostat:nuts_2021_level_lau":"03257008",
+    "eurostat:population":761,
+    "eurostat:population_year":2020,
     "geom:area":0.000236,
-    "geom:area_square_m":1789528.969537,
+    "geom:area_square_m":1789528.969538,
     "geom:bbox":"9.11330860797,52.2178795419,9.14345001418,52.2341426397",
     "geom:latitude":52.225046,
     "geom:longitude":9.126697,
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
@@ -136,13 +149,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03257008",
+        "eurostat:nuts_2021_id":"03257008",
         "gn:id":2942367
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"afbeac6cf77d0235f2c55ce607f5ebbc",
+    "wof:geomhash":"8e88d5875d1ea0fea3c670f021abfeed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1242965633,
-    "wof:lastmodified":1582343086,
+    "wof:lastmodified":1684352058,
     "wof:name":"Buchholz",
     "wof:parent_id":1377687039,
     "wof:placetype":"locality",
-    "wof:population":753,
+    "wof:population":761,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

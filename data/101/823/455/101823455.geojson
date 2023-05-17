@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Witterda",
+    "eurostat:nuts_2021_id":"16068061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068061",
+    "eurostat:population":1062,
+    "eurostat:population_year":2020,
     "geom:area":0.001607,
-    "geom:area_square_m":12494804.419634,
+    "geom:area_square_m":12494804.419635,
     "geom:bbox":"10.8627678586,51.014655551,10.9364134836,51.0599867412",
     "geom:latitude":51.036699,
     "geom:longitude":10.897298,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068061",
+        "eurostat:nuts_2021_id":"16068061",
         "gn:id":2807300,
         "gp:id":707319,
         "qs_pg:id":373698,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f575d048aebbacb395a35a8bbc7af3e0",
+    "wof:geomhash":"1c6b7b49f53aa65ddf7083fbe8f161a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101823455,
-    "wof:lastmodified":1582342531,
+    "wof:lastmodified":1684351927,
     "wof:name":"Witterda",
     "wof:parent_id":1377690271,
     "wof:placetype":"locality",
-    "wof:population":1153,
+    "wof:population":1062,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

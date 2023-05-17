@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heuchelheim-Klingen",
+    "eurostat:nuts_2021_id":"07337040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337040",
+    "eurostat:population":795,
+    "eurostat:population_year":2020,
     "geom:area":0.000909,
-    "geom:area_square_m":7356981.096686,
+    "geom:area_square_m":7356981.096687,
     "geom:bbox":"8.02992777002,49.1228076385,8.07609007895,49.1553498586",
     "geom:latitude":49.141075,
     "geom:longitude":8.052361,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337040",
+        "eurostat:nuts_2021_id":"07337040",
         "gn:id":3290055,
         "gp:id":659758,
         "qs_pg:id":582311,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ea96f831ff2ce460674aa138aab907d7",
+    "wof:geomhash":"a3127e5ab22d3eeca2bf6cb0bae66490",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101905905,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351974,
     "wof:name":"Heuchelheim-Klingen",
     "wof:parent_id":1377686543,
     "wof:placetype":"locality",
-    "wof:population":913,
+    "wof:population":795,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

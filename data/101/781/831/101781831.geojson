@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09273164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riedenburg, St",
+    "eurostat:nuts_2021_id":"09273164",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE226",
+    "eurostat:nuts_2021_level_lau":"09273164",
+    "eurostat:population":6066,
+    "eurostat:population_year":2020,
     "geom:area":0.012345,
-    "geom:area_square_m":100207546.888311,
+    "geom:area_square_m":100207546.888314,
     "geom:bbox":"11.594917,48.918097,11.803317,49.021631",
     "geom:latitude":48.969197,
     "geom:longitude":11.690801,
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063367,
         1377684291,
         404227559,
-        85682571
+        102063367
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09273164",
+        "eurostat:nuts_2021_id":"09273164",
         "gn:id":2847231,
         "gp:id":688527,
         "qs_pg:id":1345369,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b91a2872015a2b17b8806de37f9f9ca6",
+    "wof:geomhash":"1c2f20dec72f0adb859f6fac7d956b89",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101781831,
-    "wof:lastmodified":1608051926,
+    "wof:lastmodified":1684351820,
     "wof:name":"Riedenburg",
     "wof:parent_id":1377684291,
     "wof:placetype":"locality",
-    "wof:population":5689,
+    "wof:population":6066,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

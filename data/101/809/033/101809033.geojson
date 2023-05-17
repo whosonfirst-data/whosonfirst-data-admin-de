@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03153012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seesen, Stadt",
+    "eurostat:nuts_2021_id":"03153012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE916",
+    "eurostat:nuts_2021_level_lau":"03153012",
+    "eurostat:population":19240,
+    "eurostat:population_year":2020,
     "geom:area":0.013391,
-    "geom:area_square_m":102181041.13768,
+    "geom:area_square_m":102181041.137686,
     "geom:bbox":"10.065232,51.80882,10.229523,51.962373",
     "geom:latitude":51.896786,
     "geom:longitude":10.148172,
@@ -168,21 +180,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":328,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063855,
         1377684977,
-        85682555
+        85633111,
+        102063855
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03153012",
+        "eurostat:nuts_2021_id":"03153012",
         "gn:id":2833592,
         "gp:id":694224,
         "loc:id":"n82159845",
@@ -198,7 +213,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8e804e960cec9381ac43ab297e1799a0",
+    "wof:geomhash":"899a00b2f3c2c398d9eb5683b03aadca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,12 +225,12 @@
         }
     ],
     "wof:id":101809033,
-    "wof:lastmodified":1608051644,
+    "wof:lastmodified":1684351866,
     "wof:name":"Seesen",
     "wof:parent_id":1377684977,
     "wof:placetype":"locality",
-    "wof:population":21909,
-    "wof:population_rank":7,
+    "wof:population":19240,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

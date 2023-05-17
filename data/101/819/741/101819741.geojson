@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Planebruch",
+    "eurostat:nuts_2021_id":"12069470",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069470",
+    "eurostat:population":1025,
+    "eurostat:population_year":2020,
     "geom:area":0.008631,
-    "geom:area_square_m":65328394.968619,
+    "geom:area_square_m":65328394.968621,
     "geom:bbox":"12.6115235777,52.210022213,12.8138743997,52.308586334",
     "geom:latitude":52.254849,
     "geom:longitude":12.699975,
@@ -290,7 +302,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682553,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069470",
+        "eurostat:nuts_2021_id":"12069470",
         "gn:id":6547678,
         "gp:id":29352329,
         "qs_pg:id":378451,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b764bd4a834d20fc0262ae5d18eb526",
+    "wof:geomhash":"51aaf9487c112e841c2e3f18a68d5f7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101819741,
-    "wof:lastmodified":1582342430,
+    "wof:lastmodified":1684351908,
     "wof:name":"Planebruch",
     "wof:parent_id":1377683887,
     "wof:placetype":"locality",
-    "wof:population":1076,
+    "wof:population":1025,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

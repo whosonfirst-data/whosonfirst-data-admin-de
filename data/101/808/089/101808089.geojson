@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Giesen",
+    "eurostat:nuts_2021_id":"03254017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254017",
+    "eurostat:population":9696,
+    "eurostat:population_year":2020,
     "geom:area":0.004432,
-    "geom:area_square_m":33589344.563694,
+    "geom:area_square_m":33589344.563693,
     "geom:bbox":"9.845339,52.158685,9.947992,52.2381",
     "geom:latitude":52.198857,
     "geom:longitude":9.89087,
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":76,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063895,
         1377686699,
-        85682555
+        85633111,
+        102063895
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254017",
+        "eurostat:nuts_2021_id":"03254017",
         "gn:id":3206402,
         "gp:id":20166480,
         "qs_pg:id":147355,
@@ -335,7 +350,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"87511a3225318b34e8d5de9ae8d00433",
+    "wof:geomhash":"e938837f123c3157d2bf00a0a5bc36e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101808089,
-    "wof:lastmodified":1608051691,
+    "wof:lastmodified":1684351864,
     "wof:name":"Giesen",
     "wof:parent_id":1377686699,
     "wof:placetype":"locality",
-    "wof:population":9909,
+    "wof:population":9696,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

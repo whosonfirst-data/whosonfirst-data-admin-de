@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06439015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Taunusstein, Stadt",
+    "eurostat:nuts_2021_id":"06439015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71D",
+    "eurostat:nuts_2021_level_lau":"06439015",
+    "eurostat:population":30050,
+    "eurostat:population_year":2020,
     "geom:area":0.008422,
     "geom:area_square_m":66723574.392837,
     "geom:bbox":"8.099263,50.093749,8.243398,50.221011",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.143472,
     "wd:longitude":8.160556,
     "wd:wordcount":1804,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063605,
         1377694185,
         404227581,
-        85682531
+        102063605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06439015",
+        "eurostat:nuts_2021_id":"06439015",
         "gn:id":2823799,
         "gp:id":698710,
         "qs_pg:id":279164,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5d28d30880c43cdf4b2ac97a0f382155",
+    "wof:geomhash":"3b6c29a1148f1590a62b8afdd08bb6ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101811959,
-    "wof:lastmodified":1608049929,
+    "wof:lastmodified":1684351880,
     "wof:name":"Taunusstein",
     "wof:parent_id":1377694185,
     "wof:placetype":"locality",
-    "wof:population":29501,
+    "wof:population":30050,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

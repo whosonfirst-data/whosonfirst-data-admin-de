@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiggensbach, M",
+    "eurostat:nuts_2021_id":"09780146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780146",
+    "eurostat:population":5039,
+    "eurostat:population_year":2020,
     "geom:area":0.003835,
-    "geom:area_square_m":31891082.256155,
+    "geom:area_square_m":31891082.256156,
     "geom:bbox":"10.139579,47.711957,10.26689,47.776301",
     "geom:latitude":47.743786,
     "geom:longitude":10.214236,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":110,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693635,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780146",
+        "eurostat:nuts_2021_id":"09780146",
         "gn:id":2809065,
         "gp:id":706457,
         "qs_pg:id":1330547,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1c7ebcb616335590a8867fae3c5e6bef",
+    "wof:geomhash":"ea8d1502905d54ff89e1b53a8fc9ea8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,12 +365,12 @@
         }
     ],
     "wof:id":101765171,
-    "wof:lastmodified":1608049549,
+    "wof:lastmodified":1684351816,
     "wof:name":"Wiggensbach",
     "wof:parent_id":1377693635,
     "wof:placetype":"locality",
-    "wof:population":4656,
-    "wof:population_rank":4,
+    "wof:population":5039,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

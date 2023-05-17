@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchensittenbach",
+    "eurostat:nuts_2021_id":"09574135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574135",
+    "eurostat:population":2123,
+    "eurostat:population_year":2020,
     "geom:area":0.005385,
-    "geom:area_square_m":43182264.692503,
+    "geom:area_square_m":43182264.692501,
     "geom:bbox":"11.374558,49.525001,11.465994,49.617945",
     "geom:latitude":49.570562,
     "geom:longitude":11.424424,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063495,
         1377689485,
         404227565,
-        85682571
+        102063495
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574135",
+        "eurostat:nuts_2021_id":"09574135",
         "fct:id":"0747b090-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2890532,
         "gp:id":665936,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43a804ff05e22111c2b8a88cbf1a32da",
+    "wof:geomhash":"7b848ae163d2125c151e4276690187c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050317,
+    "wof:lastmodified":1684351937,
     "wof:name":"Kirchensittenbach",
     "wof:parent_id":1377689485,
     "wof:placetype":"locality",
-    "wof:population":2238,
+    "wof:population":2123,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

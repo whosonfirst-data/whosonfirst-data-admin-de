@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14523290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neustadt/Vogtl.",
+    "eurostat:nuts_2021_id":"14523290",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED44",
+    "eurostat:nuts_2021_level_lau":"14523290",
+    "eurostat:population":959,
+    "eurostat:population_year":2020,
     "geom:area":0.001651,
     "geom:area_square_m":12996843.317947,
     "geom:bbox":"12.2967686312,50.4268477236,12.355297453,50.4803031732",
@@ -137,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682523,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14523290",
+        "eurostat:nuts_2021_id":"14523290",
         "gn:id":2864098,
         "gp:id":679030,
         "qs_pg:id":577667,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c480457ef022d88c696bca306d4273e1",
+    "wof:geomhash":"1ca84c409814b80de8823fc8666c67d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,12 +189,12 @@
         }
     ],
     "wof:id":101824523,
-    "wof:lastmodified":1582342543,
+    "wof:lastmodified":1684351929,
     "wof:name":"Neustadt/Vogtl.",
     "wof:parent_id":1377686323,
     "wof:placetype":"locality",
-    "wof:population":1008,
-    "wof:population_rank":3,
+    "wof:population":959,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

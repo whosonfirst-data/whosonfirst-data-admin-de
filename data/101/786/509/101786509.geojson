@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pfaffenhausen, M",
+    "eurostat:nuts_2021_id":"09778187",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778187",
+    "eurostat:population":2626,
+    "eurostat:population_year":2020,
     "geom:area":0.002546,
-    "geom:area_square_m":21019183.498701,
+    "geom:area_square_m":21019183.498696,
     "geom:bbox":"10.4109905894,48.0844213816,10.4794280278,48.1601916357",
     "geom:latitude":48.122785,
     "geom:longitude":10.444611,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778187",
+        "eurostat:nuts_2021_id":"09778187",
         "gn:id":2854411,
         "gp:id":684775,
         "qs_pg:id":1038763,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96ef6d668d0711e01059e6206910a27e",
+    "wof:geomhash":"430e08018b51491c4390b68aec164698",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101786509,
-    "wof:lastmodified":1582342640,
+    "wof:lastmodified":1684351838,
     "wof:name":"Pfaffenhausen",
     "wof:parent_id":1377693203,
     "wof:placetype":"locality",
-    "wof:population":2429,
+    "wof:population":2626,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

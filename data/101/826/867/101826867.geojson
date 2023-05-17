@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ipsheim, M",
+    "eurostat:nuts_2021_id":"09575135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575135",
+    "eurostat:population":2166,
+    "eurostat:population_year":2020,
     "geom:area":0.005268,
-    "geom:area_square_m":42282640.067935,
+    "geom:area_square_m":42282640.067936,
     "geom:bbox":"10.437085,49.49275,10.583666,49.576345",
     "geom:latitude":49.524327,
     "geom:longitude":10.501457,
@@ -154,18 +166,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063505,
         1377689813,
         404227565,
-        85682571
+        102063505
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575135",
+        "eurostat:nuts_2021_id":"09575135",
         "fct:id":"07466244-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2895863,
         "gp:id":663627,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b897ec20fad7b7909576b73a63d33590",
+    "wof:geomhash":"dadbf38586e71f26e855a8792ad2f5c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050319,
+    "wof:lastmodified":1684351937,
     "wof:name":"Ipsheim",
     "wof:parent_id":1377689813,
     "wof:placetype":"locality",
-    "wof:population":2162,
+    "wof:population":2166,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

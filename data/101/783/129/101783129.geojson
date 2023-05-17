@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Genderkingen",
+    "eurostat:nuts_2021_id":"09779149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779149",
+    "eurostat:population":1202,
+    "eurostat:population_year":2020,
     "geom:area":0.001475,
-    "geom:area_square_m":12037754.855595,
+    "geom:area_square_m":12037754.855597,
     "geom:bbox":"10.8220784165,48.6908239976,10.9039428921,48.7306629381",
     "geom:latitude":48.708987,
     "geom:longitude":10.86882,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779149",
+        "eurostat:nuts_2021_id":"09779149",
         "gn:id":2921371,
         "gp:id":652080,
         "qs_pg:id":579041,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fb55cf7ef56e50149723a5514ee3d470",
+    "wof:geomhash":"25347022b960a1f2926046bac86316fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101783129,
-    "wof:lastmodified":1582342478,
+    "wof:lastmodified":1684351827,
     "wof:name":"Genderkingen",
     "wof:parent_id":1377693437,
     "wof:placetype":"locality",
-    "wof:population":1147,
+    "wof:population":1202,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

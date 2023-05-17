@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klocksin",
+    "eurostat:nuts_2021_id":"13071078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071078",
+    "eurostat:population":305,
+    "eurostat:population_year":2020,
     "geom:area":0.003242,
-    "geom:area_square_m":23773282.163229,
+    "geom:area_square_m":23773282.163228,
     "geom:bbox":"12.4769107877,53.5923837165,12.5975162548,53.6598170976",
     "geom:latitude":53.628332,
     "geom:longitude":12.53683,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071078",
+        "eurostat:nuts_2021_id":"13071078",
         "gn:id":2887601,
         "gp:id":667432,
         "qs_pg:id":578260,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4eb4f910a46f0dd146d809da7b1da088",
+    "wof:geomhash":"da3efa74469025a3223d694411902f9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101908149,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351993,
     "wof:name":"Klocksin",
     "wof:parent_id":1377684505,
     "wof:placetype":"locality",
-    "wof:population":456,
+    "wof:population":305,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

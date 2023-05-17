@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09479136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marktredwitz, GKSt",
+    "eurostat:nuts_2021_id":"09479136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24D",
+    "eurostat:nuts_2021_level_lau":"09479136",
+    "eurostat:population":17228,
+    "eurostat:population_year":2020,
     "geom:area":0.006169,
-    "geom:area_square_m":49018734.491902,
+    "geom:area_square_m":49018734.491898,
     "geom:bbox":"12.030143,49.976834,12.176059,50.046388",
     "geom:latitude":50.010522,
     "geom:longitude":12.101709,
@@ -181,18 +193,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":86,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063597,
         1377688679,
         404227583,
-        85682571
+        102063597
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09479136",
+        "eurostat:nuts_2021_id":"09479136",
         "gn:id":2873289,
         "gp:id":674038,
         "qs_pg:id":1276308,
@@ -207,7 +222,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"08f3cebb0414d58ed026bed92a6aeb9c",
+    "wof:geomhash":"1e153f4fb5ac4c65cc0c17ca6fae791a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -220,11 +235,11 @@
         }
     ],
     "wof:id":101825983,
-    "wof:lastmodified":1608051422,
+    "wof:lastmodified":1684351933,
     "wof:name":"Marktredwitz",
     "wof:parent_id":1377688679,
     "wof:placetype":"locality",
-    "wof:population":18204,
+    "wof:population":17228,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

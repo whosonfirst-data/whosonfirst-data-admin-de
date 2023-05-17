@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09374155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schlammersdorf",
+    "eurostat:nuts_2021_id":"09374155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE237",
+    "eurostat:nuts_2021_level_lau":"09374155",
+    "eurostat:population":862,
+    "eurostat:population_year":2020,
     "geom:area":0.002536,
-    "geom:area_square_m":20244358.906038,
+    "geom:area_square_m":20244358.906039,
     "geom:bbox":"11.6919659549,49.7618789801,11.7877574685,49.8185170369",
     "geom:latitude":49.790512,
     "geom:longitude":11.743224,
@@ -144,7 +156,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -159,13 +172,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09374155",
+        "eurostat:nuts_2021_id":"09374155",
         "gn:id":2838925
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"b3c22fce7a272464a0d79ebeed8be717",
+    "wof:geomhash":"2e7423ecad7f1b15680faf4af4aaa4f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":1276455223,
-    "wof:lastmodified":1582342039,
+    "wof:lastmodified":1684352059,
     "wof:name":"Schlammersdorf",
     "wof:parent_id":1377686311,
     "wof:placetype":"locality",
-    "wof:population":934,
+    "wof:population":862,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

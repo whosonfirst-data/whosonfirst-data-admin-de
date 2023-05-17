@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krickenbach",
+    "eurostat:nuts_2021_id":"07335021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335021",
+    "eurostat:population":1162,
+    "eurostat:population_year":2020,
     "geom:area":0.001189,
     "geom:area_square_m":9570995.292915,
     "geom:bbox":"7.64685969442,49.3433679979,7.70209612305,49.3873197101",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335021",
+        "eurostat:nuts_2021_id":"07335021",
         "gn:id":2883994,
         "gp:id":668920,
         "qs_pg:id":578204,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"584639737c27da67cbdef60c165a2ceb",
+    "wof:geomhash":"ca0c2a7a225eaaa0328fdb8e714b23ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101760483,
-    "wof:lastmodified":1582342492,
+    "wof:lastmodified":1684351799,
     "wof:name":"Krickenbach",
     "wof:parent_id":1377686437,
     "wof:placetype":"locality",
-    "wof:population":1188,
+    "wof:population":1162,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

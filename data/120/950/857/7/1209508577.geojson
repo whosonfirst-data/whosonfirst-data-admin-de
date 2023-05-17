@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberfischbach",
+    "eurostat:nuts_2021_id":"07141101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141101",
+    "eurostat:population":156,
+    "eurostat:population_year":2020,
     "geom:area":0.000642,
-    "geom:area_square_m":5075176.945929,
+    "geom:area_square_m":5075176.945928,
     "geom:bbox":"7.91010843213,50.2367118255,7.96754669611,50.2679873468",
     "geom:latitude":50.248649,
     "geom:longitude":7.936922,
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -132,13 +145,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141101",
+        "eurostat:nuts_2021_id":"07141101",
         "gn:id":2860700
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"4eef0f057b036ff59648abda118e3ce9",
+    "wof:geomhash":"1cddcb3592de46f624435d3d8c9a6b3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +165,11 @@
         }
     ],
     "wof:id":1209508577,
-    "wof:lastmodified":1582342057,
+    "wof:lastmodified":1684352057,
     "wof:name":"Oberfischbach",
     "wof:parent_id":1377685743,
     "wof:placetype":"locality",
-    "wof:population":159,
+    "wof:population":156,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

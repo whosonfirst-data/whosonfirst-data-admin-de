@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hadamar, Stadt",
+    "eurostat:nuts_2021_id":"06533007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533007",
+    "eurostat:population":12528,
+    "eurostat:population_year":2020,
     "geom:area":0.005187,
-    "geom:area_square_m":40834292.437017,
+    "geom:area_square_m":40834292.437018,
     "geom:bbox":"7.994603,50.423588,8.150089,50.492713",
     "geom:latitude":50.459821,
     "geom:longitude":8.058222,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.45,
     "wd:longitude":8.05,
     "wd:wordcount":1757,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683641,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533007",
+        "eurostat:nuts_2021_id":"06533007",
         "gn:id":2912829,
         "gp:id":656282,
         "qs_pg:id":1142938,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4b404d0158cf0e7680bbbe943aae65e9",
+    "wof:geomhash":"ab15de35d0fd47cdb4299c1040032e12",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101812315,
-    "wof:lastmodified":1608051198,
+    "wof:lastmodified":1684351885,
     "wof:name":"Hadamar",
     "wof:parent_id":1377683641,
     "wof:placetype":"locality",
-    "wof:population":12131,
+    "wof:population":12528,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

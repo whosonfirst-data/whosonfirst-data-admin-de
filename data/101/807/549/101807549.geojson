@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03252007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hessisch Oldendorf, Stadt",
+    "eurostat:nuts_2021_id":"03252007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE923",
+    "eurostat:nuts_2021_level_lau":"03252007",
+    "eurostat:population":18112,
+    "eurostat:population_year":2020,
     "geom:area":0.015819,
-    "geom:area_square_m":119981962.139279,
+    "geom:area_square_m":119981962.139272,
     "geom:bbox":"9.155108,52.093993,9.387357,52.220768",
     "geom:latitude":52.164497,
     "geom:longitude":9.266551,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":72,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063889,
         1377686633,
-        85682555
+        85633111,
+        102063889
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03252007",
+        "eurostat:nuts_2021_id":"03252007",
         "gn:id":2905290,
         "gp:id":659644,
         "loc:id":"n78087980",
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e567f8db6e984427df71960048a35ccd",
+    "wof:geomhash":"39ca0dcee055d836a6e4f33b54b6d763",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,12 +369,12 @@
         }
     ],
     "wof:id":101807549,
-    "wof:lastmodified":1608051569,
+    "wof:lastmodified":1684351857,
     "wof:name":"Hessisch Oldendorf",
     "wof:parent_id":1377686633,
     "wof:placetype":"locality",
-    "wof:population":20129,
-    "wof:population_rank":7,
+    "wof:population":18112,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

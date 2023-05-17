@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090445",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sandau (Elbe), Stadt",
+    "eurostat:nuts_2021_id":"15090445",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090445",
+    "eurostat:population":838,
+    "eurostat:population_year":2020,
     "geom:area":0.002465,
-    "geom:area_square_m":18428842.694187,
+    "geom:area_square_m":18428842.694185,
     "geom:bbox":"12.0227891387,52.7500172074,12.1070073212,52.8184958532",
     "geom:latitude":52.791905,
     "geom:longitude":12.056016,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090445",
+        "eurostat:nuts_2021_id":"15090445",
         "gn:id":2842033,
         "gp:id":690914,
         "qs_pg:id":1203114,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e03460d0895638ecdedb55c093bde27f",
+    "wof:geomhash":"2b1b35e8ff33960e847d48e7eaa7bc8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,12 +189,12 @@
         }
     ],
     "wof:id":101819963,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351910,
     "wof:name":"Sandau (Elbe)",
     "wof:parent_id":1377689237,
     "wof:placetype":"locality",
-    "wof:population":1093,
-    "wof:population_rank":3,
+    "wof:population":838,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

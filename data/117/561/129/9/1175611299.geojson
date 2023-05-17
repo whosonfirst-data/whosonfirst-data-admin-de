@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leonberg, Stadt",
+    "eurostat:nuts_2021_id":"08115028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115028",
+    "eurostat:population":48848,
+    "eurostat:population_year":2020,
     "geom:area":0.005988,
-    "geom:area_square_m":48784459.447005,
+    "geom:area_square_m":48784459.447003,
     "geom:bbox":"8.95761,48.74586,9.068067,48.833336",
     "geom:latitude":48.790239,
     "geom:longitude":9.006983,
@@ -352,7 +364,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":48.71,
     "wd:latitude":48.801389,
     "wd:longitude":9.013056,
@@ -363,15 +376,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686823,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115028",
+        "eurostat:nuts_2021_id":"08115028",
         "fct:id":"07154c72-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2878695,
         "gp:id":671303,
@@ -386,7 +401,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b3e788a5a55b5d0071a4187a1950ef8",
+    "wof:geomhash":"8c2e08ace52c61a4a07ba2d073deb023",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -402,11 +417,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608048932,
+    "wof:lastmodified":1684352055,
     "wof:name":"Leonberg",
     "wof:parent_id":1377686823,
     "wof:placetype":"locality",
-    "wof:population":25389,
+    "wof:population":48848,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

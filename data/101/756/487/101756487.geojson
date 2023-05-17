@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fuldatal",
+    "eurostat:nuts_2021_id":"06633009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633009",
+    "eurostat:population":12341,
+    "eurostat:population_year":2020,
     "geom:area":0.004478,
     "geom:area_square_m":34562010.572206,
     "geom:bbox":"9.485399,51.337377,9.604233,51.415405",
@@ -292,22 +304,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684511,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633009",
+        "eurostat:nuts_2021_id":"06633009",
         "fct:id":"071bda1a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2923815,
         "gp:id":651095,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"99ac8375537833aae0dfc642aa01d49c",
+    "wof:geomhash":"0182f92714fc4c689aeaf9a38065eb7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050834,
+    "wof:lastmodified":1684351795,
     "wof:name":"Fuldatal",
     "wof:parent_id":1377684511,
     "wof:placetype":"locality",
-    "wof:population":12186,
+    "wof:population":12341,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

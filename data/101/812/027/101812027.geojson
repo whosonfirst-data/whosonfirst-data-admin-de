@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mettendorf",
+    "eurostat:nuts_2021_id":"07232080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232080",
+    "eurostat:population":1098,
+    "eurostat:population_year":2020,
     "geom:area":0.001891,
-    "geom:area_square_m":15042196.746056,
+    "geom:area_square_m":15042196.746055,
     "geom:bbox":"6.30147338947,49.9259027184,6.36626217345,49.9855415355",
     "geom:latitude":49.948657,
     "geom:longitude":6.330539,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232080",
+        "eurostat:nuts_2021_id":"07232080",
         "gn:id":2871559,
         "gp:id":675030,
         "qs_pg:id":577853,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f86f8f65b4eb172f1054ba3663d056b4",
+    "wof:geomhash":"e3a5b11c728ccf2544885eca40c3635f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101812027,
-    "wof:lastmodified":1582342549,
+    "wof:lastmodified":1684351881,
     "wof:name":"Mettendorf",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":1119,
+    "wof:population":1098,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

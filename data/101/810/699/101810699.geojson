@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06531002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biebertal",
+    "eurostat:nuts_2021_id":"06531002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE721",
+    "eurostat:nuts_2021_level_lau":"06531002",
+    "eurostat:population":10048,
+    "eurostat:population_year":2020,
     "geom:area":0.00556,
-    "geom:area_square_m":43592552.070484,
+    "geom:area_square_m":43592552.070486,
     "geom:bbox":"8.519074,50.602545,8.627167,50.699259",
     "geom:latitude":50.645866,
     "geom:longitude":8.575734,
@@ -297,22 +309,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063653,
         1377694447,
         404227577,
-        85682531
+        102063653
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06531002",
+        "eurostat:nuts_2021_id":"06531002",
         "gn:id":2949271,
         "gp:id":638763,
         "qs_pg:id":346405,
@@ -325,7 +340,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0a71766ade73f7c459dd2fcecf9c34a9",
+    "wof:geomhash":"639eb170770d1ba40a6a438c62291e8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101810699,
-    "wof:lastmodified":1608050096,
+    "wof:lastmodified":1684351874,
     "wof:name":"Biebertal",
     "wof:parent_id":1377694447,
     "wof:placetype":"locality",
-    "wof:population":9991,
-    "wof:population_rank":5,
+    "wof:population":10048,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

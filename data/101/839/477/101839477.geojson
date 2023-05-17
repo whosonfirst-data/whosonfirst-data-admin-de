@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Scheuerfeld",
+    "eurostat:nuts_2021_id":"07132098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132098",
+    "eurostat:population":2043,
+    "eurostat:population_year":2020,
     "geom:area":0.000342,
     "geom:area_square_m":2670815.212096,
     "geom:bbox":"7.82782317405,50.773219056,7.85834283141,50.7927319989",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132098",
+        "eurostat:nuts_2021_id":"07132098",
         "gn:id":2839581,
         "gp:id":691765,
         "qs_pg:id":93112,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2dde84c635a5c2d6a1f4d1653152d5bf",
+    "wof:geomhash":"a7398a3d59cf5f828b0a79996938fff8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101839477,
-    "wof:lastmodified":1582342624,
+    "wof:lastmodified":1684351947,
     "wof:name":"Scheuerfeld",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":2166,
+    "wof:population":2043,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

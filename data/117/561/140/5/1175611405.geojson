@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07315000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mainz, Stadt",
+    "eurostat:nuts_2021_id":"07315000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB35",
+    "eurostat:nuts_2021_level_lau":"07315000",
+    "eurostat:population":218578,
+    "eurostat:population_year":2020,
     "geom:area":0.012245,
-    "geom:area_square_m":97374802.355405,
+    "geom:area_square_m":97374802.355407,
     "geom:bbox":"8.143427,49.895402,8.343031,50.035296",
     "geom:latitude":49.974204,
     "geom:longitude":8.241505,
@@ -448,23 +460,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063557,
         1377686119,
-        85682491
+        85633111,
+        102063557
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682491
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07315000",
+        "eurostat:nuts_2021_id":"07315000",
         "gn:id":2874225,
         "gp:id":673515,
         "loc:id":"n79091241",
@@ -483,7 +498,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b15955b5e5c41bd794ed6d68b46c0b8",
+    "wof:geomhash":"b6261cc94f17497bf0bffebc426e7f31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -495,12 +510,12 @@
         }
     ],
     "wof:id":1175611405,
-    "wof:lastmodified":1608048946,
+    "wof:lastmodified":1684352056,
     "wof:name":"Mainz",
     "wof:parent_id":1377686119,
     "wof:placetype":"locality",
-    "wof:population":184997,
-    "wof:population_rank":9,
+    "wof:population":218578,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

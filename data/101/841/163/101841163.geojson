@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16054000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Suhl, Stadt",
+    "eurostat:nuts_2021_id":"16054000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG04",
+    "eurostat:nuts_2021_level_lau":"16054000",
+    "eurostat:population":36789,
+    "eurostat:population_year":2020,
     "geom:area":0.013014,
-    "geom:area_square_m":102116952.617318,
+    "geom:area_square_m":102116952.617313,
     "geom:bbox":"10.55201,50.561396,10.829401,50.666633",
     "geom:latitude":50.61163,
     "geom:longitude":10.688203,
@@ -342,20 +354,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063649,
         1377689353,
-        85682541
+        85633111,
+        102063649
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16054000",
+        "eurostat:nuts_2021_id":"16054000",
         "gn:id":2824948,
         "gp:id":698227,
         "qs_pg:id":1345699,
@@ -370,7 +385,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"618558e13bbb7a885935fae2ee91a760",
+    "wof:geomhash":"5b9ac179dcf0590310f98388c8d2a54e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,11 +397,11 @@
         }
     ],
     "wof:id":101841163,
-    "wof:lastmodified":1608050993,
+    "wof:lastmodified":1684351951,
     "wof:name":"Suhl",
     "wof:parent_id":1377689353,
     "wof:placetype":"locality",
-    "wof:population":43509,
+    "wof:population":36789,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

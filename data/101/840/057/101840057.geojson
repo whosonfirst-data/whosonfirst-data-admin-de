@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nievern",
+    "eurostat:nuts_2021_id":"07141098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141098",
+    "eurostat:population":976,
+    "eurostat:population_year":2020,
     "geom:area":0.00053,
     "geom:area_square_m":4179936.774505,
     "geom:bbox":"7.66922510411,50.31856512,7.71232674211,50.3391046468",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":461,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141098",
+        "eurostat:nuts_2021_id":"07141098",
         "gn:id":2862440,
         "gp:id":12628644,
         "qs_pg:id":93328,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ec05b4ce6c65bdb46f6a0e7ad3db7581",
+    "wof:geomhash":"0ae5a035b8ddef4b3c776972f3b8993a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101840057,
-    "wof:lastmodified":1582342561,
+    "wof:lastmodified":1684351950,
     "wof:name":"Nievern",
     "wof:parent_id":1377685723,
     "wof:placetype":"locality",
-    "wof:population":982,
+    "wof:population":976,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

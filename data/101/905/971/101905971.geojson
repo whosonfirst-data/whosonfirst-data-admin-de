@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfsteinhausen",
+    "eurostat:nuts_2021_id":"07340210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340210",
+    "eurostat:population":598,
+    "eurostat:population_year":2020,
     "geom:area":0.000605,
     "geom:area_square_m":4890209.283217,
     "geom:bbox":"7.43173528604,49.1800949619,7.4751082272,49.2083722896",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340210",
+        "eurostat:nuts_2021_id":"07340210",
         "gn:id":2915004,
         "gp:id":655222,
         "qs_pg:id":578859,
@@ -301,7 +316,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7b651cd83c8f112208c1d0590541bd9c",
+    "wof:geomhash":"569dc6d8786a630299bc8b7e425666da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101905971,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351975,
     "wof:name":"Gro\u00dfsteinhausen",
     "wof:parent_id":1377686787,
     "wof:placetype":"locality",
-    "wof:population":644,
+    "wof:population":598,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

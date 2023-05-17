@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weddelbrook",
+    "eurostat:nuts_2021_id":"01060095",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060095",
+    "eurostat:population":1045,
+    "eurostat:population_year":2020,
     "geom:area":0.001931,
-    "geom:area_square_m":14065723.481385,
+    "geom:area_square_m":14065723.481387,
     "geom:bbox":"9.763814787,53.8797685725,9.85889441861,53.9190577294",
     "geom:latitude":53.901319,
     "geom:longitude":9.817095,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060095",
+        "eurostat:nuts_2021_id":"01060095",
         "gn:id":2813493,
         "gp:id":704246,
         "qs_pg:id":92882,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"265122428eabc439b3ade93a767e689a",
+    "wof:geomhash":"f2c7066d53258ee8ac716774ca68899a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101806973,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351857,
     "wof:name":"Weddelbrook",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":1025,
+    "wof:population":1045,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

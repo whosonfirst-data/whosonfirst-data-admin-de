@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winterrieden",
+    "eurostat:nuts_2021_id":"09778217",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778217",
+    "eurostat:population":959,
+    "eurostat:population_year":2020,
     "geom:area":0.001185,
     "geom:area_square_m":9779031.575459,
     "geom:bbox":"10.1906147325,48.1022138071,10.241765243,48.138620394",
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778217",
+        "eurostat:nuts_2021_id":"09778217",
         "gn:id":2807718,
         "gp:id":707112,
         "qs_pg:id":92830,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5ca937e0bb287a3d92e1bf70deffb805",
+    "wof:geomhash":"dbc47dd42c46927ad905a43baf9c5f04",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101905711,
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351972,
     "wof:name":"Winterrieden",
     "wof:parent_id":1377693195,
     "wof:placetype":"locality",
-    "wof:population":885,
+    "wof:population":959,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

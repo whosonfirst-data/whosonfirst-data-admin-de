@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Adenau, Stadt",
+    "eurostat:nuts_2021_id":"07131001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131001",
+    "eurostat:population":2943,
+    "eurostat:population_year":2020,
     "geom:area":0.002361,
-    "geom:area_square_m":18618789.024717,
+    "geom:area_square_m":18618789.024715,
     "geom:bbox":"6.90397725246,50.3551562248,7.01406435186,50.3986035059",
     "geom:latitude":50.380492,
     "geom:longitude":6.954551,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":710,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -186,6 +199,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131001",
+        "eurostat:nuts_2021_id":"07131001",
         "gn:id":2959489,
         "gp:id":633382,
         "qs_pg:id":1143540,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"925be594bbfb596105ef55e76001862f",
+    "wof:geomhash":"21a42e4072140cc8ab7536dc96047dd5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101812331,
-    "wof:lastmodified":1582342544,
+    "wof:lastmodified":1684351885,
     "wof:name":"Adenau",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":2995,
+    "wof:population":2943,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

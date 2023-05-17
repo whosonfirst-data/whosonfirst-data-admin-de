@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Halstenbek",
+    "eurostat:nuts_2021_id":"01056018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056018",
+    "eurostat:population":17944,
+    "eurostat:population_year":2020,
     "geom:area":0.001746,
     "geom:area_square_m":12803484.752811,
     "geom:bbox":"9.798751,53.609346,9.883853,53.648121",
@@ -165,21 +177,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":958,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064081,
         1377683881,
-        85682517
+        85633111,
+        102064081
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056018",
+        "eurostat:nuts_2021_id":"01056018",
         "gn:id":2911408,
         "gp:id":656911,
         "qs_pg:id":468426,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"51ca523d059fc9c785f89716d08a1e31",
+    "wof:geomhash":"49c1b6c87d8b38c66881df37f76abf29",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101756051,
-    "wof:lastmodified":1608050846,
+    "wof:lastmodified":1684351792,
     "wof:name":"Halstenbek",
     "wof:parent_id":1377683881,
     "wof:placetype":"locality",
-    "wof:population":16212,
+    "wof:population":17944,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

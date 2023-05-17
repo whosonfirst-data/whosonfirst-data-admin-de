@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05111000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00fcsseldorf, Stadt",
+    "eurostat:nuts_2021_id":"05111000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA11",
+    "eurostat:nuts_2021_level_lau":"05111000",
+    "eurostat:population":621877,
+    "eurostat:population_year":2020,
     "geom:area":0.02798,
-    "geom:area_square_m":216626303.61488,
+    "geom:area_square_m":216626303.614877,
     "geom:bbox":"6.689823,51.124477,6.939965,51.351446",
     "geom:latitude":51.235497,
     "geom:longitude":6.810112,
@@ -623,7 +635,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":217.41,
     "wd:elevation":38.0,
     "wd:latitude":51.216667,
@@ -631,12 +644,12 @@
     "wd:population":603210,
     "wd:wordcount":5776,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063759,
         1377689397,
         404227561,
-        85682513
+        102063759
     ],
     "wof:breaches":[],
     "wof:capital_of":[
@@ -644,6 +657,8 @@
     ],
     "wof:concordances":{
         "dbp:id":"Dusseldorf",
+        "eg:gisco_id":"DE_05111000",
+        "eurostat:nuts_2021_id":"05111000",
         "fb:id":"en.dusseldorf",
         "gn:id":2934246,
         "gp:id":646099,
@@ -662,7 +677,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3222305c505fedfba93318cbca7cc528",
+    "wof:geomhash":"a2070d2c8521c5d6a0a8805e13950e3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -675,11 +690,11 @@
         }
     ],
     "wof:id":101748671,
-    "wof:lastmodified":1608050581,
+    "wof:lastmodified":1684351787,
     "wof:name":"D\u00fcsseldorf",
     "wof:parent_id":1377689397,
     "wof:placetype":"locality",
-    "wof:population":603210,
+    "wof:population":621877,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

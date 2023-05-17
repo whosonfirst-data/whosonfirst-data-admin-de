@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Syke, Stadt",
+    "eurostat:nuts_2021_id":"03251041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251041",
+    "eurostat:population":24295,
+    "eurostat:population_year":2020,
     "geom:area":0.017091,
-    "geom:area_square_m":127446754.245438,
+    "geom:area_square_m":127446754.24544,
     "geom:bbox":"8.731359,52.835955,8.952622,52.974034",
     "geom:latitude":52.910042,
     "geom:longitude":8.846324,
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":64,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063967,
         1377686477,
-        85682555
+        85633111,
+        102063967
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251041",
+        "eurostat:nuts_2021_id":"03251041",
         "gn:id":2824461,
         "gp:id":698450,
         "qs_pg:id":141686,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd02f52101b4933add8f9e5e94c90745",
+    "wof:geomhash":"c55f6cb0c85c25111abcb26ff8a68da7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101807913,
-    "wof:lastmodified":1608051544,
+    "wof:lastmodified":1684351861,
     "wof:name":"Syke",
     "wof:parent_id":1377686477,
     "wof:placetype":"locality",
-    "wof:population":24274,
+    "wof:population":24295,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

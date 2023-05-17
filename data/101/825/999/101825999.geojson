@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09479159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thierstein, M",
+    "eurostat:nuts_2021_id":"09479159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24D",
+    "eurostat:nuts_2021_level_lau":"09479159",
+    "eurostat:population":1162,
+    "eurostat:population_year":2020,
     "geom:area":0.001682,
-    "geom:area_square_m":13338035.780338,
+    "geom:area_square_m":13338035.780335,
     "geom:bbox":"12.0573936237,50.0955699327,12.1442948059,50.1451269478",
     "geom:latitude":50.119077,
     "geom:longitude":12.098264,
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09479159",
+        "eurostat:nuts_2021_id":"09479159",
         "gn:id":2822736,
         "gp:id":699259,
         "qs_pg:id":892752,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2eda13ca0aa606da43a0781504593129",
+    "wof:geomhash":"6dffba68e4c873c7bf5aad2e4ef87944",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101825999,
-    "wof:lastmodified":1582342573,
+    "wof:lastmodified":1684351933,
     "wof:name":"Thierstein",
     "wof:parent_id":1377688727,
     "wof:placetype":"locality",
-    "wof:population":1278,
+    "wof:population":1162,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nordstemmen",
+    "eurostat:nuts_2021_id":"03254026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254026",
+    "eurostat:population":12027,
+    "eurostat:population_year":2020,
     "geom:area":0.00792,
-    "geom:area_square_m":60068686.330532,
+    "geom:area_square_m":60068686.330529,
     "geom:bbox":"9.685576,52.118245,9.862376,52.21431",
     "geom:latitude":52.165901,
     "geom:longitude":9.793568,
@@ -312,17 +324,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063895,
         1377686733,
-        85682555
+        85633111,
+        102063895
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254026",
+        "eurostat:nuts_2021_id":"03254026",
         "gn:id":2861961,
         "gp:id":680439,
         "qs_pg:id":279213,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fdb7ec786e6ec0ff436092e0bbedfa01",
+    "wof:geomhash":"6ab8f272c6de65c11df732e906abbe56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101807581,
-    "wof:lastmodified":1608051537,
+    "wof:lastmodified":1684351857,
     "wof:name":"Nordstemmen",
     "wof:parent_id":1377686733,
     "wof:placetype":"locality",
-    "wof:population":13148,
+    "wof:population":12027,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

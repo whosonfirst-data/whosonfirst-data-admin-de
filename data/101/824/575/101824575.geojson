@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wurzbach, Stadt",
+    "eurostat:nuts_2021_id":"16075133",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075133",
+    "eurostat:population":3081,
+    "eurostat:population_year":2020,
     "geom:area":0.009172,
     "geom:area_square_m":72222133.626159,
     "geom:bbox":"11.478479,50.374268,11.592077,50.524119",
@@ -300,17 +312,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":100,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690769,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075133",
+        "eurostat:nuts_2021_id":"16075133",
         "gn:id":2805623,
         "gp:id":708283,
         "qs_pg:id":950692,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"04d240dd87c8aad8deaa015f67fc0ff6",
+    "wof:geomhash":"3bfe9f8e1a95f0b4c0edfcbef62dab18",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101824575,
-    "wof:lastmodified":1608051137,
+    "wof:lastmodified":1684351929,
     "wof:name":"Wurzbach",
     "wof:parent_id":1377690769,
     "wof:placetype":"locality",
-    "wof:population":3864,
+    "wof:population":3081,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Luckenbach",
+    "eurostat:nuts_2021_id":"07143260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143260",
+    "eurostat:population":656,
+    "eurostat:population_year":2020,
     "geom:area":0.000453,
-    "geom:area_square_m":3548958.243071,
+    "geom:area_square_m":3548958.243072,
     "geom:bbox":"7.81483929214,50.6835277345,7.85995520564,50.7118093167",
     "geom:latitude":50.701292,
     "geom:longitude":7.83865,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":172,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143260",
+        "eurostat:nuts_2021_id":"07143260",
         "gn:id":2875497,
         "gp:id":635822,
         "qs_pg:id":93480,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"24acef5533f950028cc6ae5bb61b6372",
+    "wof:geomhash":"4385c00735b482881feb8fc4c47749f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907397,
-    "wof:lastmodified":1582342306,
+    "wof:lastmodified":1684351987,
     "wof:name":"Luckenbach",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":636,
+    "wof:population":656,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

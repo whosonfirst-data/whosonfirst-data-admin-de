@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mo\u00dfbach",
+    "eurostat:nuts_2021_id":"16075068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075068",
+    "eurostat:population":413,
+    "eurostat:population_year":2020,
     "geom:area":0.001223,
-    "geom:area_square_m":9581786.917985,
+    "geom:area_square_m":9581786.917984,
     "geom:bbox":"11.7907900864,50.6548492558,11.8581605862,50.6877218266",
     "geom:latitude":50.674034,
     "geom:longitude":11.821485,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075068",
+        "eurostat:nuts_2021_id":"16075068",
         "gn:id":2869025,
         "gp:id":676324,
         "qs_pg:id":244528,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5feaa8faa705029d4338de431344f557",
+    "wof:geomhash":"ffe77d8535014706f22cd667934c71bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101910137,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352004,
     "wof:name":"Mo\u00dfbach",
     "wof:parent_id":1377690785,
     "wof:placetype":"locality",
-    "wof:population":445,
+    "wof:population":413,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alt Zauche-Wu\u00dfwerk",
+    "eurostat:nuts_2021_id":"12061005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061005",
+    "eurostat:population":483,
+    "eurostat:population_year":2020,
     "geom:area":0.004329,
-    "geom:area_square_m":33022157.113495,
+    "geom:area_square_m":33022157.113494,
     "geom:bbox":"13.9797704323,51.8783050209,14.0921665633,51.9443073235",
     "geom:latitude":51.911301,
     "geom:longitude":14.030576,
@@ -290,7 +302,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "wof:belongsto":[
         85682553,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061005",
+        "eurostat:nuts_2021_id":"12061005",
         "gn:id":2956745,
         "gp:id":634245,
         "qs_pg:id":988451,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6d86cdd4de46bd17411639ae079c36f",
+    "wof:geomhash":"b423a5bd66c80b8b88ea7b58951c2967",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101909639,
-    "wof:lastmodified":1582342291,
+    "wof:lastmodified":1684352002,
     "wof:name":"Alt Zauche-Wu\u00dfwerk",
     "wof:parent_id":1377694415,
     "wof:placetype":"locality",
-    "wof:population":522,
+    "wof:population":483,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

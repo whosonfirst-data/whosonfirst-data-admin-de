@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09272141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00f6hrnbach, M",
+    "eurostat:nuts_2021_id":"09272141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE225",
+    "eurostat:nuts_2021_level_lau":"09272141",
+    "eurostat:population":4314,
+    "eurostat:population_year":2020,
     "geom:area":0.004984,
-    "geom:area_square_m":40628328.792857,
+    "geom:area_square_m":40628328.792852,
     "geom:bbox":"13.469653,48.71139,13.563077,48.795139",
     "geom:latitude":48.753078,
     "geom:longitude":13.516819,
@@ -155,18 +167,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063363,
         1377684053,
         404227559,
-        85682571
+        102063363
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09272141",
+        "eurostat:nuts_2021_id":"09272141",
         "gn:id":2845559,
         "gp:id":689359,
         "qs_pg:id":577190,
@@ -181,7 +196,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"41c7755d29c7c4e4d9ef91c065b10de9",
+    "wof:geomhash":"e8bc8a25cd374d83d0a8f27313a47d96",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101783095,
-    "wof:lastmodified":1608050645,
+    "wof:lastmodified":1684351826,
     "wof:name":"R\u00f6hrnbach",
     "wof:parent_id":1377684053,
     "wof:placetype":"locality",
-    "wof:population":4579,
+    "wof:population":4314,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

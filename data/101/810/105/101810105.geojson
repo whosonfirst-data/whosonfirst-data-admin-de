@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00f6hl, Nationalparkgemeinde",
+    "eurostat:nuts_2021_id":"06635019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635019",
+    "eurostat:population":5552,
+    "eurostat:population_year":2020,
     "geom:area":0.012729,
-    "geom:area_square_m":98669216.06239,
+    "geom:area_square_m":98669216.062395,
     "geom:bbox":"8.813701,51.107056,9.000557,51.247835",
     "geom:latitude":51.177765,
     "geom:longitude":8.906672,
@@ -292,22 +304,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1498,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377685029,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635019",
+        "eurostat:nuts_2021_id":"06635019",
         "gn:id":2816769,
         "gp:id":702568,
         "qs_pg:id":279159,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6855eec54614ee7064b6f0c35e38e8a0",
+    "wof:geomhash":"2e8a972d5905df64031328111feea6d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101810105,
-    "wof:lastmodified":1608050025,
+    "wof:lastmodified":1684351871,
     "wof:name":"V\u00f6hl",
     "wof:parent_id":1377685029,
     "wof:placetype":"locality",
-    "wof:population":6296,
+    "wof:population":5552,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

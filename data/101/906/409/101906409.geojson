@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grundhof",
+    "eurostat:nuts_2021_id":"01059118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059118",
+    "eurostat:population":876,
+    "eurostat:population_year":2020,
     "geom:area":0.001609,
     "geom:area_square_m":11477840.747443,
     "geom:bbox":"9.60559256391,54.7522744744,9.66711769428,54.7986126896",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059118",
+        "eurostat:nuts_2021_id":"01059118",
         "gn:id":2914347,
         "gp:id":20164257,
         "qs_pg:id":578844,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e2a26f50abc7d29002e1a956a5fc75b2",
+    "wof:geomhash":"f264ebd081a1328ff7e3ccb6a37b9463",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101906409,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351979,
     "wof:name":"Grundhof",
     "wof:parent_id":1377684393,
     "wof:placetype":"locality",
-    "wof:population":981,
+    "wof:population":876,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

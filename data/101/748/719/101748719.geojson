@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05913000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dortmund, Stadt",
+    "eurostat:nuts_2021_id":"05913000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA52",
+    "eurostat:nuts_2021_level_lau":"05913000",
+    "eurostat:population":588250,
+    "eurostat:population_year":2020,
     "geom:area":0.036216,
-    "geom:area_square_m":278675828.034202,
+    "geom:area_square_m":278675828.03421,
     "geom:bbox":"7.302311,51.41558,7.637933,51.59952",
     "geom:latitude":51.516073,
     "geom:longitude":7.474892,
@@ -570,7 +582,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":280.71,
     "wd:elevation":86.0,
     "wd:latitude":51.513889,
@@ -578,15 +591,17 @@
     "wd:population":580511,
     "wd:wordcount":5451,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063803,
         1377692085,
         404227579,
-        85682513
+        102063803
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05913000",
+        "eurostat:nuts_2021_id":"05913000",
         "gn:id":2935517,
         "gp:id":645458,
         "qs_pg:id":279284,
@@ -602,7 +617,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"74898682a50ae558dd75a53c7e3e3689",
+    "wof:geomhash":"5ddf64f338f0130f27b057635394a6c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -615,11 +630,11 @@
         }
     ],
     "wof:id":101748719,
-    "wof:lastmodified":1608050598,
+    "wof:lastmodified":1684351788,
     "wof:name":"Dortmund",
     "wof:parent_id":1377692085,
     "wof:placetype":"locality",
-    "wof:population":580511,
+    "wof:population":588250,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

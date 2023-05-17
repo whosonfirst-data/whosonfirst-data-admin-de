@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ismaning",
+    "eurostat:nuts_2021_id":"09184130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184130",
+    "eurostat:population":17376,
+    "eurostat:population_year":2020,
     "geom:area":0.004892,
-    "geom:area_square_m":40283814.962722,
+    "geom:area_square_m":40283814.96272,
     "geom:bbox":"11.643524,48.201666,11.759538,48.278898",
     "geom:latitude":48.240571,
     "geom:longitude":11.704746,
@@ -173,22 +185,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":68,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692809,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184130",
+        "eurostat:nuts_2021_id":"09184130",
         "gn:id":2895643,
         "gp:id":663756,
         "qs_pg:id":221939,
@@ -203,7 +218,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"74b93f9b7bb6646ecdfb1a5f6877daab",
+    "wof:geomhash":"c22b38ca02e02dc3773292093d0fbc90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101785325,
-    "wof:lastmodified":1608050474,
+    "wof:lastmodified":1684351834,
     "wof:name":"Ismaning",
     "wof:parent_id":1377692809,
     "wof:placetype":"locality",
-    "wof:population":14596,
+    "wof:population":17376,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

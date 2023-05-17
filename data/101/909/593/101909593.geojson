@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vahlberg",
+    "eurostat:nuts_2021_id":"03158032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158032",
+    "eurostat:population":695,
+    "eurostat:population_year":2020,
     "geom:area":0.002384,
-    "geom:area_square_m":18100792.69856,
+    "geom:area_square_m":18100792.698561,
     "geom:bbox":"10.6486524084,52.0936410308,10.7555155208,52.1519519093",
     "geom:latitude":52.126869,
     "geom:longitude":10.713158,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158032",
+        "eurostat:nuts_2021_id":"03158032",
         "gn:id":3208627,
         "gp:id":666648,
         "qs_pg:id":95283,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c39b023194573d5ca06903e7ba56af89",
+    "wof:geomhash":"b22fa6586512c573baad43f6e4f582a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101909593,
-    "wof:lastmodified":1582342281,
+    "wof:lastmodified":1684352002,
     "wof:name":"Vahlberg",
     "wof:parent_id":1377686147,
     "wof:placetype":"locality",
-    "wof:population":855,
+    "wof:population":695,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

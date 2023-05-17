@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rotenhain",
+    "eurostat:nuts_2021_id":"07143288",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143288",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "geom:area":0.000528,
     "geom:area_square_m":4146196.622151,
     "geom:bbox":"7.86181782497,50.5839482447,7.89327116633,50.6178890197",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":172,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143288",
+        "eurostat:nuts_2021_id":"07143288",
         "gn:id":2844421,
         "gp:id":20163044,
         "qs_pg:id":577176,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"62cd60be4676049e9f11df8039538a25",
+    "wof:geomhash":"0bb68c69461ec8296026da0c25de676f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907429,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351988,
     "wof:name":"Rotenhain",
     "wof:parent_id":1377685835,
     "wof:placetype":"locality",
-    "wof:population":572,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

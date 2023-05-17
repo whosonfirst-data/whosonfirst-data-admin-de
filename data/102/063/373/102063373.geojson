@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Ludwigsburg",
+    "eurostat:name_local":"Ludwigsburg",
+    "eurostat:nuts_2021_id":"DE115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:population":544679,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.084302,
-    "geom:area_square_m":684700982.226699,
+    "geom:area_square_m":684700982.226724,
     "geom:bbox":"8.876032,48.753597,9.416236,49.064598",
     "geom:latitude":48.940594,
     "geom:longitude":9.124369,
@@ -231,8 +245,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"687",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Ludwigsburg",
@@ -245,19 +259,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227549,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE115",
         "hasc:id":"DE.BW.LD"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"797b689c538eb40edec4655a1982cfae",
+    "wof:geomhash":"36b1e3c8c72f81a6a465c061e0b5c583",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -268,12 +283,12 @@
         }
     ],
     "wof:id":102063373,
-    "wof:lastmodified":1587164316,
+    "wof:lastmodified":1684351512,
     "wof:name":"Ludwigsburg",
     "wof:parent_id":404227549,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":509871,
+    "wof:population":544679,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"LD",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15089030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bernburg (Saale), Stadt",
+    "eurostat:nuts_2021_id":"15089030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0C",
+    "eurostat:nuts_2021_level_lau":"15089030",
+    "eurostat:population":32573,
+    "eurostat:population_year":2020,
     "geom:area":0.014839,
-    "geom:area_square_m":113535176.553034,
+    "geom:area_square_m":113535176.553038,
     "geom:bbox":"11.6469579401,51.7180425418,11.9042972717,51.8473453236",
     "geom:latitude":51.774171,
     "geom:longitude":11.767032,
@@ -182,7 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -192,6 +205,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15089030",
+        "eurostat:nuts_2021_id":"15089030",
         "gn:id":2950073,
         "gp:id":638291,
         "loc:id":"n82138819",
@@ -204,7 +219,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"27347f960c64eebd5a3b802a18002c53",
+    "wof:geomhash":"1bfe8ba9065046ce51599cbe98e3a913",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101821031,
-    "wof:lastmodified":1582342420,
+    "wof:lastmodified":1684351915,
     "wof:name":"Bernburg (Saale)",
     "wof:parent_id":1377689075,
     "wof:placetype":"locality",
-    "wof:population":32113,
+    "wof:population":32573,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

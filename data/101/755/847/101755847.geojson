@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauf a.d.Pegnitz, St",
+    "eurostat:nuts_2021_id":"09574138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574138",
+    "eurostat:population":26483,
+    "eurostat:population_year":2020,
     "geom:area":0.007481,
-    "geom:area_square_m":60045329.916224,
+    "geom:area_square_m":60045329.916227,
     "geom:bbox":"11.1879878316,49.4655757804,11.3510959879,49.5745816167",
     "geom:latitude":49.527684,
     "geom:longitude":11.270278,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "wof:belongsto":[
         85682571,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574138",
+        "eurostat:nuts_2021_id":"09574138",
         "gn:id":2880144,
         "gp:id":670590,
         "qs_pg:id":1073606,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"187143280a7a8bbed1dd118d0b8b53ad",
+    "wof:geomhash":"54714dbc9a315a1f16e1504a2d38e23a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101755847,
-    "wof:lastmodified":1582342320,
+    "wof:lastmodified":1684351790,
     "wof:name":"Lauf a.d. Pegnitz",
     "wof:parent_id":1377689493,
     "wof:placetype":"locality",
-    "wof:population":26403,
+    "wof:population":26483,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

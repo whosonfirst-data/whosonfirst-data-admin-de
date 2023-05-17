@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schnelldorf",
+    "eurostat:nuts_2021_id":"09571199",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571199",
+    "eurostat:population":3641,
+    "eurostat:population_year":2020,
     "geom:area":0.00628,
-    "geom:area_square_m":50733561.450922,
+    "geom:area_square_m":50733561.450921,
     "geom:bbox":"10.119829,49.155459,10.25319,49.25095",
     "geom:latitude":49.203073,
     "geom:longitude":10.185134,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377688981,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571199",
+        "eurostat:nuts_2021_id":"09571199",
         "fct:id":"071c4414-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2837368,
         "gp:id":12634425,
@@ -346,7 +361,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20547e928c24a26f19cea19cdcae2a76",
+    "wof:geomhash":"a782d37a3f463c71750c36a3edc8b971",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050944,
+    "wof:lastmodified":1684351798,
     "wof:name":"Schnelldorf",
     "wof:parent_id":1377688981,
     "wof:placetype":"locality",
-    "wof:population":3614,
+    "wof:population":3641,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

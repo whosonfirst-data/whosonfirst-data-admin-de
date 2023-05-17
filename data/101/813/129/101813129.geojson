@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alsheim",
+    "eurostat:nuts_2021_id":"07331002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331002",
+    "eurostat:population":2802,
+    "eurostat:population_year":2020,
     "geom:area":0.001914,
-    "geom:area_square_m":15286618.058624,
+    "geom:area_square_m":15286618.058627,
     "geom:bbox":"8.28599275871,49.7443260415,8.35454936886,49.7852811273",
     "geom:latitude":49.76383,
     "geom:longitude":8.323786,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":521,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331002",
+        "eurostat:nuts_2021_id":"07331002",
         "gn:id":2958126,
         "gp:id":634130,
         "qs_pg:id":142981,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"de2a0a3c7340e212034876b2f76710e2",
+    "wof:geomhash":"2bb0e558296bfc0c7170a725b858f843",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101813129,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351888,
     "wof:name":"Alsheim",
     "wof:parent_id":1377686189,
     "wof:placetype":"locality",
-    "wof:population":2691,
+    "wof:population":2802,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

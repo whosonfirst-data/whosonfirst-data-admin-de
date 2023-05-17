@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Naundorf",
+    "eurostat:nuts_2021_id":"14730210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730210",
+    "eurostat:population":2247,
+    "eurostat:population_year":2020,
     "geom:area":0.00478,
-    "geom:area_square_m":36995529.6622,
+    "geom:area_square_m":36995529.662204,
     "geom:bbox":"13.088149,51.21934,13.216636,51.27919",
     "geom:latitude":51.249678,
     "geom:longitude":13.150117,
@@ -96,20 +108,23 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064235,
         1377688027,
-        85682523
+        85633111,
+        102064235
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730210",
+        "eurostat:nuts_2021_id":"14730210",
         "gn:id":2866880
     },
     "wof:coterminous":[
@@ -119,7 +134,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"668cdcca9e7ac6ae38e4cbfdb1bbdb10",
+    "wof:geomhash":"68b7267c8ce7d4635dc1abec7948a776",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +146,11 @@
         }
     ],
     "wof:id":1310092841,
-    "wof:lastmodified":1608048950,
+    "wof:lastmodified":1684352061,
     "wof:name":"Naundorf",
     "wof:parent_id":1377688027,
     "wof:placetype":"locality",
-    "wof:population":2695,
+    "wof:population":2247,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

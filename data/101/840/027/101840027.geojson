@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergrheinfeld",
+    "eurostat:nuts_2021_id":"09678115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678115",
+    "eurostat:population":5328,
+    "eurostat:population_year":2020,
     "geom:area":0.002497,
-    "geom:area_square_m":19846905.412509,
+    "geom:area_square_m":19846905.412508,
     "geom:bbox":"10.136708,49.962056,10.202519,50.031192",
     "geom:latitude":50.000098,
     "geom:longitude":10.167424,
@@ -166,22 +178,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377693259,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678115",
+        "eurostat:nuts_2021_id":"09678115",
         "fct:id":"071d120e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2950287,
         "gp:id":638171,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e55d3c072ca477409c02542e990444ca",
+    "wof:geomhash":"02047f81638405ab96e6506493a1ed09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,12 +228,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051303,
+    "wof:lastmodified":1684351950,
     "wof:name":"Bergrheinfeld",
     "wof:parent_id":1377693259,
     "wof:placetype":"locality",
-    "wof:population":4971,
-    "wof:population_rank":4,
+    "wof:population":5328,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

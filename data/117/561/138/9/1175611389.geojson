@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wismar, Hansestadt",
+    "eurostat:nuts_2021_id":"13074087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074087",
+    "eurostat:population":42963,
+    "eurostat:population_year":2020,
     "geom:area":0.005625,
-    "geom:area_square_m":40985613.878926,
+    "geom:area_square_m":40985613.878924,
     "geom:bbox":"11.390866,53.86479,11.533539,53.943391",
     "geom:latitude":53.898319,
     "geom:longitude":11.462803,
@@ -359,7 +371,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.8925,
     "wd:longitude":11.465,
     "wd:population":42219,
@@ -369,14 +382,16 @@
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675589,
         1377693577,
-        85682487
+        85633111,
+        1377675589
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074087",
+        "eurostat:nuts_2021_id":"13074087",
         "gn:id":2807465,
         "gp:id":707241,
         "qs_pg:id":476737,
@@ -390,7 +405,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4dac70dd1be60ca1d751771704b5074",
+    "wof:geomhash":"207bee1deadde527ef3d4abb0e935e37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -402,11 +417,11 @@
         }
     ],
     "wof:id":1175611389,
-    "wof:lastmodified":1608048939,
+    "wof:lastmodified":1684352056,
     "wof:name":"Wismar",
     "wof:parent_id":1377693577,
     "wof:placetype":"locality",
-    "wof:population":42219,
+    "wof:population":42963,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

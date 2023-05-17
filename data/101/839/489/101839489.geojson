@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Battenberg (Eder), Stadt",
+    "eurostat:nuts_2021_id":"06635004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635004",
+    "eurostat:population":5325,
+    "eurostat:population_year":2020,
     "geom:area":0.008183,
-    "geom:area_square_m":63648755.601148,
+    "geom:area_square_m":63648755.601144,
     "geom:bbox":"8.50514353037,50.9513015987,8.7132019275,51.0771802363",
     "geom:latitude":51.019877,
     "geom:longitude":8.604248,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.016667,
     "wd:longitude":8.65,
     "wd:wordcount":664,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635004",
+        "eurostat:nuts_2021_id":"06635004",
         "gn:id":2952213,
         "gp:id":637150,
         "qs_pg:id":200474,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"848dc1c4a7940c0dfa68e26149e7c96e",
+    "wof:geomhash":"5dd9774c2e031af9c672cd5e7e388b95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101839489,
-    "wof:lastmodified":1582342625,
+    "wof:lastmodified":1684351948,
     "wof:name":"Battenberg (Eder)",
     "wof:parent_id":1377684899,
     "wof:placetype":"locality",
-    "wof:population":5703,
+    "wof:population":5325,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

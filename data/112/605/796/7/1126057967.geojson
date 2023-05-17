@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moselkern",
+    "eurostat:nuts_2021_id":"07135065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135065",
+    "eurostat:population":549,
+    "eurostat:population_year":2020,
     "geom:area":0.000605,
     "geom:area_square_m":4790811.654889,
     "geom:bbox":"7.34685893399,50.1860634537,7.38355857294,50.2180953793",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135065",
+        "eurostat:nuts_2021_id":"07135065",
         "gn:id":2869076,
         "gp:id":676307,
         "qs_pg:id":1068017,
@@ -147,7 +162,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"7c0758c4ce8ff91608860ba16d0cc732",
+    "wof:geomhash":"2a5d3d7e544ce3cf24a2d240bdcdd809",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1126057967,
-    "wof:lastmodified":1582342980,
+    "wof:lastmodified":1684352055,
     "wof:name":"Moselkern",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":705,
+    "wof:population":549,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

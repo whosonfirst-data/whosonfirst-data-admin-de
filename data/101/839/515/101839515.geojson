@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schlangen",
+    "eurostat:nuts_2021_id":"05766064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766064",
+    "eurostat:population":9259,
+    "eurostat:population_year":2020,
     "geom:area":0.009913,
-    "geom:area_square_m":75740370.496429,
+    "geom:area_square_m":75740370.49643,
     "geom:bbox":"8.746243,51.797971,8.91827,51.882591",
     "geom:latitude":51.836563,
     "geom:longitude":8.829864,
@@ -299,22 +311,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":117,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691885,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766064",
+        "eurostat:nuts_2021_id":"05766064",
         "gn:id":2838922,
         "gp:id":692038,
         "qs_pg:id":957743,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fde4f080858f85d0d07b4b6007f5c038",
+    "wof:geomhash":"38379cfa7fa37d77ae1c1fe137fd29f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101839515,
-    "wof:lastmodified":1608051849,
+    "wof:lastmodified":1684351948,
     "wof:name":"Schlangen",
     "wof:parent_id":1377691885,
     "wof:placetype":"locality",
-    "wof:population":9137,
+    "wof:population":9259,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

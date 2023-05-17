@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16072019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinach, Stadt",
+    "eurostat:nuts_2021_id":"16072019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0H",
+    "eurostat:nuts_2021_level_lau":"16072019",
+    "eurostat:population":3799,
+    "eurostat:population_year":2020,
     "geom:area":0.003303,
     "geom:area_square_m":26011902.955294,
     "geom:bbox":"11.108455,50.399582,11.201726,50.475339",
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":104,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063639,
         1377690551,
-        85682541
+        85633111,
+        102063639
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16072019",
+        "eurostat:nuts_2021_id":"16072019",
         "gn:id":2828907,
         "gp:id":696606,
         "qs_pg:id":1074728,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"01abbb791b380e09e5295a099f392cb3",
+    "wof:geomhash":"d4284bb06003e3a14c14fabce3dc1152",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101825173,
-    "wof:lastmodified":1608051422,
+    "wof:lastmodified":1684351931,
     "wof:name":"Steinach",
     "wof:parent_id":1377690551,
     "wof:placetype":"locality",
-    "wof:population":4729,
+    "wof:population":3799,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

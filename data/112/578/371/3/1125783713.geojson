@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abentheuer",
+    "eurostat:nuts_2021_id":"07134001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134001",
+    "eurostat:population":432,
+    "eurostat:population_year":2020,
     "geom:area":0.000754,
     "geom:area_square_m":6033932.92537,
     "geom:bbox":"7.05372970971,49.6423063704,7.1128875936,49.6803534932",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134001",
+        "eurostat:nuts_2021_id":"07134001",
         "gn:id":2959841,
         "qs_pg:id":580052,
         "wd:id":"Q319254"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"00cf037276a5abd87c6a71908da4a7e8",
+    "wof:geomhash":"dc2ba53ca1d7a6bb8009ed99370d3dba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125783713,
-    "wof:lastmodified":1582343039,
+    "wof:lastmodified":1684352014,
     "wof:name":"Abentheuer",
     "wof:parent_id":1377685453,
     "wof:placetype":"locality",
-    "wof:population":465,
+    "wof:population":432,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

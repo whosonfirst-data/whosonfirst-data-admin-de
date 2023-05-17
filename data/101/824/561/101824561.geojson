@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remptendorf",
+    "eurostat:nuts_2021_id":"16075134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075134",
+    "eurostat:population":3370,
+    "eurostat:population_year":2020,
     "geom:area":0.012374,
-    "geom:area_square_m":97248987.193346,
+    "geom:area_square_m":97248987.193347,
     "geom:bbox":"11.482504,50.479927,11.709197,50.604611",
     "geom:latitude":50.53686,
     "geom:longitude":11.599725,
@@ -291,17 +303,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690837,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075134",
+        "eurostat:nuts_2021_id":"16075134",
         "gn:id":2848277,
         "gp:id":687936,
         "qs_pg:id":1038648,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e9cb1b7c446f059e2afe7906e100b76f",
+    "wof:geomhash":"640781f4ac139b9fcb11f6fcaefdab63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101824561,
-    "wof:lastmodified":1608051116,
+    "wof:lastmodified":1684351929,
     "wof:name":"Remptendorf",
     "wof:parent_id":1377690837,
     "wof:placetype":"locality",
-    "wof:population":4187,
+    "wof:population":3370,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

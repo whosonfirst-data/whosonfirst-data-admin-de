@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wilkau-Ha\u00dflau, Stadt",
+    "eurostat:nuts_2021_id":"14524320",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524320",
+    "eurostat:population":9656,
+    "eurostat:population_year":2020,
     "geom:area":0.00161,
     "geom:area_square_m":12617486.332757,
     "geom:bbox":"12.481432,50.644078,12.56258,50.690081",
@@ -157,21 +169,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":159,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686505,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524320",
+        "eurostat:nuts_2021_id":"14524320",
         "gn:id":2808644,
         "gp:id":706653,
         "qs_pg:id":960667,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3a8dfefa153e9d87e340909a824f6f68",
+    "wof:geomhash":"50c04aeca785538a6e045dc195eda4a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,12 +213,12 @@
         }
     ],
     "wof:id":101841937,
-    "wof:lastmodified":1608050970,
+    "wof:lastmodified":1684351954,
     "wof:name":"Wilkau-Ha\u00dflau",
     "wof:parent_id":1377686505,
     "wof:placetype":"locality",
-    "wof:population":11850,
-    "wof:population_rank":6,
+    "wof:population":9656,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigs Wusterhausen, Stadt",
+    "eurostat:nuts_2021_id":"12061260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061260",
+    "eurostat:population":37639,
+    "eurostat:population_year":2020,
     "geom:area":0.012644,
-    "geom:area_square_m":95581000.840813,
+    "geom:area_square_m":95581000.840811,
     "geom:bbox":"13.568498,52.253647,13.756251,52.389664",
     "geom:latitude":52.314123,
     "geom:longitude":13.677848,
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":36.0,
     "wd:latitude":52.291667,
     "wd:longitude":13.625,
@@ -336,14 +349,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063913,
         1377694325,
-        85682553
+        85633111,
+        102063913
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061260",
+        "eurostat:nuts_2021_id":"12061260",
         "gn:id":2885732,
         "gp:id":668103,
         "qs_pg:id":142276,
@@ -358,7 +373,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4b77cfee622a0459fbb85e716610a424",
+    "wof:geomhash":"316e715b7e83669d8e9239f8bfbece55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101841423,
-    "wof:lastmodified":1608050977,
+    "wof:lastmodified":1684351953,
     "wof:name":"K\u00f6nigs Wusterhausen",
     "wof:parent_id":1377694325,
     "wof:placetype":"locality",
-    "wof:population":34795,
+    "wof:population":37639,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

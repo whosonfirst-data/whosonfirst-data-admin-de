@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eichwalde",
+    "eurostat:nuts_2021_id":"12061112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061112",
+    "eurostat:population":6420,
+    "eurostat:population_year":2020,
     "geom:area":0.000371,
-    "geom:area_square_m":2803156.078921,
+    "geom:area_square_m":2803156.07892,
     "geom:bbox":"13.6055,52.364587,13.646952,52.381791",
     "geom:latitude":52.372853,
     "geom:longitude":13.624019,
@@ -144,20 +156,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.366667,
     "wd:longitude":13.616667,
     "wd:population":6450,
     "wd:wordcount":300,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063913,
         1377694299,
-        85682553
+        85633111,
+        102063913
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061112",
+        "eurostat:nuts_2021_id":"12061112",
         "gn:id":2932040,
         "qs_pg:id":579300,
         "wd:id":"Q583542",
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1ebb5d7f59d1fd1a3d27abd331819706",
+    "wof:geomhash":"d201e2702604ece1db7e85e94da2cddc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101841429,
-    "wof:lastmodified":1608051000,
+    "wof:lastmodified":1684351953,
     "wof:name":"Eichwalde",
     "wof:parent_id":1377694299,
     "wof:placetype":"locality",
-    "wof:population":6450,
+    "wof:population":6420,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

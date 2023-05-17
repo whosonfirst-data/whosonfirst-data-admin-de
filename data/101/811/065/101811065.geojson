@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05358040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Merzenich",
+    "eurostat:nuts_2021_id":"05358040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA26",
+    "eurostat:nuts_2021_level_lau":"05358040",
+    "eurostat:population":9885,
+    "eurostat:population_year":2020,
     "geom:area":0.00486,
-    "geom:area_square_m":37943578.014074,
+    "geom:area_square_m":37943578.014072,
     "geom:bbox":"6.501598,50.801586,6.614176,50.892466",
     "geom:latitude":50.842843,
     "geom:longitude":6.549954,
@@ -294,22 +306,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063707,
         1377690169,
         404227541,
-        85682513
+        102063707
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05358040",
+        "eurostat:nuts_2021_id":"05358040",
         "gn:id":2871683,
         "gp:id":644840,
         "qs_pg:id":2,
@@ -323,7 +338,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fe70cdb5d1485f9fa3b86f44dedcab05",
+    "wof:geomhash":"ad471a4a4846a0524a82297e4930a3e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101811065,
-    "wof:lastmodified":1608049916,
+    "wof:lastmodified":1684351878,
     "wof:name":"Merzenich",
     "wof:parent_id":1377690169,
     "wof:placetype":"locality",
-    "wof:population":9911,
+    "wof:population":9885,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

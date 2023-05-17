@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521390",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marienberg, Stadt",
+    "eurostat:nuts_2021_id":"14521390",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521390",
+    "eurostat:population":16906,
+    "eurostat:population_year":2020,
     "geom:area":0.016974,
-    "geom:area_square_m":133166598.450085,
+    "geom:area_square_m":133166598.450092,
     "geom:bbox":"13.117147,50.502883,13.325027,50.698933",
     "geom:latitude":50.620445,
     "geom:longitude":13.206501,
@@ -319,21 +331,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1794,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685541,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521390",
+        "eurostat:nuts_2021_id":"14521390",
         "gn:id":2873632,
         "gp:id":673860,
         "qs_pg:id":1255053,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"73a4572e5fcf735d140942b1011f4d79",
+    "wof:geomhash":"b5a883d716cc527277683097e50e3585",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101820701,
-    "wof:lastmodified":1608049846,
+    "wof:lastmodified":1684351912,
     "wof:name":"Marienberg",
     "wof:parent_id":1377685541,
     "wof:placetype":"locality",
-    "wof:population":14383,
+    "wof:population":16906,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

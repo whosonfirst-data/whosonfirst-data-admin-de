@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05162024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuss, Stadt",
+    "eurostat:nuts_2021_id":"05162024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1D",
+    "eurostat:nuts_2021_level_lau":"05162024",
+    "eurostat:population":153896,
+    "eurostat:population_year":2020,
     "geom:area":0.01269,
-    "geom:area_square_m":98381921.116394,
+    "geom:area_square_m":98381921.116392,
     "geom:bbox":"6.614924,51.116634,6.798034,51.234716",
     "geom:latitude":51.172936,
     "geom:longitude":6.702081,
@@ -367,18 +379,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":967,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063757,
         1377689765,
         404227561,
-        85682513
+        102063757
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05162024",
+        "eurostat:nuts_2021_id":"05162024",
         "gn:id":2864118,
         "gp:id":679011,
         "qs_pg:id":900941,
@@ -393,7 +408,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"149806a592b7bea95ab0ef530f7bc6bc",
+    "wof:geomhash":"50c50b47ec8c86696a55d6dee5b5adf2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -406,11 +421,11 @@
         }
     ],
     "wof:id":101748665,
-    "wof:lastmodified":1608050592,
+    "wof:lastmodified":1684351787,
     "wof:name":"Neuss",
     "wof:parent_id":1377689765,
     "wof:placetype":"locality",
-    "wof:population":152457,
+    "wof:population":153896,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

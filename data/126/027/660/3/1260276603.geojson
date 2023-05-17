@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uphusum",
+    "eurostat:nuts_2021_id":"01054142",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054142",
+    "eurostat:population":359,
+    "eurostat:population_year":2020,
     "geom:area":0.000991,
-    "geom:area_square_m":7056862.457206,
+    "geom:area_square_m":7056862.457208,
     "geom:bbox":"8.79125287091,54.8339114353,8.87455445996,54.8554063117",
     "geom:latitude":54.843266,
     "geom:longitude":8.831069,
@@ -143,7 +155,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -153,13 +166,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054142",
+        "eurostat:nuts_2021_id":"01054142",
         "gn:id":2818276
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e8dc9fd6297d1a4fe42fa3ae11a0084b",
+    "wof:geomhash":"efd1a88d3fe303dd394660823295dec3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":1260276603,
-    "wof:lastmodified":1582342071,
+    "wof:lastmodified":1684352059,
     "wof:name":"Uphusum",
     "wof:parent_id":1377683639,
     "wof:placetype":"locality",
-    "wof:population":376,
+    "wof:population":359,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

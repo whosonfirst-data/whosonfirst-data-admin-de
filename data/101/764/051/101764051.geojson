@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Titisee-Neustadt, Stadt",
+    "eurostat:nuts_2021_id":"08315113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315113",
+    "eurostat:population":12197,
+    "eurostat:population_year":2020,
     "geom:area":0.010809,
-    "geom:area_square_m":89542619.869158,
+    "geom:area_square_m":89542619.869157,
     "geom:bbox":"8.10948348218,47.8835503654,8.27160554005,48.0013430214",
     "geom:latitude":47.937887,
     "geom:longitude":8.189867,
@@ -320,7 +332,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":88.25,
     "wd:latitude":47.912222,
     "wd:longitude":8.214722,
@@ -340,6 +353,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315113",
+        "eurostat:nuts_2021_id":"08315113",
         "gn:id":2822083,
         "gp:id":699549,
         "qs_pg:id":892180,
@@ -351,7 +366,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1e20f819290c550e9d2c5b94905ed399",
+    "wof:geomhash":"fd921c92a67500ef1403c92b2514a26a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,12 +379,12 @@
         }
     ],
     "wof:id":101764051,
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351812,
     "wof:name":"Titisee-Neustadt",
     "wof:parent_id":1377685525,
     "wof:placetype":"locality",
-    "wof:population":9913,
-    "wof:population_rank":5,
+    "wof:population":12197,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Regis-Breitingen, Stadt",
+    "eurostat:nuts_2021_id":"14729360",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729360",
+    "eurostat:population":3897,
+    "eurostat:population_year":2020,
     "geom:area":0.003389,
-    "geom:area_square_m":26320097.413549,
+    "geom:area_square_m":26320097.413551,
     "geom:bbox":"12.352052,51.072855,12.461236,51.128211",
     "geom:latitude":51.097026,
     "geom:longitude":12.402774,
@@ -166,21 +178,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687837,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729360",
+        "eurostat:nuts_2021_id":"14729360",
         "gn:id":2849464,
         "gp:id":687344,
         "qs_pg:id":253859,
@@ -195,7 +210,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4c5cf560c9743f01f988366926d1a866",
+    "wof:geomhash":"eb2604b4b4fcb22d2a8f8d4074d69f9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,11 +222,11 @@
         }
     ],
     "wof:id":101822039,
-    "wof:lastmodified":1608051468,
+    "wof:lastmodified":1684351919,
     "wof:name":"Regis-Breitingen",
     "wof:parent_id":1377687837,
     "wof:placetype":"locality",
-    "wof:population":4185,
+    "wof:population":3897,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

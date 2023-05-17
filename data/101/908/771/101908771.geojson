@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bugewitz",
+    "eurostat:nuts_2021_id":"13075020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075020",
+    "eurostat:population":239,
+    "eurostat:population_year":2020,
     "geom:area":0.005701,
-    "geom:area_square_m":41627643.499838,
+    "geom:area_square_m":41627643.499839,
     "geom:bbox":"13.78261861,53.7643112314,13.9439409279,53.8442131593",
     "geom:latitude":53.804732,
     "geom:longitude":13.849077,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":73,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075020",
+        "eurostat:nuts_2021_id":"13075020",
         "gn:id":2942024,
         "gp:id":664558,
         "qs_pg:id":579568,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e2e960d8d643b139da71691002c7867c",
+    "wof:geomhash":"2dfac461fe9a562395793359904107ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101908771,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351999,
     "wof:name":"Bugewitz",
     "wof:parent_id":1377685091,
     "wof:placetype":"locality",
-    "wof:population":335,
+    "wof:population":239,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

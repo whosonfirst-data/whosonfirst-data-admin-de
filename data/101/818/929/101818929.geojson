@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heringsdorf",
+    "eurostat:nuts_2021_id":"13075049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075049",
+    "eurostat:population":8496,
+    "eurostat:population_year":2020,
     "geom:area":0.005159,
-    "geom:area_square_m":37539711.049904,
+    "geom:area_square_m":37539711.0499,
     "geom:bbox":"14.079016,53.915013,14.226322,53.994035",
     "geom:latitude":53.949697,
     "geom:longitude":14.142873,
@@ -144,17 +156,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":407,
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675571,
         1377685033,
-        85682487
+        85633111,
+        1377675571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075049",
+        "eurostat:nuts_2021_id":"13075049",
         "gp:id":694073,
         "qs_pg:id":9,
         "wd:id":"Q543232"
@@ -166,7 +181,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4442bd4f28b48a37947f0c415d4c1915",
+    "wof:geomhash":"44536abd13d506fcef1ddaa0d54c5a22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101818929,
-    "wof:lastmodified":1608049787,
+    "wof:lastmodified":1684351905,
     "wof:name":"Heringsdorf",
     "wof:parent_id":1377685033,
     "wof:placetype":"locality",
-    "wof:population":8968,
+    "wof:population":8496,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

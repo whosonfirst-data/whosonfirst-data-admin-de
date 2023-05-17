@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dreieich, Stadt",
+    "eurostat:nuts_2021_id":"06438002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438002",
+    "eurostat:population":42102,
+    "eurostat:population_year":2020,
     "geom:area":0.006715,
-    "geom:area_square_m":53363903.742548,
+    "geom:area_square_m":53363903.742545,
     "geom:bbox":"8.635363,49.954208,8.768123,50.054711",
     "geom:latitude":50.010821,
     "geom:longitude":8.716746,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.018889,
     "wd:longitude":8.696111,
     "wd:wordcount":2347,
@@ -322,15 +335,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377693957,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438002",
+        "eurostat:nuts_2021_id":"06438002",
         "gn:id":2935220,
         "gp:id":645611,
         "qs_pg:id":455631,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6d718e56ee36a1af3c30984e143b1490",
+    "wof:geomhash":"e175ae9440901ec828879fa2812e73a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101811755,
-    "wof:lastmodified":1608049907,
+    "wof:lastmodified":1684351879,
     "wof:name":"Dreieich",
     "wof:parent_id":1377693957,
     "wof:placetype":"locality",
-    "wof:population":40367,
+    "wof:population":42102,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

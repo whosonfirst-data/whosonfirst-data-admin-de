@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schleusingen, Stadt",
+    "eurostat:nuts_2021_id":"16069043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069043",
+    "eurostat:population":10930,
+    "eurostat:population_year":2020,
     "geom:area":0.015908,
-    "geom:area_square_m":125016578.659619,
+    "geom:area_square_m":125016578.65962,
     "geom:bbox":"10.67058,50.472653,10.86716,50.615265",
     "geom:latitude":50.539555,
     "geom:longitude":10.764632,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063647,
         1377690297,
-        85682541
+        85633111,
+        102063647
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069043",
+        "eurostat:nuts_2021_id":"16069043",
         "gn:id":2838600,
         "gp:id":692166,
         "qs_pg:id":1314694,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"394917d4203c8205dd1c5734456188f2",
+    "wof:geomhash":"52b50c7a1ae4474afbff61562d9b7566",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,12 +371,12 @@
         }
     ],
     "wof:id":101824475,
-    "wof:lastmodified":1608051151,
+    "wof:lastmodified":1684351928,
     "wof:name":"Schleusingen",
     "wof:parent_id":1377690297,
     "wof:placetype":"locality",
-    "wof:population":5842,
-    "wof:population_rank":5,
+    "wof:population":10930,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

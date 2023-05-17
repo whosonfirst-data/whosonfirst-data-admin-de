@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siefersheim",
+    "eurostat:nuts_2021_id":"07331060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331060",
+    "eurostat:population":1233,
+    "eurostat:population_year":2020,
     "geom:area":0.000778,
     "geom:area_square_m":6207663.791181,
     "geom:bbox":"7.92923087131,49.7803569554,7.98332534155,49.8087226389",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":193,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331060",
+        "eurostat:nuts_2021_id":"07331060",
         "gn:id":2832529,
         "gp:id":694841,
         "qs_pg:id":576912,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a38ab5d918e1c09e03b74bc33fe991a6",
+    "wof:geomhash":"e52bc0158523f9cc63085723ca3c6505",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101813155,
-    "wof:lastmodified":1582342568,
+    "wof:lastmodified":1684351888,
     "wof:name":"Siefersheim",
     "wof:parent_id":1377686207,
     "wof:placetype":"locality",
-    "wof:population":1287,
+    "wof:population":1233,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

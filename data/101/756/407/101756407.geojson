@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06436012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sulzbach (Taunus)",
+    "eurostat:nuts_2021_id":"06436012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71A",
+    "eurostat:nuts_2021_level_lau":"06436012",
+    "eurostat:population":9027,
+    "eurostat:population_year":2020,
     "geom:area":0.00093,
     "geom:area_square_m":7368064.516378,
     "geom:bbox":"8.50304378418,50.1158703582,8.55903888502,50.1505974011",
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06436012",
+        "eurostat:nuts_2021_id":"06436012",
         "gn:id":2824837,
         "gp:id":698274,
         "qs_pg:id":1283656,
@@ -314,7 +329,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bc89ac9bead9966a784f2a18bcc0fa01",
+    "wof:geomhash":"1a712fce8c16d422e1fe2a782baabccb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101756407,
-    "wof:lastmodified":1582342500,
+    "wof:lastmodified":1684351795,
     "wof:name":"Sulzbach (Taunus)",
     "wof:parent_id":1377693839,
     "wof:placetype":"locality",
-    "wof:population":8149,
+    "wof:population":9027,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

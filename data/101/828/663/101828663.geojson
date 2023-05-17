@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schallstadt",
+    "eurostat:nuts_2021_id":"08315098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315098",
+    "eurostat:population":6351,
+    "eurostat:population_year":2020,
     "geom:area":0.002293,
     "geom:area_square_m":18989967.318687,
     "geom:bbox":"7.676492611,47.9357361168,7.79044736256,47.9794018409",
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -191,6 +204,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315098",
+        "eurostat:nuts_2021_id":"08315098",
         "gn:id":2840526,
         "gp:id":691416,
         "qs_pg:id":577079,
@@ -205,7 +220,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0f97f9a1419f2d5c97474c26f9761c62",
+    "wof:geomhash":"caaaceb28b39d3cdc6d0ccbf5268ca3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101828663,
-    "wof:lastmodified":1582342412,
+    "wof:lastmodified":1684351943,
     "wof:name":"Schallstadt",
     "wof:parent_id":1377685497,
     "wof:placetype":"locality",
-    "wof:population":5841,
+    "wof:population":6351,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

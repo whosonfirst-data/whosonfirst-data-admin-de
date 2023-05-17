@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ohmden",
+    "eurostat:nuts_2021_id":"08116053",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116053",
+    "eurostat:population":1746,
+    "eurostat:population_year":2020,
     "geom:area":0.00068,
     "geom:area_square_m":5554071.597869,
     "geom:bbox":"9.50695407988,48.6391962494,9.55518701664,48.6602987612",
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682567,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116053",
+        "eurostat:nuts_2021_id":"08116053",
         "fct:id":"071554e2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2857637,
         "gp:id":683088,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c56ddb29fc3dc6392e09d28481321764",
+    "wof:geomhash":"16b8f2470d02a49ae99b69f06fd73a4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342513,
+    "wof:lastmodified":1684351805,
     "wof:name":"Ohmden",
     "wof:parent_id":1377687135,
     "wof:placetype":"locality",
-    "wof:population":1733,
+    "wof:population":1746,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

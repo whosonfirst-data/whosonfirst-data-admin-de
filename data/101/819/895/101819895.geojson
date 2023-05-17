@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Freienwalde (Oder), Stadt",
+    "eurostat:nuts_2021_id":"12064044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064044",
+    "eurostat:population":12304,
+    "eurostat:population_year":2020,
     "geom:area":0.017442,
-    "geom:area_square_m":130349705.790809,
+    "geom:area_square_m":130349705.790815,
     "geom:bbox":"13.9773938896,52.7274337027,14.1615955647,52.9032944944",
     "geom:latitude":52.814734,
     "geom:longitude":14.063513,
@@ -324,7 +336,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.785556,
     "wd:longitude":14.0325,
     "wd:wordcount":504,
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064044",
+        "eurostat:nuts_2021_id":"12064044",
         "gn:id":2953458,
         "gp:id":636422,
         "qs_pg:id":184608,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2bc4e3a59231f524373ea4edd9ee72b4",
+    "wof:geomhash":"255e9047c560599b174582e0febb6b01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101819895,
-    "wof:lastmodified":1582342428,
+    "wof:lastmodified":1684351910,
     "wof:name":"Bad Freienwalde (Oder)",
     "wof:parent_id":1377694651,
     "wof:placetype":"locality",
-    "wof:population":13075,
+    "wof:population":12304,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesenfeld",
+    "eurostat:nuts_2021_id":"16061105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061105",
+    "eurostat:population":218,
+    "eurostat:population_year":2020,
     "geom:area":0.000968,
-    "geom:area_square_m":7491516.820731,
+    "geom:area_square_m":7491516.820732,
     "geom:bbox":"10.0572767295,51.2558329388,10.1241927125,51.2844758529",
     "geom:latitude":51.272052,
     "geom:longitude":10.092043,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "wof:belongsto":[
         85682541,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061105",
+        "eurostat:nuts_2021_id":"16061105",
         "gn:id":2809243,
         "gp:id":706374,
         "qs_pg:id":1245154,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ec545052074a1ec2137fc1948bb72f14",
+    "wof:geomhash":"87c1c1a86f31976d9d20abba0b7dc6db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101907637,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351989,
     "wof:name":"Wiesenfeld",
     "wof:parent_id":1377689491,
     "wof:placetype":"locality",
-    "wof:population":257,
+    "wof:population":218,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

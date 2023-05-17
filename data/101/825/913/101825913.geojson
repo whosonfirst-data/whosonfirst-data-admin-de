@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09478176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weismain, St",
+    "eurostat:nuts_2021_id":"09478176",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24C",
+    "eurostat:nuts_2021_level_lau":"09478176",
+    "eurostat:population":4751,
+    "eurostat:population_year":2020,
     "geom:area":0.011298,
-    "geom:area_square_m":89694257.481876,
+    "geom:area_square_m":89694257.481872,
     "geom:bbox":"11.144305,49.989563,11.324539,50.110035",
     "geom:latitude":50.055882,
     "geom:longitude":11.235671,
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063585,
         1377688609,
         404227583,
-        85682571
+        102063585
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09478176",
+        "eurostat:nuts_2021_id":"09478176",
         "gn:id":2812067,
         "gp:id":704889,
         "qs_pg:id":218448,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"da39639b55864caad78df68c9c0fbd0e",
+    "wof:geomhash":"40525f27f869b8a8c11c0a974c0a37a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101825913,
-    "wof:lastmodified":1608051426,
+    "wof:lastmodified":1684351932,
     "wof:name":"Weismain",
     "wof:parent_id":1377688609,
     "wof:placetype":"locality",
-    "wof:population":4840,
+    "wof:population":4751,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

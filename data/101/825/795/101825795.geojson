@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mitterteich, St",
+    "eurostat:nuts_2021_id":"09377141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377141",
+    "eurostat:population":6580,
+    "eurostat:population_year":2020,
     "geom:area":0.004954,
-    "geom:area_square_m":39417667.342954,
+    "geom:area_square_m":39417667.342955,
     "geom:bbox":"12.1851205532,49.8849795131,12.2859107176,49.9970536139",
     "geom:latitude":49.944392,
     "geom:longitude":12.240707,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377141",
+        "eurostat:nuts_2021_id":"09377141",
         "gn:id":2870355,
         "gp:id":675676,
         "qs_pg:id":983484,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d88f263ee64702752fee59d55435b6bb",
+    "wof:geomhash":"7c6794cbf7fb4df60786f98aecb2229b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101825795,
-    "wof:lastmodified":1582342575,
+    "wof:lastmodified":1684351931,
     "wof:name":"Mitterteich",
     "wof:parent_id":1377686989,
     "wof:placetype":"locality",
-    "wof:population":7252,
+    "wof:population":6580,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

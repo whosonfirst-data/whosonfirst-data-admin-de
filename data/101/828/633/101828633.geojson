@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08336084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinen",
+    "eurostat:nuts_2021_id":"08336084",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE139",
+    "eurostat:nuts_2021_level_lau":"08336084",
+    "eurostat:population":9988,
+    "eurostat:population_year":2020,
     "geom:area":0.005585,
-    "geom:area_square_m":46503257.330452,
+    "geom:area_square_m":46503257.33045,
     "geom:bbox":"7.708622,47.616605,7.783226,47.73397",
     "geom:latitude":47.674966,
     "geom:longitude":7.742733,
@@ -304,22 +316,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063211,
         1377685587,
         404227543,
-        85682567
+        102063211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08336084",
+        "eurostat:nuts_2021_id":"08336084",
         "fct:id":"07159c90-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2828228,
         "gp:id":696815,
@@ -334,7 +349,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bdf29c8dff66f63c09cdea987e287254",
+    "wof:geomhash":"6289f439f407c7c6fa0c887583b92087",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,12 +365,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050125,
+    "wof:lastmodified":1684351943,
     "wof:name":"Steinen",
     "wof:parent_id":1377685587,
     "wof:placetype":"locality",
-    "wof:population":10128,
-    "wof:population_rank":6,
+    "wof:population":9988,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flieden",
+    "eurostat:nuts_2021_id":"06631008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631008",
+    "eurostat:population":8554,
+    "eurostat:population_year":2020,
     "geom:area":0.006279,
-    "geom:area_square_m":49474644.445729,
+    "geom:area_square_m":49474644.445731,
     "geom:bbox":"9.481314,50.381291,9.623909,50.457254",
     "geom:latitude":50.417147,
     "geom:longitude":9.550516,
@@ -288,22 +300,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":391,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684111,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631008",
+        "eurostat:nuts_2021_id":"06631008",
         "fct:id":"073e96fe-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2926226,
         "gp:id":12632743,
@@ -318,7 +333,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8584e4c321abafd842eb98a0018ab41a",
+    "wof:geomhash":"12b1384fa898ecee9cb73ebd770f0bc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050104,
+    "wof:lastmodified":1684351876,
     "wof:name":"Flieden",
     "wof:parent_id":1377684111,
     "wof:placetype":"locality",
-    "wof:population":8843,
+    "wof:population":8554,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

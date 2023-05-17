@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenwarte",
+    "eurostat:nuts_2021_id":"16073035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073035",
+    "eurostat:population":177,
+    "eurostat:population_year":2020,
     "geom:area":0.000826,
-    "geom:area_square_m":6485290.569472,
+    "geom:area_square_m":6485290.569473,
     "geom:bbox":"11.4599673059,50.5946622949,11.519299086,50.6221483113",
     "geom:latitude":50.607661,
     "geom:longitude":11.49304,
@@ -140,7 +152,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -154,13 +167,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073035",
+        "eurostat:nuts_2021_id":"16073035",
         "gn:id":2901364
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"0cb5d16b665eff68ff7803fd59f7fa1f",
+    "wof:geomhash":"ccd3675da925ea14a4fa10354af00090",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":1360255157,
-    "wof:lastmodified":1582342098,
+    "wof:lastmodified":1684352063,
     "wof:name":"Hohenwarte",
     "wof:parent_id":1377689001,
     "wof:placetype":"locality",
-    "wof:population":158,
+    "wof:population":177,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6ssenheim",
+    "eurostat:nuts_2021_id":"09677132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677132",
+    "eurostat:population":1118,
+    "eurostat:population_year":2020,
     "geom:area":0.001448,
     "geom:area_square_m":11500741.972249,
     "geom:bbox":"9.73525472636,50.0004526078,9.81312589776,50.0344322768",
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":534,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677132",
+        "eurostat:nuts_2021_id":"09677132",
         "gn:id":2918804,
         "gp:id":653471,
         "qs_pg:id":1039755,
@@ -331,7 +346,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ca3c5a0f830d0f7167722981b2c46532",
+    "wof:geomhash":"03ea30241d6105c5f1c735432315af2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101811905,
-    "wof:lastmodified":1582342387,
+    "wof:lastmodified":1684351880,
     "wof:name":"G\u00f6ssenheim",
     "wof:parent_id":1377691589,
     "wof:placetype":"locality",
-    "wof:population":1319,
+    "wof:population":1118,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruchstedt",
+    "eurostat:nuts_2021_id":"16064009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064009",
+    "eurostat:population":272,
+    "eurostat:population_year":2020,
     "geom:area":0.000876,
     "geom:area_square_m":6787182.673637,
     "geom:bbox":"10.7494010221,51.1693187318,10.8148777872,51.1977433218",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064009",
+        "eurostat:nuts_2021_id":"16064009",
         "gn:id":2943558,
         "gp:id":641575,
         "qs_pg:id":579601,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73ddb158944defd94641bc0687a47bd8",
+    "wof:geomhash":"baf16aba7a7424d78a5c10b73a2e44af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101909015,
-    "wof:lastmodified":1582342283,
+    "wof:lastmodified":1684352001,
     "wof:name":"Bruchstedt",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":310,
+    "wof:population":272,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

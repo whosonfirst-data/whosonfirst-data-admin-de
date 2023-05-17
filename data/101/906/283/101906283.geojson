@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eggstedt",
+    "eurostat:nuts_2021_id":"01051026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051026",
+    "eurostat:population":756,
+    "eurostat:population_year":2020,
     "geom:area":0.001756,
-    "geom:area_square_m":12743794.57434,
+    "geom:area_square_m":12743794.574342,
     "geom:bbox":"9.23333285905,54.0345061207,9.29012933308,54.0785137825",
     "geom:latitude":54.056644,
     "geom:longitude":9.262043,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051026",
+        "eurostat:nuts_2021_id":"01051026",
         "gn:id":2933017,
         "gp:id":646716,
         "qs_pg:id":93958,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d550bb3c112a514482d45365dd5d5ce6",
+    "wof:geomhash":"70442e2a85c2140d79bdc9340db5a4ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101906283,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351978,
     "wof:name":"Eggstedt",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":858,
+    "wof:population":756,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

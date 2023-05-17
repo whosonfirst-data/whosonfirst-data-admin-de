@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16070013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elxleben",
+    "eurostat:nuts_2021_id":"16070013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0F",
+    "eurostat:nuts_2021_level_lau":"16070013",
+    "eurostat:population":568,
+    "eurostat:population_year":2020,
     "geom:area":0.001208,
-    "geom:area_square_m":9428849.342079,
+    "geom:area_square_m":9428849.342078,
     "geom:bbox":"11.0239622866,50.8527985026,11.080875489,50.8844258863",
     "geom:latitude":50.868332,
     "geom:longitude":11.054091,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682541,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16070013",
+        "eurostat:nuts_2021_id":"16070013",
         "gn:id":2930631,
         "gp:id":647800,
         "qs_pg:id":579244,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1b5c9927060a6a1e4428ba437405b317",
+    "wof:geomhash":"e31e6de2658859b925e65b564b2a4de0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101910215,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352005,
     "wof:name":"Elxleben",
     "wof:parent_id":1377690439,
     "wof:placetype":"locality",
-    "wof:population":626,
+    "wof:population":568,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

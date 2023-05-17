@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Parsau",
+    "eurostat:nuts_2021_id":"03151021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151021",
+    "eurostat:population":1869,
+    "eurostat:population_year":2020,
     "geom:area":0.003927,
-    "geom:area_square_m":29542593.50418,
+    "geom:area_square_m":29542593.504182,
     "geom:bbox":"10.8541589536,52.4957724157,11.0087817438,52.5654067743",
     "geom:latitude":52.528546,
     "geom:longitude":10.925063,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151021",
+        "eurostat:nuts_2021_id":"03151021",
         "gn:id":2855390,
         "gp:id":684258,
         "qs_pg:id":1038787,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f36d3f9634f14c294c7b124c34abb406",
+    "wof:geomhash":"785bb7cd9493d7accf83ee74dcb31086",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101819845,
-    "wof:lastmodified":1582342427,
+    "wof:lastmodified":1684351909,
     "wof:name":"Parsau",
     "wof:parent_id":1377684897,
     "wof:placetype":"locality",
-    "wof:population":1973,
+    "wof:population":1869,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

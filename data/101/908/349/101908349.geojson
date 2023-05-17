@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siebenb\u00e4umen",
+    "eurostat:nuts_2021_id":"01053118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053118",
+    "eurostat:population":606,
+    "eurostat:population_year":2020,
     "geom:area":0.001203,
-    "geom:area_square_m":8796108.992027,
+    "geom:area_square_m":8796108.992026,
     "geom:bbox":"10.493406503,53.7316489588,10.5517786363,53.7646654199",
     "geom:latitude":53.748972,
     "geom:longitude":10.525159,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053118",
+        "eurostat:nuts_2021_id":"01053118",
         "gn:id":2832734,
         "gp:id":29351944,
         "qs_pg:id":576919,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9c9a375d5101187ace346ce3ceddd264",
+    "wof:geomhash":"a4d5933cb5d9a2b021ee1c45666090b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908349,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351995,
     "wof:name":"Siebenb\u00e4umen",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":619,
+    "wof:population":606,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Untergriesbach, M",
+    "eurostat:nuts_2021_id":"09275153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275153",
+    "eurostat:population":6089,
+    "eurostat:population_year":2020,
     "geom:area":0.009006,
-    "geom:area_square_m":73680107.719512,
+    "geom:area_square_m":73680107.719515,
     "geom:bbox":"13.581314,48.513008,13.756389,48.636039",
     "geom:latitude":48.574199,
     "geom:longitude":13.685939,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":44,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684827,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275153",
+        "eurostat:nuts_2021_id":"09275153",
         "fct:id":"0715251c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2819498,
         "gp:id":700996,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"be80d82a7cda47d9ced6c6f485aa9792",
+    "wof:geomhash":"a1c3670870b5d6e71c8fba9a34a0c774",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050659,
+    "wof:lastmodified":1684351832,
     "wof:name":"Untergriesbach",
     "wof:parent_id":1377684827,
     "wof:placetype":"locality",
-    "wof:population":6294,
+    "wof:population":6089,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stahlhofen",
+    "eurostat:nuts_2021_id":"07143072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143072",
+    "eurostat:population":732,
+    "eurostat:population_year":2020,
     "geom:area":0.000369,
     "geom:area_square_m":2909162.142217,
     "geom:bbox":"7.84175372277,50.3843835042,7.88219206601,50.4098577334",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":252,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143072",
+        "eurostat:nuts_2021_id":"07143072",
         "gn:id":2829664,
         "gp:id":696265,
         "qs_pg:id":576861,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b8cd51b1d9c177d1158a12362afb6cb7",
+    "wof:geomhash":"eaa4109f9129a18072c1a536c4207b41",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101907501,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351988,
     "wof:name":"Stahlhofen",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":369,
+    "wof:population":732,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

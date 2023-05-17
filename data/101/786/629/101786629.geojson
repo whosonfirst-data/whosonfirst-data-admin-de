@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09175122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grafing b.M\u00fcnchen, St",
+    "eurostat:nuts_2021_id":"09175122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE218",
+    "eurostat:nuts_2021_level_lau":"09175122",
+    "eurostat:population":13775,
+    "eurostat:population_year":2020,
     "geom:area":0.003573,
-    "geom:area_square_m":29544888.760514,
+    "geom:area_square_m":29544888.76051,
     "geom:bbox":"11.9274720516,48.002645798,12.0263252182,48.0668685541",
     "geom:latitude":48.036564,
     "geom:longitude":11.974677,
@@ -146,7 +158,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09175122",
+        "eurostat:nuts_2021_id":"09175122",
         "gn:id":2918241,
         "gp:id":653801,
         "loc:id":"n81089891",
@@ -168,7 +183,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f0f9a1fae7d7d6f62339d5eac71ea691",
+    "wof:geomhash":"15f089e3e7ed4dca2080fce5f37fa26c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101786629,
-    "wof:lastmodified":1582342638,
+    "wof:lastmodified":1684351839,
     "wof:name":"Grafing b. M\u00fcnchen",
     "wof:parent_id":1377691329,
     "wof:placetype":"locality",
-    "wof:population":12497,
+    "wof:population":13775,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

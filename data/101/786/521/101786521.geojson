@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eppishausen",
+    "eurostat:nuts_2021_id":"09778134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778134",
+    "eurostat:population":1875,
+    "eurostat:population_year":2020,
     "geom:area":0.004743,
-    "geom:area_square_m":39105434.283969,
+    "geom:area_square_m":39105434.283973,
     "geom:bbox":"10.4831192663,48.1331072067,10.5971378079,48.2250709335",
     "geom:latitude":48.183222,
     "geom:longitude":10.529078,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778134",
+        "eurostat:nuts_2021_id":"09778134",
         "gn:id":2929827,
         "gp:id":648258,
         "qs_pg:id":579236,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"00339c04b7940ed114f046d546f577d0",
+    "wof:geomhash":"a97d571cf82a616b8cd269e639aa3ee8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101786521,
-    "wof:lastmodified":1582342639,
+    "wof:lastmodified":1684351838,
     "wof:name":"Eppishausen",
     "wof:parent_id":1377693213,
     "wof:placetype":"locality",
-    "wof:population":1822,
+    "wof:population":1875,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

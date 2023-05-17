@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ruhla, Stadt",
+    "eurostat:nuts_2021_id":"16063066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063066",
+    "eurostat:population":5456,
+    "eurostat:population_year":2020,
     "geom:area":0.004909,
     "geom:area_square_m":38288580.42504,
     "geom:bbox":"10.322432,50.862428,10.437959,50.935219",
@@ -171,21 +183,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":289,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689717,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063066",
+        "eurostat:nuts_2021_id":"16063066",
         "gn:id":2843258,
         "gp:id":690330,
         "qs_pg:id":1038561,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"236c682c54efaab6d96e02dbba0646ed",
+    "wof:geomhash":"21a433a7cb4d01a678eb6e8199623127",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101823317,
-    "wof:lastmodified":1608051110,
+    "wof:lastmodified":1684351925,
     "wof:name":"Ruhla",
     "wof:parent_id":1377689717,
     "wof:placetype":"locality",
-    "wof:population":6757,
+    "wof:population":5456,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wang",
+    "eurostat:nuts_2021_id":"09178155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178155",
+    "eurostat:population":2530,
+    "eurostat:population_year":2020,
     "geom:area":0.003742,
-    "geom:area_square_m":30662819.309514,
+    "geom:area_square_m":30662819.309513,
     "geom:bbox":"11.8349004827,48.4746083652,12.0103537994,48.5325484548",
     "geom:latitude":48.497658,
     "geom:longitude":11.918104,
@@ -291,7 +303,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178155",
+        "eurostat:nuts_2021_id":"09178155",
         "fct:id":"075d55b2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2814294,
         "gp:id":12635179,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"a54bfe572da0abbbad635b534c8532f1",
+    "wof:geomhash":"ac3089abb3e883c5f6a131296bd03fac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342628,
+    "wof:lastmodified":1684351966,
     "wof:name":"Wang",
     "wof:parent_id":1377691955,
     "wof:placetype":"locality",
-    "wof:population":2284,
+    "wof:population":2530,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Br\u00fcckenau, St",
+    "eurostat:nuts_2021_id":"09672113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672113",
+    "eurostat:population":6462,
+    "eurostat:population_year":2020,
     "geom:area":0.002992,
     "geom:area_square_m":23625780.870837,
     "geom:bbox":"9.727705,50.278581,9.852635,50.342397",
@@ -317,18 +329,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":645,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063619,
         1377690513,
         404227569,
-        85682571
+        102063619
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672113",
+        "eurostat:nuts_2021_id":"09672113",
         "gn:id":2953535,
         "gp:id":636403,
         "qs_pg:id":984489,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0e1075cf6b0f929717f366b85fe5c8eb",
+    "wof:geomhash":"986116c96e3bf7205a61238ae64c27ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101812051,
-    "wof:lastmodified":1608051228,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bad Br\u00fcckenau",
     "wof:parent_id":1377690513,
     "wof:placetype":"locality",
-    "wof:population":7304,
+    "wof:population":6462,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

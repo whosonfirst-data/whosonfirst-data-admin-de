@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jevenstedt",
+    "eurostat:nuts_2021_id":"01058086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058086",
+    "eurostat:population":3318,
+    "eurostat:population_year":2020,
     "geom:area":0.006267,
-    "geom:area_square_m":45302113.374931,
+    "geom:area_square_m":45302113.374934,
     "geom:bbox":"9.61378337765,54.1880805334,9.75353786741,54.2637693836",
     "geom:latitude":54.224929,
     "geom:longitude":9.683814,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":55,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058086",
+        "eurostat:nuts_2021_id":"01058086",
         "gn:id":2894899,
         "gp:id":664147,
         "qs_pg:id":578415,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"56474ce87dca8e509f13adc30c308b66",
+    "wof:geomhash":"ca75853cde590d29e3c7579c6c8e76cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101806861,
-    "wof:lastmodified":1582342613,
+    "wof:lastmodified":1684351856,
     "wof:name":"Jevenstedt",
     "wof:parent_id":1377684241,
     "wof:placetype":"locality",
-    "wof:population":3332,
+    "wof:population":3318,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

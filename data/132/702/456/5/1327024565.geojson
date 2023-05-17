@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erbach",
+    "eurostat:nuts_2021_id":"07140037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140037",
+    "eurostat:population":284,
+    "eurostat:population_year":2020,
     "geom:area":0.000252,
     "geom:area_square_m":2000556.070187,
     "geom:bbox":"7.66480379796,50.0185555422,7.69496416987,50.0327009269",
@@ -113,7 +125,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -127,13 +140,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140037",
+        "eurostat:nuts_2021_id":"07140037",
         "gn:id":2929800
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"0551a9c8f280e3f9e9b77b72e9a5c09f",
+    "wof:geomhash":"ef4e78a383ef8904110804873a69d22b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1327024565,
-    "wof:lastmodified":1582341877,
+    "wof:lastmodified":1684352062,
     "wof:name":"Erbach",
     "wof:parent_id":1377685695,
     "wof:placetype":"locality",
-    "wof:population":236,
+    "wof:population":284,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

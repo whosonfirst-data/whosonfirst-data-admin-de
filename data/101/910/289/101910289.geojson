@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldeck",
+    "eurostat:nuts_2021_id":"16074105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074105",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "geom:area":0.001084,
     "geom:area_square_m":8446333.67777,
     "geom:bbox":"11.7621452661,50.9068222141,11.8297059954,50.9346982506",
@@ -155,7 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":793,
     "wof:belongsto":[
         85682541,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074105",
+        "eurostat:nuts_2021_id":"16074105",
         "gn:id":2815255,
         "gp:id":703416,
         "qs_pg:id":185937,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"86c7e2c38eec55aa1c245e6f9249d703",
+    "wof:geomhash":"e98b9fe12e78c3a5a68c5dd6a37593a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101910289,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Waldeck",
     "wof:parent_id":1377690707,
     "wof:placetype":"locality",
-    "wof:population":286,
+    "wof:population":225,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

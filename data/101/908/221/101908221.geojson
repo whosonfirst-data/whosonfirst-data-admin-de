@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neddemin",
+    "eurostat:nuts_2021_id":"13071104",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071104",
+    "eurostat:population":347,
+    "eurostat:population_year":2020,
     "geom:area":0.001716,
-    "geom:area_square_m":12573964.422469,
+    "geom:area_square_m":12573964.42247,
     "geom:bbox":"13.2561111363,53.6294978962,13.3213654213,53.6722039025",
     "geom:latitude":53.648924,
     "geom:longitude":13.289932,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071104",
+        "eurostat:nuts_2021_id":"13071104",
         "gn:id":2866739,
         "gp:id":677331,
         "qs_pg:id":577726,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"85fbb019c5a15355477e18450e8ecac7",
+    "wof:geomhash":"37cbf54f9af7e07db4fd78e5b214cba2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101908221,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351994,
     "wof:name":"Neddemin",
     "wof:parent_id":1377684479,
     "wof:placetype":"locality",
-    "wof:population":331,
+    "wof:population":347,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

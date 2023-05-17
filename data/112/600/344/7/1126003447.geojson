@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Enspel",
+    "eurostat:nuts_2021_id":"07143219",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143219",
+    "eurostat:population":267,
+    "eurostat:population_year":2020,
     "geom:area":0.000189,
     "geom:area_square_m":1480454.503001,
     "geom:bbox":"7.8783203791,50.6057090703,7.89603153796,50.6274448784",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143219",
+        "eurostat:nuts_2021_id":"07143219",
         "gn:id":2929997,
         "qs_pg:id":579227,
         "wd:id":"Q370660"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"3ab3220b59c6f28e68acdd8e12d35e23",
+    "wof:geomhash":"5bbb447001b7edfe6b853cc89615c077",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126003447,
-    "wof:lastmodified":1582343022,
+    "wof:lastmodified":1684352043,
     "wof:name":"Enspel",
     "wof:parent_id":1377685835,
     "wof:placetype":"locality",
-    "wof:population":277,
+    "wof:population":267,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

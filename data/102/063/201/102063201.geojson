@@ -4,6 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"2",
+    "eurostat:name_latin":"Kempten (Allg\u00e4u), Kreisfreie Stadt",
+    "eurostat:name_local":"Kempten (Allg\u00e4u), Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DE273",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE273",
+    "eurostat:population":69053,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.007585,
     "geom:area_square_m":63075040.896907,
     "geom:bbox":"10.233105,47.695136,10.377875,47.777877",
@@ -234,8 +248,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"63",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Kempten (Allg\u00e4u)",
@@ -248,12 +262,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227547,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE273",
         "hasc:id":"DE.BY.KM"
     },
     "wof:coterminous":[
@@ -263,7 +278,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3a9865c1a6b86cd3c2804ba14955976f",
+    "wof:geomhash":"ccede8ae35f87810fbfc475095eee9af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -274,12 +289,12 @@
         }
     ],
     "wof:id":102063201,
-    "wof:lastmodified":1587164311,
+    "wof:lastmodified":1684351506,
     "wof:name":"Kempten",
     "wof:parent_id":404227547,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":64078,
+    "wof:population":69053,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"KM",

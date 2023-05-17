@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buhla",
+    "eurostat:nuts_2021_id":"16061019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061019",
+    "eurostat:population":479,
+    "eurostat:population_year":2020,
     "geom:area":0.001103,
-    "geom:area_square_m":8499366.878676,
+    "geom:area_square_m":8499366.878675,
     "geom:bbox":"10.4701490724,51.4141262217,10.5197491974,51.4552427079",
     "geom:latitude":51.436342,
     "geom:longitude":10.491536,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061019",
+        "eurostat:nuts_2021_id":"16061019",
         "gn:id":2941965,
         "gp:id":668586,
         "qs_pg:id":579562,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ede763c0aa42f13b89855a817e52275d",
+    "wof:geomhash":"b21249d3cc03fdde9e563cfdc6d6b7b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101909125,
-    "wof:lastmodified":1582342293,
+    "wof:lastmodified":1684352001,
     "wof:name":"Buhla",
     "wof:parent_id":1377689565,
     "wof:placetype":"locality",
-    "wof:population":617,
+    "wof:population":479,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

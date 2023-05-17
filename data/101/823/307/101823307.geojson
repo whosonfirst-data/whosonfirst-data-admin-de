@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Berka, Stadt",
+    "eurostat:nuts_2021_id":"16071003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071003",
+    "eurostat:population":7500,
+    "eurostat:population_year":2020,
     "geom:area":0.006985,
-    "geom:area_square_m":54486715.16836,
+    "geom:area_square_m":54486715.168359,
     "geom:bbox":"11.171448,50.828805,11.331454,50.939421",
     "geom:latitude":50.888328,
     "geom:longitude":11.255044,
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.9,
     "wd:longitude":11.283333,
     "wd:wordcount":421,
@@ -177,14 +190,16 @@
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063719,
         1377690463,
-        85682541
+        85633111,
+        102063719
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071003",
+        "eurostat:nuts_2021_id":"16071003",
         "gn:id":2953548,
         "gp:id":636391,
         "qs_pg:id":475822,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"52e0efd6a44061aa8c54b310a713c6cc",
+    "wof:geomhash":"ae483a08e64bd1946d978792bc912046",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
         }
     ],
     "wof:id":101823307,
-    "wof:lastmodified":1608051053,
+    "wof:lastmodified":1684351925,
     "wof:name":"Bad Berka",
     "wof:parent_id":1377690463,
     "wof:placetype":"locality",
-    "wof:population":7744,
+    "wof:population":7500,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

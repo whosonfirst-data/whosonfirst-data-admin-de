@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06436006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hochheim am Main, Stadt",
+    "eurostat:nuts_2021_id":"06436006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71A",
+    "eurostat:nuts_2021_level_lau":"06436006",
+    "eurostat:population":17945,
+    "eurostat:population_year":2020,
     "geom:area":0.002466,
     "geom:area_square_m":19587321.696682,
     "geom:bbox":"8.33064022142,49.997067766,8.41285333584,50.0604172114",
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":129.0,
     "wd:latitude":50.010833,
     "wd:longitude":8.350764,
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06436006",
+        "eurostat:nuts_2021_id":"06436006",
         "fct:id":"0744b200-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2903175,
         "gp:id":660556,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a732aa503ecbd10a8b8ecafee67ce466",
+    "wof:geomhash":"6632a8fa3d3e31563143f741467c552c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342385,
+    "wof:lastmodified":1684351880,
     "wof:name":"Hochheim am Main",
     "wof:parent_id":1377693791,
     "wof:placetype":"locality",
-    "wof:population":16860,
+    "wof:population":17945,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

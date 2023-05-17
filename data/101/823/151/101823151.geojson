@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lichtentanne",
+    "eurostat:nuts_2021_id":"14524170",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524170",
+    "eurostat:population":6329,
+    "eurostat:population_year":2020,
     "geom:area":0.003524,
-    "geom:area_square_m":27619252.67948,
+    "geom:area_square_m":27619252.679482,
     "geom:bbox":"12.375744,50.636349,12.464126,50.708415",
     "geom:latitude":50.670247,
     "geom:longitude":12.417256,
@@ -140,17 +152,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":44,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686441,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524170",
+        "eurostat:nuts_2021_id":"14524170",
         "gn:id":2878027,
         "gp:id":671628,
         "qs_pg:id":578025,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dc475ea10154dcc2b83f34e04def3b9c",
+    "wof:geomhash":"309918ba77be81bcc96e70101d99eb47",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101823151,
-    "wof:lastmodified":1608051059,
+    "wof:lastmodified":1684351924,
     "wof:name":"Lichtentanne",
     "wof:parent_id":1377686441,
     "wof:placetype":"locality",
-    "wof:population":7163,
+    "wof:population":6329,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

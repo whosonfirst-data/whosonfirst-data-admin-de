@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenkirchen (Westerwald), Stadt",
+    "eurostat:nuts_2021_id":"07132501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132501",
+    "eurostat:population":6305,
+    "eurostat:population_year":2020,
     "geom:area":0.001425,
     "geom:area_square_m":11166475.585628,
     "geom:bbox":"7.59927742357,50.6667318983,7.68117030511,50.7103901729",
@@ -167,7 +179,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132501",
+        "eurostat:nuts_2021_id":"07132501",
         "gn:id":2957567,
         "gp:id":634508,
         "qs_pg:id":142964,
@@ -187,7 +202,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1908075784cd5b67093965d1ef261c93",
+    "wof:geomhash":"be6776b60689e85f249c22ecf93e18ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101840125,
-    "wof:lastmodified":1582342561,
+    "wof:lastmodified":1684351951,
     "wof:name":"Altenkirchen (Westerwald)",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":6385,
+    "wof:population":6305,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

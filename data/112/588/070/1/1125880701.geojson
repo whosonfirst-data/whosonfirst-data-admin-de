@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schieder-Schwalenberg, Stadt",
+    "eurostat:nuts_2021_id":"05766060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766060",
+    "eurostat:population":8344,
+    "eurostat:population_year":2020,
     "geom:area":0.007829,
-    "geom:area_square_m":59731537.4599,
+    "geom:area_square_m":59731537.459894,
     "geom:bbox":"9.083775,51.851898,9.239865,51.95358",
     "geom:latitude":51.902014,
     "geom:longitude":9.16853,
@@ -282,21 +294,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691877,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766060",
+        "eurostat:nuts_2021_id":"05766060",
         "gn:id":3207383,
         "gp:id":20171592,
         "qs_pg:id":147366,
@@ -310,7 +325,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"360be97c6e803ec22d0267406d810fa8",
+    "wof:geomhash":"00476fc44b4c6579f22e75faa899eca5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":1125880701,
-    "wof:lastmodified":1608053999,
+    "wof:lastmodified":1684352035,
     "wof:name":"Schieder-Schwalenberg",
     "wof:parent_id":1377691877,
     "wof:placetype":"locality",
-    "wof:population":9443,
+    "wof:population":8344,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

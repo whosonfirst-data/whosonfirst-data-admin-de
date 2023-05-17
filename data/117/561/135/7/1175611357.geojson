@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Windeck",
+    "eurostat:nuts_2021_id":"05382076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382076",
+    "eurostat:population":18730,
+    "eurostat:population_year":2020,
     "geom:area":0.013739,
-    "geom:area_square_m":107384311.476458,
+    "geom:area_square_m":107384311.47646,
     "geom:bbox":"7.468363,50.737909,7.682222,50.842529",
     "geom:latitude":50.793242,
     "geom:longitude":7.57276,
@@ -291,22 +303,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":99,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690749,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382076",
+        "eurostat:nuts_2021_id":"05382076",
         "gn:id":2808260,
         "gp:id":706860,
         "qs_pg:id":210383,
@@ -323,7 +338,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af4db9597a61f6bba6d3d7d8e3e59b91",
+    "wof:geomhash":"191c84cf1dbcbecd1a68a7787b2b1f14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":1175611357,
-    "wof:lastmodified":1608048926,
+    "wof:lastmodified":1684352056,
     "wof:name":"Windeck",
     "wof:parent_id":1377690749,
     "wof:placetype":"locality",
-    "wof:population":18769,
+    "wof:population":18730,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

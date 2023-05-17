@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371452",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eichen",
+    "eurostat:nuts_2021_id":"09371452",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371452",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.000335,
     "geom:area_square_m":2695051.303624,
     "geom:bbox":"11.749239,49.451546,11.780572,49.473204",
@@ -112,16 +124,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685819,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371452",
+        "eurostat:nuts_2021_id":"09371452",
         "gn:id":2932393
     },
     "wof:coterminous":[
@@ -131,7 +147,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a39fb2d976c975ace534c60ccf6023bf",
+    "wof:geomhash":"2170a58a1b8ebaf5b0477b22ca1a3d4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,10 +160,11 @@
         }
     ],
     "wof:id":1326842357,
-    "wof:lastmodified":1608048689,
+    "wof:lastmodified":1684352061,
     "wof:name":"Eichen",
     "wof:parent_id":1377685819,
     "wof:placetype":"locality",
+    "wof:population":0,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

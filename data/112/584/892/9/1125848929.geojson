@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brev\u00f6rde",
+    "eurostat:nuts_2021_id":"03255005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255005",
+    "eurostat:population":595,
+    "eurostat:population_year":2020,
     "geom:area":0.001791,
-    "geom:area_square_m":13659220.513126,
+    "geom:area_square_m":13659220.513125,
     "geom:bbox":"9.37454410983,51.8881063212,9.47115814215,51.9326647538",
     "geom:latitude":51.914035,
     "geom:longitude":9.426885,
@@ -279,7 +291,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -289,6 +302,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255005",
+        "eurostat:nuts_2021_id":"03255005",
         "gn:id":2944159,
         "qs_pg:id":579619,
         "wd:id":"Q549762"
@@ -298,7 +313,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a467ca184c9bd50a5c0d1f34cfbcb4a8",
+    "wof:geomhash":"e69f96d7602d772a3961fccce4bff3a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -310,11 +325,11 @@
         }
     ],
     "wof:id":1125848929,
-    "wof:lastmodified":1582343049,
+    "wof:lastmodified":1684352031,
     "wof:name":"Brev\u00f6rde",
     "wof:parent_id":1377686839,
     "wof:placetype":"locality",
-    "wof:population":790,
+    "wof:population":595,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

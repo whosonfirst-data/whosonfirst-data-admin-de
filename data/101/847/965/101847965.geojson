@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Radbruch",
+    "eurostat:nuts_2021_id":"03355028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355028",
+    "eurostat:population":2217,
+    "eurostat:population_year":2020,
     "geom:area":0.003037,
-    "geom:area_square_m":22435446.70479,
+    "geom:area_square_m":22435446.704787,
     "geom:bbox":"10.2117200519,53.2845316224,10.332195913,53.3337728348",
     "geom:latitude":53.309101,
     "geom:longitude":10.269099,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682555,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355028",
+        "eurostat:nuts_2021_id":"03355028",
         "gn:id":2851100,
         "gp:id":686509,
         "qs_pg:id":93217,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"273691d751aba95ce4e91ba47e0d514a",
+    "wof:geomhash":"6494579dff51503d002a6eb844490f81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,12 +340,12 @@
         }
     ],
     "wof:id":101847965,
-    "wof:lastmodified":1582342554,
+    "wof:lastmodified":1684351964,
     "wof:name":"Radbruch",
     "wof:parent_id":1377687517,
     "wof:placetype":"locality",
-    "wof:population":1899,
-    "wof:population_rank":3,
+    "wof:population":2217,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

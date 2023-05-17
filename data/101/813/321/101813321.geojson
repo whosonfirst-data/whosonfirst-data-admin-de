@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remlingen, M",
+    "eurostat:nuts_2021_id":"09679177",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679177",
+    "eurostat:population":1505,
+    "eurostat:population_year":2020,
     "geom:area":0.002523,
-    "geom:area_square_m":20133624.647035,
+    "geom:area_square_m":20133624.647038,
     "geom:bbox":"9.6516827612,49.7843493448,9.73106072101,49.8386405203",
     "geom:latitude":49.8124,
     "geom:longitude":9.693507,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679177",
+        "eurostat:nuts_2021_id":"09679177",
         "gn:id":2848309,
         "gp:id":687919,
         "qs_pg:id":253871,
@@ -178,7 +193,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4be9f88b9cf95ab07e87bdd282d2ff19",
+    "wof:geomhash":"800387a718302d42acc43b1ec26815dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101813321,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351890,
     "wof:name":"Remlingen",
     "wof:parent_id":1377692115,
     "wof:placetype":"locality",
-    "wof:population":1543,
+    "wof:population":1505,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hoyerswerda, Stadt",
+    "eurostat:nuts_2021_id":"14625240",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625240",
+    "eurostat:population":32405,
+    "eurostat:population_year":2020,
     "geom:area":0.012314,
-    "geom:area_square_m":94939504.644229,
+    "geom:area_square_m":94939504.644225,
     "geom:bbox":"14.065567,51.38248,14.370263,51.466235",
     "geom:latitude":51.425919,
     "geom:longitude":14.219715,
@@ -328,21 +340,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1668,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686747,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625240",
+        "eurostat:nuts_2021_id":"14625240",
         "gn:id":2898304,
         "gp:id":662624,
         "qs_pg:id":451446,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"282d16d5a80d2e001507f83975163828",
+    "wof:geomhash":"6aae377f98f19aaedf627421cb2ddeb1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -369,11 +384,11 @@
         }
     ],
     "wof:id":101822133,
-    "wof:lastmodified":1608051448,
+    "wof:lastmodified":1684351920,
     "wof:name":"Hoyerswerda",
     "wof:parent_id":1377686747,
     "wof:placetype":"locality",
-    "wof:population":43681,
+    "wof:population":32405,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

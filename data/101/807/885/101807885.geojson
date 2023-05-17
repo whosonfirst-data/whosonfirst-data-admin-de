@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03351021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wathlingen",
+    "eurostat:nuts_2021_id":"03351021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE931",
+    "eurostat:nuts_2021_level_lau":"03351021",
+    "eurostat:population":6154,
+    "eurostat:population_year":2020,
     "geom:area":0.002351,
     "geom:area_square_m":17689572.054751,
     "geom:bbox":"10.1126353102,52.4978488455,10.1725515694,52.5535886205",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -325,6 +338,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03351021",
+        "eurostat:nuts_2021_id":"03351021",
         "gn:id":2813660,
         "gp:id":704151,
         "qs_pg:id":1038134,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"94dc93fb013f91ef3c021fc72251b439",
+    "wof:geomhash":"35a08d6fe3ed52865974326f44580722",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101807885,
-    "wof:lastmodified":1582342591,
+    "wof:lastmodified":1684351861,
     "wof:name":"Wathlingen",
     "wof:parent_id":1377687201,
     "wof:placetype":"locality",
-    "wof:population":6431,
+    "wof:population":6154,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

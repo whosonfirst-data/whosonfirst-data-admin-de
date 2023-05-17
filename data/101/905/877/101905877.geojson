@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freimersheim (Pfalz)",
+    "eurostat:nuts_2021_id":"07337027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337027",
+    "eurostat:population":961,
+    "eurostat:population_year":2020,
     "geom:area":0.00066,
-    "geom:area_square_m":5326339.522851,
+    "geom:area_square_m":5326339.522852,
     "geom:bbox":"8.20628819665,49.2585223224,8.25096980007,49.277676262",
     "geom:latitude":49.268112,
     "geom:longitude":8.227528,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337027",
+        "eurostat:nuts_2021_id":"07337027",
         "gn:id":2925063,
         "gp:id":650501,
         "qs_pg:id":1236688,
@@ -157,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b549593bc970f7b9da40acd8ecd67559",
+    "wof:geomhash":"8f04f16c306ca5575b148ac1934a48ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101905877,
-    "wof:lastmodified":1582342508,
+    "wof:lastmodified":1684351974,
     "wof:name":"Freimersheim (Pfalz)",
     "wof:parent_id":1377686525,
     "wof:placetype":"locality",
-    "wof:population":941,
+    "wof:population":961,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

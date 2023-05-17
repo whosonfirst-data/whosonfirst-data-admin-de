@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feucht, M",
+    "eurostat:nuts_2021_id":"09574123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574123",
+    "eurostat:population":14050,
+    "eurostat:population_year":2020,
     "geom:area":0.00122,
-    "geom:area_square_m":9824314.510323,
+    "geom:area_square_m":9824314.510324,
     "geom:bbox":"11.152904,49.36049,11.288706,49.399137",
     "geom:latitude":49.38048,
     "geom:longitude":11.218592,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":295,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063495,
         1377689465,
         404227565,
-        85682571
+        102063495
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574123",
+        "eurostat:nuts_2021_id":"09574123",
         "gn:id":2927054,
         "gp:id":649619,
         "qs_pg:id":288955,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ab886c3fbb2ee044ef6a1003a86b25d4",
+    "wof:geomhash":"c8f7c86b56d0baa582344ab7ac02d990",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101826857,
-    "wof:lastmodified":1608050315,
+    "wof:lastmodified":1684351937,
     "wof:name":"Feucht",
     "wof:parent_id":1377689465,
     "wof:placetype":"locality",
-    "wof:population":13482,
+    "wof:population":14050,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

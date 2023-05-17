@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06411000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Darmstadt, Wissenschaftsstadt",
+    "eurostat:nuts_2021_id":"06411000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE711",
+    "eurostat:nuts_2021_level_lau":"06411000",
+    "eurostat:population":159878,
+    "eurostat:population_year":2020,
     "geom:area":0.015405,
-    "geom:area_square_m":122740225.853552,
+    "geom:area_square_m":122740225.853553,
     "geom:bbox":"8.56182664585,49.7958364087,8.74961612948,49.9542081294",
     "geom:latitude":49.881469,
     "geom:longitude":8.664711,
@@ -420,7 +432,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -431,6 +444,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06411000",
+        "eurostat:nuts_2021_id":"06411000",
         "gn:id":2938913,
         "gp:id":20162159,
         "qs_pg:id":352713,
@@ -444,7 +459,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a129fff676ebc8b26719e9933bfec76",
+    "wof:geomhash":"9fa0a74a01f15567e1d29fa5f3c020f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -457,11 +472,11 @@
         }
     ],
     "wof:id":101906949,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351983,
     "wof:name":"Darmstadt",
     "wof:parent_id":1377693127,
     "wof:placetype":"locality",
-    "wof:population":140385,
+    "wof:population":159878,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

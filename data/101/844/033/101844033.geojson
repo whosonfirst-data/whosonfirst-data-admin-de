@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rain",
+    "eurostat:nuts_2021_id":"09278177",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278177",
+    "eurostat:population":2880,
+    "eurostat:population_year":2020,
     "geom:area":0.001735,
     "geom:area_square_m":14101710.449242,
     "geom:bbox":"12.424332257,48.8691431336,12.4913037817,48.9224230209",
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -342,6 +355,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278177",
+        "eurostat:nuts_2021_id":"09278177",
         "gn:id":2850807,
         "gp:id":686669,
         "qs_pg:id":93215,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6a3d2757ea5a9dc8cc444e10d4fd2848",
+    "wof:geomhash":"cd8d8cfb3b2b41acb2b7a7680a9fd636",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101844033,
-    "wof:lastmodified":1582342444,
+    "wof:lastmodified":1684351958,
     "wof:name":"Rain",
     "wof:parent_id":1377685465,
     "wof:placetype":"locality",
-    "wof:population":2642,
+    "wof:population":2880,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

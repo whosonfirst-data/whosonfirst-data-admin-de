@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weissach",
+    "eurostat:nuts_2021_id":"08115052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115052",
+    "eurostat:population":7581,
+    "eurostat:population_year":2020,
     "geom:area":0.002717,
-    "geom:area_square_m":22113661.453536,
+    "geom:area_square_m":22113661.453535,
     "geom:bbox":"8.872506,48.815509,8.965905,48.867676",
     "geom:latitude":48.84228,
     "geom:longitude":8.921814,
@@ -199,22 +211,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":87,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686895,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115052",
+        "eurostat:nuts_2021_id":"08115052",
         "fct:id":"07154ede-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812053,
         "gp:id":704894,
@@ -230,7 +245,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d2a304feb4f796e49af0d43b6ff87d4d",
+    "wof:geomhash":"01c2b3da76a400eea986b3b81b82b608",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -246,11 +261,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050910,
+    "wof:lastmodified":1684351806,
     "wof:name":"Weissach",
     "wof:parent_id":1377686895,
     "wof:placetype":"locality",
-    "wof:population":7712,
+    "wof:population":7581,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

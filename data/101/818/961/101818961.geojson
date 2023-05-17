@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neubukow, Stadt",
+    "eurostat:nuts_2021_id":"13072074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072074",
+    "eurostat:population":3952,
+    "eurostat:population_year":2020,
     "geom:area":0.003448,
-    "geom:area_square_m":25043388.035794,
+    "geom:area_square_m":25043388.035795,
     "geom:bbox":"11.621626,53.993191,11.705833,54.061435",
     "geom:latitude":54.025909,
     "geom:longitude":11.66305,
@@ -171,17 +183,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":87,
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675573,
         1377684599,
-        85682487
+        85633111,
+        1377675573
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072074",
+        "eurostat:nuts_2021_id":"13072074",
         "gn:id":2866087,
         "gp:id":677935,
         "qs_pg:id":1038989,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f638d3f320172eec33f582a7b846a9e6",
+    "wof:geomhash":"bb2a59ee61dbc5a4468f4a3cd5bee9b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101818961,
-    "wof:lastmodified":1608049756,
+    "wof:lastmodified":1684351905,
     "wof:name":"Neubukow",
     "wof:parent_id":1377684599,
     "wof:placetype":"locality",
-    "wof:population":4276,
+    "wof:population":3952,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13004000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwerin, Landeshauptstadt",
+    "eurostat:nuts_2021_id":"13004000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE804",
+    "eurostat:nuts_2021_level_lau":"13004000",
+    "eurostat:population":95653,
+    "eurostat:population_year":2020,
     "geom:area":0.017658,
     "geom:area_square_m":129505625.152029,
     "geom:bbox":"11.29579,53.544412,11.505556,53.68752",
@@ -533,7 +545,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.633333,
     "wd:longitude":11.416667,
     "wd:population":91583,
@@ -543,17 +556,19 @@
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        102064039,
         1377684361,
-        85682487
+        85633111,
+        102064039
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682487
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13004000",
+        "eurostat:nuts_2021_id":"13004000",
         "gn:id":2834282,
         "gp:id":693920,
         "qs_pg:id":1038408,
@@ -568,7 +583,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d3c057ebd77acdcbc7ff304b182b532c",
+    "wof:geomhash":"a64b1da63f0d0c5e8046d96936e547b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -580,11 +595,11 @@
         }
     ],
     "wof:id":101748851,
-    "wof:lastmodified":1608050562,
+    "wof:lastmodified":1684351790,
     "wof:name":"Schwerin",
     "wof:parent_id":1377684361,
     "wof:placetype":"locality",
-    "wof:population":91583,
+    "wof:population":95653,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

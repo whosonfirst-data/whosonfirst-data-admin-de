@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitenbrunn, M",
+    "eurostat:nuts_2021_id":"09373115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373115",
+    "eurostat:population":3487,
+    "eurostat:population_year":2020,
     "geom:area":0.00871,
-    "geom:area_square_m":70524939.152566,
+    "geom:area_square_m":70524939.15257,
     "geom:bbox":"11.536237,49.046911,11.712468,49.136323",
     "geom:latitude":49.091794,
     "geom:longitude":11.632251,
@@ -303,17 +315,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686031,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373115",
+        "eurostat:nuts_2021_id":"09373115",
         "gn:id":2944637,
         "gp:id":641040,
         "qs_pg:id":65684,
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b16a41766a88b9d8c9062a40a80cfbb",
+    "wof:geomhash":"17da85bf35a07fddc649b207407f8e45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101844041,
-    "wof:lastmodified":1608050370,
+    "wof:lastmodified":1684351958,
     "wof:name":"Breitenbrunn",
     "wof:parent_id":1377686031,
     "wof:placetype":"locality",
-    "wof:population":3355,
+    "wof:population":3487,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obernheim",
+    "eurostat:nuts_2021_id":"08417047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417047",
+    "eurostat:population":1445,
+    "eurostat:population_year":2020,
     "geom:area":0.001808,
-    "geom:area_square_m":14915863.336238,
+    "geom:area_square_m":14915863.336236,
     "geom:bbox":"8.81495451412,48.1399134431,8.89411854086,48.191253023",
     "geom:latitude":48.163385,
     "geom:longitude":8.853663,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "wof:belongsto":[
         85682567,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417047",
+        "eurostat:nuts_2021_id":"08417047",
         "fct:id":"0750a5b0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2859547,
         "gp:id":681919,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6cae518b4934700673fea4863af89a51",
+    "wof:geomhash":"065fce69add60e0ebe42f59aaf7e486d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351815,
     "wof:name":"Obernheim",
     "wof:parent_id":1377690137,
     "wof:placetype":"locality",
-    "wof:population":1554,
+    "wof:population":1445,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

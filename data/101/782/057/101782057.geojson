@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berching, St",
+    "eurostat:nuts_2021_id":"09373112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373112",
+    "eurostat:population":8745,
+    "eurostat:population_year":2020,
     "geom:area":0.016152,
-    "geom:area_square_m":130719312.131855,
+    "geom:area_square_m":130719312.131848,
     "geom:bbox":"11.352488,49.061902,11.576599,49.187804",
     "geom:latitude":49.118052,
     "geom:longitude":11.466831,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":145,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686013,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373112",
+        "eurostat:nuts_2021_id":"09373112",
         "gn:id":2950882,
         "gp:id":637821,
         "qs_pg:id":142853,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0eb175b1cc1c5e8bca6434b25c0fdca2",
+    "wof:geomhash":"418519e7d4b510bbfb53f4f849654ab5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101782057,
-    "wof:lastmodified":1608050534,
+    "wof:lastmodified":1684351822,
     "wof:name":"Berching",
     "wof:parent_id":1377686013,
     "wof:placetype":"locality",
-    "wof:population":8696,
+    "wof:population":8745,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

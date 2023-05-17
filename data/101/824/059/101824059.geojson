@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nossen, Stadt",
+    "eurostat:nuts_2021_id":"14627180",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627180",
+    "eurostat:population":10513,
+    "eurostat:population_year":2020,
     "geom:area":0.016076,
-    "geom:area_square_m":124830438.217752,
+    "geom:area_square_m":124830438.217745,
     "geom:bbox":"13.225798,51.007303,13.409883,51.191508",
     "geom:latitude":51.099818,
     "geom:longitude":13.307065,
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":142,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687363,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627180",
+        "eurostat:nuts_2021_id":"14627180",
         "gn:id":2861788,
         "gp:id":680480,
         "qs_pg:id":169582,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"001b55fa7d7adf82d7bcc02d075379d1",
+    "wof:geomhash":"c47e4bfaa0f289b385b880a616adb888",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,12 +372,12 @@
         }
     ],
     "wof:id":101824059,
-    "wof:lastmodified":1608051159,
+    "wof:lastmodified":1684351927,
     "wof:name":"Nossen",
     "wof:parent_id":1377687363,
     "wof:placetype":"locality",
-    "wof:population":7588,
-    "wof:population_rank":5,
+    "wof:population":10513,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

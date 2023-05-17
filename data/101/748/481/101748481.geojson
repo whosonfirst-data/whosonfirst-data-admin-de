@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09761000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Augsburg",
+    "eurostat:nuts_2021_id":"09761000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE271",
+    "eurostat:nuts_2021_level_lau":"09761000",
+    "eurostat:population":296582,
+    "eurostat:population_year":2020,
     "geom:area":0.017768,
-    "geom:area_square_m":146021595.409049,
+    "geom:area_square_m":146021595.409034,
     "geom:bbox":"10.76419,48.258232,10.959206,48.458654",
     "geom:latitude":48.345591,
     "geom:longitude":10.885504,
@@ -549,17 +561,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063283,
         1377692203,
         404227547,
-        85682571
+        102063283
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09761000",
+        "eurostat:nuts_2021_id":"09761000",
         "gn:id":2954172,
         "gp:id":636080,
         "loc:id":"n50073906",
@@ -579,7 +594,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"03d37db4abc788cc6014c812fea0ad3e",
+    "wof:geomhash":"074eabb8b7b32f6a5bafdc777b72c02a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -592,12 +607,12 @@
         }
     ],
     "wof:id":101748481,
-    "wof:lastmodified":1608050582,
+    "wof:lastmodified":1684351785,
     "wof:megacity":0,
     "wof:name":"Augsburg",
     "wof:parent_id":1377692203,
     "wof:placetype":"locality",
-    "wof:population":259196,
+    "wof:population":296582,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:scale":0,

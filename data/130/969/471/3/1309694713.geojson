@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leutersdorf",
+    "eurostat:nuts_2021_id":"16066039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066039",
+    "eurostat:population":219,
+    "eurostat:population_year":2020,
     "geom:area":0.001059,
-    "geom:area_square_m":8326525.284306,
+    "geom:area_square_m":8326525.284307,
     "geom:bbox":"10.5361639079,50.4969267767,10.5830656355,50.5383425749",
     "geom:latitude":50.516129,
     "geom:longitude":10.560452,
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -135,6 +148,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066039",
+        "eurostat:nuts_2021_id":"16066039",
         "gn:id":2878291,
         "wk:page":"Leutersdorf%2C_Thuringia"
     },
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"9d0738e2ab3bf561e3ff98924c477c1a",
+    "wof:geomhash":"9979884904933c4a1f958819e16d90d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1309694713,
-    "wof:lastmodified":1582342837,
+    "wof:lastmodified":1684352060,
     "wof:name":"Leutersdorf",
     "wof:parent_id":1377690037,
     "wof:placetype":"locality",
-    "wof:population":298,
+    "wof:population":219,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

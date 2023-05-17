@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gehofen",
+    "eurostat:nuts_2021_id":"16065019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065019",
+    "eurostat:population":606,
+    "eurostat:population_year":2020,
     "geom:area":0.001739,
-    "geom:area_square_m":13438703.845983,
+    "geom:area_square_m":13438703.845982,
     "geom:bbox":"11.2835453063,51.2874456274,11.3455508527,51.3383342712",
     "geom:latitude":51.314475,
     "geom:longitude":11.310796,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065019",
+        "eurostat:nuts_2021_id":"16065019",
         "gn:id":2922014,
         "gp:id":651825,
         "qs_pg:id":93848,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8110544f371a93d8c1d94f79f08ee23c",
+    "wof:geomhash":"809f1c54d6f857a7b7716978f2abd98a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101909045,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352001,
     "wof:name":"Gehofen",
     "wof:parent_id":1377689917,
     "wof:placetype":"locality",
-    "wof:population":782,
+    "wof:population":606,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

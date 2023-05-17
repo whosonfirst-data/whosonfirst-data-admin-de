@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6mberg",
+    "eurostat:nuts_2021_id":"08235065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235065",
+    "eurostat:population":8041,
+    "eurostat:population_year":2020,
     "geom:area":0.004533,
-    "geom:area_square_m":36920580.776561,
+    "geom:area_square_m":36920580.776563,
     "geom:bbox":"8.585826,48.767459,8.724518,48.828498",
     "geom:latitude":48.794401,
     "geom:longitude":8.64713,
@@ -292,22 +304,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":241,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063345,
         1377688821,
         404227555,
-        85682567
+        102063345
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235065",
+        "eurostat:nuts_2021_id":"08235065",
         "fct:id":"0756fdc0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2837115,
         "gp:id":692766,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6ddb3520bf2e0547e7cc2694b738665d",
+    "wof:geomhash":"ea2bb50120b3e4d188432920872e51b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050904,
+    "wof:lastmodified":1684351805,
     "wof:name":"Sch\u00f6mberg",
     "wof:parent_id":1377688821,
     "wof:placetype":"locality",
-    "wof:population":8725,
+    "wof:population":8041,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

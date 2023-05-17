@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harsleben",
+    "eurostat:nuts_2021_id":"15085140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085140",
+    "eurostat:population":2145,
+    "eurostat:population_year":2020,
     "geom:area":0.003647,
     "geom:area_square_m":27851511.34174,
     "geom:bbox":"11.0572410533,51.8267713353,11.1425200198,51.8958884441",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682519,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085140",
+        "eurostat:nuts_2021_id":"15085140",
         "gn:id":2910275,
         "gp:id":657425,
         "qs_pg:id":578772,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b4bb115aa373aaa5c1a86f4fd7381f55",
+    "wof:geomhash":"2bc75c1d42b5ed9b546e16aa475c9425",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101820941,
-    "wof:lastmodified":1582342378,
+    "wof:lastmodified":1684351914,
     "wof:name":"Harsleben",
     "wof:parent_id":1377688639,
     "wof:placetype":"locality",
-    "wof:population":2395,
+    "wof:population":2145,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

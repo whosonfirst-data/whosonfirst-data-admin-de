@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kahl a.Main",
+    "eurostat:nuts_2021_id":"09671134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671134",
+    "eurostat:population":8033,
+    "eurostat:population_year":2020,
     "geom:area":0.001324,
-    "geom:area_square_m":10501359.014922,
+    "geom:area_square_m":10501359.014924,
     "geom:bbox":"8.987761,50.059064,9.037018,50.114372",
     "geom:latitude":50.085494,
     "geom:longitude":9.013361,
@@ -153,18 +165,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1273,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690413,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671134",
+        "eurostat:nuts_2021_id":"09671134",
         "gn:id":2894245,
         "gp:id":664398,
         "qs_pg:id":1219289,
@@ -179,7 +194,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e61adc4c5873c2f51af44875dc4a3b9b",
+    "wof:geomhash":"f1b6ad3df14665c3400e6e77ee43702a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
         }
     ],
     "wof:id":101756395,
-    "wof:lastmodified":1608050822,
+    "wof:lastmodified":1684351794,
     "wof:name":"Kahl a. Main",
     "wof:parent_id":1377690413,
     "wof:placetype":"locality",
-    "wof:population":7198,
+    "wof:population":8033,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

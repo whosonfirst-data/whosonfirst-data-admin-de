@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Legau, M",
+    "eurostat:nuts_2021_id":"09778165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778165",
+    "eurostat:population":3290,
+    "eurostat:population_year":2020,
     "geom:area":0.004371,
     "geom:area_square_m":36266592.564588,
     "geom:bbox":"10.0916048664,47.8200875081,10.1924677675,47.9000620145",
@@ -143,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778165",
+        "eurostat:nuts_2021_id":"09778165",
         "gn:id":2879657,
         "gp:id":670833,
         "qs_pg:id":245335,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b780bd78ddd3101ca330a35865036349",
+    "wof:geomhash":"0be64cdff13959fa83790cfa133d8bc7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101765369,
-    "wof:lastmodified":1582342336,
+    "wof:lastmodified":1684351818,
     "wof:name":"Legau",
     "wof:parent_id":1377693267,
     "wof:placetype":"locality",
-    "wof:population":3215,
+    "wof:population":3290,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

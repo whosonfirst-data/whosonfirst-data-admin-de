@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Preist",
+    "eurostat:nuts_2021_id":"07232107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232107",
+    "eurostat:population":701,
+    "eurostat:population_year":2020,
     "geom:area":0.000802,
-    "geom:area_square_m":6383461.399895,
+    "geom:area_square_m":6383461.399894,
     "geom:bbox":"6.60956391958,49.8969511152,6.66694352847,49.9235840721",
     "geom:latitude":49.911185,
     "geom:longitude":6.632729,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232107",
+        "eurostat:nuts_2021_id":"07232107",
         "gn:id":2852251,
         "gp:id":685896,
         "qs_pg:id":1150092,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ef322e1538ceea5b8cf6aec0a5138645",
+    "wof:geomhash":"6c645215c879e7d4cf3e38a79ff71f00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907235,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351986,
     "wof:name":"Preist",
     "wof:parent_id":1377685951,
     "wof:placetype":"locality",
-    "wof:population":768,
+    "wof:population":701,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

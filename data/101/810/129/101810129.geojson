@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sundern (Sauerland), Stadt",
+    "eurostat:nuts_2021_id":"05958044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958044",
+    "eurostat:population":27725,
+    "eurostat:population_year":2020,
     "geom:area":0.024904,
-    "geom:area_square_m":192498051.568394,
+    "geom:area_square_m":192498051.568395,
     "geom:bbox":"7.90043782566,51.2330287775,8.13200165151,51.3941868285",
     "geom:latitude":51.310635,
     "geom:longitude":8.00584,
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958044",
+        "eurostat:nuts_2021_id":"05958044",
         "gn:id":2824655,
         "gp:id":698355,
         "qs_pg:id":1345705,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5716e7214ee8247c57e42419e34cb676",
+    "wof:geomhash":"67bc3e654cae6c85363c8d6a96cf2192",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101810129,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351871,
     "wof:name":"Sundern (Sauerland)",
     "wof:parent_id":1377692285,
     "wof:placetype":"locality",
-    "wof:population":29609,
+    "wof:population":27725,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

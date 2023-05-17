@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinwenden",
+    "eurostat:nuts_2021_id":"07335044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335044",
+    "eurostat:population":2466,
+    "eurostat:population_year":2020,
     "geom:area":0.001471,
-    "geom:area_square_m":11818757.143907,
+    "geom:area_square_m":11818757.143906,
     "geom:bbox":"7.48396351013,49.4412616158,7.54626929963,49.485458077",
     "geom:latitude":49.460403,
     "geom:longitude":7.511688,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":28,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335044",
+        "eurostat:nuts_2021_id":"07335044",
         "gn:id":2827613,
         "gp:id":697056,
         "loc:id":"n82051928",
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dfe2bfe16ff586e2bb6d045a8a51f65f",
+    "wof:geomhash":"3bf57a320249a45f8b4c6aba22ef5f97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101815671,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Steinwenden",
     "wof:parent_id":1377686455,
     "wof:placetype":"locality",
-    "wof:population":2535,
+    "wof:population":2466,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klappholz",
+    "eurostat:nuts_2021_id":"01059049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059049",
+    "eurostat:population":455,
+    "eurostat:population_year":2020,
     "geom:area":0.001151,
     "geom:area_square_m":8237883.388453,
     "geom:bbox":"9.49555102236,54.6078221478,9.5598801865,54.6423721918",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059049",
+        "eurostat:nuts_2021_id":"01059049",
         "gn:id":2890066,
         "qs_pg:id":578301,
         "wd:id":"Q545418"
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"5bbe6d5b9d8091313e20d95600ba4d14",
+    "wof:geomhash":"6d3b502e66bc940c1532104981168f51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1126035911,
-    "wof:lastmodified":1582342985,
+    "wof:lastmodified":1684352051,
     "wof:name":"Klappholz",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":518,
+    "wof:population":455,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

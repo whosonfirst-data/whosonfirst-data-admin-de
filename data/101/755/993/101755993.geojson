@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05158008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haan, Stadt",
+    "eurostat:nuts_2021_id":"05158008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1C",
+    "eurostat:nuts_2021_level_lau":"05158008",
+    "eurostat:population":30406,
+    "eurostat:population_year":2020,
     "geom:area":0.00314,
-    "geom:area_square_m":24328422.66128,
+    "geom:area_square_m":24328422.661281,
     "geom:bbox":"6.955523,51.172062,7.051872,51.244074",
     "geom:latitude":51.208085,
     "geom:longitude":7.009608,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":136,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063761,
         1377689633,
         404227561,
-        85682513
+        102063761
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05158008",
+        "eurostat:nuts_2021_id":"05158008",
         "gn:id":2913195,
         "gp:id":656117,
         "qs_pg:id":476030,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"38f682ab304408355b5fcf02ea896bc1",
+    "wof:geomhash":"6651f7d697851b536256de6f22f45a33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101755993,
-    "wof:lastmodified":1608049407,
+    "wof:lastmodified":1684351792,
     "wof:name":"Haan",
     "wof:parent_id":1377689633,
     "wof:placetype":"locality",
-    "wof:population":29431,
+    "wof:population":30406,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

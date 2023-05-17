@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mudenbach",
+    "eurostat:nuts_2021_id":"07143267",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143267",
+    "eurostat:population":713,
+    "eurostat:population_year":2020,
     "geom:area":0.000585,
     "geom:area_square_m":4581286.305128,
     "geom:bbox":"7.71754145192,50.6550939559,7.75352915266,50.6841862327",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143267",
+        "eurostat:nuts_2021_id":"07143267",
         "gn:id":2868859,
         "qs_pg:id":93393,
         "wd:id":"Q673986"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"e324879f7877769b83534db4ac6f8751",
+    "wof:geomhash":"1d3df5ac83259933f3d691fe53f028e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1125863327,
-    "wof:lastmodified":1582342990,
+    "wof:lastmodified":1684352034,
     "wof:name":"Mudenbach",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":831,
+    "wof:population":713,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

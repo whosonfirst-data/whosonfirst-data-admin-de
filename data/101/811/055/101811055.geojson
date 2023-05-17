@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hauneck",
+    "eurostat:nuts_2021_id":"06632007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632007",
+    "eurostat:population":3182,
+    "eurostat:population_year":2020,
     "geom:area":0.002264,
-    "geom:area_square_m":17681776.906721,
+    "geom:area_square_m":17681776.906717,
     "geom:bbox":"9.69267,50.79413,9.772854,50.851701",
     "geom:latitude":50.823869,
     "geom:longitude":9.72931,
@@ -291,22 +303,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":490,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684313,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632007",
+        "eurostat:nuts_2021_id":"06632007",
         "gn:id":3208064,
         "gp:id":705218,
         "qs_pg:id":95253,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"845cf13e4e2d08de4cc7ca966f8e2fbf",
+    "wof:geomhash":"f8cc6bfdc24f6e619aa4b9d2f6473a50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101811055,
-    "wof:lastmodified":1608049920,
+    "wof:lastmodified":1684351878,
     "wof:name":"Hauneck",
     "wof:parent_id":1377684313,
     "wof:placetype":"locality",
-    "wof:population":3159,
+    "wof:population":3182,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

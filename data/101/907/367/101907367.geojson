@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Antweiler",
+    "eurostat:nuts_2021_id":"07131004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131004",
+    "eurostat:population":489,
+    "eurostat:population_year":2020,
     "geom:area":0.000566,
-    "geom:area_square_m":4463467.979043,
+    "geom:area_square_m":4463467.979044,
     "geom:bbox":"6.81035767171,50.3932963246,6.84327607652,50.4211052198",
     "geom:latitude":50.405605,
     "geom:longitude":6.828162,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131004",
+        "eurostat:nuts_2021_id":"07131004",
         "gn:id":2955868,
         "gp:id":635279,
         "qs_pg:id":579957,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"51979c381806f4612957b0f95feb6d08",
+    "wof:geomhash":"25af2a3cdc4d9d5cc3573c5f64ac5f0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907367,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351987,
     "wof:name":"Antweiler",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":573,
+    "wof:population":489,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

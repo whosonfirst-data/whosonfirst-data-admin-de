@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Twistetal",
+    "eurostat:nuts_2021_id":"06635018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635018",
+    "eurostat:population":4222,
+    "eurostat:population_year":2020,
     "geom:area":0.009568,
-    "geom:area_square_m":73930500.052763,
+    "geom:area_square_m":73930500.052764,
     "geom:bbox":"8.863908,51.285424,9.048862,51.3841",
     "geom:latitude":51.327433,
     "geom:longitude":8.948078,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":236,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377685021,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635018",
+        "eurostat:nuts_2021_id":"06635018",
         "gn:id":2820648,
         "gp:id":20162570,
         "qs_pg:id":501809,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"96220434a7fe75f8230bbe0338c7d7e0",
+    "wof:geomhash":"aa7bf9066b23a216f8ce6be3ba85aacf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101810099,
-    "wof:lastmodified":1608050049,
+    "wof:lastmodified":1684351871,
     "wof:name":"Twistetal",
     "wof:parent_id":1377685021,
     "wof:placetype":"locality",
-    "wof:population":4482,
+    "wof:population":4222,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

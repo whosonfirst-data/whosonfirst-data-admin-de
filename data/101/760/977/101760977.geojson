@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vinningen",
+    "eurostat:nuts_2021_id":"07340053",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340053",
+    "eurostat:population":1690,
+    "eurostat:population_year":2020,
     "geom:area":0.001574,
     "geom:area_square_m":12728402.766751,
     "geom:bbox":"7.50326066837,49.1463182606,7.5849267183,49.1902806607",
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340053",
+        "eurostat:nuts_2021_id":"07340053",
         "gn:id":2817168,
         "gp:id":702417,
         "qs_pg:id":1038213,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4bfcf79ac37416207b75bf346d58d874",
+    "wof:geomhash":"5077c2a3e96efed37731ffdf392b9745",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101760977,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351804,
     "wof:name":"Vinningen",
     "wof:parent_id":1377686759,
     "wof:placetype":"locality",
-    "wof:population":1723,
+    "wof:population":1690,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

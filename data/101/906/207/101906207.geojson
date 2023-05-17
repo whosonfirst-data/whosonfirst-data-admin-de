@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bim\u00f6hlen",
+    "eurostat:nuts_2021_id":"01060009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060009",
+    "eurostat:population":1011,
+    "eurostat:population_year":2020,
     "geom:area":0.002364,
     "geom:area_square_m":17210713.822829,
     "geom:bbox":"9.9155559471,53.9090578654,10.039129834,53.951086818",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060009",
+        "eurostat:nuts_2021_id":"01060009",
         "gn:id":2948866,
         "gp:id":638968,
         "qs_pg:id":579764,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e8d126b9782874bb2d9218b9442b9aa0",
+    "wof:geomhash":"4864073b3b288c1c5e89a2e82878a889",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,12 +189,12 @@
         }
     ],
     "wof:id":101906207,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351977,
     "wof:name":"Bim\u00f6hlen",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":967,
-    "wof:population_rank":2,
+    "wof:population":1011,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

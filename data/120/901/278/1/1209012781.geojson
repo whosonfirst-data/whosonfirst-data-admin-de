@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wildflecken, M",
+    "eurostat:nuts_2021_id":"09672163",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672163",
+    "eurostat:population":2869,
+    "eurostat:population_year":2020,
     "geom:area":0.009869,
-    "geom:area_square_m":77830395.657952,
+    "geom:area_square_m":77830395.65795,
     "geom:bbox":"9.782135,50.331276,9.956493,50.42255",
     "geom:latitude":50.373079,
     "geom:longitude":9.866776,
@@ -134,17 +146,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063619,
         1377690601,
         404227569,
-        85682571
+        102063619
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672163",
+        "eurostat:nuts_2021_id":"09672163",
         "gn:id":2808871,
         "wk:page":"Wildflecken"
     },
@@ -155,7 +170,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"481e9802829e9ffee75372aecdcbbf17",
+    "wof:geomhash":"eac47abe620dd92f23ff92fcd9939f24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":1209012781,
-    "wof:lastmodified":1608048893,
+    "wof:lastmodified":1684352057,
     "wof:name":"Wildflecken",
     "wof:parent_id":1377690601,
     "wof:placetype":"locality",
-    "wof:population":3352,
+    "wof:population":2869,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

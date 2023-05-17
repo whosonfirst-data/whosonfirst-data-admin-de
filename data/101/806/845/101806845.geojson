@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mielkendorf",
+    "eurostat:nuts_2021_id":"01058105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058105",
+    "eurostat:population":1363,
+    "eurostat:population_year":2020,
     "geom:area":0.00106,
-    "geom:area_square_m":7654589.029058,
+    "geom:area_square_m":7654589.029056,
     "geom:bbox":"10.0020604019,54.2683776491,10.0695023115,54.2997859331",
     "geom:latitude":54.286408,
     "geom:longitude":10.038358,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058105",
+        "eurostat:nuts_2021_id":"01058105",
         "gn:id":2871799,
         "gp:id":675232,
         "qs_pg:id":93415,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4049c9e0f0673fd8f5dbc15c51e049c3",
+    "wof:geomhash":"6508aae0fe84ad0f5dbff8f399e886bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101806845,
-    "wof:lastmodified":1582342612,
+    "wof:lastmodified":1684351855,
     "wof:name":"Mielkendorf",
     "wof:parent_id":1377684251,
     "wof:placetype":"locality",
-    "wof:population":1414,
+    "wof:population":1363,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05112000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Duisburg, Stadt",
+    "eurostat:nuts_2021_id":"05112000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA12",
+    "eurostat:nuts_2021_level_lau":"05112000",
+    "eurostat:population":498686,
+    "eurostat:population_year":2020,
     "geom:area":0.030127,
-    "geom:area_square_m":232211876.467502,
+    "geom:area_square_m":232211876.467499,
     "geom:bbox":"6.625616,51.333199,6.83046,51.56022",
     "geom:latitude":51.439632,
     "geom:longitude":6.734695,
@@ -555,17 +567,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063799,
         1377689405,
         404227561,
-        85682513
+        102063799
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05112000",
+        "eurostat:nuts_2021_id":"05112000",
         "gn:id":2934691,
         "gp:id":645877,
         "qs_pg:id":1062849,
@@ -581,7 +596,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1d8706743df48b3e988078e2f96dec61",
+    "wof:geomhash":"fde7cee4239324e037ccc9b29424cfa3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -594,12 +609,12 @@
         }
     ],
     "wof:id":101748713,
-    "wof:lastmodified":1608050567,
+    "wof:lastmodified":1684351788,
     "wof:name":"Duisburg",
     "wof:parent_id":1377689405,
     "wof:placetype":"locality",
-    "wof:population":504358,
-    "wof:population_rank":11,
+    "wof:population":498686,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

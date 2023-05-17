@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Floh-Seligenthal",
+    "eurostat:nuts_2021_id":"16066023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066023",
+    "eurostat:population":5889,
+    "eurostat:population_year":2020,
     "geom:area":0.0087,
-    "geom:area_square_m":68023089.801365,
+    "geom:area_square_m":68023089.801362,
     "geom:bbox":"10.44323,50.730922,10.584063,50.836794",
     "geom:latitude":50.779656,
     "geom:longitude":10.509773,
@@ -140,17 +152,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063673,
         1377689943,
-        85682541
+        85633111,
+        102063673
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066023",
+        "eurostat:nuts_2021_id":"16066023",
         "gn:id":2926148,
         "gp:id":649989,
         "qs_pg:id":305204,
@@ -164,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"178068c0231df08ef49cde52deea12ce",
+    "wof:geomhash":"bd4185821316123b17632f6dbb60a132",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101823097,
-    "wof:lastmodified":1608051076,
+    "wof:lastmodified":1684351923,
     "wof:name":"Floh-Seligenthal",
     "wof:parent_id":1377689943,
     "wof:placetype":"locality",
-    "wof:population":6209,
+    "wof:population":5889,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

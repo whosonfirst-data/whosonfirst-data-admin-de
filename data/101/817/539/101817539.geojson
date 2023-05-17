@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dranske",
+    "eurostat:nuts_2021_id":"13073019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073019",
+    "eurostat:population":1123,
+    "eurostat:population_year":2020,
     "geom:area":0.003166,
-    "geom:area_square_m":22658627.508085,
+    "geom:area_square_m":22658627.508089,
     "geom:bbox":"13.1601707409,54.5580561139,13.3232935081,54.6741471058",
     "geom:latitude":54.631599,
     "geom:longitude":13.248275,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073019",
+        "eurostat:nuts_2021_id":"13073019",
         "gn:id":2935325,
         "gp:id":645556,
         "qs_pg:id":1145125,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"70c1873ed563017f1c2dc5e46db12260",
+    "wof:geomhash":"01a81f28d4f3f8c5b74bda1d7e5b7a11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101817539,
-    "wof:lastmodified":1582342415,
+    "wof:lastmodified":1684351899,
     "wof:name":"Dranske",
     "wof:parent_id":1377684975,
     "wof:placetype":"locality",
-    "wof:population":1527,
+    "wof:population":1123,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

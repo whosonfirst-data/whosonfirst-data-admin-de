@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dransfeld, Stadt",
+    "eurostat:nuts_2021_id":"03159009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159009",
+    "eurostat:population":4438,
+    "eurostat:population_year":2020,
     "geom:area":0.003753,
     "geom:area_square_m":28884680.001491,
     "geom:bbox":"9.72974581985,51.4677023429,9.81632693248,51.5407376282",
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -324,6 +337,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159009",
+        "eurostat:nuts_2021_id":"03159009",
         "gn:id":2935326,
         "gp:id":645555,
         "qs_pg:id":142682,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"589aeab80fcddbdac3f636e49c159904",
+    "wof:geomhash":"2aeade945812c9b9c3064c8ff7e45342",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101810189,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351872,
     "wof:name":"Dransfeld",
     "wof:parent_id":1377686219,
     "wof:placetype":"locality",
-    "wof:population":4422,
+    "wof:population":4438,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

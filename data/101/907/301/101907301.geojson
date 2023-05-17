@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Walsdorf",
+    "eurostat:nuts_2021_id":"07233080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233080",
+    "eurostat:population":882,
+    "eurostat:population_year":2020,
     "geom:area":0.00135,
     "geom:area_square_m":10670644.195188,
     "geom:bbox":"6.68932541995,50.2619571025,6.75250127144,50.2971584473",
@@ -120,7 +132,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233080",
+        "eurostat:nuts_2021_id":"07233080",
         "gn:id":2814476,
         "gp:id":703770,
         "qs_pg:id":576546,
@@ -141,7 +156,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b6f7b61a86dd4daf99d7fa33e703a2a5",
+    "wof:geomhash":"15c741e5da23a28e77ebbcfe4e99ca93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +168,11 @@
         }
     ],
     "wof:id":101907301,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351986,
     "wof:name":"Walsdorf",
     "wof:parent_id":1377685991,
     "wof:placetype":"locality",
-    "wof:population":876,
+    "wof:population":882,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Bramstedt, Stadt",
+    "eurostat:nuts_2021_id":"01060004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060004",
+    "eurostat:population":14773,
+    "eurostat:population_year":2020,
     "geom:area":0.003276,
     "geom:area_square_m":23860041.291247,
     "geom:bbox":"9.851733,53.887431,9.953318,53.944065",
@@ -308,21 +320,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":212,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064103,
         1377684473,
-        85682517
+        85633111,
+        102064103
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060004",
+        "eurostat:nuts_2021_id":"01060004",
         "gn:id":2953537,
         "gp:id":636401,
         "qs_pg:id":142914,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"07329dc65c7014bd8cdc0df92bdc7062",
+    "wof:geomhash":"aa97dcb77577c0b70ad6e4bd12008084",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101806739,
-    "wof:lastmodified":1608051712,
+    "wof:lastmodified":1684351854,
     "wof:name":"Bad Bramstedt",
     "wof:parent_id":1377684473,
     "wof:placetype":"locality",
-    "wof:population":13177,
+    "wof:population":14773,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

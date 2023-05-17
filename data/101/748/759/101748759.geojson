@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moers, Stadt",
+    "eurostat:nuts_2021_id":"05170024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170024",
+    "eurostat:population":103902,
+    "eurostat:population_year":2020,
     "geom:area":0.008817,
-    "geom:area_square_m":67940255.16102,
+    "geom:area_square_m":67940255.161019,
     "geom:bbox":"6.557525,51.392214,6.677941,51.523618",
     "geom:latitude":51.452806,
     "geom:longitude":6.6198,
@@ -367,22 +379,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":444,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689905,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170024",
+        "eurostat:nuts_2021_id":"05170024",
         "gn:id":2870221,
         "gp:id":675755,
         "qs_pg:id":455904,
@@ -397,7 +412,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0a731453ecec21f5dbcd2b45ca750b74",
+    "wof:geomhash":"95960e13f15994a633ddf4bafc264367",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -410,11 +425,11 @@
         }
     ],
     "wof:id":101748759,
-    "wof:lastmodified":1608050579,
+    "wof:lastmodified":1684351788,
     "wof:name":"Moers",
     "wof:parent_id":1377689905,
     "wof:placetype":"locality",
-    "wof:population":107816,
+    "wof:population":103902,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

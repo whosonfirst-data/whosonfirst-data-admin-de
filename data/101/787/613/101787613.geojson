@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Habach",
+    "eurostat:nuts_2021_id":"09190126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190126",
+    "eurostat:population":1161,
+    "eurostat:population_year":2020,
     "geom:area":0.001453,
-    "geom:area_square_m":12083957.126522,
+    "geom:area_square_m":12083957.126523,
     "geom:bbox":"11.2569495795,47.7083997178,11.321844481,47.7505100161",
     "geom:latitude":47.727707,
     "geom:longitude":11.287148,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190126",
+        "eurostat:nuts_2021_id":"09190126",
         "gn:id":2913069,
         "gp:id":656172,
         "qs_pg:id":578819,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8870e0a0e667e2730f41937dd3cd143b",
+    "wof:geomhash":"ae1cdedb5def6dc5265ce5625b679a88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101787613,
-    "wof:lastmodified":1582342646,
+    "wof:lastmodified":1684351842,
     "wof:name":"Habach",
     "wof:parent_id":1377683727,
     "wof:placetype":"locality",
-    "wof:population":1116,
+    "wof:population":1161,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

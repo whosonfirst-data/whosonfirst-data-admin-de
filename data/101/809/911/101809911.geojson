@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerstungen",
+    "eurostat:nuts_2021_id":"16063097",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063097",
+    "eurostat:population":9100,
+    "eurostat:population_year":2020,
     "geom:area":0.019138,
-    "geom:area_square_m":149107140.212712,
+    "geom:area_square_m":149107140.212708,
     "geom:bbox":"10.019131,50.864867,10.337651,51.013154",
     "geom:latitude":50.944113,
     "geom:longitude":10.175851,
@@ -144,21 +156,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":117,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689635,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063097",
+        "eurostat:nuts_2021_id":"16063097",
         "gn:id":2920883,
         "gp:id":701593,
         "qs_pg:id":93834,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"998c7a10d9dfa31657b61e539fb419d2",
+    "wof:geomhash":"b5a931dc8fec59429b953920b51097ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,12 +200,12 @@
         }
     ],
     "wof:id":101809911,
-    "wof:lastmodified":1608051646,
+    "wof:lastmodified":1684351869,
     "wof:name":"Gerstungen",
     "wof:parent_id":1377689635,
     "wof:placetype":"locality",
-    "wof:population":3865,
-    "wof:population_rank":4,
+    "wof:population":9100,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

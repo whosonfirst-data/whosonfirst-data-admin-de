@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vielank",
+    "eurostat:nuts_2021_id":"13076143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076143",
+    "eurostat:population":1259,
+    "eurostat:population_year":2020,
     "geom:area":0.01044,
-    "geom:area_square_m":77268134.07054,
+    "geom:area_square_m":77268134.070541,
     "geom:bbox":"11.0858857743,53.180229373,11.2676765431,53.295146916",
     "geom:latitude":53.234948,
     "geom:longitude":11.181107,
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076143",
+        "eurostat:nuts_2021_id":"13076143",
         "gn:id":2817412,
         "gp:id":637797,
         "qs_pg:id":92931,
@@ -144,7 +159,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"eecef0ac9621c5f7fa526c7bc893f172",
+    "wof:geomhash":"2428391fb080a5a32ccec9c461e736c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,12 +171,12 @@
         }
     ],
     "wof:id":101818597,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351901,
     "wof:name":"Vielank",
     "wof:parent_id":1377685243,
     "wof:placetype":"locality",
-    "wof:population":714,
-    "wof:population_rank":2,
+    "wof:population":1259,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

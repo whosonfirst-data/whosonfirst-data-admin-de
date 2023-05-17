@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weste",
+    "eurostat:nuts_2021_id":"03360026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360026",
+    "eurostat:population":945,
+    "eurostat:population_year":2020,
     "geom:area":0.003398,
-    "geom:area_square_m":25254162.440766,
+    "geom:area_square_m":25254162.440765,
     "geom:bbox":"10.6317974315,53.0303484114,10.761608859,53.0850505161",
     "geom:latitude":53.053021,
     "geom:longitude":10.697678,
@@ -295,7 +307,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360026",
+        "eurostat:nuts_2021_id":"03360026",
         "gn:id":2810559,
         "gp:id":20166956,
         "qs_pg:id":576445,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"7a9b8d28056f847b111dacb26e247247",
+    "wof:geomhash":"eb41948dbf9d05c51209625464481048",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,12 +344,12 @@
         }
     ],
     "wof:id":101874379,
-    "wof:lastmodified":1582342396,
+    "wof:lastmodified":1684351970,
     "wof:name":"Weste",
     "wof:parent_id":1377688001,
     "wof:placetype":"locality",
-    "wof:population":1062,
-    "wof:population_rank":3,
+    "wof:population":945,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

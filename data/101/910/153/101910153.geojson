@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6ssitz",
+    "eurostat:nuts_2021_id":"16075035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075035",
+    "eurostat:population":307,
+    "eurostat:population_year":2020,
     "geom:area":0.001619,
     "geom:area_square_m":12703294.204369,
     "geom:bbox":"11.5504003696,50.5973951565,11.6230894052,50.6392579984",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682541,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075035",
+        "eurostat:nuts_2021_id":"16075035",
         "gn:id":2918787,
         "gp:id":653486,
         "qs_pg:id":578936,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f298c495e4394ac3a740aca65fcbe950",
+    "wof:geomhash":"568e5ecf77a8e5b78c0c91c91805f48f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101910153,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352004,
     "wof:name":"G\u00f6ssitz",
     "wof:parent_id":1377690819,
     "wof:placetype":"locality",
-    "wof:population":351,
+    "wof:population":307,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

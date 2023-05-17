@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schnaittach, M",
+    "eurostat:nuts_2021_id":"09574155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574155",
+    "eurostat:population":8507,
+    "eurostat:population_year":2020,
     "geom:area":0.006132,
-    "geom:area_square_m":49160269.03889,
+    "geom:area_square_m":49160269.038887,
     "geom:bbox":"11.263248,49.544666,11.426542,49.633727",
     "geom:latitude":49.581008,
     "geom:longitude":11.345058,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":112,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063495,
         1377689573,
         404227565,
-        85682571
+        102063495
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574155",
+        "eurostat:nuts_2021_id":"09574155",
         "gn:id":2837572,
         "gp:id":692584,
         "qs_pg:id":896291,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0625e7810b97de72233ef0b5ee81b9c1",
+    "wof:geomhash":"1066d3aa5b8a06a92ddb8b04ce0822aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101826823,
-    "wof:lastmodified":1608050341,
+    "wof:lastmodified":1684351936,
     "wof:name":"Schnaittach",
     "wof:parent_id":1377689573,
     "wof:placetype":"locality",
-    "wof:population":8238,
+    "wof:population":8507,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

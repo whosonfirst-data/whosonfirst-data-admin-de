@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aura a.d.Saale",
+    "eurostat:nuts_2021_id":"09672111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672111",
+    "eurostat:population":863,
+    "eurostat:population_year":2020,
     "geom:area":0.001262,
     "geom:area_square_m":9997605.280476,
     "geom:bbox":"9.97963424796,50.1490439182,10.0376541455,50.1962243767",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":265,
     "wof:belongsto":[
         85682571,
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672111",
+        "eurostat:nuts_2021_id":"09672111",
         "gn:id":2954024,
         "gp:id":636153,
         "qs_pg:id":1234200,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"665a365a8138848877b5f3e8d18b25ee",
+    "wof:geomhash":"4ca0fd8faec36d395e9f1b1c3e1bd74d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101907257,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351986,
     "wof:name":"Aura a.d. Saale",
     "wof:parent_id":1377690639,
     "wof:placetype":"locality",
-    "wof:population":862,
+    "wof:population":863,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

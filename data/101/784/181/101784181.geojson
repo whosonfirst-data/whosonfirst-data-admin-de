@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moosburg a.d.Isar, St",
+    "eurostat:nuts_2021_id":"09178143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178143",
+    "eurostat:population":18656,
+    "eurostat:population_year":2020,
     "geom:area":0.005372,
-    "geom:area_square_m":44044569.780513,
+    "geom:area_square_m":44044569.780515,
     "geom:bbox":"11.867211034,48.4269606603,12.0193352958,48.4993134891",
     "geom:latitude":48.462113,
     "geom:longitude":11.939497,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178143",
+        "eurostat:nuts_2021_id":"09178143",
         "gn:id":2869449,
         "gp:id":676124,
         "qs_pg:id":70193,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c0b6f7ab124f8c88f292e27d3c8a134f",
+    "wof:geomhash":"f46518fccd6e97680ad15c8e96b74d36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101784181,
-    "wof:lastmodified":1582342485,
+    "wof:lastmodified":1684351830,
     "wof:name":"Moosburg a.d. Isar",
     "wof:parent_id":1377691917,
     "wof:placetype":"locality",
-    "wof:population":17363,
+    "wof:population":18656,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

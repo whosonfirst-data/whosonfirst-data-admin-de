@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eime, Flecken",
+    "eurostat:nuts_2021_id":"03254013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254013",
+    "eurostat:population":2553,
+    "eurostat:population_year":2020,
     "geom:area":0.002843,
-    "geom:area_square_m":21611693.442574,
+    "geom:area_square_m":21611693.442573,
     "geom:bbox":"9.64337818235,52.032039145,9.740358176,52.105174942",
     "geom:latitude":52.06414,
     "geom:longitude":9.699998,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254013",
+        "eurostat:nuts_2021_id":"03254013",
         "gn:id":2931828,
         "gp:id":647194,
         "qs_pg:id":1039942,
@@ -305,7 +320,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"980eefea440fe1b37617dfed9b914049",
+    "wof:geomhash":"5eaa8184e4c5fa085ec168eea1c37687",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -317,11 +332,11 @@
         }
     ],
     "wof:id":101809225,
-    "wof:lastmodified":1582342601,
+    "wof:lastmodified":1684351868,
     "wof:name":"Eime",
     "wof:parent_id":1377686793,
     "wof:placetype":"locality",
-    "wof:population":2888,
+    "wof:population":2553,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hamdorf",
+    "eurostat:nuts_2021_id":"01058070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058070",
+    "eurostat:population":1275,
+    "eurostat:population_year":2020,
     "geom:area":0.004246,
-    "geom:area_square_m":30689861.703512,
+    "geom:area_square_m":30689861.70351,
     "geom:bbox":"9.42889064994,54.1965375386,9.57874729308,54.2514701823",
     "geom:latitude":54.227553,
     "geom:longitude":9.497671,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":103,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058070",
+        "eurostat:nuts_2021_id":"01058070",
         "gn:id":2911282,
         "gp:id":656968,
         "qs_pg:id":578783,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1cab2e8c3206626f71e32271a85868e1",
+    "wof:geomhash":"928c2ca27d77fc762e28385474fbfd7b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101805151,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351847,
     "wof:name":"Hamdorf",
     "wof:parent_id":1377684233,
     "wof:placetype":"locality",
-    "wof:population":1316,
+    "wof:population":1275,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

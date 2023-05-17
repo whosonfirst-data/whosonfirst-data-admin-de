@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gotthun",
+    "eurostat:nuts_2021_id":"13071045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071045",
+    "eurostat:population":316,
+    "eurostat:population_year":2020,
     "geom:area":0.001343,
-    "geom:area_square_m":9899922.709475,
+    "geom:area_square_m":9899922.709476,
     "geom:bbox":"12.5678692466,53.3964400701,12.631511258,53.4324732257",
     "geom:latitude":53.416055,
     "geom:longitude":12.598378,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071045",
+        "eurostat:nuts_2021_id":"13071045",
         "gn:id":2918646,
         "gp:id":653581,
         "qs_pg:id":1066372,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c2178171b9da20a0f1dafee626d76ad3",
+    "wof:geomhash":"d899e7370ccfc51eef4b6ea2ee41af42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101908177,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351994,
     "wof:name":"Gotthun",
     "wof:parent_id":1377684497,
     "wof:placetype":"locality",
-    "wof:population":314,
+    "wof:population":316,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

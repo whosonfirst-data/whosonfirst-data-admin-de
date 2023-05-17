@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03461009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stadland",
+    "eurostat:nuts_2021_id":"03461009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94G",
+    "eurostat:nuts_2021_level_lau":"03461009",
+    "eurostat:population":7404,
+    "eurostat:population_year":2020,
     "geom:area":0.015336,
     "geom:area_square_m":113011566.252851,
     "geom:bbox":"8.307293,53.36274,8.500256,53.500327",
@@ -296,21 +308,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":353,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064025,
         1377689315,
-        85682555
+        85633111,
+        102064025
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03461009",
+        "eurostat:nuts_2021_id":"03461009",
         "gn:id":3208260,
         "gp:id":633231,
         "qs_pg:id":581850,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"389bd4bdf8d0ad65afc18cb2f4c6f2ee",
+    "wof:geomhash":"d619eb3cf48f7bb7bfaf30c256c38d6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101806477,
-    "wof:lastmodified":1608051728,
+    "wof:lastmodified":1684351851,
     "wof:name":"Stadland",
     "wof:parent_id":1377689315,
     "wof:placetype":"locality",
-    "wof:population":7462,
+    "wof:population":7404,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

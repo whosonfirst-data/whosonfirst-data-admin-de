@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wagh\u00e4usel, Stadt",
+    "eurostat:nuts_2021_id":"08215106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215106",
+    "eurostat:population":20950,
+    "eurostat:population_year":2020,
     "geom:area":0.005384,
     "geom:area_square_m":43474373.224662,
     "geom:bbox":"8.477717,49.188954,8.598516,49.269674",
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":42.84,
     "wd:latitude":49.25,
     "wd:longitude":8.516944,
@@ -324,15 +337,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688249,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215106",
+        "eurostat:nuts_2021_id":"08215106",
         "gn:id":2815487,
         "gp:id":703190,
         "qs_pg:id":907108,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e482bc1c734dfbe712052ec6287edfee",
+    "wof:geomhash":"14d232bbeb10e355b94e35bcd6e24f24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,12 +375,12 @@
         }
     ],
     "wof:id":101760729,
-    "wof:lastmodified":1608050789,
+    "wof:lastmodified":1684351801,
     "wof:name":"Wagh\u00e4usel",
     "wof:parent_id":1377688249,
     "wof:placetype":"locality",
-    "wof:population":17345,
-    "wof:population_rank":6,
+    "wof:population":20950,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

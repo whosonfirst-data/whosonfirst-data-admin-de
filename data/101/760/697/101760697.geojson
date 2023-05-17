@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auenwald",
+    "eurostat:nuts_2021_id":"08119006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119006",
+    "eurostat:population":6699,
+    "eurostat:population_year":2020,
     "geom:area":0.002411,
-    "geom:area_square_m":19583944.855751,
+    "geom:area_square_m":19583944.85575,
     "geom:bbox":"9.48095367869,48.918909806,9.56438649026,48.9729014219",
     "geom:latitude":48.945775,
     "geom:longitude":9.519527,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119006",
+        "eurostat:nuts_2021_id":"08119006",
         "gn:id":3209438,
         "gp:id":700809,
         "qs_pg:id":581887,
@@ -341,7 +356,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"169eebc47f7fc1f66421ba61a30397d6",
+    "wof:geomhash":"579f72c9b10eb8482f2e88194c2feffb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101760697,
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351800,
     "wof:name":"Auenwald",
     "wof:parent_id":1377687521,
     "wof:placetype":"locality",
-    "wof:population":6766,
+    "wof:population":6699,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

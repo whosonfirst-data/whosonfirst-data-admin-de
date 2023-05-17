@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Warnkenhagen",
+    "eurostat:nuts_2021_id":"13072113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072113",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "geom:area":0.002683,
     "geom:area_square_m":19574015.368492,
     "geom:bbox":"12.4288680637,53.8171439145,12.5432147339,53.8577959286",
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072113",
+        "eurostat:nuts_2021_id":"13072113",
         "gn:id":2814047,
         "gp:id":704008,
         "qs_pg:id":576531,
@@ -145,7 +160,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6072e80531c51f612047dce886736a2e",
+    "wof:geomhash":"bbe85128adbd0ca187b498fc782aac6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":101908581,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351997,
     "wof:name":"Warnkenhagen",
     "wof:parent_id":1377684695,
     "wof:placetype":"locality",
-    "wof:population":399,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

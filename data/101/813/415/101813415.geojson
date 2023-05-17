@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Babenhausen, Stadt",
+    "eurostat:nuts_2021_id":"06432002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432002",
+    "eurostat:population":16940,
+    "eurostat:population_year":2020,
     "geom:area":0.008382,
     "geom:area_square_m":66684747.809058,
     "geom:bbox":"8.86503,49.910635,9.026372,50.002547",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.962361,
     "wd:longitude":8.953264,
     "wd:population":15750,
@@ -320,15 +333,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693037,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432002",
+        "eurostat:nuts_2021_id":"06432002",
         "gn:id":2953770,
         "gp:id":636286,
         "qs_pg:id":1343542,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"51c537ee9b9145b85eb148da992f72bf",
+    "wof:geomhash":"8f34ae752080c022520930d08dc642ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101813415,
-    "wof:lastmodified":1608051333,
+    "wof:lastmodified":1684351891,
     "wof:name":"Babenhausen",
     "wof:parent_id":1377693037,
     "wof:placetype":"locality",
-    "wof:population":15750,
+    "wof:population":16940,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

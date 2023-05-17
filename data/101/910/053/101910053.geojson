@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574452",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brunn",
+    "eurostat:nuts_2021_id":"09574452",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574452",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.001324,
-    "geom:area_square_m":10646430.244562,
+    "geom:area_square_m":10646430.244563,
     "geom:bbox":"11.2054968694,49.4298713736,11.3023902427,49.4639036705",
     "geom:latitude":49.444057,
     "geom:longitude":11.251193,
@@ -290,7 +302,8 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":108,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574452",
+        "eurostat:nuts_2021_id":"09574452",
         "gn:id":2943217,
         "gp:id":641738,
         "qs_pg:id":347557,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"15e581ab1b58bf435127185262afe0c3",
+    "wof:geomhash":"789d28f0399f08097b230a2da0eb474d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101910053,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352004,
     "wof:name":"Brunn",
     "wof:parent_id":1377688863,
     "wof:placetype":"locality",
-    "wof:population":1432,
+    "wof:population":0,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

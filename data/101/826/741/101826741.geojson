@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09573133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wilhermsdorf, M",
+    "eurostat:nuts_2021_id":"09573133",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE258",
+    "eurostat:nuts_2021_level_lau":"09573133",
+    "eurostat:population":5430,
+    "eurostat:population_year":2020,
     "geom:area":0.003312,
-    "geom:area_square_m":26613089.554546,
+    "geom:area_square_m":26613089.554552,
     "geom:bbox":"10.680368,49.432892,10.760003,49.504779",
     "geom:latitude":49.464507,
     "geom:longitude":10.71925,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063467,
         1377689411,
         404227565,
-        85682571
+        102063467
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09573133",
+        "eurostat:nuts_2021_id":"09573133",
         "gn:id":2808649,
         "gp:id":706650,
         "qs_pg:id":141563,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f4829fffec84c0857bfa12082401e33f",
+    "wof:geomhash":"3ccc02f5b3e6972022b3e1a5b35b149e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101826741,
-    "wof:lastmodified":1608050329,
+    "wof:lastmodified":1684351936,
     "wof:name":"Wilhermsdorf",
     "wof:parent_id":1377689411,
     "wof:placetype":"locality",
-    "wof:population":5105,
+    "wof:population":5430,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

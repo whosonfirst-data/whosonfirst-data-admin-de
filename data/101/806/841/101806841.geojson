@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holtsee",
+    "eurostat:nuts_2021_id":"01058080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058080",
+    "eurostat:population":1304,
+    "eurostat:population_year":2020,
     "geom:area":0.003001,
-    "geom:area_square_m":21600786.422992,
+    "geom:area_square_m":21600786.422993,
     "geom:bbox":"9.8205684003,54.3692384989,9.9043046918,54.4275059789",
     "geom:latitude":54.401197,
     "geom:longitude":9.86534,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058080",
+        "eurostat:nuts_2021_id":"01058080",
         "gn:id":2900079,
         "gp:id":661786,
         "qs_pg:id":578561,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d6e32da9c8e922af0e072e3509b4275f",
+    "wof:geomhash":"c4bd7a42b1e796fecb063ebc1b55cb3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101806841,
-    "wof:lastmodified":1582342618,
+    "wof:lastmodified":1684351855,
     "wof:name":"Holtsee",
     "wof:parent_id":1377684287,
     "wof:placetype":"locality",
-    "wof:population":1330,
+    "wof:population":1304,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

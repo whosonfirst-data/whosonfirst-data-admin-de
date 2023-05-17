@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09183118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gars a.Inn, M",
+    "eurostat:nuts_2021_id":"09183118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21G",
+    "eurostat:nuts_2021_level_lau":"09183118",
+    "eurostat:population":3930,
+    "eurostat:population_year":2020,
     "geom:area":0.005268,
-    "geom:area_square_m":43451283.330613,
+    "geom:area_square_m":43451283.330616,
     "geom:bbox":"12.2032216593,48.1265688959,12.3541845041,48.1924493163",
     "geom:latitude":48.157254,
     "geom:longitude":12.288801,
@@ -149,7 +161,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09183118",
+        "eurostat:nuts_2021_id":"09183118",
         "gn:id":2922502,
         "gp:id":651568,
         "qs_pg:id":937760,
@@ -170,7 +185,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48afb8c64c5d40d136d8067e392b4001",
+    "wof:geomhash":"98026d2da85c1f0ffec9c5008cf62af5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101786683,
-    "wof:lastmodified":1582342640,
+    "wof:lastmodified":1684351840,
     "wof:name":"Gars a. Inn",
     "wof:parent_id":1377692619,
     "wof:placetype":"locality",
-    "wof:population":3802,
+    "wof:population":3930,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

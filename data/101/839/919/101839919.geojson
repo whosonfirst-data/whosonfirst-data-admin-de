@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erlenbach a.Main, St",
+    "eurostat:nuts_2021_id":"09676122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676122",
+    "eurostat:population":10258,
+    "eurostat:population_year":2020,
     "geom:area":0.002026,
-    "geom:area_square_m":16166477.205374,
+    "geom:area_square_m":16166477.205376,
     "geom:bbox":"9.135867,49.785573,9.226319,49.832781",
     "geom:latitude":49.807006,
     "geom:longitude":9.176409,
@@ -297,18 +309,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":767,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691273,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676122",
+        "eurostat:nuts_2021_id":"09676122",
         "gn:id":2929499,
         "gp:id":648455,
         "qs_pg:id":279274,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b75f0720823a98eab1a580da45515c6f",
+    "wof:geomhash":"5fef10bdc99067e6fdbf6f8645f55fae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101839919,
-    "wof:lastmodified":1608051846,
+    "wof:lastmodified":1684351949,
     "wof:name":"Erlenbach a. Main",
     "wof:parent_id":1377691273,
     "wof:placetype":"locality",
-    "wof:population":9998,
-    "wof:population_rank":5,
+    "wof:population":10258,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Panketal",
+    "eurostat:nuts_2021_id":"12060181",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060181",
+    "eurostat:population":20596,
+    "eurostat:population_year":2020,
     "geom:area":0.003389,
     "geom:area_square_m":25431178.632735,
     "geom:bbox":"13.475513,52.600585,13.579677,52.678411",
@@ -296,21 +308,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":212,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063973,
         1377694225,
-        85682553
+        85633111,
+        102063973
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060181",
+        "eurostat:nuts_2021_id":"12060181",
         "gn:id":6559225,
         "gp:id":708748,
         "qs_pg:id":379085,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"03960de574a1c967256a8917cabd5eb3",
+    "wof:geomhash":"ca039066516e54ff761404fa58eceff1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,12 +351,12 @@
         }
     ],
     "wof:id":101756045,
-    "wof:lastmodified":1608050829,
+    "wof:lastmodified":1684351792,
     "wof:name":"Panketal",
     "wof:parent_id":1377694225,
     "wof:placetype":"locality",
-    "wof:population":19249,
-    "wof:population_rank":6,
+    "wof:population":20596,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

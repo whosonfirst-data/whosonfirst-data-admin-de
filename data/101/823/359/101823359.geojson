@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14628220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kreischa",
+    "eurostat:nuts_2021_id":"14628220",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2F",
+    "eurostat:nuts_2021_level_lau":"14628220",
+    "eurostat:population":4532,
+    "eurostat:population_year":2020,
     "geom:area":0.003685,
-    "geom:area_square_m":28709800.259719,
+    "geom:area_square_m":28709800.25972,
     "geom:bbox":"13.70115,50.914836,13.807531,50.98965",
     "geom:latitude":50.948753,
     "geom:longitude":13.756644,
@@ -157,20 +169,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064217,
         1377687541,
-        85682523
+        85633111,
+        102064217
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14628220",
+        "eurostat:nuts_2021_id":"14628220",
         "gn:id":2884451,
         "gp:id":668754,
         "qs_pg:id":142269,
@@ -185,7 +200,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"74fbab385edbbeb5277e59be41886042",
+    "wof:geomhash":"723b69565f99638ed88091b8df073681",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101823359,
-    "wof:lastmodified":1608051085,
+    "wof:lastmodified":1684351925,
     "wof:name":"Kreischa",
     "wof:parent_id":1377687541,
     "wof:placetype":"locality",
-    "wof:population":4537,
+    "wof:population":4532,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

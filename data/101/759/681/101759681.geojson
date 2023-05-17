@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ketsch",
+    "eurostat:nuts_2021_id":"08226037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226037",
+    "eurostat:population":12875,
+    "eurostat:population_year":2020,
     "geom:area":0.002012,
     "geom:area_square_m":16197130.439454,
     "geom:bbox":"8.492073,49.337545,8.560227,49.39472",
@@ -172,22 +184,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688595,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226037",
+        "eurostat:nuts_2021_id":"08226037",
         "fct:id":"0715f37a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2891343,
         "gp:id":665598,
@@ -203,7 +218,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a8cf77f94c8dd76d4a1504e2866ab620",
+    "wof:geomhash":"169c5759aafc3bede66efa4461d03319",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -219,11 +234,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050940,
+    "wof:lastmodified":1684351799,
     "wof:name":"Ketsch",
     "wof:parent_id":1377688595,
     "wof:placetype":"locality",
-    "wof:population":13124,
+    "wof:population":12875,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

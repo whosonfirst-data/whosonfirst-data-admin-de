@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08125086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwaigern, Stadt",
+    "eurostat:nuts_2021_id":"08125086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE118",
+    "eurostat:nuts_2021_level_lau":"08125086",
+    "eurostat:population":11441,
+    "eurostat:population_year":2020,
     "geom:area":0.00606,
     "geom:area_square_m":49021995.319782,
     "geom:bbox":"8.94573712284,49.0956155314,9.09123657055,49.1973756558",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.133333,
     "wd:longitude":9.05,
     "wd:wordcount":1219,
@@ -325,6 +338,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08125086",
+        "eurostat:nuts_2021_id":"08125086",
         "gn:id":2835411,
         "gp:id":693518,
         "qs_pg:id":906407,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a33979332b947d8caf43784d553cba65",
+    "wof:geomhash":"8efe3ae8b819aff175aef7630c7ae9e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101760889,
-    "wof:lastmodified":1582342492,
+    "wof:lastmodified":1684351803,
     "wof:name":"Schwaigern",
     "wof:parent_id":1377687737,
     "wof:placetype":"locality",
-    "wof:population":11047,
+    "wof:population":11441,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

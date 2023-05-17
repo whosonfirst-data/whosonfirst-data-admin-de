@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westendorf",
+    "eurostat:nuts_2021_id":"09777182",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777182",
+    "eurostat:population":1826,
+    "eurostat:population_year":2020,
     "geom:area":0.001439,
-    "geom:area_square_m":11923805.20165,
+    "geom:area_square_m":11923805.201649,
     "geom:bbox":"10.683656784,47.9011917934,10.734376683,47.9458887048",
     "geom:latitude":47.924702,
     "geom:longitude":10.707494,
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777182",
+        "eurostat:nuts_2021_id":"09777182",
         "gn:id":2810533,
         "gp:id":705675,
         "qs_pg:id":1038089,
@@ -155,7 +170,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c386e10b8cdb59733ff98c9745eb6128",
+    "wof:geomhash":"b7ed4e7682aa7906296077cbd507511f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101787675,
-    "wof:lastmodified":1582342643,
+    "wof:lastmodified":1684351843,
     "wof:name":"Westendorf",
     "wof:parent_id":1377693039,
     "wof:placetype":"locality",
-    "wof:population":1825,
+    "wof:population":1826,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Wildbad, Stadt",
+    "eurostat:nuts_2021_id":"08235079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235079",
+    "eurostat:population":10202,
+    "eurostat:population_year":2020,
     "geom:area":0.012868,
-    "geom:area_square_m":104965824.840604,
+    "geom:area_square_m":104965824.840598,
     "geom:bbox":"8.4392781924,48.6501777586,8.62440516621,48.7912785902",
     "geom:latitude":48.724698,
     "geom:longitude":8.52802,
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":105.2,
     "wd:latitude":48.750278,
     "wd:longitude":8.550556,
@@ -351,6 +364,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235079",
+        "eurostat:nuts_2021_id":"08235079",
         "fct:id":"0762e91e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2809025,
         "gp:id":706477,
@@ -367,7 +382,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"017cb11c0e020df1a0b488126bc31263",
+    "wof:geomhash":"de864441bb5502753a653d85f06882bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342513,
+    "wof:lastmodified":1684351805,
     "wof:name":"Bad Wildbad",
     "wof:parent_id":1377688901,
     "wof:placetype":"locality",
-    "wof:population":11300,
+    "wof:population":10202,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

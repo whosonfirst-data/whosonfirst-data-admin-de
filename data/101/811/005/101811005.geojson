@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ebsdorfergrund",
+    "eurostat:nuts_2021_id":"06534008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534008",
+    "eurostat:population":8963,
+    "eurostat:population_year":2020,
     "geom:area":0.009243,
-    "geom:area_square_m":72346498.360817,
+    "geom:area_square_m":72346498.360815,
     "geom:bbox":"8.748328,50.68764,8.919277,50.78699",
     "geom:latitude":50.730321,
     "geom:longitude":8.839362,
@@ -315,22 +327,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":343,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683821,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534008",
+        "eurostat:nuts_2021_id":"06534008",
         "gn:id":2933819,
         "gp:id":646325,
         "qs_pg:id":407227,
@@ -344,7 +359,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23e8966a4830293758f7f118163b0987",
+    "wof:geomhash":"c6e777fd1d173055291fde86ea87e7bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101811005,
-    "wof:lastmodified":1608049943,
+    "wof:lastmodified":1684351878,
     "wof:name":"Ebsdorfergrund",
     "wof:parent_id":1377683821,
     "wof:placetype":"locality",
-    "wof:population":8908,
+    "wof:population":8963,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

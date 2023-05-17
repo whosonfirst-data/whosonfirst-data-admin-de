@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwanheide",
+    "eurostat:nuts_2021_id":"13076122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076122",
+    "eurostat:population":732,
+    "eurostat:population_year":2020,
     "geom:area":0.003602,
-    "geom:area_square_m":26536801.841362,
+    "geom:area_square_m":26536801.841363,
     "geom:bbox":"10.6177451586,53.407926089,10.7179066819,53.4614770069",
     "geom:latitude":53.43581,
     "geom:longitude":10.667236,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":119,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076122",
+        "eurostat:nuts_2021_id":"13076122",
         "gn:id":2835249,
         "gp:id":693591,
         "qs_pg:id":576985,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2868a87cba224fc66aa138b9c8a25669",
+    "wof:geomhash":"af38fc80d5c2313a285c564d0d811e44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101908075,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351992,
     "wof:name":"Schwanheide",
     "wof:parent_id":1377685235,
     "wof:placetype":"locality",
-    "wof:population":760,
+    "wof:population":732,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

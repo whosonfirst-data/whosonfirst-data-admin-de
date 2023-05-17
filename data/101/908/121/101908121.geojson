@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kremmin",
+    "eurostat:nuts_2021_id":"13076076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076076",
+    "eurostat:population":228,
+    "eurostat:population_year":2020,
     "geom:area":0.002279,
-    "geom:area_square_m":16865356.627096,
+    "geom:area_square_m":16865356.627094,
     "geom:bbox":"11.549624485,53.2119604833,11.6305051898,53.2607729593",
     "geom:latitude":53.236481,
     "geom:longitude":11.586613,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076076",
+        "eurostat:nuts_2021_id":"13076076",
         "gn:id":2884396,
         "gp:id":668778,
         "qs_pg:id":578192,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d0094ca45cd692d501b565486d86defc",
+    "wof:geomhash":"40b6ded963c1bb46b5bf44fd6ed883c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908121,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351993,
     "wof:name":"Kremmin",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":322,
+    "wof:population":228,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

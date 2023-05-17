@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Salzungen, Stadt",
+    "eurostat:nuts_2021_id":"16063003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063003",
+    "eurostat:population":20097,
+    "eurostat:population_year":2020,
     "geom:area":0.012547,
-    "geom:area_square_m":97993855.186419,
+    "geom:area_square_m":97993855.186424,
     "geom:bbox":"10.056975,50.741767,10.270927,50.903354",
     "geom:latitude":50.831259,
     "geom:longitude":10.181372,
@@ -319,21 +331,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":99,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689699,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063003",
+        "eurostat:nuts_2021_id":"16063003",
         "gn:id":2953357,
         "gp:id":636499,
         "qs_pg:id":579925,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b33cfcf6b3a89ab0ef70dd0af47659ea",
+    "wof:geomhash":"775a638e1feee020651fd33e1edbfcef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,12 +375,12 @@
         }
     ],
     "wof:id":101839487,
-    "wof:lastmodified":1608051840,
+    "wof:lastmodified":1684351947,
     "wof:name":"Bad Salzungen",
     "wof:parent_id":1377689699,
     "wof:placetype":"locality",
-    "wof:population":16410,
-    "wof:population_rank":6,
+    "wof:population":20097,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gundelfingen",
+    "eurostat:nuts_2021_id":"08315047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315047",
+    "eurostat:population":11683,
+    "eurostat:population_year":2020,
     "geom:area":0.001731,
     "geom:area_square_m":14313595.832825,
     "geom:bbox":"7.85060231725,48.0101507405,7.92204320052,48.0558470856",
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1878,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315047",
+        "eurostat:nuts_2021_id":"08315047",
         "gn:id":2913713,
         "gp:id":655798,
         "qs_pg:id":1039680,
@@ -184,7 +199,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"91933118afc7744b1d63221c800d47e7",
+    "wof:geomhash":"260b83d9249a0c8a3d3e7469d24ff9c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101756207,
-    "wof:lastmodified":1582342503,
+    "wof:lastmodified":1684351792,
     "wof:name":"Gundelfingen",
     "wof:parent_id":1377689179,
     "wof:placetype":"locality",
-    "wof:population":11563,
+    "wof:population":11683,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

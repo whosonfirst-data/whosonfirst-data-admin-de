@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03459007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Badbergen",
+    "eurostat:nuts_2021_id":"03459007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94E",
+    "eurostat:nuts_2021_level_lau":"03459007",
+    "eurostat:population":4577,
+    "eurostat:population_year":2020,
     "geom:area":0.0105,
-    "geom:area_square_m":78791841.919048,
+    "geom:area_square_m":78791841.919044,
     "geom:bbox":"7.866302932,52.5920934045,8.08769544345,52.6733829587",
     "geom:latitude":52.637282,
     "geom:longitude":7.982063,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
         85682555,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03459007",
+        "eurostat:nuts_2021_id":"03459007",
         "gn:id":2953550,
         "gp:id":29351947,
         "qs_pg:id":142931,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d87aa0de437bc819222f96b6d94172b6",
+    "wof:geomhash":"ea941853b37a7ba90f536cd0dd0c4d49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101807783,
-    "wof:lastmodified":1582342589,
+    "wof:lastmodified":1684351860,
     "wof:name":"Badbergen",
     "wof:parent_id":1377689109,
     "wof:placetype":"locality",
-    "wof:population":4507,
+    "wof:population":4577,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

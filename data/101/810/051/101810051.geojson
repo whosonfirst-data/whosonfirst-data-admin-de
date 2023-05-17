@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wanfried, Stadt",
+    "eurostat:nuts_2021_id":"06636013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636013",
+    "eurostat:population":4174,
+    "eurostat:population_year":2020,
     "geom:area":0.006032,
     "geom:area_square_m":46766474.857739,
     "geom:bbox":"10.104358,51.112876,10.235999,51.21219",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.183333,
     "wd:longitude":10.166667,
     "wd:population":4214,
@@ -320,15 +333,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685175,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636013",
+        "eurostat:nuts_2021_id":"06636013",
         "gn:id":2814297,
         "gp:id":703875,
         "qs_pg:id":141602,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c4ea4f0e23035fc98148ea1a7a4b6716",
+    "wof:geomhash":"9d5ba2bdc6197258ed5bd759a69f78c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101810051,
-    "wof:lastmodified":1608050107,
+    "wof:lastmodified":1684351870,
     "wof:name":"Wanfried",
     "wof:parent_id":1377685175,
     "wof:placetype":"locality",
-    "wof:population":4214,
+    "wof:population":4174,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

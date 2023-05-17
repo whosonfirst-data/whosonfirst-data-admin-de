@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ludwigslust, Stadt",
+    "eurostat:nuts_2021_id":"13076090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076090",
+    "eurostat:population":11950,
+    "eurostat:population_year":2020,
     "geom:area":0.010607,
-    "geom:area_square_m":78353314.297964,
+    "geom:area_square_m":78353314.297965,
     "geom:bbox":"11.320508,53.25864,11.543602,53.372609",
     "geom:latitude":53.316102,
     "geom:longitude":11.43871,
@@ -202,20 +214,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675569,
         1377685209,
-        85682487
+        85633111,
+        1377675569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076090",
+        "eurostat:nuts_2021_id":"13076090",
         "gn:id":2875343,
         "gp:id":672965,
         "qs_pg:id":142183,
@@ -230,7 +245,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1e6e56d9c99e472961726cb771de16b5",
+    "wof:geomhash":"63b61a675247c448577350e33b3db143",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -242,11 +257,11 @@
         }
     ],
     "wof:id":101816249,
-    "wof:lastmodified":1608049904,
+    "wof:lastmodified":1684351895,
     "wof:name":"Ludwigslust",
     "wof:parent_id":1377685209,
     "wof:placetype":"locality",
-    "wof:population":12112,
+    "wof:population":11950,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

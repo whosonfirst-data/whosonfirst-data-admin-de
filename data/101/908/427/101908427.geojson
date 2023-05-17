@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vogelsang-Warsin",
+    "eurostat:nuts_2021_id":"13075139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075139",
+    "eurostat:population":358,
+    "eurostat:population_year":2020,
     "geom:area":0.003378,
-    "geom:area_square_m":24714753.858867,
+    "geom:area_square_m":24714753.858865,
     "geom:bbox":"14.1091769446,53.6886875555,14.2329533662,53.7522930465",
     "geom:latitude":53.722392,
     "geom:longitude":14.16911,
@@ -281,7 +293,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682487,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075139",
+        "eurostat:nuts_2021_id":"13075139",
         "gn:id":2816917,
         "gp:id":702509,
         "qs_pg:id":934770,
@@ -301,7 +316,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f8413f4af420a210f5ea64cc0ba8848",
+    "wof:geomhash":"f6e8c84c0edb5ee7893c59d6ea736dfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101908427,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351996,
     "wof:name":"Vogelsang-Warsin",
     "wof:parent_id":1377685077,
     "wof:placetype":"locality",
-    "wof:population":346,
+    "wof:population":358,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

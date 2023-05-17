@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Polle, Flecken",
+    "eurostat:nuts_2021_id":"03255033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255033",
+    "eurostat:population":1184,
+    "eurostat:population_year":2020,
     "geom:area":0.002733,
     "geom:area_square_m":20855254.167022,
     "geom:bbox":"9.32334373591,51.8536107403,9.46896082507,51.9097178398",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682555,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255033",
+        "eurostat:nuts_2021_id":"03255033",
         "gn:id":2852858,
         "gp:id":685545,
         "qs_pg:id":1038719,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"336e16698f616f178c3f8a0bdcd0444a",
+    "wof:geomhash":"26cf8aef87a759c42e5893fb6fdb4993",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101809005,
-    "wof:lastmodified":1582342601,
+    "wof:lastmodified":1684351866,
     "wof:name":"Polle",
     "wof:parent_id":1377686839,
     "wof:placetype":"locality",
-    "wof:population":1196,
+    "wof:population":1184,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

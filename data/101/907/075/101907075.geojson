@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sargenroth",
+    "eurostat:nuts_2021_id":"07140134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140134",
+    "eurostat:population":434,
+    "eurostat:population_year":2020,
     "geom:area":0.001581,
-    "geom:area_square_m":12585679.938019,
+    "geom:area_square_m":12585679.938018,
     "geom:bbox":"7.49763601117,49.8952760139,7.58682301738,49.9437615277",
     "geom:latitude":49.917319,
     "geom:longitude":7.54277,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":860,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140134",
+        "eurostat:nuts_2021_id":"07140134",
         "gn:id":2841417,
         "gp:id":691047,
         "qs_pg:id":93131,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e7a4a710540d8a8fdd3802c0d75c5cba",
+    "wof:geomhash":"d8c15b2119bec7e911f3762be472ed1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101907075,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351984,
     "wof:name":"Sargenroth",
     "wof:parent_id":1377685709,
     "wof:placetype":"locality",
-    "wof:population":515,
+    "wof:population":434,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

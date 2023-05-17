@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eurasburg",
+    "eurostat:nuts_2021_id":"09173123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173123",
+    "eurostat:population":4283,
+    "eurostat:population_year":2020,
     "geom:area":0.004889,
-    "geom:area_square_m":40583511.202689,
+    "geom:area_square_m":40583511.202686,
     "geom:bbox":"11.358794,47.789183,11.455545,47.88759",
     "geom:latitude":47.834715,
     "geom:longitude":11.401501,
@@ -302,18 +314,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":324,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063225,
         1377691033,
         404227567,
-        85682571
+        102063225
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173123",
+        "eurostat:nuts_2021_id":"09173123",
         "gn:id":2928408,
         "gp:id":649047,
         "qs_pg:id":1039891,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"eb57493b4b6d6d7ead519ad66ed7fa5e",
+    "wof:geomhash":"978d18e4096ecf104d467b093ffc1679",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101787621,
-    "wof:lastmodified":1608051988,
+    "wof:lastmodified":1684351842,
     "wof:name":"Eurasburg",
     "wof:parent_id":1377691033,
     "wof:placetype":"locality",
-    "wof:population":4397,
+    "wof:population":4283,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

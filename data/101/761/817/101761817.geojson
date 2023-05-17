@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Denkendorf",
+    "eurostat:nuts_2021_id":"08116015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116015",
+    "eurostat:population":11149,
+    "eurostat:population_year":2020,
     "geom:area":0.001584,
-    "geom:area_square_m":12930683.068359,
+    "geom:area_square_m":12930683.068357,
     "geom:bbox":"9.287419,48.667205,9.370953,48.713126",
     "geom:latitude":48.693718,
     "geom:longitude":9.321088,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":13,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063329,
         1377686957,
         404227549,
-        85682567
+        102063329
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116015",
+        "eurostat:nuts_2021_id":"08116015",
         "fct:id":"073b370c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2938253,
         "gp:id":644143,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3b26133af251bc7764c1533f9b378410",
+    "wof:geomhash":"41f718b23d47356983befad283552de8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050907,
+    "wof:lastmodified":1684351805,
     "wof:name":"Denkendorf",
     "wof:parent_id":1377686957,
     "wof:placetype":"locality",
-    "wof:population":10357,
+    "wof:population":11149,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

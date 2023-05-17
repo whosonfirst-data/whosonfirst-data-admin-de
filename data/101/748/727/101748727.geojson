@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6rlitz, Stadt",
+    "eurostat:nuts_2021_id":"14626110",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626110",
+    "eurostat:population":55980,
+    "eurostat:population_year":2020,
     "geom:area":0.008663,
-    "geom:area_square_m":67205994.236404,
+    "geom:area_square_m":67205994.236412,
     "geom:bbox":"14.911828,51.052555,15.017762,51.227391",
     "geom:latitude":51.141517,
     "geom:longitude":14.966507,
@@ -262,20 +274,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064233,
         1377687021,
-        85682523
+        85633111,
+        102064233
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626110",
+        "eurostat:nuts_2021_id":"14626110",
         "gn:id":2918987,
         "gp:id":653358,
         "qs_pg:id":4
@@ -291,7 +306,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dd053906a4797ce4c564a85ed325f0b5",
+    "wof:geomhash":"084a6f9fe58f7a42b5cc0d9492052adc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -303,11 +318,11 @@
         }
     ],
     "wof:id":101748727,
-    "wof:lastmodified":1608050603,
+    "wof:lastmodified":1684351788,
     "wof:name":"G\u00f6rlitz",
     "wof:parent_id":1377687021,
     "wof:placetype":"locality",
-    "wof:population":54114,
+    "wof:population":55980,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

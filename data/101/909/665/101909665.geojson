@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgstall",
+    "eurostat:nuts_2021_id":"15083120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083120",
+    "eurostat:population":1506,
+    "eurostat:population_year":2020,
     "geom:area":0.015492,
-    "geom:area_square_m":116849678.005519,
+    "geom:area_square_m":116849678.005513,
     "geom:bbox":"11.4958376299,52.3501886162,11.8020116752,52.4698506773",
     "geom:latitude":52.410826,
     "geom:longitude":11.642583,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":665,
     "wof:belongsto":[
         85682519,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083120",
+        "eurostat:nuts_2021_id":"15083120",
         "gn:id":2941116,
         "gp:id":642652,
         "qs_pg:id":579539,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"19a8c09e3ce4835cf8fbab3d763cd599",
+    "wof:geomhash":"7aac59a07e27d3125e16c9531def0a9d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,12 +340,12 @@
         }
     ],
     "wof:id":101909665,
-    "wof:lastmodified":1582342292,
+    "wof:lastmodified":1684352003,
     "wof:name":"Burgstall",
     "wof:parent_id":1377688387,
     "wof:placetype":"locality",
-    "wof:population":660,
-    "wof:population_rank":2,
+    "wof:population":1506,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

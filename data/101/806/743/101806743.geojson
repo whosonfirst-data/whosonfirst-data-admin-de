@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfenaspe",
+    "eurostat:nuts_2021_id":"01060027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060027",
+    "eurostat:population":2984,
+    "eurostat:population_year":2020,
     "geom:area":0.006301,
-    "geom:area_square_m":45820269.257329,
+    "geom:area_square_m":45820269.257328,
     "geom:bbox":"9.89957398347,53.9373209345,10.0620220579,54.0229793237",
     "geom:latitude":53.97774,
     "geom:longitude":9.973352,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":83,
     "wof:belongsto":[
         85682517,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060027",
+        "eurostat:nuts_2021_id":"01060027",
         "gn:id":2916676,
         "gp:id":654900,
         "qs_pg:id":142491,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f172a346155bd17dc4d1f8fe86109a66",
+    "wof:geomhash":"bb53d031e7b7750aa01d98b8332e8518",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101806743,
-    "wof:lastmodified":1582342621,
+    "wof:lastmodified":1684351854,
     "wof:name":"Gro\u00dfenaspe",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":2849,
+    "wof:population":2984,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

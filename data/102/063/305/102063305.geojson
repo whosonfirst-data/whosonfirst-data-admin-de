@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"T\u00fcbingen, Landkreis",
+    "eurostat:name_local":"T\u00fcbingen, Landkreis",
+    "eurostat:nuts_2021_id":"DE142",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE142",
+    "eurostat:population":229806,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.063253,
-    "geom:area_square_m":518442332.542047,
+    "geom:area_square_m":518442332.542071,
     "geom:bbox":"8.755711,48.362768,9.175657,48.622815",
     "geom:latitude":48.481742,
     "geom:longitude":8.987611,
@@ -297,8 +311,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"519",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"T\u00fcbingen",
@@ -311,19 +325,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227573,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE142",
         "hasc:id":"DE.BW.TB"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54e0c51440cddc133a0e2fe95187e97f",
+    "wof:geomhash":"24fc5019a0bd9405b51f8578c6c0c41b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,12 +349,12 @@
         }
     ],
     "wof:id":102063305,
-    "wof:lastmodified":1587164313,
+    "wof:lastmodified":1684351509,
     "wof:name":"T\u00fcbingen",
     "wof:parent_id":404227573,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":211952,
+    "wof:population":229806,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"TB",

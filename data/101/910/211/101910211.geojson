@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16070012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elleben",
+    "eurostat:nuts_2021_id":"16070012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0F",
+    "eurostat:nuts_2021_level_lau":"16070012",
+    "eurostat:population":874,
+    "eurostat:population_year":2020,
     "geom:area":0.002186,
-    "geom:area_square_m":17052828.434731,
+    "geom:area_square_m":17052828.434732,
     "geom:bbox":"11.0679364759,50.8526268496,11.1645585364,50.9038741986",
     "geom:latitude":50.875523,
     "geom:longitude":11.108286,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":68,
     "wof:belongsto":[
         85682541,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16070012",
+        "eurostat:nuts_2021_id":"16070012",
         "gn:id":2931098,
         "gp:id":688432,
         "qs_pg:id":579264,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b1e9466e44f8216a5fedaee8b1c85273",
+    "wof:geomhash":"014de65681c0e78178c494a1aeb2d0fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101910211,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Elleben",
     "wof:parent_id":1377690439,
     "wof:placetype":"locality",
-    "wof:population":949,
+    "wof:population":874,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Samerberg",
+    "eurostat:nuts_2021_id":"09187172",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187172",
+    "eurostat:population":2793,
+    "eurostat:population_year":2020,
     "geom:area":0.003998,
-    "geom:area_square_m":33228135.462745,
+    "geom:area_square_m":33228135.462748,
     "geom:bbox":"12.147427,47.718291,12.258548,47.791452",
     "geom:latitude":47.76133,
     "geom:longitude":12.215023,
@@ -163,22 +175,25 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377694205,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187172",
+        "eurostat:nuts_2021_id":"09187172",
         "fct:id":"07344afa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2842084,
         "gp:id":690885,
@@ -195,7 +210,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"3db3e5853dbf2c0655848997996e4588",
+    "wof:geomhash":"b75ecb9f5025fe13913b4fb01a4ba442",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051656,
+    "wof:lastmodified":1684351965,
     "wof:name":"Samerberg",
     "wof:parent_id":1377694205,
     "wof:placetype":"locality",
-    "wof:population":2569,
+    "wof:population":2793,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

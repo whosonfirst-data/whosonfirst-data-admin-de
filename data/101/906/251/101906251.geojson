@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wrohm",
+    "eurostat:nuts_2021_id":"01051136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051136",
+    "eurostat:population":706,
+    "eurostat:population_year":2020,
     "geom:area":0.001581,
-    "geom:area_square_m":11434246.310356,
+    "geom:area_square_m":11434246.310355,
     "geom:bbox":"9.35844711531,54.2009477855,9.44216196348,54.2329657435",
     "geom:latitude":54.215112,
     "geom:longitude":9.400412,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051136",
+        "eurostat:nuts_2021_id":"01051136",
         "gn:id":2805988,
         "gp:id":708088,
         "qs_pg:id":576307,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"679a72947b139dc66d171bd6d86aa5c5",
+    "wof:geomhash":"10f3952eb1b4c34d898fa2b609a17c28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101906251,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351978,
     "wof:name":"Wrohm",
     "wof:parent_id":1377683407,
     "wof:placetype":"locality",
-    "wof:population":740,
+    "wof:population":706,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

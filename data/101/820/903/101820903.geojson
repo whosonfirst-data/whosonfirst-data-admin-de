@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Quedlinburg, Welterbestadt",
+    "eurostat:nuts_2021_id":"15085235",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085235",
+    "eurostat:population":23798,
+    "eurostat:population_year":2020,
     "geom:area":0.015768,
-    "geom:area_square_m":120677525.729984,
+    "geom:area_square_m":120677525.729981,
     "geom:bbox":"11.054265,51.665254,11.253713,51.845527",
     "geom:latitude":51.762235,
     "geom:longitude":11.142522,
@@ -361,7 +373,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.791667,
     "wd:longitude":11.147222,
     "wd:wordcount":1686,
@@ -370,14 +383,16 @@
     "woe:name_adm1":"Sachsen-Anhalt",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063857,
         1377688611,
-        85682519
+        85633111,
+        102063857
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085235",
+        "eurostat:nuts_2021_id":"15085235",
         "gn:id":2851465,
         "gp:id":686356,
         "loc:id":"n83059759",
@@ -393,7 +408,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f8ec0942c5597eaf88d593de406adaf3",
+    "wof:geomhash":"e74e85bd04e1dd3285dd1c9367bd7cf7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -405,11 +420,11 @@
         }
     ],
     "wof:id":101820903,
-    "wof:lastmodified":1608049875,
+    "wof:lastmodified":1684351914,
     "wof:name":"Quedlinburg",
     "wof:parent_id":1377688611,
     "wof:placetype":"locality",
-    "wof:population":22814,
+    "wof:population":23798,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

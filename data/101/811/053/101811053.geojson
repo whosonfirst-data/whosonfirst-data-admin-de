@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedewald",
+    "eurostat:nuts_2021_id":"06632006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632006",
+    "eurostat:population":2449,
+    "eurostat:population_year":2020,
     "geom:area":0.005007,
-    "geom:area_square_m":39066368.326952,
+    "geom:area_square_m":39066368.326953,
     "geom:bbox":"9.789266,50.843251,9.927011,50.922954",
     "geom:latitude":50.877545,
     "geom:longitude":9.864234,
@@ -284,18 +296,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":673,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684305,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632006",
+        "eurostat:nuts_2021_id":"06632006",
         "gn:id":2924703,
         "gp:id":650705,
         "qs_pg:id":1039837,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4b632d949de67c0010895fb3ed2fa29c",
+    "wof:geomhash":"68e63ac421fce3833ab675c61d05f3ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101811053,
-    "wof:lastmodified":1608049917,
+    "wof:lastmodified":1684351878,
     "wof:name":"Friedewald",
     "wof:parent_id":1377684305,
     "wof:placetype":"locality",
-    "wof:population":2435,
+    "wof:population":2449,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

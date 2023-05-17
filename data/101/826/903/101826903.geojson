@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Markt Erlbach, M",
+    "eurostat:nuts_2021_id":"09575145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575145",
+    "eurostat:population":5672,
+    "eurostat:population_year":2020,
     "geom:area":0.007532,
-    "geom:area_square_m":60484204.322316,
+    "geom:area_square_m":60484204.322318,
     "geom:bbox":"10.503867,49.468141,10.713539,49.542727",
     "geom:latitude":49.500788,
     "geom:longitude":10.624323,
@@ -315,22 +327,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063505,
         1377689821,
         404227565,
-        85682571
+        102063505
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575145",
+        "eurostat:nuts_2021_id":"09575145",
         "fct:id":"071c5828-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2873304,
         "gp:id":12634517,
@@ -345,7 +360,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"afe2aeb53fc34c8d435e86c03aa45bc0",
+    "wof:geomhash":"755b1c3e57cbcf6d24e5a7f757fa082c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050333,
+    "wof:lastmodified":1684351937,
     "wof:name":"Markt Erlbach",
     "wof:parent_id":1377689821,
     "wof:placetype":"locality",
-    "wof:population":5716,
+    "wof:population":5672,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

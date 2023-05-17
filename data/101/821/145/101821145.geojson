@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Drebkau, Stadt",
+    "eurostat:nuts_2021_id":"12071057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071057",
+    "eurostat:population":5509,
+    "eurostat:population_year":2020,
     "geom:area":0.01871,
-    "geom:area_square_m":143496022.919968,
+    "geom:area_square_m":143496022.919966,
     "geom:bbox":"14.092074,51.58015,14.340048,51.728669",
     "geom:latitude":51.665433,
     "geom:longitude":14.216593,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.65,
     "wd:longitude":14.216667,
     "wd:wordcount":94,
@@ -327,14 +340,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063875,
         1377684015,
-        85682553
+        85633111,
+        102063875
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071057",
+        "eurostat:nuts_2021_id":"12071057",
         "gn:id":2935298,
         "gp:id":645573,
         "qs_pg:id":313888,
@@ -349,7 +364,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9b5bd9d89689f702645013c4c4e94571",
+    "wof:geomhash":"1eed283784b4c3fca0793c6faef41391",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101821145,
-    "wof:lastmodified":1608050195,
+    "wof:lastmodified":1684351916,
     "wof:name":"Drebkau",
     "wof:parent_id":1377684015,
     "wof:placetype":"locality",
-    "wof:population":6336,
+    "wof:population":5509,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

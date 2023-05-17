@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenaspe",
+    "eurostat:nuts_2021_id":"01061040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061040",
+    "eurostat:population":1946,
+    "eurostat:population_year":2020,
     "geom:area":0.001943,
     "geom:area_square_m":14126968.104379,
     "geom:bbox":"9.48303607624,53.9676262684,9.56796888069,54.0056118115",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061040",
+        "eurostat:nuts_2021_id":"01061040",
         "gn:id":2901984,
         "gp:id":661059,
         "qs_pg:id":142399,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5c953e79cf6a7238888fff1aa736c874",
+    "wof:geomhash":"1f35a11adb6b2c03019b6c3af698e059",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,12 +196,12 @@
         }
     ],
     "wof:id":101806705,
-    "wof:lastmodified":1582342616,
+    "wof:lastmodified":1684351854,
     "wof:name":"Hohenaspe",
     "wof:parent_id":1377684671,
     "wof:placetype":"locality",
-    "wof:population":2089,
-    "wof:population_rank":4,
+    "wof:population":1946,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

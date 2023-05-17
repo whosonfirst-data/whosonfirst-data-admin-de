@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09472143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Goldkronach, St",
+    "eurostat:nuts_2021_id":"09472143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE246",
+    "eurostat:nuts_2021_level_lau":"09472143",
+    "eurostat:population":3469,
+    "eurostat:population_year":2020,
     "geom:area":0.002922,
-    "geom:area_square_m":23226633.589347,
+    "geom:area_square_m":23226633.589348,
     "geom:bbox":"11.640895,49.971116,11.728749,50.028139",
     "geom:latitude":50.00088,
     "geom:longitude":11.67987,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":137,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675599,
         1377687455,
         404227583,
-        85682571
+        1377675599
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09472143",
+        "eurostat:nuts_2021_id":"09472143",
         "gn:id":2919290,
         "gp:id":653160,
         "qs_pg:id":352487,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c1f5ce3c3985029385fb131941004c0f",
+    "wof:geomhash":"13962adfad6ee5adbf25444c0e9bcc6a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101825867,
-    "wof:lastmodified":1608051420,
+    "wof:lastmodified":1684351932,
     "wof:name":"Goldkronach",
     "wof:parent_id":1377687455,
     "wof:placetype":"locality",
-    "wof:population":3711,
+    "wof:population":3469,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

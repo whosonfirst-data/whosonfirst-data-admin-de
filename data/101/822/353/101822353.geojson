@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e4hnichen",
+    "eurostat:nuts_2021_id":"14626160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626160",
+    "eurostat:population":1247,
+    "eurostat:population_year":2020,
     "geom:area":0.006353,
-    "geom:area_square_m":49054302.020548,
+    "geom:area_square_m":49054302.020551,
     "geom:bbox":"14.8063348548,51.3066090612,14.9174157654,51.4074553382",
     "geom:latitude":51.360787,
     "geom:longitude":14.860177,
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "wof:belongsto":[
         85682523,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626160",
+        "eurostat:nuts_2021_id":"14626160",
         "gn:id":2912184,
         "gp:id":656544,
         "qs_pg:id":253331,
@@ -308,7 +323,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"25ac8513ad1a2e1b626604abcf9e8a9d",
+    "wof:geomhash":"9ce8251ab8d0dcca6c405dd61414e6b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -320,11 +335,11 @@
         }
     ],
     "wof:id":101822353,
-    "wof:lastmodified":1582342577,
+    "wof:lastmodified":1684351922,
     "wof:name":"H\u00e4hnichen",
     "wof:parent_id":1377687203,
     "wof:placetype":"locality",
-    "wof:population":1528,
+    "wof:population":1247,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

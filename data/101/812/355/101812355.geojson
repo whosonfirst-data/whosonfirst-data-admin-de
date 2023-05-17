@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Simmern",
+    "eurostat:nuts_2021_id":"07143071",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143071",
+    "eurostat:population":1474,
+    "eurostat:population_year":2020,
     "geom:area":0.001172,
-    "geom:area_square_m":9239901.584273,
+    "geom:area_square_m":9239901.584272,
     "geom:bbox":"7.64408989983,50.3674151119,7.70542501109,50.4015032052",
     "geom:latitude":50.38716,
     "geom:longitude":7.677012,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3268,
     "wof:belongsto":[
         85682491,
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143071",
+        "eurostat:nuts_2021_id":"07143071",
         "gn:id":2832012,
         "gp:id":695102,
         "qs_pg:id":1038401,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"503b5b90c905f0aea1c41cd38c45f999",
+    "wof:geomhash":"d27f7181b388a7b0442e1ff500be3a5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101812355,
-    "wof:lastmodified":1582342545,
+    "wof:lastmodified":1684351885,
     "wof:name":"Simmern",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":1518,
+    "wof:population":1474,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

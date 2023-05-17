@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ettenheim, Stadt",
+    "eurostat:nuts_2021_id":"08317026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317026",
+    "eurostat:population":13369,
+    "eurostat:population_year":2020,
     "geom:area":0.005873,
-    "geom:area_square_m":48353087.538749,
+    "geom:area_square_m":48353087.538747,
     "geom:bbox":"7.75915902455,48.2184311086,7.93968111441,48.2792360008",
     "geom:latitude":48.251503,
     "geom:longitude":7.853714,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.255556,
     "wd:longitude":7.811944,
     "wd:wordcount":63,
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317026",
+        "eurostat:nuts_2021_id":"08317026",
         "gn:id":2928659,
         "gp:id":648898,
         "qs_pg:id":905858,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8f56699bc751ad3fe621682dd6fd6334",
+    "wof:geomhash":"c5984746a397a5bb8a87c6780ed6f48b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101763065,
-    "wof:lastmodified":1582342295,
+    "wof:lastmodified":1684351809,
     "wof:name":"Ettenheim",
     "wof:parent_id":1377689323,
     "wof:placetype":"locality",
-    "wof:population":11995,
+    "wof:population":13369,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

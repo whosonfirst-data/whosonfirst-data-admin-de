@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03241009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laatzen, Stadt",
+    "eurostat:nuts_2021_id":"03241009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE929",
+    "eurostat:nuts_2021_level_lau":"03241009",
+    "eurostat:population":41606,
+    "eurostat:population_year":2020,
     "geom:area":0.004595,
-    "geom:area_square_m":34750666.502022,
+    "geom:area_square_m":34750666.502024,
     "geom:bbox":"9.763057,52.26161,9.916457,52.325848",
     "geom:latitude":52.289699,
     "geom:longitude":9.83973,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063941,
         1377686335,
-        85682555
+        85633111,
+        102063941
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03241009",
+        "eurostat:nuts_2021_id":"03241009",
         "gn:id":2882087,
         "gp:id":669728,
         "qs_pg:id":476189,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ef1c324e97e4eae1106e47906e026ec6",
+    "wof:geomhash":"bc3afb55763fe141e510662176be0cb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101756033,
-    "wof:lastmodified":1608050842,
+    "wof:lastmodified":1684351792,
     "wof:name":"Laatzen",
     "wof:parent_id":1377686335,
     "wof:placetype":"locality",
-    "wof:population":40038,
+    "wof:population":41606,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wittbek",
+    "eurostat:nuts_2021_id":"01054159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054159",
+    "eurostat:population":768,
+    "eurostat:population_year":2020,
     "geom:area":0.002779,
-    "geom:area_square_m":19966255.085765,
+    "geom:area_square_m":19966255.085767,
     "geom:bbox":"9.16881725445,54.4605045747,9.32236561582,54.4914777996",
     "geom:latitude":54.477571,
     "geom:longitude":9.234865,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054159",
+        "eurostat:nuts_2021_id":"01054159",
         "gn:id":2807388,
         "gp:id":707275,
         "qs_pg:id":576356,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"be1df7d980a356beab9771eec4ea5b2d",
+    "wof:geomhash":"549df88ca61a1d8a38c194e01bf101b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101906515,
-    "wof:lastmodified":1582342333,
+    "wof:lastmodified":1684351980,
     "wof:name":"Wittbek",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",
-    "wof:population":764,
+    "wof:population":768,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

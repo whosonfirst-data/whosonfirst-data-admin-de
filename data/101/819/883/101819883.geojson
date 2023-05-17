@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15081030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arendsee (Altmark), Stadt",
+    "eurostat:nuts_2021_id":"15081030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE04",
+    "eurostat:nuts_2021_level_lau":"15081030",
+    "eurostat:population":6750,
+    "eurostat:population_year":2020,
     "geom:area":0.036184,
-    "geom:area_square_m":270206509.037977,
+    "geom:area_square_m":270206509.037982,
     "geom:bbox":"11.3116191743,52.7355702395,11.6375238413,52.9416339208",
     "geom:latitude":52.848804,
     "geom:longitude":11.450929,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682519,
         102191581,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15081030",
+        "eurostat:nuts_2021_id":"15081030",
         "gn:id":2955651,
         "gp:id":635399,
         "qs_pg:id":475777,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e1fd36ac1d073a199ea31b98f7b81338",
+    "wof:geomhash":"bb027fd49a30d185ae933dc2e6d34be2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,12 +351,12 @@
         }
     ],
     "wof:id":101819883,
-    "wof:lastmodified":1582342431,
+    "wof:lastmodified":1684351909,
     "wof:name":"Arendsee (Altmark)",
     "wof:parent_id":1377688163,
     "wof:placetype":"locality",
-    "wof:population":2962,
-    "wof:population_rank":4,
+    "wof:population":6750,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

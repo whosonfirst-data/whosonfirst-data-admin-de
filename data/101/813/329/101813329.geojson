@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trassem",
+    "eurostat:nuts_2021_id":"07235136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235136",
+    "eurostat:population":1160,
+    "eurostat:population_year":2020,
     "geom:area":0.000945,
     "geom:area_square_m":7576979.748983,
     "geom:bbox":"6.50734380751,49.5642465877,6.5569845605,49.5985826839",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235136",
+        "eurostat:nuts_2021_id":"07235136",
         "gn:id":2821548,
         "gp:id":684541,
         "qs_pg:id":576702,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"79bc0120a619c658c57485719367687f",
+    "wof:geomhash":"f8974c837838aaf0caf47940d56353c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101813329,
-    "wof:lastmodified":1582342571,
+    "wof:lastmodified":1684351890,
     "wof:name":"Trassem",
     "wof:parent_id":1377686055,
     "wof:placetype":"locality",
-    "wof:population":1178,
+    "wof:population":1160,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

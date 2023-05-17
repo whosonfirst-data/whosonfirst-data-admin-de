@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grapzow",
+    "eurostat:nuts_2021_id":"13071049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071049",
+    "eurostat:population":390,
+    "eurostat:population_year":2020,
     "geom:area":0.002048,
-    "geom:area_square_m":14982636.211362,
+    "geom:area_square_m":14982636.211363,
     "geom:bbox":"13.2559417368,53.702774404,13.3410761614,53.7420014798",
     "geom:latitude":53.719062,
     "geom:longitude":13.30104,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071049",
+        "eurostat:nuts_2021_id":"13071049",
         "gn:id":2918057,
         "gp:id":653907,
         "qs_pg:id":578918,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bc464bea8e775b36df5d0746dff66fff",
+    "wof:geomhash":"760d6eb184c556f4af290e650201fa11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101908649,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351998,
     "wof:name":"Grapzow",
     "wof:parent_id":1377684533,
     "wof:placetype":"locality",
-    "wof:population":480,
+    "wof:population":390,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

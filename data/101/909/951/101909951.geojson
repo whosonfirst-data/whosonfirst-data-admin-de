@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kamern",
+    "eurostat:nuts_2021_id":"15090285",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090285",
+    "eurostat:population":1215,
+    "eurostat:population_year":2020,
     "geom:area":0.00908,
-    "geom:area_square_m":67970503.648945,
+    "geom:area_square_m":67970503.648944,
     "geom:bbox":"12.0266505159,52.7029388544,12.2059568882,52.7883309928",
     "geom:latitude":52.743245,
     "geom:longitude":12.107852,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682519,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090285",
+        "eurostat:nuts_2021_id":"15090285",
         "gn:id":2893430,
         "gp:id":664709,
         "qs_pg:id":578391,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"852d59f6c276c143818f188adeea8765",
+    "wof:geomhash":"e81e672a4ff2981682a9ce815881ae8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,12 +337,12 @@
         }
     ],
     "wof:id":101909951,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352003,
     "wof:name":"Kamern",
     "wof:parent_id":1377689237,
     "wof:placetype":"locality",
-    "wof:population":750,
-    "wof:population_rank":2,
+    "wof:population":1215,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

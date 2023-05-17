@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070416",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weisen",
+    "eurostat:nuts_2021_id":"12070416",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070416",
+    "eurostat:population":967,
+    "eurostat:population_year":2020,
     "geom:area":0.002078,
-    "geom:area_square_m":15452837.967329,
+    "geom:area_square_m":15452837.96733,
     "geom:bbox":"11.7483250076,53.0120319147,11.8125988331,53.0652878748",
     "geom:latitude":53.039938,
     "geom:longitude":11.778563,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682553,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070416",
+        "eurostat:nuts_2021_id":"12070416",
         "gn:id":2812095,
         "gp:id":704875,
         "qs_pg:id":1038112,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"414e88e2819714dfabb9abb6257efea7",
+    "wof:geomhash":"35618457bc5de216bb2c5e4773c9fa16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,12 +183,12 @@
         }
     ],
     "wof:id":101818537,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351900,
     "wof:name":"Weisen",
     "wof:parent_id":1377683985,
     "wof:placetype":"locality",
-    "wof:population":1103,
-    "wof:population_rank":3,
+    "wof:population":967,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

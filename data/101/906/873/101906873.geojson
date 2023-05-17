@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herborn",
+    "eurostat:nuts_2021_id":"07134038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134038",
+    "eurostat:population":502,
+    "eurostat:population_year":2020,
     "geom:area":0.000301,
-    "geom:area_square_m":2402880.535465,
+    "geom:area_square_m":2402880.535464,
     "geom:bbox":"7.2673337825,49.7620495605,7.30389261439,49.7813265638",
     "geom:latitude":49.771228,
     "geom:longitude":7.287139,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134038",
+        "eurostat:nuts_2021_id":"07134038",
         "gn:id":2906200,
         "gp:id":20162816,
         "qs_pg:id":578681,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ae923d2d90846ec54b422a7efe385e89",
+    "wof:geomhash":"330e335d4fd1cb912d7d9fa6e8e317e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101906873,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351982,
     "wof:name":"Herborn",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":530,
+    "wof:population":502,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

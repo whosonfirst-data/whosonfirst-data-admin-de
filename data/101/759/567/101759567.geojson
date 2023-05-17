@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heltersberg",
+    "eurostat:nuts_2021_id":"07340015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340015",
+    "eurostat:population":2020,
+    "eurostat:population_year":2020,
     "geom:area":0.003523,
-    "geom:area_square_m":28404488.167281,
+    "geom:area_square_m":28404488.16728,
     "geom:bbox":"7.67740126729,49.2711138145,7.79935821487,49.3257074628",
     "geom:latitude":49.301372,
     "geom:longitude":7.732592,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340015",
+        "eurostat:nuts_2021_id":"07340015",
         "gn:id":2906634,
         "gp:id":692344,
         "qs_pg:id":578679,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e5ab8528eb4a9f4365eced7d80c8e031",
+    "wof:geomhash":"7d7f0e8ab34bc67764853365e95d32eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101759567,
-    "wof:lastmodified":1582342514,
+    "wof:lastmodified":1684351797,
     "wof:name":"Heltersberg",
     "wof:parent_id":1377686777,
     "wof:placetype":"locality",
-    "wof:population":2214,
+    "wof:population":2020,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

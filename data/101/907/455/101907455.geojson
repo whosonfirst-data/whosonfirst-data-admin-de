@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rothenbach",
+    "eurostat:nuts_2021_id":"07143289",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143289",
+    "eurostat:population":907,
+    "eurostat:population_year":2020,
     "geom:area":0.000862,
-    "geom:area_square_m":6769060.377825,
+    "geom:area_square_m":6769060.377824,
     "geom:bbox":"7.86702908117,50.5406890541,7.9161092539,50.5754990221",
     "geom:latitude":50.560163,
     "geom:longitude":7.889893,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":151,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143289",
+        "eurostat:nuts_2021_id":"07143289",
         "gn:id":2844143,
         "gp:id":684880,
         "qs_pg:id":577169,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8b373acf8be77730cf48fe282e5ee031",
+    "wof:geomhash":"6a193dfe655fec41403a28ac5c39c6b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101907455,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351988,
     "wof:name":"Rothenbach",
     "wof:parent_id":1377685835,
     "wof:placetype":"locality",
-    "wof:population":921,
+    "wof:population":907,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

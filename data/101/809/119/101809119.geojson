@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elbe",
+    "eurostat:nuts_2021_id":"03158011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158011",
+    "eurostat:population":1521,
+    "eurostat:population_year":2020,
     "geom:area":0.002153,
-    "geom:area_square_m":16359466.909921,
+    "geom:area_square_m":16359466.909922,
     "geom:bbox":"10.2359505893,52.0630639527,10.3250369453,52.1076107212",
     "geom:latitude":52.089104,
     "geom:longitude":10.280352,
@@ -402,7 +414,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2356,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -417,6 +430,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158011",
+        "eurostat:nuts_2021_id":"03158011",
         "gn:id":3208598,
         "gp:id":654466,
         "qs_pg:id":95273,
@@ -427,7 +442,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f708463129005a0ed5bc08d2df709ac4",
+    "wof:geomhash":"330070939213943386950a67a9805ad1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -439,11 +454,11 @@
         }
     ],
     "wof:id":101809119,
-    "wof:lastmodified":1582342599,
+    "wof:lastmodified":1684351867,
     "wof:name":"Elbe",
     "wof:parent_id":1377686121,
     "wof:placetype":"locality",
-    "wof:population":1853,
+    "wof:population":1521,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

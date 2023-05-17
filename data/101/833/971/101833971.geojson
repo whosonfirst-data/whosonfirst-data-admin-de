@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09188141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tutzing",
+    "eurostat:nuts_2021_id":"09188141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21L",
+    "eurostat:nuts_2021_level_lau":"09188141",
+    "eurostat:population":9918,
+    "eurostat:population_year":2020,
     "geom:area":0.004282,
-    "geom:area_square_m":35492683.616868,
+    "geom:area_square_m":35492683.61687,
     "geom:bbox":"11.185754,47.875085,11.290324,47.956914",
     "geom:latitude":47.910427,
     "geom:longitude":11.245312,
@@ -337,22 +349,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":295,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063243,
         1377694419,
         404227567,
-        85682571
+        102063243
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09188141",
+        "eurostat:nuts_2021_id":"09188141",
         "fct:id":"071cd42e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2820692,
         "gp:id":700272,
@@ -368,7 +383,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bfc67ca865e7de6d290f77d548332107",
+    "wof:geomhash":"886847517b146e0a92b14f60d901be57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050417,
+    "wof:lastmodified":1684351944,
     "wof:name":"Tutzing",
     "wof:parent_id":1377694419,
     "wof:placetype":"locality",
-    "wof:population":9517,
+    "wof:population":9918,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

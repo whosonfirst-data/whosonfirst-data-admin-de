@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09572119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bubenreuth",
+    "eurostat:nuts_2021_id":"09572119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE257",
+    "eurostat:nuts_2021_level_lau":"09572119",
+    "eurostat:population":4612,
+    "eurostat:population_year":2020,
     "geom:area":0.000543,
     "geom:area_square_m":4353303.831867,
     "geom:bbox":"10.994707,49.610997,11.032616,49.639592",
@@ -166,22 +178,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063513,
         1377689113,
         404227565,
-        85682571
+        102063513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09572119",
+        "eurostat:nuts_2021_id":"09572119",
         "gn:id":2942930,
         "gp:id":687003,
         "qs_pg:id":847591,
@@ -196,7 +211,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6f077965a0269c4c1b0bb4da8a0c9002",
+    "wof:geomhash":"ce2403a47bfe514fa21483213d0dd5bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101826979,
-    "wof:lastmodified":1608050322,
+    "wof:lastmodified":1684351938,
     "wof:name":"Bubenreuth",
     "wof:parent_id":1377689113,
     "wof:placetype":"locality",
-    "wof:population":4516,
+    "wof:population":4612,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

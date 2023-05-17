@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729400",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trebsen/Mulde, Stadt",
+    "eurostat:nuts_2021_id":"14729400",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729400",
+    "eurostat:population":3817,
+    "eurostat:population_year":2020,
     "geom:area":0.004528,
-    "geom:area_square_m":35020044.270882,
+    "geom:area_square_m":35020044.270881,
     "geom:bbox":"12.6569735628,51.2594039739,12.8041003593,51.314727144",
     "geom:latitude":51.286241,
     "geom:longitude":12.729145,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729400",
+        "eurostat:nuts_2021_id":"14729400",
         "gn:id":2821418,
         "gp:id":699892,
         "qs_pg:id":1209898,
@@ -161,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"de91508b1670e53ffe733c92f7cfc38c",
+    "wof:geomhash":"863623cca6361d37f5956f5c5350fb09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101822037,
-    "wof:lastmodified":1582342580,
+    "wof:lastmodified":1684351919,
     "wof:name":"Trebsen/Mulde",
     "wof:parent_id":1377687865,
     "wof:placetype":"locality",
-    "wof:population":4244,
+    "wof:population":3817,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

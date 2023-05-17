@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bobenheim am Berg",
+    "eurostat:nuts_2021_id":"07332005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332005",
+    "eurostat:population":839,
+    "eurostat:population_year":2020,
     "geom:area":0.000765,
     "geom:area_square_m":6141646.307257,
     "geom:bbox":"8.01912704176,49.461010565,8.1668542899,49.5312802581",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":343,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332005",
+        "eurostat:nuts_2021_id":"07332005",
         "fct:id":"0738a56e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2947466,
         "gp:id":639646,
@@ -161,7 +176,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b6bd2c63ba8108eee13305028b00c41",
+    "wof:geomhash":"e33537b3d52df447fb105e1c3ad6dfc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351981,
     "wof:name":"Bobenheim am Berg",
     "wof:parent_id":1377686269,
     "wof:placetype":"locality",
-    "wof:population":848,
+    "wof:population":839,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

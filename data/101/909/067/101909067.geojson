@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wasserthaleben",
+    "eurostat:nuts_2021_id":"16065077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065077",
+    "eurostat:population":383,
+    "eurostat:population_year":2020,
     "geom:area":0.001075,
-    "geom:area_square_m":8317027.430976,
+    "geom:area_square_m":8317027.430974,
     "geom:bbox":"10.8660083691,51.2411875326,10.9217570381,51.273114733",
     "geom:latitude":51.25723,
     "geom:longitude":10.891771,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065077",
+        "eurostat:nuts_2021_id":"16065077",
         "gn:id":2813701,
         "gp:id":683949,
         "qs_pg:id":576517,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0b8ff72c281e174a0a7acedafc1bafb0",
+    "wof:geomhash":"96304a01446e86c109d0b418f882cde0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101909067,
-    "wof:lastmodified":1582342292,
+    "wof:lastmodified":1684352001,
     "wof:name":"Wasserthaleben",
     "wof:parent_id":1377689909,
     "wof:placetype":"locality",
-    "wof:population":476,
+    "wof:population":383,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

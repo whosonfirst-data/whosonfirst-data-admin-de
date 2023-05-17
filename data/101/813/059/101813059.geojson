@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sippersfeld",
+    "eurostat:nuts_2021_id":"07333071",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333071",
+    "eurostat:population":1096,
+    "eurostat:population_year":2020,
     "geom:area":0.001622,
-    "geom:area_square_m":13014858.904074,
+    "geom:area_square_m":13014858.904072,
     "geom:bbox":"7.90419684649,49.5281494446,7.97322271406,49.5650150197",
     "geom:latitude":49.547621,
     "geom:longitude":7.937061,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333071",
+        "eurostat:nuts_2021_id":"07333071",
         "gn:id":2831838,
         "gp:id":695209,
         "qs_pg:id":1038392,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73eecd8ddf0ff45d3cc91104d7cda5d2",
+    "wof:geomhash":"cbad088fe388665109bd1113c4426f7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101813059,
-    "wof:lastmodified":1582342570,
+    "wof:lastmodified":1684351887,
     "wof:name":"Sippersfeld",
     "wof:parent_id":1377686355,
     "wof:placetype":"locality",
-    "wof:population":1217,
+    "wof:population":1096,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

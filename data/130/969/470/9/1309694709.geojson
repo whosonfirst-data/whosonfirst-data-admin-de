@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Urbach",
+    "eurostat:nuts_2021_id":"16062054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062054",
+    "eurostat:population":885,
+    "eurostat:population_year":2020,
     "geom:area":0.003397,
-    "geom:area_square_m":26154820.77159,
+    "geom:area_square_m":26154820.771592,
     "geom:bbox":"10.8686031538,51.4589332727,10.9729436569,51.5275289821",
     "geom:latitude":51.488398,
     "geom:longitude":10.917917,
@@ -304,7 +316,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -318,13 +331,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062054",
+        "eurostat:nuts_2021_id":"16062054",
         "gn:id":2818242
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"82b4f386638346edde270d4f3fb8c406",
+    "wof:geomhash":"a36b3d2781eddd515cfbede5f5fddbf8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":1309694709,
-    "wof:lastmodified":1582342837,
+    "wof:lastmodified":1684352060,
     "wof:name":"Urbach",
     "wof:parent_id":1377689575,
     "wof:placetype":"locality",
-    "wof:population":907,
+    "wof:population":885,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

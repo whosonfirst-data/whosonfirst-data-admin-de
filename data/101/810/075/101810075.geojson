@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenrade, Stadt",
+    "eurostat:nuts_2021_id":"05962048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962048",
+    "eurostat:population":11889,
+    "eurostat:population_year":2020,
     "geom:area":0.006985,
-    "geom:area_square_m":54027860.253228,
+    "geom:area_square_m":54027860.253226,
     "geom:bbox":"7.730165,51.245272,7.922283,51.318335",
     "geom:latitude":51.278455,
     "geom:longitude":7.83049,
@@ -297,22 +309,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":498,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692409,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962048",
+        "eurostat:nuts_2021_id":"05962048",
         "gn:id":2865592,
         "gp:id":678275,
         "qs_pg:id":1344999,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"71322de1e9dca0cd7fa2252d689566e1",
+    "wof:geomhash":"8ab2d57ebbda0427f63120e4c918f8bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101810075,
-    "wof:lastmodified":1608050088,
+    "wof:lastmodified":1684351871,
     "wof:name":"Neuenrade",
     "wof:parent_id":1377692409,
     "wof:placetype":"locality",
-    "wof:population":12602,
+    "wof:population":11889,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

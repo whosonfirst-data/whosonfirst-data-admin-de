@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09172129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ramsau b.Berchtesgaden",
+    "eurostat:nuts_2021_id":"09172129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE215",
+    "eurostat:nuts_2021_level_lau":"09172129",
+    "eurostat:population":1700,
+    "eurostat:population_year":2020,
     "geom:area":0.015462,
-    "geom:area_square_m":128956755.819422,
+    "geom:area_square_m":128956755.819412,
     "geom:bbox":"12.7790941336,47.496989222,12.9616668591,47.6586998445",
     "geom:latitude":47.584029,
     "geom:longitude":12.871452,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":162,
     "wof:belongsto":[
         85682571,
@@ -183,6 +196,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09172129",
+        "eurostat:nuts_2021_id":"09172129",
         "gn:id":2850603,
         "gp:id":686789,
         "qs_pg:id":253854,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3b3eae60c6c49f60c84082c1bfb1e543",
+    "wof:geomhash":"ba97b1efa74d29e70a9fedc2085461e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101845489,
-    "wof:lastmodified":1582342390,
+    "wof:lastmodified":1684351958,
     "wof:name":"Ramsau b. Berchtesgaden",
     "wof:parent_id":1377690937,
     "wof:placetype":"locality",
-    "wof:population":1791,
+    "wof:population":1700,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

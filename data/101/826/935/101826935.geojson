@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigstein, M",
+    "eurostat:nuts_2021_id":"09371135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371135",
+    "eurostat:population":1717,
+    "eurostat:population_year":2020,
     "geom:area":0.004391,
-    "geom:area_square_m":35183686.540327,
+    "geom:area_square_m":35183686.540325,
     "geom:bbox":"11.5603532093,49.5697495695,11.7199601229,49.6453613087",
     "geom:latitude":49.610651,
     "geom:longitude":11.640947,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":281,
     "wof:belongsto":[
         85682571,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371135",
+        "eurostat:nuts_2021_id":"09371135",
         "gn:id":2885765,
         "gp:id":668179,
         "qs_pg:id":765828,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4bf7bc75aa2effbe10af2ff2622b6eb0",
+    "wof:geomhash":"9c92f7e969aacadbcccbb0d3ac26b061",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101826935,
-    "wof:lastmodified":1582342439,
+    "wof:lastmodified":1684351938,
     "wof:name":"K\u00f6nigstein",
     "wof:parent_id":1377685793,
     "wof:placetype":"locality",
-    "wof:population":1761,
+    "wof:population":1717,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

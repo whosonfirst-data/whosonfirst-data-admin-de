@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bullay",
+    "eurostat:nuts_2021_id":"07135019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135019",
+    "eurostat:population":1571,
+    "eurostat:population_year":2020,
     "geom:area":0.000502,
     "geom:area_square_m":3985299.813992,
     "geom:bbox":"7.12824516125,50.0463907767,7.17708866239,50.0715202835",
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":837,
     "wof:belongsto":[
         85682491,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135019",
+        "eurostat:nuts_2021_id":"07135019",
         "gn:id":2941826,
         "gp:id":642354,
         "qs_pg:id":213846,
@@ -164,7 +179,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6bfdb0632245acba504fd079ac70183c",
+    "wof:geomhash":"e89967fd4af29978a2ff5d721e680e56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101811995,
-    "wof:lastmodified":1582342386,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bullay",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":1531,
+    "wof:population":1571,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

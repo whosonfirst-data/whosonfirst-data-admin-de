@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bornheim",
+    "eurostat:nuts_2021_id":"07331012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331012",
+    "eurostat:population":925,
+    "eurostat:population_year":2020,
     "geom:area":0.000562,
     "geom:area_square_m":4488724.351148,
     "geom:bbox":"8.04846817062,49.7631513805,8.08251245368,49.799820123",
@@ -273,7 +285,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331012",
+        "eurostat:nuts_2021_id":"07331012",
         "gn:id":2946112,
         "gp:id":640337,
         "qs_pg:id":579680,
@@ -294,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"22436ac3900c10b8908e44ee517743bb",
+    "wof:geomhash":"8eed4b5f2bdb9d4df5b0a1400dc3cf23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -306,11 +321,11 @@
         }
     ],
     "wof:id":101906831,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351982,
     "wof:name":"Bornheim",
     "wof:parent_id":1377686179,
     "wof:placetype":"locality",
-    "wof:population":700,
+    "wof:population":925,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

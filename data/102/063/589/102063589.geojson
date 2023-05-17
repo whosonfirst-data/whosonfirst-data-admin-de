@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Frankfurt am Main, Kreisfreie Stadt",
+    "eurostat:name_local":"Frankfurt am Main, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DE712",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE712",
+    "eurostat:population":759224,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.031202,
-    "geom:area_square_m":247389700.920912,
+    "geom:area_square_m":247389700.920903,
     "geom:bbox":"8.472633,50.015574,8.800535,50.226257",
     "geom:latitude":50.11796,
     "geom:longitude":8.644192,
@@ -333,8 +347,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"248",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Frankfurt am Main",
@@ -347,12 +361,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227581,
+        85633111,
         85682531
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE712",
         "hasc:id":"DE.HE.FM"
     },
     "wof:coterminous":[
@@ -362,7 +377,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8b7aaef18eebb99566cf2d80252ecbcd",
+    "wof:geomhash":"e0c5c47110c98b287ef1d05380b14a25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -373,12 +388,12 @@
         }
     ],
     "wof:id":102063589,
-    "wof:lastmodified":1587164320,
+    "wof:lastmodified":1684351517,
     "wof:name":"Frankfurt",
     "wof:parent_id":404227581,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":667925,
+    "wof:population":759224,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"FA",

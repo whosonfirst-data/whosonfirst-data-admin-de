@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Scheibenhardt",
+    "eurostat:nuts_2021_id":"07334027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334027",
+    "eurostat:population":620,
+    "eurostat:population_year":2020,
     "geom:area":0.0004,
-    "geom:area_square_m":3243941.418409,
+    "geom:area_square_m":3243941.418408,
     "geom:bbox":"8.06840748624,48.9770903413,8.16539649291,49.0007226317",
     "geom:latitude":48.987761,
     "geom:longitude":8.116553,
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -125,6 +138,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334027",
+        "eurostat:nuts_2021_id":"07334027",
         "gn:id":2840016,
         "qs_pg:id":577084
     },
@@ -133,7 +148,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"ac6bc915d79b148e3674b9183c84b0c2",
+    "wof:geomhash":"21ab884036823f8784d0200492c53b71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1125827589,
-    "wof:lastmodified":1582343027,
+    "wof:lastmodified":1684352017,
     "wof:name":"Scheibenhardt",
     "wof:parent_id":1377686383,
     "wof:placetype":"locality",
-    "wof:population":731,
+    "wof:population":620,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

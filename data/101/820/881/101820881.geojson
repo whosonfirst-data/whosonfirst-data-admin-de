@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03153002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Harzburg, Stadt",
+    "eurostat:nuts_2021_id":"03153002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE916",
+    "eurostat:nuts_2021_level_lau":"03153002",
+    "eurostat:population":21926,
+    "eurostat:population_year":2020,
     "geom:area":0.008562,
-    "geom:area_square_m":65340298.957007,
+    "geom:area_square_m":65340298.957012,
     "geom:bbox":"10.489033,51.821605,10.650467,51.937473",
     "geom:latitude":51.890388,
     "geom:longitude":10.568007,
@@ -339,21 +351,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1403,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063855,
         1377684951,
-        85682555
+        85633111,
+        102063855
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03153002",
+        "eurostat:nuts_2021_id":"03153002",
         "gn:id":2953449,
         "gp:id":636431,
         "loc:id":"n81062568",
@@ -369,7 +384,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"931ed77112199c045019d94e8bdf17a3",
+    "wof:geomhash":"b12b90674211002ba41788b6ece64b11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -381,11 +396,11 @@
         }
     ],
     "wof:id":101820881,
-    "wof:lastmodified":1608049857,
+    "wof:lastmodified":1684351914,
     "wof:name":"Bad Harzburg",
     "wof:parent_id":1377684951,
     "wof:placetype":"locality",
-    "wof:population":22954,
+    "wof:population":21926,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

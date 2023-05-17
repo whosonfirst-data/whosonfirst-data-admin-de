@@ -4,9 +4,21 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09185116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berg im Gau",
+    "eurostat:nuts_2021_id":"09185116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21I",
+    "eurostat:nuts_2021_level_lau":"09185116",
+    "eurostat:population":1305,
+    "eurostat:population_year":2020,
     "geom:area":0.002727,
     "geom:area_square_m":22284654.344888,
-    "geom:bbox":"11.20239470831993,48.61019740313336,11.30574960146324,48.66045420674864",
+    "geom:bbox":"11.2023947083,48.6101974031,11.3057496015,48.6604542067",
     "geom:latitude":48.636618,
     "geom:longitude":11.249954,
     "gn:country":"DE",
@@ -169,18 +181,21 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063337,
         1377693799,
         404227567,
-        85682571
+        102063337
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09185116",
+        "eurostat:nuts_2021_id":"09185116",
         "fct:id":"0737ac7c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2950358,
         "gp:id":637943,
@@ -194,7 +209,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"464dae107f7c0bfd149cf163fc4c887a",
+    "wof:geomhash":"f5e21afd840cf67f2e526e958ad9aea3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1641244470,
+    "wof:lastmodified":1684351967,
     "wof:name":"Berg im Gau",
     "wof:parent_id":1377693799,
     "wof:placetype":"locality",
-    "wof:population":1195,
+    "wof:population":1305,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

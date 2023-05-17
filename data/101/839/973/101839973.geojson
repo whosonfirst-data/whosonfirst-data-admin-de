@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06433013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stockstadt am Rhein",
+    "eurostat:nuts_2021_id":"06433013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE717",
+    "eurostat:nuts_2021_level_lau":"06433013",
+    "eurostat:population":6051,
+    "eurostat:population_year":2020,
     "geom:area":0.002346,
-    "geom:area_square_m":18719876.05488,
+    "geom:area_square_m":18719876.054882,
     "geom:bbox":"8.38465,49.783925,8.505704,49.829249",
     "geom:latitude":49.8089,
     "geom:longitude":8.44538,
@@ -303,22 +315,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":293,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063561,
         1377693343,
         404227581,
-        85682531
+        102063561
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06433013",
+        "eurostat:nuts_2021_id":"06433013",
         "fct:id":"0759b916-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2826671,
         "gp:id":697459,
@@ -333,7 +348,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e20f47fdb5a82f78e94ddcc66b0a78dd",
+    "wof:geomhash":"4997e083a769b75883e41144ca97e058",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051845,
+    "wof:lastmodified":1684351949,
     "wof:name":"Stockstadt am Rhein",
     "wof:parent_id":1377693343,
     "wof:placetype":"locality",
-    "wof:population":5741,
+    "wof:population":6051,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

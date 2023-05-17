@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6ttingen",
+    "eurostat:nuts_2021_id":"09779185",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779185",
+    "eurostat:population":2605,
+    "eurostat:population_year":2020,
     "geom:area":0.003876,
-    "geom:area_square_m":31561008.092671,
+    "geom:area_square_m":31561008.092668,
     "geom:bbox":"10.528379,48.768234,10.634992,48.837895",
     "geom:latitude":48.809661,
     "geom:longitude":10.587561,
@@ -152,18 +164,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063365,
         1377693361,
         404227547,
-        85682571
+        102063365
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779185",
+        "eurostat:nuts_2021_id":"09779185",
         "gn:id":2868986,
         "gp:id":676348,
         "qs_pg:id":93392,
@@ -178,7 +193,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7e05292eb68ce25382482b38a006745e",
+    "wof:geomhash":"c90d392e6b1270610b5ea3d28ffd04c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101783161,
-    "wof:lastmodified":1608050606,
+    "wof:lastmodified":1684351827,
     "wof:name":"M\u00f6ttingen",
     "wof:parent_id":1377693361,
     "wof:placetype":"locality",
-    "wof:population":2558,
+    "wof:population":2605,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

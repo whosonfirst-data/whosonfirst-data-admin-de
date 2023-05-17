@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069696",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ziesar, Stadt",
+    "eurostat:nuts_2021_id":"12069696",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069696",
+    "eurostat:population":2510,
+    "eurostat:population_year":2020,
     "geom:area":0.008975,
-    "geom:area_square_m":67909477.240595,
+    "geom:area_square_m":67909477.240593,
     "geom:bbox":"12.2446480686,52.2287792153,12.4283715432,52.3110325273",
     "geom:latitude":52.273161,
     "geom:longitude":12.328937,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.266667,
     "wd:longitude":12.283056,
     "wd:wordcount":72,
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069696",
+        "eurostat:nuts_2021_id":"12069696",
         "gn:id":2804279,
         "gp:id":708960,
         "qs_pg:id":969619,
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ad4ca9d414aaed261f957c28d2c4979",
+    "wof:geomhash":"789193b44e4fb7a0920cea20ea01e789",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101819743,
-    "wof:lastmodified":1582342433,
+    "wof:lastmodified":1684351908,
     "wof:name":"Ziesar",
     "wof:parent_id":1377683913,
     "wof:placetype":"locality",
-    "wof:population":2875,
+    "wof:population":2510,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

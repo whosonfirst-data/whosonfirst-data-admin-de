@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09172131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schneizlreuth",
+    "eurostat:nuts_2021_id":"09172131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE215",
+    "eurostat:nuts_2021_level_lau":"09172131",
+    "eurostat:population":1284,
+    "eurostat:population_year":2020,
     "geom:area":0.012842,
-    "geom:area_square_m":106893514.091339,
+    "geom:area_square_m":106893514.091343,
     "geom:bbox":"12.695908,47.627211,12.897739,47.756676",
     "geom:latitude":47.688338,
     "geom:longitude":12.796935,
@@ -166,22 +178,25 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":204,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063227,
         1377690955,
         404227567,
-        85682571
+        102063227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09172131",
+        "eurostat:nuts_2021_id":"09172131",
         "fct:id":"0714f48e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2837375,
         "gp:id":20152284,
@@ -198,7 +213,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8208260d61b115d4f53dc05a14de6e46",
+    "wof:geomhash":"abbcc1c2ec2326f6a9a1dffee88b3521",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +229,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051665,
+    "wof:lastmodified":1684351965,
     "wof:name":"Schneizlreuth",
     "wof:parent_id":1377690955,
     "wof:placetype":"locality",
-    "wof:population":1538,
+    "wof:population":1284,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

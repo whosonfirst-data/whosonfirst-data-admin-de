@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alt Schwerin",
+    "eurostat:nuts_2021_id":"13071001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071001",
+    "eurostat:population":568,
+    "eurostat:population_year":2020,
     "geom:area":0.005976,
     "geom:area_square_m":43928728.788415,
     "geom:bbox":"12.288942269,53.4779723481,12.3767949986,53.5775799741",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071001",
+        "eurostat:nuts_2021_id":"13071001",
         "gn:id":2956853,
         "gp:id":634219,
         "qs_pg:id":1065022,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5ab7fd34bc6fbfb8fd167b2da92acc0c",
+    "wof:geomhash":"ff4df0d994e4b91d739a54f87de40987",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101908173,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351993,
     "wof:name":"Alt Schwerin",
     "wof:parent_id":1377684451,
     "wof:placetype":"locality",
-    "wof:population":590,
+    "wof:population":568,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

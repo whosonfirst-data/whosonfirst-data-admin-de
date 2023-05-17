@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6nnebek",
+    "eurostat:nuts_2021_id":"01060026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060026",
+    "eurostat:population":490,
+    "eurostat:population_year":2020,
     "geom:area":0.002062,
-    "geom:area_square_m":14968923.639802,
+    "geom:area_square_m":14968923.639801,
     "geom:bbox":"10.1233325156,54.0306590899,10.2176770981,54.070422963",
     "geom:latitude":54.048416,
     "geom:longitude":10.172816,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":81,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060026",
+        "eurostat:nuts_2021_id":"01060026",
         "gn:id":2919112,
         "gp:id":653270,
         "qs_pg:id":93817,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cfc7ab06a79703597b2698dabd40d7b7",
+    "wof:geomhash":"14c8cd2fc3046db2e89d44b8d5df82bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906191,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351977,
     "wof:name":"G\u00f6nnebek",
     "wof:parent_id":1377684545,
     "wof:placetype":"locality",
-    "wof:population":484,
+    "wof:population":490,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elsenfeld, M",
+    "eurostat:nuts_2021_id":"09676121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676121",
+    "eurostat:population":9138,
+    "eurostat:population_year":2020,
     "geom:area":0.003104,
-    "geom:area_square_m":24752000.447496,
+    "geom:area_square_m":24752000.447498,
     "geom:bbox":"9.146488,49.802407,9.259248,49.865786",
     "geom:latitude":49.835311,
     "geom:longitude":9.204858,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1274,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691265,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676121",
+        "eurostat:nuts_2021_id":"09676121",
         "gn:id":2930747,
         "gp:id":647740,
         "qs_pg:id":1343939,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7e42ca79426396194e65edbf122fc8e5",
+    "wof:geomhash":"b3db41df7c4e1fce280e691964f265cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101839921,
-    "wof:lastmodified":1608051847,
+    "wof:lastmodified":1684351949,
     "wof:name":"Elsenfeld",
     "wof:parent_id":1377691265,
     "wof:placetype":"locality",
-    "wof:population":8727,
+    "wof:population":9138,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

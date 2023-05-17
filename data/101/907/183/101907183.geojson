@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232295",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pronsfeld",
+    "eurostat:nuts_2021_id":"07232295",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232295",
+    "eurostat:population":921,
+    "eurostat:population_year":2020,
     "geom:area":0.001943,
     "geom:area_square_m":15387669.012231,
     "geom:bbox":"6.2917174635,50.1477028888,6.37737168558,50.2025287617",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682491,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232295",
+        "eurostat:nuts_2021_id":"07232295",
         "gn:id":2943751,
         "gp:id":686106,
         "qs_pg:id":577355,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9d7040524007d036c858f0e40e74afff",
+    "wof:geomhash":"140e8fb8e66d482472a722c8ff568e17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101907183,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351985,
     "wof:name":"Pronsfeld",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":962,
+    "wof:population":921,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schilda",
+    "eurostat:nuts_2021_id":"12062440",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062440",
+    "eurostat:population":442,
+    "eurostat:population_year":2020,
     "geom:area":0.001114,
     "geom:area_square_m":8557275.717253,
     "geom:bbox":"13.3584137283,51.5916993027,13.4325749293,51.6219983021",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":120,
     "wof:belongsto":[
         85682553,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062440",
+        "eurostat:nuts_2021_id":"12062440",
         "gn:id":2839304,
         "gp:id":691868,
         "qs_pg:id":577071,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8b7cf9fc4296cfa7fe706abfcd39818f",
+    "wof:geomhash":"9b2e0f1e119a842c324dd3d03f9bf652",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101909281,
-    "wof:lastmodified":1582342284,
+    "wof:lastmodified":1684352002,
     "wof:name":"Schilda",
     "wof:parent_id":1377694527,
     "wof:placetype":"locality",
-    "wof:population":561,
+    "wof:population":442,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

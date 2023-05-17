@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064448",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seelow, Stadt",
+    "eurostat:nuts_2021_id":"12064448",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064448",
+    "eurostat:population":5422,
+    "eurostat:population_year":2020,
     "geom:area":0.005651,
-    "geom:area_square_m":42486683.404361,
+    "geom:area_square_m":42486683.404359,
     "geom:bbox":"14.337501,52.512489,14.469835,52.594779",
     "geom:latitude":52.552807,
     "geom:longitude":14.400681,
@@ -171,17 +183,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":484,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063963,
         1377694671,
-        85682553
+        85633111,
+        102063963
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064448",
+        "eurostat:nuts_2021_id":"12064448",
         "gn:id":2833651,
         "gp:id":694200,
         "qs_pg:id":1274697,
@@ -196,7 +211,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0489c708b406553a1d06dee999db0ed7",
+    "wof:geomhash":"1e1aca323ca20511d16d32a7bcb134f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101819919,
-    "wof:lastmodified":1608050292,
+    "wof:lastmodified":1684351910,
     "wof:name":"Seelow",
     "wof:parent_id":1377694671,
     "wof:placetype":"locality",
-    "wof:population":5981,
+    "wof:population":5422,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

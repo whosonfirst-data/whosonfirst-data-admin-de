@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kieve",
+    "eurostat:nuts_2021_id":"13071073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071073",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "geom:area":0.00209,
     "geom:area_square_m":15456853.652157,
     "geom:bbox":"12.549913353,53.2443954559,12.6284192359,53.293254628",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071073",
+        "eurostat:nuts_2021_id":"13071073",
         "gn:id":2890943,
         "gp:id":665752,
         "qs_pg:id":277393,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dfdc452203bff9161680c24b21617590",
+    "wof:geomhash":"79c177f497bc71ce186c3be6995c2a69",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101908209,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351994,
     "wof:name":"Kieve",
     "wof:parent_id":1377684497,
     "wof:placetype":"locality",
-    "wof:population":164,
+    "wof:population":135,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

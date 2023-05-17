@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geringswalde, Stadt",
+    "eurostat:nuts_2021_id":"14522190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522190",
+    "eurostat:population":4183,
+    "eurostat:population_year":2020,
     "geom:area":0.003857,
     "geom:area_square_m":29968683.932931,
     "geom:bbox":"12.862954,51.042538,12.955388,51.105501",
@@ -173,21 +185,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":591,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685855,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522190",
+        "eurostat:nuts_2021_id":"14522190",
         "gn:id":2921089,
         "gp:id":652242,
         "qs_pg:id":1234983,
@@ -202,7 +217,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f675a8442e15cefdd640552bfefc7759",
+    "wof:geomhash":"35aa267b5a9f6b0dbb5192a91bd7978f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,12 +229,12 @@
         }
     ],
     "wof:id":101821855,
-    "wof:lastmodified":1608050223,
+    "wof:lastmodified":1684351918,
     "wof:name":"Geringswalde",
     "wof:parent_id":1377685855,
     "wof:placetype":"locality",
-    "wof:population":5125,
-    "wof:population_rank":5,
+    "wof:population":4183,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gresse",
+    "eurostat:nuts_2021_id":"13076054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076054",
+    "eurostat:population":721,
+    "eurostat:population_year":2020,
     "geom:area":0.002876,
-    "geom:area_square_m":21183820.706756,
+    "geom:area_square_m":21183820.706757,
     "geom:bbox":"10.7001873219,53.4058183936,10.7966041108,53.4634588461",
     "geom:latitude":53.435767,
     "geom:longitude":10.749174,
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
         85682487,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076054",
+        "eurostat:nuts_2021_id":"13076054",
         "gn:id":2917618,
         "gp:id":654102,
         "qs_pg:id":578906,
@@ -148,7 +163,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0e39ea40cbb43a4ef0deab7571a73862",
+    "wof:geomhash":"963a75de65757e59cff46da8f1a4f16a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101908079,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351993,
     "wof:name":"Gresse",
     "wof:parent_id":1377685235,
     "wof:placetype":"locality",
-    "wof:population":680,
+    "wof:population":721,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

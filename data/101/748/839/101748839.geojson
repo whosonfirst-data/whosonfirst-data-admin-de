@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03402000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Emden, Stadt",
+    "eurostat:nuts_2021_id":"03402000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE942",
+    "eurostat:nuts_2021_level_lau":"03402000",
+    "eurostat:population":49913,
+    "eurostat:population_year":2020,
     "geom:area":0.015007,
-    "geom:area_square_m":110743026.285672,
+    "geom:area_square_m":110743026.285676,
     "geom:bbox":"6.999447,53.323638,7.311399,53.408699",
     "geom:latitude":53.361065,
     "geom:longitude":7.180596,
@@ -452,7 +464,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -462,6 +475,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03402000",
+        "eurostat:nuts_2021_id":"03402000",
         "gn:id":2930596,
         "gp:id":647816,
         "qs_pg:id":274243,
@@ -477,7 +492,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cf754a9ac47a59eacfd0f61e2f110f74",
+    "wof:geomhash":"2470985470ac1750f290f15f00186819",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -489,12 +504,12 @@
         }
     ],
     "wof:id":101748839,
-    "wof:lastmodified":1636499972,
+    "wof:lastmodified":1684351790,
     "wof:name":"Emden",
     "wof:parent_id":1377688101,
     "wof:placetype":"locality",
-    "wof:population":51526,
-    "wof:population_rank":8,
+    "wof:population":49913,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

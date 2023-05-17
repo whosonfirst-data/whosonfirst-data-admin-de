@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haldensleben, Stadt",
+    "eurostat:nuts_2021_id":"15083270",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083270",
+    "eurostat:population":19143,
+    "eurostat:population_year":2020,
     "geom:area":0.020599,
     "geom:area_square_m":155719479.882208,
     "geom:bbox":"11.262072,52.227134,11.550548,52.386447",
@@ -321,17 +333,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":143,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063925,
         1377688315,
-        85682519
+        85633111,
+        102063925
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083270",
+        "eurostat:nuts_2021_id":"15083270",
         "gn:id":2911584,
         "gp:id":656821,
         "qs_pg:id":250936,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7685c57f39fc03af1e0748f6c73edef7",
+    "wof:geomhash":"d090832aee90ae2a6a0ac22744006e3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,12 +375,12 @@
         }
     ],
     "wof:id":101819627,
-    "wof:lastmodified":1608050247,
+    "wof:lastmodified":1684351907,
     "wof:name":"Haldensleben",
     "wof:parent_id":1377688315,
     "wof:placetype":"locality",
-    "wof:population":20294,
-    "wof:population_rank":7,
+    "wof:population":19143,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

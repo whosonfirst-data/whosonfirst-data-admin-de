@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zingst",
+    "eurostat:nuts_2021_id":"13073105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073105",
+    "eurostat:population":3113,
+    "eurostat:population_year":2020,
     "geom:area":0.006995,
-    "geom:area_square_m":50316086.41779,
+    "geom:area_square_m":50316086.417789,
     "geom:bbox":"12.632004,54.404508,12.930127,54.447265",
     "geom:latitude":54.429313,
     "geom:longitude":12.775037,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1219,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675591,
         1377684865,
-        85682487
+        85633111,
+        1377675591
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073105",
+        "eurostat:nuts_2021_id":"13073105",
         "gn:id":2804135,
         "gp:id":709028,
         "qs_pg:id":1193432,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6cf1528603e6df3ed1f6e51815af13b4",
+    "wof:geomhash":"c7310042a62051ed170ba57d0d65fbb6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101817491,
-    "wof:lastmodified":1608050146,
+    "wof:lastmodified":1684351898,
     "wof:name":"Zingst",
     "wof:parent_id":1377684865,
     "wof:placetype":"locality",
-    "wof:population":3198,
+    "wof:population":3113,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

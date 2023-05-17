@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bohmstedt",
+    "eurostat:nuts_2021_id":"01054012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054012",
+    "eurostat:population":760,
+    "eurostat:population_year":2020,
     "geom:area":0.001833,
     "geom:area_square_m":13132336.774687,
     "geom:bbox":"9.02184441443,54.565087531,9.103693105,54.5969637668",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054012",
+        "eurostat:nuts_2021_id":"01054012",
         "gn:id":2946926,
         "gp:id":661213,
         "qs_pg:id":1152238,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96801543cde042edfbe951401111246f",
+    "wof:geomhash":"6e787c3a27de98f4b59f3fee6cbe57af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101906495,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351980,
     "wof:name":"Bohmstedt",
     "wof:parent_id":1377683657,
     "wof:placetype":"locality",
-    "wof:population":791,
+    "wof:population":760,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

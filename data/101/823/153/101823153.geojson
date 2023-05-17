@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remse",
+    "eurostat:nuts_2021_id":"14524260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524260",
+    "eurostat:population":1625,
+    "eurostat:population_year":2020,
     "geom:area":0.001833,
-    "geom:area_square_m":14310520.730075,
+    "geom:area_square_m":14310520.73007,
     "geom:bbox":"12.515890019,50.8402303181,12.6011362053,50.8761014455",
     "geom:latitude":50.857881,
     "geom:longitude":12.563556,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682523,
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524260",
+        "eurostat:nuts_2021_id":"14524260",
         "gn:id":2848269,
         "gp:id":666792,
         "qs_pg:id":577273,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fdcc51bdfab80f5fcdfef5e89ef017d1",
+    "wof:geomhash":"f6dc6c4de48b6fe0c24a911e0199dd4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101823153,
-    "wof:lastmodified":1582342533,
+    "wof:lastmodified":1684351924,
     "wof:name":"Remse",
     "wof:parent_id":1377686573,
     "wof:placetype":"locality",
-    "wof:population":1956,
+    "wof:population":1625,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

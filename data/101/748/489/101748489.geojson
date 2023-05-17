@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08415061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reutlingen, Stadt",
+    "eurostat:nuts_2021_id":"08415061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE141",
+    "eurostat:nuts_2021_level_lau":"08415061",
+    "eurostat:population":115865,
+    "eurostat:population_year":2020,
     "geom:area":0.010487,
-    "geom:area_square_m":85933459.716041,
+    "geom:area_square_m":85933459.716048,
     "geom:bbox":"9.114596,48.412836,9.255733,48.578439",
     "geom:latitude":48.493891,
     "geom:longitude":9.188262,
@@ -388,7 +400,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":87.03,
     "wd:latitude":48.483333,
     "wd:longitude":9.216667,
@@ -399,15 +412,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063297,
         1377689907,
         404227573,
-        85682567
+        102063297
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08415061",
+        "eurostat:nuts_2021_id":"08415061",
         "gn:id":2847736,
         "gp:id":688262,
         "qs_pg:id":426872,
@@ -425,7 +440,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"63c5e0c980a89ad26c2ea93d40dea5b7",
+    "wof:geomhash":"8ae1cfb3381b7fca757d74501b2793ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -438,11 +453,11 @@
         }
     ],
     "wof:id":101748489,
-    "wof:lastmodified":1608050586,
+    "wof:lastmodified":1684351785,
     "wof:name":"Reutlingen",
     "wof:parent_id":1377689907,
     "wof:placetype":"locality",
-    "wof:population":114427,
+    "wof:population":115865,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedrichsholm",
+    "eurostat:nuts_2021_id":"01058056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058056",
+    "eurostat:population":420,
+    "eurostat:population_year":2020,
     "geom:area":0.000993,
     "geom:area_square_m":7162990.280398,
     "geom:bbox":"9.39889919995,54.295963778,9.46786354951,54.3208388542",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058056",
+        "eurostat:nuts_2021_id":"01058056",
         "gn:id":2924515,
         "gp:id":650807,
         "qs_pg:id":579108,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"06d778a2ec404c35919ce830a14fd48b",
+    "wof:geomhash":"607f1d2ff1868b1687de5dea419673a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101906339,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351979,
     "wof:name":"Friedrichsholm",
     "wof:parent_id":1377684233,
     "wof:placetype":"locality",
-    "wof:population":473,
+    "wof:population":420,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

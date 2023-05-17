@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ederheim",
+    "eurostat:nuts_2021_id":"09779136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779136",
+    "eurostat:population":1138,
+    "eurostat:population_year":2020,
     "geom:area":0.002035,
-    "geom:area_square_m":16579635.846329,
+    "geom:area_square_m":16579635.846328,
     "geom:bbox":"10.4203132135,48.7732896247,10.5110120102,48.8194601209",
     "geom:latitude":48.795809,
     "geom:longitude":10.464336,
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779136",
+        "eurostat:nuts_2021_id":"09779136",
         "gn:id":2929605,
         "gp:id":646524,
         "qs_pg:id":93954,
@@ -201,7 +216,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e852aab43701c7592eef91bc37d89c38",
+    "wof:geomhash":"a6a046442a1b61f39e8ff8b0f90033ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +229,11 @@
         }
     ],
     "wof:id":101783143,
-    "wof:lastmodified":1582342478,
+    "wof:lastmodified":1684351827,
     "wof:name":"Ederheim",
     "wof:parent_id":1377693411,
     "wof:placetype":"locality",
-    "wof:population":1146,
+    "wof:population":1138,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

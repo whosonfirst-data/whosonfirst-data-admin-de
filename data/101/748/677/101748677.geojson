@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05158020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langenfeld (Rheinland), Stadt",
+    "eurostat:nuts_2021_id":"05158020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1C",
+    "eurostat:nuts_2021_level_lau":"05158020",
+    "eurostat:population":59178,
+    "eurostat:population_year":2020,
     "geom:area":0.005455,
     "geom:area_square_m":42348073.153502,
     "geom:bbox":"6.90372913841,51.0680438855,6.99972086499,51.1493071511",
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05158020",
+        "eurostat:nuts_2021_id":"05158020",
         "gn:id":2881085,
         "gp:id":670160,
         "qs_pg:id":222441,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"787cf2a68dff0c0cac3ae5e280e1ce00",
+    "wof:geomhash":"2f9402f57b9d26d7e4514180b1bfe1c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101748677,
-    "wof:lastmodified":1582342472,
+    "wof:lastmodified":1684351787,
     "wof:name":"Langenfeld (Rhld.)",
     "wof:parent_id":1377689659,
     "wof:placetype":"locality",
-    "wof:population":59378,
+    "wof:population":59178,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

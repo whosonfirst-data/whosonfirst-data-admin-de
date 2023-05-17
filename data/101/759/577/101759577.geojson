@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hermersberg",
+    "eurostat:nuts_2021_id":"07340016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340016",
+    "eurostat:population":1743,
+    "eurostat:population_year":2020,
     "geom:area":0.001594,
-    "geom:area_square_m":12852700.222253,
+    "geom:area_square_m":12852700.222254,
     "geom:bbox":"7.59106332561,49.2898689614,7.66719665739,49.3327026154",
     "geom:latitude":49.312685,
     "geom:longitude":7.630987,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":115,
     "wof:belongsto":[
         85682491,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340016",
+        "eurostat:nuts_2021_id":"07340016",
         "gn:id":2905946,
         "gp:id":659327,
         "qs_pg:id":142426,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7732119c446705937e8cefc35fefa529",
+    "wof:geomhash":"d7a5ec0131a8e7c4b18fe24337b1e14e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101759577,
-    "wof:lastmodified":1582342518,
+    "wof:lastmodified":1684351797,
     "wof:name":"Hermersberg",
     "wof:parent_id":1377686777,
     "wof:placetype":"locality",
-    "wof:population":1738,
+    "wof:population":1743,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

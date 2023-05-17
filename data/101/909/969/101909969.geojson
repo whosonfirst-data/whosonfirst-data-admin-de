@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090435",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rochau",
+    "eurostat:nuts_2021_id":"15090435",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090435",
+    "eurostat:population":1015,
+    "eurostat:population_year":2020,
     "geom:area":0.005191,
-    "geom:area_square_m":38890961.878086,
+    "geom:area_square_m":38890961.878085,
     "geom:bbox":"11.6754466972,52.6750109015,11.8558264668,52.7350253617",
     "geom:latitude":52.705973,
     "geom:longitude":11.769117,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682519,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090435",
+        "eurostat:nuts_2021_id":"15090435",
         "gn:id":2846267,
         "gp:id":688971,
         "qs_pg:id":93174,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"71da1dfc5ca22f5a5b13913e385dc90f",
+    "wof:geomhash":"1936a7bc30a8fbce186cffe97c83bc6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,12 +340,12 @@
         }
     ],
     "wof:id":101909969,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352004,
     "wof:name":"Rochau",
     "wof:parent_id":1377689227,
     "wof:placetype":"locality",
-    "wof:population":715,
-    "wof:population_rank":2,
+    "wof:population":1015,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09675111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abtswind, M",
+    "eurostat:nuts_2021_id":"09675111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE268",
+    "eurostat:nuts_2021_level_lau":"09675111",
+    "eurostat:population":841,
+    "eurostat:population_year":2020,
     "geom:area":0.001576,
-    "geom:area_square_m":12582268.326228,
+    "geom:area_square_m":12582268.326229,
     "geom:bbox":"10.3492191644,49.7544080252,10.4319494481,49.7887098153",
     "geom:latitude":49.769917,
     "geom:longitude":10.388736,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09675111",
+        "eurostat:nuts_2021_id":"09675111",
         "gn:id":2959749,
         "gp:id":633256,
         "qs_pg:id":64289,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"38be68e28f977130e1c68a707dc08a1f",
+    "wof:geomhash":"3c3df3b8b0ee65d7e28f210a45506c20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101910075,
-    "wof:lastmodified":1582342656,
+    "wof:lastmodified":1684352004,
     "wof:name":"Abtswind",
     "wof:parent_id":1377691179,
     "wof:placetype":"locality",
-    "wof:population":785,
+    "wof:population":841,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

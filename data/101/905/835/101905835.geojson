@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenaltheim",
+    "eurostat:nuts_2021_id":"09779162",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779162",
+    "eurostat:population":589,
+    "eurostat:population_year":2020,
     "geom:area":0.002181,
     "geom:area_square_m":17772386.659265,
     "geom:bbox":"10.4764719172,48.7516853268,10.5593733557,48.7978608104",
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779162",
+        "eurostat:nuts_2021_id":"09779162",
         "gn:id":2901986,
         "gp:id":679305,
         "qs_pg:id":578606,
@@ -183,7 +198,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"01db894d378294214eecb73f8af25de0",
+    "wof:geomhash":"803db87a932ecf73accd8928f28a674c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101905835,
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351973,
     "wof:name":"Hohenaltheim",
     "wof:parent_id":1377693411,
     "wof:placetype":"locality",
-    "wof:population":629,
+    "wof:population":589,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

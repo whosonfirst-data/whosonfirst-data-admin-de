@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osburg",
+    "eurostat:nuts_2021_id":"07235103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235103",
+    "eurostat:population":2412,
+    "eurostat:population_year":2020,
     "geom:area":0.004125,
-    "geom:area_square_m":32993370.820239,
+    "geom:area_square_m":32993370.820237,
     "geom:bbox":"6.76352505231,49.6591167633,6.87069072893,49.7364989267",
     "geom:latitude":49.696543,
     "geom:longitude":6.813024,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
         85682491,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235103",
+        "eurostat:nuts_2021_id":"07235103",
         "gn:id":2941512,
         "gp:id":683443,
         "qs_pg:id":577479,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"602b3003cb73abe6d1e0d0c2cc72fc70",
+    "wof:geomhash":"de6baee61558ff4f5d42ec227c2e6bd2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101813381,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351890,
     "wof:name":"Osburg",
     "wof:parent_id":1377686047,
     "wof:placetype":"locality",
-    "wof:population":2327,
+    "wof:population":2412,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

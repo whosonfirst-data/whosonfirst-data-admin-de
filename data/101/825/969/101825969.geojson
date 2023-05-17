@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sand a.Main",
+    "eurostat:nuts_2021_id":"09674195",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674195",
+    "eurostat:population":3142,
+    "eurostat:population_year":2020,
     "geom:area":0.001553,
-    "geom:area_square_m":12350168.397095,
+    "geom:area_square_m":12350168.397094,
     "geom:bbox":"10.567544,49.953982,10.615837,50.004718",
     "geom:latitude":49.978269,
     "geom:longitude":10.590272,
@@ -147,18 +159,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377691027,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674195",
+        "eurostat:nuts_2021_id":"09674195",
         "gn:id":2842047,
         "gp:id":690906,
         "qs_pg:id":253924,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c8dfda716e35ff5d943c0a40d2e57ab7",
+    "wof:geomhash":"204f3b2b48f9fdf52c6c148e560d06e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101825969,
-    "wof:lastmodified":1608051429,
+    "wof:lastmodified":1684351933,
     "wof:name":"Sand a. Main",
     "wof:parent_id":1377691027,
     "wof:placetype":"locality",
-    "wof:population":3181,
+    "wof:population":3142,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

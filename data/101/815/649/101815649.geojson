@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schmelz",
+    "eurostat:nuts_2021_id":"10044117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044117",
+    "eurostat:population":16048,
+    "eurostat:population_year":2020,
     "geom:area":0.007241,
-    "geom:area_square_m":58213212.999246,
+    "geom:area_square_m":58213212.999245,
     "geom:bbox":"6.786096,49.39254,6.936245,49.501704",
     "geom:latitude":49.445958,
     "geom:longitude":6.85078,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":123,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693943,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044117",
+        "eurostat:nuts_2021_id":"10044117",
         "gn:id":2837954,
         "gp:id":663141,
         "qs_pg:id":847288,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"40318df2aa5326f43d020aa11a4e84bd",
+    "wof:geomhash":"116879cffa4a38d4d9f7323a3e3050e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101815649,
-    "wof:lastmodified":1608051249,
+    "wof:lastmodified":1684351894,
     "wof:name":"Schmelz",
     "wof:parent_id":1377693943,
     "wof:placetype":"locality",
-    "wof:population":17596,
+    "wof:population":16048,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

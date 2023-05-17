@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"3",
+    "eurostat:name_latin":"Berchtesgadener Land",
+    "eurostat:name_local":"Berchtesgadener Land",
+    "eurostat:nuts_2021_id":"DE215",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE215",
+    "eurostat:population":106389,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.100632,
-    "geom:area_square_m":837475947.502009,
+    "geom:area_square_m":837475947.502035,
     "geom:bbox":"12.695908,47.463374,13.098661,47.962609",
     "geom:latitude":47.69852,
     "geom:longitude":12.901843,
@@ -195,8 +209,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"840",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Bad Reichenhall",
@@ -210,12 +224,13 @@
     "wd:wordcount":430,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227567,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE215",
         "hasc:id":"DE.BY.BL",
         "wd:id":"Q10530"
     },
@@ -223,7 +238,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cdf12a8805c6645b6aee54c38823357a",
+    "wof:geomhash":"72053dcd7b22f0e04abfe8b239b23a8e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -234,12 +249,12 @@
         }
     ],
     "wof:id":102063227,
-    "wof:lastmodified":1587164312,
+    "wof:lastmodified":1684351507,
     "wof:name":"Berchtesgadener Land",
     "wof:parent_id":404227567,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":100829,
+    "wof:population":106389,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"BL",

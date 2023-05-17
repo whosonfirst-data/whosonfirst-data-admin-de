@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moorrege",
+    "eurostat:nuts_2021_id":"01056036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056036",
+    "eurostat:population":4445,
+    "eurostat:population_year":2020,
     "geom:area":0.001495,
     "geom:area_square_m":10948886.509332,
     "geom:bbox":"9.58334976068,53.6516089686,9.70082395763,53.6792227065",
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":78,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -324,6 +337,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056036",
+        "eurostat:nuts_2021_id":"01056036",
         "gn:id":2869626,
         "gp:id":676051,
         "qs_pg:id":37835,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f8fe74d509da34a285ba75bee776666c",
+    "wof:geomhash":"1779f772db6804e4724b2562a07d3ab1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101838097,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351946,
     "wof:name":"Moorrege",
     "wof:parent_id":1377684007,
     "wof:placetype":"locality",
-    "wof:population":3988,
+    "wof:population":4445,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08128138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ahorn",
+    "eurostat:nuts_2021_id":"08128138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11B",
+    "eurostat:nuts_2021_level_lau":"08128138",
+    "eurostat:population":2189,
+    "eurostat:population_year":2020,
     "geom:area":0.006639,
-    "geom:area_square_m":53323750.182859,
+    "geom:area_square_m":53323750.182854,
     "geom:bbox":"9.49155938228,49.4392547809,9.59673773472,49.5562991142",
     "geom:latitude":49.491755,
     "geom:longitude":9.545945,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682567,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08128138",
+        "eurostat:nuts_2021_id":"08128138",
         "gn:id":3274965,
         "gp:id":648990,
         "qs_pg:id":582304,
@@ -322,7 +337,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cbbb13781c27353c9f4fb504ab93e68d",
+    "wof:geomhash":"59d24dfb22cc3a5825e64db043b02e33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101815763,
-    "wof:lastmodified":1582342552,
+    "wof:lastmodified":1684351895,
     "wof:name":"Ahorn",
     "wof:parent_id":1377687997,
     "wof:placetype":"locality",
-    "wof:population":2173,
+    "wof:population":2189,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

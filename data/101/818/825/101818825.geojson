@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Kleinen",
+    "eurostat:nuts_2021_id":"13074002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074002",
+    "eurostat:population":3652,
+    "eurostat:population_year":2020,
     "geom:area":0.003205,
     "geom:area_square_m":23414030.46701,
     "geom:bbox":"11.396514474,53.7434504326,11.492705255,53.809142768",
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":172,
     "wof:belongsto":[
         85682487,
@@ -170,6 +183,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074002",
+        "eurostat:nuts_2021_id":"13074002",
         "gn:id":2953422,
         "gp:id":636445,
         "qs_pg:id":1143954,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"35c2db38fb1df731bf9d2ff889b7520c",
+    "wof:geomhash":"33bbe00962cf9be9bea41e9f45ea3069",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101818825,
-    "wof:lastmodified":1582342365,
+    "wof:lastmodified":1684351904,
     "wof:name":"Bad Kleinen",
     "wof:parent_id":1377693587,
     "wof:placetype":"locality",
-    "wof:population":3787,
+    "wof:population":3652,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

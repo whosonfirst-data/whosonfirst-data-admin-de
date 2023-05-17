@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mehring",
+    "eurostat:nuts_2021_id":"07235083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235083",
+    "eurostat:population":2418,
+    "eurostat:population_year":2020,
     "geom:area":0.00279,
-    "geom:area_square_m":22275257.668381,
+    "geom:area_square_m":22275257.668379,
     "geom:bbox":"6.78236330528,49.7472930699,6.87273799867,49.8380582113",
     "geom:latitude":49.787918,
     "geom:longitude":6.829332,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235083",
+        "eurostat:nuts_2021_id":"07235083",
         "gn:id":2872375,
         "gp:id":674539,
         "qs_pg:id":1148614,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"334de7c18ece50e18ec15e61652be73d",
+    "wof:geomhash":"962a50735af632de24408e98902c8835",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101813365,
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351890,
     "wof:name":"Mehring",
     "wof:parent_id":1377686065,
     "wof:placetype":"locality",
-    "wof:population":2171,
+    "wof:population":2418,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

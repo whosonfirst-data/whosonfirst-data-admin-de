@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08125005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Friedrichshall, Stadt",
+    "eurostat:nuts_2021_id":"08125005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE118",
+    "eurostat:nuts_2021_level_lau":"08125005",
+    "eurostat:population":19349,
+    "eurostat:population_year":2020,
     "geom:area":0.003042,
-    "geom:area_square_m":24556602.930249,
+    "geom:area_square_m":24556602.930246,
     "geom:bbox":"9.1772202076,49.2059778183,9.26783688542,49.2767685588",
     "geom:latitude":49.240221,
     "geom:longitude":9.217921,
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.233333,
     "wd:longitude":9.216667,
     "wd:wordcount":1576,
@@ -349,6 +362,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08125005",
+        "eurostat:nuts_2021_id":"08125005",
         "gn:id":2953457,
         "gp:id":636423,
         "qs_pg:id":1030578,
@@ -363,7 +378,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"46899fde57978e7e1410f049ae27e86b",
+    "wof:geomhash":"f7196c2bd93f93cdda53e131d5453171",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -376,11 +391,11 @@
         }
     ],
     "wof:id":101758625,
-    "wof:lastmodified":1582342490,
+    "wof:lastmodified":1684351796,
     "wof:name":"Bad Friedrichshall",
     "wof:parent_id":1377687625,
     "wof:placetype":"locality",
-    "wof:population":18274,
+    "wof:population":19349,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

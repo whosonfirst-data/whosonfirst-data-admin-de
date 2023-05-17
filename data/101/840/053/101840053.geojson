@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06434010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinbach (Taunus), Stadt",
+    "eurostat:nuts_2021_id":"06434010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE718",
+    "eurostat:nuts_2021_level_lau":"06434010",
+    "eurostat:population":10665,
+    "eurostat:population_year":2020,
     "geom:area":0.000564,
-    "geom:area_square_m":4466110.250301,
+    "geom:area_square_m":4466110.250302,
     "geom:bbox":"8.54758632273,50.1554761514,8.59041694942,50.1950918649",
     "geom:latitude":50.170926,
     "geom:longitude":8.57103,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.167778,
     "wd:longitude":8.571875,
     "wd:wordcount":1144,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06434010",
+        "eurostat:nuts_2021_id":"06434010",
         "gn:id":2828797,
         "gp:id":696641,
         "qs_pg:id":847264,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4873d1118be111dca621930bc80ca8e3",
+    "wof:geomhash":"1a0393a708a9ff3c7ad1209a13ea1cea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101840053,
-    "wof:lastmodified":1582342559,
+    "wof:lastmodified":1684351950,
     "wof:name":"Steinbach (Taunus)",
     "wof:parent_id":1377693439,
     "wof:placetype":"locality",
-    "wof:population":10170,
+    "wof:population":10665,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

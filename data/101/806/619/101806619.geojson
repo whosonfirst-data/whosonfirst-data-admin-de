@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ellerbek",
+    "eurostat:nuts_2021_id":"01056013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056013",
+    "eurostat:population":4250,
+    "eurostat:population_year":2020,
     "geom:area":0.001226,
-    "geom:area_square_m":8984649.740028,
+    "geom:area_square_m":8984649.740029,
     "geom:bbox":"9.84888579474,53.6348657261,9.90675387182,53.6773441759",
     "geom:latitude":53.657935,
     "geom:longitude":9.881209,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -186,6 +199,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056013",
+        "eurostat:nuts_2021_id":"01056013",
         "gn:id":3209162,
         "gp:id":647585,
         "qs_pg:id":352698,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f9c8a16c7f3adef32a7dea5b3552f84a",
+    "wof:geomhash":"06de24b47a117ebc2b16ccc95ae17c71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
         }
     ],
     "wof:id":101806619,
-    "wof:lastmodified":1582342612,
+    "wof:lastmodified":1684351853,
     "wof:name":"Ellerbek",
     "wof:parent_id":1377683999,
     "wof:placetype":"locality",
-    "wof:population":4326,
+    "wof:population":4250,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

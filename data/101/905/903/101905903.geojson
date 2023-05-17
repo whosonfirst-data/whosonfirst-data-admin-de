@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Silz",
+    "eurostat:nuts_2021_id":"07337074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337074",
+    "eurostat:population":743,
+    "eurostat:population_year":2020,
     "geom:area":0.001046,
-    "geom:area_square_m":8460207.615224,
+    "geom:area_square_m":8460207.615225,
     "geom:bbox":"7.9096166086,49.1202973066,7.96456326125,49.1567810731",
     "geom:latitude":49.137909,
     "geom:longitude":7.938789,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337074",
+        "eurostat:nuts_2021_id":"07337074",
         "gn:id":2832052,
         "gp:id":695085,
         "qs_pg:id":356274,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"eacc2bc5720c22de078acacf27d8ab2e",
+    "wof:geomhash":"67fcbc2d4a474fbc97dd5f2760642cf9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101905903,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351974,
     "wof:name":"Silz",
     "wof:parent_id":1377686507,
     "wof:placetype":"locality",
-    "wof:population":820,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

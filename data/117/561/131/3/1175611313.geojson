@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcbesse",
+    "eurostat:nuts_2021_id":"13076086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076086",
+    "eurostat:population":719,
+    "eurostat:population_year":2020,
     "geom:area":0.002791,
     "geom:area_square_m":20521811.27059,
     "geom:bbox":"11.415321494,53.4727240617,11.4909149693,53.5501413353",
@@ -128,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076086",
+        "eurostat:nuts_2021_id":"13076086",
         "gn:id":2875594,
         "gp:id":672830,
         "qs_pg:id":577942,
@@ -149,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"537cd662a9a63d21046ffd5b169a4e14",
+    "wof:geomhash":"68f338bcab974ba7759a8944c11c00cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +176,11 @@
         }
     ],
     "wof:id":1175611313,
-    "wof:lastmodified":1582342080,
+    "wof:lastmodified":1684352055,
     "wof:name":"L\u00fcbesse",
     "wof:parent_id":1377685289,
     "wof:placetype":"locality",
-    "wof:population":789,
+    "wof:population":719,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

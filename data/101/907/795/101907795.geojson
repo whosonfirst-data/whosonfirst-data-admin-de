@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eickeloh",
+    "eurostat:nuts_2021_id":"03358006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358006",
+    "eurostat:population":794,
+    "eurostat:population_year":2020,
     "geom:area":0.001764,
-    "geom:area_square_m":13208199.725598,
+    "geom:area_square_m":13208199.725599,
     "geom:bbox":"9.5754436899,52.7156075047,9.66139844262,52.7520196278",
     "geom:latitude":52.7329,
     "geom:longitude":9.620306,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358006",
+        "eurostat:nuts_2021_id":"03358006",
         "gn:id":2932024,
         "gp:id":29352028,
         "qs_pg:id":579280,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f1a7bc104171ad3aec26d8c8f52aa5a1",
+    "wof:geomhash":"84c6a5c8eb9c1abac2b3dbd91625ea7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101907795,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351991,
     "wof:name":"Eickeloh",
     "wof:parent_id":1377687831,
     "wof:placetype":"locality",
-    "wof:population":805,
+    "wof:population":794,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

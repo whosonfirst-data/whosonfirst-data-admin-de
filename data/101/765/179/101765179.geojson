@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St\u00fchlingen, Stadt",
+    "eurostat:nuts_2021_id":"08337106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337106",
+    "eurostat:population":5372,
+    "eurostat:population_year":2020,
     "geom:area":0.011183,
-    "geom:area_square_m":92939644.98691,
+    "geom:area_square_m":92939644.986907,
     "geom:bbox":"8.319916,47.709472,8.530939,47.832388",
     "geom:latitude":47.769615,
     "geom:longitude":8.429352,
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":93.2,
     "wd:latitude":47.745278,
     "wd:longitude":8.445833,
@@ -327,15 +340,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063207,
         1377689799,
         404227543,
-        85682567
+        102063207
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337106",
+        "eurostat:nuts_2021_id":"08337106",
         "gn:id":2825429,
         "gp:id":698012,
         "qs_pg:id":162320,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4dce6d996282e4656332e9b0e14800b6",
+    "wof:geomhash":"83023efbca7fd2db454787950949cef3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101765179,
-    "wof:lastmodified":1608049547,
+    "wof:lastmodified":1684351816,
     "wof:name":"St\u00fchlingen",
     "wof:parent_id":1377689799,
     "wof:placetype":"locality",
-    "wof:population":5192,
+    "wof:population":5372,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

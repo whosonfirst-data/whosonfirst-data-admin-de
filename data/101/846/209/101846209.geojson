@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06437004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breuberg, Stadt",
+    "eurostat:nuts_2021_id":"06437004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71B",
+    "eurostat:nuts_2021_level_lau":"06437004",
+    "eurostat:population":7430,
+    "eurostat:population_year":2020,
     "geom:area":0.003826,
-    "geom:area_square_m":30519448.532749,
+    "geom:area_square_m":30519448.532747,
     "geom:bbox":"8.990724,49.790615,9.090088,49.855712",
     "geom:latitude":49.821006,
     "geom:longitude":9.041861,
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.818958,
     "wd:longitude":9.017986,
     "wd:wordcount":841,
@@ -330,15 +343,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063521,
         1377693861,
         404227581,
-        85682531
+        102063521
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06437004",
+        "eurostat:nuts_2021_id":"06437004",
         "gn:id":2944175,
         "gp:id":690917,
         "qs_pg:id":579621,
@@ -352,7 +367,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aed29911af0533f4ffcd3a830a752f52",
+    "wof:geomhash":"927cb3614a1eb9b8e882d10cf389e39b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101846209,
-    "wof:lastmodified":1608051041,
+    "wof:lastmodified":1684351959,
     "wof:name":"Breuberg",
     "wof:parent_id":1377693861,
     "wof:placetype":"locality",
-    "wof:population":7407,
+    "wof:population":7430,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

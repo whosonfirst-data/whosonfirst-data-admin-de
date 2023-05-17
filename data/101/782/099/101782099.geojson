@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wolframs-Eschenbach, St",
+    "eurostat:nuts_2021_id":"09571229",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571229",
+    "eurostat:population":3119,
+    "eurostat:population_year":2020,
     "geom:area":0.003166,
-    "geom:area_square_m":25565739.921829,
+    "geom:area_square_m":25565739.921828,
     "geom:bbox":"10.6863878936,49.1857789852,10.7855027675,49.255133671",
     "geom:latitude":49.221886,
     "geom:longitude":10.734061,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":90,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571229",
+        "eurostat:nuts_2021_id":"09571229",
         "gn:id":2806770,
         "gp:id":707645,
         "qs_pg:id":496300,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ca9a98af40521cabc2d2fea3ff499807",
+    "wof:geomhash":"a275851b4b8c622812e664eb3ba8016b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101782099,
-    "wof:lastmodified":1582342461,
+    "wof:lastmodified":1684351823,
     "wof:name":"Wolframs-Eschenbach",
     "wof:parent_id":1377689077,
     "wof:placetype":"locality",
-    "wof:population":2911,
+    "wof:population":3119,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

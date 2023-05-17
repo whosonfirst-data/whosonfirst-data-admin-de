@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gundheim",
+    "eurostat:nuts_2021_id":"07331037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331037",
+    "eurostat:population":904,
+    "eurostat:population_year":2020,
     "geom:area":0.00057,
-    "geom:area_square_m":4558882.966069,
+    "geom:area_square_m":4558882.96607,
     "geom:bbox":"8.22220458068,49.6656760919,8.26137468989,49.6886827455",
     "geom:latitude":49.676604,
     "geom:longitude":8.242715,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":199,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331037",
+        "eurostat:nuts_2021_id":"07331037",
         "gn:id":2913675,
         "gp:id":655830,
         "qs_pg:id":244553,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8db36bf39c58c6a93d2ad70b4b4c153e",
+    "wof:geomhash":"4dcc9d27c9b59cca8cc0de3ea72cebdb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101906849,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351982,
     "wof:name":"Gundheim",
     "wof:parent_id":1377686221,
     "wof:placetype":"locality",
-    "wof:population":985,
+    "wof:population":904,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

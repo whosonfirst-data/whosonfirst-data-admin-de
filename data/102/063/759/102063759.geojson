@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"D\u00fcsseldorf, Kreisfreie Stadt",
+    "eurostat:name_local":"D\u00fcsseldorf, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA11",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA11",
+    "eurostat:population":619477,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.02798,
-    "geom:area_square_m":216626303.61488,
+    "geom:area_square_m":216626303.614877,
     "geom:bbox":"6.689823,51.124477,6.939965,51.351446",
     "geom:latitude":51.235497,
     "geom:longitude":6.810112,
@@ -495,8 +509,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"217",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"D\u00fcsseldorf",
@@ -509,12 +523,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227561,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA11",
         "hasc:id":"DE.NW.DS",
         "wd:id":"Q1718"
     },
@@ -526,7 +541,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8af0275ead45eb2dcee380f330803a7b",
+    "wof:geomhash":"e619d23a70e8cfbb5fd119f2954bb7f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -537,12 +552,12 @@
         }
     ],
     "wof:id":102063759,
-    "wof:lastmodified":1608052738,
+    "wof:lastmodified":1684351522,
     "wof:name":"D\u00fcsseldorf",
     "wof:parent_id":404227561,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":586291,
+    "wof:population":619477,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"DS",

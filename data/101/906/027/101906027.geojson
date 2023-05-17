@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Firrel",
+    "eurostat:nuts_2021_id":"03457009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457009",
+    "eurostat:population":834,
+    "eurostat:population_year":2020,
     "geom:area":0.001075,
-    "geom:area_square_m":7935543.183204,
+    "geom:area_square_m":7935543.183203,
     "geom:bbox":"7.62381301279,53.3144412738,7.70487465067,53.344381111",
     "geom:latitude":53.330376,
     "geom:longitude":7.667474,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457009",
+        "eurostat:nuts_2021_id":"03457009",
         "gn:id":2926658,
         "gp:id":20167715,
         "qs_pg:id":579168,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ce9c9e377ac9483728c08f3166d8b41e",
+    "wof:geomhash":"177fb35920fb747911d22210ead9ca4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101906027,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351975,
     "wof:name":"Firrel",
     "wof:parent_id":1377688857,
     "wof:placetype":"locality",
-    "wof:population":817,
+    "wof:population":834,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pantelitz",
+    "eurostat:nuts_2021_id":"13073061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073061",
+    "eurostat:population":827,
+    "eurostat:population_year":2020,
     "geom:area":0.001989,
-    "geom:area_square_m":14353249.849154,
+    "geom:area_square_m":14353249.849153,
     "geom:bbox":"12.9435380026,54.2687127422,13.0012734351,54.3192087659",
     "geom:latitude":54.295233,
     "geom:longitude":12.971127,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073061",
+        "eurostat:nuts_2021_id":"13073061",
         "gn:id":2855565,
         "gp:id":708995,
         "qs_pg:id":577438,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f7559832f0f5ad072f72c7661f29e817",
+    "wof:geomhash":"671b1e5a534e1f394381ff2bf3dd1db7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908875,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684352000,
     "wof:name":"Pantelitz",
     "wof:parent_id":1377684971,
     "wof:placetype":"locality",
-    "wof:population":753,
+    "wof:population":827,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchdorf",
+    "eurostat:nuts_2021_id":"03251021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251021",
+    "eurostat:population":2238,
+    "eurostat:population_year":2020,
     "geom:area":0.006337,
     "geom:area_square_m":47609278.12416,
     "geom:bbox":"8.74935653199,52.5322438723,8.90123942767,52.6221026572",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":197,
     "wof:belongsto":[
         85682555,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251021",
+        "eurostat:nuts_2021_id":"03251021",
         "gn:id":2890609,
         "gp:id":665898,
         "qs_pg:id":1039429,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"46041827bb7a6d39daff3ed45080a9e5",
+    "wof:geomhash":"20b4997846ce0e687945975be81f009f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101807935,
-    "wof:lastmodified":1582342590,
+    "wof:lastmodified":1684351862,
     "wof:name":"Kirchdorf",
     "wof:parent_id":1377686541,
     "wof:placetype":"locality",
-    "wof:population":2029,
+    "wof:population":2238,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

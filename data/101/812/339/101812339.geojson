@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wehr",
+    "eurostat:nuts_2021_id":"07131210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131210",
+    "eurostat:population":1117,
+    "eurostat:population_year":2020,
     "geom:area":0.001245,
-    "geom:area_square_m":9807750.783845,
+    "geom:area_square_m":9807750.783846,
     "geom:bbox":"7.16998280659,50.4053439104,7.24616746238,50.4360509008",
     "geom:latitude":50.420615,
     "geom:longitude":7.208325,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -304,6 +317,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131210",
+        "eurostat:nuts_2021_id":"07131210",
         "gn:id":2813261,
         "gp:id":704379,
         "qs_pg:id":92879,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"65c663c5a6d053696e1bd486469d83c2",
+    "wof:geomhash":"f7cd66f83ae3bfe4612cd82bd73cd35d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101812339,
-    "wof:lastmodified":1582342545,
+    "wof:lastmodified":1684351885,
     "wof:name":"Wehr",
     "wof:parent_id":1377685291,
     "wof:placetype":"locality",
-    "wof:population":1152,
+    "wof:population":1117,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

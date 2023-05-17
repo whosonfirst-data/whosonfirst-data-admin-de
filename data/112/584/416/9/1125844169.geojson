@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Teschenmoschel",
+    "eurostat:nuts_2021_id":"07333077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333077",
+    "eurostat:population":117,
+    "eurostat:population_year":2020,
     "geom:area":0.00046,
     "geom:area_square_m":3681992.821115,
     "geom:bbox":"7.713522923,49.618693098,7.74869799826,49.6418450641",
@@ -264,7 +276,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -274,6 +287,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333077",
+        "eurostat:nuts_2021_id":"07333077",
         "gn:id":2823435,
         "qs_pg:id":92988,
         "wd:id":"Q656016"
@@ -283,7 +298,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"de5154d9b4131b0aa7ea8d586b770cba",
+    "wof:geomhash":"50ab4b587fd86e633f1670a242060d97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":1125844169,
-    "wof:lastmodified":1582343055,
+    "wof:lastmodified":1684352025,
     "wof:name":"Teschenmoschel",
     "wof:parent_id":1377686345,
     "wof:placetype":"locality",
-    "wof:population":115,
+    "wof:population":117,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kloster Lehnin",
+    "eurostat:nuts_2021_id":"12069306",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069306",
+    "eurostat:population":10894,
+    "eurostat:population_year":2020,
     "geom:area":0.026461,
-    "geom:area_square_m":199962642.324316,
+    "geom:area_square_m":199962642.324324,
     "geom:bbox":"12.499618,52.238554,12.827845,52.396008",
     "geom:latitude":52.328117,
     "geom:longitude":12.689161,
@@ -319,21 +331,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":300,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063937,
         1377683787,
-        85682553
+        85633111,
+        102063937
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069306",
+        "eurostat:nuts_2021_id":"12069306",
         "gn:id":2879407,
         "gp:id":670935,
         "qs_pg:id":906320,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3b817ee6c75a21d0ce4ab7e3a822d655",
+    "wof:geomhash":"02822a28fbe06a61ec8253603fa73b49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101819751,
-    "wof:lastmodified":1608050269,
+    "wof:lastmodified":1684351908,
     "wof:name":"Kloster Lehnin",
     "wof:parent_id":1377683787,
     "wof:placetype":"locality",
-    "wof:population":10724,
+    "wof:population":10894,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kochel a.See",
+    "eurostat:nuts_2021_id":"09173133",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173133",
+    "eurostat:population":4099,
+    "eurostat:population_year":2020,
     "geom:area":0.009548,
-    "geom:area_square_m":79571077.235595,
+    "geom:area_square_m":79571077.235597,
     "geom:bbox":"11.2626960089,47.5682805592,11.4339426543,47.6986757572",
     "geom:latitude":47.628231,
     "geom:longitude":11.352986,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173133",
+        "eurostat:nuts_2021_id":"09173133",
         "gn:id":2886924,
         "gp:id":667684,
         "qs_pg:id":245800,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f29a87198f8ed54441a1cf9d8d010510",
+    "wof:geomhash":"785141fdb599ccc997625b408cd8adc4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101788927,
-    "wof:lastmodified":1582342633,
+    "wof:lastmodified":1684351845,
     "wof:name":"Kochel a. See",
     "wof:parent_id":1377691117,
     "wof:placetype":"locality",
-    "wof:population":4172,
+    "wof:population":4099,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

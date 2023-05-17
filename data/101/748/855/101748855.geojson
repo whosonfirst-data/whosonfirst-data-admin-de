@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01003000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcbeck, Hansestadt",
+    "eurostat:nuts_2021_id":"01003000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF03",
+    "eurostat:nuts_2021_level_lau":"01003000",
+    "eurostat:population":216530,
+    "eurostat:population_year":2020,
     "geom:area":0.028928,
-    "geom:area_square_m":210890910.21635,
+    "geom:area_square_m":210890910.216346,
     "geom:bbox":"10.554769,53.768105,10.968376,53.994062",
     "geom:latitude":53.872519,
     "geom:longitude":10.727587,
@@ -540,20 +552,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064089,
         1377683381,
-        85682517
+        85633111,
+        102064089
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01003000",
+        "eurostat:nuts_2021_id":"01003000",
         "gn:id":2875601,
         "gp:id":672826,
         "loc:id":"n81108828",
@@ -573,7 +588,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b46f07a7a7cf80327d44ca9b6853f9d5",
+    "wof:geomhash":"be9d8b958ae33220421566b64d31b453",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -585,11 +600,11 @@
         }
     ],
     "wof:id":101748855,
-    "wof:lastmodified":1608050594,
+    "wof:lastmodified":1684351790,
     "wof:name":"L\u00fcbeck",
     "wof:parent_id":1377683381,
     "wof:placetype":"locality",
-    "wof:population":212207,
+    "wof:population":216530,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

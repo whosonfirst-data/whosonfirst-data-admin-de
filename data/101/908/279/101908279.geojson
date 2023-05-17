@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barnin",
+    "eurostat:nuts_2021_id":"13076007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076007",
+    "eurostat:population":478,
+    "eurostat:population_year":2020,
     "geom:area":0.002315,
-    "geom:area_square_m":16987986.890342,
+    "geom:area_square_m":16987986.890345,
     "geom:bbox":"11.6645574419,53.5654551337,11.7597577745,53.6254515966",
     "geom:latitude":53.595099,
     "geom:longitude":11.710031,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076007",
+        "eurostat:nuts_2021_id":"13076007",
         "gn:id":2952485,
         "gp:id":637011,
         "qs_pg:id":94161,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"928d0897887b434d11132b72a2ec5c0b",
+    "wof:geomhash":"3694108bbe63a2c769de948b42d00deb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101908279,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351994,
     "wof:name":"Barnin",
     "wof:parent_id":1377685357,
     "wof:placetype":"locality",
-    "wof:population":492,
+    "wof:population":478,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

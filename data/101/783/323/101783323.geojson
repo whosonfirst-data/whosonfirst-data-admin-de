@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schierling, M",
+    "eurostat:nuts_2021_id":"09375196",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375196",
+    "eurostat:population":8108,
+    "eurostat:population_year":2020,
     "geom:area":0.009496,
     "geom:area_square_m":77307093.890949,
     "geom:bbox":"12.096865,48.764923,12.259711,48.878857",
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675605,
         1377686557,
         404227545,
-        85682571
+        1377675605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375196",
+        "eurostat:nuts_2021_id":"09375196",
         "gn:id":2839393,
         "gp:id":691841,
         "qs_pg:id":185691,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"310e97249329a3a2f6a1b4818555d6db",
+    "wof:geomhash":"3d6654ae10efb85e484b00d6e1c308eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101783323,
-    "wof:lastmodified":1608050625,
+    "wof:lastmodified":1684351829,
     "wof:name":"Schierling",
     "wof:parent_id":1377686557,
     "wof:placetype":"locality",
-    "wof:population":7347,
+    "wof:population":8108,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

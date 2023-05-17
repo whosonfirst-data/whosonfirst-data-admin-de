@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Graben",
+    "eurostat:nuts_2021_id":"09772149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772149",
+    "eurostat:population":4056,
+    "eurostat:population_year":2020,
     "geom:area":0.001769,
-    "geom:area_square_m":14583857.645823,
+    "geom:area_square_m":14583857.645822,
     "geom:bbox":"10.796774,48.177849,10.877116,48.206875",
     "geom:latitude":48.191479,
     "geom:longitude":10.835491,
@@ -247,18 +259,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":501,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693397,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772149",
+        "eurostat:nuts_2021_id":"09772149",
         "fct:id":"0768e8aa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2918468,
         "gp:id":653676,
@@ -273,7 +288,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ad58378bd02a67d9f18818dfe6d918d",
+    "wof:geomhash":"cefe18cb735530e4343c1935f150b300",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -289,11 +304,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608052044,
+    "wof:lastmodified":1684351819,
     "wof:name":"Graben",
     "wof:parent_id":1377693397,
     "wof:placetype":"locality",
-    "wof:population":3250,
+    "wof:population":4056,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6bnitz",
+    "eurostat:nuts_2021_id":"13073051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073051",
+    "eurostat:population":585,
+    "eurostat:population_year":2020,
     "geom:area":0.003076,
-    "geom:area_square_m":22199627.334706,
+    "geom:area_square_m":22199627.334709,
     "geom:bbox":"12.6708959055,54.2724045513,12.785901977,54.325036418",
     "geom:latitude":54.296349,
     "geom:longitude":12.732834,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682487,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073051",
+        "eurostat:nuts_2021_id":"13073051",
         "gn:id":2876697,
         "gp:id":672272,
         "qs_pg:id":577977,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"35f837a4bb264b0ec884d9e155e690c5",
+    "wof:geomhash":"b08af0b57a3604d288f2ed37f730b562",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101908873,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684352000,
     "wof:name":"L\u00f6bnitz",
     "wof:parent_id":1377684881,
     "wof:placetype":"locality",
-    "wof:population":725,
+    "wof:population":585,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

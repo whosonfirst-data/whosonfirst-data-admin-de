@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eitorf",
+    "eurostat:nuts_2021_id":"05382016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382016",
+    "eurostat:population":18749,
+    "eurostat:population_year":2020,
     "geom:area":0.008923,
-    "geom:area_square_m":69787245.462256,
+    "geom:area_square_m":69787245.46226,
     "geom:bbox":"7.380025,50.711188,7.534598,50.818172",
     "geom:latitude":50.764632,
     "geom:longitude":7.452314,
@@ -317,22 +329,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690619,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382016",
+        "eurostat:nuts_2021_id":"05382016",
         "fct:id":"073d21ca-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2931361,
         "gp:id":647412,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"966a34b21e327f6412144157a413a9ea",
+    "wof:geomhash":"c6d36ca7f36ab888eb5a4e53207e071e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051678,
+    "wof:lastmodified":1684351864,
     "wof:name":"Eitorf",
     "wof:parent_id":1377690619,
     "wof:placetype":"locality",
-    "wof:population":19761,
+    "wof:population":18749,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

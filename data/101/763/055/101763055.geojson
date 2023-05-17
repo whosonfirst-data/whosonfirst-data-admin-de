@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08237073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seewald",
+    "eurostat:nuts_2021_id":"08237073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12C",
+    "eurostat:nuts_2021_level_lau":"08237073",
+    "eurostat:population":2112,
+    "eurostat:population_year":2020,
     "geom:area":0.007178,
-    "geom:area_square_m":58708919.544947,
+    "geom:area_square_m":58708919.544944,
     "geom:bbox":"8.38173275942,48.5160444785,8.53521376555,48.6394575674",
     "geom:latitude":48.585871,
     "geom:longitude":8.456085,
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":137,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08237073",
+        "eurostat:nuts_2021_id":"08237073",
         "gn:id":3209427,
         "gp:id":15002795,
         "qs_pg:id":224185,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6a9f027ce5504b742a1ff76f90ccfbe9",
+    "wof:geomhash":"b802d9c0bb6a42c12a6f5f49073d8239",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101763055,
-    "wof:lastmodified":1582342295,
+    "wof:lastmodified":1684351809,
     "wof:name":"Seewald",
     "wof:parent_id":1377689081,
     "wof:placetype":"locality",
-    "wof:population":2190,
+    "wof:population":2112,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

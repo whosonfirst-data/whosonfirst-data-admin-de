@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wehnde",
+    "eurostat:nuts_2021_id":"16061103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061103",
+    "eurostat:population":379,
+    "eurostat:population_year":2020,
     "geom:area":0.001246,
-    "geom:area_square_m":9592410.306166,
+    "geom:area_square_m":9592410.306168,
     "geom:bbox":"10.2720473237,51.4736875873,10.3572709955,51.4970435254",
     "geom:latitude":51.484671,
     "geom:longitude":10.315315,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061103",
+        "eurostat:nuts_2021_id":"16061103",
         "gn:id":2813436,
         "gp:id":704368,
         "qs_pg:id":92883,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7267d52f7c0cf41965de7795333b2111",
+    "wof:geomhash":"0de8b045b16d36cdbc0d8eca769c37e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101909089,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352001,
     "wof:name":"Wehnde",
     "wof:parent_id":1377689417,
     "wof:placetype":"locality",
-    "wof:population":412,
+    "wof:population":379,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

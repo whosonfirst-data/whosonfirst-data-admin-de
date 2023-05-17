@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05366016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Euskirchen, Stadt",
+    "eurostat:nuts_2021_id":"05366016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA28",
+    "eurostat:nuts_2021_level_lau":"05366016",
+    "eurostat:population":58381,
+    "eurostat:population_year":2020,
     "geom:area":0.01769,
-    "geom:area_square_m":138731692.91381,
+    "geom:area_square_m":138731692.913816,
     "geom:bbox":"6.710197,50.561449,6.934747,50.702993",
     "geom:latitude":50.636822,
     "geom:longitude":6.81523,
@@ -322,17 +334,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063667,
         1377690253,
         404227541,
-        85682513
+        102063667
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05366016",
+        "eurostat:nuts_2021_id":"05366016",
         "gn:id":2928396,
         "gp:id":649055,
         "loc:id":"n81062638",
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ade7551e66e909176da7bd0b880728ef",
+    "wof:geomhash":"8ede27ec7b999e86d1bd2e75b229b949",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101748597,
-    "wof:lastmodified":1608050576,
+    "wof:lastmodified":1684351786,
     "wof:name":"Euskirchen",
     "wof:parent_id":1377690253,
     "wof:placetype":"locality",
-    "wof:population":54889,
+    "wof:population":58381,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

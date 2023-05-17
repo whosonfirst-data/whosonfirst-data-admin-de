@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kasseburg",
+    "eurostat:nuts_2021_id":"01053060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053060",
+    "eurostat:population":578,
+    "eurostat:population_year":2020,
     "geom:area":0.001067,
-    "geom:area_square_m":7838213.113404,
+    "geom:area_square_m":7838213.113402,
     "geom:bbox":"10.3888707941,53.5459588499,10.4420653882,53.5778503169",
     "geom:latitude":53.562283,
     "geom:longitude":10.415199,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053060",
+        "eurostat:nuts_2021_id":"01053060",
         "gn:id":2892521,
         "gp:id":12632096,
         "qs_pg:id":578360,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"671b1ba57b6a3970b61a0e0649588126",
+    "wof:geomhash":"f9381a843c0b796312d505a4b2f04765",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101908397,
-    "wof:lastmodified":1582342340,
+    "wof:lastmodified":1684351995,
     "wof:name":"Kasseburg",
     "wof:parent_id":1377683521,
     "wof:placetype":"locality",
-    "wof:population":554,
+    "wof:population":578,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

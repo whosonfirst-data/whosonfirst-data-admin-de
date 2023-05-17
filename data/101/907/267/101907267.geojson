@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nborn",
+    "eurostat:nuts_2021_id":"07141126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141126",
+    "eurostat:population":728,
+    "eurostat:population_year":2020,
     "geom:area":0.001484,
-    "geom:area_square_m":11719432.876729,
+    "geom:area_square_m":11719432.87673,
     "geom:bbox":"7.96194853951,50.2896304356,8.02135208627,50.3392744176",
     "geom:latitude":50.309633,
     "geom:longitude":7.992944,
@@ -270,7 +282,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":196,
     "wof:belongsto":[
         85682491,
@@ -281,6 +294,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141126",
+        "eurostat:nuts_2021_id":"07141126",
         "gn:id":2838315,
         "gp:id":692885,
         "qs_pg:id":93102,
@@ -294,7 +309,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0f9556ee2b5e38e0ea94525d43da1137",
+    "wof:geomhash":"4acc8279e7b4ba7d4edcb76c1f15113e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -306,11 +321,11 @@
         }
     ],
     "wof:id":101907267,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351986,
     "wof:name":"Sch\u00f6nborn",
     "wof:parent_id":1377685743,
     "wof:placetype":"locality",
-    "wof:population":725,
+    "wof:population":728,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

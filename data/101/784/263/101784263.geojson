@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arnstorf, M",
+    "eurostat:nuts_2021_id":"09277111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277111",
+    "eurostat:population":7148,
+    "eurostat:population_year":2020,
     "geom:area":0.009819,
-    "geom:area_square_m":80359468.123041,
+    "geom:area_square_m":80359468.123039,
     "geom:bbox":"12.752136,48.501149,12.895883,48.607995",
     "geom:latitude":48.555484,
     "geom:longitude":12.82153,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685063,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277111",
+        "eurostat:nuts_2021_id":"09277111",
         "fct:id":"072c88ec-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2955429,
         "gp:id":635522,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b667aa41a665045d858b73386b79cd87",
+    "wof:geomhash":"6ff60a300c10467f91140869907ff8bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050702,
+    "wof:lastmodified":1684351831,
     "wof:name":"Arnstorf",
     "wof:parent_id":1377685063,
     "wof:placetype":"locality",
-    "wof:population":6570,
+    "wof:population":7148,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

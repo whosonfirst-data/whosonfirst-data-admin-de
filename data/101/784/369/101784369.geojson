@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tettenweis",
+    "eurostat:nuts_2021_id":"09275149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275149",
+    "eurostat:population":1774,
+    "eurostat:population_year":2020,
     "geom:area":0.003455,
-    "geom:area_square_m":28341876.250127,
+    "geom:area_square_m":28341876.250128,
     "geom:bbox":"13.226066,48.40866,13.316708,48.464424",
     "geom:latitude":48.433248,
     "geom:longitude":13.268183,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684807,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275149",
+        "eurostat:nuts_2021_id":"09275149",
         "fct:id":"075a8f80-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2823372,
         "gp:id":12622952,
@@ -199,7 +214,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22c0201f6f0a0d9e90a73c6f8f0d55ff",
+    "wof:geomhash":"b751ec149d1d4d1088d12d3b54a8067d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -215,11 +230,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050688,
+    "wof:lastmodified":1684351832,
     "wof:name":"Tettenweis",
     "wof:parent_id":1377684807,
     "wof:placetype":"locality",
-    "wof:population":1702,
+    "wof:population":1774,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

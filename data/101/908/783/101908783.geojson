@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sarnow",
+    "eurostat:nuts_2021_id":"13075122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075122",
+    "eurostat:population":378,
+    "eurostat:population_year":2020,
     "geom:area":0.003194,
-    "geom:area_square_m":23350139.337703,
+    "geom:area_square_m":23350139.337702,
     "geom:bbox":"13.5586239127,53.7284190569,13.6779248057,53.78606802",
     "geom:latitude":53.755816,
     "geom:longitude":13.631093,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682487,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075122",
+        "eurostat:nuts_2021_id":"13075122",
         "gn:id":2841394,
         "gp:id":691066,
         "qs_pg:id":93128,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cf0021d66877e125dd49327140574e5d",
+    "wof:geomhash":"57039179058426b34a4500efbe08222b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101908783,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351999,
     "wof:name":"Sarnow",
     "wof:parent_id":1377685091,
     "wof:placetype":"locality",
-    "wof:population":483,
+    "wof:population":378,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

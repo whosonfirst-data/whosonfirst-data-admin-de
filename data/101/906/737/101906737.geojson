@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schallodenbach",
+    "eurostat:nuts_2021_id":"07335041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335041",
+    "eurostat:population":849,
+    "eurostat:population_year":2020,
     "geom:area":0.000919,
     "geom:area_square_m":7373762.989838,
     "geom:bbox":"7.68427011877,49.5319063801,7.73808612159,49.5637946321",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":163,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335041",
+        "eurostat:nuts_2021_id":"07335041",
         "gn:id":2840529,
         "gp:id":691414,
         "qs_pg:id":577095,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"da848f3caddf06f1e9553b83df6b2546",
+    "wof:geomhash":"84550d3c2ce46f1f37cdb8f6c2a17f26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101906737,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351981,
     "wof:name":"Schallodenbach",
     "wof:parent_id":1377686473,
     "wof:placetype":"locality",
-    "wof:population":942,
+    "wof:population":849,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Goldberg, Stadt",
+    "eurostat:nuts_2021_id":"13076048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076048",
+    "eurostat:population":3434,
+    "eurostat:population_year":2020,
     "geom:area":0.00877,
-    "geom:area_square_m":64398451.780998,
+    "geom:area_square_m":64398451.781,
     "geom:bbox":"11.9764659942,53.519909173,12.1591959194,53.6264905786",
     "geom:latitude":53.570793,
     "geom:longitude":12.080536,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":258,
     "wof:belongsto":[
         85682487,
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076048",
+        "eurostat:nuts_2021_id":"13076048",
         "gn:id":2919366,
         "gp:id":653126,
         "qs_pg:id":944896,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"13d317ecb50b2ea889fc2eec337dedf4",
+    "wof:geomhash":"93c6b843ab7e19a46c06e01e6c2a304e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101818693,
-    "wof:lastmodified":1582342360,
+    "wof:lastmodified":1684351902,
     "wof:name":"Goldberg",
     "wof:parent_id":1377685259,
     "wof:placetype":"locality",
-    "wof:population":3767,
+    "wof:population":3434,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

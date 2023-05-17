@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verchen",
+    "eurostat:nuts_2021_id":"13071150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071150",
+    "eurostat:population":387,
+    "eurostat:population_year":2020,
     "geom:area":0.001612,
-    "geom:area_square_m":11755562.108965,
+    "geom:area_square_m":11755562.108964,
     "geom:bbox":"12.8804273078,53.8245398805,12.9539233138,53.8755031241",
     "geom:latitude":53.852116,
     "geom:longitude":12.915784,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071150",
+        "eurostat:nuts_2021_id":"13071150",
         "gn:id":2817600,
         "gp:id":702191,
         "qs_pg:id":271160,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"069a64a36c1285f50e3cdfa03a532e4b",
+    "wof:geomhash":"ffae2852d2fc217355bd5b07a7e0426e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908623,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351997,
     "wof:name":"Verchen",
     "wof:parent_id":1377684425,
     "wof:placetype":"locality",
-    "wof:population":446,
+    "wof:population":387,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

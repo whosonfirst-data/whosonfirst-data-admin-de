@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baustert",
+    "eurostat:nuts_2021_id":"07232009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232009",
+    "eurostat:population":452,
+    "eurostat:population_year":2020,
     "geom:area":0.000563,
     "geom:area_square_m":4473367.257492,
     "geom:bbox":"6.36794300655,49.9691415392,6.41027929268,49.9976327578",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232009",
+        "eurostat:nuts_2021_id":"07232009",
         "gn:id":2951887,
         "gp:id":20163116,
         "qs_pg:id":579868,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2e64ed8260df80dfd736f52fb7b1877",
+    "wof:geomhash":"4f507f1cce77655b2d931c3da1776696",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907219,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351986,
     "wof:name":"Baustert",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":540,
+    "wof:population":452,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

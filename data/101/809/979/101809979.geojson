@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Zwesten",
+    "eurostat:nuts_2021_id":"06634027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634027",
+    "eurostat:population":3813,
+    "eurostat:population_year":2020,
     "geom:area":0.005071,
-    "geom:area_square_m":39421403.033205,
+    "geom:area_square_m":39421403.033208,
     "geom:bbox":"9.09588,51.016594,9.215059,51.096992",
     "geom:latitude":51.04875,
     "geom:longitude":9.16504,
@@ -301,22 +313,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":306,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684867,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634027",
+        "eurostat:nuts_2021_id":"06634027",
         "gn:id":6553283,
         "gp:id":20162532,
         "qs_pg:id":969908,
@@ -331,7 +346,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"792c9f23f08852ff8255b89f06f16eed",
+    "wof:geomhash":"8fcfbd4ca70e263474d4a533bc48d8bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101809979,
-    "wof:lastmodified":1608051621,
+    "wof:lastmodified":1684351869,
     "wof:name":"Bad Zwesten",
     "wof:parent_id":1377684867,
     "wof:placetype":"locality",
-    "wof:population":3922,
+    "wof:population":3813,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

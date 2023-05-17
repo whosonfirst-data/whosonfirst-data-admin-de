@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05970004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Berleburg, Stadt",
+    "eurostat:nuts_2021_id":"05970004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5A",
+    "eurostat:nuts_2021_level_lau":"05970004",
+    "eurostat:population":18914,
+    "eurostat:population_year":2020,
     "geom:area":0.035359,
-    "geom:area_square_m":274822933.856086,
+    "geom:area_square_m":274822933.85609,
     "geom:bbox":"8.220932,50.960107,8.549085,51.149467",
     "geom:latitude":51.055023,
     "geom:longitude":8.404293,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.049722,
     "wd:longitude":8.4,
     "wd:population":19515,
@@ -329,15 +342,17 @@
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063725,
         1377692503,
         404227579,
-        85682513
+        102063725
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05970004",
+        "eurostat:nuts_2021_id":"05970004",
         "gn:id":2953545,
         "gp:id":636392,
         "qs_pg:id":475821,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3b7fb51ba471a9320dbc1b9f36963ed1",
+    "wof:geomhash":"038b0ad1dff7a371691eb6744c0b2927",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101810323,
-    "wof:lastmodified":1608050060,
+    "wof:lastmodified":1684351873,
     "wof:name":"Bad Berleburg",
     "wof:parent_id":1377692503,
     "wof:placetype":"locality",
-    "wof:population":19515,
+    "wof:population":18914,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

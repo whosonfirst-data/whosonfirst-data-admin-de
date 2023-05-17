@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elstra, Stadt",
+    "eurostat:nuts_2021_id":"14625130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625130",
+    "eurostat:population":2723,
+    "eurostat:population_year":2020,
     "geom:area":0.004191,
-    "geom:area_square_m":32463345.766514,
+    "geom:area_square_m":32463345.766516,
     "geom:bbox":"14.088974,51.175683,14.17196,51.251786",
     "geom:latitude":51.214182,
     "geom:longitude":14.129515,
@@ -172,17 +184,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686693,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625130",
+        "eurostat:nuts_2021_id":"14625130",
         "gn:id":2930672,
         "gp:id":647774,
         "qs_pg:id":1131314,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3647fd91c547337321c8e9e7f50905ae",
+    "wof:geomhash":"2fed65856ef06346f90de22c246a0dbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101822173,
-    "wof:lastmodified":1608051469,
+    "wof:lastmodified":1684351920,
     "wof:name":"Elstra",
     "wof:parent_id":1377686693,
     "wof:placetype":"locality",
-    "wof:population":3176,
+    "wof:population":2723,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

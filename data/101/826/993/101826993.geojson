@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09374168",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Windischeschenbach, St",
+    "eurostat:nuts_2021_id":"09374168",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE237",
+    "eurostat:nuts_2021_level_lau":"09374168",
+    "eurostat:population":4975,
+    "eurostat:population_year":2020,
     "geom:area":0.004553,
     "geom:area_square_m":36330839.447301,
     "geom:bbox":"12.093118,49.775338,12.214534,49.855942",
@@ -166,22 +178,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063523,
         1377686275,
         404227545,
-        85682571
+        102063523
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09374168",
+        "eurostat:nuts_2021_id":"09374168",
         "gn:id":2808148,
         "gp:id":706925,
         "qs_pg:id":141559,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ada78319db1093b4a4135feee58e8deb",
+    "wof:geomhash":"9d6c54d91c1432511d2545f97d9977c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,12 +224,12 @@
         }
     ],
     "wof:id":101826993,
-    "wof:lastmodified":1608050334,
+    "wof:lastmodified":1684351939,
     "wof:name":"Windischeschenbach",
     "wof:parent_id":1377686275,
     "wof:placetype":"locality",
-    "wof:population":5659,
-    "wof:population_rank":5,
+    "wof:population":4975,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

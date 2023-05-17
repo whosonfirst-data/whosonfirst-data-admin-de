@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grothusenkoog",
+    "eurostat:nuts_2021_id":"01054040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054040",
+    "eurostat:population":21,
+    "eurostat:population_year":2020,
     "geom:area":0.000461,
     "geom:area_square_m":3324573.07945,
     "geom:bbox":"8.73494578547,54.2885399674,8.76958366413,54.3084282195",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054040",
+        "eurostat:nuts_2021_id":"01054040",
         "gn:id":2914769,
         "qs_pg:id":578852,
         "wd:id":"Q20751"
@@ -292,7 +307,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"541b6e819c86d8e7e9c01d14cbed4e39",
+    "wof:geomhash":"ca620023950942fc7acb8cb1c9f7a771",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -304,11 +319,11 @@
         }
     ],
     "wof:id":1126019517,
-    "wof:lastmodified":1582343017,
+    "wof:lastmodified":1684352048,
     "wof:name":"Grothusenkoog",
     "wof:parent_id":1377683593,
     "wof:placetype":"locality",
-    "wof:population":29,
+    "wof:population":21,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

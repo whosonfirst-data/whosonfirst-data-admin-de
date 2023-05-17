@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Briesen",
+    "eurostat:nuts_2021_id":"12071028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071028",
+    "eurostat:population":771,
+    "eurostat:population_year":2020,
     "geom:area":0.001189,
-    "geom:area_square_m":9088027.125272,
+    "geom:area_square_m":9088027.125274,
     "geom:bbox":"14.220686601,51.7934956454,14.2743249156,51.850114194",
     "geom:latitude":51.818191,
     "geom:longitude":14.244246,
@@ -86,7 +98,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -96,13 +109,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071028",
+        "eurostat:nuts_2021_id":"12071028",
         "gn:id":2944124
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"8aa079874b77496778751caeab43fe7c",
+    "wof:geomhash":"c2a48d03c524e29c7f13c8b569f1be26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -114,11 +129,11 @@
         }
     ],
     "wof:id":1326610853,
-    "wof:lastmodified":1582341875,
+    "wof:lastmodified":1684352061,
     "wof:name":"Briesen",
     "wof:parent_id":1377684087,
     "wof:placetype":"locality",
-    "wof:population":807,
+    "wof:population":771,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

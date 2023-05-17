@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08237019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dornstetten, Stadt",
+    "eurostat:nuts_2021_id":"08237019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12C",
+    "eurostat:nuts_2021_level_lau":"08237019",
+    "eurostat:population":8040,
+    "eurostat:population_year":2020,
     "geom:area":0.002943,
-    "geom:area_square_m":24119038.392766,
+    "geom:area_square_m":24119038.392768,
     "geom:bbox":"8.45624417142,48.453438298,8.54826653631,48.5229169756",
     "geom:latitude":48.479667,
     "geom:longitude":8.503078,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.47,
     "wd:longitude":8.499444,
     "wd:wordcount":705,
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08237019",
+        "eurostat:nuts_2021_id":"08237019",
         "gn:id":2935642,
         "gp:id":645382,
         "qs_pg:id":235329,
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"99bdfcbcbbc48477dbb439bc0a44f7e9",
+    "wof:geomhash":"7f6834034008ac451f23da5d15b54e28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101763037,
-    "wof:lastmodified":1582342295,
+    "wof:lastmodified":1684351809,
     "wof:name":"Dornstetten",
     "wof:parent_id":1377689073,
     "wof:placetype":"locality",
-    "wof:population":8215,
+    "wof:population":8040,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

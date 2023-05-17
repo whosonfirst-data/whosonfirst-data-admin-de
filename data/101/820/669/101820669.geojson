@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064349",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neulewin",
+    "eurostat:nuts_2021_id":"12064349",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064349",
+    "eurostat:population":913,
+    "eurostat:population_year":2020,
     "geom:area":0.005427,
-    "geom:area_square_m":40618985.376864,
+    "geom:area_square_m":40618985.376865,
     "geom:bbox":"14.2178195316,52.7052003458,14.3312173213,52.7871770121",
     "geom:latitude":52.747301,
     "geom:longitude":14.272052,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "wof:belongsto":[
         85682553,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064349",
+        "eurostat:nuts_2021_id":"12064349",
         "gn:id":2864613,
         "gp:id":678738,
         "qs_pg:id":577680,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"aaf2ff9dc5344fc40558016dae1d0fa1",
+    "wof:geomhash":"b4386660f426fa23e873c1c738b871b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,12 +334,12 @@
         }
     ],
     "wof:id":101820669,
-    "wof:lastmodified":1582342377,
+    "wof:lastmodified":1684351912,
     "wof:name":"Neulewin",
     "wof:parent_id":1377683355,
     "wof:placetype":"locality",
-    "wof:population":1079,
-    "wof:population_rank":3,
+    "wof:population":913,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070316",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pritzwalk, Stadt",
+    "eurostat:nuts_2021_id":"12070316",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070316",
+    "eurostat:population":11879,
+    "eurostat:population_year":2020,
     "geom:area":0.022542,
-    "geom:area_square_m":167138432.929442,
+    "geom:area_square_m":167138432.929444,
     "geom:bbox":"12.082812,53.0725,12.332651,53.231203",
     "geom:latitude":53.156221,
     "geom:longitude":12.205474,
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.149722,
     "wd:longitude":12.183056,
     "wd:wordcount":142,
@@ -321,14 +334,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064003,
         1377683967,
-        85682553
+        85633111,
+        102064003
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070316",
+        "eurostat:nuts_2021_id":"12070316",
         "gn:id":2851962,
         "gp:id":686067,
         "qs_pg:id":1038697,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"123e6fb1e91f61d8b3e8927dce7fe293",
+    "wof:geomhash":"c99ddec36c44549a7ad517d5174513a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101818531,
-    "wof:lastmodified":1608049761,
+    "wof:lastmodified":1684351900,
     "wof:name":"Pritzwalk",
     "wof:parent_id":1377683967,
     "wof:placetype":"locality",
-    "wof:population":13485,
+    "wof:population":11879,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

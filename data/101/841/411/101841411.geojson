@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15082015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bitterfeld-Wolfen, Stadt",
+    "eurostat:nuts_2021_id":"15082015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE05",
+    "eurostat:nuts_2021_level_lau":"15082015",
+    "eurostat:population":38159,
+    "eurostat:population_year":2020,
     "geom:area":0.011319,
-    "geom:area_square_m":86855010.407287,
+    "geom:area_square_m":86855010.407291,
     "geom:bbox":"12.178584,51.583087,12.393345,51.705526",
     "geom:latitude":51.641775,
     "geom:longitude":12.288457,
@@ -158,17 +170,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":339,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063873,
         1377688229,
-        85682519
+        85633111,
+        102063873
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15082015",
+        "eurostat:nuts_2021_id":"15082015",
         "gn:id":7602606,
         "gp:id":639314,
         "qs_pg:id":693778,
@@ -181,7 +196,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82947e44e4a337b8ef24a8ee68f6d6fa",
+    "wof:geomhash":"20ddee7fc95cbd8fd921e55f952d198b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101841411,
-    "wof:lastmodified":1608051000,
+    "wof:lastmodified":1684351953,
     "wof:name":"Bitterfeld-Wolfen",
     "wof:parent_id":1377688229,
     "wof:placetype":"locality",
-    "wof:population":41816,
+    "wof:population":38159,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

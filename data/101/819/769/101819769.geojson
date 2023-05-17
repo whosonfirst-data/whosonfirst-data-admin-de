@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15086005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biederitz",
+    "eurostat:nuts_2021_id":"15086005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE06",
+    "eurostat:nuts_2021_level_lau":"15086005",
+    "eurostat:population":8497,
+    "eurostat:population_year":2020,
     "geom:area":0.005255,
-    "geom:area_square_m":39871966.721001,
+    "geom:area_square_m":39871966.720999,
     "geom:bbox":"11.703005,52.099553,11.814641,52.194469",
     "geom:latitude":52.149255,
     "geom:longitude":11.749379,
@@ -139,17 +151,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063939,
         1377688647,
-        85682519
+        85633111,
+        102063939
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15086005",
+        "eurostat:nuts_2021_id":"15086005",
         "gn:id":2949221,
         "gp:id":659836,
         "qs_pg:id":579755,
@@ -164,7 +179,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9356c5d8792bc5506c9b565082aa5d80",
+    "wof:geomhash":"32ec152386e8822aa81944b41b6b1a3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,12 +191,12 @@
         }
     ],
     "wof:id":101819769,
-    "wof:lastmodified":1608050268,
+    "wof:lastmodified":1684351908,
     "wof:name":"Biederitz",
     "wof:parent_id":1377688647,
     "wof:placetype":"locality",
-    "wof:population":4545,
-    "wof:population_rank":4,
+    "wof:population":8497,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

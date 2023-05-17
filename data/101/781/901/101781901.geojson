@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfenburg i.Bay., GKSt",
+    "eurostat:nuts_2021_id":"09577177",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577177",
+    "eurostat:population":18645,
+    "eurostat:population_year":2020,
     "geom:area":0.011995,
     "geom:area_square_m":97280525.227178,
     "geom:bbox":"10.8878082724,48.9538325574,11.0881578416,49.0638379564",
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":688,
     "wof:belongsto":[
         85682571,
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577177",
+        "eurostat:nuts_2021_id":"09577177",
         "gn:id":2811909,
         "gp:id":704953,
         "loc:id":"n82140023",
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"39b9c09282e100d4fd4ca2041d47a3b2",
+    "wof:geomhash":"d0b58e6c272ce53799070d3ef9c76844",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101781901,
-    "wof:lastmodified":1582342634,
+    "wof:lastmodified":1684351820,
     "wof:name":"Wei\u00dfenburg i. Bay.",
     "wof:parent_id":1377690241,
     "wof:placetype":"locality",
-    "wof:population":17801,
+    "wof:population":18645,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

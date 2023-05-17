@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cammin",
+    "eurostat:nuts_2021_id":"13072021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072021",
+    "eurostat:population":775,
+    "eurostat:population_year":2020,
     "geom:area":0.004418,
-    "geom:area_square_m":32112086.032277,
+    "geom:area_square_m":32112086.032276,
     "geom:bbox":"12.3359400453,53.9599502103,12.4543793624,54.0321519532",
     "geom:latitude":53.998456,
     "geom:longitude":12.390139,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682487,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072021",
+        "eurostat:nuts_2021_id":"13072021",
         "gn:id":2940363,
         "gp:id":643004,
         "qs_pg:id":579512,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"75309bdb331b3adc98b78fdc54c8687e",
+    "wof:geomhash":"dd96e083f852b0a823599db601aeb644",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101908817,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351999,
     "wof:name":"Cammin",
     "wof:parent_id":1377684723,
     "wof:placetype":"locality",
-    "wof:population":858,
+    "wof:population":775,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

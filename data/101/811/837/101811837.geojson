@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kinderbeuern",
+    "eurostat:nuts_2021_id":"07231067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231067",
+    "eurostat:population":1013,
+    "eurostat:population_year":2020,
     "geom:area":0.000692,
-    "geom:area_square_m":5497520.232254,
+    "geom:area_square_m":5497520.232255,
     "geom:bbox":"7.01002887672,49.9930301993,7.04674051754,50.0255816901",
     "geom:latitude":50.010583,
     "geom:longitude":7.027788,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":343,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231067",
+        "eurostat:nuts_2021_id":"07231067",
         "gn:id":2890873,
         "gp:id":665779,
         "qs_pg:id":142294,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"04b1f3b7c787c167a699f10dcf82f0be",
+    "wof:geomhash":"803e2411bb2fc3278636935e555feee4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101811837,
-    "wof:lastmodified":1582342388,
+    "wof:lastmodified":1684351880,
     "wof:name":"Kinderbeuern",
     "wof:parent_id":1377685909,
     "wof:placetype":"locality",
-    "wof:population":1119,
+    "wof:population":1013,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

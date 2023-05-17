@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weyerbusch",
+    "eurostat:nuts_2021_id":"07132115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132115",
+    "eurostat:population":1385,
+    "eurostat:population_year":2020,
     "geom:area":0.000549,
     "geom:area_square_m":4297542.08666,
     "geom:bbox":"7.54140659671,50.6935496859,7.57246129959,50.7222070558",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132115",
+        "eurostat:nuts_2021_id":"07132115",
         "gn:id":2809845,
         "gp:id":706054,
         "qs_pg:id":1038085,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e9e78fd6ae78b666c1e759bc35006c76",
+    "wof:geomhash":"bbed966d569b778ae963e4a694a3d658",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101810951,
-    "wof:lastmodified":1582342405,
+    "wof:lastmodified":1684351877,
     "wof:name":"Weyerbusch",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":1456,
+    "wof:population":1385,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

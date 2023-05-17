@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pinnow",
+    "eurostat:nuts_2021_id":"12073440",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073440",
+    "eurostat:population":898,
+    "eurostat:population_year":2020,
     "geom:area":0.001726,
     "geom:area_square_m":12824805.368089,
     "geom:bbox":"14.0664317582,53.0388631489,14.1361099725,53.0811348973",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":14,
     "wof:belongsto":[
         85682553,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073440",
+        "eurostat:nuts_2021_id":"12073440",
         "gn:id":2853651,
         "gp:id":685124,
         "qs_pg:id":987594,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7e874b112491860e4b260bdda136e8e3",
+    "wof:geomhash":"09028bcab4ab8ce1d942b0c5d9f7a484",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101908051,
-    "wof:lastmodified":1582342352,
+    "wof:lastmodified":1684351992,
     "wof:name":"Pinnow",
     "wof:parent_id":1377684343,
     "wof:placetype":"locality",
-    "wof:population":892,
+    "wof:population":898,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

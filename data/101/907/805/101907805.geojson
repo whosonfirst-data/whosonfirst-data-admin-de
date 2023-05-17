@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vahlde",
+    "eurostat:nuts_2021_id":"03357049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357049",
+    "eurostat:population":679,
+    "eurostat:population_year":2020,
     "geom:area":0.002396,
     "geom:area_square_m":17747097.938822,
     "geom:bbox":"9.58173105442,53.163991627,9.66947207013,53.2219930928",
@@ -330,7 +342,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":186,
     "wof:belongsto":[
         85682555,
@@ -341,6 +354,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357049",
+        "eurostat:nuts_2021_id":"03357049",
         "gn:id":2959237,
         "gp:id":701994,
         "qs_pg:id":142989,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fa7bcba824919647d3cb5d7f96f36db0",
+    "wof:geomhash":"cf5a34247bec5a442e0c61c19b1fc132",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
         }
     ],
     "wof:id":101907805,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351991,
     "wof:name":"Vahlde",
     "wof:parent_id":1377687685,
     "wof:placetype":"locality",
-    "wof:population":746,
+    "wof:population":679,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

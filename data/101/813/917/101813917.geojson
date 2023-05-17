@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gusenburg",
+    "eurostat:nuts_2021_id":"07235036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235036",
+    "eurostat:population":1108,
+    "eurostat:population_year":2020,
     "geom:area":0.000896,
     "geom:area_square_m":7178389.322993,
     "geom:bbox":"6.88821490044,49.6184925563,6.93713030105,49.6599463448",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235036",
+        "eurostat:nuts_2021_id":"07235036",
         "gn:id":2913478,
         "gp:id":654239,
         "qs_pg:id":578828,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a82539a9001955b238e8f381856b6270",
+    "wof:geomhash":"fa31e17a269e6c786c448a25695773ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101813917,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351893,
     "wof:name":"Gusenburg",
     "wof:parent_id":1377686019,
     "wof:placetype":"locality",
-    "wof:population":1187,
+    "wof:population":1108,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

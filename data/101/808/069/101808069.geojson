@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwarmstedt",
+    "eurostat:nuts_2021_id":"03358020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358020",
+    "eurostat:population":5745,
+    "eurostat:population_year":2020,
     "geom:area":0.004002,
     "geom:area_square_m":30008820.593476,
     "geom:bbox":"9.56875880383,52.6330326442,9.73170451803,52.7113794279",
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":245,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358020",
+        "eurostat:nuts_2021_id":"03358020",
         "gn:id":2835220,
         "gp:id":693605,
         "qs_pg:id":576961,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8c5b6d3bdd5dc6850afa00bc1c0dbd2d",
+    "wof:geomhash":"9e9cdd3c7f7bcedb8b42c89351415e26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101808069,
-    "wof:lastmodified":1582342609,
+    "wof:lastmodified":1684351863,
     "wof:name":"Schwarmstedt",
     "wof:parent_id":1377687849,
     "wof:placetype":"locality",
-    "wof:population":5159,
+    "wof:population":5745,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

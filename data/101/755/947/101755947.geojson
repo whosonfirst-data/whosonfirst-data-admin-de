@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bendorf, Stadt",
+    "eurostat:nuts_2021_id":"07137203",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137203",
+    "eurostat:population":16888,
+    "eurostat:population_year":2020,
     "geom:area":0.0031,
-    "geom:area_square_m":24414767.159774,
+    "geom:area_square_m":24414767.159773,
     "geom:bbox":"7.550741,50.406405,7.648741,50.464565",
     "geom:latitude":50.436456,
     "geom:longitude":7.594422,
@@ -300,20 +312,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063635,
         1377685537,
-        85682491
+        85633111,
+        102063635
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137203",
+        "eurostat:nuts_2021_id":"07137203",
         "gn:id":2951111,
         "gp:id":637686,
         "qs_pg:id":1142812,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"266972818afe2170555ad35f338c7231",
+    "wof:geomhash":"0beca2a50322eab76a62c9f77ec479b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101755947,
-    "wof:lastmodified":1608049404,
+    "wof:lastmodified":1684351791,
     "wof:name":"Bendorf",
     "wof:parent_id":1377685537,
     "wof:placetype":"locality",
-    "wof:population":17495,
+    "wof:population":16888,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

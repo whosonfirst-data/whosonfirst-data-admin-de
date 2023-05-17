@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ursensollen",
+    "eurostat:nuts_2021_id":"09371154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371154",
+    "eurostat:population":3710,
+    "eurostat:population_year":2020,
     "geom:area":0.009308,
-    "geom:area_square_m":74929803.08819,
+    "geom:area_square_m":74929803.088182,
     "geom:bbox":"11.703028,49.32549,11.856618,49.430098",
     "geom:latitude":49.379218,
     "geom:longitude":11.785371,
@@ -304,22 +316,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":109,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685765,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371154",
+        "eurostat:nuts_2021_id":"09371154",
         "gn:id":2818155,
         "gp:id":701860,
         "qs_pg:id":92938,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ce12394cd2e831568e4bad8e31b41b87",
+    "wof:geomhash":"d931771f6ca0884a4d726cfef1c9cba5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101826931,
-    "wof:lastmodified":1608050296,
+    "wof:lastmodified":1684351938,
     "wof:name":"Ursensollen",
     "wof:parent_id":1377685765,
     "wof:placetype":"locality",
-    "wof:population":3690,
+    "wof:population":3710,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

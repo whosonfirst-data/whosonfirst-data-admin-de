@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchholz (Aller)",
+    "eurostat:nuts_2021_id":"03358005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358005",
+    "eurostat:population":2159,
+    "eurostat:population_year":2020,
     "geom:area":0.003605,
-    "geom:area_square_m":27040231.149837,
+    "geom:area_square_m":27040231.149838,
     "geom:bbox":"9.65251301858,52.6326623632,9.74590388451,52.6878584666",
     "geom:latitude":52.660641,
     "geom:longitude":9.700576,
@@ -59,7 +71,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -69,6 +82,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358005",
+        "eurostat:nuts_2021_id":"03358005",
         "gn:id":2942360,
         "gp:id":642117,
         "qs_pg:id":217454
@@ -77,7 +92,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32a5aaa6f1bed13ed5603e040e29470d",
+    "wof:geomhash":"75e483e29d3384ced1f69c999f16b5ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -89,11 +104,11 @@
         }
     ],
     "wof:id":101808073,
-    "wof:lastmodified":1582342608,
+    "wof:lastmodified":1684351863,
     "wof:name":"Buchholz (Aller)",
     "wof:parent_id":1377687849,
     "wof:placetype":"locality",
-    "wof:population":2054,
+    "wof:population":2159,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

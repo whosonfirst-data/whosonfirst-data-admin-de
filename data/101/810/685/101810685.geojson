@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06531012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Linden, Stadt",
+    "eurostat:nuts_2021_id":"06531012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE721",
+    "eurostat:nuts_2021_level_lau":"06531012",
+    "eurostat:population":13091,
+    "eurostat:population_year":2020,
     "geom:area":0.002956,
-    "geom:area_square_m":23232809.289135,
+    "geom:area_square_m":23232809.289134,
     "geom:bbox":"8.616098,50.502413,8.711263,50.564026",
     "geom:latitude":50.532254,
     "geom:longitude":8.668193,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.533333,
     "wd:longitude":8.65,
     "wd:wordcount":53,
@@ -325,6 +338,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06531012",
+        "eurostat:nuts_2021_id":"06531012",
         "gn:id":2877448,
         "gp:id":654942,
         "qs_pg:id":578000,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6e27fbd5846895ed7399975f4f81e09e",
+    "wof:geomhash":"135fa8dc84303cfb5b49a521d723e80a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101810685,
-    "wof:lastmodified":1636499971,
+    "wof:lastmodified":1684351874,
     "wof:name":"Linden",
     "wof:parent_id":1377694533,
     "wof:placetype":"locality",
-    "wof:population":12172,
+    "wof:population":13091,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

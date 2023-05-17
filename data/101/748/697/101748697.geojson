@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05954036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Witten, Stadt",
+    "eurostat:nuts_2021_id":"05954036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA56",
+    "eurostat:nuts_2021_level_lau":"05954036",
+    "eurostat:population":96459,
+    "eurostat:population_year":2020,
     "geom:area":0.009417,
     "geom:area_square_m":72600517.594843,
     "geom:bbox":"7.246048,51.370179,7.423623,51.483865",
@@ -340,18 +352,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":977,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063779,
         1377692191,
         404227579,
-        85682513
+        102063779
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05954036",
+        "eurostat:nuts_2021_id":"05954036",
         "gn:id":2807363,
         "gp:id":707286,
         "loc:id":"n50062316",
@@ -367,7 +382,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5b1a391777a8ba308503a6c93425d1ff",
+    "wof:geomhash":"1baa7746cdeafa55cf05a4f627270620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,12 +395,12 @@
         }
     ],
     "wof:id":101748697,
-    "wof:lastmodified":1608050589,
+    "wof:lastmodified":1684351788,
     "wof:name":"Witten",
     "wof:parent_id":1377692191,
     "wof:placetype":"locality",
-    "wof:population":101247,
-    "wof:population_rank":9,
+    "wof:population":96459,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

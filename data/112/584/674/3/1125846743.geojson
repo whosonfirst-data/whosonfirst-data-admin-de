@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eckfeld",
+    "eurostat:nuts_2021_id":"07231025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231025",
+    "eurostat:population":349,
+    "eurostat:population_year":2020,
     "geom:area":0.001619,
     "geom:area_square_m":12840440.385062,
     "geom:bbox":"6.80861643878,50.0943093871,6.88009609656,50.1315049691",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231025",
+        "eurostat:nuts_2021_id":"07231025",
         "gn:id":2933587,
         "qs_pg:id":579304,
         "wd:id":"Q553721"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"fb452cf6b9cee5c11c78accd34f17c90",
+    "wof:geomhash":"57114d4a6543da4ae27e163fd4fbe48c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125846743,
-    "wof:lastmodified":1582343048,
+    "wof:lastmodified":1684352029,
     "wof:name":"Eckfeld",
     "wof:parent_id":1377685901,
     "wof:placetype":"locality",
-    "wof:population":359,
+    "wof:population":349,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ziegendorf",
+    "eurostat:nuts_2021_id":"13076160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076160",
+    "eurostat:population":632,
+    "eurostat:population_year":2020,
     "geom:area":0.004938,
-    "geom:area_square_m":36495744.963263,
+    "geom:area_square_m":36495744.963259,
     "geom:bbox":"11.7677345134,53.2482169186,11.8999177905,53.3228458873",
     "geom:latitude":53.28967,
     "geom:longitude":11.841044,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076160",
+        "eurostat:nuts_2021_id":"13076160",
         "gn:id":2804399,
         "gp:id":708906,
         "qs_pg:id":576287,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ec08cf2d01bfcb0d00edaeddc8500289",
+    "wof:geomhash":"29423a2b531ab55d3a865b521691c915",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101908263,
-    "wof:lastmodified":1582342352,
+    "wof:lastmodified":1684351994,
     "wof:name":"Ziegendorf",
     "wof:parent_id":1377685307,
     "wof:placetype":"locality",
-    "wof:population":792,
+    "wof:population":632,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

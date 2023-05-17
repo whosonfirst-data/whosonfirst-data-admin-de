@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leegebruch",
+    "eurostat:nuts_2021_id":"12065180",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065180",
+    "eurostat:population":6920,
+    "eurostat:population_year":2020,
     "geom:area":0.000821,
     "geom:area_square_m":6151886.113718,
     "geom:bbox":"13.173108,52.703559,13.213514,52.744539",
@@ -298,21 +310,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":101,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063995,
         1377683373,
-        85682553
+        85633111,
+        102063995
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065180",
+        "eurostat:nuts_2021_id":"12065180",
         "gn:id":2879713,
         "gp:id":670802,
         "qs_pg:id":954667,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5725c65bc884fa39ea90449dbd4c6231",
+    "wof:geomhash":"6b625f5d3f271baf9d2113d5f4687ea8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101820035,
-    "wof:lastmodified":1608049886,
+    "wof:lastmodified":1684351911,
     "wof:name":"Leegebruch",
     "wof:parent_id":1377683373,
     "wof:placetype":"locality",
-    "wof:population":6541,
+    "wof:population":6920,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

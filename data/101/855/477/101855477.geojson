@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09183127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mettenheim",
+    "eurostat:nuts_2021_id":"09183127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21G",
+    "eurostat:nuts_2021_level_lau":"09183127",
+    "eurostat:population":3540,
+    "eurostat:population_year":2020,
     "geom:area":0.003281,
-    "geom:area_square_m":27002380.563517,
+    "geom:area_square_m":27002380.563515,
     "geom:bbox":"12.431318,48.227279,12.517992,48.314913",
     "geom:latitude":48.272444,
     "geom:longitude":12.473595,
@@ -157,22 +169,25 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063281,
         1377692571,
         404227567,
-        85682571
+        102063281
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09183127",
+        "eurostat:nuts_2021_id":"09183127",
         "fct:id":"0714f6fa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2871556,
         "gp:id":675034,
@@ -188,7 +203,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"60e3229e26eb68745be1d898856dee24",
+    "wof:geomhash":"34b06aad378c7f028c196d7fdd3187d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051856,
+    "wof:lastmodified":1684351966,
     "wof:name":"Mettenheim",
     "wof:parent_id":1377692571,
     "wof:placetype":"locality",
-    "wof:population":3307,
+    "wof:population":3540,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

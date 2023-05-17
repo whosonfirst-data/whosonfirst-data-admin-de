@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05562032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Recklinghausen, Stadt",
+    "eurostat:nuts_2021_id":"05562032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA3",
+    "eurostat:nuts_2021_level_3":"DEA36",
+    "eurostat:nuts_2021_level_lau":"05562032",
+    "eurostat:population":111397,
+    "eurostat:population_year":2020,
     "geom:area":0.008638,
-    "geom:area_square_m":66338530.409395,
+    "geom:area_square_m":66338530.409393,
     "geom:bbox":"7.134351,51.552736,7.294763,51.65138",
     "geom:latitude":51.604943,
     "geom:longitude":7.213123,
@@ -379,17 +391,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063831,
         1377691093,
         404227553,
-        85682513
+        102063831
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05562032",
+        "eurostat:nuts_2021_id":"05562032",
         "gn:id":2849647,
         "gp:id":687242,
         "loc:id":"n78088279",
@@ -405,7 +420,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"59d604ce0517005d1210650b1dc896b3",
+    "wof:geomhash":"4b0c4b825d80be17ddbf9ead8a988e8c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -418,11 +433,11 @@
         }
     ],
     "wof:id":101748751,
-    "wof:lastmodified":1608050575,
+    "wof:lastmodified":1684351788,
     "wof:name":"Recklinghausen",
     "wof:parent_id":1377691093,
     "wof:placetype":"locality",
-    "wof:population":122438,
+    "wof:population":111397,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

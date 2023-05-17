@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gumtow",
+    "eurostat:nuts_2021_id":"12070149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070149",
+    "eurostat:population":3327,
+    "eurostat:population_year":2020,
     "geom:area":0.028531,
-    "geom:area_square_m":212332871.246433,
+    "geom:area_square_m":212332871.246443,
     "geom:bbox":"12.054113,52.912405,12.41885,53.081933",
     "geom:latitude":52.996787,
     "geom:longitude":12.235269,
@@ -286,17 +298,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":97,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064003,
         1377683931,
-        85682553
+        85633111,
+        102064003
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070149",
+        "eurostat:nuts_2021_id":"12070149",
         "gn:id":2913721,
         "gp:id":655793,
         "qs_pg:id":93760,
@@ -311,7 +326,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9a159fae2335cda9778a44962075b817",
+    "wof:geomhash":"c881fcccd19c215da16df288ca4304c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101820067,
-    "wof:lastmodified":1608049891,
+    "wof:lastmodified":1684351912,
     "wof:name":"Gumtow",
     "wof:parent_id":1377683931,
     "wof:placetype":"locality",
-    "wof:population":4093,
+    "wof:population":3327,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

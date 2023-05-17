@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Angelburg",
+    "eurostat:nuts_2021_id":"06534002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534002",
+    "eurostat:population":3555,
+    "eurostat:population_year":2020,
     "geom:area":0.002123,
-    "geom:area_square_m":16583891.367983,
+    "geom:area_square_m":16583891.367981,
     "geom:bbox":"8.393774,50.790073,8.470772,50.837007",
     "geom:latitude":50.811695,
     "geom:longitude":8.434412,
@@ -288,18 +300,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":515,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683767,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534002",
+        "eurostat:nuts_2021_id":"06534002",
         "gn:id":3208022,
         "gp:id":650396,
         "qs_pg:id":1031604,
@@ -313,7 +328,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9203a667a7987de8ab0ac1b4a5aedc78",
+    "wof:geomhash":"caecbd14aeaa98e11d609d30f7eb3ed5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101846307,
-    "wof:lastmodified":1608051012,
+    "wof:lastmodified":1684351960,
     "wof:name":"Angelburg",
     "wof:parent_id":1377683767,
     "wof:placetype":"locality",
-    "wof:population":3492,
+    "wof:population":3555,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

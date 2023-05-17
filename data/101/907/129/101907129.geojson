@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Greimersburg",
+    "eurostat:nuts_2021_id":"07135036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135036",
+    "eurostat:population":690,
+    "eurostat:population_year":2020,
     "geom:area":0.001305,
     "geom:area_square_m":10335635.711935,
     "geom:bbox":"7.0984983122,50.1589900935,7.1619234589,50.2045625175",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":429,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135036",
+        "eurostat:nuts_2021_id":"07135036",
         "gn:id":2917774,
         "gp:id":654043,
         "qs_pg:id":578911,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"22ae457e230b7e769ea76b780b3b0e12",
+    "wof:geomhash":"9a86cfd2f3e714188d1b2c962566f385",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907129,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351985,
     "wof:name":"Greimersburg",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":739,
+    "wof:population":690,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

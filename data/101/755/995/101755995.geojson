@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05158012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heiligenhaus, Stadt",
+    "eurostat:nuts_2021_id":"05158012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1C",
+    "eurostat:nuts_2021_level_lau":"05158012",
+    "eurostat:population":26345,
+    "eurostat:population_year":2020,
     "geom:area":0.00354,
-    "geom:area_square_m":27353168.047718,
+    "geom:area_square_m":27353168.047717,
     "geom:bbox":"6.918009,51.295348,7.011243,51.359355",
     "geom:latitude":51.329329,
     "geom:longitude":6.966152,
@@ -319,22 +331,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063761,
         1377689641,
         404227561,
-        85682513
+        102063761
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05158012",
+        "eurostat:nuts_2021_id":"05158012",
         "gn:id":2907585,
         "gp:id":658538,
         "qs_pg:id":1344245,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5e191bdf3b3b84172144f8daf76c488c",
+    "wof:geomhash":"8d6d6ae58a12ebf0074b4cb4968d30cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101755995,
-    "wof:lastmodified":1608049406,
+    "wof:lastmodified":1684351792,
     "wof:name":"Heiligenhaus",
     "wof:parent_id":1377689641,
     "wof:placetype":"locality",
-    "wof:population":27700,
+    "wof:population":26345,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

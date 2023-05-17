@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Deensen",
+    "eurostat:nuts_2021_id":"03255007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255007",
+    "eurostat:population":1342,
+    "eurostat:population_year":2020,
     "geom:area":0.001434,
     "geom:area_square_m":10951377.454539,
     "geom:bbox":"9.55274032258,51.8172260262,9.62752971128,51.8764323841",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255007",
+        "eurostat:nuts_2021_id":"03255007",
         "gn:id":2938598,
         "gp:id":693186,
         "qs_pg:id":1040048,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6ada1bc4d17119dd058509583dcb9db1",
+    "wof:geomhash":"aefd9b21c2d9e7c5b0b4fd16fb1e262e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101809027,
-    "wof:lastmodified":1582342600,
+    "wof:lastmodified":1684351866,
     "wof:name":"Deensen",
     "wof:parent_id":1377686847,
     "wof:placetype":"locality",
-    "wof:population":1570,
+    "wof:population":1342,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

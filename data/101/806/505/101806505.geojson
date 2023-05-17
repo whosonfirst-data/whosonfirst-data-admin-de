@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03452007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfheide",
+    "eurostat:nuts_2021_id":"03452007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE947",
+    "eurostat:nuts_2021_level_lau":"03452007",
+    "eurostat:population":8597,
+    "eurostat:population_year":2020,
     "geom:area":0.00946,
-    "geom:area_square_m":69450137.495688,
+    "geom:area_square_m":69450137.495689,
     "geom:bbox":"7.300816,53.502295,7.443383,53.641128",
     "geom:latitude":53.577861,
     "geom:longitude":7.378426,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064043,
         1377688217,
-        85682555
+        85633111,
+        102064043
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03452007",
+        "eurostat:nuts_2021_id":"03452007",
         "gn:id":8478236,
         "gp:id":15002641,
         "qs_pg:id":1195839,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"28a16d20c64b6be81e5f09062b3babc4",
+    "wof:geomhash":"2324f6da8267a7236043df8ef8613b82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101806505,
-    "wof:lastmodified":1608051713,
+    "wof:lastmodified":1684351852,
     "wof:name":"Gro\u00dfheide",
     "wof:parent_id":1377688217,
     "wof:placetype":"locality",
-    "wof:population":8558,
+    "wof:population":8597,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

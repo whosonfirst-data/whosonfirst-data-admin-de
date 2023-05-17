@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monzelfeld",
+    "eurostat:nuts_2021_id":"07231087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231087",
+    "eurostat:population":1260,
+    "eurostat:population_year":2020,
     "geom:area":0.001561,
-    "geom:area_square_m":12439643.403959,
+    "geom:area_square_m":12439643.403961,
     "geom:bbox":"7.0517369087,49.8574244886,7.10961650055,49.9035378704",
     "geom:latitude":49.881609,
     "geom:longitude":7.08297,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":397,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231087",
+        "eurostat:nuts_2021_id":"07231087",
         "gn:id":2869734,
         "gp:id":675997,
         "qs_pg:id":577788,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b6fe8e9dfd545c6c5e5e9d8f8f5f0917",
+    "wof:geomhash":"db20865ff90ef08897bd62b5450cc505",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101813577,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351892,
     "wof:name":"Monzelfeld",
     "wof:parent_id":1377685883,
     "wof:placetype":"locality",
-    "wof:population":1301,
+    "wof:population":1260,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

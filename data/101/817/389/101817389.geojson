@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bastorf",
+    "eurostat:nuts_2021_id":"13072008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072008",
+    "eurostat:population":1073,
+    "eurostat:population_year":2020,
     "geom:area":0.003342,
-    "geom:area_square_m":24224321.68593,
+    "geom:area_square_m":24224321.685927,
     "geom:bbox":"11.6412602032,54.0679289532,11.7310005549,54.1537100943",
     "geom:latitude":54.115105,
     "geom:longitude":11.683877,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072008",
+        "eurostat:nuts_2021_id":"13072008",
         "gn:id":2952235,
         "gp:id":661041,
         "qs_pg:id":579884,
@@ -155,7 +170,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3f52244d05b0fa6c903f448207c851d4",
+    "wof:geomhash":"65b157d50b859b75fa22d07a6c27ec14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101817389,
-    "wof:lastmodified":1582342416,
+    "wof:lastmodified":1684351896,
     "wof:name":"Bastorf",
     "wof:parent_id":1377684703,
     "wof:placetype":"locality",
-    "wof:population":1128,
+    "wof:population":1073,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

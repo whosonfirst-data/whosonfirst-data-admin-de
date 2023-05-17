@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Veitsrodt",
+    "eurostat:nuts_2021_id":"07134089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134089",
+    "eurostat:population":695,
+    "eurostat:population_year":2020,
     "geom:area":0.000983,
-    "geom:area_square_m":7849820.918833,
+    "geom:area_square_m":7849820.918832,
     "geom:bbox":"7.2552972313,49.7448392483,7.31623970297,49.7803301527",
     "geom:latitude":49.760125,
     "geom:longitude":7.284733,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1171,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134089",
+        "eurostat:nuts_2021_id":"07134089",
         "gn:id":2817252,
         "gp:id":20162816,
         "qs_pg:id":1032740,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"eb30c84ae78cc40b6c44f594f80d267f",
+    "wof:geomhash":"c159c35bdbba44ac250fd4026110d8ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906877,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351982,
     "wof:name":"Veitsrodt",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":727,
+    "wof:population":695,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

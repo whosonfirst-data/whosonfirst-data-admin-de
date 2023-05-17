@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwedelbach",
+    "eurostat:nuts_2021_id":"07335043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335043",
+    "eurostat:population":1066,
+    "eurostat:population_year":2020,
     "geom:area":0.001037,
-    "geom:area_square_m":8328145.988993,
+    "geom:area_square_m":8328145.988991,
     "geom:bbox":"7.55763124977,49.4816537805,7.61883929565,49.5133677712",
     "geom:latitude":49.495159,
     "geom:longitude":7.587181,
@@ -283,7 +295,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682491,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335043",
+        "eurostat:nuts_2021_id":"07335043",
         "gn:id":2834646,
         "gp:id":693773,
         "qs_pg:id":576960,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5fc1882229ed5bbe37cd3e94eff3c999",
+    "wof:geomhash":"db9f516effd65ed5dd90245ea9fdcd83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101812933,
-    "wof:lastmodified":1582342549,
+    "wof:lastmodified":1684351886,
     "wof:name":"Schwedelbach",
     "wof:parent_id":1377686465,
     "wof:placetype":"locality",
-    "wof:population":1119,
+    "wof:population":1066,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

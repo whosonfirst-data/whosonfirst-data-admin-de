@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kornwestheim, Stadt",
+    "eurostat:nuts_2021_id":"08118046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118046",
+    "eurostat:population":33825,
+    "eurostat:population_year":2020,
     "geom:area":0.001793,
-    "geom:area_square_m":14582721.97571,
+    "geom:area_square_m":14582721.975707,
     "geom:bbox":"9.152327,48.84775,9.225427,48.884185",
     "geom:latitude":48.866631,
     "geom:longitude":9.186849,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":14.43,
     "wd:elevation":297.0,
     "wd:latitude":48.859722,
@@ -334,15 +347,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063373,
         1377687291,
         404227549,
-        85682567
+        102063373
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118046",
+        "eurostat:nuts_2021_id":"08118046",
         "gn:id":2885408,
         "gp:id":668327,
         "qs_pg:id":455837,
@@ -357,7 +372,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9cbfc40fa9ee234703ac4fb5bec9980e",
+    "wof:geomhash":"ad258a1c746d923f833e7d33e1917772",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101755905,
-    "wof:lastmodified":1608049408,
+    "wof:lastmodified":1684351791,
     "wof:name":"Kornwestheim",
     "wof:parent_id":1377687291,
     "wof:placetype":"locality",
-    "wof:population":32680,
+    "wof:population":33825,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

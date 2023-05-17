@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09762000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaufbeuren",
+    "eurostat:nuts_2021_id":"09762000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE272",
+    "eurostat:nuts_2021_level_lau":"09762000",
+    "eurostat:population":44398,
+    "eurostat:population_year":2020,
     "geom:area":0.004864,
-    "geom:area_square_m":40337667.811974,
+    "geom:area_square_m":40337667.811975,
     "geom:bbox":"10.551228,47.840915,10.661123,47.921796",
     "geom:latitude":47.879928,
     "geom:longitude":10.616097,
@@ -229,21 +241,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063217,
         1377692211,
         404227547,
-        85682571
+        102063217
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09762000",
+        "eurostat:nuts_2021_id":"09762000",
         "gn:id":2892080,
         "gp:id":665250,
         "qs_pg:id":142306,
@@ -259,7 +274,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ac1db4250eb1ae89f465fb469612c258",
+    "wof:geomhash":"23a540f2697ca03a9228f97572b0567f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -272,11 +287,11 @@
         }
     ],
     "wof:id":101787529,
-    "wof:lastmodified":1608052002,
+    "wof:lastmodified":1684351840,
     "wof:name":"Kaufbeuren",
     "wof:parent_id":1377692211,
     "wof:placetype":"locality",
-    "wof:population":42505,
+    "wof:population":44398,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

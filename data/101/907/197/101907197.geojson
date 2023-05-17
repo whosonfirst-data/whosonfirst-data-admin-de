@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malbergweich",
+    "eurostat:nuts_2021_id":"07232076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232076",
+    "eurostat:population":356,
+    "eurostat:population_year":2020,
     "geom:area":0.001232,
     "geom:area_square_m":9779223.924497,
     "geom:bbox":"6.52921424261,50.0377469787,6.58219640116,50.0907654809",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232076",
+        "eurostat:nuts_2021_id":"07232076",
         "gn:id":2874139,
         "gp:id":673553,
         "qs_pg:id":577909,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e6bd898d21412305339e250381a2f67c",
+    "wof:geomhash":"9df158fafdf939d2e2cc8391e1a1eb6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907197,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351985,
     "wof:name":"Malbergweich",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":399,
+    "wof:population":356,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

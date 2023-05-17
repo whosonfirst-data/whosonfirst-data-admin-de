@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05974024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lippetal",
+    "eurostat:nuts_2021_id":"05974024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5B",
+    "eurostat:nuts_2021_level_lau":"05974024",
+    "eurostat:population":11894,
+    "eurostat:population_year":2020,
     "geom:area":0.016424,
-    "geom:area_square_m":125934766.368197,
+    "geom:area_square_m":125934766.368199,
     "geom:bbox":"7.944528,51.61409,8.211786,51.72306",
     "geom:latitude":51.674837,
     "geom:longitude":8.08879,
@@ -292,22 +304,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":152,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063821,
         1377692627,
         404227579,
-        85682513
+        102063821
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05974024",
+        "eurostat:nuts_2021_id":"05974024",
         "gn:id":2876931,
         "gp:id":15002695,
         "qs_pg:id":939616,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a163ab55f10a5a5cc04e940e1b3f2920",
+    "wof:geomhash":"57a59248731297e6c1efb960278e4eab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101846347,
-    "wof:lastmodified":1608051032,
+    "wof:lastmodified":1684351961,
     "wof:name":"Lippetal",
     "wof:parent_id":1377692627,
     "wof:placetype":"locality",
-    "wof:population":11866,
+    "wof:population":11894,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

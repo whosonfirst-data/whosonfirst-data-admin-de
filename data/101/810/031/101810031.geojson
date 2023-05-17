@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Witzenhausen, Stadt",
+    "eurostat:nuts_2021_id":"06636016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636016",
+    "eurostat:population":15126,
+    "eurostat:population_year":2020,
     "geom:area":0.016318,
-    "geom:area_square_m":126046125.755164,
+    "geom:area_square_m":126046125.75517,
     "geom:bbox":"9.702031,51.264581,9.948053,51.410685",
     "geom:latitude":51.339504,
     "geom:longitude":9.82771,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.341667,
     "wd:longitude":9.856944,
     "wd:wordcount":1257,
@@ -328,15 +341,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685203,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636016",
+        "eurostat:nuts_2021_id":"06636016",
         "gn:id":2807184,
         "gp:id":707389,
         "loc:id":"n85017154",
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9836bd1ffae26964be2b6df4e9d9efcb",
+    "wof:geomhash":"c737d728637fa6fd218423364c87ca70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101810031,
-    "wof:lastmodified":1608050048,
+    "wof:lastmodified":1684351870,
     "wof:name":"Witzenhausen",
     "wof:parent_id":1377685203,
     "wof:placetype":"locality",
-    "wof:population":16055,
+    "wof:population":15126,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

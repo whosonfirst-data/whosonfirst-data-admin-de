@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05978016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzwickede",
+    "eurostat:nuts_2021_id":"05978016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5C",
+    "eurostat:nuts_2021_level_lau":"05978016",
+    "eurostat:population":17076,
+    "eurostat:population_year":2020,
     "geom:area":0.00296,
-    "geom:area_square_m":22791686.37565,
+    "geom:area_square_m":22791686.375651,
     "geom:bbox":"7.596154,51.45143,7.672741,51.521375",
     "geom:latitude":51.489275,
     "geom:longitude":7.6312,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063823,
         1377692731,
         404227579,
-        85682513
+        102063823
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05978016",
+        "eurostat:nuts_2021_id":"05978016",
         "gn:id":2899538,
         "gp:id":662036,
         "qs_pg:id":1067026,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c91d8bb96c51f7e35f2410bbf18cc0d3",
+    "wof:geomhash":"4584ab4a95ab12453b2cabdfe8959d22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101756023,
-    "wof:lastmodified":1608050797,
+    "wof:lastmodified":1684351792,
     "wof:name":"Holzwickede",
     "wof:parent_id":1377692731,
     "wof:placetype":"locality",
-    "wof:population":17821,
+    "wof:population":17076,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

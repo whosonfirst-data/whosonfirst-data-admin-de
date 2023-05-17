@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gersdorf",
+    "eurostat:nuts_2021_id":"14524070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524070",
+    "eurostat:population":3938,
+    "eurostat:population_year":2020,
     "geom:area":0.001295,
     "geom:area_square_m":10129385.349471,
     "geom:bbox":"12.682073,50.738611,12.727634,50.78183",
@@ -163,17 +175,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":107,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686395,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524070",
+        "eurostat:nuts_2021_id":"14524070",
         "gn:id":2920934,
         "gp:id":652340,
         "qs_pg:id":579028,
@@ -191,7 +206,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"74335838a1c723d8678688115c97029e",
+    "wof:geomhash":"ddcd19d0f7ddc7563bbdeff16edecd3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101841243,
-    "wof:lastmodified":1608050977,
+    "wof:lastmodified":1684351952,
     "wof:name":"Gersdorf",
     "wof:parent_id":1377686395,
     "wof:placetype":"locality",
-    "wof:population":4637,
+    "wof:population":3938,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

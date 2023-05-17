@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zwingenberg, Stadt",
+    "eurostat:nuts_2021_id":"06431022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431022",
+    "eurostat:population":7213,
+    "eurostat:population_year":2020,
     "geom:area":0.000707,
-    "geom:area_square_m":5649712.455112,
+    "geom:area_square_m":5649712.455111,
     "geom:bbox":"8.56044,49.71127,8.627591,49.734459",
     "geom:latitude":49.723054,
     "geom:longitude":8.594809,
@@ -283,18 +295,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":17,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377693011,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431022",
+        "eurostat:nuts_2021_id":"06431022",
         "gn:id":2803515,
         "gp:id":709377,
         "qs_pg:id":1249970,
@@ -308,7 +323,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"20f37178cc0df262d3925a8a4ab3d4c6",
+    "wof:geomhash":"10bd13ca15c4014d22e87ce099ddcf18",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101839875,
-    "wof:lastmodified":1608051827,
+    "wof:lastmodified":1684351948,
     "wof:name":"Zwingenberg",
     "wof:parent_id":1377693011,
     "wof:placetype":"locality",
-    "wof:population":7082,
+    "wof:population":7213,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

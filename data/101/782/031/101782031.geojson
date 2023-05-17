@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roth, St",
+    "eurostat:nuts_2021_id":"09576143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576143",
+    "eurostat:population":25238,
+    "eurostat:population_year":2020,
     "geom:area":0.011889,
-    "geom:area_square_m":95991920.390581,
+    "geom:area_square_m":95991920.390579,
     "geom:bbox":"11.031615,49.175769,11.215496,49.297894",
     "geom:latitude":49.233334,
     "geom:longitude":11.116143,
@@ -337,21 +349,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690091,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576143",
+        "eurostat:nuts_2021_id":"09576143",
         "fct:id":"071c5ddc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2844256,
         "gp:id":689852,
@@ -371,7 +386,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"57bc13a48a67a8bfa2776337ca61fd37",
+    "wof:geomhash":"e9a925a6823a71f0e1bbb70eb980abab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -387,11 +402,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050511,
+    "wof:lastmodified":1684351822,
     "wof:name":"Roth",
     "wof:parent_id":1377690091,
     "wof:placetype":"locality",
-    "wof:population":25083,
+    "wof:population":25238,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

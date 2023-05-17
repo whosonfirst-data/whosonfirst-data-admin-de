@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dohr",
+    "eurostat:nuts_2021_id":"07135021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135021",
+    "eurostat:population":619,
+    "eurostat:population_year":2020,
     "geom:area":0.000629,
     "geom:area_square_m":4987962.06936,
     "geom:bbox":"7.10169706309,50.1121608507,7.14088936373,50.1370141833",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":828,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135021",
+        "eurostat:nuts_2021_id":"07135021",
         "gn:id":2936462,
         "gp:id":29349095,
         "qs_pg:id":93987,
@@ -148,7 +163,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b9653e048c8d3c5e3d92bf3d7df3b009",
+    "wof:geomhash":"5bbad903cb6a6bf52b255c5eab472b3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101907137,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351985,
     "wof:name":"Dohr",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":688,
+    "wof:population":619,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

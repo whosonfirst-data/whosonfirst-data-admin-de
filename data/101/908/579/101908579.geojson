@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kuhs",
+    "eurostat:nuts_2021_id":"13072061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072061",
+    "eurostat:population":318,
+    "eurostat:population_year":2020,
     "geom:area":0.001897,
     "geom:area_square_m":13836901.614374,
     "geom:bbox":"12.2137807868,53.8376844749,12.2991510058,53.8819351633",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "wof:belongsto":[
         85682487,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072061",
+        "eurostat:nuts_2021_id":"13072061",
         "gn:id":2882675,
         "gp:id":669431,
         "qs_pg:id":1156966,
@@ -147,7 +162,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bae91704449f9b566c188a3a85b09a82",
+    "wof:geomhash":"06891deb87964ee84fcdbddf78398d0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":101908579,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351997,
     "wof:name":"Kuhs",
     "wof:parent_id":1377684667,
     "wof:placetype":"locality",
-    "wof:population":350,
+    "wof:population":318,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

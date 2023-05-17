@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ensdorf",
+    "eurostat:nuts_2021_id":"10044123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044123",
+    "eurostat:population":6466,
+    "eurostat:population_year":2020,
     "geom:area":0.001058,
     "geom:area_square_m":8528825.052632,
     "geom:bbox":"6.76475267931,49.2776703341,6.80430240697,49.3222358797",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682479,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044123",
+        "eurostat:nuts_2021_id":"10044123",
         "gn:id":2930019,
         "gp:id":20163821,
         "qs_pg:id":142638,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bd8a1bfa5b48f7b8d3d3c0c51d86c7d0",
+    "wof:geomhash":"4a3999f80fb550a7a57ec324f06aae76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101842193,
-    "wof:lastmodified":1582342391,
+    "wof:lastmodified":1684351955,
     "wof:name":"Ensdorf",
     "wof:parent_id":1377693925,
     "wof:placetype":"locality",
-    "wof:population":6631,
+    "wof:population":6466,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

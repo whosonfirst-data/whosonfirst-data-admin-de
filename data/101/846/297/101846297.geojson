@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ebersburg",
+    "eurostat:nuts_2021_id":"06631004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631004",
+    "eurostat:population":4637,
+    "eurostat:population_year":2020,
     "geom:area":0.004668,
-    "geom:area_square_m":36745296.874502,
+    "geom:area_square_m":36745296.874503,
     "geom:bbox":"9.739475,50.417129,9.854602,50.502081",
     "geom:latitude":50.459792,
     "geom:longitude":9.7932,
@@ -303,18 +315,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063659,
         1377684075,
         404227551,
-        85682531
+        102063659
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631004",
+        "eurostat:nuts_2021_id":"06631004",
         "gn:id":2933958,
         "gp:id":692361,
         "qs_pg:id":579313,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"059d3820ab2e37631b05fc09f9176c26",
+    "wof:geomhash":"66e64b297a777ff3567594603c5218c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101846297,
-    "wof:lastmodified":1608051045,
+    "wof:lastmodified":1684351960,
     "wof:name":"Ebersburg",
     "wof:parent_id":1377684075,
     "wof:placetype":"locality",
-    "wof:population":4480,
+    "wof:population":4637,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

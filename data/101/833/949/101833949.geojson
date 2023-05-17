@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schongau, St",
+    "eurostat:nuts_2021_id":"09190148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190148",
+    "eurostat:population":12377,
+    "eurostat:population_year":2020,
     "geom:area":0.002568,
-    "geom:area_square_m":21321762.649624,
+    "geom:area_square_m":21321762.649626,
     "geom:bbox":"10.856502,47.783907,10.93231,47.841087",
     "geom:latitude":47.812727,
     "geom:longitude":10.896322,
@@ -172,22 +184,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":16,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063223,
         1377683673,
         404227567,
-        85682571
+        102063223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190148",
+        "eurostat:nuts_2021_id":"09190148",
         "gn:id":2836616,
         "gp:id":693058,
         "qs_pg:id":961941,
@@ -204,7 +219,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e93750748a1ecd700c51dfe36eef34df",
+    "wof:geomhash":"91e45828ed64bbcca5549e995364309b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
         }
     ],
     "wof:id":101833949,
-    "wof:lastmodified":1608050418,
+    "wof:lastmodified":1684351944,
     "wof:name":"Schongau",
     "wof:parent_id":1377683673,
     "wof:placetype":"locality",
-    "wof:population":12442,
+    "wof:population":12377,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

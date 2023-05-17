@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niederlauer",
+    "eurostat:nuts_2021_id":"09673146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673146",
+    "eurostat:population":1683,
+    "eurostat:population_year":2020,
     "geom:area":0.00115,
-    "geom:area_square_m":9086075.596671,
+    "geom:area_square_m":9086075.596673,
     "geom:bbox":"10.1026403751,50.2801212937,10.2026854592,50.3134755905",
     "geom:latitude":50.294241,
     "geom:longitude":10.150568,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673146",
+        "eurostat:nuts_2021_id":"09673146",
         "gn:id":2863178,
         "gp:id":679647,
         "qs_pg:id":1243896,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5d74018fd3833ccbfde0fb7cc4092d87",
+    "wof:geomhash":"86cda67ab2a4da4b268286e10b106557",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101810647,
-    "wof:lastmodified":1582342406,
+    "wof:lastmodified":1684351874,
     "wof:name":"Niederlauer",
     "wof:parent_id":1377690853,
     "wof:placetype":"locality",
-    "wof:population":1801,
+    "wof:population":1683,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

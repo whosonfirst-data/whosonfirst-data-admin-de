@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05334020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monschau, Stadt",
+    "eurostat:nuts_2021_id":"05334020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2D",
+    "eurostat:nuts_2021_level_lau":"05334020",
+    "eurostat:population":11693,
+    "eurostat:population_year":2020,
     "geom:area":0.011815,
-    "geom:area_square_m":92846533.017379,
+    "geom:area_square_m":92846533.01738,
     "geom:bbox":"6.174154,50.494369,6.379767,50.611614",
     "geom:latitude":50.541733,
     "geom:longitude":6.267058,
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":94.6,
     "wd:elevation":517.0,
     "wd:latitude":50.55,
@@ -333,15 +346,17 @@
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063693,
         1377690043,
         404227541,
-        85682513
+        102063693
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05334020",
+        "eurostat:nuts_2021_id":"05334020",
         "gn:id":2869756,
         "gp:id":675985,
         "loc:id":"n81086855",
@@ -357,7 +372,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"65a89a6d58598f31110b3d8cb5bd0662",
+    "wof:geomhash":"2479689ad9109a7df7efe5630e86dbfe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101811041,
-    "wof:lastmodified":1608049911,
+    "wof:lastmodified":1684351878,
     "wof:name":"Monschau",
     "wof:parent_id":1377690043,
     "wof:placetype":"locality",
-    "wof:population":11841,
+    "wof:population":11693,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

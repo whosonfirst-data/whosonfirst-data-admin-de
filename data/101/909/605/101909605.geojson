@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roklum",
+    "eurostat:nuts_2021_id":"03158025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158025",
+    "eurostat:population":437,
+    "eurostat:population_year":2020,
     "geom:area":0.001108,
     "geom:area_square_m":8421681.949647,
     "geom:bbox":"10.7221142617,52.0478639841,10.7591088159,52.0969362267",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158025",
+        "eurostat:nuts_2021_id":"03158025",
         "gn:id":2845466,
         "gp:id":689404,
         "qs_pg:id":577201,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"02db4bc2e6add69a807596ca2d4f439d",
+    "wof:geomhash":"e36516572e8e903da26223dff74e3017",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101909605,
-    "wof:lastmodified":1582342285,
+    "wof:lastmodified":1684352002,
     "wof:name":"Roklum",
     "wof:parent_id":1377686147,
     "wof:placetype":"locality",
-    "wof:population":511,
+    "wof:population":437,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langsur",
+    "eurostat:nuts_2021_id":"07235073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235073",
+    "eurostat:population":1735,
+    "eurostat:population_year":2020,
     "geom:area":0.00153,
     "geom:area_square_m":12225394.017604,
     "geom:bbox":"6.49508670686,49.7111294085,6.54776454587,49.7664871646",
@@ -283,7 +295,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682491,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235073",
+        "eurostat:nuts_2021_id":"07235073",
         "gn:id":2880565,
         "gp:id":670358,
         "qs_pg:id":578093,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"95d62c5e57a64211faf21c36f14c9acf",
+    "wof:geomhash":"2d7606af236c143af486341c10a9fbe9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101855621,
-    "wof:lastmodified":1582342627,
+    "wof:lastmodified":1684351968,
     "wof:name":"Langsur",
     "wof:parent_id":1377686073,
     "wof:placetype":"locality",
-    "wof:population":1634,
+    "wof:population":1735,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

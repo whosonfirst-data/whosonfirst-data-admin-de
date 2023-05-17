@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freiberg, Stadt, Universit\u00e4tsstadt",
+    "eurostat:nuts_2021_id":"14522180",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522180",
+    "eurostat:population":40657,
+    "eurostat:population_year":2020,
     "geom:area":0.006154,
-    "geom:area_square_m":47975512.969936,
+    "geom:area_square_m":47975512.969937,
     "geom:bbox":"13.26905,50.875402,13.400322,50.959323",
     "geom:latitude":50.914594,
     "geom:longitude":13.334093,
@@ -361,21 +373,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1387,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685849,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522180",
+        "eurostat:nuts_2021_id":"14522180",
         "gn:id":2925192,
         "gp:id":650432,
         "qs_pg:id":1344039,
@@ -390,7 +405,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6544ab1f3e10071aeeb1292bfb5ac786",
+    "wof:geomhash":"64aeb895de9d509648c718ef5ad481f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -402,11 +417,11 @@
         }
     ],
     "wof:id":101841279,
-    "wof:lastmodified":1608050998,
+    "wof:lastmodified":1684351952,
     "wof:name":"Freiberg",
     "wof:parent_id":1377685849,
     "wof:placetype":"locality",
-    "wof:population":43670,
+    "wof:population":40657,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

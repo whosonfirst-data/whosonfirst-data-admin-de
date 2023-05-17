@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sessenhausen",
+    "eurostat:nuts_2021_id":"07143069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143069",
+    "eurostat:population":893,
+    "eurostat:population_year":2020,
     "geom:area":0.000685,
-    "geom:area_square_m":5382694.650205,
+    "geom:area_square_m":5382694.650204,
     "geom:bbox":"7.66828920866,50.5132848174,7.72889415773,50.5362682934",
     "geom:latitude":50.524324,
     "geom:longitude":7.699355,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":171,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143069",
+        "eurostat:nuts_2021_id":"07143069",
         "gn:id":2832925,
         "gp:id":694596,
         "qs_pg:id":576925,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d7b6c7b4c107335b96f94ca69ff8e8d5",
+    "wof:geomhash":"773f377b5ddc473acea801b6a3f23c88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907473,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351988,
     "wof:name":"Sessenhausen",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":922,
+    "wof:population":893,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

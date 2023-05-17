@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Betzigau",
+    "eurostat:nuts_2021_id":"09780114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780114",
+    "eurostat:population":2939,
+    "eurostat:population_year":2020,
     "geom:area":0.003505,
-    "geom:area_square_m":29153521.652865,
+    "geom:area_square_m":29153521.652867,
     "geom:bbox":"10.356848,47.701693,10.469824,47.766739",
     "geom:latitude":47.733635,
     "geom:longitude":10.408316,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693479,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780114",
+        "eurostat:nuts_2021_id":"09780114",
         "gn:id":2949646,
         "gp:id":638559,
         "qs_pg:id":579757,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1e27b0fbed133498e6fae4e7dc697091",
+    "wof:geomhash":"f46d9beba63150975170d40bb2e88e3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101787521,
-    "wof:lastmodified":1608051997,
+    "wof:lastmodified":1684351840,
     "wof:name":"Betzigau",
     "wof:parent_id":1377693479,
     "wof:placetype":"locality",
-    "wof:population":2848,
+    "wof:population":2939,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07317000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pirmasens, Stadt",
+    "eurostat:nuts_2021_id":"07317000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB37",
+    "eurostat:nuts_2021_level_lau":"07317000",
+    "eurostat:population":40231,
+    "eurostat:population_year":2020,
     "geom:area":0.007593,
-    "geom:area_square_m":61351156.762348,
+    "geom:area_square_m":61351156.762347,
     "geom:bbox":"7.514249,49.141338,7.673351,49.234742",
     "geom:latitude":49.197165,
     "geom:longitude":7.594466,
@@ -210,16 +222,19 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063401,
         1377686137,
-        85682491
+        85633111,
+        102063401
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07317000",
+        "eurostat:nuts_2021_id":"07317000",
         "gn:id":2853574,
         "gp:id":685176,
         "loc:id":"n82125186",
@@ -236,7 +251,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"968532a432d56118dfa885f972205b0c",
+    "wof:geomhash":"6f106b0cd8b0a19fc12e741c64603fea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -248,11 +263,11 @@
         }
     ],
     "wof:id":101760713,
-    "wof:lastmodified":1608050759,
+    "wof:lastmodified":1684351801,
     "wof:name":"Pirmasens",
     "wof:parent_id":1377686137,
     "wof:placetype":"locality",
-    "wof:population":43582,
+    "wof:population":40231,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

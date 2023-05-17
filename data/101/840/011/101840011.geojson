@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Budenheim",
+    "eurostat:nuts_2021_id":"07339009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339009",
+    "eurostat:population":8646,
+    "eurostat:population_year":2020,
     "geom:area":0.001321,
-    "geom:area_square_m":10497399.634501,
+    "geom:area_square_m":10497399.634503,
     "geom:bbox":"8.138082,50.003429,8.204678,50.035544",
     "geom:latitude":50.019809,
     "geom:longitude":8.171346,
@@ -144,21 +156,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":864,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063567,
         1377686659,
-        85682491
+        85633111,
+        102063567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339009",
+        "eurostat:nuts_2021_id":"07339009",
         "gn:id":2942087,
         "gp:id":642215,
         "qs_pg:id":1040098,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bb80469c9ca6506246ad84305a78dacd",
+    "wof:geomhash":"67998f72127150ae28e14e08bacead1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101840011,
-    "wof:lastmodified":1608051303,
+    "wof:lastmodified":1684351950,
     "wof:name":"Budenheim",
     "wof:parent_id":1377686659,
     "wof:placetype":"locality",
-    "wof:population":8598,
+    "wof:population":8646,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

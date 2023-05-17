@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03459015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dissen am Teutoburger Wald, Stadt",
+    "eurostat:nuts_2021_id":"03459015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94E",
+    "eurostat:nuts_2021_level_lau":"03459015",
+    "eurostat:population":9998,
+    "eurostat:population_year":2020,
     "geom:area":0.004181,
     "geom:area_square_m":31739188.464092,
     "geom:bbox":"8.14638750439,52.0718798953,8.26722661244,52.1526426529",
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03459015",
+        "eurostat:nuts_2021_id":"03459015",
         "gn:id":2936787,
         "gp:id":644832,
         "qs_pg:id":260465,
@@ -180,7 +195,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d694bee25cbb048ac5a10c61622dd622",
+    "wof:geomhash":"026164f7ea891a9e97a3bbf72a9f0a1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
         }
     ],
     "wof:id":101807765,
-    "wof:lastmodified":1582342586,
+    "wof:lastmodified":1684351859,
     "wof:name":"Dissen am Teutoburger Wald",
     "wof:parent_id":1377689029,
     "wof:placetype":"locality",
-    "wof:population":9374,
+    "wof:population":9998,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

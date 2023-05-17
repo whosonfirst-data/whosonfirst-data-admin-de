@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenach",
+    "eurostat:nuts_2021_id":"07232218",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232218",
+    "eurostat:population":370,
+    "eurostat:population_year":2020,
     "geom:area":0.000774,
-    "geom:area_square_m":6169441.032681,
+    "geom:area_square_m":6169441.032682,
     "geom:bbox":"6.48759687798,49.8355824936,6.53357159976,49.8632260163",
     "geom:latitude":49.849161,
     "geom:longitude":6.511897,
@@ -251,7 +263,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -261,13 +274,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232218",
+        "eurostat:nuts_2021_id":"07232218",
         "gn:id":2931575
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"de82cdc6a7fdef2f2b9e3615b0845563",
+    "wof:geomhash":"6acc7d18d7300123d7683067cac901d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -279,11 +294,11 @@
         }
     ],
     "wof:id":1327015043,
-    "wof:lastmodified":1582341872,
+    "wof:lastmodified":1684352062,
     "wof:name":"Eisenach",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":283,
+    "wof:population":370,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

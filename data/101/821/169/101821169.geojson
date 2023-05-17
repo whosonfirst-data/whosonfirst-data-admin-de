@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071337",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schenkend\u00f6bern",
+    "eurostat:nuts_2021_id":"12071337",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071337",
+    "eurostat:population":3572,
+    "eurostat:population_year":2020,
     "geom:area":0.028085,
     "geom:area_square_m":213972114.289842,
     "geom:bbox":"14.368874,51.858229,14.694472,52.057743",
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":122,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063875,
         1377684059,
-        85682553
+        85633111,
+        102063875
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071337",
+        "eurostat:nuts_2021_id":"12071337",
         "gn:id":2839748,
         "gp:id":691697,
         "qs_pg:id":93113,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"145c88fa17be4ec064e03ce89ff3abf0",
+    "wof:geomhash":"e3a807d10d4e2eacb0f1f84012c2c441",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101821169,
-    "wof:lastmodified":1608050179,
+    "wof:lastmodified":1684351916,
     "wof:name":"Schenkend\u00f6bern",
     "wof:parent_id":1377684059,
     "wof:placetype":"locality",
-    "wof:population":4455,
+    "wof:population":3572,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

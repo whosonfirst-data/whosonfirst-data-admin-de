@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eulenbis",
+    "eurostat:nuts_2021_id":"07335006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335006",
+    "eurostat:population":494,
+    "eurostat:population_year":2020,
     "geom:area":0.000503,
     "geom:area_square_m":4037212.868993,
     "geom:bbox":"7.62299581447,49.4879085201,7.66996880592,49.5145559954",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":138,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335006",
+        "eurostat:nuts_2021_id":"07335006",
         "gn:id":2928464,
         "gp:id":682389,
         "qs_pg:id":93906,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4e1e61369ab55751e1659214f1bad359",
+    "wof:geomhash":"752f03eb5286895d4121f38010663324",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101906741,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351981,
     "wof:name":"Eulenbis",
     "wof:parent_id":1377686465,
     "wof:placetype":"locality",
-    "wof:population":514,
+    "wof:population":494,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

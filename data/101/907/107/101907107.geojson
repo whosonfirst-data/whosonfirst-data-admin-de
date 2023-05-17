@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06414000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesbaden, Landeshauptstadt",
+    "eurostat:nuts_2021_id":"06414000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE714",
+    "eurostat:nuts_2021_level_lau":"06414000",
+    "eurostat:population":278474,
+    "eurostat:population_year":2020,
     "geom:area":0.025588,
-    "geom:area_square_m":203039951.081105,
+    "geom:area_square_m":203039951.081103,
     "geom:bbox":"8.110275,49.994415,8.386065,50.151788",
     "geom:latitude":50.079182,
     "geom:longitude":8.260364,
@@ -502,20 +514,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063605,
         1377694177,
         404227581,
-        85682531
+        102063605
     ],
     "wof:breaches":[],
     "wof:capital_of":[
         85682531
     ],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06414000",
+        "eurostat:nuts_2021_id":"06414000",
         "gp:id":652128,
         "wd:id":"Q1721"
     },
@@ -526,7 +541,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f953fb9ce6c1a32d02ae3d50effe14b4",
+    "wof:geomhash":"a3e531426786ed0724db7f03bafca5ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -539,11 +554,11 @@
         }
     ],
     "wof:id":101907107,
-    "wof:lastmodified":1607462673,
+    "wof:lastmodified":1684351984,
     "wof:name":"Wiesbaden",
     "wof:parent_id":1377694177,
     "wof:placetype":"locality",
-    "wof:population":272636,
+    "wof:population":278474,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

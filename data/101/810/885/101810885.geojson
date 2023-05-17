@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Romrod, Stadt",
+    "eurostat:nuts_2021_id":"06535014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535014",
+    "eurostat:population":2627,
+    "eurostat:population_year":2020,
     "geom:area":0.006908,
     "geom:area_square_m":54098613.263411,
     "geom:bbox":"9.139956,50.658147,9.272006,50.743538",
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.716667,
     "wd:longitude":9.216667,
     "wd:wordcount":539,
@@ -313,15 +326,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377683983,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535014",
+        "eurostat:nuts_2021_id":"06535014",
         "gn:id":2845268,
         "gp:id":689492,
         "qs_pg:id":314071,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"629c1651e741816f40f19ac80786dad9",
+    "wof:geomhash":"7a2e36daf4693b44f14f5caea2c566e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101810885,
-    "wof:lastmodified":1608050089,
+    "wof:lastmodified":1684351876,
     "wof:name":"Romrod",
     "wof:parent_id":1377683983,
     "wof:placetype":"locality",
-    "wof:population":3073,
+    "wof:population":2627,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06433001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biebesheim am Rhein",
+    "eurostat:nuts_2021_id":"06433001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE717",
+    "eurostat:nuts_2021_level_lau":"06433001",
+    "eurostat:population":6784,
+    "eurostat:population_year":2020,
     "geom:area":0.00236,
-    "geom:area_square_m":18839968.742405,
+    "geom:area_square_m":18839968.742403,
     "geom:bbox":"8.413121,49.765709,8.504891,49.803867",
     "geom:latitude":49.783373,
     "geom:longitude":8.455394,
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":254,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063561,
         1377693235,
         404227581,
-        85682531
+        102063561
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06433001",
+        "eurostat:nuts_2021_id":"06433001",
         "fct:id":"07382b84-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6553172,
         "gp:id":638778,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"48fb2065e24179607c7bd75441064f99",
+    "wof:geomhash":"8525de75ad5d6b2294bc25722d53f71d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051849,
+    "wof:lastmodified":1684351949,
     "wof:name":"Biebesheim am Rhein",
     "wof:parent_id":1377693235,
     "wof:placetype":"locality",
-    "wof:population":6626,
+    "wof:population":6784,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

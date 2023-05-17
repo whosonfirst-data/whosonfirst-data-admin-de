@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bissingen, M",
+    "eurostat:nuts_2021_id":"09773117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773117",
+    "eurostat:population":3691,
+    "eurostat:population_year":2020,
     "geom:area":0.007812,
-    "geom:area_square_m":63728503.479743,
+    "geom:area_square_m":63728503.479741,
     "geom:bbox":"10.48977,48.68028,10.658728,48.757597",
     "geom:latitude":48.718703,
     "geom:longitude":10.579438,
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063323,
         1377692431,
         404227547,
-        85682571
+        102063323
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773117",
+        "eurostat:nuts_2021_id":"09773117",
         "gn:id":2948204,
         "gp:id":639291,
         "qs_pg:id":1040169,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c7c500c9343c0b551dfa33601717a834",
+    "wof:geomhash":"ae0d5ffc3f40b361370374d778bbb7ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101782947,
-    "wof:lastmodified":1608050518,
+    "wof:lastmodified":1684351824,
     "wof:name":"Bissingen",
     "wof:parent_id":1377692431,
     "wof:placetype":"locality",
-    "wof:population":3605,
+    "wof:population":3691,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

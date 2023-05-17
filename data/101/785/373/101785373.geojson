@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09174151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weichs",
+    "eurostat:nuts_2021_id":"09174151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE217",
+    "eurostat:nuts_2021_level_lau":"09174151",
+    "eurostat:population":3527,
+    "eurostat:population_year":2020,
     "geom:area":0.002277,
-    "geom:area_square_m":18700572.184369,
+    "geom:area_square_m":18700572.184368,
     "geom:bbox":"11.380322,48.354756,11.455175,48.410154",
     "geom:latitude":48.386987,
     "geom:longitude":11.415052,
@@ -155,18 +167,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":187,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063287,
         1377691291,
         404227567,
-        85682571
+        102063287
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09174151",
+        "eurostat:nuts_2021_id":"09174151",
         "fct:id":"071ccd44-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2813146,
         "gp:id":704439,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2edf9f258aa561a40a8f5c3157b33a7a",
+    "wof:geomhash":"e632d245a58ccdac12e9fe6b13c5d7d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050493,
+    "wof:lastmodified":1684351835,
     "wof:name":"Weichs",
     "wof:parent_id":1377691291,
     "wof:placetype":"locality",
-    "wof:population":3123,
+    "wof:population":3527,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Colbitz",
+    "eurostat:nuts_2021_id":"15083130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083130",
+    "eurostat:population":3251,
+    "eurostat:population_year":2020,
     "geom:area":0.009523,
     "geom:area_square_m":71958746.878093,
     "geom:bbox":"11.5200083047,52.2812310841,11.6739865589,52.3906781303",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "wof:belongsto":[
         85682519,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083130",
+        "eurostat:nuts_2021_id":"15083130",
         "gn:id":2939940,
         "gp:id":643234,
         "qs_pg:id":94022,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1040aaf51c155c42ab235ec5026ee69b",
+    "wof:geomhash":"0bb92e292f31e4c0754b8326e1c54389",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101819671,
-    "wof:lastmodified":1582342432,
+    "wof:lastmodified":1684351907,
     "wof:name":"Colbitz",
     "wof:parent_id":1377688387,
     "wof:placetype":"locality",
-    "wof:population":3443,
+    "wof:population":3251,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

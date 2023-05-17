@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Esch",
+    "eurostat:nuts_2021_id":"07233022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233022",
+    "eurostat:population":438,
+    "eurostat:population_year":2020,
     "geom:area":0.001277,
     "geom:area_square_m":10072751.190879,
     "geom:bbox":"6.57368039438,50.3470282905,6.62743000395,50.3882222043",
@@ -261,7 +273,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "wof:belongsto":[
         85682491,
@@ -272,6 +285,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233022",
+        "eurostat:nuts_2021_id":"07233022",
         "gn:id":2929190,
         "gp:id":648627,
         "qs_pg:id":579210,
@@ -283,7 +298,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b90d99667d79e03c96c16b51c8a0c94c",
+    "wof:geomhash":"3b24b15f5a4c189ebb931023da11e902",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":101907285,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351986,
     "wof:name":"Esch",
     "wof:parent_id":1377686011,
     "wof:placetype":"locality",
-    "wof:population":561,
+    "wof:population":438,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

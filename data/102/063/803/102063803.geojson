@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Dortmund, Kreisfreie Stadt",
+    "eurostat:name_local":"Dortmund, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA52",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA52",
+    "eurostat:population":586852,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.036216,
-    "geom:area_square_m":278675828.034203,
+    "geom:area_square_m":278675828.034199,
     "geom:bbox":"7.302311,51.41558,7.637933,51.59952",
     "geom:latitude":51.516073,
     "geom:longitude":7.474892,
@@ -462,8 +476,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"281",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Dortmund",
@@ -476,12 +490,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227579,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA52",
         "hasc:id":"DE.NW.DD",
         "wd:id":"Q1295"
     },
@@ -493,7 +508,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df6fc766a48342c568bf7a21b14a609f",
+    "wof:geomhash":"1346fc54cd862ee6aaac84513ed98017",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -504,12 +519,12 @@
         }
     ],
     "wof:id":102063803,
-    "wof:lastmodified":1608052580,
+    "wof:lastmodified":1684351523,
     "wof:name":"Dortmund",
     "wof:parent_id":404227579,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":571143,
+    "wof:population":586852,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"DD",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tuttlingen, Stadt",
+    "eurostat:nuts_2021_id":"08327050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327050",
+    "eurostat:population":36102,
+    "eurostat:population_year":2020,
     "geom:area":0.010871,
-    "geom:area_square_m":89983111.898137,
+    "geom:area_square_m":89983111.898138,
     "geom:bbox":"8.69206192596,47.9269285982,8.90878978652,48.031287122",
     "geom:latitude":47.97755,
     "geom:longitude":8.809228,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":90.48,
     "wd:latitude":47.985,
     "wd:longitude":8.823333,
@@ -342,6 +355,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327050",
+        "eurostat:nuts_2021_id":"08327050",
         "gn:id":2820693,
         "gp:id":700271,
         "qs_pg:id":456171,
@@ -353,7 +368,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b0537866923bdb0682667b78b1ce736d",
+    "wof:geomhash":"62d3b2eab9064e6351af45286f10bc31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
         }
     ],
     "wof:id":101764069,
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351812,
     "wof:name":"Tuttlingen",
     "wof:parent_id":1377689647,
     "wof:placetype":"locality",
-    "wof:population":29573,
+    "wof:population":36102,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilburg, Stadt",
+    "eurostat:nuts_2021_id":"06533017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533017",
+    "eurostat:population":12973,
+    "eurostat:population_year":2020,
     "geom:area":0.007295,
-    "geom:area_square_m":57399163.616563,
+    "geom:area_square_m":57399163.616568,
     "geom:bbox":"8.171442,50.450734,8.371932,50.515495",
     "geom:latitude":50.484729,
     "geom:longitude":8.270665,
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":173.0,
     "wd:latitude":50.483333,
     "wd:longitude":8.25,
@@ -336,15 +349,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683731,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533017",
+        "eurostat:nuts_2021_id":"06533017",
         "gn:id":2812626,
         "gp:id":704682,
         "qs_pg:id":1345888,
@@ -359,7 +374,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"516e257e5fd0d43681f81892310392e7",
+    "wof:geomhash":"deead4af24a709a2c7aaeabc2426705c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
         }
     ],
     "wof:id":101810653,
-    "wof:lastmodified":1608050103,
+    "wof:lastmodified":1684351874,
     "wof:name":"Weilburg",
     "wof:parent_id":1377683731,
     "wof:placetype":"locality",
-    "wof:population":12547,
+    "wof:population":12973,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

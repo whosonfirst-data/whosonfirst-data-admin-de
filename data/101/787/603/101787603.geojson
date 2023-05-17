@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seeshaupt",
+    "eurostat:nuts_2021_id":"09190152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190152",
+    "eurostat:population":3253,
+    "eurostat:population_year":2020,
     "geom:area":0.003639,
-    "geom:area_square_m":30211373.494205,
+    "geom:area_square_m":30211373.494204,
     "geom:bbox":"11.2110585605,47.7863107425,11.3293355932,47.8581191806",
     "geom:latitude":47.824754,
     "geom:longitude":11.263178,
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":77,
     "wof:belongsto":[
         85682571,
@@ -178,6 +191,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190152",
+        "eurostat:nuts_2021_id":"09190152",
         "gn:id":2833590,
         "gp:id":694225,
         "qs_pg:id":1038417,
@@ -192,7 +207,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5a827d4a4888b4a1140e523ce9df4bd1",
+    "wof:geomhash":"9cd327038eb7e7266cdcd6fbd86945d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101787603,
-    "wof:lastmodified":1582342644,
+    "wof:lastmodified":1684351842,
     "wof:name":"Seeshaupt",
     "wof:parent_id":1377683753,
     "wof:placetype":"locality",
-    "wof:population":2862,
+    "wof:population":3253,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

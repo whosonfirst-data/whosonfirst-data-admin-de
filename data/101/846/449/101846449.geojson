@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wasbek",
+    "eurostat:nuts_2021_id":"01058169",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058169",
+    "eurostat:population":2297,
+    "eurostat:population_year":2020,
     "geom:area":0.003236,
-    "geom:area_square_m":23469932.513681,
+    "geom:area_square_m":23469932.513683,
     "geom:bbox":"9.851772,54.058141,9.935606,54.110743",
     "geom:latitude":54.08324,
     "geom:longitude":9.89589,
@@ -138,17 +150,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":247,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064145,
         1377684179,
-        85682517
+        85633111,
+        102064145
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058169",
+        "eurostat:nuts_2021_id":"01058169",
         "gn:id":2813864,
         "gp:id":704068,
         "qs_pg:id":576539,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cc0368f4124f0ebaeab72178d8d687af",
+    "wof:geomhash":"2932a08c6d69e7c641dced66c8cc53ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101846449,
-    "wof:lastmodified":1608051018,
+    "wof:lastmodified":1684351962,
     "wof:name":"Wasbek",
     "wof:parent_id":1377684179,
     "wof:placetype":"locality",
-    "wof:population":2192,
+    "wof:population":2297,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mayscho\u00df",
+    "eurostat:nuts_2021_id":"07131049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131049",
+    "eurostat:population":900,
+    "eurostat:population_year":2020,
     "geom:area":0.000711,
-    "geom:area_square_m":5590614.260387,
+    "geom:area_square_m":5590614.260389,
     "geom:bbox":"7.00422799571,50.4998834975,7.03256141563,50.5388684084",
     "geom:latitude":50.519797,
     "geom:longitude":7.017963,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131049",
+        "eurostat:nuts_2021_id":"07131049",
         "gn:id":2872625,
         "gp:id":674386,
         "qs_pg:id":277342,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f90a833bfcbce12b250102e5f9823660",
+    "wof:geomhash":"0e71e6587463ef67c0efde824f070f15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101846283,
-    "wof:lastmodified":1582342527,
+    "wof:lastmodified":1684351960,
     "wof:name":"Mayscho\u00df",
     "wof:parent_id":1377685273,
     "wof:placetype":"locality",
-    "wof:population":971,
+    "wof:population":900,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

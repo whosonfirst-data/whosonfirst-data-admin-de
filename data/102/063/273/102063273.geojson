@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"M\u00fcnchen, Landkreis",
+    "eurostat:name_local":"M\u00fcnchen, Landkreis",
+    "eurostat:nuts_2021_id":"DE21H",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:population":349837,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.080142,
-    "geom:area_square_m":662134528.839633,
+    "geom:area_square_m":662134528.839623,
     "geom:bbox":"11.385189,47.917014,11.852085,48.299546",
     "geom:latitude":48.074464,
     "geom:longitude":11.631365,
@@ -57,8 +71,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"667",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"M\u00fcnchen",
@@ -71,19 +85,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227567,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE21H",
         "hasc:id":"DE.BY.MU"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b1bd16574a635206fbdf40a668b5913",
+    "wof:geomhash":"e6774e23f9c5be42617bc342e5c352f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -100,12 +115,12 @@
     "wof:lang_x_spoken":[
         "deu"
     ],
-    "wof:lastmodified":1676663090,
+    "wof:lastmodified":1684351508,
     "wof:name":"M\u00fcnchen",
     "wof:parent_id":404227567,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":317249,
+    "wof:population":349837,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"MU",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Garlstorf",
+    "eurostat:nuts_2021_id":"03353011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353011",
+    "eurostat:population":1124,
+    "eurostat:population_year":2020,
     "geom:area":0.002274,
-    "geom:area_square_m":16830714.048994,
+    "geom:area_square_m":16830714.048996,
     "geom:bbox":"10.0445355846,53.2068507547,10.1425975743,53.2530545925",
     "geom:latitude":53.233944,
     "geom:longitude":10.088111,
@@ -174,7 +186,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -189,6 +202,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353011",
+        "eurostat:nuts_2021_id":"03353011",
         "gn:id":2922539,
         "gp:id":651547,
         "qs_pg:id":142546,
@@ -200,7 +215,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d364ebcaf1cc078b3227fc3723330f9f",
+    "wof:geomhash":"37aaa50cd565f83b62da0d09649e860d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101806377,
-    "wof:lastmodified":1582342615,
+    "wof:lastmodified":1684351850,
     "wof:name":"Garlstorf",
     "wof:parent_id":1377687405,
     "wof:placetype":"locality",
-    "wof:population":1073,
+    "wof:population":1124,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

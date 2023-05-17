@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reimlingen",
+    "eurostat:nuts_2021_id":"09779203",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779203",
+    "eurostat:population":1306,
+    "eurostat:population_year":2020,
     "geom:area":0.001167,
-    "geom:area_square_m":9503002.415955,
+    "geom:area_square_m":9503002.415954,
     "geom:bbox":"10.4974252547,48.8123833416,10.557939524,48.8489118842",
     "geom:latitude":48.828496,
     "geom:longitude":10.522753,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -169,6 +182,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779203",
+        "eurostat:nuts_2021_id":"09779203",
         "gn:id":2848851,
         "gp:id":687653,
         "qs_pg:id":93196,
@@ -180,7 +195,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f84c9f90a0d34fa74cad47adf52f6f83",
+    "wof:geomhash":"a61c096efea31d8ab353e815fa992962",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101783147,
-    "wof:lastmodified":1582342481,
+    "wof:lastmodified":1684351827,
     "wof:name":"Reimlingen",
     "wof:parent_id":1377693411,
     "wof:placetype":"locality",
-    "wof:population":1345,
+    "wof:population":1306,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

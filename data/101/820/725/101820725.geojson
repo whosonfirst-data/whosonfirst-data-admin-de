@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Radeburg, Stadt",
+    "eurostat:nuts_2021_id":"14627220",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627220",
+    "eurostat:population":7317,
+    "eurostat:population_year":2020,
     "geom:area":0.006966,
     "geom:area_square_m":53981428.060472,
     "geom:bbox":"13.656048,51.133346,13.794566,51.236361",
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687389,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627220",
+        "eurostat:nuts_2021_id":"14627220",
         "gn:id":2851074,
         "gp:id":686526,
         "qs_pg:id":906470,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bc0dfc0bdebdd8a82b9fa3822b62524a",
+    "wof:geomhash":"b585fe929ea41826504e6496b73ac921",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101820725,
-    "wof:lastmodified":1608049867,
+    "wof:lastmodified":1684351912,
     "wof:name":"Radeburg",
     "wof:parent_id":1377687389,
     "wof:placetype":"locality",
-    "wof:population":7812,
+    "wof:population":7317,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

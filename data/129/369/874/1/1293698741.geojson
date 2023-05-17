@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schalkham",
+    "eurostat:nuts_2021_id":"09274179",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274179",
+    "eurostat:population":937,
+    "eurostat:population_year":2020,
     "geom:area":0.002763,
-    "geom:area_square_m":22651400.797254,
+    "geom:area_square_m":22651400.797256,
     "geom:bbox":"12.3911695151,48.4512331891,12.479978911,48.5022992552",
     "geom:latitude":48.475653,
     "geom:longitude":12.437366,
@@ -142,7 +154,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -157,13 +170,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274179",
+        "eurostat:nuts_2021_id":"09274179",
         "gn:id":2840570
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"41a58e20fa9ed3de31f20c7154d8d86c",
+    "wof:geomhash":"027258c7dd7571addd3df49cee571cd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":1293698741,
-    "wof:lastmodified":1582342023,
+    "wof:lastmodified":1684352060,
     "wof:name":"Schalkham",
     "wof:parent_id":1377684579,
     "wof:placetype":"locality",
-    "wof:population":871,
+    "wof:population":937,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

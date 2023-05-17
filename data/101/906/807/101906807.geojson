@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stetten",
+    "eurostat:nuts_2021_id":"07333076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333076",
+    "eurostat:population":658,
+    "eurostat:population_year":2020,
     "geom:area":0.000809,
-    "geom:area_square_m":6471338.481165,
+    "geom:area_square_m":6471338.481164,
     "geom:bbox":"8.07317292318,49.6629349562,8.1221972436,49.6928526863",
     "geom:latitude":49.67611,
     "geom:longitude":8.098294,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":183,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333076",
+        "eurostat:nuts_2021_id":"07333076",
         "gn:id":2827223,
         "gp:id":697221,
         "qs_pg:id":576821,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"05e10911a7607855eb94ed5beb603b30",
+    "wof:geomhash":"7d78a3a14b00676b9e8ecc05f72d59a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101906807,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351981,
     "wof:name":"Stetten",
     "wof:parent_id":1377686337,
     "wof:placetype":"locality",
-    "wof:population":644,
+    "wof:population":658,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

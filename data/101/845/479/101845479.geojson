@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oy-Mittelberg",
+    "eurostat:nuts_2021_id":"09780128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780128",
+    "eurostat:population":4706,
+    "eurostat:population_year":2020,
     "geom:area":0.007259,
-    "geom:area_square_m":60466976.948923,
+    "geom:area_square_m":60466976.948921,
     "geom:bbox":"10.329376,47.611133,10.511613,47.691629",
     "geom:latitude":47.648695,
     "geom:longitude":10.439182,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693563,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780128",
+        "eurostat:nuts_2021_id":"09780128",
         "gn:id":3205561,
         "gp:id":20157901,
         "qs_pg:id":147345,
@@ -193,7 +208,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"231a26fe4704d4a879c84b3907fb4dd8",
+    "wof:geomhash":"a11bf82b973bdb3255cd3431437fce22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101845479,
-    "wof:lastmodified":1608049951,
+    "wof:lastmodified":1684351958,
     "wof:name":"Oy-Mittelberg",
     "wof:parent_id":1377693563,
     "wof:placetype":"locality",
-    "wof:population":4544,
+    "wof:population":4706,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

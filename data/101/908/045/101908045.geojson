@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073490",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schenkenberg",
+    "eurostat:nuts_2021_id":"12073490",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073490",
+    "eurostat:population":620,
+    "eurostat:population_year":2020,
     "geom:area":0.00407,
-    "geom:area_square_m":30034401.521912,
+    "geom:area_square_m":30034401.521913,
     "geom:bbox":"13.8978553659,53.3266180641,14.0424815983,53.3893675289",
     "geom:latitude":53.356377,
     "geom:longitude":13.967231,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":17,
     "wof:belongsto":[
         85682553,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073490",
+        "eurostat:nuts_2021_id":"12073490",
         "gn:id":2839751,
         "gp:id":637236,
         "qs_pg:id":93117,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"87a03576fc8968642814007e7a916e6f",
+    "wof:geomhash":"8284e7806a9cf9200bce690dd14b033b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101908045,
-    "wof:lastmodified":1582342348,
+    "wof:lastmodified":1684351992,
     "wof:name":"Schenkenberg",
     "wof:parent_id":1377684307,
     "wof:placetype":"locality",
-    "wof:population":694,
+    "wof:population":620,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

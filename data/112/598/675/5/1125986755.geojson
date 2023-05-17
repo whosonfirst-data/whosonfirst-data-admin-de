@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lebrade",
+    "eurostat:nuts_2021_id":"01057045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057045",
+    "eurostat:population":634,
+    "eurostat:population_year":2020,
     "geom:area":0.002558,
     "geom:area_square_m":18499989.759816,
     "geom:bbox":"10.391035944,54.1811537223,10.4747977419,54.2424580696",
@@ -267,7 +279,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057045",
+        "eurostat:nuts_2021_id":"01057045",
         "gn:id":2879797,
         "qs_pg:id":277367,
         "wd:id":"Q636482"
@@ -286,7 +301,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f2b2a63a0633f18f78272b5aa1401b00",
+    "wof:geomhash":"5d76a244cfb7db3b947cabf86961a49e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -298,11 +313,11 @@
         }
     ],
     "wof:id":1125986755,
-    "wof:lastmodified":1582343011,
+    "wof:lastmodified":1684352042,
     "wof:name":"Lebrade",
     "wof:parent_id":1377684083,
     "wof:placetype":"locality",
-    "wof:population":640,
+    "wof:population":634,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

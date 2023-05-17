@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kudensee",
+    "eurostat:nuts_2021_id":"01061060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061060",
+    "eurostat:population":118,
+    "eurostat:population_year":2020,
     "geom:area":0.00042,
     "geom:area_square_m":3054245.304424,
     "geom:bbox":"9.20595522419,53.9168269201,9.24007823091,53.9459982643",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061060",
+        "eurostat:nuts_2021_id":"01061060",
         "gn:id":2883062,
         "gp:id":669309,
         "qs_pg:id":578149,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b033543491a1e480fa5c73fbb311c413",
+    "wof:geomhash":"7589e7f27a004fa7bffe0f96baaa5a26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101906161,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351976,
     "wof:name":"Kudensee",
     "wof:parent_id":1377684697,
     "wof:placetype":"locality",
-    "wof:population":166,
+    "wof:population":118,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

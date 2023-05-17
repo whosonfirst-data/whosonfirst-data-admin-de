@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bahrenhof",
+    "eurostat:nuts_2021_id":"01060006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060006",
+    "eurostat:population":215,
+    "eurostat:population_year":2020,
     "geom:area":0.000775,
     "geom:area_square_m":5646739.080832,
     "geom:bbox":"10.3574287559,53.8676857767,10.4323367218,53.8886372804",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060006",
+        "eurostat:nuts_2021_id":"01060006",
         "gn:id":2953232,
         "gp:id":20164330,
         "qs_pg:id":94174,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dae20d7a4f969e0f3929804bada3a552",
+    "wof:geomhash":"76bbd46adf4f7d3c13a7314a7c761bcf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,12 +193,12 @@
         }
     ],
     "wof:id":101908697,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351998,
     "wof:name":"Bahrenhof",
     "wof:parent_id":1377684607,
     "wof:placetype":"locality",
-    "wof:population":196,
-    "wof:population_rank":1,
+    "wof:population":215,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

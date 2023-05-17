@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09564000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"N\u00fcrnberg",
+    "eurostat:nuts_2021_id":"09564000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE254",
+    "eurostat:nuts_2021_level_lau":"09564000",
+    "eurostat:population":518370,
+    "eurostat:population_year":2020,
     "geom:area":0.023266,
-    "geom:area_square_m":187085599.63242,
+    "geom:area_square_m":187085599.632433,
     "geom:bbox":"10.9879279834,49.3319373655,11.2801333745,49.5403334403",
     "geom:latitude":49.436236,
     "geom:longitude":11.082745,
@@ -477,7 +489,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -488,6 +501,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09564000",
+        "eurostat:nuts_2021_id":"09564000",
         "gp:id":20158916
     },
     "wof:coterminous":[
@@ -497,7 +512,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2ad5ac63bef9a773dca9f4a257ac42a4",
+    "wof:geomhash":"62bdda33f955cd69ff72a6b8856ead55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -510,12 +525,12 @@
         }
     ],
     "wof:id":101905935,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351974,
     "wof:name":"N\u00fcrnberg",
     "wof:parent_id":1377690117,
     "wof:placetype":"locality",
-    "wof:population":495121,
-    "wof:population_rank":10,
+    "wof:population":518370,
+    "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

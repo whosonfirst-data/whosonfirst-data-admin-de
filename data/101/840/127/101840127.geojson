@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05970036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neunkirchen",
+    "eurostat:nuts_2021_id":"05970036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5A",
+    "eurostat:nuts_2021_level_lau":"05970036",
+    "eurostat:population":13165,
+    "eurostat:population_year":2020,
     "geom:area":0.005058,
-    "geom:area_square_m":39543226.713442,
+    "geom:area_square_m":39543226.713444,
     "geom:bbox":"7.964248,50.745479,8.079319,50.820124",
     "geom:latitude":50.786703,
     "geom:longitude":8.016157,
@@ -286,17 +298,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063725,
         1377692557,
         404227579,
-        85682513
+        102063725
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05970036",
+        "eurostat:nuts_2021_id":"05970036",
         "gn:id":2864424,
         "gp:id":678850,
         "qs_pg:id":169577,
@@ -314,7 +329,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4258d91596ad45f12178676b152ba277",
+    "wof:geomhash":"6b8427620c89522021532bba85daeb66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101840127,
-    "wof:lastmodified":1608051300,
+    "wof:lastmodified":1684351951,
     "wof:name":"Neunkirchen",
     "wof:parent_id":1377692557,
     "wof:placetype":"locality",
-    "wof:population":14225,
+    "wof:population":13165,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

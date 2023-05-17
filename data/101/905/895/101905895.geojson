@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leinsweiler",
+    "eurostat:nuts_2021_id":"07337051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337051",
+    "eurostat:population":465,
+    "eurostat:population_year":2020,
     "geom:area":0.000707,
-    "geom:area_square_m":5712646.490389,
+    "geom:area_square_m":5712646.490388,
     "geom:bbox":"7.98134289433,49.1752733205,8.04134935244,49.2026895941",
     "geom:latitude":49.187858,
     "geom:longitude":8.007836,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337051",
+        "eurostat:nuts_2021_id":"07337051",
         "gn:id":2879162,
         "gp:id":648647,
         "qs_pg:id":277364,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a396d7b11c0488dd1e817594c9bad8e1",
+    "wof:geomhash":"bcbee20416cf1bf9e14dc3fe50d047c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101905895,
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351974,
     "wof:name":"Leinsweiler",
     "wof:parent_id":1377686543,
     "wof:placetype":"locality",
-    "wof:population":403,
+    "wof:population":465,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

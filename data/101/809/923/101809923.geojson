@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05378008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burscheid, Stadt",
+    "eurostat:nuts_2021_id":"05378008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2B",
+    "eurostat:nuts_2021_level_lau":"05378008",
+    "eurostat:population":18346,
+    "eurostat:population_year":2020,
     "geom:area":0.003509,
-    "geom:area_square_m":27255768.694549,
+    "geom:area_square_m":27255768.69455,
     "geom:bbox":"7.057588,51.062772,7.169224,51.118694",
     "geom:latitude":51.08717,
     "geom:longitude":7.116009,
@@ -297,18 +309,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":391,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063727,
         1377690529,
         404227541,
-        85682513
+        102063727
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05378008",
+        "eurostat:nuts_2021_id":"05378008",
         "gn:id":2940942,
         "gp:id":20174991,
         "qs_pg:id":1061740,
@@ -322,7 +337,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4dbcf2bd605b7cb5fcd360bfb4d517c0",
+    "wof:geomhash":"cb0ba377c7808ffad8af2e4ae2ad2712",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101809923,
-    "wof:lastmodified":1608051624,
+    "wof:lastmodified":1684351869,
     "wof:name":"Burscheid",
     "wof:parent_id":1377690529,
     "wof:placetype":"locality",
-    "wof:population":19215,
+    "wof:population":18346,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

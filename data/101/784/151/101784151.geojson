@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09774171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Offingen, M",
+    "eurostat:nuts_2021_id":"09774171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE278",
+    "eurostat:nuts_2021_level_lau":"09774171",
+    "eurostat:population":4312,
+    "eurostat:population_year":2020,
     "geom:area":0.001839,
     "geom:area_square_m":15077798.430784,
     "geom:bbox":"10.3136565922,48.4611331519,10.4201312193,48.5005466899",
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -182,6 +195,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09774171",
+        "eurostat:nuts_2021_id":"09774171",
         "gn:id":2857770,
         "gp:id":683020,
         "qs_pg:id":977628,
@@ -193,7 +208,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3286b660d3b758395cf8c40c94cae825",
+    "wof:geomhash":"b1d17cc11588d527959f2ce48601307d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101784151,
-    "wof:lastmodified":1582342482,
+    "wof:lastmodified":1684351830,
     "wof:name":"Offingen",
     "wof:parent_id":1377692597,
     "wof:placetype":"locality",
-    "wof:population":4099,
+    "wof:population":4312,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

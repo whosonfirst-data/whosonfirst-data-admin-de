@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09662000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schweinfurt",
+    "eurostat:nuts_2021_id":"09662000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE262",
+    "eurostat:nuts_2021_level_lau":"09662000",
+    "eurostat:population":53426,
+    "eurostat:population_year":2020,
     "geom:area":0.004455,
-    "geom:area_square_m":35374275.670081,
+    "geom:area_square_m":35374275.67008,
     "geom:bbox":"10.165328,50.009435,10.274649,50.094841",
     "geom:latitude":50.047014,
     "geom:longitude":10.220868,
@@ -260,21 +272,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063563,
         1377690307,
         404227569,
-        85682571
+        102063563
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09662000",
+        "eurostat:nuts_2021_id":"09662000",
         "gn:id":2834498,
         "gp:id":693838,
         "qs_pg:id":476598,
@@ -290,7 +305,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"43a61defcec2ca507b78838d334656d9",
+    "wof:geomhash":"7146c9632328fc6fee9cb524290f56b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -303,11 +318,11 @@
         }
     ],
     "wof:id":101748575,
-    "wof:lastmodified":1608050568,
+    "wof:lastmodified":1684351786,
     "wof:name":"Schweinfurt",
     "wof:parent_id":1377690307,
     "wof:placetype":"locality",
-    "wof:population":54012,
+    "wof:population":53426,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

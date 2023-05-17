@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gelchsheim, M",
+    "eurostat:nuts_2021_id":"09679135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679135",
+    "eurostat:population":812,
+    "eurostat:population_year":2020,
     "geom:area":0.001958,
-    "geom:area_square_m":15698392.381832,
+    "geom:area_square_m":15698392.381831,
     "geom:bbox":"9.99223215036,49.5467922541,10.0757809112,49.5972701352",
     "geom:latitude":49.573973,
     "geom:longitude":10.035143,
@@ -148,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679135",
+        "eurostat:nuts_2021_id":"09679135",
         "gn:id":2921532,
         "gp:id":652003,
         "qs_pg:id":352007,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"08808f154df611848e73bcaca312eff9",
+    "wof:geomhash":"0d384c62a36ee53fef7249892fc86254",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101906915,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351982,
     "wof:name":"Gelchsheim",
     "wof:parent_id":1377692069,
     "wof:placetype":"locality",
-    "wof:population":848,
+    "wof:population":812,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

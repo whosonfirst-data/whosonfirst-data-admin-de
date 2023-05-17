@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fctzenich",
+    "eurostat:nuts_2021_id":"07232271",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232271",
+    "eurostat:population":115,
+    "eurostat:population_year":2020,
     "geom:area":0.000815,
-    "geom:area_square_m":6442910.802998,
+    "geom:area_square_m":6442910.802999,
     "geom:bbox":"6.22630868912,50.2387711544,6.27698512005,50.2677759486",
     "geom:latitude":50.254789,
     "geom:longitude":6.255981,
@@ -281,7 +293,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232271",
+        "eurostat:nuts_2021_id":"07232271",
         "gn:id":2867296,
         "gp:id":677000,
         "qs_pg:id":347949,
@@ -302,7 +317,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c858bd4c71303cd5436aa9e57df20f5",
+    "wof:geomhash":"d7799125b57c7bd024683c67e56a6f2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101811445,
-    "wof:lastmodified":1582342388,
+    "wof:lastmodified":1684351879,
     "wof:name":"M\u00fctzenich",
     "wof:parent_id":1377690043,
     "wof:placetype":"locality",
-    "wof:population":111,
+    "wof:population":115,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

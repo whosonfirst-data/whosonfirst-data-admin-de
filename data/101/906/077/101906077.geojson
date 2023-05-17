@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03455021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wangerooge, Nordseebad",
+    "eurostat:nuts_2021_id":"03455021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94A",
+    "eurostat:nuts_2021_level_lau":"03455021",
+    "eurostat:population":1214,
+    "eurostat:population_year":2020,
     "geom:area":0.001162,
     "geom:area_square_m":8490581.225504,
     "geom:bbox":"7.846275,53.773067,7.977988,53.794771",
@@ -189,7 +201,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":561,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -197,12 +210,14 @@
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         102191581,
-        85633111,
         1377688663,
+        85633111,
         85682555
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03455021",
+        "eurostat:nuts_2021_id":"03455021",
         "gn:id":2814266,
         "gp:id":703900,
         "loc:id":"n85299045",
@@ -218,7 +233,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"43835083d78a4caec61800507d8bcbc2",
+    "wof:geomhash":"a15890449144d385c2fa3bad76be4ba8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -229,11 +244,11 @@
         }
     ],
     "wof:id":101906077,
-    "wof:lastmodified":1608049436,
+    "wof:lastmodified":1684351976,
     "wof:name":"Wangerooge",
     "wof:parent_id":1377688663,
     "wof:placetype":"locality",
-    "wof:population":1081,
+    "wof:population":1214,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626460",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rietschen",
+    "eurostat:nuts_2021_id":"14626460",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626460",
+    "eurostat:population":2529,
+    "eurostat:population_year":2020,
     "geom:area":0.00945,
-    "geom:area_square_m":72887862.701134,
+    "geom:area_square_m":72887862.701132,
     "geom:bbox":"14.6880690863,51.3636222239,14.8921239128,51.4508411224",
     "geom:latitude":51.406482,
     "geom:longitude":14.786182,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -322,6 +335,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626460",
+        "eurostat:nuts_2021_id":"14626460",
         "gn:id":2846806,
         "gp:id":688718,
         "qs_pg:id":1038610,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8868153e213b305318a6514eb84d3d3e",
+    "wof:geomhash":"38a5988dacd764f37a2129739b5ccfbf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
         }
     ],
     "wof:id":101822349,
-    "wof:lastmodified":1582342580,
+    "wof:lastmodified":1684351922,
     "wof:name":"Rietschen",
     "wof:parent_id":1377687193,
     "wof:placetype":"locality",
-    "wof:population":3072,
+    "wof:population":2529,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

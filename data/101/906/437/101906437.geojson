@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Idstedt",
+    "eurostat:nuts_2021_id":"01059042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059042",
+    "eurostat:population":903,
+    "eurostat:population_year":2020,
     "geom:area":0.001845,
-    "geom:area_square_m":13221692.268912,
+    "geom:area_square_m":13221692.268913,
     "geom:bbox":"9.48050897189,54.550594081,9.55037219015,54.5989974867",
     "geom:latitude":54.578237,
     "geom:longitude":9.508063,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":77,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059042",
+        "eurostat:nuts_2021_id":"01059042",
         "gn:id":2896739,
         "gp:id":29351442,
         "qs_pg:id":578462,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"170d00d5c889ea59e986788a5e52c8bc",
+    "wof:geomhash":"70149924d42c3cf2cfdd7ec9a513106e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101906437,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351980,
     "wof:name":"Idstedt",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":823,
+    "wof:population":903,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

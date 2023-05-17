@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07313000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landau in der Pfalz, Stadt",
+    "eurostat:nuts_2021_id":"07313000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB33",
+    "eurostat:nuts_2021_level_lau":"07313000",
+    "eurostat:population":46881,
+    "eurostat:population_year":2020,
     "geom:area":0.010243,
-    "geom:area_square_m":82720813.544183,
+    "geom:area_square_m":82720813.544185,
     "geom:bbox":"7.86410584206,49.1551119017,8.18082280652,49.3163715069",
     "geom:latitude":49.224416,
     "geom:longitude":8.050803,
@@ -346,7 +358,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -360,6 +373,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07313000",
+        "eurostat:nuts_2021_id":"07313000",
         "fct:id":"07176fc0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2881646,
         "gp:id":669940,
@@ -374,7 +389,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6fdfef9ea5aba59a8145653f4b01e44e",
+    "wof:geomhash":"39d57f52fc2f747d7163be6d2011a6a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -389,11 +404,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351801,
     "wof:name":"Landau in der Pfalz",
     "wof:parent_id":1377686099,
     "wof:placetype":"locality",
-    "wof:population":41612,
+    "wof:population":46881,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

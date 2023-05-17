@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beidenfleth",
+    "eurostat:nuts_2021_id":"01061007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061007",
+    "eurostat:population":838,
+    "eurostat:population_year":2020,
     "geom:area":0.001883,
-    "geom:area_square_m":13724837.887335,
+    "geom:area_square_m":13724837.887333,
     "geom:bbox":"9.36259362708,53.8459470689,9.43530058996,53.9064805656",
     "geom:latitude":53.878805,
     "geom:longitude":9.405398,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061007",
+        "eurostat:nuts_2021_id":"01061007",
         "gn:id":2895538,
         "gp:id":637515,
         "qs_pg:id":1030500,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c8844df16a4555eaf655dbd9e53b2def",
+    "wof:geomhash":"805a97ee961fc253018f7abc7881e059",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101906173,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351977,
     "wof:name":"Beidenfleth",
     "wof:parent_id":1377684697,
     "wof:placetype":"locality",
-    "wof:population":951,
+    "wof:population":838,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

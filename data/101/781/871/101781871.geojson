@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchroth",
+    "eurostat:nuts_2021_id":"09278141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278141",
+    "eurostat:population":3805,
+    "eurostat:population_year":2020,
     "geom:area":0.005245,
-    "geom:area_square_m":42587581.324579,
+    "geom:area_square_m":42587581.324578,
     "geom:bbox":"12.437453,48.910471,12.569636,48.991619",
     "geom:latitude":48.957707,
     "geom:longitude":12.518583,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685325,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278141",
+        "eurostat:nuts_2021_id":"09278141",
         "gn:id":2890394,
         "gp:id":662936,
         "qs_pg:id":578311,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f5ef9d182cfc19cfd0d7bcb69a5cab65",
+    "wof:geomhash":"767dd05d454873b9ff538ea1dc7a1cd1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101781871,
-    "wof:lastmodified":1608051925,
+    "wof:lastmodified":1684351820,
     "wof:name":"Kirchroth",
     "wof:parent_id":1377685325,
     "wof:placetype":"locality",
-    "wof:population":3699,
+    "wof:population":3805,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

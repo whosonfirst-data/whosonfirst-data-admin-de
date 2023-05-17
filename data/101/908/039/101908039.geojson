@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pirow",
+    "eurostat:nuts_2021_id":"12070300",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070300",
+    "eurostat:population":424,
+    "eurostat:population_year":2020,
     "geom:area":0.005055,
-    "geom:area_square_m":37427170.598458,
+    "geom:area_square_m":37427170.598457,
     "geom:bbox":"11.8318792475,53.1722393384,11.9697245524,53.2579971025",
     "geom:latitude":53.217566,
     "geom:longitude":11.903062,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "wof:belongsto":[
         85682553,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070300",
+        "eurostat:nuts_2021_id":"12070300",
         "gn:id":2853571,
         "gp:id":685178,
         "qs_pg:id":577390,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e5b806aa32e7448f08ec52e99f8e2e81",
+    "wof:geomhash":"1c56f7597df49ba656a7c18cfad1f818",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908039,
-    "wof:lastmodified":1582342344,
+    "wof:lastmodified":1684351992,
     "wof:name":"Pirow",
     "wof:parent_id":1377684013,
     "wof:placetype":"locality",
-    "wof:population":527,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

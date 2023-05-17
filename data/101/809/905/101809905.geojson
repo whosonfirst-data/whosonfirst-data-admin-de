@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05358056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Titz",
+    "eurostat:nuts_2021_id":"05358056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA26",
+    "eurostat:nuts_2021_level_lau":"05358056",
+    "eurostat:population":8455,
+    "eurostat:population_year":2020,
     "geom:area":0.008743,
     "geom:area_square_m":68038793.106895,
     "geom:bbox":"6.336655,50.934819,6.500485,51.046611",
@@ -286,18 +298,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":87,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063707,
         1377685113,
         404227541,
-        85682513
+        102063707
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05358056",
+        "eurostat:nuts_2021_id":"05358056",
         "gn:id":2822073,
         "gp:id":699558,
         "loc:id":"no2011098038",
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"71f3469f489d9015f25833882bb70123",
+    "wof:geomhash":"d8e9a3674bc7907434c8c75a39b715f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101809905,
-    "wof:lastmodified":1608051634,
+    "wof:lastmodified":1684351869,
     "wof:name":"Titz",
     "wof:parent_id":1377685113,
     "wof:placetype":"locality",
-    "wof:population":8461,
+    "wof:population":8455,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

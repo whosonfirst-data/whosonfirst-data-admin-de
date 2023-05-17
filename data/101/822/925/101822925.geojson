@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Artern, Stadt",
+    "eurostat:nuts_2021_id":"16065086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065086",
+    "eurostat:population":6688,
+    "eurostat:population_year":2020,
     "geom:area":0.003098,
-    "geom:area_square_m":23915867.973595,
+    "geom:area_square_m":23915867.973591,
     "geom:bbox":"11.2376027273,51.3423512081,11.3371235614,51.400754523",
     "geom:latitude":51.371053,
     "geom:longitude":11.283329,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -175,6 +188,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065086",
+        "eurostat:nuts_2021_id":"16065086",
         "gn:id":2955394,
         "gp:id":635542,
         "qs_pg:id":905443,
@@ -185,7 +200,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e44d9efdcfb9f0baf1a4e16adb37392",
+    "wof:geomhash":"effe1c69c5610fa3b52efd45b89379e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101822925,
-    "wof:lastmodified":1582342581,
+    "wof:lastmodified":1684351923,
     "wof:name":"Artern/Unstrut",
     "wof:parent_id":1377689851,
     "wof:placetype":"locality",
-    "wof:population":6270,
+    "wof:population":6688,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

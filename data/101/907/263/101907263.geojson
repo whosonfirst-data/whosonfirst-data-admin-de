@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzheim",
+    "eurostat:nuts_2021_id":"07141061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141061",
+    "eurostat:population":887,
+    "eurostat:population_year":2020,
     "geom:area":0.000655,
-    "geom:area_square_m":5166572.937718,
+    "geom:area_square_m":5166572.937719,
     "geom:bbox":"7.9986496526,50.3314853971,8.07042482326,50.3688176097",
     "geom:latitude":50.350794,
     "geom:longitude":8.037924,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141061",
+        "eurostat:nuts_2021_id":"07141061",
         "gn:id":2899716,
         "gp:id":661959,
         "qs_pg:id":578547,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"58b6a90653ffb798bc6ce49697a2f2fc",
+    "wof:geomhash":"1a7dc9b6bf24db938c7f5d43ba83b500",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101907263,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351986,
     "wof:name":"Holzheim",
     "wof:parent_id":1377685729,
     "wof:placetype":"locality",
-    "wof:population":913,
+    "wof:population":887,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

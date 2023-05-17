@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dahlenburg, Flecken",
+    "eurostat:nuts_2021_id":"03355013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355013",
+    "eurostat:population":3295,
+    "eurostat:population_year":2020,
     "geom:area":0.006729,
     "geom:area_square_m":49848743.292961,
     "geom:bbox":"10.6276794461,53.1485506153,10.7806711188,53.2532856129",
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355013",
+        "eurostat:nuts_2021_id":"03355013",
         "gn:id":2939426,
         "gp:id":643503,
         "loc:id":"n92076037",
@@ -183,7 +198,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"65a5f1d53f2398787324663feb154480",
+    "wof:geomhash":"01f6c6dbb22df6182dcdfd3dd8d5eda3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,11 +210,11 @@
         }
     ],
     "wof:id":101818497,
-    "wof:lastmodified":1582342360,
+    "wof:lastmodified":1684351900,
     "wof:name":"Dahlenburg",
     "wof:parent_id":1377687527,
     "wof:placetype":"locality",
-    "wof:population":3465,
+    "wof:population":3295,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

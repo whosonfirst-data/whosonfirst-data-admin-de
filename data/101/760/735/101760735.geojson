@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rheinstetten, Stadt",
+    "eurostat:nuts_2021_id":"08215108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215108",
+    "eurostat:population":20206,
+    "eurostat:population_year":2020,
     "geom:area":0.003986,
-    "geom:area_square_m":32358052.880426,
+    "geom:area_square_m":32358052.880425,
     "geom:bbox":"8.258328,48.934889,8.370683,48.991959",
     "geom:latitude":48.964991,
     "geom:longitude":8.315531,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":32.3,
     "wd:latitude":48.960556,
     "wd:longitude":8.289722,
@@ -315,15 +328,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688259,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215108",
+        "eurostat:nuts_2021_id":"08215108",
         "fct:id":"0733f0be-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6558039,
         "gp:id":15002759,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1f081b3ef758319698bd05a061ca028c",
+    "wof:geomhash":"7da48304eaaf6425d0266173b974551c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,12 +370,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050767,
+    "wof:lastmodified":1684351801,
     "wof:name":"Rheinstetten",
     "wof:parent_id":1377688259,
     "wof:placetype":"locality",
-    "wof:population":19837,
-    "wof:population_rank":6,
+    "wof:population":20206,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

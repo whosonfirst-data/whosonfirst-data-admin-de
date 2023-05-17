@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unnau",
+    "eurostat:nuts_2021_id":"07143300",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143300",
+    "eurostat:population":1901,
+    "eurostat:population_year":2020,
     "geom:area":0.001101,
-    "geom:area_square_m":8634634.039316,
+    "geom:area_square_m":8634634.039317,
     "geom:bbox":"7.85927232411,50.6370199864,7.93818463595,50.6708661558",
     "geom:latitude":50.654334,
     "geom:longitude":7.902925,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":217,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143300",
+        "eurostat:nuts_2021_id":"07143300",
         "gn:id":2820084,
         "gp:id":696324,
         "qs_pg:id":1038252,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dbbf715db4b4cfe703f5e85448456709",
+    "wof:geomhash":"720cf5f17e22a302faa59fcc8a066a0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101810775,
-    "wof:lastmodified":1582342409,
+    "wof:lastmodified":1684351875,
     "wof:name":"Unnau",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":1932,
+    "wof:population":1901,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

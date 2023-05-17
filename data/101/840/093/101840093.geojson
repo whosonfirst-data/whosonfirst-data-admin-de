@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06531017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Staufenberg, Stadt",
+    "eurostat:nuts_2021_id":"06531017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE721",
+    "eurostat:nuts_2021_level_lau":"06531017",
+    "eurostat:population":8471,
+    "eurostat:population_year":2020,
     "geom:area":0.003599,
-    "geom:area_square_m":28211493.028652,
+    "geom:area_square_m":28211493.028651,
     "geom:bbox":"8.717709,50.633249,8.808896,50.696487",
     "geom:latitude":50.662351,
     "geom:longitude":8.762324,
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063653,
         1377694579,
         404227577,
-        85682531
+        102063653
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06531017",
+        "eurostat:nuts_2021_id":"06531017",
         "gn:id":2829322,
         "gp:id":696423,
         "qs_pg:id":906774,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b7e826fb77e9fcda863f1fc40d595273",
+    "wof:geomhash":"2a19a5449d496fa00a44092af0f4825c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101840093,
-    "wof:lastmodified":1608051308,
+    "wof:lastmodified":1684351950,
     "wof:name":"Staufenberg",
     "wof:parent_id":1377694579,
     "wof:placetype":"locality",
-    "wof:population":8346,
+    "wof:population":8471,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

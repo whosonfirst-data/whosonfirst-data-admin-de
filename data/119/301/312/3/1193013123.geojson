@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03452015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leezdorf",
+    "eurostat:nuts_2021_id":"03452015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE947",
+    "eurostat:nuts_2021_level_lau":"03452015",
+    "eurostat:population":1811,
+    "eurostat:population_year":2020,
     "geom:area":0.00116,
     "geom:area_square_m":8523398.15008,
     "geom:bbox":"7.27549406164,53.5334927692,7.34405635298,53.5647019253",
@@ -134,7 +146,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03452015",
+        "eurostat:nuts_2021_id":"03452015",
         "gn:id":2879668,
         "wk:page":"Leezdorf"
     },
@@ -151,7 +166,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"52694c669bdb01d815465c614109552a",
+    "wof:geomhash":"67dd09d3426f9a82cb64b57ee93572ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":1193013123,
-    "wof:lastmodified":1582342065,
+    "wof:lastmodified":1684352057,
     "wof:name":"Leezdorf",
     "wof:parent_id":1377688309,
     "wof:placetype":"locality",
-    "wof:population":1950,
+    "wof:population":1811,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

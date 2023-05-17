@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Asbach",
+    "eurostat:nuts_2021_id":"07138003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138003",
+    "eurostat:population":7323,
+    "eurostat:population_year":2020,
     "geom:area":0.004885,
-    "geom:area_square_m":38292564.589497,
+    "geom:area_square_m":38292564.589494,
     "geom:bbox":"7.36294610595,50.6159984952,7.48542961369,50.6948773349",
     "geom:latitude":50.658591,
     "geom:longitude":7.43555,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138003",
+        "eurostat:nuts_2021_id":"07138003",
         "gn:id":2955316,
         "gp:id":635570,
         "qs_pg:id":579946,
@@ -334,7 +349,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bbf0d43bd494e2b479412e1414e09a4d",
+    "wof:geomhash":"0b153c6bcd574ba664033de991b7f4ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101808825,
-    "wof:lastmodified":1582342608,
+    "wof:lastmodified":1684351864,
     "wof:name":"Asbach",
     "wof:parent_id":1377685613,
     "wof:placetype":"locality",
-    "wof:population":7060,
+    "wof:population":7323,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

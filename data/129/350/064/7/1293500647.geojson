@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zimmern unter der Burg",
+    "eurostat:nuts_2021_id":"08417078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417078",
+    "eurostat:population":473,
+    "eurostat:population_year":2020,
     "geom:area":0.00061,
-    "geom:area_square_m":5025533.519683,
+    "geom:area_square_m":5025533.519684,
     "geom:bbox":"8.70207808088,48.2069541119,8.73954932165,48.23197934",
     "geom:latitude":48.220669,
     "geom:longitude":8.721865,
@@ -128,7 +140,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -139,13 +152,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417078",
+        "eurostat:nuts_2021_id":"08417078",
         "gn:id":2804157
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"5aaf1a2a0a0a177c976f76256e5207fb",
+    "wof:geomhash":"df968e449d189e784b9bdd881b57f320",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":1293500647,
-    "wof:lastmodified":1582342022,
+    "wof:lastmodified":1684352060,
     "wof:name":"Zimmern unter der Burg",
     "wof:parent_id":1377690145,
     "wof:placetype":"locality",
-    "wof:population":474,
+    "wof:population":473,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03462011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuschoo",
+    "eurostat:nuts_2021_id":"03462011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94H",
+    "eurostat:nuts_2021_level_lau":"03462011",
+    "eurostat:population":1171,
+    "eurostat:population_year":2020,
     "geom:area":0.001994,
-    "geom:area_square_m":14643987.937,
+    "geom:area_square_m":14643987.936999,
     "geom:bbox":"7.47672637849,53.5484341862,7.54565017568,53.5946123003",
     "geom:latitude":53.571072,
     "geom:longitude":7.508223,
@@ -144,7 +156,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03462011",
+        "eurostat:nuts_2021_id":"03462011",
         "gn:id":2864204,
         "gp:id":15002726,
         "qs_pg:id":577664,
@@ -166,7 +181,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"b353c1e6f50edc15028fdb148330f0ee",
+    "wof:geomhash":"c6865c247208aceb1ca026b14e0ebb15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101874391,
-    "wof:lastmodified":1582342395,
+    "wof:lastmodified":1684351970,
     "wof:name":"Neuschoo",
     "wof:parent_id":1377689369,
     "wof:placetype":"locality",
-    "wof:population":1150,
+    "wof:population":1171,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

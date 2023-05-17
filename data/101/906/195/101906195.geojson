@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hasenkrug",
+    "eurostat:nuts_2021_id":"01060035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060035",
+    "eurostat:population":340,
+    "eurostat:population_year":2020,
     "geom:area":0.000736,
-    "geom:area_square_m":5349112.393824,
+    "geom:area_square_m":5349112.393826,
     "geom:bbox":"9.82595136448,53.9783618601,9.87655962906,54.0120302997",
     "geom:latitude":53.993454,
     "geom:longitude":9.849895,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060035",
+        "eurostat:nuts_2021_id":"01060035",
         "gn:id":2909623,
         "gp:id":29351487,
         "qs_pg:id":93728,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a2ce15a5ef9cb5f571d5d932145a97e8",
+    "wof:geomhash":"f6cbcad6a341a78ef6c6b3d224301a3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906195,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351977,
     "wof:name":"Hasenkrug",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":360,
+    "wof:population":340,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

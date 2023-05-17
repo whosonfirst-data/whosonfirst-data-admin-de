@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09479150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nwald, St",
+    "eurostat:nuts_2021_id":"09479150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24D",
+    "eurostat:nuts_2021_level_lau":"09479150",
+    "eurostat:population":3221,
+    "eurostat:population_year":2020,
     "geom:area":0.002454,
-    "geom:area_square_m":19422116.266556,
+    "geom:area_square_m":19422116.266557,
     "geom:bbox":"12.043569,50.171063,12.139004,50.227664",
     "geom:latitude":50.201493,
     "geom:longitude":12.083765,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063597,
         1377688695,
         404227583,
-        85682571
+        102063597
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09479150",
+        "eurostat:nuts_2021_id":"09479150",
         "gn:id":2836450,
         "gp:id":693150,
         "qs_pg:id":141791,
@@ -188,7 +203,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b11820a7f24ac074aa81db928dc560a3",
+    "wof:geomhash":"7060bac78cf6556c5116ad1d762ad8a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
         }
     ],
     "wof:id":101825985,
-    "wof:lastmodified":1608051424,
+    "wof:lastmodified":1684351933,
     "wof:name":"Sch\u00f6nwald",
     "wof:parent_id":1377688695,
     "wof:placetype":"locality",
-    "wof:population":3741,
+    "wof:population":3221,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Himmelstadt",
+    "eurostat:nuts_2021_id":"09677142",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677142",
+    "eurostat:population":1562,
+    "eurostat:population_year":2020,
     "geom:area":0.001671,
-    "geom:area_square_m":13302656.799995,
+    "geom:area_square_m":13302656.799994,
     "geom:bbox":"9.73838274303,49.9074272484,9.8295889007,49.9436320993",
     "geom:latitude":49.923854,
     "geom:longitude":9.782103,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":485,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677142",
+        "eurostat:nuts_2021_id":"09677142",
         "gn:id":2904499,
         "gp:id":660034,
         "qs_pg:id":1039575,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d246c7bb80f01b6132f0e4622354130a",
+    "wof:geomhash":"df50af32d7685f475830dd63cfa03e88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101813621,
-    "wof:lastmodified":1582342563,
+    "wof:lastmodified":1684351893,
     "wof:name":"Himmelstadt",
     "wof:parent_id":1377691603,
     "wof:placetype":"locality",
-    "wof:population":1798,
+    "wof:population":1562,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

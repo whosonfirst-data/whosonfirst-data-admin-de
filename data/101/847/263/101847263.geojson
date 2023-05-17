@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e4rkisch Luch",
+    "eurostat:nuts_2021_id":"12063186",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063186",
+    "eurostat:population":1265,
+    "eurostat:population_year":2020,
     "geom:area":0.009486,
-    "geom:area_square_m":71290371.121589,
+    "geom:area_square_m":71290371.121587,
     "geom:bbox":"12.5030281125,52.5269349518,12.6951455614,52.6248098719",
     "geom:latitude":52.569288,
     "geom:longitude":12.608281,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "wof:belongsto":[
         85682553,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063186",
+        "eurostat:nuts_2021_id":"12063186",
         "gn:id":6551060,
         "gp:id":29352286,
         "qs_pg:id":632575,
@@ -306,7 +321,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d26518698ff0600d72cfff15fa5452f",
+    "wof:geomhash":"c742db5f888e1cea74ab300125dee5ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101847263,
-    "wof:lastmodified":1582342558,
+    "wof:lastmodified":1684351962,
     "wof:name":"M\u00e4rkisch Luch",
     "wof:parent_id":1377694637,
     "wof:placetype":"locality",
-    "wof:population":1254,
+    "wof:population":1265,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

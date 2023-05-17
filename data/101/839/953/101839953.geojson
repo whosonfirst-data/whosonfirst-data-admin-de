@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dieburg, Stadt",
+    "eurostat:nuts_2021_id":"06432004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432004",
+    "eurostat:population":15566,
+    "eurostat:population_year":2020,
     "geom:area":0.002889,
-    "geom:area_square_m":23010238.825916,
+    "geom:area_square_m":23010238.825915,
     "geom:bbox":"8.763407,49.884219,8.872941,49.925849",
     "geom:latitude":49.905938,
     "geom:longitude":8.820869,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.898472,
     "wd:longitude":8.838472,
     "wd:wordcount":182,
@@ -331,15 +344,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693055,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432004",
+        "eurostat:nuts_2021_id":"06432004",
         "gn:id":2937591,
         "gp:id":644444,
         "qs_pg:id":142706,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9084c3aa3f5cb7f83390ba5ab5396245",
+    "wof:geomhash":"5891a5fc4348c2cfe15c9e26f0a56b3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101839953,
-    "wof:lastmodified":1608051820,
+    "wof:lastmodified":1684351949,
     "wof:name":"Dieburg",
     "wof:parent_id":1377693055,
     "wof:placetype":"locality",
-    "wof:population":15168,
+    "wof:population":15566,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

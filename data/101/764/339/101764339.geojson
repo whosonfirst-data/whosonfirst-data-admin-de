@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09775115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bellenberg",
+    "eurostat:nuts_2021_id":"09775115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE279",
+    "eurostat:nuts_2021_level_lau":"09775115",
+    "eurostat:population":4531,
+    "eurostat:population_year":2020,
     "geom:area":0.000608,
-    "geom:area_square_m":5007102.331857,
+    "geom:area_square_m":5007102.331856,
     "geom:bbox":"10.074573,48.244921,10.116696,48.272375",
     "geom:latitude":48.258418,
     "geom:longitude":10.096185,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063293,
         1377692661,
         404227547,
-        85682571
+        102063293
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09775115",
+        "eurostat:nuts_2021_id":"09775115",
         "fct:id":"071c9e32-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2951232,
         "gp:id":637616,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1cdade8de8ed8f5e57c331d466677b48",
+    "wof:geomhash":"aa9eaecfcd1b001eafc490af06cd458b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049234,
+    "wof:lastmodified":1684351815,
     "wof:name":"Bellenberg",
     "wof:parent_id":1377692661,
     "wof:placetype":"locality",
-    "wof:population":4607,
+    "wof:population":4531,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nieder-Wiesen",
+    "eurostat:nuts_2021_id":"07331051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331051",
+    "eurostat:population":625,
+    "eurostat:population_year":2020,
     "geom:area":0.000622,
-    "geom:area_square_m":4968942.38383,
+    "geom:area_square_m":4968942.383829,
     "geom:bbox":"7.95349260172,49.7175468478,7.99895138477,49.7451059204",
     "geom:latitude":49.731297,
     "geom:longitude":7.975273,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1738,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331051",
+        "eurostat:nuts_2021_id":"07331051",
         "gn:id":2862723,
         "gp:id":679278,
         "qs_pg:id":577614,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9cad0f84fae45abc76ac9b4e83cdfb8a",
+    "wof:geomhash":"43fa4552d7fd9f0ef46d0f85fbce5653",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906835,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351982,
     "wof:name":"Nieder-Wiesen",
     "wof:parent_id":1377686179,
     "wof:placetype":"locality",
-    "wof:population":653,
+    "wof:population":625,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

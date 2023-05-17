@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beringstedt",
+    "eurostat:nuts_2021_id":"01058015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058015",
+    "eurostat:population":735,
+    "eurostat:population_year":2020,
     "geom:area":0.001956,
-    "geom:area_square_m":14177488.459843,
+    "geom:area_square_m":14177488.459844,
     "geom:bbox":"9.50664844564,54.0911475125,9.56481761303,54.1553536172",
     "geom:latitude":54.11806,
     "geom:longitude":9.532978,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058015",
+        "eurostat:nuts_2021_id":"01058015",
         "gn:id":2950214,
         "gp:id":638203,
         "qs_pg:id":579806,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"52f252bba9d80fde246d259f6c96b284",
+    "wof:geomhash":"56f04d26b985f51ad0980ef7bf111345",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906371,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351979,
     "wof:name":"Beringstedt",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":749,
+    "wof:population":735,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

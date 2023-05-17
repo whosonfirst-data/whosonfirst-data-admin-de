@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sandesneben",
+    "eurostat:nuts_2021_id":"01053108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053108",
+    "eurostat:population":1859,
+    "eurostat:population_year":2020,
     "geom:area":0.000836,
-    "geom:area_square_m":6119616.326758,
+    "geom:area_square_m":6119616.326757,
     "geom:bbox":"10.4694560362,53.6764441834,10.5160338533,53.7072431825",
     "geom:latitude":53.691051,
     "geom:longitude":10.494646,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053108",
+        "eurostat:nuts_2021_id":"01053108",
         "gn:id":2841874,
         "gp:id":690948,
         "qs_pg:id":1069312,
@@ -170,7 +185,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"23157e3166aa5cd6b20ebe1fc0bab6a9",
+    "wof:geomhash":"770db7db0dc96c50ee679b57067ea780",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101818731,
-    "wof:lastmodified":1582342358,
+    "wof:lastmodified":1684351903,
     "wof:name":"Sandesneben",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":1620,
+    "wof:population":1859,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

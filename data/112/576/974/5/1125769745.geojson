@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vollersroda",
+    "eurostat:nuts_2021_id":"16071093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071093",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "geom:area":0.000313,
     "geom:area_square_m":2442265.891238,
     "geom:bbox":"11.3266731242,50.9271246262,11.3542623753,50.9425753365",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071093",
+        "eurostat:nuts_2021_id":"16071093",
         "gn:id":2816577,
         "qs_pg:id":576586,
         "wd:id":"Q651522"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"2bb5cade20ad63a30f0d24a6165b0eb7",
+    "wof:geomhash":"f6e2b2f7d1368188429ce3081c54a92d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125769745,
-    "wof:lastmodified":1582343034,
+    "wof:lastmodified":1684352010,
     "wof:name":"Vollersroda",
     "wof:parent_id":1377690487,
     "wof:placetype":"locality",
-    "wof:population":217,
+    "wof:population":210,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

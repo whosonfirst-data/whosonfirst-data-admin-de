@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Drakenburg, Flecken",
+    "eurostat:nuts_2021_id":"03256005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256005",
+    "eurostat:population":1760,
+    "eurostat:population_year":2020,
     "geom:area":0.001542,
     "geom:area_square_m":11554699.729038,
     "geom:bbox":"9.18141238107,52.6678228978,9.26096617539,52.7169536039",
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256005",
+        "eurostat:nuts_2021_id":"03256005",
         "gn:id":2935341,
         "gp:id":645547,
         "qs_pg:id":505306,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a7d89eac2dac376ff008ae2aa997bb69",
+    "wof:geomhash":"817379f509c7a737ce61b43dc3a5a2c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101838071,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351946,
     "wof:name":"Drakenburg",
     "wof:parent_id":1377686941,
     "wof:placetype":"locality",
-    "wof:population":1712,
+    "wof:population":1760,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

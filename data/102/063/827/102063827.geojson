@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Hamm, Kreisfreie Stadt",
+    "eurostat:name_local":"Hamm, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA54",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA54",
+    "eurostat:population":179238,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.02957,
-    "geom:area_square_m":226792310.814422,
+    "geom:area_square_m":226792310.814423,
     "geom:bbox":"7.675536,51.578052,7.997529,51.744766",
     "geom:latitude":51.665175,
     "geom:longitude":7.823586,
@@ -237,8 +251,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"226",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Hamm",
@@ -251,12 +265,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227579,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA54",
         "hasc:id":"DE.NW.HM"
     },
     "wof:coterminous":[
@@ -267,7 +282,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"877890843e5405537afdd248b6cf7621",
+    "wof:geomhash":"b5a1f78e47dd257eed140f334a2a9251",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -278,12 +293,12 @@
         }
     ],
     "wof:id":102063827,
-    "wof:lastmodified":1608052250,
+    "wof:lastmodified":1684351523,
     "wof:name":"Hamm",
     "wof:parent_id":404227579,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":176037,
+    "wof:population":179238,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"HM",

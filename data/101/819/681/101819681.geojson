@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenh\u00fcttenstadt, Stadt",
+    "eurostat:nuts_2021_id":"12067120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067120",
+    "eurostat:population":23878,
+    "eurostat:population_year":2020,
     "geom:area":0.008345,
-    "geom:area_square_m":63308286.202176,
+    "geom:area_square_m":63308286.202175,
     "geom:bbox":"14.565366,52.095803,14.705415,52.228543",
     "geom:latitude":52.15556,
     "geom:longitude":14.639038,
@@ -361,7 +373,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.145,
     "wd:longitude":14.672778,
     "wd:wordcount":482,
@@ -370,14 +383,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063935,
         1377683509,
-        85682553
+        85633111,
+        102063935
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067120",
+        "eurostat:nuts_2021_id":"12067120",
         "gn:id":2931481,
         "gp:id":647352,
         "qs_pg:id":1243992,
@@ -392,7 +407,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7a30a4949ddbd20f9268c00421e9d91d",
+    "wof:geomhash":"734c35761130797696e711804d938690",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -404,11 +419,11 @@
         }
     ],
     "wof:id":101819681,
-    "wof:lastmodified":1608050243,
+    "wof:lastmodified":1684351907,
     "wof:name":"Eisenh\u00fcttenstadt",
     "wof:parent_id":1377683509,
     "wof:placetype":"locality",
-    "wof:population":32052,
+    "wof:population":23878,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

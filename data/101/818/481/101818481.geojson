@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Scharnebeck",
+    "eurostat:nuts_2021_id":"03355033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355033",
+    "eurostat:population":3481,
+    "eurostat:population_year":2020,
     "geom:area":0.003642,
-    "geom:area_square_m":26917447.464342,
+    "geom:area_square_m":26917447.464341,
     "geom:bbox":"10.4609665752,53.2524240924,10.5421254968,53.3351776717",
     "geom:latitude":53.299201,
     "geom:longitude":10.499373,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -333,6 +346,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355033",
+        "eurostat:nuts_2021_id":"03355033",
         "gn:id":2835331,
         "gp:id":691496,
         "loc:id":"n80039498",
@@ -348,7 +363,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cccd4e7473408325eacd0d973c94a433",
+    "wof:geomhash":"7bcfd2fa3e0438ec67a5fd6ed2192f95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101818481,
-    "wof:lastmodified":1582342364,
+    "wof:lastmodified":1684351899,
     "wof:name":"Scharnebeck",
     "wof:parent_id":1377687563,
     "wof:placetype":"locality",
-    "wof:population":3275,
+    "wof:population":3481,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
