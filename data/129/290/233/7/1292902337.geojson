@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgwald",
+    "eurostat:nuts_2021_id":"06635006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635006",
+    "eurostat:population":4919,
+    "eurostat:population_year":2020,
     "geom:area":0.005308,
-    "geom:area_square_m":41291480.56217,
+    "geom:area_square_m":41291480.562171,
     "geom:bbox":"8.704684,50.975258,8.882079,51.039348",
     "geom:latitude":51.011341,
     "geom:longitude":8.775068,
@@ -125,17 +137,20 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377684913,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635006",
+        "eurostat:nuts_2021_id":"06635006",
         "gn:id":3207178
     },
     "wof:coterminous":[
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"9ded1c3d2176a0615819a32befd1b5cc",
+    "wof:geomhash":"7d1ba2aa1d7ecd65532693d68fd38faf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":1292902337,
-    "wof:lastmodified":1608048860,
+    "wof:lastmodified":1684352060,
     "wof:name":"Burgwald",
     "wof:parent_id":1377684913,
     "wof:placetype":"locality",
-    "wof:population":4858,
+    "wof:population":4919,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

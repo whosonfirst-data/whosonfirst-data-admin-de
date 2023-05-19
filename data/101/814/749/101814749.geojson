@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St. Wendel, Kreisstadt",
+    "eurostat:nuts_2021_id":"10046117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046117",
+    "eurostat:population":25809,
+    "eurostat:population_year":2020,
     "geom:area":0.014088,
-    "geom:area_square_m":113207268.790774,
+    "geom:area_square_m":113207268.790773,
     "geom:bbox":"7.06772188499,49.4161422068,7.30491627639,49.5116746962",
     "geom:latitude":49.467086,
     "geom:longitude":7.183386,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.466667,
     "wd:longitude":7.166667,
     "wd:wordcount":2969,
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046117",
+        "eurostat:nuts_2021_id":"10046117",
         "gn:id":2841463,
         "gp:id":696123,
         "qs_pg:id":141824,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"62af8466ad61a4f8df09d0866ffa84a3",
+    "wof:geomhash":"6eba37615e411e744ea143cb0364243a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101814749,
-    "wof:lastmodified":1582342561,
+    "wof:lastmodified":1684351893,
     "wof:name":"St. Wendel",
     "wof:parent_id":1377694137,
     "wof:placetype":"locality",
-    "wof:population":26904,
+    "wof:population":25809,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

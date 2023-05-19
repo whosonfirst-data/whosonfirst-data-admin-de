@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05916000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herne, Stadt",
+    "eurostat:nuts_2021_id":"05916000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA55",
+    "eurostat:nuts_2021_level_lau":"05916000",
+    "eurostat:population":156449,
+    "eurostat:population_year":2020,
     "geom:area":0.006672,
     "geom:area_square_m":51312114.614326,
     "geom:bbox":"7.123447,51.503117,7.296311,51.573406",
@@ -370,17 +382,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063797,
         1377692113,
         404227579,
-        85682513
+        102063797
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05916000",
+        "eurostat:nuts_2021_id":"05916000",
         "gn:id":2905891,
         "qs_pg:id":1039593,
         "wd:id":"Q2904"
@@ -394,7 +409,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"836c849ff430b6880c4b5b6d0232c544",
+    "wof:geomhash":"0c87282a47e51df031682f673777f177",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -407,11 +422,11 @@
         }
     ],
     "wof:id":101748711,
-    "wof:lastmodified":1608050602,
+    "wof:lastmodified":1684351788,
     "wof:name":"Herne",
     "wof:parent_id":1377692113,
     "wof:placetype":"locality",
-    "wof:population":172108,
+    "wof:population":156449,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

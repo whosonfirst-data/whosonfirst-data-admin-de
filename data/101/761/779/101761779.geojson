@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08117037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ottenbach",
+    "eurostat:nuts_2021_id":"08117037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE114",
+    "eurostat:nuts_2021_level_lau":"08117037",
+    "eurostat:population":2452,
+    "eurostat:population_year":2020,
     "geom:area":0.001454,
-    "geom:area_square_m":11861652.094308,
+    "geom:area_square_m":11861652.094309,
     "geom:bbox":"9.7248482273,48.7099564805,9.79162549237,48.7537908522",
     "geom:latitude":48.73404,
     "geom:longitude":9.754875,
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08117037",
+        "eurostat:nuts_2021_id":"08117037",
         "fct:id":"0751b9aa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2856139,
         "gp:id":683864,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c4f7001bc7353698c6a17bb1e394cbb9",
+    "wof:geomhash":"2c715a9fe561672da56ac9dbf16897da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342512,
+    "wof:lastmodified":1684351805,
     "wof:name":"Ottenbach",
     "wof:parent_id":1377687179,
     "wof:placetype":"locality",
-    "wof:population":2459,
+    "wof:population":2452,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

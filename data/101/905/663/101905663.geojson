@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eglfing",
+    "eurostat:nuts_2021_id":"09190121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190121",
+    "eurostat:population":1085,
+    "eurostat:population_year":2020,
     "geom:area":0.001965,
-    "geom:area_square_m":16339161.116781,
+    "geom:area_square_m":16339161.116782,
     "geom:bbox":"11.0911808557,47.7147645649,11.2005804939,47.7685170757",
     "geom:latitude":47.738034,
     "geom:longitude":11.157365,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190121",
+        "eurostat:nuts_2021_id":"09190121",
         "gn:id":3205523,
         "gp:id":646726,
         "qs_pg:id":95210,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8890a99c681ec92d5264c705066bc565",
+    "wof:geomhash":"606398ea22337e9df6686efe0b04b019",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,12 +205,12 @@
         }
     ],
     "wof:id":101905663,
-    "wof:lastmodified":1582342508,
+    "wof:lastmodified":1684351972,
     "wof:name":"Eglfing",
     "wof:parent_id":1377683735,
     "wof:placetype":"locality",
-    "wof:population":933,
-    "wof:population_rank":2,
+    "wof:population":1085,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

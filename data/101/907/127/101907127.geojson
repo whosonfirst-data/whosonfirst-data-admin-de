@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auderath",
+    "eurostat:nuts_2021_id":"07135005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135005",
+    "eurostat:population":636,
+    "eurostat:population_year":2020,
     "geom:area":0.000782,
     "geom:area_square_m":6194590.686951,
     "geom:bbox":"6.98223203036,50.1688332938,7.0275259445,50.2043198958",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":619,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135005",
+        "eurostat:nuts_2021_id":"07135005",
         "gn:id":2954704,
         "gp:id":635909,
         "qs_pg:id":579930,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"54ad5fc0a27b41f0565d43c7f2604dcd",
+    "wof:geomhash":"569cecf78b37558ccdcbde8926c17df6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907127,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351985,
     "wof:name":"Auderath",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":632,
+    "wof:population":636,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

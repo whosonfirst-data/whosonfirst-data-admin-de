@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ornbau, St",
+    "eurostat:nuts_2021_id":"09571189",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571189",
+    "eurostat:population":1619,
+    "eurostat:population_year":2020,
     "geom:area":0.001879,
-    "geom:area_square_m":15191822.566883,
+    "geom:area_square_m":15191822.566882,
     "geom:bbox":"10.6095266436,49.1518493479,10.6990038824,49.1964529796",
     "geom:latitude":49.173076,
     "geom:longitude":10.655246,
@@ -308,7 +320,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":193,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -324,6 +337,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571189",
+        "eurostat:nuts_2021_id":"09571189",
         "gn:id":2857062,
         "gp:id":683386,
         "qs_pg:id":1235426,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c13168b9586b5cae296ba334cd295bc0",
+    "wof:geomhash":"64ec17705be6d54a9bed9b26cf68d999",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101782085,
-    "wof:lastmodified":1582342460,
+    "wof:lastmodified":1684351823,
     "wof:name":"Ornbau",
     "wof:parent_id":1377689041,
     "wof:placetype":"locality",
-    "wof:population":1730,
+    "wof:population":1619,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

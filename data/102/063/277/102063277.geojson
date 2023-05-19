@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Rottweil",
+    "eurostat:name_local":"Rottweil",
+    "eurostat:nuts_2021_id":"DE135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE135",
+    "eurostat:population":140446,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"3",
     "geom:area":0.093205,
-    "geom:area_square_m":767360672.508221,
+    "geom:area_square_m":767360672.508215,
     "geom:bbox":"8.276833,48.071141,8.753247,48.410984",
     "geom:latitude":48.254218,
     "geom:longitude":8.532365,
@@ -183,8 +197,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"769",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Rottweil",
@@ -197,19 +211,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227543,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE135",
         "hasc:id":"DE.BW.RT"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"17c65d75aeeda560405eeb6a77a565db",
+    "wof:geomhash":"8ab8599cb41c28fa05e7958074a0303d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -220,12 +235,12 @@
         }
     ],
     "wof:id":102063277,
-    "wof:lastmodified":1587164313,
+    "wof:lastmodified":1684351509,
     "wof:name":"Rottweil",
     "wof:parent_id":404227543,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":136478,
+    "wof:population":140446,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"RT",

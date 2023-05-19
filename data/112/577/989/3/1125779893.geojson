@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heddert",
+    "eurostat:nuts_2021_id":"07235040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235040",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "geom:area":0.000608,
     "geom:area_square_m":4870585.765302,
     "geom:bbox":"6.7154647477,49.6370206569,6.77469925606,49.6631462778",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235040",
+        "eurostat:nuts_2021_id":"07235040",
         "gn:id":2908401,
         "qs_pg:id":93714,
         "wd:id":"Q569609"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"482a89f62ed7042936dd9ac3fae98586",
+    "wof:geomhash":"92f66baca6c04d0b6b7685cc950a808e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125779893,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Heddert",
     "wof:parent_id":1377686029,
     "wof:placetype":"locality",
-    "wof:population":271,
+    "wof:population":265,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

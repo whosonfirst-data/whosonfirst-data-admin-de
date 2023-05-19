@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sundhausen",
+    "eurostat:nuts_2021_id":"16064061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064061",
+    "eurostat:population":355,
+    "eurostat:population_year":2020,
     "geom:area":0.001017,
-    "geom:area_square_m":7884473.764089,
+    "geom:area_square_m":7884473.76409,
     "geom:bbox":"10.6826970088,51.1410389165,10.7442940456,51.1678972588",
     "geom:latitude":51.155889,
     "geom:longitude":10.71522,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -317,6 +330,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064061",
+        "eurostat:nuts_2021_id":"16064061",
         "gn:id":2824643,
         "gp:id":698358,
         "qs_pg:id":1243995,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"302387621312146c1e1b604ec8c1253e",
+    "wof:geomhash":"5f95a1861153e5496927825d997414a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101910551,
-    "wof:lastmodified":1582342651,
+    "wof:lastmodified":1684352007,
     "wof:name":"Sundhausen",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":369,
+    "wof:population":355,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

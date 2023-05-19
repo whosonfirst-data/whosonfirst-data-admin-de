@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberaurach",
+    "eurostat:nuts_2021_id":"09674159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674159",
+    "eurostat:population":3954,
+    "eurostat:population_year":2020,
     "geom:area":0.005678,
-    "geom:area_square_m":45196310.046188,
+    "geom:area_square_m":45196310.046187,
     "geom:bbox":"10.532782,49.882006,10.707915,49.961716",
     "geom:latitude":49.92525,
     "geom:longitude":10.63183,
@@ -150,18 +162,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377690983,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674159",
+        "eurostat:nuts_2021_id":"09674159",
         "gn:id":6556999,
         "gp:id":700131,
         "qs_pg:id":637102,
@@ -175,7 +190,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cd8a6623b502b6bc7067de8f9e10f98",
+    "wof:geomhash":"a84a553535e0117c476cd0c44f1c51c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101825967,
-    "wof:lastmodified":1608051429,
+    "wof:lastmodified":1684351933,
     "wof:name":"Oberaurach",
     "wof:parent_id":1377690983,
     "wof:placetype":"locality",
-    "wof:population":4024,
+    "wof:population":3954,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

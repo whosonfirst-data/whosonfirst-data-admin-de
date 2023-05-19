@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05974056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wickede (Ruhr)",
+    "eurostat:nuts_2021_id":"05974056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5B",
+    "eurostat:nuts_2021_level_lau":"05974056",
+    "eurostat:population":12682,
+    "eurostat:population_year":2020,
     "geom:area":0.003275,
-    "geom:area_square_m":25214366.464263,
+    "geom:area_square_m":25214366.464264,
     "geom:bbox":"7.83033815688,51.4581714806,7.92285687782,51.5321532069",
     "geom:latitude":51.49616,
     "geom:longitude":7.868444,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05974056",
+        "eurostat:nuts_2021_id":"05974056",
         "gn:id":2809778,
         "gp:id":706096,
         "qs_pg:id":213244,
@@ -311,7 +326,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9b56ff2529d7570c070b14da247c5200",
+    "wof:geomhash":"f3097cdc8560b7a05da23f4001bc4a5b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101810245,
-    "wof:lastmodified":1582342400,
+    "wof:lastmodified":1684351873,
     "wof:name":"Wickede (Ruhr)",
     "wof:parent_id":1377692695,
     "wof:placetype":"locality",
-    "wof:population":12504,
+    "wof:population":12682,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

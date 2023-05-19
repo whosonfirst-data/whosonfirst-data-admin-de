@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westoverledingen",
+    "eurostat:nuts_2021_id":"03457022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457022",
+    "eurostat:population":21210,
+    "eurostat:population_year":2020,
     "geom:area":0.015062,
-    "geom:area_square_m":111697070.3083,
+    "geom:area_square_m":111697070.308296,
     "geom:bbox":"7.362819,53.076972,7.515714,53.21416",
     "geom:latitude":53.147985,
     "geom:longitude":7.444427,
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064009,
         1377688839,
-        85682555
+        85633111,
+        102064009
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457022",
+        "eurostat:nuts_2021_id":"03457022",
         "gn:id":8015070,
         "gp:id":15002838,
         "qs_pg:id":1163774,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dd5cc4494c2b82388138812861c531a0",
+    "wof:geomhash":"e83f63ac8437cafe00f8c0224adb72f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,12 +362,12 @@
         }
     ],
     "wof:id":101845741,
-    "wof:lastmodified":1608049954,
+    "wof:lastmodified":1684351959,
     "wof:name":"Westoverledingen",
     "wof:parent_id":1377688839,
     "wof:placetype":"locality",
-    "wof:population":19820,
-    "wof:population_rank":6,
+    "wof:population":21210,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

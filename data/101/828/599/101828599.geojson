@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laufenburg (Baden), Stadt",
+    "eurostat:nuts_2021_id":"08337066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337066",
+    "eurostat:population":9066,
+    "eurostat:population_year":2020,
     "geom:area":0.002818,
-    "geom:area_square_m":23504807.260218,
+    "geom:area_square_m":23504807.260216,
     "geom:bbox":"8.01936668966,47.5529986124,8.11055361473,47.6225922644",
     "geom:latitude":47.585667,
     "geom:longitude":8.067276,
@@ -149,7 +161,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":23.49,
     "wd:latitude":47.565556,
     "wd:longitude":8.064722,
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337066",
+        "eurostat:nuts_2021_id":"08337066",
         "gn:id":2880121,
         "gp:id":670601,
         "qs_pg:id":1249915,
@@ -174,7 +189,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46100678a1702aebd7b5f93ab4600756",
+    "wof:geomhash":"9819a592aa2e29cc597b82398cf54625",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101828599,
-    "wof:lastmodified":1582342411,
+    "wof:lastmodified":1684351943,
     "wof:name":"Laufenburg (Baden)",
     "wof:parent_id":1377689789,
     "wof:placetype":"locality",
-    "wof:population":5962,
+    "wof:population":9066,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

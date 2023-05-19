@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Scheitenkorb",
+    "eurostat:nuts_2021_id":"07232116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232116",
+    "eurostat:population":32,
+    "eurostat:population_year":2020,
     "geom:area":0.000365,
     "geom:area_square_m":2902047.032008,
     "geom:bbox":"6.19004956687,49.9967190398,6.21923567765,50.0208003712",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232116",
+        "eurostat:nuts_2021_id":"07232116",
         "gn:id":2839912,
         "qs_pg:id":93121,
         "wd:id":"Q137736"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d0016f95e7288c4342ad2df371d66e13",
+    "wof:geomhash":"cf08a44417f008a297f04c43d05dfefb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125844501,
-    "wof:lastmodified":1582343058,
+    "wof:lastmodified":1684352026,
     "wof:name":"Scheitenkorb",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":25,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

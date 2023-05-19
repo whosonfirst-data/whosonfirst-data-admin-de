@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08128131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wertheim, Stadt",
+    "eurostat:nuts_2021_id":"08128131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11B",
+    "eurostat:nuts_2021_level_lau":"08128131",
+    "eurostat:population":22832,
+    "eurostat:population_year":2020,
     "geom:area":0.017318,
-    "geom:area_square_m":138380701.977237,
+    "geom:area_square_m":138380701.977236,
     "geom:bbox":"9.36769517152,49.6926572329,9.65186583682,49.7914776498",
     "geom:latitude":49.743241,
     "geom:longitude":9.522536,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08128131",
+        "eurostat:nuts_2021_id":"08128131",
         "gn:id":2810716,
         "gp:id":705574,
         "qs_pg:id":171489,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0ad46266b0d82617e3d711fc39a6bac0",
+    "wof:geomhash":"eb8d597515bdd7d97eae4cbd90058da9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101913675,
-    "wof:lastmodified":1582342488,
+    "wof:lastmodified":1684352007,
     "wof:name":"Wertheim",
     "wof:parent_id":1377687971,
     "wof:placetype":"locality",
-    "wof:population":24869,
+    "wof:population":22832,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bechtheim",
+    "eurostat:nuts_2021_id":"07331006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331006",
+    "eurostat:population":1751,
+    "eurostat:population_year":2020,
     "geom:area":0.001685,
-    "geom:area_square_m":13470272.627302,
+    "geom:area_square_m":13470272.6273,
     "geom:bbox":"8.24709028008,49.7144317482,8.35239138552,49.7402841321",
     "geom:latitude":49.727499,
     "geom:longitude":8.292765,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":629,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331006",
+        "eurostat:nuts_2021_id":"07331006",
         "gn:id":2951741,
         "gp:id":637346,
         "qs_pg:id":374495,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"53859a0410d38a96611e3c1267a37533",
+    "wof:geomhash":"405b15d58d5fb2685af9285174301228",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101813169,
-    "wof:lastmodified":1582342563,
+    "wof:lastmodified":1684351888,
     "wof:name":"Bechtheim",
     "wof:parent_id":1377686221,
     "wof:placetype":"locality",
-    "wof:population":1876,
+    "wof:population":1751,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

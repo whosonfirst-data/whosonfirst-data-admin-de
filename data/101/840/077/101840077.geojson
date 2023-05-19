@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nickenich",
+    "eurostat:nuts_2021_id":"07137081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137081",
+    "eurostat:population":3620,
+    "eurostat:population_year":2020,
     "geom:area":0.002125,
-    "geom:area_square_m":16742176.221539,
+    "geom:area_square_m":16742176.221538,
     "geom:bbox":"7.25381680731,50.3904709602,7.37895375342,50.4357398719",
     "geom:latitude":50.412703,
     "geom:longitude":7.322659,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137081",
+        "eurostat:nuts_2021_id":"07137081",
         "gn:id":2863732,
         "gp:id":679208,
         "qs_pg:id":213883,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0f8065facd8c03a010672a7c3f5c1709",
+    "wof:geomhash":"947405b8382f074aaa52e762b50e8922",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101840077,
-    "wof:lastmodified":1582342559,
+    "wof:lastmodified":1684351950,
     "wof:name":"Nickenich",
     "wof:parent_id":1377685545,
     "wof:placetype":"locality",
-    "wof:population":3582,
+    "wof:population":3620,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heitersheim, Stadt",
+    "eurostat:nuts_2021_id":"08315050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315050",
+    "eurostat:population":6354,
+    "eurostat:population_year":2020,
     "geom:area":0.001415,
-    "geom:area_square_m":11738030.146676,
+    "geom:area_square_m":11738030.146673,
     "geom:bbox":"7.58162748855,47.8571303924,7.70692954776,47.9061420347",
     "geom:latitude":47.876794,
     "geom:longitude":7.654858,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":47.875278,
     "wd:longitude":7.654722,
     "wd:population":5968,
@@ -341,6 +354,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315050",
+        "eurostat:nuts_2021_id":"08315050",
         "gn:id":2907068,
         "gp:id":658788,
         "qs_pg:id":438239,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"375e7cfc822fb97e6aae1d258782d176",
+    "wof:geomhash":"ac75f8dc05d5d9a56e3d8a01c0b4e6b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101765103,
-    "wof:lastmodified":1582342333,
+    "wof:lastmodified":1684351815,
     "wof:name":"Heitersheim",
     "wof:parent_id":1377689187,
     "wof:placetype":"locality",
-    "wof:population":5968,
+    "wof:population":6354,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

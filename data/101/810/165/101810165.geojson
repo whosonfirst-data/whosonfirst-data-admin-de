@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bovenden, Flecken",
+    "eurostat:nuts_2021_id":"03159007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159007",
+    "eurostat:population":13651,
+    "eurostat:population_year":2020,
     "geom:area":0.008246,
-    "geom:area_square_m":63342231.807639,
+    "geom:area_square_m":63342231.807641,
     "geom:bbox":"9.815085,51.559113,10.070538,51.625176",
     "geom:latitude":51.593091,
     "geom:longitude":9.937207,
@@ -300,17 +312,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1288,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        1377675563,
         1377685049,
-        85682555
+        85633111,
+        1377675563
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159007",
+        "eurostat:nuts_2021_id":"03159007",
         "gn:id":2945726,
         "gp:id":640564,
         "qs_pg:id":1040125,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"16863078c20c9592196c59929ceb926d",
+    "wof:geomhash":"5b48b3dedcad0bef7133896a00430cde",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101810165,
-    "wof:lastmodified":1608050070,
+    "wof:lastmodified":1684351872,
     "wof:name":"Bovenden",
     "wof:parent_id":1377685049,
     "wof:placetype":"locality",
-    "wof:population":13964,
+    "wof:population":13651,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

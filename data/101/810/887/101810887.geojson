@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schotten, Stadt",
+    "eurostat:nuts_2021_id":"06535016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535016",
+    "eurostat:population":10073,
+    "eurostat:population_year":2020,
     "geom:area":0.016926,
-    "geom:area_square_m":133153293.88899,
+    "geom:area_square_m":133153293.888991,
     "geom:bbox":"9.040577,50.424687,9.271001,50.549147",
     "geom:latitude":50.491341,
     "geom:longitude":9.160277,
@@ -301,20 +313,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.5,
     "wd:longitude":9.116667,
     "wd:wordcount":742,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377684001,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535016",
+        "eurostat:nuts_2021_id":"06535016",
         "gn:id":2836251,
         "gp:id":693230,
         "qs_pg:id":141790,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96084b9b1d8ba0a1880da0cc2cf1cd62",
+    "wof:geomhash":"c09d6bd667d2848dc39ff80347c834a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101810887,
-    "wof:lastmodified":1608050036,
+    "wof:lastmodified":1684351876,
     "wof:name":"Schotten",
     "wof:parent_id":1377684001,
     "wof:placetype":"locality",
-    "wof:population":11566,
+    "wof:population":10073,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

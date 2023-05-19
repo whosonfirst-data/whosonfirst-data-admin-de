@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bodenrode-Westhausen",
+    "eurostat:nuts_2021_id":"16061012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061012",
+    "eurostat:population":1118,
+    "eurostat:population_year":2020,
     "geom:area":0.001896,
     "geom:area_square_m":14629780.891887,
     "geom:bbox":"10.1631449359,51.3727520525,10.2429252041,51.4133357111",
@@ -293,7 +305,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682541,
@@ -304,6 +317,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061012",
+        "eurostat:nuts_2021_id":"16061012",
         "gn:id":2947114,
         "gp:id":639823,
         "qs_pg:id":253079,
@@ -313,7 +328,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ca62f438faa49bb97b530584e4ea5a8",
+    "wof:geomhash":"a7bbcb1b48ab1b6e3fc02cca7e56809f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101809221,
-    "wof:lastmodified":1582342598,
+    "wof:lastmodified":1684351868,
     "wof:name":"Bodenrode-Westhausen",
     "wof:parent_id":1377689467,
     "wof:placetype":"locality",
-    "wof:population":1137,
+    "wof:population":1118,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

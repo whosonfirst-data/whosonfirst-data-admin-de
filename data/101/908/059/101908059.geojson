@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gammelin",
+    "eurostat:nuts_2021_id":"13076041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076041",
+    "eurostat:population":481,
+    "eurostat:population_year":2020,
     "geom:area":0.002113,
-    "geom:area_square_m":15536711.659537,
+    "geom:area_square_m":15536711.659536,
     "geom:bbox":"11.2036702642,53.4774595287,11.2835048735,53.5281631378",
     "geom:latitude":53.504806,
     "geom:longitude":11.236916,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":378,
     "wof:belongsto":[
         85682487,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076041",
+        "eurostat:nuts_2021_id":"13076041",
         "gn:id":2922761,
         "gp:id":651440,
         "qs_pg:id":239988,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d9e60210ef712241cf1bd245912a3ca8",
+    "wof:geomhash":"804ec89905fa37c6cfea136b4b3148e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101908059,
-    "wof:lastmodified":1582342351,
+    "wof:lastmodified":1684351992,
     "wof:name":"Gammelin",
     "wof:parent_id":1377685279,
     "wof:placetype":"locality",
-    "wof:population":485,
+    "wof:population":481,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

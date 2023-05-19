@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perleberg, Stadt",
+    "eurostat:nuts_2021_id":"12070296",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070296",
+    "eurostat:population":12065,
+    "eurostat:population_year":2020,
     "geom:area":0.018598,
-    "geom:area_square_m":138139764.468786,
+    "geom:area_square_m":138139764.468782,
     "geom:bbox":"11.692609,53.005841,11.952022,53.145581",
     "geom:latitude":53.080956,
     "geom:longitude":11.845928,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.066667,
     "wd:longitude":11.866667,
     "wd:wordcount":481,
@@ -327,14 +340,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064003,
         1377683949,
-        85682553
+        85633111,
+        102064003
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070296",
+        "eurostat:nuts_2021_id":"12070296",
         "gn:id":2854848,
         "gp:id":684558,
         "qs_pg:id":1219348,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e261c1fab77967af23e2ae2d3da816c5",
+    "wof:geomhash":"653d90b73438833930461ebf84ec9dd8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101818529,
-    "wof:lastmodified":1608049752,
+    "wof:lastmodified":1684351900,
     "wof:name":"Perleberg",
     "wof:parent_id":1377683949,
     "wof:placetype":"locality",
-    "wof:population":13102,
+    "wof:population":12065,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

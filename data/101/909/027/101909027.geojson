@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borxleben",
+    "eurostat:nuts_2021_id":"16065008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065008",
+    "eurostat:population":277,
+    "eurostat:population_year":2020,
     "geom:area":0.00071,
-    "geom:area_square_m":5478955.701023,
+    "geom:area_square_m":5478955.701022,
     "geom:bbox":"11.1990471707,51.3886685925,11.2479024118,51.4131861517",
     "geom:latitude":51.400896,
     "geom:longitude":11.22435,
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065008",
+        "eurostat:nuts_2021_id":"16065008",
         "gn:id":2895731,
         "gp:id":640436,
         "qs_pg:id":579666,
@@ -192,7 +207,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a55b42776a68647ca3a7040e2ecbca63",
+    "wof:geomhash":"e3d4d688cb3c1da3fcf75e68d53c1696",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101909027,
-    "wof:lastmodified":1582342290,
+    "wof:lastmodified":1684352001,
     "wof:name":"Borxleben",
     "wof:parent_id":1377689917,
     "wof:placetype":"locality",
-    "wof:population":362,
+    "wof:population":277,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

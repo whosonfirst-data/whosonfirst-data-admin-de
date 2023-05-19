@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gallin",
+    "eurostat:nuts_2021_id":"13076039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076039",
+    "eurostat:population":568,
+    "eurostat:population_year":2020,
     "geom:area":0.003079,
     "geom:area_square_m":22653680.241823,
     "geom:bbox":"10.7838214701,53.4673923339,10.9182489007,53.5161898173",
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -126,6 +139,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076039",
+        "eurostat:nuts_2021_id":"13076039",
         "gn:id":2922816,
         "wk:page":"Gallin"
     },
@@ -133,7 +148,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"f35329b64e62fb9229805efe5c7c8e28",
+    "wof:geomhash":"776cc8aa9d776cbca016e63890eeeb1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1293675745,
-    "wof:lastmodified":1582342023,
+    "wof:lastmodified":1684352060,
     "wof:name":"Gallin",
     "wof:parent_id":1377685349,
     "wof:placetype":"locality",
-    "wof:population":530,
+    "wof:population":568,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

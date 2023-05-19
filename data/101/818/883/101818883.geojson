@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bernitt",
+    "eurostat:nuts_2021_id":"13072013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072013",
+    "eurostat:population":1585,
+    "eurostat:population_year":2020,
     "geom:area":0.01006,
-    "geom:area_square_m":73334516.810116,
+    "geom:area_square_m":73334516.810113,
     "geom:bbox":"11.7564771415,53.8199855822,11.9595425695,53.9454077798",
     "geom:latitude":53.876998,
     "geom:longitude":11.857603,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072013",
+        "eurostat:nuts_2021_id":"13072013",
         "gn:id":2950003,
         "gp:id":638335,
         "qs_pg:id":579795,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a262ecf8fd2c0be737ac66d3d05d005a",
+    "wof:geomhash":"2001583e39343ebcb66ee3e49a46d8a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101818883,
-    "wof:lastmodified":1582342364,
+    "wof:lastmodified":1684351905,
     "wof:name":"Bernitt",
     "wof:parent_id":1377684641,
     "wof:placetype":"locality",
-    "wof:population":1890,
+    "wof:population":1585,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

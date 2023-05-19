@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05162020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Korschenbroich, Stadt",
+    "eurostat:nuts_2021_id":"05162020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1D",
+    "eurostat:nuts_2021_level_lau":"05162020",
+    "eurostat:population":33251,
+    "eurostat:population_year":2020,
     "geom:area":0.007125,
-    "geom:area_square_m":55219197.956764,
+    "geom:area_square_m":55219197.956762,
     "geom:bbox":"6.479925,51.140264,6.626855,51.232537",
     "geom:latitude":51.185926,
     "geom:longitude":6.549279,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063757,
         1377689749,
         404227561,
-        85682513
+        102063757
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05162020",
+        "eurostat:nuts_2021_id":"05162020",
         "gn:id":2885397,
         "gp:id":668333,
         "qs_pg:id":142273,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"33434dd87e42f087963fb1ac612d6f2c",
+    "wof:geomhash":"1ef148f6cd5e8502209ed5ed8a2ead30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810017,
-    "wof:lastmodified":1608050092,
+    "wof:lastmodified":1684351870,
     "wof:name":"Korschenbroich",
     "wof:parent_id":1377689749,
     "wof:placetype":"locality",
-    "wof:population":33406,
+    "wof:population":33251,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

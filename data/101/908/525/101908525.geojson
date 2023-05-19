@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barnekow",
+    "eurostat:nuts_2021_id":"13074003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074003",
+    "eurostat:population":581,
+    "eurostat:population_year":2020,
     "geom:area":0.002125,
-    "geom:area_square_m":15497672.273367,
+    "geom:area_square_m":15497672.273365,
     "geom:bbox":"11.3418656252,53.840605229,11.4196298966,53.893412512",
     "geom:latitude":53.866472,
     "geom:longitude":11.380522,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074003",
+        "eurostat:nuts_2021_id":"13074003",
         "gn:id":2952511,
         "gp:id":637001,
         "qs_pg:id":94162,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"776c5c91f6a960dacee642b7f21b20d1",
+    "wof:geomhash":"4100578fd61e1a2b9d73a69b509270b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101908525,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351997,
     "wof:name":"Barnekow",
     "wof:parent_id":1377693587,
     "wof:placetype":"locality",
-    "wof:population":680,
+    "wof:population":581,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

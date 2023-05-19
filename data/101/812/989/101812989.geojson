@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10042114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mettlach",
+    "eurostat:nuts_2021_id":"10042114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC02",
+    "eurostat:nuts_2021_level_lau":"10042114",
+    "eurostat:population":11975,
+    "eurostat:population_year":2020,
     "geom:area":0.009776,
-    "geom:area_square_m":78503779.524538,
+    "geom:area_square_m":78503779.524536,
     "geom:bbox":"6.447212,49.445881,6.657695,49.544366",
     "geom:latitude":49.50157,
     "geom:longitude":6.551719,
@@ -307,21 +319,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":86,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063489,
         1377693797,
-        85682479
+        85633111,
+        102063489
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10042114",
+        "eurostat:nuts_2021_id":"10042114",
         "gn:id":2871538,
         "gp:id":675047,
         "qs_pg:id":1148687,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"20b0846ad24ae42bc3ed075ad82556d1",
+    "wof:geomhash":"56cc22e8ce0416d8f8b21bc73219838f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,12 +363,12 @@
         }
     ],
     "wof:id":101812989,
-    "wof:lastmodified":1608051233,
+    "wof:lastmodified":1684351886,
     "wof:name":"Mettlach",
     "wof:parent_id":1377693797,
     "wof:placetype":"locality",
-    "wof:population":3279,
-    "wof:population_rank":4,
+    "wof:population":11975,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

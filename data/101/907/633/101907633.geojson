@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wachstedt",
+    "eurostat:nuts_2021_id":"16061101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061101",
+    "eurostat:population":466,
+    "eurostat:population_year":2020,
     "geom:area":0.002287,
     "geom:area_square_m":17683217.129563,
     "geom:bbox":"10.1976663735,51.2540899161,10.2735670673,51.3118646855",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061101",
+        "eurostat:nuts_2021_id":"16061101",
         "gn:id":2815689,
         "gp:id":703102,
         "qs_pg:id":576584,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5ef0fb0b180a623657c98bf330e5dded",
+    "wof:geomhash":"1895959d6d452abcc65f037a6ed0aaff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101907633,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351989,
     "wof:name":"Wachstedt",
     "wof:parent_id":1377689483,
     "wof:placetype":"locality",
-    "wof:population":568,
+    "wof:population":466,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

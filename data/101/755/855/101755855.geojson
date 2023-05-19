@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Markkleeberg, Stadt",
+    "eurostat:nuts_2021_id":"14729260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729260",
+    "eurostat:population":24748,
+    "eurostat:population_year":2020,
     "geom:area":0.004024,
-    "geom:area_square_m":31130646.521346,
+    "geom:area_square_m":31130646.521347,
     "geom:bbox":"12.322413,51.240379,12.448922,51.29636",
     "geom:latitude":51.266276,
     "geom:longitude":12.386982,
@@ -179,21 +191,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":246,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687811,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729260",
+        "eurostat:nuts_2021_id":"14729260",
         "gn:id":2873352,
         "gp:id":673999,
         "qs_pg:id":216944,
@@ -207,7 +222,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"018265c912dd99b5c6adc998188059f2",
+    "wof:geomhash":"21dcfc6a23d5cd6b5351c522e50ba65b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -219,11 +234,11 @@
         }
     ],
     "wof:id":101755855,
-    "wof:lastmodified":1608049412,
+    "wof:lastmodified":1684351790,
     "wof:name":"Markkleeberg",
     "wof:parent_id":1377687811,
     "wof:placetype":"locality",
-    "wof:population":24000,
+    "wof:population":24748,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

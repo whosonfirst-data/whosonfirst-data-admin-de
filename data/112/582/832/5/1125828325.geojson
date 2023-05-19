@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzbunge",
+    "eurostat:nuts_2021_id":"01058081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058081",
+    "eurostat:population":343,
+    "eurostat:population_year":2020,
     "geom:area":0.000739,
     "geom:area_square_m":5322700.318633,
     "geom:bbox":"9.65211601905,54.3611309156,9.72402106116,54.3937795441",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058081",
+        "eurostat:nuts_2021_id":"01058081",
         "gn:id":2899970,
         "qs_pg:id":578553,
         "wd:id":"Q556383"
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9fb7c99c29a26ecec030305ccf8686af",
+    "wof:geomhash":"f6745e2751c0e2d34a27762b5d881eda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1125828325,
-    "wof:lastmodified":1582343025,
+    "wof:lastmodified":1684352018,
     "wof:name":"Holzbunge",
     "wof:parent_id":1377684287,
     "wof:placetype":"locality",
-    "wof:population":365,
+    "wof:population":343,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

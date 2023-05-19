@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wrist",
+    "eurostat:nuts_2021_id":"01061116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061116",
+    "eurostat:population":2359,
+    "eurostat:population_year":2020,
     "geom:area":0.001376,
     "geom:area_square_m":10015154.22462,
     "geom:bbox":"9.69350965562,53.9107453539,9.78079999431,53.9436201656",
@@ -438,7 +450,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1468,
     "wof:belongsto":[
         85682517,
@@ -449,6 +462,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061116",
+        "eurostat:nuts_2021_id":"01061116",
         "gn:id":2805994,
         "gp:id":708083,
         "qs_pg:id":141549,
@@ -459,7 +474,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"45e5463a82e7699f32d578cf599a79e7",
+    "wof:geomhash":"46940e0c9d7e939f687eb53ce1b66c7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -471,11 +486,11 @@
         }
     ],
     "wof:id":101806717,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351854,
     "wof:name":"Wrist",
     "wof:parent_id":1377684707,
     "wof:placetype":"locality",
-    "wof:population":2507,
+    "wof:population":2359,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

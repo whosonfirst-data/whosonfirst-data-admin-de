@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Joachimsthal, Stadt",
+    "eurostat:nuts_2021_id":"12060100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060100",
+    "eurostat:population":3405,
+    "eurostat:population_year":2020,
     "geom:area":0.016366,
-    "geom:area_square_m":121883031.795631,
+    "geom:area_square_m":121883031.795633,
     "geom:bbox":"13.6022806409,52.9017448512,13.829378112,53.0296773244",
     "geom:latitude":52.966315,
     "geom:longitude":13.720218,
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.966667,
     "wd:longitude":13.75,
     "wd:wordcount":305,
@@ -182,6 +195,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060100",
+        "eurostat:nuts_2021_id":"12060100",
         "gn:id":2894884,
         "gp:id":664154,
         "qs_pg:id":245684,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a071ce59546c16d1186c67d1017f3b19",
+    "wof:geomhash":"699755bc296957ba0558e4f0ff8d4c21",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101818437,
-    "wof:lastmodified":1582342360,
+    "wof:lastmodified":1684351899,
     "wof:name":"Joachimsthal",
     "wof:parent_id":1377694271,
     "wof:placetype":"locality",
-    "wof:population":3459,
+    "wof:population":3405,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

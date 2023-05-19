@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meschede, Kreis- und  Hochschulstadt",
+    "eurostat:nuts_2021_id":"05958032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958032",
+    "eurostat:population":29786,
+    "eurostat:population_year":2020,
     "geom:area":0.028144,
-    "geom:area_square_m":217404058.311994,
+    "geom:area_square_m":217404058.311989,
     "geom:bbox":"8.095986,51.250603,8.373802,51.41074",
     "geom:latitude":51.33811,
     "geom:longitude":8.247683,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":416,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692261,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958032",
+        "eurostat:nuts_2021_id":"05958032",
         "gn:id":2871668,
         "gp:id":674954,
         "loc:id":"n82066426",
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e1b8db2e79efade5260a5722ee3f8c93",
+    "wof:geomhash":"1f7f333eb6ad8f26341e1c8d269d4902",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101839495,
-    "wof:lastmodified":1608051842,
+    "wof:lastmodified":1684351948,
     "wof:name":"Meschede",
     "wof:parent_id":1377692261,
     "wof:placetype":"locality",
-    "wof:population":32224,
+    "wof:population":29786,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

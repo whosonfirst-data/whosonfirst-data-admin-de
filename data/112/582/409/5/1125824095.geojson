@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rittersheim",
+    "eurostat:nuts_2021_id":"07333062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333062",
+    "eurostat:population":174,
+    "eurostat:population_year":2020,
     "geom:area":0.000475,
-    "geom:area_square_m":3799338.870926,
+    "geom:area_square_m":3799338.870925,
     "geom:bbox":"8.04328279065,49.6553715928,8.07386616277,49.6822354418",
     "geom:latitude":49.670081,
     "geom:longitude":8.059296,
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333062",
+        "eurostat:nuts_2021_id":"07333062",
         "gn:id":2846374,
         "qs_pg:id":93179,
         "wd:id":"Q561568"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"fe697f433589bf6b14acbfd69d7b7c2b",
+    "wof:geomhash":"068cd408609c4f438041c96c433cf260",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,12 +316,12 @@
         }
     ],
     "wof:id":1125824095,
-    "wof:lastmodified":1582343026,
+    "wof:lastmodified":1684352016,
     "wof:name":"Rittersheim",
     "wof:parent_id":1377686337,
     "wof:placetype":"locality",
-    "wof:population":202,
-    "wof:population_rank":2,
+    "wof:population":174,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

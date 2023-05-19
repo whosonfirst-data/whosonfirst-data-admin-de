@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coswig, Stadt",
+    "eurostat:nuts_2021_id":"14627010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627010",
+    "eurostat:population":20739,
+    "eurostat:population_year":2020,
     "geom:area":0.003354,
-    "geom:area_square_m":26024417.655088,
+    "geom:area_square_m":26024417.655087,
     "geom:bbox":"13.499,51.104781,13.65534,51.162286",
     "geom:latitude":51.137865,
     "geom:longitude":13.577435,
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687253,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627010",
+        "eurostat:nuts_2021_id":"14627010",
         "gn:id":2939820,
         "gp:id":643308,
         "qs_pg:id":905718,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7cb1517e1ce8f4be9e7d312a6fa32cfb",
+    "wof:geomhash":"59a417d399f20763b86d7db330f80930",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101756005,
-    "wof:lastmodified":1608050843,
+    "wof:lastmodified":1684351792,
     "wof:name":"Coswig",
     "wof:parent_id":1377687253,
     "wof:placetype":"locality",
-    "wof:population":22304,
+    "wof:population":20739,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

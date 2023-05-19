@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwissel",
+    "eurostat:nuts_2021_id":"01060074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060074",
+    "eurostat:population":258,
+    "eurostat:population_year":2020,
     "geom:area":0.000602,
     "geom:area_square_m":4387454.392861,
     "geom:bbox":"10.2720792087,53.8889928105,10.3144256443,53.9135305426",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060074",
+        "eurostat:nuts_2021_id":"01060074",
         "gn:id":2834157,
         "qs_pg:id":93081,
         "wd:id":"Q558170"
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"13b2e995c16e8f09ce5cf55320935f83",
+    "wof:geomhash":"00c8afbb18c1cb7c67a55b73dd8dd3bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1126037035,
-    "wof:lastmodified":1582342985,
+    "wof:lastmodified":1684352052,
     "wof:name":"Schwissel",
     "wof:parent_id":1377684587,
     "wof:placetype":"locality",
-    "wof:population":240,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

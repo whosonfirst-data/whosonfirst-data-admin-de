@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siggelkow",
+    "eurostat:nuts_2021_id":"13076125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076125",
+    "eurostat:population":845,
+    "eurostat:population_year":2020,
     "geom:area":0.007512,
-    "geom:area_square_m":55409784.913478,
+    "geom:area_square_m":55409784.913479,
     "geom:bbox":"11.8803364767,53.3323401235,12.064877651,53.4249834921",
     "geom:latitude":53.37762,
     "geom:longitude":11.977533,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682487,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076125",
+        "eurostat:nuts_2021_id":"13076125",
         "gn:id":2832264,
         "gp:id":694998,
         "qs_pg:id":93060,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"77f37eb5191a055454131a2975f13256",
+    "wof:geomhash":"6e960208b5dbc104a512f35a6141e66c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,12 +340,12 @@
         }
     ],
     "wof:id":101908325,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351995,
     "wof:name":"Siggelkow",
     "wof:parent_id":1377685253,
     "wof:placetype":"locality",
-    "wof:population":1056,
-    "wof:population_rank":3,
+    "wof:population":845,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

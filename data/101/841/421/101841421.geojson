@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061572",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zeuthen",
+    "eurostat:nuts_2021_id":"12061572",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061572",
+    "eurostat:population":11427,
+    "eurostat:population_year":2020,
     "geom:area":0.001762,
     "geom:area_square_m":13311931.746422,
     "geom:bbox":"13.559932,52.310511,13.652612,52.37014",
@@ -297,17 +309,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":464,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063913,
         1377694397,
-        85682553
+        85633111,
+        102063913
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061572",
+        "eurostat:nuts_2021_id":"12061572",
         "gn:id":2804646,
         "gp:id":675241,
         "qs_pg:id":576253,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"387b7edb6758ea38edabdaa6e84bc3cf",
+    "wof:geomhash":"5e40d22a5e9ad28490d6e7d0e3d3515d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101841421,
-    "wof:lastmodified":1608050997,
+    "wof:lastmodified":1684351953,
     "wof:name":"Zeuthen",
     "wof:parent_id":1377694397,
     "wof:placetype":"locality",
-    "wof:population":10084,
+    "wof:population":11427,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

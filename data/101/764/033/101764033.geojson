@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6tzingen",
+    "eurostat:nuts_2021_id":"08315013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315013",
+    "eurostat:population":5331,
+    "eurostat:population_year":2020,
     "geom:area":0.001569,
-    "geom:area_square_m":12961089.932049,
+    "geom:area_square_m":12961089.932048,
     "geom:bbox":"7.68473841821,48.0549519684,7.75279357869,48.0920034393",
     "geom:latitude":48.073757,
     "geom:longitude":7.715647,
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":136,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315013",
+        "eurostat:nuts_2021_id":"08315013",
         "gn:id":2945740,
         "gp:id":682171,
         "qs_pg:id":1040127,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"28072f1d726f569dde0b6379296c08cb",
+    "wof:geomhash":"03037b5515b47d0db6d8dae40492ab0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101764033,
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351811,
     "wof:name":"B\u00f6tzingen",
     "wof:parent_id":1377689215,
     "wof:placetype":"locality",
-    "wof:population":5239,
+    "wof:population":5331,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

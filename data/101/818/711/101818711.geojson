@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ratzeburg, Stadt",
+    "eurostat:nuts_2021_id":"01053100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053100",
+    "eurostat:population":14525,
+    "eurostat:population_year":2020,
     "geom:area":0.004135,
-    "geom:area_square_m":30258273.717264,
+    "geom:area_square_m":30258273.717262,
     "geom:bbox":"10.726703,53.670364,10.826874,53.782261",
     "geom:latitude":53.712844,
     "geom:longitude":10.76162,
@@ -334,21 +346,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":722,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064073,
         1377683449,
-        85682517
+        85633111,
+        102064073
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053100",
+        "eurostat:nuts_2021_id":"01053100",
         "gn:id":2850132,
         "gp:id":687041,
         "qs_pg:id":906492,
@@ -363,7 +378,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8bf3fe39b8d966ebc007aa28544625f7",
+    "wof:geomhash":"3861d096605fd16c2d26b2c45074a8f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
         }
     ],
     "wof:id":101818711,
-    "wof:lastmodified":1608049793,
+    "wof:lastmodified":1684351903,
     "wof:name":"Ratzeburg",
     "wof:parent_id":1377683449,
     "wof:placetype":"locality",
-    "wof:population":13623,
+    "wof:population":14525,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

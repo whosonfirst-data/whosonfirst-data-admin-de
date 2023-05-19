@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dankerath",
+    "eurostat:nuts_2021_id":"07131015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131015",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "geom:area":0.00041,
     "geom:area_square_m":3233373.511855,
     "geom:bbox":"6.79347481315,50.3276473804,6.84426677539,50.3501651875",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131015",
+        "eurostat:nuts_2021_id":"07131015",
         "gn:id":2939019,
         "qs_pg:id":579461,
         "wd:id":"Q564983"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"be9e7f6b13333e26c6fa6dc87eba7bde",
+    "wof:geomhash":"2db6931892d895ee50393e66622daf23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1126014333,
-    "wof:lastmodified":1582343019,
+    "wof:lastmodified":1684352047,
     "wof:name":"Dankerath",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":105,
+    "wof:population":75,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

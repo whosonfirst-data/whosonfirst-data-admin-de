@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Senheim",
+    "eurostat:nuts_2021_id":"07135079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135079",
+    "eurostat:population":546,
+    "eurostat:population_year":2020,
     "geom:area":0.001581,
-    "geom:area_square_m":12542135.129961,
+    "geom:area_square_m":12542135.129964,
     "geom:bbox":"7.17628297686,50.0457553561,7.24834277894,50.1102034136",
     "geom:latitude":50.078839,
     "geom:longitude":7.206827,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1024,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135079",
+        "eurostat:nuts_2021_id":"07135079",
         "gn:id":2833034,
         "gp:id":677393,
         "qs_pg:id":373797,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"243b0bfb381494c988119ef1f9c20980",
+    "wof:geomhash":"0fe4b94b6a8a7cad6fb4e64ecbaf020a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101907143,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351985,
     "wof:name":"Senheim",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":606,
+    "wof:population":546,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

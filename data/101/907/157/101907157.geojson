@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wolsfeld",
+    "eurostat:nuts_2021_id":"07232137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232137",
+    "eurostat:population":1026,
+    "eurostat:population_year":2020,
     "geom:area":0.001176,
     "geom:area_square_m":9366087.713648,
     "geom:bbox":"6.43088596969,49.8928341355,6.51195988624,49.9182880773",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232137",
+        "eurostat:nuts_2021_id":"07232137",
         "gn:id":2806307,
         "gp:id":707887,
         "qs_pg:id":576320,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"930ef85342a39145c39c0c0f6a400d74",
+    "wof:geomhash":"b2df3082a8e888a0bbab46b699495025",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,12 +181,12 @@
         }
     ],
     "wof:id":101907157,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351985,
     "wof:name":"Wolsfeld",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":801,
-    "wof:population_rank":2,
+    "wof:population":1026,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

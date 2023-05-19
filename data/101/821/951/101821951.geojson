@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Menteroda",
+    "eurostat:nuts_2021_id":"16064072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064072",
+    "eurostat:population":1920,
+    "eurostat:population_year":2020,
     "geom:area":0.003559,
     "geom:area_square_m":27516076.609208,
     "geom:bbox":"10.462714,51.284132,10.6414,51.327866",
@@ -291,17 +303,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063749,
         1377689781,
-        85682541
+        85633111,
+        102063749
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064072",
+        "eurostat:nuts_2021_id":"16064072",
         "gn:id":2871884,
         "gp:id":674809,
         "qs_pg:id":1243911,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"116bc1e6fbab75777b7a90daf28fe224",
+    "wof:geomhash":"2c563e4f045c39f55960b89f13a56f73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,12 +343,12 @@
         }
     ],
     "wof:id":101821951,
-    "wof:lastmodified":1608050206,
+    "wof:lastmodified":1684351918,
     "wof:name":"Menteroda",
     "wof:parent_id":1377689781,
     "wof:placetype":"locality",
-    "wof:population":2494,
-    "wof:population_rank":4,
+    "wof:population":1920,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

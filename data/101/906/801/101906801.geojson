@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07319000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Worms, Stadt",
+    "eurostat:nuts_2021_id":"07319000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB39",
+    "eurostat:nuts_2021_level_lau":"07319000",
+    "eurostat:population":83542,
+    "eurostat:population_year":2020,
     "geom:area":0.013542,
-    "geom:area_square_m":108415268.872247,
+    "geom:area_square_m":108415268.872246,
     "geom:bbox":"8.23838148319,49.5863817648,8.44637765806,49.7367457966",
     "geom:latitude":49.649434,
     "geom:longitude":8.324514,
@@ -381,7 +393,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -396,6 +409,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07319000",
+        "eurostat:nuts_2021_id":"07319000",
         "gn:id":2806142,
         "gp:id":707991,
         "qs_pg:id":239319,
@@ -405,7 +420,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e61058f7fb653e01335eb9a423a3c54",
+    "wof:geomhash":"9be436c4e8b0bd7972c419d3d3f8ad4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -418,11 +433,11 @@
         }
     ],
     "wof:id":101906801,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351981,
     "wof:name":"Worms",
     "wof:parent_id":1377692845,
     "wof:placetype":"locality",
-    "wof:population":81099,
+    "wof:population":83542,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

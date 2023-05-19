@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nindorf",
+    "eurostat:nuts_2021_id":"01058115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058115",
+    "eurostat:population":595,
+    "eurostat:population_year":2020,
     "geom:area":0.001943,
-    "geom:area_square_m":14077746.381184,
+    "geom:area_square_m":14077746.381186,
     "geom:bbox":"9.65753600395,54.1115363826,9.73369751474,54.1496041945",
     "geom:latitude":54.130956,
     "geom:longitude":9.696976,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058115",
+        "eurostat:nuts_2021_id":"01058115",
         "gn:id":2862388,
         "gp:id":680184,
         "qs_pg:id":577601,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"80478e1b8f7a46d1d87a60532802823d",
+    "wof:geomhash":"7472fa732a1f9ff503c1fba9fdd4b79a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101906365,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351979,
     "wof:name":"Nindorf",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":681,
+    "wof:population":595,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

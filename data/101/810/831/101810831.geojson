@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06631005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehrenberg (Rh\u00f6n)",
+    "eurostat:nuts_2021_id":"06631005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE732",
+    "eurostat:nuts_2021_level_lau":"06631005",
+    "eurostat:population":2564,
+    "eurostat:population_year":2020,
     "geom:area":0.005184,
-    "geom:area_square_m":40764877.128583,
+    "geom:area_square_m":40764877.128581,
     "geom:bbox":"9.9411011592,50.460985536,10.0424794482,50.5501000583",
     "geom:latitude":50.506167,
     "geom:longitude":10.000307,
@@ -110,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06631005",
+        "eurostat:nuts_2021_id":"06631005",
         "gn:id":3207461,
         "gp:id":674712,
         "qs_pg:id":581815,
@@ -131,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa8c8436d7943b34e161ccf77e730309",
+    "wof:geomhash":"44a9fc2a11dda45928ecc98aa9a462bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +159,11 @@
         }
     ],
     "wof:id":101810831,
-    "wof:lastmodified":1582342408,
+    "wof:lastmodified":1684351876,
     "wof:name":"Ehrenberg (Rh\u00f6n)",
     "wof:parent_id":1377684085,
     "wof:placetype":"locality",
-    "wof:population":2547,
+    "wof:population":2564,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

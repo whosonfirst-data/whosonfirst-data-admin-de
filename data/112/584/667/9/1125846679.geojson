@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berscheid",
+    "eurostat:nuts_2021_id":"07232012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232012",
+    "eurostat:population":66,
+    "eurostat:population_year":2020,
     "geom:area":0.000929,
     "geom:area_square_m":7386374.879709,
     "geom:bbox":"6.21478252005,49.9546306311,6.25500643448,49.9958232909",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232012",
+        "eurostat:nuts_2021_id":"07232012",
         "gn:id":2949915,
         "qs_pg:id":94129,
         "wd:id":"Q553453"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"61936f020b324544ea4261028a09aee0",
+    "wof:geomhash":"105e5c7879ffd71255f51ab01c425e0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125846679,
-    "wof:lastmodified":1582343050,
+    "wof:lastmodified":1684352029,
     "wof:name":"Berscheid",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":61,
+    "wof:population":66,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Extertal",
+    "eurostat:nuts_2021_id":"05766028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766028",
+    "eurostat:population":11069,
+    "eurostat:population_year":2020,
     "geom:area":0.012126,
-    "geom:area_square_m":92121011.599205,
+    "geom:area_square_m":92121011.599204,
     "geom:bbox":"9.019653,52.037121,9.193312,52.148491",
     "geom:latitude":52.091377,
     "geom:longitude":9.09836,
@@ -304,18 +316,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":164,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691799,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766028",
+        "eurostat:nuts_2021_id":"05766028",
         "gn:id":3213265,
         "gp:id":15002617,
         "qs_pg:id":260155,
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1e2f45613adcf58288d86b12ef4bb862",
+    "wof:geomhash":"6f12b9e6e86fc5f4da1d79290c437c8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101809131,
-    "wof:lastmodified":1608051630,
+    "wof:lastmodified":1684351867,
     "wof:name":"Extertal",
     "wof:parent_id":1377691799,
     "wof:placetype":"locality",
-    "wof:population":11653,
+    "wof:population":11069,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

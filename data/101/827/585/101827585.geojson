@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winterbach",
+    "eurostat:nuts_2021_id":"08119086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119086",
+    "eurostat:population":7583,
+    "eurostat:population_year":2020,
     "geom:area":0.002079,
     "geom:area_square_m":16939110.011626,
     "geom:bbox":"9.43405231818,48.7656684593,9.50786334376,48.8237431505",
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119086",
+        "eurostat:nuts_2021_id":"08119086",
         "fct:id":"075f3512-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2807825,
         "gp:id":707079,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"15755f0daf36919643e162c4b373a58d",
+    "wof:geomhash":"d213456a9a3fe6552aaa9433dae4c176",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342374,
+    "wof:lastmodified":1684351942,
     "wof:name":"Winterbach",
     "wof:parent_id":1377687533,
     "wof:placetype":"locality",
-    "wof:population":7844,
+    "wof:population":7583,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

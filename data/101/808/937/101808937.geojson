@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05774012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borchen",
+    "eurostat:nuts_2021_id":"05774012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA47",
+    "eurostat:nuts_2021_level_lau":"05774012",
+    "eurostat:population":13393,
+    "eurostat:population_year":2020,
     "geom:area":0.010039,
-    "geom:area_square_m":77018400.732648,
+    "geom:area_square_m":77018400.732649,
     "geom:bbox":"8.66874,51.606804,8.859526,51.695674",
     "geom:latitude":51.651609,
     "geom:longitude":8.769907,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":293,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063835,
         1377692007,
         404227571,
-        85682513
+        102063835
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05774012",
+        "eurostat:nuts_2021_id":"05774012",
         "gn:id":3207325,
         "gp:id":20171916,
         "qs_pg:id":343363,
@@ -331,7 +346,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2aa531ae89c56528b80b6271e9e23cdd",
+    "wof:geomhash":"e041cbd81fe8fc6fc79e1896c54b2b5c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101808937,
-    "wof:lastmodified":1608051668,
+    "wof:lastmodified":1684351865,
     "wof:name":"Borchen",
     "wof:parent_id":1377692007,
     "wof:placetype":"locality",
-    "wof:population":13144,
+    "wof:population":13393,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

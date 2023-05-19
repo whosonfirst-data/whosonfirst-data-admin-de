@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05974012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ense",
+    "eurostat:nuts_2021_id":"05974012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5B",
+    "eurostat:nuts_2021_level_lau":"05974012",
+    "eurostat:population":12162,
+    "eurostat:population_year":2020,
     "geom:area":0.006625,
-    "geom:area_square_m":50991232.240728,
+    "geom:area_square_m":50991232.240729,
     "geom:bbox":"7.881337,51.465996,8.034651,51.53802",
     "geom:latitude":51.501777,
     "geom:longitude":7.970116,
@@ -289,18 +301,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":133,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063821,
         1377692607,
         404227579,
-        85682513
+        102063821
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05974012",
+        "eurostat:nuts_2021_id":"05974012",
         "gn:id":2930017,
         "gp:id":684265,
         "qs_pg:id":579228,
@@ -314,7 +329,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"877961a621610e74b89e27fe312ce70e",
+    "wof:geomhash":"38b935cbad743098080a6b21a787f954",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101808881,
-    "wof:lastmodified":1608051673,
+    "wof:lastmodified":1684351864,
     "wof:name":"Ense",
     "wof:parent_id":1377692607,
     "wof:placetype":"locality",
-    "wof:population":12255,
+    "wof:population":12162,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

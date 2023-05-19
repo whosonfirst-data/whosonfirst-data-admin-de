@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bescheid",
+    "eurostat:nuts_2021_id":"07235005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235005",
+    "eurostat:population":399,
+    "eurostat:population_year":2020,
     "geom:area":0.000929,
     "geom:area_square_m":7424187.888264,
     "geom:bbox":"6.86453311007,49.7270907345,6.91339595807,49.7636870042",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235005",
+        "eurostat:nuts_2021_id":"07235005",
         "gn:id":2949829,
         "qs_pg:id":94124,
         "wd:id":"Q574691"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a73e9038d8b40fd243ba85f09fef9f1f",
+    "wof:geomhash":"fbfd208915d3e28c7ae54a2ba8aa2ee1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125846653,
-    "wof:lastmodified":1582343058,
+    "wof:lastmodified":1684352029,
     "wof:name":"Bescheid",
     "wof:parent_id":1377686019,
     "wof:placetype":"locality",
-    "wof:population":407,
+    "wof:population":399,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

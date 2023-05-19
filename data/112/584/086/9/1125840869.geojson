@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberbillig",
+    "eurostat:nuts_2021_id":"07235096",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235096",
+    "eurostat:population":967,
+    "eurostat:population_year":2020,
     "geom:area":0.000683,
     "geom:area_square_m":5464241.484769,
     "geom:bbox":"6.47933068028,49.6838182085,6.52167469358,49.7129655772",
@@ -264,12 +276,15 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         102191581
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235096",
+        "eurostat:nuts_2021_id":"07235096",
         "gn:id":2861251,
         "qs_pg:id":577558,
         "wd:id":"Q636185"
@@ -279,7 +294,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"3ec6d987c2ec725620b77647cda5189e",
+    "wof:geomhash":"d3df0caa3954ee59329ec59fcacb048a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -289,11 +304,11 @@
         }
     ],
     "wof:id":1125840869,
-    "wof:lastmodified":1582343055,
+    "wof:lastmodified":1684352021,
     "wof:name":"Oberbillig",
     "wof:parent_id":-1,
     "wof:placetype":"locality",
-    "wof:population":851,
+    "wof:population":967,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

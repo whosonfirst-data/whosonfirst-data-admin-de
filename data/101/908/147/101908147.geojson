@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vollrathsruhe",
+    "eurostat:nuts_2021_id":"13071154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071154",
+    "eurostat:population":392,
+    "eurostat:population_year":2020,
     "geom:area":0.004268,
     "geom:area_square_m":31274879.403679,
     "geom:bbox":"12.3958175765,53.624348043,12.5525766075,53.6983425458",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":161,
     "wof:belongsto":[
         85682487,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071154",
+        "eurostat:nuts_2021_id":"13071154",
         "gn:id":2816548,
         "gp:id":702728,
         "qs_pg:id":92921,
@@ -148,7 +163,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0e6d589f5a045cb4407c0de265b3b066",
+    "wof:geomhash":"d9ab8885ee5f88660ccb4dd390240613",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101908147,
-    "wof:lastmodified":1582342354,
+    "wof:lastmodified":1684351993,
     "wof:name":"Vollrathsruhe",
     "wof:parent_id":1377684505,
     "wof:placetype":"locality",
-    "wof:population":545,
+    "wof:population":392,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

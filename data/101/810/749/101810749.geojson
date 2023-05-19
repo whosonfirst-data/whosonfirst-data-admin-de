@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Selters (Westerwald), Stadt",
+    "eurostat:nuts_2021_id":"07143067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143067",
+    "eurostat:population":2814,
+    "eurostat:population_year":2020,
     "geom:area":0.001105,
-    "geom:area_square_m":8687644.996699,
+    "geom:area_square_m":8687644.9967,
     "geom:bbox":"7.72140644996,50.5064187312,7.78562673102,50.5449270701",
     "geom:latitude":50.526869,
     "geom:longitude":7.752154,
@@ -57,7 +69,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -67,6 +80,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143067",
+        "eurostat:nuts_2021_id":"07143067",
         "gn:id":2833138,
         "gp:id":694487,
         "qs_pg:id":1224942
@@ -76,7 +91,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1848f12f25fa6fe87f997f5893606136",
+    "wof:geomhash":"76ae6a74049b12ef998e5f881362fb8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -88,11 +103,11 @@
         }
     ],
     "wof:id":101810749,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351875,
     "wof:name":"Selters (Westerwald)",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":2711,
+    "wof:population":2814,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

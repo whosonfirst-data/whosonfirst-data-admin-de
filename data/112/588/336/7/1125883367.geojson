@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberhambach",
+    "eurostat:nuts_2021_id":"07134063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134063",
+    "eurostat:population":257,
+    "eurostat:population_year":2020,
     "geom:area":0.000646,
     "geom:area_square_m":5164395.151457,
     "geom:bbox":"7.10964110886,49.6748854573,7.17878761864,49.7039267325",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134063",
+        "eurostat:nuts_2021_id":"07134063",
         "gn:id":2860488,
         "qs_pg:id":373956,
         "wd:id":"Q644763"
@@ -143,7 +158,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9381e95c319441c6441cff59e2cfc591",
+    "wof:geomhash":"b8c3eb8a8c38f53d1e8f7e5048219ee6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +170,11 @@
         }
     ],
     "wof:id":1125883367,
-    "wof:lastmodified":1582342992,
+    "wof:lastmodified":1684352036,
     "wof:name":"Oberhambach",
     "wof:parent_id":1377685453,
     "wof:placetype":"locality",
-    "wof:population":300,
+    "wof:population":257,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

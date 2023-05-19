@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05966028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wenden",
+    "eurostat:nuts_2021_id":"05966028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA59",
+    "eurostat:nuts_2021_level_lau":"05966028",
+    "eurostat:population":19609,
+    "eurostat:population_year":2020,
     "geom:area":0.009326,
-    "geom:area_square_m":72631812.814542,
+    "geom:area_square_m":72631812.814546,
     "geom:bbox":"7.779832,50.92464,7.943191,51.003254",
     "geom:latitude":50.963246,
     "geom:longitude":7.863573,
@@ -292,21 +304,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063739,
         1377692499,
         404227579,
-        85682513
+        102063739
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05966028",
+        "eurostat:nuts_2021_id":"05966028",
         "gn:id":2811278,
         "gp:id":705242,
         "loc:id":"n93009310",
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5562efdb32d189ba9710597b68904694",
+    "wof:geomhash":"481886e44415537d04c0be9bd15dc516",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101809987,
-    "wof:lastmodified":1608051648,
+    "wof:lastmodified":1684351869,
     "wof:name":"Wenden",
     "wof:parent_id":1377692499,
     "wof:placetype":"locality",
-    "wof:population":19924,
+    "wof:population":19609,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

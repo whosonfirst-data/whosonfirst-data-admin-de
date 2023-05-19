@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Wildungen, Stadt",
+    "eurostat:nuts_2021_id":"06635003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635003",
+    "eurostat:population":17264,
+    "eurostat:population_year":2020,
     "geom:area":0.015374,
-    "geom:area_square_m":119385858.937578,
+    "geom:area_square_m":119385858.937572,
     "geom:bbox":"8.956367,51.028228,9.221377,51.144943",
     "geom:latitude":51.095962,
     "geom:longitude":9.094089,
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":275.0,
     "wd:latitude":51.116667,
     "wd:longitude":9.116667,
@@ -330,15 +343,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377684893,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635003",
+        "eurostat:nuts_2021_id":"06635003",
         "gn:id":2953317,
         "gp:id":636528,
         "loc:id":"n85081762",
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4de4a82590d8cae6cf6e13b07e354ef9",
+    "wof:geomhash":"6c22bf94e07b573ce850389a2d91eb72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101810095,
-    "wof:lastmodified":1608050099,
+    "wof:lastmodified":1684351871,
     "wof:name":"Bad Wildungen",
     "wof:parent_id":1377684893,
     "wof:placetype":"locality",
-    "wof:population":16711,
+    "wof:population":17264,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

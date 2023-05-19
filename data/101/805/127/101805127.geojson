@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hemmingstedt",
+    "eurostat:nuts_2021_id":"01051048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051048",
+    "eurostat:population":2878,
+    "eurostat:population_year":2020,
     "geom:area":0.002225,
-    "geom:area_square_m":16110673.709252,
+    "geom:area_square_m":16110673.70925,
     "geom:bbox":"9.04294089466,54.1313663813,9.13467048588,54.1747193408",
     "geom:latitude":54.149948,
     "geom:longitude":9.094595,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":145,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051048",
+        "eurostat:nuts_2021_id":"01051048",
         "gn:id":2906527,
         "gp:id":659029,
         "qs_pg:id":578678,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"22d6be308d11f79aa15398ffebbaebcc",
+    "wof:geomhash":"f8d7c43be657fda46c66dd33a476e509",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101805127,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351847,
     "wof:name":"Hemmingstedt",
     "wof:parent_id":1377683411,
     "wof:placetype":"locality",
-    "wof:population":2986,
+    "wof:population":2878,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

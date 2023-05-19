@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stubben",
+    "eurostat:nuts_2021_id":"01053124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053124",
+    "eurostat:population":386,
+    "eurostat:population_year":2020,
     "geom:area":0.000726,
-    "geom:area_square_m":5306696.286436,
+    "geom:area_square_m":5306696.286435,
     "geom:bbox":"10.3969565836,53.7234750377,10.4573215393,53.7469079964",
     "geom:latitude":53.734059,
     "geom:longitude":10.432265,
@@ -101,7 +113,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -111,13 +124,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053124",
+        "eurostat:nuts_2021_id":"01053124",
         "gn:id":2825557
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"813d49bb8244228b16025123f7d87a86",
+    "wof:geomhash":"3431b03eb9b4f03e319cba94752b556e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -129,11 +144,11 @@
         }
     ],
     "wof:id":1226230981,
-    "wof:lastmodified":1582343145,
+    "wof:lastmodified":1684352057,
     "wof:name":"Stubben",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":384,
+    "wof:population":386,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

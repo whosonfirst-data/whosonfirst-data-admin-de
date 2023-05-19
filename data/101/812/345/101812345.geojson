@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holler",
+    "eurostat:nuts_2021_id":"07143033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143033",
+    "eurostat:population":1006,
+    "eurostat:population_year":2020,
     "geom:area":0.000577,
-    "geom:area_square_m":4547883.867473,
+    "geom:area_square_m":4547883.867474,
     "geom:bbox":"7.81320602387,50.4023080085,7.85728518511,50.4253605658",
     "geom:latitude":50.414318,
     "geom:longitude":7.837083,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":119,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143033",
+        "eurostat:nuts_2021_id":"07143033",
         "gn:id":2900499,
         "gp:id":701534,
         "qs_pg:id":578569,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"63fd2b5cd817ede973b99aae724c7ddf",
+    "wof:geomhash":"977830c61025311d8acdb3f9fb3a2859",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101812345,
-    "wof:lastmodified":1582342551,
+    "wof:lastmodified":1684351885,
     "wof:name":"Holler",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":1191,
+    "wof:population":1006,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberb\u00f6sa",
+    "eurostat:nuts_2021_id":"16065051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065051",
+    "eurostat:population":325,
+    "eurostat:population_year":2020,
     "geom:area":0.001538,
     "geom:area_square_m":11891560.031791,
     "geom:bbox":"10.9815307341,51.2708134594,11.0380127545,51.3266043877",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065051",
+        "eurostat:nuts_2021_id":"16065051",
         "gn:id":2861227,
         "gp:id":680923,
         "qs_pg:id":577557,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0f8d4ec6f6c31d964d24925126d0db70",
+    "wof:geomhash":"9abd1c480ad10715463fb47b29c09064",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101909053,
-    "wof:lastmodified":1582342285,
+    "wof:lastmodified":1684352001,
     "wof:name":"Oberb\u00f6sa",
     "wof:parent_id":1377689909,
     "wof:placetype":"locality",
-    "wof:population":398,
+    "wof:population":325,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

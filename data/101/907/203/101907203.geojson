@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bickendorf",
+    "eurostat:nuts_2021_id":"07232014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232014",
+    "eurostat:population":511,
+    "eurostat:population_year":2020,
     "geom:area":0.000699,
-    "geom:area_square_m":5548317.157966,
+    "geom:area_square_m":5548317.157967,
     "geom:bbox":"6.48473771021,50.0245047743,6.52132351918,50.0542150526",
     "geom:latitude":50.038763,
     "geom:longitude":6.500526,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232014",
+        "eurostat:nuts_2021_id":"07232014",
         "gn:id":2949292,
         "gp:id":638749,
         "qs_pg:id":579774,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8242034d381a678e32ef1e7e78eec402",
+    "wof:geomhash":"d45bfc46adc2704687d6f39fa24b6a04",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101907203,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351985,
     "wof:name":"Bickendorf",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":524,
+    "wof:population":511,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

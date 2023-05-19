@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09271138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niederalteich",
+    "eurostat:nuts_2021_id":"09271138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE224",
+    "eurostat:nuts_2021_level_lau":"09271138",
+    "eurostat:population":1770,
+    "eurostat:population_year":2020,
     "geom:area":0.00121,
-    "geom:area_square_m":9861707.811312,
+    "geom:area_square_m":9861707.811309,
     "geom:bbox":"12.997041,48.742155,13.055404,48.793858",
     "geom:latitude":48.767036,
     "geom:longitude":13.026377,
@@ -184,22 +196,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063361,
         1377683879,
         404227559,
-        85682571
+        102063361
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09271138",
+        "eurostat:nuts_2021_id":"09271138",
         "fct:id":"07150e88-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2863667,
         "gp:id":679304,
@@ -215,7 +230,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f581946629b6f612a118f37918460897",
+    "wof:geomhash":"b86cbbadffe6d126ee27c051c80d1657",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,11 +246,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050636,
+    "wof:lastmodified":1684351826,
     "wof:name":"Niederalteich",
     "wof:parent_id":1377683879,
     "wof:placetype":"locality",
-    "wof:population":1895,
+    "wof:population":1770,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

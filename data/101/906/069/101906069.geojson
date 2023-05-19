@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03461005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jade",
+    "eurostat:nuts_2021_id":"03461005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94G",
+    "eurostat:nuts_2021_level_lau":"03461005",
+    "eurostat:population":5830,
+    "eurostat:population_year":2020,
     "geom:area":0.013003,
     "geom:area_square_m":95964372.448867,
     "geom:bbox":"8.16418040514,53.2838322492,8.32009544436,53.4541661716",
@@ -317,7 +329,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -332,6 +345,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03461005",
+        "eurostat:nuts_2021_id":"03461005",
         "gn:id":2895482,
         "gp:id":20168015,
         "qs_pg:id":1152194,
@@ -342,7 +357,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b282d2ecd10fd6bca7182ac7e2d92ee0",
+    "wof:geomhash":"7a3c72bbcd3b4201dbab5deff5aeb37c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101906069,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351976,
     "wof:name":"Jade",
     "wof:parent_id":1377688681,
     "wof:placetype":"locality",
-    "wof:population":5798,
+    "wof:population":5830,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

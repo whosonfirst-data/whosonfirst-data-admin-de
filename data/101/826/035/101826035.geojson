@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09477143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenmarkt",
+    "eurostat:nuts_2021_id":"09477143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24B",
+    "eurostat:nuts_2021_level_lau":"09477143",
+    "eurostat:population":2946,
+    "eurostat:population_year":2020,
     "geom:area":0.002367,
     "geom:area_square_m":18776502.033062,
     "geom:bbox":"11.527636,50.058559,11.608263,50.120473",
@@ -163,22 +175,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063599,
         1377688475,
         404227583,
-        85682571
+        102063599
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09477143",
+        "eurostat:nuts_2021_id":"09477143",
         "fct:id":"074eab34-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2865603,
         "gp:id":678267,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bcbd91505befbefb9dad7e3106b6a0af",
+    "wof:geomhash":"655490b057c04e5814eed4d71f6ad07c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050349,
+    "wof:lastmodified":1684351934,
     "wof:name":"Neuenmarkt",
     "wof:parent_id":1377688475,
     "wof:placetype":"locality",
-    "wof:population":3145,
+    "wof:population":2946,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

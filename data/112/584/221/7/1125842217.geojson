@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klein Zecher",
+    "eurostat:nuts_2021_id":"01053066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053066",
+    "eurostat:population":235,
+    "eurostat:population_year":2020,
     "geom:area":0.00124,
     "geom:area_square_m":9101029.399097,
     "geom:bbox":"10.8398229218,53.564606897,10.9111074015,53.5953858445",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053066",
+        "eurostat:nuts_2021_id":"01053066",
         "gn:id":2887952,
         "qs_pg:id":578278,
         "wd:id":"Q555721"
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"75197ddb5161292148253607870bdeb9",
+    "wof:geomhash":"26718ce5415d29abdd7e92909230fa4a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1125842217,
-    "wof:lastmodified":1582343048,
+    "wof:lastmodified":1684352023,
     "wof:name":"Klein Zecher",
     "wof:parent_id":1377683513,
     "wof:placetype":"locality",
-    "wof:population":241,
+    "wof:population":235,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

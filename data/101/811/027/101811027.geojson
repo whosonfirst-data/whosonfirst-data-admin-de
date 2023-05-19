@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fronhausen",
+    "eurostat:nuts_2021_id":"06534009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534009",
+    "eurostat:population":4134,
+    "eurostat:population_year":2020,
     "geom:area":0.003538,
-    "geom:area_square_m":27709053.865158,
+    "geom:area_square_m":27709053.865156,
     "geom:bbox":"8.64464,50.679421,8.76753,50.724703",
     "geom:latitude":50.704026,
     "geom:longitude":8.711476,
@@ -280,18 +292,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":288,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683831,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534009",
+        "eurostat:nuts_2021_id":"06534009",
         "gn:id":2924201,
         "gp:id":650990,
         "qs_pg:id":142572,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cb73917ca48327d46ae6efebc18daa21",
+    "wof:geomhash":"8d02e7ca527c27511c6c54127cf13e3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101811027,
-    "wof:lastmodified":1608049935,
+    "wof:lastmodified":1684351878,
     "wof:name":"Fronhausen",
     "wof:parent_id":1377683831,
     "wof:placetype":"locality",
-    "wof:population":4116,
+    "wof:population":4134,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

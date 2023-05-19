@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eckstedt",
+    "eurostat:nuts_2021_id":"16068007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068007",
+    "eurostat:population":612,
+    "eurostat:population_year":2020,
     "geom:area":0.000835,
-    "geom:area_square_m":6486144.361487,
+    "geom:area_square_m":6486144.361485,
     "geom:bbox":"11.1274314082,51.0547942189,11.17522002,51.0934554379",
     "geom:latitude":51.073092,
     "geom:longitude":11.149867,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068007",
+        "eurostat:nuts_2021_id":"16068007",
         "gn:id":2933524,
         "gp:id":646456,
         "qs_pg:id":579296,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9127d5499ee6dd02cf5bc305cca6b852",
+    "wof:geomhash":"97b0201668337328714457357feb595e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101910497,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352007,
     "wof:name":"Eckstedt",
     "wof:parent_id":1377690261,
     "wof:placetype":"locality",
-    "wof:population":615,
+    "wof:population":612,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kyritz, Stadt",
+    "eurostat:nuts_2021_id":"12068264",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068264",
+    "eurostat:population":9260,
+    "eurostat:population_year":2020,
     "geom:area":0.02107,
-    "geom:area_square_m":156918581.565521,
+    "geom:area_square_m":156918581.565542,
     "geom:bbox":"12.189989,52.892453,12.557512,53.057238",
     "geom:latitude":52.966595,
     "geom:longitude":12.394987,
@@ -300,19 +312,22 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.942222,
     "wd:longitude":12.397222,
     "wd:wordcount":393,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063997,
         1377683679,
-        85682553
+        85633111,
+        102063997
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068264",
+        "eurostat:nuts_2021_id":"12068264",
         "gn:id":2882161,
         "gp:id":669688,
         "qs_pg:id":142265,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7c5758d5ba31b3c38e54270c71f1a445",
+    "wof:geomhash":"3164bc840c2ec82033709f875b435e42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,12 +354,12 @@
         }
     ],
     "wof:id":101820061,
-    "wof:lastmodified":1608049886,
+    "wof:lastmodified":1684351912,
     "wof:name":"Kyritz",
     "wof:parent_id":1377683679,
     "wof:placetype":"locality",
-    "wof:population":10274,
-    "wof:population_rank":6,
+    "wof:population":9260,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schalkholz",
+    "eurostat:nuts_2021_id":"01051100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051100",
+    "eurostat:population":585,
+    "eurostat:population_year":2020,
     "geom:area":0.001729,
-    "geom:area_square_m":12496023.716288,
+    "geom:area_square_m":12496023.71629,
     "geom:bbox":"9.20910954561,54.2250240005,9.27965415905,54.2779339384",
     "geom:latitude":54.243885,
     "geom:longitude":9.247194,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051100",
+        "eurostat:nuts_2021_id":"01051100",
         "gn:id":2840566,
         "gp:id":691398,
         "qs_pg:id":577096,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a277c3310b4693103f825fdf33603320",
+    "wof:geomhash":"39f3d4cfcc4083261d80a5a235aadf53",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101906237,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351977,
     "wof:name":"Schalkholz",
     "wof:parent_id":1377683407,
     "wof:placetype":"locality",
-    "wof:population":601,
+    "wof:population":585,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

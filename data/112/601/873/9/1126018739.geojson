@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kalenborn-Scheuern",
+    "eurostat:nuts_2021_id":"07233036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233036",
+    "eurostat:population":371,
+    "eurostat:population_year":2020,
     "geom:area":0.000913,
     "geom:area_square_m":7214365.298442,
     "geom:bbox":"6.56952920209,50.2457457222,6.62984518481,50.2788504896",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233036",
+        "eurostat:nuts_2021_id":"07233036",
         "gn:id":3207747,
         "gp:id":20163197,
         "qs_pg:id":1016302,
@@ -150,7 +165,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"7085c3d3edb77e2c30ad4b0fb3e08c3f",
+    "wof:geomhash":"9a19eb4cb269ab93192fefc437bf8513",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":1126018739,
-    "wof:lastmodified":1582343014,
+    "wof:lastmodified":1684352048,
     "wof:name":"Kalenborn-Scheuern",
     "wof:parent_id":1377685981,
     "wof:placetype":"locality",
-    "wof:population":490,
+    "wof:population":371,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

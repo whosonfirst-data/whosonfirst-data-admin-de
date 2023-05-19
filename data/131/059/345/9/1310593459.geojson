@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03154001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bahrdorf",
+    "eurostat:nuts_2021_id":"03154001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE917",
+    "eurostat:nuts_2021_level_lau":"03154001",
+    "eurostat:population":1825,
+    "eurostat:population_year":2020,
     "geom:area":0.005355,
-    "geom:area_square_m":40427493.114133,
+    "geom:area_square_m":40427493.11413,
     "geom:bbox":"10.9499131417,52.3293608535,11.0747449954,52.411364479",
     "geom:latitude":52.370029,
     "geom:longitude":11.006694,
@@ -152,7 +164,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -162,13 +175,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03154001",
+        "eurostat:nuts_2021_id":"03154001",
         "gn:id":2953247
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"6f60c1c0b137eec022619b83e052aff7",
+    "wof:geomhash":"b48ab0151cb3f13feb60c2e79e5fbc40",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,12 +195,12 @@
         }
     ],
     "wof:id":1310593459,
-    "wof:lastmodified":1582342093,
+    "wof:lastmodified":1684352061,
     "wof:name":"Bahrdorf",
     "wof:parent_id":1377685877,
     "wof:placetype":"locality",
-    "wof:population":2087,
-    "wof:population_rank":4,
+    "wof:population":1825,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

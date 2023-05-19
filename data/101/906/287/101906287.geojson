@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Windbergen",
+    "eurostat:nuts_2021_id":"01051134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051134",
+    "eurostat:population":792,
+    "eurostat:population_year":2020,
     "geom:area":0.002387,
-    "geom:area_square_m":17327963.005487,
+    "geom:area_square_m":17327963.005486,
     "geom:bbox":"9.08321224393,54.0209495237,9.16914112196,54.0661171725",
     "geom:latitude":54.043121,
     "geom:longitude":9.127131,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051134",
+        "eurostat:nuts_2021_id":"01051134",
         "gn:id":2808275,
         "gp:id":29351704,
         "qs_pg:id":576395,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9b8cfe2004b58c8dd8f2d0adae90dc21",
+    "wof:geomhash":"0096d6a9b74dfa9f382355706ba70356",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101906287,
-    "wof:lastmodified":1582342323,
+    "wof:lastmodified":1684351978,
     "wof:name":"Windbergen",
     "wof:parent_id":1377683419,
     "wof:placetype":"locality",
-    "wof:population":839,
+    "wof:population":792,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

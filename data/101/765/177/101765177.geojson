@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchenberg, M",
+    "eurostat:nuts_2021_id":"09780117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780117",
+    "eurostat:population":4157,
+    "eurostat:population_year":2020,
     "geom:area":0.006944,
-    "geom:area_square_m":57775785.874696,
+    "geom:area_square_m":57775785.874698,
     "geom:bbox":"10.113634,47.668215,10.285495,47.75237",
     "geom:latitude":47.707419,
     "geom:longitude":10.195155,
@@ -325,22 +337,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693493,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780117",
+        "eurostat:nuts_2021_id":"09780117",
         "gn:id":2942566,
         "gp:id":642018,
         "qs_pg:id":142780,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"667f293611b7680e6d2d4de9878a5a83",
+    "wof:geomhash":"e08100eb58891b71b6d044cb79d10ba7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
         }
     ],
     "wof:id":101765177,
-    "wof:lastmodified":1608049545,
+    "wof:lastmodified":1684351816,
     "wof:name":"Buchenberg",
     "wof:parent_id":1377693493,
     "wof:placetype":"locality",
-    "wof:population":3898,
+    "wof:population":4157,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

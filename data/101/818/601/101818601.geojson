@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcbtheen, Stadt",
+    "eurostat:nuts_2021_id":"13076088",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076088",
+    "eurostat:population":4655,
+    "eurostat:population_year":2020,
     "geom:area":0.016222,
-    "geom:area_square_m":119878722.121065,
+    "geom:area_square_m":119878722.121066,
     "geom:bbox":"10.982661,53.21866,11.172797,53.3608",
     "geom:latitude":53.29823,
     "geom:longitude":11.088049,
@@ -300,17 +312,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675569,
         1377685201,
-        85682487
+        85633111,
+        1377675569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076088",
+        "eurostat:nuts_2021_id":"13076088",
         "gn:id":2875559,
         "gp:id":672850,
         "qs_pg:id":1039181,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a125f1605185f8d746d07a5c1f28df64",
+    "wof:geomhash":"7a5c2a6522147bdc37194ad75a4ee7d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101818601,
-    "wof:lastmodified":1608049780,
+    "wof:lastmodified":1684351901,
     "wof:name":"L\u00fcbtheen",
     "wof:parent_id":1377685201,
     "wof:placetype":"locality",
-    "wof:population":3858,
+    "wof:population":4655,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

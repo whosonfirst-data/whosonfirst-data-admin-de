@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05914000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagen, Stadt der FernUniversit\u00e4t",
+    "eurostat:nuts_2021_id":"05914000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA53",
+    "eurostat:nuts_2021_level_lau":"05914000",
+    "eurostat:population":188686,
+    "eurostat:population_year":2020,
     "geom:area":0.020689,
-    "geom:area_square_m":159782409.012005,
+    "geom:area_square_m":159782409.012,
     "geom:bbox":"7.376308,51.264869,7.599215,51.417984",
     "geom:latitude":51.34804,
     "geom:longitude":7.497556,
@@ -393,17 +405,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063767,
         1377692095,
         404227579,
-        85682513
+        102063767
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05914000",
+        "eurostat:nuts_2021_id":"05914000",
         "gn:id":2912621,
         "gp:id":656356,
         "qs_pg:id":305904,
@@ -418,7 +433,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc16b3b7dbc90ed54a5ac51c36b8982d",
+    "wof:geomhash":"5ff8fb29c0d4e504120b1f330bbaf273",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -431,11 +446,11 @@
         }
     ],
     "wof:id":101748679,
-    "wof:lastmodified":1608050586,
+    "wof:lastmodified":1684351787,
     "wof:name":"Hagen",
     "wof:parent_id":1377692095,
     "wof:placetype":"locality",
-    "wof:population":198972,
+    "wof:population":188686,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

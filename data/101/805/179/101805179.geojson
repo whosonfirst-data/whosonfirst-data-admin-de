@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bredenbek",
+    "eurostat:nuts_2021_id":"01058028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058028",
+    "eurostat:population":1515,
+    "eurostat:population_year":2020,
     "geom:area":0.001684,
-    "geom:area_square_m":12145430.500319,
+    "geom:area_square_m":12145430.500317,
     "geom:bbox":"9.80534954388,54.2965355455,9.91023393794,54.3323732378",
     "geom:latitude":54.312698,
     "geom:longitude":9.854125,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":241,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058028",
+        "eurostat:nuts_2021_id":"01058028",
         "gn:id":2944915,
         "gp:id":640899,
         "qs_pg:id":579645,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92f9670b1dab4077493d4507809e5ac1",
+    "wof:geomhash":"70f6e4cefaaa455c47c7bd91e7b04919",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101805179,
-    "wof:lastmodified":1582342453,
+    "wof:lastmodified":1684351847,
     "wof:name":"Bredenbek",
     "wof:parent_id":1377684187,
     "wof:placetype":"locality",
-    "wof:population":1319,
+    "wof:population":1515,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

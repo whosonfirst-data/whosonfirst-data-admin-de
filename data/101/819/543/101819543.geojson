@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferdinandshof",
+    "eurostat:nuts_2021_id":"13075033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075033",
+    "eurostat:population":2652,
+    "eurostat:population_year":2020,
     "geom:area":0.006011,
-    "geom:area_square_m":44031564.847237,
+    "geom:area_square_m":44031564.847236,
     "geom:bbox":"13.7818340989,53.6453322227,13.9868793558,53.7207281158",
     "geom:latitude":53.672447,
     "geom:longitude":13.895266,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682487,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075033",
+        "eurostat:nuts_2021_id":"13075033",
         "gn:id":2927142,
         "gp:id":649573,
         "qs_pg:id":93883,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"23c16ae239062f6a69850f00736c14df",
+    "wof:geomhash":"753f9e9c7fc8dade48752fe5f7fa97ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101819543,
-    "wof:lastmodified":1582342429,
+    "wof:lastmodified":1684351906,
     "wof:name":"Ferdinandshof",
     "wof:parent_id":1377685141,
     "wof:placetype":"locality",
-    "wof:population":3165,
+    "wof:population":2652,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

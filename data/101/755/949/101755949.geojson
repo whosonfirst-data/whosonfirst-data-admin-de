@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Andernach, Stadt",
+    "eurostat:nuts_2021_id":"07137003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137003",
+    "eurostat:population":29922,
+    "eurostat:population_year":2020,
     "geom:area":0.006769,
     "geom:area_square_m":53314457.322339,
     "geom:bbox":"7.287036,50.386028,7.450856,50.476613",
@@ -348,7 +360,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.439722,
     "wd:longitude":7.401667,
     "wd:wordcount":1805,
@@ -357,14 +370,16 @@
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063635,
         1377685517,
-        85682491
+        85633111,
+        102063635
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137003",
+        "eurostat:nuts_2021_id":"07137003",
         "gn:id":2956206,
         "gp:id":635121,
         "qs_pg:id":475788,
@@ -379,7 +394,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c516323e1a68109a48f7f1f4dd9a4d1c",
+    "wof:geomhash":"c7df87e9c6f20b557cca8c04e7c48a84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -391,11 +406,11 @@
         }
     ],
     "wof:id":101755949,
-    "wof:lastmodified":1608049404,
+    "wof:lastmodified":1684351791,
     "wof:name":"Andernach",
     "wof:parent_id":1377685517,
     "wof:placetype":"locality",
-    "wof:population":29599,
+    "wof:population":29922,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

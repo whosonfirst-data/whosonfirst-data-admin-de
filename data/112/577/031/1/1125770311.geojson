@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Travenhorst",
+    "eurostat:nuts_2021_id":"01060090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060090",
+    "eurostat:population":206,
+    "eurostat:population_year":2020,
     "geom:area":0.001182,
     "geom:area_square_m":8584489.74121,
     "geom:bbox":"10.3991924201,53.9970080863,10.4893692191,54.0341566514",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060090",
+        "eurostat:nuts_2021_id":"01060090",
         "gn:id":2821478,
         "qs_pg:id":576698,
         "wd:id":"Q546179"
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"3f4d31954492ff0f458e60ad1b4583ee",
+    "wof:geomhash":"deb835f34c379d9c7c7c1026b7e6a4d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1125770311,
-    "wof:lastmodified":1582343061,
+    "wof:lastmodified":1684352010,
     "wof:name":"Travenhorst",
     "wof:parent_id":1377684607,
     "wof:placetype":"locality",
-    "wof:population":212,
+    "wof:population":206,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

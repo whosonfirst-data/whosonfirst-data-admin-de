@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lambrecht (Pfalz), Stadt",
+    "eurostat:nuts_2021_id":"07332032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332032",
+    "eurostat:population":4050,
+    "eurostat:population_year":2020,
     "geom:area":0.001025,
-    "geom:area_square_m":8250679.986714,
+    "geom:area_square_m":8250679.986715,
     "geom:bbox":"8.02448683047,49.3524398009,8.08844928635,49.3807300366",
     "geom:latitude":49.366614,
     "geom:longitude":8.058566,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332032",
+        "eurostat:nuts_2021_id":"07332032",
         "gn:id":2881771,
         "gp:id":669870,
         "qs_pg:id":578129,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ff4cd96a06a780af869ec8f44b86c3f9",
+    "wof:geomhash":"cac13ea9ea5e8217254701101a53c045",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101759719,
-    "wof:lastmodified":1582342518,
+    "wof:lastmodified":1684351799,
     "wof:name":"Lambrecht (Pfalz)",
     "wof:parent_id":1377686279,
     "wof:placetype":"locality",
-    "wof:population":3991,
+    "wof:population":4050,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

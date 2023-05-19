@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beuren (Hochwald)",
+    "eurostat:nuts_2021_id":"07235008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235008",
+    "eurostat:population":925,
+    "eurostat:population_year":2020,
     "geom:area":0.002317,
-    "geom:area_square_m":18518784.960641,
+    "geom:area_square_m":18518784.960642,
     "geom:bbox":"6.85700964108,49.693805955,6.94864742462,49.7492841179",
     "geom:latitude":49.721567,
     "geom:longitude":6.897387,
@@ -57,7 +69,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -67,6 +80,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235008",
+        "eurostat:nuts_2021_id":"07235008",
         "gn:id":2949564,
         "gp:id":638601,
         "qs_pg:id":254654
@@ -76,7 +91,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"58acd85feccf0c0ffb40699b8d0e7438",
+    "wof:geomhash":"b8f7321334bd0fda5cfcaee6320514b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -88,11 +103,11 @@
         }
     ],
     "wof:id":101906927,
-    "wof:lastmodified":1582342332,
+    "wof:lastmodified":1684351983,
     "wof:name":"Beuren (Hochwald)",
     "wof:parent_id":1377686019,
     "wof:placetype":"locality",
-    "wof:population":992,
+    "wof:population":925,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00fclzfeld",
+    "eurostat:nuts_2021_id":"16066073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066073",
+    "eurostat:population":850,
+    "eurostat:population_year":2020,
     "geom:area":0.002206,
-    "geom:area_square_m":17336685.104106,
+    "geom:area_square_m":17336685.104107,
     "geom:bbox":"10.3277053916,50.5029669451,10.3915915364,50.5547584535",
     "geom:latitude":50.52948,
     "geom:longitude":10.358549,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066073",
+        "eurostat:nuts_2021_id":"16066073",
         "gn:id":2824739,
         "gp:id":698325,
         "qs_pg:id":92999,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ba111ab2576aff289798fa3c221cc525",
+    "wof:geomhash":"2571de4963013565fcc59e1eb87099ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101910191,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352005,
     "wof:name":"S\u00fclzfeld",
     "wof:parent_id":1377690047,
     "wof:placetype":"locality",
-    "wof:population":947,
+    "wof:population":850,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

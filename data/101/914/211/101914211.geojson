@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05512000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bottrop, Stadt",
+    "eurostat:nuts_2021_id":"05512000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA3",
+    "eurostat:nuts_2021_level_3":"DEA31",
+    "eurostat:nuts_2021_level_lau":"05512000",
+    "eurostat:population":117565,
+    "eurostat:population_year":2020,
     "geom:area":0.012996,
     "geom:area_square_m":99875622.556507,
     "geom:bbox":"6.833152,51.496868,6.999281,51.644595",
@@ -390,21 +402,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063815,
         1377690757,
         404227553,
-        85682513
+        102063815
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05512000",
+        "eurostat:nuts_2021_id":"05512000",
         "gn:id":2945756,
         "gp:id":640548,
         "qs_pg:id":455589,
@@ -419,7 +434,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"06e15b136a18a76baeff75d872573298",
+    "wof:geomhash":"47a1b89149438d1aad2b50dd76a18807",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -432,11 +447,11 @@
         }
     ],
     "wof:id":101914211,
-    "wof:lastmodified":1608050727,
+    "wof:lastmodified":1684352008,
     "wof:name":"Bottrop",
     "wof:parent_id":1377690757,
     "wof:placetype":"locality",
-    "wof:population":119909,
+    "wof:population":117565,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

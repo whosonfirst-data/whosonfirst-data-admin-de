@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340502",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bundenthal",
+    "eurostat:nuts_2021_id":"07340502",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340502",
+    "eurostat:population":1078,
+    "eurostat:population_year":2020,
     "geom:area":0.001255,
-    "geom:area_square_m":10162583.131392,
+    "geom:area_square_m":10162583.131394,
     "geom:bbox":"7.7906224732,49.071389468,7.83892143279,49.1165250201",
     "geom:latitude":49.092953,
     "geom:longitude":7.814726,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340502",
+        "eurostat:nuts_2021_id":"07340502",
         "gn:id":2941690,
         "gp:id":642406,
         "qs_pg:id":279301,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d7d84eeaf61bd9b6c890d11419818d35",
+    "wof:geomhash":"4db8ba5236c486adfd5d88390aba6c6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101827597,
-    "wof:lastmodified":1582342372,
+    "wof:lastmodified":1684351942,
     "wof:name":"Bundenthal",
     "wof:parent_id":1377686741,
     "wof:placetype":"locality",
-    "wof:population":1137,
+    "wof:population":1078,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

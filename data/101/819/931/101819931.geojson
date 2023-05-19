@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064274",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Letschin",
+    "eurostat:nuts_2021_id":"12064274",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064274",
+    "eurostat:population":3975,
+    "eurostat:population_year":2020,
     "geom:area":0.018901,
-    "geom:area_square_m":141729277.376833,
+    "geom:area_square_m":141729277.376828,
     "geom:bbox":"14.269796,52.589454,14.498481,52.761154",
     "geom:latitude":52.668349,
     "geom:longitude":14.364542,
@@ -294,21 +306,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":110,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063963,
         1377694659,
-        85682553
+        85633111,
+        102063963
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064274",
+        "eurostat:nuts_2021_id":"12064274",
         "gn:id":2878471,
         "gp:id":671378,
         "qs_pg:id":93504,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0569091e61bfd60e49e4fed5035ae518",
+    "wof:geomhash":"c1376cbabeaf1b3cf541c6480317b54f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101819931,
-    "wof:lastmodified":1608050234,
+    "wof:lastmodified":1684351910,
     "wof:name":"Letschin",
     "wof:parent_id":1377694659,
     "wof:placetype":"locality",
-    "wof:population":4973,
+    "wof:population":3975,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

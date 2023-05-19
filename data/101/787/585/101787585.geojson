@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Antdorf",
+    "eurostat:nuts_2021_id":"09190113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190113",
+    "eurostat:population":1322,
+    "eurostat:population_year":2020,
     "geom:area":0.002678,
-    "geom:area_square_m":22258618.655609,
+    "geom:area_square_m":22258618.655608,
     "geom:bbox":"11.2502106603,47.7360668818,11.3599967805,47.7878336871",
     "geom:latitude":47.756626,
     "geom:longitude":11.299976,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190113",
+        "eurostat:nuts_2021_id":"09190113",
         "gn:id":2955914,
         "gp:id":635257,
         "qs_pg:id":579962,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d8d35f158a0dd70dd6f6b23207332e74",
+    "wof:geomhash":"3794702b4a2587955eb50d9334ce0688",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101787585,
-    "wof:lastmodified":1582342648,
+    "wof:lastmodified":1684351841,
     "wof:name":"Antdorf",
     "wof:parent_id":1377683727,
     "wof:placetype":"locality",
-    "wof:population":1106,
+    "wof:population":1322,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

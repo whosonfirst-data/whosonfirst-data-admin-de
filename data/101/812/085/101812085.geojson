@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rannungen",
+    "eurostat:nuts_2021_id":"09672143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672143",
+    "eurostat:population":1133,
+    "eurostat:population_year":2020,
     "geom:area":0.002194,
-    "geom:area_square_m":17379073.433335,
+    "geom:area_square_m":17379073.433333,
     "geom:bbox":"10.171623164,50.1456265228,10.2356658895,50.1962205177",
     "geom:latitude":50.169287,
     "geom:longitude":10.203845,
@@ -152,7 +164,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672143",
+        "eurostat:nuts_2021_id":"09672143",
         "fct:id":"07538a32-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850446,
         "gp:id":12635507,
@@ -179,7 +194,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f153a6cc3e22c43ca1c2074244fed4dd",
+    "wof:geomhash":"1b61a099bc9755eb444cd01cbe17560c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,11 +210,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351882,
     "wof:name":"Rannungen",
     "wof:parent_id":1377690647,
     "wof:placetype":"locality",
-    "wof:population":1209,
+    "wof:population":1133,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

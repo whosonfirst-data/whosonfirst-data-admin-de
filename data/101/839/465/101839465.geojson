@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wissen, Stadt",
+    "eurostat:nuts_2021_id":"07132117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132117",
+    "eurostat:population":8315,
+    "eurostat:population_year":2020,
     "geom:area":0.004435,
-    "geom:area_square_m":34674506.706269,
+    "geom:area_square_m":34674506.706272,
     "geom:bbox":"7.69238157161,50.7381834561,7.83476401402,50.8305717987",
     "geom:latitude":50.777648,
     "geom:longitude":7.747852,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.7825,
     "wd:longitude":7.735,
     "wd:wordcount":277,
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132117",
+        "eurostat:nuts_2021_id":"07132117",
         "gn:id":2807440,
         "gp:id":707253,
         "qs_pg:id":1203247,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"beb463bf267a689ff1f9f20bf60c6236",
+    "wof:geomhash":"2110be5c3c25f7583c7200267b7009d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101839465,
-    "wof:lastmodified":1582342624,
+    "wof:lastmodified":1684351947,
     "wof:name":"Wissen",
     "wof:parent_id":1377685345,
     "wof:placetype":"locality",
-    "wof:population":8547,
+    "wof:population":8315,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

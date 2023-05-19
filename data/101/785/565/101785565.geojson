@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ering",
+    "eurostat:nuts_2021_id":"09277118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277118",
+    "eurostat:population":1784,
+    "eurostat:population_year":2020,
     "geom:area":0.004801,
-    "geom:area_square_m":39479186.518664,
+    "geom:area_square_m":39479186.518661,
     "geom:bbox":"13.0717613801,48.2773503017,13.1770427873,48.3527543801",
     "geom:latitude":48.313773,
     "geom:longitude":13.123069,
@@ -148,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277118",
+        "eurostat:nuts_2021_id":"09277118",
         "gn:id":2929631,
         "gp:id":654213,
         "qs_pg:id":93915,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"658c982770d4e0ff9d13333960ae4ce8",
+    "wof:geomhash":"6851ff134d1fd28133dcb42ed6176258",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101785565,
-    "wof:lastmodified":1582342457,
+    "wof:lastmodified":1684351837,
     "wof:name":"Ering",
     "wof:parent_id":1377685275,
     "wof:placetype":"locality",
-    "wof:population":1885,
+    "wof:population":1784,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Liesenich",
+    "eurostat:nuts_2021_id":"07135054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135054",
+    "eurostat:population":295,
+    "eurostat:population_year":2020,
     "geom:area":0.001094,
     "geom:area_square_m":8681616.977769,
     "geom:bbox":"7.24421615857,50.0597736319,7.28543777134,50.0999975118",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135054",
+        "eurostat:nuts_2021_id":"07135054",
         "gn:id":2877773,
         "qs_pg:id":578002,
         "wd:id":"Q647036"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9b8a1e906abf9abc6fa53da626d57374",
+    "wof:geomhash":"16d5d8370bd357ec15e2123d446b9f79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1125828119,
-    "wof:lastmodified":1582343024,
+    "wof:lastmodified":1684352018,
     "wof:name":"Liesenich",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":361,
+    "wof:population":295,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

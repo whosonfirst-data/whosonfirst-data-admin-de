@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05366028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mechernich, Stadt",
+    "eurostat:nuts_2021_id":"05366028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA28",
+    "eurostat:nuts_2021_level_lau":"05366028",
+    "eurostat:population":27714,
+    "eurostat:population_year":2020,
     "geom:area":0.017308,
-    "geom:area_square_m":135869880.568534,
+    "geom:area_square_m":135869880.568532,
     "geom:bbox":"6.535799,50.52193,6.770429,50.652948",
     "geom:latitude":50.591222,
     "geom:longitude":6.64797,
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":277,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063667,
         1377690279,
         404227541,
-        85682513
+        102063667
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05366028",
+        "eurostat:nuts_2021_id":"05366028",
         "gn:id":2872611,
         "gp:id":674398,
         "qs_pg:id":476317,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3309d67d82b8d34da40993694d67971a",
+    "wof:geomhash":"fd53eb6c21c22d5716c2ba5186fd5559",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101810845,
-    "wof:lastmodified":1608050033,
+    "wof:lastmodified":1684351876,
     "wof:name":"Mechernich",
     "wof:parent_id":1377690279,
     "wof:placetype":"locality",
-    "wof:population":27537,
+    "wof:population":27714,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

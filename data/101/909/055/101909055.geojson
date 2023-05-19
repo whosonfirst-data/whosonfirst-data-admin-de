@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trebra",
+    "eurostat:nuts_2021_id":"16065075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065075",
+    "eurostat:population":286,
+    "eurostat:population_year":2020,
     "geom:area":0.00105,
-    "geom:area_square_m":8118376.909891,
+    "geom:area_square_m":8118376.909892,
     "geom:bbox":"10.9568916486,51.2633352913,10.9926939956,51.3112784282",
     "geom:latitude":51.285585,
     "geom:longitude":10.976777,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -164,6 +177,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065075",
+        "eurostat:nuts_2021_id":"16065075",
         "gn:id":2821422,
         "gp:id":699888,
         "qs_pg:id":576694,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"844c6225df8c4a988ab18d0d5e2c44c7",
+    "wof:geomhash":"840b9e9eb17527472c292f179a68db24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101909055,
-    "wof:lastmodified":1582342285,
+    "wof:lastmodified":1684352001,
     "wof:name":"Trebra",
     "wof:parent_id":1377689909,
     "wof:placetype":"locality",
-    "wof:population":342,
+    "wof:population":286,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

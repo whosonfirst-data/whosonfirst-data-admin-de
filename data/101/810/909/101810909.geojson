@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dillenburg, Oranienstadt",
+    "eurostat:nuts_2021_id":"06532006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532006",
+    "eurostat:population":23209,
+    "eurostat:population_year":2020,
     "geom:area":0.010699,
-    "geom:area_square_m":83703906.596677,
+    "geom:area_square_m":83703906.59668,
     "geom:bbox":"8.203997,50.705673,8.392465,50.804148",
     "geom:latitude":50.749406,
     "geom:longitude":8.306604,
@@ -187,20 +199,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.733333,
     "wd:longitude":8.283333,
     "wd:wordcount":1658,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683439,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532006",
+        "eurostat:nuts_2021_id":"06532006",
         "gn:id":2936985,
         "gp:id":644719,
         "qs_pg:id":142688,
@@ -215,7 +230,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3da5b0c611c74082d1cade8a521af8bc",
+    "wof:geomhash":"d4a990c73240c5e5af86c29486d49ded",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101810909,
-    "wof:lastmodified":1608050020,
+    "wof:lastmodified":1684351877,
     "wof:name":"Dillenburg",
     "wof:parent_id":1377683439,
     "wof:placetype":"locality",
-    "wof:population":24461,
+    "wof:population":23209,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

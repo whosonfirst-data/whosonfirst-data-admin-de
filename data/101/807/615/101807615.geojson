@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03257038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00f6lpinghausen",
+    "eurostat:nuts_2021_id":"03257038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE928",
+    "eurostat:nuts_2021_level_lau":"03257038",
+    "eurostat:population":1608,
+    "eurostat:population_year":2020,
     "geom:area":0.002438,
     "geom:area_square_m":18388974.891639,
     "geom:bbox":"9.1587036347,52.3941975705,9.29115350155,52.4405062095",
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03257038",
+        "eurostat:nuts_2021_id":"03257038",
         "gn:id":2806320,
         "gp:id":707877,
         "qs_pg:id":576316,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"db291cb08301ef1d3bc505b605697ab9",
+    "wof:geomhash":"c3f77660edae24bb3d5184ad2502a38d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101807615,
-    "wof:lastmodified":1582342591,
+    "wof:lastmodified":1684351858,
     "wof:name":"W\u00f6lpinghausen",
     "wof:parent_id":1377687093,
     "wof:placetype":"locality",
-    "wof:population":1754,
+    "wof:population":1608,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

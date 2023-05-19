@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hammoor",
+    "eurostat:nuts_2021_id":"01062027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062027",
+    "eurostat:population":1281,
+    "eurostat:population_year":2020,
     "geom:area":0.001042,
     "geom:area_square_m":7623207.883649,
     "geom:bbox":"10.296815236,53.6966510001,10.3470909076,53.7348831761",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062027",
+        "eurostat:nuts_2021_id":"01062027",
         "gn:id":2911044,
         "gp:id":657081,
         "qs_pg:id":1066609,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5aa2b818c5133982128122df5ac0fafc",
+    "wof:geomhash":"e5329adce813110317522c593528f553",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101818781,
-    "wof:lastmodified":1582342367,
+    "wof:lastmodified":1684351903,
     "wof:name":"Hammoor",
     "wof:parent_id":1377684803,
     "wof:placetype":"locality",
-    "wof:population":1121,
+    "wof:population":1281,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Falkenberg",
+    "eurostat:nuts_2021_id":"12064125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064125",
+    "eurostat:population":2262,
+    "eurostat:population_year":2020,
     "geom:area":0.007956,
-    "geom:area_square_m":59507853.992916,
+    "geom:area_square_m":59507853.992917,
     "geom:bbox":"13.8547971171,52.7370949775,14.0073532762,52.8325202665",
     "geom:latitude":52.778497,
     "geom:longitude":13.938176,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064125",
+        "eurostat:nuts_2021_id":"12064125",
         "gn:id":2928011,
         "gp:id":649256,
         "qs_pg:id":142598,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f238efd5d8418322e66fe7ddd6595003",
+    "wof:geomhash":"a329a410eaee7161c1a3640475ec164e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101819905,
-    "wof:lastmodified":1582342431,
+    "wof:lastmodified":1684351910,
     "wof:name":"Falkenberg",
     "wof:parent_id":1377694677,
     "wof:placetype":"locality",
-    "wof:population":2462,
+    "wof:population":2262,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berglen",
+    "eurostat:nuts_2021_id":"08119089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119089",
+    "eurostat:population":6400,
+    "eurostat:population_year":2020,
     "geom:area":0.003167,
-    "geom:area_square_m":25765895.954778,
+    "geom:area_square_m":25765895.954779,
     "geom:bbox":"9.426013,48.820592,9.523447,48.89269",
     "geom:latitude":48.854908,
     "geom:longitude":9.470278,
@@ -319,22 +331,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063379,
         1377687487,
         404227549,
-        85682567
+        102063379
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119089",
+        "eurostat:nuts_2021_id":"08119089",
         "gn:id":2950551,
         "gp:id":15002579,
         "qs_pg:id":581886,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c7fe045773ef8b4630e63b22ac5d756c",
+    "wof:geomhash":"3f722a3082e6f75a8cc378f69cc02559",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101761999,
-    "wof:lastmodified":1608050903,
+    "wof:lastmodified":1684351807,
     "wof:name":"Berglen",
     "wof:parent_id":1377687487,
     "wof:placetype":"locality",
-    "wof:population":5995,
+    "wof:population":6400,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

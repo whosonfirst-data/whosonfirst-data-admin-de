@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373167",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Velburg, St",
+    "eurostat:nuts_2021_id":"09373167",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373167",
+    "eurostat:population":5352,
+    "eurostat:population_year":2020,
     "geom:area":0.021771,
-    "geom:area_square_m":175683579.510604,
+    "geom:area_square_m":175683579.510595,
     "geom:bbox":"11.552843,49.186405,11.788943,49.340135",
     "geom:latitude":49.261484,
     "geom:longitude":11.678948,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686149,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373167",
+        "eurostat:nuts_2021_id":"09373167",
         "gn:id":2817722,
         "gp:id":702121,
         "qs_pg:id":907033,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cc3dd5b79ba6ecaa99652049a15fe1a3",
+    "wof:geomhash":"10ab6ac267388fdc961634fc81bbdc86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101782077,
-    "wof:lastmodified":1608050506,
+    "wof:lastmodified":1684351823,
     "wof:name":"Velburg",
     "wof:parent_id":1377686149,
     "wof:placetype":"locality",
-    "wof:population":5373,
+    "wof:population":5352,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

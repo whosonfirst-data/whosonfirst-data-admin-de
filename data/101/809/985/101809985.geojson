@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05966024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Olpe, Stadt",
+    "eurostat:nuts_2021_id":"05966024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA59",
+    "eurostat:nuts_2021_level_lau":"05966024",
+    "eurostat:population":24551,
+    "eurostat:population_year":2020,
     "geom:area":0.010946,
-    "geom:area_square_m":85101664.969294,
+    "geom:area_square_m":85101664.96929,
     "geom:bbox":"7.803732,50.986946,7.973809,51.089121",
     "geom:latitude":51.039583,
     "geom:longitude":7.886111,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063739,
         1377692491,
         404227579,
-        85682513
+        102063739
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05966024",
+        "eurostat:nuts_2021_id":"05966024",
         "gn:id":2857305,
         "gp:id":683255,
         "qs_pg:id":992555,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0c4cd01cc6338b0464aed125a85cb52e",
+    "wof:geomhash":"c17ff57981ad391609352c0f40c33fc4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101809985,
-    "wof:lastmodified":1608051625,
+    "wof:lastmodified":1684351869,
     "wof:name":"Olpe",
     "wof:parent_id":1377692491,
     "wof:placetype":"locality",
-    "wof:population":25686,
+    "wof:population":24551,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

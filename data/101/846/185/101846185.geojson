@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Namborn",
+    "eurostat:nuts_2021_id":"10046113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046113",
+    "eurostat:population":7002,
+    "eurostat:population_year":2020,
     "geom:area":0.003249,
-    "geom:area_square_m":26080076.605683,
+    "geom:area_square_m":26080076.605682,
     "geom:bbox":"7.121967,49.485313,7.208473,49.54623",
     "geom:latitude":49.518492,
     "geom:longitude":7.164516,
@@ -288,17 +300,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063493,
         1377694099,
-        85682479
+        85633111,
+        102063493
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046113",
+        "eurostat:nuts_2021_id":"10046113",
         "gn:id":2867120,
         "gp:id":20163834,
         "qs_pg:id":1039025,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2b4da81ab74683eade6883df444a54a3",
+    "wof:geomhash":"970d1e4211b364fbb9d4c41eec9d6c67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101846185,
-    "wof:lastmodified":1608051052,
+    "wof:lastmodified":1684351959,
     "wof:name":"Namborn",
     "wof:parent_id":1377694099,
     "wof:placetype":"locality",
-    "wof:population":7642,
+    "wof:population":7002,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

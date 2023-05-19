@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geeste",
+    "eurostat:nuts_2021_id":"03454014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454014",
+    "eurostat:population":11365,
+    "eurostat:population_year":2020,
     "geom:area":0.017596,
-    "geom:area_square_m":132120891.012471,
+    "geom:area_square_m":132120891.01247,
     "geom:bbox":"7.119089,52.549542,7.417127,52.656568",
     "geom:latitude":52.60991,
     "geom:longitude":7.241276,
@@ -294,21 +306,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063975,
         1377688463,
-        85682555
+        85633111,
+        102063975
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454014",
+        "eurostat:nuts_2021_id":"03454014",
         "gn:id":2922112,
         "gp:id":651783,
         "qs_pg:id":93847,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cbd64b2a69adda16d3aecd5e85ce13d4",
+    "wof:geomhash":"6dc4a63a5d2c729b6e80274fef75b18f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101804173,
-    "wof:lastmodified":1608050383,
+    "wof:lastmodified":1684351846,
     "wof:name":"Geeste",
     "wof:parent_id":1377688463,
     "wof:placetype":"locality",
-    "wof:population":11281,
+    "wof:population":11365,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

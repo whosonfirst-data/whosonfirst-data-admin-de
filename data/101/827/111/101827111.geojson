@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09675178",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesentheid, M",
+    "eurostat:nuts_2021_id":"09675178",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE268",
+    "eurostat:nuts_2021_level_lau":"09675178",
+    "eurostat:population":4834,
+    "eurostat:population_year":2020,
     "geom:area":0.00414,
     "geom:area_square_m":33039267.498523,
     "geom:bbox":"10.2516396178,49.7755938693,10.4287359156,49.8304916833",
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":148,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -191,6 +204,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09675178",
+        "eurostat:nuts_2021_id":"09675178",
         "gn:id":2809191,
         "gp:id":706398,
         "qs_pg:id":1038064,
@@ -202,7 +217,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"02031966ed711b596d0175544b302a88",
+    "wof:geomhash":"0ee2abd34e72eaf28ae5759b80a6b623",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -215,11 +230,11 @@
         }
     ],
     "wof:id":101827111,
-    "wof:lastmodified":1582342371,
+    "wof:lastmodified":1684351940,
     "wof:name":"Wiesentheid",
     "wof:parent_id":1377691179,
     "wof:placetype":"locality",
-    "wof:population":4759,
+    "wof:population":4834,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wisch",
+    "eurostat:nuts_2021_id":"01054157",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054157",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "geom:area":0.000413,
     "geom:area_square_m":2972214.381622,
     "geom:bbox":"9.13979118858,54.4033903646,9.17487772538,54.4232869157",
@@ -98,7 +110,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -108,13 +121,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054157",
+        "eurostat:nuts_2021_id":"01054157",
         "gn:id":2807497
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"fbaec0d91064dec5c03c63dbcedd55df",
+    "wof:geomhash":"3abb94be0b736939eb5fc25605724de3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,7 +141,7 @@
         }
     ],
     "wof:id":1242772557,
-    "wof:lastmodified":1582343086,
+    "wof:lastmodified":1684352058,
     "wof:name":"Wisch",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",

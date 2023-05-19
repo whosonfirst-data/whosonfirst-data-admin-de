@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heringen/Helme, Stadt",
+    "eurostat:nuts_2021_id":"16062064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062064",
+    "eurostat:population":4720,
+    "eurostat:population_year":2020,
     "geom:area":0.008625,
-    "geom:area_square_m":66481069.362043,
+    "geom:area_square_m":66481069.36204,
     "geom:bbox":"10.7904066019,51.4007629921,10.9796801699,51.4820882028",
     "geom:latitude":51.43671,
     "geom:longitude":10.884223,
@@ -143,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062064",
+        "eurostat:nuts_2021_id":"16062064",
         "gn:id":2906087,
         "gp:id":659258,
         "qs_pg:id":261266,
@@ -163,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"107db57bd08d59ea6f8a15c3397ba5f0",
+    "wof:geomhash":"affabd0828de2fa622146d2320ec836f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101822249,
-    "wof:lastmodified":1582342582,
+    "wof:lastmodified":1684351921,
     "wof:name":"Heringen/Helme",
     "wof:parent_id":1377689575,
     "wof:placetype":"locality",
-    "wof:population":2411,
+    "wof:population":4720,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

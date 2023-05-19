@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09472131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eckersdorf",
+    "eurostat:nuts_2021_id":"09472131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE246",
+    "eurostat:nuts_2021_level_lau":"09472131",
+    "eurostat:population":5092,
+    "eurostat:population_year":2020,
     "geom:area":0.004535,
     "geom:area_square_m":36084833.609027,
     "geom:bbox":"11.382246,49.919049,11.529643,49.992034",
@@ -323,18 +335,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":368,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675599,
         1377687427,
         404227583,
-        85682571
+        1377675599
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09472131",
+        "eurostat:nuts_2021_id":"09472131",
         "gn:id":2933607,
         "gp:id":20172890,
         "qs_pg:id":142668,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aae7421e4c16f332757c3e2a24cfc575",
+    "wof:geomhash":"46e9e7af887e33fc1e26ef5e6a9ed296",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101825891,
-    "wof:lastmodified":1608051436,
+    "wof:lastmodified":1684351932,
     "wof:name":"Eckersdorf",
     "wof:parent_id":1377687427,
     "wof:placetype":"locality",
-    "wof:population":5182,
+    "wof:population":5092,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

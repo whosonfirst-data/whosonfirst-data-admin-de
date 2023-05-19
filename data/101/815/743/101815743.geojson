@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marpingen",
+    "eurostat:nuts_2021_id":"10046112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046112",
+    "eurostat:population":10009,
+    "eurostat:population_year":2020,
     "geom:area":0.004944,
-    "geom:area_square_m":39742465.903007,
+    "geom:area_square_m":39742465.903006,
     "geom:bbox":"6.994354,49.409202,7.111964,49.503606",
     "geom:latitude":49.448233,
     "geom:longitude":7.060135,
@@ -288,17 +300,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":174,
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063493,
         1377694091,
-        85682479
+        85633111,
+        102063493
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046112",
+        "eurostat:nuts_2021_id":"10046112",
         "gn:id":2873224,
         "gp:id":674070,
         "qs_pg:id":1039149,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"56f2e7717843baeb71702f7679ee82c7",
+    "wof:geomhash":"51dea2f34afc4b3483ca66d36aa29b6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101815743,
-    "wof:lastmodified":1608051253,
+    "wof:lastmodified":1684351895,
     "wof:name":"Marpingen",
     "wof:parent_id":1377694091,
     "wof:placetype":"locality",
-    "wof:population":11358,
+    "wof:population":10009,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

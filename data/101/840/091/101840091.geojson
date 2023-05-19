@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06531013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lollar, Stadt",
+    "eurostat:nuts_2021_id":"06531013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE721",
+    "eurostat:nuts_2021_level_lau":"06531013",
+    "eurostat:population":10309,
+    "eurostat:population_year":2020,
     "geom:area":0.002763,
-    "geom:area_square_m":21657194.733683,
+    "geom:area_square_m":21657194.733685,
     "geom:bbox":"8.645899,50.632852,8.731142,50.703389",
     "geom:latitude":50.666484,
     "geom:longitude":8.695346,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.649722,
     "wd:longitude":8.704444,
     "wd:wordcount":46,
@@ -319,15 +332,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063653,
         1377694543,
         404227577,
-        85682531
+        102063653
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06531013",
+        "eurostat:nuts_2021_id":"06531013",
         "gn:id":2876027,
         "gp:id":672602,
         "qs_pg:id":142193,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4e8a05a15c2f31ff70e5d986feeaa8a0",
+    "wof:geomhash":"e990e7d5f2c244ddb13e97e164bc525b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101840091,
-    "wof:lastmodified":1608051297,
+    "wof:lastmodified":1684351950,
     "wof:name":"Lollar",
     "wof:parent_id":1377694543,
     "wof:placetype":"locality",
-    "wof:population":10143,
+    "wof:population":10309,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erpel",
+    "eurostat:nuts_2021_id":"07138019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138019",
+    "eurostat:population":2550,
+    "eurostat:population_year":2020,
     "geom:area":0.001163,
     "geom:area_square_m":9127248.610488,
     "geom:bbox":"7.22289841342,50.5789798331,7.32992583465,50.6307838979",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138019",
+        "eurostat:nuts_2021_id":"07138019",
         "gn:id":2929302,
         "gp:id":648561,
         "qs_pg:id":142616,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e4b2a0a1986e44c80b84848fbc6e5a34",
+    "wof:geomhash":"b763f15baa30c31a6cba6e341060c39e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101756449,
-    "wof:lastmodified":1582342499,
+    "wof:lastmodified":1684351795,
     "wof:name":"Erpel",
     "wof:parent_id":1377685645,
     "wof:placetype":"locality",
-    "wof:population":2635,
+    "wof:population":2550,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

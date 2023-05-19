@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schmalkalden, Kurort, Stadt",
+    "eurostat:nuts_2021_id":"16066063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066063",
+    "eurostat:population":19647,
+    "eurostat:population_year":2020,
     "geom:area":0.013421,
-    "geom:area_square_m":105078881.733051,
+    "geom:area_square_m":105078881.73305,
     "geom:bbox":"10.251332,50.670679,10.548146,50.762777",
     "geom:latitude":50.713511,
     "geom:longitude":10.428744,
@@ -342,21 +354,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":501,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063673,
         1377689957,
-        85682541
+        85633111,
+        102063673
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066063",
+        "eurostat:nuts_2021_id":"16066063",
         "gn:id":2838059,
         "gp:id":692358,
         "qs_pg:id":228873,
@@ -371,7 +386,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9a5a4df7c7611d3bfccd03e69c9e7185",
+    "wof:geomhash":"ff43dae15f601184b6ac1e58c4970608",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101823089,
-    "wof:lastmodified":1608051092,
+    "wof:lastmodified":1684351923,
     "wof:name":"Schmalkalden",
     "wof:parent_id":1377689957,
     "wof:placetype":"locality",
-    "wof:population":17710,
+    "wof:population":19647,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

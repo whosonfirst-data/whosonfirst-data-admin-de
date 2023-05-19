@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09176143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lenting",
+    "eurostat:nuts_2021_id":"09176143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE219",
+    "eurostat:nuts_2021_level_lau":"09176143",
+    "eurostat:population":4947,
+    "eurostat:population_year":2020,
     "geom:area":0.001026,
     "geom:area_square_m":8357460.738414,
     "geom:bbox":"11.428628,48.792823,11.479905,48.835728",
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063381,
         1377691567,
         404227567,
-        85682571
+        102063381
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09176143",
+        "eurostat:nuts_2021_id":"09176143",
         "fct:id":"074aa49e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2878751,
         "gp:id":671281,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2f8be462a6f44db9961dae3754e9e389",
+    "wof:geomhash":"5ed77918826ff6ea5a9a63a483674e62",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050429,
+    "wof:lastmodified":1684351945,
     "wof:name":"Lenting",
     "wof:parent_id":1377691567,
     "wof:placetype":"locality",
-    "wof:population":4710,
+    "wof:population":4947,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

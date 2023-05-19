@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salgen",
+    "eurostat:nuts_2021_id":"09778190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778190",
+    "eurostat:population":1441,
+    "eurostat:population_year":2020,
     "geom:area":0.002834,
-    "geom:area_square_m":23393898.517898,
+    "geom:area_square_m":23393898.517902,
     "geom:bbox":"10.4462786111,48.0936884938,10.5240895529,48.1639124038",
     "geom:latitude":48.126077,
     "geom:longitude":10.485007,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778190",
+        "eurostat:nuts_2021_id":"09778190",
         "gn:id":2842290,
         "gp:id":690795,
         "qs_pg:id":93133,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"60e2c7361dc4a7b7783ec978030be387",
+    "wof:geomhash":"277003a8f62d658164e57afa849bbad7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101786555,
-    "wof:lastmodified":1582342640,
+    "wof:lastmodified":1684351839,
     "wof:name":"Salgen",
     "wof:parent_id":1377693203,
     "wof:placetype":"locality",
-    "wof:population":1459,
+    "wof:population":1441,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

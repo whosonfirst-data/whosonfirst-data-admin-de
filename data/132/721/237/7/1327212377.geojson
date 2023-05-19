@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hude",
+    "eurostat:nuts_2021_id":"01054054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054054",
+    "eurostat:population":182,
+    "eurostat:population_year":2020,
     "geom:area":0.000486,
     "geom:area_square_m":3500777.46278,
     "geom:bbox":"9.20502003967,54.3762322521,9.23414941175,54.4038711614",
@@ -131,7 +143,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -141,13 +154,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054054",
+        "eurostat:nuts_2021_id":"01054054",
         "gn:id":2898076
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"c8b8f1e1c933b4c941ca09fe05163c42",
+    "wof:geomhash":"2fd13f9e6465022ee49478c69f82962d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1327212377,
-    "wof:lastmodified":1582341881,
+    "wof:lastmodified":1684352062,
     "wof:name":"Hude",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",
-    "wof:population":188,
+    "wof:population":182,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haselbachtal",
+    "eurostat:nuts_2021_id":"14625220",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625220",
+    "eurostat:population":4013,
+    "eurostat:population_year":2020,
     "geom:area":0.004798,
-    "geom:area_square_m":37146893.49507,
+    "geom:area_square_m":37146893.495075,
     "geom:bbox":"13.931468,51.197046,14.099206,51.266767",
     "geom:latitude":51.238784,
     "geom:longitude":14.020236,
@@ -153,17 +165,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":254,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686729,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625220",
+        "eurostat:nuts_2021_id":"14625220",
         "gn:id":7302786,
         "gp:id":20161935,
         "qs_pg:id":2,
@@ -177,7 +192,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f7e1b0ef71cb634bd6cf2df13fd9533",
+    "wof:geomhash":"178a61df74118809c8ff5ee391e7fbf5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101822223,
-    "wof:lastmodified":1608051489,
+    "wof:lastmodified":1684351921,
     "wof:name":"Haselbachtal",
     "wof:parent_id":1377686729,
     "wof:placetype":"locality",
-    "wof:population":4113,
+    "wof:population":4013,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

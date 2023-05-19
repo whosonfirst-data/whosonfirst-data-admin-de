@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09175132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vaterstetten",
+    "eurostat:nuts_2021_id":"09175132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE218",
+    "eurostat:nuts_2021_level_lau":"09175132",
+    "eurostat:population":24404,
+    "eurostat:population_year":2020,
     "geom:area":0.004171,
     "geom:area_square_m":34424919.727174,
     "geom:bbox":"11.747778,48.088045,11.844781,48.159704",
@@ -161,22 +173,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":751,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063259,
         1377691365,
         404227567,
-        85682571
+        102063259
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09175132",
+        "eurostat:nuts_2021_id":"09175132",
         "fct:id":"075c581a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2817818,
         "gp:id":702069,
@@ -192,7 +207,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c2bc9ec330e16a9ed2e95593e15ab126",
+    "wof:geomhash":"b5a96f9588ad56090afe5b0d180881cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051956,
+    "wof:lastmodified":1684351839,
     "wof:name":"Vaterstetten",
     "wof:parent_id":1377691365,
     "wof:placetype":"locality",
-    "wof:population":21007,
+    "wof:population":24404,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

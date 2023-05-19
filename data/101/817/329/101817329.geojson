@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Adenb\u00fcttel",
+    "eurostat:nuts_2021_id":"03151001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151001",
+    "eurostat:population":1787,
+    "eurostat:population_year":2020,
     "geom:area":0.002076,
-    "geom:area_square_m":15666959.809195,
+    "geom:area_square_m":15666959.809193,
     "geom:bbox":"10.4100636001,52.3661043844,10.4925038749,52.4117600809",
     "geom:latitude":52.38853,
     "geom:longitude":10.448603,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":192,
     "wof:belongsto":[
         85682555,
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151001",
+        "eurostat:nuts_2021_id":"03151001",
         "gn:id":2959482,
         "gp:id":633385,
         "qs_pg:id":580043,
@@ -176,7 +191,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7955f27f67d6966af0191d215e7035c5",
+    "wof:geomhash":"d59ce2bc6c2afd9d50dd7519abc729f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101817329,
-    "wof:lastmodified":1582342416,
+    "wof:lastmodified":1684351896,
     "wof:name":"Adenb\u00fcttel",
     "wof:parent_id":1377684923,
     "wof:placetype":"locality",
-    "wof:population":1762,
+    "wof:population":1787,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

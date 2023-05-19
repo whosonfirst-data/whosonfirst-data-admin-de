@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08437114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Veringenstadt, Stadt",
+    "eurostat:nuts_2021_id":"08437114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE149",
+    "eurostat:nuts_2021_level_lau":"08437114",
+    "eurostat:population":2123,
+    "eurostat:population_year":2020,
     "geom:area":0.003779,
-    "geom:area_square_m":31160197.369886,
+    "geom:area_square_m":31160197.369887,
     "geom:bbox":"9.17296696285,48.1473276137,9.25609608761,48.2130616116",
     "geom:latitude":48.177582,
     "geom:longitude":9.211923,
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":31.24,
     "wd:elevation":631.0,
     "wd:latitude":48.178333,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08437114",
+        "eurostat:nuts_2021_id":"08437114",
         "gn:id":2817581,
         "gp:id":702197,
         "qs_pg:id":203771,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"715067ea6bb05d498e087a002dff4d41",
+    "wof:geomhash":"f8513e9dd1bd4a4041bd3d0213a6d3b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101764211,
-    "wof:lastmodified":1582342298,
+    "wof:lastmodified":1684351814,
     "wof:name":"Veringenstadt",
     "wof:parent_id":1377690623,
     "wof:placetype":"locality",
-    "wof:population":2160,
+    "wof:population":2123,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

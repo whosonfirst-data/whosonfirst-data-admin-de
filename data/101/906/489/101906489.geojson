@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6wenstedt",
+    "eurostat:nuts_2021_id":"01054079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054079",
+    "eurostat:population":669,
+    "eurostat:population_year":2020,
     "geom:area":0.002718,
-    "geom:area_square_m":19456347.410966,
+    "geom:area_square_m":19456347.410964,
     "geom:bbox":"9.12927708808,54.6086616453,9.22257828952,54.6583726221",
     "geom:latitude":54.631202,
     "geom:longitude":9.182444,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682517,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054079",
+        "eurostat:nuts_2021_id":"01054079",
         "gn:id":2875659,
         "gp:id":672792,
         "qs_pg:id":577951,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"412ee90315ab52e315b056b00c7420e7",
+    "wof:geomhash":"2bd0e8343138e53f59a1459b2e9d57a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101906489,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351980,
     "wof:name":"L\u00f6wenstedt",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":657,
+    "wof:population":669,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

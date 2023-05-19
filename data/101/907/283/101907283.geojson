@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nerdlen",
+    "eurostat:nuts_2021_id":"07233049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233049",
+    "eurostat:population":243,
+    "eurostat:population_year":2020,
     "geom:area":0.000557,
-    "geom:area_square_m":4408845.930458,
+    "geom:area_square_m":4408845.930457,
     "geom:bbox":"6.83321871754,50.2251059111,6.88009253858,50.2516128412",
     "geom:latitude":50.238372,
     "geom:longitude":6.85591,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":341,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233049",
+        "eurostat:nuts_2021_id":"07233049",
         "gn:id":2866488,
         "gp:id":677491,
         "qs_pg:id":577709,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a531748bc4077b7c31053322e313dba4",
+    "wof:geomhash":"927d2b6e2bbc130110de9d0e97447c4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101907283,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351986,
     "wof:name":"Nerdlen",
     "wof:parent_id":1377685969,
     "wof:placetype":"locality",
-    "wof:population":223,
+    "wof:population":243,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

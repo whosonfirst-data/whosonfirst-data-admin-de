@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143304",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wallmerod",
+    "eurostat:nuts_2021_id":"07143304",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143304",
+    "eurostat:population":1438,
+    "eurostat:population_year":2020,
     "geom:area":0.000336,
-    "geom:area_square_m":2647365.183735,
+    "geom:area_square_m":2647365.183736,
     "geom:bbox":"7.9338543438,50.47350477,7.96353283964,50.4987890143",
     "geom:latitude":50.485687,
     "geom:longitude":7.950513,
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":529,
     "wof:belongsto":[
         85682491,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143304",
+        "eurostat:nuts_2021_id":"07143304",
         "gn:id":2814553,
         "gp:id":703721,
         "qs_pg:id":141606,
@@ -155,7 +170,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c808516219a03dce735186bc2359386d",
+    "wof:geomhash":"b15e0b7e974dfc07dc02b9247f77f164",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101810755,
-    "wof:lastmodified":1582342398,
+    "wof:lastmodified":1684351875,
     "wof:name":"Wallmerod",
     "wof:parent_id":1377685825,
     "wof:placetype":"locality",
-    "wof:population":1341,
+    "wof:population":1438,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

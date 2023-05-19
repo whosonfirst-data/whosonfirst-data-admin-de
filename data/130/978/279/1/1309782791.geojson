@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenkirchen",
+    "eurostat:nuts_2021_id":"13074032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074032",
+    "eurostat:population":1257,
+    "eurostat:population_year":2020,
     "geom:area":0.005573,
     "geom:area_square_m":40587922.772441,
     "geom:bbox":"11.2291792095,53.8752026653,11.3531590645,53.9591430213",
@@ -293,7 +305,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -303,13 +316,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074032",
+        "eurostat:nuts_2021_id":"13074032",
         "gn:id":2901653
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"d6bd72f35ce7d617fc757a6d741806bf",
+    "wof:geomhash":"47dc7a01f9dfb4f6168e1947f6734e5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":1309782791,
-    "wof:lastmodified":1582342837,
+    "wof:lastmodified":1684352061,
     "wof:name":"Hohenkirchen",
     "wof:parent_id":1377693611,
     "wof:placetype":"locality",
-    "wof:population":1281,
+    "wof:population":1257,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

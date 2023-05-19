@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eyendorf",
+    "eurostat:nuts_2021_id":"03353010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353010",
+    "eurostat:population":1233,
+    "eurostat:population_year":2020,
     "geom:area":0.00184,
-    "geom:area_square_m":13631281.655685,
+    "geom:area_square_m":13631281.655684,
     "geom:bbox":"10.1092593346,53.1703853115,10.1882155112,53.2172957838",
     "geom:latitude":53.196171,
     "geom:longitude":10.148651,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682555,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353010",
+        "eurostat:nuts_2021_id":"03353010",
         "gn:id":2928258,
         "gp:id":649137,
         "qs_pg:id":1039886,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"42302c4f9235e422f61d6e12fa92233d",
+    "wof:geomhash":"2dad3ab5b11a571a51cac51a1dc63dc6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101806387,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351850,
     "wof:name":"Eyendorf",
     "wof:parent_id":1377687405,
     "wof:placetype":"locality",
-    "wof:population":1239,
+    "wof:population":1233,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

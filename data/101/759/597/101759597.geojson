@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10041515",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00fcttlingen, Stadt",
+    "eurostat:nuts_2021_id":"10041515",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC01",
+    "eurostat:nuts_2021_level_lau":"10041515",
+    "eurostat:population":18348,
+    "eurostat:population_year":2020,
     "geom:area":0.002919,
-    "geom:area_square_m":23538746.991998,
+    "geom:area_square_m":23538746.991999,
     "geom:bbox":"6.855223,49.262601,6.929197,49.32695",
     "geom:latitude":49.293707,
     "geom:longitude":6.895097,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.283333,
     "wd:longitude":6.883333,
     "wd:population":18848,
@@ -325,14 +338,16 @@
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063433,
         1377693723,
-        85682479
+        85633111,
+        102063433
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10041515",
+        "eurostat:nuts_2021_id":"10041515",
         "gn:id":2851584,
         "gp:id":686295,
         "qs_pg:id":906472,
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"491b40753eb6835e7bf66ae9bb3d8984",
+    "wof:geomhash":"e36de91179c1bdcc76f65829f243414b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101759597,
-    "wof:lastmodified":1608050953,
+    "wof:lastmodified":1684351798,
     "wof:name":"P\u00fcttlingen",
     "wof:parent_id":1377693723,
     "wof:placetype":"locality",
-    "wof:population":18848,
+    "wof:population":18348,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09172122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laufen, St",
+    "eurostat:nuts_2021_id":"09172122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE215",
+    "eurostat:nuts_2021_level_lau":"09172122",
+    "eurostat:population":7316,
+    "eurostat:population_year":2020,
     "geom:area":0.004224,
-    "geom:area_square_m":35000991.883074,
+    "geom:area_square_m":35000991.883075,
     "geom:bbox":"12.848343,47.894124,12.966651,47.962609",
     "geom:latitude":47.925404,
     "geom:longitude":12.900509,
@@ -173,22 +185,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":381,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063227,
         1377690911,
         404227567,
-        85682571
+        102063227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09172122",
+        "eurostat:nuts_2021_id":"09172122",
         "gn:id":2880129,
         "gp:id":670597,
         "qs_pg:id":1039276,
@@ -203,7 +218,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6d451f58b730743a175d077c6c04ece1",
+    "wof:geomhash":"aed7e19c00e96c338eaeed37ea5e40c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101833967,
-    "wof:lastmodified":1608050420,
+    "wof:lastmodified":1684351944,
     "wof:name":"Laufen",
     "wof:parent_id":1377690911,
     "wof:placetype":"locality",
-    "wof:population":6869,
+    "wof:population":7316,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

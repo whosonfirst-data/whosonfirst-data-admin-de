@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mitterskirchen",
+    "eurostat:nuts_2021_id":"09277134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277134",
+    "eurostat:population":2155,
+    "eurostat:population_year":2020,
     "geom:area":0.002984,
     "geom:area_square_m":24519580.911307,
     "geom:bbox":"12.685939,48.320928,12.779044,48.380892",
@@ -148,18 +160,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":401,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685145,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277134",
+        "eurostat:nuts_2021_id":"09277134",
         "gn:id":2870359,
         "gp:id":675672,
         "qs_pg:id":142119,
@@ -174,7 +189,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7f580f6ed7a2c65c256486510fdf7442",
+    "wof:geomhash":"20cd0be894dd1c6279f43e7669e18bc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101785557,
-    "wof:lastmodified":1608050457,
+    "wof:lastmodified":1684351837,
     "wof:name":"Mitterskirchen",
     "wof:parent_id":1377685145,
     "wof:placetype":"locality",
-    "wof:population":2078,
+    "wof:population":2155,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

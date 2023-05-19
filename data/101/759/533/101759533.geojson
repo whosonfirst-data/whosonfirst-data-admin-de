@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Edesheim",
+    "eurostat:nuts_2021_id":"07337021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337021",
+    "eurostat:population":2376,
+    "eurostat:population_year":2020,
     "geom:area":0.001976,
-    "geom:area_square_m":15941181.664646,
+    "geom:area_square_m":15941181.664648,
     "geom:bbox":"7.93561110092,49.2485885771,8.16607930139,49.3252486344",
     "geom:latitude":49.275048,
     "geom:longitude":8.075608,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -186,6 +199,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337021",
+        "eurostat:nuts_2021_id":"07337021",
         "gn:id":2933367,
         "gp:id":646533,
         "qs_pg:id":142666,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2877ead938591b4e586766066ebd10bb",
+    "wof:geomhash":"1d44ee42fca819cd86e319a44a3b9925",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101759533,
-    "wof:lastmodified":1582342514,
+    "wof:lastmodified":1684351797,
     "wof:name":"Edesheim",
     "wof:parent_id":1377686525,
     "wof:placetype":"locality",
-    "wof:population":2294,
+    "wof:population":2376,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Balow",
+    "eurostat:nuts_2021_id":"13076003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076003",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "geom:area":0.001735,
-    "geom:area_square_m":12831179.521187,
+    "geom:area_square_m":12831179.521186,
     "geom:bbox":"11.6913762491,53.2321721802,11.7556337967,53.282966305",
     "geom:latitude":53.259849,
     "geom:longitude":11.718461,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682487,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076003",
+        "eurostat:nuts_2021_id":"13076003",
         "gn:id":2953028,
         "gp:id":636747,
         "qs_pg:id":579904,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1e5aaa3e88206abc954e6c3a16ab806b",
+    "wof:geomhash":"f1b2dd69faa41190fac64387b7f4cf1b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101908119,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351993,
     "wof:name":"Balow",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":363,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

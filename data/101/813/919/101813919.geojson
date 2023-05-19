@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ayl",
+    "eurostat:nuts_2021_id":"07235002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235002",
+    "eurostat:population":1544,
+    "eurostat:population_year":2020,
     "geom:area":0.000911,
     "geom:area_square_m":7294735.370545,
     "geom:bbox":"6.52812231184,49.6213510938,6.57465340586,49.6473019462",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235002",
+        "eurostat:nuts_2021_id":"07235002",
         "gn:id":2953828,
         "gp:id":636251,
         "qs_pg:id":1143914,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d11edf5cbf697a78ec355fabd1be8919",
+    "wof:geomhash":"74c5c0c6aac10b53829011f2809190e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101813919,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351893,
     "wof:name":"Ayl",
     "wof:parent_id":1377686055,
     "wof:placetype":"locality",
-    "wof:population":1479,
+    "wof:population":1544,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lenne",
+    "eurostat:nuts_2021_id":"03255027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255027",
+    "eurostat:population":643,
+    "eurostat:population_year":2020,
     "geom:area":0.000747,
     "geom:area_square_m":5701750.239183,
     "geom:bbox":"9.65920973709,51.8808722581,9.70688722211,51.9115506049",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255027",
+        "eurostat:nuts_2021_id":"03255027",
         "gn:id":2878795,
         "qs_pg:id":578029,
         "wd:id":"Q76369"
@@ -292,7 +307,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9c56825d8e07fbd10438a4664377f285",
+    "wof:geomhash":"9b598b94b67a631f7a1776a10ce9df9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -304,11 +319,11 @@
         }
     ],
     "wof:id":1125821779,
-    "wof:lastmodified":1582343031,
+    "wof:lastmodified":1684352015,
     "wof:name":"Lenne",
     "wof:parent_id":1377686847,
     "wof:placetype":"locality",
-    "wof:population":752,
+    "wof:population":643,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

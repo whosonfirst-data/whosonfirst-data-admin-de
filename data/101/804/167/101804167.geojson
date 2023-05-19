@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barenburg, Flecken",
+    "eurostat:nuts_2021_id":"03251004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251004",
+    "eurostat:population":1239,
+    "eurostat:population_year":2020,
     "geom:area":0.002163,
-    "geom:area_square_m":16236861.724249,
+    "geom:area_square_m":16236861.724246,
     "geom:bbox":"8.73940477019,52.5617813872,8.8682676438,52.6457834342",
     "geom:latitude":52.617754,
     "geom:longitude":8.795202,
@@ -287,7 +299,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -298,6 +311,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251004",
+        "eurostat:nuts_2021_id":"03251004",
         "gn:id":2952767,
         "gp:id":703956,
         "qs_pg:id":901279,
@@ -308,7 +323,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af64282a2ac3873373d1e77f47257e89",
+    "wof:geomhash":"e37a5bf4d153c64fc77ecc8e43e98689",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -320,11 +335,11 @@
         }
     ],
     "wof:id":101804167,
-    "wof:lastmodified":1582342445,
+    "wof:lastmodified":1684351846,
     "wof:name":"Barenburg",
     "wof:parent_id":1377686541,
     "wof:placetype":"locality",
-    "wof:population":1277,
+    "wof:population":1239,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

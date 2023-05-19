@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klingelbach",
+    "eurostat:nuts_2021_id":"07141073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141073",
+    "eurostat:population":738,
+    "eurostat:population_year":2020,
     "geom:area":0.000637,
     "geom:area_square_m":5034044.451336,
     "geom:bbox":"7.93201133149,50.2550389225,7.99680791095,50.2969286277",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141073",
+        "eurostat:nuts_2021_id":"07141073",
         "gn:id":2887766,
         "qs_pg:id":578263,
         "wd:id":"Q179977"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"1864c6dca13d429cff003f876bf6ab80",
+    "wof:geomhash":"ae9b530a303e058bda88a85d00eb901b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125842145,
-    "wof:lastmodified":1582343056,
+    "wof:lastmodified":1684352023,
     "wof:name":"Klingelbach",
     "wof:parent_id":1377685743,
     "wof:placetype":"locality",
-    "wof:population":762,
+    "wof:population":738,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

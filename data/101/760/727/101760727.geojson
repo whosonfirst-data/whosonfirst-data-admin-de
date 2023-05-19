@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Linkenheim-Hochstetten",
+    "eurostat:nuts_2021_id":"08215105",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215105",
+    "eurostat:population":11897,
+    "eurostat:population_year":2020,
     "geom:area":0.002891,
-    "geom:area_square_m":23394730.133564,
+    "geom:area_square_m":23394730.133565,
     "geom:bbox":"8.36738,49.097203,8.452448,49.157322",
     "geom:latitude":49.127693,
     "geom:longitude":8.407461,
@@ -297,18 +309,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":123,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688241,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215105",
+        "eurostat:nuts_2021_id":"08215105",
         "fct:id":"0715e542-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3272461,
         "gp:id":12623895,
@@ -323,7 +338,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44cb1ad3c80112ff8d54a56c3ea3b0fd",
+    "wof:geomhash":"3cb8f2664ee1419e87296300fab21ab1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050790,
+    "wof:lastmodified":1684351801,
     "wof:name":"Linkenheim-Hochstetten",
     "wof:parent_id":1377688241,
     "wof:placetype":"locality",
-    "wof:population":11599,
+    "wof:population":11897,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

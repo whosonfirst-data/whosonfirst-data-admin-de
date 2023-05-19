@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dudenhofen",
+    "eurostat:nuts_2021_id":"07338007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338007",
+    "eurostat:population":6061,
+    "eurostat:population_year":2020,
     "geom:area":0.001579,
-    "geom:area_square_m":12725377.399992,
+    "geom:area_square_m":12725377.399994,
     "geom:bbox":"8.35020612197,49.2978404883,8.40733646112,49.3535083528",
     "geom:latitude":49.320829,
     "geom:longitude":8.380483,
@@ -140,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":60,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338007",
+        "eurostat:nuts_2021_id":"07338007",
         "gn:id":2934737,
         "gp:id":645852,
         "qs_pg:id":1040003,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b1d60a793c501a9a378a12a0b79df7aa",
+    "wof:geomhash":"9549d813d366a8e62f955f40d908ee53",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101759659,
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351799,
     "wof:name":"Dudenhofen",
     "wof:parent_id":1377686639,
     "wof:placetype":"locality",
-    "wof:population":5709,
+    "wof:population":6061,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

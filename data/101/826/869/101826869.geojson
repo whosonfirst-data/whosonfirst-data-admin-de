@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dietersheim",
+    "eurostat:nuts_2021_id":"09575119",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575119",
+    "eurostat:population":2203,
+    "eurostat:population_year":2020,
     "geom:area":0.003884,
-    "geom:area_square_m":31160057.267387,
+    "geom:area_square_m":31160057.267388,
     "geom:bbox":"10.472943,49.517617,10.611353,49.571172",
     "geom:latitude":49.547157,
     "geom:longitude":10.539893,
@@ -154,18 +166,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063505,
         1377689795,
         404227565,
-        85682571
+        102063505
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575119",
+        "eurostat:nuts_2021_id":"09575119",
         "fct:id":"073b8626-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2937124,
         "gp:id":644639,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f63d8c8eb0848beeac2da9cf5f87a45e",
+    "wof:geomhash":"1132aaef1576c744371bdb6c10c4d77f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050317,
+    "wof:lastmodified":1684351937,
     "wof:name":"Dietersheim",
     "wof:parent_id":1377689795,
     "wof:placetype":"locality",
-    "wof:population":2138,
+    "wof:population":2203,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

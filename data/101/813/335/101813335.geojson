@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kl\u00fcsserath",
+    "eurostat:nuts_2021_id":"07235063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235063",
+    "eurostat:population":1058,
+    "eurostat:population_year":2020,
     "geom:area":0.001419,
-    "geom:area_square_m":11314582.23018,
+    "geom:area_square_m":11314582.230179,
     "geom:bbox":"6.81841069896,49.8391512113,6.88798758308,49.8798398194",
     "geom:latitude":49.854,
     "geom:longitude":6.855671,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":234,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235063",
+        "eurostat:nuts_2021_id":"07235063",
         "gn:id":2887302,
         "gp:id":667547,
         "qs_pg:id":93562,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3fc8c120fa3d61e6fa6a6cd2a15cd9e3",
+    "wof:geomhash":"a3c4aae63ee8a8e0910c7778dcf60bb8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101813335,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351890,
     "wof:name":"Kl\u00fcsserath",
     "wof:parent_id":1377686065,
     "wof:placetype":"locality",
-    "wof:population":1099,
+    "wof:population":1058,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

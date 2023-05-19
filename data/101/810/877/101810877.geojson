@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wartenberg",
+    "eurostat:nuts_2021_id":"06535019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535019",
+    "eurostat:population":3871,
+    "eurostat:population_year":2020,
     "geom:area":0.005013,
-    "geom:area_square_m":39326593.109059,
+    "geom:area_square_m":39326593.109062,
     "geom:bbox":"9.416879,50.575087,9.501128,50.671495",
     "geom:latitude":50.621816,
     "geom:longitude":9.454836,
@@ -291,18 +303,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":816,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377684025,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535019",
+        "eurostat:nuts_2021_id":"06535019",
         "gn:id":3208135,
         "gp:id":635174,
         "qs_pg:id":95275,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"30f7fdd6667dfb0426a124cecf21c8e9",
+    "wof:geomhash":"aa1c6620104ca3a4edb08da94e627d7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101810877,
-    "wof:lastmodified":1608050083,
+    "wof:lastmodified":1684351876,
     "wof:name":"Wartenberg",
     "wof:parent_id":1377684025,
     "wof:placetype":"locality",
-    "wof:population":3944,
+    "wof:population":3871,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

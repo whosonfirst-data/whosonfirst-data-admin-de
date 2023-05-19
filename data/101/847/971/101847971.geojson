@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nahrendorf",
+    "eurostat:nuts_2021_id":"03355025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355025",
+    "eurostat:population":1239,
+    "eurostat:population_year":2020,
     "geom:area":0.005938,
-    "geom:area_square_m":44012513.193428,
+    "geom:area_square_m":44012513.193431,
     "geom:bbox":"10.7649751499,53.1403650762,10.9094419901,53.198194043",
     "geom:latitude":53.168803,
     "geom:longitude":10.837831,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355025",
+        "eurostat:nuts_2021_id":"03355025",
         "gn:id":2867146,
         "gp:id":677079,
         "qs_pg:id":577735,
@@ -179,7 +194,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ab615aa78b02188e949b6cc433fbdf8f",
+    "wof:geomhash":"58738a1f9ce0fb7061620cd89fcfe25e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101847971,
-    "wof:lastmodified":1582342556,
+    "wof:lastmodified":1684351964,
     "wof:name":"Nahrendorf",
     "wof:parent_id":1377687527,
     "wof:placetype":"locality",
-    "wof:population":1417,
+    "wof:population":1239,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

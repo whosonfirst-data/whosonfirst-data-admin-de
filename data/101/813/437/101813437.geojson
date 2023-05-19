@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Odernheim am Glan",
+    "eurostat:nuts_2021_id":"07133076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133076",
+    "eurostat:population":1680,
+    "eurostat:population_year":2020,
     "geom:area":0.001641,
     "geom:area_square_m":13104541.372861,
     "geom:bbox":"7.6823517053,49.7405731946,7.75127184445,49.7822428994",
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3055,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133076",
+        "eurostat:nuts_2021_id":"07133076",
         "fct:id":"07512b16-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6553525,
         "gp:id":682832,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c3a54c6ec2f1e7dad3acefcb2d45612",
+    "wof:geomhash":"cf117b87dba1a574ede0cc9e99510ca4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351891,
     "wof:name":"Odernheim am Glan",
     "wof:parent_id":1377685419,
     "wof:placetype":"locality",
-    "wof:population":1690,
+    "wof:population":1680,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08117020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eschenbach",
+    "eurostat:nuts_2021_id":"08117020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE114",
+    "eurostat:nuts_2021_level_lau":"08117020",
+    "eurostat:population":2149,
+    "eurostat:population_year":2020,
     "geom:area":0.000592,
-    "geom:area_square_m":4837399.264276,
+    "geom:area_square_m":4837399.264277,
     "geom:bbox":"9.65972402345,48.633745874,9.68863290648,48.6831701313",
     "geom:latitude":48.657011,
     "geom:longitude":9.675839,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "wof:belongsto":[
         85682567,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08117020",
+        "eurostat:nuts_2021_id":"08117020",
         "fct:id":"07160b62-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2929091,
         "gp:id":12624073,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fb3c31e1e5b59243d65481da9192915f",
+    "wof:geomhash":"dcddc723f924a4c9c5adeca8648b35f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342514,
+    "wof:lastmodified":1684351805,
     "wof:name":"Eschenbach",
     "wof:parent_id":1377687245,
     "wof:placetype":"locality",
-    "wof:population":2316,
+    "wof:population":2149,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

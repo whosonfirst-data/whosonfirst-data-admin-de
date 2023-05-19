@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feldkirchen",
+    "eurostat:nuts_2021_id":"09278121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278121",
+    "eurostat:population":1989,
+    "eurostat:population_year":2020,
     "geom:area":0.002774,
-    "geom:area_square_m":22577129.78186,
+    "geom:area_square_m":22577129.781858,
     "geom:bbox":"12.482151,48.8037,12.586382,48.853898",
     "geom:latitude":48.830291,
     "geom:longitude":12.530233,
@@ -138,17 +150,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685293,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278121",
+        "eurostat:nuts_2021_id":"09278121",
         "gn:id":2927340,
         "gp:id":704762,
         "qs_pg:id":8,
@@ -162,7 +177,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b1c9a35b89c511b0e813208008c46935",
+    "wof:geomhash":"a2504a7c6dbc7747760424d378881aa9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101783287,
-    "wof:lastmodified":1608050611,
+    "wof:lastmodified":1684351829,
     "wof:name":"Feldkirchen",
     "wof:parent_id":1377685293,
     "wof:placetype":"locality",
-    "wof:population":1845,
+    "wof:population":1989,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

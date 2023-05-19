@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15086055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gommern, Stadt",
+    "eurostat:nuts_2021_id":"15086055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE06",
+    "eurostat:nuts_2021_level_lau":"15086055",
+    "eurostat:population":10488,
+    "eurostat:population_year":2020,
     "geom:area":0.021155,
-    "geom:area_square_m":160784581.053526,
+    "geom:area_square_m":160784581.053525,
     "geom:bbox":"11.72568,52.000807,12.03845,52.142651",
     "geom:latitude":52.073217,
     "geom:longitude":11.884874,
@@ -301,17 +313,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063939,
         1377688683,
-        85682519
+        85633111,
+        102063939
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15086055",
+        "eurostat:nuts_2021_id":"15086055",
         "gn:id":2919138,
         "gp:id":653252,
         "qs_pg:id":211844,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5de7c2ddbdb942478bcd53d433a056ab",
+    "wof:geomhash":"ec9c7c02d2d73d018f25895b1a138b3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101821249,
-    "wof:lastmodified":1608050214,
+    "wof:lastmodified":1684351917,
     "wof:name":"Gommern",
     "wof:parent_id":1377688683,
     "wof:placetype":"locality",
-    "wof:population":5992,
-    "wof:population_rank":5,
+    "wof:population":10488,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

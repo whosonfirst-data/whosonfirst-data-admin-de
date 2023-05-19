@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Niendorf",
+    "eurostat:nuts_2021_id":"01060029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060029",
+    "eurostat:population":676,
+    "eurostat:population_year":2020,
     "geom:area":0.001466,
     "geom:area_square_m":10696995.254155,
     "geom:bbox":"10.2067660386,53.82455921,10.2726624363,53.8623977576",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060029",
+        "eurostat:nuts_2021_id":"01060029",
         "gn:id":2915223,
         "gp:id":654629,
         "qs_pg:id":1066445,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"28d3f9d4b9609055677db3b88a8968be",
+    "wof:geomhash":"fd57f2b32423b5e63ded2ded72c4571a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101906221,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351977,
     "wof:name":"Gro\u00df Niendorf",
     "wof:parent_id":1377684587,
     "wof:placetype":"locality",
-    "wof:population":621,
+    "wof:population":676,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

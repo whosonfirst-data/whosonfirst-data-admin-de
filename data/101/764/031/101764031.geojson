@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Glottertal",
+    "eurostat:nuts_2021_id":"08315041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315041",
+    "eurostat:population":3167,
+    "eurostat:population_year":2020,
     "geom:area":0.0037,
-    "geom:area_square_m":30591351.103946,
+    "geom:area_square_m":30591351.103947,
     "geom:bbox":"7.91570720275,48.0140078813,8.01491055143,48.065372827",
     "geom:latitude":48.041883,
     "geom:longitude":7.962082,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":352,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315041",
+        "eurostat:nuts_2021_id":"08315041",
         "gn:id":6619303,
         "gp:id":700978,
         "qs_pg:id":2,
@@ -197,7 +212,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5813716afa3a0b007116d4f512c6a889",
+    "wof:geomhash":"f27d5dcabe6b38b675e286e8ea764a56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101764031,
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351811,
     "wof:name":"Glottertal",
     "wof:parent_id":1377685491,
     "wof:placetype":"locality",
-    "wof:population":3108,
+    "wof:population":3167,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

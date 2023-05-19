@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ewighausen",
+    "eurostat:nuts_2021_id":"07143221",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143221",
+    "eurostat:population":233,
+    "eurostat:population_year":2020,
     "geom:area":0.00032,
     "geom:area_square_m":2512802.419044,
     "geom:bbox":"7.81116685397,50.5220370631,7.83595956959,50.5435482925",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143221",
+        "eurostat:nuts_2021_id":"07143221",
         "gn:id":2928300,
         "qs_pg:id":579194,
         "wd:id":"Q563919"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"7df008f104af41cde9c12cf3831b2fbc",
+    "wof:geomhash":"921b2ff1f8e7dc4447f038f72875925a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126027207,
-    "wof:lastmodified":1582342980,
+    "wof:lastmodified":1684352050,
     "wof:name":"Ewighausen",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":244,
+    "wof:population":233,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

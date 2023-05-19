@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rehhorst",
+    "eurostat:nuts_2021_id":"01062059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062059",
+    "eurostat:population":700,
+    "eurostat:population_year":2020,
     "geom:area":0.002203,
-    "geom:area_square_m":16054628.477517,
+    "geom:area_square_m":16054628.477518,
     "geom:bbox":"10.4286114525,53.8542692414,10.5125618786,53.9030141705",
     "geom:latitude":53.88332,
     "geom:longitude":10.467476,
@@ -134,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062059",
+        "eurostat:nuts_2021_id":"01062059",
         "gn:id":2849320,
         "gp:id":687390,
         "wd:id":"Q633716"
@@ -153,7 +168,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"826ab0aa56b85eecad29f806b3415ccf",
+    "wof:geomhash":"e13f75094b4482951b72d426e7435cc2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101908493,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351996,
     "wof:name":"Rehhorst",
     "wof:parent_id":1377684809,
     "wof:placetype":"locality",
-    "wof:population":690,
+    "wof:population":700,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

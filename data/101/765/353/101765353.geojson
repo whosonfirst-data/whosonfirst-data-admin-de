@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcnstertal/Schwarzwald",
+    "eurostat:nuts_2021_id":"08315130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315130",
+    "eurostat:population":5072,
+    "eurostat:population_year":2020,
     "geom:area":0.008126,
-    "geom:area_square_m":67425692.600017,
+    "geom:area_square_m":67425692.600016,
     "geom:bbox":"7.75492550016,47.8017952349,7.89207525831,47.9042644171",
     "geom:latitude":47.853826,
     "geom:longitude":7.820561,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315130",
+        "eurostat:nuts_2021_id":"08315130",
         "gn:id":6559224,
         "gp:id":708881,
         "qs_pg:id":160903,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"daedb5ef4b043283a65cbb4a5f416e4a",
+    "wof:geomhash":"f815b7ca85a59bdc8a79b224dfb179d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -317,11 +332,11 @@
         }
     ],
     "wof:id":101765353,
-    "wof:lastmodified":1582342334,
+    "wof:lastmodified":1684351818,
     "wof:name":"M\u00fcnstertal/Schwarzwald",
     "wof:parent_id":1377685515,
     "wof:placetype":"locality",
-    "wof:population":5199,
+    "wof:population":5072,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

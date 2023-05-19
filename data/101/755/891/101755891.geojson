@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neus\u00e4\u00df, St",
+    "eurostat:nuts_2021_id":"09772184",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772184",
+    "eurostat:population":22335,
+    "eurostat:population_year":2020,
     "geom:area":0.003024,
-    "geom:area_square_m":24831979.048917,
+    "geom:area_square_m":24831979.048919,
     "geom:bbox":"10.757545,48.364796,10.85958,48.418296",
     "geom:latitude":48.39307,
     "geom:longitude":10.809344,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":256,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693451,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772184",
+        "eurostat:nuts_2021_id":"09772184",
         "gn:id":2864252,
         "gp:id":678930,
         "qs_pg:id":389309,
@@ -199,7 +214,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9d74495f06c58c406e7a071140c73052",
+    "wof:geomhash":"aef7bdd7b3fc4a02174d93a0df675833",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101755891,
-    "wof:lastmodified":1608049412,
+    "wof:lastmodified":1684351791,
     "wof:name":"Neus\u00e4\u00df",
     "wof:parent_id":1377693451,
     "wof:placetype":"locality",
-    "wof:population":21265,
+    "wof:population":22335,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

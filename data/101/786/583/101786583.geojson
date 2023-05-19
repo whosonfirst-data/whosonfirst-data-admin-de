@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Windach",
+    "eurostat:nuts_2021_id":"09181146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181146",
+    "eurostat:population":3814,
+    "eurostat:population_year":2020,
     "geom:area":0.002983,
-    "geom:area_square_m":24651905.579747,
+    "geom:area_square_m":24651905.579748,
     "geom:bbox":"10.9777499696,48.035124371,11.0733766445,48.0887204756",
     "geom:latitude":48.059912,
     "geom:longitude":11.024855,
@@ -176,7 +188,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682571,
@@ -188,6 +201,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181146",
+        "eurostat:nuts_2021_id":"09181146",
         "gn:id":2808306,
         "gp:id":20157004,
         "qs_pg:id":501699,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d94e27e162d807b5972a87737ce5a1cf",
+    "wof:geomhash":"a7c65130e61ad2cfaa0b9ae28315cb01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101786583,
-    "wof:lastmodified":1582342642,
+    "wof:lastmodified":1684351839,
     "wof:name":"Windach",
     "wof:parent_id":1377692375,
     "wof:placetype":"locality",
-    "wof:population":3449,
+    "wof:population":3814,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

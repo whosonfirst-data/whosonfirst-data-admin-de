@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siedenbollentin",
+    "eurostat:nuts_2021_id":"13071135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071135",
+    "eurostat:population":552,
+    "eurostat:population_year":2020,
     "geom:area":0.002556,
     "geom:area_square_m":18698107.440718,
     "geom:bbox":"13.3532468442,53.703517282,13.4323506914,53.7624606144",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071135",
+        "eurostat:nuts_2021_id":"13071135",
         "gn:id":2832599,
         "gp:id":694782,
         "qs_pg:id":576917,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dd59a89a58464103af328831da32eaf8",
+    "wof:geomhash":"b6599d660c34dafc22571f7acd4d1fa1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101908643,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351998,
     "wof:name":"Siedenbollentin",
     "wof:parent_id":1377684533,
     "wof:placetype":"locality",
-    "wof:population":719,
+    "wof:population":552,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

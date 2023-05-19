@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosa",
+    "eurostat:nuts_2021_id":"16066059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066059",
+    "eurostat:population":674,
+    "eurostat:population_year":2020,
     "geom:area":0.001231,
     "geom:area_square_m":9633397.957136,
     "geom:bbox":"10.2252417202,50.699972062,10.284455128,50.7406838664",
@@ -198,7 +210,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":213,
     "wof:belongsto":[
         85682541,
@@ -209,6 +222,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066059",
+        "eurostat:nuts_2021_id":"16066059",
         "gn:id":2845171,
         "gp:id":689552,
         "qs_pg:id":577192,
@@ -219,7 +234,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"91882e491189f822b34d096d1b3e6d61",
+    "wof:geomhash":"cc484f44cdc498df747771667e5e5843",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,11 +246,11 @@
         }
     ],
     "wof:id":101907505,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351988,
     "wof:name":"Rosa",
     "wof:parent_id":1377690055,
     "wof:placetype":"locality",
-    "wof:population":826,
+    "wof:population":674,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marktheidenfeld, St",
+    "eurostat:nuts_2021_id":"09677157",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677157",
+    "eurostat:population":11213,
+    "eurostat:population_year":2020,
     "geom:area":0.004463,
-    "geom:area_square_m":35587251.186046,
+    "geom:area_square_m":35587251.186048,
     "geom:bbox":"9.500236,49.80387,9.632801,49.91306",
     "geom:latitude":49.840749,
     "geom:longitude":9.567819,
@@ -318,22 +330,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1660,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063595,
         1377691543,
         404227569,
-        85682571
+        102063595
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677157",
+        "eurostat:nuts_2021_id":"09677157",
         "gn:id":2873301,
         "gp:id":674031,
         "qs_pg:id":394833,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"39fff0b5ee82eda230a58fe50bd85339",
+    "wof:geomhash":"415ef523771603dae9a474b68dbaa01d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -361,11 +376,11 @@
         }
     ],
     "wof:id":101840033,
-    "wof:lastmodified":1608051307,
+    "wof:lastmodified":1684351950,
     "wof:name":"Marktheidenfeld",
     "wof:parent_id":1377691543,
     "wof:placetype":"locality",
-    "wof:population":11024,
+    "wof:population":11213,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

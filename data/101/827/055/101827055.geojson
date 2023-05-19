@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09474126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Forchheim, GKSt",
+    "eurostat:nuts_2021_id":"09474126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE248",
+    "eurostat:nuts_2021_level_lau":"09474126",
+    "eurostat:population":32260,
+    "eurostat:population_year":2020,
     "geom:area":0.005556,
-    "geom:area_square_m":44414001.057109,
+    "geom:area_square_m":44414001.057107,
     "geom:bbox":"10.999774,49.673849,11.126422,49.750682",
     "geom:latitude":49.719927,
     "geom:longitude":11.06345,
@@ -341,21 +353,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063525,
         1377687895,
         404227583,
-        85682571
+        102063525
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09474126",
+        "eurostat:nuts_2021_id":"09474126",
         "gn:id":2925910,
         "gp:id":650075,
         "qs_pg:id":1344030,
@@ -370,7 +385,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c7d455a293d59a7119a4bbd9a1f2ef5e",
+    "wof:geomhash":"0fbcfd2cad68b514f681cadd919a7bb7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101827055,
-    "wof:lastmodified":1675971390,
+    "wof:lastmodified":1684351939,
     "wof:name":"Forchheim",
     "wof:parent_id":1377687895,
     "wof:placetype":"locality",
-    "wof:population":30442,
+    "wof:population":32260,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

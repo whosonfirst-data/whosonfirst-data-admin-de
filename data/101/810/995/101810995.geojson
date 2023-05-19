@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lohmar, Stadt",
+    "eurostat:nuts_2021_id":"05382028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382028",
+    "eurostat:population":30453,
+    "eurostat:population_year":2020,
     "geom:area":0.008398,
-    "geom:area_square_m":65542435.298599,
+    "geom:area_square_m":65542435.298597,
     "geom:bbox":"7.190962,50.812988,7.306582,50.928198",
     "geom:latitude":50.865503,
     "geom:longitude":7.248283,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":360,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690645,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382028",
+        "eurostat:nuts_2021_id":"05382028",
         "gn:id":2876218,
         "gp:id":672500,
         "qs_pg:id":1344745,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"86b4cf1feda1a32a7f006f122b3c3e60",
+    "wof:geomhash":"3c46bfce0faf33a3adfc532aa123ec3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101810995,
-    "wof:lastmodified":1608050069,
+    "wof:lastmodified":1684351877,
     "wof:name":"Lohmar",
     "wof:parent_id":1377690645,
     "wof:placetype":"locality",
-    "wof:population":31339,
+    "wof:population":30453,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

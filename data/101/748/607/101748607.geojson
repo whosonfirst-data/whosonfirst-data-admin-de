@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Troisdorf, Stadt",
+    "eurostat:nuts_2021_id":"05382068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382068",
+    "eurostat:population":74953,
+    "eurostat:population_year":2020,
     "geom:area":0.007868,
-    "geom:area_square_m":61461638.324272,
+    "geom:area_square_m":61461638.324266,
     "geom:bbox":"7.076944,50.761616,7.213415,50.874451",
     "geom:latitude":50.821596,
     "geom:longitude":7.141679,
@@ -323,22 +335,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":465,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690731,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382068",
+        "eurostat:nuts_2021_id":"05382068",
         "gn:id":2821029,
         "gp:id":700102,
         "qs_pg:id":71269,
@@ -353,7 +368,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"acfcdb4c4d04128d690459980fd35207",
+    "wof:geomhash":"f7cd95fbc0f934e2f8a1f7f96dab4713",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
         }
     ],
     "wof:id":101748607,
-    "wof:lastmodified":1608050595,
+    "wof:lastmodified":1684351786,
     "wof:name":"Troisdorf",
     "wof:parent_id":1377690731,
     "wof:placetype":"locality",
-    "wof:population":74749,
+    "wof:population":74953,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

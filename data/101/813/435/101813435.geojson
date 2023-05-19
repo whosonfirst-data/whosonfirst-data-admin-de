@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bockenau",
+    "eurostat:nuts_2021_id":"07133013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133013",
+    "eurostat:population":1211,
+    "eurostat:population_year":2020,
     "geom:area":0.001209,
     "geom:area_square_m":9637734.039111,
     "geom:bbox":"7.64516039206,49.8242054009,7.70188480315,49.8604013861",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1005,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133013",
+        "eurostat:nuts_2021_id":"07133013",
         "gn:id":2947370,
         "gp:id":639699,
         "qs_pg:id":94095,
@@ -176,7 +191,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"353e591394059f385040b14b035633c8",
+    "wof:geomhash":"3eed48b18ffc8254bfcdc0534da3b0bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101813435,
-    "wof:lastmodified":1582342571,
+    "wof:lastmodified":1684351891,
     "wof:name":"Bockenau",
     "wof:parent_id":1377685409,
     "wof:placetype":"locality",
-    "wof:population":1209,
+    "wof:population":1211,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

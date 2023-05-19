@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blankenrath",
+    "eurostat:nuts_2021_id":"07135010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135010",
+    "eurostat:population":1650,
+    "eurostat:population_year":2020,
     "geom:area":0.00056,
     "geom:area_square_m":4449963.428257,
     "geom:bbox":"7.28083499791,50.0276201903,7.33205572373,50.0519960413",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1071,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135010",
+        "eurostat:nuts_2021_id":"07135010",
         "gn:id":2948046,
         "gp:id":639383,
         "qs_pg:id":94105,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ba0b229036bf82940e134746a3165ea7",
+    "wof:geomhash":"15bec03605ba522d54ee3175b3f4e655",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101811993,
-    "wof:lastmodified":1582342387,
+    "wof:lastmodified":1684351881,
     "wof:name":"Blankenrath",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":1812,
+    "wof:population":1650,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

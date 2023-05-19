@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Wittensee",
+    "eurostat:nuts_2021_id":"01058066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058066",
+    "eurostat:population":1289,
+    "eurostat:population_year":2020,
     "geom:area":0.003248,
     "geom:area_square_m":23382065.293481,
     "geom:bbox":"9.72207851132,54.3705797199,9.81531040165,54.4338900962",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058066",
+        "eurostat:nuts_2021_id":"01058066",
         "gn:id":2914836,
         "gp:id":655284,
         "qs_pg:id":578847,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a8939e8f2c0d03ea3edbb2c35190368b",
+    "wof:geomhash":"6996d81d5d1c2ea9d313e800dea6e923",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101806837,
-    "wof:lastmodified":1582342621,
+    "wof:lastmodified":1684351855,
     "wof:name":"Gro\u00df Wittensee",
     "wof:parent_id":1377684287,
     "wof:placetype":"locality",
-    "wof:population":1007,
+    "wof:population":1289,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fehrbellin",
+    "eurostat:nuts_2021_id":"12068117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068117",
+    "eurostat:population":8943,
+    "eurostat:population_year":2020,
     "geom:area":0.035908,
-    "geom:area_square_m":268533612.10123,
+    "geom:area_square_m":268533612.101236,
     "geom:bbox":"12.646003,52.681313,12.98608,52.867419",
     "geom:latitude":52.786678,
     "geom:longitude":12.795446,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":284,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063997,
         1377683661,
-        85682553
+        85633111,
+        102063997
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068117",
+        "eurostat:nuts_2021_id":"12068117",
         "gn:id":2810995,
         "gp:id":649415,
         "qs_pg:id":1166386,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0d5dcff18637e5ca71dbda6d15cb7226",
+    "wof:geomhash":"22c5a196c9255a83169faf806191ded6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101820053,
-    "wof:lastmodified":1608049859,
+    "wof:lastmodified":1684351912,
     "wof:name":"Fehrbellin",
     "wof:parent_id":1377683661,
     "wof:placetype":"locality",
-    "wof:population":9413,
+    "wof:population":8943,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

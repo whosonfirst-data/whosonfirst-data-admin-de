@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Golchen",
+    "eurostat:nuts_2021_id":"13071044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071044",
+    "eurostat:population":280,
+    "eurostat:population_year":2020,
     "geom:area":0.003252,
-    "geom:area_square_m":23755823.939477,
+    "geom:area_square_m":23755823.939475,
     "geom:bbox":"13.2167217065,53.7356323881,13.304999748,53.8188464668",
     "geom:latitude":53.783282,
     "geom:longitude":13.256874,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":55,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071044",
+        "eurostat:nuts_2021_id":"13071044",
         "gn:id":2919452,
         "gp:id":653108,
         "qs_pg:id":578970,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bccaaa91ab4633c65c2a3024aa11e8f0",
+    "wof:geomhash":"181dfa431b5849ab890e9bdc37eb083a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101908635,
-    "wof:lastmodified":1582342344,
+    "wof:lastmodified":1684351998,
     "wof:name":"Golchen",
     "wof:parent_id":1377684533,
     "wof:placetype":"locality",
-    "wof:population":323,
+    "wof:population":280,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05762032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinheim, Stadt",
+    "eurostat:nuts_2021_id":"05762032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA44",
+    "eurostat:nuts_2021_level_lau":"05762032",
+    "eurostat:population":12528,
+    "eurostat:population_year":2020,
     "geom:area":0.009895,
-    "geom:area_square_m":75584851.103836,
+    "geom:area_square_m":75584851.103838,
     "geom:bbox":"8.949868,51.783375,9.177043,51.911421",
     "geom:latitude":51.84872,
     "geom:longitude":9.055023,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":72,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063837,
         1377691721,
         404227571,
-        85682513
+        102063837
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05762032",
+        "eurostat:nuts_2021_id":"05762032",
         "gn:id":2827990,
         "gp:id":696926,
         "qs_pg:id":1038352,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7f00c474b0a4932596642bf4d8118806",
+    "wof:geomhash":"dd0867ecb53fd41ed5127e5832fc1a8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101808949,
-    "wof:lastmodified":1608051685,
+    "wof:lastmodified":1684351865,
     "wof:name":"Steinheim",
     "wof:parent_id":1377691721,
     "wof:placetype":"locality",
-    "wof:population":13797,
+    "wof:population":12528,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

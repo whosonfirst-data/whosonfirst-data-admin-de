@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaifenheim",
+    "eurostat:nuts_2021_id":"07135043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135043",
+    "eurostat:population":801,
+    "eurostat:population_year":2020,
     "geom:area":0.000781,
-    "geom:area_square_m":6175127.058965,
+    "geom:area_square_m":6175127.058964,
     "geom:bbox":"7.20569440165,50.2342656162,7.24841327869,50.2633732845",
     "geom:latitude":50.249057,
     "geom:longitude":7.226838,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1878,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135043",
+        "eurostat:nuts_2021_id":"07135043",
         "gn:id":2894085,
         "gp:id":640625,
         "qs_pg:id":578399,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4240992c414f451cd83d3e0569be8322",
+    "wof:geomhash":"52f768d326eb6238d2c882647db53cfc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907109,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351984,
     "wof:name":"Kaifenheim",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":833,
+    "wof:population":801,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

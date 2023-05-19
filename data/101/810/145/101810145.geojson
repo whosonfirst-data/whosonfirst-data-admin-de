@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geismar",
+    "eurostat:nuts_2021_id":"16061035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061035",
+    "eurostat:population":1084,
+    "eurostat:population_year":2020,
     "geom:area":0.002493,
-    "geom:area_square_m":19308951.608523,
+    "geom:area_square_m":19308951.608527,
     "geom:bbox":"10.0979072771,51.1906491574,10.2087814259,51.2477439593",
     "geom:latitude":51.224654,
     "geom:longitude":10.155861,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682541,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061035",
+        "eurostat:nuts_2021_id":"16061035",
         "gn:id":2921642,
         "gp:id":651971,
         "qs_pg:id":1039803,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f2ad6a45fa979fa67045dc062bc253a5",
+    "wof:geomhash":"29abc106497be22adb01c4d4991ee7d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101810145,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351871,
     "wof:name":"Geismar",
     "wof:parent_id":1377689491,
     "wof:placetype":"locality",
-    "wof:population":1285,
+    "wof:population":1084,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

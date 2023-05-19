@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abtsbessingen",
+    "eurostat:nuts_2021_id":"16065001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065001",
+    "eurostat:population":466,
+    "eurostat:population_year":2020,
     "geom:area":0.001805,
-    "geom:area_square_m":13970990.751487,
+    "geom:area_square_m":13970990.751486,
     "geom:bbox":"10.7202582547,51.2369176496,10.7955164284,51.2777363971",
     "geom:latitude":51.257643,
     "geom:longitude":10.756698,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065001",
+        "eurostat:nuts_2021_id":"16065001",
         "gn:id":2959773,
         "gp:id":633246,
         "qs_pg:id":580050,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0e46482ac1550a3d0bdf702a4987674d",
+    "wof:geomhash":"d9bb85b66a0aa5b34083905b757b0de4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101909065,
-    "wof:lastmodified":1582342284,
+    "wof:lastmodified":1684352001,
     "wof:name":"Abtsbessingen",
     "wof:parent_id":1377689923,
     "wof:placetype":"locality",
-    "wof:population":569,
+    "wof:population":466,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rain, St",
+    "eurostat:nuts_2021_id":"09779201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779201",
+    "eurostat:population":8891,
+    "eurostat:population_year":2020,
     "geom:area":0.009394,
-    "geom:area_square_m":76714044.035748,
+    "geom:area_square_m":76714044.035751,
     "geom:bbox":"10.8715482654,48.6092652563,11.0396097018,48.7212989137",
     "geom:latitude":48.668752,
     "geom:longitude":10.952199,
@@ -553,7 +565,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -568,6 +581,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779201",
+        "eurostat:nuts_2021_id":"09779201",
         "gn:id":2850808,
         "gp:id":686676,
         "qs_pg:id":1038686
@@ -577,7 +592,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a6c76a94517cdc783e187112681f5259",
+    "wof:geomhash":"34cf76168f000eeae616f187dc9faa84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -590,11 +605,11 @@
         }
     ],
     "wof:id":101783163,
-    "wof:lastmodified":1582342479,
+    "wof:lastmodified":1684351827,
     "wof:name":"Rain",
     "wof:parent_id":1377693437,
     "wof:placetype":"locality",
-    "wof:population":8438,
+    "wof:population":8891,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6llbach",
+    "eurostat:nuts_2021_id":"07133060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133060",
+    "eurostat:population":201,
+    "eurostat:population_year":2020,
     "geom:area":0.000612,
     "geom:area_square_m":4892923.073879,
     "geom:bbox":"7.55535282102,49.679807069,7.61586473989,49.7047656818",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133060",
+        "eurostat:nuts_2021_id":"07133060",
         "gn:id":2876025,
         "qs_pg:id":577962,
         "wd:id":"Q555223"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"59167ed45e44f11350918bb8172e5c35",
+    "wof:geomhash":"e504dcf6f67731660788c5611c444736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125782267,
-    "wof:lastmodified":1582343038,
+    "wof:lastmodified":1684352012,
     "wof:name":"L\u00f6llbach",
     "wof:parent_id":1377686483,
     "wof:placetype":"locality",
-    "wof:population":243,
+    "wof:population":201,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

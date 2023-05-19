@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03257010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagenburg, Flecken",
+    "eurostat:nuts_2021_id":"03257010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE928",
+    "eurostat:nuts_2021_level_lau":"03257010",
+    "eurostat:population":4569,
+    "eurostat:population_year":2020,
     "geom:area":0.002127,
-    "geom:area_square_m":16039546.258998,
+    "geom:area_square_m":16039546.258999,
     "geom:bbox":"9.26717903058,52.4054766097,9.39343566741,52.4547410776",
     "geom:latitude":52.429402,
     "geom:longitude":9.323773,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03257010",
+        "eurostat:nuts_2021_id":"03257010",
         "gn:id":2912534,
         "gp:id":634444,
         "qs_pg:id":1039667,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f7684f5624d02308b56f2e692c8f72e7",
+    "wof:geomhash":"019b8508765fb18f277b286ba7b6ffd1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,7 +349,7 @@
         }
     ],
     "wof:id":101807601,
-    "wof:lastmodified":1582342592,
+    "wof:lastmodified":1684351857,
     "wof:name":"Hagenburg",
     "wof:parent_id":1377687093,
     "wof:placetype":"locality",

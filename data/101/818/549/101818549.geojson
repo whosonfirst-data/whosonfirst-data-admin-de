@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Angerm\u00fcnde, Stadt",
+    "eurostat:nuts_2021_id":"12073008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073008",
+    "eurostat:population":13757,
+    "eurostat:population_year":2020,
     "geom:area":0.04348,
-    "geom:area_square_m":323236342.210191,
+    "geom:area_square_m":323236342.210164,
     "geom:bbox":"13.787082,52.931549,14.147139,53.159603",
     "geom:latitude":53.042715,
     "geom:longitude":13.970166,
@@ -327,7 +339,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.033333,
     "wd:longitude":14.0,
     "wd:wordcount":352,
@@ -336,14 +349,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064021,
         1377684235,
-        85682553
+        85633111,
+        102064021
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073008",
+        "eurostat:nuts_2021_id":"12073008",
         "gn:id":2956093,
         "gp:id":635170,
         "qs_pg:id":246220,
@@ -358,7 +373,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7537ebe140cd2faa536dbf8c7ee96e97",
+    "wof:geomhash":"58e89b8eb8bb3d74cb3da7319c1d9fe4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101818549,
-    "wof:lastmodified":1608049785,
+    "wof:lastmodified":1684351900,
     "wof:name":"Angerm\u00fcnde",
     "wof:parent_id":1377684235,
     "wof:placetype":"locality",
-    "wof:population":15453,
+    "wof:population":13757,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

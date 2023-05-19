@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Irmenach",
+    "eurostat:nuts_2021_id":"07231501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231501",
+    "eurostat:population":652,
+    "eurostat:population_year":2020,
     "geom:area":0.00206,
-    "geom:area_square_m":16403594.918856,
+    "geom:area_square_m":16403594.918855,
     "geom:bbox":"7.14530764463,49.9012641283,7.22387766143,49.9469510099",
     "geom:latitude":49.921912,
     "geom:longitude":7.185316,
@@ -119,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1421,
     "wof:belongsto":[
         85682491,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231501",
+        "eurostat:nuts_2021_id":"07231501",
         "gn:id":2895791,
         "gp:id":638600,
         "qs_pg:id":578442,
@@ -141,7 +156,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b26dc82a852223b98ef12cac2cb58080",
+    "wof:geomhash":"0e37d7cbcc8a3ce9dab5141d3df7633c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +168,11 @@
         }
     ],
     "wof:id":101907043,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351984,
     "wof:name":"Irmenach",
     "wof:parent_id":1377685909,
     "wof:placetype":"locality",
-    "wof:population":748,
+    "wof:population":652,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

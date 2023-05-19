@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borkum, Stadt",
+    "eurostat:nuts_2021_id":"03457002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457002",
+    "eurostat:population":5078,
+    "eurostat:population_year":2020,
     "geom:area":0.004634,
-    "geom:area_square_m":34009062.703268,
+    "geom:area_square_m":34009062.703267,
     "geom:bbox":"6.639872,53.556956,6.813218,53.617828",
     "geom:latitude":53.594148,
     "geom:longitude":6.717984,
@@ -345,7 +357,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":510,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -353,12 +366,14 @@
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
         102191581,
-        85633111,
         1377688769,
+        85633111,
         85682555
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457002",
+        "eurostat:nuts_2021_id":"03457002",
         "gn:id":2946206,
         "gp:id":640290,
         "qs_pg:id":1030409,
@@ -373,7 +388,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3d2a13c4a7c7d38d65fee6c157db612d",
+    "wof:geomhash":"9e2c41763f64e0e15d98ff7952b1556d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
         }
     ],
     "wof:id":101806485,
-    "wof:lastmodified":1608051723,
+    "wof:lastmodified":1684351851,
     "wof:name":"Borkum",
     "wof:parent_id":1377688769,
     "wof:placetype":"locality",
-    "wof:population":5186,
+    "wof:population":5078,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

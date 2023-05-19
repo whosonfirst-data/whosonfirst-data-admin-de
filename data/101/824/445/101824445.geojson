@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16072011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauscha, Stadt",
+    "eurostat:nuts_2021_id":"16072011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0H",
+    "eurostat:nuts_2021_level_lau":"16072011",
+    "eurostat:population":3260,
+    "eurostat:population_year":2020,
     "geom:area":0.002361,
-    "geom:area_square_m":18574318.13145,
+    "geom:area_square_m":18574318.131455,
     "geom:bbox":"11.1071,50.450469,11.206734,50.506651",
     "geom:latitude":50.479714,
     "geom:longitude":11.155389,
@@ -308,21 +320,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":374,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063639,
         1377690533,
-        85682541
+        85633111,
+        102063639
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16072011",
+        "eurostat:nuts_2021_id":"16072011",
         "gn:id":2880052,
         "gp:id":670539,
         "qs_pg:id":1116247,
@@ -336,7 +351,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f94646e2bb3742a2acb50cd52e27d102",
+    "wof:geomhash":"25a843a2fa1bf0c15426815606a0767d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101824445,
-    "wof:lastmodified":1608051155,
+    "wof:lastmodified":1684351928,
     "wof:name":"Lauscha",
     "wof:parent_id":1377690533,
     "wof:placetype":"locality",
-    "wof:population":4104,
+    "wof:population":3260,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"St\u00e4dteregion Aachen",
+    "eurostat:name_local":"St\u00e4dteregion Aachen",
+    "eurostat:nuts_2021_id":"DEA2D",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2D",
+    "eurostat:population":556673,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.089695,
-    "geom:area_square_m":702058427.361889,
+    "geom:area_square_m":702058427.361899,
     "geom:bbox":"5.974861,50.494369,6.419697,50.950133",
     "geom:latitude":50.72828,
     "geom:longitude":6.216785,
@@ -345,8 +359,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"707",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Aachen",
@@ -359,19 +373,20 @@
     "statoids:type":"district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227541,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA2D",
         "hasc:id":"DE.NW.AC"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa8a6e049536d6bb02b2972a418ce0bc",
+    "wof:geomhash":"8b734b77568ee4942dae028613e41d74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,12 +397,12 @@
         }
     ],
     "wof:id":102063693,
-    "wof:lastmodified":1587164323,
+    "wof:lastmodified":1684351520,
     "wof:name":"Aachen",
     "wof:parent_id":404227541,
     "wof:placetype":"county",
     "wof:placetype_local":"district",
-    "wof:population":539515,
+    "wof:population":556673,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"AC",

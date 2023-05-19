@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagenow, Stadt",
+    "eurostat:nuts_2021_id":"13076060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076060",
+    "eurostat:population":12175,
+    "eurostat:population_year":2020,
     "geom:area":0.009129,
-    "geom:area_square_m":67235605.568193,
+    "geom:area_square_m":67235605.568192,
     "geom:bbox":"11.120272,53.376734,11.280354,53.492771",
     "geom:latitude":53.442686,
     "geom:longitude":11.200661,
@@ -156,21 +168,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":567,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675569,
         1377685199,
-        85682487
+        85633111,
+        1377675569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076060",
+        "eurostat:nuts_2021_id":"13076060",
         "gn:id":2912481,
         "gp:id":656438,
         "qs_pg:id":142461,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2962ce0c785af4aaf62644ca3dc11d64",
+    "wof:geomhash":"4d1721d456066cc4c428ddaeccccaaa2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101818621,
-    "wof:lastmodified":1608049729,
+    "wof:lastmodified":1684351901,
     "wof:name":"Hagenow",
     "wof:parent_id":1377685199,
     "wof:placetype":"locality",
-    "wof:population":12128,
+    "wof:population":12175,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

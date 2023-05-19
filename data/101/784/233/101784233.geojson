@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thierhaupten, M",
+    "eurostat:nuts_2021_id":"09772207",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772207",
+    "eurostat:population":4043,
+    "eurostat:population_year":2020,
     "geom:area":0.00479,
-    "geom:area_square_m":39196315.987524,
+    "geom:area_square_m":39196315.987527,
     "geom:bbox":"10.869984,48.531212,10.987044,48.599953",
     "geom:latitude":48.561982,
     "geom:longitude":10.915603,
@@ -307,18 +319,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":432,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693473,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772207",
+        "eurostat:nuts_2021_id":"09772207",
         "gn:id":2822749,
         "gp:id":699249,
         "qs_pg:id":174831,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2e914596f3e042e26bf2b34c9072d154",
+    "wof:geomhash":"5ffb4e6c404d6f9d58b0957b89326437",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101784233,
-    "wof:lastmodified":1608050678,
+    "wof:lastmodified":1684351831,
     "wof:name":"Thierhaupten",
     "wof:parent_id":1377693473,
     "wof:placetype":"locality",
-    "wof:population":3841,
+    "wof:population":4043,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

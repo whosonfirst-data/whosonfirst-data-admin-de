@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rieden, M",
+    "eurostat:nuts_2021_id":"09371146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371146",
+    "eurostat:population":2660,
+    "eurostat:population_year":2020,
     "geom:area":0.004013,
-    "geom:area_square_m":32354181.747641,
+    "geom:area_square_m":32354181.74764,
     "geom:bbox":"11.857605,49.278049,11.982634,49.338384",
     "geom:latitude":49.308586,
     "geom:longitude":11.929561,
@@ -295,21 +307,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685741,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371146",
+        "eurostat:nuts_2021_id":"09371146",
         "gn:id":2847242,
         "gp:id":688511,
         "qs_pg:id":324076,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f4fbcb276d9c00a14d2b539eb9c110b0",
+    "wof:geomhash":"25ceac1431bacc6a6ab7a3b17d80d257",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101780769,
-    "wof:lastmodified":1608052042,
+    "wof:lastmodified":1684351820,
     "wof:name":"Rieden",
     "wof:parent_id":1377685741,
     "wof:placetype":"locality",
-    "wof:population":2983,
+    "wof:population":2660,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

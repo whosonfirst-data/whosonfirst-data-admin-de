@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Volkerode",
+    "eurostat:nuts_2021_id":"16061098",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061098",
+    "eurostat:population":238,
+    "eurostat:population_year":2020,
     "geom:area":0.000884,
     "geom:area_square_m":6840569.236198,
     "geom:bbox":"10.0463413342,51.2437611383,10.1175032114,51.270175217",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061098",
+        "eurostat:nuts_2021_id":"16061098",
         "gn:id":2816678,
         "qs_pg:id":576591,
         "wd:id":"Q546545"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"e764275bf7586346aa0b51ba430d471c",
+    "wof:geomhash":"54a9b6d44799855764251450c3062df6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125769861,
-    "wof:lastmodified":1582343034,
+    "wof:lastmodified":1684352010,
     "wof:name":"Volkerode",
     "wof:parent_id":1377689491,
     "wof:placetype":"locality",
-    "wof:population":265,
+    "wof:population":238,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosenheim (Landkreis Altenkirchen)",
+    "eurostat:nuts_2021_id":"07132095",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132095",
+    "eurostat:population":755,
+    "eurostat:population_year":2020,
     "geom:area":0.000524,
-    "geom:area_square_m":4099819.196311,
+    "geom:area_square_m":4099819.196312,
     "geom:bbox":"7.8355178659,50.7020027773,7.8732173536,50.7282089527",
     "geom:latitude":50.71595,
     "geom:longitude":7.851785,
@@ -57,7 +69,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -67,6 +80,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132095",
+        "eurostat:nuts_2021_id":"07132095",
         "gn:id":3207893,
         "gp:id":20162766,
         "qs_pg:id":501793
@@ -76,7 +91,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ef000d05c0e7cf1c67754e202d08682e",
+    "wof:geomhash":"5c75e880f4073bd26586cdb78c53e917",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -88,11 +103,11 @@
         }
     ],
     "wof:id":101907539,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351988,
     "wof:name":"Rosenheim (Landkreis Altenkirchen)",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":757,
+    "wof:population":755,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

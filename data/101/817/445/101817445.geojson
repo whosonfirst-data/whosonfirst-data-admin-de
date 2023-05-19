@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ascheberg (Holstein)",
+    "eurostat:nuts_2021_id":"01057001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057001",
+    "eurostat:population":2895,
+    "eurostat:population_year":2020,
     "geom:area":0.002874,
     "geom:area_square_m":20816357.750194,
     "geom:bbox":"10.2794935699,54.1183548999,10.3768532645,54.1791187614",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057001",
+        "eurostat:nuts_2021_id":"01057001",
         "gn:id":2955223,
         "gp:id":635639,
         "qs_pg:id":1298786,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"18ac702fcefd4925c22a211b7dfe69df",
+    "wof:geomhash":"cfe70c11ac6e805dbfc9d305615f5404",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101817445,
-    "wof:lastmodified":1582342416,
+    "wof:lastmodified":1684351897,
     "wof:name":"Ascheberg (Holstein)",
     "wof:parent_id":1377684019,
     "wof:placetype":"locality",
-    "wof:population":3178,
+    "wof:population":2895,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcdersdorf",
+    "eurostat:nuts_2021_id":"13074049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074049",
+    "eurostat:population":5288,
+    "eurostat:population_year":2020,
     "geom:area":0.007488,
     "geom:area_square_m":54648318.566225,
     "geom:bbox":"10.7477111965,53.779333309,10.8738078902,53.8804156955",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074049",
+        "eurostat:nuts_2021_id":"13074049",
         "gn:id":2875430,
         "gp:id":672909,
         "qs_pg:id":2,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e2b3fadb0d71880d2805726b35b738f9",
+    "wof:geomhash":"e7fdc1b2867d5b17d20561f74f13fbfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101818801,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351904,
     "wof:name":"L\u00fcdersdorf",
     "wof:parent_id":1377685007,
     "wof:placetype":"locality",
-    "wof:population":5142,
+    "wof:population":5288,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

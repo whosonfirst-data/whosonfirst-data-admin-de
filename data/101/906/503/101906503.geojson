@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Immenstedt",
+    "eurostat:nuts_2021_id":"01054057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054057",
+    "eurostat:population":634,
+    "eurostat:population_year":2020,
     "geom:area":0.002027,
     "geom:area_square_m":14542144.090637,
     "geom:bbox":"9.12948117911,54.514903543,9.20955069991,54.5603991314",
@@ -271,7 +283,8 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":14,
     "wof:belongsto":[
         85682517,
@@ -282,6 +295,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054057",
+        "eurostat:nuts_2021_id":"01054057",
         "gn:id":2896259,
         "gp:id":663461,
         "qs_pg:id":578449,
@@ -293,7 +308,7 @@
         "de-bkg",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b2417d4b14c949039a381d0acab40c32",
+    "wof:geomhash":"6b8bf8a98c58fbd41017a8e056db206e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -305,11 +320,11 @@
         }
     ],
     "wof:id":101906503,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351980,
     "wof:name":"Immenstedt",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":616,
+    "wof:population":634,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

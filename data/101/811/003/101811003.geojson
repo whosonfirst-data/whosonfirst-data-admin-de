@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dautphetal",
+    "eurostat:nuts_2021_id":"06534007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534007",
+    "eurostat:population":11407,
+    "eurostat:population_year":2020,
     "geom:area":0.009193,
-    "geom:area_square_m":71775916.781485,
+    "geom:area_square_m":71775916.781488,
     "geom:bbox":"8.480703,50.796672,8.632896,50.901849",
     "geom:latitude":50.846203,
     "geom:longitude":8.557236,
@@ -288,18 +300,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3175,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683813,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534007",
+        "eurostat:nuts_2021_id":"06534007",
         "gn:id":3208034,
         "gp:id":20162378,
         "qs_pg:id":95248,
@@ -313,7 +328,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d810601ba150d4323319eecc3b02252f",
+    "wof:geomhash":"632025114e0a61639a13761103428306",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101811003,
-    "wof:lastmodified":1608049939,
+    "wof:lastmodified":1684351878,
     "wof:name":"Dautphetal",
     "wof:parent_id":1377683813,
     "wof:placetype":"locality",
-    "wof:population":11601,
+    "wof:population":11407,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00f6ttingen, St",
+    "eurostat:nuts_2021_id":"09679182",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679182",
+    "eurostat:population":1668,
+    "eurostat:population_year":2020,
     "geom:area":0.003379,
-    "geom:area_square_m":27121421.395228,
+    "geom:area_square_m":27121421.395226,
     "geom:bbox":"9.91695926274,49.4838252313,10.0195310439,49.546419572",
     "geom:latitude":49.519078,
     "geom:longitude":9.967675,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":550,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679182",
+        "eurostat:nuts_2021_id":"09679182",
         "gn:id":2843673,
         "gp:id":690105,
         "qs_pg:id":867735,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"71b9e39bc6bf872a623dcc88746f667e",
+    "wof:geomhash":"fdce28f8fea948ea1df63b534ed017ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101813261,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351889,
     "wof:name":"R\u00f6ttingen",
     "wof:parent_id":1377692151,
     "wof:placetype":"locality",
-    "wof:population":1679,
+    "wof:population":1668,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

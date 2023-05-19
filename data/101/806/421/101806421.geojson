@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gyhum",
+    "eurostat:nuts_2021_id":"03357018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357018",
+    "eurostat:population":2360,
+    "eurostat:population_year":2020,
     "geom:area":0.006538,
-    "geom:area_square_m":48416650.005946,
+    "geom:area_square_m":48416650.005944,
     "geom:bbox":"9.21830021065,53.1755809052,9.36576058023,53.2515202434",
     "geom:latitude":53.20958,
     "geom:longitude":9.290458,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":83,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357018",
+        "eurostat:nuts_2021_id":"03357018",
         "gn:id":2913280,
         "gp:id":656067,
         "qs_pg:id":279249,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e081b2d8b9a7d642123dba1efa08ad0c",
+    "wof:geomhash":"b63a061c03e20c7789af72a1e59bc831",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101806421,
-    "wof:lastmodified":1582342618,
+    "wof:lastmodified":1684351851,
     "wof:name":"Gyhum",
     "wof:parent_id":1377687739,
     "wof:placetype":"locality",
-    "wof:population":2454,
+    "wof:population":2360,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

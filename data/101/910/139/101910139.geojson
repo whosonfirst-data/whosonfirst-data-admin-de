@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Peuschen",
+    "eurostat:nuts_2021_id":"16075081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075081",
+    "eurostat:population":454,
+    "eurostat:population_year":2020,
     "geom:area":0.000926,
-    "geom:area_square_m":7261348.853551,
+    "geom:area_square_m":7261348.853549,
     "geom:bbox":"11.6133310015,50.6425841134,11.6837534935,50.66965865",
     "geom:latitude":50.656197,
     "geom:longitude":11.652461,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075081",
+        "eurostat:nuts_2021_id":"16075081",
         "gn:id":2854518,
         "gp:id":684736,
         "qs_pg:id":93254,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2f3a3433ae8d61386d8a4c2ea0e08e0",
+    "wof:geomhash":"1e18eb5c309d03b9e22f2f7224a2e715",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101910139,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352004,
     "wof:name":"Peuschen",
     "wof:parent_id":1377690819,
     "wof:placetype":"locality",
-    "wof:population":528,
+    "wof:population":454,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

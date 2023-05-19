@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Silberstedt",
+    "eurostat:nuts_2021_id":"01059079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059079",
+    "eurostat:population":2306,
+    "eurostat:population_year":2020,
     "geom:area":0.005258,
-    "geom:area_square_m":37721690.815092,
+    "geom:area_square_m":37721690.815091,
     "geom:bbox":"9.31579594212,54.4758250498,9.41800837467,54.5884703101",
     "geom:latitude":54.536476,
     "geom:longitude":9.367005,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059079",
+        "eurostat:nuts_2021_id":"01059079",
         "gn:id":2832114,
         "gp:id":695051,
         "qs_pg:id":93059,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c7596b2b725102ab7d741ad0eea84cfa",
+    "wof:geomhash":"fdef69a1c102771255b2e7be7f66ef6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101805187,
-    "wof:lastmodified":1582342452,
+    "wof:lastmodified":1684351847,
     "wof:name":"Silberstedt",
     "wof:parent_id":1377684455,
     "wof:placetype":"locality",
-    "wof:population":2213,
+    "wof:population":2306,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

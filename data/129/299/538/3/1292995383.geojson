@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135502",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leienkaul",
+    "eurostat:nuts_2021_id":"07135502",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135502",
+    "eurostat:population":353,
+    "eurostat:population_year":2020,
     "geom:area":0.000401,
     "geom:area_square_m":3172632.39278,
     "geom:bbox":"7.07543321167,50.2001101868,7.10465578795,50.2235261746",
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -126,6 +139,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135502",
+        "eurostat:nuts_2021_id":"07135502",
         "gn:id":2879280,
         "wk:page":"Leienkaul"
     },
@@ -133,7 +148,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a648c55fc8813fa1c99f07a0859e958b",
+    "wof:geomhash":"566f6f0b96de8a5d7e9f66f9972457c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1292995383,
-    "wof:lastmodified":1582342024,
+    "wof:lastmodified":1684352060,
     "wof:name":"Leienkaul",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":324,
+    "wof:population":353,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

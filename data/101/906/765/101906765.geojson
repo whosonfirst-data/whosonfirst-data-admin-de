@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nu\u00dfbach",
+    "eurostat:nuts_2021_id":"07336069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336069",
+    "eurostat:population":553,
+    "eurostat:population_year":2020,
     "geom:area":0.001013,
     "geom:area_square_m":8115523.981769,
     "geom:bbox":"7.67403776448,49.6199917543,7.72817890147,49.6525151806",
@@ -120,7 +132,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336069",
+        "eurostat:nuts_2021_id":"07336069",
         "gn:id":2861624,
         "gp:id":680574,
         "qs_pg:id":577569,
@@ -141,7 +156,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5d69576c931036246ce34e23d7394fd5",
+    "wof:geomhash":"ced7e2312f659e0b3bb66c6cd5ba7fb6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +168,11 @@
         }
     ],
     "wof:id":101906765,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351981,
     "wof:name":"Nu\u00dfbach",
     "wof:parent_id":1377686483,
     "wof:placetype":"locality",
-    "wof:population":643,
+    "wof:population":553,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

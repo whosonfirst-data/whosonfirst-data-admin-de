@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberrod",
+    "eurostat:nuts_2021_id":"07143282",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143282",
+    "eurostat:population":651,
+    "eurostat:population_year":2020,
     "geom:area":0.000858,
-    "geom:area_square_m":6736063.589876,
+    "geom:area_square_m":6736063.589877,
     "geom:bbox":"8.11057866423,50.5760891374,8.15216089898,50.6092428011",
     "geom:latitude":50.592008,
     "geom:longitude":8.132567,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":261,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143282",
+        "eurostat:nuts_2021_id":"07143282",
         "gn:id":2859276,
         "gp:id":682110,
         "qs_pg:id":93298,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92d5dd0f7e39507531d08d9491b66f8f",
+    "wof:geomhash":"46e69f4270286f8350ca7da5cb6248d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101907445,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351988,
     "wof:name":"Oberrod",
     "wof:parent_id":1377685807,
     "wof:placetype":"locality",
-    "wof:population":736,
+    "wof:population":651,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

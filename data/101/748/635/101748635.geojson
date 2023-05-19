@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05362032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kerpen, Kolpingstadt",
+    "eurostat:nuts_2021_id":"05362032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA27",
+    "eurostat:nuts_2021_level_lau":"05362032",
+    "eurostat:population":66702,
+    "eurostat:population_year":2020,
     "geom:area":0.014659,
-    "geom:area_square_m":114381397.939342,
+    "geom:area_square_m":114381397.93934,
     "geom:bbox":"6.548031,50.821997,6.804043,50.926191",
     "geom:latitude":50.874908,
     "geom:longitude":6.670119,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":188,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063709,
         1377685195,
         404227541,
-        85682513
+        102063709
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05362032",
+        "eurostat:nuts_2021_id":"05362032",
         "gn:id":2891524,
         "gp:id":665530,
         "loc:id":"n88080048",
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8b6a9fafd00927832dcffc9aeacae32c",
+    "wof:geomhash":"b0abd466232aee28f6f1ccbf436208c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101748635,
-    "wof:lastmodified":1608050563,
+    "wof:lastmodified":1684351787,
     "wof:name":"Kerpen",
     "wof:parent_id":1377685195,
     "wof:placetype":"locality",
-    "wof:population":64226,
+    "wof:population":66702,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

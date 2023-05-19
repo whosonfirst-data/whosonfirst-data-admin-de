@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westensee",
+    "eurostat:nuts_2021_id":"01058171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058171",
+    "eurostat:population":1553,
+    "eurostat:population_year":2020,
     "geom:area":0.005073,
-    "geom:area_square_m":36630977.16659,
+    "geom:area_square_m":36630977.166587,
     "geom:bbox":"9.82918943342,54.2365969976,9.97538883626,54.3089255552",
     "geom:latitude":54.274273,
     "geom:longitude":9.906509,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058171",
+        "eurostat:nuts_2021_id":"01058171",
         "gn:id":2810505,
         "gp:id":705687,
         "qs_pg:id":576442,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9fa83ccef1d64543be940e2241ea042c",
+    "wof:geomhash":"846400b3200a18528c9e94930b6017dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101805177,
-    "wof:lastmodified":1582342453,
+    "wof:lastmodified":1684351847,
     "wof:name":"Westensee",
     "wof:parent_id":1377684187,
     "wof:placetype":"locality",
-    "wof:population":1582,
+    "wof:population":1553,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

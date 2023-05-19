@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143305",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weidenhahn",
+    "eurostat:nuts_2021_id":"07143305",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143305",
+    "eurostat:population":571,
+    "eurostat:population_year":2020,
     "geom:area":0.000414,
     "geom:area_square_m":3251867.297483,
     "geom:bbox":"7.82653021418,50.5380369318,7.8659467904,50.5575207103",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":164,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143305",
+        "eurostat:nuts_2021_id":"07143305",
         "gn:id":2812994,
         "gp:id":704518,
         "qs_pg:id":576504,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b761eaba687b217b62ba2fcb9ed95948",
+    "wof:geomhash":"2445df62d1984bb6cb340e25f0257303",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101907469,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351988,
     "wof:name":"Weidenhahn",
     "wof:parent_id":1377685817,
     "wof:placetype":"locality",
-    "wof:population":542,
+    "wof:population":571,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

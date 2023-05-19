@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenstein-Ernstthal, Stadt",
+    "eurostat:nuts_2021_id":"14524120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524120",
+    "eurostat:population":14527,
+    "eurostat:population_year":2020,
     "geom:area":0.002381,
     "geom:area_square_m":18603067.656193,
     "geom:bbox":"12.654508,50.78913,12.769126,50.834073",
@@ -187,21 +199,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":395,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686415,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524120",
+        "eurostat:nuts_2021_id":"14524120",
         "gn:id":2901420,
         "gp:id":661352,
         "qs_pg:id":241927,
@@ -216,7 +231,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"06a65325c172597c413da5d0602e6bc5",
+    "wof:geomhash":"6fc152300fdc2c3d0fb727912a4672cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101841245,
-    "wof:lastmodified":1608050975,
+    "wof:lastmodified":1684351952,
     "wof:name":"Hohenstein-Ernstthal",
     "wof:parent_id":1377686415,
     "wof:placetype":"locality",
-    "wof:population":16542,
+    "wof:population":14527,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

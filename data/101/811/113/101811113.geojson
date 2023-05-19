@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwalmstadt, Konfirmationsstadt",
+    "eurostat:nuts_2021_id":"06634022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634022",
+    "eurostat:population":18019,
+    "eurostat:population_year":2020,
     "geom:area":0.010844,
-    "geom:area_square_m":84528281.674517,
+    "geom:area_square_m":84528281.674519,
     "geom:bbox":"9.108642,50.861931,9.302646,50.974877",
     "geom:latitude":50.922329,
     "geom:longitude":9.198847,
@@ -301,20 +313,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.912778,
     "wd:longitude":9.188889,
     "wd:wordcount":1645,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684825,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634022",
+        "eurostat:nuts_2021_id":"06634022",
         "gn:id":2835345,
         "gp:id":29348961,
         "qs_pg:id":887091,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da112703a473e478efe8f8b8ac981534",
+    "wof:geomhash":"b9d38a8973a3144ffee044b844ed2ea4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101811113,
-    "wof:lastmodified":1608049948,
+    "wof:lastmodified":1684351879,
     "wof:name":"Schwalmstadt",
     "wof:parent_id":1377684825,
     "wof:placetype":"locality",
-    "wof:population":19279,
+    "wof:population":18019,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

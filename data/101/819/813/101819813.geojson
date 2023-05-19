@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hillerse",
+    "eurostat:nuts_2021_id":"03151012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151012",
+    "eurostat:population":2493,
+    "eurostat:population_year":2020,
     "geom:area":0.003186,
     "geom:area_square_m":24029177.588253,
     "geom:bbox":"10.3447354264,52.3906168283,10.4445709401,52.4508011684",
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
         85682555,
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151012",
+        "eurostat:nuts_2021_id":"03151012",
         "gn:id":2904698,
         "gp:id":659940,
         "qs_pg:id":5,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5b22199644d4f8199d81db244099d41a",
+    "wof:geomhash":"e9834ec65ce8657492777e0501a58769",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101819813,
-    "wof:lastmodified":1582342432,
+    "wof:lastmodified":1684351909,
     "wof:name":"Hillerse",
     "wof:parent_id":1377684917,
     "wof:placetype":"locality",
-    "wof:population":2473,
+    "wof:population":2493,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

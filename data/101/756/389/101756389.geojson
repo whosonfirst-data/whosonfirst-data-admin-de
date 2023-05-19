@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hainburg",
+    "eurostat:nuts_2021_id":"06438004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438004",
+    "eurostat:population":14401,
+    "eurostat:population_year":2020,
     "geom:area":0.002012,
-    "geom:area_square_m":15972656.028083,
+    "geom:area_square_m":15972656.028082,
     "geom:bbox":"8.905311,50.045553,8.991372,50.090464",
     "geom:latitude":50.069319,
     "geom:longitude":8.944454,
@@ -293,22 +305,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":677,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377693975,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438004",
+        "eurostat:nuts_2021_id":"06438004",
         "gn:id":3208061,
         "gp:id":20162256,
         "qs_pg:id":1031619,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a5f31c81796ad90fec4c77890381d16b",
+    "wof:geomhash":"e4addc626369fcff0bbadeff722853a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101756389,
-    "wof:lastmodified":1608050848,
+    "wof:lastmodified":1684351794,
     "wof:name":"Hainburg",
     "wof:parent_id":1377693975,
     "wof:placetype":"locality",
-    "wof:population":14014,
+    "wof:population":14401,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

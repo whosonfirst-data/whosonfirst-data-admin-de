@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuwied, Stadt",
+    "eurostat:nuts_2021_id":"07138045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138045",
+    "eurostat:population":64765,
+    "eurostat:population_year":2020,
     "geom:area":0.010919,
-    "geom:area_square_m":85954839.970342,
+    "geom:area_square_m":85954839.97034,
     "geom:bbox":"7.383274,50.411728,7.581777,50.508747",
     "geom:latitude":50.458303,
     "geom:longitude":7.487306,
@@ -339,20 +351,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063655,
         1377685605,
-        85682491
+        85633111,
+        102063655
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138045",
+        "eurostat:nuts_2021_id":"07138045",
         "gn:id":2863840,
         "gp:id":679160,
         "loc:id":"n82092103",
@@ -368,7 +383,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b3dec6385045be8b5c685ea22da8cc77",
+    "wof:geomhash":"368829f9dbd033af3f0e9083623c8281",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,11 +395,11 @@
         }
     ],
     "wof:id":101748585,
-    "wof:lastmodified":1608050597,
+    "wof:lastmodified":1684351786,
     "wof:name":"Neuwied",
     "wof:parent_id":1377685605,
     "wof:placetype":"locality",
-    "wof:population":66805,
+    "wof:population":64765,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

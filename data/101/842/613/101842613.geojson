@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sulzburg, Stadt",
+    "eurostat:nuts_2021_id":"08315111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315111",
+    "eurostat:population":2817,
+    "eurostat:population_year":2020,
     "geom:area":0.002748,
     "geom:area_square_m":22811872.54465,
     "geom:bbox":"7.65893863476,47.8023669185,7.7667678677,47.8539287528",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":47.840278,
     "wd:longitude":7.709167,
     "wd:wordcount":105,
@@ -343,6 +356,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315111",
+        "eurostat:nuts_2021_id":"08315111",
         "gn:id":2824776,
         "gp:id":698306,
         "qs_pg:id":978519,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9959e050cf266cbf491f97c04129c1cc",
+    "wof:geomhash":"b0086d7148caed36a924c18d425a5fd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101842613,
-    "wof:lastmodified":1582342393,
+    "wof:lastmodified":1684351956,
     "wof:name":"Sulzburg",
     "wof:parent_id":1377685479,
     "wof:placetype":"locality",
-    "wof:population":2717,
+    "wof:population":2817,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

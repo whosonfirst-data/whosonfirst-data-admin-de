@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westhausen",
+    "eurostat:nuts_2021_id":"16069056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069056",
+    "eurostat:population":703,
+    "eurostat:population_year":2020,
     "geom:area":0.001946,
-    "geom:area_square_m":15362710.801206,
+    "geom:area_square_m":15362710.801204,
     "geom:bbox":"10.6139800825,50.2936037835,10.6947292279,50.3453432248",
     "geom:latitude":50.318918,
     "geom:longitude":10.65869,
@@ -98,7 +110,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -108,13 +121,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069056",
+        "eurostat:nuts_2021_id":"16069056",
         "gn:id":2810135
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ae4fb90809e4803706125bd92697eae2",
+    "wof:geomhash":"4243448e95e10cde37e3260a3ba8a181",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +141,11 @@
         }
     ],
     "wof:id":1209698211,
-    "wof:lastmodified":1582342058,
+    "wof:lastmodified":1684352057,
     "wof:name":"Westhausen",
     "wof:parent_id":1377690355,
     "wof:placetype":"locality",
-    "wof:population":580,
+    "wof:population":703,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

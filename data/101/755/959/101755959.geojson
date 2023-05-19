@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sinzig, Stadt",
+    "eurostat:nuts_2021_id":"07131077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131077",
+    "eurostat:population":17630,
+    "eurostat:population_year":2020,
     "geom:area":0.0052,
-    "geom:area_square_m":40875749.001803,
+    "geom:area_square_m":40875749.001802,
     "geom:bbox":"7.150874,50.490837,7.284653,50.565802",
     "geom:latitude":50.527731,
     "geom:longitude":7.225607,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":572,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063651,
         1377685245,
-        85682491
+        85633111,
+        102063651
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131077",
+        "eurostat:nuts_2021_id":"07131077",
         "gn:id":2831852,
         "gp:id":695202,
         "qs_pg:id":456106,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2ce32c269179b51a3f73424826963e42",
+    "wof:geomhash":"5171bf38dd9a85831e82826a3c81750a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101755959,
-    "wof:lastmodified":1608049406,
+    "wof:lastmodified":1684351791,
     "wof:name":"Sinzig",
     "wof:parent_id":1377685245,
     "wof:placetype":"locality",
-    "wof:population":17880,
+    "wof:population":17630,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

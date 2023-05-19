@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Atting",
+    "eurostat:nuts_2021_id":"09278117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278117",
+    "eurostat:population":1712,
+    "eurostat:population_year":2020,
     "geom:area":0.001823,
     "geom:area_square_m":14821590.362878,
     "geom:bbox":"12.467646901,48.8690825787,12.5273387681,48.9158304792",
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278117",
+        "eurostat:nuts_2021_id":"09278117",
         "gn:id":2954898,
         "gp:id":635815,
         "qs_pg:id":142935,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e3dd907419c3e9b3def223c6650f59e7",
+    "wof:geomhash":"7f1152ff544279a98021bff511ac0a32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101783283,
-    "wof:lastmodified":1582342479,
+    "wof:lastmodified":1684351829,
     "wof:name":"Atting",
     "wof:parent_id":1377685465,
     "wof:placetype":"locality",
-    "wof:population":1716,
+    "wof:population":1712,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

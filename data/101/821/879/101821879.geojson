@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rastenberg, Stadt",
+    "eurostat:nuts_2021_id":"16068042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068042",
+    "eurostat:population":2482,
+    "eurostat:population_year":2020,
     "geom:area":0.004574,
-    "geom:area_square_m":35449156.463402,
+    "geom:area_square_m":35449156.463403,
     "geom:bbox":"11.3402625475,51.1556667216,11.452402961,51.2199234212",
     "geom:latitude":51.187161,
     "geom:longitude":11.396414,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068042",
+        "eurostat:nuts_2021_id":"16068042",
         "gn:id":2850248,
         "gp:id":686970,
         "qs_pg:id":1038670,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4a40215a283c8eaea74ef522e8243990",
+    "wof:geomhash":"6b041a2c37e45e4bfd8844eaf3f66106",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101821879,
-    "wof:lastmodified":1582342422,
+    "wof:lastmodified":1684351918,
     "wof:name":"Rastenberg",
     "wof:parent_id":1377690235,
     "wof:placetype":"locality",
-    "wof:population":2892,
+    "wof:population":2482,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

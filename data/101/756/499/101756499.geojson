@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12061433",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nefeld",
+    "eurostat:nuts_2021_id":"12061433",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE406",
+    "eurostat:nuts_2021_level_lau":"12061433",
+    "eurostat:population":16270,
+    "eurostat:population_year":2020,
     "geom:area":0.010786,
     "geom:area_square_m":81436668.869926,
     "geom:bbox":"13.417867,52.310474,13.606296,52.420624",
@@ -174,21 +186,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":925,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063913,
         1377694369,
-        85682553
+        85633111,
+        102063913
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12061433",
+        "eurostat:nuts_2021_id":"12061433",
         "gn:id":2836763,
         "gp:id":692972,
         "qs_pg:id":141795,
@@ -207,7 +222,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a8e03410cb8355598b0874c0ab8b6c9f",
+    "wof:geomhash":"7320d30815131ae82147343ed0f62982",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -219,11 +234,11 @@
         }
     ],
     "wof:id":101756499,
-    "wof:lastmodified":1608050809,
+    "wof:lastmodified":1684351796,
     "wof:name":"Sch\u00f6nefeld",
     "wof:parent_id":1377694369,
     "wof:placetype":"locality",
-    "wof:population":12015,
+    "wof:population":16270,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

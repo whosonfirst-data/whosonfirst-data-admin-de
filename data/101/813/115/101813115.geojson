@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alzey, Stadt",
+    "eurostat:nuts_2021_id":"07331003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331003",
+    "eurostat:population":18627,
+    "eurostat:population_year":2020,
     "geom:area":0.00439,
-    "geom:area_square_m":35074366.803895,
+    "geom:area_square_m":35074366.803899,
     "geom:bbox":"8.040382,49.720075,8.166244,49.772449",
     "geom:latitude":49.745837,
     "geom:longitude":8.103142,
@@ -185,7 +197,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.751667,
     "wd:longitude":8.116111,
     "wd:wordcount":3064,
@@ -194,14 +207,16 @@
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063529,
         1377686171,
-        85682491
+        85633111,
+        102063529
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331003",
+        "eurostat:nuts_2021_id":"07331003",
         "gn:id":2956710,
         "gp:id":634917,
         "qs_pg:id":1343493,
@@ -216,7 +231,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"15d1573932582fc16eb729c4bc03c520",
+    "wof:geomhash":"f9cb2e2722599112ef46d03717dc8816",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101813115,
-    "wof:lastmodified":1608051397,
+    "wof:lastmodified":1684351888,
     "wof:name":"Alzey",
     "wof:parent_id":1377686171,
     "wof:placetype":"locality",
-    "wof:population":18241,
+    "wof:population":18627,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

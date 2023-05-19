@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hofgeismar, Stadt",
+    "eurostat:nuts_2021_id":"06633013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633013",
+    "eurostat:population":15268,
+    "eurostat:population_year":2020,
     "geom:area":0.011106,
-    "geom:area_square_m":85477724.913322,
+    "geom:area_square_m":85477724.913321,
     "geom:bbox":"9.318339,51.456845,9.550237,51.55697",
     "geom:latitude":51.507298,
     "geom:longitude":9.414859,
@@ -301,21 +313,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.49596,
     "wd:longitude":9.38718,
     "wd:population":14785,
     "wd:wordcount":71,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684551,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633013",
+        "eurostat:nuts_2021_id":"06633013",
         "gn:id":2902559,
         "gp:id":660852,
         "qs_pg:id":776588,
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"450b42065f7c7f0cdd39c9f87a1506ce",
+    "wof:geomhash":"9e8692bc662b49a40680c38f53b1e699",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101810207,
-    "wof:lastmodified":1608050098,
+    "wof:lastmodified":1684351872,
     "wof:name":"Hofgeismar",
     "wof:parent_id":1377684551,
     "wof:placetype":"locality",
-    "wof:population":14785,
+    "wof:population":15268,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

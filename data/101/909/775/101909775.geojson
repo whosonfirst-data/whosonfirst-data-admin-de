@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lawitz",
+    "eurostat:nuts_2021_id":"12067292",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067292",
+    "eurostat:population":564,
+    "eurostat:population_year":2020,
     "geom:area":0.000796,
-    "geom:area_square_m":6041255.481236,
+    "geom:area_square_m":6041255.481234,
     "geom:bbox":"14.608559332,52.0982173499,14.6649190266,52.1241216462",
     "geom:latitude":52.11239,
     "geom:longitude":14.636724,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
         85682553,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067292",
+        "eurostat:nuts_2021_id":"12067292",
         "gn:id":2879843,
         "gp:id":679183,
         "qs_pg:id":93521,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b92ee6e4a387887e4b12429c2e9100c8",
+    "wof:geomhash":"af1637254ce5d807804d97aee5eba743",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101909775,
-    "wof:lastmodified":1582342293,
+    "wof:lastmodified":1684352003,
     "wof:name":"Lawitz",
     "wof:parent_id":1377683617,
     "wof:placetype":"locality",
-    "wof:population":680,
+    "wof:population":564,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

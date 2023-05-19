@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Staudernheim",
+    "eurostat:nuts_2021_id":"07133102",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133102",
+    "eurostat:population":1370,
+    "eurostat:population_year":2020,
     "geom:area":0.00143,
-    "geom:area_square_m":11417164.964043,
+    "geom:area_square_m":11417164.964044,
     "geom:bbox":"7.64788166744,49.7471596902,7.72274192739,49.8009261818",
     "geom:latitude":49.773756,
     "geom:longitude":7.68263,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133102",
+        "eurostat:nuts_2021_id":"07133102",
         "gn:id":2841081,
         "gp:id":696407,
         "qs_pg:id":93034,
@@ -185,7 +200,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"55cd6095a7a0eb06334a76c47d936bd9",
+    "wof:geomhash":"2096cfdffc50f5a2d39f21b82258e779",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101813431,
-    "wof:lastmodified":1582342565,
+    "wof:lastmodified":1684351891,
     "wof:name":"Staudernheim",
     "wof:parent_id":1377685419,
     "wof:placetype":"locality",
-    "wof:population":1601,
+    "wof:population":1370,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

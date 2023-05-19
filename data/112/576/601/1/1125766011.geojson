@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143313",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winkelbach",
+    "eurostat:nuts_2021_id":"07143313",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143313",
+    "eurostat:population":235,
+    "eurostat:population_year":2020,
     "geom:area":0.000166,
     "geom:area_square_m":1303989.245997,
     "geom:bbox":"7.70877915405,50.631522148,7.74403187357,50.6491672096",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143313",
+        "eurostat:nuts_2021_id":"07143313",
         "gn:id":2808007,
         "qs_pg:id":576392,
         "wd:id":"Q642823"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f25425556311a233304c26663ca083f6",
+    "wof:geomhash":"2af82370cd0d9113d465361b93e0017c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125766011,
-    "wof:lastmodified":1582343034,
+    "wof:lastmodified":1684352008,
     "wof:name":"Winkelbach",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":230,
+    "wof:population":235,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

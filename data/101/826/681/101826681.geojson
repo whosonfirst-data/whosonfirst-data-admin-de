@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09780133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberstdorf, M",
+    "eurostat:nuts_2021_id":"09780133",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27E",
+    "eurostat:nuts_2021_level_lau":"09780133",
+    "eurostat:population":9696,
+    "eurostat:population_year":2020,
     "geom:area":0.027367,
-    "geom:area_square_m":229185799.677695,
+    "geom:area_square_m":229185799.677692,
     "geom:bbox":"10.08289,47.270124,10.389249,47.471557",
     "geom:latitude":47.368692,
     "geom:longitude":10.267959,
@@ -340,22 +352,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":870,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063205,
         1377693579,
         404227547,
-        85682571
+        102063205
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09780133",
+        "eurostat:nuts_2021_id":"09780133",
         "gn:id":2858964,
         "gp:id":682326,
         "qs_pg:id":508706,
@@ -370,7 +385,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2a2e0acece2a8dab677c33dad9bdc4b6",
+    "wof:geomhash":"52c830eb066d8bc0a2f12ca563d34b6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101826681,
-    "wof:lastmodified":1608050304,
+    "wof:lastmodified":1684351935,
     "wof:name":"Oberstdorf",
     "wof:parent_id":1377693579,
     "wof:placetype":"locality",
-    "wof:population":9788,
+    "wof:population":9696,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horns\u00f6mmern",
+    "eurostat:nuts_2021_id":"16064027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064027",
+    "eurostat:population":162,
+    "eurostat:population_year":2020,
     "geom:area":0.000548,
     "geom:area_square_m":4243046.800814,
     "geom:bbox":"10.8084108667,51.2059746536,10.8542477597,51.2225791569",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064027",
+        "eurostat:nuts_2021_id":"16064027",
         "gn:id":2898771,
         "gp:id":675560,
         "qs_pg:id":578511,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a1908b8a905b3bbfff916a21e98f5889",
+    "wof:geomhash":"a26753b9f446cc89d55a5ace62b8b4ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101909009,
-    "wof:lastmodified":1582342285,
+    "wof:lastmodified":1684352001,
     "wof:name":"Horns\u00f6mmern",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":151,
+    "wof:population":162,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

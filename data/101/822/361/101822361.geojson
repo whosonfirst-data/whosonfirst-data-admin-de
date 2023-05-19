@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oschatz, Stadt",
+    "eurostat:nuts_2021_id":"14730230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730230",
+    "eurostat:population":14098,
+    "eurostat:population_year":2020,
     "geom:area":0.007143,
-    "geom:area_square_m":55227824.213752,
+    "geom:area_square_m":55227824.213747,
     "geom:bbox":"13.030277,51.248901,13.163417,51.334459",
     "geom:latitude":51.294405,
     "geom:longitude":13.096528,
@@ -328,21 +340,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":610,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064235,
         1377688037,
-        85682523
+        85633111,
+        102064235
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730230",
+        "eurostat:nuts_2021_id":"14730230",
         "gn:id":2856944,
         "gp:id":683446,
         "qs_pg:id":246158,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dd6f31a7b71bf5529cedee0b503ed954",
+    "wof:geomhash":"2791d67c863bdded4b60bd9067be9653",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -369,11 +384,11 @@
         }
     ],
     "wof:id":101822361,
-    "wof:lastmodified":1608051476,
+    "wof:lastmodified":1684351922,
     "wof:name":"Oschatz",
     "wof:parent_id":1377688037,
     "wof:placetype":"locality",
-    "wof:population":16000,
+    "wof:population":14098,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08316014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gutach im Breisgau",
+    "eurostat:nuts_2021_id":"08316014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE133",
+    "eurostat:nuts_2021_level_lau":"08316014",
+    "eurostat:population":4580,
+    "eurostat:population_year":2020,
     "geom:area":0.002995,
-    "geom:area_square_m":24707814.282008,
+    "geom:area_square_m":24707814.282012,
     "geom:bbox":"7.95532639116,48.1064190536,8.04569460162,48.1942632309",
     "geom:latitude":48.144298,
     "geom:longitude":7.987206,
@@ -137,7 +149,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08316014",
+        "eurostat:nuts_2021_id":"08316014",
         "gn:id":2913425,
         "wk:page":"Gutach_im_Breisgau"
     },
@@ -155,7 +170,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"b98de6e1923f519a7c0293de1309d5d6",
+    "wof:geomhash":"7d14756dfeba640bd4cbd6f5c849c9e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":1226351679,
-    "wof:lastmodified":1582343143,
+    "wof:lastmodified":1684352057,
     "wof:name":"Gutach im Breisgau",
     "wof:parent_id":1377689241,
     "wof:placetype":"locality",
-    "wof:population":4429,
+    "wof:population":4580,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

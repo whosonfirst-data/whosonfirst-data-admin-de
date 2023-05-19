@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e4hden",
+    "eurostat:nuts_2021_id":"03454026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454026",
+    "eurostat:population":4725,
+    "eurostat:population_year":2020,
     "geom:area":0.010637,
-    "geom:area_square_m":79609616.053352,
+    "geom:area_square_m":79609616.053349,
     "geom:bbox":"7.50024889637,52.6975572017,7.71494599166,52.7988646949",
     "geom:latitude":52.752664,
     "geom:longitude":7.608757,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454026",
+        "eurostat:nuts_2021_id":"03454026",
         "gn:id":2881921,
         "gp:id":669804,
         "qs_pg:id":578131,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b84e7c5b257a689a9df167bb1883ebaf",
+    "wof:geomhash":"45c713f7ac168d373399b52593460995",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101846395,
-    "wof:lastmodified":1582342526,
+    "wof:lastmodified":1684351961,
     "wof:name":"L\u00e4hden",
     "wof:parent_id":1377688561,
     "wof:placetype":"locality",
-    "wof:population":4429,
+    "wof:population":4725,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

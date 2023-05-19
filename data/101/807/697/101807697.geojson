@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03241002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barsinghausen, Stadt",
+    "eurostat:nuts_2021_id":"03241002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE929",
+    "eurostat:nuts_2021_level_lau":"03241002",
+    "eurostat:population":34187,
+    "eurostat:population_year":2020,
     "geom:area":0.013465,
-    "geom:area_square_m":101760843.644195,
+    "geom:area_square_m":101760843.644194,
     "geom:bbox":"9.398477,52.260791,9.567863,52.400602",
     "geom:latitude":52.325589,
     "geom:longitude":9.480706,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":142.0,
     "wd:latitude":52.3,
     "wd:longitude":9.481111,
@@ -333,14 +346,16 @@
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063941,
         1377686273,
-        85682555
+        85633111,
+        102063941
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03241002",
+        "eurostat:nuts_2021_id":"03241002",
         "gn:id":2952406,
         "gp:id":637054,
         "qs_pg:id":1040222,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"53b0d44439871a6be1f904f00e71e396",
+    "wof:geomhash":"5b6f4f3ee6b4a4ba3e86d4f3636dfef6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101807697,
-    "wof:lastmodified":1608051562,
+    "wof:lastmodified":1684351859,
     "wof:name":"Barsinghausen",
     "wof:parent_id":1377686273,
     "wof:placetype":"locality",
-    "wof:population":33231,
+    "wof:population":34187,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

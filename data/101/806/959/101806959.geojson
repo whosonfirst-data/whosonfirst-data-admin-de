@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oldendorf (Luhe)",
+    "eurostat:nuts_2021_id":"03355027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355027",
+    "eurostat:population":1014,
+    "eurostat:population_year":2020,
     "geom:area":0.004421,
-    "geom:area_square_m":32776425.779268,
+    "geom:area_square_m":32776425.779266,
     "geom:bbox":"10.1723212453,53.1322518078,10.2852952719,53.1934899215",
     "geom:latitude":53.164309,
     "geom:longitude":10.228172,
@@ -152,7 +164,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682555,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355027",
+        "eurostat:nuts_2021_id":"03355027",
         "gn:id":2857438,
         "gp:id":683168,
         "qs_pg:id":1241722,
@@ -172,7 +187,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"955cf6b45700f59eef6f5222765100fc",
+    "wof:geomhash":"5091d75c7505df1d52b2e29d79c63134",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101806959,
-    "wof:lastmodified":1582342617,
+    "wof:lastmodified":1684351857,
     "wof:name":"Oldendorf (Luhe)",
     "wof:parent_id":1377687505,
     "wof:placetype":"locality",
-    "wof:population":1019,
+    "wof:population":1014,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Nauheim, Stadt",
+    "eurostat:nuts_2021_id":"06440002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440002",
+    "eurostat:population":32447,
+    "eurostat:population_year":2020,
     "geom:area":0.004082,
     "geom:area_square_m":32191753.782875,
     "geom:bbox":"8.709874,50.342065,8.794462,50.411139",
@@ -337,7 +349,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.366667,
     "wd:longitude":8.75,
     "wd:wordcount":937,
@@ -346,15 +359,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694221,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440002",
+        "eurostat:nuts_2021_id":"06440002",
         "gn:id":2953395,
         "gp:id":636472,
         "qs_pg:id":1343587,
@@ -369,7 +384,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f888a8495e4f774df2f0394534e1a1dd",
+    "wof:geomhash":"22698a486cfc3129ee602a84522b8e65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,11 +397,11 @@
         }
     ],
     "wof:id":101812195,
-    "wof:lastmodified":1608051174,
+    "wof:lastmodified":1684351883,
     "wof:name":"Bad Nauheim",
     "wof:parent_id":1377694221,
     "wof:placetype":"locality",
-    "wof:population":30291,
+    "wof:population":32447,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

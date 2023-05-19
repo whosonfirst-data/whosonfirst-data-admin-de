@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nordstrand",
+    "eurostat:nuts_2021_id":"01054091",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054091",
+    "eurostat:population":2253,
+    "eurostat:population_year":2020,
     "geom:area":0.0078,
-    "geom:area_square_m":56004832.243874,
+    "geom:area_square_m":56004832.243876,
     "geom:bbox":"8.78937535966,54.4601762006,8.96083606021,54.5557322474",
     "geom:latitude":54.499652,
     "geom:longitude":8.880706,
@@ -305,7 +317,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "wof:belongsto":[
         85682517,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054091",
+        "eurostat:nuts_2021_id":"01054091",
         "gn:id":2861860,
         "gp:id":698109,
         "qs_pg:id":277293,
@@ -326,7 +341,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"778738f423e19b2ec34d1c92c4274c8c",
+    "wof:geomhash":"9bdf6a1854d9c46f308a8e5b002d2462",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101806937,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351856,
     "wof:name":"Nordstrand",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",
-    "wof:population":2243,
+    "wof:population":2253,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

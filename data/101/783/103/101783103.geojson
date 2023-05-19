@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09272143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sankt Oswald-Riedlh\u00fctte",
+    "eurostat:nuts_2021_id":"09272143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE225",
+    "eurostat:nuts_2021_level_lau":"09272143",
+    "eurostat:population":2899,
+    "eurostat:population_year":2020,
     "geom:area":0.004982,
-    "geom:area_square_m":40473136.175283,
+    "geom:area_square_m":40473136.175282,
     "geom:bbox":"13.367072,48.873665,13.461292,48.981315",
     "geom:latitude":48.925856,
     "geom:longitude":13.409287,
@@ -150,18 +162,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063363,
         1377684071,
         404227559,
-        85682571
+        102063363
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09272143",
+        "eurostat:nuts_2021_id":"09272143",
         "gn:id":6556482,
         "gp:id":696097,
         "qs_pg:id":636703,
@@ -175,7 +190,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a268e59727b1ea6b4cf0b19138f92c01",
+    "wof:geomhash":"7be03ff59c0e89d6e906796d840d6568",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101783103,
-    "wof:lastmodified":1608050605,
+    "wof:lastmodified":1684351826,
     "wof:name":"Sankt Oswald-Riedlh\u00fctte",
     "wof:parent_id":1377684071,
     "wof:placetype":"locality",
-    "wof:population":2928,
+    "wof:population":2899,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073532",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwedt/Oder, Stadt",
+    "eurostat:nuts_2021_id":"12073532",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073532",
+    "eurostat:population":29680,
+    "eurostat:population_year":2020,
     "geom:area":0.027548,
-    "geom:area_square_m":204556363.639327,
+    "geom:area_square_m":204556363.639342,
     "geom:bbox":"14.1307359149,52.9871316392,14.3822682408,53.1759720876",
     "geom:latitude":53.093382,
     "geom:longitude":14.259291,
@@ -203,7 +215,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -217,6 +230,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073532",
+        "eurostat:nuts_2021_id":"12073532",
         "gn:id":2834629,
         "gp:id":693776,
         "qs_pg:id":1151291,
@@ -227,7 +242,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72c9a8972da88e3749787b3042868866",
+    "wof:geomhash":"1c44d5359118ee746c70b25ab124450d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -239,11 +254,11 @@
         }
     ],
     "wof:id":101818553,
-    "wof:lastmodified":1582342364,
+    "wof:lastmodified":1684351900,
     "wof:name":"Schwedt/Oder",
     "wof:parent_id":1377684281,
     "wof:placetype":"locality",
-    "wof:population":38001,
+    "wof:population":29680,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

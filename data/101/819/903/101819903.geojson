@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altlandsberg, Stadt",
+    "eurostat:nuts_2021_id":"12064029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064029",
+    "eurostat:population":9526,
+    "eurostat:population_year":2020,
     "geom:area":0.014171,
-    "geom:area_square_m":106447200.143099,
+    "geom:area_square_m":106447200.143097,
     "geom:bbox":"13.668374,52.539832,13.939,52.647532",
     "geom:latitude":52.592388,
     "geom:longitude":13.798336,
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.566667,
     "wd:longitude":13.733056,
     "wd:wordcount":290,
@@ -330,14 +343,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063963,
         1377694645,
-        85682553
+        85633111,
+        102063963
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064029",
+        "eurostat:nuts_2021_id":"12064029",
         "gn:id":2957051,
         "gp:id":634756,
         "qs_pg:id":385328,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"018904ff40950e0e273a3296d4885f70",
+    "wof:geomhash":"712ac417da3871f88b76e45d6d282a4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
         }
     ],
     "wof:id":101819903,
-    "wof:lastmodified":1608050268,
+    "wof:lastmodified":1684351910,
     "wof:name":"Altlandsberg",
     "wof:parent_id":1377694645,
     "wof:placetype":"locality",
-    "wof:population":8804,
+    "wof:population":9526,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

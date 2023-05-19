@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"2",
+    "eurostat:name_latin":"Miltenberg",
+    "eurostat:name_local":"Miltenberg",
+    "eurostat:nuts_2021_id":"DE269",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:population":128782,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.089249,
-    "geom:area_square_m":712939615.953304,
+    "geom:area_square_m":712939615.953265,
     "geom:bbox":"9.033336,49.573559,9.47894,49.938412",
     "geom:latitude":49.757319,
     "geom:longitude":9.234769,
@@ -153,8 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"716",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Miltenberg",
@@ -167,19 +181,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227569,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE269",
         "hasc:id":"DE.BY.ML"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"08f26e1be0122c4a0bc7a59843721c5c",
+    "wof:geomhash":"fe902a8700300e66c11a66c65c79bbd5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,12 +205,12 @@
         }
     ],
     "wof:id":102063539,
-    "wof:lastmodified":1587164319,
+    "wof:lastmodified":1684351516,
     "wof:name":"Miltenberg",
     "wof:parent_id":404227569,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":128405,
+    "wof:population":128782,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"ML",

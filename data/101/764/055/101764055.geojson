@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bollschweil",
+    "eurostat:nuts_2021_id":"08315014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315014",
+    "eurostat:population":2338,
+    "eurostat:population_year":2020,
     "geom:area":0.001977,
     "geom:area_square_m":16387765.419725,
     "geom:bbox":"7.76685944478,47.8932650318,7.87349716075,47.9365686288",
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":149,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -335,6 +348,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315014",
+        "eurostat:nuts_2021_id":"08315014",
         "gn:id":2946599,
         "gp:id":647631,
         "qs_pg:id":579710,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"11a2983c798e3fef647b8ea10f535498",
+    "wof:geomhash":"378722e33035faa8b98f18d02ef2f579",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101764055,
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351812,
     "wof:name":"Bollschweil",
     "wof:parent_id":1377689169,
     "wof:placetype":"locality",
-    "wof:population":2247,
+    "wof:population":2338,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

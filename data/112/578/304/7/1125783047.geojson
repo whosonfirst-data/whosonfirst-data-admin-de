@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hadenfeld",
+    "eurostat:nuts_2021_id":"01061033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061033",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "geom:area":0.000318,
     "geom:area_square_m":2310079.395717,
     "geom:bbox":"9.43593020055,54.0248065826,9.46618710336,54.0468979862",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061033",
+        "eurostat:nuts_2021_id":"01061033",
         "gn:id":2912810,
         "qs_pg:id":578812,
         "wd:id":"Q511001"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"ccc98156a291d7da89ffe3eab14cfef9",
+    "wof:geomhash":"0ac392e4b48b5f305d64b108eec9fb05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125783047,
-    "wof:lastmodified":1582343040,
+    "wof:lastmodified":1684352013,
     "wof:name":"Hadenfeld",
     "wof:parent_id":1377684687,
     "wof:placetype":"locality",
-    "wof:population":105,
+    "wof:population":150,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchholz",
+    "eurostat:nuts_2021_id":"01051012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051012",
+    "eurostat:population":998,
+    "eurostat:population_year":2020,
     "geom:area":0.001997,
     "geom:area_square_m":14520035.219544,
     "geom:bbox":"9.18276317746,53.9526173965,9.26307638241,54.0004882351",
@@ -266,7 +278,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":183,
     "wof:belongsto":[
         85682517,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051012",
+        "eurostat:nuts_2021_id":"01051012",
         "gn:id":2942345,
         "gp:id":642097,
         "qs_pg:id":1040099,
@@ -287,7 +302,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2e30427ac58d83c557ab266953417962",
+    "wof:geomhash":"250169585bfe657ddd398eb0e05356c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -299,12 +314,12 @@
         }
     ],
     "wof:id":101806809,
-    "wof:lastmodified":1582342620,
+    "wof:lastmodified":1684351855,
     "wof:name":"Buchholz",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":1128,
-    "wof:population_rank":3,
+    "wof:population":998,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

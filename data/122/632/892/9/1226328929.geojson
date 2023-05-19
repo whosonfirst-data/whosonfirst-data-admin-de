@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Benz",
+    "eurostat:nuts_2021_id":"13074004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074004",
+    "eurostat:population":654,
+    "eurostat:population_year":2020,
     "geom:area":0.003129,
-    "geom:area_square_m":22793266.117882,
+    "geom:area_square_m":22793266.117883,
     "geom:bbox":"11.5520232578,53.8860683368,11.6517815121,53.937549958",
     "geom:latitude":53.909556,
     "geom:longitude":11.602109,
@@ -111,7 +123,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -121,13 +134,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074004",
+        "eurostat:nuts_2021_id":"13074004",
         "gn:id":2950932
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"61b7bba354a752fee01e2e67e4a7c5b7",
+    "wof:geomhash":"e8536b996ea43ee4435e0ee8d53e066f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1226328929,
-    "wof:lastmodified":1582343144,
+    "wof:lastmodified":1684352057,
     "wof:name":"Benz",
     "wof:parent_id":1377693631,
     "wof:placetype":"locality",
-    "wof:population":619,
+    "wof:population":654,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

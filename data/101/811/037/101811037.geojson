@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05334036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00fcrselen, Stadt",
+    "eurostat:nuts_2021_id":"05334036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2D",
+    "eurostat:nuts_2021_level_lau":"05334036",
+    "eurostat:population":38756,
+    "eurostat:population_year":2020,
     "geom:area":0.004245,
     "geom:area_square_m":33156285.391557,
     "geom:bbox":"6.086946,50.804133,6.209208,50.855546",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":34.39,
     "wd:latitude":50.883333,
     "wd:longitude":6.166667,
@@ -320,15 +333,17 @@
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063693,
         1377690079,
         404227541,
-        85682513
+        102063693
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05334036",
+        "eurostat:nuts_2021_id":"05334036",
         "gn:id":2805644,
         "gp:id":708275,
         "loc:id":"n82129196",
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43f4ebe2bbe3c71b9d3c04ce881cb988",
+    "wof:geomhash":"cd4c06baf2ead9f665751747bf0f5b02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101811037,
-    "wof:lastmodified":1608049921,
+    "wof:lastmodified":1684351878,
     "wof:name":"W\u00fcrselen",
     "wof:parent_id":1377690079,
     "wof:placetype":"locality",
-    "wof:population":37074,
+    "wof:population":38756,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

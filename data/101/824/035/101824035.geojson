@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521670",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wolkenstein, Stadt",
+    "eurostat:nuts_2021_id":"14521670",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521670",
+    "eurostat:population":3899,
+    "eurostat:population_year":2020,
     "geom:area":0.003821,
-    "geom:area_square_m":29955847.25188,
+    "geom:area_square_m":29955847.251884,
     "geom:bbox":"13.010296,50.623537,13.132861,50.689141",
     "geom:latitude":50.654592,
     "geom:longitude":13.075293,
@@ -169,21 +181,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":561,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685661,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521670",
+        "eurostat:nuts_2021_id":"14521670",
         "gn:id":2806474,
         "gp:id":707761,
         "qs_pg:id":950676,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"20f227d5dc6e6fc174c45d123a6acddb",
+    "wof:geomhash":"c5e4df24bb93fb64f08fc72a0b8df064",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101824035,
-    "wof:lastmodified":1608051158,
+    "wof:lastmodified":1684351927,
     "wof:name":"Wolkenstein",
     "wof:parent_id":1377685661,
     "wof:placetype":"locality",
-    "wof:population":4359,
+    "wof:population":3899,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

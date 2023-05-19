@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frankendorf",
+    "eurostat:nuts_2021_id":"16071019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071019",
+    "eurostat:population":167,
+    "eurostat:population_year":2020,
     "geom:area":0.000341,
     "geom:area_square_m":2651729.051995,
     "geom:bbox":"11.4282841323,50.9600415734,11.4644461247,50.9757481589",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -136,6 +149,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071019",
+        "eurostat:nuts_2021_id":"16071019",
         "gn:id":2925617,
         "qs_pg:id":93878,
         "wd:id":"Q684815"
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"974f149380e48113b7282a0813f7ae4e",
+    "wof:geomhash":"289b4f1a622e7b6515187e5f009583d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1125846231,
-    "wof:lastmodified":1582343055,
+    "wof:lastmodified":1684352028,
     "wof:name":"Frankendorf",
     "wof:parent_id":1377690487,
     "wof:placetype":"locality",
-    "wof:population":183,
+    "wof:population":167,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

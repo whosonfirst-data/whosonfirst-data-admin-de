@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134502",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langweiler",
+    "eurostat:nuts_2021_id":"07134502",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134502",
+    "eurostat:population":238,
+    "eurostat:population_year":2020,
     "geom:area":0.000665,
     "geom:area_square_m":5306881.42115,
     "geom:bbox":"7.15142064728,49.7738496531,7.19307139428,49.8059496525",
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134502",
+        "eurostat:nuts_2021_id":"07134502",
         "gn:id":2880536,
         "wk:page":"Langweiler%2C_Birkenfeld"
     },
@@ -140,7 +155,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"fbdec29cfbd149543ada170d97a941bb",
+    "wof:geomhash":"2d3ec02672bc49b43de4dafded3b5bcb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +167,11 @@
         }
     ],
     "wof:id":1326826167,
-    "wof:lastmodified":1582341878,
+    "wof:lastmodified":1684352061,
     "wof:name":"Langweiler",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":263,
+    "wof:population":238,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

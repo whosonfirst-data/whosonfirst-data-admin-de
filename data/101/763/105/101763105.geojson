@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinach",
+    "eurostat:nuts_2021_id":"08317129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317129",
+    "eurostat:population":3984,
+    "eurostat:population_year":2020,
     "geom:area":0.004074,
-    "geom:area_square_m":33521828.021852,
+    "geom:area_square_m":33521828.021854,
     "geom:bbox":"7.9880231118,48.2475107735,8.07755750137,48.3257457983",
     "geom:latitude":48.285791,
     "geom:longitude":8.028592,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":104,
     "wof:belongsto":[
         85682567,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317129",
+        "eurostat:nuts_2021_id":"08317129",
         "fct:id":"075942b0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2828913,
         "gp:id":696608,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"22bc87952016370c4107e79657527df5",
+    "wof:geomhash":"4b3d8a01a33375b7c2dd81bfaf390519",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342294,
+    "wof:lastmodified":1684351810,
     "wof:name":"Steinach",
     "wof:parent_id":1377689341,
     "wof:placetype":"locality",
-    "wof:population":3924,
+    "wof:population":3984,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

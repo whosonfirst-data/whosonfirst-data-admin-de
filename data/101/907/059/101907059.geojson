@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berglicht",
+    "eurostat:nuts_2021_id":"07231006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231006",
+    "eurostat:population":424,
+    "eurostat:population_year":2020,
     "geom:area":0.000943,
-    "geom:area_square_m":7527173.289967,
+    "geom:area_square_m":7527173.289968,
     "geom:bbox":"6.94116859831,49.7698586296,6.98605205865,49.812752316",
     "geom:latitude":49.786984,
     "geom:longitude":6.961731,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":286,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231006",
+        "eurostat:nuts_2021_id":"07231006",
         "gn:id":2950314,
         "gp:id":638156,
         "qs_pg:id":579812,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d6bea52c9135a0cc2c6dc87e3703186",
+    "wof:geomhash":"66fcce9878c82ce6a771c30bbc382743",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907059,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351984,
     "wof:name":"Berglicht",
     "wof:parent_id":1377685893,
     "wof:placetype":"locality",
-    "wof:population":498,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

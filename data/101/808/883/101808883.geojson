@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05978032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Selm, Stadt",
+    "eurostat:nuts_2021_id":"05978032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5C",
+    "eurostat:nuts_2021_level_lau":"05978032",
+    "eurostat:population":25925,
+    "eurostat:population_year":2020,
     "geom:area":0.007857,
-    "geom:area_square_m":60238813.017736,
+    "geom:area_square_m":60238813.017737,
     "geom:bbox":"7.40775,51.640201,7.548899,51.736311",
     "geom:latitude":51.683852,
     "geom:longitude":7.485584,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":332,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063823,
         1377692763,
         404227579,
-        85682513
+        102063823
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05978032",
+        "eurostat:nuts_2021_id":"05978032",
         "gn:id":2833170,
         "gp:id":694471,
         "qs_pg:id":867644,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e56c583eea3f5e7414e0049eb07e452e",
+    "wof:geomhash":"4581f61f626db398d760e8ac6bffb6f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101808883,
-    "wof:lastmodified":1608051693,
+    "wof:lastmodified":1684351864,
     "wof:name":"Selm",
     "wof:parent_id":1377692763,
     "wof:placetype":"locality",
-    "wof:population":27540,
+    "wof:population":25925,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

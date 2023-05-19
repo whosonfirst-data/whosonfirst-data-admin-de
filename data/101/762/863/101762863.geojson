@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08325070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fluorn-Winzeln",
+    "eurostat:nuts_2021_id":"08325070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE135",
+    "eurostat:nuts_2021_level_lau":"08325070",
+    "eurostat:population":3097,
+    "eurostat:population_year":2020,
     "geom:area":0.002971,
-    "geom:area_square_m":24444467.726133,
+    "geom:area_square_m":24444467.726132,
     "geom:bbox":"8.41479685859,48.2733556694,8.52454051527,48.315812301",
     "geom:latitude":48.292671,
     "geom:longitude":8.475028,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08325070",
+        "eurostat:nuts_2021_id":"08325070",
         "gn:id":6555819,
         "gp:id":707148,
         "qs_pg:id":636342,
@@ -175,7 +190,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7405b48dfd47e7eec44ad49ee404c0f6",
+    "wof:geomhash":"08e925b32eb783ceefc26c6c898c4f95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +203,11 @@
         }
     ],
     "wof:id":101762863,
-    "wof:lastmodified":1582342356,
+    "wof:lastmodified":1684351807,
     "wof:name":"Fluorn-Winzeln",
     "wof:parent_id":1377689461,
     "wof:placetype":"locality",
-    "wof:population":3101,
+    "wof:population":3097,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Boden",
+    "eurostat:nuts_2021_id":"01053039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053039",
+    "eurostat:population":209,
+    "eurostat:population_year":2020,
     "geom:area":0.000368,
     "geom:area_square_m":2691760.032066,
     "geom:bbox":"10.4416107391,53.7409864368,10.4822075212,53.7589226584",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053039",
+        "eurostat:nuts_2021_id":"01053039",
         "gn:id":2916950,
         "qs_pg:id":578888,
         "wd:id":"Q632373"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"07aa2cb772e4d921070807ef072b5365",
+    "wof:geomhash":"907031ada936bc1041a1d8eaf5e476dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125843171,
-    "wof:lastmodified":1582343059,
+    "wof:lastmodified":1684352024,
     "wof:name":"Gro\u00df Boden",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":211,
+    "wof:population":209,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

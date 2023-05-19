@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06436011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwalbach am Taunus, Stadt",
+    "eurostat:nuts_2021_id":"06436011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71A",
+    "eurostat:nuts_2021_level_lau":"06436011",
+    "eurostat:population":15300,
+    "eurostat:population_year":2020,
     "geom:area":0.000754,
-    "geom:area_square_m":5971056.632534,
+    "geom:area_square_m":5971056.632535,
     "geom:bbox":"8.509515,50.128175,8.562429,50.168695",
     "geom:latitude":50.15166,
     "geom:longitude":8.531625,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.154167,
     "wd:longitude":8.528819,
     "wd:wordcount":1060,
@@ -327,15 +340,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063583,
         1377693831,
         404227581,
-        85682531
+        102063583
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06436011",
+        "eurostat:nuts_2021_id":"06436011",
         "fct:id":"075776a6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2835381,
         "gp:id":693533,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f2ae8ebdd74306f24c2f581924281f3c",
+    "wof:geomhash":"b7281da27e84cfcf60d0b9b43bf2a3ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050801,
+    "wof:lastmodified":1684351795,
     "wof:name":"Schwalbach am Taunus",
     "wof:parent_id":1377693831,
     "wof:placetype":"locality",
-    "wof:population":14192,
+    "wof:population":15300,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

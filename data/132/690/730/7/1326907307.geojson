@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brahlstorf",
+    "eurostat:nuts_2021_id":"13076016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076016",
+    "eurostat:population":707,
+    "eurostat:population_year":2020,
     "geom:area":0.002953,
     "geom:area_square_m":21788575.294603,
     "geom:bbox":"10.9267940309,53.3334265074,11.0119664727,53.384413122",
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -126,13 +139,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076016",
+        "eurostat:nuts_2021_id":"13076016",
         "gn:id":2945566
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"c78c7d0e6f81d318c6a77457f22de9e7",
+    "wof:geomhash":"5a4b1d7cd9c5b4d8f41e1c69318aa8ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +159,11 @@
         }
     ],
     "wof:id":1326907307,
-    "wof:lastmodified":1582341879,
+    "wof:lastmodified":1684352061,
     "wof:name":"Brahlstorf",
     "wof:parent_id":1377685235,
     "wof:placetype":"locality",
-    "wof:population":702,
+    "wof:population":707,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

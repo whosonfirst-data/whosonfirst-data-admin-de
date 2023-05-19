@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Witzmannsberg",
+    "eurostat:nuts_2021_id":"09275160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275160",
+    "eurostat:population":1496,
+    "eurostat:population_year":2020,
     "geom:area":0.00229,
-    "geom:area_square_m":18683382.072889,
+    "geom:area_square_m":18683382.07289,
     "geom:bbox":"13.3879623088,48.6954777348,13.4551473736,48.7590518365",
     "geom:latitude":48.724093,
     "geom:longitude":13.421886,
@@ -155,7 +167,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -166,13 +179,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275160",
+        "eurostat:nuts_2021_id":"09275160",
         "gn:id":2807153
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"04bcf7db3862a62207fa0f4e1b6656a6",
+    "wof:geomhash":"501c640327ea2a53527ea0a84c5c5028",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":1226551929,
-    "wof:lastmodified":1582343146,
+    "wof:lastmodified":1684352058,
     "wof:name":"Witzmannsberg",
     "wof:parent_id":1377684863,
     "wof:placetype":"locality",
-    "wof:population":1479,
+    "wof:population":1496,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

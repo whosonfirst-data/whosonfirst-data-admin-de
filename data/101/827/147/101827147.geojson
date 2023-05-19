@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buttenheim, M",
+    "eurostat:nuts_2021_id":"09471123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471123",
+    "eurostat:population":3642,
+    "eurostat:population_year":2020,
     "geom:area":0.003797,
-    "geom:area_square_m":30286125.495386,
+    "geom:area_square_m":30286125.495383,
     "geom:bbox":"11.011808,49.79224,11.105671,49.861211",
     "geom:latitude":49.823349,
     "geom:longitude":11.067068,
@@ -320,22 +332,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1727,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687085,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471123",
+        "eurostat:nuts_2021_id":"09471123",
         "gn:id":2940613,
         "gp:id":642901,
         "qs_pg:id":1040069,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a0e76454332977b137d4d5c05b772d23",
+    "wof:geomhash":"37fdb2abc3c655c2508d4d192edda641",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101827147,
-    "wof:lastmodified":1608049842,
+    "wof:lastmodified":1684351941,
     "wof:name":"Buttenheim",
     "wof:parent_id":1377687085,
     "wof:placetype":"locality",
-    "wof:population":3242,
+    "wof:population":3642,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gleichen",
+    "eurostat:nuts_2021_id":"03159015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159015",
+    "eurostat:population":8831,
+    "eurostat:population_year":2020,
     "geom:area":0.01674,
-    "geom:area_square_m":128930129.806224,
+    "geom:area_square_m":128930129.80623,
     "geom:bbox":"9.93583,51.417221,10.186012,51.535629",
     "geom:latitude":51.475247,
     "geom:longitude":10.06371,
@@ -306,20 +318,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        1377675563,
         1377685081,
-        85682555
+        85633111,
+        1377675563
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159015",
+        "eurostat:nuts_2021_id":"03159015",
         "gn:id":2919999,
         "gp:id":23410742,
         "qs_pg:id":581809,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"490ca2d62575d0f12b68e5c96a5d51fc",
+    "wof:geomhash":"1b093446d4ba5f764046e63cdcf49724",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101810195,
-    "wof:lastmodified":1608050024,
+    "wof:lastmodified":1684351872,
     "wof:name":"Gleichen",
     "wof:parent_id":1377685081,
     "wof:placetype":"locality",
-    "wof:population":9063,
+    "wof:population":8831,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

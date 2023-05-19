@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kehl, Stadt",
+    "eurostat:nuts_2021_id":"08317057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317057",
+    "eurostat:population":36664,
+    "eurostat:population_year":2020,
     "geom:area":0.009162,
-    "geom:area_square_m":74958396.754961,
+    "geom:area_square_m":74958396.754966,
     "geom:bbox":"7.79153,48.485236,7.956431,48.641269",
     "geom:latitude":48.571984,
     "geom:longitude":7.849972,
@@ -212,7 +224,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":75.03,
     "wd:latitude":48.571111,
     "wd:longitude":7.808889,
@@ -223,15 +236,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063319,
         1377689273,
         404227543,
-        85682567
+        102063319
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317057",
+        "eurostat:nuts_2021_id":"08317057",
         "gn:id":2891951,
         "gp:id":665315,
         "qs_pg:id":1344482,
@@ -246,7 +261,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d7d8d8c09dfeb65f5dbcfd544dbf41df",
+    "wof:geomhash":"30c921c6e02298cf0dd2c80e41addd09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -259,11 +274,11 @@
         }
     ],
     "wof:id":101753099,
-    "wof:lastmodified":1608049418,
+    "wof:lastmodified":1684351790,
     "wof:name":"Kehl",
     "wof:parent_id":1377689273,
     "wof:placetype":"locality",
-    "wof:population":24124,
+    "wof:population":36664,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

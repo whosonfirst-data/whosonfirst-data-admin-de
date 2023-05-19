@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rohrbach",
+    "eurostat:nuts_2021_id":"07337068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337068",
+    "eurostat:population":1805,
+    "eurostat:population_year":2020,
     "geom:area":0.001146,
     "geom:area_square_m":9270235.247069,
     "geom:bbox":"8.1156102266,49.1264846896,8.17004468884,49.1557637171",
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337068",
+        "eurostat:nuts_2021_id":"07337068",
         "gn:id":2845714,
         "gp:id":689291,
         "qs_pg:id":141850
@@ -146,7 +161,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5874ab1e5df8e10ee2b47ea91172c339",
+    "wof:geomhash":"572966a01a83ded1cea6705f3b7a72c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":101760843,
-    "wof:lastmodified":1582342493,
+    "wof:lastmodified":1684351802,
     "wof:name":"Rohrbach",
     "wof:parent_id":1377686533,
     "wof:placetype":"locality",
-    "wof:population":1699,
+    "wof:population":1805,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Siershahn",
+    "eurostat:nuts_2021_id":"07143070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143070",
+    "eurostat:population":2887,
+    "eurostat:population_year":2020,
     "geom:area":0.000552,
-    "geom:area_square_m":4342447.091553,
+    "geom:area_square_m":4342447.091554,
     "geom:bbox":"7.75085213138,50.4757479414,7.7934720853,50.4960674662",
     "geom:latitude":50.484726,
     "geom:longitude":7.773753,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":216,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143070",
+        "eurostat:nuts_2021_id":"07143070",
         "gn:id":2832332,
         "gp:id":694956,
         "qs_pg:id":1038406,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f82e3943313e0b13bbb37c5bf05a059a",
+    "wof:geomhash":"ca13297b28dafbfe2fca009b2034c9f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101840109,
-    "wof:lastmodified":1582342560,
+    "wof:lastmodified":1684351951,
     "wof:name":"Siershahn",
     "wof:parent_id":1377685843,
     "wof:placetype":"locality",
-    "wof:population":2879,
+    "wof:population":2887,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

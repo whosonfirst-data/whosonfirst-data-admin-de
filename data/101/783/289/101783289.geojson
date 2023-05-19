@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278167",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberschneiding",
+    "eurostat:nuts_2021_id":"09278167",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278167",
+    "eurostat:population":3093,
+    "eurostat:population_year":2020,
     "geom:area":0.00743,
-    "geom:area_square_m":60534574.996625,
+    "geom:area_square_m":60534574.996623,
     "geom:bbox":"12.590732,48.732909,12.734859,48.827169",
     "geom:latitude":48.781308,
     "geom:longitude":12.654219,
@@ -148,18 +160,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":202,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685369,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278167",
+        "eurostat:nuts_2021_id":"09278167",
         "gn:id":2859129,
         "gp:id":682215,
         "qs_pg:id":1038867,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cb82c7c5fe0fed809d0fef757f8a5eaf",
+    "wof:geomhash":"d6f9dedad92eb73f6144318533c9f785",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101783289,
-    "wof:lastmodified":1608050612,
+    "wof:lastmodified":1684351829,
     "wof:name":"Oberschneiding",
     "wof:parent_id":1377685369,
     "wof:placetype":"locality",
-    "wof:population":2745,
+    "wof:population":3093,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wittlich, Stadt",
+    "eurostat:nuts_2021_id":"07231134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231134",
+    "eurostat:population":19069,
+    "eurostat:population_year":2020,
     "geom:area":0.006228,
-    "geom:area_square_m":49510844.657425,
+    "geom:area_square_m":49510844.657429,
     "geom:bbox":"6.831091,49.955121,6.983304,50.030702",
     "geom:latitude":49.989299,
     "geom:longitude":6.910335,
@@ -332,21 +344,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2114,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063581,
         1377685861,
-        85682491
+        85633111,
+        102063581
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231134",
+        "eurostat:nuts_2021_id":"07231134",
         "gn:id":2807240,
         "gp:id":707358,
         "qs_pg:id":141554,
@@ -361,7 +376,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"df6f09290efa38883a4ed1cc33536315",
+    "wof:geomhash":"7667b9ceecebae5a3702de0a5f6fbdb9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -373,11 +388,11 @@
         }
     ],
     "wof:id":101811827,
-    "wof:lastmodified":1608049910,
+    "wof:lastmodified":1684351880,
     "wof:name":"Wittlich",
     "wof:parent_id":1377685861,
     "wof:placetype":"locality",
-    "wof:population":17887,
+    "wof:population":19069,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

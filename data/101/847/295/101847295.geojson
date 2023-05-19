@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sellin",
+    "eurostat:nuts_2021_id":"13073084",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073084",
+    "eurostat:population":2631,
+    "eurostat:population_year":2020,
     "geom:area":0.002021,
     "geom:area_square_m":14560661.966109,
     "geom:bbox":"13.6427931527,54.3469177056,13.7142901178,54.3985319732",
@@ -299,7 +311,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":235,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073084",
+        "eurostat:nuts_2021_id":"13073084",
         "gn:id":6548435,
         "gp:id":694462,
         "qs_pg:id":378485,
@@ -323,7 +338,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"88598f07ff706fdd948077ad867b97b8",
+    "wof:geomhash":"7ef8ba3ee553dcf069fa2fdb093ded7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101847295,
-    "wof:lastmodified":1582342556,
+    "wof:lastmodified":1684351963,
     "wof:name":"Sellin",
     "wof:parent_id":1377684961,
     "wof:placetype":"locality",
-    "wof:population":2439,
+    "wof:population":2631,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

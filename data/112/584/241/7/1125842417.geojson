@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jachenau",
+    "eurostat:nuts_2021_id":"09173131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173131",
+    "eurostat:population":861,
+    "eurostat:population_year":2020,
     "geom:area":0.015461,
-    "geom:area_square_m":128925563.253051,
+    "geom:area_square_m":128925563.253037,
     "geom:bbox":"11.288096,47.531226,11.542817,47.654328",
     "geom:latitude":47.595813,
     "geom:longitude":11.428904,
@@ -291,21 +303,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063225,
         1377691061,
         404227567,
-        85682571
+        102063225
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173131",
+        "eurostat:nuts_2021_id":"09173131",
         "gn:id":2895517,
         "gp:id":663840,
         "qs_pg:id":578432,
@@ -322,7 +337,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"862340236afa31fc7dd54d775b12fa09",
+    "wof:geomhash":"e34c0583b6dc7a1679eccd96e2eb6792",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":1125842417,
-    "wof:lastmodified":1608054411,
+    "wof:lastmodified":1684352023,
     "wof:name":"Jachenau",
     "wof:parent_id":1377691061,
     "wof:placetype":"locality",
-    "wof:population":891,
+    "wof:population":861,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosenbach",
+    "eurostat:nuts_2021_id":"14626470",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626470",
+    "eurostat:population":1571,
+    "eurostat:population_year":2020,
     "geom:area":0.003021,
-    "geom:area_square_m":23464185.2869,
+    "geom:area_square_m":23464185.286901,
     "geom:bbox":"14.702993954,51.049208846,14.7728084079,51.1119452458",
     "geom:latitude":51.080269,
     "geom:longitude":14.739652,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "wof:belongsto":[
         85682523,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626470",
+        "eurostat:nuts_2021_id":"14626470",
         "gn:id":6548686,
         "gp:id":20161870,
         "qs_pg:id":631177,
@@ -314,7 +329,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59d17a595b97370dba6b3e2ec89e33bd",
+    "wof:geomhash":"fa200dbdbc64c65b8b3634c34af9acd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101822329,
-    "wof:lastmodified":1582342584,
+    "wof:lastmodified":1684351922,
     "wof:name":"Rosenbach",
     "wof:parent_id":1377687153,
     "wof:placetype":"locality",
-    "wof:population":1655,
+    "wof:population":1571,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Lobenstein, Stadt",
+    "eurostat:nuts_2021_id":"16075062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075062",
+    "eurostat:population":5825,
+    "eurostat:population_year":2020,
     "geom:area":0.006227,
-    "geom:area_square_m":49028668.752235,
+    "geom:area_square_m":49028668.752229,
     "geom:bbox":"11.553858,50.405779,11.734004,50.494865",
     "geom:latitude":50.450454,
     "geom:longitude":11.633538,
@@ -297,16 +309,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":139,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690725,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075062",
+        "eurostat:nuts_2021_id":"16075062",
         "gn:id":2876721,
         "gp:id":672256,
         "qs_pg:id":3,
@@ -319,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2ecfd057c4d78f7a03d09a3673e6711e",
+    "wof:geomhash":"2613bfa87780ad56433efb7c6bc2bedd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,10 +347,12 @@
         }
     ],
     "wof:id":101824565,
-    "wof:lastmodified":1608051147,
+    "wof:lastmodified":1684351929,
     "wof:name":"Bad Lobenstein",
     "wof:parent_id":1377690725,
     "wof:placetype":"locality",
+    "wof:population":5825,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

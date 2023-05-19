@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stralsund, Hansestadt",
+    "eurostat:nuts_2021_id":"13073088",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073088",
+    "eurostat:population":59418,
+    "eurostat:population_year":2020,
     "geom:area":0.005448,
-    "geom:area_square_m":39314763.532666,
+    "geom:area_square_m":39314763.532657,
     "geom:bbox":"12.995763,54.244313,13.178427,54.345801",
     "geom:latitude":54.296598,
     "geom:longitude":13.080209,
@@ -461,7 +473,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":54.3,
     "wd:longitude":13.083333,
     "wd:wordcount":2897,
@@ -478,6 +491,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073088",
+        "eurostat:nuts_2021_id":"13073088",
         "gn:id":2826287,
         "gp:id":697654,
         "loc:id":"n50027114",
@@ -493,7 +508,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1891025a3be60d1347a62d019c89758f",
+    "wof:geomhash":"19dbd8cb0fca1f313af91fa063518848",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -505,11 +520,11 @@
         }
     ],
     "wof:id":101748867,
-    "wof:lastmodified":1636499972,
+    "wof:lastmodified":1684351790,
     "wof:name":"Stralsund",
     "wof:parent_id":1377684847,
     "wof:placetype":"locality",
-    "wof:population":58976,
+    "wof:population":59418,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

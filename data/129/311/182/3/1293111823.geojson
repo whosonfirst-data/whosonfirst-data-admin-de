@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heddesbach",
+    "eurostat:nuts_2021_id":"08226027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226027",
+    "eurostat:population":459,
+    "eurostat:population_year":2020,
     "geom:area":0.001023,
-    "geom:area_square_m":8219364.773297,
+    "geom:area_square_m":8219364.773298,
     "geom:bbox":"8.80725531751,49.4626783971,8.85678234538,49.5021732757",
     "geom:latitude":49.48479,
     "geom:longitude":8.831124,
@@ -134,7 +146,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226027",
+        "eurostat:nuts_2021_id":"08226027",
         "gn:id":2908400,
         "wk:page":"Heddesbach"
     },
@@ -152,7 +167,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"dd904368e7be28c11542d06a847c6ecd",
+    "wof:geomhash":"e0d64745f432d3aa0580f94adb2aee46",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":1293111823,
-    "wof:lastmodified":1582342025,
+    "wof:lastmodified":1684352060,
     "wof:name":"Heddesbach",
     "wof:parent_id":1377688775,
     "wof:placetype":"locality",
-    "wof:population":518,
+    "wof:population":459,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

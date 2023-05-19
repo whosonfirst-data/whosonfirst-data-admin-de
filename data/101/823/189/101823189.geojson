@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schk\u00f6len, Stadt",
+    "eurostat:nuts_2021_id":"16074116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074116",
+    "eurostat:population":2622,
+    "eurostat:population_year":2020,
     "geom:area":0.006866,
-    "geom:area_square_m":53403838.336113,
+    "geom:area_square_m":53403838.336116,
     "geom:bbox":"11.7367721789,50.9685136978,11.9153900466,51.0570618949",
     "geom:latitude":51.021754,
     "geom:longitude":11.816847,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074116",
+        "eurostat:nuts_2021_id":"16074116",
         "gn:id":2839049,
         "gp:id":691976,
         "qs_pg:id":141813,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"64211f17d1fee4a5c99d86dbdbd38462",
+    "wof:geomhash":"0a48bc84930553ef3e1f8ff515b1ca86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101823189,
-    "wof:lastmodified":1582342532,
+    "wof:lastmodified":1684351924,
     "wof:name":"Schk\u00f6len",
     "wof:parent_id":1377689019,
     "wof:placetype":"locality",
-    "wof:population":2909,
+    "wof:population":2622,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

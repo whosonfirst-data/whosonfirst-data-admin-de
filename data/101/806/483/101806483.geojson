@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03461004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elsfleth, Stadt",
+    "eurostat:nuts_2021_id":"03461004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94G",
+    "eurostat:nuts_2021_level_lau":"03461004",
+    "eurostat:population":9114,
+    "eurostat:population_year":2020,
     "geom:area":0.015505,
-    "geom:area_square_m":114785308.731493,
+    "geom:area_square_m":114785308.731489,
     "geom:bbox":"8.292445,53.153048,8.489943,53.295765",
     "geom:latitude":53.223047,
     "geom:longitude":8.388447,
@@ -299,21 +311,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":141,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064025,
         1377689269,
-        85682555
+        85633111,
+        102064025
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03461004",
+        "eurostat:nuts_2021_id":"03461004",
         "gn:id":2930726,
         "gp:id":647748,
         "qs_pg:id":1343938,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f7462587636e7246cdda20b8e0b6b14e",
+    "wof:geomhash":"0a15c8a2dc547a60920fa798dbdb9b16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101806483,
-    "wof:lastmodified":1608051729,
+    "wof:lastmodified":1684351851,
     "wof:name":"Elsfleth",
     "wof:parent_id":1377689269,
     "wof:placetype":"locality",
-    "wof:population":9310,
+    "wof:population":9114,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

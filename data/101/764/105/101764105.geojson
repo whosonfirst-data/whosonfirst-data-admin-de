@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frittlingen",
+    "eurostat:nuts_2021_id":"08327017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327017",
+    "eurostat:population":2149,
+    "eurostat:population_year":2020,
     "geom:area":0.001055,
-    "geom:area_square_m":8703332.449076,
+    "geom:area_square_m":8703332.449077,
     "geom:bbox":"8.68511331037,48.1112636517,8.74538799698,48.1413747493",
     "geom:latitude":48.127538,
     "geom:longitude":8.712943,
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -304,6 +317,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327017",
+        "eurostat:nuts_2021_id":"08327017",
         "fct:id":"073f215a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2924335,
         "gp:id":650913,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"215b514c5b127e115cac74386bd10e56",
+    "wof:geomhash":"5da5ec98e3e52c2dd8b434e3da004afa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342298,
+    "wof:lastmodified":1684351812,
     "wof:name":"Frittlingen",
     "wof:parent_id":1377689629,
     "wof:placetype":"locality",
-    "wof:population":2108,
+    "wof:population":2149,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

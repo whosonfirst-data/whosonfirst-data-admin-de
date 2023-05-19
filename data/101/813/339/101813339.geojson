@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leiwen",
+    "eurostat:nuts_2021_id":"07235074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235074",
+    "eurostat:population":1547,
+    "eurostat:population_year":2020,
     "geom:area":0.00161,
     "geom:area_square_m":12850205.815511,
     "geom:bbox":"6.85534750113,49.7830283823,6.91266091162,49.8367384114",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":165,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235074",
+        "eurostat:nuts_2021_id":"07235074",
         "gn:id":2878982,
         "gp:id":671137,
         "qs_pg:id":1067656,
@@ -161,7 +176,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7964517be3bf4df6745cb29e5fefd937",
+    "wof:geomhash":"4aa21d9baa0cebad250ec6869310bbca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101813339,
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351890,
     "wof:name":"Leiwen",
     "wof:parent_id":1377686065,
     "wof:placetype":"locality",
-    "wof:population":1460,
+    "wof:population":1547,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

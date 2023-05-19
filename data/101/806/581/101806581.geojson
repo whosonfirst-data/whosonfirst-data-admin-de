@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wischhafen",
+    "eurostat:nuts_2021_id":"03359040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359040",
+    "eurostat:population":2976,
+    "eurostat:population_year":2020,
     "geom:area":0.003766,
-    "geom:area_square_m":27523156.99109,
+    "geom:area_square_m":27523156.991092,
     "geom:bbox":"9.26648150204,53.7291564421,9.35373796592,53.8156950644",
     "geom:latitude":53.768566,
     "geom:longitude":9.309858,
@@ -293,7 +305,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":179,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359040",
+        "eurostat:nuts_2021_id":"03359040",
         "gn:id":2807484,
         "gp:id":707232,
         "qs_pg:id":141557,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"16ee3e23eeee1d8d5f4a0abe4ba65fa2",
+    "wof:geomhash":"3773f24c06c86062078113ecb94e90e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101806581,
-    "wof:lastmodified":1582342615,
+    "wof:lastmodified":1684351853,
     "wof:name":"Wischhafen",
     "wof:parent_id":1377687947,
     "wof:placetype":"locality",
-    "wof:population":3110,
+    "wof:population":2976,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

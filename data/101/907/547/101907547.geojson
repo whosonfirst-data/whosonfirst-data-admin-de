@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rott",
+    "eurostat:nuts_2021_id":"07132097",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132097",
+    "eurostat:population":371,
+    "eurostat:population_year":2020,
     "geom:area":0.001246,
-    "geom:area_square_m":9772645.654591,
+    "geom:area_square_m":9772645.654592,
     "geom:bbox":"7.45003491292,50.6104957867,7.52482656914,50.653239847",
     "geom:latitude":50.631934,
     "geom:longitude":7.491027,
@@ -122,7 +134,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -132,6 +145,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132097",
+        "eurostat:nuts_2021_id":"07132097",
         "gn:id":2843798,
         "gp:id":12627926,
         "wd:id":"Q518830"
@@ -140,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a65611d7646dc575aba52020d1197bee",
+    "wof:geomhash":"6865109ce7b0148c3d27122e283dd18b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +167,11 @@
         }
     ],
     "wof:id":101907547,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351989,
     "wof:name":"Rott",
     "wof:parent_id":1377685317,
     "wof:placetype":"locality",
-    "wof:population":354,
+    "wof:population":371,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

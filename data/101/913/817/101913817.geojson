@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05117000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fclheim an der Ruhr, Stadt",
+    "eurostat:nuts_2021_id":"05117000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA16",
+    "eurostat:nuts_2021_level_lau":"05117000",
+    "eurostat:population":170632,
+    "eurostat:population_year":2020,
     "geom:area":0.01179,
     "geom:area_square_m":90922925.03791,
     "geom:bbox":"6.8049309224,51.3512410002,6.95925457796,51.4712854225",
@@ -336,7 +348,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -347,6 +360,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05117000",
+        "eurostat:nuts_2021_id":"05117000",
         "gn:id":2867838,
         "gp:id":676694,
         "qs_pg:id":634083,
@@ -364,7 +379,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"edbc078cb1a05f59e77e9e2d3d646a49",
+    "wof:geomhash":"de0a680151085bf5a0f557a94dc4c38a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -377,11 +392,11 @@
         }
     ],
     "wof:id":101913817,
-    "wof:lastmodified":1582342488,
+    "wof:lastmodified":1684352007,
     "wof:name":"M\u00fclheim an der Ruhr",
     "wof:parent_id":1377689441,
     "wof:placetype":"locality",
-    "wof:population":166654,
+    "wof:population":170632,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

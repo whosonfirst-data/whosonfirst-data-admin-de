@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stadtlauringen, M",
+    "eurostat:nuts_2021_id":"09678181",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678181",
+    "eurostat:population":4087,
+    "eurostat:population_year":2020,
     "geom:area":0.007988,
     "geom:area_square_m":63246957.582975,
     "geom:bbox":"10.316355,50.133842,10.473794,50.23166",
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":159,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377691747,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678181",
+        "eurostat:nuts_2021_id":"09678181",
         "gn:id":2829760,
         "gp:id":696225,
         "qs_pg:id":1038372,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"731d8ace4f84512b747f6069a1f96a0e",
+    "wof:geomhash":"ac84966ea1af50f8a9a9f2e5c45fb16d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101825925,
-    "wof:lastmodified":1608051426,
+    "wof:lastmodified":1684351932,
     "wof:name":"Stadtlauringen",
     "wof:parent_id":1377691747,
     "wof:placetype":"locality",
-    "wof:population":4496,
+    "wof:population":4087,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

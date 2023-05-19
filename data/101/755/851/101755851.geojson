@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05970024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kreuztal, Stadt",
+    "eurostat:nuts_2021_id":"05970024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5A",
+    "eurostat:nuts_2021_level_lau":"05970024",
+    "eurostat:population":31122,
+    "eurostat:population_year":2020,
     "geom:area":0.009058,
-    "geom:area_square_m":70515652.661023,
+    "geom:area_square_m":70515652.661028,
     "geom:bbox":"7.920007,50.925144,8.070976,51.042531",
     "geom:latitude":50.98158,
     "geom:longitude":7.985874,
@@ -303,22 +315,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1974,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063725,
         1377692537,
         404227579,
-        85682513
+        102063725
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05970024",
+        "eurostat:nuts_2021_id":"05970024",
         "gn:id":2884050,
         "gp:id":668894,
         "qs_pg:id":245799,
@@ -333,7 +348,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5fcc0fe78d3a1612e48e8615e0ec7520",
+    "wof:geomhash":"d976f1c1196c33fed6aa13f23cc7e89d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101755851,
-    "wof:lastmodified":1608049401,
+    "wof:lastmodified":1684351790,
     "wof:name":"Kreuztal",
     "wof:parent_id":1377692537,
     "wof:placetype":"locality",
-    "wof:population":31772,
+    "wof:population":31122,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

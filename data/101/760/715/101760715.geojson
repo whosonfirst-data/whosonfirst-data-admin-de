@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bretten, Stadt",
+    "eurostat:nuts_2021_id":"08215007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215007",
+    "eurostat:population":29566,
+    "eurostat:population_year":2020,
     "geom:area":0.008702,
-    "geom:area_square_m":70533725.574637,
+    "geom:area_square_m":70533725.574641,
     "geom:bbox":"8.63506880209,48.9886192114,8.76300578535,49.0982882582",
     "geom:latitude":49.043747,
     "geom:longitude":8.702814,
@@ -328,7 +340,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.036389,
     "wd:longitude":8.706111,
     "wd:wordcount":800,
@@ -346,6 +359,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215007",
+        "eurostat:nuts_2021_id":"08215007",
         "gn:id":2944200,
         "gp:id":641231,
         "qs_pg:id":1343733,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"93dd7f2c79636dc1fd9423bb69890ba4",
+    "wof:geomhash":"c931847f56a148ad0d6dfc3c928980bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101760715,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351801,
     "wof:name":"Bretten",
     "wof:parent_id":1377688295,
     "wof:placetype":"locality",
-    "wof:population":28144,
+    "wof:population":29566,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

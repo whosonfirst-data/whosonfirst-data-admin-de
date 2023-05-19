@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grammentin",
+    "eurostat:nuts_2021_id":"13071048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071048",
+    "eurostat:population":250,
+    "eurostat:population_year":2020,
     "geom:area":0.002357,
     "geom:area_square_m":17231355.230661,
     "geom:bbox":"12.8663929068,53.7277294879,12.9488951424,53.775968582",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071048",
+        "eurostat:nuts_2021_id":"13071048",
         "gn:id":2918159,
         "qs_pg:id":578924,
         "wd:id":"Q50970"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"72e94ae87e7cc3dd48ce3fbc09ffedbb",
+    "wof:geomhash":"057b816d76c070dc87e1692c8dde1c6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125828437,
-    "wof:lastmodified":1582343025,
+    "wof:lastmodified":1684352019,
     "wof:name":"Grammentin",
     "wof:parent_id":1377684521,
     "wof:placetype":"locality",
-    "wof:population":287,
+    "wof:population":250,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

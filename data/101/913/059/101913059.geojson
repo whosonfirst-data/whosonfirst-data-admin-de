@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dobbin-Linstow",
+    "eurostat:nuts_2021_id":"13072026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072026",
+    "eurostat:population":480,
+    "eurostat:population_year":2020,
     "geom:area":0.008836,
-    "geom:area_square_m":64814304.370418,
+    "geom:area_square_m":64814304.370421,
     "geom:bbox":"12.2495864632,53.5673022316,12.4172259131,53.6658106106",
     "geom:latitude":53.611908,
     "geom:longitude":12.348973,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072026",
+        "eurostat:nuts_2021_id":"13072026",
         "gn:id":6551114,
         "gp:id":29352429,
         "qs_pg:id":632622,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aaba159467a48c9f0d7fd232b2295300",
+    "wof:geomhash":"5d9b621729564364f2fb14cbcad9f0a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101913059,
-    "wof:lastmodified":1582342489,
+    "wof:lastmodified":1684352007,
     "wof:name":"Dobbin-Linstow",
     "wof:parent_id":1377684677,
     "wof:placetype":"locality",
-    "wof:population":496,
+    "wof:population":480,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

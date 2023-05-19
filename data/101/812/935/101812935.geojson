@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sembach",
+    "eurostat:nuts_2021_id":"07335205",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335205",
+    "eurostat:population":1159,
+    "eurostat:population_year":2020,
     "geom:area":0.000688,
     "geom:area_square_m":5525198.750944,
     "geom:bbox":"7.8336153058,49.5040113324,7.89564295447,49.5298291398",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":297,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335205",
+        "eurostat:nuts_2021_id":"07335205",
         "gn:id":2811345,
         "gp:id":694497,
         "qs_pg:id":373798,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"107323365f5aedb8f2ecb3cc6d8b1f68",
+    "wof:geomhash":"f0e4edbee0795c945a3a0e5e7da92031",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101812935,
-    "wof:lastmodified":1582342548,
+    "wof:lastmodified":1684351886,
     "wof:name":"Sembach",
     "wof:parent_id":1377686429,
     "wof:placetype":"locality",
-    "wof:population":1199,
+    "wof:population":1159,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

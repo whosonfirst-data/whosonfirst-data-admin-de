@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06439010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorch, Stadt",
+    "eurostat:nuts_2021_id":"06439010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71D",
+    "eurostat:nuts_2021_level_lau":"06439010",
+    "eurostat:population":3798,
+    "eurostat:population_year":2020,
     "geom:area":0.006913,
-    "geom:area_square_m":54856815.79988,
+    "geom:area_square_m":54856815.799885,
     "geom:bbox":"7.772491,50.006346,7.925493,50.128329",
     "geom:latitude":50.074632,
     "geom:longitude":7.84588,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.044097,
     "wd:longitude":7.80375,
     "wd:population":3750,
@@ -311,15 +324,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063605,
         1377694139,
         404227581,
-        85682531
+        102063605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06439010",
+        "eurostat:nuts_2021_id":"06439010",
         "fct:id":"071ba978-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2875906,
         "gp:id":20162272,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"97ff98b10f078060bbe614c48fc078b5",
+    "wof:geomhash":"e5f16f5e42d18a7b6b6c035bf9a83ba1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049909,
+    "wof:lastmodified":1684351880,
     "wof:name":"Lorch",
     "wof:parent_id":1377694139,
     "wof:placetype":"locality",
-    "wof:population":3750,
+    "wof:population":3798,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

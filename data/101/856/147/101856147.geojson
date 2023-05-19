@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alheim",
+    "eurostat:nuts_2021_id":"06632001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632001",
+    "eurostat:population":4922,
+    "eurostat:population_year":2020,
     "geom:area":0.008213,
-    "geom:area_square_m":63874628.944187,
+    "geom:area_square_m":63874628.944188,
     "geom:bbox":"9.564805,50.98099,9.754537,51.080082",
     "geom:latitude":51.028878,
     "geom:longitude":9.659499,
@@ -292,18 +304,21 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":452,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684257,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632001",
+        "eurostat:nuts_2021_id":"06632001",
         "gn:id":2958494,
         "gp:id":637212,
         "qs_pg:id":94222,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"97da3acde94833d15fd34aa930abd136",
+    "wof:geomhash":"f4c0dba775128f71deeaa9fe7f628d79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,12 +347,12 @@
         }
     ],
     "wof:id":101856147,
-    "wof:lastmodified":1608050411,
+    "wof:lastmodified":1684351968,
     "wof:name":"Alheim",
     "wof:parent_id":1377684257,
     "wof:placetype":"locality",
-    "wof:population":5292,
-    "wof:population_rank":5,
+    "wof:population":4922,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09179145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puchheim, St",
+    "eurostat:nuts_2021_id":"09179145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21C",
+    "eurostat:nuts_2021_level_lau":"09179145",
+    "eurostat:population":21417,
+    "eurostat:population_year":2020,
     "geom:area":0.001488,
-    "geom:area_square_m":12277045.641022,
+    "geom:area_square_m":12277045.641021,
     "geom:bbox":"11.317336,48.13659,11.375033,48.186701",
     "geom:latitude":48.161092,
     "geom:longitude":11.346241,
@@ -171,22 +183,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":179,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063271,
         1377692065,
         404227567,
-        85682571
+        102063271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09179145",
+        "eurostat:nuts_2021_id":"09179145",
         "fct:id":"0733f15e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2851782,
         "gp:id":686175,
@@ -202,7 +217,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"eb417e887d2e8fac33dd78912a2676fc",
+    "wof:geomhash":"dffa4b234df7e53015618b49284572d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,12 +233,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051968,
+    "wof:lastmodified":1684351839,
     "wof:name":"Puchheim",
     "wof:parent_id":1377692065,
     "wof:placetype":"locality",
-    "wof:population":19357,
-    "wof:population_rank":6,
+    "wof:population":21417,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

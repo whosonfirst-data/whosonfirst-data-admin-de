@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchgandern",
+    "eurostat:nuts_2021_id":"16061057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061057",
+    "eurostat:population":580,
+    "eurostat:population_year":2020,
     "geom:area":0.000535,
     "geom:area_square_m":4128602.188104,
     "geom:bbox":"9.94761400306,51.3774764166,9.98917435767,51.3979225565",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061057",
+        "eurostat:nuts_2021_id":"16061057",
         "gn:id":2890513,
         "gp:id":635406,
         "qs_pg:id":578315,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ec0fddac6503688d96bdd86097428ea2",
+    "wof:geomhash":"948159d6beaefa5b3deff89cc591781f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907615,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351989,
     "wof:name":"Kirchgandern",
     "wof:parent_id":1377689455,
     "wof:placetype":"locality",
-    "wof:population":603,
+    "wof:population":580,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

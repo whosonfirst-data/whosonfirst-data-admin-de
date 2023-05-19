@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sauerlach",
+    "eurostat:nuts_2021_id":"09184141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184141",
+    "eurostat:population":8228,
+    "eurostat:population_year":2020,
     "geom:area":0.006775,
-    "geom:area_square_m":56099782.396912,
+    "geom:area_square_m":56099782.396914,
     "geom:bbox":"11.564915,47.920044,11.700531,48.005988",
     "geom:latitude":47.959448,
     "geom:longitude":11.635236,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692897,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184141",
+        "eurostat:nuts_2021_id":"09184141",
         "fct:id":"07561694-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2841178,
         "gp:id":691155,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d938470ab273ce2548b14c087cfad369",
+    "wof:geomhash":"c28bf3291a6532b7efb7a4569a52895e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608052013,
+    "wof:lastmodified":1684351845,
     "wof:name":"Sauerlach",
     "wof:parent_id":1377692897,
     "wof:placetype":"locality",
-    "wof:population":5991,
+    "wof:population":8228,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

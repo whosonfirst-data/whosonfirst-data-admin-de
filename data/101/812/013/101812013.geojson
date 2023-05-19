@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232322",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waxweiler",
+    "eurostat:nuts_2021_id":"07232322",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232322",
+    "eurostat:population":1111,
+    "eurostat:population_year":2020,
     "geom:area":0.000739,
     "geom:area_square_m":5864912.667305,
     "geom:bbox":"6.34189768032,50.0824738286,6.39209396473,50.1170326021",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":303,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232322",
+        "eurostat:nuts_2021_id":"07232322",
         "gn:id":2813573,
         "gp:id":704202,
         "qs_pg:id":1038132,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c12cb7c40bcb25647664c83c6bab0045",
+    "wof:geomhash":"d26383c075da5d5525eff63d708086a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101812013,
-    "wof:lastmodified":1582342545,
+    "wof:lastmodified":1684351881,
     "wof:name":"Waxweiler",
     "wof:parent_id":1377685925,
     "wof:placetype":"locality",
-    "wof:population":1128,
+    "wof:population":1111,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

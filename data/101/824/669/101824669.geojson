@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grabfeld",
+    "eurostat:nuts_2021_id":"16066094",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066094",
+    "eurostat:population":5632,
+    "eurostat:population_year":2020,
     "geom:area":0.014745,
-    "geom:area_square_m":116084284.290414,
+    "geom:area_square_m":116084284.290411,
     "geom:bbox":"10.347977,50.392532,10.58502,50.511932",
     "geom:latitude":50.45555,
     "geom:longitude":10.460289,
@@ -116,17 +128,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":101,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063673,
         1377690001,
-        85682541
+        85633111,
+        102063673
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066094",
+        "eurostat:nuts_2021_id":"16066094",
         "gn:id":7602288,
         "gp:id":55965874,
         "qs_pg:id":693654,
@@ -140,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8dbcb0ec96c0286509274551eeb409a0",
+    "wof:geomhash":"9f7f899bb75ea51e135b3a981ee2e824",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +167,11 @@
         }
     ],
     "wof:id":101824669,
-    "wof:lastmodified":1608051129,
+    "wof:lastmodified":1684351930,
     "wof:name":"Grabfeld",
     "wof:parent_id":1377690001,
     "wof:placetype":"locality",
-    "wof:population":5503,
+    "wof:population":5632,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

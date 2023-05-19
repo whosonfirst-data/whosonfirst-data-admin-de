@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Estorf",
+    "eurostat:nuts_2021_id":"03256006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256006",
+    "eurostat:population":1711,
+    "eurostat:population_year":2020,
     "geom:area":0.002629,
-    "geom:area_square_m":19749467.461695,
+    "geom:area_square_m":19749467.461694,
     "geom:bbox":"9.09007779192,52.5707084676,9.2048177318,52.6107857905",
     "geom:latitude":52.589262,
     "geom:longitude":9.154114,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682555,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256006",
+        "eurostat:nuts_2021_id":"03256006",
         "gn:id":2928712,
         "gp:id":648873,
         "qs_pg:id":93901,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"aebed957015b742a9a31fb140686ff43",
+    "wof:geomhash":"05f66ac78e1474470c64468263a4b8b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101807869,
-    "wof:lastmodified":1582342588,
+    "wof:lastmodified":1684351861,
     "wof:name":"Estorf",
     "wof:parent_id":1377686995,
     "wof:placetype":"locality",
-    "wof:population":1709,
+    "wof:population":1711,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

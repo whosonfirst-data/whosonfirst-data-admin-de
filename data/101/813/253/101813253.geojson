@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Faulbach",
+    "eurostat:nuts_2021_id":"09676124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676124",
+    "eurostat:population":2560,
+    "eurostat:population_year":2020,
     "geom:area":0.001384,
-    "geom:area_square_m":11045869.559583,
+    "geom:area_square_m":11045869.559584,
     "geom:bbox":"9.427802,49.769472,9.471497,49.819026",
     "geom:latitude":49.793647,
     "geom:longitude":9.450957,
@@ -151,18 +163,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":458,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691295,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676124",
+        "eurostat:nuts_2021_id":"09676124",
         "fct:id":"073e4834-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2927726,
         "gp:id":649366,
@@ -178,7 +193,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fab281519562ef9fdb5aa4dc7f735a07",
+    "wof:geomhash":"eaa942b16ceecc231a108e3d3c730233",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051387,
+    "wof:lastmodified":1684351889,
     "wof:name":"Faulbach",
     "wof:parent_id":1377691295,
     "wof:placetype":"locality",
-    "wof:population":2784,
+    "wof:population":2560,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neueng\u00f6rs",
+    "eurostat:nuts_2021_id":"01060061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060061",
+    "eurostat:population":811,
+    "eurostat:population_year":2020,
     "geom:area":0.001848,
-    "geom:area_square_m":13466575.103875,
+    "geom:area_square_m":13466575.103873,
     "geom:bbox":"10.3354187969,53.8788242651,10.4446503521,53.9168436261",
     "geom:latitude":53.898649,
     "geom:longitude":10.390698,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060061",
+        "eurostat:nuts_2021_id":"01060061",
         "gn:id":2865721,
         "gp:id":678186,
         "qs_pg:id":577691,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a31db67f67b4ea11856b5daa7ae05c55",
+    "wof:geomhash":"5a4036363d8b4c5b9040b1ed8e5d3879",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101908695,
-    "wof:lastmodified":1582342344,
+    "wof:lastmodified":1684351998,
     "wof:name":"Neueng\u00f6rs",
     "wof:parent_id":1377684607,
     "wof:placetype":"locality",
-    "wof:population":916,
+    "wof:population":811,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

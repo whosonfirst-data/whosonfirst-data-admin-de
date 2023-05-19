@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Effelder",
+    "eurostat:nuts_2021_id":"16061027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061027",
+    "eurostat:population":1189,
+    "eurostat:population_year":2020,
     "geom:area":0.001407,
     "geom:area_square_m":10888300.76179,
     "geom:bbox":"10.2154076117,51.227264923,10.289444104,51.2606239291",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061027",
+        "eurostat:nuts_2021_id":"16061027",
         "gn:id":2933297,
         "gp:id":646567,
         "qs_pg:id":93952,
@@ -170,7 +185,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"29e5fdf57d5f1715f9d56f938c720656",
+    "wof:geomhash":"afd1c7715a9c08ae6b0ac49658426792",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101808859,
-    "wof:lastmodified":1582342605,
+    "wof:lastmodified":1684351864,
     "wof:name":"Effelder",
     "wof:parent_id":1377689483,
     "wof:placetype":"locality",
-    "wof:population":1360,
+    "wof:population":1189,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

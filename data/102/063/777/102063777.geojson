@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"M\u00fclheim an der Ruhr, Kreisfreie Stadt",
+    "eurostat:name_local":"M\u00fclheim an der Ruhr, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA16",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA16",
+    "eurostat:population":170739,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.01179,
-    "geom:area_square_m":90922928.380775,
+    "geom:area_square_m":90922928.380774,
     "geom:bbox":"6.804931,51.351241,6.959255,51.471285",
     "geom:latitude":51.413761,
     "geom:longitude":6.878445,
@@ -300,8 +314,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"91",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"M\u00fclheim an der Ruhr",
@@ -314,12 +328,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227561,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA16",
         "hasc:id":"DE.NW.MR",
         "wd:id":"Q2899"
     },
@@ -331,7 +346,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92156e40b2a1d8af7f8f7fe7317671b3",
+    "wof:geomhash":"883cb2a6376c7a31f015735adf89a35a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,12 +357,12 @@
         }
     ],
     "wof:id":102063777,
-    "wof:lastmodified":1608053555,
+    "wof:lastmodified":1684351522,
     "wof:name":"M\u00fclheim an der Ruhr",
     "wof:parent_id":404227561,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":166865,
+    "wof:population":170739,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"MR",

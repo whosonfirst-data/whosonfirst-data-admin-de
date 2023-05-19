@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malchow, Stadt",
+    "eurostat:nuts_2021_id":"13071093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071093",
+    "eurostat:population":6569,
+    "eurostat:population_year":2020,
     "geom:area":0.00607,
-    "geom:area_square_m":44665247.871903,
+    "geom:area_square_m":44665247.871905,
     "geom:bbox":"12.3474235787,53.4381440765,12.4835231113,53.5117235102",
     "geom:latitude":53.47775,
     "geom:longitude":12.421985,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071093",
+        "eurostat:nuts_2021_id":"13071093",
         "gn:id":2874122,
         "gp:id":673565,
         "qs_pg:id":1344803,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d08fec09d6926df3a2fcd587d0afb3de",
+    "wof:geomhash":"98af9afd1fcd0407d746fee3776f82e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101818643,
-    "wof:lastmodified":1582342359,
+    "wof:lastmodified":1684351902,
     "wof:name":"Malchow",
     "wof:parent_id":1377684451,
     "wof:placetype":"locality",
-    "wof:population":7384,
+    "wof:population":6569,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

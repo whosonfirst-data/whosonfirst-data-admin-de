@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kerschenbach",
+    "eurostat:nuts_2021_id":"07233219",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233219",
+    "eurostat:population":199,
+    "eurostat:population_year":2020,
     "geom:area":0.000877,
     "geom:area_square_m":6920921.992591,
     "geom:bbox":"6.46841022462,50.3120527487,6.5154143074,50.3523532619",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233219",
+        "eurostat:nuts_2021_id":"07233219",
         "gn:id":2891510,
         "qs_pg:id":93599,
         "wd:id":"Q567256"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"fca5c5d8d8b82289f35e15f7ecdf984b",
+    "wof:geomhash":"b5dc98ba21eca47f3b3da043e3d4f0e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125845543,
-    "wof:lastmodified":1582343054,
+    "wof:lastmodified":1684352027,
     "wof:name":"Kerschenbach",
     "wof:parent_id":1377686011,
     "wof:placetype":"locality",
-    "wof:population":190,
+    "wof:population":199,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

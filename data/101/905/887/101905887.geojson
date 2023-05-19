@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Walsheim",
+    "eurostat:nuts_2021_id":"07337082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337082",
+    "eurostat:population":579,
+    "eurostat:population_year":2020,
     "geom:area":0.000636,
-    "geom:area_square_m":5132368.176802,
+    "geom:area_square_m":5132368.176801,
     "geom:bbox":"7.96252773287,49.2273935468,8.13838827992,49.2837135405",
     "geom:latitude":49.247564,
     "geom:longitude":8.08119,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337082",
+        "eurostat:nuts_2021_id":"07337082",
         "gn:id":2814469,
         "gp:id":703774,
         "qs_pg:id":903707,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0f48ec7af0ddd4e42569a9ae52c847fe",
+    "wof:geomhash":"0b24108cf6726c9f1be3671b749d2d6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101905887,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"Walsheim",
     "wof:parent_id":1377686543,
     "wof:placetype":"locality",
-    "wof:population":550,
+    "wof:population":579,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

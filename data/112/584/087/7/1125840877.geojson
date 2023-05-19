@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberbettingen",
+    "eurostat:nuts_2021_id":"07233053",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233053",
+    "eurostat:population":711,
+    "eurostat:population_year":2020,
     "geom:area":0.00077,
     "geom:area_square_m":6086093.61259,
     "geom:bbox":"6.59785064284,50.2703693963,6.63709348874,50.3049498836",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -131,6 +144,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233053",
+        "eurostat:nuts_2021_id":"07233053",
         "gn:id":2861271,
         "qs_pg:id":577559,
         "wd:id":"Q654401"
@@ -140,7 +155,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"2427bf49031825158dee312f1c09d76e",
+    "wof:geomhash":"654b2223cbed0de2151658783e6d452a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +167,11 @@
         }
     ],
     "wof:id":1125840877,
-    "wof:lastmodified":1582343054,
+    "wof:lastmodified":1684352021,
     "wof:name":"Oberbettingen",
     "wof:parent_id":1377685991,
     "wof:placetype":"locality",
-    "wof:population":717,
+    "wof:population":711,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

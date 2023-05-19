@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schankweiler",
+    "eurostat:nuts_2021_id":"07232114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232114",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "geom:area":0.000825,
     "geom:area_square_m":6568720.828087,
     "geom:bbox":"6.36305763228,49.8793106314,6.40248850824,49.9131957031",
@@ -264,7 +276,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -274,6 +287,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232114",
+        "eurostat:nuts_2021_id":"07232114",
         "gn:id":2840476,
         "qs_pg:id":275871,
         "wd:id":"Q567527"
@@ -283,7 +298,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"765a63657d1faa3b11e39faf7f67ecf6",
+    "wof:geomhash":"9a4120b2e84ee348ee897735a6e8ea4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":1125984949,
-    "wof:lastmodified":1582343012,
+    "wof:lastmodified":1684352042,
     "wof:name":"Schankweiler",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":198,
+    "wof:population":185,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

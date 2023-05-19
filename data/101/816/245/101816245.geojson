@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12063208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nauen, Stadt",
+    "eurostat:nuts_2021_id":"12063208",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE408",
+    "eurostat:nuts_2021_level_lau":"12063208",
+    "eurostat:population":18182,
+    "eurostat:population_year":2020,
     "geom:area":0.035656,
-    "geom:area_square_m":267674143.396979,
+    "geom:area_square_m":267674143.396962,
     "geom:bbox":"12.652364,52.499366,13.013173,52.724996",
     "geom:latitude":52.61812,
     "geom:longitude":12.827869,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.6,
     "wd:longitude":12.883056,
     "wd:wordcount":180,
@@ -309,14 +322,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063953,
         1377694613,
-        85682553
+        85633111,
+        102063953
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12063208",
+        "eurostat:nuts_2021_id":"12063208",
         "gn:id":2866930,
         "gp:id":677200,
         "qs_pg:id":245806,
@@ -331,7 +346,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8c4dfe594b0e23f649ac264a6fd6014c",
+    "wof:geomhash":"85c075ad401803afdaf197fe58a29f4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101816245,
-    "wof:lastmodified":1608049899,
+    "wof:lastmodified":1684351895,
     "wof:name":"Nauen",
     "wof:parent_id":1377694613,
     "wof:placetype":"locality",
-    "wof:population":16600,
+    "wof:population":18182,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

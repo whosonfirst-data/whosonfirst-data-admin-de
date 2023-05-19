@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinhagen",
+    "eurostat:nuts_2021_id":"13072101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072101",
+    "eurostat:population":669,
+    "eurostat:population_year":2020,
     "geom:area":0.001382,
-    "geom:area_square_m":10079756.658462,
+    "geom:area_square_m":10079756.658463,
     "geom:bbox":"11.8967169934,53.8357384721,11.9759104763,53.875513428",
     "geom:latitude":53.852998,
     "geom:longitude":11.930631,
@@ -272,7 +284,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "wof:belongsto":[
         85682487,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072101",
+        "eurostat:nuts_2021_id":"13072101",
         "gn:id":2828048,
         "gp:id":696894,
         "wd:id":"Q699226"
@@ -291,7 +306,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c981e0d0df646c6c1f802d3ec16e6dd8",
+    "wof:geomhash":"906745fd4e1bade38eb9a9d7cdcdd736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -303,11 +318,11 @@
         }
     ],
     "wof:id":101908587,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351997,
     "wof:name":"Steinhagen",
     "wof:parent_id":1377684641,
     "wof:placetype":"locality",
-    "wof:population":724,
+    "wof:population":669,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

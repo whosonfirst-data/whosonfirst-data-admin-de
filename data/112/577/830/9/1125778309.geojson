@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchsahr",
+    "eurostat:nuts_2021_id":"07131040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131040",
+    "eurostat:population":362,
+    "eurostat:population_year":2020,
     "geom:area":0.000779,
     "geom:area_square_m":6127336.289042,
     "geom:bbox":"6.88209844333,50.5007934369,6.9253871919,50.5307855668",
@@ -126,7 +138,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -141,6 +154,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131040",
+        "eurostat:nuts_2021_id":"07131040",
         "gp:id":666021,
         "qs_pg:id":1078103,
         "wd:id":"Q565876"
@@ -150,7 +165,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"99267bb13af4ae73d723951a406677ed",
+    "wof:geomhash":"dfb85c6b8fa0f3462e8613869c894129",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":1125778309,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Kirchsahr",
     "wof:parent_id":1377690225,
     "wof:placetype":"locality",
-    "wof:population":353,
+    "wof:population":362,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

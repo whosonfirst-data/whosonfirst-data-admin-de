@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Ems, Stadt",
+    "eurostat:nuts_2021_id":"07141006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141006",
+    "eurostat:population":9689,
+    "eurostat:population_year":2020,
     "geom:area":0.001955,
     "geom:area_square_m":15426810.773461,
     "geom:bbox":"7.69445395835,50.3084611153,7.75464931532,50.368440897",
@@ -333,7 +345,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.338056,
     "wd:longitude":7.710556,
     "wd:wordcount":822,
@@ -350,6 +363,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141006",
+        "eurostat:nuts_2021_id":"07141006",
         "fct:id":"0736c4a6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953507,
         "gp:id":636417,
@@ -362,7 +377,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1583e3d35a0b94f33cb2fe72efb94025",
+    "wof:geomhash":"50bd3d4068755ae1fc2d361374610ac5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -377,11 +392,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342527,
+    "wof:lastmodified":1684351960,
     "wof:name":"Bad Ems",
     "wof:parent_id":1377685723,
     "wof:placetype":"locality",
-    "wof:population":9735,
+    "wof:population":9689,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

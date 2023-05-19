@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fcnster",
+    "eurostat:nuts_2021_id":"09779187",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779187",
+    "eurostat:population":1187,
+    "eurostat:population_year":2020,
     "geom:area":0.002169,
-    "geom:area_square_m":17729653.467018,
+    "geom:area_square_m":17729653.46702,
     "geom:bbox":"10.8789633339,48.5840821476,10.9316143369,48.6516759272",
     "geom:latitude":48.619669,
     "geom:longitude":10.905937,
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779187",
+        "eurostat:nuts_2021_id":"09779187",
         "gn:id":2867555,
         "gp:id":676859,
         "qs_pg:id":4,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7cb26bc9d56fa8b813937bd6398d9921",
+    "wof:geomhash":"9624d091fa6681d2b33adca018098ae2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101784449,
-    "wof:lastmodified":1582342483,
+    "wof:lastmodified":1684351833,
     "wof:name":"M\u00fcnster",
     "wof:parent_id":1377693437,
     "wof:placetype":"locality",
-    "wof:population":1124,
+    "wof:population":1187,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

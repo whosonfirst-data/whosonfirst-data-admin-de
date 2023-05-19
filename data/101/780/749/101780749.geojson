@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09376161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwandorf, GKSt",
+    "eurostat:nuts_2021_id":"09376161",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE239",
+    "eurostat:nuts_2021_level_lau":"09376161",
+    "eurostat:population":29130,
+    "eurostat:population_year":2020,
     "geom:area":0.015348,
-    "geom:area_square_m":123712950.792978,
+    "geom:area_square_m":123712950.792976,
     "geom:bbox":"11.98999,49.248014,12.210216,49.382562",
     "geom:latitude":49.317822,
     "geom:longitude":12.088543,
@@ -322,21 +334,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063475,
         1377686779,
         404227545,
-        85682571
+        102063475
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09376161",
+        "eurostat:nuts_2021_id":"09376161",
         "gn:id":2834662,
         "gp:id":20158474,
         "qs_pg:id":1038447,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9eaa7787ef450da4ede354e054eceb41",
+    "wof:geomhash":"829a7a4feb864981425d3017e9a81893",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101780749,
-    "wof:lastmodified":1608052039,
+    "wof:lastmodified":1684351819,
     "wof:name":"Schwandorf",
     "wof:parent_id":1377686779,
     "wof:placetype":"locality",
-    "wof:population":28235,
+    "wof:population":29130,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

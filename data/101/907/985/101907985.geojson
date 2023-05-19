@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Natendorf",
+    "eurostat:nuts_2021_id":"03360014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360014",
+    "eurostat:population":725,
+    "eurostat:population_year":2020,
     "geom:area":0.004609,
-    "geom:area_square_m":34247049.231541,
+    "geom:area_square_m":34247049.23154,
     "geom:bbox":"10.4049155943,53.0222012106,10.5057306978,53.0937654646",
     "geom:latitude":53.062031,
     "geom:longitude":10.459317,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360014",
+        "eurostat:nuts_2021_id":"03360014",
         "gn:id":2866981,
         "gp:id":677170,
         "qs_pg:id":1029546,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"49132cf4924bcc8aca59be5c8f9b6fd0",
+    "wof:geomhash":"3b453a18c50b2ed2ba546b618df03744",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101907985,
-    "wof:lastmodified":1582342311,
+    "wof:lastmodified":1684351991,
     "wof:name":"Natendorf",
     "wof:parent_id":1377688001,
     "wof:placetype":"locality",
-    "wof:population":869,
+    "wof:population":725,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

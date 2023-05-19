@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elsterheide",
+    "eurostat:nuts_2021_id":"14625120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625120",
+    "eurostat:population":3463,
+    "eurostat:population_year":2020,
     "geom:area":0.016468,
-    "geom:area_square_m":126774648.900139,
+    "geom:area_square_m":126774648.900131,
     "geom:bbox":"14.071855,51.442315,14.348921,51.543986",
     "geom:latitude":51.495879,
     "geom:longitude":14.212407,
@@ -177,21 +189,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":113,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686683,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625120",
+        "eurostat:nuts_2021_id":"14625120",
         "gn:id":6548714,
         "gp:id":694320,
         "qs_pg:id":1037634,
@@ -205,7 +220,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5529e43e289df07872f46269f8f117cc",
+    "wof:geomhash":"9254a0a5778467a218aacff89daba2b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
         }
     ],
     "wof:id":101822179,
-    "wof:lastmodified":1608051506,
+    "wof:lastmodified":1684351920,
     "wof:name":"Elsterheide",
     "wof:parent_id":1377686683,
     "wof:placetype":"locality",
-    "wof:population":3671,
+    "wof:population":3463,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

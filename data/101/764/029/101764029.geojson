@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Umkirch",
+    "eurostat:nuts_2021_id":"08315115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315115",
+    "eurostat:population":5763,
+    "eurostat:population_year":2020,
     "geom:area":0.000976,
-    "geom:area_square_m":8073473.10751,
+    "geom:area_square_m":8073473.107511,
     "geom:bbox":"7.73210724042,48.0160969084,7.78926821461,48.0480861784",
     "geom:latitude":48.032561,
     "geom:longitude":7.760772,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":581,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315115",
+        "eurostat:nuts_2021_id":"08315115",
         "gn:id":2820190,
         "gp:id":700556,
         "qs_pg:id":279161,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c28d8261cffa7d42147f159d796cfde8",
+    "wof:geomhash":"fb17ec496045fef66ab27deb70108f8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101764029,
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351811,
     "wof:name":"Umkirch",
     "wof:parent_id":1377689233,
     "wof:placetype":"locality",
-    "wof:population":5208,
+    "wof:population":5763,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bingen am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"07339005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339005",
+    "eurostat:population":25899,
+    "eurostat:population_year":2020,
     "geom:area":0.004757,
-    "geom:area_square_m":37852882.475132,
+    "geom:area_square_m":37852882.475129,
     "geom:bbox":"7.86373,49.912655,8.003804,49.980394",
     "geom:latitude":49.947822,
     "geom:longitude":7.93597,
@@ -220,20 +232,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063567,
         1377686651,
-        85682491
+        85633111,
+        102063567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339005",
+        "eurostat:nuts_2021_id":"07339005",
         "fct:id":"073848bc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2948821,
         "gp:id":638993,
@@ -254,7 +269,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ba0eb05f2247f2a2b9074be20db59ecd",
+    "wof:geomhash":"75daec7e0a1366b969046bce5e1f59cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -269,11 +284,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051297,
+    "wof:lastmodified":1684351950,
     "wof:name":"Bingen am Rhein",
     "wof:parent_id":1377686651,
     "wof:placetype":"locality",
-    "wof:population":24657,
+    "wof:population":25899,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

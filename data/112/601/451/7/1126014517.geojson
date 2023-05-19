@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Belsch",
+    "eurostat:nuts_2021_id":"13076008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076008",
+    "eurostat:population":224,
+    "eurostat:population_year":2020,
     "geom:area":0.00305,
     "geom:area_square_m":22533248.012801,
     "geom:bbox":"11.1353953794,53.2893115126,11.2326035028,53.3429929413",
@@ -105,7 +117,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -115,6 +128,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076008",
+        "eurostat:nuts_2021_id":"13076008",
         "gn:id":2951164,
         "qs_pg:id":579833,
         "wd:id":"Q691709"
@@ -124,7 +139,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"5cda83da1e5dd9caca1373860fadedca",
+    "wof:geomhash":"cc82e1aebe64007e6d0ac89c6d6ab0f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -136,11 +151,11 @@
         }
     ],
     "wof:id":1126014517,
-    "wof:lastmodified":1582343019,
+    "wof:lastmodified":1684352048,
     "wof:name":"Belsch",
     "wof:parent_id":1377685279,
     "wof:placetype":"locality",
-    "wof:population":265,
+    "wof:population":224,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jettenbach",
+    "eurostat:nuts_2021_id":"07336048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336048",
+    "eurostat:population":788,
+    "eurostat:population_year":2020,
     "geom:area":0.001269,
-    "geom:area_square_m":10187054.336534,
+    "geom:area_square_m":10187054.336532,
     "geom:bbox":"7.53091814134,49.5174536478,7.58486031605,49.5526682369",
     "geom:latitude":49.534093,
     "geom:longitude":7.557458,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336048",
+        "eurostat:nuts_2021_id":"07336048",
         "gn:id":2894924,
         "gp:id":664133,
         "qs_pg:id":277411,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"25e41de85f1192d0575c3e9938164aec",
+    "wof:geomhash":"c76bbe4d7f7c140493f98aaaef20c54c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101906779,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351981,
     "wof:name":"Jettenbach",
     "wof:parent_id":1377686483,
     "wof:placetype":"locality",
-    "wof:population":884,
+    "wof:population":788,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

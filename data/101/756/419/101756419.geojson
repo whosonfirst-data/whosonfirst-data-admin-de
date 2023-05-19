@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06435011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfkrotzenburg",
+    "eurostat:nuts_2021_id":"06435011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE719",
+    "eurostat:nuts_2021_level_lau":"06435011",
+    "eurostat:population":7521,
+    "eurostat:population_year":2020,
     "geom:area":0.000933,
-    "geom:area_square_m":7399182.216646,
+    "geom:area_square_m":7399182.216648,
     "geom:bbox":"8.942587,50.066223,9.004269,50.099595",
     "geom:latitude":50.085444,
     "geom:longitude":8.976673,
@@ -300,22 +312,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063631,
         1377693561,
         404227581,
-        85682531
+        102063631
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06435011",
+        "eurostat:nuts_2021_id":"06435011",
         "fct:id":"071b9fa0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2915372,
         "gp:id":655093,
@@ -331,7 +346,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92969165e4794fdf4ac31294a3f93ff6",
+    "wof:geomhash":"576714a080b6922e6c981625f3e4f802",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050828,
+    "wof:lastmodified":1684351795,
     "wof:name":"Gro\u00dfkrotzenburg",
     "wof:parent_id":1377693561,
     "wof:placetype":"locality",
-    "wof:population":7196,
+    "wof:population":7521,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

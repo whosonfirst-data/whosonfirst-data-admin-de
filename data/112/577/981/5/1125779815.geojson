@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seiwerath",
+    "eurostat:nuts_2021_id":"07232307",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232307",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "geom:area":0.001117,
     "geom:area_square_m":8854684.757355,
     "geom:bbox":"6.48519036379,50.127025665,6.54819697454,50.1587602851",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232307",
+        "eurostat:nuts_2021_id":"07232307",
         "gn:id":2833298,
         "qs_pg:id":93078,
         "wd:id":"Q646797"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"b32207ed02e683fe74c2486e26e135c9",
+    "wof:geomhash":"5817cbdeee0c031c315d328bebb4a989",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125779815,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Seiwerath",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":151,
+    "wof:population":148,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

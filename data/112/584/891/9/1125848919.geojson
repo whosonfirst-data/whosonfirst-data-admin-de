@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brieden",
+    "eurostat:nuts_2021_id":"07135014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135014",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "geom:area":0.000528,
     "geom:area_square_m":4177669.830869,
     "geom:bbox":"7.24590212669,50.1713986859,7.28181351358,50.1982781327",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135014",
+        "eurostat:nuts_2021_id":"07135014",
         "gn:id":2944143,
         "qs_pg:id":579617
     },
@@ -129,7 +144,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"601f43f78efa21cae6d3b2d575c4b0ef",
+    "wof:geomhash":"7caf3eb0c0304520877fea03ce10fbd8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -141,11 +156,11 @@
         }
     ],
     "wof:id":1125848919,
-    "wof:lastmodified":1582343057,
+    "wof:lastmodified":1684352031,
     "wof:name":"Brieden",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":135,
+    "wof:population":130,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salzbergen",
+    "eurostat:nuts_2021_id":"03454045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454045",
+    "eurostat:population":7839,
+    "eurostat:population_year":2020,
     "geom:area":0.007013,
-    "geom:area_square_m":53005491.062593,
+    "geom:area_square_m":53005491.062591,
     "geom:bbox":"7.256227,52.280272,7.437776,52.351942",
     "geom:latitude":52.320192,
     "geom:longitude":7.352867,
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":66,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063975,
         1377688529,
-        85682555
+        85633111,
+        102063975
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454045",
+        "eurostat:nuts_2021_id":"03454045",
         "gn:id":2842175,
         "gp:id":690847,
         "qs_pg:id":141829,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2e527744f019eaa77021301795cbac05",
+    "wof:geomhash":"dcaed8b7c71885380d68bc2be0420a22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101807985,
-    "wof:lastmodified":1608051541,
+    "wof:lastmodified":1684351862,
     "wof:name":"Salzbergen",
     "wof:parent_id":1377688529,
     "wof:placetype":"locality",
-    "wof:population":7602,
+    "wof:population":7839,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

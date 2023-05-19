@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfthiemig",
+    "eurostat:nuts_2021_id":"12062208",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062208",
+    "eurostat:population":1044,
+    "eurostat:population_year":2020,
     "geom:area":0.002604,
-    "geom:area_square_m":20089998.029689,
+    "geom:area_square_m":20089998.029688,
     "geom:bbox":"13.6172251163,51.3676152736,13.7018188694,51.4314148992",
     "geom:latitude":51.392883,
     "geom:longitude":13.668101,
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":95,
     "wof:belongsto":[
         85682553,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062208",
+        "eurostat:nuts_2021_id":"12062208",
         "gn:id":2914950,
         "gp:id":641506,
         "qs_pg:id":578854,
@@ -155,7 +170,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e5f01a70f0873c59f372065714bf892e",
+    "wof:geomhash":"4dd9a9a929d59164b1049bbb25ce3e7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101822425,
-    "wof:lastmodified":1582342578,
+    "wof:lastmodified":1684351922,
     "wof:name":"Gro\u00dfthiemig",
     "wof:parent_id":1377694563,
     "wof:placetype":"locality",
-    "wof:population":1282,
+    "wof:population":1044,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hehlen",
+    "eurostat:nuts_2021_id":"03255017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255017",
+    "eurostat:population":1852,
+    "eurostat:population_year":2020,
     "geom:area":0.002829,
-    "geom:area_square_m":21551409.310135,
+    "geom:area_square_m":21551409.310137,
     "geom:bbox":"9.41433121006,51.9317290161,9.49832599034,52.0020832984",
     "geom:latitude":51.970462,
     "geom:longitude":9.459159,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255017",
+        "eurostat:nuts_2021_id":"03255017",
         "gn:id":2908165,
         "gp:id":643826,
         "qs_pg:id":142451,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55428a1bfcac2207158d8419c42744ae",
+    "wof:geomhash":"da18ea188a7e5dd4680299c3cea01013",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,12 +346,12 @@
         }
     ],
     "wof:id":101809009,
-    "wof:lastmodified":1582342598,
+    "wof:lastmodified":1684351866,
     "wof:name":"Hehlen",
     "wof:parent_id":1377686839,
     "wof:placetype":"locality",
-    "wof:population":2193,
-    "wof:population_rank":4,
+    "wof:population":1852,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

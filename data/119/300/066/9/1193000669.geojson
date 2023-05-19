@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauterbach",
+    "eurostat:nuts_2021_id":"16063049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063049",
+    "eurostat:population":663,
+    "eurostat:population_year":2020,
     "geom:area":0.000852,
     "geom:area_square_m":6618925.739832,
     "geom:bbox":"10.3197443622,51.0497972508,10.407229643,51.0839208675",
@@ -104,7 +116,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -114,13 +127,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063049",
+        "eurostat:nuts_2021_id":"16063049",
         "gn:id":2879926
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"01fab04e3a1edecc93bb66eff8e221b1",
+    "wof:geomhash":"0bf5dc4d28ec21c74c4d978f42df52ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -132,11 +147,11 @@
         }
     ],
     "wof:id":1193000669,
-    "wof:lastmodified":1582342065,
+    "wof:lastmodified":1684352056,
     "wof:name":"Lauterbach",
     "wof:parent_id":1377689689,
     "wof:placetype":"locality",
-    "wof:population":633,
+    "wof:population":663,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

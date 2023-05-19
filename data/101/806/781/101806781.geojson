@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kisdorf",
+    "eurostat:nuts_2021_id":"01060047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060047",
+    "eurostat:population":3963,
+    "eurostat:population_year":2020,
     "geom:area":0.003323,
-    "geom:area_square_m":24258857.271596,
+    "geom:area_square_m":24258857.271595,
     "geom:bbox":"9.9776713426,53.7937363722,10.1138908832,53.8336361034",
     "geom:latitude":53.813931,
     "geom:longitude":10.0486,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":78,
     "wof:belongsto":[
         85682517,
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060047",
+        "eurostat:nuts_2021_id":"01060047",
         "gn:id":2890218,
         "gp:id":666102,
         "qs_pg:id":1039409,
@@ -178,7 +193,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1c8c12fb41b2df2f57e825ad31da12c4",
+    "wof:geomhash":"c697a8789044b68a13bd360aa8dc3df6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101806781,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351855,
     "wof:name":"Kisdorf",
     "wof:parent_id":1377684577,
     "wof:placetype":"locality",
-    "wof:population":3445,
+    "wof:population":3963,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

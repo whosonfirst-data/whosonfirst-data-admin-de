@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09374162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vohenstrau\u00df, St",
+    "eurostat:nuts_2021_id":"09374162",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE237",
+    "eurostat:nuts_2021_level_lau":"09374162",
+    "eurostat:population":7407,
+    "eurostat:population_year":2020,
     "geom:area":0.00933,
-    "geom:area_square_m":74740923.918526,
+    "geom:area_square_m":74740923.918536,
     "geom:bbox":"12.239359,49.558109,12.412792,49.667358",
     "geom:latitude":49.620983,
     "geom:longitude":12.327637,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":86,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063523,
         1377686249,
         404227545,
-        85682571
+        102063523
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09374162",
+        "eurostat:nuts_2021_id":"09374162",
         "gn:id":2816770,
         "gp:id":702567,
         "qs_pg:id":141615,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7631f9fd4aa8d95ec9a7b621a118c7be",
+    "wof:geomhash":"7dab2a2401027dcdcfe6e645b0d49d0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101827023,
-    "wof:lastmodified":1608049802,
+    "wof:lastmodified":1684351939,
     "wof:name":"Vohenstrau\u00df",
     "wof:parent_id":1377686249,
     "wof:placetype":"locality",
-    "wof:population":7550,
+    "wof:population":7407,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

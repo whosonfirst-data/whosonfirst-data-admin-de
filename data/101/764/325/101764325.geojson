@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6mberg, Stadt",
+    "eurostat:nuts_2021_id":"08417057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417057",
+    "eurostat:population":4687,
+    "eurostat:population_year":2020,
     "geom:area":0.002825,
     "geom:area_square_m":23284121.391317,
     "geom:bbox":"8.71924529229,48.1595399173,8.80723440721,48.234037728",
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":241,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417057",
+        "eurostat:nuts_2021_id":"08417057",
         "gn:id":2837117,
         "gp:id":692768,
         "qs_pg:id":340689,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1f4aa23cef966aa008cd7cf88ac7b063",
+    "wof:geomhash":"0fe5c10ecbdf4d5c542c09ba34a2d8e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101764325,
-    "wof:lastmodified":1582342301,
+    "wof:lastmodified":1684351815,
     "wof:name":"Sch\u00f6mberg",
     "wof:parent_id":1377690145,
     "wof:placetype":"locality",
-    "wof:population":4633,
+    "wof:population":4687,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

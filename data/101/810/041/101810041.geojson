@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldkappel, Stadt",
+    "eurostat:nuts_2021_id":"06636012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636012",
+    "eurostat:population":4234,
+    "eurostat:population_year":2020,
     "geom:area":0.012424,
-    "geom:area_square_m":96399867.149589,
+    "geom:area_square_m":96399867.149592,
     "geom:bbox":"9.773271,51.080786,9.961953,51.188519",
     "geom:latitude":51.134399,
     "geom:longitude":9.858125,
@@ -299,20 +311,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.15,
     "wd:longitude":9.883333,
     "wd:wordcount":372,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685167,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636012",
+        "eurostat:nuts_2021_id":"06636012",
         "gn:id":2814888,
         "gp:id":703512,
         "qs_pg:id":1038163,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ee0ae013bed6cb3d79e4aee8be3b3f9",
+    "wof:geomhash":"a357b280a1546bc670c38f4fd0bc71db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,12 +355,12 @@
         }
     ],
     "wof:id":101810041,
-    "wof:lastmodified":1608050033,
+    "wof:lastmodified":1684351870,
     "wof:name":"Waldkappel",
     "wof:parent_id":1377685167,
     "wof:placetype":"locality",
-    "wof:population":5022,
-    "wof:population_rank":5,
+    "wof:population":4234,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

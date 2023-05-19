@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tirschenreuth, St",
+    "eurostat:nuts_2021_id":"09377154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377154",
+    "eurostat:population":8712,
+    "eurostat:population_year":2020,
     "geom:area":0.013055,
     "geom:area_square_m":104010768.209319,
     "geom:bbox":"12.248388,49.822885,12.450917,49.954921",
@@ -187,21 +199,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063559,
         1377686963,
         404227545,
-        85682571
+        102063559
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377154",
+        "eurostat:nuts_2021_id":"09377154",
         "gn:id":2822100,
         "gp:id":699541,
         "qs_pg:id":892181,
@@ -216,7 +231,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"12227e5c56fea3d082dba68616632d06",
+    "wof:geomhash":"7a19fb881fae4a1d1aa617fa5d63c07b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -229,11 +244,11 @@
         }
     ],
     "wof:id":101825791,
-    "wof:lastmodified":1608051411,
+    "wof:lastmodified":1684351931,
     "wof:name":"Tirschenreuth",
     "wof:parent_id":1377686963,
     "wof:placetype":"locality",
-    "wof:population":9410,
+    "wof:population":8712,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

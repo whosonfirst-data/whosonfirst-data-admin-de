@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heiningen",
+    "eurostat:nuts_2021_id":"03158019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158019",
+    "eurostat:population":652,
+    "eurostat:population_year":2020,
     "geom:area":0.001096,
-    "geom:area_square_m":8329831.30726,
+    "geom:area_square_m":8329831.307262,
     "geom:bbox":"10.514731524,52.0545560188,10.5673028069,52.0889119266",
     "geom:latitude":52.073137,
     "geom:longitude":10.544801,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":778,
     "wof:belongsto":[
         85682555,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158019",
+        "eurostat:nuts_2021_id":"03158019",
         "gn:id":2907278,
         "gp:id":642524,
         "qs_pg:id":578711,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"12b7825faad5b31d8a175001c762a2bd",
+    "wof:geomhash":"10c8ed83222129195b0ea4eba14dc64c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101909607,
-    "wof:lastmodified":1582342292,
+    "wof:lastmodified":1684352002,
     "wof:name":"Heiningen",
     "wof:parent_id":1377686129,
     "wof:placetype":"locality",
-    "wof:population":749,
+    "wof:population":652,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

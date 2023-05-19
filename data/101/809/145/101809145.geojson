@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leopoldsh\u00f6he",
+    "eurostat:nuts_2021_id":"05766048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766048",
+    "eurostat:population":16263,
+    "eurostat:population_year":2020,
     "geom:area":0.004839,
     "geom:area_square_m":36829924.758353,
     "geom:bbox":"8.641549,51.967796,8.734616,52.045024",
@@ -280,18 +292,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":314,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691845,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766048",
+        "eurostat:nuts_2021_id":"05766048",
         "gn:id":2878673,
         "gp:id":671318,
         "qs_pg:id":374111,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"50fb00df38da039481d01802ac9ab9f3",
+    "wof:geomhash":"b7fbbda5250861f28ddd23dac12b7609",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101809145,
-    "wof:lastmodified":1608051622,
+    "wof:lastmodified":1684351867,
     "wof:name":"Leopoldsh\u00f6he",
     "wof:parent_id":1377691845,
     "wof:placetype":"locality",
-    "wof:population":16219,
+    "wof:population":16263,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

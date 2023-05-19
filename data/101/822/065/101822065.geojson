@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riesa, Stadt",
+    "eurostat:nuts_2021_id":"14627230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627230",
+    "eurostat:population":29754,
+    "eurostat:population_year":2020,
     "geom:area":0.007575,
-    "geom:area_square_m":58566484.466477,
+    "geom:area_square_m":58566484.466472,
     "geom:bbox":"13.202236,51.260168,13.387927,51.338405",
     "geom:latitude":51.297283,
     "geom:longitude":13.280414,
@@ -205,21 +217,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":446,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687399,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627230",
+        "eurostat:nuts_2021_id":"14627230",
         "gn:id":2846939,
         "gp:id":688664,
         "qs_pg:id":1167144,
@@ -234,7 +249,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"863fd19eaea952a7ca51da11dace431a",
+    "wof:geomhash":"d7749ded0362517db5bd5bbb74467f5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -246,11 +261,11 @@
         }
     ],
     "wof:id":101822065,
-    "wof:lastmodified":1608051459,
+    "wof:lastmodified":1684351919,
     "wof:name":"Riesa",
     "wof:parent_id":1377687399,
     "wof:placetype":"locality",
-    "wof:population":37156,
+    "wof:population":29754,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

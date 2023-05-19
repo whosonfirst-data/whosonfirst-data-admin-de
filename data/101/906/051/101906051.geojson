@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westertimke",
+    "eurostat:nuts_2021_id":"03357053",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357053",
+    "eurostat:population":431,
+    "eurostat:population_year":2020,
     "geom:area":0.001623,
-    "geom:area_square_m":12014022.174618,
+    "geom:area_square_m":12014022.174614,
     "geom:bbox":"9.09868923188,53.2168677789,9.18798129447,53.2560372807",
     "geom:latitude":53.237192,
     "geom:longitude":9.135661,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":140,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357053",
+        "eurostat:nuts_2021_id":"03357053",
         "gn:id":2810178,
         "gp:id":705865,
         "qs_pg:id":576444,
@@ -181,7 +196,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8fd4c1b28b027df16508ae3c7cb2cb66",
+    "wof:geomhash":"d329735295a6c0aaedfe03c506572de4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101906051,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351975,
     "wof:name":"Westertimke",
     "wof:parent_id":1377687729,
     "wof:placetype":"locality",
-    "wof:population":642,
+    "wof:population":431,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

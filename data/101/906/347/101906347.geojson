@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ellerdorf",
+    "eurostat:nuts_2021_id":"01058046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058046",
+    "eurostat:population":486,
+    "eurostat:population_year":2020,
     "geom:area":0.001405,
     "geom:area_square_m":10166042.274613,
     "geom:bbox":"9.79600960003,54.1805542432,9.85770111716,54.2183118398",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058046",
+        "eurostat:nuts_2021_id":"01058046",
         "gn:id":2931008,
         "gp:id":647592,
         "qs_pg:id":579259,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"247a68cb70c2ee912bb5eb9d3f630399",
+    "wof:geomhash":"873746d7793f07a6257d7fc19728027d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101906347,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351979,
     "wof:name":"Ellerdorf",
     "wof:parent_id":1377684259,
     "wof:placetype":"locality",
-    "wof:population":577,
+    "wof:population":486,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

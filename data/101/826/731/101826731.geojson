@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberdachstetten",
+    "eurostat:nuts_2021_id":"09571183",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571183",
+    "eurostat:population":1638,
+    "eurostat:population_year":2020,
     "geom:area":0.002935,
-    "geom:area_square_m":23611816.547281,
+    "geom:area_square_m":23611816.54728,
     "geom:bbox":"10.383016,49.384901,10.491838,49.432765",
     "geom:latitude":49.407765,
     "geom:longitude":10.435398,
@@ -311,22 +323,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377688945,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571183",
+        "eurostat:nuts_2021_id":"09571183",
         "fct:id":"071c422a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2861131,
         "gp:id":12634417,
@@ -341,7 +356,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82e928db0db9bcd0f3a750d19e12f018",
+    "wof:geomhash":"37485c3c27cf36cbc27e84df37697639",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050302,
+    "wof:lastmodified":1684351935,
     "wof:name":"Oberdachstetten",
     "wof:parent_id":1377688945,
     "wof:placetype":"locality",
-    "wof:population":1720,
+    "wof:population":1638,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

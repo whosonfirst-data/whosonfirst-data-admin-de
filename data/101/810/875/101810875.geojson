@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lautertal (Vogelsberg)",
+    "eurostat:nuts_2021_id":"06535012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535012",
+    "eurostat:population":2296,
+    "eurostat:population_year":2020,
     "geom:area":0.006828,
-    "geom:area_square_m":53598297.230188,
+    "geom:area_square_m":53598297.23019,
     "geom:bbox":"9.22963741604,50.5349828829,9.35498016486,50.6451266997",
     "geom:latitude":50.590233,
     "geom:longitude":9.28154,
@@ -269,7 +281,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682531,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535012",
+        "eurostat:nuts_2021_id":"06535012",
         "gn:id":2879870,
         "gp:id":648006,
         "qs_pg:id":93514,
@@ -290,7 +305,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0764e063c4ff127629ddcaea71b139db",
+    "wof:geomhash":"28d6cfc3d2969024e0262fb69a585e6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -303,11 +318,11 @@
         }
     ],
     "wof:id":101810875,
-    "wof:lastmodified":1582342401,
+    "wof:lastmodified":1684351876,
     "wof:name":"Lautertal (Vogelsberg)",
     "wof:parent_id":1377683965,
     "wof:placetype":"locality",
-    "wof:population":2638,
+    "wof:population":2296,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

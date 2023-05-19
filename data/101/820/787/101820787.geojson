@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dreiheide",
+    "eurostat:nuts_2021_id":"14730100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730100",
+    "eurostat:population":2102,
+    "eurostat:population_year":2020,
     "geom:area":0.004355,
-    "geom:area_square_m":33474084.48801,
+    "geom:area_square_m":33474084.488013,
     "geom:bbox":"12.8033888402,51.5376200436,12.9494002352,51.5911133928",
     "geom:latitude":51.563045,
     "geom:longitude":12.882469,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682523,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730100",
+        "eurostat:nuts_2021_id":"14730100",
         "gn:id":6548785,
         "gp:id":698383,
         "qs_pg:id":631248,
@@ -312,7 +327,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8735310b23b248ed651f556af3c30a08",
+    "wof:geomhash":"7fa6113e3add241c96b04edda1a45038",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101820787,
-    "wof:lastmodified":1582342382,
+    "wof:lastmodified":1684351913,
     "wof:name":"Dreiheide",
     "wof:parent_id":1377688123,
     "wof:placetype":"locality",
-    "wof:population":2161,
+    "wof:population":2102,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

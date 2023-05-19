@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15090180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Goldbeck",
+    "eurostat:nuts_2021_id":"15090180",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0D",
+    "eurostat:nuts_2021_level_lau":"15090180",
+    "eurostat:population":1389,
+    "eurostat:population_year":2020,
     "geom:area":0.003576,
-    "geom:area_square_m":26779424.957736,
+    "geom:area_square_m":26779424.957735,
     "geom:bbox":"11.7892731033,52.7049037316,11.9311468875,52.7514519717",
     "geom:latitude":52.728577,
     "geom:longitude":11.86691,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682519,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15090180",
+        "eurostat:nuts_2021_id":"15090180",
         "gn:id":2919415,
         "gp:id":653122,
         "qs_pg:id":578978,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5cc915ec79d8b5e90b999371c3d2a20d",
+    "wof:geomhash":"b6498c2023a112819adc629d08130e39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101819967,
-    "wof:lastmodified":1582342431,
+    "wof:lastmodified":1684351910,
     "wof:name":"Goldbeck",
     "wof:parent_id":1377689227,
     "wof:placetype":"locality",
-    "wof:population":1318,
+    "wof:population":1389,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

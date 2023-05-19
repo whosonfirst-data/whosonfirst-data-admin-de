@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lutzingen",
+    "eurostat:nuts_2021_id":"09773146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773146",
+    "eurostat:population":999,
+    "eurostat:population_year":2020,
     "geom:area":0.003031,
     "geom:area_square_m":24754592.657846,
     "geom:bbox":"10.5006792243,48.6311684939,10.5687721981,48.7053142636",
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -167,6 +180,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773146",
+        "eurostat:nuts_2021_id":"09773146",
         "fct:id":"071c94b4-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2874719,
         "gp:id":12634808,
@@ -178,7 +193,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8b82ba7595dd5a931bf5c74ecac980eb",
+    "wof:geomhash":"2ff01cddf412b1590c9cf1a0d0225582",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351973,
     "wof:name":"Lutzingen",
     "wof:parent_id":1377692501,
     "wof:placetype":"locality",
-    "wof:population":986,
+    "wof:population":999,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stockheim",
+    "eurostat:nuts_2021_id":"09673170",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673170",
+    "eurostat:population":1064,
+    "eurostat:population_year":2020,
     "geom:area":0.002471,
     "geom:area_square_m":19448475.129167,
     "geom:bbox":"10.2447215238,50.4325205409,10.3064027057,50.4982057399",
@@ -130,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682571,
@@ -142,6 +155,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673170",
+        "eurostat:nuts_2021_id":"09673170",
         "gn:id":2826741,
         "gp:id":697435,
         "qs_pg:id":576826,
@@ -152,7 +167,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9132c7d9f04a9e2682cfeaab358073e7",
+    "wof:geomhash":"4423efb8930af342b1147a186147d9e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101812291,
-    "wof:lastmodified":1582342550,
+    "wof:lastmodified":1684351884,
     "wof:name":"Stockheim",
     "wof:parent_id":1377690829,
     "wof:placetype":"locality",
-    "wof:population":1142,
+    "wof:population":1064,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

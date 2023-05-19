@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eineborn",
+    "eurostat:nuts_2021_id":"16074017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074017",
+    "eurostat:population":328,
+    "eurostat:population_year":2020,
     "geom:area":0.001001,
     "geom:area_square_m":7813240.313976,
     "geom:bbox":"11.843801058,50.8202296088,11.8856519172,50.8531472041",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074017",
+        "eurostat:nuts_2021_id":"16074017",
         "gn:id":2931795,
         "qs_pg:id":579276,
         "wd:id":"Q567925"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"529c30b45c0df44f4235dc7292023180",
+    "wof:geomhash":"1be9ecd651660737a1fcb06c18fca917",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126014143,
-    "wof:lastmodified":1582343014,
+    "wof:lastmodified":1684352047,
     "wof:name":"Eineborn",
     "wof:parent_id":1377689027,
     "wof:placetype":"locality",
-    "wof:population":355,
+    "wof:population":328,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

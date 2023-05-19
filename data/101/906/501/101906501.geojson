@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Olderup",
+    "eurostat:nuts_2021_id":"01054097",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054097",
+    "eurostat:population":461,
+    "eurostat:population_year":2020,
     "geom:area":0.001391,
     "geom:area_square_m":9980983.979672,
     "geom:bbox":"9.03708336705,54.5161454054,9.14064774492,54.5601344691",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054097",
+        "eurostat:nuts_2021_id":"01054097",
         "gn:id":2857399,
         "gp:id":683202,
         "qs_pg:id":577478,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9bb5e5e08e5516a54de17667a4c1f44b",
+    "wof:geomhash":"59dd1e31c2cae38c505c67b03039af59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101906501,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351980,
     "wof:name":"Olderup",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",
-    "wof:population":466,
+    "wof:population":461,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

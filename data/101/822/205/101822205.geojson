@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ottendorf-Okrilla",
+    "eurostat:nuts_2021_id":"14625430",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625430",
+    "eurostat:population":9980,
+    "eurostat:population_year":2020,
     "geom:area":0.003332,
-    "geom:area_square_m":25827966.948389,
+    "geom:area_square_m":25827966.948385,
     "geom:bbox":"13.765206,51.145296,13.870418,51.200435",
     "geom:latitude":51.176541,
     "geom:longitude":13.821867,
@@ -310,21 +322,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":181,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686819,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625430",
+        "eurostat:nuts_2021_id":"14625430",
         "fct:id":"0751bd74-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2856107,
         "gp:id":683886,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e95ec4d06eae6c772cbc4fbb4cf43b43",
+    "wof:geomhash":"5dab1efb50ee59c517dfb45354fe5b41",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,12 +370,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051467,
+    "wof:lastmodified":1684351920,
     "wof:name":"Ottendorf-Okrilla",
     "wof:parent_id":1377686819,
     "wof:placetype":"locality",
-    "wof:population":10093,
-    "wof:population_rank":6,
+    "wof:population":9980,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

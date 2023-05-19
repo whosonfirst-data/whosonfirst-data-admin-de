@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6rborn",
+    "eurostat:nuts_2021_id":"07336051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336051",
+    "eurostat:population":360,
+    "eurostat:population_year":2020,
     "geom:area":0.000741,
     "geom:area_square_m":5943698.180957,
     "geom:bbox":"7.3457991452,49.5493007091,7.39980613611,49.5875381572",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336051",
+        "eurostat:nuts_2021_id":"07336051",
         "gn:id":2885504,
         "qs_pg:id":578215,
         "wd:id":"Q640354"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"00ce9a5c08c7b44efabfb0d2c119598a",
+    "wof:geomhash":"e09092947d8ca92c95826d1b3105e7f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126035285,
-    "wof:lastmodified":1582342984,
+    "wof:lastmodified":1684352051,
     "wof:name":"K\u00f6rborn",
     "wof:parent_id":1377686501,
     "wof:placetype":"locality",
-    "wof:population":351,
+    "wof:population":360,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03462006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holtgast",
+    "eurostat:nuts_2021_id":"03462006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94H",
+    "eurostat:nuts_2021_level_lau":"03462006",
+    "eurostat:population":1782,
+    "eurostat:population_year":2020,
     "geom:area":0.003295,
     "geom:area_square_m":24151501.119678,
     "geom:bbox":"7.48833157182,53.6139045659,7.603551807,53.6677555913",
@@ -308,7 +320,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03462006",
+        "eurostat:nuts_2021_id":"03462006",
         "gn:id":2900174,
         "gp:id":661733,
         "qs_pg:id":357483,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af7cc597f15150f34e8f90bdcd14e07b",
+    "wof:geomhash":"c02ab4818ee2749e6efe1d808581b102",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101804191,
-    "wof:lastmodified":1582342445,
+    "wof:lastmodified":1684351847,
     "wof:name":"Holtgast",
     "wof:parent_id":1377689361,
     "wof:placetype":"locality",
-    "wof:population":1738,
+    "wof:population":1782,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

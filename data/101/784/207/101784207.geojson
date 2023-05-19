@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Au i.d.Hallertau, M",
+    "eurostat:nuts_2021_id":"09178116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178116",
+    "eurostat:population":6131,
+    "eurostat:population_year":2020,
     "geom:area":0.006713,
-    "geom:area_square_m":54946350.936323,
+    "geom:area_square_m":54946350.936324,
     "geom:bbox":"11.6571382115,48.5088166083,11.7976420585,48.5947407249",
     "geom:latitude":48.550105,
     "geom:longitude":11.717029,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
         85682571,
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178116",
+        "eurostat:nuts_2021_id":"09178116",
         "gn:id":2954088,
         "gp:id":635882,
         "qs_pg:id":861994,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e7f5eac97b57efbe31b57a841f153eff",
+    "wof:geomhash":"9b0298f7f58b539961c402dc1a3b0d37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
         }
     ],
     "wof:id":101784207,
-    "wof:lastmodified":1582342486,
+    "wof:lastmodified":1684351830,
     "wof:name":"Au i.d. Hallertau",
     "wof:parent_id":1377691815,
     "wof:placetype":"locality",
-    "wof:population":5427,
+    "wof:population":6131,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

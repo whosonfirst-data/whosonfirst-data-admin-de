@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06439002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Schwalbach, Kreisstadt",
+    "eurostat:nuts_2021_id":"06439002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71D",
+    "eurostat:nuts_2021_level_lau":"06439002",
+    "eurostat:population":11191,
+    "eurostat:population_year":2020,
     "geom:area":0.005093,
-    "geom:area_square_m":40368136.544136,
+    "geom:area_square_m":40368136.544134,
     "geom:bbox":"7.96019,50.09455,8.104071,50.178612",
     "geom:latitude":50.134776,
     "geom:longitude":8.046021,
@@ -346,7 +358,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.140139,
     "wd:longitude":8.069444,
     "wd:wordcount":1032,
@@ -355,15 +368,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063605,
         1377694069,
         404227581,
-        85682531
+        102063605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06439002",
+        "eurostat:nuts_2021_id":"06439002",
         "gn:id":2953348,
         "gp:id":636505,
         "qs_pg:id":241040,
@@ -378,7 +393,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8d692d4e8b6aadb8ffb295e4303a95e9",
+    "wof:geomhash":"feb515c37b508a5e3370dd2b3d200fd9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -391,11 +406,11 @@
         }
     ],
     "wof:id":101811973,
-    "wof:lastmodified":1608049946,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bad Schwalbach",
     "wof:parent_id":1377694069,
     "wof:placetype":"locality",
-    "wof:population":11112,
+    "wof:population":11191,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05158036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00fclfrath, Stadt",
+    "eurostat:nuts_2021_id":"05158036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1C",
+    "eurostat:nuts_2021_level_lau":"05158036",
+    "eurostat:population":20957,
+    "eurostat:population_year":2020,
     "geom:area":0.004156,
     "geom:area_square_m":32140816.917898,
     "geom:bbox":"6.98064918336,51.2547947307,7.09911548523,51.3258965453",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1425,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05158036",
+        "eurostat:nuts_2021_id":"05158036",
         "gn:id":2805910,
         "gp:id":708135,
         "qs_pg:id":978232,
@@ -334,7 +349,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f678ca3009c3414dda2bba64b8557bba",
+    "wof:geomhash":"a7734e33cad61de6812df64cebe2ff9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101810023,
-    "wof:lastmodified":1582342400,
+    "wof:lastmodified":1684351870,
     "wof:name":"W\u00fclfrath",
     "wof:parent_id":1377689705,
     "wof:placetype":"locality",
-    "wof:population":22355,
+    "wof:population":20957,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

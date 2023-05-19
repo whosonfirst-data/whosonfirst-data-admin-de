@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ettersburg",
+    "eurostat:nuts_2021_id":"16071017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071017",
+    "eurostat:population":682,
+    "eurostat:population_year":2020,
     "geom:area":0.000385,
-    "geom:area_square_m":2996991.656754,
+    "geom:area_square_m":2996991.656753,
     "geom:bbox":"11.256948105,51.0259435872,11.2951464206,51.0442789815",
     "geom:latitude":51.03513,
     "geom:longitude":11.278238,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071017",
+        "eurostat:nuts_2021_id":"16071017",
         "gn:id":2928642,
         "gp:id":648911,
         "qs_pg:id":93911,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f37634c29a5e094baf15f8c6876aaedc",
+    "wof:geomhash":"632a1c12560a4e77d665da81c4681916",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101910431,
-    "wof:lastmodified":1582342654,
+    "wof:lastmodified":1684352006,
     "wof:name":"Ettersburg",
     "wof:parent_id":1377690503,
     "wof:placetype":"locality",
-    "wof:population":598,
+    "wof:population":682,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meyenburg, Stadt",
+    "eurostat:nuts_2021_id":"12070280",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070280",
+    "eurostat:population":2065,
+    "eurostat:population_year":2020,
     "geom:area":0.006854,
-    "geom:area_square_m":50644758.37704,
+    "geom:area_square_m":50644758.377039,
     "geom:bbox":"12.1974856128,53.2602183672,12.3251017102,53.3581605307",
     "geom:latitude":53.301227,
     "geom:longitude":12.256716,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.316667,
     "wd:longitude":12.233056,
     "wd:wordcount":60,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070280",
+        "eurostat:nuts_2021_id":"12070280",
         "gn:id":2871419,
         "gp:id":675112,
         "qs_pg:id":1012978,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e37948a97c87ea4f8655afeab22fa66e",
+    "wof:geomhash":"cba9c171f588344b519f3e516fda776e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101818541,
-    "wof:lastmodified":1582342367,
+    "wof:lastmodified":1684351900,
     "wof:name":"Meyenburg",
     "wof:parent_id":1377684003,
     "wof:placetype":"locality",
-    "wof:population":2203,
+    "wof:population":2065,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

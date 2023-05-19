@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060192",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fcdnitz",
+    "eurostat:nuts_2021_id":"12060192",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060192",
+    "eurostat:population":1989,
+    "eurostat:population_year":2020,
     "geom:area":0.001871,
     "geom:area_square_m":14016112.989738,
     "geom:bbox":"13.5971122744,52.6913843909,13.669206784,52.74523831",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060192",
+        "eurostat:nuts_2021_id":"12060192",
         "gn:id":2843368,
         "gp:id":29352377,
         "qs_pg:id":577155,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d57dce9de03b11af4dd05af4bade3dfc",
+    "wof:geomhash":"3697e314819f027dc86e5e048d146748",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101819977,
-    "wof:lastmodified":1582342429,
+    "wof:lastmodified":1684351911,
     "wof:name":"R\u00fcdnitz",
     "wof:parent_id":1377694261,
     "wof:placetype":"locality",
-    "wof:population":1875,
+    "wof:population":1989,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09272140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ringelai",
+    "eurostat:nuts_2021_id":"09272140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE225",
+    "eurostat:nuts_2021_level_lau":"09272140",
+    "eurostat:population":1883,
+    "eurostat:population_year":2020,
     "geom:area":0.00199,
-    "geom:area_square_m":16203830.413062,
+    "geom:area_square_m":16203830.413061,
     "geom:bbox":"13.427932,48.782685,13.492868,48.835098",
     "geom:latitude":48.811404,
     "geom:longitude":13.45946,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063363,
         1377684047,
         404227559,
-        85682571
+        102063363
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09272140",
+        "eurostat:nuts_2021_id":"09272140",
         "gn:id":2846658,
         "gp:id":688790,
         "qs_pg:id":956560,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7f1034ade0e97cd8c4b1a14a99e7cf9c",
+    "wof:geomhash":"5607b34a1d2a174996cf63f7fe827e0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,12 +214,12 @@
         }
     ],
     "wof:id":101783091,
-    "wof:lastmodified":1608050617,
+    "wof:lastmodified":1684351826,
     "wof:name":"Ringelai",
     "wof:parent_id":1377684047,
     "wof:placetype":"locality",
-    "wof:population":2151,
-    "wof:population_rank":4,
+    "wof:population":1883,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

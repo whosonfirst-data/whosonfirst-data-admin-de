@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schorndorf, Stadt",
+    "eurostat:nuts_2021_id":"08119067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119067",
+    "eurostat:population":39775,
+    "eurostat:population_year":2020,
     "geom:area":0.006926,
-    "geom:area_square_m":56414407.131065,
+    "geom:area_square_m":56414407.131067,
     "geom:bbox":"9.47412983429,48.7405061081,9.58776052254,48.854222993",
     "geom:latitude":48.799052,
     "geom:longitude":9.52991,
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":56.78,
     "wd:latitude":48.8,
     "wd:longitude":9.533333,
@@ -351,6 +364,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119067",
+        "eurostat:nuts_2021_id":"08119067",
         "gn:id":2836320,
         "gp:id":693207,
         "qs_pg:id":456075,
@@ -362,7 +377,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"03d4fe6044b2b62b11e4067ef1993937",
+    "wof:geomhash":"3b878c4816a6e3892b8c8063aa660d56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
         }
     ],
     "wof:id":101826707,
-    "wof:lastmodified":1582342435,
+    "wof:lastmodified":1684351935,
     "wof:name":"Schorndorf",
     "wof:parent_id":1377687533,
     "wof:placetype":"locality",
-    "wof:population":38178,
+    "wof:population":39775,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

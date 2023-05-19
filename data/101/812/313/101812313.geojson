@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilm\u00fcnster, Marktflecken",
+    "eurostat:nuts_2021_id":"06533018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533018",
+    "eurostat:population":8649,
+    "eurostat:population_year":2020,
     "geom:area":0.009882,
-    "geom:area_square_m":77851245.975208,
+    "geom:area_square_m":77851245.975211,
     "geom:bbox":"8.291054,50.36888,8.467215,50.478594",
     "geom:latitude":50.424069,
     "geom:longitude":8.370738,
@@ -126,18 +138,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1704,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683741,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533018",
+        "eurostat:nuts_2021_id":"06533018",
         "gn:id":2812497,
         "gp:id":704765,
         "qs_pg:id":210537,
@@ -152,7 +167,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"911966978d57f756e3fff56aaecbda61",
+    "wof:geomhash":"7b5f2a1fdf15c3ba257fe224b32f72d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101812313,
-    "wof:lastmodified":1608051202,
+    "wof:lastmodified":1684351885,
     "wof:name":"Weilm\u00fcnster",
     "wof:parent_id":1377683741,
     "wof:placetype":"locality",
-    "wof:population":9402,
+    "wof:population":8649,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

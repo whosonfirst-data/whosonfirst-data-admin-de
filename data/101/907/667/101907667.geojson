@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255505",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzminden, gemfr. Gebiet",
+    "eurostat:nuts_2021_id":"03255505",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255505",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.001986,
-    "geom:area_square_m":15181834.572431,
+    "geom:area_square_m":15181834.572433,
     "geom:bbox":"9.48522205064,51.7953225276,9.54855814751,51.8505270126",
     "geom:latitude":51.821115,
     "geom:longitude":9.519061,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
@@ -337,6 +350,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255505",
+        "eurostat:nuts_2021_id":"03255505",
         "gn:id":2899601,
         "gp:id":672866,
         "wd:id":"Q55425",
@@ -347,7 +362,7 @@
         "de-bkg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ffbaeca3c5910e63e0eec12c648d65cb",
+    "wof:geomhash":"76551d4b4fe169af47a69d27b395944f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
         }
     ],
     "wof:id":101907667,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351990,
     "wof:name":"Holzminden",
     "wof:parent_id":1377691693,
     "wof:placetype":"locality",
-    "wof:population":20998,
+    "wof:population":0,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

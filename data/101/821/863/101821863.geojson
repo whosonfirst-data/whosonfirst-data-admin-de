@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00f6mmerda, Stadt",
+    "eurostat:nuts_2021_id":"16068051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068051",
+    "eurostat:population":18947,
+    "eurostat:population_year":2020,
     "geom:area":0.011267,
     "geom:area_square_m":87358699.957944,
     "geom:bbox":"11.04116,51.121827,11.237948,51.246422",
@@ -183,20 +195,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063745,
         1377690191,
-        85682541
+        85633111,
+        102063745
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068051",
+        "eurostat:nuts_2021_id":"16068051",
         "gn:id":2831403,
         "gp:id":695416,
         "qs_pg:id":264201,
@@ -211,7 +226,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3942498a510361d6027c9111d8f1ab2c",
+    "wof:geomhash":"eb9de47d0cd864b3d9c55b475e7c890b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -223,12 +238,12 @@
         }
     ],
     "wof:id":101821863,
-    "wof:lastmodified":1608050224,
+    "wof:lastmodified":1684351918,
     "wof:name":"S\u00f6mmerda",
     "wof:parent_id":1377690191,
     "wof:placetype":"locality",
-    "wof:population":20853,
-    "wof:population_rank":7,
+    "wof:population":18947,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

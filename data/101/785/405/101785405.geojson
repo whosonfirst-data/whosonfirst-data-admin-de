@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erding, GKSt",
+    "eurostat:nuts_2021_id":"09177117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177117",
+    "eurostat:population":36437,
+    "eurostat:population_year":2020,
     "geom:area":0.006538,
-    "geom:area_square_m":53770694.084359,
+    "geom:area_square_m":53770694.084361,
     "geom:bbox":"11.862199,48.253289,11.96111,48.368038",
     "geom:latitude":48.306324,
     "geom:longitude":11.914455,
@@ -199,21 +211,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063291,
         1377691685,
         404227567,
-        85682571
+        102063291
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177117",
+        "eurostat:nuts_2021_id":"09177117",
         "gn:id":2929715,
         "gp:id":648323,
         "qs_pg:id":218280,
@@ -228,7 +243,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9a5516aa9182f7e6a606043d87b63e5e",
+    "wof:geomhash":"d49f8861f455fe54653af68ef997af26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -241,11 +256,11 @@
         }
     ],
     "wof:id":101785405,
-    "wof:lastmodified":1608050487,
+    "wof:lastmodified":1684351835,
     "wof:name":"Erding",
     "wof:parent_id":1377691685,
     "wof:placetype":"locality",
-    "wof:population":33519,
+    "wof:population":36437,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

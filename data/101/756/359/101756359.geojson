@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679209",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zell a.Main, M",
+    "eurostat:nuts_2021_id":"09679209",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679209",
+    "eurostat:population":4428,
+    "eurostat:population_year":2020,
     "geom:area":0.001245,
     "geom:area_square_m":9932240.747752,
     "geom:bbox":"9.825866,49.782121,9.883502,49.826269",
@@ -155,17 +167,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377692061,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679209",
+        "eurostat:nuts_2021_id":"09679209",
         "gn:id":2804865,
         "gp:id":20156663,
         "qs_pg:id":1,
@@ -182,7 +198,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"780d452fe9723614e25150748de16389",
+    "wof:geomhash":"7ed54ef847c14cde9413a290eaf1d2e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,10 +211,12 @@
         }
     ],
     "wof:id":101756359,
-    "wof:lastmodified":1608050822,
+    "wof:lastmodified":1684351794,
     "wof:name":"Zell a. Main",
     "wof:parent_id":1377692061,
     "wof:placetype":"locality",
+    "wof:population":4428,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

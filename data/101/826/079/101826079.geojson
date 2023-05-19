@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09475189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zell im Fichtelgebirge, M",
+    "eurostat:nuts_2021_id":"09475189",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE249",
+    "eurostat:nuts_2021_level_lau":"09475189",
+    "eurostat:population":1928,
+    "eurostat:population_year":2020,
     "geom:area":0.003916,
-    "geom:area_square_m":31041044.718781,
+    "geom:area_square_m":31041044.718782,
     "geom:bbox":"11.740842,50.103248,11.865484,50.167355",
     "geom:latitude":50.133032,
     "geom:longitude":11.799421,
@@ -153,18 +165,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":113,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063625,
         1377688189,
         404227583,
-        85682571
+        102063625
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09475189",
+        "eurostat:nuts_2021_id":"09475189",
         "gn:id":2804880,
         "gp:id":701019,
         "qs_pg:id":576302,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c16f2735a7ead9d828bb00fbfdd1c50f",
+    "wof:geomhash":"263f057faff4b7856122f83e6c12f013",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,12 +207,12 @@
         }
     ],
     "wof:id":101826079,
-    "wof:lastmodified":1608050306,
+    "wof:lastmodified":1684351935,
     "wof:name":"Zell im Fichtelgebirge",
     "wof:parent_id":1377688189,
     "wof:placetype":"locality",
-    "wof:population":2275,
-    "wof:population_rank":4,
+    "wof:population":1928,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elsoff (Westerwald)",
+    "eurostat:nuts_2021_id":"07143218",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143218",
+    "eurostat:population":910,
+    "eurostat:population_year":2020,
     "geom:area":0.001206,
-    "geom:area_square_m":9474620.011475,
+    "geom:area_square_m":9474620.011476,
     "geom:bbox":"8.09038181066,50.5485383743,8.14714193301,50.5846610621",
     "geom:latitude":50.567552,
     "geom:longitude":8.117053,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143218",
+        "eurostat:nuts_2021_id":"07143218",
         "gn:id":2930706,
         "gp:id":647760,
         "qs_pg:id":184844,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d2593a7cf55a748867513b086e6898c2",
+    "wof:geomhash":"4ed53ba71e4631389aa6c0506513c1c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101907451,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351988,
     "wof:name":"Elsoff (Westerwald)",
     "wof:parent_id":1377685807,
     "wof:placetype":"locality",
-    "wof:population":996,
+    "wof:population":910,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

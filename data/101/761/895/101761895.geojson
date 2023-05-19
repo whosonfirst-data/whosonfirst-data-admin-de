@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08216007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00fchl, Stadt",
+    "eurostat:nuts_2021_id":"08216007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE124",
+    "eurostat:nuts_2021_level_lau":"08216007",
+    "eurostat:population":28864,
+    "eurostat:population_year":2020,
     "geom:area":0.009002,
     "geom:area_square_m":73475898.83889,
     "geom:bbox":"8.03301672144,48.627513669,8.25749151573,48.7583559195",
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -178,6 +191,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08216007",
+        "eurostat:nuts_2021_id":"08216007",
         "gn:id":2941976,
         "gp:id":642281,
         "qs_pg:id":785995,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"89dba7336240f4e6e0fee88d8142c1eb",
+    "wof:geomhash":"d0e3a41b2e6092bbb300abd602061a6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101761895,
-    "wof:lastmodified":1582342511,
+    "wof:lastmodified":1684351806,
     "wof:name":"B\u00fchl",
     "wof:parent_id":1377688379,
     "wof:placetype":"locality",
-    "wof:population":29193,
+    "wof:population":28864,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

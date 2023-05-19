@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375209",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesent",
+    "eurostat:nuts_2021_id":"09375209",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375209",
+    "eurostat:population":2616,
+    "eurostat:population_year":2020,
     "geom:area":0.003276,
-    "geom:area_square_m":26561150.418027,
+    "geom:area_square_m":26561150.418026,
     "geom:bbox":"12.319461,49.000867,12.416262,49.054796",
     "geom:latitude":49.027893,
     "geom:longitude":12.369772,
@@ -136,18 +148,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675605,
         1377686603,
         404227545,
-        85682571
+        1377675605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375209",
+        "eurostat:nuts_2021_id":"09375209",
         "fct:id":"075ece74-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2809210,
         "gp:id":706389,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"645396842bc1e4eeae2ccaf1bc4c4282",
+    "wof:geomhash":"a319a4da2ffed2abb9d9728b1604b8f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051928,
+    "wof:lastmodified":1684351821,
     "wof:name":"Wiesent",
     "wof:parent_id":1377686603,
     "wof:placetype":"locality",
-    "wof:population":2561,
+    "wof:population":2616,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

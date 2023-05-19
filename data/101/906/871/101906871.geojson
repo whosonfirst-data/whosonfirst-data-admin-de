@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herrstein",
+    "eurostat:nuts_2021_id":"07134039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134039",
+    "eurostat:population":823,
+    "eurostat:population_year":2020,
     "geom:area":0.000593,
-    "geom:area_square_m":4737929.631418,
+    "geom:area_square_m":4737929.631417,
     "geom:bbox":"7.32331764869,49.7715545989,7.36725001436,49.7978438268",
     "geom:latitude":49.782336,
     "geom:longitude":7.343063,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1779,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134039",
+        "eurostat:nuts_2021_id":"07134039",
         "gn:id":2905601,
         "gp:id":680005,
         "qs_pg:id":1029976,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9db0af9668a04579805ed293267266d9",
+    "wof:geomhash":"233c897101f1b0e223449994ed95808e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,12 +337,12 @@
         }
     ],
     "wof:id":101906871,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351982,
     "wof:name":"Herrstein",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":1000,
-    "wof:population_rank":3,
+    "wof:population":823,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

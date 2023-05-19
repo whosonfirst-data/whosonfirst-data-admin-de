@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aichwald",
+    "eurostat:nuts_2021_id":"08116076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116076",
+    "eurostat:population":7554,
+    "eurostat:population_year":2020,
     "geom:area":0.001806,
-    "geom:area_square_m":14723355.628757,
+    "geom:area_square_m":14723355.628756,
     "geom:bbox":"9.344274,48.743859,9.419256,48.788204",
     "geom:latitude":48.762947,
     "geom:longitude":9.387263,
@@ -318,22 +330,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063329,
         1377686993,
         404227549,
-        85682567
+        102063329
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116076",
+        "eurostat:nuts_2021_id":"08116076",
         "gn:id":2958918,
         "gp:id":633684,
         "qs_pg:id":344343,
@@ -346,7 +361,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3fdbd99e8894688ce709f5032353e411",
+    "wof:geomhash":"7694acd4e3bef8b0a704d725eaa4cc05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101761811,
-    "wof:lastmodified":1608050905,
+    "wof:lastmodified":1684351805,
     "wof:name":"Aichwald",
     "wof:parent_id":1377686993,
     "wof:placetype":"locality",
-    "wof:population":7392,
+    "wof:population":7554,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

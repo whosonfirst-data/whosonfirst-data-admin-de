@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zettingen",
+    "eurostat:nuts_2021_id":"07135093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135093",
+    "eurostat:population":263,
+    "eurostat:population_year":2020,
     "geom:area":0.000485,
     "geom:area_square_m":3838572.000253,
     "geom:bbox":"7.18122340236,50.2119157134,7.21731563166,50.2359427948",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135093",
+        "eurostat:nuts_2021_id":"07135093",
         "gn:id":2804684,
         "qs_pg:id":576292,
         "wd:id":"Q196906"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"24fb2b328f4ae753f53de1ecdba50a36",
+    "wof:geomhash":"07c592402bfacd727bda0b05ae1e4daa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1125981371,
-    "wof:lastmodified":1582343011,
+    "wof:lastmodified":1684352041,
     "wof:name":"Zettingen",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":258,
+    "wof:population":263,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

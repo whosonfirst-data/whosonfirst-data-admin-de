@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05366032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nettersheim",
+    "eurostat:nuts_2021_id":"05366032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA28",
+    "eurostat:nuts_2021_level_lau":"05366032",
+    "eurostat:population":7491,
+    "eurostat:population_year":2020,
     "geom:area":0.011961,
     "geom:area_square_m":94095589.865234,
     "geom:bbox":"6.548598,50.443259,6.775663,50.5419",
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063667,
         1377690285,
         404227541,
-        85682513
+        102063667
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05366032",
+        "eurostat:nuts_2021_id":"05366032",
         "gn:id":2866336,
         "gp:id":677564,
         "qs_pg:id":1038997,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"31fb1a2ec0682946bd0bcf80c29f4584",
+    "wof:geomhash":"cbc671164f6911d82ff81abd0996c685",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101810857,
-    "wof:lastmodified":1608050046,
+    "wof:lastmodified":1684351876,
     "wof:name":"Nettersheim",
     "wof:parent_id":1377690285,
     "wof:placetype":"locality",
-    "wof:population":7901,
+    "wof:population":7491,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

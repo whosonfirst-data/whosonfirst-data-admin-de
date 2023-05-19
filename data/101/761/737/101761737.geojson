@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hinterweidenthal",
+    "eurostat:nuts_2021_id":"07340020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340020",
+    "eurostat:population":1559,
+    "eurostat:population_year":2020,
     "geom:area":0.002141,
-    "geom:area_square_m":17299557.318346,
+    "geom:area_square_m":17299557.318345,
     "geom:bbox":"7.7194315344,49.1645650348,7.81461913238,49.2097215057",
     "geom:latitude":49.190546,
     "geom:longitude":7.765665,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340020",
+        "eurostat:nuts_2021_id":"07340020",
         "gn:id":2903908,
         "gp:id":660286,
         "qs_pg:id":259066,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dd45d4b8bdc11c4c9455c7d0743828cf",
+    "wof:geomhash":"7885e2ea00851cb886f612964fc33733",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101761737,
-    "wof:lastmodified":1582342510,
+    "wof:lastmodified":1684351804,
     "wof:name":"Hinterweidenthal",
     "wof:parent_id":1377686751,
     "wof:placetype":"locality",
-    "wof:population":1727,
+    "wof:population":1559,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

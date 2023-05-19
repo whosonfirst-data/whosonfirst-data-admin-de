@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ummanz",
+    "eurostat:nuts_2021_id":"13073095",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073095",
+    "eurostat:population":526,
+    "eurostat:population_year":2020,
     "geom:area":0.006065,
-    "geom:area_square_m":43600673.905042,
+    "geom:area_square_m":43600673.90504,
     "geom:bbox":"13.1162411258,54.4035376497,13.2732953733,54.4941472185",
     "geom:latitude":54.449032,
     "geom:longitude":13.194798,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":246,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073095",
+        "eurostat:nuts_2021_id":"13073095",
         "gn:id":2820186,
         "gp:id":703064,
         "qs_pg:id":277156,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"471fd9b02fe27a3180dd6515645c2290",
+    "wof:geomhash":"b2e8580db0e9537bc5ef77b906e8d92d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101908921,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684352001,
     "wof:name":"Ummanz",
     "wof:parent_id":1377693551,
     "wof:placetype":"locality",
-    "wof:population":716,
+    "wof:population":526,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

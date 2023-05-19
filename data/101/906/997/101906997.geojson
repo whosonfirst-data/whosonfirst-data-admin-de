@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nieder-Hilbersheim",
+    "eurostat:nuts_2021_id":"07339041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339041",
+    "eurostat:population":660,
+    "eurostat:population_year":2020,
     "geom:area":0.00058,
-    "geom:area_square_m":4619262.918346,
+    "geom:area_square_m":4619262.918347,
     "geom:bbox":"8.00436298392,49.9057027097,8.05984852235,49.9315727226",
     "geom:latitude":49.915985,
     "geom:longitude":8.041608,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":289,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339041",
+        "eurostat:nuts_2021_id":"07339041",
         "gn:id":2863326,
         "gp:id":679281,
         "qs_pg:id":577642,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3a5d0f1d3a3062d1fba0c0d24244b2cf",
+    "wof:geomhash":"a4dc272e836fbe6ada1639c9738f6036",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101906997,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351983,
     "wof:name":"Nieder-Hilbersheim",
     "wof:parent_id":1377686695,
     "wof:placetype":"locality",
-    "wof:population":627,
+    "wof:population":660,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

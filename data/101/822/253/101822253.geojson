@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sollstedt",
+    "eurostat:nuts_2021_id":"16062049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062049",
+    "eurostat:population":2889,
+    "eurostat:population_year":2020,
     "geom:area":0.003391,
-    "geom:area_square_m":26153144.095376,
+    "geom:area_square_m":26153144.09538,
     "geom:bbox":"10.470577,51.364471,10.561,51.436573",
     "geom:latitude":51.404529,
     "geom:longitude":10.524662,
@@ -290,17 +302,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063809,
         1377689519,
-        85682541
+        85633111,
+        102063809
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062049",
+        "eurostat:nuts_2021_id":"16062049",
         "gn:id":2831501,
         "gp:id":695379,
         "qs_pg:id":8,
@@ -314,7 +329,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"03a6d1168a695bd4bb92085efcafebd2",
+    "wof:geomhash":"884a00413590845f59f6107bbae477e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101822253,
-    "wof:lastmodified":1608051496,
+    "wof:lastmodified":1684351921,
     "wof:name":"Sollstedt",
     "wof:parent_id":1377689519,
     "wof:placetype":"locality",
-    "wof:population":3066,
+    "wof:population":2889,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

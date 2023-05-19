@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09678138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grettstadt",
+    "eurostat:nuts_2021_id":"09678138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26B",
+    "eurostat:nuts_2021_level_lau":"09678138",
+    "eurostat:population":4226,
+    "eurostat:population_year":2020,
     "geom:area":0.004391,
-    "geom:area_square_m":34907758.332105,
+    "geom:area_square_m":34907758.332103,
     "geom:bbox":"10.272727,49.953514,10.398616,50.020496",
     "geom:latitude":49.989682,
     "geom:longitude":10.340133,
@@ -300,22 +312,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063587,
         1377693309,
         404227569,
-        85682571
+        102063587
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09678138",
+        "eurostat:nuts_2021_id":"09678138",
         "fct:id":"07410876-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2917586,
         "gp:id":12635422,
@@ -330,7 +345,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75482360dfbcb37a6a29dae066205cad",
+    "wof:geomhash":"50bb595c3df8b5085bc83e9369d462a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051423,
+    "wof:lastmodified":1684351932,
     "wof:name":"Grettstadt",
     "wof:parent_id":1377693309,
     "wof:placetype":"locality",
-    "wof:population":4106,
+    "wof:population":4226,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

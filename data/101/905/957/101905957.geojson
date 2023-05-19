@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Battweiler",
+    "eurostat:nuts_2021_id":"07340202",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340202",
+    "eurostat:population":667,
+    "eurostat:population_year":2020,
     "geom:area":0.000693,
-    "geom:area_square_m":5588239.122236,
+    "geom:area_square_m":5588239.122237,
     "geom:bbox":"7.42795610599,49.2667572399,7.48672025909,49.2951377754",
     "geom:latitude":49.281166,
     "geom:longitude":7.458031,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340202",
+        "eurostat:nuts_2021_id":"07340202",
         "gn:id":2952202,
         "gp:id":637158,
         "qs_pg:id":579874,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"321efc97e6fd9c20a681f97b807450cc",
+    "wof:geomhash":"342724ba6ae71ca71b72a0cf1b510181",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101905957,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351974,
     "wof:name":"Battweiler",
     "wof:parent_id":1377686787,
     "wof:placetype":"locality",
-    "wof:population":781,
+    "wof:population":667,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

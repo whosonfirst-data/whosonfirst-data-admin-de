@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Falkenberg/Elster, Stadt",
+    "eurostat:nuts_2021_id":"12062128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062128",
+    "eurostat:population":6315,
+    "eurostat:population_year":2020,
     "geom:area":0.010632,
-    "geom:area_square_m":81667524.620788,
+    "geom:area_square_m":81667524.620789,
     "geom:bbox":"13.141044,51.545917,13.292058,51.655092",
     "geom:latitude":51.596009,
     "geom:longitude":13.222302,
@@ -155,21 +167,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":86.0,
     "wd:latitude":51.583056,
     "wd:longitude":13.232222,
     "wd:population":6529,
     "wd:wordcount":268,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063839,
         1377694459,
-        85682553
+        85633111,
+        102063839
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062128",
+        "eurostat:nuts_2021_id":"12062128",
         "gn:id":2928011,
         "gp:id":649256,
         "qs_pg:id":142598,
@@ -182,7 +197,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e8b7df206c3797a006503c3bcf79f8a",
+    "wof:geomhash":"cde3efdbf0563545bd7a51a8088ebdba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101820845,
-    "wof:lastmodified":1608049853,
+    "wof:lastmodified":1684351913,
     "wof:name":"Falkenberg/Elster",
     "wof:parent_id":1377694459,
     "wof:placetype":"locality",
-    "wof:population":6529,
+    "wof:population":6315,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

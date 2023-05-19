@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sickte",
+    "eurostat:nuts_2021_id":"03158030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158030",
+    "eurostat:population":6118,
+    "eurostat:population_year":2020,
     "geom:area":0.003349,
-    "geom:area_square_m":25376434.643329,
+    "geom:area_square_m":25376434.64333,
     "geom:bbox":"10.5953252419,52.1801363286,10.6732393509,52.2459503523",
     "geom:latitude":52.211691,
     "geom:longitude":10.631455,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158030",
+        "eurostat:nuts_2021_id":"03158030",
         "gn:id":3208620,
         "gp:id":15002796,
         "qs_pg:id":147381,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9b59280ccb6fb5743246ec8535cb3f39",
+    "wof:geomhash":"b3ab91a80936f7e92112401ff718ee8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101819561,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351906,
     "wof:name":"Sickte",
     "wof:parent_id":1377686139,
     "wof:placetype":"locality",
-    "wof:population":5755,
+    "wof:population":6118,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

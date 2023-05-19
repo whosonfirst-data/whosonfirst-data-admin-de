@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neu Wulmstorf",
+    "eurostat:nuts_2021_id":"03353026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353026",
+    "eurostat:population":21258,
+    "eurostat:population_year":2020,
     "geom:area":0.007607,
-    "geom:area_square_m":56041874.573542,
+    "geom:area_square_m":56041874.573543,
     "geom:bbox":"9.726711,53.364156,9.862387,53.505279",
     "geom:latitude":53.431614,
     "geom:longitude":9.795791,
@@ -315,17 +327,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":603,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064013,
         1377687325,
-        85682555
+        85633111,
+        102064013
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353026",
+        "eurostat:nuts_2021_id":"03353026",
         "gn:id":2805830,
         "gp:id":708180,
         "qs_pg:id":142037,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a90596056b108c6a5241423f684db93a",
+    "wof:geomhash":"f1fc938fbf07f1b2938497c201726ab1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101756515,
-    "wof:lastmodified":1608050852,
+    "wof:lastmodified":1684351796,
     "wof:name":"Neu Wulmstorf",
     "wof:parent_id":1377687325,
     "wof:placetype":"locality",
-    "wof:population":20150,
+    "wof:population":21258,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

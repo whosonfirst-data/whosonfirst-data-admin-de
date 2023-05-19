@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15091145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jessen (Elster), Stadt",
+    "eurostat:nuts_2021_id":"15091145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0E",
+    "eurostat:nuts_2021_level_lau":"15091145",
+    "eurostat:population":14067,
+    "eurostat:population_year":2020,
     "geom:area":0.046142,
     "geom:area_square_m":352688379.749194,
     "geom:bbox":"12.776916815,51.7077515331,13.1701037606,51.9394060412",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.791667,
     "wd:longitude":12.955556,
     "wd:population":14261,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15091145",
+        "eurostat:nuts_2021_id":"15091145",
         "gn:id":2894962,
         "gp:id":664109,
         "qs_pg:id":142353,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ac1695c2daabe7fa9e981bfd0d8395d",
+    "wof:geomhash":"2582a3960cfc6b7cf8d10d4f615a7f07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101820981,
-    "wof:lastmodified":1582342382,
+    "wof:lastmodified":1684351915,
     "wof:name":"Jessen (Elster)",
     "wof:parent_id":1377689281,
     "wof:placetype":"locality",
-    "wof:population":14261,
+    "wof:population":14067,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

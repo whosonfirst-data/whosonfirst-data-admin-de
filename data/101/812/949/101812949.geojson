@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfniedesheim",
+    "eurostat:nuts_2021_id":"07338009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338009",
+    "eurostat:population":1309,
+    "eurostat:population_year":2020,
     "geom:area":0.000476,
     "geom:area_square_m":3818742.465944,
     "geom:bbox":"8.2876266321,49.5637177754,8.32325624835,49.5903417461",
@@ -266,7 +278,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338009",
+        "eurostat:nuts_2021_id":"07338009",
         "gn:id":2915226,
         "gp:id":655134,
         "qs_pg:id":578868,
@@ -288,7 +303,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e6992d07f4b70fcdc09c93b73bd6d40e",
+    "wof:geomhash":"49ce44c0907c73a3e82b1f9792b815b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -300,11 +315,11 @@
         }
     ],
     "wof:id":101812949,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351886,
     "wof:name":"Gro\u00dfniedesheim",
     "wof:parent_id":1377686631,
     "wof:placetype":"locality",
-    "wof:population":1392,
+    "wof:population":1309,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haar",
+    "eurostat:nuts_2021_id":"09184123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184123",
+    "eurostat:population":21476,
+    "eurostat:population_year":2020,
     "geom:area":0.001569,
-    "geom:area_square_m":12953322.803868,
+    "geom:area_square_m":12953322.803869,
     "geom:bbox":"11.693016,48.09747,11.759893,48.137915",
     "geom:latitude":48.118109,
     "geom:longitude":11.732328,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692783,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184123",
+        "eurostat:nuts_2021_id":"09184123",
         "fct:id":"07423a5c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2913192,
         "gp:id":656121,
@@ -183,7 +198,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cac69a97efc6d3d3f4963f95f1d43975",
+    "wof:geomhash":"0e97549a33264ee3481f33954e464e6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,12 +214,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050803,
+    "wof:lastmodified":1684351793,
     "wof:name":"Haar",
     "wof:parent_id":1377692783,
     "wof:placetype":"locality",
-    "wof:population":17560,
-    "wof:population_rank":6,
+    "wof:population":21476,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

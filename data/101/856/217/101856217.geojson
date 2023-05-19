@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03459025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Menslage",
+    "eurostat:nuts_2021_id":"03459025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94E",
+    "eurostat:nuts_2021_level_lau":"03459025",
+    "eurostat:population":2439,
+    "eurostat:population_year":2020,
     "geom:area":0.008662,
-    "geom:area_square_m":64950149.99893,
+    "geom:area_square_m":64950149.998929,
     "geom:bbox":"7.68785009081,52.6304801881,7.92940930387,52.7093392069",
     "geom:latitude":52.67189,
     "geom:longitude":7.815461,
@@ -295,7 +307,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03459025",
+        "eurostat:nuts_2021_id":"03459025",
         "gn:id":2871889,
         "gp:id":674807,
         "qs_pg:id":93430,
@@ -318,7 +333,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"11745bc440902700e01fe143ec9c6bbb",
+    "wof:geomhash":"37ab66eef5e7f98a4973805ecd2a0c3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101856217,
-    "wof:lastmodified":1582342447,
+    "wof:lastmodified":1684351969,
     "wof:name":"Menslage",
     "wof:parent_id":1377689109,
     "wof:placetype":"locality",
-    "wof:population":2608,
+    "wof:population":2439,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

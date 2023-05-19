@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dahlum",
+    "eurostat:nuts_2021_id":"03158007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158007",
+    "eurostat:population":634,
+    "eurostat:population_year":2020,
     "geom:area":0.001966,
-    "geom:area_square_m":14920500.849626,
+    "geom:area_square_m":14920500.849623,
     "geom:bbox":"10.8160286604,52.111713456,10.8790161437,52.1788563366",
     "geom:latitude":52.140074,
     "geom:longitude":10.850806,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158007",
+        "eurostat:nuts_2021_id":"03158007",
         "gn:id":3208595,
         "gp:id":654442,
         "qs_pg:id":581871,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c8680b2aeb5497c3814101e97264a720",
+    "wof:geomhash":"0e019e0ce0bd38102364477abce74eea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101909591,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352002,
     "wof:name":"Dahlum",
     "wof:parent_id":1377686147,
     "wof:placetype":"locality",
-    "wof:population":775,
+    "wof:population":634,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

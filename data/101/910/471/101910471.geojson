@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werningshausen",
+    "eurostat:nuts_2021_id":"16068059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068059",
+    "eurostat:population":662,
+    "eurostat:population_year":2020,
     "geom:area":0.001633,
     "geom:area_square_m":12669562.672367,
     "geom:bbox":"10.9881767964,51.1168309533,11.0658859967,51.1518495708",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068059",
+        "eurostat:nuts_2021_id":"16068059",
         "gn:id":2810801,
         "gp:id":705519,
         "qs_pg:id":1032721,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"754222559fb2c4dfc6edfc2e5602e62c",
+    "wof:geomhash":"81fe02b71bb38fa49e320370b0a340d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101910471,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352006,
     "wof:name":"Werningshausen",
     "wof:parent_id":1377690245,
     "wof:placetype":"locality",
-    "wof:population":744,
+    "wof:population":662,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

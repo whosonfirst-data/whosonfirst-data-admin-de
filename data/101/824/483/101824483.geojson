@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Themar, Stadt",
+    "eurostat:nuts_2021_id":"16069051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069051",
+    "eurostat:population":2807,
+    "eurostat:population_year":2020,
     "geom:area":0.002561,
-    "geom:area_square_m":20141756.492165,
+    "geom:area_square_m":20141756.492164,
     "geom:bbox":"10.551656,50.476116,10.653128,50.543089",
     "geom:latitude":50.505207,
     "geom:longitude":10.607925,
@@ -303,17 +315,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063647,
         1377690305,
-        85682541
+        85633111,
+        102063647
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069051",
+        "eurostat:nuts_2021_id":"16069051",
         "gn:id":2822868,
         "gp:id":699187,
         "qs_pg:id":1345724,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2aad6db1a2af5bb38934113dfc4ac17c",
+    "wof:geomhash":"ac6dd2acd9db06ce3bc18072909ad0ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101824483,
-    "wof:lastmodified":1608051123,
+    "wof:lastmodified":1684351928,
     "wof:name":"Themar",
     "wof:parent_id":1377690305,
     "wof:placetype":"locality",
-    "wof:population":3083,
+    "wof:population":2807,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dflangenfeld",
+    "eurostat:nuts_2021_id":"07232230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232230",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "geom:area":0.000887,
-    "geom:area_square_m":7017146.042206,
+    "geom:area_square_m":7017146.042205,
     "geom:bbox":"6.23842717325,50.20070709,6.28574331234,50.2288735934",
     "geom:latitude":50.213844,
     "geom:longitude":6.261703,
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232230",
+        "eurostat:nuts_2021_id":"07232230",
         "gn:id":2915353,
         "qs_pg:id":578879,
         "wd:id":"Q648879"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"ea3b9ae2e5eab77ca46ce74af8e9b04d",
+    "wof:geomhash":"2d2a685948a1ebf47eb8853c61e4fed7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125828383,
-    "wof:lastmodified":1582343029,
+    "wof:lastmodified":1684352019,
     "wof:name":"Gro\u00dflangenfeld",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":150,
+    "wof:population":126,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

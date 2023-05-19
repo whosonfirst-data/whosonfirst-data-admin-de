@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marienwerder",
+    "eurostat:nuts_2021_id":"12060154",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060154",
+    "eurostat:population":1686,
+    "eurostat:population_year":2020,
     "geom:area":0.00536,
-    "geom:area_square_m":40037512.634193,
+    "geom:area_square_m":40037512.634184,
     "geom:bbox":"13.499731963,52.8021456286,13.6506982843,52.8857950895",
     "geom:latitude":52.839491,
     "geom:longitude":13.584457,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060154",
+        "eurostat:nuts_2021_id":"12060154",
         "gn:id":2873464,
         "gp:id":673942,
         "qs_pg:id":1148511,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"404c52739d054588d61d0a2f90d7ab99",
+    "wof:geomhash":"bec34d4f17dde0cdafbf645e78185c4a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101819985,
-    "wof:lastmodified":1582342429,
+    "wof:lastmodified":1684351911,
     "wof:name":"Marienwerder",
     "wof:parent_id":1377694261,
     "wof:placetype":"locality",
-    "wof:population":1728,
+    "wof:population":1686,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

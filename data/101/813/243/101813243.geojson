@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6nchberg, M",
+    "eurostat:nuts_2021_id":"09676141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676141",
+    "eurostat:population":2576,
+    "eurostat:population_year":2020,
     "geom:area":0.003012,
     "geom:area_square_m":24041392.490778,
     "geom:bbox":"9.20485812113,49.7673614588,9.32409681544,49.8131106807",
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":590,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676141",
+        "eurostat:nuts_2021_id":"09676141",
         "gn:id":2869908,
         "gp:id":675919,
         "qs_pg:id":142117,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e32b1db860d76d38745a2844ce0703fa",
+    "wof:geomhash":"6fdc99f3553ca10f584253bb9e508c91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101813243,
-    "wof:lastmodified":1582342564,
+    "wof:lastmodified":1684351889,
     "wof:name":"M\u00f6nchberg",
     "wof:parent_id":1377691445,
     "wof:placetype":"locality",
-    "wof:population":2530,
+    "wof:population":2576,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

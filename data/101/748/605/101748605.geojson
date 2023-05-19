@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sankt Augustin, Stadt",
+    "eurostat:nuts_2021_id":"05382056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382056",
+    "eurostat:population":55847,
+    "eurostat:population_year":2020,
     "geom:area":0.004348,
-    "geom:area_square_m":33999481.258064,
+    "geom:area_square_m":33999481.258065,
     "geom:bbox":"7.125265,50.739456,7.24532,50.800551",
     "geom:latitude":50.771403,
     "geom:longitude":7.190027,
@@ -315,18 +327,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":171,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690703,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382056",
+        "eurostat:nuts_2021_id":"05382056",
         "gn:id":2841648,
         "gp:id":695997,
         "qs_pg:id":222471,
@@ -340,7 +355,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"892db00e7fad7db6fde290188f06e4df",
+    "wof:geomhash":"0f49bbcf7c1704f1ba407275d45b9d7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101748605,
-    "wof:lastmodified":1608050559,
+    "wof:lastmodified":1684351786,
     "wof:name":"Sankt Augustin",
     "wof:parent_id":1377690703,
     "wof:placetype":"locality",
-    "wof:population":56094,
+    "wof:population":55847,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

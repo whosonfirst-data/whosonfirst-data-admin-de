@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedewald",
+    "eurostat:nuts_2021_id":"07132036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132036",
+    "eurostat:population":1099,
+    "eurostat:population_year":2020,
     "geom:area":0.000894,
     "geom:area_square_m":7000594.473254,
     "geom:bbox":"7.94651536988,50.6912564622,7.99925015442,50.7275700307",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132036",
+        "eurostat:nuts_2021_id":"07132036",
         "gn:id":2924704,
         "gp:id":650706,
         "qs_pg:id":1039838,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"287e3d550900dc7888b833011e1754d8",
+    "wof:geomhash":"7c9ead37f6fac5b84e9a2bf3d3e93a92",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101810959,
-    "wof:lastmodified":1582342405,
+    "wof:lastmodified":1684351877,
     "wof:name":"Friedewald",
     "wof:parent_id":1377685309,
     "wof:placetype":"locality",
-    "wof:population":1198,
+    "wof:population":1099,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

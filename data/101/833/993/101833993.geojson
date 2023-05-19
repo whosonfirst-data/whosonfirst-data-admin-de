@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feldkirchen",
+    "eurostat:nuts_2021_id":"09184118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184118",
+    "eurostat:population":7552,
+    "eurostat:population_year":2020,
     "geom:area":0.000734,
-    "geom:area_square_m":6055371.508664,
+    "geom:area_square_m":6055371.508663,
     "geom:bbox":"11.705194,48.132649,11.758282,48.157498",
     "geom:latitude":48.145754,
     "geom:longitude":11.731556,
@@ -178,21 +190,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692741,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184118",
+        "eurostat:nuts_2021_id":"09184118",
         "fct:id":"073e59d2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2927347,
         "gp:id":649499,
@@ -207,7 +222,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2c73ecceb73dda95998adb4b71f9cbb",
+    "wof:geomhash":"264aa6a025782834ae25fb470459ff61",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -223,11 +238,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050420,
+    "wof:lastmodified":1684351945,
     "wof:name":"Feldkirchen",
     "wof:parent_id":1377692741,
     "wof:placetype":"locality",
-    "wof:population":5573,
+    "wof:population":7552,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

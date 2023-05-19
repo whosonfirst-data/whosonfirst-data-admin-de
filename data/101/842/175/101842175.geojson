@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09361000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Amberg",
+    "eurostat:nuts_2021_id":"09361000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE231",
+    "eurostat:nuts_2021_level_lau":"09361000",
+    "eurostat:population":42207,
+    "eurostat:population_year":2020,
     "geom:area":0.006254,
-    "geom:area_square_m":50275462.405619,
+    "geom:area_square_m":50275462.40562,
     "geom:bbox":"11.776674,49.411826,11.914554,49.497061",
     "geom:latitude":49.450928,
     "geom:longitude":11.845372,
@@ -359,21 +371,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063453,
         1377685621,
         404227545,
-        85682571
+        102063453
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09361000",
+        "eurostat:nuts_2021_id":"09361000",
         "gn:id":2956656,
         "gp:id":634976,
         "qs_pg:id":142957,
@@ -389,7 +404,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2f5d56f35f8e41c441da4011949a7b8a",
+    "wof:geomhash":"4ddd3eeca55f0bf716e04fc99d871771",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -402,11 +417,11 @@
         }
     ],
     "wof:id":101842175,
-    "wof:lastmodified":1608049979,
+    "wof:lastmodified":1684351955,
     "wof:name":"Amberg",
     "wof:parent_id":1377685621,
     "wof:placetype":"locality",
-    "wof:population":44737,
+    "wof:population":42207,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

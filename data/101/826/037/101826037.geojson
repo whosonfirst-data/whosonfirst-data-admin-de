@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09477139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marktschorgast, M",
+    "eurostat:nuts_2021_id":"09477139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24B",
+    "eurostat:nuts_2021_level_lau":"09477139",
+    "eurostat:population":1360,
+    "eurostat:population_year":2020,
     "geom:area":0.002026,
-    "geom:area_square_m":16074401.09928,
+    "geom:area_square_m":16074401.099279,
     "geom:bbox":"11.616466,50.068916,11.688217,50.124885",
     "geom:latitude":50.09661,
     "geom:longitude":11.653963,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063599,
         1377688453,
         404227583,
-        85682571
+        102063599
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09477139",
+        "eurostat:nuts_2021_id":"09477139",
         "gn:id":2873286,
         "gp:id":674040,
         "qs_pg:id":216941,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cf0d9e684ba13d0a02aaf9af6f0e46bd",
+    "wof:geomhash":"b90a3d7e4e1d4f2cf86701faba365935",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101826037,
-    "wof:lastmodified":1608050319,
+    "wof:lastmodified":1684351934,
     "wof:name":"Marktschorgast",
     "wof:parent_id":1377688453,
     "wof:placetype":"locality",
-    "wof:population":1660,
+    "wof:population":1360,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

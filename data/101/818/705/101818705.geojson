@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6lln, Stadt",
+    "eurostat:nuts_2021_id":"01053090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053090",
+    "eurostat:population":19131,
+    "eurostat:population_year":2020,
     "geom:area":0.003404,
-    "geom:area_square_m":24964631.460583,
+    "geom:area_square_m":24964631.460584,
     "geom:bbox":"10.646904,53.575169,10.754899,53.654595",
     "geom:latitude":53.618392,
     "geom:longitude":10.700441,
@@ -315,21 +327,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":272,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064073,
         1377683443,
-        85682517
+        85633111,
+        102064073
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053090",
+        "eurostat:nuts_2021_id":"01053090",
         "gn:id":2869994,
         "gp:id":675871,
         "qs_pg:id":1344922,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"348dff236edcfeb0e197ab254fd0e1aa",
+    "wof:geomhash":"eec73c1439590d8f747e583530408b92",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101818705,
-    "wof:lastmodified":1608049756,
+    "wof:lastmodified":1684351902,
     "wof:name":"M\u00f6lln",
     "wof:parent_id":1377683443,
     "wof:placetype":"locality",
-    "wof:population":18469,
+    "wof:population":19131,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

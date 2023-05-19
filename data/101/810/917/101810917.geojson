@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitscheid",
+    "eurostat:nuts_2021_id":"06532004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532004",
+    "eurostat:population":4684,
+    "eurostat:population_year":2020,
     "geom:area":0.004017,
     "geom:area_square_m":31466575.169356,
     "geom:bbox":"8.120336,50.65227,8.255369,50.713366",
@@ -292,18 +304,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":433,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683427,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532004",
+        "eurostat:nuts_2021_id":"06532004",
         "fct:id":"071bbea4-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2944445,
         "gp:id":12632659,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96b723f7e2ea70f6f6e380228ff58d3f",
+    "wof:geomhash":"5ecc6dae77fbb478948ea982eda03067",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,12 +350,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050118,
+    "wof:lastmodified":1684351877,
     "wof:name":"Breitscheid",
     "wof:parent_id":1377683427,
     "wof:placetype":"locality",
-    "wof:population":5000,
-    "wof:population_rank":5,
+    "wof:population":4684,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

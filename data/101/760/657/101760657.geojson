@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freiberg am Neckar, Stadt",
+    "eurostat:nuts_2021_id":"08118078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118078",
+    "eurostat:population":15924,
+    "eurostat:population_year":2020,
     "geom:area":0.001625,
     "geom:area_square_m":13203829.502931,
     "geom:bbox":"9.15131865305,48.915223759,9.22893778723,48.9504464806",
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":13.14,
     "wd:latitude":48.934722,
     "wd:longitude":9.191667,
@@ -341,6 +354,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118078",
+        "eurostat:nuts_2021_id":"08118078",
         "fct:id":"073edec0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2925189,
         "gp:id":650434,
@@ -353,7 +368,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e3342bdf4ffa77ccb20aa10fa7013c7a",
+    "wof:geomhash":"e3ed89f76f64be2eada416dfe47ac944",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -369,12 +384,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342493,
+    "wof:lastmodified":1684351800,
     "wof:name":"Freiberg am Neckar",
     "wof:parent_id":1377687385,
     "wof:placetype":"locality",
-    "wof:population":7024,
-    "wof:population_rank":5,
+    "wof:population":15924,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorsch, Karolingerstadt",
+    "eurostat:nuts_2021_id":"06431016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431016",
+    "eurostat:population":13703,
+    "eurostat:population_year":2020,
     "geom:area":0.003139,
     "geom:area_square_m":25136871.252679,
     "geom:bbox":"8.514061,49.60239,8.597768,49.683786",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.653889,
     "wd:longitude":8.5675,
     "wd:population":13400,
@@ -335,15 +348,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377692957,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431016",
+        "eurostat:nuts_2021_id":"06431016",
         "gn:id":2875877,
         "gp:id":672687,
         "qs_pg:id":1039200,
@@ -358,7 +373,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e186a0dfc3d2266e603cacb3aa2341e1",
+    "wof:geomhash":"45e86f4a5502e49bed3d543fa9bc5e0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
         }
     ],
     "wof:id":101813047,
-    "wof:lastmodified":1608051334,
+    "wof:lastmodified":1684351887,
     "wof:name":"Lorsch",
     "wof:parent_id":1377692957,
     "wof:placetype":"locality",
-    "wof:population":13400,
+    "wof:population":13703,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

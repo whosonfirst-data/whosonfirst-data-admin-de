@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meudt",
+    "eurostat:nuts_2021_id":"07143263",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143263",
+    "eurostat:population":1895,
+    "eurostat:population_year":2020,
     "geom:area":0.001855,
     "geom:area_square_m":14593822.75123,
     "geom:bbox":"7.86211596718,50.4670690793,7.92658854378,50.520886844",
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":355,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143263",
+        "eurostat:nuts_2021_id":"07143263",
         "gn:id":2871460,
         "gp:id":675086,
         "qs_pg:id":577819,
@@ -148,7 +163,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b6a50cad7e74ab8b0f6c3e48ad337f70",
+    "wof:geomhash":"244c53d17d4d31b621d7cf91a33dcef9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101810797,
-    "wof:lastmodified":1582342398,
+    "wof:lastmodified":1684351875,
     "wof:name":"Meudt",
     "wof:parent_id":1377685825,
     "wof:placetype":"locality",
-    "wof:population":1783,
+    "wof:population":1895,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

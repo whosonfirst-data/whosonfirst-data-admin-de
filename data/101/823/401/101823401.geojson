@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522460",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Penig, Stadt",
+    "eurostat:nuts_2021_id":"14522460",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522460",
+    "eurostat:population":8715,
+    "eurostat:population_year":2020,
     "geom:area":0.008135,
-    "geom:area_square_m":63377737.193009,
+    "geom:area_square_m":63377737.19301,
     "geom:bbox":"12.617355,50.901615,12.770503,51.007114",
     "geom:latitude":50.947663,
     "geom:longitude":12.691144,
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":89,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377686035,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522460",
+        "eurostat:nuts_2021_id":"14522460",
         "gn:id":2854967,
         "gp:id":684477,
         "qs_pg:id":945229,
@@ -345,7 +360,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b55115d1ad59ee97372ca1eb412226c7",
+    "wof:geomhash":"c750ffb77529f2ef1a2d0a890a063771",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,12 +372,12 @@
         }
     ],
     "wof:id":101823401,
-    "wof:lastmodified":1608051069,
+    "wof:lastmodified":1684351926,
     "wof:name":"Penig",
     "wof:parent_id":1377686035,
     "wof:placetype":"locality",
-    "wof:population":10557,
-    "wof:population_rank":6,
+    "wof:population":8715,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

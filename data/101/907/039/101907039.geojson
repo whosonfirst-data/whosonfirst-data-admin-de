@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Platten",
+    "eurostat:nuts_2021_id":"07231107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231107",
+    "eurostat:population":871,
+    "eurostat:population_year":2020,
     "geom:area":0.000818,
-    "geom:area_square_m":6512176.726395,
+    "geom:area_square_m":6512176.726394,
     "geom:bbox":"6.91987646665,49.9365411859,6.97924309424,49.9632365054",
     "geom:latitude":49.950569,
     "geom:longitude":6.94805,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231107",
+        "eurostat:nuts_2021_id":"07231107",
         "gn:id":2853350,
         "gp:id":705342,
         "qs_pg:id":577386,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"29bf0f75c703cec3f388c9544545ad28",
+    "wof:geomhash":"0f953bb2db14e991355c5d6ee54b8244",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101907039,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351984,
     "wof:name":"Platten",
     "wof:parent_id":1377685901,
     "wof:placetype":"locality",
-    "wof:population":894,
+    "wof:population":871,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

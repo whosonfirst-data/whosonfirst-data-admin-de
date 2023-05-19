@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03461002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brake (Unterweser), Stadt",
+    "eurostat:nuts_2021_id":"03461002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94G",
+    "eurostat:nuts_2021_level_lau":"03461002",
+    "eurostat:population":14860,
+    "eurostat:population_year":2020,
     "geom:area":0.00518,
     "geom:area_square_m":38247494.033859,
     "geom:bbox":"8.4204034182,53.2850787297,8.50153181391,53.3767008724",
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03461002",
+        "eurostat:nuts_2021_id":"03461002",
         "gn:id":2945545,
         "gp:id":640655,
         "qs_pg:id":1072478,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a4ce3ac33ca3eb61ebb0c68c7514d8d8",
+    "wof:geomhash":"7117bb53b1bd0845a4e02c1d49d2e7e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101804187,
-    "wof:lastmodified":1582342445,
+    "wof:lastmodified":1684351846,
     "wof:name":"Brake (Unterweser)",
     "wof:parent_id":1377689249,
     "wof:placetype":"locality",
-    "wof:population":16150,
+    "wof:population":14860,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

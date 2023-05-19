@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15088365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Teutschenthal",
+    "eurostat:nuts_2021_id":"15088365",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0B",
+    "eurostat:nuts_2021_level_lau":"15088365",
+    "eurostat:population":12849,
+    "eurostat:population_year":2020,
     "geom:area":0.01174,
-    "geom:area_square_m":90481629.758437,
+    "geom:area_square_m":90481629.758439,
     "geom:bbox":"11.703462,51.390028,11.930518,51.497913",
     "geom:latitude":51.441492,
     "geom:longitude":11.816079,
@@ -294,17 +306,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063817,
         1377688933,
-        85682519
+        85633111,
+        102063817
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15088365",
+        "eurostat:nuts_2021_id":"15088365",
         "gn:id":2823230,
         "gp:id":698962,
         "qs_pg:id":576744,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b1ec9e2bfaa0ace062fa0781441ba9b2",
+    "wof:geomhash":"4e52c6e3042c4ff92b2f118d94c57066",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,12 +349,12 @@
         }
     ],
     "wof:id":101822293,
-    "wof:lastmodified":1608051465,
+    "wof:lastmodified":1684351921,
     "wof:name":"Teutschenthal",
     "wof:parent_id":1377688933,
     "wof:placetype":"locality",
-    "wof:population":6996,
-    "wof:population_rank":5,
+    "wof:population":12849,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

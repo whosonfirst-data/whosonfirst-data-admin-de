@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfsolt",
+    "eurostat:nuts_2021_id":"01059116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059116",
+    "eurostat:population":1804,
+    "eurostat:population_year":2020,
     "geom:area":0.003529,
-    "geom:area_square_m":25219208.404501,
+    "geom:area_square_m":25219208.404503,
     "geom:bbox":"9.46278186442,54.669438855,9.59643729577,54.7271302532",
     "geom:latitude":54.698364,
     "geom:longitude":9.520654,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059116",
+        "eurostat:nuts_2021_id":"01059116",
         "gn:id":2915028,
         "gp:id":655212,
         "qs_pg:id":1039690,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7d7ddb30db0b85ac33b1b78a2e7f3036",
+    "wof:geomhash":"29674aa4ee3e3be9f5e1ba09aa1a20bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101846453,
-    "wof:lastmodified":1582342526,
+    "wof:lastmodified":1684351962,
     "wof:name":"Gro\u00dfsolt",
     "wof:parent_id":1377684375,
     "wof:placetype":"locality",
-    "wof:population":1870,
+    "wof:population":1804,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

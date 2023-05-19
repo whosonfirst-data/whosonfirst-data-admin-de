@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bermersheim",
+    "eurostat:nuts_2021_id":"07331009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331009",
+    "eurostat:population":338,
+    "eurostat:population_year":2020,
     "geom:area":0.000284,
     "geom:area_square_m":2268679.633017,
     "geom:bbox":"8.20232325959,49.6760912167,8.23638619205,49.6902121468",
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -132,6 +145,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331009",
+        "eurostat:nuts_2021_id":"07331009",
         "gn:id":2950115,
         "wk:page":"Bermersheim"
     },
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"fe474cfc68a94834d416fda87971694a",
+    "wof:geomhash":"8807ec47236f9f21e873f2d74d8bb90d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1277067119,
-    "wof:lastmodified":1582342037,
+    "wof:lastmodified":1684352059,
     "wof:name":"Bermersheim",
     "wof:parent_id":1377686221,
     "wof:placetype":"locality",
-    "wof:population":320,
+    "wof:population":338,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

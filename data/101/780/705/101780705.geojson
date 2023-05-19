@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwanstetten, M",
+    "eurostat:nuts_2021_id":"09576132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576132",
+    "eurostat:population":7294,
+    "eurostat:population_year":2020,
     "geom:area":0.004011,
     "geom:area_square_m":32339261.17053,
     "geom:bbox":"11.0866,49.276954,11.189975,49.335069",
@@ -312,22 +324,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690059,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576132",
+        "eurostat:nuts_2021_id":"09576132",
         "gn:id":2835322,
         "gp:id":693559,
         "qs_pg:id":371488,
@@ -340,7 +355,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c62a8d7c61ec52b3f5a63bb194f79390",
+    "wof:geomhash":"a4a52dc710ee4f105e691adfc8e125ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101780705,
-    "wof:lastmodified":1608052041,
+    "wof:lastmodified":1684351819,
     "wof:name":"Schwanstetten",
     "wof:parent_id":1377690059,
     "wof:placetype":"locality",
-    "wof:population":7331,
+    "wof:population":7294,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

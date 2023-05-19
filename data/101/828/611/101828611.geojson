@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09776116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindau (Bodensee), GKSt",
+    "eurostat:nuts_2021_id":"09776116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27A",
+    "eurostat:nuts_2021_level_lau":"09776116",
+    "eurostat:population":25512,
+    "eurostat:population_year":2020,
     "geom:area":0.003949,
-    "geom:area_square_m":32941465.642208,
+    "geom:area_square_m":32941465.642209,
     "geom:bbox":"9.63596698105,47.5336847932,9.7406635907,47.6117452345",
     "geom:latitude":47.577689,
     "geom:longitude":9.692107,
@@ -335,7 +347,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -346,6 +359,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09776116",
+        "eurostat:nuts_2021_id":"09776116",
         "gn:id":2877550,
         "gp:id":22662225,
         "loc:id":"n81009583",
@@ -358,7 +373,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"895f58fa4aa40d0f453ef14d3fe42b26",
+    "wof:geomhash":"f247cce796360c2b6095893f5d17c27d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
         }
     ],
     "wof:id":101828611,
-    "wof:lastmodified":1582342411,
+    "wof:lastmodified":1684351943,
     "wof:name":"Lindau (Bodensee)",
     "wof:parent_id":1377692831,
     "wof:placetype":"locality",
-    "wof:population":24518,
+    "wof:population":25512,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

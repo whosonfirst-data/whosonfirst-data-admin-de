@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143279",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nistertal",
+    "eurostat:nuts_2021_id":"07143279",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143279",
+    "eurostat:population":1192,
+    "eurostat:population_year":2020,
     "geom:area":0.00052,
     "geom:area_square_m":4081222.918351,
     "geom:bbox":"7.88323393128,50.6131757495,7.91527979476,50.6445197312",
@@ -137,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":479,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143279",
+        "eurostat:nuts_2021_id":"07143279",
         "gn:id":3207824,
         "gp:id":642225,
         "qs_pg:id":1152322,
@@ -162,7 +177,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8dfce59005f4b6bd8ecfe1ed61130215",
+    "wof:geomhash":"fc9ee2b5a836619404d2e9f8b3d82c9f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101810771,
-    "wof:lastmodified":1582342403,
+    "wof:lastmodified":1684351875,
     "wof:name":"Nistertal",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":1248,
+    "wof:population":1192,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01061106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vaalermoor",
+    "eurostat:nuts_2021_id":"01061106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0E",
+    "eurostat:nuts_2021_level_lau":"01061106",
+    "eurostat:population":129,
+    "eurostat:population_year":2020,
     "geom:area":0.000846,
     "geom:area_square_m":6151018.282725,
     "geom:bbox":"9.30185692679,53.9650126433,9.37572472164,53.9945554342",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01061106",
+        "eurostat:nuts_2021_id":"01061106",
         "gn:id":2817974,
         "qs_pg:id":576629,
         "wd:id":"Q556255"
@@ -292,7 +307,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"71c60bc324a7d8bbff42774ddd8920a5",
+    "wof:geomhash":"db60dda9c0bc30f1feeda1506f60f6a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -304,11 +319,11 @@
         }
     ],
     "wof:id":1126012555,
-    "wof:lastmodified":1582343020,
+    "wof:lastmodified":1684352044,
     "wof:name":"Vaalermoor",
     "wof:parent_id":1377684687,
     "wof:placetype":"locality",
-    "wof:population":150,
+    "wof:population":129,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eppelheim, Stadt",
+    "eurostat:nuts_2021_id":"08226018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226018",
+    "eurostat:population":15268,
+    "eurostat:population_year":2020,
     "geom:area":0.000649,
     "geom:area_square_m":5226248.34315,
     "geom:bbox":"8.609443,49.379362,8.647606,49.413533",
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.401111,
     "wd:longitude":8.629722,
     "wd:wordcount":685,
@@ -328,15 +341,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688567,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226018",
+        "eurostat:nuts_2021_id":"08226018",
         "gn:id":2929863,
         "gp:id":648232,
         "qs_pg:id":581755,
@@ -351,7 +366,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bbb9841a863beeb38c67f5d6fc12f19d",
+    "wof:geomhash":"cd2e63a640fb0da4a177b0d7529d05bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
         }
     ],
     "wof:id":101756325,
-    "wof:lastmodified":1608050821,
+    "wof:lastmodified":1684351794,
     "wof:name":"Eppelheim",
     "wof:parent_id":1377688567,
     "wof:placetype":"locality",
-    "wof:population":14190,
+    "wof:population":15268,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

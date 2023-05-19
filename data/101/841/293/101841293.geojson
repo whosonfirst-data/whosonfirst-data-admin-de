@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15084550",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfenfels, Stadt",
+    "eurostat:nuts_2021_id":"15084550",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE08",
+    "eurostat:nuts_2021_level_lau":"15084550",
+    "eurostat:population":40192,
+    "eurostat:population_year":2020,
     "geom:area":0.014603,
-    "geom:area_square_m":113097391.717943,
+    "geom:area_square_m":113097391.717947,
     "geom:bbox":"11.858651,51.155961,12.075098,51.288303",
     "geom:latitude":51.220915,
     "geom:longitude":11.96672,
@@ -329,21 +341,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":100.0,
     "wd:latitude":51.2,
     "wd:longitude":11.966667,
     "wd:population":39918,
     "wd:wordcount":934,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063747,
         1377688467,
-        85682519
+        85633111,
+        102063747
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15084550",
+        "eurostat:nuts_2021_id":"15084550",
         "gn:id":2811899,
         "gp:id":704958,
         "qs_pg:id":456254,
@@ -358,7 +373,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8e6752b4fe143a1f62cc2d61435946b0",
+    "wof:geomhash":"693b50eb4d071b320eae711b492d6669",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101841293,
-    "wof:lastmodified":1608050982,
+    "wof:lastmodified":1684351952,
     "wof:name":"Wei\u00dfenfels",
     "wof:parent_id":1377688467,
     "wof:placetype":"locality",
-    "wof:population":39918,
+    "wof:population":40192,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

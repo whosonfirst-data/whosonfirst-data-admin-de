@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aislingen, M",
+    "eurostat:nuts_2021_id":"09773111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773111",
+    "eurostat:population":1305,
+    "eurostat:population_year":2020,
     "geom:area":0.002333,
-    "geom:area_square_m":19111313.185927,
+    "geom:area_square_m":19111313.185926,
     "geom:bbox":"10.4221643319,48.4797746178,10.4895877773,48.5398179686",
     "geom:latitude":48.508316,
     "geom:longitude":10.450105,
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773111",
+        "eurostat:nuts_2021_id":"09773111",
         "gn:id":2958813,
         "gp:id":633730,
         "qs_pg:id":252987,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"28d37be107ba9de7f56bf26522c6806a",
+    "wof:geomhash":"c7da5df19adf95646eb7eef13ef35869",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101784301,
-    "wof:lastmodified":1582342482,
+    "wof:lastmodified":1684351832,
     "wof:name":"Aislingen",
     "wof:parent_id":1377692515,
     "wof:placetype":"locality",
-    "wof:population":1455,
+    "wof:population":1305,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

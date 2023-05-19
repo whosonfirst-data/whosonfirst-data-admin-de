@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05566052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Metelen",
+    "eurostat:nuts_2021_id":"05566052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA3",
+    "eurostat:nuts_2021_level_3":"DEA37",
+    "eurostat:nuts_2021_level_lau":"05566052",
+    "eurostat:population":6360,
+    "eurostat:population_year":2020,
     "geom:area":0.005298,
-    "geom:area_square_m":40198135.767067,
+    "geom:area_square_m":40198135.767066,
     "geom:bbox":"7.135282,52.115976,7.271895,52.184728",
     "geom:latitude":52.148059,
     "geom:longitude":7.207242,
@@ -289,18 +301,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":131,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063923,
         1377691207,
         404227553,
-        85682513
+        102063923
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05566052",
+        "eurostat:nuts_2021_id":"05566052",
         "gn:id":2871591,
         "gp:id":675007,
         "qs_pg:id":577854,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f6d58e756e2ea8dabced8f3dd8c9a35e",
+    "wof:geomhash":"7e24b305624a33fb7743bfd0c228b0eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101807657,
-    "wof:lastmodified":1608051534,
+    "wof:lastmodified":1684351858,
     "wof:name":"Metelen",
     "wof:parent_id":1377691207,
     "wof:placetype":"locality",
-    "wof:population":6490,
+    "wof:population":6360,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

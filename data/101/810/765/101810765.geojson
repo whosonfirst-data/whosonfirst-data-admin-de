@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seck",
+    "eurostat:nuts_2021_id":"07143292",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143292",
+    "eurostat:population":1150,
+    "eurostat:population_year":2020,
     "geom:area":0.001094,
-    "geom:area_square_m":8590021.010359,
+    "geom:area_square_m":8590021.010357,
     "geom:bbox":"8.01490901771,50.5515044033,8.05915543564,50.598426326",
     "geom:latitude":50.577986,
     "geom:longitude":8.037657,
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":560,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143292",
+        "eurostat:nuts_2021_id":"07143292",
         "gn:id":2834082,
         "gp:id":694029,
         "qs_pg:id":576955,
@@ -301,7 +316,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5b5e799253ffe00bd10594bc9598d1d2",
+    "wof:geomhash":"f9d121247bb5e7f4dbd0b4e00067c223",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101810765,
-    "wof:lastmodified":1582342399,
+    "wof:lastmodified":1684351875,
     "wof:name":"Seck",
     "wof:parent_id":1377685807,
     "wof:placetype":"locality",
-    "wof:population":1309,
+    "wof:population":1150,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09474161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pretzfeld, M",
+    "eurostat:nuts_2021_id":"09474161",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE248",
+    "eurostat:nuts_2021_level_lau":"09474161",
+    "eurostat:population":2356,
+    "eurostat:population_year":2020,
     "geom:area":0.003021,
     "geom:area_square_m":24138352.150219,
     "geom:bbox":"11.152702,49.714055,11.24968,49.769544",
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063525,
         1377687977,
         404227583,
-        85682571
+        102063525
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09474161",
+        "eurostat:nuts_2021_id":"09474161",
         "gn:id":2852162,
         "gp:id":685948,
         "qs_pg:id":1038699,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"29977809e23d96eb10f751b21615ed18",
+    "wof:geomhash":"a94b044816f3b60809a40efb57ebb07d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101827083,
-    "wof:lastmodified":1608049804,
+    "wof:lastmodified":1684351940,
     "wof:name":"Pretzfeld",
     "wof:parent_id":1377687977,
     "wof:placetype":"locality",
-    "wof:population":2499,
+    "wof:population":2356,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

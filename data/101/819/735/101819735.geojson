@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beetzsee",
+    "eurostat:nuts_2021_id":"12069018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069018",
+    "eurostat:population":2652,
+    "eurostat:population_year":2020,
     "geom:area":0.002819,
-    "geom:area_square_m":21228371.778694,
+    "geom:area_square_m":21228371.778697,
     "geom:bbox":"12.5083555382,52.4473405804,12.5974304269,52.5098925192",
     "geom:latitude":52.476546,
     "geom:longitude":12.549994,
@@ -284,7 +296,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069018",
+        "eurostat:nuts_2021_id":"12069018",
         "gn:id":6547663,
         "gp:id":23410709,
         "qs_pg:id":630393,
@@ -304,7 +319,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8a6be029dcfef17e604c1c15d754b135",
+    "wof:geomhash":"8ae573b1b8a3164887a583e1a2421247",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101819735,
-    "wof:lastmodified":1582342431,
+    "wof:lastmodified":1684351908,
     "wof:name":"Beetzsee",
     "wof:parent_id":1377683877,
     "wof:placetype":"locality",
-    "wof:population":2421,
+    "wof:population":2652,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625330",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lohsa",
+    "eurostat:nuts_2021_id":"14625330",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625330",
+    "eurostat:population":5232,
+    "eurostat:population_year":2020,
     "geom:area":0.017404,
-    "geom:area_square_m":134308120.941702,
+    "geom:area_square_m":134308120.941713,
     "geom:bbox":"14.281427,51.304982,14.499549,51.452123",
     "geom:latitude":51.383951,
     "geom:longitude":14.398053,
@@ -172,21 +184,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686783,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625330",
+        "eurostat:nuts_2021_id":"14625330",
         "fct:id":"07176372-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2876117,
         "gp:id":12625848,
@@ -201,7 +216,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f22c641f21a9745f7c89a3fe0cdf76cc",
+    "wof:geomhash":"b68d023764fbce0b6dbf098f0afa293e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,12 +231,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051495,
+    "wof:lastmodified":1684351921,
     "wof:name":"Lohsa",
     "wof:parent_id":1377686783,
     "wof:placetype":"locality",
-    "wof:population":4641,
-    "wof:population_rank":4,
+    "wof:population":5232,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

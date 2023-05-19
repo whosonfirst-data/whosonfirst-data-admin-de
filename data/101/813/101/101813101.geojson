@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06437007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e4nkisch-Crumbach",
+    "eurostat:nuts_2021_id":"06437007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71B",
+    "eurostat:nuts_2021_level_lau":"06437007",
+    "eurostat:population":3121,
+    "eurostat:population_year":2020,
     "geom:area":0.001968,
-    "geom:area_square_m":15724745.667247,
+    "geom:area_square_m":15724745.667246,
     "geom:bbox":"8.797329,49.722711,8.876862,49.768469",
     "geom:latitude":49.743877,
     "geom:longitude":8.842166,
@@ -296,22 +308,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":217,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063521,
         1377693889,
         404227581,
-        85682531
+        102063521
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06437007",
+        "eurostat:nuts_2021_id":"06437007",
         "fct:id":"073ec746-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2925507,
         "gp:id":650277,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"52d73f55ace5485d24e8d2e8b1811793",
+    "wof:geomhash":"9b7deefeafa3d19c096acf7eb42d9c97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051368,
+    "wof:lastmodified":1684351887,
     "wof:name":"Fr\u00e4nkisch-Crumbach",
     "wof:parent_id":1377693889,
     "wof:placetype":"locality",
-    "wof:population":3353,
+    "wof:population":3121,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

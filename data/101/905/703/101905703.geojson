@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gunningen",
+    "eurostat:nuts_2021_id":"08327020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327020",
+    "eurostat:population":750,
+    "eurostat:population_year":2020,
     "geom:area":0.000659,
-    "geom:area_square_m":5443615.079755,
+    "geom:area_square_m":5443615.079756,
     "geom:bbox":"8.6681046207,48.0334077851,8.71600174878,48.0609368541",
     "geom:latitude":48.049074,
     "geom:longitude":8.696743,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327020",
+        "eurostat:nuts_2021_id":"08327020",
         "fct:id":"07420d8e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2913631,
         "gp:id":12623492,
@@ -319,7 +334,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27a923889d8a65c39704b36a051624f8",
+    "wof:geomhash":"29826519b18ff9484ea269ee0c24eea6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351972,
     "wof:name":"Gunningen",
     "wof:parent_id":1377689637,
     "wof:placetype":"locality",
-    "wof:population":673,
+    "wof:population":750,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

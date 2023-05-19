@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldlaubersheim",
+    "eurostat:nuts_2021_id":"07133108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133108",
+    "eurostat:population":801,
+    "eurostat:population_year":2020,
     "geom:area":0.001011,
-    "geom:area_square_m":8050839.180145,
+    "geom:area_square_m":8050839.180144,
     "geom:bbox":"7.78982087,49.9132045006,7.8554903478,49.9400379511",
     "geom:latitude":49.926413,
     "geom:longitude":7.825315,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133108",
+        "eurostat:nuts_2021_id":"07133108",
         "gn:id":2814871,
         "gp:id":703524,
         "qs_pg:id":373731,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c03c627d3a9c3c312c10cd7bb374f9d",
+    "wof:geomhash":"83af845998c00a6134ed0a46eabc3964",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906961,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351983,
     "wof:name":"Waldlaubersheim",
     "wof:parent_id":1377685427,
     "wof:placetype":"locality",
-    "wof:population":804,
+    "wof:population":801,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

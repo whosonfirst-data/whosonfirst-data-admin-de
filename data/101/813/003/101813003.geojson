@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08225060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mudau",
+    "eurostat:nuts_2021_id":"08225060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE127",
+    "eurostat:nuts_2021_level_lau":"08225060",
+    "eurostat:population":4865,
+    "eurostat:population_year":2020,
     "geom:area":0.01336,
-    "geom:area_square_m":107207959.573502,
+    "geom:area_square_m":107207959.573508,
     "geom:bbox":"9.070152,49.486412,9.277721,49.582014",
     "geom:latitude":49.535643,
     "geom:longitude":9.173824,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":617,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063491,
         1377688465,
         404227555,
-        85682567
+        102063491
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08225060",
+        "eurostat:nuts_2021_id":"08225060",
         "fct:id":"074da874-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2868867,
         "gp:id":676407,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1210d5ae46a58cf9a1b02a6102d8bcb1",
+    "wof:geomhash":"28d182711a60a2bfc0e0677a99c127fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,12 +369,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051383,
+    "wof:lastmodified":1684351886,
     "wof:name":"Mudau",
     "wof:parent_id":1377688465,
     "wof:placetype":"locality",
-    "wof:population":5094,
-    "wof:population_rank":5,
+    "wof:population":4865,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

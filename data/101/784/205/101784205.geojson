@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rudelzhausen",
+    "eurostat:nuts_2021_id":"09178122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178122",
+    "eurostat:population":3475,
+    "eurostat:population_year":2020,
     "geom:area":0.004984,
-    "geom:area_square_m":40767714.395012,
+    "geom:area_square_m":40767714.395014,
     "geom:bbox":"11.696701,48.559778,11.868435,48.616646",
     "geom:latitude":48.587522,
     "geom:longitude":11.783294,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063307,
         1377691833,
         404227567,
-        85682571
+        102063307
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178122",
+        "eurostat:nuts_2021_id":"09178122",
         "fct:id":"07558bde-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2843445,
         "gp:id":690236,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"72a1c40709869149c382ee7b74e62e24",
+    "wof:geomhash":"1c2b50185c65ad0615732ad7de7d871b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050678,
+    "wof:lastmodified":1684351830,
     "wof:name":"Rudelzhausen",
     "wof:parent_id":1377691833,
     "wof:placetype":"locality",
-    "wof:population":3114,
+    "wof:population":3475,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

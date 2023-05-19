@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Faid",
+    "eurostat:nuts_2021_id":"07135029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135029",
+    "eurostat:population":1033,
+    "eurostat:population_year":2020,
     "geom:area":0.001022,
     "geom:area_square_m":8100073.64099,
     "geom:bbox":"7.09133241747,50.1326247398,7.13830951306,50.174770656",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1880,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135029",
+        "eurostat:nuts_2021_id":"07135029",
         "gn:id":2928084,
         "gp:id":649218,
         "qs_pg:id":1039867,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"68f390a4a9ff21d67ffadcb828fcab69",
+    "wof:geomhash":"2860a3bfd7754df5f02cc9c4063e1d35",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101812001,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351881,
     "wof:name":"Faid",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":1143,
+    "wof:population":1033,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

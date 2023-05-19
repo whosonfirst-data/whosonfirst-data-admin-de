@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sontra, Stadt",
+    "eurostat:nuts_2021_id":"06636011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636011",
+    "eurostat:population":7826,
+    "eurostat:population_year":2020,
     "geom:area":0.014262,
-    "geom:area_square_m":110820724.734669,
+    "geom:area_square_m":110820724.734666,
     "geom:bbox":"9.821759,50.992245,10.059273,51.122634",
     "geom:latitude":51.068523,
     "geom:longitude":9.952442,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.066667,
     "wd:longitude":9.933333,
     "wd:wordcount":857,
@@ -313,15 +326,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685155,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636011",
+        "eurostat:nuts_2021_id":"06636011",
         "gn:id":2831083,
         "gp:id":695553,
         "qs_pg:id":1179399,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"10a8798513a457190ac49d71e8df17c0",
+    "wof:geomhash":"41f9b0d5f107059cdc1e3e1d3dfe7deb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101810337,
-    "wof:lastmodified":1608050026,
+    "wof:lastmodified":1684351873,
     "wof:name":"Sontra",
     "wof:parent_id":1377685155,
     "wof:placetype":"locality",
-    "wof:population":8624,
+    "wof:population":7826,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

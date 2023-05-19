@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viereck",
+    "eurostat:nuts_2021_id":"13075138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075138",
+    "eurostat:population":1027,
+    "eurostat:population_year":2020,
     "geom:area":0.007457,
     "geom:area_square_m":54756014.502158,
     "geom:bbox":"14.0009924535,53.538015328,14.2064019991,53.6077582028",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":100,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075138",
+        "eurostat:nuts_2021_id":"13075138",
         "gn:id":2817375,
         "gp:id":702302,
         "qs_pg:id":576613,
@@ -303,7 +318,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"436a1fa8418f4d8031a5010e1eb1013d",
+    "wof:geomhash":"9441a637763606eb70947b007e584c09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101819545,
-    "wof:lastmodified":1582342430,
+    "wof:lastmodified":1684351906,
     "wof:name":"Viereck",
     "wof:parent_id":1377685149,
     "wof:placetype":"locality",
-    "wof:population":1375,
+    "wof:population":1027,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

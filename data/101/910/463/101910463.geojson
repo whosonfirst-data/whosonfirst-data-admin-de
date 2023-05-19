@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wundersleben",
+    "eurostat:nuts_2021_id":"16068062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068062",
+    "eurostat:population":672,
+    "eurostat:population_year":2020,
     "geom:area":0.000889,
-    "geom:area_square_m":6895769.388997,
+    "geom:area_square_m":6895769.388999,
     "geom:bbox":"11.0146023463,51.1419313555,11.0619949784,51.1786384741",
     "geom:latitude":51.158607,
     "geom:longitude":11.036725,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682541,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068062",
+        "eurostat:nuts_2021_id":"16068062",
         "gn:id":2805793,
         "gp:id":708202,
         "qs_pg:id":576300,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"09a46ad48d1939ffe9553118221b0d8d",
+    "wof:geomhash":"f53176d4ae772e961ca37278ed484a55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101910463,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352006,
     "wof:name":"Wundersleben",
     "wof:parent_id":1377690245,
     "wof:placetype":"locality",
-    "wof:population":772,
+    "wof:population":672,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

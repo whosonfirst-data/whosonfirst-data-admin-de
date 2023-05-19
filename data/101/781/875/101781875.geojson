@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesenfelden",
+    "eurostat:nuts_2021_id":"09278197",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278197",
+    "eurostat:population":3755,
+    "eurostat:population_year":2020,
     "geom:area":0.009585,
-    "geom:area_square_m":77700907.993755,
+    "geom:area_square_m":77700907.993754,
     "geom:bbox":"12.472611,48.982348,12.61822,49.101962",
     "geom:latitude":49.036784,
     "geom:longitude":12.54504,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685411,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278197",
+        "eurostat:nuts_2021_id":"09278197",
         "gn:id":2809241,
         "gp:id":706375,
         "qs_pg:id":576420,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3814ea2c8645e7139b3d2393886c6755",
+    "wof:geomhash":"9f4502b35f0c1ab6315073b31b13bc87",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101781875,
-    "wof:lastmodified":1608051910,
+    "wof:lastmodified":1684351820,
     "wof:name":"Wiesenfelden",
     "wof:parent_id":1377685411,
     "wof:placetype":"locality",
-    "wof:population":3596,
+    "wof:population":3755,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

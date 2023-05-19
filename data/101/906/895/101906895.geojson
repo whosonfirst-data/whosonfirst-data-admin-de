@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hattgenstein",
+    "eurostat:nuts_2021_id":"07134034",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134034",
+    "eurostat:population":252,
+    "eurostat:population_year":2020,
     "geom:area":0.001011,
     "geom:area_square_m":8084144.645448,
     "geom:bbox":"7.10863908896,49.6886098019,7.18289676073,49.7233013103",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":440,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134034",
+        "eurostat:nuts_2021_id":"07134034",
         "gn:id":2909235,
         "gp:id":657838,
         "qs_pg:id":813235,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5c32f22def1d924401b56e7a287ff904",
+    "wof:geomhash":"22b025bd7ea7977f3327e54a3ad462af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101906895,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351982,
     "wof:name":"Hattgenstein",
     "wof:parent_id":1377685453,
     "wof:placetype":"locality",
-    "wof:population":266,
+    "wof:population":252,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

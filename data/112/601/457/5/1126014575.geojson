@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bebensee",
+    "eurostat:nuts_2021_id":"01060008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060008",
+    "eurostat:population":651,
+    "eurostat:population_year":2020,
     "geom:area":0.000912,
     "geom:area_square_m":6647441.823978,
     "geom:bbox":"10.2750841909,53.8650700082,10.330166352,53.8915578766",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060008",
+        "eurostat:nuts_2021_id":"01060008",
         "gn:id":2951809,
         "qs_pg:id":579864,
         "wd:id":"Q546032"
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"3fe2a5b6f7fd5f763eddcaefa1ad81e2",
+    "wof:geomhash":"572a6ef94d1b1edd92f2331ea09e8673",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1126014575,
-    "wof:lastmodified":1582343019,
+    "wof:lastmodified":1684352048,
     "wof:name":"Bebensee",
     "wof:parent_id":1377684587,
     "wof:placetype":"locality",
-    "wof:population":596,
+    "wof:population":651,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

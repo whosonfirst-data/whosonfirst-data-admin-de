@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Winden",
+    "eurostat:nuts_2021_id":"07334034",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334034",
+    "eurostat:population":1092,
+    "eurostat:population_year":2020,
     "geom:area":0.000406,
     "geom:area_square_m":3289448.978898,
     "geom:bbox":"8.10123235318,49.0852229894,8.14150597564,49.1029365555",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334034",
+        "eurostat:nuts_2021_id":"07334034",
         "gn:id":2808244,
         "gp:id":706868,
         "qs_pg:id":988533,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9fb8b75f49e210bc5c9f992d141498df",
+    "wof:geomhash":"9adfd457600315d74f31bf80a43529f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101760791,
-    "wof:lastmodified":1582342491,
+    "wof:lastmodified":1684351801,
     "wof:name":"Winden",
     "wof:parent_id":1377686397,
     "wof:placetype":"locality",
-    "wof:population":1054,
+    "wof:population":1092,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

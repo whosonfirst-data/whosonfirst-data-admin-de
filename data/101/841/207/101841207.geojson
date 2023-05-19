@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aue-Bad Schlema, Stadt",
+    "eurostat:nuts_2021_id":"14521035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521035",
+    "eurostat:population":20353,
+    "eurostat:population_year":2020,
     "geom:area":0.001957,
-    "geom:area_square_m":15355328.743918,
+    "geom:area_square_m":15355328.743915,
     "geom:bbox":"12.629397,50.587528,12.694257,50.640238",
     "geom:latitude":50.616198,
     "geom:longitude":12.66382,
@@ -166,17 +178,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":474,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685407,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521035",
+        "eurostat:nuts_2021_id":"14521035",
         "gn:id":2838671,
         "gp:id":692139,
         "qs_pg:id":203053,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cabdb96a0677d62bba0037e6f65d07e4",
+    "wof:geomhash":"10c01fb360a83f6ad18baac664971c39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,12 +221,12 @@
         }
     ],
     "wof:id":101841207,
-    "wof:lastmodified":1608051004,
+    "wof:lastmodified":1684351952,
     "wof:name":"Bad Schlema",
     "wof:parent_id":1377685407,
     "wof:placetype":"locality",
-    "wof:population":4991,
-    "wof:population_rank":4,
+    "wof:population":20353,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

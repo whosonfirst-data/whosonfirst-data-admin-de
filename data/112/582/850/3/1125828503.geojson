@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gillenbeuren",
+    "eurostat:nuts_2021_id":"07135035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135035",
+    "eurostat:population":248,
+    "eurostat:population_year":2020,
     "geom:area":0.000603,
     "geom:area_square_m":4778901.563239,
     "geom:bbox":"6.99070394471,50.1412004363,7.04360371254,50.1619819181",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135035",
+        "eurostat:nuts_2021_id":"07135035",
         "gn:id":2920414,
         "qs_pg:id":579009,
         "wd:id":"Q630053"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"5006a9a44ac673c572660d8e52e5f077",
+    "wof:geomhash":"d09366230a2b311bb931f9c9ea20e006",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1125828503,
-    "wof:lastmodified":1582343025,
+    "wof:lastmodified":1684352019,
     "wof:name":"Gillenbeuren",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":247,
+    "wof:population":248,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

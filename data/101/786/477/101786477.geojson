@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09189157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trostberg, St",
+    "eurostat:nuts_2021_id":"09189157",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21M",
+    "eurostat:nuts_2021_level_lau":"09189157",
+    "eurostat:population":11295,
+    "eurostat:population_year":2020,
     "geom:area":0.006243,
-    "geom:area_square_m":51620218.579303,
+    "geom:area_square_m":51620218.579302,
     "geom:bbox":"12.498465,47.986235,12.618536,48.070036",
     "geom:latitude":48.031303,
     "geom:longitude":12.565614,
@@ -180,22 +192,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":142,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063251,
         1377683519,
         404227567,
-        85682571
+        102063251
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09189157",
+        "eurostat:nuts_2021_id":"09189157",
         "gn:id":2820964,
         "gp:id":700136,
         "qs_pg:id":141641,
@@ -209,7 +224,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1db2234f02fcd3deaacf4ab0fd1b2806",
+    "wof:geomhash":"81a6dd0b7a16583332aff7f88b172266",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -222,11 +237,11 @@
         }
     ],
     "wof:id":101786477,
-    "wof:lastmodified":1608051939,
+    "wof:lastmodified":1684351838,
     "wof:name":"Trostberg",
     "wof:parent_id":1377683519,
     "wof:placetype":"locality",
-    "wof:population":11676,
+    "wof:population":11295,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

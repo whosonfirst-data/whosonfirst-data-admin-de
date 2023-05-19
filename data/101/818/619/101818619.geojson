@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eldena",
+    "eurostat:nuts_2021_id":"13076037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076037",
+    "eurostat:population":1132,
+    "eurostat:population_year":2020,
     "geom:area":0.004614,
-    "geom:area_square_m":34141467.77243,
+    "geom:area_square_m":34141467.772432,
     "geom:bbox":"11.3751659981,53.1859310227,11.5025722458,53.2763344969",
     "geom:latitude":53.242495,
     "geom:longitude":11.438686,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682487,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076037",
+        "eurostat:nuts_2021_id":"13076037",
         "gn:id":2931217,
         "gp:id":647497,
         "qs_pg:id":579260,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2cba9d53bef9b81fc2d5c39fb68a5d79",
+    "wof:geomhash":"5b9be5ce24b4e1a5bd8a981b32d35f2a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101818619,
-    "wof:lastmodified":1582342359,
+    "wof:lastmodified":1684351901,
     "wof:name":"Eldena",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":1432,
+    "wof:population":1132,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

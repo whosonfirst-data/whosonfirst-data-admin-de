@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werdohl, Stadt",
+    "eurostat:nuts_2021_id":"05962060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962060",
+    "eurostat:population":17657,
+    "eurostat:population_year":2020,
     "geom:area":0.004293,
-    "geom:area_square_m":33224584.427819,
+    "geom:area_square_m":33224584.427817,
     "geom:bbox":"7.692125,51.218815,7.813859,51.288559",
     "geom:latitude":51.253244,
     "geom:longitude":7.745457,
@@ -299,18 +311,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":629,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692437,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962060",
+        "eurostat:nuts_2021_id":"05962060",
         "gn:id":2810919,
         "gp:id":705457,
         "qs_pg:id":422668,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f23d1add692cef2c0eefdcaa07fb16b0",
+    "wof:geomhash":"ef2583a71228a1a48e2ae747ef78da08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101810069,
-    "wof:lastmodified":1608050105,
+    "wof:lastmodified":1684351870,
     "wof:name":"Werdohl",
     "wof:parent_id":1377692437,
     "wof:placetype":"locality",
-    "wof:population":20366,
-    "wof:population_rank":7,
+    "wof:population":17657,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

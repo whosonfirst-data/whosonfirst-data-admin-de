@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zeiskam",
+    "eurostat:nuts_2021_id":"07334036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334036",
+    "eurostat:population":2215,
+    "eurostat:population_year":2020,
     "geom:area":0.001112,
-    "geom:area_square_m":8979460.254283,
+    "geom:area_square_m":8979460.254284,
     "geom:bbox":"8.23177037001,49.2107100504,8.28691953866,49.2614390889",
     "geom:latitude":49.22891,
     "geom:longitude":8.252023,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334036",
+        "eurostat:nuts_2021_id":"07334036",
         "gn:id":2804951,
         "gp:id":708632,
         "qs_pg:id":1037966,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1944ca58f9b4ef4d527b98925fdd27a7",
+    "wof:geomhash":"a9ec6ccde87666e3e31bad816cae5a9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101760779,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351801,
     "wof:name":"Zeiskam",
     "wof:parent_id":1377686379,
     "wof:placetype":"locality",
-    "wof:population":2283,
+    "wof:population":2215,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

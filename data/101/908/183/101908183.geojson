@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stuer",
+    "eurostat:nuts_2021_id":"13071143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071143",
+    "eurostat:population":237,
+    "eurostat:population_year":2020,
     "geom:area":0.00291,
-    "geom:area_square_m":21465170.670757,
+    "geom:area_square_m":21465170.670753,
     "geom:bbox":"12.2750562216,53.352097164,12.3813900853,53.4025193466",
     "geom:latitude":53.378346,
     "geom:longitude":12.330064,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071143",
+        "eurostat:nuts_2021_id":"13071143",
         "gn:id":2825460,
         "gp:id":677790,
         "qs_pg:id":903711,
@@ -311,7 +326,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96424f08268ef74918bcd59136e43c2e",
+    "wof:geomhash":"fdced36d18f1f279a24149166601ebb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101908183,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351994,
     "wof:name":"Stuer",
     "wof:parent_id":1377684497,
     "wof:placetype":"locality",
-    "wof:population":300,
+    "wof:population":237,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

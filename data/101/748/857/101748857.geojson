@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Norderstedt, Stadt",
+    "eurostat:nuts_2021_id":"01060063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060063",
+    "eurostat:population":79357,
+    "eurostat:population_year":2020,
     "geom:area":0.007989,
-    "geom:area_square_m":58481988.768151,
+    "geom:area_square_m":58481988.768148,
     "geom:bbox":"9.934876,53.647312,10.073566,53.759989",
     "geom:latitude":53.700678,
     "geom:longitude":9.9954,
@@ -225,21 +237,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":425,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064103,
         1377684523,
-        85682517
+        85633111,
+        102064103
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060063",
+        "eurostat:nuts_2021_id":"01060063",
         "gn:id":2862026,
         "gp:id":680362,
         "qs_pg:id":455934,
@@ -254,7 +269,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"66d41218d9cf9cd23aa090b41a53e27f",
+    "wof:geomhash":"7298eccca0b1b690c73b51a22b18633d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -266,11 +281,11 @@
         }
     ],
     "wof:id":101748857,
-    "wof:lastmodified":1608050558,
+    "wof:lastmodified":1684351790,
     "wof:name":"Norderstedt",
     "wof:parent_id":1377684523,
     "wof:placetype":"locality",
-    "wof:population":71439,
+    "wof:population":79357,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergenhusen",
+    "eurostat:nuts_2021_id":"01059005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059005",
+    "eurostat:population":718,
+    "eurostat:population_year":2020,
     "geom:area":0.002504,
     "geom:area_square_m":18037465.669308,
     "geom:bbox":"9.25695981252,54.3463269735,9.36105472539,54.3979267544",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059005",
+        "eurostat:nuts_2021_id":"01059005",
         "gn:id":2950607,
         "gp:id":638004,
         "qs_pg:id":1144188,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"981a022ec5f02436bb66adb375dd7f94",
+    "wof:geomhash":"f84108fb4540cf131840cbd90375c977",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101906459,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351980,
     "wof:name":"Bergenhusen",
     "wof:parent_id":1377684465,
     "wof:placetype":"locality",
-    "wof:population":700,
+    "wof:population":718,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

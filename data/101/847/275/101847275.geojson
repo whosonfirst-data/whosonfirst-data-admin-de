@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dassendorf",
+    "eurostat:nuts_2021_id":"01053023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053023",
+    "eurostat:population":3405,
+    "eurostat:population_year":2020,
     "geom:area":0.001076,
-    "geom:area_square_m":7912594.244152,
+    "geom:area_square_m":7912594.244151,
     "geom:bbox":"10.3427590854,53.4805911405,10.3999511756,53.5080808418",
     "geom:latitude":53.494561,
     "geom:longitude":10.371423,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053023",
+        "eurostat:nuts_2021_id":"01053023",
         "gn:id":2938805,
         "gp:id":643831,
         "qs_pg:id":142732,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ef5d1125665d5b04d383427d4437d828",
+    "wof:geomhash":"fa5abf1eedf3a31235f87f675932e08a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101847275,
-    "wof:lastmodified":1582342555,
+    "wof:lastmodified":1684351963,
     "wof:name":"Dassendorf",
     "wof:parent_id":1377683493,
     "wof:placetype":"locality",
-    "wof:population":3148,
+    "wof:population":3405,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

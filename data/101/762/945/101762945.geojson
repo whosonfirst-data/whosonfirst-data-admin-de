@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08416036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rottenburg am Neckar, Stadt",
+    "eurostat:nuts_2021_id":"08416036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE142",
+    "eurostat:nuts_2021_level_lau":"08416036",
+    "eurostat:population":43843,
+    "eurostat:population_year":2020,
     "geom:area":0.017288,
-    "geom:area_square_m":141718816.019135,
+    "geom:area_square_m":141718816.019144,
     "geom:bbox":"8.75571055918,48.3968023691,9.01557148118,48.5426212061",
     "geom:latitude":48.473796,
     "geom:longitude":8.90753,
@@ -328,7 +340,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":142.26,
     "wd:latitude":48.477222,
     "wd:longitude":8.934444,
@@ -348,6 +361,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08416036",
+        "eurostat:nuts_2021_id":"08416036",
         "gn:id":2843729,
         "gp:id":690067,
         "qs_pg:id":1345398,
@@ -359,7 +374,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dcebc3dae7b9017ca8557ff8c5db64de",
+    "wof:geomhash":"12bfa7921732cef8f351296681ebb49c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
         }
     ],
     "wof:id":101762945,
-    "wof:lastmodified":1582342357,
+    "wof:lastmodified":1684351808,
     "wof:name":"Rottenburg am Neckar",
     "wof:parent_id":1377690063,
     "wof:placetype":"locality",
-    "wof:population":42435,
+    "wof:population":43843,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

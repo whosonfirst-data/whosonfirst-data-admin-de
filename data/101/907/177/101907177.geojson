@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Habscheid",
+    "eurostat:nuts_2021_id":"07232231",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232231",
+    "eurostat:population":642,
+    "eurostat:population_year":2020,
     "geom:area":0.00218,
-    "geom:area_square_m":17263581.082291,
+    "geom:area_square_m":17263581.082293,
     "geom:bbox":"6.23571619406,50.1517106544,6.30713092266,50.2032258677",
     "geom:latitude":50.177734,
     "geom:longitude":6.270069,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232231",
+        "eurostat:nuts_2021_id":"07232231",
         "gn:id":2912948,
         "gp:id":656226,
         "qs_pg:id":578816,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c5e7bf86fa70d53bcf883b4d0541a7d4",
+    "wof:geomhash":"c6893ff4ac00fe334d8a3f2b963a9ec2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101907177,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351985,
     "wof:name":"Habscheid",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":569,
+    "wof:population":642,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ahrensfelde",
+    "eurostat:nuts_2021_id":"12060005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060005",
+    "eurostat:population":13843,
+    "eurostat:population_year":2020,
     "geom:area":0.007685,
-    "geom:area_square_m":57719536.782709,
+    "geom:area_square_m":57719536.782712,
     "geom:bbox":"13.496752,52.544236,13.685939,52.654583",
     "geom:latitude":52.595175,
     "geom:longitude":13.599101,
@@ -147,17 +159,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":362,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063973,
         1377694199,
-        85682553
+        85633111,
+        102063973
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060005",
+        "eurostat:nuts_2021_id":"12060005",
         "gn:id":2895283,
         "gp:id":633606,
         "qs_pg:id":6,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6521d8bebf8a8175846426e8f584e2d3",
+    "wof:geomhash":"69fc69f4d5de48e15739081d9bc34c50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101913861,
-    "wof:lastmodified":1608050717,
+    "wof:lastmodified":1684352007,
     "wof:name":"Ahrensfelde",
     "wof:parent_id":1377694199,
     "wof:placetype":"locality",
-    "wof:population":12761,
+    "wof:population":13843,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

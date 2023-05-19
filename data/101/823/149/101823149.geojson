@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St. Egidien",
+    "eurostat:nuts_2021_id":"14524280",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524280",
+    "eurostat:population":3268,
+    "eurostat:population_year":2020,
     "geom:area":0.002643,
-    "geom:area_square_m":20660576.678232,
+    "geom:area_square_m":20660576.678231,
     "geom:bbox":"12.5833008508,50.764554581,12.6701109804,50.8254384895",
     "geom:latitude":50.796254,
     "geom:longitude":12.621577,
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -178,6 +191,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524280",
+        "eurostat:nuts_2021_id":"14524280",
         "gn:id":2841639,
         "gp:id":696005,
         "qs_pg:id":245470,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f88b2282400c6d88516117016ba242a8",
+    "wof:geomhash":"831c5c134c6b070c1dd0c589bdb76594",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
         }
     ],
     "wof:id":101823149,
-    "wof:lastmodified":1582342536,
+    "wof:lastmodified":1684351924,
     "wof:name":"St. Egidien",
     "wof:parent_id":1377686563,
     "wof:placetype":"locality",
-    "wof:population":3709,
+    "wof:population":3268,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

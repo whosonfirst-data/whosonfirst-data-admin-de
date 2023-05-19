@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unterpleichfeld",
+    "eurostat:nuts_2021_id":"09679201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679201",
+    "eurostat:population":3038,
+    "eurostat:population_year":2020,
     "geom:area":0.002999,
-    "geom:area_square_m":23899750.352211,
+    "geom:area_square_m":23899750.352212,
     "geom:bbox":"9.978065,49.847705,10.082759,49.903449",
     "geom:latitude":49.876842,
     "geom:longitude":10.031494,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377692023,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679201",
+        "eurostat:nuts_2021_id":"09679201",
         "fct:id":"075b948e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2818929,
         "gp:id":12635472,
@@ -190,7 +205,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f1c0443291b17bfc922b6e478a79a3e",
+    "wof:geomhash":"4b3a48416cc14091c5788a339a68ce7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051396,
+    "wof:lastmodified":1684351889,
     "wof:name":"Unterpleichfeld",
     "wof:parent_id":1377692023,
     "wof:placetype":"locality",
-    "wof:population":2718,
+    "wof:population":3038,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

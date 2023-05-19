@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holzappel",
+    "eurostat:nuts_2021_id":"07141059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141059",
+    "eurostat:population":1009,
+    "eurostat:population_year":2020,
     "geom:area":0.000335,
     "geom:area_square_m":2646524.35823,
     "geom:bbox":"7.86204858207,50.3417796288,7.91373812721,50.3689387016",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141059",
+        "eurostat:nuts_2021_id":"07141059",
         "gn:id":2900027,
         "gp:id":661815,
         "qs_pg:id":93656,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b69bbbaa7ee56bfd6bf2429c66908785",
+    "wof:geomhash":"49c6c002e77f07d57244189e60b1c289",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101812111,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351882,
     "wof:name":"Holzappel",
     "wof:parent_id":1377685729,
     "wof:placetype":"locality",
-    "wof:population":1106,
+    "wof:population":1009,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

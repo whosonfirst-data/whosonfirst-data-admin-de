@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Windorf, M",
+    "eurostat:nuts_2021_id":"09275159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275159",
+    "eurostat:population":4899,
+    "eurostat:population_year":2020,
     "geom:area":0.006919,
     "geom:area_square_m":56534553.994368,
     "geom:bbox":"13.201685,48.602282,13.341561,48.688214",
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684853,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275159",
+        "eurostat:nuts_2021_id":"09275159",
         "gn:id":2808109,
         "gp:id":706937,
         "qs_pg:id":909942,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"73433fd5027f3d55d5ca92fe5be1f9ef",
+    "wof:geomhash":"adb33b2779f183c253e1a81e47390987",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101834013,
-    "wof:lastmodified":1608050426,
+    "wof:lastmodified":1684351945,
     "wof:name":"Windorf",
     "wof:parent_id":1377684853,
     "wof:placetype":"locality",
-    "wof:population":4744,
+    "wof:population":4899,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255502",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eimen, gemfr. Gebiet",
+    "eurostat:nuts_2021_id":"03255502",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255502",
+    "eurostat:population":0,
+    "eurostat:population_year":2020,
     "geom:area":0.001685,
     "geom:area_square_m":12856384.381266,
     "geom:bbox":"9.68990842117,51.8848408287,9.80544943462,51.9322618862",
@@ -295,7 +307,8 @@
         "de"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255502",
+        "eurostat:nuts_2021_id":"03255502",
         "gn:id":2931825,
         "gp:id":647197,
         "qs_pg:id":579289,
@@ -318,7 +333,7 @@
         "quattroshapes_pg",
         "de-bkg"
     ],
-    "wof:geomhash":"138eb0ebc2a789e3fb37ebdce1b9cec6",
+    "wof:geomhash":"26e4376afe065d2b2a2d38478af1546f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101809015,
-    "wof:lastmodified":1582342597,
+    "wof:lastmodified":1684351866,
     "wof:name":"Eimen",
     "wof:parent_id":1377686847,
     "wof:placetype":"locality",
-    "wof:population":1162,
+    "wof:population":0,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

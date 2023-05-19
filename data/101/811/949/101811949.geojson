@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argenthal",
+    "eurostat:nuts_2021_id":"07140003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140003",
+    "eurostat:population":1666,
+    "eurostat:population_year":2020,
     "geom:area":0.003542,
     "geom:area_square_m":28172547.556396,
     "geom:bbox":"7.56235514815,49.9260457612,7.66215117167,49.9903323905",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":687,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140003",
+        "eurostat:nuts_2021_id":"07140003",
         "gn:id":2955605,
         "gp:id":692697,
         "qs_pg:id":94193,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"01eb2567567e253b61f8eaae010ffc16",
+    "wof:geomhash":"11bfad7eb4e866bf03d16a944762c5e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101811949,
-    "wof:lastmodified":1582342386,
+    "wof:lastmodified":1684351880,
     "wof:name":"Argenthal",
     "wof:parent_id":1377685695,
     "wof:placetype":"locality",
-    "wof:population":1645,
+    "wof:population":1666,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

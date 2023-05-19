@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesemscheid",
+    "eurostat:nuts_2021_id":"07131083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131083",
+    "eurostat:population":242,
+    "eurostat:population_year":2020,
     "geom:area":0.000713,
     "geom:area_square_m":5630099.62413,
     "geom:bbox":"6.86857261421,50.3217443121,6.92587223866,50.3463862514",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131083",
+        "eurostat:nuts_2021_id":"07131083",
         "gn:id":2809303,
         "qs_pg:id":576413,
         "wd:id":"Q563170"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"e61a1fa410403a97f066e0f8e2098e5f",
+    "wof:geomhash":"07964a987170a86ba37bae73ff3125c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125951035,
-    "wof:lastmodified":1582342972,
+    "wof:lastmodified":1684352040,
     "wof:name":"Wiesemscheid",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":282,
+    "wof:population":242,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nortorf, Stadt",
+    "eurostat:nuts_2021_id":"01058117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058117",
+    "eurostat:population":6866,
+    "eurostat:population_year":2020,
     "geom:area":0.001764,
-    "geom:area_square_m":12772352.10205,
+    "geom:area_square_m":12772352.102048,
     "geom:bbox":"9.80194090467,54.1471708689,9.87177636307,54.1904828079",
     "geom:latitude":54.167818,
     "geom:longitude":9.835723,
@@ -156,7 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":112,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058117",
+        "eurostat:nuts_2021_id":"01058117",
         "gn:id":2861804,
         "gp:id":680470,
         "qs_pg:id":142000,
@@ -182,7 +197,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8331455184abc559220d85987da9c78e",
+    "wof:geomhash":"7216a67a8470a342335b4e97ad38b2af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101805155,
-    "wof:lastmodified":1582342453,
+    "wof:lastmodified":1684351847,
     "wof:name":"Nortorf",
     "wof:parent_id":1377684259,
     "wof:placetype":"locality",
-    "wof:population":6396,
+    "wof:population":6866,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

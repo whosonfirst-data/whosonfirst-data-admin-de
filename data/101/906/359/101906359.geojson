@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fchbrook",
+    "eurostat:nuts_2021_id":"01058108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058108",
+    "eurostat:population":563,
+    "eurostat:population_year":2020,
     "geom:area":0.000732,
-    "geom:area_square_m":5303128.018335,
+    "geom:area_square_m":5303128.018336,
     "geom:bbox":"9.98863195557,54.1408946962,10.0245520531,54.172389052",
     "geom:latitude":54.157589,
     "geom:longitude":10.005997,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058108",
+        "eurostat:nuts_2021_id":"01058108",
         "gn:id":2868791,
         "gp:id":676456,
         "qs_pg:id":577758,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9d6100f111b7fa27b320622e6379f64f",
+    "wof:geomhash":"9dc696b113ae4597a412a664e275df20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101906359,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351979,
     "wof:name":"M\u00fchbrook",
     "wof:parent_id":1377684275,
     "wof:placetype":"locality",
-    "wof:population":515,
+    "wof:population":563,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hirschhorn (Neckar), Stadt",
+    "eurostat:nuts_2021_id":"06431012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431012",
+    "eurostat:population":3455,
+    "eurostat:population_year":2020,
     "geom:area":0.003823,
     "geom:area_square_m":30725516.378294,
     "geom:bbox":"8.8235249682,49.4241335552,8.9503487198,49.4857936671",
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.446389,
     "wd:longitude":8.897222,
     "wd:population":3450,
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431012",
+        "eurostat:nuts_2021_id":"06431012",
         "gn:id":2903625,
         "gp:id":660388,
         "qs_pg:id":977557,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2c01e449f01529f9aa7be9f0aecb3e8a",
+    "wof:geomhash":"08ef52ac76f09420cdcdfa904bbc62b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101815647,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Hirschhorn (Neckar)",
     "wof:parent_id":1377692927,
     "wof:placetype":"locality",
-    "wof:population":3450,
+    "wof:population":3455,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

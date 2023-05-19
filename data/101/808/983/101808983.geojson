@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03155009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moringen, Stadt",
+    "eurostat:nuts_2021_id":"03155009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE918",
+    "eurostat:nuts_2021_level_lau":"03155009",
+    "eurostat:population":6955,
+    "eurostat:population_year":2020,
     "geom:area":0.010744,
-    "geom:area_square_m":82323681.823505,
+    "geom:area_square_m":82323681.823495,
     "geom:bbox":"9.694935,51.642652,9.928772,51.758921",
     "geom:latitude":51.706677,
     "geom:longitude":9.833052,
@@ -168,21 +180,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":185,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063793,
         1377685979,
-        85682555
+        85633111,
+        102063793
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03155009",
+        "eurostat:nuts_2021_id":"03155009",
         "gn:id":2869257,
         "gp:id":676191,
         "qs_pg:id":945150,
@@ -197,7 +212,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"813b396f558bb40850e01eb7f53bedba",
+    "wof:geomhash":"2bb9b7a09b4a357519b811b02414777e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101808983,
-    "wof:lastmodified":1608051682,
+    "wof:lastmodified":1684351866,
     "wof:name":"Moringen",
     "wof:parent_id":1377685979,
     "wof:placetype":"locality",
-    "wof:population":7513,
+    "wof:population":6955,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

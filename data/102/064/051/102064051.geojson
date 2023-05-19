@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"1",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Friesland (DE)",
+    "eurostat:name_local":"Friesland (DE)",
+    "eurostat:nuts_2021_id":"DE94A",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94A",
+    "eurostat:population":98971,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.082545,
-    "geom:area_square_m":607044265.152542,
+    "geom:area_square_m":607044265.152532,
     "geom:bbox":"7.809021,53.3046975,8.2072,53.718645",
     "geom:latitude":53.505575,
     "geom:longitude":7.98359,
@@ -159,6 +173,8 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "wof:belongsto":[
         102191581,
         85633111,
@@ -166,13 +182,14 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE94A",
         "wd:id":"Q5932"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "de-bkg-reversegeo"
     ],
-    "wof:geomhash":"c7a136ebd830cbb1eab5ec9d44b313d8",
+    "wof:geomhash":"c11211a9dee1044b3f77bb23535a8dfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,10 +199,12 @@
         }
     ],
     "wof:id":102064051,
-    "wof:lastmodified":1582341928,
+    "wof:lastmodified":1684351529,
     "wof:name":"Friesland",
     "wof:parent_id":85682555,
     "wof:placetype":"county",
+    "wof:population":98971,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Prinzenmoor",
+    "eurostat:nuts_2021_id":"01058129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058129",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "geom:area":0.000733,
     "geom:area_square_m":5301215.500155,
     "geom:bbox":"9.43302057259,54.2008407131,9.48414824708,54.2358038223",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058129",
+        "eurostat:nuts_2021_id":"01058129",
         "gn:id":2852019,
         "qs_pg:id":93231,
         "wd:id":"Q638229"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"60c8855197b7e4364053dbb3cac7a4d9",
+    "wof:geomhash":"eb07e75443b6dd0278a5cf3fe151908c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125844679,
-    "wof:lastmodified":1582343056,
+    "wof:lastmodified":1684352026,
     "wof:name":"Prinzenmoor",
     "wof:parent_id":1377684233,
     "wof:placetype":"locality",
-    "wof:population":185,
+    "wof:population":160,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

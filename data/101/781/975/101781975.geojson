@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Regenstauf, M",
+    "eurostat:nuts_2021_id":"09375190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375190",
+    "eurostat:population":16253,
+    "eurostat:population_year":2020,
     "geom:area":0.012855,
-    "geom:area_square_m":103980416.864278,
+    "geom:area_square_m":103980416.864279,
     "geom:bbox":"12.001709,49.086534,12.236212,49.224152",
     "geom:latitude":49.145349,
     "geom:longitude":12.12819,
@@ -157,22 +169,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675605,
         1377686549,
         404227545,
-        85682571
+        1377675605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375190",
+        "eurostat:nuts_2021_id":"09375190",
         "gn:id":2849476,
         "gp:id":687338,
         "qs_pg:id":906491,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"480af66df1e9989d46e047845153f946",
+    "wof:geomhash":"87caae4a0dfbe908f522b19a107f7ef2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101781975,
-    "wof:lastmodified":1608051931,
+    "wof:lastmodified":1684351821,
     "wof:name":"Regenstauf",
     "wof:parent_id":1377686549,
     "wof:placetype":"locality",
-    "wof:population":14999,
+    "wof:population":16253,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

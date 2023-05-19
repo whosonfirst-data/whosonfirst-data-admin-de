@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bessenbach",
+    "eurostat:nuts_2021_id":"09671112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671112",
+    "eurostat:population":5658,
+    "eurostat:population_year":2020,
     "geom:area":0.003749,
-    "geom:area_square_m":29819168.12622,
+    "geom:area_square_m":29819168.126218,
     "geom:bbox":"9.220092,49.925268,9.306011,50.007098",
     "geom:latitude":49.96508,
     "geom:longitude":9.261317,
@@ -162,22 +174,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":378,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690331,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671112",
+        "eurostat:nuts_2021_id":"09671112",
         "gn:id":3274991,
         "gp:id":697697,
         "qs_pg:id":1031997,
@@ -191,7 +206,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d4ae255a7571a8d20e530b9c5326ff8",
+    "wof:geomhash":"24b837b5520b5bbf92bdc801a4eff0a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101813555,
-    "wof:lastmodified":1608051361,
+    "wof:lastmodified":1684351892,
     "wof:name":"Bessenbach",
     "wof:parent_id":1377690331,
     "wof:placetype":"locality",
-    "wof:population":5740,
+    "wof:population":5658,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

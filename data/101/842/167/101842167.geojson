@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10043112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Illingen",
+    "eurostat:nuts_2021_id":"10043112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC03",
+    "eurostat:nuts_2021_level_lau":"10043112",
+    "eurostat:population":16122,
+    "eurostat:population_year":2020,
     "geom:area":0.004466,
-    "geom:area_square_m":35950187.76123,
+    "geom:area_square_m":35950187.761231,
     "geom:bbox":"6.994036,49.349716,7.124323,49.416304",
     "geom:latitude":49.386184,
     "geom:longitude":7.051427,
@@ -293,21 +305,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":147,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063445,
         1377693841,
-        85682479
+        85633111,
+        102063445
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10043112",
+        "eurostat:nuts_2021_id":"10043112",
         "gn:id":2896538,
         "gp:id":663336,
         "qs_pg:id":1147242,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1bb5bf7db2fb62eeea6a141f064c03a4",
+    "wof:geomhash":"0b502beac432221232940c6ece27651e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101842167,
-    "wof:lastmodified":1608049962,
+    "wof:lastmodified":1684351955,
     "wof:name":"Illingen",
     "wof:parent_id":1377693841,
     "wof:placetype":"locality",
-    "wof:population":18488,
+    "wof:population":16122,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

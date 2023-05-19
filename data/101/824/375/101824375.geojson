@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09473158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Rodach, St",
+    "eurostat:nuts_2021_id":"09473158",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE247",
+    "eurostat:nuts_2021_level_lau":"09473158",
+    "eurostat:population":6418,
+    "eurostat:population_year":2020,
     "geom:area":0.009842,
     "geom:area_square_m":77679952.558443,
     "geom:bbox":"10.712455,50.273065,10.865038,50.392616",
@@ -181,18 +193,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":128,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063615,
         1377687779,
         404227583,
-        85682571
+        102063615
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09473158",
+        "eurostat:nuts_2021_id":"09473158",
         "gn:id":2846166,
         "gp:id":20156292,
         "qs_pg:id":185650,
@@ -210,7 +225,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8a8444a4d1069d5e8fdc0f5f8a800d1e",
+    "wof:geomhash":"451d054f343c456349e52e8080215bc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -223,11 +238,11 @@
         }
     ],
     "wof:id":101824375,
-    "wof:lastmodified":1608051169,
+    "wof:lastmodified":1684351927,
     "wof:name":"Bad Rodach",
     "wof:parent_id":1377687779,
     "wof:placetype":"locality",
-    "wof:population":6331,
+    "wof:population":6418,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

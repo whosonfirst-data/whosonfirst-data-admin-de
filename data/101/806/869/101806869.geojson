@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059174",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wanderup",
+    "eurostat:nuts_2021_id":"01059174",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059174",
+    "eurostat:population":2480,
+    "eurostat:population_year":2020,
     "geom:area":0.003983,
-    "geom:area_square_m":28469129.655537,
+    "geom:area_square_m":28469129.65554,
     "geom:bbox":"9.25792545485,54.6509910981,9.37233088216,54.7135267797",
     "geom:latitude":54.683762,
     "geom:longitude":9.319519,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059174",
+        "eurostat:nuts_2021_id":"01059174",
         "gn:id":2814312,
         "gp:id":703868,
         "qs_pg:id":141603,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d0bee4d5959e59e9c361d904b2b495d0",
+    "wof:geomhash":"b9dcfb8015f53361004342f15eb8639e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101806869,
-    "wof:lastmodified":1582342614,
+    "wof:lastmodified":1684351856,
     "wof:name":"Wanderup",
     "wof:parent_id":1377684359,
     "wof:placetype":"locality",
-    "wof:population":2270,
+    "wof:population":2480,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Born a. Dar\u00df",
+    "eurostat:nuts_2021_id":"13073012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073012",
+    "eurostat:population":1139,
+    "eurostat:population_year":2020,
     "geom:area":0.008749,
     "geom:area_square_m":62947802.464942,
     "geom:bbox":"12.4347221009,54.3626050552,12.5954036851,54.4867284723",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":258,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073012",
+        "eurostat:nuts_2021_id":"13073012",
         "gn:id":2946176,
         "gp:id":640306,
         "qs_pg:id":1219245,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f34cd0cf9d6b2ee22604990ea8b78634",
+    "wof:geomhash":"43381731443d805ec4f9b7419b5a4335",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101817493,
-    "wof:lastmodified":1582342416,
+    "wof:lastmodified":1684351898,
     "wof:name":"Born a. Dar\u00df",
     "wof:parent_id":1377684935,
     "wof:placetype":"locality",
-    "wof:population":1143,
+    "wof:population":1139,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

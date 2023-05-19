@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Tennstedt, Stadt",
+    "eurostat:nuts_2021_id":"16064004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064004",
+    "eurostat:population":2462,
+    "eurostat:population_year":2020,
     "geom:area":0.003531,
-    "geom:area_square_m":27384939.381311,
+    "geom:area_square_m":27384939.381309,
     "geom:bbox":"10.7770422311,51.1287738378,10.884828649,51.1826117956",
     "geom:latitude":51.155622,
     "geom:longitude":10.831155,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "wof:belongsto":[
         85682541,
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064004",
+        "eurostat:nuts_2021_id":"16064004",
         "gn:id":2953325,
         "gp:id":636521,
         "qs_pg:id":931177,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"22ca4c4a1521c0125be0c2f7759939c7",
+    "wof:geomhash":"6a49572186e901f991b355b89ffccfdc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101821961,
-    "wof:lastmodified":1582342421,
+    "wof:lastmodified":1684351918,
     "wof:name":"Bad Tennstedt",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":2480,
+    "wof:population":2462,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

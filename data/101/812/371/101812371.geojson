@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06535004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freiensteinau",
+    "eurostat:nuts_2021_id":"06535004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE725",
+    "eurostat:nuts_2021_level_lau":"06535004",
+    "eurostat:population":3066,
+    "eurostat:population_year":2020,
     "geom:area":0.008319,
-    "geom:area_square_m":65513539.769345,
+    "geom:area_square_m":65513539.769343,
     "geom:bbox":"9.334843,50.385474,9.479113,50.490037",
     "geom:latitude":50.438004,
     "geom:longitude":9.39913,
@@ -283,18 +295,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":208,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063669,
         1377685249,
         404227577,
-        85682531
+        102063669
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06535004",
+        "eurostat:nuts_2021_id":"06535004",
         "gn:id":2925141,
         "gp:id":650464,
         "qs_pg:id":1039849,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ce44596bd94a40f83253ad2a3d05068",
+    "wof:geomhash":"de1fa363b821405923f7da5ec3300271",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101812371,
-    "wof:lastmodified":1608051199,
+    "wof:lastmodified":1684351885,
     "wof:name":"Freiensteinau",
     "wof:parent_id":1377685249,
     "wof:placetype":"locality",
-    "wof:population":3416,
+    "wof:population":3066,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

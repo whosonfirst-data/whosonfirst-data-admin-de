@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Markranst\u00e4dt, Stadt",
+    "eurostat:nuts_2021_id":"14729270",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729270",
+    "eurostat:population":15781,
+    "eurostat:population_year":2020,
     "geom:area":0.007571,
     "geom:area_square_m":58541852.227898,
     "geom:bbox":"12.147654,51.238405,12.280595,51.348473",
@@ -172,17 +184,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":605,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687819,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729270",
+        "eurostat:nuts_2021_id":"14729270",
         "gn:id":2873331,
         "gp:id":674009,
         "qs_pg:id":1344860,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3c7a44dda0d202e507533e4a8273e677",
+    "wof:geomhash":"4ff90f1c2ce24936507d36f0708c57ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101822051,
-    "wof:lastmodified":1608051501,
+    "wof:lastmodified":1684351919,
     "wof:name":"Markranst\u00e4dt",
     "wof:parent_id":1377687819,
     "wof:placetype":"locality",
-    "wof:population":13053,
+    "wof:population":15781,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

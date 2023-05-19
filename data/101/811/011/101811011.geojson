@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biedenkopf, Stadt",
+    "eurostat:nuts_2021_id":"06534004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534004",
+    "eurostat:population":13588,
+    "eurostat:population_year":2020,
     "geom:area":0.011536,
-    "geom:area_square_m":89920507.350572,
+    "geom:area_square_m":89920507.350569,
     "geom:bbox":"8.418996,50.864016,8.635729,50.969578",
     "geom:latitude":50.921246,
     "geom:longitude":8.530686,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.912778,
     "wd:longitude":8.532222,
     "wd:wordcount":987,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683785,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534004",
+        "eurostat:nuts_2021_id":"06534004",
         "gn:id":2949229,
         "gp:id":638786,
         "qs_pg:id":142845,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b78615b1ac003f3a1e1c20145dcab439",
+    "wof:geomhash":"2545ff1cef3b69fde0c938291ccd1df4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101811011,
-    "wof:lastmodified":1608049935,
+    "wof:lastmodified":1684351878,
     "wof:name":"Biedenkopf",
     "wof:parent_id":1377683785,
     "wof:placetype":"locality",
-    "wof:population":13788,
+    "wof:population":13588,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

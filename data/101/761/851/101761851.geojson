@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dobel",
+    "eurostat:nuts_2021_id":"08235018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235018",
+    "eurostat:population":2372,
+    "eurostat:population_year":2020,
     "geom:area":0.002234,
-    "geom:area_square_m":18195803.544786,
+    "geom:area_square_m":18195803.544785,
     "geom:bbox":"8.46060915327,48.7567012579,8.53299450257,48.8138513691",
     "geom:latitude":48.790168,
     "geom:longitude":8.493777,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235018",
+        "eurostat:nuts_2021_id":"08235018",
         "fct:id":"0715fd52-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2936667,
         "gp:id":644911,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3c5b7898674a204228db8b1b340d28c9",
+    "wof:geomhash":"8f9a5c26d4ac49704246991f4c571c3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342511,
+    "wof:lastmodified":1684351805,
     "wof:name":"Dobel",
     "wof:parent_id":1377688859,
     "wof:placetype":"locality",
-    "wof:population":2252,
+    "wof:population":2372,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

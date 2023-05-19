@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seifen",
+    "eurostat:nuts_2021_id":"07132104",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132104",
+    "eurostat:population":119,
+    "eurostat:population_year":2020,
     "geom:area":0.000385,
     "geom:area_square_m":3016414.666578,
     "geom:bbox":"7.54548660905,50.6130484637,7.57908057849,50.6377138331",
@@ -129,7 +141,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132104",
+        "eurostat:nuts_2021_id":"07132104",
         "gn:id":2833399,
         "qs_pg:id":576934,
         "wd:id":"Q643296"
@@ -148,7 +163,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"316eb64023ebf07fe9f7b220e624a0cf",
+    "wof:geomhash":"c1f5e9652ae38b8ee3ecc64619aee9c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":1125827517,
-    "wof:lastmodified":1582343028,
+    "wof:lastmodified":1684352017,
     "wof:name":"Seifen",
     "wof:parent_id":1377685317,
     "wof:placetype":"locality",
-    "wof:population":159,
+    "wof:population":119,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

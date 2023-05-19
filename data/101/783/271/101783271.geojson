@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geiselh\u00f6ring, St",
+    "eurostat:nuts_2021_id":"09278123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278123",
+    "eurostat:population":6824,
+    "eurostat:population_year":2020,
     "geom:area":0.012209,
-    "geom:area_square_m":99398384.927638,
+    "geom:area_square_m":99398384.927644,
     "geom:bbox":"12.292176,48.758183,12.503942,48.864521",
     "geom:latitude":48.819486,
     "geom:longitude":12.397734,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685299,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278123",
+        "eurostat:nuts_2021_id":"09278123",
         "gn:id":2921736,
         "gp:id":651917,
         "qs_pg:id":142538,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"60651b63e21f0e3a648719763f332168",
+    "wof:geomhash":"1ea5df2fc2d613c39363d25207864e32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101783271,
-    "wof:lastmodified":1608050641,
+    "wof:lastmodified":1684351829,
     "wof:name":"Geiselh\u00f6ring",
     "wof:parent_id":1377685299,
     "wof:placetype":"locality",
-    "wof:population":6872,
+    "wof:population":6824,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

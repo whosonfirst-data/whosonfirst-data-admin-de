@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Delingsdorf",
+    "eurostat:nuts_2021_id":"01062014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062014",
+    "eurostat:population":2246,
+    "eurostat:population_year":2020,
     "geom:area":0.00111,
-    "geom:area_square_m":8126082.755584,
+    "geom:area_square_m":8126082.755583,
     "geom:bbox":"10.2292862329,53.688827958,10.3019026307,53.7213054825",
     "geom:latitude":53.705326,
     "geom:longitude":10.262874,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062014",
+        "eurostat:nuts_2021_id":"01062014",
         "gn:id":2938379,
         "gp:id":644080,
         "qs_pg:id":94002,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"923cb4377556be680a5a940a7f16c201",
+    "wof:geomhash":"3018140a78dfc960e7ae19adb4e0dae5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101846441,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351962,
     "wof:name":"Delingsdorf",
     "wof:parent_id":1377684803,
     "wof:placetype":"locality",
-    "wof:population":2002,
+    "wof:population":2246,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

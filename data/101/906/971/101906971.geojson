@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braunweiler",
+    "eurostat:nuts_2021_id":"07133015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133015",
+    "eurostat:population":602,
+    "eurostat:population_year":2020,
     "geom:area":0.000596,
-    "geom:area_square_m":4751858.353357,
+    "geom:area_square_m":4751858.353358,
     "geom:bbox":"7.70664152186,49.8608194353,7.758531727,49.8809999646",
     "geom:latitude":49.870252,
     "geom:longitude":7.734012,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1949,
     "wof:belongsto":[
         85682491,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133015",
+        "eurostat:nuts_2021_id":"07133015",
         "gn:id":2944993,
         "gp:id":640856,
         "qs_pg:id":579649,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f086cfa6e86aabbc79a0cd2f791dfeb4",
+    "wof:geomhash":"7c51b0a54f4e871e4e83a8c1914a79f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101906971,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351983,
     "wof:name":"Braunweiler",
     "wof:parent_id":1377685409,
     "wof:placetype":"locality",
-    "wof:population":611,
+    "wof:population":602,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

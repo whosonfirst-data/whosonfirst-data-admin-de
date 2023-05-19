@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Babensham",
+    "eurostat:nuts_2021_id":"09187116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187116",
+    "eurostat:population":3186,
+    "eurostat:population_year":2020,
     "geom:area":0.006559,
-    "geom:area_square_m":54179592.047545,
+    "geom:area_square_m":54179592.047544,
     "geom:bbox":"12.215607,48.044754,12.388414,48.128143",
     "geom:latitude":48.088073,
     "geom:longitude":12.295441,
@@ -152,21 +164,24 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377693959,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187116",
+        "eurostat:nuts_2021_id":"09187116",
         "gn:id":2953768,
         "wk:page":"Babensham"
     },
@@ -177,7 +192,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"182b10b34ef969a90511eb730bae3f0f",
+    "wof:geomhash":"6925269375ef7123902070f4e11b5a80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":1193145359,
-    "wof:lastmodified":1608048912,
+    "wof:lastmodified":1684352057,
     "wof:name":"Babensham",
     "wof:parent_id":1377693959,
     "wof:placetype":"locality",
-    "wof:population":2892,
+    "wof:population":3186,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

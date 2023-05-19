@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waltershausen, Stadt",
+    "eurostat:nuts_2021_id":"16067072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067072",
+    "eurostat:population":12838,
+    "eurostat:population_year":2020,
     "geom:area":0.007723,
-    "geom:area_square_m":60246878.290264,
+    "geom:area_square_m":60246878.290265,
     "geom:bbox":"10.400862,50.842621,10.618655,50.921375",
     "geom:latitude":50.886124,
     "geom:longitude":10.503324,
@@ -339,21 +351,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":88,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063711,
         1377690103,
-        85682541
+        85633111,
+        102063711
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067072",
+        "eurostat:nuts_2021_id":"16067072",
         "gn:id":2814392,
         "gp:id":703824,
         "qs_pg:id":1345847,
@@ -368,7 +383,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e9b61ba9ec3c042135be4d6b3d44311d",
+    "wof:geomhash":"639daf3298a9f74914ec99d9cc3a576f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,11 +395,11 @@
         }
     ],
     "wof:id":101823215,
-    "wof:lastmodified":1608051094,
+    "wof:lastmodified":1684351924,
     "wof:name":"Waltershausen",
     "wof:parent_id":1377690103,
     "wof:placetype":"locality",
-    "wof:population":11445,
+    "wof:population":12838,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

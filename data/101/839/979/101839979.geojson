@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06433004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gernsheim, Sch\u00f6fferstadt",
+    "eurostat:nuts_2021_id":"06433004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE717",
+    "eurostat:nuts_2021_level_lau":"06433004",
+    "eurostat:population":10558,
+    "eurostat:population_year":2020,
     "geom:area":0.004966,
-    "geom:area_square_m":39673792.47457,
+    "geom:area_square_m":39673792.474571,
     "geom:bbox":"8.448365,49.717089,8.562409,49.789422",
     "geom:latitude":49.751048,
     "geom:longitude":8.512617,
@@ -301,20 +313,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.751667,
     "wd:longitude":8.485,
     "wd:wordcount":623,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063561,
         1377693263,
         404227581,
-        85682531
+        102063561
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06433004",
+        "eurostat:nuts_2021_id":"06433004",
         "gn:id":2920994,
         "gp:id":652296,
         "qs_pg:id":142527,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c6bcfde36b5a601a7f7e03a9b4aa0af8",
+    "wof:geomhash":"e5d4ec762469d85f7a675e7d42be2aa2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,12 +357,12 @@
         }
     ],
     "wof:id":101839979,
-    "wof:lastmodified":1608051831,
+    "wof:lastmodified":1684351949,
     "wof:name":"Gernsheim",
     "wof:parent_id":1377693263,
     "wof:placetype":"locality",
-    "wof:population":9377,
-    "wof:population_rank":5,
+    "wof:population":10558,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

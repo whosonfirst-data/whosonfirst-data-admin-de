@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dorn-D\u00fcrkheim",
+    "eurostat:nuts_2021_id":"07339201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339201",
+    "eurostat:population":971,
+    "eurostat:population_year":2020,
     "geom:area":0.000703,
     "geom:area_square_m":5615069.138001,
     "geom:bbox":"8.25342219637,49.7485347282,8.30083620073,49.7770535399",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":382,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339201",
+        "eurostat:nuts_2021_id":"07339201",
         "gn:id":2935725,
         "gp:id":29349165,
         "qs_pg:id":579373,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f55ba69ac34aa76544c167807418d143",
+    "wof:geomhash":"f13acdbb8a7db5c047e59894f8d45aeb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907013,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351983,
     "wof:name":"Dorn-D\u00fcrkheim",
     "wof:parent_id":1377686725,
     "wof:placetype":"locality",
-    "wof:population":919,
+    "wof:population":971,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

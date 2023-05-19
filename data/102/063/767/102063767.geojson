@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Hagen, Kreisfreie Stadt",
+    "eurostat:name_local":"Hagen, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA53",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA53",
+    "eurostat:population":188713,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.020689,
-    "geom:area_square_m":159782409.012005,
+    "geom:area_square_m":159782409.012,
     "geom:bbox":"7.376308,51.264869,7.599215,51.417984",
     "geom:latitude":51.34804,
     "geom:longitude":7.497556,
@@ -372,8 +386,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"160",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Hagen",
@@ -387,12 +401,13 @@
     "wd:wordcount":1053,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227579,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA53",
         "hasc:id":"DE.NW.HG",
         "wd:id":"Q2871"
     },
@@ -404,7 +419,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"63958a41bb2a35742e9b6f7e9045db3d",
+    "wof:geomhash":"35c9cb0963d76e0f20d3374f4193dd9d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -415,12 +430,12 @@
         }
     ],
     "wof:id":102063767,
-    "wof:lastmodified":1608052537,
+    "wof:lastmodified":1684351522,
     "wof:name":"Hagen",
     "wof:parent_id":404227579,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":187944,
+    "wof:population":188713,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"HG",

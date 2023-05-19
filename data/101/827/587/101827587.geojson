@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldbronn",
+    "eurostat:nuts_2021_id":"08215110",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215110",
+    "eurostat:population":13080,
+    "eurostat:population_year":2020,
     "geom:area":0.001394,
-    "geom:area_square_m":11323442.791651,
+    "geom:area_square_m":11323442.791649,
     "geom:bbox":"8.446727,48.902374,8.495541,48.94637",
     "geom:latitude":48.923829,
     "geom:longitude":8.469849,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688277,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215110",
+        "eurostat:nuts_2021_id":"08215110",
         "gn:id":2815077,
         "gp:id":20160506,
         "qs_pg:id":501567,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"769a68c382a0bf0b72e12dd3cc955f65",
+    "wof:geomhash":"ebe19f4d43518e33d83e31cc1836862f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101827587,
-    "wof:lastmodified":1608049819,
+    "wof:lastmodified":1684351942,
     "wof:name":"Waldbronn",
     "wof:parent_id":1377688277,
     "wof:placetype":"locality",
-    "wof:population":12010,
+    "wof:population":13080,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

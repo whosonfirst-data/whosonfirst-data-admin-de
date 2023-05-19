@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwesing",
+    "eurostat:nuts_2021_id":"01054118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054118",
+    "eurostat:population":956,
+    "eurostat:population_year":2020,
     "geom:area":0.002155,
     "geom:area_square_m":15471683.379617,
     "geom:bbox":"9.09251730142,54.4797846766,9.17243152483,54.5178458038",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054118",
+        "eurostat:nuts_2021_id":"01054118",
         "gn:id":2834249,
         "qs_pg:id":93084,
         "wd:id":"Q573045"
@@ -292,7 +307,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d2f2d5e9c5d9c628a3def00548de5c58",
+    "wof:geomhash":"1b7274ffe8f1d37af47369cd2d7e805b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -304,11 +319,11 @@
         }
     ],
     "wof:id":1125844435,
-    "wof:lastmodified":1582343055,
+    "wof:lastmodified":1684352025,
     "wof:name":"Schwesing",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":908,
+    "wof:population":956,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

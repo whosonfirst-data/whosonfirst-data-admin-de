@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137216",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fclheim-K\u00e4rlich, Stadt",
+    "eurostat:nuts_2021_id":"07137216",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137216",
+    "eurostat:population":11215,
+    "eurostat:population_year":2020,
     "geom:area":0.002067,
     "geom:area_square_m":16298849.351915,
     "geom:bbox":"7.46513958499,50.3632803782,7.53821642931,50.4129385365",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137216",
+        "eurostat:nuts_2021_id":"07137216",
         "gn:id":3207806,
         "gp:id":20162881,
         "qs_pg:id":1174809,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cec4342898855dcf032c5d95cfcc5560",
+    "wof:geomhash":"14cb3b96ca9fe51b95e0433fad85c903",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101812269,
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351884,
     "wof:name":"M\u00fclheim-K\u00e4rlich",
     "wof:parent_id":1377685591,
     "wof:placetype":"locality",
-    "wof:population":10451,
+    "wof:population":11215,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pfronten",
+    "eurostat:nuts_2021_id":"09777159",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777159",
+    "eurostat:population":8348,
+    "eurostat:population_year":2020,
     "geom:area":0.00746,
-    "geom:area_square_m":62231745.900579,
+    "geom:area_square_m":62231745.90058,
     "geom:bbox":"10.45446,47.533577,10.597954,47.612963",
     "geom:latitude":47.570673,
     "geom:longitude":10.532698,
@@ -177,22 +189,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063239,
         1377692985,
         404227547,
-        85682571
+        102063239
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777159",
+        "eurostat:nuts_2021_id":"09777159",
         "gn:id":2853949,
         "gp:id":20096952,
         "qs_pg:id":259357,
@@ -206,7 +221,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cd78e05effea3901aabdc278997d3b1",
+    "wof:geomhash":"8765a3e04d4fe7e8dc93e13de48b424b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -219,11 +234,11 @@
         }
     ],
     "wof:id":101788937,
-    "wof:lastmodified":1608051891,
+    "wof:lastmodified":1684351846,
     "wof:name":"Pfronten",
     "wof:parent_id":1377692985,
     "wof:placetype":"locality",
-    "wof:population":7890,
+    "wof:population":8348,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

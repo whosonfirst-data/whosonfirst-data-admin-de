@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00fcrstenberg",
+    "eurostat:nuts_2021_id":"03255014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255014",
+    "eurostat:population":1014,
+    "eurostat:population_year":2020,
     "geom:area":0.00042,
-    "geom:area_square_m":3217173.005087,
+    "geom:area_square_m":3217173.005086,
     "geom:bbox":"9.38712642457,51.7080137675,9.42754501857,51.7403865266",
     "geom:latitude":51.72684,
     "geom:longitude":9.402892,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":363,
     "wof:belongsto":[
         85682555,
@@ -311,6 +324,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255014",
+        "eurostat:nuts_2021_id":"03255014",
         "gn:id":2923638,
         "gp:id":12629525,
         "qs_pg:id":579095,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"590effbe99fc23d5525122a000392faa",
+    "wof:geomhash":"cdfe9233c8db1f18da46c1157621cae4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101809019,
-    "wof:lastmodified":1582342601,
+    "wof:lastmodified":1684351866,
     "wof:name":"F\u00fcrstenberg",
     "wof:parent_id":1377686829,
     "wof:placetype":"locality",
-    "wof:population":1323,
+    "wof:population":1014,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

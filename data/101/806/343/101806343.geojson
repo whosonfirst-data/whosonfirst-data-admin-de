@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wistedt",
+    "eurostat:nuts_2021_id":"03353041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353041",
+    "eurostat:population":1764,
+    "eurostat:population_year":2020,
     "geom:area":0.002485,
-    "geom:area_square_m":18377326.805371,
+    "geom:area_square_m":18377326.805369,
     "geom:bbox":"9.60217282469,53.2391111623,9.70820749891,53.2867500296",
     "geom:latitude":53.263263,
     "geom:longitude":9.655081,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353041",
+        "eurostat:nuts_2021_id":"03353041",
         "gn:id":2807411,
         "gp:id":707266,
         "qs_pg:id":1038034,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5ad050fe28e062c74cdea044fdc38148",
+    "wof:geomhash":"32d55a472af865ba18a50221775a1d5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101806343,
-    "wof:lastmodified":1582342623,
+    "wof:lastmodified":1684351850,
     "wof:name":"Wistedt",
     "wof:parent_id":1377687415,
     "wof:placetype":"locality",
-    "wof:population":1732,
+    "wof:population":1764,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

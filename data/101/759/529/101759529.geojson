@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirrweiler (Pfalz)",
+    "eurostat:nuts_2021_id":"07337047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337047",
+    "eurostat:population":2005,
+    "eurostat:population_year":2020,
     "geom:area":0.001854,
-    "geom:area_square_m":14946306.312916,
+    "geom:area_square_m":14946306.312915,
     "geom:bbox":"7.98004379045,49.2875647167,8.20197754647,49.3437940505",
     "geom:latitude":49.311668,
     "geom:longitude":8.104212,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337047",
+        "eurostat:nuts_2021_id":"07337047",
         "gn:id":2890277,
         "gp:id":666080,
         "qs_pg:id":93585,
@@ -159,7 +174,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6f59d395d0bdb5e9a14952389cac7759",
+    "wof:geomhash":"957c5b1d0ad48f9d774c5e08856f9a07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101759529,
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351797,
     "wof:name":"Kirrweiler (Pfalz)",
     "wof:parent_id":1377686553,
     "wof:placetype":"locality",
-    "wof:population":2034,
+    "wof:population":2005,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

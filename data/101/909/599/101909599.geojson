@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dorstadt",
+    "eurostat:nuts_2021_id":"03158010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158010",
+    "eurostat:population":692,
+    "eurostat:population_year":2020,
     "geom:area":0.001336,
-    "geom:area_square_m":10151196.493334,
+    "geom:area_square_m":10151196.493332,
     "geom:bbox":"10.5044695244,52.0815352229,10.5785566031,52.1131315096",
     "geom:latitude":52.097508,
     "geom:longitude":10.546636,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158010",
+        "eurostat:nuts_2021_id":"03158010",
         "gn:id":2935532,
         "gp:id":645446,
         "qs_pg:id":579356,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"653297054c8e51df6e4ea803118dba87",
+    "wof:geomhash":"5f87f53982de8048502527c1db21e8e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101909599,
-    "wof:lastmodified":1582342288,
+    "wof:lastmodified":1684352002,
     "wof:name":"Dorstadt",
     "wof:parent_id":1377686129,
     "wof:placetype":"locality",
-    "wof:population":703,
+    "wof:population":692,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

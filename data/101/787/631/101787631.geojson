@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Benediktbeuern",
+    "eurostat:nuts_2021_id":"09173113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173113",
+    "eurostat:population":3602,
+    "eurostat:population_year":2020,
     "geom:area":0.004517,
-    "geom:area_square_m":37600861.342991,
+    "geom:area_square_m":37600861.342988,
     "geom:bbox":"11.3440798893,47.6510402848,11.482971391,47.7244668255",
     "geom:latitude":47.689484,
     "geom:longitude":11.422431,
@@ -187,7 +199,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":220,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -203,6 +216,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173113",
+        "eurostat:nuts_2021_id":"09173113",
         "gn:id":2951104,
         "gp:id":637690,
         "qs_pg:id":1065264,
@@ -214,7 +229,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a29c459adcef2e835d5f248553cae13b",
+    "wof:geomhash":"983cbeb692107b030c23052ca05dea82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -227,11 +242,11 @@
         }
     ],
     "wof:id":101787631,
-    "wof:lastmodified":1582342648,
+    "wof:lastmodified":1684351842,
     "wof:name":"Benediktbeuern",
     "wof:parent_id":1377691111,
     "wof:placetype":"locality",
-    "wof:population":3437,
+    "wof:population":3602,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

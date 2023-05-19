@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Drage",
+    "eurostat:nuts_2021_id":"03353007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353007",
+    "eurostat:population":4220,
+    "eurostat:population_year":2020,
     "geom:area":0.004116,
-    "geom:area_square_m":30348862.071554,
+    "geom:area_square_m":30348862.071558,
     "geom:bbox":"10.2449629731,53.3497257263,10.3559231824,53.4332224826",
     "geom:latitude":53.395326,
     "geom:longitude":10.296162,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353007",
+        "eurostat:nuts_2021_id":"03353007",
         "gn:id":2935375,
         "gp:id":645529,
         "qs_pg:id":579347,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"16545ba6c6f80b89e8657e0ebbd357b7",
+    "wof:geomhash":"83e3250fe8cb001e7baefcd8f89fb41f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101806351,
-    "wof:lastmodified":1582342617,
+    "wof:lastmodified":1684351850,
     "wof:name":"Drage",
     "wof:parent_id":1377687369,
     "wof:placetype":"locality",
-    "wof:population":3623,
+    "wof:population":4220,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

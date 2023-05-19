@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mandel",
+    "eurostat:nuts_2021_id":"07133061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133061",
+    "eurostat:population":913,
+    "eurostat:population_year":2020,
     "geom:area":0.000795,
-    "geom:area_square_m":6334575.904574,
+    "geom:area_square_m":6334575.904573,
     "geom:bbox":"7.73633110386,49.8431271921,7.8043731124,49.8658278063",
     "geom:latitude":49.854282,
     "geom:longitude":7.7691,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":320,
     "wof:belongsto":[
         85682491,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133061",
+        "eurostat:nuts_2021_id":"07133061",
         "gn:id":2873989,
         "gp:id":673652,
         "qs_pg:id":577905,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ce59b76299acf6164d0f058a482f0e45",
+    "wof:geomhash":"49ba3378ed888e8c7a02d7ccf7353c49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101906953,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351983,
     "wof:name":"Mandel",
     "wof:parent_id":1377685409,
     "wof:placetype":"locality",
-    "wof:population":817,
+    "wof:population":913,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

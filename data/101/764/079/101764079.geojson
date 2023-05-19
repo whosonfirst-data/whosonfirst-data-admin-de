@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trossingen, Stadt",
+    "eurostat:nuts_2021_id":"08327049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327049",
+    "eurostat:population":16856,
+    "eurostat:population_year":2020,
     "geom:area":0.002888,
     "geom:area_square_m":23858621.80966,
     "geom:bbox":"8.59913905123,48.0405054939,8.67483604274,48.1022335592",
@@ -175,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.075556,
     "wd:longitude":8.636111,
     "wd:wordcount":383,
@@ -193,6 +206,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327049",
+        "eurostat:nuts_2021_id":"08327049",
         "gn:id":2820973,
         "gp:id":700133,
         "qs_pg:id":219224,
@@ -204,7 +219,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d592631ca9e843c678bb350f365aed69",
+    "wof:geomhash":"c461c9793061a45ace47a9c981652c5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
         }
     ],
     "wof:id":101764079,
-    "wof:lastmodified":1582342299,
+    "wof:lastmodified":1684351812,
     "wof:name":"Trossingen",
     "wof:parent_id":1377689637,
     "wof:placetype":"locality",
-    "wof:population":15040,
+    "wof:population":16856,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

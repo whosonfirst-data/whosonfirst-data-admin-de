@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchen (Sieg), Stadt",
+    "eurostat:nuts_2021_id":"07132063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132063",
+    "eurostat:population":8492,
+    "eurostat:population_year":2020,
     "geom:area":0.004987,
-    "geom:area_square_m":38955945.22121,
+    "geom:area_square_m":38955945.221206,
     "geom:bbox":"7.80669945004,50.7813299419,7.94284091953,50.8676750413",
     "geom:latitude":50.821155,
     "geom:longitude":7.877524,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132063",
+        "eurostat:nuts_2021_id":"07132063",
         "gn:id":2890586,
         "gp:id":665917,
         "qs_pg:id":232552,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7e4d2ba4e7e72acbceea71d46c76dfbc",
+    "wof:geomhash":"c754a295ddcd7ca1e162b5e039841807",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101839469,
-    "wof:lastmodified":1582342626,
+    "wof:lastmodified":1684351947,
     "wof:name":"Kirchen (Sieg)",
     "wof:parent_id":1377685335,
     "wof:placetype":"locality",
-    "wof:population":9342,
+    "wof:population":8492,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

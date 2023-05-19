@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Johanniskirchen",
+    "eurostat:nuts_2021_id":"09277126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277126",
+    "eurostat:population":2517,
+    "eurostat:population_year":2020,
     "geom:area":0.004919,
-    "geom:area_square_m":40266080.468684,
+    "geom:area_square_m":40266080.468682,
     "geom:bbox":"12.889979,48.510502,13.023227,48.583451",
     "geom:latitude":48.544142,
     "geom:longitude":12.96191,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685117,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277126",
+        "eurostat:nuts_2021_id":"09277126",
         "gn:id":2894771,
         "gp:id":664192,
         "qs_pg:id":142351,
@@ -171,7 +186,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8dd321dc0d1ad25349d39fb50624902a",
+    "wof:geomhash":"e279df117bec35bfc1e31ba22da12e3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101784261,
-    "wof:lastmodified":1608050673,
+    "wof:lastmodified":1684351831,
     "wof:name":"Johanniskirchen",
     "wof:parent_id":1377685117,
     "wof:placetype":"locality",
-    "wof:population":2470,
+    "wof:population":2517,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

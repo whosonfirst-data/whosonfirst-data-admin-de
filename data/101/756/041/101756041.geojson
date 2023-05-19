@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064336",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenhagen bei Berlin",
+    "eurostat:nuts_2021_id":"12064336",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064336",
+    "eurostat:population":18657,
+    "eurostat:population_year":2020,
     "geom:area":0.002576,
-    "geom:area_square_m":19380402.006332,
+    "geom:area_square_m":19380402.00633,
     "geom:bbox":"13.656866,52.499043,13.742898,52.546415",
     "geom:latitude":52.526708,
     "geom:longitude":13.700862,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":146,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063963,
         1377694663,
-        85682553
+        85633111,
+        102063963
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064336",
+        "eurostat:nuts_2021_id":"12064336",
         "gn:id":2865716,
         "gp:id":678194,
         "qs_pg:id":1037519,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e9aadbff942ed42ada654f9cffbf8c75",
+    "wof:geomhash":"c50809d007728322d8231b8453b1d08e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101756041,
-    "wof:lastmodified":1608050800,
+    "wof:lastmodified":1684351792,
     "wof:name":"Neuenhagen bei Berlin",
     "wof:parent_id":1377694663,
     "wof:placetype":"locality",
-    "wof:population":17007,
+    "wof:population":18657,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

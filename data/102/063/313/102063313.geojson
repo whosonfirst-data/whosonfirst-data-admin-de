@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"3",
+    "eurostat:name_latin":"Freudenstadt",
+    "eurostat:name_local":"Freudenstadt",
+    "eurostat:nuts_2021_id":"DE12C",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12C",
+    "eurostat:population":119183,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"3",
     "geom:area":0.105947,
-    "geom:area_square_m":868509485.943241,
+    "geom:area_square_m":868509485.943239,
     "geom:bbox":"8.206727,48.301116,8.828929,48.639458",
     "geom:latitude":48.474393,
     "geom:longitude":8.465303,
@@ -171,8 +185,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"871",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Freudenstadt",
@@ -185,19 +199,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227555,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE12C",
         "hasc:id":"DE.BW.FE"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"779955acd16fab73f2abdbe3bb194923",
+    "wof:geomhash":"743c7dc25ba55eb1f386d769ea6095ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,12 +223,12 @@
         }
     ],
     "wof:id":102063313,
-    "wof:lastmodified":1587164314,
+    "wof:lastmodified":1684351510,
     "wof:name":"Freudenstadt",
     "wof:parent_id":404227555,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":115973,
+    "wof:population":119183,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"FE",

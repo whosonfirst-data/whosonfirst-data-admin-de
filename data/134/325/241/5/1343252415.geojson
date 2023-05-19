@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Falkenstein",
+    "eurostat:nuts_2021_id":"07333020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333020",
+    "eurostat:population":179,
+    "eurostat:population_year":2020,
     "geom:area":0.000921,
     "geom:area_square_m":7379604.758049,
     "geom:bbox":"7.84470833683,49.5873939436,7.88757458475,49.6308305538",
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -130,13 +143,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333020",
+        "eurostat:nuts_2021_id":"07333020",
         "gn:id":2927916
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"f62c7a522058c5f63710b38f7f854589",
+    "wof:geomhash":"5f52cbcd326b5ece910e7e70b81d60c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,12 +163,12 @@
         }
     ],
     "wof:id":1343252415,
-    "wof:lastmodified":1582341946,
+    "wof:lastmodified":1684352062,
     "wof:name":"Falkenstein",
     "wof:parent_id":1377686355,
     "wof:placetype":"locality",
-    "wof:population":236,
-    "wof:population_rank":2,
+    "wof:population":179,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Serrig",
+    "eurostat:nuts_2021_id":"07235126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235126",
+    "eurostat:population":1662,
+    "eurostat:population_year":2020,
     "geom:area":0.002241,
-    "geom:area_square_m":17974340.283805,
+    "geom:area_square_m":17974340.283803,
     "geom:bbox":"6.54867389765,49.5459828608,6.6535063502,49.5933790308",
     "geom:latitude":49.570817,
     "geom:longitude":6.603875,
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235126",
+        "eurostat:nuts_2021_id":"07235126",
         "gn:id":2832940,
         "gp:id":694592,
         "qs_pg:id":490863,
@@ -318,7 +333,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3f950b97440048edc4eb9c4f45e463ba",
+    "wof:geomhash":"d7bbaaf65b46714ae6ac5e69097280ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101813385,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351890,
     "wof:name":"Serrig",
     "wof:parent_id":1377686055,
     "wof:placetype":"locality",
-    "wof:population":1580,
+    "wof:population":1662,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kreien",
+    "eurostat:nuts_2021_id":"13076075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076075",
+    "eurostat:population":363,
+    "eurostat:population_year":2020,
     "geom:area":0.003389,
     "geom:area_square_m":24978917.296643,
     "geom:bbox":"12.0141840975,53.3693122542,12.1110151131,53.4328621355",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076075",
+        "eurostat:nuts_2021_id":"13076075",
         "gn:id":2884490,
         "gp:id":668743,
         "qs_pg:id":578194,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8c9035f95b79a1b9efed0e4e5a1893a8",
+    "wof:geomhash":"a3dfd6f49681f783b9d19f6d6f647a55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101907815,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351991,
     "wof:name":"Kreien",
     "wof:parent_id":1377685253,
     "wof:placetype":"locality",
-    "wof:population":454,
+    "wof:population":363,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

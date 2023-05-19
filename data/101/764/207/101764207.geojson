@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08437118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wald",
+    "eurostat:nuts_2021_id":"08437118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE149",
+    "eurostat:nuts_2021_level_lau":"08437118",
+    "eurostat:population":2674,
+    "eurostat:population_year":2020,
     "geom:area":0.005285,
-    "geom:area_square_m":43784127.232156,
+    "geom:area_square_m":43784127.232155,
     "geom:bbox":"9.10261457984,47.8822095268,9.22529328817,47.9799728872",
     "geom:latitude":47.931821,
     "geom:longitude":9.166768,
@@ -136,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08437118",
+        "eurostat:nuts_2021_id":"08437118",
         "fct:id":"0715deda-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2815205,
         "gp:id":703351,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3cc631c22169afe608b8087e8a06beef",
+    "wof:geomhash":"aa73c8e2ef41381a1fc52826cd3766b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351813,
     "wof:name":"Wald",
     "wof:parent_id":1377690649,
     "wof:placetype":"locality",
-    "wof:population":2706,
+    "wof:population":2674,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

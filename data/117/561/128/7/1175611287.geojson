@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gundelfingen a.d.Donau, St",
+    "eurostat:nuts_2021_id":"09773136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773136",
+    "eurostat:population":7808,
+    "eurostat:population_year":2020,
     "geom:area":0.006545,
-    "geom:area_square_m":53595737.276217,
+    "geom:area_square_m":53595737.276208,
     "geom:bbox":"10.2711410481,48.4796149443,10.4103263498,48.5832436213",
     "geom:latitude":48.525747,
     "geom:longitude":10.353608,
@@ -161,7 +173,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":92,
     "wof:belongsto":[
         85682571,
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773136",
+        "eurostat:nuts_2021_id":"09773136",
         "gn:id":6559032,
         "gp:id":663185,
         "qs_pg:id":639051,
@@ -186,7 +201,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"17fe1ea28ec39debeccfd5fb7a8c9f80",
+    "wof:geomhash":"40e7b85646f8a703913d6c01583ffe73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":1175611287,
-    "wof:lastmodified":1582342080,
+    "wof:lastmodified":1684352055,
     "wof:name":"Gundelfingen a.d. Donau",
     "wof:parent_id":1377692597,
     "wof:placetype":"locality",
-    "wof:population":7670,
+    "wof:population":7808,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

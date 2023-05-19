@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plochingen, Stadt",
+    "eurostat:nuts_2021_id":"08116056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116056",
+    "eurostat:population":14551,
+    "eurostat:population_year":2020,
     "geom:area":0.001306,
-    "geom:area_square_m":10652554.209115,
+    "geom:area_square_m":10652554.209114,
     "geom:bbox":"9.388600607,48.6987971649,9.45245002356,48.742569979",
     "geom:latitude":48.718396,
     "geom:longitude":9.421577,
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.711667,
     "wd:longitude":9.416389,
     "wd:wordcount":246,
@@ -334,6 +347,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116056",
+        "eurostat:nuts_2021_id":"08116056",
         "gn:id":2853180,
         "gp:id":685361,
         "loc:id":"n82066549",
@@ -346,7 +361,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c7e05717b65639a8cd27ec2405ec5463",
+    "wof:geomhash":"f7a332860efab46f63dea3c51da26f4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101756255,
-    "wof:lastmodified":1582342503,
+    "wof:lastmodified":1684351793,
     "wof:name":"Plochingen",
     "wof:parent_id":1377687117,
     "wof:placetype":"locality",
-    "wof:population":14465,
+    "wof:population":14551,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f6nningen",
+    "eurostat:nuts_2021_id":"07131029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131029",
+    "eurostat:population":1024,
+    "eurostat:population_year":2020,
     "geom:area":0.00126,
     "geom:area_square_m":9916002.173574,
     "geom:bbox":"6.920927131,50.4459980809,6.97905813308,50.4806297215",
@@ -128,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -138,6 +151,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131029",
+        "eurostat:nuts_2021_id":"07131029",
         "gn:id":2899327,
         "gp:id":662115,
         "qs_pg:id":1,
@@ -148,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8899203b65c86f6d8156b3d98aca255b",
+    "wof:geomhash":"9c9e5b55ac718ad25b76a34e393ca6b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +175,11 @@
         }
     ],
     "wof:id":101810671,
-    "wof:lastmodified":1582342406,
+    "wof:lastmodified":1684351874,
     "wof:name":"H\u00f6nningen",
     "wof:parent_id":1377685273,
     "wof:placetype":"locality",
-    "wof:population":1080,
+    "wof:population":1024,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

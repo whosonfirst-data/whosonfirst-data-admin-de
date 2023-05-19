@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kolbermoor, St",
+    "eurostat:nuts_2021_id":"09187150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187150",
+    "eurostat:population":18532,
+    "eurostat:population_year":2020,
     "geom:area":0.002353,
-    "geom:area_square_m":19529917.861623,
+    "geom:area_square_m":19529917.861625,
     "geom:bbox":"12.002064,47.817686,12.0842,47.870462",
     "geom:latitude":47.843503,
     "geom:longitude":12.047742,
@@ -196,22 +208,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":136,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377694115,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187150",
+        "eurostat:nuts_2021_id":"09187150",
         "gn:id":2886446,
         "gp:id":15002679,
         "qs_pg:id":142280,
@@ -226,7 +241,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1ef95f4631fe6b3f2684928f3cebaff6",
+    "wof:geomhash":"e9c24ba699a6e22f9482467f4fc95e5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -239,11 +254,11 @@
         }
     ],
     "wof:id":101755873,
-    "wof:lastmodified":1608049399,
+    "wof:lastmodified":1684351791,
     "wof:name":"Kolbermoor",
     "wof:parent_id":1377694115,
     "wof:placetype":"locality",
-    "wof:population":17941,
+    "wof:population":18532,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Belg",
+    "eurostat:nuts_2021_id":"07140007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140007",
+    "eurostat:population":112,
+    "eurostat:population_year":2020,
     "geom:area":0.000599,
     "geom:area_square_m":4759816.583569,
     "geom:bbox":"7.28501948515,49.9670636681,7.33303956815,49.9967854506",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140007",
+        "eurostat:nuts_2021_id":"07140007",
         "gn:id":2951261,
         "qs_pg:id":579841,
         "wd:id":"Q648515"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f81df8156f14d8ac6b5417e59b35ce2b",
+    "wof:geomhash":"00fae988fd063351f34f68700f57b198",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126014551,
-    "wof:lastmodified":1582343015,
+    "wof:lastmodified":1684352048,
     "wof:name":"Belg",
     "wof:parent_id":1377685687,
     "wof:placetype":"locality",
-    "wof:population":167,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

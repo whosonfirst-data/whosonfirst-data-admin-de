@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dietfurt a.d.Altm\u00fchl, St",
+    "eurostat:nuts_2021_id":"09373121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373121",
+    "eurostat:population":6167,
+    "eurostat:population_year":2020,
     "geom:area":0.009693,
-    "geom:area_square_m":78589685.796947,
+    "geom:area_square_m":78589685.796959,
     "geom:bbox":"11.514761982,48.9514971252,11.6781269326,49.0965764263",
     "geom:latitude":49.029098,
     "geom:longitude":11.590892,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373121",
+        "eurostat:nuts_2021_id":"09373121",
         "gn:id":2937110,
         "gp:id":644652,
         "qs_pg:id":142690,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3666784862c1887be6dfe651d9a90924",
+    "wof:geomhash":"2e187f182ac086b0788c33aa24faf263",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101782081,
-    "wof:lastmodified":1582342463,
+    "wof:lastmodified":1684351823,
     "wof:name":"Dietfurt a.d. Altm\u00fchl",
     "wof:parent_id":1377686049,
     "wof:placetype":"locality",
-    "wof:population":6161,
+    "wof:population":6167,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

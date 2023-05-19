@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01001000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flensburg, Stadt",
+    "eurostat:nuts_2021_id":"01001000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF01",
+    "eurostat:nuts_2021_level_lau":"01001000",
+    "eurostat:population":90164,
+    "eurostat:population_year":2020,
     "geom:area":0.006873,
-    "geom:area_square_m":49004885.40239,
+    "geom:area_square_m":49004884.652563,
     "geom:bbox":"9.357221,54.751873,9.506715,54.824161",
     "geom:latitude":54.784991,
     "geom:longitude":9.438526,
@@ -412,7 +424,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -426,6 +439,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01001000",
+        "eurostat:nuts_2021_id":"01001000",
         "gn:id":2926271,
         "gp:id":649939,
         "qs_pg:id":455684,
@@ -439,7 +454,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58d5952008a93d997d6fee3cedfedbbc",
+    "wof:geomhash":"32a8d6fad97e2b7e5b53c321d6dc2d43",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -451,11 +466,11 @@
         }
     ],
     "wof:id":101906421,
-    "wof:lastmodified":1636499970,
+    "wof:lastmodified":1684351980,
     "wof:name":"Flensburg",
     "wof:parent_id":1377684347,
     "wof:placetype":"locality",
-    "wof:population":85838,
+    "wof:population":90164,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

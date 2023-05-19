@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukirchen-Vluyn, Stadt",
+    "eurostat:nuts_2021_id":"05170028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170028",
+    "eurostat:population":27187,
+    "eurostat:population_year":2020,
     "geom:area":0.005582,
-    "geom:area_square_m":43020401.724988,
+    "geom:area_square_m":43020401.724987,
     "geom:bbox":"6.497609,51.389514,6.599067,51.481341",
     "geom:latitude":51.443106,
     "geom:longitude":6.550078,
@@ -328,22 +340,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":190,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689919,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170028",
+        "eurostat:nuts_2021_id":"05170028",
         "gn:id":6557519,
         "gp:id":20170651,
         "qs_pg:id":637542,
@@ -356,7 +371,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bebfbbb66a346707e9b84e3585d3cae8",
+    "wof:geomhash":"86a83de490510bbdd1ce79208c9aa795",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -369,11 +384,11 @@
         }
     ],
     "wof:id":101845735,
-    "wof:lastmodified":1608049955,
+    "wof:lastmodified":1684351959,
     "wof:name":"Neukirchen-Vluyn",
     "wof:parent_id":1377689919,
     "wof:placetype":"locality",
-    "wof:population":26924,
+    "wof:population":27187,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wimmelburg",
+    "eurostat:nuts_2021_id":"15087470",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087470",
+    "eurostat:population":1126,
+    "eurostat:population_year":2020,
     "geom:area":0.001118,
-    "geom:area_square_m":8602353.29579,
+    "geom:area_square_m":8602353.295791,
     "geom:bbox":"11.4465785771,51.5017354348,11.5215048414,51.5296246759",
     "geom:latitude":51.515514,
     "geom:longitude":11.483481,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682519,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087470",
+        "eurostat:nuts_2021_id":"15087470",
         "gn:id":2808359,
         "gp:id":706818,
         "qs_pg:id":847208,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"10be32f07f6a6d244692d5ae8e44307b",
+    "wof:geomhash":"249ddd2dc126395a6026245df86945cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101841387,
-    "wof:lastmodified":1582342523,
+    "wof:lastmodified":1684351953,
     "wof:name":"Wimmelburg",
     "wof:parent_id":1377688807,
     "wof:placetype":"locality",
-    "wof:population":1410,
+    "wof:population":1126,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

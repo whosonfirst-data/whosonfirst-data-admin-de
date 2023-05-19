@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lasel",
+    "eurostat:nuts_2021_id":"07232256",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232256",
+    "eurostat:population":320,
+    "eurostat:population_year":2020,
     "geom:area":0.00057,
     "geom:area_square_m":4516488.247195,
     "geom:bbox":"6.42604434933,50.105659267,6.47710749044,50.1242600226",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232256",
+        "eurostat:nuts_2021_id":"07232256",
         "gn:id":2880388,
         "qs_pg:id":578080,
         "wd:id":"Q648635"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"1144497ce6a2811a0f7d5f1238fa0984",
+    "wof:geomhash":"e60a679c519263feb9b7c620f9620bda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125841733,
-    "wof:lastmodified":1582343051,
+    "wof:lastmodified":1684352022,
     "wof:name":"Lasel",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":355,
+    "wof:population":320,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

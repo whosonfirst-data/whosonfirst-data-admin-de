@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08316042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Simonswald",
+    "eurostat:nuts_2021_id":"08316042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE133",
+    "eurostat:nuts_2021_level_lau":"08316042",
+    "eurostat:population":3030,
+    "eurostat:population_year":2020,
     "geom:area":0.008974,
-    "geom:area_square_m":74125816.917654,
+    "geom:area_square_m":74125816.917655,
     "geom:bbox":"8.01244204914,48.0081576186,8.16678270599,48.1316948029",
     "geom:latitude":48.086536,
     "geom:longitude":8.0875,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -338,6 +351,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08316042",
+        "eurostat:nuts_2021_id":"08316042",
         "gn:id":2818672,
         "gp:id":695127,
         "qs_pg:id":55854,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d2d5434d281d40ad3ec0ecebf3e390ed",
+    "wof:geomhash":"ed9b297fa248db67b6756eb746d6dc7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101842053,
-    "wof:lastmodified":1582342392,
+    "wof:lastmodified":1684351954,
     "wof:name":"Simonswald",
     "wof:parent_id":1377689241,
     "wof:placetype":"locality",
-    "wof:population":3009,
+    "wof:population":3030,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

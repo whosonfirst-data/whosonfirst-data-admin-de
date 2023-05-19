@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Igling",
+    "eurostat:nuts_2021_id":"09181127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181127",
+    "eurostat:population":2488,
+    "eurostat:population_year":2020,
     "geom:area":0.003194,
-    "geom:area_square_m":26391677.792959,
+    "geom:area_square_m":26391677.792961,
     "geom:bbox":"10.7559194067,48.0332977878,10.8484377498,48.103601014",
     "geom:latitude":48.066105,
     "geom:longitude":10.806416,
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":249,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -185,6 +198,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181127",
+        "eurostat:nuts_2021_id":"09181127",
         "gn:id":2932991,
         "gp:id":663263,
         "qs_pg:id":578461,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0b768e69187f3bc3a1bd0184980e093b",
+    "wof:geomhash":"f0362ab9ccced4021e86f6fb50725aec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101786579,
-    "wof:lastmodified":1582342642,
+    "wof:lastmodified":1684351839,
     "wof:name":"Igling",
     "wof:parent_id":1377692337,
     "wof:placetype":"locality",
-    "wof:population":2449,
+    "wof:population":2488,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

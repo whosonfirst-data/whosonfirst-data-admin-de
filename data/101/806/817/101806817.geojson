@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langwedel",
+    "eurostat:nuts_2021_id":"01058094",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058094",
+    "eurostat:population":1575,
+    "eurostat:population_year":2020,
     "geom:area":0.003337,
-    "geom:area_square_m":24125600.232913,
+    "geom:area_square_m":24125600.232912,
     "geom:bbox":"9.89092317736,54.181846596,9.97965142553,54.2498415345",
     "geom:latitude":54.218632,
     "geom:longitude":9.934584,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":137,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058094",
+        "eurostat:nuts_2021_id":"01058094",
         "gn:id":2880546,
         "gp:id":670368,
         "qs_pg:id":1067600,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dc9b330de1d4e32fb6fe640660bc1514",
+    "wof:geomhash":"ce20cce1b06d417dfc38491caea346c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101806817,
-    "wof:lastmodified":1582342613,
+    "wof:lastmodified":1684351855,
     "wof:name":"Langwedel",
     "wof:parent_id":1377684259,
     "wof:placetype":"locality",
-    "wof:population":1372,
+    "wof:population":1575,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

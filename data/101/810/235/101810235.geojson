@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trendelburg, Stadt",
+    "eurostat:nuts_2021_id":"06633025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633025",
+    "eurostat:population":4892,
+    "eurostat:population_year":2020,
     "geom:area":0.008927,
-    "geom:area_square_m":68602747.837283,
+    "geom:area_square_m":68602747.837282,
     "geom:bbox":"9.31982,51.527402,9.536537,51.626733",
     "geom:latitude":51.577109,
     "geom:longitude":9.406132,
@@ -299,20 +311,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.57341,
     "wd:longitude":9.42063,
     "wd:wordcount":78,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684655,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633025",
+        "eurostat:nuts_2021_id":"06633025",
         "gn:id":2821336,
         "gp:id":699937,
         "qs_pg:id":1213111,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1705171e7c5a81ae22ff203b65bac91c",
+    "wof:geomhash":"9f01054613e6faaae17b7a3ac03f36f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,12 +355,12 @@
         }
     ],
     "wof:id":101810235,
-    "wof:lastmodified":1608050047,
+    "wof:lastmodified":1684351872,
     "wof:name":"Trendelburg",
     "wof:parent_id":1377684655,
     "wof:placetype":"locality",
-    "wof:population":5749,
-    "wof:population_rank":5,
+    "wof:population":4892,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

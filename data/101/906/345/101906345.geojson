@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bokel",
+    "eurostat:nuts_2021_id":"01058021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058021",
+    "eurostat:population":588,
+    "eurostat:population_year":2020,
     "geom:area":0.002105,
-    "geom:area_square_m":15215631.906241,
+    "geom:area_square_m":15215631.90624,
     "geom:bbox":"9.73369245776,54.1995781237,9.82696683091,54.2466875798",
     "geom:latitude":54.223492,
     "geom:longitude":9.780726,
@@ -267,7 +279,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682517,
@@ -278,6 +291,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058021",
+        "eurostat:nuts_2021_id":"01058021",
         "gn:id":2946798,
         "gp:id":20163954,
         "qs_pg:id":579701,
@@ -288,7 +303,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1cc96ec3e18adabcbf7453c0089a4551",
+    "wof:geomhash":"8eac1448996307bef4a5e59316ba79fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -300,11 +315,11 @@
         }
     ],
     "wof:id":101906345,
-    "wof:lastmodified":1582342332,
+    "wof:lastmodified":1684351979,
     "wof:name":"Bokel",
     "wof:parent_id":1377684259,
     "wof:placetype":"locality",
-    "wof:population":675,
+    "wof:population":588,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

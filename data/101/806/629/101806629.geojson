@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01056051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westerhorn",
+    "eurostat:nuts_2021_id":"01056051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF09",
+    "eurostat:nuts_2021_level_lau":"01056051",
+    "eurostat:population":1330,
+    "eurostat:population_year":2020,
     "geom:area":0.001282,
-    "geom:area_square_m":9344881.508084,
+    "geom:area_square_m":9344881.508085,
     "geom:bbox":"9.64546066186,53.8472049285,9.70093638649,53.8893972225",
     "geom:latitude":53.868717,
     "geom:longitude":9.671787,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01056051",
+        "eurostat:nuts_2021_id":"01056051",
         "gn:id":2810300,
         "gp:id":705798,
         "qs_pg:id":576439,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e99838793ec4280c3a8fc12c1170aba6",
+    "wof:geomhash":"e54167d5da7867cb6f5576b7a37463c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101806629,
-    "wof:lastmodified":1582342613,
+    "wof:lastmodified":1684351853,
     "wof:name":"Westerhorn",
     "wof:parent_id":1377683981,
     "wof:placetype":"locality",
-    "wof:population":1293,
+    "wof:population":1330,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tambach-Dietharz/Th\u00fcr. Wald, Stadt",
+    "eurostat:nuts_2021_id":"16067065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067065",
+    "eurostat:population":4256,
+    "eurostat:population_year":2020,
     "geom:area":0.00528,
-    "geom:area_square_m":41289991.630505,
+    "geom:area_square_m":41289991.630501,
     "geom:bbox":"10.5374856249,50.7241814853,10.6513748516,50.8092112342",
     "geom:latitude":50.768474,
     "geom:longitude":10.602909,
@@ -149,7 +161,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067065",
+        "eurostat:nuts_2021_id":"16067065",
         "gn:id":2824285,
         "gp:id":698538,
         "qs_pg:id":1249941,
@@ -169,7 +184,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"24032b677d6a1e29929e5e21d47a5093",
+    "wof:geomhash":"448f80d70aefbcf0a5d0454f5a26f03d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101823257,
-    "wof:lastmodified":1582342531,
+    "wof:lastmodified":1684351925,
     "wof:name":"Tambach-Dietharz/Th\u00fcr. Wald",
     "wof:parent_id":1377690095,
     "wof:placetype":"locality",
-    "wof:population":4354,
+    "wof:population":4256,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

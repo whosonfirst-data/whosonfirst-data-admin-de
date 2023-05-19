@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Kohlgrub",
+    "eurostat:nuts_2021_id":"09180112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180112",
+    "eurostat:population":2854,
+    "eurostat:population_year":2020,
     "geom:area":0.003886,
-    "geom:area_square_m":32357114.46925,
+    "geom:area_square_m":32357114.469245,
     "geom:bbox":"11.028804,47.630437,11.12913,47.698226",
     "geom:latitude":47.664543,
     "geom:longitude":11.073884,
@@ -181,22 +193,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":135,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063197,
         1377692099,
         404227567,
-        85682571
+        102063197
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180112",
+        "eurostat:nuts_2021_id":"09180112",
         "fct:id":"071c6a34-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953420,
         "gp:id":636447,
@@ -212,7 +227,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1513bb1a5f2a8342861ce90664204f26",
+    "wof:geomhash":"e878bae88e5c68839e3f465c8c72295b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051901,
+    "wof:lastmodified":1684351845,
     "wof:name":"Bad Kohlgrub",
     "wof:parent_id":1377692099,
     "wof:placetype":"locality",
-    "wof:population":2416,
+    "wof:population":2854,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geroda, M",
+    "eurostat:nuts_2021_id":"09672126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672126",
+    "eurostat:population":799,
+    "eurostat:population_year":2020,
     "geom:area":0.002124,
-    "geom:area_square_m":16782995.495172,
+    "geom:area_square_m":16782995.495171,
     "geom:bbox":"9.8643862553,50.2583130743,9.93362083422,50.3143296119",
     "geom:latitude":50.288533,
     "geom:longitude":9.900415,
@@ -136,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672126",
+        "eurostat:nuts_2021_id":"09672126",
         "gn:id":2920989,
         "gp:id":652299,
         "qs_pg:id":912029,
@@ -158,7 +173,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6d67a11b12cd2decd0b8c6d12902b941",
+    "wof:geomhash":"01b3ff2581f85b75129283197c4feba7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101907255,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351986,
     "wof:name":"Geroda",
     "wof:parent_id":1377690621,
     "wof:placetype":"locality",
-    "wof:population":941,
+    "wof:population":799,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

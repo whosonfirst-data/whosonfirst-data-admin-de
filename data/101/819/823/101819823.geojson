@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wittingen, Stadt",
+    "eurostat:nuts_2021_id":"03151040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151040",
+    "eurostat:population":11421,
+    "eurostat:population_year":2020,
     "geom:area":0.030127,
-    "geom:area_square_m":225830539.393506,
+    "geom:area_square_m":225830539.393519,
     "geom:bbox":"10.627639,52.602544,10.902947,52.796669",
     "geom:latitude":52.683839,
     "geom:longitude":10.749173,
@@ -294,17 +306,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":411,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063949,
         1377684883,
-        85682555
+        85633111,
+        102063949
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151040",
+        "eurostat:nuts_2021_id":"03151040",
         "gn:id":2807257,
         "gp:id":707347,
         "qs_pg:id":1038026,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ac424494f44a3e3a9a38e952c89b88a2",
+    "wof:geomhash":"374529f5c8f206a8684483c72ca5b8b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101819823,
-    "wof:lastmodified":1608050276,
+    "wof:lastmodified":1684351909,
     "wof:name":"Wittingen",
     "wof:parent_id":1377684883,
     "wof:placetype":"locality",
-    "wof:population":12427,
+    "wof:population":11421,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

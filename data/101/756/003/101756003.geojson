@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Radebeul, Stadt",
+    "eurostat:nuts_2021_id":"14627210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627210",
+    "eurostat:population":33894,
+    "eurostat:population_year":2020,
     "geom:area":0.00334,
-    "geom:area_square_m":25925124.652226,
+    "geom:area_square_m":25925124.652227,
     "geom:bbox":"13.585058,51.088307,13.699944,51.143344",
     "geom:latitude":51.113307,
     "geom:longitude":13.640577,
@@ -200,21 +212,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":987,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687381,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627210",
+        "eurostat:nuts_2021_id":"14627210",
         "gn:id":2851077,
         "gp:id":686524,
         "qs_pg:id":455990,
@@ -229,7 +244,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"07e7f4cf249b7405f73b17c032959914",
+    "wof:geomhash":"273f28779e809530625cd9b1dd1c4c6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -241,11 +256,11 @@
         }
     ],
     "wof:id":101756003,
-    "wof:lastmodified":1608050837,
+    "wof:lastmodified":1684351792,
     "wof:name":"Radebeul",
     "wof:parent_id":1377687381,
     "wof:placetype":"locality",
-    "wof:population":32643,
+    "wof:population":33894,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westerburg, Stadt",
+    "eurostat:nuts_2021_id":"07143308",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143308",
+    "eurostat:population":5657,
+    "eurostat:population_year":2020,
     "geom:area":0.002349,
     "geom:area_square_m":18453520.552553,
     "geom:bbox":"7.92357918714,50.533168609,8.00864832719,50.590604601",
@@ -155,7 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1440,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -170,6 +183,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143308",
+        "eurostat:nuts_2021_id":"07143308",
         "gn:id":2810413,
         "gp:id":705040,
         "qs_pg:id":1303064,
@@ -180,7 +195,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a4f051759ed63cd36257a5c94f4c1e2a",
+    "wof:geomhash":"274f9061945496c9afe676be0619c159",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
         }
     ],
     "wof:id":101810777,
-    "wof:lastmodified":1582342404,
+    "wof:lastmodified":1684351875,
     "wof:name":"Westerburg",
     "wof:parent_id":1377685835,
     "wof:placetype":"locality",
-    "wof:population":5863,
+    "wof:population":5657,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

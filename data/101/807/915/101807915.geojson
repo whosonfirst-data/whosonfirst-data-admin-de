@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehrenburg",
+    "eurostat:nuts_2021_id":"03251015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251015",
+    "eurostat:population":1475,
+    "eurostat:population_year":2020,
     "geom:area":0.006537,
-    "geom:area_square_m":48942211.839865,
+    "geom:area_square_m":48942211.83987,
     "geom:bbox":"8.62965026473,52.6838691673,8.74836759616,52.7771667758",
     "geom:latitude":52.73464,
     "geom:longitude":8.684347,
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "wof:belongsto":[
         85682555,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251015",
+        "eurostat:nuts_2021_id":"03251015",
         "gn:id":2932841,
         "gp:id":705603,
         "qs_pg:id":1039949,
@@ -301,7 +316,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a2eae7cd98aa45f4ce8631f28d76077f",
+    "wof:geomhash":"06aa41a3e0b4aed69341bc03444087e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101807915,
-    "wof:lastmodified":1582342588,
+    "wof:lastmodified":1684351862,
     "wof:name":"Ehrenburg",
     "wof:parent_id":1377686559,
     "wof:placetype":"locality",
-    "wof:population":1686,
+    "wof:population":1475,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

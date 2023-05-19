@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03352045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osterbruch",
+    "eurostat:nuts_2021_id":"03352045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE932",
+    "eurostat:nuts_2021_level_lau":"03352045",
+    "eurostat:population":489,
+    "eurostat:population_year":2020,
     "geom:area":0.001433,
-    "geom:area_square_m":10475413.198411,
+    "geom:area_square_m":10475413.19841,
     "geom:bbox":"8.92710327244,53.7464665531,8.96169078988,53.8007452121",
     "geom:latitude":53.772576,
     "geom:longitude":8.945987,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":144,
     "wof:belongsto":[
         85682555,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03352045",
+        "eurostat:nuts_2021_id":"03352045",
         "gn:id":2856647,
         "gp:id":698161,
         "qs_pg:id":93276,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"db9b430ae0fab55c61a4371e5db7c94d",
+    "wof:geomhash":"237aeba0cfab9693347cd642dd4350c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101906107,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351976,
     "wof:name":"Osterbruch",
     "wof:parent_id":1377687309,
     "wof:placetype":"locality",
-    "wof:population":583,
+    "wof:population":489,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

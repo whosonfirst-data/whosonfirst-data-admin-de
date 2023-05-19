@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Binnen",
+    "eurostat:nuts_2021_id":"03256002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256002",
+    "eurostat:population":1011,
+    "eurostat:population_year":2020,
     "geom:area":0.003251,
-    "geom:area_square_m":24401845.02948,
+    "geom:area_square_m":24401845.029483,
     "geom:bbox":"9.04094870881,52.5842422904,9.16680922831,52.6611856959",
     "geom:latitude":52.630508,
     "geom:longitude":9.100591,
@@ -145,7 +157,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256002",
+        "eurostat:nuts_2021_id":"03256002",
         "gn:id":2948810,
         "gp:id":642325,
         "qs_pg:id":579740,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"89c6b19e6e4b9f5e438d1805e61b1a1a",
+    "wof:geomhash":"af940647a681a04a0830b30921906d91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101856227,
-    "wof:lastmodified":1582342447,
+    "wof:lastmodified":1684351969,
     "wof:name":"Binnen",
     "wof:parent_id":1377686949,
     "wof:placetype":"locality",
-    "wof:population":1051,
+    "wof:population":1011,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

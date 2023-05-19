@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00fcchenbach",
+    "eurostat:nuts_2021_id":"09576117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576117",
+    "eurostat:population":5233,
+    "eurostat:population_year":2020,
     "geom:area":0.00382,
-    "geom:area_square_m":30825145.609538,
+    "geom:area_square_m":30825145.609537,
     "geom:bbox":"10.968596,49.230474,11.080173,49.298631",
     "geom:latitude":49.26627,
     "geom:longitude":11.027645,
@@ -306,18 +318,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690007,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576117",
+        "eurostat:nuts_2021_id":"09576117",
         "fct:id":"071c5bca-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2942612,
         "gp:id":642010,
@@ -333,7 +348,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e7d78207401040678303f0b4e03e756b",
+    "wof:geomhash":"c2129c8024843f53b1fc047021e516f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050528,
+    "wof:lastmodified":1684351822,
     "wof:name":"B\u00fcchenbach",
     "wof:parent_id":1377690007,
     "wof:placetype":"locality",
-    "wof:population":5255,
+    "wof:population":5233,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

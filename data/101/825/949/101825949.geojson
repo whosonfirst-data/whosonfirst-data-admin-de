@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zeil a.Main, St",
+    "eurostat:nuts_2021_id":"09674221",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674221",
+    "eurostat:population":5624,
+    "eurostat:population_year":2020,
     "geom:area":0.00448,
-    "geom:area_square_m":35590293.895023,
+    "geom:area_square_m":35590293.895024,
     "geom:bbox":"10.551635,49.990612,10.675205,50.055226",
     "geom:latitude":50.023678,
     "geom:longitude":10.608145,
@@ -294,21 +306,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.016667,
     "wd:longitude":10.6,
     "wd:population":5684,
     "wd:wordcount":403,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377691041,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674221",
+        "eurostat:nuts_2021_id":"09674221",
         "gn:id":2805008,
         "gp:id":708611,
         "qs_pg:id":291355,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d0fa47e0b17cf9b1dd10d177aa1e6097",
+    "wof:geomhash":"06efacffd4c90c0397c615ccfb0f6df8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101825949,
-    "wof:lastmodified":1608051425,
+    "wof:lastmodified":1684351933,
     "wof:name":"Zeil a. Main",
     "wof:parent_id":1377691041,
     "wof:placetype":"locality",
-    "wof:population":5684,
+    "wof:population":5624,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

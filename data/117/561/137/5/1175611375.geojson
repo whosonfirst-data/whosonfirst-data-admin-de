@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Handorf",
+    "eurostat:nuts_2021_id":"03355017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355017",
+    "eurostat:population":2108,
+    "eurostat:population_year":2020,
     "geom:area":0.001326,
-    "geom:area_square_m":9791876.235073,
+    "geom:area_square_m":9791876.235072,
     "geom:bbox":"10.3064395519,53.3231988047,10.3672605492,53.3600288395",
     "geom:latitude":53.34197,
     "geom:longitude":10.338761,
@@ -170,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -180,6 +193,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355017",
+        "eurostat:nuts_2021_id":"03355017",
         "gn:id":2910973,
         "gp:id":20166761,
         "qs_pg:id":1039647,
@@ -190,7 +205,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db8a20923b45cca1d4019c137b8b8878",
+    "wof:geomhash":"cc2d175b9387453d44fd61e27ddbe3a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":1175611375,
-    "wof:lastmodified":1582342081,
+    "wof:lastmodified":1684352056,
     "wof:name":"Handorf",
     "wof:parent_id":1377687517,
     "wof:placetype":"locality",
-    "wof:population":2063,
+    "wof:population":2108,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

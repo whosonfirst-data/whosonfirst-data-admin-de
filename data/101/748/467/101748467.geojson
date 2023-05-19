@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09763000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kempten (Allg\u00e4u)",
+    "eurostat:nuts_2021_id":"09763000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE273",
+    "eurostat:nuts_2021_level_lau":"09763000",
+    "eurostat:population":69151,
+    "eurostat:population_year":2020,
     "geom:area":0.007585,
-    "geom:area_square_m":63075058.780823,
+    "geom:area_square_m":63075058.780822,
     "geom:bbox":"10.2331052381,47.6951357396,10.3778752367,47.7778768711",
     "geom:latitude":47.738208,
     "geom:longitude":10.308118,
@@ -247,7 +259,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -258,6 +271,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09763000",
+        "eurostat:nuts_2021_id":"09763000",
         "gn:id":2891621,
         "gp:id":665483,
         "qs_pg:id":578361,
@@ -274,7 +289,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"90b9490ff462d65b1dc6a8f39837ecfe",
+    "wof:geomhash":"11ba826f4e2926f780bb871c5a5df025",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -287,11 +302,11 @@
         }
     ],
     "wof:id":101748467,
-    "wof:lastmodified":1582342473,
+    "wof:lastmodified":1684351785,
     "wof:name":"Kempten (Allg\u00e4u)",
     "wof:parent_id":1377692221,
     "wof:placetype":"locality",
-    "wof:population":61399,
+    "wof:population":69151,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

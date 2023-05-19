@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beesten",
+    "eurostat:nuts_2021_id":"03454003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454003",
+    "eurostat:population":1602,
+    "eurostat:population_year":2020,
     "geom:area":0.003392,
-    "geom:area_square_m":25574699.017293,
+    "geom:area_square_m":25574699.017294,
     "geom:bbox":"7.45642656583,52.3959642329,7.54805322284,52.4579741616",
     "geom:latitude":52.427585,
     "geom:longitude":7.498739,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454003",
+        "eurostat:nuts_2021_id":"03454003",
         "gn:id":2951526,
         "gp:id":637456,
         "qs_pg:id":1040217,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b3228633c48296cf2d4f4b978424baec",
+    "wof:geomhash":"e08d517426d7a7970111444c2d9cc3b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101846405,
-    "wof:lastmodified":1582342528,
+    "wof:lastmodified":1684351961,
     "wof:name":"Beesten",
     "wof:parent_id":1377688551,
     "wof:placetype":"locality",
-    "wof:population":1707,
+    "wof:population":1602,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

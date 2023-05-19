@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Bertrich",
+    "eurostat:nuts_2021_id":"07135501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135501",
+    "eurostat:population":1046,
+    "eurostat:population_year":2020,
     "geom:area":0.001113,
-    "geom:area_square_m":8830689.035891,
+    "geom:area_square_m":8830689.035892,
     "geom:bbox":"7.00193862458,50.0650639687,7.05583529483,50.1066500047",
     "geom:latitude":50.084343,
     "geom:longitude":7.025327,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":885,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135501",
+        "eurostat:nuts_2021_id":"07135501",
         "gn:id":2953543,
         "gp:id":636395,
         "qs_pg:id":579920,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6063bcaafe5cf77aa480fc5689d558ac",
+    "wof:geomhash":"9e3d20436bbeecc70f352db068f0a71b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101907145,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351985,
     "wof:name":"Bad Bertrich",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":960,
-    "wof:population_rank":2,
+    "wof:population":1046,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

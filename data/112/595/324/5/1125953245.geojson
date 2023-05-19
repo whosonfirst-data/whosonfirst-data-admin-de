@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hergersweiler",
+    "eurostat:nuts_2021_id":"07337037",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337037",
+    "eurostat:population":231,
+    "eurostat:population_year":2020,
     "geom:area":0.000224,
     "geom:area_square_m":1810404.559027,
     "geom:bbox":"8.08249979658,49.0852455986,8.10320464377,49.0991714671",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337037",
+        "eurostat:nuts_2021_id":"07337037",
         "gn:id":2906104,
         "qs_pg:id":578671,
         "wd:id":"Q564496"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c96eb5c3ed19abee0e0cbee285793a8d",
+    "wof:geomhash":"5ed7e47c0f663d033b1281f6db7c9b72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125953245,
-    "wof:lastmodified":1582342972,
+    "wof:lastmodified":1684352040,
     "wof:name":"Hergersweiler",
     "wof:parent_id":1377686519,
     "wof:placetype":"locality",
-    "wof:population":212,
+    "wof:population":231,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerach",
+    "eurostat:nuts_2021_id":"07134028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134028",
+    "eurostat:population":220,
+    "eurostat:population_year":2020,
     "geom:area":0.000306,
     "geom:area_square_m":2447594.237737,
     "geom:bbox":"7.33069421856,49.740802029,7.3675860915,49.7586976098",
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -126,13 +139,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134028",
+        "eurostat:nuts_2021_id":"07134028",
         "gn:id":2921224
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"35ea7f8782d3810124a5295e6cd933b8",
+    "wof:geomhash":"e94dc707d81d3116c1eaddcc72b80b0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +159,11 @@
         }
     ],
     "wof:id":1260074769,
-    "wof:lastmodified":1582342070,
+    "wof:lastmodified":1684352059,
     "wof:name":"Gerach",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":244,
+    "wof:population":220,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

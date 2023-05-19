@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwarza",
+    "eurostat:nuts_2021_id":"16066065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066065",
+    "eurostat:population":1171,
+    "eurostat:population_year":2020,
     "geom:area":0.001717,
-    "geom:area_square_m":13472390.084879,
+    "geom:area_square_m":13472390.084876,
     "geom:bbox":"10.5057565011,50.5838358692,10.5660742145,50.6498244091",
     "geom:latitude":50.619547,
     "geom:longitude":10.533379,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682541,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066065",
+        "eurostat:nuts_2021_id":"16066065",
         "gn:id":2835194,
         "gp:id":693616,
         "qs_pg:id":5,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ee7effd1638967feed3579b7021896e",
+    "wof:geomhash":"87cfaef4d4477942fc30d5889b992c14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101824681,
-    "wof:lastmodified":1582342537,
+    "wof:lastmodified":1684351930,
     "wof:name":"Schwarza",
     "wof:parent_id":1377690037,
     "wof:placetype":"locality",
-    "wof:population":1256,
+    "wof:population":1171,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

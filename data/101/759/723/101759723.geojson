@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08225010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Binau",
+    "eurostat:nuts_2021_id":"08225010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE127",
+    "eurostat:nuts_2021_level_lau":"08225010",
+    "eurostat:population":1422,
+    "eurostat:population_year":2020,
     "geom:area":0.000627,
     "geom:area_square_m":5044673.91053,
     "geom:bbox":"9.04836778148,49.3636391113,9.10465371301,49.384824953",
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":134,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08225010",
+        "eurostat:nuts_2021_id":"08225010",
         "fct:id":"07384650-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2948861,
         "gp:id":638972,
@@ -185,7 +200,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b1529dbf55ac005f32f89dfa51075024",
+    "wof:geomhash":"5f1096a5022e8fb2348b1de68dc5e3a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342516,
+    "wof:lastmodified":1684351799,
     "wof:name":"Binau",
     "wof:parent_id":1377688519,
     "wof:placetype":"locality",
-    "wof:population":1311,
+    "wof:population":1422,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

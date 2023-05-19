@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Farven",
+    "eurostat:nuts_2021_id":"03357014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357014",
+    "eurostat:population":608,
+    "eurostat:population_year":2020,
     "geom:area":0.003452,
     "geom:area_square_m":25421259.687832,
     "geom:bbox":"9.23153128114,53.4122207205,9.34685366666,53.4719447132",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":140,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357014",
+        "eurostat:nuts_2021_id":"03357014",
         "gn:id":2927777,
         "gp:id":29350104,
         "qs_pg:id":579184,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6c4c9490940ed22df4838fd52be71016",
+    "wof:geomhash":"de5de6896c8d4c80426eac120696469f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101906041,
-    "wof:lastmodified":1582342323,
+    "wof:lastmodified":1684351975,
     "wof:name":"Farven",
     "wof:parent_id":1377687703,
     "wof:placetype":"locality",
-    "wof:population":733,
+    "wof:population":608,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

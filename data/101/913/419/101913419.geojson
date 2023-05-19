@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchdorf a.Inn",
+    "eurostat:nuts_2021_id":"09277128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277128",
+    "eurostat:population":5396,
+    "eurostat:population_year":2020,
     "geom:area":0.00385,
-    "geom:area_square_m":31703400.538438,
+    "geom:area_square_m":31703400.53844,
     "geom:bbox":"12.891853,48.206693,13.012931,48.281088",
     "geom:latitude":48.239183,
     "geom:longitude":12.957779,
@@ -130,18 +142,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":105,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063315,
         1377685135,
         404227559,
-        85682571
+        102063315
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277128",
+        "eurostat:nuts_2021_id":"09277128",
         "fct:id":"0747ab7c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2890602,
         "gp:id":665903,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"05137b59e78ab67f14d140a4b619274c",
+    "wof:geomhash":"474e40db06ba8e15137fb10da4a5ec27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050720,
+    "wof:lastmodified":1684352007,
     "wof:name":"Kirchdorf a. Inn",
     "wof:parent_id":1377685135,
     "wof:placetype":"locality",
-    "wof:population":5366,
+    "wof:population":5396,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

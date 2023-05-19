@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marktoberdorf, St",
+    "eurostat:nuts_2021_id":"09777151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777151",
+    "eurostat:population":18725,
+    "eurostat:population_year":2020,
     "geom:area":0.011407,
-    "geom:area_square_m":94822217.605201,
+    "geom:area_square_m":94822217.605196,
     "geom:bbox":"10.529862,47.694361,10.712649,47.805584",
     "geom:latitude":47.757494,
     "geom:longitude":10.619194,
@@ -160,18 +172,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":183,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063239,
         1377692961,
         404227547,
-        85682571
+        102063239
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777151",
+        "eurostat:nuts_2021_id":"09777151",
         "gn:id":2873291,
         "gp:id":674036,
         "qs_pg:id":1039152,
@@ -186,7 +201,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"aaeaebfbe2b94445e7fa42ee5551302b",
+    "wof:geomhash":"518bfb2a77ec1c0c7d31e4724762d2c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101787653,
-    "wof:lastmodified":1608052020,
+    "wof:lastmodified":1684351842,
     "wof:name":"Marktoberdorf",
     "wof:parent_id":1377692961,
     "wof:placetype":"locality",
-    "wof:population":18505,
+    "wof:population":18725,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

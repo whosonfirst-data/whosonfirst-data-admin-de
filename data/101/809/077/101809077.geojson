@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05570020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ennigerloh, Stadt",
+    "eurostat:nuts_2021_id":"05570020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA3",
+    "eurostat:nuts_2021_level_3":"DEA38",
+    "eurostat:nuts_2021_level_lau":"05570020",
+    "eurostat:population":19810,
+    "eurostat:population_year":2020,
     "geom:area":0.016429,
-    "geom:area_square_m":125460669.883004,
+    "geom:area_square_m":125460669.883003,
     "geom:bbox":"7.878295,51.804868,8.140142,51.922952",
     "geom:latitude":51.858853,
     "geom:longitude":8.025691,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":111,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063871,
         1377691355,
         404227553,
-        85682513
+        102063871
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05570020",
+        "eurostat:nuts_2021_id":"05570020",
         "gn:id":2930030,
         "gp:id":648139,
         "qs_pg:id":776336,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"715e5c87256677b788797ca7c62264ee",
+    "wof:geomhash":"4aac2bda7356c34efec5455b29fe3b21",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,12 +374,12 @@
         }
     ],
     "wof:id":101809077,
-    "wof:lastmodified":1608051611,
+    "wof:lastmodified":1684351867,
     "wof:name":"Ennigerloh",
     "wof:parent_id":1377691355,
     "wof:placetype":"locality",
-    "wof:population":20713,
-    "wof:population_rank":7,
+    "wof:population":19810,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09572164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weisendorf, M",
+    "eurostat:nuts_2021_id":"09572164",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE257",
+    "eurostat:nuts_2021_level_lau":"09572164",
+    "eurostat:population":6614,
+    "eurostat:population_year":2020,
     "geom:area":0.004576,
-    "geom:area_square_m":36651795.526282,
+    "geom:area_square_m":36651795.526285,
     "geom:bbox":"10.753706,49.590106,10.87569,49.664123",
     "geom:latitude":49.627115,
     "geom:longitude":10.815215,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063513,
         1377689201,
         404227565,
-        85682571
+        102063513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09572164",
+        "eurostat:nuts_2021_id":"09572164",
         "gn:id":2812086,
         "gp:id":704879,
         "qs_pg:id":870327,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a3428f739b4d1216fd982f4c047c3c83",
+    "wof:geomhash":"4cdb307db1c92f41d556686b4f091e16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101826983,
-    "wof:lastmodified":1608050321,
+    "wof:lastmodified":1684351938,
     "wof:name":"Weisendorf",
     "wof:parent_id":1377689201,
     "wof:placetype":"locality",
-    "wof:population":6118,
+    "wof:population":6614,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

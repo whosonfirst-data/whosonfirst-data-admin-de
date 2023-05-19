@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09472175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pegnitz, St",
+    "eurostat:nuts_2021_id":"09472175",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE246",
+    "eurostat:nuts_2021_level_lau":"09472175",
+    "eurostat:population":13263,
+    "eurostat:population_year":2020,
     "geom:area":0.012484,
-    "geom:area_square_m":99703877.490088,
+    "geom:area_square_m":99703877.490089,
     "geom:bbox":"11.423841,49.714291,11.633595,49.838154",
     "geom:latitude":49.76916,
     "geom:longitude":11.529928,
@@ -304,22 +316,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":15,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675599,
         1377687481,
         404227583,
-        85682571
+        1377675599
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09472175",
+        "eurostat:nuts_2021_id":"09472175",
         "gn:id":2855065,
         "gp:id":684429,
         "qs_pg:id":1345240,
@@ -333,7 +348,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e70f7a34dd440861b4e8e340d30f8f13",
+    "wof:geomhash":"ce85ff63462f5406568ae8d88213f2f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101847199,
-    "wof:lastmodified":1608051277,
+    "wof:lastmodified":1684351962,
     "wof:name":"Pegnitz",
     "wof:parent_id":1377687481,
     "wof:placetype":"locality",
-    "wof:population":14279,
+    "wof:population":13263,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

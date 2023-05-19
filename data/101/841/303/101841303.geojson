@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unstruttal",
+    "eurostat:nuts_2021_id":"16064071",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064071",
+    "eurostat:population":3100,
+    "eurostat:population_year":2020,
     "geom:area":0.005654,
-    "geom:area_square_m":43733265.190872,
+    "geom:area_square_m":43733265.190871,
     "geom:bbox":"10.3738836798,51.2306238985,10.4951253466,51.3142030483",
     "geom:latitude":51.274103,
     "geom:longitude":10.44572,
@@ -290,7 +302,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682541,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064071",
+        "eurostat:nuts_2021_id":"16064071",
         "gn:id":6549949,
         "gp:id":676608,
         "qs_pg:id":631559,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f25588174a300953b8cbb77d49fdc4f",
+    "wof:geomhash":"efe8606bd854320b6f549eed7a984506",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":101841303,
-    "wof:lastmodified":1582342521,
+    "wof:lastmodified":1684351952,
     "wof:name":"Unstruttal",
     "wof:parent_id":1377689753,
     "wof:placetype":"locality",
-    "wof:population":3253,
+    "wof:population":3100,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

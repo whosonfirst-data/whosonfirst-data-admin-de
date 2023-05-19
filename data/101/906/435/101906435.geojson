@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stolk",
+    "eurostat:nuts_2021_id":"01059081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059081",
+    "eurostat:population":800,
+    "eurostat:population_year":2020,
     "geom:area":0.00202,
-    "geom:area_square_m":14471924.449412,
+    "geom:area_square_m":14471924.449413,
     "geom:bbox":"9.4566289774,54.5817916822,9.57302322518,54.616268965",
     "geom:latitude":54.601222,
     "geom:longitude":9.523317,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059081",
+        "eurostat:nuts_2021_id":"01059081",
         "gn:id":2826591,
         "gp:id":697495,
         "qs_pg:id":576810,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"07761eec49243c199337544831aebab3",
+    "wof:geomhash":"d2903f0b39e01ce26882a973480d968d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906435,
-    "wof:lastmodified":1582342331,
+    "wof:lastmodified":1684351980,
     "wof:name":"Stolk",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":886,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

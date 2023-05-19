@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gau-Weinheim",
+    "eurostat:nuts_2021_id":"07331033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331033",
+    "eurostat:population":605,
+    "eurostat:population_year":2020,
     "geom:area":0.000487,
     "geom:area_square_m":3886217.477878,
     "geom:bbox":"8.02850082047,49.8382985807,8.06257401706,49.8630488876",
@@ -111,7 +123,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -121,6 +134,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331033",
+        "eurostat:nuts_2021_id":"07331033",
         "gn:id":2922227,
         "qs_pg:id":93856,
         "wd:id":"Q644231"
@@ -130,7 +145,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"9eaaa6b37034338ada2332698428373b",
+    "wof:geomhash":"4d8d89e0326e3c2b49d74ffdf62f64c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +157,11 @@
         }
     ],
     "wof:id":1126021583,
-    "wof:lastmodified":1582342978,
+    "wof:lastmodified":1684352049,
     "wof:name":"Gau-Weinheim",
     "wof:parent_id":1377686215,
     "wof:placetype":"locality",
-    "wof:population":683,
+    "wof:population":605,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Himbergen",
+    "eurostat:nuts_2021_id":"03360011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360011",
+    "eurostat:population":1679,
+    "eurostat:population_year":2020,
     "geom:area":0.005357,
-    "geom:area_square_m":39770640.339508,
+    "geom:area_square_m":39770640.339505,
     "geom:bbox":"10.6672291969,53.0650047501,10.7960811215,53.1453392841",
     "geom:latitude":53.10438,
     "geom:longitude":10.719336,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360011",
+        "eurostat:nuts_2021_id":"03360011",
         "gn:id":2904574,
         "gp:id":689375,
         "qs_pg:id":847465,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4f3d062c6e03682e18c034cc1860898e",
+    "wof:geomhash":"c233297f2f9838d4ed8f62bee205152e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101818443,
-    "wof:lastmodified":1582342364,
+    "wof:lastmodified":1684351899,
     "wof:name":"Himbergen",
     "wof:parent_id":1377688001,
     "wof:placetype":"locality",
-    "wof:population":1856,
+    "wof:population":1679,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

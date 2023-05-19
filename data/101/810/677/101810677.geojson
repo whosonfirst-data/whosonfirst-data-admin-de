@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgbrohl",
+    "eurostat:nuts_2021_id":"07131202",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131202",
+    "eurostat:population":3183,
+    "eurostat:population_year":2020,
     "geom:area":0.001356,
     "geom:area_square_m":10672016.869522,
     "geom:bbox":"7.23331029212,50.4392436644,7.29943613806,50.4769156883",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131202",
+        "eurostat:nuts_2021_id":"07131202",
         "gn:id":2941413,
         "gp:id":642522,
         "qs_pg:id":579565,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f714d0a1cb68ee398a218e319455876",
+    "wof:geomhash":"540c054a6eb0c55e3ccd1c43732da792",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101810677,
-    "wof:lastmodified":1582342407,
+    "wof:lastmodified":1684351874,
     "wof:name":"Burgbrohl",
     "wof:parent_id":1377685291,
     "wof:placetype":"locality",
-    "wof:population":3332,
+    "wof:population":3183,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08128126",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weikersheim, Stadt",
+    "eurostat:nuts_2021_id":"08128126",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11B",
+    "eurostat:nuts_2021_level_lau":"08128126",
+    "eurostat:population":7358,
+    "eurostat:population_year":2020,
     "geom:area":0.010021,
     "geom:area_square_m":80501753.242981,
     "geom:bbox":"9.851219,49.430763,10.00233,49.555914",
@@ -181,7 +193,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":80.92,
     "wd:latitude":49.481667,
     "wd:longitude":9.899167,
@@ -192,15 +205,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063515,
         1377687961,
         404227549,
-        85682567
+        102063515
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08128126",
+        "eurostat:nuts_2021_id":"08128126",
         "gn:id":2812655,
         "gp:id":704661,
         "loc:id":"n92118429",
@@ -216,7 +231,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5be7184da59fffd6560e1f6afbd7bcbd",
+    "wof:geomhash":"d9e743f69e0b1aea18352fe98b21c33e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -229,11 +244,11 @@
         }
     ],
     "wof:id":101815761,
-    "wof:lastmodified":1608051248,
+    "wof:lastmodified":1684351895,
     "wof:name":"Weikersheim",
     "wof:parent_id":1377687961,
     "wof:placetype":"locality",
-    "wof:population":6337,
+    "wof:population":7358,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mustin",
+    "eurostat:nuts_2021_id":"01053093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053093",
+    "eurostat:population":734,
+    "eurostat:population_year":2020,
     "geom:area":0.001627,
-    "geom:area_square_m":11911577.172228,
+    "geom:area_square_m":11911577.172226,
     "geom:bbox":"10.8486067393,53.6634571136,10.9166605057,53.7056633561",
     "geom:latitude":53.685457,
     "geom:longitude":10.882486,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053093",
+        "eurostat:nuts_2021_id":"01053093",
         "gn:id":2867345,
         "gp:id":676968,
         "qs_pg:id":93388,
@@ -322,7 +337,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d32df309909273c4f733d5cfc3201dd",
+    "wof:geomhash":"b5ff2f70dd47bc198b66cb06ad642403",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101908367,
-    "wof:lastmodified":1582342347,
+    "wof:lastmodified":1684351995,
     "wof:name":"Mustin",
     "wof:parent_id":1377683513,
     "wof:placetype":"locality",
-    "wof:population":703,
+    "wof:population":734,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

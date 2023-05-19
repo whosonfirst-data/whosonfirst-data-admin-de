@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069648",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wenzlow",
+    "eurostat:nuts_2021_id":"12069648",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069648",
+    "eurostat:population":529,
+    "eurostat:population_year":2020,
     "geom:area":0.002728,
-    "geom:area_square_m":20630907.508102,
+    "geom:area_square_m":20630907.508103,
     "geom:bbox":"12.3870846773,52.2716127295,12.4925443719,52.3263392536",
     "geom:latitude":52.30051,
     "geom:longitude":12.438694,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682553,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069648",
+        "eurostat:nuts_2021_id":"12069648",
         "gn:id":2811007,
         "gp:id":655582,
         "qs_pg:id":576464,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"28a84bb46885c4de8dca5be71d2aa950",
+    "wof:geomhash":"7d8d144d8c0b4aec55ec3a83b06364cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101909783,
-    "wof:lastmodified":1582342287,
+    "wof:lastmodified":1684352003,
     "wof:name":"Wenzlow",
     "wof:parent_id":1377683913,
     "wof:placetype":"locality",
-    "wof:population":625,
+    "wof:population":529,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

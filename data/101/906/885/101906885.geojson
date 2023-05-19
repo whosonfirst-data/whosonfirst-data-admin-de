@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mittelreidenbach",
+    "eurostat:nuts_2021_id":"07134055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134055",
+    "eurostat:population":736,
+    "eurostat:population_year":2020,
     "geom:area":0.000622,
-    "geom:area_square_m":4973705.916006,
+    "geom:area_square_m":4973705.916005,
     "geom:bbox":"7.41372407367,49.6952746795,7.44963416142,49.7405550078",
     "geom:latitude":49.72227,
     "geom:longitude":7.433253,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1162,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134055",
+        "eurostat:nuts_2021_id":"07134055",
         "gn:id":2870612,
         "gp:id":675529,
         "qs_pg:id":577799,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7ddcb69ab1261c3f01327fa238a26c8d",
+    "wof:geomhash":"f0d8f50b7318a1d569b17408de4787d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101906885,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351982,
     "wof:name":"Mittelreidenbach",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":826,
+    "wof:population":736,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Ulm, Stadtkreis",
+    "eurostat:name_local":"Ulm, Stadtkreis",
+    "eurostat:nuts_2021_id":"DE144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE144",
+    "eurostat:population":126949,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.014493,
-    "geom:area_square_m":119000104.25772,
+    "geom:area_square_m":119000104.257732,
     "geom:bbox":"9.843791,48.306878,10.042414,48.4685",
     "geom:latitude":48.390838,
     "geom:longitude":9.949976,
@@ -354,8 +368,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"119",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Ulm",
@@ -368,12 +382,13 @@
     "statoids:type":"urban district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227573,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE144",
         "hasc:id":"DE.BW.UM",
         "wd:id":"Q3012"
     },
@@ -385,7 +400,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af1cd80bfe7435b2a69b0c44b1b6d7da",
+    "wof:geomhash":"59fc5c7f486b357b9c16ea11ae8fe866",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -396,12 +411,12 @@
         }
     ],
     "wof:id":102063289,
-    "wof:lastmodified":1608052487,
+    "wof:lastmodified":1684351509,
     "wof:name":"Ulm",
     "wof:parent_id":404227573,
     "wof:placetype":"county",
     "wof:placetype_local":"urban district",
-    "wof:population":116761,
+    "wof:population":126949,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"UM",

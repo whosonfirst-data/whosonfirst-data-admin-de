@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gornau/Erzgeb.",
+    "eurostat:nuts_2021_id":"14521220",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521220",
+    "eurostat:population":3767,
+    "eurostat:population_year":2020,
     "geom:area":0.00252,
-    "geom:area_square_m":19705902.304868,
+    "geom:area_square_m":19705902.304871,
     "geom:bbox":"13.012196319,50.7468084325,13.0977601983,50.8065666307",
     "geom:latitude":50.774759,
     "geom:longitude":13.050869,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521220",
+        "eurostat:nuts_2021_id":"14521220",
         "gn:id":2918970,
         "gp:id":15002638,
         "qs_pg:id":1212616,
@@ -165,7 +180,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d67ce4fde9c4246a2ca728e6bfa233ec",
+    "wof:geomhash":"48c3774bc8920badbcf468e7b06227ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101820695,
-    "wof:lastmodified":1582342377,
+    "wof:lastmodified":1684351912,
     "wof:name":"Gornau/Erzgeb.",
     "wof:parent_id":1377685727,
     "wof:placetype":"locality",
-    "wof:population":4101,
+    "wof:population":3767,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohen Neuendorf, Stadt",
+    "eurostat:nuts_2021_id":"12065144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065144",
+    "eurostat:population":26283,
+    "eurostat:population_year":2020,
     "geom:area":0.006513,
-    "geom:area_square_m":48819903.482816,
+    "geom:area_square_m":48819903.482819,
     "geom:bbox":"13.206167,52.626928,13.360568,52.740443",
     "geom:latitude":52.684284,
     "geom:longitude":13.279797,
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.666667,
     "wd:longitude":13.283056,
     "wd:wordcount":553,
@@ -168,14 +181,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063995,
         1377683367,
-        85682553
+        85633111,
+        102063995
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065144",
+        "eurostat:nuts_2021_id":"12065144",
         "gn:id":2901588,
         "gp:id":661040,
         "qs_pg:id":142394,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1f2d2a580293c2b015e355ab79017341",
+    "wof:geomhash":"e8bda6c6ab98ac1eabea46546c24c96e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101841951,
-    "wof:lastmodified":1608050995,
+    "wof:lastmodified":1684351954,
     "wof:name":"Hohen Neuendorf",
     "wof:parent_id":1377683367,
     "wof:placetype":"locality",
-    "wof:population":21893,
+    "wof:population":26283,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

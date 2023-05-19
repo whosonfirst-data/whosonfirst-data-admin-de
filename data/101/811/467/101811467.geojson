@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06634026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Willingshausen",
+    "eurostat:nuts_2021_id":"06634026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE735",
+    "eurostat:nuts_2021_level_lau":"06634026",
+    "eurostat:population":4763,
+    "eurostat:population_year":2020,
     "geom:area":0.007645,
-    "geom:area_square_m":59664799.727729,
+    "geom:area_square_m":59664799.727725,
     "geom:bbox":"9.141363,50.818977,9.306618,50.907256",
     "geom:latitude":50.864603,
     "geom:longitude":9.213983,
@@ -303,22 +315,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":384,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063737,
         1377684859,
         404227551,
-        85682531
+        102063737
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06634026",
+        "eurostat:nuts_2021_id":"06634026",
         "fct:id":"071be460-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2808533,
         "gp:id":12632829,
@@ -333,7 +348,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1a1c8497fcda6d78b50b53bf6a7cd67",
+    "wof:geomhash":"db64b1089e87a80eba3616264fe6f3f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,12 +364,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049939,
+    "wof:lastmodified":1684351879,
     "wof:name":"Willingshausen",
     "wof:parent_id":1377684859,
     "wof:placetype":"locality",
-    "wof:population":5385,
-    "wof:population_rank":5,
+    "wof:population":4763,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obertrebra",
+    "eurostat:nuts_2021_id":"16071069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071069",
+    "eurostat:population":258,
+    "eurostat:population_year":2020,
     "geom:area":0.000426,
-    "geom:area_square_m":3309408.390634,
+    "geom:area_square_m":3309408.390633,
     "geom:bbox":"11.555760416,51.043687572,11.5952558218,51.0691224047",
     "geom:latitude":51.057067,
     "geom:longitude":11.57677,
@@ -134,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071069",
+        "eurostat:nuts_2021_id":"16071069",
         "gn:id":2858771,
         "gp:id":682443,
         "qs_pg:id":365959,
@@ -154,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"87563c89dddd66fab55210e087ef19fa",
+    "wof:geomhash":"5ec776af61e73ccb82db6deba51e739b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101910415,
-    "wof:lastmodified":1582342653,
+    "wof:lastmodified":1684352006,
     "wof:name":"Obertrebra",
     "wof:parent_id":1377690515,
     "wof:placetype":"locality",
-    "wof:population":275,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horstedt",
+    "eurostat:nuts_2021_id":"01054052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054052",
+    "eurostat:population":805,
+    "eurostat:population_year":2020,
     "geom:area":0.001619,
-    "geom:area_square_m":11618022.602595,
+    "geom:area_square_m":11618022.602594,
     "geom:bbox":"9.04651352988,54.5004679007,9.10489973716,54.5423752554",
     "geom:latitude":54.517669,
     "geom:longitude":9.072611,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":150,
     "wof:belongsto":[
         85682517,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054052",
+        "eurostat:nuts_2021_id":"01054052",
         "gn:id":2898607,
         "gp:id":662462,
         "qs_pg:id":578506,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4e0951a73d7c19bf2be807e83da48972",
+    "wof:geomhash":"32921b41bfc19c4b0537189eaa0233cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101906509,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351980,
     "wof:name":"Horstedt",
     "wof:parent_id":1377683647,
     "wof:placetype":"locality",
-    "wof:population":733,
+    "wof:population":805,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

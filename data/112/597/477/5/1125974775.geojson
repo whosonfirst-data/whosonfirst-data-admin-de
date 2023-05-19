@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langene\u00df",
+    "eurostat:nuts_2021_id":"01054074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054074",
+    "eurostat:population":138,
+    "eurostat:population_year":2020,
     "geom:area":0.001578,
     "geom:area_square_m":11291920.455297,
     "geom:bbox":"8.52886812442,54.6177607993,8.71308050306,54.680958494",
@@ -300,7 +312,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -308,6 +321,8 @@
     "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054074",
+        "eurostat:nuts_2021_id":"01054074",
         "gn:id":2881091,
         "gp:id":20165010,
         "qs_pg:id":1009438,
@@ -318,7 +333,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"45a6526b072fed150d21f1bc04da26fd",
+    "wof:geomhash":"deef2a38902e812561e61dac91142fb8",
     "wof:hierarchy":[
         {
             "continent_id":-1,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":1125974775,
-    "wof:lastmodified":1582343005,
+    "wof:lastmodified":1684352041,
     "wof:name":"Langene\u00df",
     "wof:parent_id":-1,
     "wof:placetype":"locality",
-    "wof:population":128,
+    "wof:population":138,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

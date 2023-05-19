@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bodensee",
+    "eurostat:nuts_2021_id":"03159006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159006",
+    "eurostat:population":791,
+    "eurostat:population_year":2020,
     "geom:area":0.000974,
-    "geom:area_square_m":7481517.387386,
+    "geom:area_square_m":7481571.092133,
     "geom:bbox":"10.110438,51.59181,10.161654,51.620746",
     "geom:latitude":51.606228,
     "geom:longitude":10.134481,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159006",
+        "eurostat:nuts_2021_id":"03159006",
         "gn:id":2947110,
         "gp:id":639824,
         "qs_pg:id":1144444,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9e8ab77c9fe3679ca815341522bb66fe",
+    "wof:geomhash":"0568932a1543c5492534e55c21a56d9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101907643,
-    "wof:lastmodified":1636499969,
+    "wof:lastmodified":1684351989,
     "wof:name":"Bodensee",
     "wof:parent_id":1377686229,
     "wof:placetype":"locality",
-    "wof:population":798,
+    "wof:population":791,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09576121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Georgensgm\u00fcnd",
+    "eurostat:nuts_2021_id":"09576121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25B",
+    "eurostat:nuts_2021_level_lau":"09576121",
+    "eurostat:population":6741,
+    "eurostat:population_year":2020,
     "geom:area":0.005799,
-    "geom:area_square_m":46862352.293419,
+    "geom:area_square_m":46862352.293416,
     "geom:bbox":"10.957939,49.153252,11.099965,49.239202",
     "geom:latitude":49.194999,
     "geom:longitude":11.025201,
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063425,
         1377690013,
         404227565,
-        85682571
+        102063425
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09576121",
+        "eurostat:nuts_2021_id":"09576121",
         "fct:id":"071c5c06-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2921267,
         "gp:id":652138,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"732df6e5adb7e71e08d5f871e19f2980",
+    "wof:geomhash":"7a99020221db6edef567583faec887e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050509,
+    "wof:lastmodified":1684351822,
     "wof:name":"Georgensgm\u00fcnd",
     "wof:parent_id":1377690013,
     "wof:placetype":"locality",
-    "wof:population":6582,
+    "wof:population":6741,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

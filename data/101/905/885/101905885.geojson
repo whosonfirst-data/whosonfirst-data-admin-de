@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flemlingen",
+    "eurostat:nuts_2021_id":"07337025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337025",
+    "eurostat:population":394,
+    "eurostat:population_year":2020,
     "geom:area":0.000464,
-    "geom:area_square_m":3747155.218888,
+    "geom:area_square_m":3747155.218887,
     "geom:bbox":"7.96319004984,49.2394752465,8.11183772065,49.2958897671",
     "geom:latitude":49.257422,
     "geom:longitude":8.052486,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337025",
+        "eurostat:nuts_2021_id":"07337025",
         "gn:id":2926283,
         "gp:id":689561,
         "qs_pg:id":1152208,
@@ -170,7 +185,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3fdc1e98df3413636cafa6f5232adff7",
+    "wof:geomhash":"ebda280cc217c97113380dbee6931ca9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101905885,
-    "wof:lastmodified":1582342508,
+    "wof:lastmodified":1684351974,
     "wof:name":"Flemlingen",
     "wof:parent_id":1377686525,
     "wof:placetype":"locality",
-    "wof:population":437,
+    "wof:population":394,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

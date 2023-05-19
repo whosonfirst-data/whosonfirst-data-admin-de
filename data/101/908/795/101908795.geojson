@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reddelich",
+    "eurostat:nuts_2021_id":"13072083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072083",
+    "eurostat:population":968,
+    "eurostat:population_year":2020,
     "geom:area":0.001255,
     "geom:area_square_m":9098069.909828,
     "geom:bbox":"11.8243936548,54.0745470623,11.8784977407,54.1155852512",
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "wof:belongsto":[
         85682487,
@@ -134,6 +147,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072083",
+        "eurostat:nuts_2021_id":"13072083",
         "gn:id":2849624,
         "gp:id":687257,
         "qs_pg:id":93209,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7c8405617f634e896cbad5695734bc4a",
+    "wof:geomhash":"cf9c8b07de2caf55f3c51ea1af11adac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101908795,
-    "wof:lastmodified":1582342348,
+    "wof:lastmodified":1684351999,
     "wof:name":"Reddelich",
     "wof:parent_id":1377684631,
     "wof:placetype":"locality",
-    "wof:population":896,
+    "wof:population":968,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

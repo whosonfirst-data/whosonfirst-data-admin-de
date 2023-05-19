@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09182131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schliersee, M",
+    "eurostat:nuts_2021_id":"09182131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21F",
+    "eurostat:nuts_2021_level_lau":"09182131",
+    "eurostat:population":6933,
+    "eurostat:population_year":2020,
     "geom:area":0.009497,
-    "geom:area_square_m":79055564.67428,
+    "geom:area_square_m":79055564.674278,
     "geom:bbox":"11.793502,47.608309,11.94257,47.756672",
     "geom:latitude":47.686952,
     "geom:longitude":11.875,
@@ -184,22 +196,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":129,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063221,
         1377692497,
         404227567,
-        85682571
+        102063221
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09182131",
+        "eurostat:nuts_2021_id":"09182131",
         "gn:id":2838502,
         "gp:id":692216,
         "qs_pg:id":889707,
@@ -214,7 +229,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e80340f7a09d1b82178b0d7113d605be",
+    "wof:geomhash":"60f03a8427e9b2e1f00f9ccfb71dbc8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -227,11 +242,11 @@
         }
     ],
     "wof:id":101787537,
-    "wof:lastmodified":1608052004,
+    "wof:lastmodified":1684351841,
     "wof:name":"Schliersee",
     "wof:parent_id":1377692497,
     "wof:placetype":"locality",
-    "wof:population":6416,
+    "wof:population":6933,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

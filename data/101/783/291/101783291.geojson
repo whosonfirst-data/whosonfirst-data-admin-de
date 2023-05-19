@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salching",
+    "eurostat:nuts_2021_id":"09278182",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278182",
+    "eurostat:population":2623,
+    "eurostat:population_year":2020,
     "geom:area":0.002682,
     "geom:area_square_m":21842764.974307,
     "geom:bbox":"12.5385319316,48.779580147,12.6309907721,48.8340230092",
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278182",
+        "eurostat:nuts_2021_id":"09278182",
         "gn:id":2842315,
         "gp:id":690783,
         "qs_pg:id":1038540,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fe97e0d72406f67ac348851dc7bf6cad",
+    "wof:geomhash":"ef3623ba15f540b15861e37fa0d50398",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101783291,
-    "wof:lastmodified":1582342480,
+    "wof:lastmodified":1684351829,
     "wof:name":"Salching",
     "wof:parent_id":1377685483,
     "wof:placetype":"locality",
-    "wof:population":2532,
+    "wof:population":2623,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

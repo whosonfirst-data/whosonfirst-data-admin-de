@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lohra",
+    "eurostat:nuts_2021_id":"06534013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534013",
+    "eurostat:population":5407,
+    "eurostat:population_year":2020,
     "geom:area":0.006251,
-    "geom:area_square_m":48934562.793776,
+    "geom:area_square_m":48934562.793775,
     "geom:bbox":"8.540385,50.673304,8.670298,50.763011",
     "geom:latitude":50.719539,
     "geom:longitude":8.610899,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1624,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683867,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534013",
+        "eurostat:nuts_2021_id":"06534013",
         "gn:id":2807005,
         "gp:id":672538,
         "qs_pg:id":93483,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"05b19c70c7cb977ca61c7cf8e20a8598",
+    "wof:geomhash":"19272971f3ee03c43ec998ca4818211f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101811029,
-    "wof:lastmodified":1608049935,
+    "wof:lastmodified":1684351878,
     "wof:name":"Lohra",
     "wof:parent_id":1377683867,
     "wof:placetype":"locality",
-    "wof:population":5775,
+    "wof:population":5407,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

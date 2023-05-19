@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nauort",
+    "eurostat:nuts_2021_id":"07143050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143050",
+    "eurostat:population":2209,
+    "eurostat:population_year":2020,
     "geom:area":0.000819,
-    "geom:area_square_m":6447172.159088,
+    "geom:area_square_m":6447172.159089,
     "geom:bbox":"7.60294817756,50.4423568267,7.65395310036,50.4789321235",
     "geom:latitude":50.462682,
     "geom:longitude":7.627997,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":586,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143050",
+        "eurostat:nuts_2021_id":"07143050",
         "gn:id":2866858,
         "gp:id":20163059,
         "qs_pg:id":93370,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a61879bfcc71948f4b8154b1d75206f9",
+    "wof:geomhash":"76676da65d2a0ee09468d23b9d497624",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101810787,
-    "wof:lastmodified":1582342410,
+    "wof:lastmodified":1684351875,
     "wof:name":"Nauort",
     "wof:parent_id":1377685799,
     "wof:placetype":"locality",
-    "wof:population":2299,
+    "wof:population":2209,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

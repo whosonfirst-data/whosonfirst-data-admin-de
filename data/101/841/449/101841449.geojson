@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064428",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fcdersdorf bei Berlin",
+    "eurostat:nuts_2021_id":"12064428",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064428",
+    "eurostat:population":15812,
+    "eurostat:population_year":2020,
     "geom:area":0.009265,
-    "geom:area_square_m":69775315.075124,
+    "geom:area_square_m":69775315.075118,
     "geom:bbox":"13.7395917526,52.4376094038,13.9178699284,52.5297147839",
     "geom:latitude":52.480989,
     "geom:longitude":13.826382,
@@ -639,7 +651,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -653,6 +666,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064428",
+        "eurostat:nuts_2021_id":"12064428",
         "gn:id":6547614,
         "gp:id":690261,
         "qs_pg:id":1037500,
@@ -666,7 +681,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c458f19f9e2ad7ec5855358612877834",
+    "wof:geomhash":"8c47a78a1e686488f7262ab05c0c3743",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -678,11 +693,11 @@
         }
     ],
     "wof:id":101841449,
-    "wof:lastmodified":1582342519,
+    "wof:lastmodified":1684351954,
     "wof:name":"R\u00fcdersdorf bei Berlin",
     "wof:parent_id":1377694669,
     "wof:placetype":"locality",
-    "wof:population":15093,
+    "wof:population":15812,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

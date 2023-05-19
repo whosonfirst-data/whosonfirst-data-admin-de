@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03458002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Colnrade",
+    "eurostat:nuts_2021_id":"03458002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94D",
+    "eurostat:nuts_2021_level_lau":"03458002",
+    "eurostat:population":760,
+    "eurostat:population_year":2020,
     "geom:area":0.002471,
-    "geom:area_square_m":18466435.747046,
+    "geom:area_square_m":18466435.747047,
     "geom:bbox":"8.4592774732,52.7978849779,8.54694704928,52.8466579588",
     "geom:latitude":52.822076,
     "geom:longitude":8.503788,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03458002",
+        "eurostat:nuts_2021_id":"03458002",
         "gn:id":2939900,
         "gp:id":643260,
         "qs_pg:id":94024,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"28213653cd0dca5c89aa60b266a16d76",
+    "wof:geomhash":"586e047efc09d6106778b7bd344bebb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101907785,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351991,
     "wof:name":"Colnrade",
     "wof:parent_id":1377688949,
     "wof:placetype":"locality",
-    "wof:population":855,
+    "wof:population":760,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

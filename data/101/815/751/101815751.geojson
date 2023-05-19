@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00fccken (Pfalz)",
+    "eurostat:nuts_2021_id":"07336011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336011",
+    "eurostat:population":2075,
+    "eurostat:population_year":2020,
     "geom:area":0.001002,
-    "geom:area_square_m":8060892.726973,
+    "geom:area_square_m":8060892.726972,
     "geom:bbox":"7.32827902332,49.4143927704,7.39051789017,49.4421390678",
     "geom:latitude":49.428374,
     "geom:longitude":7.362099,
@@ -125,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -135,6 +148,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336011",
+        "eurostat:nuts_2021_id":"07336011",
         "gn:id":2943488,
         "gp:id":641614,
         "qs_pg:id":142800,
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b2305d5e6c94976d4cf7a034d6261b47",
+    "wof:geomhash":"1b56ab681360980ffe4118e53b525162",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":101815751,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351895,
     "wof:name":"Br\u00fccken (Pfalz)",
     "wof:parent_id":1377686491,
     "wof:placetype":"locality",
-    "wof:population":2422,
+    "wof:population":2075,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

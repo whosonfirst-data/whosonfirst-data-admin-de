@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenstein",
+    "eurostat:nuts_2021_id":"16062062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062062",
+    "eurostat:population":2100,
+    "eurostat:population_year":2020,
     "geom:area":0.007921,
-    "geom:area_square_m":60921467.350489,
+    "geom:area_square_m":60921467.350493,
     "geom:bbox":"10.473,51.48746,10.667391,51.579575",
     "geom:latitude":51.538762,
     "geom:longitude":10.572919,
@@ -299,21 +311,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063809,
         1377689529,
-        85682541
+        85633111,
+        102063809
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062062",
+        "eurostat:nuts_2021_id":"16062062",
         "gn:id":6549861,
         "gp:id":673332,
         "qs_pg:id":631483,
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ba5dbe231b4f5ee2a7a6dadaa92f4e48",
+    "wof:geomhash":"76bb5f904912b5eb6033bd610e6f046e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101822255,
-    "wof:lastmodified":1608051501,
+    "wof:lastmodified":1684351921,
     "wof:name":"Hohenstein",
     "wof:parent_id":1377689529,
     "wof:placetype":"locality",
-    "wof:population":2331,
+    "wof:population":2100,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

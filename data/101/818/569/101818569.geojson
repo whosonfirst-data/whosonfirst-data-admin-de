@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12073384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lychen, Stadt",
+    "eurostat:nuts_2021_id":"12073384",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40I",
+    "eurostat:nuts_2021_level_lau":"12073384",
+    "eurostat:population":3178,
+    "eurostat:population_year":2020,
     "geom:area":0.01506,
-    "geom:area_square_m":111507760.911017,
+    "geom:area_square_m":111507760.911012,
     "geom:bbox":"13.239651,53.110752,13.429887,53.280893",
     "geom:latitude":53.215442,
     "geom:longitude":13.325434,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.203056,
     "wd:longitude":13.319444,
     "wd:wordcount":231,
@@ -318,14 +331,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102064021,
         1377684253,
-        85682553
+        85633111,
+        102064021
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12073384",
+        "eurostat:nuts_2021_id":"12073384",
         "gn:id":2874695,
         "gp:id":673290,
         "qs_pg:id":476266,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e3bf336336a84a5d39d7a3aa2428a8ef",
+    "wof:geomhash":"92b7144e8e8ffbc88b889c759790022e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101818569,
-    "wof:lastmodified":1608049719,
+    "wof:lastmodified":1684351901,
     "wof:name":"Lychen",
     "wof:parent_id":1377684253,
     "wof:placetype":"locality",
-    "wof:population":3917,
+    "wof:population":3178,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

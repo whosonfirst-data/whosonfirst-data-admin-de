@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friedrichstadt, Stadt",
+    "eurostat:nuts_2021_id":"01054033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054033",
+    "eurostat:population":2653,
+    "eurostat:population_year":2020,
     "geom:area":0.000578,
-    "geom:area_square_m":4163015.833823,
+    "geom:area_square_m":4163015.833822,
     "geom:bbox":"9.069867,54.364451,9.119089,54.387049",
     "geom:latitude":54.376983,
     "geom:longitude":9.092493,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":193,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064165,
         1377683549,
-        85682517
+        85633111,
+        102064165
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054033",
+        "eurostat:nuts_2021_id":"01054033",
         "gn:id":2924477,
         "gp:id":650828,
         "qs_pg:id":905934,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1e263dc2d05dab79a5d3ffcfc1a269c5",
+    "wof:geomhash":"e0835df25a53d273d04e47fba8020dad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101805241,
-    "wof:lastmodified":1608050443,
+    "wof:lastmodified":1684351848,
     "wof:name":"Friedrichstadt",
     "wof:parent_id":1377683549,
     "wof:placetype":"locality",
-    "wof:population":2548,
+    "wof:population":2653,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

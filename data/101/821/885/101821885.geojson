@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wei\u00dfensee, Stadt",
+    "eurostat:nuts_2021_id":"16068058",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068058",
+    "eurostat:population":3699,
+    "eurostat:population_year":2020,
     "geom:area":0.006025,
-    "geom:area_square_m":46686314.53118,
+    "geom:area_square_m":46686314.531182,
     "geom:bbox":"10.9727,51.170174,11.142667,51.227667",
     "geom:latitude":51.199001,
     "geom:longitude":11.058176,
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063745,
         1377690199,
-        85682541
+        85633111,
+        102063745
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068058",
+        "eurostat:nuts_2021_id":"16068058",
         "gn:id":2811860,
         "gp:id":704978,
         "qs_pg:id":279154,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cf8b405aa6f30f371ef1c360fa7c80d7",
+    "wof:geomhash":"54157592f16035d22fdcf84f54df0bb1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101821885,
-    "wof:lastmodified":1608050214,
+    "wof:lastmodified":1684351918,
     "wof:name":"Wei\u00dfensee",
     "wof:parent_id":1377690199,
     "wof:placetype":"locality",
-    "wof:population":3720,
+    "wof:population":3699,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

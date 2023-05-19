@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfr\u00fcckerswalde",
+    "eurostat:nuts_2021_id":"14521250",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521250",
+    "eurostat:population":3356,
+    "eurostat:population_year":2020,
     "geom:area":0.003355,
     "geom:area_square_m":26322038.963796,
     "geom:bbox":"13.056625,50.58897,13.162676,50.652075",
@@ -171,21 +183,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685469,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521250",
+        "eurostat:nuts_2021_id":"14521250",
         "fct:id":"071dd54a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2915111,
         "gp:id":655182,
@@ -201,7 +216,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c826cd2aa9f63018ed34f90d3c91b767",
+    "wof:geomhash":"397efba0ae4fb5954d0860c3ff78be05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051441,
+    "wof:lastmodified":1684351931,
     "wof:name":"Gro\u00dfr\u00fcckerswalde",
     "wof:parent_id":1377685469,
     "wof:placetype":"locality",
-    "wof:population":4005,
+    "wof:population":3356,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

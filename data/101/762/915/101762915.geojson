@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08415092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lichtenstein",
+    "eurostat:nuts_2021_id":"08415092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE141",
+    "eurostat:nuts_2021_level_lau":"08415092",
+    "eurostat:population":9209,
+    "eurostat:population_year":2020,
     "geom:area":0.004159,
-    "geom:area_square_m":34126041.392674,
+    "geom:area_square_m":34126041.392673,
     "geom:bbox":"9.216775,48.38745,9.315737,48.46223",
     "geom:latitude":48.423052,
     "geom:longitude":9.268903,
@@ -301,22 +313,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":107,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063297,
         1377689927,
         404227573,
-        85682567
+        102063297
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08415092",
+        "eurostat:nuts_2021_id":"08415092",
         "gn:id":2878032,
         "gp:id":15002691,
         "qs_pg:id":201967,
@@ -334,7 +349,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"52489cc2aee6906af39f5062c9304025",
+    "wof:geomhash":"dbc7eb4d57161a467a47b9e9ed6ca95b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101762915,
-    "wof:lastmodified":1608049704,
+    "wof:lastmodified":1684351808,
     "wof:name":"Lichtenstein",
     "wof:parent_id":1377689927,
     "wof:placetype":"locality",
-    "wof:population":9030,
+    "wof:population":9209,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

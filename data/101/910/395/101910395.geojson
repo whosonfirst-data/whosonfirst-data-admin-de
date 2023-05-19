@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfheringen",
+    "eurostat:nuts_2021_id":"16071022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071022",
+    "eurostat:population":656,
+    "eurostat:population_year":2020,
     "geom:area":0.000776,
     "geom:area_square_m":6025609.94201,
     "geom:bbox":"11.644166164,51.0821642716,11.6972179407,51.1111467967",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071022",
+        "eurostat:nuts_2021_id":"16071022",
         "gn:id":2915520,
         "gp:id":20160882,
         "qs_pg:id":93788,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9c1cbdedea6b7921b3c12b255fb1cd72",
+    "wof:geomhash":"1bb3ae29bf6d455bbafd8a30da445f09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101910395,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352006,
     "wof:name":"Gro\u00dfheringen",
     "wof:parent_id":1377690515,
     "wof:placetype":"locality",
-    "wof:population":685,
+    "wof:population":656,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kottweiler-Schwanden",
+    "eurostat:nuts_2021_id":"07335020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335020",
+    "eurostat:population":1233,
+    "eurostat:population_year":2020,
     "geom:area":0.000961,
     "geom:area_square_m":7723092.996215,
     "geom:bbox":"7.49874213493,49.4637644638,7.558530374,49.4925432194",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335020",
+        "eurostat:nuts_2021_id":"07335020",
         "gn:id":2885104,
         "gp:id":668496,
         "qs_pg:id":1039360,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5453ba64a8eff3831c436ef8e1859ccf",
+    "wof:geomhash":"678c6cdaf54d69e3b85ff09e49360137",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101815669,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Kottweiler-Schwanden",
     "wof:parent_id":1377686455,
     "wof:placetype":"locality",
-    "wof:population":1435,
+    "wof:population":1233,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

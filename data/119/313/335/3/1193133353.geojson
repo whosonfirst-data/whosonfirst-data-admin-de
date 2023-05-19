@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hillesheim",
+    "eurostat:nuts_2021_id":"07339028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339028",
+    "eurostat:population":662,
+    "eurostat:population_year":2020,
     "geom:area":0.000687,
     "geom:area_square_m":5485836.099847,
     "geom:bbox":"8.23265547914,49.7676625911,8.28009964151,49.7902523739",
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -129,6 +142,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339028",
+        "eurostat:nuts_2021_id":"07339028",
         "gn:id":2904692,
         "wk:page":"Hillesheim%2C_Mainz-Bingen"
     },
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a0223ea824bd018e5287cbff199ea82d",
+    "wof:geomhash":"3b902e8ec8a43d1e89dfa3f9e303c769",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1193133353,
-    "wof:lastmodified":1582342065,
+    "wof:lastmodified":1684352057,
     "wof:name":"Hillesheim",
     "wof:parent_id":1377686725,
     "wof:placetype":"locality",
-    "wof:population":588,
+    "wof:population":662,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

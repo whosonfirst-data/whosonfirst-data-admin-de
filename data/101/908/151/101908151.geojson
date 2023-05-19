@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moltzow",
+    "eurostat:nuts_2021_id":"13071103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071103",
+    "eurostat:population":883,
+    "eurostat:population_year":2020,
     "geom:area":0.006346,
     "geom:area_square_m":46526105.419825,
     "geom:bbox":"12.5566303469,53.6008860395,12.7327481115,53.665425206",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071103",
+        "eurostat:nuts_2021_id":"13071103",
         "gn:id":2869950,
         "gp:id":675895,
         "qs_pg:id":93406,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a4b16b21a515fd7770d0a5e8c4f2435b",
+    "wof:geomhash":"23f40e98bcb05a73391770080065d0ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101908151,
-    "wof:lastmodified":1582342340,
+    "wof:lastmodified":1684351993,
     "wof:name":"Moltzow",
     "wof:parent_id":1377684505,
     "wof:placetype":"locality",
-    "wof:population":359,
+    "wof:population":883,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

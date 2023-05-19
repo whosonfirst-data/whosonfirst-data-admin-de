@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16068048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schlo\u00dfvippach",
+    "eurostat:nuts_2021_id":"16068048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0D",
+    "eurostat:nuts_2021_level_lau":"16068048",
+    "eurostat:population":1370,
+    "eurostat:population_year":2020,
     "geom:area":0.002713,
-    "geom:area_square_m":21065202.833579,
+    "geom:area_square_m":21065202.833578,
     "geom:bbox":"11.0930282,51.0803702469,11.1966553005,51.1334675293",
     "geom:latitude":51.109045,
     "geom:longitude":11.145271,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16068048",
+        "eurostat:nuts_2021_id":"16068048",
         "gn:id":2838250,
         "gp:id":692274,
         "qs_pg:id":1038500,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b558640e3684c88845a10e60356bc3e0",
+    "wof:geomhash":"a1cba6a2cb4ff69eebe1247f1caf990d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101821865,
-    "wof:lastmodified":1582342424,
+    "wof:lastmodified":1684351918,
     "wof:name":"Schlo\u00dfvippach",
     "wof:parent_id":1377690261,
     "wof:placetype":"locality",
-    "wof:population":1459,
+    "wof:population":1370,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

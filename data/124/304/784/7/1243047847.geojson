@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Preetz",
+    "eurostat:nuts_2021_id":"13073066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073066",
+    "eurostat:population":1038,
+    "eurostat:population_year":2020,
     "geom:area":0.001961,
-    "geom:area_square_m":14133059.33044,
+    "geom:area_square_m":14133059.330439,
     "geom:bbox":"12.9423001862,54.3149901599,13.027446604,54.362383985",
     "geom:latitude":54.341451,
     "geom:longitude":12.984666,
@@ -140,7 +152,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -150,13 +163,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073066",
+        "eurostat:nuts_2021_id":"13073066",
         "gn:id":2852279
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e8f0818f562b5cc65e9e68c34de4de3d",
+    "wof:geomhash":"759a26ac5e27be1d0fcca7e670de7c8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":1243047847,
-    "wof:lastmodified":1582343085,
+    "wof:lastmodified":1684352058,
     "wof:name":"Preetz",
     "wof:parent_id":1377684875,
     "wof:placetype":"locality",
-    "wof:population":1021,
+    "wof:population":1038,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

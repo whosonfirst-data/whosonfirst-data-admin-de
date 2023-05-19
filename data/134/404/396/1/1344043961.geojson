@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Holdorf",
+    "eurostat:nuts_2021_id":"13074033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074033",
+    "eurostat:population":394,
+    "eurostat:population_year":2020,
     "geom:area":0.00186,
-    "geom:area_square_m":13610079.938364,
+    "geom:area_square_m":13610079.938366,
     "geom:bbox":"11.0149123818,53.6987953862,11.0829118086,53.7457530188",
     "geom:latitude":53.719369,
     "geom:longitude":11.047631,
@@ -133,7 +145,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
@@ -147,13 +160,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074033",
+        "eurostat:nuts_2021_id":"13074033",
         "gn:id":2900739
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"3260f44fbacfa1e36077d4d7ca176d78",
+    "wof:geomhash":"d49c5ab7fe92636574d846c5a1d0cd79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":1344043961,
-    "wof:lastmodified":1582341949,
+    "wof:lastmodified":1684352063,
     "wof:name":"Holdorf",
     "wof:parent_id":1377693649,
     "wof:placetype":"locality",
-    "wof:population":380,
+    "wof:population":394,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

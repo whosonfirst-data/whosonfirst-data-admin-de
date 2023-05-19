@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dettum",
+    "eurostat:nuts_2021_id":"03158009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158009",
+    "eurostat:population":1151,
+    "eurostat:population_year":2020,
     "geom:area":0.002239,
     "geom:area_square_m":16984357.504833,
     "geom:bbox":"10.6349098179,52.141363505,10.7091867472,52.1870103652",
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -321,6 +334,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158009",
+        "eurostat:nuts_2021_id":"03158009",
         "gn:id":2937889,
         "gp:id":644301,
         "qs_pg:id":579417,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3920ec0298ab326fb3b2f5e3e6e84975",
+    "wof:geomhash":"8205e6b2ecf6e5438ae40052457f7691",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101819569,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351906,
     "wof:name":"Dettum",
     "wof:parent_id":1377686139,
     "wof:placetype":"locality",
-    "wof:population":1359,
+    "wof:population":1151,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

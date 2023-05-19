@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Konstanz",
+    "eurostat:name_local":"Konstanz",
+    "eurostat:nuts_2021_id":"DE138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:population":288097,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.097175,
-    "geom:area_square_m":807142036.601922,
+    "geom:area_square_m":807142036.601911,
     "geom:bbox":"8.613817,47.652087,9.217763,47.942244",
     "geom:latitude":47.799184,
     "geom:longitude":8.912183,
@@ -251,8 +265,8 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"818",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Konstanz",
@@ -265,19 +279,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227543,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE138",
         "hasc:id":"DE.BW.KN"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "de-bkg-reversegeo"
     ],
-    "wof:geomhash":"2c7df850e0d259de015d68a3b0df346f",
+    "wof:geomhash":"fe54c8568ff1e63a9f050c9e8d9b8292",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -288,12 +303,12 @@
         }
     ],
     "wof:id":102063219,
-    "wof:lastmodified":1587164311,
+    "wof:lastmodified":1684351507,
     "wof:name":"Konstanz",
     "wof:parent_id":404227543,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":266965,
+    "wof:population":288097,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"KN",

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wakendorf II",
+    "eurostat:nuts_2021_id":"01060094",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060094",
+    "eurostat:population":1347,
+    "eurostat:population_year":2020,
     "geom:area":0.001736,
-    "geom:area_square_m":12679787.627075,
+    "geom:area_square_m":12679787.627072,
     "geom:bbox":"10.0454587253,53.7615556058,10.1184656578,53.8053710345",
     "geom:latitude":53.782198,
     "geom:longitude":10.089156,
@@ -296,7 +308,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -307,6 +320,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060094",
+        "eurostat:nuts_2021_id":"01060094",
         "gn:id":2815261,
         "gp:id":703318,
         "qs_pg:id":377149,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f015c9499244ab26c94ac5c312403a7b",
+    "wof:geomhash":"7f391299e9fffabfdbda299fa29f8ec0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101806755,
-    "wof:lastmodified":1582342610,
+    "wof:lastmodified":1684351854,
     "wof:name":"Wakendorf II",
     "wof:parent_id":1377684577,
     "wof:placetype":"locality",
-    "wof:population":1371,
+    "wof:population":1347,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

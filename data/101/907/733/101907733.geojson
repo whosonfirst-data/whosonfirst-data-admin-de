@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03456006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Getelo",
+    "eurostat:nuts_2021_id":"03456006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94B",
+    "eurostat:nuts_2021_level_lau":"03456006",
+    "eurostat:population":531,
+    "eurostat:population_year":2020,
     "geom:area":0.002676,
-    "geom:area_square_m":20155973.826248,
+    "geom:area_square_m":20155973.826247,
     "geom:bbox":"6.74480459013,52.459331518,6.86912418247,52.4929136004",
     "geom:latitude":52.472655,
     "geom:longitude":6.817116,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":125,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03456006",
+        "eurostat:nuts_2021_id":"03456006",
         "gn:id":2920786,
         "gp:id":20168178,
         "qs_pg:id":579026,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8d366c3ed12b7b1e1b4af171e8cfc017",
+    "wof:geomhash":"981cac717983755b7234f4b6575622ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101907733,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351990,
     "wof:name":"Getelo",
     "wof:parent_id":1377688759,
     "wof:placetype":"locality",
-    "wof:population":677,
+    "wof:population":531,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

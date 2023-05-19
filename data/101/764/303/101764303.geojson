@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08325009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6singen",
+    "eurostat:nuts_2021_id":"08325009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE135",
+    "eurostat:nuts_2021_level_lau":"08325009",
+    "eurostat:population":3336,
+    "eurostat:population_year":2020,
     "geom:area":0.002722,
     "geom:area_square_m":22422728.736798,
     "geom:bbox":"8.52320793811,48.2042084361,8.60696880483,48.2678045039",
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":10,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -325,6 +338,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08325009",
+        "eurostat:nuts_2021_id":"08325009",
         "fct:id":"0715882c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2945866,
         "gp:id":640482,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c781202be75ca45e6fff157057c73d2d",
+    "wof:geomhash":"73da3c3a36375d139b88baf3093fa83e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342301,
+    "wof:lastmodified":1684351815,
     "wof:name":"B\u00f6singen",
     "wof:parent_id":1377689511,
     "wof:placetype":"locality",
-    "wof:population":3501,
+    "wof:population":3336,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

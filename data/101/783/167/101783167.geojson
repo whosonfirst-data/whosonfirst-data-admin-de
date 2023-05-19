@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oettingen i.Bay., St",
+    "eurostat:nuts_2021_id":"09779197",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779197",
+    "eurostat:population":5151,
+    "eurostat:population_year":2020,
     "geom:area":0.004196,
     "geom:area_square_m":34069097.301503,
     "geom:bbox":"10.5336803987,48.9060222241,10.6269344149,48.9975040151",
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":502,
     "wof:belongsto":[
         85682571,
@@ -183,6 +196,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779197",
+        "eurostat:nuts_2021_id":"09779197",
         "gn:id":2857847,
         "gp:id":682968,
         "qs_pg:id":912104,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ab67d81a18843f6f0fcee96f1158d6cc",
+    "wof:geomhash":"0ab86dae1a5891e57e153c7cfa23f379",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,11 +222,11 @@
         }
     ],
     "wof:id":101783167,
-    "wof:lastmodified":1582342476,
+    "wof:lastmodified":1684351827,
     "wof:name":"Oettingen i. Bay.",
     "wof:parent_id":1377693401,
     "wof:placetype":"locality",
-    "wof:population":5336,
+    "wof:population":5151,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

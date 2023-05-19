@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09377113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brand",
+    "eurostat:nuts_2021_id":"09377113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE23A",
+    "eurostat:nuts_2021_level_lau":"09377113",
+    "eurostat:population":1138,
+    "eurostat:population_year":2020,
     "geom:area":0.001284,
     "geom:area_square_m":10217906.974316,
     "geom:bbox":"11.8668204062,49.9436236857,11.9323698534,49.9790200009",
@@ -332,7 +344,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":10127,
     "wof:belongsto":[
         85682571,
@@ -344,6 +357,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09377113",
+        "eurostat:nuts_2021_id":"09377113",
         "fct:id":"071c2f1a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2945429,
         "gp:id":640694,
@@ -355,7 +370,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f7bd13e6ff756b0487bcd81bdfc2ea7c",
+    "wof:geomhash":"6900e544530a7870c3e455f5ee67138a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342573,
+    "wof:lastmodified":1684351931,
     "wof:name":"Brand",
     "wof:parent_id":1377687005,
     "wof:placetype":"locality",
-    "wof:population":1206,
+    "wof:population":1138,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Evessen",
+    "eurostat:nuts_2021_id":"03158013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158013",
+    "eurostat:population":1236,
+    "eurostat:population_year":2020,
     "geom:area":0.002237,
-    "geom:area_square_m":16957342.251519,
+    "geom:area_square_m":16957342.251518,
     "geom:bbox":"10.6706230651,52.1646658492,10.7833243858,52.2246833219",
     "geom:latitude":52.193999,
     "geom:longitude":10.718742,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158013",
+        "eurostat:nuts_2021_id":"03158013",
         "gn:id":2928315,
         "gp:id":649112,
         "qs_pg:id":1039888,
@@ -172,7 +187,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"639afe14ea11a13e5977d7a76de632f8",
+    "wof:geomhash":"22a560ad811220a496e61f1dde233e84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101847939,
-    "wof:lastmodified":1582342554,
+    "wof:lastmodified":1684351964,
     "wof:name":"Evessen",
     "wof:parent_id":1377686139,
     "wof:placetype":"locality",
-    "wof:population":1422,
+    "wof:population":1236,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

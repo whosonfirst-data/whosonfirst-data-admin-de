@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obertshausen, Stadt",
+    "eurostat:nuts_2021_id":"06438010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438010",
+    "eurostat:population":24982,
+    "eurostat:population_year":2020,
     "geom:area":0.001706,
-    "geom:area_square_m":13538596.841357,
+    "geom:area_square_m":13538596.841355,
     "geom:bbox":"8.821853,50.051276,8.909827,50.095219",
     "geom:latitude":50.072179,
     "geom:longitude":8.862414,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.071528,
     "wd:longitude":8.848194,
     "wd:wordcount":1572,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377694029,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438010",
+        "eurostat:nuts_2021_id":"06438010",
         "gn:id":2858763,
         "gp:id":682451,
         "qs_pg:id":249687,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f4a47b5e322026b715cf3b18ce41579f",
+    "wof:geomhash":"31fbb151378baaab238bb3370336ee80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101811745,
-    "wof:lastmodified":1608049949,
+    "wof:lastmodified":1684351879,
     "wof:name":"Obertshausen",
     "wof:parent_id":1377694029,
     "wof:placetype":"locality",
-    "wof:population":24459,
+    "wof:population":24982,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

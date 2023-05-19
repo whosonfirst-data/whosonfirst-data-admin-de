@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St. Leon-Rot",
+    "eurostat:nuts_2021_id":"08226103",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226103",
+    "eurostat:population":13766,
+    "eurostat:population_year":2020,
     "geom:area":0.003182,
     "geom:area_square_m":25672629.134617,
     "geom:bbox":"8.56146528264,49.2353559755,8.65680896962,49.2908692446",
@@ -285,7 +297,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226103",
+        "eurostat:nuts_2021_id":"08226103",
         "gn:id":3272456,
         "gp:id":20160636,
         "qs_pg:id":463989,
@@ -310,7 +325,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"803421a743c0dcb5a30796f9a877bc2f",
+    "wof:geomhash":"3e834bf4a020c55361108d3c3faf776a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +338,11 @@
         }
     ],
     "wof:id":1125888637,
-    "wof:lastmodified":1582342995,
+    "wof:lastmodified":1684352037,
     "wof:name":"St. Leon-Rot",
     "wof:parent_id":1377688697,
     "wof:placetype":"locality",
-    "wof:population":12192,
+    "wof:population":13766,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

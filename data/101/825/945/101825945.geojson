@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Knetzgau",
+    "eurostat:nuts_2021_id":"09674163",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674163",
+    "eurostat:population":6485,
+    "eurostat:population_year":2020,
     "geom:area":0.007685,
-    "geom:area_square_m":61118344.877534,
+    "geom:area_square_m":61118344.877535,
     "geom:bbox":"10.443888,49.929779,10.582478,50.026311",
     "geom:latitude":49.973152,
     "geom:longitude":10.516645,
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377690989,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674163",
+        "eurostat:nuts_2021_id":"09674163",
         "gn:id":2887194,
         "gp:id":667597,
         "qs_pg:id":1147758,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7421d1d9bbaaa52029f71f46695ff7bf",
+    "wof:geomhash":"fc6325e12f033204b96b5722eef0d318",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101825945,
-    "wof:lastmodified":1608051442,
+    "wof:lastmodified":1684351933,
     "wof:name":"Knetzgau",
     "wof:parent_id":1377690989,
     "wof:placetype":"locality",
-    "wof:population":6647,
+    "wof:population":6485,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

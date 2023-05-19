@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bayerfeld-Steckweiler",
+    "eurostat:nuts_2021_id":"07333004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333004",
+    "eurostat:population":409,
+    "eurostat:population_year":2020,
     "geom:area":0.001066,
     "geom:area_square_m":8530421.239156,
     "geom:bbox":"7.77533316965,49.6656076707,7.84488116502,49.7063297163",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333004",
+        "eurostat:nuts_2021_id":"07333004",
         "gn:id":2951853,
         "qs_pg:id":579866,
         "wd:id":"Q564588"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"47cd09f930be1191c3a9e8ad87440d20",
+    "wof:geomhash":"3acbb6f42423988c0df0704d3fe53e4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1126014581,
-    "wof:lastmodified":1582343019,
+    "wof:lastmodified":1684352048,
     "wof:name":"Bayerfeld-Steckweiler",
     "wof:parent_id":1377686309,
     "wof:placetype":"locality",
-    "wof:population":446,
+    "wof:population":409,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

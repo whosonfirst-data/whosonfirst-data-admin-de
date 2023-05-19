@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wesseln",
+    "eurostat:nuts_2021_id":"01051130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051130",
+    "eurostat:population":1433,
+    "eurostat:population_year":2020,
     "geom:area":0.000527,
-    "geom:area_square_m":3808604.074046,
+    "geom:area_square_m":3808604.074045,
     "geom:bbox":"9.04779692664,54.2031868652,9.09459642079,54.2272442504",
     "geom:latitude":54.214645,
     "geom:longitude":9.067305,
@@ -295,7 +307,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051130",
+        "eurostat:nuts_2021_id":"01051130",
         "gn:id":2810608,
         "gp:id":705622,
         "qs_pg:id":1038091,
@@ -317,7 +332,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ef55e7e5c14f58ca63ffc3ad341e6541",
+    "wof:geomhash":"14596b8adf65a38206c75d523bce708e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101874427,
-    "wof:lastmodified":1582342397,
+    "wof:lastmodified":1684351970,
     "wof:name":"Wesseln",
     "wof:parent_id":1377683411,
     "wof:placetype":"locality",
-    "wof:population":1398,
+    "wof:population":1433,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

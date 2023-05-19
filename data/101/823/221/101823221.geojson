@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gotha, Stadt",
+    "eurostat:nuts_2021_id":"16067029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067029",
+    "eurostat:population":45419,
+    "eurostat:population_year":2020,
     "geom:area":0.00888,
-    "geom:area_square_m":69189940.764645,
+    "geom:area_square_m":69189940.764644,
     "geom:bbox":"10.622479,50.892239,10.781783,50.991237",
     "geom:latitude":50.940574,
     "geom:longitude":10.704621,
@@ -351,20 +363,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063711,
         1377690077,
-        85682541
+        85633111,
+        102063711
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067029",
+        "eurostat:nuts_2021_id":"16067029",
         "gn:id":2918752,
         "gp:id":653514,
         "loc:id":"n50058561",
@@ -380,7 +395,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4e2a593cbd1a0757d7922378ed43be7a",
+    "wof:geomhash":"b136f1e7ebe3015ce76a97728047dd0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -392,11 +407,11 @@
         }
     ],
     "wof:id":101823221,
-    "wof:lastmodified":1608051064,
+    "wof:lastmodified":1684351925,
     "wof:name":"Gotha",
     "wof:parent_id":1377690077,
     "wof:placetype":"locality",
-    "wof:population":46615,
+    "wof:population":45419,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

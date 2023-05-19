@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stockach, Stadt",
+    "eurostat:nuts_2021_id":"08335079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335079",
+    "eurostat:population":17183,
+    "eurostat:population_year":2020,
     "geom:area":0.008322,
-    "geom:area_square_m":69050828.030327,
+    "geom:area_square_m":69050828.030329,
     "geom:bbox":"8.93625322516,47.7999884602,9.12858181136,47.9027288743",
     "geom:latitude":47.856182,
     "geom:longitude":9.015546,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":47.851389,
     "wd:longitude":9.011389,
     "wd:wordcount":231,
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335079",
+        "eurostat:nuts_2021_id":"08335079",
         "gn:id":2826909,
         "gp:id":697359,
         "qs_pg:id":324213,
@@ -342,7 +357,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ec1d6805b4db49028e35d79c0f69ebd7",
+    "wof:geomhash":"36e38da083ee94eecc6641d86a4a5347",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101765291,
-    "wof:lastmodified":1582342337,
+    "wof:lastmodified":1684351817,
     "wof:name":"Stockach",
     "wof:parent_id":1377689727,
     "wof:placetype":"locality",
-    "wof:population":16844,
+    "wof:population":17183,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

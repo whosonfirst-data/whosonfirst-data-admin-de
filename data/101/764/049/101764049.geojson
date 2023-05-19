@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Merdingen",
+    "eurostat:nuts_2021_id":"08315072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315072",
+    "eurostat:population":2582,
+    "eurostat:population_year":2020,
     "geom:area":0.001736,
-    "geom:area_square_m":14357455.409738,
+    "geom:area_square_m":14357455.409736,
     "geom:bbox":"7.65698983205,47.9957957206,7.70833108946,48.0474499121",
     "geom:latitude":48.023235,
     "geom:longitude":7.683687,
@@ -174,7 +186,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":44,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -190,6 +203,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315072",
+        "eurostat:nuts_2021_id":"08315072",
         "gn:id":2929220,
         "gp:id":674846,
         "qs_pg:id":93429,
@@ -204,7 +219,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d48fd049516dc1618336648a2f690000",
+    "wof:geomhash":"4e5bcd4f9649ba5a1e8a5aafe876a7d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
         }
     ],
     "wof:id":101764049,
-    "wof:lastmodified":1582342299,
+    "wof:lastmodified":1684351812,
     "wof:name":"Merdingen",
     "wof:parent_id":1377689151,
     "wof:placetype":"locality",
-    "wof:population":2648,
+    "wof:population":2582,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

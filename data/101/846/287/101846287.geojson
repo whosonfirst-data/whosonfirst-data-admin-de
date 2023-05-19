@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ehlscheid",
+    "eurostat:nuts_2021_id":"07138015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138015",
+    "eurostat:population":1520,
+    "eurostat:population_year":2020,
     "geom:area":0.000808,
     "geom:area_square_m":6355297.778926,
     "geom:bbox":"7.4372056152,50.498629761,7.47972127691,50.5265877935",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":162,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138015",
+        "eurostat:nuts_2021_id":"07138015",
         "gn:id":2932893,
         "gp:id":646790,
         "qs_pg:id":93947,
@@ -158,7 +173,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d089e0bc5ad5de1f37f549a523721189",
+    "wof:geomhash":"3f80e650b094d9475a27ecf1d8b357bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +185,11 @@
         }
     ],
     "wof:id":101846287,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351960,
     "wof:name":"Ehlscheid",
     "wof:parent_id":1377685653,
     "wof:placetype":"locality",
-    "wof:population":1237,
+    "wof:population":1520,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

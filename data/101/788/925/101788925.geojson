@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09173135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lenggries",
+    "eurostat:nuts_2021_id":"09173135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE216",
+    "eurostat:nuts_2021_level_lau":"09173135",
+    "eurostat:population":10048,
+    "eurostat:population_year":2020,
     "geom:area":0.029057,
-    "geom:area_square_m":242287207.824461,
+    "geom:area_square_m":242287207.82446,
     "geom:bbox":"11.33211,47.495288,11.680057,47.709635",
     "geom:latitude":47.596424,
     "geom:longitude":11.534478,
@@ -187,22 +199,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":417,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063225,
         1377691077,
         404227567,
-        85682571
+        102063225
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09173135",
+        "eurostat:nuts_2021_id":"09173135",
         "gn:id":2878824,
         "gp:id":671237,
         "qs_pg:id":1067660,
@@ -217,7 +232,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"45ce96f04926f822cb362b7bc5a67f8f",
+    "wof:geomhash":"ef7f433b197ec22b7d872092109ee3e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -230,12 +245,12 @@
         }
     ],
     "wof:id":101788925,
-    "wof:lastmodified":1608051896,
+    "wof:lastmodified":1684351845,
     "wof:name":"Lenggries",
     "wof:parent_id":1377691077,
     "wof:placetype":"locality",
-    "wof:population":9432,
-    "wof:population_rank":5,
+    "wof:population":10048,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

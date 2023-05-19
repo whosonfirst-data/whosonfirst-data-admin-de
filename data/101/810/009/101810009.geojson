@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05374008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Engelskirchen",
+    "eurostat:nuts_2021_id":"05374008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2A",
+    "eurostat:nuts_2021_level_lau":"05374008",
+    "eurostat:population":19298,
+    "eurostat:population_year":2020,
     "geom:area":0.008072,
-    "geom:area_square_m":62835504.182581,
+    "geom:area_square_m":62835504.182583,
     "geom:bbox":"7.32584,50.946665,7.514902,51.025374",
     "geom:latitude":50.985059,
     "geom:longitude":7.424001,
@@ -305,22 +317,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":447,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063741,
         1377690419,
         404227541,
-        85682513
+        102063741
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05374008",
+        "eurostat:nuts_2021_id":"05374008",
         "fct:id":"073d811a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2930216,
         "gp:id":648032,
@@ -336,7 +351,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"deea0c40fcb4c5b984192443abcc68b9",
+    "wof:geomhash":"37d4a4d1384b111f5c147e81ec10de5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,12 +367,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050048,
+    "wof:lastmodified":1684351870,
     "wof:name":"Engelskirchen",
     "wof:parent_id":1377690419,
     "wof:placetype":"locality",
-    "wof:population":20786,
-    "wof:population_rank":7,
+    "wof:population":19298,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

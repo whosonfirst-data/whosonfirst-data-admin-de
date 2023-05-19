@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ramsthal",
+    "eurostat:nuts_2021_id":"09672142",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672142",
+    "eurostat:population":1121,
+    "eurostat:population_year":2020,
     "geom:area":0.001303,
     "geom:area_square_m":10328854.12421,
     "geom:bbox":"10.0511292701,50.1048691476,10.0986078382,50.1477402406",
@@ -157,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672142",
+        "eurostat:nuts_2021_id":"09672142",
         "fct:id":"071d24e2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850535,
         "gp:id":12635506,
@@ -184,7 +199,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f61bbabf6c7726ea88640661b2b56d4f",
+    "wof:geomhash":"d742b06b1debd473ee4628696e1d4b6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342549,
+    "wof:lastmodified":1684351882,
     "wof:name":"Ramsthal",
     "wof:parent_id":1377690639,
     "wof:placetype":"locality",
-    "wof:population":1212,
+    "wof:population":1121,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

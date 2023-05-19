@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elfershausen, M",
+    "eurostat:nuts_2021_id":"09672121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672121",
+    "eurostat:population":2794,
+    "eurostat:population_year":2020,
     "geom:area":0.004402,
     "geom:area_square_m":34896018.217388,
     "geom:bbox":"9.92842899988,50.0844442516,10.0195226226,50.1800949748",
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":242,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672121",
+        "eurostat:nuts_2021_id":"09672121",
         "gn:id":2931182,
         "gp:id":647511,
         "qs_pg:id":351032,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"76df5f338d6687d4ecbb45ca870ad0aa",
+    "wof:geomhash":"23fa8cc6bbeefe2db2da3fc83a3bba29",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101812071,
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351882,
     "wof:name":"Elfershausen",
     "wof:parent_id":1377690629,
     "wof:placetype":"locality",
-    "wof:population":3005,
+    "wof:population":2794,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09474168",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unterleinleiter",
+    "eurostat:nuts_2021_id":"09474168",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE248",
+    "eurostat:nuts_2021_level_lau":"09474168",
+    "eurostat:population":1192,
+    "eurostat:population_year":2020,
     "geom:area":0.001545,
     "geom:area_square_m":12326026.70687,
     "geom:bbox":"11.1361817765,49.8082300836,11.2055967766,49.8450560696",
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -332,6 +345,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09474168",
+        "eurostat:nuts_2021_id":"09474168",
         "fct:id":"071c3956-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2819167,
         "gp:id":701193,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4d47fb0487a00e71cd6afc0e79974568",
+    "wof:geomhash":"fdebc4db2b046713bb0a771e84134ad8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -360,11 +375,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342369,
+    "wof:lastmodified":1684351940,
     "wof:name":"Unterleinleiter",
     "wof:parent_id":1377687995,
     "wof:placetype":"locality",
-    "wof:population":1258,
+    "wof:population":1192,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

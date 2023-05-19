@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harzgerode, Stadt",
+    "eurostat:nuts_2021_id":"15085145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085145",
+    "eurostat:population":7709,
+    "eurostat:population_year":2020,
     "geom:area":0.021463,
-    "geom:area_square_m":164723552.742874,
+    "geom:area_square_m":164723552.742878,
     "geom:bbox":"10.895934,51.565975,11.252791,51.680109",
     "geom:latitude":51.633692,
     "geom:longitude":11.099699,
@@ -312,19 +324,22 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.641667,
     "wd:longitude":11.142778,
     "wd:wordcount":579,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063857,
         1377688559,
-        85682519
+        85633111,
+        102063857
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085145",
+        "eurostat:nuts_2021_id":"15085145",
         "gn:id":2909944,
         "gp:id":657562,
         "qs_pg:id":241020,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d9f70d08133bbf904b25542de1215e0",
+    "wof:geomhash":"29c0e953439c9cf5c6b13291ec2ea296",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,12 +366,12 @@
         }
     ],
     "wof:id":101820921,
-    "wof:lastmodified":1608049895,
+    "wof:lastmodified":1684351914,
     "wof:name":"Harzgerode",
     "wof:parent_id":1377688559,
     "wof:placetype":"locality",
-    "wof:population":4428,
-    "wof:population_rank":4,
+    "wof:population":7709,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

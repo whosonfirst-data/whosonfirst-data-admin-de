@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blaufelden",
+    "eurostat:nuts_2021_id":"08127008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127008",
+    "eurostat:population":5286,
+    "eurostat:population_year":2020,
     "geom:area":0.01115,
-    "geom:area_square_m":89902459.935698,
+    "geom:area_square_m":89902459.935693,
     "geom:bbox":"9.840707,49.26341,10.123661,49.342942",
     "geom:latitude":49.303394,
     "geom:longitude":9.966209,
@@ -312,22 +324,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063423,
         1377687817,
         404227549,
-        85682567
+        102063423
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127008",
+        "eurostat:nuts_2021_id":"08127008",
         "fct:id":"073885de-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2947919,
         "gp:id":639421,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3daf5aab271c7c852844dc165e6621fc",
+    "wof:geomhash":"5f2c8aeb60b726a70daf20fde0a884cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050939,
+    "wof:lastmodified":1684351797,
     "wof:name":"Blaufelden",
     "wof:parent_id":1377687817,
     "wof:placetype":"locality",
-    "wof:population":5348,
+    "wof:population":5286,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

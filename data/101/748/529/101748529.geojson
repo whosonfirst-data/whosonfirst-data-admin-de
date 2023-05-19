@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08121000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heilbronn, Stadt",
+    "eurostat:nuts_2021_id":"08121000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE117",
+    "eurostat:nuts_2021_level_lau":"08121000",
+    "eurostat:population":126592,
+    "eurostat:population_year":2020,
     "geom:area":0.012408,
-    "geom:area_square_m":100347657.607837,
+    "geom:area_square_m":100347657.607836,
     "geom:bbox":"9.044506,49.092987,9.30054,49.210637",
     "geom:latitude":49.152732,
     "geom:longitude":9.182309,
@@ -398,22 +410,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":99.84,
     "wd:latitude":49.15,
     "wd:longitude":9.216667,
     "wd:population":118122,
     "wd:wordcount":5908,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        1377675593,
         1377687569,
         404227549,
-        85682567
+        1377675593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08121000",
+        "eurostat:nuts_2021_id":"08121000",
         "gn:id":2907669,
         "gp:id":658506,
         "qs_pg:id":1073171,
@@ -429,7 +444,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"079adb93016cdce56912203e8eab11a1",
+    "wof:geomhash":"f0a144efe18c0f5044da9430e53c3391",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -442,11 +457,11 @@
         }
     ],
     "wof:id":101748529,
-    "wof:lastmodified":1608050570,
+    "wof:lastmodified":1684351786,
     "wof:name":"Heilbronn",
     "wof:parent_id":1377687569,
     "wof:placetype":"locality",
-    "wof:population":118122,
+    "wof:population":126592,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

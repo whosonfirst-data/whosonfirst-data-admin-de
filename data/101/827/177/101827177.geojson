@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16056000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eisenach, Stadt",
+    "eurostat:nuts_2021_id":"16056000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0N",
+    "eurostat:nuts_2021_level_lau":"16056000",
+    "eurostat:population":42250,
+    "eurostat:population_year":2020,
     "geom:area":0.013377,
-    "geom:area_square_m":104121248.219129,
+    "geom:area_square_m":104121248.219121,
     "geom:bbox":"10.175469,50.93003,10.391869,51.052361",
     "geom:latitude":50.989672,
     "geom:longitude":10.300105,
@@ -389,20 +401,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063697,
         1377689371,
-        85682541
+        85633111,
+        102063697
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16056000",
+        "eurostat:nuts_2021_id":"16056000",
         "gn:id":2931574,
         "gp:id":647320,
         "qs_pg:id":1072720,
@@ -418,7 +433,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"acb137bb73a2f8e1f1a572f072eb4002",
+    "wof:geomhash":"89b9468f9a1e84094c93035aee3f311b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -430,11 +445,11 @@
         }
     ],
     "wof:id":101827177,
-    "wof:lastmodified":1608049839,
+    "wof:lastmodified":1684351941,
     "wof:name":"Eisenach",
     "wof:parent_id":1377689371,
     "wof:placetype":"locality",
-    "wof:population":43846,
+    "wof:population":42250,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

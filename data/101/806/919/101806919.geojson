@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Risum-Lindholm",
+    "eurostat:nuts_2021_id":"01054109",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054109",
+    "eurostat:population":3796,
+    "eurostat:population_year":2020,
     "geom:area":0.005103,
-    "geom:area_square_m":36414489.764654,
+    "geom:area_square_m":36414489.76465,
     "geom:bbox":"8.7904023531,54.7157469302,8.92329449848,54.7963500002",
     "geom:latitude":54.75468,
     "geom:longitude":8.854957,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054109",
+        "eurostat:nuts_2021_id":"01054109",
         "gn:id":3208565,
         "gp:id":672029,
         "qs_pg:id":95272,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9cd72fd406366d6ede287305bd353997",
+    "wof:geomhash":"5ce2496484279197d1e83bf6778b8782",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101806919,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351856,
     "wof:name":"Risum-Lindholm",
     "wof:parent_id":1377683639,
     "wof:placetype":"locality",
-    "wof:population":3581,
+    "wof:population":3796,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

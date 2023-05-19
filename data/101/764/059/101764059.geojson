@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchzarten",
+    "eurostat:nuts_2021_id":"08315064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315064",
+    "eurostat:population":9743,
+    "eurostat:population_year":2020,
     "geom:area":0.00257,
-    "geom:area_square_m":21282117.37819,
+    "geom:area_square_m":21282117.378189,
     "geom:bbox":"7.91401907842,47.9362908767,7.99382674745,47.9884754554",
     "geom:latitude":47.962911,
     "geom:longitude":7.950788,
@@ -172,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":102,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -188,6 +201,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315064",
+        "eurostat:nuts_2021_id":"08315064",
         "gn:id":2890328,
         "gp:id":666054,
         "qs_pg:id":1147553,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f147d8ac0ff19a6db638a19a05581fa8",
+    "wof:geomhash":"9f3cc15430865b0cafb57fd6fac37b33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101764059,
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351812,
     "wof:name":"Kirchzarten",
     "wof:parent_id":1377689161,
     "wof:placetype":"locality",
-    "wof:population":9730,
+    "wof:population":9743,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03458001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beckeln",
+    "eurostat:nuts_2021_id":"03458001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94D",
+    "eurostat:nuts_2021_level_lau":"03458001",
+    "eurostat:population":760,
+    "eurostat:population_year":2020,
     "geom:area":0.004476,
-    "geom:area_square_m":33408764.532709,
+    "geom:area_square_m":33408764.532708,
     "geom:bbox":"8.54501864104,52.8346029807,8.64724913184,52.8999454065",
     "geom:latitude":52.869479,
     "geom:longitude":8.594036,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03458001",
+        "eurostat:nuts_2021_id":"03458001",
         "gn:id":2951711,
         "gp:id":637364,
         "qs_pg:id":579859,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f89bad673d991b3c9c111a89ff1c485",
+    "wof:geomhash":"266c828f88b735c043fe4f9860f8bf68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101907781,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351991,
     "wof:name":"Beckeln",
     "wof:parent_id":1377688949,
     "wof:placetype":"locality",
-    "wof:population":852,
+    "wof:population":760,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

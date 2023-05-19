@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Heilbronn, Stadtkreis",
+    "eurostat:name_local":"Heilbronn, Stadtkreis",
+    "eurostat:nuts_2021_id":"DE117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE117",
+    "eurostat:population":125613,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.012387,
-    "geom:area_square_m":100176275.623966,
+    "geom:area_square_m":100176275.623971,
     "geom:bbox":"9.044506,49.093133,9.30054,49.210637",
     "geom:latitude":49.152678,
     "geom:longitude":9.182407,
@@ -262,8 +276,8 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"100",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Heilbronn",
@@ -276,12 +290,13 @@
     "statoids:type":"urban district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227549,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE117",
         "hasc:id":"DE.BW.HN"
     },
     "wof:coterminous":[
@@ -289,7 +304,7 @@
         1377687569
     ],
     "wof:country":"DE",
-    "wof:geomhash":"03acbbb4c147a26ab82e62fbeb32104f",
+    "wof:geomhash":"f006059e3ebb6516cb72d23e8789fdda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -300,12 +315,12 @@
         }
     ],
     "wof:id":1377675593,
-    "wof:lastmodified":1608053194,
+    "wof:lastmodified":1684351534,
     "wof:name":"Heilbronn",
     "wof:parent_id":404227549,
     "wof:placetype":"county",
     "wof:placetype_local":"urban district",
-    "wof:population":116059,
+    "wof:population":125613,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

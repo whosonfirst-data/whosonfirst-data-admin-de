@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Essel",
+    "eurostat:nuts_2021_id":"03358007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358007",
+    "eurostat:population":1168,
+    "eurostat:population_year":2020,
     "geom:area":0.004531,
-    "geom:area_square_m":33946130.356948,
+    "geom:area_square_m":33946130.356944,
     "geom:bbox":"9.62142057833,52.6698955687,9.76090643925,52.7381546032",
     "geom:latitude":52.704743,
     "geom:longitude":9.693422,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":155,
     "wof:belongsto":[
         85682555,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358007",
+        "eurostat:nuts_2021_id":"03358007",
         "gn:id":2928821,
         "gp:id":648811,
         "qs_pg:id":1039905,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"65608134bf32b6c8fa74c7a580e4e22e",
+    "wof:geomhash":"fdc9be54bd2d2a7df77b4093129152bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101846411,
-    "wof:lastmodified":1582342527,
+    "wof:lastmodified":1684351961,
     "wof:name":"Essel",
     "wof:parent_id":1377687849,
     "wof:placetype":"locality",
-    "wof:population":1095,
+    "wof:population":1168,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

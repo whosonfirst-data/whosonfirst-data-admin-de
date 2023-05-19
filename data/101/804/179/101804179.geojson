@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03457010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hesel",
+    "eurostat:nuts_2021_id":"03457010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94C",
+    "eurostat:nuts_2021_level_lau":"03457010",
+    "eurostat:population":4553,
+    "eurostat:population_year":2020,
     "geom:area":0.005929,
-    "geom:area_square_m":43807241.842254,
+    "geom:area_square_m":43807241.842258,
     "geom:bbox":"7.54244566981,53.2568842003,7.68023377669,53.3568926639",
     "geom:latitude":53.30798,
     "geom:longitude":7.608738,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":55,
     "wof:belongsto":[
         85682555,
@@ -164,6 +177,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03457010",
+        "eurostat:nuts_2021_id":"03457010",
         "gn:id":2905421,
         "gp:id":659585,
         "qs_pg:id":1039587,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"285a38b9a52aa13d843b0bb810eeca92",
+    "wof:geomhash":"ddbee4fa293c2af9161be1778423fe38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101804179,
-    "wof:lastmodified":1582342446,
+    "wof:lastmodified":1684351846,
     "wof:name":"Hesel",
     "wof:parent_id":1377688857,
     "wof:placetype":"locality",
-    "wof:population":4202,
+    "wof:population":4553,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

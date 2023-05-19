@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Affalterbach",
+    "eurostat:nuts_2021_id":"08118001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118001",
+    "eurostat:population":4485,
+    "eurostat:population_year":2020,
     "geom:area":0.001236,
     "geom:area_square_m":10041423.346943,
     "geom:bbox":"9.30773971742,48.905281266,9.37833420463,48.9348976086",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":64,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -341,6 +354,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118001",
+        "eurostat:nuts_2021_id":"08118001",
         "fct:id":"07351e3a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2959368,
         "gp:id":633442,
@@ -353,7 +368,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"932235ead2fdf27f09352727e89ba4ad",
+    "wof:geomhash":"c81107b27ffd5c5c631fbcab13f29f68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -369,11 +384,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342512,
+    "wof:lastmodified":1684351807,
     "wof:name":"Affalterbach",
     "wof:parent_id":1377687395,
     "wof:placetype":"locality",
-    "wof:population":4623,
+    "wof:population":4485,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

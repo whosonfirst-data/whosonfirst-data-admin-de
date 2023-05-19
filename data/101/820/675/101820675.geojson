@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068477",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wusterhausen/Dosse",
+    "eurostat:nuts_2021_id":"12068477",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068477",
+    "eurostat:population":5761,
+    "eurostat:population_year":2020,
     "geom:area":0.026212,
-    "geom:area_square_m":195494181.728924,
+    "geom:area_square_m":195494181.728941,
     "geom:bbox":"12.4265615088,52.7897346958,12.6534073162,53.0152110657",
     "geom:latitude":52.903976,
     "geom:longitude":12.531995,
@@ -143,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":128,
     "wof:belongsto":[
         85682553,
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068477",
+        "eurostat:nuts_2021_id":"12068477",
         "gn:id":2805483,
         "gp:id":708358,
         "qs_pg:id":254219,
@@ -164,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cf03a4927d0223db8c928f2c9a02a45d",
+    "wof:geomhash":"1838fba6cbfb6d051d66dc6dc8edeb20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101820675,
-    "wof:lastmodified":1582342376,
+    "wof:lastmodified":1684351912,
     "wof:name":"Wusterhausen/Dosse",
     "wof:parent_id":1377683715,
     "wof:placetype":"locality",
-    "wof:population":6632,
+    "wof:population":5761,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

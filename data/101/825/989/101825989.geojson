@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09479147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schirnding, M",
+    "eurostat:nuts_2021_id":"09479147",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24D",
+    "eurostat:nuts_2021_level_lau":"09479147",
+    "eurostat:population":1120,
+    "eurostat:population_year":2020,
     "geom:area":0.002085,
-    "geom:area_square_m":16548550.192221,
+    "geom:area_square_m":16548550.192219,
     "geom:bbox":"12.1795488604,50.0380542431,12.2753536472,50.0974948535",
     "geom:latitude":50.071871,
     "geom:longitude":12.237041,
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -185,6 +198,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09479147",
+        "eurostat:nuts_2021_id":"09479147",
         "gn:id":2839066,
         "gp:id":691963,
         "qs_pg:id":945286,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3126153cd69dc80e67c9800f6967a2e3",
+    "wof:geomhash":"087e0c3ace005a6fa6b0f7c899d0fc97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101825989,
-    "wof:lastmodified":1582342577,
+    "wof:lastmodified":1684351933,
     "wof:name":"Schirnding",
     "wof:parent_id":1377688735,
     "wof:placetype":"locality",
-    "wof:population":1471,
+    "wof:population":1120,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

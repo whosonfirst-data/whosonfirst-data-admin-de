@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buchloe, St",
+    "eurostat:nuts_2021_id":"09777121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777121",
+    "eurostat:population":13273,
+    "eurostat:population_year":2020,
     "geom:area":0.004353,
-    "geom:area_square_m":35998680.890165,
+    "geom:area_square_m":35998680.890167,
     "geom:bbox":"10.6767188805,48.000964719,10.8165900602,48.0592093421",
     "geom:latitude":48.028877,
     "geom:longitude":10.739344,
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":440,
     "wof:belongsto":[
         85682571,
@@ -175,6 +188,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777121",
+        "eurostat:nuts_2021_id":"09777121",
         "gn:id":2942281,
         "gp:id":642146,
         "qs_pg:id":142778,
@@ -186,7 +201,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"035eba453085518c6a6e4af659fb456c",
+    "wof:geomhash":"f6c84286a5d0fe7027d2a748d48ad11f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101786435,
-    "wof:lastmodified":1582342641,
+    "wof:lastmodified":1684351837,
     "wof:name":"Buchloe",
     "wof:parent_id":1377693021,
     "wof:placetype":"locality",
-    "wof:population":11978,
+    "wof:population":13273,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cremlingen",
+    "eurostat:nuts_2021_id":"03158006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158006",
+    "eurostat:population":13073,
+    "eurostat:population_year":2020,
     "geom:area":0.007847,
-    "geom:area_square_m":59387324.320716,
+    "geom:area_square_m":59387324.320721,
     "geom:bbox":"10.592295,52.218948,10.760456,52.303257",
     "geom:latitude":52.262857,
     "geom:longitude":10.681724,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":233,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063881,
         1377686093,
-        85682555
+        85633111,
+        102063881
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158006",
+        "eurostat:nuts_2021_id":"03158006",
         "gn:id":2939763,
         "gp:id":643344,
         "qs_pg:id":374397,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b563d733db2a2dffaf8d2676923fc658",
+    "wof:geomhash":"f09ca6bfcaf0665d018f0411ae73602e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101819573,
-    "wof:lastmodified":1608050264,
+    "wof:lastmodified":1684351906,
     "wof:name":"Cremlingen",
     "wof:parent_id":1377686093,
     "wof:placetype":"locality",
-    "wof:population":12808,
+    "wof:population":13073,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

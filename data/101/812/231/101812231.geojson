@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Karben, Stadt",
+    "eurostat:nuts_2021_id":"06440012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440012",
+    "eurostat:population":22436,
+    "eurostat:population_year":2020,
     "geom:area":0.005552,
-    "geom:area_square_m":43913304.649063,
+    "geom:area_square_m":43913304.649062,
     "geom:bbox":"8.688345,50.194551,8.826886,50.2679",
     "geom:latitude":50.235517,
     "geom:longitude":8.767693,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.232222,
     "wd:longitude":8.768056,
     "wd:wordcount":385,
@@ -160,15 +173,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694313,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440012",
+        "eurostat:nuts_2021_id":"06440012",
         "gn:id":2892980,
         "gp:id":664867,
         "loc:id":"n82040103",
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b34cec13ba494fe89e17d62d02062811",
+    "wof:geomhash":"4c8e42b2515058def46774301166ec88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101812231,
-    "wof:lastmodified":1608051222,
+    "wof:lastmodified":1684351884,
     "wof:name":"Karben",
     "wof:parent_id":1377694313,
     "wof:placetype":"locality",
-    "wof:population":21642,
+    "wof:population":22436,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

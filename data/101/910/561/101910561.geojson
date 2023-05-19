@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfvargula",
+    "eurostat:nuts_2021_id":"16064019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064019",
+    "eurostat:population":701,
+    "eurostat:population_year":2020,
     "geom:area":0.001952,
-    "geom:area_square_m":15154263.833867,
+    "geom:area_square_m":15154263.833863,
     "geom:bbox":"10.7406224219,51.0930421565,10.8104176726,51.1390500227",
     "geom:latitude":51.115698,
     "geom:longitude":10.775371,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064019",
+        "eurostat:nuts_2021_id":"16064019",
         "gn:id":2914923,
         "gp:id":667210,
         "qs_pg:id":1030034,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"92ce5648637ade164036f0e4dcfa2f5f",
+    "wof:geomhash":"c8e717562e0fa815e41cfe5b8bfaaddd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101910561,
-    "wof:lastmodified":1582342651,
+    "wof:lastmodified":1684352007,
     "wof:name":"Gro\u00dfvargula",
     "wof:parent_id":1377689825,
     "wof:placetype":"locality",
-    "wof:population":803,
+    "wof:population":701,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

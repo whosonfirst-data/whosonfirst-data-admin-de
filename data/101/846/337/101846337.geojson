@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06636009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neu-Eichenberg",
+    "eurostat:nuts_2021_id":"06636009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE737",
+    "eurostat:nuts_2021_level_lau":"06636009",
+    "eurostat:population":1818,
+    "eurostat:population_year":2020,
     "geom:area":0.003557,
     "geom:area_square_m":27451563.103266,
     "geom:bbox":"9.850539,51.347178,9.932888,51.421139",
@@ -291,18 +303,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":266,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063763,
         1377685137,
         404227551,
-        85682531
+        102063763
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06636009",
+        "eurostat:nuts_2021_id":"06636009",
         "gn:id":3207186,
         "gp:id":658180,
         "qs_pg:id":581806,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58f4eef2a4e4b5945ea7bd497b981720",
+    "wof:geomhash":"91f61b5cf992ff73b99c0d88f2654cef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101846337,
-    "wof:lastmodified":1608051015,
+    "wof:lastmodified":1684351960,
     "wof:name":"Neu-Eichenberg",
     "wof:parent_id":1377685137,
     "wof:placetype":"locality",
-    "wof:population":1827,
+    "wof:population":1818,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

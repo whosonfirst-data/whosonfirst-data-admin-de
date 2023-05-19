@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Damflos",
+    "eurostat:nuts_2021_id":"07235014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235014",
+    "eurostat:population":620,
+    "eurostat:population_year":2020,
     "geom:area":0.000691,
-    "geom:area_square_m":5534075.207396,
+    "geom:area_square_m":5534075.207395,
     "geom:bbox":"6.97610019506,49.6518713802,7.02213449129,49.6783874961",
     "geom:latitude":49.667336,
     "geom:longitude":6.99522,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235014",
+        "eurostat:nuts_2021_id":"07235014",
         "gn:id":2939214,
         "gp:id":643636,
         "qs_pg:id":579470,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c0e989540b17a6d5c2ae0d027ad9d5e5",
+    "wof:geomhash":"c88ff2e162b2703764894506213d312e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101906933,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351983,
     "wof:name":"Damflos",
     "wof:parent_id":1377686019,
     "wof:placetype":"locality",
-    "wof:population":695,
+    "wof:population":620,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

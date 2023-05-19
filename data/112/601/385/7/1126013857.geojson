@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Havekost",
+    "eurostat:nuts_2021_id":"01053052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053052",
+    "eurostat:population":184,
+    "eurostat:population_year":2020,
     "geom:area":0.000811,
     "geom:area_square_m":5956134.875219,
     "geom:bbox":"10.4365102268,53.5219430789,10.4964387724,53.5557627172",
@@ -282,7 +294,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053052",
+        "eurostat:nuts_2021_id":"01053052",
         "gn:id":2908649,
         "qs_pg:id":578732,
         "wd:id":"Q632520"
@@ -301,7 +316,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"8c33d41680d4426b40b8904388608351",
+    "wof:geomhash":"bd55ed534cb32d66989189c18ea420d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":1126013857,
-    "wof:lastmodified":1582343016,
+    "wof:lastmodified":1684352046,
     "wof:name":"Havekost",
     "wof:parent_id":1377683521,
     "wof:placetype":"locality",
-    "wof:population":135,
+    "wof:population":184,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

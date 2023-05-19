@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aystetten",
+    "eurostat:nuts_2021_id":"09772117",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772117",
+    "eurostat:population":2940,
+    "eurostat:population_year":2020,
     "geom:area":0.001079,
-    "geom:area_square_m":8859205.713839,
+    "geom:area_square_m":8859205.71384,
     "geom:bbox":"10.732574,48.392148,10.799994,48.418296",
     "geom:latitude":48.406731,
     "geom:longitude":10.766381,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":94,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377692383,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772117",
+        "eurostat:nuts_2021_id":"09772117",
         "fct:id":"0736aaf2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953825,
         "gp:id":636254,
@@ -201,7 +216,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"23fdd764226fddf9a0bd141a9e4dc924",
+    "wof:geomhash":"b4ae0dd6a0999ecbe2700b9156308471",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,11 +232,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050460,
+    "wof:lastmodified":1684351837,
     "wof:name":"Aystetten",
     "wof:parent_id":1377692383,
     "wof:placetype":"locality",
-    "wof:population":3026,
+    "wof:population":2940,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gehlert",
+    "eurostat:nuts_2021_id":"07143223",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143223",
+    "eurostat:population":614,
+    "eurostat:population_year":2020,
     "geom:area":0.000664,
     "geom:area_square_m":5209341.488852,
     "geom:bbox":"7.81205874375,50.6191299751,7.84723537003,50.6480751458",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":182,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143223",
+        "eurostat:nuts_2021_id":"07143223",
         "gn:id":2922028,
         "gp:id":696798,
         "qs_pg:id":93850,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d35eac2351dfaf8e883509e8ad149c29",
+    "wof:geomhash":"14115f33678b4e11171f386979a9fab0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101907417,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351987,
     "wof:name":"Gehlert",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":559,
+    "wof:population":614,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

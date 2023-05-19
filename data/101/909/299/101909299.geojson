@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066188",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindenau",
+    "eurostat:nuts_2021_id":"12066188",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066188",
+    "eurostat:population":752,
+    "eurostat:population_year":2020,
     "geom:area":0.00144,
     "geom:area_square_m":11110065.79247,
     "geom:bbox":"13.7098466983,51.3803073239,13.764546629,51.4235167232",
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":21,
     "wof:belongsto":[
         85682553,
@@ -170,6 +183,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066188",
+        "eurostat:nuts_2021_id":"12066188",
         "gn:id":2877425,
         "gp:id":671953,
         "qs_pg:id":577997,
@@ -180,7 +195,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0575a2e5b6dfc6ea2910039ce6299da8",
+    "wof:geomhash":"bc9ab6e5842e47854939d36c2e3e7caa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
         }
     ],
     "wof:id":101909299,
-    "wof:lastmodified":1582342292,
+    "wof:lastmodified":1684352002,
     "wof:name":"Lindenau",
     "wof:parent_id":1377683481,
     "wof:placetype":"locality",
-    "wof:population":758,
+    "wof:population":752,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

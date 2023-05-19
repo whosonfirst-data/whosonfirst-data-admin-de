@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Marienberg (Westerwald), Stadt",
+    "eurostat:nuts_2021_id":"07143206",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143206",
+    "eurostat:population":6098,
+    "eurostat:population_year":2020,
     "geom:area":0.001274,
-    "geom:area_square_m":9991715.047142,
+    "geom:area_square_m":9991715.047141,
     "geom:bbox":"7.92041828932,50.6300404244,7.97805833937,50.6675483385",
     "geom:latitude":50.649716,
     "geom:longitude":7.95189,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143206",
+        "eurostat:nuts_2021_id":"07143206",
         "gn:id":2953404,
         "gp:id":636463,
         "qs_pg:id":895976,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"57acbdebac02b0d90bb937bf313ca9e0",
+    "wof:geomhash":"31e5cfbccd0c8e4a3b5ac361eb0453b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101810801,
-    "wof:lastmodified":1582342409,
+    "wof:lastmodified":1684351875,
     "wof:name":"Bad Marienberg (Westerwald)",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":5838,
+    "wof:population":6098,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

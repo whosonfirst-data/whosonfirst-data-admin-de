@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f6heischweiler",
+    "eurostat:nuts_2021_id":"07340023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340023",
+    "eurostat:population":854,
+    "eurostat:population_year":2020,
     "geom:area":0.000568,
     "geom:area_square_m":4589590.913228,
     "geom:bbox":"7.52512941385,49.2171248168,7.57078399317,49.2399583685",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340023",
+        "eurostat:nuts_2021_id":"07340023",
         "gn:id":2902064,
         "gp:id":659065,
         "qs_pg:id":578595,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6faae7024569aeda251c27f210ff0885",
+    "wof:geomhash":"32380b50483c7e33d76b06a357e4fe2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,12 +336,12 @@
         }
     ],
     "wof:id":101905939,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"H\u00f6heischweiler",
     "wof:parent_id":1377686795,
     "wof:placetype":"locality",
-    "wof:population":1018,
-    "wof:population_rank":3,
+    "wof:population":854,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

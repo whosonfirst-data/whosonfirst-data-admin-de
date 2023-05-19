@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09573111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ammerndorf, M",
+    "eurostat:nuts_2021_id":"09573111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE258",
+    "eurostat:nuts_2021_level_lau":"09573111",
+    "eurostat:population":2064,
+    "eurostat:population_year":2020,
     "geom:area":0.000626,
     "geom:area_square_m":5033463.543258,
     "geom:bbox":"10.822986,49.411104,10.88103,49.435239",
@@ -154,18 +166,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063467,
         1377689339,
         404227565,
-        85682571
+        102063467
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09573111",
+        "eurostat:nuts_2021_id":"09573111",
         "gn:id":2956434,
         "gp:id":635042,
         "qs_pg:id":1040300,
@@ -180,7 +195,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55c7cb0d0240384f79403bd921c89661",
+    "wof:geomhash":"2badae24a7ab7a9d573fe83832c1e321",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101826743,
-    "wof:lastmodified":1608050356,
+    "wof:lastmodified":1684351936,
     "wof:name":"Ammerndorf",
     "wof:parent_id":1377689339,
     "wof:placetype":"locality",
-    "wof:population":2099,
+    "wof:population":2064,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

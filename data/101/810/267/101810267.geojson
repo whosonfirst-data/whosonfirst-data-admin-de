@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Geldern, Stadt",
+    "eurostat:nuts_2021_id":"05154012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154012",
+    "eurostat:population":33730,
+    "eurostat:population_year":2020,
     "geom:area":0.012638,
     "geom:area_square_m":97238917.596668,
     "geom:bbox":"6.200742,51.467129,6.420594,51.576421",
@@ -321,22 +333,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1424,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689505,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154012",
+        "eurostat:nuts_2021_id":"05154012",
         "gn:id":2921528,
         "gp:id":652005,
         "qs_pg:id":218279,
@@ -351,7 +366,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8825b860a8e9c696c9fc9f00ac7575f4",
+    "wof:geomhash":"2615f7f0a9db3794930822e9528635fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,11 +379,11 @@
         }
     ],
     "wof:id":101810267,
-    "wof:lastmodified":1608050050,
+    "wof:lastmodified":1684351873,
     "wof:name":"Geldern",
     "wof:parent_id":1377689505,
     "wof:placetype":"locality",
-    "wof:population":34013,
+    "wof:population":33730,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

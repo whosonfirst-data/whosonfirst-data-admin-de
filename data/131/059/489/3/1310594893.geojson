@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Molfsee",
+    "eurostat:nuts_2021_id":"01058107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058107",
+    "eurostat:population":5050,
+    "eurostat:population_year":2020,
     "geom:area":0.000998,
-    "geom:area_square_m":7204382.396278,
+    "geom:area_square_m":7204382.396277,
     "geom:bbox":"10.0413658723,54.2553381385,10.0949133774,54.2898931169",
     "geom:latitude":54.271918,
     "geom:longitude":10.068954,
@@ -128,7 +140,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -138,6 +151,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058107",
+        "eurostat:nuts_2021_id":"01058107",
         "gn:id":2870079,
         "wk:page":"Molfsee"
     },
@@ -145,7 +160,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"8d5dc2ac1901cc1ee646516c1ea1f95b",
+    "wof:geomhash":"e70b21ceef212d0a30048b797971e928",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,12 +172,12 @@
         }
     ],
     "wof:id":1310594893,
-    "wof:lastmodified":1582342093,
+    "wof:lastmodified":1684352061,
     "wof:name":"Molfsee",
     "wof:parent_id":1377684251,
     "wof:placetype":"locality",
-    "wof:population":4969,
-    "wof:population_rank":4,
+    "wof:population":5050,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

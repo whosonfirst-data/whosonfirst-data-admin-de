@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bannberscheid",
+    "eurostat:nuts_2021_id":"07143003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143003",
+    "eurostat:population":656,
+    "eurostat:population_year":2020,
     "geom:area":0.000254,
     "geom:area_square_m":1996638.365263,
     "geom:bbox":"7.82619508135,50.4621720163,7.85384447144,50.4769696204",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143003",
+        "eurostat:nuts_2021_id":"07143003",
         "gn:id":2952931,
         "qs_pg:id":1152244,
         "wd:id":"Q564018"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"923ed6185dfecab658afd159884f7912",
+    "wof:geomhash":"cc6a349ff14d35d9527cbff4f6f60d80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125900007,
-    "wof:lastmodified":1582343004,
+    "wof:lastmodified":1684352038,
     "wof:name":"Bannberscheid",
     "wof:parent_id":1377685843,
     "wof:placetype":"locality",
-    "wof:population":636,
+    "wof:population":656,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

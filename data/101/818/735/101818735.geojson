@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitenfelde",
+    "eurostat:nuts_2021_id":"01053014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053014",
+    "eurostat:population":1953,
+    "eurostat:population_year":2020,
     "geom:area":0.001711,
-    "geom:area_square_m":12555304.234998,
+    "geom:area_square_m":12555304.234997,
     "geom:bbox":"10.5665095534,53.5848174708,10.6664751514,53.6155139886",
     "geom:latitude":53.600884,
     "geom:longitude":10.624024,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":64,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053014",
+        "eurostat:nuts_2021_id":"01053014",
         "gn:id":2944608,
         "gp:id":641055,
         "qs_pg:id":142807,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4b686e86a4851d4619c0d062b6a3a334",
+    "wof:geomhash":"b4f4c934ecf71a299bf984bdb912a295",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101818735,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351903,
     "wof:name":"Breitenfelde",
     "wof:parent_id":1377683477,
     "wof:placetype":"locality",
-    "wof:population":1792,
+    "wof:population":1953,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

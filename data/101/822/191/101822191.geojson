@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625380",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukirch/Lausitz",
+    "eurostat:nuts_2021_id":"14625380",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625380",
+    "eurostat:population":4847,
+    "eurostat:population_year":2020,
     "geom:area":0.002737,
-    "geom:area_square_m":21253482.294127,
+    "geom:area_square_m":21253482.294128,
     "geom:bbox":"14.265664,51.067644,14.347683,51.114345",
     "geom:latitude":51.09296,
     "geom:longitude":14.304773,
@@ -159,17 +171,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":172,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686801,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625380",
+        "eurostat:nuts_2021_id":"14625380",
         "fct:id":"071750bc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2864771,
         "gp:id":12625741,
@@ -183,7 +198,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b430827ff35666b5a344ad60f62cd5d",
+    "wof:geomhash":"ae7a10197f3098ed96f7555886105e11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,12 +213,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051478,
+    "wof:lastmodified":1684351920,
     "wof:name":"Neukirch/Lausitz",
     "wof:parent_id":1377686801,
     "wof:placetype":"locality",
-    "wof:population":5567,
-    "wof:population_rank":5,
+    "wof:population":4847,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

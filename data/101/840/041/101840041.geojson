@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kamp-Bornhofen",
+    "eurostat:nuts_2021_id":"07141066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141066",
+    "eurostat:population":1581,
+    "eurostat:population_year":2020,
     "geom:area":0.001472,
     "geom:area_square_m":11644017.790097,
     "geom:bbox":"7.58997916766,50.2009680222,7.70234237341,50.241307558",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":86,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -165,6 +178,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141066",
+        "eurostat:nuts_2021_id":"07141066",
         "fct:id":"074707a8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2893307,
         "gp:id":664758,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"47fa861ebc93b5a73ae44108ab4b83d6",
+    "wof:geomhash":"3993eff389e163b408db184e98260a34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +207,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342559,
+    "wof:lastmodified":1684351950,
     "wof:name":"Kamp-Bornhofen",
     "wof:parent_id":1377685659,
     "wof:placetype":"locality",
-    "wof:population":1632,
+    "wof:population":1581,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fctjenholm",
+    "eurostat:nuts_2021_id":"01054080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054080",
+    "eurostat:population":336,
+    "eurostat:population_year":2020,
     "geom:area":0.001492,
     "geom:area_square_m":10668739.811804,
     "geom:bbox":"9.01234869922,54.6644962386,9.07398819032,54.7007713647",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -283,6 +296,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054080",
+        "eurostat:nuts_2021_id":"01054080",
         "gn:id":2874911,
         "qs_pg:id":577928,
         "wd:id":"Q523789"
@@ -292,7 +307,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d2f7c3f84c6b86f59f82fa0f79d08c2f",
+    "wof:geomhash":"11cf2d663d5ae1c4debe58e62ba1c3e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -304,11 +319,11 @@
         }
     ],
     "wof:id":1125841655,
-    "wof:lastmodified":1582343052,
+    "wof:lastmodified":1684352022,
     "wof:name":"L\u00fctjenholm",
     "wof:parent_id":1377683657,
     "wof:placetype":"locality",
-    "wof:population":331,
+    "wof:population":336,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

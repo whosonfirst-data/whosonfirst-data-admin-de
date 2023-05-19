@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laaber, M",
+    "eurostat:nuts_2021_id":"09375162",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375162",
+    "eurostat:population":5286,
+    "eurostat:population_year":2020,
     "geom:area":0.003646,
-    "geom:area_square_m":29535150.055215,
+    "geom:area_square_m":29535150.055211,
     "geom:bbox":"11.8394937305,49.039334247,11.9601131777,49.1083785613",
     "geom:latitude":49.06677,
     "geom:longitude":11.893837,
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":159,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -185,6 +198,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375162",
+        "eurostat:nuts_2021_id":"09375162",
         "gn:id":2882153,
         "gp:id":669693,
         "qs_pg:id":347897,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1495f018bcf65ae7816dabe32cc204f4",
+    "wof:geomhash":"d0a505092989ea6f632f8b7ae2ce43a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101782013,
-    "wof:lastmodified":1582342460,
+    "wof:lastmodified":1684351822,
     "wof:name":"Laaber",
     "wof:parent_id":1377686629,
     "wof:placetype":"locality",
-    "wof:population":5136,
+    "wof:population":5286,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

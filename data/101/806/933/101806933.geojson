@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wester-Ohrstedt",
+    "eurostat:nuts_2021_id":"01054152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054152",
+    "eurostat:population":1035,
+    "eurostat:population_year":2020,
     "geom:area":0.002582,
     "geom:area_square_m":18538506.536733,
     "geom:bbox":"9.15696086354,54.4776414157,9.31158352602,54.5184304604",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054152",
+        "eurostat:nuts_2021_id":"01054152",
         "gn:id":2810214,
         "gp:id":705697,
         "qs_pg:id":92849,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bc5464fd1ac7ee708ebf2447793a14dd",
+    "wof:geomhash":"aa3bb678adc1d3da4da23c0a08dac038",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101806933,
-    "wof:lastmodified":1582342618,
+    "wof:lastmodified":1684351856,
     "wof:name":"Wester-Ohrstedt",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":1124,
+    "wof:population":1035,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

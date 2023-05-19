@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09473141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lautertal",
+    "eurostat:nuts_2021_id":"09473141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE247",
+    "eurostat:nuts_2021_level_lau":"09473141",
+    "eurostat:population":4330,
+    "eurostat:population_year":2020,
     "geom:area":0.003872,
-    "geom:area_square_m":30554119.452582,
+    "geom:area_square_m":30554119.452581,
     "geom:bbox":"10.899067,50.28995,11.002325,50.392427",
     "geom:latitude":50.343261,
     "geom:longitude":10.959612,
@@ -293,22 +305,25 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":146,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063615,
         1377687749,
         404227583,
-        85682571
+        102063615
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09473141",
+        "eurostat:nuts_2021_id":"09473141",
         "fct:id":"0734307e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2879872,
         "gp:id":12635292,
@@ -327,7 +342,7 @@
         "whosonfirst",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fcf94a050f5eb9aaba11eef9b1930b56",
+    "wof:geomhash":"366982e0ca7a1cae27d8c53b7251aef2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050405,
+    "wof:lastmodified":1684351968,
     "wof:name":"Lautertal",
     "wof:parent_id":1377687749,
     "wof:placetype":"locality",
-    "wof:population":4150,
+    "wof:population":4330,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09478116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgkunstadt, St",
+    "eurostat:nuts_2021_id":"09478116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24C",
+    "eurostat:nuts_2021_level_lau":"09478116",
+    "eurostat:population":6446,
+    "eurostat:population_year":2020,
     "geom:area":0.005123,
-    "geom:area_square_m":40600394.344898,
+    "geom:area_square_m":40600394.344899,
     "geom:bbox":"11.202372,50.111171,11.363619,50.174569",
     "geom:latitude":50.143546,
     "geom:longitude":11.287402,
@@ -163,18 +175,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":471,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063585,
         1377688565,
         404227583,
-        85682571
+        102063585
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09478116",
+        "eurostat:nuts_2021_id":"09478116",
         "gn:id":2941207,
         "gp:id":642606,
         "qs_pg:id":1201794,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"36677c3300cc631a1d2f2a6783d29787",
+    "wof:geomhash":"b0c2ed0eccc244065784aabe5cf28b8e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101842237,
-    "wof:lastmodified":1608049994,
+    "wof:lastmodified":1684351955,
     "wof:name":"Burgkunstadt",
     "wof:parent_id":1377688565,
     "wof:placetype":"locality",
-    "wof:population":6991,
+    "wof:population":6446,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

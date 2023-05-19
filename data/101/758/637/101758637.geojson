@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bernau bei Berlin, Stadt",
+    "eurostat:nuts_2021_id":"12060020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060020",
+    "eurostat:population":40031,
+    "eurostat:population_year":2020,
     "geom:area":0.013903,
-    "geom:area_square_m":104205589.884247,
+    "geom:area_square_m":104205589.884237,
     "geom:bbox":"13.467358,52.608694,13.668668,52.757101",
     "geom:latitude":52.686833,
     "geom:longitude":13.575719,
@@ -327,7 +339,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":68.0,
     "wd:latitude":52.666667,
     "wd:longitude":13.583056,
@@ -337,14 +350,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063973,
         1377694207,
-        85682553
+        85633111,
+        102063973
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060020",
+        "eurostat:nuts_2021_id":"12060020",
         "gn:id":2950096,
         "gp:id":638275,
         "qs_pg:id":385768,
@@ -362,7 +377,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c367f4efa49588c36dae2acd8ecc05d7",
+    "wof:geomhash":"3300828f97614e761d9f93cf2b5213d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -374,11 +389,11 @@
         }
     ],
     "wof:id":101758637,
-    "wof:lastmodified":1608050735,
+    "wof:lastmodified":1684351796,
     "wof:name":"Bernau bei Berlin",
     "wof:parent_id":1377694207,
     "wof:placetype":"locality",
-    "wof:population":34866,
+    "wof:population":40031,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

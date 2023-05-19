@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Glauburg",
+    "eurostat:nuts_2021_id":"06440010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440010",
+    "eurostat:population":3034,
+    "eurostat:population_year":2020,
     "geom:area":0.001613,
     "geom:area_square_m":12733695.045285,
     "geom:bbox":"8.964155,50.302007,9.03794,50.342095",
@@ -131,21 +143,24 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694295,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440010",
+        "eurostat:nuts_2021_id":"06440010",
         "gn:id":2920024,
         "wk:page":"Glauburg"
     },
@@ -156,7 +171,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"53da7b94d32f18f25cd91837a280dd93",
+    "wof:geomhash":"8942f717943f481a13808f5c5eb2407d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":1259977681,
-    "wof:lastmodified":1608054512,
+    "wof:lastmodified":1684352059,
     "wof:name":"Glauburg",
     "wof:parent_id":1377694295,
     "wof:placetype":"locality",
-    "wof:population":3147,
+    "wof:population":3034,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

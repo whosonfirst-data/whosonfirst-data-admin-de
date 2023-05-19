@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grolsheim",
+    "eurostat:nuts_2021_id":"07339022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339022",
+    "eurostat:population":1272,
+    "eurostat:population_year":2020,
     "geom:area":0.000482,
-    "geom:area_square_m":3834722.393576,
+    "geom:area_square_m":3834722.393575,
     "geom:bbox":"7.89874327929,49.9031374773,7.94683695169,49.920888938",
     "geom:latitude":49.913841,
     "geom:longitude":7.923411,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":354,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339022",
+        "eurostat:nuts_2021_id":"07339022",
         "gn:id":2917157,
         "gp:id":654334,
         "qs_pg:id":1039729,
@@ -155,7 +170,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"753c1ae532343d12d24a784813198388",
+    "wof:geomhash":"452bf003d8bc01c4e739fee4d6ee91c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101839991,
-    "wof:lastmodified":1582342623,
+    "wof:lastmodified":1684351949,
     "wof:name":"Grolsheim",
     "wof:parent_id":1377686731,
     "wof:placetype":"locality",
-    "wof:population":1080,
+    "wof:population":1272,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hille",
+    "eurostat:nuts_2021_id":"05770012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770012",
+    "eurostat:population":15374,
+    "eurostat:population_year":2020,
     "geom:area":0.013599,
-    "geom:area_square_m":102759300.875209,
+    "geom:area_square_m":102759300.875208,
     "geom:bbox":"8.693878,52.262941,8.865106,52.400929",
     "geom:latitude":52.332123,
     "geom:longitude":8.769678,
@@ -283,18 +295,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":94,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691907,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770012",
+        "eurostat:nuts_2021_id":"05770012",
         "gn:id":2904725,
         "gp:id":659931,
         "qs_pg:id":847468,
@@ -308,7 +323,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e8663dde92fdf4f126eb6e940ace718e",
+    "wof:geomhash":"8186b075ebbb6835e99fac70e85fc820",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101807683,
-    "wof:lastmodified":1608051560,
+    "wof:lastmodified":1684351858,
     "wof:name":"Hille",
     "wof:parent_id":1377691907,
     "wof:placetype":"locality",
-    "wof:population":16567,
+    "wof:population":15374,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

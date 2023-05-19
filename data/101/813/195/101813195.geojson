@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09675150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Martinsheim",
+    "eurostat:nuts_2021_id":"09675150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE268",
+    "eurostat:nuts_2021_level_lau":"09675150",
+    "eurostat:population":1000,
+    "eurostat:population_year":2020,
     "geom:area":0.00285,
     "geom:area_square_m":22827282.376946,
     "geom:bbox":"10.1163926915,49.589878317,10.2018152905,49.6540026984",
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -181,6 +194,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09675150",
+        "eurostat:nuts_2021_id":"09675150",
         "fct:id":"071d33ce-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2873126,
         "gp:id":12635579,
@@ -192,7 +207,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"71cef946aad22aea273b179c791530dc",
+    "wof:geomhash":"9f82e0b5dfc7f5d563575a12b14e1f08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351888,
     "wof:name":"Martinsheim",
     "wof:parent_id":1377691215,
     "wof:placetype":"locality",
-    "wof:population":1062,
+    "wof:population":1000,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

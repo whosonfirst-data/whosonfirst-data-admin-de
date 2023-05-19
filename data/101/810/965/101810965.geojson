@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gebhardshain",
+    "eurostat:nuts_2021_id":"07132039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132039",
+    "eurostat:population":1885,
+    "eurostat:population_year":2020,
     "geom:area":0.000752,
-    "geom:area_square_m":5887071.218884,
+    "geom:area_square_m":5887071.218885,
     "geom:bbox":"7.78834852525,50.7276019241,7.83080347414,50.7675478067",
     "geom:latitude":50.744742,
     "geom:longitude":7.811605,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":120,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132039",
+        "eurostat:nuts_2021_id":"07132039",
         "gn:id":2922174,
         "gp:id":651750,
         "qs_pg:id":579057,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"195ee27cd631bea1412ba40534357082",
+    "wof:geomhash":"f2b9659c071c881e7aa90e1ff5afd1e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101810965,
-    "wof:lastmodified":1582342399,
+    "wof:lastmodified":1684351877,
     "wof:name":"Gebhardshain",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":1869,
+    "wof:population":1885,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

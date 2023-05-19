@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elpersb\u00fcttel",
+    "eurostat:nuts_2021_id":"01051027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051027",
+    "eurostat:population":844,
+    "eurostat:population_year":2020,
     "geom:area":0.004145,
-    "geom:area_square_m":30076141.248815,
+    "geom:area_square_m":30076141.248814,
     "geom:bbox":"8.95346187353,54.0380738389,9.09419290095,54.0934867839",
     "geom:latitude":54.067605,
     "geom:longitude":9.024424,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051027",
+        "eurostat:nuts_2021_id":"01051027",
         "gn:id":2930811,
         "gp:id":647714,
         "qs_pg:id":579248,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d72450b5a6fe2df55f10d3cfeeeec4a9",
+    "wof:geomhash":"15d9359d1c96928454d89de1da1d9b7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101906279,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351978,
     "wof:name":"Elpersb\u00fcttel",
     "wof:parent_id":1377683419,
     "wof:placetype":"locality",
-    "wof:population":907,
+    "wof:population":844,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bebra, Stadt",
+    "eurostat:nuts_2021_id":"06632003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632003",
+    "eurostat:population":13934,
+    "eurostat:population_year":2020,
     "geom:area":0.012002,
-    "geom:area_square_m":93437060.648049,
+    "geom:area_square_m":93437060.648043,
     "geom:bbox":"9.704042,50.91236,9.91941,51.041741",
     "geom:latitude":50.977945,
     "geom:longitude":9.815285,
@@ -310,20 +322,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.971111,
     "wd:longitude":9.790278,
     "wd:wordcount":1263,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684277,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632003",
+        "eurostat:nuts_2021_id":"06632003",
         "gn:id":2951793,
         "gp:id":637311,
         "qs_pg:id":1345733,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"324abfb7620da52ecca79f9d7ad2e24b",
+    "wof:geomhash":"dccb639badf9dd75fc9708511390ad54",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101809889,
-    "wof:lastmodified":1608051611,
+    "wof:lastmodified":1684351868,
     "wof:name":"Bebra",
     "wof:parent_id":1377684277,
     "wof:placetype":"locality",
-    "wof:population":14839,
+    "wof:population":13934,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

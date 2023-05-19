@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gablenz",
+    "eurostat:nuts_2021_id":"14626100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626100",
+    "eurostat:population":1595,
+    "eurostat:population_year":2020,
     "geom:area":0.001951,
-    "geom:area_square_m":15002799.150536,
+    "geom:area_square_m":15002799.150537,
     "geom:bbox":"14.603191359,51.5162780692,14.6915799623,51.5545473752",
     "geom:latitude":51.538904,
     "geom:longitude":14.650663,
@@ -184,7 +196,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":9,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -199,6 +212,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626100",
+        "eurostat:nuts_2021_id":"14626100",
         "gn:id":2923443,
         "gp:id":651268,
         "qs_pg:id":93858,
@@ -212,7 +227,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"034796cf6670186add14229cf4055a39",
+    "wof:geomhash":"da0a4d6211dd5708f5eb642d9898e7bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -224,11 +239,11 @@
         }
     ],
     "wof:id":101821775,
-    "wof:lastmodified":1582342424,
+    "wof:lastmodified":1684351917,
     "wof:name":"Gablenz",
     "wof:parent_id":1377687125,
     "wof:placetype":"locality",
-    "wof:population":1950,
+    "wof:population":1595,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

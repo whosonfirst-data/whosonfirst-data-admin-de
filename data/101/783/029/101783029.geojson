@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09263000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Straubing",
+    "eurostat:nuts_2021_id":"09263000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE223",
+    "eurostat:nuts_2021_level_lau":"09263000",
+    "eurostat:population":47791,
+    "eurostat:population_year":2020,
     "geom:area":0.008292,
-    "geom:area_square_m":67427363.792728,
+    "geom:area_square_m":67427363.792726,
     "geom:bbox":"12.480216,48.841715,12.667366,48.924289",
     "geom:latitude":48.880792,
     "geom:longitude":12.573571,
@@ -355,21 +367,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063355,
         1377683789,
         404227559,
-        85682571
+        102063355
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09263000",
+        "eurostat:nuts_2021_id":"09263000",
         "gn:id":2826099,
         "gp:id":697740,
         "qs_pg:id":456137,
@@ -385,7 +400,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43b9e50a8f2705e4a8b822934fb12419",
+    "wof:geomhash":"a3d9f4af90c75522a96c47eac4abb2de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -398,11 +413,11 @@
         }
     ],
     "wof:id":101783029,
-    "wof:lastmodified":1608050638,
+    "wof:lastmodified":1684351825,
     "wof:name":"Straubing",
     "wof:parent_id":1377683789,
     "wof:placetype":"locality",
-    "wof:population":44580,
+    "wof:population":47791,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

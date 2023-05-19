@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08135010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dischingen",
+    "eurostat:nuts_2021_id":"08135010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11C",
+    "eurostat:nuts_2021_level_lau":"08135010",
+    "eurostat:population":4347,
+    "eurostat:population_year":2020,
     "geom:area":0.009545,
-    "geom:area_square_m":77891402.192836,
+    "geom:area_square_m":77891402.192842,
     "geom:bbox":"10.298388,48.652827,10.495749,48.748403",
     "geom:latitude":48.703718,
     "geom:longitude":10.400913,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":395,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063327,
         1377688025,
         404227549,
-        85682567
+        102063327
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08135010",
+        "eurostat:nuts_2021_id":"08135010",
         "gn:id":2936796,
         "gp:id":644827,
         "qs_pg:id":579415,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ef2b1d0f648a03f4bc57e55c0b67d14",
+    "wof:geomhash":"404c28605a42fb5ea2827c39cfc62657",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101782949,
-    "wof:lastmodified":1608050519,
+    "wof:lastmodified":1684351824,
     "wof:name":"Dischingen",
     "wof:parent_id":1377688025,
     "wof:placetype":"locality",
-    "wof:population":4552,
+    "wof:population":4347,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

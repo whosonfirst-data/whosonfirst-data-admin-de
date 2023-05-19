@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barnstedt",
+    "eurostat:nuts_2021_id":"03355006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355006",
+    "eurostat:population":726,
+    "eurostat:population_year":2020,
     "geom:area":0.002645,
-    "geom:area_square_m":19618983.326829,
+    "geom:area_square_m":19618983.326831,
     "geom:bbox":"10.3345856597,53.1135641974,10.4091902361,53.1733019275",
     "geom:latitude":53.140032,
     "geom:longitude":10.371086,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -321,6 +334,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355006",
+        "eurostat:nuts_2021_id":"03355006",
         "gn:id":2952458,
         "gp:id":29351844,
         "qs_pg:id":94160,
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"445725e61bd08fcbd10e7359cb32c6dc",
+    "wof:geomhash":"14207c8ae25a8c0e441111dccd9823d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101908029,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351992,
     "wof:name":"Barnstedt",
     "wof:parent_id":1377687545,
     "wof:placetype":"locality",
-    "wof:population":806,
+    "wof:population":726,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

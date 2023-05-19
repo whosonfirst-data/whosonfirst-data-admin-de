@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232309",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sengerich",
+    "eurostat:nuts_2021_id":"07232309",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232309",
+    "eurostat:population":24,
+    "eurostat:population_year":2020,
     "geom:area":0.000146,
     "geom:area_square_m":1153762.948564,
     "geom:bbox":"6.21555740723,50.1158738477,6.23631440765,50.1265303787",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232309",
+        "eurostat:nuts_2021_id":"07232309",
         "gn:id":2833047,
         "qs_pg:id":576930,
         "wd:id":"Q644718"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"7686e16d8b44c6a3624652fc662cd701",
+    "wof:geomhash":"43a1ba9d28224484c38246b0c3b4ffea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125827489,
-    "wof:lastmodified":1582343027,
+    "wof:lastmodified":1684352017,
     "wof:name":"Sengerich",
     "wof:parent_id":1377685925,
     "wof:placetype":"locality",
-    "wof:population":17,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

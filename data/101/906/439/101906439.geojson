@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Taarstedt",
+    "eurostat:nuts_2021_id":"01059086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059086",
+    "eurostat:population":898,
+    "eurostat:population_year":2020,
     "geom:area":0.001899,
     "geom:area_square_m":13610550.575956,
     "geom:bbox":"9.65419988576,54.5513676642,9.7242737182,54.5955865286",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059086",
+        "eurostat:nuts_2021_id":"01059086",
         "gn:id":2824441,
         "gp:id":705704,
         "qs_pg:id":576775,
@@ -159,7 +174,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7400f5addc023c507a5f4f3c15b22391",
+    "wof:geomhash":"d11b4d2449d4075eda5c902f79947f0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906439,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351980,
     "wof:name":"Taarstedt",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":862,
+    "wof:population":898,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

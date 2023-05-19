@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eppenberg",
+    "eurostat:nuts_2021_id":"07135026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135026",
+    "eurostat:population":223,
+    "eurostat:population_year":2020,
     "geom:area":0.000505,
     "geom:area_square_m":3993173.346488,
     "geom:bbox":"7.04577475258,50.2351053733,7.09197822253,50.2579299125",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135026",
+        "eurostat:nuts_2021_id":"07135026",
         "gn:id":2929859,
         "qs_pg:id":579222,
         "wd:id":"Q201232"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c5e500b9a807d2c6f452f257ccd9b4e6",
+    "wof:geomhash":"4a4a80c59c1f130a9706f1b087363896",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1125783179,
-    "wof:lastmodified":1582343041,
+    "wof:lastmodified":1684352013,
     "wof:name":"Eppenberg",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":244,
+    "wof:population":223,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

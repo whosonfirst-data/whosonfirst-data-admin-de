@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uffing a.Staffelsee",
+    "eurostat:nuts_2021_id":"09180134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180134",
+    "eurostat:population":3006,
+    "eurostat:population_year":2020,
     "geom:area":0.005117,
-    "geom:area_square_m":42580228.50598,
+    "geom:area_square_m":42580228.505983,
     "geom:bbox":"11.0433736075,47.6782455866,11.175236818,47.7370300275",
     "geom:latitude":47.708619,
     "geom:longitude":11.108027,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180134",
+        "eurostat:nuts_2021_id":"09180134",
         "gn:id":2820419,
         "gp:id":700443,
         "qs_pg:id":77789,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"06605f48c0484a783f5419b58c96a536",
+    "wof:geomhash":"189b1c7f147ea4f72fb5d9afd6ec0a20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101787517,
-    "wof:lastmodified":1582342644,
+    "wof:lastmodified":1684351840,
     "wof:name":"Uffing a. Staffelsee",
     "wof:parent_id":1377692185,
     "wof:placetype":"locality",
-    "wof:population":2994,
+    "wof:population":3006,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

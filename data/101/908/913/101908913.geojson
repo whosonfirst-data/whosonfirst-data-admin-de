@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lietzow",
+    "eurostat:nuts_2021_id":"13073049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073049",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "geom:area":0.001181,
     "geom:area_square_m":8483005.612887,
     "geom:bbox":"13.5000393255,54.476956393,13.5620690666,54.5128360741",
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073049",
+        "eurostat:nuts_2021_id":"13073049",
         "gn:id":2809081,
         "gp:id":671789,
         "qs_pg:id":93501,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"954042ab5fb359e1e56c500e948b5146",
+    "wof:geomhash":"56e44efd6a8cde0f81739c905cf4fd3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101908913,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684352000,
     "wof:name":"Lietzow",
     "wof:parent_id":1377684925,
     "wof:placetype":"locality",
-    "wof:population":310,
+    "wof:population":249,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

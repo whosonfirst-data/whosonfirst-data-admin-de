@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Camberg, Stadt",
+    "eurostat:nuts_2021_id":"06533003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533003",
+    "eurostat:population":14221,
+    "eurostat:population_year":2020,
     "geom:area":0.006946,
     "geom:area_square_m":54857960.476886,
     "geom:bbox":"8.218061,50.264061,8.3635,50.340376",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":209.0,
     "wd:latitude":50.3,
     "wd:longitude":8.266667,
@@ -336,15 +349,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683605,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533003",
+        "eurostat:nuts_2021_id":"06533003",
         "gn:id":2940381,
         "gp:id":642992,
         "qs_pg:id":1263639,
@@ -359,7 +374,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55e98d8c32bdf9800eefdd929cdbeb03",
+    "wof:geomhash":"7d1bd037ac8332a241c8c03a212e5aac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
         }
     ],
     "wof:id":101812321,
-    "wof:lastmodified":1608051236,
+    "wof:lastmodified":1684351885,
     "wof:name":"Bad Camberg",
     "wof:parent_id":1377683605,
     "wof:placetype":"locality",
-    "wof:population":14047,
+    "wof:population":14221,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

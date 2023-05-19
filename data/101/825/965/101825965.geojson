@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maroldsweisach, M",
+    "eurostat:nuts_2021_id":"09674171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674171",
+    "eurostat:population":3265,
+    "eurostat:population_year":2020,
     "geom:area":0.009099,
-    "geom:area_square_m":72032027.908354,
+    "geom:area_square_m":72032027.908351,
     "geom:bbox":"10.580572,50.153238,10.781705,50.230318",
     "geom:latitude":50.190035,
     "geom:longitude":10.686511,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":176,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377691009,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674171",
+        "eurostat:nuts_2021_id":"09674171",
         "gn:id":2873228,
         "gp:id":674067,
         "qs_pg:id":202023,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a3ec2dcdbd721b37ca9c499b9214815f",
+    "wof:geomhash":"165d94ad817643c38b964c0ab84b9827",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101825965,
-    "wof:lastmodified":1608051411,
+    "wof:lastmodified":1684351933,
     "wof:name":"Maroldsweisach",
     "wof:parent_id":1377691009,
     "wof:placetype":"locality",
-    "wof:population":3788,
+    "wof:population":3265,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

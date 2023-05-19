@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08335075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Singen (Hohentwiel), Stadt",
+    "eurostat:nuts_2021_id":"08335075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE138",
+    "eurostat:nuts_2021_level_lau":"08335075",
+    "eurostat:population":47643,
+    "eurostat:population_year":2020,
     "geom:area":0.007492,
-    "geom:area_square_m":62276507.282115,
+    "geom:area_square_m":62276507.282117,
     "geom:bbox":"8.80840757659,47.6967737651,8.92737041528,47.8169585924",
     "geom:latitude":47.760608,
     "geom:longitude":8.870255,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682567,
         102191581,
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08335075",
+        "eurostat:nuts_2021_id":"08335075",
         "gn:id":2831923,
         "gp:id":661368,
         "loc:id":"n82001385",
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f502decbe234632dadcd05a3d7cf51f1",
+    "wof:geomhash":"8a9c22850ab68d42f9cc5cf28d51f160",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101828641,
-    "wof:lastmodified":1582342412,
+    "wof:lastmodified":1684351943,
     "wof:name":"Singen (Hohentwiel)",
     "wof:parent_id":1377689719,
     "wof:placetype":"locality",
-    "wof:population":45696,
+    "wof:population":47643,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

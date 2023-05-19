@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09473174",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weidhausen b.Coburg",
+    "eurostat:nuts_2021_id":"09473174",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE247",
+    "eurostat:nuts_2021_level_lau":"09473174",
+    "eurostat:population":3123,
+    "eurostat:population_year":2020,
     "geom:area":0.00118,
     "geom:area_square_m":9340243.537306,
     "geom:bbox":"11.102573769,50.1851107677,11.1985127371,50.2147257987",
@@ -134,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -145,6 +158,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09473174",
+        "eurostat:nuts_2021_id":"09473174",
         "gn:id":2812931,
         "gp:id":704545,
         "qs_pg:id":1078431,
@@ -155,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"856efa526410d2255a29b3a4f18ecbd4",
+    "wof:geomhash":"17b80d4c0ad87e56f028acd61e518515",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101841161,
-    "wof:lastmodified":1582342519,
+    "wof:lastmodified":1684351951,
     "wof:name":"Weidhausen b. Coburg",
     "wof:parent_id":1377687823,
     "wof:placetype":"locality",
-    "wof:population":3331,
+    "wof:population":3123,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

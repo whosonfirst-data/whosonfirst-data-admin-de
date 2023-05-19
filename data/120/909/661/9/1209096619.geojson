@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pohl",
+    "eurostat:nuts_2021_id":"07141111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141111",
+    "eurostat:population":322,
+    "eurostat:population_year":2020,
     "geom:area":0.000528,
-    "geom:area_square_m":4176111.648896,
+    "geom:area_square_m":4176111.648894,
     "geom:bbox":"7.84806591666,50.239198358,7.90509271607,50.2878698723",
     "geom:latitude":50.256374,
     "geom:longitude":7.872893,
@@ -62,7 +74,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -72,13 +85,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141111",
+        "eurostat:nuts_2021_id":"07141111",
         "gn:id":2852996
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"0ddfd452ae05d89f9dc2be2d5fd6bfdd",
+    "wof:geomhash":"bd5d7529393d2b5dcdace4402e4f4417",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -90,11 +105,11 @@
         }
     ],
     "wof:id":1209096619,
-    "wof:lastmodified":1582342054,
+    "wof:lastmodified":1684352057,
     "wof:name":"Pohl",
     "wof:parent_id":1377685749,
     "wof:placetype":"locality",
-    "wof:population":377,
+    "wof:population":322,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

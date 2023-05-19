@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16070001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alkersleben",
+    "eurostat:nuts_2021_id":"16070001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0F",
+    "eurostat:nuts_2021_level_lau":"16070001",
+    "eurostat:population":313,
+    "eurostat:population_year":2020,
     "geom:area":0.000899,
-    "geom:area_square_m":7016099.733275,
+    "geom:area_square_m":7016099.733277,
     "geom:bbox":"11.0145432539,50.8339444448,11.0734888313,50.8599649986",
     "geom:latitude":50.848145,
     "geom:longitude":11.045331,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16070001",
+        "eurostat:nuts_2021_id":"16070001",
         "gn:id":2958480,
         "gp:id":633936,
         "qs_pg:id":580014,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1eab2fda4cb485b3167852976f9e39ae",
+    "wof:geomhash":"ecfccac53515c4862772eba72e5476ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101910219,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Alkersleben",
     "wof:parent_id":1377690439,
     "wof:placetype":"locality",
-    "wof:population":352,
+    "wof:population":313,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

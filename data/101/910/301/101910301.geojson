@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reichenbach",
+    "eurostat:nuts_2021_id":"16074075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074075",
+    "eurostat:population":888,
+    "eurostat:population_year":2020,
     "geom:area":0.000603,
     "geom:area_square_m":4703009.674473,
     "geom:bbox":"11.8550204132,50.8599166638,11.8996008494,50.8817925781",
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074075",
+        "eurostat:nuts_2021_id":"16074075",
         "gn:id":2849142,
         "gp:id":687456,
         "qs_pg:id":577289,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"49b4d9e3440114bab8f88db883c4ff67",
+    "wof:geomhash":"f111acf933231d1434ab8878539d4425",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101910301,
-    "wof:lastmodified":1582342652,
+    "wof:lastmodified":1684352005,
     "wof:name":"Reichenbach",
     "wof:parent_id":1377689047,
     "wof:placetype":"locality",
-    "wof:population":916,
+    "wof:population":888,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

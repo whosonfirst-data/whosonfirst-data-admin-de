@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gem\u00fcnd",
+    "eurostat:nuts_2021_id":"07232041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232041",
+    "eurostat:population":41,
+    "eurostat:population_year":2020,
     "geom:area":0.000359,
     "geom:area_square_m":2856441.537967,
     "geom:bbox":"6.15352241026,49.9804132273,6.18232462949,50.0021260034",
@@ -114,12 +126,15 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         102191581
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232041",
+        "eurostat:nuts_2021_id":"07232041",
         "gn:id":2921384,
         "qs_pg:id":374296,
         "wd:id":"Q644878"
@@ -129,7 +144,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"80ffa87673dddced19fa7d4bfe27c3d8",
+    "wof:geomhash":"e9a3b34e2ace022de76c270bfdaa5156",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125888041,
-    "wof:lastmodified":1582342994,
+    "wof:lastmodified":1684352037,
     "wof:name":"Gem\u00fcnd",
     "wof:parent_id":-1,
     "wof:placetype":"locality",
-    "wof:population":24,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

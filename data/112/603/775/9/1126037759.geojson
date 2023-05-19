@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bedesbach",
+    "eurostat:nuts_2021_id":"07336106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336106",
+    "eurostat:population":800,
+    "eurostat:population_year":2020,
     "geom:area":0.000548,
     "geom:area_square_m":4395102.440907,
     "geom:bbox":"7.450191844,49.5596995444,7.49354215333,49.5787565395",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336106",
+        "eurostat:nuts_2021_id":"07336106",
         "gn:id":2951632,
         "qs_pg:id":94153,
         "wd:id":"Q562703"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"6ce0bd68a34fe8d9e245deebf4a25128",
+    "wof:geomhash":"a5b5d22eae35a9b8059de431688bd9e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1126037759,
-    "wof:lastmodified":1582342987,
+    "wof:lastmodified":1684352053,
     "wof:name":"Bedesbach",
     "wof:parent_id":1377686501,
     "wof:placetype":"locality",
-    "wof:population":764,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

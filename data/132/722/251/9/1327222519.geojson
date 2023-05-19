@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brodersby",
+    "eurostat:nuts_2021_id":"01058032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058032",
+    "eurostat:population":666,
+    "eurostat:population_year":2020,
     "geom:area":0.001337,
-    "geom:area_square_m":9572372.607974,
+    "geom:area_square_m":9572372.607973,
     "geom:bbox":"9.9642241931,54.6063918246,10.0335537253,54.6470082301",
     "geom:latitude":54.630646,
     "geom:longitude":10.005236,
@@ -104,7 +116,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -118,13 +131,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058032",
+        "eurostat:nuts_2021_id":"01058032",
         "gn:id":2943922
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"4bf5722b2c8be30c02876d585c00035a",
+    "wof:geomhash":"9c6d6022f082c418b5b98901120bf80b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -136,11 +151,11 @@
         }
     ],
     "wof:id":1327222519,
-    "wof:lastmodified":1582341876,
+    "wof:lastmodified":1684352062,
     "wof:name":"Brodersby",
     "wof:parent_id":1377684295,
     "wof:placetype":"locality",
-    "wof:population":689,
+    "wof:population":666,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

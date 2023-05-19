@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09475136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Helmbrechts, St",
+    "eurostat:nuts_2021_id":"09475136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE249",
+    "eurostat:nuts_2021_level_lau":"09475136",
+    "eurostat:population":8369,
+    "eurostat:population_year":2020,
     "geom:area":0.007461,
-    "geom:area_square_m":59003838.434067,
+    "geom:area_square_m":59003838.434069,
     "geom:bbox":"11.598383,50.201435,11.806737,50.278458",
     "geom:latitude":50.239757,
     "geom:longitude":11.694585,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":117,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063625,
         1377688083,
         404227583,
-        85682571
+        102063625
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09475136",
+        "eurostat:nuts_2021_id":"09475136",
         "gn:id":2906744,
         "gp:id":658906,
         "qs_pg:id":903404,
@@ -343,7 +358,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7491f550562f5893ee65637cc0cf462c",
+    "wof:geomhash":"7fdd037de2655cfa188bd9ff41674068",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101826071,
-    "wof:lastmodified":1608050310,
+    "wof:lastmodified":1684351934,
     "wof:name":"Helmbrechts",
     "wof:parent_id":1377688083,
     "wof:placetype":"locality",
-    "wof:population":9493,
+    "wof:population":8369,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

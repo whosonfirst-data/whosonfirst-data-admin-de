@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03256012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heemsen",
+    "eurostat:nuts_2021_id":"03256012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE927",
+    "eurostat:nuts_2021_level_lau":"03256012",
+    "eurostat:population":1729,
+    "eurostat:population_year":2020,
     "geom:area":0.005278,
-    "geom:area_square_m":39534196.183823,
+    "geom:area_square_m":39534196.183822,
     "geom:bbox":"9.24562197796,52.6758649883,9.38502718933,52.7648128599",
     "geom:latitude":52.713085,
     "geom:longitude":9.308468,
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
         85682555,
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03256012",
+        "eurostat:nuts_2021_id":"03256012",
         "gn:id":2908324,
         "gp:id":689369,
         "qs_pg:id":93709,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9c88f51de3d1ec7f0fab735f216f3132",
+    "wof:geomhash":"e6996b42a0dfa295988bae1d8524d4b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101838073,
-    "wof:lastmodified":1582342595,
+    "wof:lastmodified":1684351946,
     "wof:name":"Heemsen",
     "wof:parent_id":1377686941,
     "wof:placetype":"locality",
-    "wof:population":1686,
+    "wof:population":1729,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

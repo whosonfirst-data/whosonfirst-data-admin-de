@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reinbek, Stadt",
+    "eurostat:nuts_2021_id":"01062060",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062060",
+    "eurostat:population":27950,
+    "eurostat:population_year":2020,
     "geom:area":0.00419,
-    "geom:area_square_m":30790476.938652,
+    "geom:area_square_m":30790476.938657,
     "geom:bbox":"10.210601,53.495416,10.315797,53.579981",
     "geom:latitude":53.538086,
     "geom:longitude":10.264977,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":201,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684769,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062060",
+        "eurostat:nuts_2021_id":"01062060",
         "gn:id":2848845,
         "gp:id":687655,
         "loc:id":"n50052582",
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b4dac6f6455e015afd639ea13c8114ce",
+    "wof:geomhash":"bff3ad130c251c4aef6a60806a2a486f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101756053,
-    "wof:lastmodified":1608050808,
+    "wof:lastmodified":1684351792,
     "wof:name":"Reinbek",
     "wof:parent_id":1377684769,
     "wof:placetype":"locality",
-    "wof:population":25261,
+    "wof:population":27950,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

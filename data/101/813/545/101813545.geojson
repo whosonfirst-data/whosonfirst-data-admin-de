@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weibersbrunn",
+    "eurostat:nuts_2021_id":"09671157",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671157",
+    "eurostat:population":2001,
+    "eurostat:population_year":2020,
     "geom:area":0.000415,
-    "geom:area_square_m":3300588.704602,
+    "geom:area_square_m":3300588.704601,
     "geom:bbox":"9.344948,49.889094,9.412101,49.940393",
     "geom:latitude":49.921221,
     "geom:longitude":9.374492,
@@ -155,22 +167,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1685,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690479,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671157",
+        "eurostat:nuts_2021_id":"09671157",
         "fct:id":"071d1146-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2813176,
         "gp:id":704419,
@@ -186,7 +201,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2a9c6e6c81430a928134786400347807",
+    "wof:geomhash":"51ae36ca70019319a5f5cddc73e4480e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051356,
+    "wof:lastmodified":1684351892,
     "wof:name":"Weibersbrunn",
     "wof:parent_id":1377690479,
     "wof:placetype":"locality",
-    "wof:population":2142,
+    "wof:population":2001,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

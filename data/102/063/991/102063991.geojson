@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"1",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Bremen, Kreisfreie Stadt",
+    "eurostat:name_local":"Bremen, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DE501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE5",
+    "eurostat:nuts_2021_level_2":"DE50",
+    "eurostat:nuts_2021_level_3":"DE501",
+    "eurostat:population":563290,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.0427,
-    "geom:area_square_m":316951094.285561,
+    "geom:area_square_m":316951094.285558,
     "geom:bbox":"8.481735,53.011021,8.99078,53.228919",
     "geom:latitude":53.108697,
     "geom:longitude":8.785931,
@@ -396,13 +410,17 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "wof:belongsto":[
         102191581,
         85633111,
         85682561
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE501"
+    },
     "wof:coterminous":[
         101913887,
         85682561,
@@ -412,7 +430,7 @@
     "wof:geom_alt":[
         "de-bkg-reversegeo"
     ],
-    "wof:geomhash":"bdd27826272d801885bb8874232dcb4c",
+    "wof:geomhash":"a241f60c956a11901f5cdb9509eb47bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -422,11 +440,11 @@
         }
     ],
     "wof:id":102063991,
-    "wof:lastmodified":1623370450,
+    "wof:lastmodified":1684351528,
     "wof:name":"Bremen",
     "wof:parent_id":85682561,
     "wof:placetype":"county",
-    "wof:population":542707,
+    "wof:population":563290,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

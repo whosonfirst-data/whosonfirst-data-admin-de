@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Anrode",
+    "eurostat:nuts_2021_id":"16064073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064073",
+    "eurostat:population":3134,
+    "eurostat:population_year":2020,
     "geom:area":0.006823,
-    "geom:area_square_m":52799773.232978,
+    "geom:area_square_m":52799773.23298,
     "geom:bbox":"10.298587,51.216928,10.430507,51.315575",
     "geom:latitude":51.256021,
     "geom:longitude":10.362901,
@@ -291,17 +303,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063749,
         1377689791,
-        85682541
+        85633111,
+        102063749
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064073",
+        "eurostat:nuts_2021_id":"16064073",
         "gn:id":2955939,
         "gp:id":638750,
         "qs_pg:id":1244045,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bb4e84598ba757ea5df795fc1f933f40",
+    "wof:geomhash":"1300be01b2ac710a71e79b72b7d57b83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101821957,
-    "wof:lastmodified":1608050202,
+    "wof:lastmodified":1684351918,
     "wof:name":"Anrode",
     "wof:parent_id":1377689791,
     "wof:placetype":"locality",
-    "wof:population":3562,
+    "wof:population":3134,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

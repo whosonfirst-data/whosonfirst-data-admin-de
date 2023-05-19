@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09771176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baar (Schwaben)",
+    "eurostat:nuts_2021_id":"09771176",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE275",
+    "eurostat:nuts_2021_level_lau":"09771176",
+    "eurostat:population":1188,
+    "eurostat:population_year":2020,
     "geom:area":0.002058,
     "geom:area_square_m":16834814.531579,
     "geom:bbox":"10.9239283216,48.5637288331,11.0083894498,48.6035450688",
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09771176",
+        "eurostat:nuts_2021_id":"09771176",
         "gn:id":6559028,
         "gp:id":636270,
         "qs_pg:id":639047,
@@ -189,7 +204,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f08f81da8c4242f0ce2b6d65e564e8a7",
+    "wof:geomhash":"c2f2f7b884eec5f1d418728fe7c9afe1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101784161,
-    "wof:lastmodified":1582342482,
+    "wof:lastmodified":1684351830,
     "wof:name":"Baar (Schwaben)",
     "wof:parent_id":1377692355,
     "wof:placetype":"locality",
-    "wof:population":1130,
+    "wof:population":1188,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

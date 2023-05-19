@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burg (Dithmarschen)",
+    "eurostat:nuts_2021_id":"01051016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051016",
+    "eurostat:population":4159,
+    "eurostat:population_year":2020,
     "geom:area":0.001554,
-    "geom:area_square_m":11296726.189493,
+    "geom:area_square_m":11296726.189494,
     "geom:bbox":"9.24149381695,53.9694585407,9.29885700396,54.014641661",
     "geom:latitude":53.995075,
     "geom:longitude":9.269737,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":115,
     "wof:belongsto":[
         85682517,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051016",
+        "eurostat:nuts_2021_id":"01051016",
         "gn:id":2941497,
         "gp:id":642494,
         "qs_pg:id":211355,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cdd4f912d01df66d6057e6ee55f3a4a5",
+    "wof:geomhash":"886ccfe0d1b31d81f27acc2b73adc891",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101806813,
-    "wof:lastmodified":1582342619,
+    "wof:lastmodified":1684351855,
     "wof:name":"Burg (Dithmarschen)",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":4321,
+    "wof:population":4159,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

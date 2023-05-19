@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Porta Westfalica, Stadt",
+    "eurostat:nuts_2021_id":"05770032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770032",
+    "eurostat:population":35631,
+    "eurostat:population_year":2020,
     "geom:area":0.013797,
-    "geom:area_square_m":104508967.480804,
+    "geom:area_square_m":104508967.480802,
     "geom:bbox":"8.828572,52.180823,9.076616,52.271247",
     "geom:latitude":52.223752,
     "geom:longitude":8.951529,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":215,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691953,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770032",
+        "eurostat:nuts_2021_id":"05770032",
         "gn:id":2852577,
         "gp:id":685716,
         "qs_pg:id":241066,
@@ -336,7 +351,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3414a1fe46dadc79acad366bb206740",
+    "wof:geomhash":"406bbbfe8bf95e808411da8603d0b4ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":1175611325,
-    "wof:lastmodified":1608048929,
+    "wof:lastmodified":1684352056,
     "wof:name":"Porta Westfalica",
     "wof:parent_id":1377691953,
     "wof:placetype":"locality",
-    "wof:population":36364,
+    "wof:population":35631,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

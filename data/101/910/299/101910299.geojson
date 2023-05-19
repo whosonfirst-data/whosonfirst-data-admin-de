@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laasdorf",
+    "eurostat:nuts_2021_id":"16074049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074049",
+    "eurostat:population":525,
+    "eurostat:population_year":2020,
     "geom:area":0.000518,
     "geom:area_square_m":4045821.938585,
     "geom:bbox":"11.6520529361,50.8544217007,11.6850182792,50.8850255666",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074049",
+        "eurostat:nuts_2021_id":"16074049",
         "gn:id":2882103,
         "gp:id":687134,
         "qs_pg:id":578133,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d90d944d5cd14e165322226160b92baf",
+    "wof:geomhash":"453192134d1185c85115bd18bfb5385a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910299,
-    "wof:lastmodified":1582342658,
+    "wof:lastmodified":1684352005,
     "wof:name":"Laasdorf",
     "wof:parent_id":1377689037,
     "wof:placetype":"locality",
-    "wof:population":558,
+    "wof:population":525,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

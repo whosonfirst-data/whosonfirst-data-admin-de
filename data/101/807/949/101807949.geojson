@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wagenfeld",
+    "eurostat:nuts_2021_id":"03251044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251044",
+    "eurostat:population":7225,
+    "eurostat:population_year":2020,
     "geom:area":0.015563,
-    "geom:area_square_m":117026452.911806,
+    "geom:area_square_m":117026452.911804,
     "geom:bbox":"8.499435,52.499096,8.773684,52.59362",
     "geom:latitude":52.545613,
     "geom:longitude":8.624282,
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":44,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063967,
         1377686495,
-        85682555
+        85633111,
+        102063967
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251044",
+        "eurostat:nuts_2021_id":"03251044",
         "gn:id":2815523,
         "gp:id":703168,
         "qs_pg:id":356260,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"de9c633517302be8edae7db433ab5df5",
+    "wof:geomhash":"dcb6fede51567412d9d7d8fb987679f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101807949,
-    "wof:lastmodified":1608051541,
+    "wof:lastmodified":1684351862,
     "wof:name":"Wagenfeld",
     "wof:parent_id":1377686495,
     "wof:placetype":"locality",
-    "wof:population":7132,
+    "wof:population":7225,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

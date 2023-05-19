@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05978040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werne, Stadt",
+    "eurostat:nuts_2021_id":"05978040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5C",
+    "eurostat:nuts_2021_level_lau":"05978040",
+    "eurostat:population":29717,
+    "eurostat:population_year":2020,
     "geom:area":0.009908,
-    "geom:area_square_m":75965449.810599,
+    "geom:area_square_m":75965449.810601,
     "geom:bbox":"7.540575,51.627229,7.728036,51.728853",
     "geom:latitude":51.678452,
     "geom:longitude":7.626247,
@@ -311,22 +323,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":889,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063823,
         1377692781,
         404227579,
-        85682513
+        102063823
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05978040",
+        "eurostat:nuts_2021_id":"05978040",
         "gn:id":2810833,
         "gp:id":705501,
         "qs_pg:id":1291541,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b5b106ba42c2f984a4a6cf8868ed5e0d",
+    "wof:geomhash":"84f6be9e9e0b30a3a7ce835213e1b62e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101808885,
-    "wof:lastmodified":1608051695,
+    "wof:lastmodified":1684351864,
     "wof:name":"Werne",
     "wof:parent_id":1377692781,
     "wof:placetype":"locality",
-    "wof:population":30810,
+    "wof:population":29717,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

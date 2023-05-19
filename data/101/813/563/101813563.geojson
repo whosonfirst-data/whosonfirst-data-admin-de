@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neumagen-Dhron",
+    "eurostat:nuts_2021_id":"07231092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231092",
+    "eurostat:population":2237,
+    "eurostat:population_year":2020,
     "geom:area":0.002044,
-    "geom:area_square_m":16295230.558644,
+    "geom:area_square_m":16295230.558643,
     "geom:bbox":"6.87150999424,49.818154437,6.95201250083,49.8856655465",
     "geom:latitude":49.848901,
     "geom:longitude":6.909559,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1214,
     "wof:belongsto":[
         85682491,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231092",
+        "eurostat:nuts_2021_id":"07231092",
         "gn:id":3207532,
         "gp:id":20163075,
         "qs_pg:id":210194,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b50ebaa0a582e849884b4e1d366ca86f",
+    "wof:geomhash":"4b0f53e24d7a44b59b82eedaf1f5acba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101813563,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351892,
     "wof:name":"Neumagen-Dhron",
     "wof:parent_id":1377685883,
     "wof:placetype":"locality",
-    "wof:population":2355,
+    "wof:population":2237,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

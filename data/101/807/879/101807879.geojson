@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03351025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eschede",
+    "eurostat:nuts_2021_id":"03351025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE931",
+    "eurostat:nuts_2021_level_lau":"03351025",
+    "eurostat:population":5739,
+    "eurostat:population_year":2020,
     "geom:area":0.026134,
-    "geom:area_square_m":195629545.711441,
+    "geom:area_square_m":195629545.711438,
     "geom:bbox":"10.13002,52.657674,10.44441,52.821407",
     "geom:latitude":52.743835,
     "geom:longitude":10.271286,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":174,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063959,
         1377687155,
-        85682555
+        85633111,
+        102063959
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03351025",
+        "eurostat:nuts_2021_id":"03351025",
         "gn:id":2929122,
         "gp:id":648663,
         "qs_pg:id":142611,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"57c75d2e34a471dcd8a80bb816bf9cb0",
+    "wof:geomhash":"66b60c47c68877fc1c4709eca905e510",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,12 +365,12 @@
         }
     ],
     "wof:id":101807879,
-    "wof:lastmodified":1608051554,
+    "wof:lastmodified":1684351861,
     "wof:name":"Eschede",
     "wof:parent_id":1377687155,
     "wof:placetype":"locality",
-    "wof:population":3894,
-    "wof:population_rank":4,
+    "wof:population":5739,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

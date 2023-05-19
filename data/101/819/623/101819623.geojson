@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03154008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grasleben",
+    "eurostat:nuts_2021_id":"03154008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE917",
+    "eurostat:nuts_2021_level_lau":"03154008",
+    "eurostat:population":2391,
+    "eurostat:population_year":2020,
     "geom:area":0.001488,
-    "geom:area_square_m":11249474.899597,
+    "geom:area_square_m":11249474.899596,
     "geom:bbox":"10.9697747601,52.2913200067,11.0392226815,52.3369804335",
     "geom:latitude":52.315669,
     "geom:longitude":11.003981,
@@ -181,7 +193,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -196,6 +209,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03154008",
+        "eurostat:nuts_2021_id":"03154008",
         "gn:id":2917050,
         "gp:id":653929,
         "qs_pg:id":142497,
@@ -210,7 +225,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8964f227a562480831d14b52e3682f96",
+    "wof:geomhash":"26a007602785316e205c3e5a2c8a938b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -222,11 +237,11 @@
         }
     ],
     "wof:id":101819623,
-    "wof:lastmodified":1582342432,
+    "wof:lastmodified":1684351907,
     "wof:name":"Grasleben",
     "wof:parent_id":1377685851,
     "wof:placetype":"locality",
-    "wof:population":2667,
+    "wof:population":2391,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

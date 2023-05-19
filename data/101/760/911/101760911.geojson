@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Crailsheim, Stadt",
+    "eurostat:nuts_2021_id":"08127014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127014",
+    "eurostat:population":34536,
+    "eurostat:population_year":2020,
     "geom:area":0.013426,
-    "geom:area_square_m":108630490.572016,
+    "geom:area_square_m":108630490.572019,
     "geom:bbox":"9.94411138149,49.0790983527,10.167670054,49.1861682007",
     "geom:latitude":49.131043,
     "geom:longitude":10.055413,
@@ -340,7 +352,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":104.73,
     "wd:latitude":49.134722,
     "wd:longitude":10.070556,
@@ -360,6 +373,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127014",
+        "eurostat:nuts_2021_id":"08127014",
         "gn:id":2939797,
         "gp:id":643319,
         "qs_pg:id":1343812,
@@ -371,7 +386,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9afcb2376d564c349db58de29d54017a",
+    "wof:geomhash":"5b1df36c0829e005b849d996f6a61afa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -384,11 +399,11 @@
         }
     ],
     "wof:id":101760911,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351803,
     "wof:name":"Crailsheim",
     "wof:parent_id":1377687853,
     "wof:placetype":"locality",
-    "wof:population":20600,
+    "wof:population":34536,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grambow",
+    "eurostat:nuts_2021_id":"13075038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075038",
+    "eurostat:population":849,
+    "eurostat:population_year":2020,
     "geom:area":0.00477,
-    "geom:area_square_m":35173779.413817,
+    "geom:area_square_m":35173779.413815,
     "geom:bbox":"14.2778018605,53.3455917633,14.3953107859,53.4388739835",
     "geom:latitude":53.393412,
     "geom:longitude":14.350987,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
         85682487,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075038",
+        "eurostat:nuts_2021_id":"13075038",
         "gn:id":2918180,
         "gp:id":653834,
         "qs_pg:id":578927,
@@ -315,7 +330,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5fc510463dbbee7bd0e3ce4ad65ebda9",
+    "wof:geomhash":"527d1f4d8e45552ffbba096333649346",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101818753,
-    "wof:lastmodified":1582342358,
+    "wof:lastmodified":1684351903,
     "wof:name":"Grambow",
     "wof:parent_id":1377685115,
     "wof:placetype":"locality",
-    "wof:population":957,
+    "wof:population":849,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

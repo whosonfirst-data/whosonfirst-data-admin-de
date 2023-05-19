@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nannhausen",
+    "eurostat:nuts_2021_id":"07140100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140100",
+    "eurostat:population":618,
+    "eurostat:population_year":2020,
     "geom:area":0.000778,
     "geom:area_square_m":6190696.769738,
     "geom:bbox":"7.44843993308,49.9560950606,7.50377990559,49.9880215562",
@@ -273,7 +285,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -287,6 +300,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140100",
+        "eurostat:nuts_2021_id":"07140100",
         "gn:id":2867104,
         "qs_pg:id":577736,
         "wd:id":"Q641525"
@@ -296,7 +311,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"13d1001f42ab17314e33fdeb8fea65be",
+    "wof:geomhash":"3b9a30963c127dbb8e4bc85e2538b93b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -308,11 +323,11 @@
         }
     ],
     "wof:id":1126033865,
-    "wof:lastmodified":1582342987,
+    "wof:lastmodified":1684352050,
     "wof:name":"Nannhausen",
     "wof:parent_id":1377685709,
     "wof:placetype":"locality",
-    "wof:population":515,
+    "wof:population":618,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

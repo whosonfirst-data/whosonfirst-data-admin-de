@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heyersdorf",
+    "eurostat:nuts_2021_id":"16077017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077017",
+    "eurostat:population":120,
+    "eurostat:population_year":2020,
     "geom:area":0.000444,
-    "geom:area_square_m":3463219.106567,
+    "geom:area_square_m":3463219.106568,
     "geom:bbox":"12.3354034667,50.836877233,12.3675567346,50.8625020638",
     "geom:latitude":50.847789,
     "geom:longitude":12.350908,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":103,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077017",
+        "eurostat:nuts_2021_id":"16077017",
         "gn:id":2904907,
         "gp:id":653418,
         "qs_pg:id":93679,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1608df33b4bda1eed7533c2298c2bdd0",
+    "wof:geomhash":"26f686207d7c3a5f898d152aa071e4fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910387,
-    "wof:lastmodified":1582342658,
+    "wof:lastmodified":1684352006,
     "wof:name":"Heyersdorf",
     "wof:parent_id":1377691081,
     "wof:placetype":"locality",
-    "wof:population":143,
+    "wof:population":120,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

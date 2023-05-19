@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Ravensburg",
+    "eurostat:name_local":"Ravensburg",
+    "eurostat:nuts_2021_id":"DE148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE148",
+    "eurostat:population":287011,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.196021,
-    "geom:area_square_m":1627356892.763393,
+    "geom:area_square_m":1627356892.763343,
     "geom:bbox":"9.37659,47.601775,10.139665,48.005548",
     "geom:latitude":47.825046,
     "geom:longitude":9.779891,
@@ -318,8 +332,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"1632",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Ravensburg",
@@ -332,12 +346,13 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227573,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE148",
         "hasc:id":"DE.BW.RV",
         "wd:id":"Q6832"
     },
@@ -345,7 +360,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0b1ba8119c8b540af5269696ec1d86ef",
+    "wof:geomhash":"86e43164fa20cd0e78104d648c0d5725",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,12 +371,12 @@
         }
     ],
     "wof:id":102063229,
-    "wof:lastmodified":1587164312,
+    "wof:lastmodified":1684351507,
     "wof:name":"Ravensburg",
     "wof:parent_id":404227573,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":269595,
+    "wof:population":287011,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"RV",

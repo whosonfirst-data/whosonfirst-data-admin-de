@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15082256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osternienburger Land",
+    "eurostat:nuts_2021_id":"15082256",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE05",
+    "eurostat:nuts_2021_level_lau":"15082256",
+    "eurostat:population":8498,
+    "eurostat:population_year":2020,
     "geom:area":0.018293,
-    "geom:area_square_m":139863193.875796,
+    "geom:area_square_m":139863193.875794,
     "geom:bbox":"11.846704,51.740258,12.148427,51.880762",
     "geom:latitude":51.806917,
     "geom:longitude":11.971107,
@@ -94,16 +106,19 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063873,
         1377688253,
-        85682519
+        85633111,
+        102063873
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15082256",
+        "eurostat:nuts_2021_id":"15082256",
         "gn:id":8739828,
         "wk:page":"Osternienburger_Land"
     },
@@ -114,7 +129,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"5258173b7769d4cbdffd249251a9ff0b",
+    "wof:geomhash":"d88352a9d8d4e7932ab8ab108f71dc42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +141,11 @@
         }
     ],
     "wof:id":1327204761,
-    "wof:lastmodified":1608048696,
+    "wof:lastmodified":1684352062,
     "wof:name":"Osternienburger Land",
     "wof:parent_id":1377688253,
     "wof:placetype":"locality",
-    "wof:population":9115,
+    "wof:population":8498,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

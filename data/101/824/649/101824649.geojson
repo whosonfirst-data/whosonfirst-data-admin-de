@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521520",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schlettau, Stadt",
+    "eurostat:nuts_2021_id":"14521520",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521520",
+    "eurostat:population":2368,
+    "eurostat:population_year":2020,
     "geom:area":0.002683,
-    "geom:area_square_m":21069239.810227,
+    "geom:area_square_m":21069239.810228,
     "geom:bbox":"12.9027928707,50.5376578442,12.9844673798,50.6018088239",
     "geom:latitude":50.566515,
     "geom:longitude":12.949367,
@@ -172,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
         85682523,
@@ -183,6 +196,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521520",
+        "eurostat:nuts_2021_id":"14521520",
         "gn:id":2838628,
         "gp:id":692158,
         "qs_pg:id":203052,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3ce45e25cd7715752c1cf6442af368d0",
+    "wof:geomhash":"6f9f4e57a3ff300bbab89073f0c67155",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101824649,
-    "wof:lastmodified":1582342541,
+    "wof:lastmodified":1684351930,
     "wof:name":"Schlettau",
     "wof:parent_id":1377685707,
     "wof:placetype":"locality",
-    "wof:population":2733,
+    "wof:population":2368,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

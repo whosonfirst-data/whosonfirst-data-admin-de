@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maikammer",
+    "eurostat:nuts_2021_id":"07337052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337052",
+    "eurostat:population":4323,
+    "eurostat:population_year":2020,
     "geom:area":0.001683,
-    "geom:area_square_m":13563685.825349,
+    "geom:area_square_m":13563685.82535,
     "geom:bbox":"7.99578409536,49.2850877655,8.14301940428,49.3244512703",
     "geom:latitude":49.311025,
     "geom:longitude":8.079623,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":444,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337052",
+        "eurostat:nuts_2021_id":"07337052",
         "gn:id":2874282,
         "gp:id":673482,
         "qs_pg:id":1039174,
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"20cfd9d7fceb0a552f08e494d6122940",
+    "wof:geomhash":"626a72fe03cb7d9651199ec14d9af875",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101759531,
-    "wof:lastmodified":1582342517,
+    "wof:lastmodified":1684351797,
     "wof:name":"Maikammer",
     "wof:parent_id":1377686553,
     "wof:placetype":"locality",
-    "wof:population":4066,
+    "wof:population":4323,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

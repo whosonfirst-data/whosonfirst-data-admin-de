@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oranienburg, Stadt",
+    "eurostat:nuts_2021_id":"12065256",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065256",
+    "eurostat:population":44862,
+    "eurostat:population_year":2020,
     "geom:area":0.021836,
-    "geom:area_square_m":163349821.207318,
+    "geom:area_square_m":163349821.20733,
     "geom:bbox":"13.1312591865,52.7091565382,13.430662939,52.8466347331",
     "geom:latitude":52.771728,
     "geom:longitude":13.286671,
@@ -221,7 +233,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.754444,
     "wd:longitude":13.236944,
     "wd:wordcount":738,
@@ -238,6 +251,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065256",
+        "eurostat:nuts_2021_id":"12065256",
         "gp:id":29352394,
         "wd:id":"Q14808"
     },
@@ -245,7 +260,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7aa13cd2f3a8b12693d1eec7848370e7",
+    "wof:geomhash":"2d69c62dc4c8b3d757a96c55b4eeaf13",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -257,11 +272,11 @@
         }
     ],
     "wof:id":101907977,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351991,
     "wof:name":"Oranienburg",
     "wof:parent_id":1377694243,
     "wof:placetype":"locality",
-    "wof:population":41621,
+    "wof:population":44862,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

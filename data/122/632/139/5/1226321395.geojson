@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bendorf",
+    "eurostat:nuts_2021_id":"01058014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058014",
+    "eurostat:population":425,
+    "eurostat:population_year":2020,
     "geom:area":0.002824,
-    "geom:area_square_m":20483965.44644,
+    "geom:area_square_m":20483965.446437,
     "geom:bbox":"9.31108438272,54.0631798266,9.44327179347,54.1664563288",
     "geom:latitude":54.085947,
     "geom:longitude":9.37619,
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -139,13 +152,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058014",
+        "eurostat:nuts_2021_id":"01058014",
         "gn:id":2951110
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ead0787b8902d83f8217f67838ddf964",
+    "wof:geomhash":"471310d956575d22597e3ab2d4528c6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +172,11 @@
         }
     ],
     "wof:id":1226321395,
-    "wof:lastmodified":1582343144,
+    "wof:lastmodified":1684352057,
     "wof:name":"Bendorf",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":506,
+    "wof:population":425,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

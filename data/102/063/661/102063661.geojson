@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Bonn, Kreisfreie Stadt",
+    "eurostat:name_local":"Bonn, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA22",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA22",
+    "eurostat:population":331885,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.018023,
-    "geom:area_square_m":141140008.268563,
+    "geom:area_square_m":141140008.268564,
     "geom:bbox":"7.023486,50.631866,7.210872,50.774435",
     "geom:latitude":50.705812,
     "geom:longitude":7.109813,
@@ -381,8 +395,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"141",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Bonn",
@@ -395,12 +409,13 @@
     "statoids:type":"district-free city",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227541,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA22",
         "hasc:id":"DE.NW.BN"
     },
     "wof:coterminous":[
@@ -411,7 +426,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57dacd3a286906c8210a0ecb8a2ece7c",
+    "wof:geomhash":"c9a0788a37bd6b31218b1ff296557ab0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -422,12 +437,12 @@
         }
     ],
     "wof:id":102063661,
-    "wof:lastmodified":1608052764,
+    "wof:lastmodified":1684351519,
     "wof:name":"Bonn",
     "wof:parent_id":404227541,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":305765,
+    "wof:population":331885,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"BN",

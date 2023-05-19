@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stubenberg",
+    "eurostat:nuts_2021_id":"09277147",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277147",
+    "eurostat:population":1414,
+    "eurostat:population_year":2020,
     "geom:area":0.002184,
-    "geom:area_square_m":17957966.948023,
+    "geom:area_square_m":17957966.948026,
     "geom:bbox":"13.031523285,48.2772563035,13.1020904301,48.3671334214",
     "geom:latitude":48.318983,
     "geom:longitude":13.073261,
@@ -136,7 +148,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277147",
+        "eurostat:nuts_2021_id":"09277147",
         "gn:id":2825519,
         "gp:id":637571,
         "qs_pg:id":1038329,
@@ -159,7 +174,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"87fa826b5396e29f046fa62cd64a112f",
+    "wof:geomhash":"f7b67f003e05efee7cab97152d51413f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101855501,
-    "wof:lastmodified":1582342629,
+    "wof:lastmodified":1684351966,
     "wof:name":"Stubenberg",
     "wof:parent_id":1377685275,
     "wof:placetype":"locality",
-    "wof:population":1503,
+    "wof:population":1414,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

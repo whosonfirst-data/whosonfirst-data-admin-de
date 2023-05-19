@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hallbergmoos",
+    "eurostat:nuts_2021_id":"09178130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178130",
+    "eurostat:population":11094,
+    "eurostat:population_year":2020,
     "geom:area":0.004242,
-    "geom:area_square_m":34887277.27114,
+    "geom:area_square_m":34887277.271139,
     "geom:bbox":"11.683806,48.269741,11.781584,48.357879",
     "geom:latitude":48.314094,
     "geom:longitude":11.732713,
@@ -329,22 +341,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":250,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063307,
         1377691865,
         404227567,
-        85682571
+        102063307
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178130",
+        "eurostat:nuts_2021_id":"09178130",
         "fct:id":"071cdf3c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2911530,
         "gp:id":656850,
@@ -360,7 +375,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"773371abb145585a75799f1583409e58",
+    "wof:geomhash":"ebf103053b8bfe8cabaacc880ea9ed76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -376,12 +391,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050469,
+    "wof:lastmodified":1684351836,
     "wof:name":"Hallbergmoos",
     "wof:parent_id":1377691865,
     "wof:placetype":"locality",
-    "wof:population":8074,
-    "wof:population_rank":5,
+    "wof:population":11094,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Idesheim",
+    "eurostat:nuts_2021_id":"07232061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232061",
+    "eurostat:population":399,
+    "eurostat:population_year":2020,
     "geom:area":0.000848,
-    "geom:area_square_m":6760541.347278,
+    "geom:area_square_m":6760541.347277,
     "geom:bbox":"6.54138299058,49.8627527884,6.5937779221,49.8927508092",
     "geom:latitude":49.87642,
     "geom:longitude":6.563485,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232061",
+        "eurostat:nuts_2021_id":"07232061",
         "gn:id":2896742,
         "gp:id":663225,
         "qs_pg:id":578463,
@@ -310,7 +325,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8aec76557a3793dc82445d5ca9868bcf",
+    "wof:geomhash":"947c08fb311aaa484ad3b511b38438d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101907245,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351986,
     "wof:name":"Idesheim",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":390,
+    "wof:population":399,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

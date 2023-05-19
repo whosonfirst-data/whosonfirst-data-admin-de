@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werder",
+    "eurostat:nuts_2021_id":"13071158",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071158",
+    "eurostat:population":559,
+    "eurostat:population_year":2020,
     "geom:area":0.00415,
-    "geom:area_square_m":30350262.554457,
+    "geom:area_square_m":30350262.554458,
     "geom:bbox":"13.3071743849,53.6923301418,13.4028290108,53.7898617504",
     "geom:latitude":53.739712,
     "geom:longitude":13.348673,
@@ -98,7 +110,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -108,13 +121,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071158",
+        "eurostat:nuts_2021_id":"13071158",
         "gn:id":2810936
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"0d604ea58288bb6395056babc10f127c",
+    "wof:geomhash":"4266997bec21e3e1e1779fc38885da08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +141,11 @@
         }
     ],
     "wof:id":1293860667,
-    "wof:lastmodified":1582342026,
+    "wof:lastmodified":1684352060,
     "wof:name":"Werder",
     "wof:parent_id":1377684533,
     "wof:placetype":"locality",
-    "wof:population":552,
+    "wof:population":559,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

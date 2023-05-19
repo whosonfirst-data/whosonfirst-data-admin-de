@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Honnef, Stadt",
+    "eurostat:nuts_2021_id":"05382008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382008",
+    "eurostat:population":25812,
+    "eurostat:population_year":2020,
     "geom:area":0.006108,
     "geom:area_square_m":47882408.836023,
     "geom:bbox":"7.199626,50.623368,7.362946,50.686908",
@@ -343,22 +355,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":375,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690603,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382008",
+        "eurostat:nuts_2021_id":"05382008",
         "fct:id":"0736c820-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953435,
         "gp:id":636439,
@@ -374,7 +389,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9eebf6fc46c2847aa2f1224848c6e7de",
+    "wof:geomhash":"10e1d91a1fd66e5deafe7931e1ad54f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -390,11 +405,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049410,
+    "wof:lastmodified":1684351790,
     "wof:name":"Bad Honnef",
     "wof:parent_id":1377690603,
     "wof:placetype":"locality",
-    "wof:population":25348,
+    "wof:population":25812,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

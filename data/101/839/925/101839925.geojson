@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00fcrgstadt, M",
+    "eurostat:nuts_2021_id":"09676116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676116",
+    "eurostat:population":4242,
+    "eurostat:population_year":2020,
     "geom:area":0.002191,
-    "geom:area_square_m":17511821.419986,
+    "geom:area_square_m":17511821.419985,
     "geom:bbox":"9.25858217797,49.7032542962,9.35638663114,49.7418305815",
     "geom:latitude":49.722429,
     "geom:longitude":9.298645,
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1017,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -182,6 +195,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676116",
+        "eurostat:nuts_2021_id":"09676116",
         "gn:id":2941151,
         "gp:id":642637,
         "qs_pg:id":1224630,
@@ -193,7 +208,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1785197555df062649dcf68ac3678e33",
+    "wof:geomhash":"79b1d1295610960162c6619a198e4423",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101839925,
-    "wof:lastmodified":1582342625,
+    "wof:lastmodified":1684351949,
     "wof:name":"B\u00fcrgstadt",
     "wof:parent_id":1377691419,
     "wof:placetype":"locality",
-    "wof:population":4342,
+    "wof:population":4242,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

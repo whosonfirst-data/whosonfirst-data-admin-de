@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08437065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krauchenwies",
+    "eurostat:nuts_2021_id":"08437065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE149",
+    "eurostat:nuts_2021_level_lau":"08437065",
+    "eurostat:population":5001,
+    "eurostat:population_year":2020,
     "geom:area":0.005414,
     "geom:area_square_m":44786472.696021,
     "geom:bbox":"9.17452961726,47.9720675555,9.29947964146,48.0406245136",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":188,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08437065",
+        "eurostat:nuts_2021_id":"08437065",
         "fct:id":"0749213c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2884667,
         "gp:id":668673,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8d69c403ed6427315c20845568cd68aa",
+    "wof:geomhash":"804dbbada55d43d5f09b190089cce9ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342298,
+    "wof:lastmodified":1684351813,
     "wof:name":"Krauchenwies",
     "wof:parent_id":1377690671,
     "wof:placetype":"locality",
-    "wof:population":5020,
+    "wof:population":5001,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09374134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mantel, M",
+    "eurostat:nuts_2021_id":"09374134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE237",
+    "eurostat:nuts_2021_level_lau":"09374134",
+    "eurostat:population":2730,
+    "eurostat:population_year":2020,
     "geom:area":0.002042,
-    "geom:area_square_m":16342114.578552,
+    "geom:area_square_m":16342114.578554,
     "geom:bbox":"11.971279,49.636552,12.086044,49.675349",
     "geom:latitude":49.657028,
     "geom:longitude":12.036531,
@@ -163,22 +175,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":126,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063523,
         1377686225,
         404227545,
-        85682571
+        102063523
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09374134",
+        "eurostat:nuts_2021_id":"09374134",
         "gn:id":2873841,
         "gp:id":673740,
         "qs_pg:id":867011,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6f450092b8dbc4ead8d3f6df7ec904ba",
+    "wof:geomhash":"44bcfd636af7fab643e5fae839619b70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101827021,
-    "wof:lastmodified":1608049831,
+    "wof:lastmodified":1684351939,
     "wof:name":"Mantel",
     "wof:parent_id":1377686225,
     "wof:placetype":"locality",
-    "wof:population":2951,
+    "wof:population":2730,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

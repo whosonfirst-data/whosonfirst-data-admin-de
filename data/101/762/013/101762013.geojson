@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08119084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Welzheim, Stadt",
+    "eurostat:nuts_2021_id":"08119084",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE116",
+    "eurostat:nuts_2021_level_lau":"08119084",
+    "eurostat:population":11170,
+    "eurostat:population_year":2020,
     "geom:area":0.004645,
-    "geom:area_square_m":37769988.685851,
+    "geom:area_square_m":37769988.685853,
     "geom:bbox":"9.55565364837,48.8412572407,9.69574008785,48.9239125658",
     "geom:latitude":48.88025,
     "geom:longitude":9.622269,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.874722,
     "wd:longitude":9.634444,
     "wd:wordcount":433,
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08119084",
+        "eurostat:nuts_2021_id":"08119084",
         "gn:id":2811354,
         "gp:id":705202,
         "qs_pg:id":1038105,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"afe85cb090867135cda80276835ca4f4",
+    "wof:geomhash":"e09cc9b315209eaa97434f47e25e05c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101762013,
-    "wof:lastmodified":1582342355,
+    "wof:lastmodified":1684351807,
     "wof:name":"Welzheim",
     "wof:parent_id":1377687551,
     "wof:placetype":"locality",
-    "wof:population":11306,
+    "wof:population":11170,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

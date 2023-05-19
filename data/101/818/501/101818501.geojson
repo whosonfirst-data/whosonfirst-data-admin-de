@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Artlenburg, Flecken",
+    "eurostat:nuts_2021_id":"03355003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355003",
+    "eurostat:population":1707,
+    "eurostat:population_year":2020,
     "geom:area":0.001594,
-    "geom:area_square_m":11760230.722032,
+    "geom:area_square_m":11760230.722031,
     "geom:bbox":"10.4420926815,53.3471656649,10.527033603,53.3858442065",
     "geom:latitude":53.364506,
     "geom:longitude":10.486654,
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -174,6 +187,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355003",
+        "eurostat:nuts_2021_id":"03355003",
         "gn:id":2955389,
         "gp:id":635545,
         "qs_pg:id":1343509,
@@ -185,7 +200,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"291c24532d931ab0e04f402e042ce450",
+    "wof:geomhash":"b097b1df28880259e7c0b63c160f294c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101818501,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351900,
     "wof:name":"Artlenburg",
     "wof:parent_id":1377687563,
     "wof:placetype":"locality",
-    "wof:population":1640,
+    "wof:population":1707,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

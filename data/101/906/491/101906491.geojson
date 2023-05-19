@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Norstedt",
+    "eurostat:nuts_2021_id":"01054092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054092",
+    "eurostat:population":410,
+    "eurostat:population_year":2020,
     "geom:area":0.001911,
-    "geom:area_square_m":13691535.744019,
+    "geom:area_square_m":13691535.744021,
     "geom:bbox":"9.09685839316,54.5713543671,9.15426772833,54.6205375308",
     "geom:latitude":54.594785,
     "geom:longitude":9.125998,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054092",
+        "eurostat:nuts_2021_id":"01054092",
         "gn:id":2861820,
         "gp:id":680462,
         "qs_pg:id":93319,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"352b971aaaba580c713416dd5fdaaf6b",
+    "wof:geomhash":"d2df1d03980d5b115076d51491c011a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101906491,
-    "wof:lastmodified":1582342326,
+    "wof:lastmodified":1684351980,
     "wof:name":"Norstedt",
     "wof:parent_id":1377683611,
     "wof:placetype":"locality",
-    "wof:population":416,
+    "wof:population":410,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

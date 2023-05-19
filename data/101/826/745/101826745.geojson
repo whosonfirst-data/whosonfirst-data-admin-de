@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09573114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cadolzburg, M",
+    "eurostat:nuts_2021_id":"09573114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE258",
+    "eurostat:nuts_2021_level_lau":"09573114",
+    "eurostat:population":11249,
+    "eurostat:population_year":2020,
     "geom:area":0.005622,
-    "geom:area_square_m":45190221.577172,
+    "geom:area_square_m":45190221.577173,
     "geom:bbox":"10.778605,49.41722,10.917215,49.496071",
     "geom:latitude":49.453918,
     "geom:longitude":10.843611,
@@ -182,22 +194,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063467,
         1377689347,
         404227565,
-        85682571
+        102063467
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09573114",
+        "eurostat:nuts_2021_id":"09573114",
         "gn:id":2940428,
         "gp:id":642965,
         "qs_pg:id":1040065,
@@ -212,7 +227,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43ebf27c60377abcab2252c7e8e14b8a",
+    "wof:geomhash":"c5067803942ae795504d8c34aee61f4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -225,11 +240,11 @@
         }
     ],
     "wof:id":101826745,
-    "wof:lastmodified":1608050362,
+    "wof:lastmodified":1684351936,
     "wof:name":"Cadolzburg",
     "wof:parent_id":1377689347,
     "wof:placetype":"locality",
-    "wof:population":10164,
+    "wof:population":11249,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

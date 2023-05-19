@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kraftsdorf",
+    "eurostat:nuts_2021_id":"16076089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076089",
+    "eurostat:population":3726,
+    "eurostat:population_year":2020,
     "geom:area":0.005257,
-    "geom:area_square_m":41004833.016517,
+    "geom:area_square_m":41004833.016519,
     "geom:bbox":"11.872699,50.859087,12.027873,50.917071",
     "geom:latitude":50.887245,
     "geom:longitude":11.949491,
@@ -144,17 +156,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063687,
         1377690877,
-        85682541
+        85633111,
+        102063687
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076089",
+        "eurostat:nuts_2021_id":"16076089",
         "gn:id":2885016,
         "gp:id":681822,
         "qs_pg:id":1039359,
@@ -169,7 +184,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c455f696f88f3fee45adc7afd9d3931a",
+    "wof:geomhash":"f42a3c43414ce5e008e2fe105dcb3ab0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101823159,
-    "wof:lastmodified":1608051055,
+    "wof:lastmodified":1684351924,
     "wof:name":"Kraftsdorf",
     "wof:parent_id":1377690877,
     "wof:placetype":"locality",
-    "wof:population":4403,
+    "wof:population":3726,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

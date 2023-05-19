@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Longuich",
+    "eurostat:nuts_2021_id":"07235078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235078",
+    "eurostat:population":1309,
+    "eurostat:population_year":2020,
     "geom:area":0.001132,
-    "geom:area_square_m":9036496.806088,
+    "geom:area_square_m":9036496.80609,
     "geom:bbox":"6.72129324712,49.7817197662,6.78508106677,49.8150878532",
     "geom:latitude":49.79854,
     "geom:longitude":6.756217,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235078",
+        "eurostat:nuts_2021_id":"07235078",
         "gn:id":2875988,
         "gp:id":672626,
         "qs_pg:id":577967,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd3f859967d01324ffedfc3fe1074bbe",
+    "wof:geomhash":"1588a9551a3c6185a6f8f1133740fcbf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101756363,
-    "wof:lastmodified":1582342498,
+    "wof:lastmodified":1684351794,
     "wof:name":"Longuich",
     "wof:parent_id":1377686065,
     "wof:placetype":"locality",
-    "wof:population":1233,
+    "wof:population":1309,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

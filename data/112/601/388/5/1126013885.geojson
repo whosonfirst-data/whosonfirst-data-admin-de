@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e4rtlingen",
+    "eurostat:nuts_2021_id":"07143230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143230",
+    "eurostat:population":375,
+    "eurostat:population_year":2020,
     "geom:area":0.000404,
     "geom:area_square_m":3176589.529924,
     "geom:bbox":"7.89111854887,50.5269362563,7.93264300278,50.5473310315",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143230",
+        "eurostat:nuts_2021_id":"07143230",
         "gn:id":2910068,
         "qs_pg:id":578761,
         "wd:id":"Q646432"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f6163a9e2a51090e501fbe3053662ed8",
+    "wof:geomhash":"cb6f5d2a537d322c78babefa892a3643",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1126013885,
-    "wof:lastmodified":1582343021,
+    "wof:lastmodified":1684352046,
     "wof:name":"H\u00e4rtlingen",
     "wof:parent_id":1377685825,
     "wof:placetype":"locality",
-    "wof:population":464,
+    "wof:population":375,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

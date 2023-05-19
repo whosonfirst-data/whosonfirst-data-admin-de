@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stemwede",
+    "eurostat:nuts_2021_id":"05770044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770044",
+    "eurostat:population":13020,
+    "eurostat:population_year":2020,
     "geom:area":0.021944,
-    "geom:area_square_m":165456632.665539,
+    "geom:area_square_m":165456632.66555,
     "geom:bbox":"8.297214,52.352307,8.568054,52.514693",
     "geom:latitude":52.427372,
     "geom:longitude":8.453191,
@@ -295,22 +307,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691979,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770044",
+        "eurostat:nuts_2021_id":"05770044",
         "gn:id":3213274,
         "gp:id":15002810,
         "qs_pg:id":1031984,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f026445018ec113b0346289098d20ea3",
+    "wof:geomhash":"292fcc17000093d03a16899be0060055",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101807679,
-    "wof:lastmodified":1608051559,
+    "wof:lastmodified":1684351858,
     "wof:name":"Stemwede",
     "wof:parent_id":1377691979,
     "wof:placetype":"locality",
-    "wof:population":13607,
+    "wof:population":13020,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

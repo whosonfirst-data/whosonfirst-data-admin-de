@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sterley",
+    "eurostat:nuts_2021_id":"01053123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053123",
+    "eurostat:population":932,
+    "eurostat:population_year":2020,
     "geom:area":0.002918,
-    "geom:area_square_m":21399856.850339,
+    "geom:area_square_m":21399856.850337,
     "geom:bbox":"10.7738664352,53.5979220661,10.8684285369,53.6614725477",
     "geom:latitude":53.627777,
     "geom:longitude":10.814931,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053123",
+        "eurostat:nuts_2021_id":"01053123",
         "gn:id":2827359,
         "gp:id":697159,
         "qs_pg:id":576822,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"db08291859067dc64903cdc5f7ee349e",
+    "wof:geomhash":"60ba4f03f6cb43cc3fb86a6e943f79cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101908387,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351995,
     "wof:name":"Sterley",
     "wof:parent_id":1377683513,
     "wof:placetype":"locality",
-    "wof:population":941,
+    "wof:population":932,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

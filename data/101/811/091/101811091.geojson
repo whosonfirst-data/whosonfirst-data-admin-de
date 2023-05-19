@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buttlar",
+    "eurostat:nuts_2021_id":"16063011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063011",
+    "eurostat:population":1259,
+    "eurostat:population_year":2020,
     "geom:area":0.002703,
     "geom:area_square_m":21141494.101054,
     "geom:bbox":"9.92012645156,50.735704197,10.0344414633,50.7829030439",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063011",
+        "eurostat:nuts_2021_id":"16063011",
         "gn:id":2940529,
         "gp:id":705352,
         "qs_pg:id":142760,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6715f520a3c7af5e9bb6be8902bc6e9e",
+    "wof:geomhash":"e5b8dfcf0c73f7123823394c95522c4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101811091,
-    "wof:lastmodified":1582342385,
+    "wof:lastmodified":1684351878,
     "wof:name":"Buttlar",
     "wof:parent_id":1377689707,
     "wof:placetype":"locality",
-    "wof:population":1437,
+    "wof:population":1259,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

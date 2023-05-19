@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ladelund",
+    "eurostat:nuts_2021_id":"01054073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054073",
+    "eurostat:population":1334,
+    "eurostat:population_year":2020,
     "geom:area":0.003378,
     "geom:area_square_m":24054739.469765,
     "geom:bbox":"8.99440876165,54.8120220275,9.08257502965,54.875771547",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "wof:belongsto":[
         85682517,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054073",
+        "eurostat:nuts_2021_id":"01054073",
         "gn:id":2881984,
         "gp:id":669776,
         "qs_pg:id":578142,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b18e87c7cee29cbf63501d6cf4299b10",
+    "wof:geomhash":"eca748f62e3839badfab1bed3c1873eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101806923,
-    "wof:lastmodified":1582342615,
+    "wof:lastmodified":1684351856,
     "wof:name":"Ladelund",
     "wof:parent_id":1377683639,
     "wof:placetype":"locality",
-    "wof:population":1500,
+    "wof:population":1334,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchheim",
+    "eurostat:nuts_2021_id":"06632011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632011",
+    "eurostat:population":3546,
+    "eurostat:population_year":2020,
     "geom:area":0.006492,
-    "geom:area_square_m":50676979.765931,
+    "geom:area_square_m":50676979.76593,
     "geom:bbox":"9.49478,50.807592,9.630047,50.890246",
     "geom:latitude":50.853182,
     "geom:longitude":9.553579,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":232,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684349,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632011",
+        "eurostat:nuts_2021_id":"06632011",
         "gn:id":2890485,
         "gp:id":665966,
         "qs_pg:id":1039426,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c58d611c19edf844851b31303104fc5b",
+    "wof:geomhash":"f7b2fa02af1c31b0da40b8ecd910110e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101846321,
-    "wof:lastmodified":1608051051,
+    "wof:lastmodified":1684351960,
     "wof:name":"Kirchheim",
     "wof:parent_id":1377684349,
     "wof:placetype":"locality",
-    "wof:population":3913,
+    "wof:population":3546,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

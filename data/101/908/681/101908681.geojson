@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blunk",
+    "eurostat:nuts_2021_id":"01060010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060010",
+    "eurostat:population":580,
+    "eurostat:population_year":2020,
     "geom:area":0.001471,
-    "geom:area_square_m":10688690.675389,
+    "geom:area_square_m":10688690.67539,
     "geom:bbox":"10.2819787209,53.9857909244,10.3394010424,54.030512307",
     "geom:latitude":54.00933,
     "geom:longitude":10.307531,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060010",
+        "eurostat:nuts_2021_id":"01060010",
         "gn:id":2947490,
         "gp:id":20174087,
         "qs_pg:id":579725,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e3f45e6e1947f41f38885180414c48f7",
+    "wof:geomhash":"373fa6336fa5ee910ecf31b3fb064828",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101908681,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351998,
     "wof:name":"Blunk",
     "wof:parent_id":1377684607,
     "wof:placetype":"locality",
-    "wof:population":598,
+    "wof:population":580,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

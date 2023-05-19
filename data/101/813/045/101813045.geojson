@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wald-Michelbach",
+    "eurostat:nuts_2021_id":"06431021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431021",
+    "eurostat:population":10593,
+    "eurostat:population_year":2020,
     "geom:area":0.009239,
-    "geom:area_square_m":74109246.663512,
+    "geom:area_square_m":74109246.66352,
     "geom:bbox":"8.785026,49.492262,8.910865,49.614315",
     "geom:latitude":49.553575,
     "geom:longitude":8.845995,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":946,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377693001,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431021",
+        "eurostat:nuts_2021_id":"06431021",
         "gn:id":2814853,
         "gp:id":20162135,
         "qs_pg:id":141611,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"450d738f91dc358953b988087f7463f0",
+    "wof:geomhash":"2a1f4c2092f3d1e359872667b37a476a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101813045,
-    "wof:lastmodified":1608051372,
+    "wof:lastmodified":1684351887,
     "wof:name":"Wald-Michelbach",
     "wof:parent_id":1377693001,
     "wof:placetype":"locality",
-    "wof:population":11720,
+    "wof:population":10593,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

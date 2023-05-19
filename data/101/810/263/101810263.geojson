@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05762012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borgentreich, Orgelstadt",
+    "eurostat:nuts_2021_id":"05762012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA44",
+    "eurostat:nuts_2021_level_lau":"05762012",
+    "eurostat:population":8543,
+    "eurostat:population_year":2020,
     "geom:area":0.017996,
     "geom:area_square_m":138295278.143332,
     "geom:bbox":"9.125429,51.505881,9.373523,51.6632",
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":714,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063837,
         1377691671,
         404227571,
-        85682513
+        102063837
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05762012",
+        "eurostat:nuts_2021_id":"05762012",
         "gn:id":2946291,
         "gp:id":640242,
         "qs_pg:id":875477,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5360bd703541f65d4185a282b92c4128",
+    "wof:geomhash":"b0ed460c4f28b277343213b7395558dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101810263,
-    "wof:lastmodified":1608050106,
+    "wof:lastmodified":1684351873,
     "wof:name":"Borgentreich",
     "wof:parent_id":1377691671,
     "wof:placetype":"locality",
-    "wof:population":9713,
+    "wof:population":8543,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

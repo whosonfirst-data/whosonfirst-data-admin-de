@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Luisenthal",
+    "eurostat:nuts_2021_id":"16067044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067044",
+    "eurostat:population":1197,
+    "eurostat:population_year":2020,
     "geom:area":0.003874,
     "geom:area_square_m":30309338.694906,
     "geom:bbox":"10.6564294341,50.7154647107,10.751727875,50.8031249419",
@@ -143,7 +155,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067044",
+        "eurostat:nuts_2021_id":"16067044",
         "gn:id":2875183,
         "wk:page":"Luisenthal"
     },
@@ -164,7 +179,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"803c44dfe3e9c7886874fb31e9d4802a",
+    "wof:geomhash":"698713f05e050fdcb257de9f2596057e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":1327107469,
-    "wof:lastmodified":1582341881,
+    "wof:lastmodified":1684352062,
     "wof:name":"Luisenthal",
     "wof:parent_id":1377690173,
     "wof:placetype":"locality",
-    "wof:population":1470,
+    "wof:population":1197,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

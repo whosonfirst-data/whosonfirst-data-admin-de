@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schaalby",
+    "eurostat:nuts_2021_id":"01059073",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059073",
+    "eurostat:population":1563,
+    "eurostat:population_year":2020,
     "geom:area":0.002964,
-    "geom:area_square_m":21264354.815446,
+    "geom:area_square_m":21264354.815447,
     "geom:bbox":"9.58688569684,54.5130801305,9.68711203523,54.5699720789",
     "geom:latitude":54.542229,
     "geom:longitude":9.638175,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059073",
+        "eurostat:nuts_2021_id":"01059073",
         "gn:id":2841027,
         "gp:id":691218,
         "qs_pg:id":577087,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"30a933f8b082a0bbf08b9b54b876a525",
+    "wof:geomhash":"b4f7d6498e2ece934af571a2406f15be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101805195,
-    "wof:lastmodified":1582342451,
+    "wof:lastmodified":1684351848,
     "wof:name":"Schaalby",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":1700,
+    "wof:population":1563,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

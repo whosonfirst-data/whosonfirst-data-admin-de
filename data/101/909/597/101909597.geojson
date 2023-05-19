@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03158005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cramme",
+    "eurostat:nuts_2021_id":"03158005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91B",
+    "eurostat:nuts_2021_level_lau":"03158005",
+    "eurostat:population":849,
+    "eurostat:population_year":2020,
     "geom:area":0.001626,
-    "geom:area_square_m":12343853.162579,
+    "geom:area_square_m":12343853.16258,
     "geom:bbox":"10.4290457526,52.0974226888,10.5101678272,52.1264640566",
     "geom:latitude":52.112396,
     "geom:longitude":10.467976,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03158005",
+        "eurostat:nuts_2021_id":"03158005",
         "gn:id":2939788,
         "gp:id":643325,
         "qs_pg:id":579502,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cb5837655856f6d20cad949648571bd8",
+    "wof:geomhash":"8a1c92b1f195ff46afdcee7c5b247776",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101909597,
-    "wof:lastmodified":1582342288,
+    "wof:lastmodified":1684352002,
     "wof:name":"Cramme",
     "wof:parent_id":1377686129,
     "wof:placetype":"locality",
-    "wof:population":959,
+    "wof:population":849,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seulingen",
+    "eurostat:nuts_2021_id":"03159033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159033",
+    "eurostat:population":1346,
+    "eurostat:population_year":2020,
     "geom:area":0.001443,
-    "geom:area_square_m":11098298.132273,
+    "geom:area_square_m":11098298.132274,
     "geom:bbox":"10.1204111787,51.5186182249,10.1869473397,51.5571764164",
     "geom:latitude":51.537403,
     "geom:longitude":10.153786,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159033",
+        "eurostat:nuts_2021_id":"03159033",
         "gn:id":2832867,
         "gp:id":644247,
         "qs_pg:id":576915,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1d3482b2f86d584194eaa2494959a21b",
+    "wof:geomhash":"ad92a4bb5ad621fb8459404e454683d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101810183,
-    "wof:lastmodified":1582342410,
+    "wof:lastmodified":1684351872,
     "wof:name":"Seulingen",
     "wof:parent_id":1377686247,
     "wof:placetype":"locality",
-    "wof:population":1472,
+    "wof:population":1346,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

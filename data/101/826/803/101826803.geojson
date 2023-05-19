@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindenberg",
+    "eurostat:nuts_2021_id":"07332034",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332034",
+    "eurostat:population":1058,
+    "eurostat:population_year":2020,
     "geom:area":0.00048,
     "geom:area_square_m":3868008.456394,
     "geom:bbox":"8.07990278259,49.3602106241,8.1066637374,49.393229193",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332034",
+        "eurostat:nuts_2021_id":"07332034",
         "gn:id":2877357,
         "gp:id":671963,
         "qs_pg:id":1067716,
@@ -163,7 +178,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"dbd2274af67d67015997c6c51a09f256",
+    "wof:geomhash":"e529d7980c5a22f86d2edadf5c93a486",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101826803,
-    "wof:lastmodified":1582342437,
+    "wof:lastmodified":1684351936,
     "wof:name":"Lindenberg",
     "wof:parent_id":1377686279,
     "wof:placetype":"locality",
-    "wof:population":1178,
+    "wof:population":1058,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

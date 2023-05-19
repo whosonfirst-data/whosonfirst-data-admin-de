@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberhaid",
+    "eurostat:nuts_2021_id":"09471165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471165",
+    "eurostat:population":4699,
+    "eurostat:population_year":2020,
     "geom:area":0.003386,
-    "geom:area_square_m":26940888.548871,
+    "geom:area_square_m":26940888.548869,
     "geom:bbox":"10.720991,49.914622,10.846156,49.969202",
     "geom:latitude":49.944198,
     "geom:longitude":10.792604,
@@ -160,18 +172,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":450,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687167,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471165",
+        "eurostat:nuts_2021_id":"09471165",
         "fct:id":"07504dea-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2860509,
         "gp:id":681292,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"26ef0c9ecc4832f385d88346096cc98e",
+    "wof:geomhash":"b070644ccbd46797518ad74e0d12ebd5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051434,
+    "wof:lastmodified":1684351931,
     "wof:name":"Oberhaid",
     "wof:parent_id":1377687167,
     "wof:placetype":"locality",
-    "wof:population":4550,
+    "wof:population":4699,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

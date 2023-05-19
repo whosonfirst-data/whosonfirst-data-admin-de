@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521590",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stollberg/Erzgeb., Stadt",
+    "eurostat:nuts_2021_id":"14521590",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521590",
+    "eurostat:population":11300,
+    "eurostat:population_year":2020,
     "geom:area":0.004954,
     "geom:area_square_m":38811066.834576,
     "geom:bbox":"12.6958906672,50.6419571134,12.8274362747,50.7211035914",
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521590",
+        "eurostat:nuts_2021_id":"14521590",
         "gn:id":2826584,
         "gp:id":697499,
         "qs_pg:id":977974,
@@ -170,7 +185,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9eb9debd91e878e0f98d1d62ac387da",
+    "wof:geomhash":"b423230b4b8ef18398e570aa5b06df9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101841935,
-    "wof:lastmodified":1582342521,
+    "wof:lastmodified":1684351954,
     "wof:name":"Stollberg/Erzgeb.",
     "wof:parent_id":1377685721,
     "wof:placetype":"locality",
-    "wof:population":12948,
+    "wof:population":11300,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

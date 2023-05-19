@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Welschbillig",
+    "eurostat:nuts_2021_id":"07235501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235501",
+    "eurostat:population":2610,
+    "eurostat:population_year":2020,
     "geom:area":0.004584,
-    "geom:area_square_m":36544795.18154,
+    "geom:area_square_m":36544795.181539,
     "geom:bbox":"6.5253006069,49.8215996567,6.64034068237,49.8966210104",
     "geom:latitude":49.853382,
     "geom:longitude":6.586739,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235501",
+        "eurostat:nuts_2021_id":"07235501",
         "gn:id":2811420,
         "gp:id":705169,
         "qs_pg:id":249270,
@@ -170,7 +185,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1cdf469609dbf3bbc7d7f5826ea6c882",
+    "wof:geomhash":"d104f29cd8f658eab1ed688c539917ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101813345,
-    "wof:lastmodified":1582342572,
+    "wof:lastmodified":1684351890,
     "wof:name":"Welschbillig",
     "wof:parent_id":1377686073,
     "wof:placetype":"locality",
-    "wof:population":2606,
+    "wof:population":2610,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

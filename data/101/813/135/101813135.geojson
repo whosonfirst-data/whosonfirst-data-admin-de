@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wallertheim",
+    "eurostat:nuts_2021_id":"07331068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331068",
+    "eurostat:population":1717,
+    "eurostat:population_year":2020,
     "geom:area":0.001008,
-    "geom:area_square_m":8043095.131938,
+    "geom:area_square_m":8043095.131936,
     "geom:bbox":"8.01594046579,49.8132335285,8.08176849394,49.8626824092",
     "geom:latitude":49.835039,
     "geom:longitude":8.052494,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":483,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331068",
+        "eurostat:nuts_2021_id":"07331068",
         "gn:id":2814591,
         "gp:id":703699,
         "qs_pg:id":576543,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4791311f39b97e5ec3b3fd69000179ca",
+    "wof:geomhash":"ee31f8ce57f67217bff8fe1964edf1ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101813135,
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351888,
     "wof:name":"Wallertheim",
     "wof:parent_id":1377686215,
     "wof:placetype":"locality",
-    "wof:population":1826,
+    "wof:population":1717,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

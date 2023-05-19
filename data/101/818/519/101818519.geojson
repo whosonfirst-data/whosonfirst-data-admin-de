@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Melbeck",
+    "eurostat:nuts_2021_id":"03355024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355024",
+    "eurostat:population":3323,
+    "eurostat:population_year":2020,
     "geom:area":0.002178,
-    "geom:area_square_m":16139884.282694,
+    "geom:area_square_m":16139884.282696,
     "geom:bbox":"10.3622801087,53.1514696939,10.4502645435,53.1993033562",
     "geom:latitude":53.175753,
     "geom:longitude":10.403726,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355024",
+        "eurostat:nuts_2021_id":"03355024",
         "gn:id":2932917,
         "gp:id":674672,
         "qs_pg:id":142154,
@@ -344,7 +359,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"98c3d77216d213f62deba077c985bf56",
+    "wof:geomhash":"0069e2fc05465b5d446881f56453cbc5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101818519,
-    "wof:lastmodified":1582342361,
+    "wof:lastmodified":1684351900,
     "wof:name":"Melbeck",
     "wof:parent_id":1377687545,
     "wof:placetype":"locality",
-    "wof:population":3358,
+    "wof:population":3323,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

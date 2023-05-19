@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aying",
+    "eurostat:nuts_2021_id":"09184137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184137",
+    "eurostat:population":5420,
+    "eurostat:population_year":2020,
     "geom:area":0.006788,
-    "geom:area_square_m":56208267.613793,
+    "geom:area_square_m":56208267.61379,
     "geom:bbox":"11.707055,47.917014,11.852085,48.003351",
     "geom:latitude":47.95726,
     "geom:longitude":11.774186,
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063273,
         1377692861,
         404227567,
-        85682571
+        102063273
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184137",
+        "eurostat:nuts_2021_id":"09184137",
         "fct:id":"0736aa8e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953829,
         "gp:id":636250,
@@ -348,7 +363,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"67fd93df542d8546c185fce4fc68b267",
+    "wof:geomhash":"bf4ff4bb3f2f402984dc040a506e036a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,12 +379,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051990,
+    "wof:lastmodified":1684351845,
     "wof:name":"Aying",
     "wof:parent_id":1377692861,
     "wof:placetype":"locality",
-    "wof:population":4040,
-    "wof:population_rank":4,
+    "wof:population":5420,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

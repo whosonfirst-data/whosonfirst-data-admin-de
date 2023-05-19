@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f6chheim",
+    "eurostat:nuts_2021_id":"09673134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673134",
+    "eurostat:population":1081,
+    "eurostat:population_year":2020,
     "geom:area":0.003191,
     "geom:area_square_m":25167169.544866,
     "geom:bbox":"10.391899307,50.3456891731,10.5146243957,50.4030467698",
@@ -136,7 +148,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682571,
@@ -148,6 +161,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673134",
+        "eurostat:nuts_2021_id":"09673134",
         "gn:id":2903180,
         "gp:id":660553,
         "qs_pg:id":93669,
@@ -160,7 +175,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"d7323cf389374d3b38154c4462e1594d",
+    "wof:geomhash":"6a25c77307ba4d28deb4d1d5a077f4ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101856113,
-    "wof:lastmodified":1582342449,
+    "wof:lastmodified":1684351968,
     "wof:name":"H\u00f6chheim",
     "wof:parent_id":1377690839,
     "wof:placetype":"locality",
-    "wof:population":1295,
+    "wof:population":1081,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

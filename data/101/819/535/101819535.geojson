@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12070325",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Putlitz, Stadt",
+    "eurostat:nuts_2021_id":"12070325",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40F",
+    "eurostat:nuts_2021_level_lau":"12070325",
+    "eurostat:population":2664,
+    "eurostat:population_year":2020,
     "geom:area":0.016135,
-    "geom:area_square_m":119358260.965512,
+    "geom:area_square_m":119358260.965511,
     "geom:bbox":"11.9147501331,53.1771565855,12.1341113937,53.3239874736",
     "geom:latitude":53.255577,
     "geom:longitude":12.031247,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.25,
     "wd:longitude":12.05,
     "wd:wordcount":108,
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12070325",
+        "eurostat:nuts_2021_id":"12070325",
         "gn:id":2851611,
         "gp:id":686279,
         "qs_pg:id":906473,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6bc034024ed9470a56881257b9d74541",
+    "wof:geomhash":"b2d72d779f803f06538fc6a27bf39b7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101819535,
-    "wof:lastmodified":1582342427,
+    "wof:lastmodified":1684351906,
     "wof:name":"Putlitz",
     "wof:parent_id":1377684013,
     "wof:placetype":"locality",
-    "wof:population":3100,
+    "wof:population":2664,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

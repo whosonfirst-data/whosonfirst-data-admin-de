@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gimbsheim",
+    "eurostat:nuts_2021_id":"07331034",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331034",
+    "eurostat:population":3023,
+    "eurostat:population_year":2020,
     "geom:area":0.002241,
     "geom:area_square_m":17894204.955867,
     "geom:bbox":"8.34905508457,49.7441298581,8.4175502375,49.80367489",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1233,
     "wof:belongsto":[
         85682491,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331034",
+        "eurostat:nuts_2021_id":"07331034",
         "gn:id":2920377,
         "gp:id":652603,
         "qs_pg:id":578997,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e3b5b02fb25af103fd6649a03c930453",
+    "wof:geomhash":"583bdb7565e523244737df3daa40a1ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101813145,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351888,
     "wof:name":"Gimbsheim",
     "wof:parent_id":1377686189,
     "wof:placetype":"locality",
-    "wof:population":3066,
+    "wof:population":3023,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

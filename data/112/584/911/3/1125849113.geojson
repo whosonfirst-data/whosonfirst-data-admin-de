@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16076006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bethenhausen",
+    "eurostat:nuts_2021_id":"16076006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0L",
+    "eurostat:nuts_2021_level_lau":"16076006",
+    "eurostat:population":222,
+    "eurostat:population_year":2020,
     "geom:area":0.000386,
     "geom:area_square_m":3010804.320632,
     "geom:bbox":"12.1749622827,50.9206248468,12.2088016621,50.9359096538",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16076006",
+        "eurostat:nuts_2021_id":"16076006",
         "gn:id":2949762,
         "qs_pg:id":579785,
         "wd:id":"Q538963"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"61ca68c4d7fbb355078ed5d54094b940",
+    "wof:geomhash":"fff46a431225e4c227459dfa62abefab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125849113,
-    "wof:lastmodified":1582343059,
+    "wof:lastmodified":1684352031,
     "wof:name":"Bethenhausen",
     "wof:parent_id":1377690925,
     "wof:placetype":"locality",
-    "wof:population":270,
+    "wof:population":222,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

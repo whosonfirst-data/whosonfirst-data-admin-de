@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069616",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Teltow, Stadt",
+    "eurostat:nuts_2021_id":"12069616",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069616",
+    "eurostat:population":26902,
+    "eurostat:population_year":2020,
     "geom:area":0.002883,
-    "geom:area_square_m":21755505.905157,
+    "geom:area_square_m":21755505.905155,
     "geom:bbox":"13.233459,52.350158,13.312776,52.416451",
     "geom:latitude":52.385124,
     "geom:longitude":13.273364,
@@ -321,7 +333,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.402222,
     "wd:longitude":13.270556,
     "wd:wordcount":546,
@@ -330,14 +343,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063937,
         1377683843,
-        85682553
+        85633111,
+        102063937
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069616",
+        "eurostat:nuts_2021_id":"12069616",
         "gn:id":2823567,
         "gp:id":698817,
         "qs_pg:id":456153,
@@ -352,7 +367,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a678cb6dd95e7d779172da11794ea5dc",
+    "wof:geomhash":"206191f0ae0960ac615c6fd752d4dddc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -364,12 +379,12 @@
         }
     ],
     "wof:id":101756031,
-    "wof:lastmodified":1608050810,
+    "wof:lastmodified":1684351792,
     "wof:name":"Teltow",
     "wof:parent_id":1377683843,
     "wof:placetype":"locality",
-    "wof:population":19530,
-    "wof:population_rank":6,
+    "wof:population":26902,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

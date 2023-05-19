@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137504",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lehmen",
+    "eurostat:nuts_2021_id":"07137504",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137504",
+    "eurostat:population":1293,
+    "eurostat:population_year":2020,
     "geom:area":0.001286,
     "geom:area_square_m":10166482.29119,
     "geom:bbox":"7.4060962941,50.2500625472,7.45946716653,50.2902212775",
@@ -283,7 +295,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682491,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137504",
+        "eurostat:nuts_2021_id":"07137504",
         "gn:id":2879498,
         "gp:id":670896,
         "qs_pg:id":578037,
@@ -306,7 +321,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"a4eb4192cd3c87955f8736d3a2f9daee",
+    "wof:geomhash":"a81bd0974725d1d864efcb81881b7331",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101874355,
-    "wof:lastmodified":1582342395,
+    "wof:lastmodified":1684351970,
     "wof:name":"Lehmen",
     "wof:parent_id":1377685601,
     "wof:placetype":"locality",
-    "wof:population":1470,
+    "wof:population":1293,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

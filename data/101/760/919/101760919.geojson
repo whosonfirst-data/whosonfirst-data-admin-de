@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mainhardt",
+    "eurostat:nuts_2021_id":"08127052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127052",
+    "eurostat:population":6006,
+    "eurostat:population_year":2020,
     "geom:area":0.007209,
-    "geom:area_square_m":58378237.068871,
+    "geom:area_square_m":58378237.068867,
     "geom:bbox":"9.497408,49.047151,9.653627,49.133349",
     "geom:latitude":49.08668,
     "geom:longitude":9.570589,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063423,
         1377687827,
         404227549,
-        85682567
+        102063423
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127052",
+        "eurostat:nuts_2021_id":"08127052",
         "fct:id":"07161c2e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2874246,
         "gp:id":673502,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6d224e9306ba7847c674779f4d584b4e",
+    "wof:geomhash":"f10aff3f94755ee095f7f4e071dbf08e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050787,
+    "wof:lastmodified":1684351803,
     "wof:name":"Mainhardt",
     "wof:parent_id":1377687827,
     "wof:placetype":"locality",
-    "wof:population":5680,
+    "wof:population":6006,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

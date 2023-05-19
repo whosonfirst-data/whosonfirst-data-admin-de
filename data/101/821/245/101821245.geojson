@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069632",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Treuenbrietzen, Stadt",
+    "eurostat:nuts_2021_id":"12069632",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069632",
+    "eurostat:population":7459,
+    "eurostat:population_year":2020,
     "geom:area":0.02782,
-    "geom:area_square_m":211454811.193512,
+    "geom:area_square_m":211454811.193492,
     "geom:bbox":"12.699177,51.979275,13.026641,52.187431",
     "geom:latitude":52.069964,
     "geom:longitude":12.860252,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":488,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063937,
         1377683851,
-        85682553
+        85633111,
+        102063937
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069632",
+        "eurostat:nuts_2021_id":"12069632",
         "gn:id":2821248,
         "gp:id":699983,
         "qs_pg:id":1210165,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"870e12ecd37e0d3f7189d7f34e46ad5e",
+    "wof:geomhash":"eedef71f105ba6b9b06d73413723ed1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101821245,
-    "wof:lastmodified":1608050182,
+    "wof:lastmodified":1684351917,
     "wof:name":"Treuenbrietzen",
     "wof:parent_id":1377683851,
     "wof:placetype":"locality",
-    "wof:population":8675,
+    "wof:population":7459,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

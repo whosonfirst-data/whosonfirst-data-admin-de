@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fchlacker, Stadt",
+    "eurostat:nuts_2021_id":"08236040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236040",
+    "eurostat:population":26130,
+    "eurostat:population_year":2020,
     "geom:area":0.006697,
     "geom:area_square_m":54385537.548373,
     "geom:bbox":"8.77027943837,48.8970924027,8.92642100067,49.0002696123",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":53.33,
     "wd:latitude":48.95,
     "wd:longitude":8.839167,
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236040",
+        "eurostat:nuts_2021_id":"08236040",
         "gn:id":2868788,
         "gp:id":676459,
         "qs_pg:id":142103,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"36097827f1837fd65b5ee1d306dd34ad",
+    "wof:geomhash":"d922ad287f0b5960901a990c164f6f13",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101760665,
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351800,
     "wof:name":"M\u00fchlacker",
     "wof:parent_id":1377689005,
     "wof:placetype":"locality",
-    "wof:population":25614,
+    "wof:population":26130,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

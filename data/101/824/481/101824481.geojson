@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auengrund",
+    "eurostat:nuts_2021_id":"16069058",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069058",
+    "eurostat:population":2852,
+    "eurostat:population_year":2020,
     "geom:area":0.004689,
-    "geom:area_square_m":36905014.021214,
+    "geom:area_square_m":36905014.021211,
     "geom:bbox":"10.769582,50.433095,10.909739,50.50431",
     "geom:latitude":50.469403,
     "geom:longitude":10.846121,
@@ -299,21 +311,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063647,
         1377690373,
-        85682541
+        85633111,
+        102063647
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069058",
+        "eurostat:nuts_2021_id":"16069058",
         "gn:id":6550189,
         "gp:id":640787,
         "qs_pg:id":631767,
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f99de5fe79640dda120ba93064a435bc",
+    "wof:geomhash":"d068e0563024cd3de70d1ad10b7a7746",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101824481,
-    "wof:lastmodified":1608051151,
+    "wof:lastmodified":1684351928,
     "wof:name":"Auengrund",
     "wof:parent_id":1377690373,
     "wof:placetype":"locality",
-    "wof:population":3014,
+    "wof:population":2852,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

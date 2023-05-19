@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arbach",
+    "eurostat:nuts_2021_id":"07233201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233201",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "geom:area":0.000555,
     "geom:area_square_m":4382789.330895,
     "geom:bbox":"7.00485693037,50.2748667192,7.06589340333,50.2936589763",
@@ -114,7 +126,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -124,6 +137,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233201",
+        "eurostat:nuts_2021_id":"07233201",
         "gn:id":2955701,
         "qs_pg:id":94203,
         "wd:id":"Q626871"
@@ -133,7 +148,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c48dfc2503857c7b4a92416f986f84e3",
+    "wof:geomhash":"29be7139395309a8cb664c803e35453d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +160,11 @@
         }
     ],
     "wof:id":1126021605,
-    "wof:lastmodified":1582342978,
+    "wof:lastmodified":1684352049,
     "wof:name":"Arbach",
     "wof:parent_id":1377686001,
     "wof:placetype":"locality",
-    "wof:population":156,
+    "wof:population":140,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

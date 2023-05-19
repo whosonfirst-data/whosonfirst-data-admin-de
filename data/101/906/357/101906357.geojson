@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bargstedt",
+    "eurostat:nuts_2021_id":"01058011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058011",
+    "eurostat:population":718,
+    "eurostat:population_year":2020,
     "geom:area":0.003479,
     "geom:area_square_m":25181836.880767,
     "geom:bbox":"9.70718656851,54.1368896849,9.8136270089,54.1936373645",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":16,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058011",
+        "eurostat:nuts_2021_id":"01058011",
         "gn:id":2952636,
         "gp:id":29351043,
         "qs_pg:id":579888,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2525688b51baca3c35152a38d06d00bf",
+    "wof:geomhash":"0fa922d415a2b33e1c06f031bf536eaa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906357,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351979,
     "wof:name":"Bargstedt",
     "wof:parent_id":1377684259,
     "wof:placetype":"locality",
-    "wof:population":777,
+    "wof:population":718,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

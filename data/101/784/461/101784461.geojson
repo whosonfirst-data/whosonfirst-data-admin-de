@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09275156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wegscheid, M",
+    "eurostat:nuts_2021_id":"09275156",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE228",
+    "eurostat:nuts_2021_level_lau":"09275156",
+    "eurostat:population":5529,
+    "eurostat:population_year":2020,
     "geom:area":0.009842,
-    "geom:area_square_m":80449852.314262,
+    "geom:area_square_m":80449852.314261,
     "geom:bbox":"13.705901,48.553442,13.826997,48.678868",
     "geom:latitude":48.61848,
     "geom:longitude":13.766904,
@@ -157,21 +169,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675609,
         1377684845,
         404227559,
-        85682571
+        1377675609
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09275156",
+        "eurostat:nuts_2021_id":"09275156",
         "fct:id":"0768c14a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2813344,
         "gp:id":29347770,
@@ -187,7 +202,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2040b744ac60313bc0aa5390be8c543f",
+    "wof:geomhash":"9c98bad6fb40397ca0a0d3e382faf870",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050701,
+    "wof:lastmodified":1684351834,
     "wof:name":"Wegscheid",
     "wof:parent_id":1377684845,
     "wof:placetype":"locality",
-    "wof:population":5817,
+    "wof:population":5529,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

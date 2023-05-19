@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rahden, Stadt",
+    "eurostat:nuts_2021_id":"05770040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770040",
+    "eurostat:population":15402,
+    "eurostat:population_year":2020,
     "geom:area":0.01812,
-    "geom:area_square_m":136530427.995367,
+    "geom:area_square_m":136530427.99537,
     "geom:bbox":"8.518883,52.392884,8.718081,52.531443",
     "geom:latitude":52.456981,
     "geom:longitude":8.626518,
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":257,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691971,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770040",
+        "eurostat:nuts_2021_id":"05770040",
         "gn:id":2850887,
         "gp:id":686632,
         "qs_pg:id":892663,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cc824f75968573d55f12196c0bdaa2de",
+    "wof:geomhash":"d5ae09044b2aa33e372bb36b34ce8b7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101807673,
-    "wof:lastmodified":1608051525,
+    "wof:lastmodified":1684351858,
     "wof:name":"Rahden",
     "wof:parent_id":1377691971,
     "wof:placetype":"locality",
-    "wof:population":16140,
+    "wof:population":15402,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

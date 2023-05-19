@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03241018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uetze",
+    "eurostat:nuts_2021_id":"03241018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE929",
+    "eurostat:nuts_2021_level_lau":"03241018",
+    "eurostat:population":20276,
+    "eurostat:population_year":2020,
     "geom:area":0.018649,
-    "geom:area_square_m":140507180.627817,
+    "geom:area_square_m":140507180.627823,
     "geom:bbox":"10.054758,52.391038,10.302983,52.52569",
     "geom:latitude":52.460429,
     "geom:longitude":10.169679,
@@ -295,17 +307,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063941,
         1377686407,
-        85682555
+        85633111,
+        102063941
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03241018",
+        "eurostat:nuts_2021_id":"03241018",
         "gn:id":2820436,
         "gp:id":700431,
         "qs_pg:id":141631,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cb6d8285ca85b084e8301ac5ec41f08a",
+    "wof:geomhash":"07ecbece05d0c734862df9adaacd0e0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,12 +346,12 @@
         }
     ],
     "wof:id":101807701,
-    "wof:lastmodified":1608051514,
+    "wof:lastmodified":1684351859,
     "wof:name":"Uetze",
     "wof:parent_id":1377686407,
     "wof:placetype":"locality",
-    "wof:population":7500,
-    "wof:population_rank":5,
+    "wof:population":20276,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

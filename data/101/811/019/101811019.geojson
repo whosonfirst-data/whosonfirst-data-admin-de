@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neustadt (Hessen), Stadt",
+    "eurostat:nuts_2021_id":"06534016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534016",
+    "eurostat:population":9945,
+    "eurostat:population_year":2020,
     "geom:area":0.00728,
-    "geom:area_square_m":56809718.085235,
+    "geom:area_square_m":56809718.085233,
     "geom:bbox":"9.02530525835,50.8180825875,9.15158669443,50.9235742154",
     "geom:latitude":50.872556,
     "geom:longitude":9.090475,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.85,
     "wd:longitude":9.116667,
     "wd:wordcount":220,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534016",
+        "eurostat:nuts_2021_id":"06534016",
         "gn:id":2864091,
         "gp:id":679045,
         "qs_pg:id":93350,
@@ -319,7 +334,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e42d71601b94acf0fce69024b1d18717",
+    "wof:geomhash":"d85c3fd6f0d5bd7fb0c8e32cd2fea438",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101811019,
-    "wof:lastmodified":1582342387,
+    "wof:lastmodified":1684351878,
     "wof:name":"Neustadt (Hessen)",
     "wof:parent_id":1377683893,
     "wof:placetype":"locality",
-    "wof:population":9115,
+    "wof:population":9945,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

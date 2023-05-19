@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06434008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberursel (Taunus), Stadt",
+    "eurostat:nuts_2021_id":"06434008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE718",
+    "eurostat:nuts_2021_level_lau":"06434008",
+    "eurostat:population":46545,
+    "eurostat:population_year":2020,
     "geom:area":0.005615,
     "geom:area_square_m":44432511.23106,
     "geom:bbox":"8.4533966639,50.1672958795,8.63857510566,50.245424885",
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.202778,
     "wd:longitude":8.576944,
     "wd:wordcount":1189,
@@ -327,6 +340,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06434008",
+        "eurostat:nuts_2021_id":"06434008",
         "gn:id":2858738,
         "gp:id":682470,
         "qs_pg:id":169596,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"26d7f8f4d37c6ddd3ff3777ce55f1385",
+    "wof:geomhash":"50e529cd7cfdfaf75a870e3332f994b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101840051,
-    "wof:lastmodified":1582342561,
+    "wof:lastmodified":1684351950,
     "wof:name":"Oberursel (Taunus)",
     "wof:parent_id":1377693421,
     "wof:placetype":"locality",
-    "wof:population":42448,
+    "wof:population":46545,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiesenthal",
+    "eurostat:nuts_2021_id":"16063086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063086",
+    "eurostat:population":743,
+    "eurostat:population_year":2020,
     "geom:area":0.001734,
-    "geom:area_square_m":13582900.643264,
+    "geom:area_square_m":13582900.643265,
     "geom:bbox":"10.1377721781,50.6677969602,10.1941529981,50.7247773919",
     "geom:latitude":50.696003,
     "geom:longitude":10.166587,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682541,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063086",
+        "eurostat:nuts_2021_id":"16063086",
         "gn:id":2809196,
         "gp:id":706393,
         "qs_pg:id":576410,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9daa6633d29958856697ed04d7050d2a",
+    "wof:geomhash":"fb2ca14fe40941249bb67a65293896e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101907577,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351989,
     "wof:name":"Wiesenthal",
     "wof:parent_id":1377689681,
     "wof:placetype":"locality",
-    "wof:population":796,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

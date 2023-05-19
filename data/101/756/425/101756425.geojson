@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Urmitz",
+    "eurostat:nuts_2021_id":"07137225",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137225",
+    "eurostat:population":3435,
+    "eurostat:population_year":2020,
     "geom:area":0.000425,
     "geom:area_square_m":3349155.792693,
     "geom:bbox":"7.50169356742,50.3977669589,7.53440181738,50.4219393079",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137225",
+        "eurostat:nuts_2021_id":"07137225",
         "gn:id":2818184,
         "gp:id":701843,
         "qs_pg:id":1152604,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0a4a03d5385e914640884fb4f982380b",
+    "wof:geomhash":"5cb166d4361939e056bd7aa7b2a18ea6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101756425,
-    "wof:lastmodified":1582342499,
+    "wof:lastmodified":1684351795,
     "wof:name":"Urmitz",
     "wof:parent_id":1377685591,
     "wof:placetype":"locality",
-    "wof:population":3480,
+    "wof:population":3435,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

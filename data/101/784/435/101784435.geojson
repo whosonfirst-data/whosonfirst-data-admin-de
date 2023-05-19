@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09279124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Loiching",
+    "eurostat:nuts_2021_id":"09279124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22C",
+    "eurostat:nuts_2021_level_lau":"09279124",
+    "eurostat:population":3606,
+    "eurostat:population_year":2020,
     "geom:area":0.00475,
-    "geom:area_square_m":38847008.278433,
+    "geom:area_square_m":38847008.278435,
     "geom:bbox":"12.393653,48.533404,12.473589,48.650573",
     "geom:latitude":48.590566,
     "geom:longitude":12.42843,
@@ -302,18 +314,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063343,
         1377685535,
         404227559,
-        85682571
+        102063343
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09279124",
+        "eurostat:nuts_2021_id":"09279124",
         "gn:id":2876092,
         "gp:id":672560,
         "qs_pg:id":577969,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"933c83b52cb623eb1218f192e59f8eee",
+    "wof:geomhash":"8345cd925cd227faad179e24672cc6cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101784435,
-    "wof:lastmodified":1608050702,
+    "wof:lastmodified":1684351833,
     "wof:name":"Loiching",
     "wof:parent_id":1377685535,
     "wof:placetype":"locality",
-    "wof:population":3506,
+    "wof:population":3606,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

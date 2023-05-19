@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meuselwitz, Stadt",
+    "eurostat:nuts_2021_id":"16077032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077032",
+    "eurostat:population":9954,
+    "eurostat:population_year":2020,
     "geom:area":0.006905,
-    "geom:area_square_m":53668940.014206,
+    "geom:area_square_m":53668940.014205,
     "geom:bbox":"12.250268,51.015257,12.435897,51.084135",
     "geom:latitude":51.05493,
     "geom:longitude":12.340507,
@@ -189,21 +201,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":138,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063713,
         1377690997,
-        85682541
+        85633111,
+        102063713
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077032",
+        "eurostat:nuts_2021_id":"16077032",
         "gn:id":2871437,
         "gp:id":696372,
         "wd:id":"Q518356",
@@ -216,7 +231,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b1a3958358c3e6615a70b5ccd501b1f3",
+    "wof:geomhash":"70d67b56494ccfd4dda1c7afc238d7b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101910539,
-    "wof:lastmodified":1608052085,
+    "wof:lastmodified":1684352007,
     "wof:name":"Meuselwitz",
     "wof:parent_id":1377690997,
     "wof:placetype":"locality",
-    "wof:population":9625,
+    "wof:population":9954,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

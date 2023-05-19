@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kraftisried",
+    "eurostat:nuts_2021_id":"09777144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777144",
+    "eurostat:population":846,
+    "eurostat:population_year":2020,
     "geom:area":0.001938,
-    "geom:area_square_m":16106623.031825,
+    "geom:area_square_m":16106623.031823,
     "geom:bbox":"10.4351890256,47.7268420971,10.4903755922,47.8017642595",
     "geom:latitude":47.766481,
     "geom:longitude":10.46377,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777144",
+        "eurostat:nuts_2021_id":"09777144",
         "gn:id":2885018,
         "gp:id":668543,
         "qs_pg:id":578206,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"839800616e4f125fbb61bfa0b423a66a",
+    "wof:geomhash":"5526f13d7da0f83afaa2dcbe3ea7d7ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101905675,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351972,
     "wof:name":"Kraftisried",
     "wof:parent_id":1377693075,
     "wof:placetype":"locality",
-    "wof:population":713,
+    "wof:population":846,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

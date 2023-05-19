@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rittersdorf",
+    "eurostat:nuts_2021_id":"16071079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071079",
+    "eurostat:population":273,
+    "eurostat:population_year":2020,
     "geom:area":0.001115,
-    "geom:area_square_m":8706859.870054,
+    "geom:area_square_m":8706859.870053,
     "geom:bbox":"11.1914295309,50.8038857889,11.2574717645,50.8309583128",
     "geom:latitude":50.818013,
     "geom:longitude":11.225393,
@@ -86,7 +98,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -96,13 +109,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071079",
+        "eurostat:nuts_2021_id":"16071079",
         "gn:id":2846380
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"35fdf7275042bde2578501b635e5b74d",
+    "wof:geomhash":"49e4cd8a8b3b0514eb099e02ca588264",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -114,11 +129,11 @@
         }
     ],
     "wof:id":1343531311,
-    "wof:lastmodified":1582341943,
+    "wof:lastmodified":1684352062,
     "wof:name":"Rittersdorf",
     "wof:parent_id":1377690477,
     "wof:placetype":"locality",
-    "wof:population":268,
+    "wof:population":273,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

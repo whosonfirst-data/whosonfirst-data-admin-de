@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Erlangen-H\u00f6chstadt",
+    "eurostat:name_local":"Erlangen-H\u00f6chstadt",
+    "eurostat:nuts_2021_id":"DE257",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE257",
+    "eurostat:population":139323,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.070268,
-    "geom:area_square_m":562669773.725523,
+    "geom:area_square_m":562669773.725529,
     "geom:bbox":"10.591827,49.471571,11.288644,49.7882",
     "geom:latitude":49.640055,
     "geom:longitude":10.914863,
@@ -177,8 +191,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"565",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Erlangen",
@@ -192,12 +206,13 @@
     "wd:wordcount":226,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227565,
+        85633111,
         85682571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE257",
         "hasc:id":"DE.BY.EH",
         "wd:id":"Q10447"
     },
@@ -205,7 +220,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54c3bb080cd2ef4f7333eb29044d8768",
+    "wof:geomhash":"1ddb6437321c2250cfa7edf0d874ae73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,12 +231,12 @@
         }
     ],
     "wof:id":102063513,
-    "wof:lastmodified":1587164318,
+    "wof:lastmodified":1684351515,
     "wof:name":"Erlangen-H\u00f6chstadt",
     "wof:parent_id":404227565,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":130395,
+    "wof:population":139323,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"EH",

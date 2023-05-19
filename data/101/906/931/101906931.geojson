@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pellingen",
+    "eurostat:nuts_2021_id":"07235106",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235106",
+    "eurostat:population":1177,
+    "eurostat:population_year":2020,
     "geom:area":0.000893,
-    "geom:area_square_m":7149339.547909,
+    "geom:area_square_m":7149339.54791,
     "geom:bbox":"6.65321497877,49.6512953101,6.68958850723,49.6892712579",
     "geom:latitude":49.669916,
     "geom:longitude":6.672461,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235106",
+        "eurostat:nuts_2021_id":"07235106",
         "gn:id":2854999,
         "gp:id":650289,
         "qs_pg:id":577434,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"731db7b5232edc0c9ca165bf62a91669",
+    "wof:geomhash":"bc68bce41b7c6cdad75bceb2aef88afa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101906931,
-    "wof:lastmodified":1582342322,
+    "wof:lastmodified":1684351983,
     "wof:name":"Pellingen",
     "wof:parent_id":1377686037,
     "wof:placetype":"locality",
-    "wof:population":1027,
+    "wof:population":1177,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

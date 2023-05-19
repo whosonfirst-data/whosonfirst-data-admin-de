@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eberbach, Stadt",
+    "eurostat:nuts_2021_id":"08226013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226013",
+    "eurostat:population":14428,
+    "eurostat:population_year":2020,
     "geom:area":0.009969,
-    "geom:area_square_m":80095108.138586,
+    "geom:area_square_m":80095108.138583,
     "geom:bbox":"8.85193227178,49.4143317509,9.10091662356,49.5751739675",
     "geom:latitude":49.475213,
     "geom:longitude":8.988648,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226013",
+        "eurostat:nuts_2021_id":"08226013",
         "gn:id":2934020,
         "gp:id":646193,
         "qs_pg:id":142671,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2f3f0d9a721f0fe153947450e85cdba1",
+    "wof:geomhash":"c136420d923dbde5a2098806aebde0f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101815693,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351894,
     "wof:name":"Eberbach",
     "wof:parent_id":1377688721,
     "wof:placetype":"locality",
-    "wof:population":15624,
+    "wof:population":14428,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

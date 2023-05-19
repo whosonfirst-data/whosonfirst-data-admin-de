@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08128082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niederstetten, Stadt",
+    "eurostat:nuts_2021_id":"08128082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11B",
+    "eurostat:nuts_2021_level_lau":"08128082",
+    "eurostat:population":4774,
+    "eurostat:population_year":2020,
     "geom:area":0.012876,
-    "geom:area_square_m":103605679.154693,
+    "geom:area_square_m":103605679.15469,
     "geom:bbox":"9.831919,49.352198,10.053015,49.455906",
     "geom:latitude":49.402849,
     "geom:longitude":9.937131,
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":103.99,
     "wd:latitude":49.400833,
     "wd:longitude":9.918056,
@@ -171,15 +184,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063515,
         1377687953,
         404227549,
-        85682567
+        102063515
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08128082",
+        "eurostat:nuts_2021_id":"08128082",
         "gn:id":2862831,
         "gp:id":679912,
         "qs_pg:id":1219342,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"956de45d022c5b7d19d6f00297b78fc0",
+    "wof:geomhash":"507ec5c24b7d1a06165547193e2fa2b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,11 +222,11 @@
         }
     ],
     "wof:id":101815759,
-    "wof:lastmodified":1608051248,
+    "wof:lastmodified":1684351895,
     "wof:name":"Niederstetten",
     "wof:parent_id":1377687953,
     "wof:placetype":"locality",
-    "wof:population":4696,
+    "wof:population":4774,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

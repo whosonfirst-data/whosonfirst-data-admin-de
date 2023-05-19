@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09182125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Miesbach, St",
+    "eurostat:nuts_2021_id":"09182125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21F",
+    "eurostat:nuts_2021_level_lau":"09182125",
+    "eurostat:population":11471,
+    "eurostat:population_year":2020,
     "geom:area":0.003918,
-    "geom:area_square_m":32552934.387992,
+    "geom:area_square_m":32552934.387995,
     "geom:bbox":"11.774974,47.756662,11.904772,47.824806",
     "geom:latitude":47.787648,
     "geom:longitude":11.835431,
@@ -166,17 +178,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063221,
         1377692467,
         404227567,
-        85682571
+        102063221
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09182125",
+        "eurostat:nuts_2021_id":"09182125",
         "gn:id":2871198,
         "gp:id":675243,
         "qs_pg:id":896303,
@@ -191,7 +206,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"355e95d94fc34d401632a6432ceef85a",
+    "wof:geomhash":"c7bc73bc87035c54c1de19ff7194d98c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101787549,
-    "wof:lastmodified":1608052022,
+    "wof:lastmodified":1684351841,
     "wof:name":"Miesbach",
     "wof:parent_id":1377692467,
     "wof:placetype":"locality",
-    "wof:population":11354,
+    "wof:population":11471,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

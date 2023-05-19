@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08235033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Herrenalb, Stadt",
+    "eurostat:nuts_2021_id":"08235033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12A",
+    "eurostat:nuts_2021_level_lau":"08235033",
+    "eurostat:population":8000,
+    "eurostat:population_year":2020,
     "geom:area":0.004092,
-    "geom:area_square_m":33327873.885934,
+    "geom:area_square_m":33327873.885932,
     "geom:bbox":"8.37936700585,48.7435889844,8.50524975255,48.8353678945",
     "geom:latitude":48.796619,
     "geom:longitude":8.441991,
@@ -334,7 +346,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":33.03,
     "wd:latitude":48.800556,
     "wd:longitude":8.440833,
@@ -354,6 +367,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08235033",
+        "eurostat:nuts_2021_id":"08235033",
         "gn:id":2953440,
         "gp:id":636434,
         "qs_pg:id":64876,
@@ -365,7 +380,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8568129a28ca47127954fcc13205de8b",
+    "wof:geomhash":"74f22f74ab1d2a91dd1ebbb285e0a3ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -378,12 +393,12 @@
         }
     ],
     "wof:id":101761855,
-    "wof:lastmodified":1582342513,
+    "wof:lastmodified":1684351806,
     "wof:name":"Bad Herrenalb",
     "wof:parent_id":1377688859,
     "wof:placetype":"locality",
-    "wof:population":4048,
-    "wof:population_rank":4,
+    "wof:population":8000,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergfeld",
+    "eurostat:nuts_2021_id":"03151003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151003",
+    "eurostat:population":894,
+    "eurostat:population_year":2020,
     "geom:area":0.001402,
-    "geom:area_square_m":10545886.055517,
+    "geom:area_square_m":10545886.055513,
     "geom:bbox":"10.8167862382,52.5169472603,10.8869300934,52.5564418265",
     "geom:latitude":52.539202,
     "geom:longitude":10.851732,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -182,6 +195,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151003",
+        "eurostat:nuts_2021_id":"03151003",
         "gn:id":2950552,
         "gp:id":638031,
         "qs_pg:id":579816,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"556228410875f8a9696b648de4c07889",
+    "wof:geomhash":"d382ccda0eb3e782108b01207e8c6aef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +223,11 @@
         }
     ],
     "wof:id":101909829,
-    "wof:lastmodified":1582342283,
+    "wof:lastmodified":1684352003,
     "wof:name":"Bergfeld",
     "wof:parent_id":1377684897,
     "wof:placetype":"locality",
-    "wof:population":956,
+    "wof:population":894,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

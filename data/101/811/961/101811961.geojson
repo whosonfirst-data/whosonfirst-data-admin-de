@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06439001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aarbergen",
+    "eurostat:nuts_2021_id":"06439001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71D",
+    "eurostat:nuts_2021_level_lau":"06439001",
+    "eurostat:population":6260,
+    "eurostat:population_year":2020,
     "geom:area":0.004305,
     "geom:area_square_m":34042377.297168,
     "geom:bbox":"8.021651,50.20565,8.16194,50.281677",
@@ -301,22 +313,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1147,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063605,
         1377694065,
         404227581,
-        85682531
+        102063605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06439001",
+        "eurostat:nuts_2021_id":"06439001",
         "gn:id":3208019,
         "gp:id":15002564,
         "qs_pg:id":231120,
@@ -331,7 +346,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d6d4146724a3a3c5c1effab094c9a981",
+    "wof:geomhash":"492442564c8a007c4cd3bde9f82cfd6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101811961,
-    "wof:lastmodified":1608049929,
+    "wof:lastmodified":1684351880,
     "wof:name":"Aarbergen",
     "wof:parent_id":1377694065,
     "wof:placetype":"locality",
-    "wof:population":5947,
+    "wof:population":6260,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rothenfels, St",
+    "eurostat:nuts_2021_id":"09677181",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677181",
+    "eurostat:population":1022,
+    "eurostat:population_year":2020,
     "geom:area":0.001503,
     "geom:area_square_m":11972383.896111,
     "geom:bbox":"9.51588602374,49.8790509088,9.59797763088,49.9362354727",
@@ -302,7 +314,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":459,
     "wof:belongsto":[
         85682571,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677181",
+        "eurostat:nuts_2021_id":"09677181",
         "gn:id":2844042,
         "gp:id":689937,
         "qs_pg:id":1157573,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4df104bdf0eea01220fe6aa53f0474d9",
+    "wof:geomhash":"1a445870a4e32421b6b06dfafc347bf7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101840029,
-    "wof:lastmodified":1582342560,
+    "wof:lastmodified":1684351950,
     "wof:name":"Rothenfels",
     "wof:parent_id":1377691571,
     "wof:placetype":"locality",
-    "wof:population":1088,
+    "wof:population":1022,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

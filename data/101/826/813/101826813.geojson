@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09574120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Engelthal",
+    "eurostat:nuts_2021_id":"09574120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE259",
+    "eurostat:nuts_2021_level_lau":"09574120",
+    "eurostat:population":1085,
+    "eurostat:population_year":2020,
     "geom:area":0.001692,
-    "geom:area_square_m":13593966.679022,
+    "geom:area_square_m":13593966.679021,
     "geom:bbox":"11.3589742947,49.4545801726,11.4514674099,49.492546698",
     "geom:latitude":49.472619,
     "geom:longitude":11.401937,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":131,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09574120",
+        "eurostat:nuts_2021_id":"09574120",
         "fct:id":"071d9abc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2930205,
         "gp:id":648036,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"10e270b50860c3e6d0494d80ed667601",
+    "wof:geomhash":"de8697ac11b9526f290e934a94d5b233",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342440,
+    "wof:lastmodified":1684351936,
     "wof:name":"Engelthal",
     "wof:parent_id":1377689639,
     "wof:placetype":"locality",
-    "wof:population":1093,
+    "wof:population":1085,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldenburg, Stadt",
+    "eurostat:nuts_2021_id":"14524290",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524290",
+    "eurostat:population":4058,
+    "eurostat:population_year":2020,
     "geom:area":0.003201,
     "geom:area_square_m":24975811.435455,
     "geom:bbox":"12.5669327926,50.8368228747,12.6527995207,50.9093814641",
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524290",
+        "eurostat:nuts_2021_id":"14524290",
         "gn:id":2815074,
         "gp:id":703425,
         "qs_pg:id":1345823,
@@ -178,7 +193,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8ee2b428919e713b043a4099253dbfa1",
+    "wof:geomhash":"91bf3714f6d0b650d45f408bc8c55569",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101823135,
-    "wof:lastmodified":1582342529,
+    "wof:lastmodified":1684351924,
     "wof:name":"Waldenburg",
     "wof:parent_id":1377686573,
     "wof:placetype":"locality",
-    "wof:population":4597,
+    "wof:population":4058,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

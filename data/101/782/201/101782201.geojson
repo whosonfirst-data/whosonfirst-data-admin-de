@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09376149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nittenau, St",
+    "eurostat:nuts_2021_id":"09376149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE239",
+    "eurostat:nuts_2021_level_lau":"09376149",
+    "eurostat:population":9027,
+    "eurostat:population_year":2020,
     "geom:area":0.012208,
-    "geom:area_square_m":98621340.276926,
+    "geom:area_square_m":98621340.276928,
     "geom:bbox":"12.137575,49.149762,12.363848,49.261342",
     "geom:latitude":49.205826,
     "geom:longitude":12.245444,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063475,
         1377686743,
         404227545,
-        85682571
+        102063475
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09376149",
+        "eurostat:nuts_2021_id":"09376149",
         "gn:id":2862348,
         "gp:id":680215,
         "qs_pg:id":323855,
@@ -199,7 +214,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55a82e7f56ed14c7521aea597e2141d1",
+    "wof:geomhash":"3b1a984e2a9a6e365ee02d57c92d6751",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101782201,
-    "wof:lastmodified":1608050535,
+    "wof:lastmodified":1684351824,
     "wof:name":"Nittenau",
     "wof:parent_id":1377686743,
     "wof:placetype":"locality",
-    "wof:population":8478,
+    "wof:population":9027,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

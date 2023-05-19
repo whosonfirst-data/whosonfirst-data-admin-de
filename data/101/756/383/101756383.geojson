@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hallstadt, St",
+    "eurostat:nuts_2021_id":"09471140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471140",
+    "eurostat:population":8583,
+    "eurostat:population_year":2020,
     "geom:area":0.001885,
-    "geom:area_square_m":15007340.000364,
+    "geom:area_square_m":15007340.000366,
     "geom:bbox":"10.831051,49.912408,10.913475,49.949466",
     "geom:latitude":49.930257,
     "geom:longitude":10.87336,
@@ -163,22 +175,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":958,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687113,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471140",
+        "eurostat:nuts_2021_id":"09471140",
         "gn:id":2911463,
         "gp:id":656879,
         "qs_pg:id":1344212,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"87686a7403995536eb4316dd30976320",
+    "wof:geomhash":"59533359f6eb840e4fa78bdfba5e74a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101756383,
-    "wof:lastmodified":1608050817,
+    "wof:lastmodified":1684351794,
     "wof:name":"Hallstadt",
     "wof:parent_id":1377687113,
     "wof:placetype":"locality",
-    "wof:population":8485,
+    "wof:population":8583,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16070004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arnstadt, Stadt",
+    "eurostat:nuts_2021_id":"16070004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0F",
+    "eurostat:nuts_2021_level_lau":"16070004",
+    "eurostat:population":27314,
+    "eurostat:population_year":2020,
     "geom:area":0.007015,
-    "geom:area_square_m":54796820.700602,
+    "geom:area_square_m":54796820.700601,
     "geom:bbox":"10.8700043546,50.7758194423,11.0094633234,50.875732998",
     "geom:latitude":50.82429,
     "geom:longitude":10.939133,
@@ -342,7 +354,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.834167,
     "wd:longitude":10.946389,
     "wd:population":23899,
@@ -360,6 +373,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16070004",
+        "eurostat:nuts_2021_id":"16070004",
         "gn:id":2955439,
         "gp:id":635516,
         "qs_pg:id":905444,
@@ -371,7 +386,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"34f08eca49341107e063d5ba3f4171ff",
+    "wof:geomhash":"783ffff63a5c2f93710e6b55cc82fb80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101823107,
-    "wof:lastmodified":1582342533,
+    "wof:lastmodified":1684351924,
     "wof:name":"Arnstadt",
     "wof:parent_id":1377690445,
     "wof:placetype":"locality",
-    "wof:population":23899,
+    "wof:population":27314,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

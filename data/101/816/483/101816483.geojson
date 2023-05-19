@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15081280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kl\u00f6tze, Stadt",
+    "eurostat:nuts_2021_id":"15081280",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE04",
+    "eurostat:nuts_2021_level_lau":"15081280",
+    "eurostat:population":9922,
+    "eurostat:population_year":2020,
     "geom:area":0.037029,
-    "geom:area_square_m":278133583.586417,
+    "geom:area_square_m":278133583.586422,
     "geom:bbox":"10.937576,52.496748,11.287321,52.69737",
     "geom:latitude":52.59513,
     "geom:longitude":11.105527,
@@ -288,17 +300,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063961,
         1377688191,
-        85682519
+        85633111,
+        102063961
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15081280",
+        "eurostat:nuts_2021_id":"15081280",
         "gn:id":2887380,
         "gp:id":667517,
         "qs_pg:id":142286,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b614cfa7e3836c35dcf3caa43e5881eb",
+    "wof:geomhash":"bd2d2daf488b484f4a01df945eb43ce0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101816483,
-    "wof:lastmodified":1608049900,
+    "wof:lastmodified":1684351895,
     "wof:name":"Kl\u00f6tze",
     "wof:parent_id":1377688191,
     "wof:placetype":"locality",
-    "wof:population":5398,
+    "wof:population":9922,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

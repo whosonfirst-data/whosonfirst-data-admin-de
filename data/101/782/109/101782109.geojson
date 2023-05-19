@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lichtenau, M",
+    "eurostat:nuts_2021_id":"09571175",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571175",
+    "eurostat:population":3897,
+    "eurostat:population_year":2020,
     "geom:area":0.00512,
-    "geom:area_square_m":41314873.181302,
+    "geom:area_square_m":41314873.181306,
     "geom:bbox":"10.635672,49.230054,10.774559,49.301884",
     "geom:latitude":49.265484,
     "geom:longitude":10.704843,
@@ -301,18 +313,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":89,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377688917,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571175",
+        "eurostat:nuts_2021_id":"09571175",
         "gn:id":2878138,
         "gp:id":671563,
         "qs_pg:id":6,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b1593f62d4e94ea03c7e90bd3aca99af",
+    "wof:geomhash":"f899ac255aa759a22ab131dc9f39816e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -342,11 +357,11 @@
         }
     ],
     "wof:id":101782109,
-    "wof:lastmodified":1608050524,
+    "wof:lastmodified":1684351823,
     "wof:name":"Lichtenau",
     "wof:parent_id":1377688917,
     "wof:placetype":"locality",
-    "wof:population":3713,
+    "wof:population":3897,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

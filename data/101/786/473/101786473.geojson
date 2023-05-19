@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Edling",
+    "eurostat:nuts_2021_id":"09187124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187124",
+    "eurostat:population":4546,
+    "eurostat:population_year":2020,
     "geom:area":0.00239,
-    "geom:area_square_m":19753501.937306,
+    "geom:area_square_m":19753501.937309,
     "geom:bbox":"12.101676,48.020521,12.177849,48.088602",
     "geom:latitude":48.058855,
     "geom:longitude":12.148846,
@@ -162,18 +174,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":126,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377694005,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187124",
+        "eurostat:nuts_2021_id":"09187124",
         "fct:id":"0714fbc8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2933333,
         "gp:id":646549,
@@ -188,7 +203,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13e1f4b71a477656a2788fd746484f06",
+    "wof:geomhash":"3fceb66888d3d35f0554384305102505",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051963,
+    "wof:lastmodified":1684351838,
     "wof:name":"Edling",
     "wof:parent_id":1377694005,
     "wof:placetype":"locality",
-    "wof:population":4323,
+    "wof:population":4546,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

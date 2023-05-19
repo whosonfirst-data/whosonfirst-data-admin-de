@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05374020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindlar",
+    "eurostat:nuts_2021_id":"05374020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2A",
+    "eurostat:nuts_2021_level_lau":"05374020",
+    "eurostat:population":21315,
+    "eurostat:population_year":2020,
     "geom:area":0.010959,
-    "geom:area_square_m":85231408.87177,
+    "geom:area_square_m":85231408.871763,
     "geom:bbox":"7.252578,50.971151,7.462876,51.079034",
     "geom:latitude":51.024743,
     "geom:longitude":7.363221,
@@ -301,22 +313,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2043,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063741,
         1377690437,
         404227541,
-        85682513
+        102063741
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05374020",
+        "eurostat:nuts_2021_id":"05374020",
         "fct:id":"074b1604-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2877142,
         "gp:id":672045,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b1c02c85c6ccadf63340cbeddeccb1ee",
+    "wof:geomhash":"de1341d24637d98efe5262f1d4f9e5fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050095,
+    "wof:lastmodified":1684351870,
     "wof:name":"Lindlar",
     "wof:parent_id":1377690437,
     "wof:placetype":"locality",
-    "wof:population":22723,
+    "wof:population":21315,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

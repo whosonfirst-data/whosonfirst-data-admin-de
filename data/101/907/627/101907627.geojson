@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heuthen",
+    "eurostat:nuts_2021_id":"16061047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061047",
+    "eurostat:population":720,
+    "eurostat:population_year":2020,
     "geom:area":0.001304,
-    "geom:area_square_m":10075994.135818,
+    "geom:area_square_m":10075994.135817,
     "geom:bbox":"10.1830216222,51.3110395507,10.2482687242,51.3440808882",
     "geom:latitude":51.327767,
     "geom:longitude":10.218005,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061047",
+        "eurostat:nuts_2021_id":"16061047",
         "gn:id":2904974,
         "gp:id":659804,
         "qs_pg:id":93683,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"14c42fbfe8a13b9fa9a9e5102fc84920",
+    "wof:geomhash":"60a329d64261d7b518610954fb3f9de9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101907627,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351989,
     "wof:name":"Heuthen",
     "wof:parent_id":1377689467,
     "wof:placetype":"locality",
-    "wof:population":764,
+    "wof:population":720,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

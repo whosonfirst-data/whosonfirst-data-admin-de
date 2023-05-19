@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hammah",
+    "eurostat:nuts_2021_id":"03359022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359022",
+    "eurostat:population":3124,
+    "eurostat:population_year":2020,
     "geom:area":0.00399,
     "geom:area_square_m":29259035.533818,
     "geom:bbox":"9.32879703813,53.5913386644,9.43136083042,53.6656134359",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":153,
     "wof:belongsto":[
         85682555,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359022",
+        "eurostat:nuts_2021_id":"03359022",
         "gn:id":2911230,
         "gp:id":657002,
         "qs_pg:id":578782,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5cca4cee201e2d32cb7224c8735df55b",
+    "wof:geomhash":"63cb013757575c1b3ac98e22aad79205",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101806555,
-    "wof:lastmodified":1582342617,
+    "wof:lastmodified":1684351852,
     "wof:name":"Hammah",
     "wof:parent_id":1377687957,
     "wof:placetype":"locality",
-    "wof:population":2859,
+    "wof:population":3124,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

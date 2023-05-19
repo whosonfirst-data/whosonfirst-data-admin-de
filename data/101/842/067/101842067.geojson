@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haigerloch, Stadt",
+    "eurostat:nuts_2021_id":"08417025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417025",
+    "eurostat:population":10735,
+    "eurostat:population_year":2020,
     "geom:area":0.009292,
-    "geom:area_square_m":76334711.154713,
+    "geom:area_square_m":76334711.15471,
     "geom:bbox":"8.732978,48.313851,8.862837,48.417398",
     "geom:latitude":48.3641,
     "geom:longitude":8.798816,
@@ -322,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.364722,
     "wd:longitude":8.805,
     "wd:wordcount":654,
@@ -331,15 +344,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063279,
         1377690081,
         404227573,
-        85682567
+        102063279
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417025",
+        "eurostat:nuts_2021_id":"08417025",
         "gn:id":2911960,
         "gp:id":656651,
         "qs_pg:id":906044,
@@ -354,7 +369,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d228ce499a0f182425f542d603d8897f",
+    "wof:geomhash":"d4cabed8a057ef24c5163763027281e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101842067,
-    "wof:lastmodified":1608049996,
+    "wof:lastmodified":1684351954,
     "wof:name":"Haigerloch",
     "wof:parent_id":1377690081,
     "wof:placetype":"locality",
-    "wof:population":10828,
+    "wof:population":10735,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

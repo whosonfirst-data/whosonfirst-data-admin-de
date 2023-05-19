@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lehmkuhlen",
+    "eurostat:nuts_2021_id":"01057046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057046",
+    "eurostat:population":1318,
+    "eurostat:population_year":2020,
     "geom:area":0.004311,
-    "geom:area_square_m":31154654.337978,
+    "geom:area_square_m":31154654.337977,
     "geom:bbox":"10.2887060989,54.1879689025,10.4087188168,54.2673054392",
     "geom:latitude":54.2329,
     "geom:longitude":10.358556,
@@ -130,7 +142,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
         85682517,
@@ -141,6 +154,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057046",
+        "eurostat:nuts_2021_id":"01057046",
         "gn:id":2879464,
         "gp:id":671327,
         "qs_pg:id":578036,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"7d0d62d4b8f35b065775318e9a087f4a",
+    "wof:geomhash":"dca4cdd76e2165b13139a1e62a73c106",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101874453,
-    "wof:lastmodified":1582342396,
+    "wof:lastmodified":1684351971,
     "wof:name":"Lehmkuhlen",
     "wof:parent_id":1377684091,
     "wof:placetype":"locality",
-    "wof:population":1472,
+    "wof:population":1318,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

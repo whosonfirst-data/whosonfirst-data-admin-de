@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03351003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beedenbostel",
+    "eurostat:nuts_2021_id":"03351003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE931",
+    "eurostat:nuts_2021_level_lau":"03351003",
+    "eurostat:population":1015,
+    "eurostat:population_year":2020,
     "geom:area":0.001668,
-    "geom:area_square_m":12509011.865677,
+    "geom:area_square_m":12509011.865679,
     "geom:bbox":"10.2107549218,52.6321044869,10.2981772425,52.6726299003",
     "geom:latitude":52.653581,
     "geom:longitude":10.256891,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03351003",
+        "eurostat:nuts_2021_id":"03351003",
         "gn:id":2951616,
         "gp:id":637415,
         "qs_pg:id":94144,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fcf7882aff36f702567279e9e3c5f887",
+    "wof:geomhash":"58f008fde0b206ae09da31e3294006a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101804163,
-    "wof:lastmodified":1582342445,
+    "wof:lastmodified":1684351846,
     "wof:name":"Beedenbostel",
     "wof:parent_id":1377687191,
     "wof:placetype":"locality",
-    "wof:population":1005,
+    "wof:population":1015,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

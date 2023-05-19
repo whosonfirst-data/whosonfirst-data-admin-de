@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Flammersfeld",
+    "eurostat:nuts_2021_id":"07132032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132032",
+    "eurostat:population":1356,
+    "eurostat:population_year":2020,
     "geom:area":0.000517,
     "geom:area_square_m":4051132.360641,
     "geom:bbox":"7.50130522502,50.6409354412,7.55268777891,50.6652729948",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132032",
+        "eurostat:nuts_2021_id":"07132032",
         "gn:id":2926385,
         "gp:id":649875,
         "qs_pg:id":579170,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cccfdc4fb9f597883861ea4493d23d92",
+    "wof:geomhash":"cebd7f111aaf97a6122fdcb0cdf5bafb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101810969,
-    "wof:lastmodified":1582342405,
+    "wof:lastmodified":1684351877,
     "wof:name":"Flammersfeld",
     "wof:parent_id":1377685317,
     "wof:placetype":"locality",
-    "wof:population":1068,
+    "wof:population":1356,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

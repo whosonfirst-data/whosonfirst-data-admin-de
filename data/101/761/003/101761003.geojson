@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08126058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuenstein, Stadt",
+    "eurostat:nuts_2021_id":"08126058",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE119",
+    "eurostat:nuts_2021_level_lau":"08126058",
+    "eurostat:population":6607,
+    "eurostat:population_year":2020,
     "geom:area":0.00593,
-    "geom:area_square_m":47896346.143116,
+    "geom:area_square_m":47896346.143117,
     "geom:bbox":"9.53709093146,49.1739957601,9.65806320743,49.2633251766",
     "geom:latitude":49.218479,
     "geom:longitude":9.596034,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08126058",
+        "eurostat:nuts_2021_id":"08126058",
         "gn:id":2865557,
         "gp:id":678303,
         "qs_pg:id":142065,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"149d49b13166a1591bc633708250a82d",
+    "wof:geomhash":"c17231c7ec141d6325a8ae1bd0331a48",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101761003,
-    "wof:lastmodified":1582342513,
+    "wof:lastmodified":1684351804,
     "wof:name":"Neuenstein",
     "wof:parent_id":1377687773,
     "wof:placetype":"locality",
-    "wof:population":6240,
+    "wof:population":6607,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

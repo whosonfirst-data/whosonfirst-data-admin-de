@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heidenburg",
+    "eurostat:nuts_2021_id":"07231204",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231204",
+    "eurostat:population":697,
+    "eurostat:population_year":2020,
     "geom:area":0.001174,
-    "geom:area_square_m":9371394.783243,
+    "geom:area_square_m":9371394.783242,
     "geom:bbox":"6.89710231635,49.7791959917,6.95963656165,49.818599525",
     "geom:latitude":49.795902,
     "geom:longitude":6.929652,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":494,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231204",
+        "eurostat:nuts_2021_id":"07231204",
         "gn:id":2907864,
         "gp:id":642226,
         "qs_pg:id":578722,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1a351f1cc81d53782313bbd409890c85",
+    "wof:geomhash":"2ef3bfa26111a70d4f1fe6276df68a84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907021,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351983,
     "wof:name":"Heidenburg",
     "wof:parent_id":1377685893,
     "wof:placetype":"locality",
-    "wof:population":724,
+    "wof:population":697,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

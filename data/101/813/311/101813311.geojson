@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leinach",
+    "eurostat:nuts_2021_id":"09679200",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679200",
+    "eurostat:population":3123,
+    "eurostat:population_year":2020,
     "geom:area":0.003506,
-    "geom:area_square_m":27947684.696873,
+    "geom:area_square_m":27947684.696875,
     "geom:bbox":"9.743848,49.823653,9.836166,49.881297",
     "geom:latitude":49.852848,
     "geom:longitude":9.79491,
@@ -141,18 +153,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377692013,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679200",
+        "eurostat:nuts_2021_id":"09679200",
         "gn:id":3274982,
         "gp:id":20156661,
         "qs_pg:id":1031995,
@@ -166,7 +181,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"597ac32b3b10dc899fe635be5c775265",
+    "wof:geomhash":"36993305b13113f109e545fe395de018",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101813311,
-    "wof:lastmodified":1608051398,
+    "wof:lastmodified":1684351890,
     "wof:name":"Leinach",
     "wof:parent_id":1377692013,
     "wof:placetype":"locality",
-    "wof:population":3073,
+    "wof:population":3123,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

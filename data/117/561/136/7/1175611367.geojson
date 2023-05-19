@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522450",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ostrau",
+    "eurostat:nuts_2021_id":"14522450",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522450",
+    "eurostat:population":3547,
+    "eurostat:population_year":2020,
     "geom:area":0.006802,
-    "geom:area_square_m":52700802.502857,
+    "geom:area_square_m":52700802.502853,
     "geom:bbox":"13.0374530583,51.1700018983,13.21226997,51.2346620337",
     "geom:latitude":51.200336,
     "geom:longitude":13.13076,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "wof:belongsto":[
         85682523,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522450",
+        "eurostat:nuts_2021_id":"14522450",
         "fct:id":"0751b2fc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2856216,
         "gp:id":683806,
@@ -318,7 +333,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"45ecd889ac47d3f737019835b0d38e26",
+    "wof:geomhash":"b04a760b56b9024459fc8ae708183ac5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342080,
+    "wof:lastmodified":1684352056,
     "wof:name":"Ostrau",
     "wof:parent_id":1377688027,
     "wof:placetype":"locality",
-    "wof:population":3840,
+    "wof:population":3547,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

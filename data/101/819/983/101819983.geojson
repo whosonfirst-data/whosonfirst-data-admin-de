@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Britz",
+    "eurostat:nuts_2021_id":"12060036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060036",
+    "eurostat:population":2088,
+    "eurostat:population_year":2020,
     "geom:area":0.002074,
-    "geom:area_square_m":15475556.359127,
+    "geom:area_square_m":15475556.359129,
     "geom:bbox":"13.7565623763,52.8604976874,13.8555615341,52.9042036261",
     "geom:latitude":52.882211,
     "geom:longitude":13.811398,
@@ -286,7 +298,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":279,
     "wof:belongsto":[
         85682553,
@@ -297,6 +310,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060036",
+        "eurostat:nuts_2021_id":"12060036",
         "gn:id":2944028,
         "gp:id":667952,
         "qs_pg:id":847688,
@@ -308,7 +323,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e0d0e12391d154e96f7eed7c4f4e3209",
+    "wof:geomhash":"1d67e101d09522fb257fd11a0f06f2af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -320,11 +335,11 @@
         }
     ],
     "wof:id":101819983,
-    "wof:lastmodified":1582342429,
+    "wof:lastmodified":1684351911,
     "wof:name":"Britz",
     "wof:parent_id":1377694279,
     "wof:placetype":"locality",
-    "wof:population":2327,
+    "wof:population":2088,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

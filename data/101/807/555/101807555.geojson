@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05758020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchlengern",
+    "eurostat:nuts_2021_id":"05758020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA43",
+    "eurostat:nuts_2021_level_lau":"05758020",
+    "eurostat:population":16023,
+    "eurostat:population_year":2020,
     "geom:area":0.004427,
-    "geom:area_square_m":33534300.691132,
+    "geom:area_square_m":33534300.691135,
     "geom:bbox":"8.58737,52.173705,8.683931,52.260924",
     "geom:latitude":52.221394,
     "geom:longitude":8.640293,
@@ -294,22 +306,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063891,
         1377691609,
         404227571,
-        85682513
+        102063891
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05758020",
+        "eurostat:nuts_2021_id":"05758020",
         "gn:id":2890425,
         "gp:id":698206,
         "loc:id":"n83215299",
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"174f676c90f2f11767cbcedc3de049a3",
+    "wof:geomhash":"6ef3d1167d13dbbf42caf33f7ed4e352",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101807555,
-    "wof:lastmodified":1608051547,
+    "wof:lastmodified":1684351857,
     "wof:name":"Kirchlengern",
     "wof:parent_id":1377691609,
     "wof:placetype":"locality",
-    "wof:population":16338,
+    "wof:population":16023,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

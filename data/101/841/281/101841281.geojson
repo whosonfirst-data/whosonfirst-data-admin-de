@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mittweida, Stadt, Hochschulstadt",
+    "eurostat:nuts_2021_id":"14522360",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522360",
+    "eurostat:population":14475,
+    "eurostat:population_year":2020,
     "geom:area":0.005268,
-    "geom:area_square_m":40993859.228688,
+    "geom:area_square_m":40993859.22869,
     "geom:bbox":"12.8672467747,50.9451537239,13.0417285627,51.0402816883",
     "geom:latitude":50.995919,
     "geom:longitude":12.959806,
@@ -208,7 +220,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":208,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -223,6 +236,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522360",
+        "eurostat:nuts_2021_id":"14522360",
         "gn:id":2870318,
         "gp:id":675688,
         "qs_pg:id":169424,
@@ -234,7 +249,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"eb64478a0e30c23140e76fe8cab7afaf",
+    "wof:geomhash":"afb7ebdc4bafe510af076b09e09ba062",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -246,11 +261,11 @@
         }
     ],
     "wof:id":101841281,
-    "wof:lastmodified":1582342520,
+    "wof:lastmodified":1684351952,
     "wof:name":"Mittweida",
     "wof:parent_id":1377686123,
     "wof:placetype":"locality",
-    "wof:population":16619,
+    "wof:population":14475,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

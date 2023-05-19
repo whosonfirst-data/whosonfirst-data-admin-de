@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bernbeuren",
+    "eurostat:nuts_2021_id":"09190114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190114",
+    "eurostat:population":2416,
+    "eurostat:population_year":2020,
     "geom:area":0.00498,
-    "geom:area_square_m":41421277.216048,
+    "geom:area_square_m":41421277.216046,
     "geom:bbox":"10.7158884799,47.6810713562,10.8291041296,47.7689120039",
     "geom:latitude":47.729651,
     "geom:longitude":10.76779,
@@ -161,7 +173,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
         85682571,
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190114",
+        "eurostat:nuts_2021_id":"09190114",
         "gn:id":2950078,
         "gp:id":638287,
         "qs_pg:id":579796,
@@ -184,7 +199,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1986c4118107a9b82340fbd031e7a420",
+    "wof:geomhash":"e75ede6222b3693f6178bd24fb5a2631",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101787575,
-    "wof:lastmodified":1582342645,
+    "wof:lastmodified":1684351841,
     "wof:name":"Bernbeuren",
     "wof:parent_id":1377683717,
     "wof:placetype":"locality",
-    "wof:population":2240,
+    "wof:population":2416,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

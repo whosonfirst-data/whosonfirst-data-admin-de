@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Deilingen",
+    "eurostat:nuts_2021_id":"08327009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327009",
+    "eurostat:population":1777,
+    "eurostat:population_year":2020,
     "geom:area":0.001324,
     "geom:area_square_m":10915349.862606,
     "geom:bbox":"8.75123722368,48.1508593835,8.82789589808,48.1846243004",
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327009",
+        "eurostat:nuts_2021_id":"08327009",
         "fct:id":"07159196-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2938460,
         "gp:id":644031,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d3efbef6291eeb973d09c23aaf177e8c",
+    "wof:geomhash":"cf9223b3a62db3898970216fa2caaf14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351812,
     "wof:name":"Deilingen",
     "wof:parent_id":1377689605,
     "wof:placetype":"locality",
-    "wof:population":1676,
+    "wof:population":1777,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

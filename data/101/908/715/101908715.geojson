@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zirchow",
+    "eurostat:nuts_2021_id":"13075152",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075152",
+    "eurostat:population":561,
+    "eurostat:population_year":2020,
     "geom:area":0.001312,
-    "geom:area_square_m":9563016.887414,
+    "geom:area_square_m":9563016.887413,
     "geom:bbox":"14.1038455037,53.8703480917,14.1593908326,53.9072425001",
     "geom:latitude":53.889571,
     "geom:longitude":14.132363,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075152",
+        "eurostat:nuts_2021_id":"13075152",
         "gn:id":2804051,
         "gp:id":709064,
         "qs_pg:id":576277,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6d8e2c7f40c586383608c6d95edb8a10",
+    "wof:geomhash":"83350720ae82f55528778bd71a5eba3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101908715,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351999,
     "wof:name":"Zirchow",
     "wof:parent_id":1377685171,
     "wof:placetype":"locality",
-    "wof:population":672,
+    "wof:population":561,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

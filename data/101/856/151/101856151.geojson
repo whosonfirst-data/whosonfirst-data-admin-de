@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schleid",
+    "eurostat:nuts_2021_id":"16063068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063068",
+    "eurostat:population":1019,
+    "eurostat:population_year":2020,
     "geom:area":0.003498,
-    "geom:area_square_m":27403307.50214,
+    "geom:area_square_m":27403307.502142,
     "geom:bbox":"9.93732075679,50.6612979458,10.060312654,50.7110202197",
     "geom:latitude":50.687512,
     "geom:longitude":9.990285,
@@ -292,7 +304,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682541,
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063068",
+        "eurostat:nuts_2021_id":"16063068",
         "gn:id":2838749,
         "gp:id":692120,
         "qs_pg:id":93103,
@@ -315,7 +330,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a26a8f2ac0edb9a2f58bec37bc0404a2",
+    "wof:geomhash":"8113f48fe49056566af2e5031e632365",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101856151,
-    "wof:lastmodified":1582342447,
+    "wof:lastmodified":1684351969,
     "wof:name":"Schleid",
     "wof:parent_id":1377689707,
     "wof:placetype":"locality",
-    "wof:population":1137,
+    "wof:population":1019,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

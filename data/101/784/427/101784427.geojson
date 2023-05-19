@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09279135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Simbach, M",
+    "eurostat:nuts_2021_id":"09279135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22C",
+    "eurostat:nuts_2021_level_lau":"09279135",
+    "eurostat:population":4044,
+    "eurostat:population_year":2020,
     "geom:area":0.006224,
-    "geom:area_square_m":50935289.453099,
+    "geom:area_square_m":50935289.453096,
     "geom:bbox":"12.654052,48.507326,12.778634,48.614793",
     "geom:latitude":48.561069,
     "geom:longitude":12.719462,
@@ -155,21 +167,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063343,
         1377685599,
         404227559,
-        85682571
+        102063343
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09279135",
+        "eurostat:nuts_2021_id":"09279135",
         "gn:id":2832045,
         "gp:id":695089,
         "qs_pg:id":1038405,
@@ -184,7 +199,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4fa7d87bc573abaab70e7d30d408075b",
+    "wof:geomhash":"12f51776831b390293ee246daa9a54ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101784427,
-    "wof:lastmodified":1608050696,
+    "wof:lastmodified":1684351833,
     "wof:name":"Simbach",
     "wof:parent_id":1377685599,
     "wof:placetype":"locality",
-    "wof:population":3672,
+    "wof:population":4044,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

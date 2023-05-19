@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sittensen",
+    "eurostat:nuts_2021_id":"03357044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357044",
+    "eurostat:population":5968,
+    "eurostat:population_year":2020,
     "geom:area":0.002499,
     "geom:area_square_m":18475419.007544,
     "geom:bbox":"9.47069638466,53.240952808,9.57200839441,53.3373722758",
@@ -165,7 +177,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357044",
+        "eurostat:nuts_2021_id":"03357044",
         "gn:id":2856076,
         "gp:id":695234,
         "qs_pg:id":1038391,
@@ -193,7 +208,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"804a251042bdbf00f94300d4ff2a33d4",
+    "wof:geomhash":"2ca8cb6a9d78af00274bdbca273be20d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -205,11 +220,11 @@
         }
     ],
     "wof:id":101806399,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351850,
     "wof:name":"Sittensen",
     "wof:parent_id":1377687711,
     "wof:placetype":"locality",
-    "wof:population":5462,
+    "wof:population":5968,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

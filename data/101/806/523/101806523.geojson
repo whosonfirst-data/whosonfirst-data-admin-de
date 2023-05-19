@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03455015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schortens, Stadt",
+    "eurostat:nuts_2021_id":"03455015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94A",
+    "eurostat:nuts_2021_level_lau":"03455015",
+    "eurostat:population":20381,
+    "eurostat:population_year":2020,
     "geom:area":0.009351,
-    "geom:area_square_m":68703401.000811,
+    "geom:area_square_m":68703401.000809,
     "geom:bbox":"7.827382,53.504006,8.049554,53.601427",
     "geom:latitude":53.54574,
     "geom:longitude":7.963924,
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":273,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064051,
         1377688645,
-        85682555
+        85633111,
+        102064051
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03455015",
+        "eurostat:nuts_2021_id":"03455015",
         "gn:id":2836282,
         "gp:id":693219,
         "qs_pg:id":961942,
@@ -334,7 +349,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"64883c656bf3227494f889d873d70b17",
+    "wof:geomhash":"73fd1cbe912b9eb80017ad4f887ac34c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101806523,
-    "wof:lastmodified":1608051817,
+    "wof:lastmodified":1684351852,
     "wof:name":"Schortens",
     "wof:parent_id":1377688645,
     "wof:placetype":"locality",
-    "wof:population":21357,
+    "wof:population":20381,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

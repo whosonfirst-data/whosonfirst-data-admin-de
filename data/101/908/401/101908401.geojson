@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brunstorf",
+    "eurostat:nuts_2021_id":"01053017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053017",
+    "eurostat:population":738,
+    "eurostat:population_year":2020,
     "geom:area":0.001855,
-    "geom:area_square_m":13647579.150143,
+    "geom:area_square_m":13647579.150144,
     "geom:bbox":"10.389795517,53.4632986845,10.457328221,53.522747349",
     "geom:latitude":53.493379,
     "geom:longitude":10.426843,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053017",
+        "eurostat:nuts_2021_id":"01053017",
         "gn:id":2943008,
         "gp:id":641818,
         "qs_pg:id":579590,
@@ -156,7 +171,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"97f25802a671800f52dcd16721564498",
+    "wof:geomhash":"efa30990b9d00c561fc589dad4cee401",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101908401,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351995,
     "wof:name":"Brunstorf",
     "wof:parent_id":1377683521,
     "wof:placetype":"locality",
-    "wof:population":586,
+    "wof:population":738,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

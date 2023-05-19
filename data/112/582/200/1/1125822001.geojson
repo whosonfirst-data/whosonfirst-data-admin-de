@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hosten",
+    "eurostat:nuts_2021_id":"07232055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232055",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "geom:area":0.000382,
     "geom:area_square_m":3042971.904423,
     "geom:bbox":"6.60024786514,49.8757003129,6.63663954774,49.8978515197",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232055",
+        "eurostat:nuts_2021_id":"07232055",
         "gn:id":2898448,
         "qs_pg:id":578503,
         "wd:id":"Q567262"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"981b1d582d5dbace10acd302324581cf",
+    "wof:geomhash":"00835d8921d8453d959cfd97945f64ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125822001,
-    "wof:lastmodified":1582343030,
+    "wof:lastmodified":1684352015,
     "wof:name":"Hosten",
     "wof:parent_id":1377685951,
     "wof:placetype":"locality",
-    "wof:population":184,
+    "wof:population":180,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lautersheim",
+    "eurostat:nuts_2021_id":"07333041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333041",
+    "eurostat:population":633,
+    "eurostat:population_year":2020,
     "geom:area":0.000462,
     "geom:area_square_m":3704952.273761,
     "geom:bbox":"8.07737194378,49.5759024527,8.1149685055,49.5948084736",
@@ -264,7 +276,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -274,6 +287,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333041",
+        "eurostat:nuts_2021_id":"07333041",
         "gn:id":2879875,
         "qs_pg:id":578061,
         "wd:id":"Q641766"
@@ -283,7 +298,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"435ab8d3e21c580f57bfb38877b53bfe",
+    "wof:geomhash":"4d61d140be14d13eba4d8000b49b2cac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":1125821791,
-    "wof:lastmodified":1582343031,
+    "wof:lastmodified":1684352015,
     "wof:name":"Lautersheim",
     "wof:parent_id":1377686327,
     "wof:placetype":"locality",
-    "wof:population":615,
+    "wof:population":633,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

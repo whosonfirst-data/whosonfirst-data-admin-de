@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marsberg, Stadt",
+    "eurostat:nuts_2021_id":"05958024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958024",
+    "eurostat:population":19540,
+    "eurostat:population_year":2020,
     "geom:area":0.023564,
-    "geom:area_square_m":181591551.017479,
+    "geom:area_square_m":181591551.017481,
     "geom:bbox":"8.700331,51.372076,8.970654,51.548585",
     "geom:latitude":51.447183,
     "geom:longitude":8.8402,
@@ -325,22 +337,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":154,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692241,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958024",
+        "eurostat:nuts_2021_id":"05958024",
         "gn:id":2873211,
         "gp:id":15002705,
         "qs_pg:id":489765,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9b492599dcf8f9eb53e8f2c6419313fb",
+    "wof:geomhash":"c796061059b4c219110783550f097d77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,12 +383,12 @@
         }
     ],
     "wof:id":101810135,
-    "wof:lastmodified":1608050021,
+    "wof:lastmodified":1684351871,
     "wof:name":"Marsberg",
     "wof:parent_id":1377692241,
     "wof:placetype":"locality",
-    "wof:population":21914,
-    "wof:population_rank":7,
+    "wof:population":19540,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

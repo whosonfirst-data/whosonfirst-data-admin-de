@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05566008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Emsdetten, Stadt",
+    "eurostat:nuts_2021_id":"05566008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA3",
+    "eurostat:nuts_2021_level_3":"DEA37",
+    "eurostat:nuts_2021_level_lau":"05566008",
+    "eurostat:population":36029,
+    "eurostat:population_year":2020,
     "geom:area":0.009445,
-    "geom:area_square_m":71621554.963626,
+    "geom:area_square_m":71621554.963623,
     "geom:bbox":"7.432488,52.128938,7.634264,52.229628",
     "geom:latitude":52.173482,
     "geom:longitude":7.522671,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":200,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063923,
         1377691113,
         404227553,
-        85682513
+        102063923
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05566008",
+        "eurostat:nuts_2021_id":"05566008",
         "gn:id":2930449,
         "gp:id":647901,
         "qs_pg:id":315861,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2d173498f6119d5cbd825e8a7f85ee7e",
+    "wof:geomhash":"cd2a7ac0da60b935a354284ab87457c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101807629,
-    "wof:lastmodified":1608051527,
+    "wof:lastmodified":1684351858,
     "wof:name":"Emsdetten",
     "wof:parent_id":1377691113,
     "wof:placetype":"locality",
-    "wof:population":35582,
+    "wof:population":36029,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

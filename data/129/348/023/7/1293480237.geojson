@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bauler",
+    "eurostat:nuts_2021_id":"07232008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232008",
+    "eurostat:population":66,
+    "eurostat:population_year":2020,
     "geom:area":0.000752,
-    "geom:area_square_m":5985136.362784,
+    "geom:area_square_m":5985136.362785,
     "geom:bbox":"6.18474676526,49.9499394401,6.23767379013,49.9850550545",
     "geom:latitude":49.966799,
     "geom:longitude":6.214365,
@@ -86,7 +98,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -96,13 +109,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232008",
+        "eurostat:nuts_2021_id":"07232008",
         "gn:id":2952050
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"48e6da37e7e1efd2bde5b72bcdc29e3f",
+    "wof:geomhash":"c5b942b771ec44c0db047899b6ce0765",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -114,11 +129,11 @@
         }
     ],
     "wof:id":1293480237,
-    "wof:lastmodified":1582342021,
+    "wof:lastmodified":1684352060,
     "wof:name":"Bauler",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":71,
+    "wof:population":66,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

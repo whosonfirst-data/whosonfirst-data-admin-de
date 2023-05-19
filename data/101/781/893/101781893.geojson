@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mitterfels, M",
+    "eurostat:nuts_2021_id":"09278151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278151",
+    "eurostat:population":2823,
+    "eurostat:population_year":2020,
     "geom:area":0.001763,
-    "geom:area_square_m":14313511.033185,
+    "geom:area_square_m":14313511.033183,
     "geom:bbox":"12.627959133,48.9494665582,12.7091308822,48.9930290452",
     "geom:latitude":48.969111,
     "geom:longitude":12.668235,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":136,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278151",
+        "eurostat:nuts_2021_id":"09278151",
         "gn:id":2870435,
         "gp:id":675622,
         "qs_pg:id":766275,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"552b1bd2f51a4ba3bed89d27f61367bd",
+    "wof:geomhash":"e64e0c76e759fb3a425ad529a8edad0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101781893,
-    "wof:lastmodified":1582342635,
+    "wof:lastmodified":1684351820,
     "wof:name":"Mitterfels",
     "wof:parent_id":1377685433,
     "wof:placetype":"locality",
-    "wof:population":2405,
+    "wof:population":2823,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

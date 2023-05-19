@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nandlstadt, M",
+    "eurostat:nuts_2021_id":"09178144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178144",
+    "eurostat:population":5306,
+    "eurostat:population_year":2020,
     "geom:area":0.004188,
-    "geom:area_square_m":34291186.325474,
+    "geom:area_square_m":34291186.325476,
     "geom:bbox":"11.761264,48.501114,11.869007,48.563828",
     "geom:latitude":48.530832,
     "geom:longitude":11.811308,
@@ -307,18 +319,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063307,
         1377691925,
         404227567,
-        85682571
+        102063307
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178144",
+        "eurostat:nuts_2021_id":"09178144",
         "gn:id":2867112,
         "gp:id":677103,
         "qs_pg:id":1224813,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"620353b5ec1ba23df27eade6d7d9b1dd",
+    "wof:geomhash":"de7df9db3dbb0c985a3b02dba39aa842",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101784203,
-    "wof:lastmodified":1608050675,
+    "wof:lastmodified":1684351830,
     "wof:name":"Nandlstadt",
     "wof:parent_id":1377691925,
     "wof:placetype":"locality",
-    "wof:population":5044,
+    "wof:population":5306,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wiernsheim",
+    "eurostat:nuts_2021_id":"08236065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236065",
+    "eurostat:population":6815,
+    "eurostat:population_year":2020,
     "geom:area":0.003003,
-    "geom:area_square_m":24412325.088079,
+    "geom:area_square_m":24412325.088077,
     "geom:bbox":"8.82176998447,48.8604326899,8.92908990822,48.9213409896",
     "geom:latitude":48.888767,
     "geom:longitude":8.873399,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682567,
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236065",
+        "eurostat:nuts_2021_id":"08236065",
         "fct:id":"0716064e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2809403,
         "gp:id":706302,
@@ -330,7 +345,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"d29ddce990714c730461ae4b73c36be6",
+    "wof:geomhash":"3414e93915a9940b2cae65ba991f5e5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342514,
+    "wof:lastmodified":1684351807,
     "wof:name":"Wiernsheim",
     "wof:parent_id":1377688979,
     "wof:placetype":"locality",
-    "wof:population":6391,
+    "wof:population":6815,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

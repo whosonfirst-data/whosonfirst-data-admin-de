@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03257011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haste",
+    "eurostat:nuts_2021_id":"03257011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE928",
+    "eurostat:nuts_2021_level_lau":"03257011",
+    "eurostat:population":2706,
+    "eurostat:population_year":2020,
     "geom:area":0.001523,
-    "geom:area_square_m":11491712.350094,
+    "geom:area_square_m":11491712.350098,
     "geom:bbox":"9.35078458656,52.3625601796,9.42684183032,52.4069193484",
     "geom:latitude":52.385843,
     "geom:longitude":9.39655,
@@ -136,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":85,
     "wof:belongsto":[
         85682555,
@@ -147,6 +160,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03257011",
+        "eurostat:nuts_2021_id":"03257011",
         "gn:id":2909296,
         "gp:id":20166516,
         "qs_pg:id":578757,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"078ca3001c31afb247b1d6c1a7d7bda9",
+    "wof:geomhash":"dad37bd43da7ca4984c85fcc05245f9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101804141,
-    "wof:lastmodified":1582342446,
+    "wof:lastmodified":1684351846,
     "wof:name":"Haste",
     "wof:parent_id":1377687057,
     "wof:placetype":"locality",
-    "wof:population":2800,
+    "wof:population":2706,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

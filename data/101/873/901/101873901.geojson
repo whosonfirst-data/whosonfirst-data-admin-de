@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03462001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blomberg",
+    "eurostat:nuts_2021_id":"03462001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94H",
+    "eurostat:nuts_2021_level_lau":"03462001",
+    "eurostat:population":1859,
+    "eurostat:population_year":2020,
     "geom:area":0.001707,
-    "geom:area_square_m":12537399.784041,
+    "geom:area_square_m":12537399.784043,
     "geom:bbox":"7.5214371413,53.5512753031,7.59444529313,53.5932051231",
     "geom:latitude":53.569538,
     "geom:longitude":7.558833,
@@ -151,7 +163,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "wof:belongsto":[
         85682555,
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03462001",
+        "eurostat:nuts_2021_id":"03462001",
         "gn:id":2947646,
         "gp:id":15002585,
         "qs_pg:id":142827,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5102f4388a58a0a7cfdd22b4c47b46d2",
+    "wof:geomhash":"64522e95cf817f910218eccf3e45667f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101873901,
-    "wof:lastmodified":1582342398,
+    "wof:lastmodified":1684351969,
     "wof:name":"Blomberg",
     "wof:parent_id":1377689369,
     "wof:placetype":"locality",
-    "wof:population":1498,
+    "wof:population":1859,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

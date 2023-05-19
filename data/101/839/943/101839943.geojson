@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ochsenfurt, St",
+    "eurostat:nuts_2021_id":"09679170",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679170",
+    "eurostat:population":11296,
+    "eurostat:population_year":2020,
     "geom:area":0.007907,
-    "geom:area_square_m":63290006.511373,
+    "geom:area_square_m":63290006.511371,
     "geom:bbox":"9.978423,49.59243,10.114584,49.725038",
     "geom:latitude":49.661298,
     "geom:longitude":10.054549,
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":424,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377691951,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679170",
+        "eurostat:nuts_2021_id":"09679170",
         "gn:id":2858333,
         "gp:id":682738,
         "qs_pg:id":141951,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3e0f622d4e4eaf25ebbc2006c64b3210",
+    "wof:geomhash":"f51501fe7d409951791aa1055efe9d3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101839943,
-    "wof:lastmodified":1608051847,
+    "wof:lastmodified":1684351949,
     "wof:name":"Ochsenfurt",
     "wof:parent_id":1377691951,
     "wof:placetype":"locality",
-    "wof:population":11492,
+    "wof:population":11296,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

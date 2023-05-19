@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067469",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Spreenhagen",
+    "eurostat:nuts_2021_id":"12067469",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067469",
+    "eurostat:population":3460,
+    "eurostat:population_year":2020,
     "geom:area":0.018133,
-    "geom:area_square_m":136995601.243917,
+    "geom:area_square_m":136995601.243923,
     "geom:bbox":"13.734094323,52.2765647032,14.0063985555,52.3997394082",
     "geom:latitude":52.338374,
     "geom:longitude":13.887769,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":100,
     "wof:belongsto":[
         85682553,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067469",
+        "eurostat:nuts_2021_id":"12067469",
         "gn:id":2830100,
         "gp:id":695923,
         "qs_pg:id":1038374,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"607d22527704e3f7a9df9b6d9944496b",
+    "wof:geomhash":"c72227f2b1c668963b333b57273215d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101819719,
-    "wof:lastmodified":1582342433,
+    "wof:lastmodified":1684351908,
     "wof:name":"Spreenhagen",
     "wof:parent_id":1377683653,
     "wof:placetype":"locality",
-    "wof:population":3530,
+    "wof:population":3460,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

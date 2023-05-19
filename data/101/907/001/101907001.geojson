@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horrweiler",
+    "eurostat:nuts_2021_id":"07339029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339029",
+    "eurostat:population":782,
+    "eurostat:population_year":2020,
     "geom:area":0.000547,
     "geom:area_square_m":4357196.722164,
     "geom:bbox":"7.94961213218,49.8827118939,7.98340804993,49.9141155211",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":548,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339029",
+        "eurostat:nuts_2021_id":"07339029",
         "gn:id":2898723,
         "gp:id":705091,
         "qs_pg:id":93653,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2bcc02b1fcd707d465b78b81fd2eb3ad",
+    "wof:geomhash":"19ba46eb7442e8c27c8a263e6b1d37da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907001,
-    "wof:lastmodified":1582342309,
+    "wof:lastmodified":1684351983,
     "wof:name":"Horrweiler",
     "wof:parent_id":1377686731,
     "wof:placetype":"locality",
-    "wof:population":799,
+    "wof:population":782,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

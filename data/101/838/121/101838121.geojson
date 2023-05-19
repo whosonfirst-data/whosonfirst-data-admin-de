@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wahlstedt, Stadt",
+    "eurostat:nuts_2021_id":"01060092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060092",
+    "eurostat:population":9751,
+    "eurostat:population_year":2020,
     "geom:area":0.002159,
-    "geom:area_square_m":15705076.562597,
+    "geom:area_square_m":15705076.562596,
     "geom:bbox":"10.150913,53.93344,10.238346,53.973955",
     "geom:latitude":53.956219,
     "geom:longitude":10.20151,
@@ -150,17 +162,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":118,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064103,
         1377684529,
-        85682517
+        85633111,
+        102064103
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060092",
+        "eurostat:nuts_2021_id":"01060092",
         "gn:id":2815392,
         "gp:id":703239,
         "qs_pg:id":1038186,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"10161e6eabe96e392a28e5e72559241e",
+    "wof:geomhash":"bebaf45502e64df4d40a816f4acb79ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101838121,
-    "wof:lastmodified":1608051590,
+    "wof:lastmodified":1684351946,
     "wof:name":"Wahlstedt",
     "wof:parent_id":1377684529,
     "wof:placetype":"locality",
-    "wof:population":9553,
+    "wof:population":9751,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

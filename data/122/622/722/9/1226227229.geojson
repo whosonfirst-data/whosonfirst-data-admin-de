@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eschbach",
+    "eurostat:nuts_2021_id":"07337022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337022",
+    "eurostat:population":640,
+    "eurostat:population_year":2020,
     "geom:area":0.000472,
     "geom:area_square_m":3814288.220334,
     "geom:bbox":"7.99079412911,49.1581724179,8.03676489749,49.1805095226",
@@ -107,7 +119,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -121,13 +134,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337022",
+        "eurostat:nuts_2021_id":"07337022",
         "gn:id":2929157
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ff1c79b67a21aeab94995d3c97caf4bf",
+    "wof:geomhash":"0d79b373d0f04cb1dfae822049949512",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1226227229,
-    "wof:lastmodified":1582343145,
+    "wof:lastmodified":1684352057,
     "wof:name":"Eschbach",
     "wof:parent_id":1377686543,
     "wof:placetype":"locality",
-    "wof:population":707,
+    "wof:population":640,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

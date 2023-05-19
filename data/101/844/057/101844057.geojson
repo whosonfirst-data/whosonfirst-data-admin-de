@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09372175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Willmering",
+    "eurostat:nuts_2021_id":"09372175",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE235",
+    "eurostat:nuts_2021_level_lau":"09372175",
+    "eurostat:population":1977,
+    "eurostat:population_year":2020,
     "geom:area":0.001284,
     "geom:area_square_m":10362002.051593,
     "geom:bbox":"12.653221,49.230931,12.709736,49.271075",
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063457,
         1377685931,
         404227545,
-        85682571
+        102063457
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09372175",
+        "eurostat:nuts_2021_id":"09372175",
         "fct:id":"075effac-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2808514,
         "gp:id":706737,
@@ -191,7 +206,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c9ba5ee5dc93107788520375e23115e8",
+    "wof:geomhash":"9ddd142df7b61a1a8c842a6d25b1a59f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,12 +222,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050378,
+    "wof:lastmodified":1684351958,
     "wof:name":"Willmering",
     "wof:parent_id":1377685931,
     "wof:placetype":"locality",
-    "wof:population":2193,
-    "wof:population_rank":4,
+    "wof:population":1977,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

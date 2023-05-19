@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marburg, Universit\u00e4tsstadt",
+    "eurostat:nuts_2021_id":"06534014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534014",
+    "eurostat:population":77129,
+    "eurostat:population_year":2020,
     "geom:area":0.015859,
-    "geom:area_square_m":123927566.812043,
+    "geom:area_square_m":123927566.812041,
     "geom:bbox":"8.627481,50.737937,8.85814,50.858712",
     "geom:latitude":50.805639,
     "geom:longitude":8.753896,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.816667,
     "wd:longitude":8.766667,
     "wd:population":73150,
@@ -317,15 +330,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683875,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534014",
+        "eurostat:nuts_2021_id":"06534014",
         "gn:id":2873759,
         "gp:id":673788,
         "qs_pg:id":279228,
@@ -339,7 +354,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b088374b5d458ffbd7a473807f5553c3",
+    "wof:geomhash":"d0aa22d7df36695f91baed259605f0fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101748615,
-    "wof:lastmodified":1608050584,
+    "wof:lastmodified":1684351787,
     "wof:name":"Marburg",
     "wof:parent_id":1377683875,
     "wof:placetype":"locality",
-    "wof:population":73150,
+    "wof:population":77129,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

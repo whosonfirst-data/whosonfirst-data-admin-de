@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231504",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niersbach",
+    "eurostat:nuts_2021_id":"07231504",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231504",
+    "eurostat:population":699,
+    "eurostat:population_year":2020,
     "geom:area":0.001614,
     "geom:area_square_m":12846220.723822,
     "geom:bbox":"6.69846708651,49.9135873823,6.77127431288,49.9480869041",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231504",
+        "eurostat:nuts_2021_id":"07231504",
         "gn:id":2862494,
         "qs_pg:id":93329,
         "wd:id":"Q610911"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"44741a5cf86dc45ab9dff103bee458b9",
+    "wof:geomhash":"91e86b2251bd95bfa549823d71882165",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125844957,
-    "wof:lastmodified":1582343058,
+    "wof:lastmodified":1684352026,
     "wof:name":"Niersbach",
     "wof:parent_id":1377685901,
     "wof:placetype":"locality",
-    "wof:population":681,
+    "wof:population":699,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

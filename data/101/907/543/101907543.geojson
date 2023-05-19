@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6neberg",
+    "eurostat:nuts_2021_id":"07132099",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132099",
+    "eurostat:population":416,
+    "eurostat:population_year":2020,
     "geom:area":0.000396,
-    "geom:area_square_m":3106917.584367,
+    "geom:area_square_m":3106917.584366,
     "geom:bbox":"7.58943226309,50.6509521061,7.62323662676,50.671710392",
     "geom:latitude":50.661738,
     "geom:longitude":7.605373,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1207,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132099",
+        "eurostat:nuts_2021_id":"07132099",
         "gn:id":2836791,
         "gp:id":681810,
         "qs_pg:id":93097,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"06aaf278e6c39fb63ab3c5989d1158f0",
+    "wof:geomhash":"a04ae287a0ffc0929c7b9d5a601dca07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101907543,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351988,
     "wof:name":"Sch\u00f6neberg",
     "wof:parent_id":1377685301,
     "wof:placetype":"locality",
-    "wof:population":381,
+    "wof:population":416,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Etzbach",
+    "eurostat:nuts_2021_id":"07132028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132028",
+    "eurostat:population":1296,
+    "eurostat:population_year":2020,
     "geom:area":0.000387,
     "geom:area_square_m":3028026.045979,
     "geom:bbox":"7.67887651806,50.7640498211,7.71015128653,50.7857067125",
@@ -137,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682513,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132028",
+        "eurostat:nuts_2021_id":"07132028",
         "gn:id":2928600,
         "gp:id":683344,
         "qs_pg:id":93899,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"22b97e8deaae1ef671b319aef353af3f",
+    "wof:geomhash":"3bc0aa260364ac845c7141f14e252abb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101810989,
-    "wof:lastmodified":1582342410,
+    "wof:lastmodified":1684351877,
     "wof:name":"Etzbach",
     "wof:parent_id":1377690749,
     "wof:placetype":"locality",
-    "wof:population":1289,
+    "wof:population":1296,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

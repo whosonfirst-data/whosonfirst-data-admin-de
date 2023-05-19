@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15091160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kemberg, Stadt",
+    "eurostat:nuts_2021_id":"15091160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0E",
+    "eurostat:nuts_2021_level_lau":"15091160",
+    "eurostat:population":9636,
+    "eurostat:population_year":2020,
     "geom:area":0.030862,
-    "geom:area_square_m":236094254.255196,
+    "geom:area_square_m":236094254.255197,
     "geom:bbox":"12.424703,51.684989,12.8244,51.855403",
     "geom:latitude":51.781377,
     "geom:longitude":12.622649,
@@ -303,17 +315,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":371,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063859,
         1377689291,
-        85682519
+        85633111,
+        102063859
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15091160",
+        "eurostat:nuts_2021_id":"15091160",
         "gn:id":2891718,
         "gp:id":665417,
         "qs_pg:id":1039444,
@@ -328,7 +343,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1c40f7ceabcb36cd23a0ccb20252f00a",
+    "wof:geomhash":"9c5d2cf7cd2bc1f7f72e7cb9d1cb60bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,12 +355,12 @@
         }
     ],
     "wof:id":101820997,
-    "wof:lastmodified":1608049850,
+    "wof:lastmodified":1684351915,
     "wof:name":"Kemberg",
     "wof:parent_id":1377689291,
     "wof:placetype":"locality",
-    "wof:population":2616,
-    "wof:population_rank":4,
+    "wof:population":9636,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

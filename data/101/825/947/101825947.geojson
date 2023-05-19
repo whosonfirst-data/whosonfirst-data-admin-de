@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stettfeld",
+    "eurostat:nuts_2021_id":"09674201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674201",
+    "eurostat:population":1154,
+    "eurostat:population_year":2020,
     "geom:area":0.001397,
     "geom:area_square_m":11106059.215319,
     "geom:bbox":"10.6980652084,49.9537616739,10.7612557968,49.9926194148",
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":41,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674201",
+        "eurostat:nuts_2021_id":"09674201",
         "gn:id":2827197,
         "gp:id":697238,
         "qs_pg:id":141690,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1859b45c2f09b921d5d129761b111442",
+    "wof:geomhash":"493b94ac14a36513f6201fe28d12c940",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101825947,
-    "wof:lastmodified":1582342575,
+    "wof:lastmodified":1684351933,
     "wof:name":"Stettfeld",
     "wof:parent_id":1377691049,
     "wof:placetype":"locality",
-    "wof:population":1302,
+    "wof:population":1154,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

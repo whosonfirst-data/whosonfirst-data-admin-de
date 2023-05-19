@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08225001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Adelsheim, Stadt",
+    "eurostat:nuts_2021_id":"08225001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE127",
+    "eurostat:nuts_2021_level_lau":"08225001",
+    "eurostat:population":5053,
+    "eurostat:population_year":2020,
     "geom:area":0.005458,
-    "geom:area_square_m":43926182.102442,
+    "geom:area_square_m":43926182.102444,
     "geom:bbox":"9.32842769708,49.357064131,9.46467625489,49.4237658441",
     "geom:latitude":49.390477,
     "geom:longitude":9.395366,
@@ -316,7 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.404722,
     "wd:longitude":9.389167,
     "wd:wordcount":1579,
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08225001",
+        "eurostat:nuts_2021_id":"08225001",
         "gn:id":2959508,
         "gp:id":633371,
         "qs_pg:id":1246799,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"622dd7d1f3b60b8d06c0a2b65e3bd997",
+    "wof:geomhash":"337c847ec236b4819cab1b05ee951769",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101815737,
-    "wof:lastmodified":1582342552,
+    "wof:lastmodified":1684351895,
     "wof:name":"Adelsheim",
     "wof:parent_id":1377688539,
     "wof:placetype":"locality",
-    "wof:population":5536,
+    "wof:population":5053,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

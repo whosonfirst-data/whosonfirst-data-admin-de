@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05978004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bergkamen, Stadt",
+    "eurostat:nuts_2021_id":"05978004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5C",
+    "eurostat:nuts_2021_level_lau":"05978004",
+    "eurostat:population":48740,
+    "eurostat:population_year":2020,
     "geom:area":0.005705,
-    "geom:area_square_m":43792862.718395,
+    "geom:area_square_m":43792862.718396,
     "geom:bbox":"7.560822,51.587636,7.688047,51.661054",
     "geom:latitude":51.622935,
     "geom:longitude":7.629637,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":295,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063823,
         1377692705,
         404227579,
-        85682513
+        102063823
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05978004",
+        "eurostat:nuts_2021_id":"05978004",
         "gn:id":2950344,
         "gp:id":638143,
         "qs_pg:id":455540,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e10f5e86524777e664f5395242fd3c44",
+    "wof:geomhash":"3ea57214b888c1606e33e15922cb93f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,12 +380,12 @@
         }
     ],
     "wof:id":101748731,
-    "wof:lastmodified":1608050549,
+    "wof:lastmodified":1684351788,
     "wof:name":"Bergkamen",
     "wof:parent_id":1377692705,
     "wof:placetype":"locality",
-    "wof:population":52329,
-    "wof:population_rank":8,
+    "wof:population":48740,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

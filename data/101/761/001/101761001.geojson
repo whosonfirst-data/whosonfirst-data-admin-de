@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08126085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldenburg, Stadt",
+    "eurostat:nuts_2021_id":"08126085",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE119",
+    "eurostat:nuts_2021_level_lau":"08126085",
+    "eurostat:population":3090,
+    "eurostat:population_year":2020,
     "geom:area":0.003874,
     "geom:area_square_m":31320442.423373,
     "geom:bbox":"9.59310592583,49.127201821,9.67431114976,49.213096091",
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -340,6 +353,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08126085",
+        "eurostat:nuts_2021_id":"08126085",
         "gn:id":2815075,
         "gp:id":703426,
         "qs_pg:id":978019,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6633ecc71b0e8d7b2099b04c1a00446f",
+    "wof:geomhash":"c5a56c530557505c297c58d03606064b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101761001,
-    "wof:lastmodified":1582342511,
+    "wof:lastmodified":1684351804,
     "wof:name":"Waldenburg",
     "wof:parent_id":1377687773,
     "wof:placetype":"locality",
-    "wof:population":3127,
+    "wof:population":3090,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burweg",
+    "eurostat:nuts_2021_id":"03359009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359009",
+    "eurostat:population":1017,
+    "eurostat:population_year":2020,
     "geom:area":0.002209,
-    "geom:area_square_m":16197545.507897,
+    "geom:area_square_m":16197545.507898,
     "geom:bbox":"9.21236779983,53.6019245624,9.29949006359,53.6435186266",
     "geom:latitude":53.620685,
     "geom:longitude":9.258249,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":350,
     "wof:belongsto":[
         85682555,
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359009",
+        "eurostat:nuts_2021_id":"03359009",
         "gn:id":2941498,
         "gp:id":642759,
         "qs_pg:id":94038,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b341775a4a218c336cf3d49f0cad6833",
+    "wof:geomhash":"81055fb587bb7dbec8e8aa04fffe6d7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,12 +214,12 @@
         }
     ],
     "wof:id":101806559,
-    "wof:lastmodified":1582342611,
+    "wof:lastmodified":1684351852,
     "wof:name":"Burweg",
     "wof:parent_id":1377687957,
     "wof:placetype":"locality",
-    "wof:population":989,
-    "wof:population_rank":2,
+    "wof:population":1017,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

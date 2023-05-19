@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eppendorf",
+    "eurostat:nuts_2021_id":"14522110",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522110",
+    "eurostat:population":4075,
+    "eurostat:population_year":2020,
     "geom:area":0.00431,
-    "geom:area_square_m":33687564.083215,
+    "geom:area_square_m":33687564.083214,
     "geom:bbox":"13.196306,50.763084,13.31104,50.834668",
     "geom:latitude":50.795852,
     "geom:longitude":13.255049,
@@ -289,17 +301,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685803,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522110",
+        "eurostat:nuts_2021_id":"14522110",
         "fct:id":"073da0aa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2929855,
         "gp:id":648239,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7af3b19689d3ca95e604a6832332d49e",
+    "wof:geomhash":"4d934ab652073467ee213545bb0ee92e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051102,
+    "wof:lastmodified":1684351926,
     "wof:name":"Eppendorf",
     "wof:parent_id":1377685803,
     "wof:placetype":"locality",
-    "wof:population":4863,
+    "wof:population":4075,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

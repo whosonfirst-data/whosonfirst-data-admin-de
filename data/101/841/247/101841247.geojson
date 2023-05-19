@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dennheritz",
+    "eurostat:nuts_2021_id":"14524050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524050",
+    "eurostat:population":1295,
+    "eurostat:population_year":2020,
     "geom:area":0.001666,
-    "geom:area_square_m":13012881.717601,
+    "geom:area_square_m":13012881.7176,
     "geom:bbox":"12.442541806,50.791259529,12.5157319198,50.8322334156",
     "geom:latitude":50.811941,
     "geom:longitude":12.475553,
@@ -142,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682523,
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524050",
+        "eurostat:nuts_2021_id":"14524050",
         "gn:id":2938223,
         "gp:id":679859,
         "qs_pg:id":579432,
@@ -164,7 +179,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4612d18d779a61c33074ef85b17e3364",
+    "wof:geomhash":"6ead4d8943bcb999f782576a557d48a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101841247,
-    "wof:lastmodified":1582342522,
+    "wof:lastmodified":1684351952,
     "wof:name":"Dennheritz",
     "wof:parent_id":1377686523,
     "wof:placetype":"locality",
-    "wof:population":1460,
+    "wof:population":1295,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

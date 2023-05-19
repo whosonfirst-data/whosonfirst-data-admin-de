@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rodenbach",
+    "eurostat:nuts_2021_id":"07335040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335040",
+    "eurostat:population":3195,
+    "eurostat:population_year":2020,
     "geom:area":0.001684,
     "geom:area_square_m":13533419.32996,
     "geom:bbox":"7.63717116833,49.4421404257,7.70227322915,49.4955001632",
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":102,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -324,6 +337,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335040",
+        "eurostat:nuts_2021_id":"07335040",
         "gn:id":2846066,
         "gp:id":689087,
         "qs_pg:id":7,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"013d8b89f5cb64b71cdf91e82521fe46",
+    "wof:geomhash":"f173a10546eeb499a431a7c05ec490a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101839849,
-    "wof:lastmodified":1582342625,
+    "wof:lastmodified":1684351948,
     "wof:name":"Rodenbach",
     "wof:parent_id":1377686465,
     "wof:placetype":"locality",
-    "wof:population":3108,
+    "wof:population":3195,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

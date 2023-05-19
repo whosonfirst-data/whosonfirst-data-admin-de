@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03352044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osten",
+    "eurostat:nuts_2021_id":"03352044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE932",
+    "eurostat:nuts_2021_level_lau":"03352044",
+    "eurostat:population":1787,
+    "eurostat:population_year":2020,
     "geom:area":0.006516,
-    "geom:area_square_m":47666470.311106,
+    "geom:area_square_m":47666470.311104,
     "geom:bbox":"9.15180003279,53.6910359278,9.29858024996,53.7680970402",
     "geom:latitude":53.726537,
     "geom:longitude":9.221463,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":129,
     "wof:belongsto":[
         85682555,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03352044",
+        "eurostat:nuts_2021_id":"03352044",
         "gn:id":2856778,
         "gp:id":683528,
         "qs_pg:id":141944,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"95f560fe159dc913d4a660eff064962c",
+    "wof:geomhash":"e6434ce16b67d11742600dd24d1d27c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,12 +339,12 @@
         }
     ],
     "wof:id":101846437,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351962,
     "wof:name":"Osten",
     "wof:parent_id":1377687297,
     "wof:placetype":"locality",
-    "wof:population":2030,
-    "wof:population_rank":4,
+    "wof:population":1787,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

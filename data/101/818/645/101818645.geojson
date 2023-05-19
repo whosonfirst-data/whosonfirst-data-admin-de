@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071122",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rechlin",
+    "eurostat:nuts_2021_id":"13071122",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071122",
+    "eurostat:population":2041,
+    "eurostat:population_year":2020,
     "geom:area":0.010489,
-    "geom:area_square_m":77401261.152732,
+    "geom:area_square_m":77401261.152733,
     "geom:bbox":"12.6943084628,53.3013038167,12.8574051117,53.4326858114",
     "geom:latitude":53.359634,
     "geom:longitude":12.786153,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071122",
+        "eurostat:nuts_2021_id":"13071122",
         "gn:id":2849717,
         "gp:id":647593,
         "qs_pg:id":1038668,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f40d311dac1200c6be0df2dda89fd90b",
+    "wof:geomhash":"50ab8852c8e18697385085a2bcc9d008",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101818645,
-    "wof:lastmodified":1582342359,
+    "wof:lastmodified":1684351902,
     "wof:name":"Rechlin",
     "wof:parent_id":1377684497,
     "wof:placetype":"locality",
-    "wof:population":2357,
+    "wof:population":2041,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

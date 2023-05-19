@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breidenbach",
+    "eurostat:nuts_2021_id":"06534005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534005",
+    "eurostat:population":6690,
+    "eurostat:population_year":2020,
     "geom:area":0.005706,
-    "geom:area_square_m":44520061.378014,
+    "geom:area_square_m":44520061.378012,
     "geom:bbox":"8.35463,50.840321,8.50677,50.909152",
     "geom:latitude":50.876265,
     "geom:longitude":8.433758,
@@ -289,18 +301,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":320,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683795,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534005",
+        "eurostat:nuts_2021_id":"06534005",
         "gn:id":2944820,
         "gp:id":640948,
         "qs_pg:id":142809,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6df4a705926b16353859e114fddf6388",
+    "wof:geomhash":"b51c9e5c2df4f7cb6ccb665dbd852c69",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101811001,
-    "wof:lastmodified":1608049922,
+    "wof:lastmodified":1684351878,
     "wof:name":"Breidenbach",
     "wof:parent_id":1377683795,
     "wof:placetype":"locality",
-    "wof:population":6866,
+    "wof:population":6690,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

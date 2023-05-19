@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03359018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freiburg (Elbe), Flecken",
+    "eurostat:nuts_2021_id":"03359018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE939",
+    "eurostat:nuts_2021_level_lau":"03359018",
+    "eurostat:population":1869,
+    "eurostat:population_year":2020,
     "geom:area":0.003562,
-    "geom:area_square_m":25994461.079743,
+    "geom:area_square_m":25994461.079744,
     "geom:bbox":"9.23547041322,53.799228027,9.33104381508,53.8597323183",
     "geom:latitude":53.827201,
     "geom:longitude":9.280713,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03359018",
+        "eurostat:nuts_2021_id":"03359018",
         "gn:id":2925181,
         "gp:id":650438,
         "qs_pg:id":24492,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"46316785bb6257f03e46068c2aa15d5f",
+    "wof:geomhash":"f311e0a1b1dc06fe3860538cc86d3630",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101806579,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351853,
     "wof:name":"Freiburg (Elbe)",
     "wof:parent_id":1377687947,
     "wof:placetype":"locality",
-    "wof:population":1890,
+    "wof:population":1869,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

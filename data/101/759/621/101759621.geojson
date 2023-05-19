@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10045114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Homburg, Kreisstadt",
+    "eurostat:nuts_2021_id":"10045114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC05",
+    "eurostat:nuts_2021_level_lau":"10045114",
+    "eurostat:population":41875,
+    "eurostat:population_year":2020,
     "geom:area":0.010168,
-    "geom:area_square_m":81940615.470586,
+    "geom:area_square_m":81940615.470585,
     "geom:bbox":"7.27386,49.2476,7.403773,49.387421",
     "geom:latitude":49.326237,
     "geom:longitude":7.338534,
@@ -330,21 +342,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":178,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063437,
         1377694033,
-        85682479
+        85633111,
+        102063437
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10045114",
+        "eurostat:nuts_2021_id":"10045114",
         "gn:id":2899449,
         "gp:id":662058,
         "qs_pg:id":1344374,
@@ -358,7 +373,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a2c47d704d4b81507bee5b50fa5252a7",
+    "wof:geomhash":"74e154d740f2487541c87dc594f47c8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
         }
     ],
     "wof:id":101759621,
-    "wof:lastmodified":1608050941,
+    "wof:lastmodified":1684351798,
     "wof:name":"Homburg",
     "wof:parent_id":1377694033,
     "wof:placetype":"locality",
-    "wof:population":44607,
+    "wof:population":41875,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

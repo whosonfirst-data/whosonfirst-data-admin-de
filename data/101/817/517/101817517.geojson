@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sagard",
+    "eurostat:nuts_2021_id":"13073078",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073078",
+    "eurostat:population":2394,
+    "eurostat:population_year":2020,
     "geom:area":0.003899,
-    "geom:area_square_m":27969250.150629,
+    "geom:area_square_m":27969250.150628,
     "geom:bbox":"13.5072082514,54.5035927281,13.6237503752,54.5704440641",
     "geom:latitude":54.53733,
     "geom:longitude":13.560359,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":181,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073078",
+        "eurostat:nuts_2021_id":"13073078",
         "gn:id":2842434,
         "gp:id":690737,
         "qs_pg:id":1324857,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c1f9d568234cdec7d55975afa5ccb03a",
+    "wof:geomhash":"77b9d99057006fea25f5ac3b5ebe1620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101817517,
-    "wof:lastmodified":1582342414,
+    "wof:lastmodified":1684351898,
     "wof:name":"Sagard",
     "wof:parent_id":1377684975,
     "wof:placetype":"locality",
-    "wof:population":2859,
+    "wof:population":2394,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

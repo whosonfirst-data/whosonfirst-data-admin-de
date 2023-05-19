@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Lippe",
+    "eurostat:name_local":"Lippe",
+    "eurostat:nuts_2021_id":"DEA45",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:population":346151,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.162963,
-    "geom:area_square_m":1241117529.401936,
+    "geom:area_square_m":1241117529.401937,
     "geom:bbox":"8.606339,51.789043,9.345219,52.194599",
     "geom:latitude":51.981425,
     "geom:longitude":8.95084,
@@ -174,8 +188,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"1246",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Detmold",
@@ -188,12 +202,13 @@
     "statoids:type":"district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227571,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA45",
         "hasc:id":"DE.NW.LP",
         "wd:id":"Q6230"
     },
@@ -201,7 +216,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9379877b3a79488bf08fe58caebb731",
+    "wof:geomhash":"e5081905017e8dae2d9243a6c8227574",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,12 +227,12 @@
         }
     ],
     "wof:id":102063883,
-    "wof:lastmodified":1587164327,
+    "wof:lastmodified":1684351525,
     "wof:name":"Lippe",
     "wof:parent_id":404227571,
     "wof:placetype":"county",
     "wof:placetype_local":"district",
-    "wof:population":348681,
+    "wof:population":346151,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"LP",

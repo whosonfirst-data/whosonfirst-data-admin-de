@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oetzen",
+    "eurostat:nuts_2021_id":"03360015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360015",
+    "eurostat:population":1143,
+    "eurostat:population_year":2020,
     "geom:area":0.004168,
-    "geom:area_square_m":31004309.510803,
+    "geom:area_square_m":31004309.510802,
     "geom:bbox":"10.6402595465,52.9782697382,10.7516265527,53.0422805048",
     "geom:latitude":53.014704,
     "geom:longitude":10.69676,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360015",
+        "eurostat:nuts_2021_id":"03360015",
         "gn:id":2857845,
         "gp:id":682970,
         "wd:id":"Q680480"
@@ -166,7 +181,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3692882ece132e7714565633ade68b1c",
+    "wof:geomhash":"ec561449047fe581f1768ca9aae8da54",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101818441,
-    "wof:lastmodified":1582342359,
+    "wof:lastmodified":1684351899,
     "wof:name":"Oetzen",
     "wof:parent_id":1377687983,
     "wof:placetype":"locality",
-    "wof:population":1147,
+    "wof:population":1143,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

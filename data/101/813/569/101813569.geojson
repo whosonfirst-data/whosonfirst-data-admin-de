@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231502",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Morbach",
+    "eurostat:nuts_2021_id":"07231502",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231502",
+    "eurostat:population":10447,
+    "eurostat:population_year":2020,
     "geom:area":0.015225,
-    "geom:area_square_m":121473991.83461,
+    "geom:area_square_m":121473991.834609,
     "geom:bbox":"7.003713,49.739233,7.226391,49.876673",
     "geom:latitude":49.815038,
     "geom:longitude":7.110993,
@@ -312,21 +324,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":754,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063581,
         1377685871,
-        85682491
+        85633111,
+        102063581
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231502",
+        "eurostat:nuts_2021_id":"07231502",
         "gn:id":2869307,
         "gp:id":676175,
         "qs_pg:id":374024,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"49ff42db6eb3202d37a9975d84bf5d69",
+    "wof:geomhash":"3fe1d095fd9e1cb46bdf315df2365bb0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101813569,
-    "wof:lastmodified":1608051314,
+    "wof:lastmodified":1684351892,
     "wof:name":"Morbach",
     "wof:parent_id":1377685871,
     "wof:placetype":"locality",
-    "wof:population":11149,
+    "wof:population":10447,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

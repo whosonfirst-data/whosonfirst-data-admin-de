@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09363000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weiden i.d.OPf.",
+    "eurostat:nuts_2021_id":"09363000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE233",
+    "eurostat:nuts_2021_level_lau":"09363000",
+    "eurostat:population":42743,
+    "eurostat:population_year":2020,
     "geom:area":0.008793,
-    "geom:area_square_m":70364425.865782,
+    "geom:area_square_m":70364425.865784,
     "geom:bbox":"12.0639706595,49.6145920065,12.2665080391,49.7119342065",
     "geom:latitude":49.669254,
     "geom:longitude":12.154533,
@@ -186,7 +198,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -197,6 +210,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09363000",
+        "eurostat:nuts_2021_id":"09363000",
         "gn:id":2813040,
         "gp:id":704499,
         "qs_pg:id":456223,
@@ -211,7 +226,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6b5af5d38e0c8c031a65a5300888fdc1",
+    "wof:geomhash":"3deb5dddd19d38fd154d1ecb47be65c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -224,11 +239,11 @@
         }
     ],
     "wof:id":101842197,
-    "wof:lastmodified":1582342393,
+    "wof:lastmodified":1684351955,
     "wof:name":"Weiden i.d. OPf.",
     "wof:parent_id":1377685635,
     "wof:placetype":"locality",
-    "wof:population":42550,
+    "wof:population":42743,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07132066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malberg",
+    "eurostat:nuts_2021_id":"07132066",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB13",
+    "eurostat:nuts_2021_level_lau":"07132066",
+    "eurostat:population":1009,
+    "eurostat:population_year":2020,
     "geom:area":0.000562,
-    "geom:area_square_m":4399266.816889,
+    "geom:area_square_m":4399266.816888,
     "geom:bbox":"7.80043115767,50.7038378179,7.84106725594,50.7281984143",
     "geom:latitude":50.71726,
     "geom:longitude":7.820543,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07132066",
+        "eurostat:nuts_2021_id":"07132066",
         "gn:id":2874142,
         "gp:id":20162715,
         "qs_pg:id":275991,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b62f9383aacc88fd6452eb8739195c5b",
+    "wof:geomhash":"7cd11fd9757582338d736461436c275a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101810957,
-    "wof:lastmodified":1582342404,
+    "wof:lastmodified":1684351877,
     "wof:name":"Malberg",
     "wof:parent_id":1377685353,
     "wof:placetype":"locality",
-    "wof:population":1012,
+    "wof:population":1009,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

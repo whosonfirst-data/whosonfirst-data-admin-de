@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eppenbrunn",
+    "eurostat:nuts_2021_id":"07340008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340008",
+    "eurostat:population":1308,
+    "eurostat:population_year":2020,
     "geom:area":0.004237,
-    "geom:area_square_m":34298251.493169,
+    "geom:area_square_m":34298251.493168,
     "geom:bbox":"7.52867776056,49.079522022,7.64415695596,49.1367604906",
     "geom:latitude":49.105149,
     "geom:longitude":7.583629,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":55,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340008",
+        "eurostat:nuts_2021_id":"07340008",
         "gn:id":2929858,
         "gp:id":648236,
         "qs_pg:id":579237,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a1e6c18fd0105bc9de548ef23882f02a",
+    "wof:geomhash":"9ab89dbea476e7d7d95cdcf343488f26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101760983,
-    "wof:lastmodified":1582342494,
+    "wof:lastmodified":1684351804,
     "wof:name":"Eppenbrunn",
     "wof:parent_id":1377686759,
     "wof:placetype":"locality",
-    "wof:population":1530,
+    "wof:population":1308,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

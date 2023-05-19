@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6zen",
+    "eurostat:nuts_2021_id":"01060057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060057",
+    "eurostat:population":430,
+    "eurostat:population_year":2020,
     "geom:area":0.001049,
-    "geom:area_square_m":7643515.068272,
+    "geom:area_square_m":7643515.068271,
     "geom:bbox":"10.233632727,53.8884755438,10.2840944854,53.9233621614",
     "geom:latitude":53.90555,
     "geom:longitude":10.258028,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060057",
+        "eurostat:nuts_2021_id":"01060057",
         "gn:id":2868941,
         "gp:id":29350704,
         "qs_pg:id":93397,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"6f0c4b5079eb77fb3ddf0fdb8b188dca",
+    "wof:geomhash":"14c4deb03c6ee9dbe7af7b12472326b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101906215,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351977,
     "wof:name":"M\u00f6zen",
     "wof:parent_id":1377684587,
     "wof:placetype":"locality",
-    "wof:population":461,
+    "wof:population":430,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberneisen",
+    "eurostat:nuts_2021_id":"07141102",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141102",
+    "eurostat:population":753,
+    "eurostat:population_year":2020,
     "geom:area":0.000555,
-    "geom:area_square_m":4385095.691666,
+    "geom:area_square_m":4385095.691667,
     "geom:bbox":"8.0129145967,50.3108744799,8.08713917965,50.3326264056",
     "geom:latitude":50.322242,
     "geom:longitude":8.059424,
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -129,6 +142,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141102",
+        "eurostat:nuts_2021_id":"07141102",
         "gn:id":2859593,
         "wk:page":"Oberneisen"
     },
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"71d09f26acd8238476aaf33f4eebd8a6",
+    "wof:geomhash":"3f0394f3cbd568a3cf40a321525299bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1259970207,
-    "wof:lastmodified":1582343107,
+    "wof:lastmodified":1684352059,
     "wof:name":"Oberneisen",
     "wof:parent_id":1377685735,
     "wof:placetype":"locality",
-    "wof:population":728,
+    "wof:population":753,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

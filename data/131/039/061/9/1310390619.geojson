@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roth",
+    "eurostat:nuts_2021_id":"07133085",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133085",
+    "eurostat:population":288,
+    "eurostat:population_year":2020,
     "geom:area":0.000106,
     "geom:area_square_m":839783.476001,
     "geom:bbox":"7.79129384011,49.9380497592,7.80727154915,49.9482632558",
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -139,6 +152,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133085",
+        "eurostat:nuts_2021_id":"07133085",
         "gn:id":2844262,
         "wk:page":"Roth%2C_Bad_Kreuznach"
     },
@@ -146,7 +161,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"03b7ace42617123bf8f1b808832b5c22",
+    "wof:geomhash":"41407bdc75321f324c71f895d26cdfea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +173,11 @@
         }
     ],
     "wof:id":1310390619,
-    "wof:lastmodified":1582342092,
+    "wof:lastmodified":1684352061,
     "wof:name":"Roth",
     "wof:parent_id":1377685427,
     "wof:placetype":"locality",
-    "wof:population":269,
+    "wof:population":288,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

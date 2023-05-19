@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rauenberg, Stadt",
+    "eurostat:nuts_2021_id":"08226065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226065",
+    "eurostat:population":8756,
+    "eurostat:population_year":2020,
     "geom:area":0.001356,
-    "geom:area_square_m":10945980.436422,
+    "geom:area_square_m":10945980.43642,
     "geom:bbox":"8.65128094177,49.2500911828,8.726020394,49.2795577881",
     "geom:latitude":49.263414,
     "geom:longitude":8.691396,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":15,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -317,6 +330,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226065",
+        "eurostat:nuts_2021_id":"08226065",
         "gn:id":2850056,
         "gp:id":687078,
         "qs_pg:id":1276232,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e5869b308b815bffb4382ed12abbaf5a",
+    "wof:geomhash":"a5de0303e1f9299dc449d48ab4bc4355",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101759689,
-    "wof:lastmodified":1582342515,
+    "wof:lastmodified":1684351799,
     "wof:name":"Rauenberg",
     "wof:parent_id":1377688767,
     "wof:placetype":"locality",
-    "wof:population":7411,
+    "wof:population":8756,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

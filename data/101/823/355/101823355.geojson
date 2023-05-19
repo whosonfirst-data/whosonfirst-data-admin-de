@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14628010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenberg, Stadt",
+    "eurostat:nuts_2021_id":"14628010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2F",
+    "eurostat:nuts_2021_level_lau":"14628010",
+    "eurostat:population":7934,
+    "eurostat:population_year":2020,
     "geom:area":0.018598,
-    "geom:area_square_m":145431453.303279,
+    "geom:area_square_m":145431453.30328,
     "geom:bbox":"13.652141,50.716924,13.902752,50.832901",
     "geom:latitude":50.771999,
     "geom:longitude":13.770908,
@@ -322,20 +334,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064217,
         1377687599,
-        85682523
+        85633111,
+        102064217
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14628010",
+        "eurostat:nuts_2021_id":"14628010",
         "gn:id":2957834,
         "gp:id":634332,
         "qs_pg:id":905427,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"af0599a326ef6802ab397e2e23be3fb7",
+    "wof:geomhash":"0652e0e41238f5015ba0e888fc7dc355",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101823355,
-    "wof:lastmodified":1608051058,
+    "wof:lastmodified":1684351925,
     "wof:name":"Altenberg",
     "wof:parent_id":1377687599,
     "wof:placetype":"locality",
-    "wof:population":5167,
+    "wof:population":7934,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

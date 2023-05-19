@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00fcmpel",
+    "eurostat:nuts_2021_id":"01062065",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062065",
+    "eurostat:population":1308,
+    "eurostat:population_year":2020,
     "geom:area":0.002153,
-    "geom:area_square_m":15731005.045587,
+    "geom:area_square_m":15731005.045588,
     "geom:bbox":"10.2954443097,53.7465813676,10.3813295903,53.7945954352",
     "geom:latitude":53.77369,
     "geom:longitude":10.34089,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062065",
+        "eurostat:nuts_2021_id":"01062065",
         "gn:id":2843094,
         "gp:id":639597,
         "qs_pg:id":93139,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"064e4a5d434f606d1d8a65b1ebac7a6b",
+    "wof:geomhash":"80a6f703c2a86303b0778ed0f6eab022",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101818783,
-    "wof:lastmodified":1582342362,
+    "wof:lastmodified":1684351903,
     "wof:name":"R\u00fcmpel",
     "wof:parent_id":1377684795,
     "wof:placetype":"locality",
-    "wof:population":1289,
+    "wof:population":1308,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

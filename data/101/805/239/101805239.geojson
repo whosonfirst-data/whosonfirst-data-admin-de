@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"T\u00f6nning, Stadt",
+    "eurostat:nuts_2021_id":"01054138",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054138",
+    "eurostat:population":4984,
+    "eurostat:population_year":2020,
     "geom:area":0.006185,
-    "geom:area_square_m":44625723.865257,
+    "geom:area_square_m":44625723.865254,
     "geom:bbox":"8.821349,54.261978,8.9645,54.34334",
     "geom:latitude":54.303232,
     "geom:longitude":8.885808,
@@ -312,17 +324,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":113,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064165,
         1377683575,
-        85682517
+        85633111,
+        102064165
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054138",
+        "eurostat:nuts_2021_id":"01054138",
         "gn:id":2821878,
         "gp:id":699651,
         "qs_pg:id":141650,
@@ -337,7 +352,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ea47631b9cf9d76710928acc6eeeba94",
+    "wof:geomhash":"320d08347b65f079336a0d4ea8e067a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,12 +364,12 @@
         }
     ],
     "wof:id":101805239,
-    "wof:lastmodified":1608050446,
+    "wof:lastmodified":1684351848,
     "wof:name":"T\u00f6nning",
     "wof:parent_id":1377683575,
     "wof:placetype":"locality",
-    "wof:population":5008,
-    "wof:population_rank":5,
+    "wof:population":4984,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

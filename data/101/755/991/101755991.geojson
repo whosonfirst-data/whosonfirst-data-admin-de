@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05162016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kaarst, Stadt",
+    "eurostat:nuts_2021_id":"05162016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1D",
+    "eurostat:nuts_2021_level_lau":"05162016",
+    "eurostat:population":43493,
+    "eurostat:population_year":2020,
     "geom:area":0.00491,
     "geom:area_square_m":38026055.436751,
     "geom:bbox":"6.559428,51.178537,6.676353,51.26075",
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":477,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063757,
         1377689741,
         404227561,
-        85682513
+        102063757
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05162016",
+        "eurostat:nuts_2021_id":"05162016",
         "gn:id":2894375,
         "gp:id":664340,
         "qs_pg:id":1073377,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"810ab30208af8758fbaeaac54aa34cd4",
+    "wof:geomhash":"3c52700fac1e2417a77c0623e3d12939",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101755991,
-    "wof:lastmodified":1608049396,
+    "wof:lastmodified":1684351792,
     "wof:name":"Kaarst",
     "wof:parent_id":1377689741,
     "wof:placetype":"locality",
-    "wof:population":42112,
+    "wof:population":43493,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05370028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00dcbach-Palenberg, Stadt",
+    "eurostat:nuts_2021_id":"05370028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA29",
+    "eurostat:nuts_2021_level_lau":"05370028",
+    "eurostat:population":24044,
+    "eurostat:population_year":2020,
     "geom:area":0.003316,
-    "geom:area_square_m":25841170.114571,
+    "geom:area_square_m":25841170.114573,
     "geom:bbox":"6.015087,50.898214,6.155368,50.95372",
     "geom:latitude":50.926919,
     "geom:longitude":6.103875,
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":321,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063729,
         1377690375,
         404227541,
-        85682513
+        102063729
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05370028",
+        "eurostat:nuts_2021_id":"05370028",
         "gn:id":2820621,
         "gp:id":20169271,
         "loc:id":"n89146394",
@@ -336,7 +351,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a93d8e2c64ef585781f51a21be995abb",
+    "wof:geomhash":"580017c134cdde54b04a685327ed7ddf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":1175611393,
-    "wof:lastmodified":1608048942,
+    "wof:lastmodified":1684352056,
     "wof:name":"\u00dcbach-Palenberg",
     "wof:parent_id":1377690375,
     "wof:placetype":"locality",
-    "wof:population":25544,
+    "wof:population":24044,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

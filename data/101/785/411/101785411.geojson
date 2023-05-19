@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuching",
+    "eurostat:nuts_2021_id":"09177131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177131",
+    "eurostat:population":2666,
+    "eurostat:population_year":2020,
     "geom:area":0.002371,
-    "geom:area_square_m":19520749.506133,
+    "geom:area_square_m":19520749.506132,
     "geom:bbox":"11.7807248999,48.2210240283,11.876526331,48.26550982",
     "geom:latitude":48.243905,
     "geom:longitude":11.833678,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177131",
+        "eurostat:nuts_2021_id":"09177131",
         "gn:id":3208355,
         "gp:id":679740,
         "qs_pg:id":375246,
@@ -322,7 +337,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6e72dcdf7c017407761ac2239041d5b",
+    "wof:geomhash":"50080324176d884620e8c424e136c8a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101785411,
-    "wof:lastmodified":1582342457,
+    "wof:lastmodified":1684351835,
     "wof:name":"Neuching",
     "wof:parent_id":1377691789,
     "wof:placetype":"locality",
-    "wof:population":2427,
+    "wof:population":2666,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

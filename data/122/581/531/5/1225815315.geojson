@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nauendorf",
+    "eurostat:nuts_2021_id":"16071059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071059",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "geom:area":0.000294,
-    "geom:area_square_m":2295953.855223,
+    "geom:area_square_m":2295953.855224,
     "geom:bbox":"11.1635371514,50.8814217295,11.1947386192,50.9037110524",
     "geom:latitude":50.893651,
     "geom:longitude":11.181831,
@@ -116,7 +128,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -130,13 +143,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071059",
+        "eurostat:nuts_2021_id":"16071059",
         "gn:id":2866928
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"ac1157bd50ddd7552d28ee7aeee11588",
+    "wof:geomhash":"07ef4c67be8b48dc5bf3933505547c9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1225815315,
-    "wof:lastmodified":1582343144,
+    "wof:lastmodified":1684352057,
     "wof:name":"Nauendorf",
     "wof:parent_id":1377690477,
     "wof:placetype":"locality",
-    "wof:population":291,
+    "wof:population":300,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

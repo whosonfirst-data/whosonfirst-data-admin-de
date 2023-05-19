@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Egling a.d.Paar",
+    "eurostat:nuts_2021_id":"09181116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181116",
+    "eurostat:population":2357,
+    "eurostat:population_year":2020,
     "geom:area":0.002512,
     "geom:area_square_m":20709441.429744,
     "geom:bbox":"10.9478820383,48.1556087018,11.0357128124,48.2102289753",
@@ -137,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
         85682571,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181116",
+        "eurostat:nuts_2021_id":"09181116",
         "gn:id":2932991,
         "gp:id":663263,
         "qs_pg:id":1276658,
@@ -159,7 +174,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5de3fed15cc337f5ce21ba8d58c274c7",
+    "wof:geomhash":"0afe0828da0f06de85d696a514186a32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101780669,
-    "wof:lastmodified":1582342649,
+    "wof:lastmodified":1684351818,
     "wof:name":"Egling a.d. Paar",
     "wof:parent_id":1377692265,
     "wof:placetype":"locality",
-    "wof:population":2278,
+    "wof:population":2357,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

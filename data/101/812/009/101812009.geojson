@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bleialf",
+    "eurostat:nuts_2021_id":"07232206",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232206",
+    "eurostat:population":1204,
+    "eurostat:population_year":2020,
     "geom:area":0.00096,
     "geom:area_square_m":7593804.851879,
     "geom:bbox":"6.25992801322,50.225277901,6.31553294595,50.2667310781",
@@ -148,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":85,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232206",
+        "eurostat:nuts_2021_id":"07232206",
         "gn:id":2947874,
         "gp:id":639447,
         "qs_pg:id":142832,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f79ca5ffb42603cb9d8429988dbd40f1",
+    "wof:geomhash":"8a5ac601b7953ac78b675ba13e26b57b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101812009,
-    "wof:lastmodified":1582342546,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bleialf",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":1179,
+    "wof:population":1204,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

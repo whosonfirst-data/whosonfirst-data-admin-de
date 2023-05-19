@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hirschberg, Stadt",
+    "eurostat:nuts_2021_id":"16075046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075046",
+    "eurostat:population":2132,
+    "eurostat:population_year":2020,
     "geom:area":0.00307,
-    "geom:area_square_m":24184793.890797,
+    "geom:area_square_m":24184793.890801,
     "geom:bbox":"11.749689,50.389667,11.876426,50.445664",
     "geom:latitude":50.420042,
     "geom:longitude":11.817225,
@@ -174,17 +186,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":235,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690715,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075046",
+        "eurostat:nuts_2021_id":"16075046",
         "gn:id":2903721,
         "gp:id":660351,
         "qs_pg:id":201557,
@@ -201,7 +216,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"34399d45d1d3e2a7a928825b868743d8",
+    "wof:geomhash":"e1aa626e5f1b4e8a1bc5a5975c19edc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101824571,
-    "wof:lastmodified":1608051164,
+    "wof:lastmodified":1684351929,
     "wof:name":"Hirschberg",
     "wof:parent_id":1377690715,
     "wof:placetype":"locality",
-    "wof:population":2240,
+    "wof:population":2132,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

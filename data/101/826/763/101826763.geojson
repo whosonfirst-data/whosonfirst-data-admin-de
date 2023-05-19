@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09573125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ro\u00dftal, M",
+    "eurostat:nuts_2021_id":"09573125",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE258",
+    "eurostat:nuts_2021_level_lau":"09573125",
+    "eurostat:population":10010,
+    "eurostat:population_year":2020,
     "geom:area":0.005491,
     "geom:area_square_m":44201519.53116,
     "geom:bbox":"10.824401,49.354623,10.955393,49.421904",
@@ -154,18 +166,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063467,
         1377689393,
         404227565,
-        85682571
+        102063467
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09573125",
+        "eurostat:nuts_2021_id":"09573125",
         "gn:id":2844616,
         "gp:id":689764,
         "qs_pg:id":27258,
@@ -180,7 +195,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"069955b53f6a3d7d65adefb63c7dfb41",
+    "wof:geomhash":"71b690b7739262985f47ae594aedfe99",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101826763,
-    "wof:lastmodified":1608050296,
+    "wof:lastmodified":1684351936,
     "wof:name":"Ro\u00dftal",
     "wof:parent_id":1377689393,
     "wof:placetype":"locality",
-    "wof:population":10052,
+    "wof:population":10010,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

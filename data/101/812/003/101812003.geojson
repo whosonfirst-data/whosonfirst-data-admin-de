@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bitburg, Stadt",
+    "eurostat:nuts_2021_id":"07232018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232018",
+    "eurostat:population":15047,
+    "eurostat:population_year":2020,
     "geom:area":0.005928,
-    "geom:area_square_m":47139367.499676,
+    "geom:area_square_m":47139367.499678,
     "geom:bbox":"6.452659,49.935258,6.589154,50.018921",
     "geom:latitude":49.974104,
     "geom:longitude":6.533662,
@@ -321,21 +333,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":834,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063613,
         1377685919,
-        85682491
+        85633111,
+        102063613
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232018",
+        "eurostat:nuts_2021_id":"07232018",
         "gn:id":2948184,
         "gp:id":639303,
         "qs_pg:id":455576,
@@ -350,7 +365,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ea72230c917d61fd82ea31ab723691e1",
+    "wof:geomhash":"57ed5d3688932c89a95f20b54325f159",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101812003,
-    "wof:lastmodified":1608051221,
+    "wof:lastmodified":1684351881,
     "wof:name":"Bitburg",
     "wof:parent_id":1377685919,
     "wof:placetype":"locality",
-    "wof:population":12908,
+    "wof:population":15047,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

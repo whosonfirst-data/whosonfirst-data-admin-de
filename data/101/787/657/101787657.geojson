@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St\u00f6ttwang",
+    "eurostat:nuts_2021_id":"09777172",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777172",
+    "eurostat:population":1873,
+    "eurostat:population_year":2020,
     "geom:area":0.002384,
-    "geom:area_square_m":19768618.839915,
+    "geom:area_square_m":19768618.839917,
     "geom:bbox":"10.6814981202,47.8424404481,10.7377969104,47.9109231473",
     "geom:latitude":47.879978,
     "geom:longitude":10.707871,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777172",
+        "eurostat:nuts_2021_id":"09777172",
         "gn:id":2826328,
         "gp:id":697624,
         "qs_pg:id":847262,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d04945f765944405a7c17b57d7e178eb",
+    "wof:geomhash":"8d105cccd26ed41c1fa5a59c0e823a9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101787657,
-    "wof:lastmodified":1582342644,
+    "wof:lastmodified":1684351842,
     "wof:name":"St\u00f6ttwang",
     "wof:parent_id":1377693039,
     "wof:placetype":"locality",
-    "wof:population":1847,
+    "wof:population":1873,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

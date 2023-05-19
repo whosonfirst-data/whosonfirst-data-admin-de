@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09474156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obertrubach",
+    "eurostat:nuts_2021_id":"09474156",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE248",
+    "eurostat:nuts_2021_level_lau":"09474156",
+    "eurostat:population":2211,
+    "eurostat:population_year":2020,
     "geom:area":0.002666,
-    "geom:area_square_m":21320569.403112,
+    "geom:area_square_m":21320569.403113,
     "geom:bbox":"11.276813,49.67828,11.382845,49.726359",
     "geom:latitude":49.700701,
     "geom:longitude":11.331018,
@@ -303,18 +315,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063525,
         1377687967,
         404227583,
-        85682571
+        102063525
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09474156",
+        "eurostat:nuts_2021_id":"09474156",
         "fct:id":"0750f3ee-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2858765,
         "gp:id":12634373,
@@ -329,7 +344,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cb61c7f58477098552d86047edf60d26",
+    "wof:geomhash":"4306b79aeb670246976aae8528f78a56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049799,
+    "wof:lastmodified":1684351940,
     "wof:name":"Obertrubach",
     "wof:parent_id":1377687967,
     "wof:placetype":"locality",
-    "wof:population":2185,
+    "wof:population":2211,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

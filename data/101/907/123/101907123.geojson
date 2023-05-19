@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Illerich",
+    "eurostat:nuts_2021_id":"07135042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135042",
+    "eurostat:population":769,
+    "eurostat:population_year":2020,
     "geom:area":0.000977,
-    "geom:area_square_m":7733318.649237,
+    "geom:area_square_m":7733318.649236,
     "geom:bbox":"7.14400333007,50.1817431654,7.19667299944,50.2205852099",
     "geom:latitude":50.202713,
     "geom:longitude":7.173207,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":815,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135042",
+        "eurostat:nuts_2021_id":"07135042",
         "gn:id":2896548,
         "gp:id":663328,
         "qs_pg:id":578451,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3500c648afcce8ac64bf0d585ecccf79",
+    "wof:geomhash":"fd6cf1cbd9e1cbc088434215c1ae8eb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907123,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351985,
     "wof:name":"Illerich",
     "wof:parent_id":1377685489,
     "wof:placetype":"locality",
-    "wof:population":758,
+    "wof:population":769,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

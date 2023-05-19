@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09563000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00fcrth",
+    "eurostat:nuts_2021_id":"09563000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE253",
+    "eurostat:nuts_2021_level_lau":"09563000",
+    "eurostat:population":128497,
+    "eurostat:population_year":2020,
     "geom:area":0.007856,
-    "geom:area_square_m":63102104.343912,
+    "geom:area_square_m":63102104.343915,
     "geom:bbox":"10.893163,49.43654,11.028632,49.541097",
     "geom:latitude":49.491419,
     "geom:longitude":10.965481,
@@ -406,17 +418,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063463,
         1377688855,
         404227565,
-        85682571
+        102063463
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09563000",
+        "eurostat:nuts_2021_id":"09563000",
         "gn:id":2923544,
         "gp:id":651222,
         "qs_pg:id":274238,
@@ -435,7 +450,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0cf6cbc2b0e3c395d6313c6759735137",
+    "wof:geomhash":"fc1bc206100175f6ade54241ccc50aa2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -448,11 +463,11 @@
         }
     ],
     "wof:id":101748545,
-    "wof:lastmodified":1608050571,
+    "wof:lastmodified":1684351786,
     "wof:name":"F\u00fcrth",
     "wof:parent_id":1377688855,
     "wof:placetype":"locality",
-    "wof:population":112025,
+    "wof:population":128497,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

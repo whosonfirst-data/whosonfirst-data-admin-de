@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gebenbach",
+    "eurostat:nuts_2021_id":"09371123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371123",
+    "eurostat:population":891,
+    "eurostat:population_year":2020,
     "geom:area":0.002266,
     "geom:area_square_m":18178677.25129,
     "geom:bbox":"11.8327365471,49.5242364217,11.9210777223,49.5764791457",
@@ -293,7 +305,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371123",
+        "eurostat:nuts_2021_id":"09371123",
         "gn:id":2922207,
         "gp:id":651728,
         "qs_pg:id":93855,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"04eef6d9cc3aeb2f1c5403cd4d78cf87",
+    "wof:geomhash":"40f18909dfec475dc82d7eb0a8ae53d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101910067,
-    "wof:lastmodified":1582342658,
+    "wof:lastmodified":1684352004,
     "wof:name":"Gebenbach",
     "wof:parent_id":1377685783,
     "wof:placetype":"locality",
-    "wof:population":923,
+    "wof:population":891,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

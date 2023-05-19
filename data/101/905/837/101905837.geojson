@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09779112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Amerdingen",
+    "eurostat:nuts_2021_id":"09779112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27D",
+    "eurostat:nuts_2021_level_lau":"09779112",
+    "eurostat:population":849,
+    "eurostat:population_year":2020,
     "geom:area":0.002324,
-    "geom:area_square_m":18952890.998139,
+    "geom:area_square_m":18952890.99814,
     "geom:bbox":"10.4557395151,48.6947992723,10.5314836392,48.7706557594",
     "geom:latitude":48.735811,
     "geom:longitude":10.49606,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":102,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09779112",
+        "eurostat:nuts_2021_id":"09779112",
         "gn:id":2956564,
         "gp:id":635005,
         "qs_pg:id":579970,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a2fb720b2be759c3173baf897f0a80d1",
+    "wof:geomhash":"67de4ea3fa700336a4f3c9ba33acbc16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101905837,
-    "wof:lastmodified":1582342509,
+    "wof:lastmodified":1684351973,
     "wof:name":"Amerdingen",
     "wof:parent_id":1377693411,
     "wof:placetype":"locality",
-    "wof:population":861,
+    "wof:population":849,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

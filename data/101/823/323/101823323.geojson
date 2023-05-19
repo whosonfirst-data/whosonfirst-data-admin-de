@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16063092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wutha-Farnroda",
+    "eurostat:nuts_2021_id":"16063092",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0P",
+    "eurostat:nuts_2021_level_lau":"16063092",
+    "eurostat:population":6335,
+    "eurostat:population_year":2020,
     "geom:area":0.004663,
-    "geom:area_square_m":36330676.865382,
+    "geom:area_square_m":36330676.865381,
     "geom:bbox":"10.320377,50.910102,10.456685,50.968184",
     "geom:latitude":50.940817,
     "geom:longitude":10.392896,
@@ -293,17 +305,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063723,
         1377689621,
-        85682541
+        85633111,
+        102063723
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16063092",
+        "eurostat:nuts_2021_id":"16063092",
         "gn:id":2805423,
         "gp:id":708381,
         "qs_pg:id":965311,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f499842308919d2f5e000ec224fe0df6",
+    "wof:geomhash":"ba26bec8c1a0cf362dffc933c9c422c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101823323,
-    "wof:lastmodified":1608051080,
+    "wof:lastmodified":1684351925,
     "wof:name":"Wutha-Farnroda",
     "wof:parent_id":1377689621,
     "wof:placetype":"locality",
-    "wof:population":6312,
+    "wof:population":6335,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

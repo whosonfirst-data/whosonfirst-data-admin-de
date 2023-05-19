@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05358044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nideggen, Stadt",
+    "eurostat:nuts_2021_id":"05358044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA26",
+    "eurostat:nuts_2021_level_lau":"05358044",
+    "eurostat:population":10001,
+    "eurostat:population_year":2020,
     "geom:area":0.008249,
     "geom:area_square_m":64636663.204462,
     "geom:bbox":"6.372658,50.635679,6.601408,50.713463",
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":177,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063707,
         1377690177,
         404227541,
-        85682513
+        102063707
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05358044",
+        "eurostat:nuts_2021_id":"05358044",
         "gn:id":2863711,
         "gp:id":679219,
         "loc:id":"n93009732",
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"48591e8912c1316330e09869913b668d",
+    "wof:geomhash":"95b0b961360eacb6c34219c8d3719bfd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101811057,
-    "wof:lastmodified":1608049942,
+    "wof:lastmodified":1684351878,
     "wof:name":"Nideggen",
     "wof:parent_id":1377690177,
     "wof:placetype":"locality",
-    "wof:population":10727,
+    "wof:population":10001,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

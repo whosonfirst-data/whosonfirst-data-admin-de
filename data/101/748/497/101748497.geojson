@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Offenburg, Stadt",
+    "eurostat:nuts_2021_id":"08317096",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317096",
+    "eurostat:population":59967,
+    "eurostat:population_year":2020,
     "geom:area":0.009488,
-    "geom:area_square_m":77775561.314502,
+    "geom:area_square_m":77775561.314498,
     "geom:bbox":"7.86179339379,48.3968515185,8.02863107193,48.5526795809",
     "geom:latitude":48.477748,
     "geom:longitude":7.94381,
@@ -223,7 +235,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":78.38,
     "wd:latitude":48.470833,
     "wd:longitude":7.940833,
@@ -243,6 +256,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317096",
+        "eurostat:nuts_2021_id":"08317096",
         "gn:id":2857798,
         "gp:id":682998,
         "qs_pg:id":900939,
@@ -254,7 +269,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ce76b84f151f3bc456b2f33af243c829",
+    "wof:geomhash":"c88e2ced870b27766b30feed47d6b098",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -267,11 +282,11 @@
         }
     ],
     "wof:id":101748497,
-    "wof:lastmodified":1582342468,
+    "wof:lastmodified":1684351785,
     "wof:name":"Offenburg",
     "wof:parent_id":1377689395,
     "wof:placetype":"locality",
-    "wof:population":58810,
+    "wof:population":59967,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

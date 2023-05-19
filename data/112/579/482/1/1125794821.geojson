@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arnis, Stadt",
+    "eurostat:nuts_2021_id":"01059002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059002",
+    "eurostat:population":281,
+    "eurostat:population_year":2020,
     "geom:area":0.000039,
     "geom:area_square_m":277898.265014,
     "geom:bbox":"9.92393126154,54.6273004114,9.93703622573,54.6346648016",
@@ -147,7 +159,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059002",
+        "eurostat:nuts_2021_id":"01059002",
         "gn:id":2955501,
         "gp:id":635478,
         "qs_pg:id":270829,
@@ -171,7 +186,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a364d07a97dfa963fe1325b1631a6ee7",
+    "wof:geomhash":"7f797466da372166a28f359181c76620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":1125794821,
-    "wof:lastmodified":1582343044,
+    "wof:lastmodified":1684352014,
     "wof:name":"Arnis",
     "wof:parent_id":1377684383,
     "wof:placetype":"locality",
-    "wof:population":297,
+    "wof:population":281,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

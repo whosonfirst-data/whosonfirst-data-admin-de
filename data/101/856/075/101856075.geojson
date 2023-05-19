@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riedbach",
+    "eurostat:nuts_2021_id":"09674153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674153",
+    "eurostat:population":1724,
+    "eurostat:population_year":2020,
     "geom:area":0.003996,
-    "geom:area_square_m":31690365.555472,
+    "geom:area_square_m":31690365.555473,
     "geom:bbox":"10.3777395623,50.076821118,10.4999020922,50.1362693623",
     "geom:latitude":50.104056,
     "geom:longitude":10.439605,
@@ -150,7 +162,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":250,
     "wof:belongsto":[
         85682571,
@@ -162,6 +175,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674153",
+        "eurostat:nuts_2021_id":"09674153",
         "gn:id":3207409,
         "gp:id":29348032,
         "qs_pg:id":581814,
@@ -173,7 +188,7 @@
         "whosonfirst",
         "quattroshapes"
     ],
-    "wof:geomhash":"9ec4735b6c8246f5a11c893d1f49219e",
+    "wof:geomhash":"112966e1e6b4982efbf16677e8f4ba5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -186,11 +201,11 @@
         }
     ],
     "wof:id":101856075,
-    "wof:lastmodified":1582342448,
+    "wof:lastmodified":1684351968,
     "wof:name":"Riedbach",
     "wof:parent_id":1377691063,
     "wof:placetype":"locality",
-    "wof:population":1768,
+    "wof:population":1724,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

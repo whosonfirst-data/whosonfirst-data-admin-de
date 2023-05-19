@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Badenweiler",
+    "eurostat:nuts_2021_id":"08315007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315007",
+    "eurostat:population":4432,
+    "eurostat:population_year":2020,
     "geom:area":0.001579,
-    "geom:area_square_m":13114651.16504,
+    "geom:area_square_m":13114651.165039,
     "geom:bbox":"7.64605990212,47.771305472,7.72157606685,47.8170526559",
     "geom:latitude":47.793674,
     "geom:longitude":7.682742,
@@ -343,7 +355,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":755,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -359,6 +372,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315007",
+        "eurostat:nuts_2021_id":"08315007",
         "gn:id":2953482,
         "gp:id":636562,
         "qs_pg:id":1040244,
@@ -370,7 +385,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e81e122f9c98274bc70b74fd4cc93858",
+    "wof:geomhash":"743aae7da144169afad5309f6872d1f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101765345,
-    "wof:lastmodified":1582342338,
+    "wof:lastmodified":1684351818,
     "wof:name":"Badenweiler",
     "wof:parent_id":1377685479,
     "wof:placetype":"locality",
-    "wof:population":3829,
+    "wof:population":4432,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

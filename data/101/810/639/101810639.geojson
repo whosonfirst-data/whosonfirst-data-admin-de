@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bell",
+    "eurostat:nuts_2021_id":"07137008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137008",
+    "eurostat:population":1321,
+    "eurostat:population_year":2020,
     "geom:area":0.001288,
-    "geom:area_square_m":10151986.468424,
+    "geom:area_square_m":10152021.931029,
     "geom:bbox":"7.188392,50.377648,7.257037,50.414157",
     "geom:latitude":50.396149,
     "geom:longitude":7.223175,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137008",
+        "eurostat:nuts_2021_id":"07137008",
         "gn:id":2951240,
         "gp:id":637609,
         "qs_pg:id":253047
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d075cbd06a1b65b3f2617c931f120cea",
+    "wof:geomhash":"870a4ace21b19848ac3e1943fc0fa78e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810639,
-    "wof:lastmodified":1636499971,
+    "wof:lastmodified":1684351874,
     "wof:name":"Bell",
     "wof:parent_id":1377685571,
     "wof:placetype":"locality",
-    "wof:population":1534,
+    "wof:population":1321,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

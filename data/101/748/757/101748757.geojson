@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dinslaken, Stadt",
+    "eurostat:nuts_2021_id":"05170008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170008",
+    "eurostat:population":67373,
+    "eurostat:population_year":2020,
     "geom:area":0.006162,
-    "geom:area_square_m":47353576.676328,
+    "geom:area_square_m":47353576.676326,
     "geom:bbox":"6.686523,51.532838,6.866164,51.607155",
     "geom:latitude":51.57198,
     "geom:longitude":6.775148,
@@ -319,22 +331,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":188,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689871,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170008",
+        "eurostat:nuts_2021_id":"05170008",
         "gn:id":2936871,
         "gp:id":644785,
         "qs_pg:id":1343862,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"70a59697f60a9fcbe37bc196571b351c",
+    "wof:geomhash":"2f8fe712e06a980dc7d15742933ed02d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101748757,
-    "wof:lastmodified":1608050577,
+    "wof:lastmodified":1684351788,
     "wof:name":"Dinslaken",
     "wof:parent_id":1377689871,
     "wof:placetype":"locality",
-    "wof:population":70573,
+    "wof:population":67373,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

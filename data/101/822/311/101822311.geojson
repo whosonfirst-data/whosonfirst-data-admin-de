@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beiersdorf",
+    "eurostat:nuts_2021_id":"14626020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626020",
+    "eurostat:population":1140,
+    "eurostat:population_year":2020,
     "geom:area":0.000843,
     "geom:area_square_m":6552112.23415,
     "geom:bbox":"14.500973187,51.0567219568,14.5625748124,51.082781578",
@@ -331,7 +343,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1683,
     "wof:belongsto":[
         85682523,
@@ -342,6 +355,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626020",
+        "eurostat:nuts_2021_id":"14626020",
         "gn:id":2951397,
         "gp:id":637529,
         "qs_pg:id":579848,
@@ -353,7 +368,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bac2c61edaed67c5bc3464cea237f399",
+    "wof:geomhash":"4879025fe05a0a94b50668c3b2674016",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -365,11 +380,11 @@
         }
     ],
     "wof:id":101822311,
-    "wof:lastmodified":1582342584,
+    "wof:lastmodified":1684351921,
     "wof:name":"Beiersdorf",
     "wof:parent_id":1377687181,
     "wof:placetype":"locality",
-    "wof:population":1369,
+    "wof:population":1140,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Muhr a.See",
+    "eurostat:nuts_2021_id":"09577114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577114",
+    "eurostat:population":2338,
+    "eurostat:population_year":2020,
     "geom:area":0.001366,
-    "geom:area_square_m":11043141.926142,
+    "geom:area_square_m":11043141.926143,
     "geom:bbox":"10.693033,49.14109,10.740669,49.187258",
     "geom:latitude":49.16045,
     "geom:longitude":10.719252,
@@ -294,18 +306,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063389,
         1377690171,
         404227565,
-        85682571
+        102063389
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577114",
+        "eurostat:nuts_2021_id":"09577114",
         "gn:id":3206926,
         "gp:id":15002718,
         "qs_pg:id":244613,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"26f0f996b3a8b68dea50fe1fb2830837",
+    "wof:geomhash":"ed0b92f98922b346d1e93bccbe403a1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101781911,
-    "wof:lastmodified":1608051927,
+    "wof:lastmodified":1684351821,
     "wof:name":"Muhr a. See",
     "wof:parent_id":1377690171,
     "wof:placetype":"locality",
-    "wof:population":2155,
+    "wof:population":2338,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

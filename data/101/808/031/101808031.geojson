@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03361010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riede",
+    "eurostat:nuts_2021_id":"03361010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93B",
+    "eurostat:nuts_2021_level_lau":"03361010",
+    "eurostat:population":2821,
+    "eurostat:population_year":2020,
     "geom:area":0.003609,
-    "geom:area_square_m":26874851.574024,
+    "geom:area_square_m":26874851.574021,
     "geom:bbox":"8.90391331906,52.926456847,8.9748102126,53.0096011498",
     "geom:latitude":52.966705,
     "geom:longitude":8.939798,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03361010",
+        "eurostat:nuts_2021_id":"03361010",
         "gn:id":2847271,
         "gp:id":688501,
         "qs_pg:id":1038620,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"757e74d4b927b6fa9af702a659ad5fb0",
+    "wof:geomhash":"8746a0b5db36f47a6838240f56d2264d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101808031,
-    "wof:lastmodified":1582342606,
+    "wof:lastmodified":1684351863,
     "wof:name":"Riede",
     "wof:parent_id":1377688085,
     "wof:placetype":"locality",
-    "wof:population":2716,
+    "wof:population":2821,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09177124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchberg",
+    "eurostat:nuts_2021_id":"09177124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21A",
+    "eurostat:nuts_2021_level_lau":"09177124",
+    "eurostat:population":1069,
+    "eurostat:population_year":2020,
     "geom:area":0.002081,
-    "geom:area_square_m":17078824.098074,
+    "geom:area_square_m":17078824.098071,
     "geom:bbox":"12.0185375718,48.384797024,12.1067770078,48.428955003",
     "geom:latitude":48.408846,
     "geom:longitude":12.062451,
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -130,13 +143,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09177124",
+        "eurostat:nuts_2021_id":"09177124",
         "gn:id":2890670
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"d5705979a6cf1e5037f5e32a42063e13",
+    "wof:geomhash":"7b480832ba0a67f4b7ef5bd2f3068fae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,12 +164,12 @@
         }
     ],
     "wof:id":1326732997,
-    "wof:lastmodified":1582341874,
+    "wof:lastmodified":1684352061,
     "wof:name":"Kirchberg",
     "wof:parent_id":1377691797,
     "wof:placetype":"locality",
-    "wof:population":884,
-    "wof:population_rank":2,
+    "wof:population":1069,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

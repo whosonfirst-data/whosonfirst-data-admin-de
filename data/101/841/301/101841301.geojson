@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fchlhausen/Th\u00fcringen, Stadt",
+    "eurostat:nuts_2021_id":"16064046",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064046",
+    "eurostat:population":36090,
+    "eurostat:population_year":2020,
     "geom:area":0.01124,
-    "geom:area_square_m":87037424.966301,
+    "geom:area_square_m":87037424.9663,
     "geom:bbox":"10.3617752179,51.1745879377,10.5554235366,51.3035024707",
     "geom:latitude":51.226085,
     "geom:longitude":10.463528,
@@ -340,7 +352,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -350,6 +363,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064046",
+        "eurostat:nuts_2021_id":"16064046",
         "gn:id":2867996,
         "gp:id":676608,
         "qs_pg:id":142102,
@@ -361,7 +376,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"54b722840cdf1d7d9f83a8a8382869ee",
+    "wof:geomhash":"6fd7c68ac5d7ee91f82b8077a737755b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -373,11 +388,11 @@
         }
     ],
     "wof:id":101841301,
-    "wof:lastmodified":1582342519,
+    "wof:lastmodified":1684351952,
     "wof:name":"M\u00fchlhausen/Th\u00fcringen",
     "wof:parent_id":1377689753,
     "wof:placetype":"locality",
-    "wof:population":38108,
+    "wof:population":36090,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

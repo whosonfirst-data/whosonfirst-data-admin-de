@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Friemar",
+    "eurostat:nuts_2021_id":"16067022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067022",
+    "eurostat:population":1005,
+    "eurostat:population_year":2020,
     "geom:area":0.001199,
     "geom:area_square_m":9335768.562295,
     "geom:bbox":"10.7540579235,50.9593463057,10.8019542795,50.9985939531",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067022",
+        "eurostat:nuts_2021_id":"16067022",
         "gn:id":2924412,
         "gp:id":650868,
         "qs_pg:id":579102,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ebc59d0b0d13d65ef155b9b334f7333e",
+    "wof:geomhash":"861319357fd156d393ee8ce9db3098ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101823241,
-    "wof:lastmodified":1582342534,
+    "wof:lastmodified":1684351925,
     "wof:name":"Friemar",
     "wof:parent_id":1377690157,
     "wof:placetype":"locality",
-    "wof:population":1213,
+    "wof:population":1005,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

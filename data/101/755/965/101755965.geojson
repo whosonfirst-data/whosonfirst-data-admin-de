@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521410",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neukirchen/Erzgeb.",
+    "eurostat:nuts_2021_id":"14521410",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521410",
+    "eurostat:population":6907,
+    "eurostat:population_year":2020,
     "geom:area":0.002555,
-    "geom:area_square_m":19984503.904695,
+    "geom:area_square_m":19984503.904694,
     "geom:bbox":"12.8166321827,50.7357333888,12.9088534938,50.8020232293",
     "geom:latitude":50.769535,
     "geom:longitude":12.864801,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682523,
         102191581,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521410",
+        "eurostat:nuts_2021_id":"14521410",
         "gn:id":7602470,
         "gp:id":678659,
         "qs_pg:id":1041803,
@@ -161,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76922ea587b548b83dbae3c83e22b278",
+    "wof:geomhash":"c4e1ba90b370aa20e5cce63a01e99458",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101755965,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351791,
     "wof:name":"Neukirchen/Erzgeb.",
     "wof:parent_id":1377685559,
     "wof:placetype":"locality",
-    "wof:population":6735,
+    "wof:population":6907,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

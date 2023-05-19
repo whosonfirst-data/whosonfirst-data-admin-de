@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruchsal, Stadt",
+    "eurostat:nuts_2021_id":"08215009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215009",
+    "eurostat:population":44776,
+    "eurostat:population_year":2020,
     "geom:area":0.011489,
-    "geom:area_square_m":92991557.149031,
+    "geom:area_square_m":92991557.149036,
     "geom:bbox":"8.50787744937,49.0591008143,8.68955359646,49.2002829121",
     "geom:latitude":49.112402,
     "geom:longitude":8.593083,
@@ -340,7 +352,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":92.72,
     "wd:latitude":49.133333,
     "wd:longitude":8.6,
@@ -356,6 +369,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215009",
+        "eurostat:nuts_2021_id":"08215009",
         "gn:id":2943560,
         "gp:id":641574,
         "qs_pg:id":1343732,
@@ -367,7 +382,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a3a24843236925f91a27c090c348849c",
+    "wof:geomhash":"9254c15a7a06320415bee82112098082",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,11 +395,11 @@
         }
     ],
     "wof:id":101826709,
-    "wof:lastmodified":1582342435,
+    "wof:lastmodified":1684351935,
     "wof:name":"Bruchsal",
     "wof:parent_id":1377688303,
     "wof:placetype":"locality",
-    "wof:population":33755,
+    "wof:population":44776,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

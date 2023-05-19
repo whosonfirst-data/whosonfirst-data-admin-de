@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sangerhausen, Stadt",
+    "eurostat:nuts_2021_id":"15087370",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087370",
+    "eurostat:population":25963,
+    "eurostat:population_year":2020,
     "geom:area":0.027168,
-    "geom:area_square_m":209041601.871318,
+    "geom:area_square_m":209041601.871317,
     "geom:bbox":"11.070508,51.414184,11.38923,51.597949",
     "geom:latitude":51.518114,
     "geom:longitude":11.250963,
@@ -321,17 +333,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":730,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063819,
         1377688773,
-        85682519
+        85633111,
+        102063819
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087370",
+        "eurostat:nuts_2021_id":"15087370",
         "gn:id":2841693,
         "gp:id":691020,
         "loc:id":"n93009322",
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7a6fd1d478c7bcd681efc58986e0786b",
+    "wof:geomhash":"eab1c9fc406beefacfa6d9848764af64",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101822395,
-    "wof:lastmodified":1608051477,
+    "wof:lastmodified":1684351922,
     "wof:name":"Sangerhausen",
     "wof:parent_id":1377688773,
     "wof:placetype":"locality",
-    "wof:population":23347,
+    "wof:population":25963,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

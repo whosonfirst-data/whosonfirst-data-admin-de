@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05374040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reichshof",
+    "eurostat:nuts_2021_id":"05374040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2A",
+    "eurostat:nuts_2021_level_lau":"05374040",
+    "eurostat:population":18600,
+    "eurostat:population_year":2020,
     "geom:area":0.014679,
-    "geom:area_square_m":114330786.255924,
+    "geom:area_square_m":114330786.255921,
     "geom:bbox":"7.589098,50.900944,7.792023,51.011202",
     "geom:latitude":50.957215,
     "geom:longitude":7.687683,
@@ -297,22 +309,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":640,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063741,
         1377690483,
         404227541,
-        85682513
+        102063741
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05374040",
+        "eurostat:nuts_2021_id":"05374040",
         "gn:id":3207652,
         "gp:id":695186,
         "qs_pg:id":1152317,
@@ -326,7 +341,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"260111a773ee68354539c4a1b32a23a4",
+    "wof:geomhash":"76aeca799bd6c333d8ae77bba17c0d10",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101810013,
-    "wof:lastmodified":1608050037,
+    "wof:lastmodified":1684351870,
     "wof:name":"Reichshof",
     "wof:parent_id":1377690483,
     "wof:placetype":"locality",
-    "wof:population":18765,
+    "wof:population":18600,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

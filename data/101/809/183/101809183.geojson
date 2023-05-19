@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bockenem, Stadt",
+    "eurostat:nuts_2021_id":"03254008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254008",
+    "eurostat:population":9855,
+    "eurostat:population_year":2020,
     "geom:area":0.014426,
-    "geom:area_square_m":109806913.692456,
+    "geom:area_square_m":109806913.69245,
     "geom:bbox":"10.016953,51.955351,10.206056,52.060603",
     "geom:latitude":52.007166,
     "geom:longitude":10.120273,
@@ -309,21 +321,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":212,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063895,
         1377686669,
-        85682555
+        85633111,
+        102063895
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254008",
+        "eurostat:nuts_2021_id":"03254008",
         "gn:id":2947359,
         "gp:id":639705,
         "qs_pg:id":1144425,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f61db5aec7b5b3974fd976ab6b943619",
+    "wof:geomhash":"e46fb11ac8e9a9cddea8365670ba37a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,12 +365,12 @@
         }
     ],
     "wof:id":101809183,
-    "wof:lastmodified":1608051649,
+    "wof:lastmodified":1684351868,
     "wof:name":"Bockenem",
     "wof:parent_id":1377686669,
     "wof:placetype":"locality",
-    "wof:population":11177,
-    "wof:population_rank":6,
+    "wof:population":9855,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

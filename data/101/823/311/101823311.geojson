@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mellingen",
+    "eurostat:nuts_2021_id":"16071056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071056",
+    "eurostat:population":1425,
+    "eurostat:population_year":2020,
     "geom:area":0.001843,
-    "geom:area_square_m":14364407.905298,
+    "geom:area_square_m":14364407.905299,
     "geom:bbox":"11.3508207754,50.9181162929,11.4242338957,50.9640526305",
     "geom:latitude":50.938527,
     "geom:longitude":11.394807,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":935,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071056",
+        "eurostat:nuts_2021_id":"16071056",
         "gn:id":2872057,
         "gp:id":698668,
         "qs_pg:id":142153,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5cf8549a38d1128ef98f5109e45cf22e",
+    "wof:geomhash":"9114eb2cb8b7a0422076c08a2680ca6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101823311,
-    "wof:lastmodified":1582342535,
+    "wof:lastmodified":1684351925,
     "wof:name":"Mellingen",
     "wof:parent_id":1377690487,
     "wof:placetype":"locality",
-    "wof:population":1234,
+    "wof:population":1425,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

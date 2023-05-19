@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fischbachtal",
+    "eurostat:nuts_2021_id":"06432007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432007",
+    "eurostat:population":2733,
+    "eurostat:population_year":2020,
     "geom:area":0.001668,
-    "geom:area_square_m":13327217.890323,
+    "geom:area_square_m":13327217.890324,
     "geom:bbox":"8.775612,49.736002,8.838498,49.78227",
     "geom:latitude":49.758498,
     "geom:longitude":8.80686,
@@ -291,22 +303,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693083,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432007",
+        "eurostat:nuts_2021_id":"06432007",
         "gn:id":2926581,
         "gp:id":681915,
         "qs_pg:id":579165,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47d29612e775fcdf17bb29258f3b9864",
+    "wof:geomhash":"bd780927c39c8f41b8ef727d475866ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101813417,
-    "wof:lastmodified":1608051374,
+    "wof:lastmodified":1684351891,
     "wof:name":"Fischbachtal",
     "wof:parent_id":1377693083,
     "wof:placetype":"locality",
-    "wof:population":2622,
+    "wof:population":2733,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

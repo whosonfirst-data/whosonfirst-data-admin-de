@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dreis",
+    "eurostat:nuts_2021_id":"07231024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231024",
+    "eurostat:population":1402,
+    "eurostat:population_year":2020,
     "geom:area":0.001406,
-    "geom:area_square_m":11189558.752499,
+    "geom:area_square_m":11189558.7525,
     "geom:bbox":"6.79176144686,49.9270105652,6.86530941744,49.9624821552",
     "geom:latitude":49.945602,
     "geom:longitude":6.825373,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":498,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231024",
+        "eurostat:nuts_2021_id":"07231024",
         "gn:id":2935117,
         "gp:id":645642,
         "qs_pg:id":1075690,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f8e8587c2f240230f66edae7d4d8c056",
+    "wof:geomhash":"36ea1f8b1837c41364ccf7a850247b2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101813575,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351892,
     "wof:name":"Dreis",
     "wof:parent_id":1377685901,
     "wof:placetype":"locality",
-    "wof:population":1355,
+    "wof:population":1402,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niddatal, Stadt",
+    "eurostat:nuts_2021_id":"06440017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440017",
+    "eurostat:population":9828,
+    "eurostat:population_year":2020,
     "geom:area":0.005086,
-    "geom:area_square_m":40184863.250064,
+    "geom:area_square_m":40184863.250063,
     "geom:bbox":"8.776963,50.234985,8.904187,50.322878",
     "geom:latitude":50.282637,
     "geom:longitude":8.835246,
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.266667,
     "wd:longitude":8.816667,
     "wd:wordcount":417,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694357,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440017",
+        "eurostat:nuts_2021_id":"06440017",
         "gn:id":3208097,
         "gp:id":15002728,
         "qs_pg:id":1064694,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"462e9b24d3a6f0b0848af5a5bed3baa8",
+    "wof:geomhash":"1850abb961645cbfc4136d5270e9c561",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -355,11 +370,11 @@
         }
     ],
     "wof:id":101812225,
-    "wof:lastmodified":1608051220,
+    "wof:lastmodified":1684351884,
     "wof:name":"Niddatal",
     "wof:parent_id":1377694357,
     "wof:placetype":"locality",
-    "wof:population":9258,
+    "wof:population":9828,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

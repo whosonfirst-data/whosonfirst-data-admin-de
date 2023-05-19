@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nustrow",
+    "eurostat:nuts_2021_id":"13072076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072076",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "geom:area":0.000947,
-    "geom:area_square_m":6876532.148114,
+    "geom:area_square_m":6876532.148113,
     "geom:bbox":"12.5620778059,54.0041769303,12.6346181687,54.0370346873",
     "geom:latitude":54.018267,
     "geom:longitude":12.601792,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072076",
+        "eurostat:nuts_2021_id":"13072076",
         "gn:id":2861569,
         "gp:id":680598,
         "qs_pg:id":275888,
@@ -303,7 +318,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"049fb01c957ca6de18a9cc52018b228b",
+    "wof:geomhash":"fbccba0bb7991fc1f002744f6ba896cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101908811,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351999,
     "wof:name":"Nustrow",
     "wof:parent_id":1377684723,
     "wof:placetype":"locality",
-    "wof:population":167,
+    "wof:population":158,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

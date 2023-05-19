@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09187148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kiefersfelden",
+    "eurostat:nuts_2021_id":"09187148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21K",
+    "eurostat:nuts_2021_level_lau":"09187148",
+    "eurostat:population":6844,
+    "eurostat:population_year":2020,
     "geom:area":0.004405,
-    "geom:area_square_m":36706222.527981,
+    "geom:area_square_m":36706222.52798,
     "geom:bbox":"12.02838,47.600867,12.208235,47.654887",
     "geom:latitude":47.625869,
     "geom:longitude":12.127642,
@@ -148,18 +160,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":86,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063245,
         1377694105,
         404227567,
-        85682571
+        102063245
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09187148",
+        "eurostat:nuts_2021_id":"09187148",
         "fct:id":"07478b6a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2891175,
         "gp:id":665674,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e13fcfb43dd49bd348253d1aaa1489d1",
+    "wof:geomhash":"db90fe0d94e1d3c234b207f05458bc93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050431,
+    "wof:lastmodified":1684351945,
     "wof:name":"Kiefersfelden",
     "wof:parent_id":1377694105,
     "wof:placetype":"locality",
-    "wof:population":6912,
+    "wof:population":6844,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12066124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hermsdorf",
+    "eurostat:nuts_2021_id":"12066124",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40B",
+    "eurostat:nuts_2021_level_lau":"12066124",
+    "eurostat:population":776,
+    "eurostat:population_year":2020,
     "geom:area":0.00425,
-    "geom:area_square_m":32785597.096047,
+    "geom:area_square_m":32785597.09605,
     "geom:bbox":"13.830612561,51.3750362963,13.9674167102,51.4239142836",
     "geom:latitude":51.399729,
     "geom:longitude":13.888044,
@@ -95,7 +107,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -105,13 +118,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12066124",
+        "eurostat:nuts_2021_id":"12066124",
         "gn:id":2905907
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"58b699df51694f5f580d35ef964c3da8",
+    "wof:geomhash":"17303b8c708747d92430e66b1a3b96a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +138,11 @@
         }
     ],
     "wof:id":1344044605,
-    "wof:lastmodified":1582341949,
+    "wof:lastmodified":1684352063,
     "wof:name":"Hermsdorf",
     "wof:parent_id":1377683491,
     "wof:placetype":"locality",
-    "wof:population":808,
+    "wof:population":776,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

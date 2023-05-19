@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riegsee",
+    "eurostat:nuts_2021_id":"09180128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180128",
+    "eurostat:population":1193,
+    "eurostat:population_year":2020,
     "geom:area":0.00242,
     "geom:area_square_m":20142959.249081,
     "geom:bbox":"11.2231114982,47.6664015903,11.2915085977,47.7265719818",
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":130,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180128",
+        "eurostat:nuts_2021_id":"09180128",
         "fct:id":"07549bac-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2847017,
         "gp:id":688624,
@@ -190,7 +205,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c6ce02650de92e2bfaa18e45833b0880",
+    "wof:geomhash":"253c1f7aee30c5c629f8d86177945993",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342649,
+    "wof:lastmodified":1684351840,
     "wof:name":"Riegsee",
     "wof:parent_id":1377692227,
     "wof:placetype":"locality",
-    "wof:population":1164,
+    "wof:population":1193,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

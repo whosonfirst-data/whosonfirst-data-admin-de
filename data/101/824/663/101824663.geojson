@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meiningen, Stadt",
+    "eurostat:nuts_2021_id":"16066042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066042",
+    "eurostat:population":24796,
+    "eurostat:population_year":2020,
     "geom:area":0.007521,
-    "geom:area_square_m":59059068.025064,
+    "geom:area_square_m":59059068.025063,
     "geom:bbox":"10.3040219267,50.5348821753,10.4685687982,50.6177131478",
     "geom:latitude":50.573611,
     "geom:longitude":10.387822,
@@ -345,7 +357,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3871,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -360,6 +373,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066042",
+        "eurostat:nuts_2021_id":"16066042",
         "gn:id":2872225,
         "gp:id":674622,
         "qs_pg:id":977605,
@@ -371,7 +386,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e1848988a91831a1c1fa4738260de549",
+    "wof:geomhash":"6a37ee5f06211dde6cec01f979736955",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -383,11 +398,11 @@
         }
     ],
     "wof:id":101824663,
-    "wof:lastmodified":1582342542,
+    "wof:lastmodified":1684351930,
     "wof:name":"Meiningen",
     "wof:parent_id":1377690047,
     "wof:placetype":"locality",
-    "wof:population":21580,
+    "wof:population":24796,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

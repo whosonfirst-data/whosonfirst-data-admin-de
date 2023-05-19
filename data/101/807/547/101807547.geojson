@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05766036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kalletal",
+    "eurostat:nuts_2021_id":"05766036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA45",
+    "eurostat:nuts_2021_level_lau":"05766036",
+    "eurostat:population":13471,
+    "eurostat:population_year":2020,
     "geom:area":0.014726,
-    "geom:area_square_m":111798717.525958,
+    "geom:area_square_m":111798717.525964,
     "geom:bbox":"8.864169,52.060226,9.039944,52.194599",
     "geom:latitude":52.121755,
     "geom:longitude":8.959154,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063883,
         1377691817,
         404227571,
-        85682513
+        102063883
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05766036",
+        "eurostat:nuts_2021_id":"05766036",
         "gn:id":3213264,
         "gp:id":15002668,
         "qs_pg:id":989063,
@@ -328,7 +343,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"96d3683c36b05e9c7d59bd88bccfcf84",
+    "wof:geomhash":"ff58f4403f1207a5041623e8071f1c61",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101807547,
-    "wof:lastmodified":1608051571,
+    "wof:lastmodified":1684351857,
     "wof:name":"Kalletal",
     "wof:parent_id":1377691817,
     "wof:placetype":"locality",
-    "wof:population":14006,
+    "wof:population":13471,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

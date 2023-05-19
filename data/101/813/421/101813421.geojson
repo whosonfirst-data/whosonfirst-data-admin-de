@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alsbach-H\u00e4hnlein",
+    "eurostat:nuts_2021_id":"06432001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432001",
+    "eurostat:population":9089,
+    "eurostat:population_year":2020,
     "geom:area":0.001959,
-    "geom:area_square_m":15654308.924396,
+    "geom:area_square_m":15654308.924398,
     "geom:bbox":"8.554042,49.724895,8.646422,49.766671",
     "geom:latitude":49.741498,
     "geom:longitude":8.591213,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693029,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432001",
+        "eurostat:nuts_2021_id":"06432001",
         "gn:id":3272934,
         "gp:id":20162155,
         "qs_pg:id":147402,
@@ -331,7 +346,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8fbd25fc5025900909c33a5540318d82",
+    "wof:geomhash":"3add1520474c343451fad2c73121d23b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101813421,
-    "wof:lastmodified":1608051371,
+    "wof:lastmodified":1684351891,
     "wof:name":"Alsbach-H\u00e4hnlein",
     "wof:parent_id":1377693029,
     "wof:placetype":"locality",
-    "wof:population":9300,
+    "wof:population":9089,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

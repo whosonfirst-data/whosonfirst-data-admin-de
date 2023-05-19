@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alsdorf",
+    "eurostat:nuts_2021_id":"07232002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232002",
+    "eurostat:population":462,
+    "eurostat:population_year":2020,
     "geom:area":0.0008,
-    "geom:area_square_m":6373334.423002,
+    "geom:area_square_m":6373334.423,
     "geom:bbox":"6.4414494826,49.8752886152,6.49596890538,49.8980055541",
     "geom:latitude":49.887884,
     "geom:longitude":6.465639,
@@ -161,7 +173,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -175,13 +188,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232002",
+        "eurostat:nuts_2021_id":"07232002",
         "gn:id":2958143
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a98e90ee3c7dcbaac2cb1d9261969e9f",
+    "wof:geomhash":"bca3716d0f1ad1aa85e076f2e18cb75e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":1343948395,
-    "wof:lastmodified":1582341948,
+    "wof:lastmodified":1684352063,
     "wof:name":"Alsdorf",
     "wof:parent_id":1377685933,
     "wof:placetype":"locality",
-    "wof:population":388,
+    "wof:population":462,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagelstadt",
+    "eurostat:nuts_2021_id":"09375143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375143",
+    "eurostat:population":1978,
+    "eurostat:population_year":2020,
     "geom:area":0.002578,
-    "geom:area_square_m":20954507.540984,
+    "geom:area_square_m":20954507.540985,
     "geom:bbox":"12.171644,48.867253,12.291724,48.920807",
     "geom:latitude":48.894286,
     "geom:longitude":12.229564,
@@ -151,18 +163,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1377675605,
         1377686453,
         404227545,
-        85682571
+        1377675605
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375143",
+        "eurostat:nuts_2021_id":"09375143",
         "fct:id":"071544ac-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2912646,
         "gp:id":656354,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73b88402756fe4768e0f3a6982c1f088",
+    "wof:geomhash":"73b9db7387611d500b7aaace1cb947a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050626,
+    "wof:lastmodified":1684351829,
     "wof:name":"Hagelstadt",
     "wof:parent_id":1377686453,
     "wof:placetype":"locality",
-    "wof:population":1852,
+    "wof:population":1978,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08316003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biederbach",
+    "eurostat:nuts_2021_id":"08316003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE133",
+    "eurostat:nuts_2021_level_lau":"08316003",
+    "eurostat:population":1768,
+    "eurostat:population_year":2020,
     "geom:area":0.003827,
-    "geom:area_square_m":31537269.686119,
+    "geom:area_square_m":31537269.686123,
     "geom:bbox":"7.98107078591,48.1702210655,8.09953605694,48.2341550848",
     "geom:latitude":48.201493,
     "geom:longitude":8.03124,
@@ -303,7 +315,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08316003",
+        "eurostat:nuts_2021_id":"08316003",
         "gn:id":2949225,
         "gp:id":645191,
         "qs_pg:id":579769,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"b711b12d270bd274c394a43125640cfb",
+    "wof:geomhash":"828288d45da47e167bb4cad261c2d1b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101855459,
-    "wof:lastmodified":1582342630,
+    "wof:lastmodified":1684351966,
     "wof:name":"Biederbach",
     "wof:parent_id":1377685543,
     "wof:placetype":"locality",
-    "wof:population":1720,
+    "wof:population":1768,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

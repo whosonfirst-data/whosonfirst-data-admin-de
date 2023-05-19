@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nesselwang, M",
+    "eurostat:nuts_2021_id":"09777153",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777153",
+    "eurostat:population":3753,
+    "eurostat:population_year":2020,
     "geom:area":0.003519,
     "geom:area_square_m":29333489.328511,
     "geom:bbox":"10.449996,47.58445,10.551604,47.654365",
@@ -190,22 +202,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":605,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063239,
         1377692975,
         404227547,
-        85682571
+        102063239
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777153",
+        "eurostat:nuts_2021_id":"09777153",
         "gn:id":2866416,
         "gp:id":677526,
         "qs_pg:id":1229711,
@@ -220,7 +235,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"edfd670f831e06aca823896eabb4d9a1",
+    "wof:geomhash":"5d0202402e950df6017ed96a218d24bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -233,11 +248,11 @@
         }
     ],
     "wof:id":101788951,
-    "wof:lastmodified":1608051897,
+    "wof:lastmodified":1684351846,
     "wof:name":"Nesselwang",
     "wof:parent_id":1377692975,
     "wof:placetype":"locality",
-    "wof:population":3498,
+    "wof:population":3753,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchheilingen",
+    "eurostat:nuts_2021_id":"16064033",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064033",
+    "eurostat:population":800,
+    "eurostat:population_year":2020,
     "geom:area":0.002165,
-    "geom:area_square_m":16777901.138673,
+    "geom:area_square_m":16777901.138674,
     "geom:bbox":"10.6766512452,51.1619794826,10.757766587,51.2152429889",
     "geom:latitude":51.183862,
     "geom:longitude":10.714034,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064033",
+        "eurostat:nuts_2021_id":"16064033",
         "gn:id":2890490,
         "gp:id":665961,
         "qs_pg:id":578314,
@@ -315,7 +330,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"94dc611888384ed09454a0a5c2699aac",
+    "wof:geomhash":"12b3da2a3aab567d32ebb574837c9d3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101909017,
-    "wof:lastmodified":1582342290,
+    "wof:lastmodified":1684352001,
     "wof:name":"Kirchheilingen",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":882,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

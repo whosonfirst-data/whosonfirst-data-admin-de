@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leezen",
+    "eurostat:nuts_2021_id":"13076082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076082",
+    "eurostat:population":2230,
+    "eurostat:population_year":2020,
     "geom:area":0.003714,
-    "geom:area_square_m":27210281.573059,
+    "geom:area_square_m":27210281.573055,
     "geom:bbox":"11.4494746966,53.6204334417,11.5383485605,53.7107482723",
     "geom:latitude":53.664372,
     "geom:longitude":11.503077,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":70,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076082",
+        "eurostat:nuts_2021_id":"13076082",
         "gn:id":2879667,
         "gp:id":20165968,
         "qs_pg:id":93511,
@@ -306,7 +321,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"228cb497121e4fae0db9f7f90405a32b",
+    "wof:geomhash":"e4e21f7c833a311e45efa46a5330ae4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101818687,
-    "wof:lastmodified":1582342359,
+    "wof:lastmodified":1684351902,
     "wof:name":"Leezen",
     "wof:parent_id":1377685357,
     "wof:placetype":"locality",
-    "wof:population":2222,
+    "wof:population":2230,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00e4shofen",
+    "eurostat:nuts_2021_id":"07340212",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340212",
+    "eurostat:population":629,
+    "eurostat:population_year":2020,
     "geom:area":0.001084,
-    "geom:area_square_m":8735466.899864,
+    "geom:area_square_m":8735466.899863,
     "geom:bbox":"7.37771603812,49.3096505351,7.45095356027,49.3396051401",
     "geom:latitude":49.325341,
     "geom:longitude":7.415085,
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340212",
+        "eurostat:nuts_2021_id":"07340212",
         "gn:id":2892549,
         "gp:id":665061,
         "qs_pg:id":93604,
@@ -300,7 +315,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"920d1c31c643c793e66fb544133c7a78",
+    "wof:geomhash":"4991ce595106846c1f91d12385af1d97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -312,11 +327,11 @@
         }
     ],
     "wof:id":101905941,
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351974,
     "wof:name":"K\u00e4shofen",
     "wof:parent_id":1377686787,
     "wof:placetype":"locality",
-    "wof:population":747,
+    "wof:population":629,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

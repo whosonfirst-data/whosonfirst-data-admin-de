@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08436096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fronreute",
+    "eurostat:nuts_2021_id":"08436096",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE148",
+    "eurostat:nuts_2021_level_lau":"08436096",
+    "eurostat:population":4822,
+    "eurostat:population_year":2020,
     "geom:area":0.005547,
-    "geom:area_square_m":46013463.465484,
+    "geom:area_square_m":46013463.465478,
     "geom:bbox":"9.48053285761,47.834208964,9.64110196085,47.9076934978",
     "geom:latitude":47.867605,
     "geom:longitude":9.554468,
@@ -309,7 +321,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -325,6 +338,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08436096",
+        "eurostat:nuts_2021_id":"08436096",
         "gn:id":3205655,
         "gp:id":639537,
         "qs_pg:id":95213,
@@ -335,7 +350,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3edd271b0f0018e50cf68631e730b760",
+    "wof:geomhash":"7a2f0afe198950597dc83392056dd851",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101842041,
-    "wof:lastmodified":1582342391,
+    "wof:lastmodified":1684351954,
     "wof:name":"Fronreute",
     "wof:parent_id":1377690607,
     "wof:placetype":"locality",
-    "wof:population":4478,
+    "wof:population":4822,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

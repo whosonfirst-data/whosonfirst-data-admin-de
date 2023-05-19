@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08117061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauterstein, Stadt",
+    "eurostat:nuts_2021_id":"08117061",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE114",
+    "eurostat:nuts_2021_level_lau":"08117061",
+    "eurostat:population":2559,
+    "eurostat:population_year":2020,
     "geom:area":0.002849,
-    "geom:area_square_m":23242088.059725,
+    "geom:area_square_m":23242088.059723,
     "geom:bbox":"9.83333676288,48.6929998954,9.94329882557,48.7539529806",
     "geom:latitude":48.720057,
     "geom:longitude":9.892698,
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":22.51,
     "wd:latitude":48.71,
     "wd:longitude":9.861389,
@@ -335,6 +348,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08117061",
+        "eurostat:nuts_2021_id":"08117061",
         "gn:id":3209442,
         "gp:id":677468,
         "qs_pg:id":95298,
@@ -345,7 +360,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f875cf1bfd94a8d81d73dc04148d1431",
+    "wof:geomhash":"cd4950d18002a42f3b0b3fa7a044139f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101761747,
-    "wof:lastmodified":1582342511,
+    "wof:lastmodified":1684351804,
     "wof:name":"Lauterstein",
     "wof:parent_id":1377687205,
     "wof:placetype":"locality",
-    "wof:population":2457,
+    "wof:population":2559,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

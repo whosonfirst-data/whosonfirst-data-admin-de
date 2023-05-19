@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gollenberg",
+    "eurostat:nuts_2021_id":"07134031",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134031",
+    "eurostat:population":116,
+    "eurostat:population_year":2020,
     "geom:area":0.000401,
     "geom:area_square_m":3206584.206045,
     "geom:bbox":"7.14434264973,49.6605035391,7.17667262407,49.6806677613",
@@ -261,7 +273,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -271,6 +284,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134031",
+        "eurostat:nuts_2021_id":"07134031",
         "gn:id":2919246,
         "qs_pg:id":578963,
         "wd:id":"Q676609"
@@ -280,7 +295,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"bb520e0212f5f5cb2db8178047dd515c",
+    "wof:geomhash":"a9e3d39b8779328adf649a7d4823ca3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -292,11 +307,11 @@
         }
     ],
     "wof:id":1125828457,
-    "wof:lastmodified":1582343024,
+    "wof:lastmodified":1684352019,
     "wof:name":"Gollenberg",
     "wof:parent_id":1377685453,
     "wof:placetype":"locality",
-    "wof:population":129,
+    "wof:population":116,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

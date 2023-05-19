@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03352041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nordleda",
+    "eurostat:nuts_2021_id":"03352041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE932",
+    "eurostat:nuts_2021_level_lau":"03352041",
+    "eurostat:population":1053,
+    "eurostat:population_year":2020,
     "geom:area":0.00291,
-    "geom:area_square_m":21267045.582602,
+    "geom:area_square_m":21267045.582601,
     "geom:bbox":"8.75776797311,53.7463771953,8.86810226286,53.7888700668",
     "geom:latitude":53.767147,
     "geom:longitude":8.812473,
@@ -281,7 +293,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":144,
     "wof:belongsto":[
         85682555,
@@ -292,6 +305,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03352041",
+        "eurostat:nuts_2021_id":"03352041",
         "gn:id":2861919,
         "gp:id":20167283,
         "qs_pg:id":93315,
@@ -303,7 +318,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dbed58ec320e8eac088690e57b6789e5",
+    "wof:geomhash":"6d19f90c1744c0f4c5150cc3dd8cb6d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101806647,
-    "wof:lastmodified":1582342619,
+    "wof:lastmodified":1684351853,
     "wof:name":"Nordleda",
     "wof:parent_id":1377687309,
     "wof:placetype":"locality",
-    "wof:population":1184,
+    "wof:population":1053,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

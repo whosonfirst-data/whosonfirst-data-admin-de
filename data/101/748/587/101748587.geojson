@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14523320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plauen, Stadt",
+    "eurostat:nuts_2021_id":"14523320",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED44",
+    "eurostat:nuts_2021_level_lau":"14523320",
+    "eurostat:population":64597,
+    "eurostat:population_year":2020,
     "geom:area":0.012865,
-    "geom:area_square_m":101185857.389963,
+    "geom:area_square_m":101185857.38996,
     "geom:bbox":"12.059503,50.430616,12.229526,50.574317",
     "geom:latitude":50.498367,
     "geom:longitude":12.135913,
@@ -355,21 +367,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":735,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064209,
         1377686271,
-        85682523
+        85633111,
+        102064209
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14523320",
+        "eurostat:nuts_2021_id":"14523320",
         "fct:id":"07528e98-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2853292,
         "gp:id":685300,
@@ -385,7 +400,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fcac902e5d5d90079c128c97c17676c3",
+    "wof:geomhash":"1f7338dd77863cd611d4ba3fb65aa4b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -400,11 +415,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050572,
+    "wof:lastmodified":1684351786,
     "wof:name":"Plauen",
     "wof:parent_id":1377686271,
     "wof:placetype":"locality",
-    "wof:population":66412,
+    "wof:population":64597,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

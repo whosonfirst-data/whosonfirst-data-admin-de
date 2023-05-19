@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09279127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mengkofen",
+    "eurostat:nuts_2021_id":"09279127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22C",
+    "eurostat:nuts_2021_level_lau":"09279127",
+    "eurostat:population":6035,
+    "eurostat:population_year":2020,
     "geom:area":0.010304,
-    "geom:area_square_m":84048261.441226,
+    "geom:area_square_m":84048261.441234,
     "geom:bbox":"12.324322,48.6771,12.53587,48.766752",
     "geom:latitude":48.724894,
     "geom:longitude":12.429463,
@@ -151,18 +163,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063343,
         1377685555,
         404227559,
-        85682571
+        102063343
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09279127",
+        "eurostat:nuts_2021_id":"09279127",
         "gn:id":2871950,
         "gp:id":674773,
         "qs_pg:id":93431,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"70bfc83b26d5f56a6a3129a71b4ed754",
+    "wof:geomhash":"0860d58871bfd6259d841da2a57b4f09",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101783021,
-    "wof:lastmodified":1608050643,
+    "wof:lastmodified":1684351825,
     "wof:name":"Mengkofen",
     "wof:parent_id":1377685555,
     "wof:placetype":"locality",
-    "wof:population":5695,
+    "wof:population":6035,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

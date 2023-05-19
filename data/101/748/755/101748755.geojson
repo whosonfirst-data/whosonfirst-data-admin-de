@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wesel, Stadt",
+    "eurostat:nuts_2021_id":"05170048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170048",
+    "eurostat:population":60230,
+    "eurostat:population_year":2020,
     "geom:area":0.015936,
-    "geom:area_square_m":122208469.299796,
+    "geom:area_square_m":122208469.299797,
     "geom:bbox":"6.460633,51.616144,6.713549,51.723476",
     "geom:latitude":51.669804,
     "geom:longitude":6.581443,
@@ -328,17 +340,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689953,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170048",
+        "eurostat:nuts_2021_id":"05170048",
         "gn:id":2810678,
         "gp:id":705593,
         "qs_pg:id":218299,
@@ -353,7 +368,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dab72dc52fa1cf522882070a1b440296",
+    "wof:geomhash":"ee27fd3de7581d4afbb6e9c55d9d4f6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -366,11 +381,11 @@
         }
     ],
     "wof:id":101748755,
-    "wof:lastmodified":1608050545,
+    "wof:lastmodified":1684351788,
     "wof:name":"Wesel",
     "wof:parent_id":1377689953,
     "wof:placetype":"locality",
-    "wof:population":61685,
+    "wof:population":60230,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

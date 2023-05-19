@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05978036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unna, Stadt",
+    "eurostat:nuts_2021_id":"05978036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5C",
+    "eurostat:nuts_2021_level_lau":"05978036",
+    "eurostat:population":58936,
+    "eurostat:population_year":2020,
     "geom:area":0.01148,
     "geom:area_square_m":88290563.98038,
     "geom:bbox":"7.6287,51.490436,7.842999,51.578629",
@@ -330,21 +342,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063823,
         1377692771,
         404227579,
-        85682513
+        102063823
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05978036",
+        "eurostat:nuts_2021_id":"05978036",
         "gn:id":2820087,
         "gp:id":700617,
         "qs_pg:id":788850,
@@ -359,7 +374,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b2bad0576df0cae75d99a080cb6ee9e7",
+    "wof:geomhash":"6b2c9e14c7ecdd81de917fedf576b0bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,11 +387,11 @@
         }
     ],
     "wof:id":101748733,
-    "wof:lastmodified":1608050573,
+    "wof:lastmodified":1684351788,
     "wof:name":"Unna",
     "wof:parent_id":1377692771,
     "wof:placetype":"locality",
-    "wof:population":66734,
+    "wof:population":58936,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

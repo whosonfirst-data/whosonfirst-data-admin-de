@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauben",
+    "eurostat:nuts_2021_id":"09778163",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778163",
+    "eurostat:population":1372,
+    "eurostat:population_year":2020,
     "geom:area":0.002231,
-    "geom:area_square_m":18439590.786906,
+    "geom:area_square_m":18439590.786905,
     "geom:bbox":"10.2297956173,48.0408537548,10.3362581862,48.0961846839",
     "geom:latitude":48.06545,
     "geom:longitude":10.285524,
@@ -140,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682571,
@@ -152,6 +165,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778163",
+        "eurostat:nuts_2021_id":"09778163",
         "gn:id":2880280,
         "gp:id":670520,
         "qs_pg:id":578065,
@@ -163,7 +178,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7567f9cfeca22f654d0c771e78eb23bc",
+    "wof:geomhash":"f6defb008b25e9e36b7c85c805cbb761",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101786505,
-    "wof:lastmodified":1582342637,
+    "wof:lastmodified":1684351838,
     "wof:name":"Lauben",
     "wof:parent_id":1377693231,
     "wof:placetype":"locality",
-    "wof:population":1361,
+    "wof:population":1372,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

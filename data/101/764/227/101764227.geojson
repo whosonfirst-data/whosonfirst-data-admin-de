@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08437086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ostrach",
+    "eurostat:nuts_2021_id":"08437086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE149",
+    "eurostat:nuts_2021_level_lau":"08437086",
+    "eurostat:population":6731,
+    "eurostat:population_year":2020,
     "geom:area":0.013038,
-    "geom:area_square_m":107974349.45989,
+    "geom:area_square_m":107974349.459892,
     "geom:bbox":"9.278216,47.88161,9.455727,48.015163",
     "geom:latitude":47.951151,
     "geom:longitude":9.360637,
@@ -302,22 +314,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":237,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063265,
         1377690611,
         404227573,
-        85682567
+        102063265
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08437086",
+        "eurostat:nuts_2021_id":"08437086",
         "fct:id":"0751b14e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2856222,
         "gp:id":683800,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aa6a2180bc72a16755603dd18b247df3",
+    "wof:geomhash":"b84e799b8e08a0100e710db5fd8e7982",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049236,
+    "wof:lastmodified":1684351814,
     "wof:name":"Ostrach",
     "wof:parent_id":1377690611,
     "wof:placetype":"locality",
-    "wof:population":6841,
+    "wof:population":6731,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

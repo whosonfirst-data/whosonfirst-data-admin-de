@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauterhofen, M",
+    "eurostat:nuts_2021_id":"09373140",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373140",
+    "eurostat:population":3704,
+    "eurostat:population_year":2020,
     "geom:area":0.010352,
     "geom:area_square_m":83344417.350218,
     "geom:bbox":"11.444622,49.307899,11.664668,49.432478",
@@ -151,18 +163,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686083,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373140",
+        "eurostat:nuts_2021_id":"09373140",
         "gn:id":2879892,
         "gp:id":670709,
         "qs_pg:id":253539,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"73d7b6ce1cc7988f4d11ff2550c3ea37",
+    "wof:geomhash":"b5136d5858abda1ccd404310bff6ba71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101780717,
-    "wof:lastmodified":1608052047,
+    "wof:lastmodified":1684351819,
     "wof:name":"Lauterhofen",
     "wof:parent_id":1377686083,
     "wof:placetype":"locality",
-    "wof:population":3773,
+    "wof:population":3704,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

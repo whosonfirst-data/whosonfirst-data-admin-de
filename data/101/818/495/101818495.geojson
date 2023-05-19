@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Echem",
+    "eurostat:nuts_2021_id":"03355015",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355015",
+    "eurostat:population":1058,
+    "eurostat:population_year":2020,
     "geom:area":0.001412,
-    "geom:area_square_m":10425010.861843,
+    "geom:area_square_m":10425010.861845,
     "geom:bbox":"10.4751022926,53.317865878,10.5729603262,53.3513853075",
     "geom:latitude":53.337412,
     "geom:longitude":10.526679,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":98,
     "wof:belongsto":[
         85682555,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355015",
+        "eurostat:nuts_2021_id":"03355015",
         "gn:id":2933808,
         "gp:id":646334,
         "qs_pg:id":142670,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c79f70234033a08d0f2d488713674820",
+    "wof:geomhash":"e3a67e1ef22a99dc57789dad48233e26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101818495,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351900,
     "wof:name":"Echem",
     "wof:parent_id":1377687563,
     "wof:placetype":"locality",
-    "wof:population":1021,
+    "wof:population":1058,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

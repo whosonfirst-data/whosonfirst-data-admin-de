@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08436001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Achberg",
+    "eurostat:nuts_2021_id":"08436001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE148",
+    "eurostat:nuts_2021_level_lau":"08436001",
+    "eurostat:population":1750,
+    "eurostat:population_year":2020,
     "geom:area":0.001515,
-    "geom:area_square_m":12630628.569248,
+    "geom:area_square_m":12630628.56925,
     "geom:bbox":"9.68239228497,47.6017746722,9.74511493256,47.6449668211",
     "geom:latitude":47.622213,
     "geom:longitude":9.714138,
@@ -303,7 +315,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682567,
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08436001",
+        "eurostat:nuts_2021_id":"08436001",
         "gn:id":2959713,
         "gp:id":648832,
         "loc:id":"n99010013",
@@ -327,7 +342,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"fadfa5d3697fa056ab605c26ea710bbd",
+    "wof:geomhash":"0b72a2e20d1a0f8dce96aeba0c50341a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101853719,
-    "wof:lastmodified":1582342604,
+    "wof:lastmodified":1684351965,
     "wof:name":"Achberg",
     "wof:parent_id":1377690587,
     "wof:placetype":"locality",
-    "wof:population":1690,
+    "wof:population":1750,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

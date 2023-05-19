@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Muchow",
+    "eurostat:nuts_2021_id":"13076100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076100",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "geom:area":0.002617,
     "geom:area_square_m":19330740.062163,
     "geom:bbox":"11.610009136,53.2974584269,11.7169991174,53.3418036075",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":108,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076100",
+        "eurostat:nuts_2021_id":"13076100",
         "gn:id":2868926,
         "gp:id":676380,
         "qs_pg:id":93395,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"703c9bd3400cd703f334614a3def1c10",
+    "wof:geomhash":"c87266db52e1bf0c8db9e1222fa49392",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908113,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684351993,
     "wof:name":"Muchow",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":398,
+    "wof:population":265,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625590",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinigtwolmsdorf",
+    "eurostat:nuts_2021_id":"14625590",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625590",
+    "eurostat:population":2811,
+    "eurostat:population_year":2020,
     "geom:area":0.002314,
-    "geom:area_square_m":17979194.24059,
+    "geom:area_square_m":17979194.240589,
     "geom:bbox":"14.309494,51.03846,14.391381,51.087964",
     "geom:latitude":51.065593,
     "geom:longitude":14.347775,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":219,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686887,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625590",
+        "eurostat:nuts_2021_id":"14625590",
         "fct:id":"071dacfa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2827907,
         "gp:id":12636308,
@@ -188,7 +203,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8cc17b9e96f3adbd45eab83f88673f9b",
+    "wof:geomhash":"e643e5ca9840c2da509b85816ab13fb6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051509,
+    "wof:lastmodified":1684351920,
     "wof:name":"Steinigtwolmsdorf",
     "wof:parent_id":1377686887,
     "wof:placetype":"locality",
-    "wof:population":3422,
+    "wof:population":2811,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Herne, Kreisfreie Stadt",
+    "eurostat:name_local":"Herne, Kreisfreie Stadt",
+    "eurostat:nuts_2021_id":"DEA55",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA55",
+    "eurostat:population":156621,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.006672,
     "geom:area_square_m":51312114.614326,
     "geom:bbox":"7.123447,51.503117,7.296311,51.573406",
@@ -363,8 +377,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"51",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Herne",
@@ -378,12 +392,13 @@
     "wd:wordcount":90,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227579,
+        85633111,
         85682513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DEA55",
         "hasc:id":"DE.NW.HR",
         "wd:id":"Q2904"
     },
@@ -395,7 +410,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"069af06b7116f70123e097b711c05556",
+    "wof:geomhash":"f537738d70a4ac894d78fbc75e19448f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -406,12 +421,12 @@
         }
     ],
     "wof:id":102063797,
-    "wof:lastmodified":1608052211,
+    "wof:lastmodified":1684351523,
     "wof:name":"Herne",
     "wof:parent_id":404227579,
     "wof:placetype":"county",
     "wof:placetype_local":"district-free city",
-    "wof:population":155160,
+    "wof:population":156621,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"HR",

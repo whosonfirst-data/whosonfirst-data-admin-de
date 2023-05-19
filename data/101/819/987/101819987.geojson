@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12060280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werneuchen, Stadt",
+    "eurostat:nuts_2021_id":"12060280",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE405",
+    "eurostat:nuts_2021_level_lau":"12060280",
+    "eurostat:population":9162,
+    "eurostat:population_year":2020,
     "geom:area":0.015548,
-    "geom:area_square_m":116640699.345725,
+    "geom:area_square_m":116640699.345711,
     "geom:bbox":"13.637344,52.578189,13.85824,52.713462",
     "geom:latitude":52.647925,
     "geom:longitude":13.734869,
@@ -171,21 +183,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":145,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063973,
         1377694253,
-        85682553
+        85633111,
+        102063973
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12060280",
+        "eurostat:nuts_2021_id":"12060280",
         "gn:id":2810815,
         "gp:id":705509,
         "qs_pg:id":1038093,
@@ -200,7 +215,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"10e6d0fd30fb16dd8179d96af7a8a7b6",
+    "wof:geomhash":"a4d6e2e26882672109de6046a2d63260",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +227,11 @@
         }
     ],
     "wof:id":101819987,
-    "wof:lastmodified":1608050289,
+    "wof:lastmodified":1684351911,
     "wof:name":"Werneuchen",
     "wof:parent_id":1377694253,
     "wof:placetype":"locality",
-    "wof:population":7767,
+    "wof:population":9162,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

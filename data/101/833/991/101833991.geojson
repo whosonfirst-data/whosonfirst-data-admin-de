@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09184131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kirchheim b.M\u00fcnchen",
+    "eurostat:nuts_2021_id":"09184131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21H",
+    "eurostat:nuts_2021_level_lau":"09184131",
+    "eurostat:population":12811,
+    "eurostat:population_year":2020,
     "geom:area":0.001901,
-    "geom:area_square_m":15669629.889252,
+    "geom:area_square_m":15669629.889254,
     "geom:bbox":"11.7292807739,48.1486522618,11.7757708635,48.2219903672",
     "geom:latitude":48.182113,
     "geom:longitude":11.751131,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682571,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09184131",
+        "eurostat:nuts_2021_id":"09184131",
         "gn:id":2890479,
         "gp:id":665973,
         "qs_pg:id":142289,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5161fa943a7fdf2fa2c03aecacb05940",
+    "wof:geomhash":"c876aacc1df6053fb9a978ad62c3f4b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101833991,
-    "wof:lastmodified":1582342449,
+    "wof:lastmodified":1684351945,
     "wof:name":"Kirchheim b. M\u00fcnchen",
     "wof:parent_id":1377692817,
     "wof:placetype":"locality",
-    "wof:population":12135,
+    "wof:population":12811,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

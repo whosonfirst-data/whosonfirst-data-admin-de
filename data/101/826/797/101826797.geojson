@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schifferstadt, Stadt",
+    "eurostat:nuts_2021_id":"07338025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338025",
+    "eurostat:population":20412,
+    "eurostat:population_year":2020,
     "geom:area":0.003463,
     "geom:area_square_m":27874334.570808,
     "geom:bbox":"8.326874,49.347405,8.418317,49.415288",
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":188,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063479,
         1377686605,
-        85682491
+        85633111,
+        102063479
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338025",
+        "eurostat:nuts_2021_id":"07338025",
         "gn:id":2839335,
         "gp:id":691858,
         "qs_pg:id":476559,
@@ -335,7 +350,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"32a1f178906e0e729690f9537c6c6f9a",
+    "wof:geomhash":"ce87aa03a67c1024c21a61f2fc907f1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,12 +362,12 @@
         }
     ],
     "wof:id":101826797,
-    "wof:lastmodified":1608050296,
+    "wof:lastmodified":1684351936,
     "wof:name":"Schifferstadt",
     "wof:parent_id":1377686605,
     "wof:placetype":"locality",
-    "wof:population":19209,
-    "wof:population_rank":6,
+    "wof:population":20412,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

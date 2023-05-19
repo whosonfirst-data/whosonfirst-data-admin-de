@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freimersheim",
+    "eurostat:nuts_2021_id":"07331027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331027",
+    "eurostat:population":726,
+    "eurostat:population_year":2020,
     "geom:area":0.00081,
     "geom:area_square_m":6480092.022339,
     "geom:bbox":"8.05068413341,49.6951348472,8.10258309003,49.7215410004",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":609,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331027",
+        "eurostat:nuts_2021_id":"07331027",
         "gn:id":2925062,
         "gp:id":650501,
         "qs_pg:id":579128,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a404f2604192ae469343fb8b9c5ea944",
+    "wof:geomhash":"c3a063bea3b643eed5e44797181b727f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101906845,
-    "wof:lastmodified":1582342323,
+    "wof:lastmodified":1684351982,
     "wof:name":"Freimersheim",
     "wof:parent_id":1377686179,
     "wof:placetype":"locality",
-    "wof:population":603,
+    "wof:population":726,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gedern, Stadt",
+    "eurostat:nuts_2021_id":"06440009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440009",
+    "eurostat:population":7277,
+    "eurostat:population_year":2020,
     "geom:area":0.00954,
-    "geom:area_square_m":75171002.314703,
+    "geom:area_square_m":75171002.314704,
     "geom:bbox":"9.130123,50.362065,9.290446,50.463584",
     "geom:latitude":50.412508,
     "geom:longitude":9.213758,
@@ -304,20 +316,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.424444,
     "wd:longitude":9.199722,
     "wd:wordcount":655,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694285,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440009",
+        "eurostat:nuts_2021_id":"06440009",
         "gn:id":2922124,
         "gp:id":651775,
         "qs_pg:id":142540,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f93b4b75056dc286ff0d3ac91c14b4c0",
+    "wof:geomhash":"be5643cc8656638f145430674c514e27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
         }
     ],
     "wof:id":101810635,
-    "wof:lastmodified":1608050052,
+    "wof:lastmodified":1684351874,
     "wof:name":"Gedern",
     "wof:parent_id":1377694285,
     "wof:placetype":"locality",
-    "wof:population":7879,
+    "wof:population":7277,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

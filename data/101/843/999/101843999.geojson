@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09277131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malgersdorf",
+    "eurostat:nuts_2021_id":"09277131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22A",
+    "eurostat:nuts_2021_level_lau":"09277131",
+    "eurostat:population":1234,
+    "eurostat:population_year":2020,
     "geom:area":0.001396,
     "geom:area_square_m":11434840.545913,
     "geom:bbox":"12.7139772479,48.5026649925,12.773438439,48.5478467438",
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09277131",
+        "eurostat:nuts_2021_id":"09277131",
         "gn:id":2874104,
         "gp:id":673570,
         "qs_pg:id":577911,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c46c0a771a9d7cb75f3506655e45a1a8",
+    "wof:geomhash":"f6c6317be6b63cf64dfcb771dd04c80f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101843999,
-    "wof:lastmodified":1582342443,
+    "wof:lastmodified":1684351957,
     "wof:name":"Malgersdorf",
     "wof:parent_id":1377685239,
     "wof:placetype":"locality",
-    "wof:population":1198,
+    "wof:population":1234,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

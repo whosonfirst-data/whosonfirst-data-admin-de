@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Masthorn",
+    "eurostat:nuts_2021_id":"07232265",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232265",
+    "eurostat:population":52,
+    "eurostat:population_year":2020,
     "geom:area":0.000591,
     "geom:area_square_m":4681906.723348,
     "geom:bbox":"6.27109391699,50.1451191669,6.31873795306,50.1644764498",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232265",
+        "eurostat:nuts_2021_id":"07232265",
         "gn:id":2872953,
         "qs_pg:id":577873,
         "wd:id":"Q553506"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c876ae1059870936e884f62d40dcacc9",
+    "wof:geomhash":"9ab3100509884d2a21920713282e60b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1126013321,
-    "wof:lastmodified":1582343017,
+    "wof:lastmodified":1684352045,
     "wof:name":"Masthorn",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":73,
+    "wof:population":52,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

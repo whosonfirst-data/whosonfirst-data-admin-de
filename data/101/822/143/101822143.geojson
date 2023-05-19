@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bernsdorf, Stadt",
+    "eurostat:nuts_2021_id":"14625030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625030",
+    "eurostat:population":6422,
+    "eurostat:population_year":2020,
     "geom:area":0.007734,
-    "geom:area_square_m":59698949.205107,
+    "geom:area_square_m":59698949.205112,
     "geom:bbox":"13.994875,51.336575,14.174229,51.418754",
     "geom:latitude":51.37466,
     "geom:longitude":14.066388,
@@ -301,17 +313,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":134,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686607,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625030",
+        "eurostat:nuts_2021_id":"14625030",
         "gn:id":2949961,
         "gp:id":638365,
         "qs_pg:id":1232142,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1247a9a5a7ccb684feeb022838e44f7a",
+    "wof:geomhash":"a82af161ce1c89ab4c8bae027afd5ec7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101822143,
-    "wof:lastmodified":1608051473,
+    "wof:lastmodified":1684351920,
     "wof:name":"Bernsdorf",
     "wof:parent_id":1377686607,
     "wof:placetype":"locality",
-    "wof:population":5871,
+    "wof:population":6422,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

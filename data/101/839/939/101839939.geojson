@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Obernburg a.Main, St",
+    "eurostat:nuts_2021_id":"09676145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676145",
+    "eurostat:population":8659,
+    "eurostat:population_year":2020,
     "geom:area":0.003097,
-    "geom:area_square_m":24703101.760857,
+    "geom:area_square_m":24703101.76086,
     "geom:bbox":"9.076993,49.790124,9.155821,49.857989",
     "geom:latitude":49.828024,
     "geom:longitude":9.11356,
@@ -297,18 +309,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":830,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691377,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676145",
+        "eurostat:nuts_2021_id":"09676145",
         "gn:id":2859675,
         "gp:id":681819,
         "qs_pg:id":246705,
@@ -325,7 +340,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4eff9da6d92814b507c150ff69528e45",
+    "wof:geomhash":"290e3254dd8060e75043a676d047a866",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101839939,
-    "wof:lastmodified":1608051822,
+    "wof:lastmodified":1684351949,
     "wof:name":"Obernburg a. Main",
     "wof:parent_id":1377691377,
     "wof:placetype":"locality",
-    "wof:population":8466,
+    "wof:population":8659,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

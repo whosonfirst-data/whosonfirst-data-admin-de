@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07138063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rheinbrohl",
+    "eurostat:nuts_2021_id":"07138063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB18",
+    "eurostat:nuts_2021_level_lau":"07138063",
+    "eurostat:population":3999,
+    "eurostat:population_year":2020,
     "geom:area":0.002175,
-    "geom:area_square_m":17102565.235286,
+    "geom:area_square_m":17102565.235285,
     "geom:bbox":"7.3121792628,50.4823167551,7.40204082296,50.5324795579",
     "geom:latitude":50.50776,
     "geom:longitude":7.356922,
@@ -295,7 +307,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
         85682491,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07138063",
+        "eurostat:nuts_2021_id":"07138063",
         "gn:id":2847654,
         "gp:id":688313,
         "loc:id":"no2010163683",
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7ee5cf64bac6577d1db38d862dd607c6",
+    "wof:geomhash":"d8ea6746fe94b4aa36033508f848ce15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101756437,
-    "wof:lastmodified":1582342499,
+    "wof:lastmodified":1684351795,
     "wof:name":"Rheinbrohl",
     "wof:parent_id":1377685619,
     "wof:placetype":"locality",
-    "wof:population":4017,
+    "wof:population":3999,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

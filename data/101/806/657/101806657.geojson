@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03352056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wingst",
+    "eurostat:nuts_2021_id":"03352056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE932",
+    "eurostat:nuts_2021_level_lau":"03352056",
+    "eurostat:population":3320,
+    "eurostat:population_year":2020,
     "geom:area":0.007576,
-    "geom:area_square_m":55419188.156962,
+    "geom:area_square_m":55419188.156963,
     "geom:bbox":"8.97247354496,53.6893526136,9.12416008037,53.781115956",
     "geom:latitude":53.732972,
     "geom:longitude":9.050747,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":151,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03352056",
+        "eurostat:nuts_2021_id":"03352056",
         "gn:id":2808048,
         "gp:id":704126,
         "qs_pg:id":1038040,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f381d710240de655edc5d25a8859560a",
+    "wof:geomhash":"ace2fac5dce3613f817003fbb4bb0071",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101806657,
-    "wof:lastmodified":1582342614,
+    "wof:lastmodified":1684351853,
     "wof:name":"Wingst",
     "wof:parent_id":1377687309,
     "wof:placetype":"locality",
-    "wof:population":3610,
+    "wof:population":3320,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

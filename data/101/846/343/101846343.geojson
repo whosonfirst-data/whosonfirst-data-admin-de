@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Liebenau, Stadt",
+    "eurostat:nuts_2021_id":"06633016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633016",
+    "eurostat:population":3005,
+    "eurostat:population_year":2020,
     "geom:area":0.006335,
     "geom:area_square_m":48778462.33679,
     "geom:bbox":"9.216641,51.447179,9.35423,51.55303",
@@ -304,22 +316,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684575,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633016",
+        "eurostat:nuts_2021_id":"06633016",
         "gn:id":2877980,
         "gp:id":671651,
         "qs_pg:id":1039222,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a8511a9a3e070f2bbf8c618063b96cda",
+    "wof:geomhash":"d6e8d16a5df84f5a77c0b7fbdb3100c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101846343,
-    "wof:lastmodified":1608051052,
+    "wof:lastmodified":1684351960,
     "wof:name":"Liebenau",
     "wof:parent_id":1377684575,
     "wof:placetype":"locality",
-    "wof:population":3606,
+    "wof:population":3005,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

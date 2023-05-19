@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6rgeshausen",
+    "eurostat:nuts_2021_id":"07143023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143023",
+    "eurostat:population":873,
+    "eurostat:population_year":2020,
     "geom:area":0.000413,
     "geom:area_square_m":3254372.958865,
     "geom:bbox":"7.93949044326,50.3966467647,7.97155940817,50.4213470337",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":201,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143023",
+        "eurostat:nuts_2021_id":"07143023",
         "gn:id":2919024,
         "gp:id":653331,
         "qs_pg:id":578954,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c2a1494657956e583fd82784680b1b46",
+    "wof:geomhash":"bf53b491966980ac25b18bdd53d3b625",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101907499,
-    "wof:lastmodified":1582342308,
+    "wof:lastmodified":1684351988,
     "wof:name":"G\u00f6rgeshausen",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":821,
+    "wof:population":873,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

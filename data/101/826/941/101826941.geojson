@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freihung, M",
+    "eurostat:nuts_2021_id":"09371121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371121",
+    "eurostat:population":2466,
+    "eurostat:population_year":2020,
     "geom:area":0.005764,
-    "geom:area_square_m":46182265.168834,
+    "geom:area_square_m":46182265.168829,
     "geom:bbox":"11.852834,49.560666,11.981669,49.645191",
     "geom:latitude":49.608863,
     "geom:longitude":11.907877,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685681,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371121",
+        "eurostat:nuts_2021_id":"09371121",
         "gn:id":2925086,
         "gp:id":639418,
         "qs_pg:id":93872,
@@ -340,7 +355,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b18e0f05bc1417b32cb0a2dda8f3b577",
+    "wof:geomhash":"9b1e67577f755405bc25531e7e0f77ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101826941,
-    "wof:lastmodified":1608050323,
+    "wof:lastmodified":1684351938,
     "wof:name":"Freihung",
     "wof:parent_id":1377685681,
     "wof:placetype":"locality",
-    "wof:population":2610,
+    "wof:population":2466,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

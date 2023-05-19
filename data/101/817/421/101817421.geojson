@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malente",
+    "eurostat:nuts_2021_id":"01055028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055028",
+    "eurostat:population":10864,
+    "eurostat:population_year":2020,
     "geom:area":0.009493,
-    "geom:area_square_m":68682364.441047,
+    "geom:area_square_m":68682364.441046,
     "geom:bbox":"10.482442,54.133817,10.676523,54.235404",
     "geom:latitude":54.187798,
     "geom:longitude":10.57355,
@@ -171,21 +183,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":69,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064123,
         1377683747,
-        85682517
+        85633111,
+        102064123
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055028",
+        "eurostat:nuts_2021_id":"01055028",
         "gn:id":2874111,
         "gp:id":673567,
         "qs_pg:id":240276,
@@ -202,7 +217,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"15176dc146552a74576c5a7e28622a79",
+    "wof:geomhash":"62069855abfd5b7591e4b092bcec05cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +229,11 @@
         }
     ],
     "wof:id":101817421,
-    "wof:lastmodified":1608050158,
+    "wof:lastmodified":1684351897,
     "wof:name":"Malente",
     "wof:parent_id":1377683747,
     "wof:placetype":"locality",
-    "wof:population":10817,
+    "wof:population":10864,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

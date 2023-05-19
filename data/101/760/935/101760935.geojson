@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08127102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fichtenau",
+    "eurostat:nuts_2021_id":"08127102",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11A",
+    "eurostat:nuts_2021_level_lau":"08127102",
+    "eurostat:population":4570,
+    "eurostat:population_year":2020,
     "geom:area":0.003849,
-    "geom:area_square_m":31179683.65926,
+    "geom:area_square_m":31179683.659258,
     "geom:bbox":"10.1587668164,49.0408425273,10.2639929663,49.0995491242",
     "geom:latitude":49.07227,
     "geom:longitude":10.20687,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682567,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08127102",
+        "eurostat:nuts_2021_id":"08127102",
         "gn:id":3206895,
         "gp:id":706532,
         "qs_pg:id":581800,
@@ -319,7 +334,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57a806e4235c47b8f7e36a9fe254902f",
+    "wof:geomhash":"9c2df966c79d0428a2b5829ce36873f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101760935,
-    "wof:lastmodified":1582342495,
+    "wof:lastmodified":1684351803,
     "wof:name":"Fichtenau",
     "wof:parent_id":1377687863,
     "wof:placetype":"locality",
-    "wof:population":4476,
+    "wof:population":4570,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

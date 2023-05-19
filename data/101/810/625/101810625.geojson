@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dalheim",
+    "eurostat:nuts_2021_id":"07339010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339010",
+    "eurostat:population":1015,
+    "eurostat:population_year":2020,
     "geom:area":0.000775,
-    "geom:area_square_m":6183800.721639,
+    "geom:area_square_m":6183800.72164,
     "geom:bbox":"8.26571757694,49.8174499344,8.3110963542,49.8451166978",
     "geom:latitude":49.831392,
     "geom:longitude":8.286536,
@@ -123,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339010",
+        "eurostat:nuts_2021_id":"07339010",
         "gn:id":2939321,
         "gp:id":644380,
         "qs_pg:id":579478,
@@ -144,7 +159,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7bb67845a7a8e37647906f8aeede5f3b",
+    "wof:geomhash":"ca4982ac344f2bcfd376770b89bd4907",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":101810625,
-    "wof:lastmodified":1582342406,
+    "wof:lastmodified":1684351873,
     "wof:name":"Dalheim",
     "wof:parent_id":1377686725,
     "wof:placetype":"locality",
-    "wof:population":1007,
+    "wof:population":1015,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kadenbach",
+    "eurostat:nuts_2021_id":"07143039",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143039",
+    "eurostat:population":1327,
+    "eurostat:population_year":2020,
     "geom:area":0.000616,
-    "geom:area_square_m":4854102.466715,
+    "geom:area_square_m":4854102.466714,
     "geom:bbox":"7.71350468347,50.3772053057,7.75597271993,50.4081933901",
     "geom:latitude":50.39456,
     "geom:longitude":7.732818,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":171,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143039",
+        "eurostat:nuts_2021_id":"07143039",
         "gn:id":2894335,
         "gp:id":664361,
         "qs_pg:id":578405,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b8166f0a1b5d452161ed92dadbe867d7",
+    "wof:geomhash":"af2af6ac7f95cefdd7cbed37c7eb7601",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101840111,
-    "wof:lastmodified":1582342560,
+    "wof:lastmodified":1684351951,
     "wof:name":"Kadenbach",
     "wof:parent_id":1377685789,
     "wof:placetype":"locality",
-    "wof:population":1494,
+    "wof:population":1327,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

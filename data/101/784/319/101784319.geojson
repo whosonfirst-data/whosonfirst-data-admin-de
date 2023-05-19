@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buch a.Erlbach",
+    "eurostat:nuts_2021_id":"09274121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274121",
+    "eurostat:population":3981,
+    "eurostat:population_year":2020,
     "geom:area":0.003242,
-    "geom:area_square_m":26590399.551307,
+    "geom:area_square_m":26590399.551308,
     "geom:bbox":"11.991689,48.415734,12.109619,48.475141",
     "geom:latitude":48.442625,
     "geom:longitude":12.046101,
@@ -158,17 +170,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684417,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274121",
+        "eurostat:nuts_2021_id":"09274121",
         "gn:id":2942301,
         "gp:id":642140,
         "qs_pg:id":5,
@@ -186,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7dfb136c3d531e20b2a47d2c6798b2dc",
+    "wof:geomhash":"f77db42a481607523a8f7f8ea6100068",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,10 +215,12 @@
         }
     ],
     "wof:id":101784319,
-    "wof:lastmodified":1608050707,
+    "wof:lastmodified":1684351832,
     "wof:name":"Buch a. Erlbach",
     "wof:parent_id":1377684417,
     "wof:placetype":"locality",
+    "wof:population":3981,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

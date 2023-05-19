@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meitingen, M",
+    "eurostat:nuts_2021_id":"09772177",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772177",
+    "eurostat:population":11727,
+    "eurostat:population_year":2020,
     "geom:area":0.003654,
-    "geom:area_square_m":29908892.199065,
+    "geom:area_square_m":29908892.199064,
     "geom:bbox":"10.761288,48.505508,10.874995,48.587843",
     "geom:latitude":48.544823,
     "geom:longitude":10.833666,
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":500,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693443,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772177",
+        "eurostat:nuts_2021_id":"09772177",
         "gn:id":2872126,
         "gp:id":674665,
         "qs_pg:id":1219321,
@@ -183,7 +198,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"44bd2b88eb49a50e6727d2203dedcac9",
+    "wof:geomhash":"6dc3bc22e159199f81b8d86e8ba2e587",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101784215,
-    "wof:lastmodified":1608050694,
+    "wof:lastmodified":1684351830,
     "wof:name":"Meitingen",
     "wof:parent_id":1377693443,
     "wof:placetype":"locality",
-    "wof:population":11201,
+    "wof:population":11727,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

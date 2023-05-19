@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15088020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad D\u00fcrrenberg, Solestadt",
+    "eurostat:nuts_2021_id":"15088020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0B",
+    "eurostat:nuts_2021_level_lau":"15088020",
+    "eurostat:population":11466,
+    "eurostat:population_year":2020,
     "geom:area":0.004678,
-    "geom:area_square_m":36182794.869162,
+    "geom:area_square_m":36182794.869163,
     "geom:bbox":"12.040606,51.248059,12.172255,51.320454",
     "geom:latitude":51.284294,
     "geom:longitude":12.095574,
@@ -156,17 +168,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":230,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063817,
         1377688817,
-        85682519
+        85633111,
+        102063817
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15088020",
+        "eurostat:nuts_2021_id":"15088020",
         "gn:id":2953521,
         "gp:id":636412,
         "qs_pg:id":1166861,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0af3ae8d069dfce1c93705116b8bcd80",
+    "wof:geomhash":"ec2ab4ef307ea56b77668bccd24a1702",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101822261,
-    "wof:lastmodified":1608051461,
+    "wof:lastmodified":1684351921,
     "wof:name":"Bad D\u00fcrrenberg",
     "wof:parent_id":1377688817,
     "wof:placetype":"locality",
-    "wof:population":11479,
+    "wof:population":11466,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

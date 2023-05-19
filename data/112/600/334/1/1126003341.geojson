@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lierschied",
+    "eurostat:nuts_2021_id":"07141079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141079",
+    "eurostat:population":489,
+    "eurostat:population_year":2020,
     "geom:area":0.000735,
     "geom:area_square_m":5820057.041107,
     "geom:bbox":"7.72059105709,50.1587900256,7.77829149771,50.1909564391",
@@ -267,7 +279,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -277,6 +290,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141079",
+        "eurostat:nuts_2021_id":"07141079",
         "gn:id":2877787,
         "qs_pg:id":578004,
         "wd:id":"Q631631"
@@ -286,7 +301,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"720aa10108903fde30d3f44d36218aed",
+    "wof:geomhash":"beb48e234772d0f4d8040dda0d4b00c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -298,11 +313,11 @@
         }
     ],
     "wof:id":1126003341,
-    "wof:lastmodified":1582343022,
+    "wof:lastmodified":1684352043,
     "wof:name":"Lierschied",
     "wof:parent_id":1377685763,
     "wof:placetype":"locality",
-    "wof:population":508,
+    "wof:population":489,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

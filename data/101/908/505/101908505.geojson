@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00fchlenrade",
+    "eurostat:nuts_2021_id":"01053091",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053091",
+    "eurostat:population":177,
+    "eurostat:population_year":2020,
     "geom:area":0.000522,
     "geom:area_square_m":3831094.719671,
     "geom:bbox":"10.4674991553,53.582773665,10.5150017523,53.6058392586",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053091",
+        "eurostat:nuts_2021_id":"01053091",
         "gn:id":2868134,
         "gp:id":29350750,
         "qs_pg:id":577755,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a66a29b818381cbc70b9d62226754339",
+    "wof:geomhash":"130facb0d435ce72ec28909fa47a8ddc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,12 +183,12 @@
         }
     ],
     "wof:id":101908505,
-    "wof:lastmodified":1582342339,
+    "wof:lastmodified":1684351996,
     "wof:name":"M\u00fchlenrade",
     "wof:parent_id":1377684823,
     "wof:placetype":"locality",
-    "wof:population":215,
-    "wof:population_rank":2,
+    "wof:population":177,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sassnitz, Stadt",
+    "eurostat:nuts_2021_id":"13073080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073080",
+    "eurostat:population":9186,
+    "eurostat:population_year":2020,
     "geom:area":0.006498,
-    "geom:area_square_m":46632693.597424,
+    "geom:area_square_m":46632693.597428,
     "geom:bbox":"13.525458,54.473742,13.681787,54.582591",
     "geom:latitude":54.524988,
     "geom:longitude":13.616787,
@@ -333,7 +345,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":54.516389,
     "wd:longitude":13.641111,
     "wd:population":9481,
@@ -343,14 +356,16 @@
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675591,
         1377684839,
-        85682487
+        85633111,
+        1377675591
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073080",
+        "eurostat:nuts_2021_id":"13073080",
         "gn:id":2841333,
         "gp:id":691105,
         "qs_pg:id":906642,
@@ -365,7 +380,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2282210aba1b0583f0f4250e51da1e76",
+    "wof:geomhash":"5d6460de46e2e3af8e6a232f27d78b4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -377,11 +392,11 @@
         }
     ],
     "wof:id":101817533,
-    "wof:lastmodified":1608050134,
+    "wof:lastmodified":1684351898,
     "wof:name":"Sassnitz",
     "wof:parent_id":1377684839,
     "wof:placetype":"locality",
-    "wof:population":9481,
+    "wof:population":9186,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

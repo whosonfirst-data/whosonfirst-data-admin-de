@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09371150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schnaittenbach, St",
+    "eurostat:nuts_2021_id":"09371150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE234",
+    "eurostat:nuts_2021_level_lau":"09371150",
+    "eurostat:population":4232,
+    "eurostat:population_year":2020,
     "geom:area":0.007884,
-    "geom:area_square_m":63265823.326077,
+    "geom:area_square_m":63265823.326082,
     "geom:bbox":"11.975857,49.480461,12.119642,49.578924",
     "geom:latitude":49.537105,
     "geom:longitude":12.04323,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063509,
         1377685751,
         404227545,
-        85682571
+        102063509
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09371150",
+        "eurostat:nuts_2021_id":"09371150",
         "gn:id":2837569,
         "gp:id":692585,
         "qs_pg:id":1038491,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7d890e00650aeadd2bc64a250d2f53bd",
+    "wof:geomhash":"9031e04deeb6cd13d3666be0d77c4989",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101826937,
-    "wof:lastmodified":1608050301,
+    "wof:lastmodified":1684351938,
     "wof:name":"Schnaittenbach",
     "wof:parent_id":1377685751,
     "wof:placetype":"locality",
-    "wof:population":4375,
+    "wof:population":4232,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

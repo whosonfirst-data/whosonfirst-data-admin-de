@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dettighofen",
+    "eurostat:nuts_2021_id":"08337030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337030",
+    "eurostat:population":1150,
+    "eurostat:population_year":2020,
     "geom:area":0.001725,
-    "geom:area_square_m":14369940.096503,
+    "geom:area_square_m":14369940.096502,
     "geom:bbox":"8.4451427499,47.6143129339,8.54126457294,47.6500933617",
     "geom:latitude":47.632574,
     "geom:longitude":8.494491,
@@ -278,7 +290,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":8,
     "wof:belongsto":[
         85682567,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337030",
+        "eurostat:nuts_2021_id":"08337030",
         "fct:id":"0715a618-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2937906,
         "gp:id":644285,
@@ -302,7 +317,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"adb180cc341ec040c60987c33c484407",
+    "wof:geomhash":"667da8094fed3d7772bf0ac50e61d22d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342300,
+    "wof:lastmodified":1684351811,
     "wof:name":"Dettighofen",
     "wof:parent_id":1377689827,
     "wof:placetype":"locality",
-    "wof:population":1044,
+    "wof:population":1150,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

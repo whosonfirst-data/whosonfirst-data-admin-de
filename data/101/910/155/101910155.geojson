@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ziegenr\u00fcck, Stadt",
+    "eurostat:nuts_2021_id":"16075127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075127",
+    "eurostat:population":657,
+    "eurostat:population_year":2020,
     "geom:area":0.001047,
-    "geom:area_square_m":8218781.895838,
+    "geom:area_square_m":8218781.895836,
     "geom:bbox":"11.6325680653,50.5899304643,11.6832320476,50.6301563711",
     "geom:latitude":50.609248,
     "geom:longitude":11.658031,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.616667,
     "wd:longitude":11.65,
     "wd:wordcount":362,
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075127",
+        "eurostat:nuts_2021_id":"16075127",
         "gn:id":2804368,
         "gp:id":708919,
         "qs_pg:id":987639,
@@ -321,7 +336,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"548df877f21d0999fecd7465ae91cdc9",
+    "wof:geomhash":"bd3bbb21b1253fe7f5a356e9bb491797",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101910155,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352004,
     "wof:name":"Ziegenr\u00fcck",
     "wof:parent_id":1377690819,
     "wof:placetype":"locality",
-    "wof:population":784,
+    "wof:population":657,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

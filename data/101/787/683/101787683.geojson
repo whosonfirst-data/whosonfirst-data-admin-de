@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baisweil",
+    "eurostat:nuts_2021_id":"09777114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777114",
+    "eurostat:population":1300,
+    "eurostat:population_year":2020,
     "geom:area":0.003169,
     "geom:area_square_m":26247243.1119,
     "geom:bbox":"10.5022203049,47.9188384853,10.5875047612,47.984433226",
@@ -154,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777114",
+        "eurostat:nuts_2021_id":"09777114",
         "gn:id":2953168,
         "gp:id":636665,
         "qs_pg:id":94167,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e1ce3d85e68adbf5c19ee8ddaf8fcd05",
+    "wof:geomhash":"ca798d2915d77b28afce303387ab03c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +205,11 @@
         }
     ],
     "wof:id":101787683,
-    "wof:lastmodified":1582342647,
+    "wof:lastmodified":1684351843,
     "wof:name":"Baisweil",
     "wof:parent_id":1377693057,
     "wof:placetype":"locality",
-    "wof:population":1352,
+    "wof:population":1300,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

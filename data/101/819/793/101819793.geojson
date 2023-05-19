@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oslo\u00df",
+    "eurostat:nuts_2021_id":"03151020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151020",
+    "eurostat:population":1909,
+    "eurostat:population_year":2020,
     "geom:area":0.001016,
     "geom:area_square_m":7649047.732541,
     "geom:bbox":"10.6413199334,52.4592636575,10.702334016,52.4864580615",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151020",
+        "eurostat:nuts_2021_id":"03151020",
         "gn:id":2856888,
         "gp:id":683473,
         "qs_pg:id":93272,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5a442525e8c1f9bd971f881b22d7e840",
+    "wof:geomhash":"b4c68fd01fa0f65ad0a4a61cd7fd90eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101819793,
-    "wof:lastmodified":1582342430,
+    "wof:lastmodified":1684351908,
     "wof:name":"Oslo\u00df",
     "wof:parent_id":1377684887,
     "wof:placetype":"locality",
-    "wof:population":1990,
+    "wof:population":1909,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

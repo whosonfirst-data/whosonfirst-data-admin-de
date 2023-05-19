@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ochtendung",
+    "eurostat:nuts_2021_id":"07137086",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137086",
+    "eurostat:population":5460,
+    "eurostat:population_year":2020,
     "geom:area":0.003054,
-    "geom:area_square_m":24098228.402146,
+    "geom:area_square_m":24098228.402147,
     "geom:bbox":"7.33149477109,50.3218014511,7.43640628473,50.3732202584",
     "geom:latitude":50.347974,
     "geom:longitude":7.385055,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":470,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137086",
+        "eurostat:nuts_2021_id":"07137086",
         "gn:id":2858253,
         "gp:id":682755,
         "qs_pg:id":259345,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"767d8917f4a7fd5f9659df1436dfb598",
+    "wof:geomhash":"bb4f1e887e17f20dc1065a6f464e345f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101812805,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351885,
     "wof:name":"Ochtendung",
     "wof:parent_id":1377685553,
     "wof:placetype":"locality",
-    "wof:population":5207,
+    "wof:population":5460,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seinsfeld",
+    "eurostat:nuts_2021_id":"07232306",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232306",
+    "eurostat:population":167,
+    "eurostat:population_year":2020,
     "geom:area":0.000854,
     "geom:area_square_m":6780440.820327,
     "geom:bbox":"6.63118778456,50.0428434137,6.67395964944,50.088245384",
@@ -264,7 +276,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -274,6 +287,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232306",
+        "eurostat:nuts_2021_id":"07232306",
         "gn:id":2833332,
         "qs_pg:id":576932,
         "wd:id":"Q653304"
@@ -283,7 +298,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c6d2d2da1e6a433629ac9855b7aca859",
+    "wof:geomhash":"763a53caf9b162a1ad85dcd7632ff501",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -295,11 +310,11 @@
         }
     ],
     "wof:id":1125827507,
-    "wof:lastmodified":1582343028,
+    "wof:lastmodified":1684352017,
     "wof:name":"Seinsfeld",
     "wof:parent_id":1377685961,
     "wof:placetype":"locality",
-    "wof:population":165,
+    "wof:population":167,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

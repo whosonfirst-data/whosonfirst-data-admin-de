@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barwedel",
+    "eurostat:nuts_2021_id":"03151002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151002",
+    "eurostat:population":1020,
+    "eurostat:population_year":2020,
     "geom:area":0.002617,
-    "geom:area_square_m":19686127.758024,
+    "geom:area_square_m":19686127.758023,
     "geom:bbox":"10.7249955902,52.5105484817,10.8403314305,52.5610230751",
     "geom:latitude":52.534933,
     "geom:longitude":10.769053,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -164,6 +177,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151002",
+        "eurostat:nuts_2021_id":"03151002",
         "gn:id":2952324,
         "gp:id":637092,
         "qs_pg:id":94154,
@@ -175,7 +190,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9545dd62316a12c2cce069403105ddcc",
+    "wof:geomhash":"1e80e39d13f2f7fb832b06889aab39b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101819829,
-    "wof:lastmodified":1582342427,
+    "wof:lastmodified":1684351909,
     "wof:name":"Barwedel",
     "wof:parent_id":1377684887,
     "wof:placetype":"locality",
-    "wof:population":1099,
+    "wof:population":1020,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

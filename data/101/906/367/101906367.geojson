@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remmels",
+    "eurostat:nuts_2021_id":"01058134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058134",
+    "eurostat:population":439,
+    "eurostat:population_year":2020,
     "geom:area":0.00131,
     "geom:area_square_m":9495267.678231,
     "geom:bbox":"9.61575752553,54.1040740605,9.67275866466,54.1471170252",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058134",
+        "eurostat:nuts_2021_id":"01058134",
         "gn:id":2848302,
         "gp:id":687922,
         "qs_pg:id":577263,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"68646842010b2fc5bf9205c6edfb6d95",
+    "wof:geomhash":"939a13da7364b421373af4406eeb99e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101906367,
-    "wof:lastmodified":1582342328,
+    "wof:lastmodified":1684351979,
     "wof:name":"Remmels",
     "wof:parent_id":1377684303,
     "wof:placetype":"locality",
-    "wof:population":432,
+    "wof:population":439,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

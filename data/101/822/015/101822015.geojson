@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Colditz, Stadt",
+    "eurostat:nuts_2021_id":"14729080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729080",
+    "eurostat:population":8422,
+    "eurostat:population_year":2020,
     "geom:area":0.010899,
-    "geom:area_square_m":84569115.549951,
+    "geom:area_square_m":84569115.549953,
     "geom:bbox":"12.675256,51.090728,12.898499,51.181129",
     "geom:latitude":51.130861,
     "geom:longitude":12.799703,
@@ -190,21 +202,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":707,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687733,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729080",
+        "eurostat:nuts_2021_id":"14729080",
         "gn:id":2939927,
         "gp:id":643243,
         "qs_pg:id":554260,
@@ -219,7 +234,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d66b61f4f7caff190d9afa4c14ecd111",
+    "wof:geomhash":"9d82650ed9720eba5e00b2a15cdb3667",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,11 +246,11 @@
         }
     ],
     "wof:id":101822015,
-    "wof:lastmodified":1608051451,
+    "wof:lastmodified":1684351919,
     "wof:name":"Colditz",
     "wof:parent_id":1377687733,
     "wof:placetype":"locality",
-    "wof:population":5173,
+    "wof:population":8422,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

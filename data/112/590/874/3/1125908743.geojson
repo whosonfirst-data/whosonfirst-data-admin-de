@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"N\u00fcrburg",
+    "eurostat:nuts_2021_id":"07131058",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131058",
+    "eurostat:population":170,
+    "eurostat:population_year":2020,
     "geom:area":0.000449,
     "geom:area_square_m":3541817.562837,
     "geom:bbox":"6.92230071734,50.3258952414,6.96652028917,50.3531116726",
@@ -141,7 +153,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131058",
+        "eurostat:nuts_2021_id":"07131058",
         "gn:id":2861653,
         "qs_pg:id":1032950,
         "wd:id":"Q628095"
@@ -164,7 +179,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"103974ccc4c8c025139185976a1958ba",
+    "wof:geomhash":"1e9da2658e9e10306729d84dba5229b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":1125908743,
-    "wof:lastmodified":1582343004,
+    "wof:lastmodified":1684352039,
     "wof:name":"N\u00fcrburg",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":169,
+    "wof:population":170,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

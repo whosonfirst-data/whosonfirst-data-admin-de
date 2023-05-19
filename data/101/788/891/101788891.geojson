@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mittenwald, M",
+    "eurostat:nuts_2021_id":"09180123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180123",
+    "eurostat:population":7327,
+    "eurostat:population_year":2020,
     "geom:area":0.015854,
-    "geom:area_square_m":132533635.982821,
+    "geom:area_square_m":132533635.98283,
     "geom:bbox":"11.156726,47.395107,11.421454,47.531982",
     "geom:latitude":47.46372,
     "geom:longitude":11.295437,
@@ -196,22 +208,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":355,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063197,
         1377692149,
         404227567,
-        85682571
+        102063197
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180123",
+        "eurostat:nuts_2021_id":"09180123",
         "gn:id":2870482,
         "gp:id":675601,
         "qs_pg:id":1344916,
@@ -226,7 +241,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"40ff9f9902278a90eb8e10c8ea4e1296",
+    "wof:geomhash":"9e0a1e27d0786ed74c91ca07b0c65b47",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -239,11 +254,11 @@
         }
     ],
     "wof:id":101788891,
-    "wof:lastmodified":1608051901,
+    "wof:lastmodified":1684351845,
     "wof:name":"Mittenwald",
     "wof:parent_id":1377692149,
     "wof:placetype":"locality",
-    "wof:population":7996,
+    "wof:population":7327,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

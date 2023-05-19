@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burgen",
+    "eurostat:nuts_2021_id":"07137206",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137206",
+    "eurostat:population":748,
+    "eurostat:population_year":2020,
     "geom:area":0.001451,
-    "geom:area_square_m":11485861.330122,
+    "geom:area_square_m":11485861.330123,
     "geom:bbox":"7.3446920257,50.1758175736,7.42563658333,50.2241285268",
     "geom:latitude":50.198676,
     "geom:longitude":7.391496,
@@ -102,7 +114,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -117,6 +130,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137206",
+        "eurostat:nuts_2021_id":"07137206",
         "gn:id":2941392,
         "gp:id":673247,
         "qs_pg:id":1152218,
@@ -127,7 +142,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c81774b1ca589d3394170f79bd48b67c",
+    "wof:geomhash":"0beed81a1a8b168dca5a0c74f92d6550",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":101907131,
-    "wof:lastmodified":1582342312,
+    "wof:lastmodified":1684351985,
     "wof:name":"Burgen",
     "wof:parent_id":1377685481,
     "wof:placetype":"locality",
-    "wof:population":828,
+    "wof:population":748,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

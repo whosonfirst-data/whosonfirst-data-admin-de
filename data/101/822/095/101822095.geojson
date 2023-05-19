@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14627100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klipphausen",
+    "eurostat:nuts_2021_id":"14627100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2E",
+    "eurostat:nuts_2021_level_lau":"14627100",
+    "eurostat:population":10349,
+    "eurostat:population_year":2020,
     "geom:area":0.014385,
-    "geom:area_square_m":111713305.088713,
+    "geom:area_square_m":111713305.088718,
     "geom:bbox":"13.373039,51.0342,13.599102,51.143798",
     "geom:latitude":51.092398,
     "geom:longitude":13.483291,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":65,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064229,
         1377687313,
-        85682523
+        85633111,
+        102064229
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14627100",
+        "eurostat:nuts_2021_id":"14627100",
         "fct:id":"071dceec-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2887645,
         "gp:id":12636497,
@@ -326,7 +341,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a49cd213d81c15539b03a0dda0516e2e",
+    "wof:geomhash":"ef605fb804c03bb7755b2875f7480433",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,12 +356,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051495,
+    "wof:lastmodified":1684351919,
     "wof:name":"Klipphausen",
     "wof:parent_id":1377687313,
     "wof:placetype":"locality",
-    "wof:population":6161,
-    "wof:population_rank":5,
+    "wof:population":10349,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

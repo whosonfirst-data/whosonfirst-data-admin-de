@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neustadt in Holstein, Stadt",
+    "eurostat:nuts_2021_id":"01055032",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055032",
+    "eurostat:population":15043,
+    "eurostat:population_year":2020,
     "geom:area":0.002627,
-    "geom:area_square_m":19042997.313229,
+    "geom:area_square_m":19042997.313233,
     "geom:bbox":"10.784567,54.084148,10.895234,54.131272",
     "geom:latitude":54.103828,
     "geom:longitude":10.834957,
@@ -177,21 +189,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":144,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064123,
         1377683755,
-        85682517
+        85633111,
+        102064123
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055032",
+        "eurostat:nuts_2021_id":"01055032",
         "gn:id":2864034,
         "gp:id":679040,
         "qs_pg:id":1149226,
@@ -206,7 +221,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8a0faffbaff4b28bbf0b45716d7c84fa",
+    "wof:geomhash":"002e97b32c801dc94c5f4249cdc83988",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -218,11 +233,11 @@
         }
     ],
     "wof:id":101817435,
-    "wof:lastmodified":1608050165,
+    "wof:lastmodified":1684351897,
     "wof:name":"Neustadt in Holstein",
     "wof:parent_id":1377683755,
     "wof:placetype":"locality",
-    "wof:population":16176,
+    "wof:population":15043,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

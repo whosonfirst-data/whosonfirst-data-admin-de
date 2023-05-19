@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07336010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Breitenbach",
+    "eurostat:nuts_2021_id":"07336010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3G",
+    "eurostat:nuts_2021_level_lau":"07336010",
+    "eurostat:population":1778,
+    "eurostat:population_year":2020,
     "geom:area":0.001094,
-    "geom:area_square_m":8796046.515714,
+    "geom:area_square_m":8796046.515713,
     "geom:bbox":"7.2464376598,49.414705289,7.29460638432,49.4576894086",
     "geom:latitude":49.436611,
     "geom:longitude":7.27276,
@@ -122,7 +134,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -132,6 +145,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07336010",
+        "eurostat:nuts_2021_id":"07336010",
         "gn:id":2944716,
         "gp:id":641004,
         "qs_pg:id":5,
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bcc39bd6e570ef593233e0dc103b4c7d",
+    "wof:geomhash":"a892568ec3e1ab8d5c56544f3f3b82a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":101815747,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351895,
     "wof:name":"Breitenbach",
     "wof:parent_id":1377686491,
     "wof:placetype":"locality",
-    "wof:population":1867,
+    "wof:population":1778,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

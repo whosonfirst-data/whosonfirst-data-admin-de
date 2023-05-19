@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kierspe, Stadt",
+    "eurostat:nuts_2021_id":"05962028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962028",
+    "eurostat:population":16119,
+    "eurostat:population_year":2020,
     "geom:area":0.009195,
-    "geom:area_square_m":71336997.070463,
+    "geom:area_square_m":71336997.070459,
     "geom:bbox":"7.495132,51.099768,7.670246,51.190146",
     "geom:latitude":51.141682,
     "geom:longitude":7.579466,
@@ -307,22 +319,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":535,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692363,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962028",
+        "eurostat:nuts_2021_id":"05962028",
         "gn:id":2891014,
         "gp:id":665718,
         "qs_pg:id":359370,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"89cab2d7d6baf11f236cd699acd2e3b2",
+    "wof:geomhash":"9698ce975cd8dbae6c514440cf6790f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101810065,
-    "wof:lastmodified":1608050044,
+    "wof:lastmodified":1684351870,
     "wof:name":"Kierspe",
     "wof:parent_id":1377692363,
     "wof:placetype":"locality",
-    "wof:population":18188,
+    "wof:population":16119,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

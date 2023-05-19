@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06533013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Runkel, Stadt",
+    "eurostat:nuts_2021_id":"06533013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE723",
+    "eurostat:nuts_2021_level_lau":"06533013",
+    "eurostat:population":9343,
+    "eurostat:population_year":2020,
     "geom:area":0.005506,
     "geom:area_square_m":43375919.212152,
     "geom:bbox":"8.085371,50.385783,8.240027,50.461964",
@@ -307,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.405278,
     "wd:longitude":8.155,
     "wd:wordcount":1506,
@@ -316,15 +329,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063643,
         1377683695,
         404227577,
-        85682531
+        102063643
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06533013",
+        "eurostat:nuts_2021_id":"06533013",
         "gn:id":2843042,
         "gp:id":690424,
         "qs_pg:id":1038547,
@@ -339,7 +354,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"77e4f7595d61554199b298c53df47feb",
+    "wof:geomhash":"05f01e3b30fd8bf6125da492e2e97224",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101812317,
-    "wof:lastmodified":1608051234,
+    "wof:lastmodified":1684351885,
     "wof:name":"Runkel",
     "wof:parent_id":1377683695,
     "wof:placetype":"locality",
-    "wof:population":9872,
+    "wof:population":9343,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

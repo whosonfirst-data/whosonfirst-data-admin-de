@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klostermansfeld",
+    "eurostat:nuts_2021_id":"15087260",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087260",
+    "eurostat:population":2306,
+    "eurostat:population_year":2020,
     "geom:area":0.001167,
-    "geom:area_square_m":8963929.247191,
+    "geom:area_square_m":8963929.247192,
     "geom:bbox":"11.4597429975,51.5600014569,11.5311702069,51.6043315487",
     "geom:latitude":51.583838,
     "geom:longitude":11.502197,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682519,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087260",
+        "eurostat:nuts_2021_id":"15087260",
         "gn:id":2887444,
         "gp:id":637724,
         "qs_pg:id":578264,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9eb5a752808e00b711a5377c6e9be089",
+    "wof:geomhash":"bbb836d5040cf99595bbed00804d57fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101841385,
-    "wof:lastmodified":1582342521,
+    "wof:lastmodified":1684351953,
     "wof:name":"Klostermansfeld",
     "wof:parent_id":1377688807,
     "wof:placetype":"locality",
-    "wof:population":2824,
+    "wof:population":2306,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

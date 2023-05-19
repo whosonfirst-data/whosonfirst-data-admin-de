@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16061007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Birkenfelde",
+    "eurostat:nuts_2021_id":"16061007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG06",
+    "eurostat:nuts_2021_level_lau":"16061007",
+    "eurostat:population":545,
+    "eurostat:population_year":2020,
     "geom:area":0.001095,
-    "geom:area_square_m":8456769.138715,
+    "geom:area_square_m":8456769.138716,
     "geom:bbox":"9.98650408486,51.3388869861,10.0328174896,51.3764096807",
     "geom:latitude":51.359619,
     "geom:longitude":10.010167,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16061007",
+        "eurostat:nuts_2021_id":"16061007",
         "gn:id":2948592,
         "gp:id":639099,
         "qs_pg:id":579758,
@@ -175,7 +190,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4ff5fc52cb3016a8778c583461e2d7a1",
+    "wof:geomhash":"8783c862d2c70eb62ecadf58f0a52be6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101907619,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351989,
     "wof:name":"Birkenfelde",
     "wof:parent_id":1377689475,
     "wof:placetype":"locality",
-    "wof:population":582,
+    "wof:population":545,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Birgel",
+    "eurostat:nuts_2021_id":"07233007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233007",
+    "eurostat:population":449,
+    "eurostat:population_year":2020,
     "geom:area":0.000829,
     "geom:area_square_m":6543733.574541,
     "geom:bbox":"6.6090319954,50.303136796,6.65302805574,50.3395384807",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233007",
+        "eurostat:nuts_2021_id":"07233007",
         "gn:id":2948725,
         "qs_pg:id":847752
     },
@@ -126,7 +141,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"d3ac16a4141094996fdac71a84934220",
+    "wof:geomhash":"4cf47dcec9b792124a2c45a63986bed8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -138,11 +153,11 @@
         }
     ],
     "wof:id":1125777263,
-    "wof:lastmodified":1582343062,
+    "wof:lastmodified":1684352011,
     "wof:name":"Birgel",
     "wof:parent_id":1377686011,
     "wof:placetype":"locality",
-    "wof:population":510,
+    "wof:population":449,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

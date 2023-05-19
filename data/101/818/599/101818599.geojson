@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boizenburg/ Elbe, Stadt",
+    "eurostat:nuts_2021_id":"13076014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076014",
+    "eurostat:population":10730,
+    "eurostat:population_year":2020,
     "geom:area":0.006351,
-    "geom:area_square_m":46841186.825591,
+    "geom:area_square_m":46841186.825589,
     "geom:bbox":"10.6445956256,53.3414971205,10.7860164035,53.4269409729",
     "geom:latitude":53.3857,
     "geom:longitude":10.727352,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":669,
     "wof:belongsto":[
         85682487,
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076014",
+        "eurostat:nuts_2021_id":"13076014",
         "gn:id":2946821,
         "gp:id":639975,
         "loc:id":"n92076025",
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc9b9da49e6365974cf3f5ff7b992af3",
+    "wof:geomhash":"a8da0b8442fa754a1879d584bb73b092",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101818599,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351901,
     "wof:name":"Boizenburg/Elbe",
     "wof:parent_id":1377685185,
     "wof:placetype":"locality",
-    "wof:population":10783,
+    "wof:population":10730,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

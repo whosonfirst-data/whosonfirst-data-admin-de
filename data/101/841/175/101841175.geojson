@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14523090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ellefeld",
+    "eurostat:nuts_2021_id":"14523090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED44",
+    "eurostat:nuts_2021_level_lau":"14523090",
+    "eurostat:population":2546,
+    "eurostat:population_year":2020,
     "geom:area":0.000562,
     "geom:area_square_m":4418942.47737,
     "geom:bbox":"12.370925,50.466616,12.411,50.497353",
@@ -139,17 +151,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064209,
         1377686199,
-        85682523
+        85633111,
+        102064209
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14523090",
+        "eurostat:nuts_2021_id":"14523090",
         "fct:id":"073d3746-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2931097,
         "gp:id":647551,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"628ad2eaec726a236e8868cf187db8b1",
+    "wof:geomhash":"ea6d94d9952520ad4013d5508feb52fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050989,
+    "wof:lastmodified":1684351951,
     "wof:name":"Ellefeld",
     "wof:parent_id":1377686199,
     "wof:placetype":"locality",
-    "wof:population":3077,
+    "wof:population":2546,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

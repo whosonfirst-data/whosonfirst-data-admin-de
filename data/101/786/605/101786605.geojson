@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09175112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"A\u00dfling",
+    "eurostat:nuts_2021_id":"09175112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE218",
+    "eurostat:nuts_2021_level_lau":"09175112",
+    "eurostat:population":4529,
+    "eurostat:population_year":2020,
     "geom:area":0.003776,
-    "geom:area_square_m":31245577.243162,
+    "geom:area_square_m":31245577.243163,
     "geom:bbox":"11.9217071911,47.9540993461,12.0411823655,48.0203742618",
     "geom:latitude":47.99137,
     "geom:longitude":11.993126,
@@ -191,7 +203,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682571,
@@ -203,6 +216,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09175112",
+        "eurostat:nuts_2021_id":"09175112",
         "fct:id":"07366948-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2955007,
         "gp:id":635746,
@@ -215,7 +230,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c40633db7a4dd427154dd4b18915bfb9",
+    "wof:geomhash":"80030ed0dffc66e222c00ec55037ce3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,11 +246,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342638,
+    "wof:lastmodified":1684351839,
     "wof:name":"A\u00dfling",
     "wof:parent_id":1377691411,
     "wof:placetype":"locality",
-    "wof:population":4288,
+    "wof:population":4529,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

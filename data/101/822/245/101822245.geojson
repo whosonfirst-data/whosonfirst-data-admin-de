@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6rsbach",
+    "eurostat:nuts_2021_id":"16062008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062008",
+    "eurostat:population":1030,
+    "eurostat:population_year":2020,
     "geom:area":0.00101,
-    "geom:area_square_m":7779215.198089,
+    "geom:area_square_m":7779215.198087,
     "geom:bbox":"10.8975525086,51.4422647265,10.9727029584,51.5016295551",
     "geom:latitude":51.45798,
     "geom:longitude":10.938362,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":59,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062008",
+        "eurostat:nuts_2021_id":"16062008",
         "gn:id":2918942,
         "gp:id":653387,
         "qs_pg:id":1039762,
@@ -159,7 +174,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b7649fe35cdbd89bd9e39fc06e3d16a7",
+    "wof:geomhash":"faf169d5e2b5cc11cef3e6108b74283b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +186,11 @@
         }
     ],
     "wof:id":101822245,
-    "wof:lastmodified":1582342578,
+    "wof:lastmodified":1684351921,
     "wof:name":"G\u00f6rsbach",
     "wof:parent_id":1377689575,
     "wof:placetype":"locality",
-    "wof:population":1175,
+    "wof:population":1030,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

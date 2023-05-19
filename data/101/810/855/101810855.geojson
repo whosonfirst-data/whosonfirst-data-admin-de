@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05366036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schleiden, Stadt",
+    "eurostat:nuts_2021_id":"05366036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA28",
+    "eurostat:nuts_2021_level_lau":"05366036",
+    "eurostat:population":13128,
+    "eurostat:population_year":2020,
     "geom:area":0.015497,
     "geom:area_square_m":121743754.773214,
     "geom:bbox":"6.348251,50.497807,6.559739,50.619714",
@@ -313,22 +325,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":201,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063667,
         1377690295,
         404227541,
-        85682513
+        102063667
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05366036",
+        "eurostat:nuts_2021_id":"05366036",
         "gn:id":2838744,
         "gp:id":692122,
         "qs_pg:id":1345491,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3e85674a167f057498808a2f69863284",
+    "wof:geomhash":"5a0e4fb9b05cfdd3025845cb10027223",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101810855,
-    "wof:lastmodified":1608050105,
+    "wof:lastmodified":1684351876,
     "wof:name":"Schleiden",
     "wof:parent_id":1377690295,
     "wof:placetype":"locality",
-    "wof:population":14160,
+    "wof:population":13128,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

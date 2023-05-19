@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14523160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Klingenthal, Stadt",
+    "eurostat:nuts_2021_id":"14523160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED44",
+    "eurostat:nuts_2021_level_lau":"14523160",
+    "eurostat:population":8184,
+    "eurostat:population_year":2020,
     "geom:area":0.006502,
-    "geom:area_square_m":51275663.429171,
+    "geom:area_square_m":51275663.429169,
     "geom:bbox":"12.36282,50.333701,12.517191,50.420135",
     "geom:latitude":50.374465,
     "geom:longitude":12.44511,
@@ -316,17 +328,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":620,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064209,
         1377686217,
-        85682523
+        85633111,
+        102064209
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14523160",
+        "eurostat:nuts_2021_id":"14523160",
         "gn:id":2887713,
         "gp:id":667384,
         "loc:id":"n79099751",
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd5cfea6b3bfccf9d45a680aa1954aff",
+    "wof:geomhash":"a47b18e18a2064b7c582194c4795dc9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101841179,
-    "wof:lastmodified":1608051010,
+    "wof:lastmodified":1684351951,
     "wof:name":"Klingenthal",
     "wof:parent_id":1377686217,
     "wof:placetype":"locality",
-    "wof:population":9132,
+    "wof:population":8184,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

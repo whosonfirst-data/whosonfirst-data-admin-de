@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Diedorf, M",
+    "eurostat:nuts_2021_id":"09772130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772130",
+    "eurostat:population":10521,
+    "eurostat:population_year":2020,
     "geom:area":0.004026,
-    "geom:area_square_m":33084084.407597,
+    "geom:area_square_m":33084084.407601,
     "geom:bbox":"10.711696,48.304033,10.806132,48.396593",
     "geom:latitude":48.351722,
     "geom:longitude":10.763339,
@@ -160,18 +172,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693349,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772130",
+        "eurostat:nuts_2021_id":"09772130",
         "gn:id":2937553,
         "gp:id":644465,
         "qs_pg:id":875825,
@@ -186,7 +201,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b4b3cf091d34305e1d1937c160a6c19b",
+    "wof:geomhash":"7ea37338efb11e3bf8e38c82247e67bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -199,11 +214,11 @@
         }
     ],
     "wof:id":101785537,
-    "wof:lastmodified":1608050475,
+    "wof:lastmodified":1684351837,
     "wof:name":"Diedorf",
     "wof:parent_id":1377693349,
     "wof:placetype":"locality",
-    "wof:population":10006,
+    "wof:population":10521,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

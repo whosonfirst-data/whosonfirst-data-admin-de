@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weingarten (Baden)",
+    "eurostat:nuts_2021_id":"08215090",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215090",
+    "eurostat:population":10422,
+    "eurostat:population_year":2020,
     "geom:area":0.003664,
     "geom:area_square_m":29693653.769616,
     "geom:bbox":"8.48588360758,49.0277888708,8.59517191234,49.0887319537",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":268,
     "wof:belongsto":[
         85682567,
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215090",
+        "eurostat:nuts_2021_id":"08215090",
         "gn:id":2812197,
         "gp:id":704818,
         "qs_pg:id":907218,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e5e15bd0662debc363d8f62a05bc8567",
+    "wof:geomhash":"02f8b5870836b024375d2892ca4cd813",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,12 +344,12 @@
         }
     ],
     "wof:id":101760731,
-    "wof:lastmodified":1582342492,
+    "wof:lastmodified":1684351801,
     "wof:name":"Weingarten (Baden)",
     "wof:parent_id":1377688195,
     "wof:placetype":"locality",
-    "wof:population":9556,
-    "wof:population_rank":5,
+    "wof:population":10422,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

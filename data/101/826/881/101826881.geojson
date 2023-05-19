@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09575121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Emskirchen, M",
+    "eurostat:nuts_2021_id":"09575121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25A",
+    "eurostat:nuts_2021_level_lau":"09575121",
+    "eurostat:population":6081,
+    "eurostat:population_year":2020,
     "geom:area":0.008331,
-    "geom:area_square_m":66833922.732062,
+    "geom:area_square_m":66833922.732058,
     "geom:bbox":"10.645845,49.502115,10.82143,49.603069",
     "geom:latitude":49.551625,
     "geom:longitude":10.728089,
@@ -160,18 +172,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063505,
         1377689803,
         404227565,
-        85682571
+        102063505
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09575121",
+        "eurostat:nuts_2021_id":"09575121",
         "fct:id":"073d7058-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2930432,
         "gp:id":647909,
@@ -187,7 +202,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2bb48cac82772e728fe4f26058a788e5",
+    "wof:geomhash":"bac66d935e463b771b8f92526e600c31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050311,
+    "wof:lastmodified":1684351937,
     "wof:name":"Emskirchen",
     "wof:parent_id":1377689803,
     "wof:placetype":"locality",
-    "wof:population":6197,
+    "wof:population":6081,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

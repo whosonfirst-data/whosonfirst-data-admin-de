@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosche",
+    "eurostat:nuts_2021_id":"03360018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360018",
+    "eurostat:population":2013,
+    "eurostat:population_year":2020,
     "geom:area":0.009671,
-    "geom:area_square_m":71971736.912715,
+    "geom:area_square_m":71971736.912718,
     "geom:bbox":"10.7188412904,52.9523546049,10.8926818289,53.0444736082",
     "geom:latitude":52.998771,
     "geom:longitude":10.798694,
@@ -133,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682555,
@@ -144,6 +157,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360018",
+        "eurostat:nuts_2021_id":"03360018",
         "gn:id":2845146,
         "gp:id":685984,
         "qs_pg:id":93160,
@@ -155,7 +170,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"16f0a693e7cbec21be5aa4a6920450b2",
+    "wof:geomhash":"1cb9583e3012d1f7cff892061d22f14b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +182,11 @@
         }
     ],
     "wof:id":101820005,
-    "wof:lastmodified":1582342381,
+    "wof:lastmodified":1684351911,
     "wof:name":"Rosche",
     "wof:parent_id":1377687983,
     "wof:placetype":"locality",
-    "wof:population":2157,
+    "wof:population":2013,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

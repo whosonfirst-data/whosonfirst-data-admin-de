@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Papendorf",
+    "eurostat:nuts_2021_id":"13072077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072077",
+    "eurostat:population":2540,
+    "eurostat:population_year":2020,
     "geom:area":0.003097,
-    "geom:area_square_m":22484293.121087,
+    "geom:area_square_m":22484293.121088,
     "geom:bbox":"12.0612907066,54.0183178588,12.1776558274,54.0688183033",
     "geom:latitude":54.042212,
     "geom:longitude":12.120029,
@@ -276,7 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -286,6 +299,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072077",
+        "eurostat:nuts_2021_id":"13072077",
         "gn:id":2855518,
         "gp:id":684192,
         "qs_pg:id":279208,
@@ -297,7 +312,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43131340746af4eac7f0158622c40a82",
+    "wof:geomhash":"10e6385211abb4e785b406a186a42dcd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -309,11 +324,11 @@
         }
     ],
     "wof:id":101818963,
-    "wof:lastmodified":1582342358,
+    "wof:lastmodified":1684351906,
     "wof:name":"Papendorf",
     "wof:parent_id":1377684731,
     "wof:placetype":"locality",
-    "wof:population":2514,
+    "wof:population":2540,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

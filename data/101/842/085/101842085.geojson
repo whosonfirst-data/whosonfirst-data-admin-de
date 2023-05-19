@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lautenbach",
+    "eurostat:nuts_2021_id":"08317067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317067",
+    "eurostat:population":1861,
+    "eurostat:population_year":2020,
     "geom:area":0.002629,
-    "geom:area_square_m":21529310.448933,
+    "geom:area_square_m":21529310.448931,
     "geom:bbox":"8.0919460568,48.4915445272,8.17483634726,48.5490380306",
     "geom:latitude":48.520382,
     "geom:longitude":8.130991,
@@ -311,7 +323,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682567,
@@ -323,6 +336,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317067",
+        "eurostat:nuts_2021_id":"08317067",
         "gn:id":2879981,
         "gp:id":20159195,
         "qs_pg:id":6,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6ef23f19933668609b8274d6623101eb",
+    "wof:geomhash":"78b9686a316bf312e0902b4e9ec6f5c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101842085,
-    "wof:lastmodified":1582342391,
+    "wof:lastmodified":1684351954,
     "wof:name":"Lautenbach",
     "wof:parent_id":1377689385,
     "wof:placetype":"locality",
-    "wof:population":1852,
+    "wof:population":1861,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pritzier",
+    "eurostat:nuts_2021_id":"13076116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076116",
+    "eurostat:population":401,
+    "eurostat:population_year":2020,
     "geom:area":0.002658,
-    "geom:area_square_m":19605742.196097,
+    "geom:area_square_m":19605742.196099,
     "geom:bbox":"11.0343651793,53.345772344,11.1055544442,53.3980527897",
     "geom:latitude":53.372297,
     "geom:longitude":11.069993,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":449,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -153,6 +166,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076116",
+        "eurostat:nuts_2021_id":"13076116",
         "gn:id":2851968,
         "gp:id":686063,
         "qs_pg:id":577356,
@@ -164,7 +179,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3d9608d57023da111077ee3bec025af2",
+    "wof:geomhash":"205adb6cf8672f310c57ed1717a25bba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +191,11 @@
         }
     ],
     "wof:id":101908093,
-    "wof:lastmodified":1582342352,
+    "wof:lastmodified":1684351993,
     "wof:name":"Pritzier",
     "wof:parent_id":1377685279,
     "wof:placetype":"locality",
-    "wof:population":517,
+    "wof:population":401,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

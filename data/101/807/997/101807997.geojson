@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03454029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lathen",
+    "eurostat:nuts_2021_id":"03454029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE949",
+    "eurostat:nuts_2021_level_lau":"03454029",
+    "eurostat:population":6711,
+    "eurostat:population_year":2020,
     "geom:area":0.005072,
-    "geom:area_square_m":37875117.009485,
+    "geom:area_square_m":37875117.009487,
     "geom:bbox":"7.25690086206,52.8179765974,7.42650117094,52.8814055513",
     "geom:latitude":52.849332,
     "geom:longitude":7.346105,
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -333,6 +346,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03454029",
+        "eurostat:nuts_2021_id":"03454029",
         "gn:id":2879839,
         "gp:id":670486,
         "qs_pg:id":55529,
@@ -347,7 +362,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e52f07181ca5857bc28be4dd14213702",
+    "wof:geomhash":"c90de1b8f216319c22dec53c046ec462",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101807997,
-    "wof:lastmodified":1582342586,
+    "wof:lastmodified":1684351862,
     "wof:name":"Lathen",
     "wof:parent_id":1377688571,
     "wof:placetype":"locality",
-    "wof:population":5754,
+    "wof:population":6711,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

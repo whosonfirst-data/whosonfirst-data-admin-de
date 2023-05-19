@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03358001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ahlden (Aller), Flecken",
+    "eurostat:nuts_2021_id":"03358001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE938",
+    "eurostat:nuts_2021_level_lau":"03358001",
+    "eurostat:population":1552,
+    "eurostat:population_year":2020,
     "geom:area":0.003453,
     "geom:area_square_m":25842028.602267,
     "geom:bbox":"9.46176363425,52.726522143,9.5715114737,52.7820003836",
@@ -290,7 +302,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -300,6 +313,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03358001",
+        "eurostat:nuts_2021_id":"03358001",
         "gn:id":2959237,
         "gp:id":701994,
         "qs_pg:id":142989,
@@ -310,7 +325,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"153265c842659153bfec7204ea25b2d7",
+    "wof:geomhash":"d664a221a4d3ebf861b76e79367db915",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101808071,
-    "wof:lastmodified":1582342605,
+    "wof:lastmodified":1684351863,
     "wof:name":"Ahlden (Aller)",
     "wof:parent_id":1377687831,
     "wof:placetype":"locality",
-    "wof:population":1573,
+    "wof:population":1552,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

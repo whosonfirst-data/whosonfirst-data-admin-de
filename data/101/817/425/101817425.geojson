@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kellenhusen (Ostsee)",
+    "eurostat:nuts_2021_id":"01055025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055025",
+    "eurostat:population":1125,
+    "eurostat:population_year":2020,
     "geom:area":0.001143,
-    "geom:area_square_m":8271595.334353,
+    "geom:area_square_m":8271595.334355,
     "geom:bbox":"11.0195332084,54.17687157,11.082517211,54.2151330636",
     "geom:latitude":54.196784,
     "geom:longitude":11.051493,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055025",
+        "eurostat:nuts_2021_id":"01055025",
         "gn:id":2891814,
         "gp:id":665380,
         "qs_pg:id":1344495,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5562e788a7091339b731a5b04c33de2f",
+    "wof:geomhash":"50ea8b0e08be019f6da5e17f1de91e63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101817425,
-    "wof:lastmodified":1582342413,
+    "wof:lastmodified":1684351897,
     "wof:name":"Kellenhusen (Ostsee)",
     "wof:parent_id":1377683737,
     "wof:placetype":"locality",
-    "wof:population":1074,
+    "wof:population":1125,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

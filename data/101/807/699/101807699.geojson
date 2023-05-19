@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03241011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lehrte, Stadt",
+    "eurostat:nuts_2021_id":"03241011",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE929",
+    "eurostat:nuts_2021_level_lau":"03241011",
+    "eurostat:population":44030,
+    "eurostat:population_year":2020,
     "geom:area":0.016865,
     "geom:area_square_m":127292839.909619,
     "geom:bbox":"9.884551,52.321565,10.155522,52.431514",
@@ -312,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.3725,
     "wd:longitude":9.976944,
     "wd:wordcount":477,
@@ -321,14 +334,16 @@
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063941,
         1377686353,
-        85682555
+        85633111,
+        102063941
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03241011",
+        "eurostat:nuts_2021_id":"03241011",
         "gn:id":2879367,
         "gp:id":670953,
         "qs_pg:id":470405,
@@ -346,7 +361,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"70b57531799e01d04d37c63c3794a562",
+    "wof:geomhash":"8929c23d1b317e7ab9f346e89afe4704",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101807699,
-    "wof:lastmodified":1608051561,
+    "wof:lastmodified":1684351859,
     "wof:name":"Lehrte",
     "wof:parent_id":1377686353,
     "wof:placetype":"locality",
-    "wof:population":43920,
+    "wof:population":44030,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

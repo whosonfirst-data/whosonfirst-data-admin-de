@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05770004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Oeynhausen, Stadt",
+    "eurostat:nuts_2021_id":"05770004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA46",
+    "eurostat:nuts_2021_level_lau":"05770004",
+    "eurostat:population":48604,
+    "eurostat:population_year":2020,
     "geom:area":0.008536,
-    "geom:area_square_m":64657502.379595,
+    "geom:area_square_m":64657502.379594,
     "geom:bbox":"8.720796,52.162514,8.871698,52.276374",
     "geom:latitude":52.223315,
     "geom:longitude":8.799213,
@@ -334,22 +346,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1012,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063927,
         1377691895,
         404227571,
-        85682513
+        102063927
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05770004",
+        "eurostat:nuts_2021_id":"05770004",
         "gn:id":2953386,
         "gp:id":636481,
         "loc:id":"n84193261",
@@ -365,7 +380,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fe2a00ed632e4caa303e0721e566a597",
+    "wof:geomhash":"265ecda2427551f577006a0a4285b6a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -378,11 +393,11 @@
         }
     ],
     "wof:id":101838067,
-    "wof:lastmodified":1608051598,
+    "wof:lastmodified":1684351946,
     "wof:name":"Bad Oeynhausen",
     "wof:parent_id":1377691895,
     "wof:placetype":"locality",
-    "wof:population":49513,
+    "wof:population":48604,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

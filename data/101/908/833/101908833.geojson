@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01055006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beschendorf",
+    "eurostat:nuts_2021_id":"01055006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF08",
+    "eurostat:nuts_2021_level_lau":"01055006",
+    "eurostat:population":525,
+    "eurostat:population_year":2020,
     "geom:area":0.001186,
-    "geom:area_square_m":8583329.476247,
+    "geom:area_square_m":8583329.476248,
     "geom:bbox":"10.8519468668,54.1738894979,10.9036146145,54.2155656593",
     "geom:latitude":54.191757,
     "geom:longitude":10.879519,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01055006",
+        "eurostat:nuts_2021_id":"01055006",
         "gn:id":2949827,
         "gp:id":638456,
         "qs_pg:id":94123,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f1211ec81e259cee6385c41d376c356",
+    "wof:geomhash":"16625c77343369c6340865e1237c7232",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101908833,
-    "wof:lastmodified":1582342344,
+    "wof:lastmodified":1684352000,
     "wof:name":"Beschendorf",
     "wof:parent_id":1377683837,
     "wof:placetype":"locality",
-    "wof:population":536,
+    "wof:population":525,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lucka, Stadt",
+    "eurostat:nuts_2021_id":"16077028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077028",
+    "eurostat:population":3681,
+    "eurostat:population_year":2020,
     "geom:area":0.001668,
-    "geom:area_square_m":12955737.439968,
+    "geom:area_square_m":12955737.439967,
     "geom:bbox":"12.280882,51.061298,12.368022,51.103783",
     "geom:latitude":51.083678,
     "geom:longitude":12.329664,
@@ -141,17 +153,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":165,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063713,
         1377690987,
-        85682541
+        85633111,
+        102063713
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077028",
+        "eurostat:nuts_2021_id":"16077028",
         "gn:id":2875512,
         "gp:id":672868,
         "qs_pg:id":185315,
@@ -166,7 +181,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a568388cf214c0e4f694f28e97b11b63",
+    "wof:geomhash":"6b13ca7560bab1bd70ae5ccb81caecd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101821817,
-    "wof:lastmodified":1608050184,
+    "wof:lastmodified":1684351917,
     "wof:name":"Lucka",
     "wof:parent_id":1377690987,
     "wof:placetype":"locality",
-    "wof:population":4526,
+    "wof:population":3681,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

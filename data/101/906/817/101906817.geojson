@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gundersweiler",
+    "eurostat:nuts_2021_id":"07333028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333028",
+    "eurostat:population":515,
+    "eurostat:population_year":2020,
     "geom:area":0.001271,
     "geom:area_square_m":10184746.181387,
     "geom:bbox":"7.73955240674,49.5729200232,7.80764771136,49.6019802762",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":361,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333028",
+        "eurostat:nuts_2021_id":"07333028",
         "gn:id":2913677,
         "gp:id":655828,
         "qs_pg:id":93765,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fdaeaa7c4bef478bbd8735adcc3edb44",
+    "wof:geomhash":"14cd97498a73486e375fa227c33f2c7d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101906817,
-    "wof:lastmodified":1582342324,
+    "wof:lastmodified":1684351981,
     "wof:name":"Gundersweiler",
     "wof:parent_id":1377686345,
     "wof:placetype":"locality",
-    "wof:population":568,
+    "wof:population":515,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

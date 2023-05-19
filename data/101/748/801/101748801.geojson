@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12053000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frankfurt (Oder), Stadt",
+    "eurostat:nuts_2021_id":"12053000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE403",
+    "eurostat:nuts_2021_level_lau":"12053000",
+    "eurostat:population":57751,
+    "eurostat:population_year":2020,
     "geom:area":0.019472,
-    "geom:area_square_m":147161739.313381,
+    "geom:area_square_m":147161739.313384,
     "geom:bbox":"14.3948344154,52.2527720062,14.6013551876,52.3982333484",
     "geom:latitude":52.324776,
     "geom:longitude":14.490309,
@@ -402,7 +414,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -412,6 +425,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12053000",
+        "eurostat:nuts_2021_id":"12053000",
         "gn:id":2925535,
         "gp:id":518763,
         "loc:id":"n96122011",
@@ -430,7 +445,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4bbdec25081e58af0387d51059de6cd9",
+    "wof:geomhash":"c91d41352917f65ad77b1f946fb8d553",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -442,11 +457,11 @@
         }
     ],
     "wof:id":101748801,
-    "wof:lastmodified":1582342473,
+    "wof:lastmodified":1684351789,
     "wof:name":"Frankfurt (Oder)",
     "wof:parent_id":1377694183,
     "wof:placetype":"locality",
-    "wof:population":51691,
+    "wof:population":57751,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

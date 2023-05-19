@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ortenberg, Stadt",
+    "eurostat:nuts_2021_id":"06440019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440019",
+    "eurostat:population":8970,
+    "eurostat:population_year":2020,
     "geom:area":0.006897,
-    "geom:area_square_m":54407215.38768,
+    "geom:area_square_m":54407215.387677,
     "geom:bbox":"8.986879,50.315705,9.164523,50.397464",
     "geom:latitude":50.356862,
     "geom:longitude":9.083503,
@@ -291,18 +303,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":13,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694375,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440019",
+        "eurostat:nuts_2021_id":"06440019",
         "gn:id":2857012,
         "gp:id":643289,
         "qs_pg:id":1038821,
@@ -315,7 +330,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6168bf24d66f76e6065ae102758ce877",
+    "wof:geomhash":"0e771a830e4ecf1852f830d5cfabee51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101812237,
-    "wof:lastmodified":1608051226,
+    "wof:lastmodified":1684351884,
     "wof:name":"Ortenberg",
     "wof:parent_id":1377694375,
     "wof:placetype":"locality",
-    "wof:population":9155,
+    "wof:population":8970,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

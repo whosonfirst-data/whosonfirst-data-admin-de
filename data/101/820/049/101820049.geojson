@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e4rkisch Linden",
+    "eurostat:nuts_2021_id":"12068306",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068306",
+    "eurostat:population":1230,
+    "eurostat:population_year":2020,
     "geom:area":0.005926,
-    "geom:area_square_m":44167950.536807,
+    "geom:area_square_m":44167950.536802,
     "geom:bbox":"12.6211939895,52.8878277467,12.769000043,52.9792046212",
     "geom:latitude":52.934211,
     "geom:longitude":12.70084,
@@ -131,7 +143,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682553,
@@ -142,6 +155,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068306",
+        "eurostat:nuts_2021_id":"12068306",
         "gn:id":6547655,
         "gp:id":668644,
         "qs_pg:id":630385,
@@ -152,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c695ed0494ec4f1caedac705b3e71509",
+    "wof:geomhash":"163cd6218c91dbee85a352c3c42eadd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +179,11 @@
         }
     ],
     "wof:id":101820049,
-    "wof:lastmodified":1582342376,
+    "wof:lastmodified":1684351912,
     "wof:name":"M\u00e4rkisch Linden",
     "wof:parent_id":1377683743,
     "wof:placetype":"locality",
-    "wof:population":1193,
+    "wof:population":1230,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

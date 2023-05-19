@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07134056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6rschied",
+    "eurostat:nuts_2021_id":"07134056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB15",
+    "eurostat:nuts_2021_level_lau":"07134056",
+    "eurostat:population":789,
+    "eurostat:population_year":2020,
     "geom:area":0.001311,
     "geom:area_square_m":10461729.409745,
     "geom:bbox":"7.25998119143,49.7735670748,7.32936114301,49.8065947048",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":472,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07134056",
+        "eurostat:nuts_2021_id":"07134056",
         "gn:id":2869174,
         "gp:id":676248,
         "qs_pg:id":577769,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0db9ebe6825e2d616cefab1555ef6808",
+    "wof:geomhash":"c4bd6d6fdcaa672e25c9eec60f93820f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101906867,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351982,
     "wof:name":"M\u00f6rschied",
     "wof:parent_id":1377685461,
     "wof:placetype":"locality",
-    "wof:population":909,
+    "wof:population":789,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

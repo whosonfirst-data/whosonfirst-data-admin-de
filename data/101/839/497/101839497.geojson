@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Olsberg, Stadt",
+    "eurostat:nuts_2021_id":"05958036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958036",
+    "eurostat:population":14430,
+    "eurostat:population_year":2020,
     "geom:area":0.015252,
     "geom:area_square_m":117841425.831255,
     "geom:bbox":"8.414632,51.259264,8.573263,51.434202",
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692267,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958036",
+        "eurostat:nuts_2021_id":"05958036",
         "gn:id":2857291,
         "gp:id":683259,
         "qs_pg:id":891180,
@@ -339,7 +354,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2e8194469c03d217ee3de26c17a408e1",
+    "wof:geomhash":"0413b7cf75accd7213dc51634c61f118",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -352,11 +367,11 @@
         }
     ],
     "wof:id":101839497,
-    "wof:lastmodified":1608051829,
+    "wof:lastmodified":1684351948,
     "wof:name":"Olsberg",
     "wof:parent_id":1377692267,
     "wof:placetype":"locality",
-    "wof:population":15814,
+    "wof:population":14430,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weiler",
+    "eurostat:nuts_2021_id":"07135089",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135089",
+    "eurostat:population":288,
+    "eurostat:population_year":2020,
     "geom:area":0.000916,
     "geom:area_square_m":7260074.311885,
     "geom:bbox":"7.04916527897,50.1247723459,7.10517898939,50.1504484789",
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -129,6 +142,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135089",
+        "eurostat:nuts_2021_id":"07135089",
         "gn:id":2812582,
         "wk:page":"Weiler%2C_Cochem-Zell"
     },
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"e5218d48e7fdfe743bc79079894d4684",
+    "wof:geomhash":"5e65bf947b35f2406a9f178b70ea9b57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1343658661,
-    "wof:lastmodified":1582341942,
+    "wof:lastmodified":1684352063,
     "wof:name":"Weiler",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":310,
+    "wof:population":288,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

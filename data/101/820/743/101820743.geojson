@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigswartha",
+    "eurostat:nuts_2021_id":"14625280",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625280",
+    "eurostat:population":3458,
+    "eurostat:population_year":2020,
     "geom:area":0.006095,
-    "geom:area_square_m":47099500.893654,
+    "geom:area_square_m":47099500.89365,
     "geom:bbox":"14.262797,51.289303,14.425213,51.361815",
     "geom:latitude":51.321559,
     "geom:longitude":14.327086,
@@ -166,21 +178,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":134,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686755,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625280",
+        "eurostat:nuts_2021_id":"14625280",
         "fct:id":"07174fea-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2885742,
         "gp:id":668186,
@@ -196,7 +211,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ea446c3d8fe3367b29b1cd8d1489adfd",
+    "wof:geomhash":"e7420ce5ae7ecf09b0c6c393146df6d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049892,
+    "wof:lastmodified":1684351913,
     "wof:name":"K\u00f6nigswartha",
     "wof:parent_id":1377686755,
     "wof:placetype":"locality",
-    "wof:population":3767,
+    "wof:population":3458,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

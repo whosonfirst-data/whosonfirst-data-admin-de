@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09676165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilbach, M",
+    "eurostat:nuts_2021_id":"09676165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE269",
+    "eurostat:nuts_2021_level_lau":"09676165",
+    "eurostat:population":2208,
+    "eurostat:population_year":2020,
     "geom:area":0.003405,
-    "geom:area_square_m":27247315.454613,
+    "geom:area_square_m":27247315.454614,
     "geom:bbox":"9.093355,49.650201,9.275216,49.707477",
     "geom:latitude":49.674142,
     "geom:longitude":9.169372,
@@ -139,18 +151,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1021,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063539,
         1377691403,
         404227569,
-        85682571
+        102063539
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09676165",
+        "eurostat:nuts_2021_id":"09676165",
         "gn:id":2812633,
         "gp:id":704680,
         "qs_pg:id":36954,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c9564cda7b7508f97a84cca8ebfc6c28",
+    "wof:geomhash":"3822fa04dc160e3c9f737370d799dc5b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +193,11 @@
         }
     ],
     "wof:id":101846215,
-    "wof:lastmodified":1608051037,
+    "wof:lastmodified":1684351959,
     "wof:name":"Weilbach",
     "wof:parent_id":1377691403,
     "wof:placetype":"locality",
-    "wof:population":2342,
+    "wof:population":2208,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dirmstein",
+    "eurostat:nuts_2021_id":"07332010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332010",
+    "eurostat:population":3056,
+    "eurostat:population_year":2020,
     "geom:area":0.00181,
-    "geom:area_square_m":14514304.28837,
+    "geom:area_square_m":14514304.288368,
     "geom:bbox":"8.21629581307,49.5547367145,8.28250564212,49.5918455124",
     "geom:latitude":49.572768,
     "geom:longitude":8.251346,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":11058,
     "wof:belongsto":[
         85682491,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332010",
+        "eurostat:nuts_2021_id":"07332010",
         "gn:id":2936822,
         "gp:id":644818,
         "qs_pg:id":279289,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"bfd032bd72e89f34b54f54659a2f9cea",
+    "wof:geomhash":"ff26f21afc655497e102edd3e534e05c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101812971,
-    "wof:lastmodified":1582342547,
+    "wof:lastmodified":1684351886,
     "wof:name":"Dirmstein",
     "wof:parent_id":1377686301,
     "wof:placetype":"locality",
-    "wof:population":3080,
+    "wof:population":3056,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

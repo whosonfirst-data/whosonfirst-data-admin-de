@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gronau (Leine), Stadt",
+    "eurostat:nuts_2021_id":"03254043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254043",
+    "eurostat:population":10736,
+    "eurostat:population_year":2020,
     "geom:area":0.011595,
-    "geom:area_square_m":88115730.430212,
+    "geom:area_square_m":88115730.430211,
     "geom:bbox":"9.72689180997,52.0195989436,9.88772297843,52.1348816833",
     "geom:latitude":52.079282,
     "geom:longitude":9.800303,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254043",
+        "eurostat:nuts_2021_id":"03254043",
         "gn:id":2917139,
         "gp:id":654347,
         "qs_pg:id":1039728,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8024edf62f85c75167586b508d848b10",
+    "wof:geomhash":"050836a18c4ded54345945d7858900d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,12 +354,12 @@
         }
     ],
     "wof:id":101809189,
-    "wof:lastmodified":1582342599,
+    "wof:lastmodified":1684351868,
     "wof:name":"Gronau (Leine)",
     "wof:parent_id":1377686793,
     "wof:placetype":"locality",
-    "wof:population":5444,
-    "wof:population_rank":5,
+    "wof:population":10736,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

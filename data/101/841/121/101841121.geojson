@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626530",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seifhennersdorf, Stadt",
+    "eurostat:nuts_2021_id":"14626530",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626530",
+    "eurostat:population":3660,
+    "eurostat:population_year":2020,
     "geom:area":0.002436,
-    "geom:area_square_m":18981344.045808,
+    "geom:area_square_m":18981344.045813,
     "geom:bbox":"14.560662,50.914257,14.655464,50.962478",
     "geom:latitude":50.936938,
     "geom:longitude":14.605402,
@@ -167,17 +179,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":103,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064233,
         1377687107,
-        85682523
+        85633111,
+        102064233
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626530",
+        "eurostat:nuts_2021_id":"14626530",
         "gn:id":2833365,
         "gp:id":694361,
         "qs_pg:id":1346267,
@@ -192,7 +207,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1da601b7dcac3a61d81b6c2bee82aae9",
+    "wof:geomhash":"b81fcf49f0904c3bde3b5685094aebf3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101841121,
-    "wof:lastmodified":1608050990,
+    "wof:lastmodified":1684351951,
     "wof:name":"Seifhennersdorf",
     "wof:parent_id":1377687107,
     "wof:placetype":"locality",
-    "wof:population":4878,
+    "wof:population":3660,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

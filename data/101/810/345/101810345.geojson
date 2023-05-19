@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Medebach, Hansestadt",
+    "eurostat:nuts_2021_id":"05958028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958028",
+    "eurostat:population":8000,
+    "eurostat:population_year":2020,
     "geom:area":0.016209,
-    "geom:area_square_m":125569749.130013,
+    "geom:area_square_m":125569749.130006,
     "geom:bbox":"8.587116,51.132545,8.768194,51.276407",
     "geom:latitude":51.207923,
     "geom:longitude":8.675389,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":193,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692249,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958028",
+        "eurostat:nuts_2021_id":"05958028",
         "gn:id":2872557,
         "gp:id":674436,
         "qs_pg:id":1039136,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0547200e47b6773b66f4c3584b540c08",
+    "wof:geomhash":"b1583020f503b616337cf7c915e8f61a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810345,
-    "wof:lastmodified":1608050113,
+    "wof:lastmodified":1684351873,
     "wof:name":"Medebach",
     "wof:parent_id":1377692249,
     "wof:placetype":"locality",
-    "wof:population":8276,
+    "wof:population":8000,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

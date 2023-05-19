@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Benningen",
+    "eurostat:nuts_2021_id":"09778118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778118",
+    "eurostat:population":2042,
+    "eurostat:population_year":2020,
     "geom:area":0.001337,
-    "geom:area_square_m":11068896.65126,
+    "geom:area_square_m":11068896.651262,
     "geom:bbox":"10.1866687363,47.9448479762,10.2870086237,47.9826477248",
     "geom:latitude":47.964151,
     "geom:longitude":10.22602,
@@ -161,7 +173,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778118",
+        "eurostat:nuts_2021_id":"09778118",
         "gn:id":2951014,
         "gp:id":637743,
         "qs_pg:id":142854,
@@ -188,7 +203,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"99f055c6e2f3bd46b07aa123b65dc790",
+    "wof:geomhash":"9c12f79c7e92727455d7bbf75ca2354d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
         }
     ],
     "wof:id":101828679,
-    "wof:lastmodified":1582342412,
+    "wof:lastmodified":1684351943,
     "wof:name":"Benningen",
     "wof:parent_id":1377693249,
     "wof:placetype":"locality",
-    "wof:population":2118,
+    "wof:population":2042,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

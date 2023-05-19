@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rimpar, M",
+    "eurostat:nuts_2021_id":"09679180",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679180",
+    "eurostat:population":7653,
+    "eurostat:population_year":2020,
     "geom:area":0.004506,
-    "geom:area_square_m":35903118.7434,
+    "geom:area_square_m":35903118.743396,
     "geom:bbox":"9.915537,49.833305,10.000418,49.943306",
     "geom:latitude":49.877223,
     "geom:longitude":9.960381,
@@ -166,22 +178,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":249,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377691977,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679180",
+        "eurostat:nuts_2021_id":"09679180",
         "gn:id":2846722,
         "gp:id":688765,
         "qs_pg:id":1224915,
@@ -196,7 +211,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d96d2accf5fee1c7f9d9d407e8a550f8",
+    "wof:geomhash":"fe03a3f528942cccbfa70806c8c34c87",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101813269,
-    "wof:lastmodified":1608051345,
+    "wof:lastmodified":1684351889,
     "wof:name":"Rimpar",
     "wof:parent_id":1377691977,
     "wof:placetype":"locality",
-    "wof:population":7718,
+    "wof:population":7653,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

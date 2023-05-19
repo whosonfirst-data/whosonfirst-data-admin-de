@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14730270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schkeuditz, Stadt",
+    "eurostat:nuts_2021_id":"14730270",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED53",
+    "eurostat:nuts_2021_level_lau":"14730270",
+    "eurostat:population":18312,
+    "eurostat:population_year":2020,
     "geom:area":0.010343,
-    "geom:area_square_m":79773429.693495,
+    "geom:area_square_m":79773429.693501,
     "geom:bbox":"12.1721438568,51.3325184216,12.3622403218,51.4617157227",
     "geom:latitude":51.409173,
     "geom:longitude":12.243979,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":122,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -177,6 +190,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14730270",
+        "eurostat:nuts_2021_id":"14730270",
         "gn:id":2839050,
         "loc:id":"n94076288",
         "wd:id":"Q12058",
@@ -186,7 +201,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e73067311dbb7d3c05542fbff137379d",
+    "wof:geomhash":"f102b2356b8f351f50050f68c49b0380",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
         }
     ],
     "wof:id":101909073,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352001,
     "wof:name":"Schkeuditz",
     "wof:parent_id":1377687819,
     "wof:placetype":"locality",
-    "wof:population":18487,
+    "wof:population":18312,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

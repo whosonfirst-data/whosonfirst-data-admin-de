@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Konz, Stadt",
+    "eurostat:nuts_2021_id":"07235068",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235068",
+    "eurostat:population":18332,
+    "eurostat:population_year":2020,
     "geom:area":0.005589,
-    "geom:area_square_m":44721149.364512,
+    "geom:area_square_m":44721149.36451,
     "geom:bbox":"6.51970198634,49.6341711117,6.67128162094,49.7230958241",
     "geom:latitude":49.678786,
     "geom:longitude":6.606928,
@@ -162,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":105,
     "wof:belongsto":[
         85682491,
@@ -173,6 +186,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235068",
+        "eurostat:nuts_2021_id":"07235068",
         "gn:id":2885672,
         "gp:id":668217,
         "qs_pg:id":1344583,
@@ -184,7 +199,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5e79ea7eabaf06ed23e283fd50fff0c1",
+    "wof:geomhash":"18e06c41ed60afdd38b392411aa7ef1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101755931,
-    "wof:lastmodified":1582342318,
+    "wof:lastmodified":1684351791,
     "wof:name":"Konz",
     "wof:parent_id":1377686037,
     "wof:placetype":"locality",
-    "wof:population":17879,
+    "wof:population":18332,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

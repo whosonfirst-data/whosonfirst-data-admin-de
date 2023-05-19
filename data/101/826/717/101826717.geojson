@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08126045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krautheim, Stadt",
+    "eurostat:nuts_2021_id":"08126045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE119",
+    "eurostat:nuts_2021_level_lau":"08126045",
+    "eurostat:population":4662,
+    "eurostat:population_year":2020,
     "geom:area":0.006559,
-    "geom:area_square_m":52791428.877423,
+    "geom:area_square_m":52791428.877422,
     "geom:bbox":"9.57005927673,49.3439446824,9.70759434383,49.4300896878",
     "geom:latitude":49.387843,
     "geom:longitude":9.635768,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.383333,
     "wd:longitude":9.633333,
     "wd:wordcount":1133,
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08126045",
+        "eurostat:nuts_2021_id":"08126045",
         "gn:id":2884625,
         "gp:id":668697,
         "qs_pg:id":1239381,
@@ -327,7 +342,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0df1c77dbe4cfe81f206f3ca781ba0f0",
+    "wof:geomhash":"8d60229f0ae291802f372411341c2ac8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101826717,
-    "wof:lastmodified":1582342442,
+    "wof:lastmodified":1684351935,
     "wof:name":"Krautheim",
     "wof:parent_id":1377687781,
     "wof:placetype":"locality",
-    "wof:population":4884,
+    "wof:population":4662,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

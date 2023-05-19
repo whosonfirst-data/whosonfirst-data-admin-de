@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14729030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bennewitz",
+    "eurostat:nuts_2021_id":"14729030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED5",
+    "eurostat:nuts_2021_level_3":"DED52",
+    "eurostat:nuts_2021_level_lau":"14729030",
+    "eurostat:population":4962,
+    "eurostat:population_year":2020,
     "geom:area":0.006045,
-    "geom:area_square_m":46694379.098276,
+    "geom:area_square_m":46694379.098271,
     "geom:bbox":"12.639529,51.295244,12.758872,51.401234",
     "geom:latitude":51.342774,
     "geom:longitude":12.700709,
@@ -326,21 +338,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":37,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064227,
         1377687687,
-        85682523
+        85633111,
+        102064227
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14729030",
+        "eurostat:nuts_2021_id":"14729030",
         "fct:id":"071748b0-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2951026,
         "gp:id":637734,
@@ -357,7 +372,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5f4afeeadcb37806fe9b28c2c9e5a3bd",
+    "wof:geomhash":"845afc78f0273814222977f810b28a43",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -372,12 +387,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051497,
+    "wof:lastmodified":1684351919,
     "wof:name":"Bennewitz",
     "wof:parent_id":1377687687,
     "wof:placetype":"locality",
-    "wof:population":5211,
-    "wof:population_rank":5,
+    "wof:population":4962,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

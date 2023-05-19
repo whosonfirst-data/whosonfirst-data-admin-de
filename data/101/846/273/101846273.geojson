@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lissendorf",
+    "eurostat:nuts_2021_id":"07233041",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233041",
+    "eurostat:population":1118,
+    "eurostat:population_year":2020,
     "geom:area":0.001299,
     "geom:area_square_m":10255303.094826,
     "geom:bbox":"6.53566898074,50.2991267812,6.63261846575,50.3259746083",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":747,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233041",
+        "eurostat:nuts_2021_id":"07233041",
         "gn:id":2876842,
         "gp:id":672191,
         "qs_pg:id":142197,
@@ -167,7 +182,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2c08b12cbf25192b3e85dfbacdc05b36",
+    "wof:geomhash":"ed868a635e5241439d4a919564cf2998",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101846273,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351960,
     "wof:name":"Lissendorf",
     "wof:parent_id":1377686011,
     "wof:placetype":"locality",
-    "wof:population":1130,
+    "wof:population":1118,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

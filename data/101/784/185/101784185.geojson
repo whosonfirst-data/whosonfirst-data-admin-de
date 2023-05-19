@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09178150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Paunzhausen",
+    "eurostat:nuts_2021_id":"09178150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21B",
+    "eurostat:nuts_2021_level_lau":"09178150",
+    "eurostat:population":1515,
+    "eurostat:population_year":2020,
     "geom:area":0.001533,
     "geom:area_square_m":12566185.97055,
     "geom:bbox":"11.5288394368,48.4543271877,11.6033162157,48.4907975177",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -326,6 +339,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09178150",
+        "eurostat:nuts_2021_id":"09178150",
         "fct:id":"0752043c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2855177,
         "gp:id":684360,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f0426e9eceb2f8f653adada2758046ab",
+    "wof:geomhash":"2c2a398f5cb39e542e78351a41f78318",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342488,
+    "wof:lastmodified":1684351830,
     "wof:name":"Paunzhausen",
     "wof:parent_id":1377691945,
     "wof:placetype":"locality",
-    "wof:population":1533,
+    "wof:population":1515,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

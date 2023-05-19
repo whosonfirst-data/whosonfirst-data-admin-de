@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tetenhusen",
+    "eurostat:nuts_2021_id":"01059087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059087",
+    "eurostat:population":951,
+    "eurostat:population_year":2020,
     "geom:area":0.003236,
-    "geom:area_square_m":23320534.176415,
+    "geom:area_square_m":23320534.176414,
     "geom:bbox":"9.40658847827,54.33623262,9.56546440773,54.3725468454",
     "geom:latitude":54.356013,
     "geom:longitude":9.47764,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
         85682517,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059087",
+        "eurostat:nuts_2021_id":"01059087",
         "gn:id":2823401,
         "gp:id":698910,
         "qs_pg:id":576753,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"579762fd28e61e9040353a12ec75a4a7",
+    "wof:geomhash":"5371e8ef313fc687f1f7d21e0fd51561",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101906463,
-    "wof:lastmodified":1582342325,
+    "wof:lastmodified":1684351980,
     "wof:name":"Tetenhusen",
     "wof:parent_id":1377684465,
     "wof:placetype":"locality",
-    "wof:population":950,
+    "wof:population":951,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

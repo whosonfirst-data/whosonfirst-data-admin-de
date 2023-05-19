@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09176155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pollenfeld",
+    "eurostat:nuts_2021_id":"09176155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE219",
+    "eurostat:nuts_2021_level_lau":"09176155",
+    "eurostat:population":2984,
+    "eurostat:population_year":2020,
     "geom:area":0.005583,
-    "geom:area_square_m":45343058.183569,
+    "geom:area_square_m":45343058.183568,
     "geom:bbox":"11.1230214106,48.9080182827,11.2934560412,48.9702040219",
     "geom:latitude":48.944581,
     "geom:longitude":11.211189,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":129,
     "wof:belongsto":[
         85682571,
@@ -163,6 +176,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09176155",
+        "eurostat:nuts_2021_id":"09176155",
         "fct:id":"0752b698-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2852856,
         "gp:id":685547,
@@ -173,7 +188,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0648ca16df808e7028397d18538d44a7",
+    "wof:geomhash":"83749b7f3a4939ac6ec8b78d4970f61f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342477,
+    "wof:lastmodified":1684351829,
     "wof:name":"Pollenfeld",
     "wof:parent_id":1377691621,
     "wof:placetype":"locality",
-    "wof:population":2780,
+    "wof:population":2984,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09561000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ansbach",
+    "eurostat:nuts_2021_id":"09561000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE251",
+    "eurostat:nuts_2021_level_lau":"09561000",
+    "eurostat:population":41798,
+    "eurostat:population_year":2020,
     "geom:area":0.012338,
-    "geom:area_square_m":99502184.313495,
+    "geom:area_square_m":99502184.3135,
     "geom:bbox":"10.454279,49.233693,10.656759,49.343683",
     "geom:latitude":49.292182,
     "geom:longitude":10.563679,
@@ -275,21 +287,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063409,
         1377688837,
         404227565,
-        85682571
+        102063409
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09561000",
+        "eurostat:nuts_2021_id":"09561000",
         "gn:id":2955936,
         "gp:id":635242,
         "qs_pg:id":142952,
@@ -305,7 +320,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0c3f0bad9cf703109f4cc70ebdea07e0",
+    "wof:geomhash":"08b16c390fb31c56ebdcacefba97d6a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101782029,
-    "wof:lastmodified":1608050530,
+    "wof:lastmodified":1684351822,
     "wof:name":"Ansbach",
     "wof:parent_id":1377688837,
     "wof:placetype":"locality",
-    "wof:population":31839,
+    "wof:population":41798,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eckernf\u00f6rde, Stadt",
+    "eurostat:nuts_2021_id":"01058043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058043",
+    "eurostat:population":21728,
+    "eurostat:population_year":2020,
     "geom:area":0.002543,
-    "geom:area_square_m":18273791.124348,
+    "geom:area_square_m":18273791.124349,
     "geom:bbox":"9.775249,54.442475,9.875706,54.499126",
     "geom:latitude":54.472497,
     "geom:longitude":9.826281,
@@ -204,21 +216,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":805,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064145,
         1377684151,
-        85682517
+        85633111,
+        102064145
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058043",
+        "eurostat:nuts_2021_id":"01058043",
         "gn:id":2933627,
         "gp:id":646419,
         "qs_pg:id":905794,
@@ -233,7 +248,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b0f43e6eeb50e75791642919f80e0240",
+    "wof:geomhash":"fc7d3d2d99edb01534b6ec690bbeb5c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -245,11 +260,11 @@
         }
     ],
     "wof:id":101805145,
-    "wof:lastmodified":1608050438,
+    "wof:lastmodified":1684351847,
     "wof:name":"Eckernf\u00f6rde",
     "wof:parent_id":1377684151,
     "wof:placetype":"locality",
-    "wof:population":23383,
+    "wof:population":21728,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

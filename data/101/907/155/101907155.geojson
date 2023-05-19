@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altlay",
+    "eurostat:nuts_2021_id":"07135003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135003",
+    "eurostat:population":437,
+    "eurostat:population_year":2020,
     "geom:area":0.000728,
     "geom:area_square_m":5787015.074222,
     "geom:bbox":"7.24498845128,49.9702408872,7.29085441295,49.9956849699",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":647,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135003",
+        "eurostat:nuts_2021_id":"07135003",
         "gn:id":2957043,
         "gp:id":634760,
         "qs_pg:id":94211,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"43fc255b09b79fc2dd6825ec6ccb8357",
+    "wof:geomhash":"e25b9329e6154f8098de7bc2f2a16378",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101907155,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351985,
     "wof:name":"Altlay",
     "wof:parent_id":1377685509,
     "wof:placetype":"locality",
-    "wof:population":515,
+    "wof:population":437,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

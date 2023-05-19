@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05711000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bielefeld, Stadt",
+    "eurostat:nuts_2021_id":"05711000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA41",
+    "eurostat:nuts_2021_level_lau":"05711000",
+    "eurostat:population":334195,
+    "eurostat:population_year":2020,
     "geom:area":0.033914,
-    "geom:area_square_m":258116731.32622,
+    "geom:area_square_m":258116731.326218,
     "geom:bbox":"8.377677,51.91497,8.663542,52.114833",
     "geom:latitude":52.010938,
     "geom:longitude":8.540749,
@@ -427,17 +439,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063869,
         1377691439,
         404227571,
-        85682513
+        102063869
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05711000",
+        "eurostat:nuts_2021_id":"05711000",
         "gn:id":2949186,
         "gp:id":638806,
         "qs_pg:id":2,
@@ -456,7 +471,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"91b832ee1416ce1d2eb13767e22dd513",
+    "wof:geomhash":"075ba28ee21ccd7d0dfdac99ffcc646e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -469,11 +484,11 @@
         }
     ],
     "wof:id":101748767,
-    "wof:lastmodified":1608050574,
+    "wof:lastmodified":1684351789,
     "wof:name":"Bielefeld",
     "wof:parent_id":1377691439,
     "wof:placetype":"locality",
-    "wof:population":331906,
+    "wof:population":334195,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

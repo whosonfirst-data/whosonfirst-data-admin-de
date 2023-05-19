@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03251008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borstel",
+    "eurostat:nuts_2021_id":"03251008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE922",
+    "eurostat:nuts_2021_level_lau":"03251008",
+    "eurostat:population":1220,
+    "eurostat:population_year":2020,
     "geom:area":0.004099,
-    "geom:area_square_m":30739009.733631,
+    "geom:area_square_m":30739009.733633,
     "geom:bbox":"8.90897150232,52.6308469179,9.01981965999,52.6957434699",
     "geom:latitude":52.664939,
     "geom:longitude":8.960603,
@@ -274,7 +286,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":44,
     "wof:belongsto":[
         85682555,
@@ -285,6 +298,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03251008",
+        "eurostat:nuts_2021_id":"03251008",
         "gn:id":2945995,
         "gp:id":640403,
         "qs_pg:id":374436,
@@ -295,7 +310,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"efec6bc968826b6d907d4f0b67d6d936",
+    "wof:geomhash":"cd8f2d4b729bd834ff0797e8ca4b10ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -307,11 +322,11 @@
         }
     ],
     "wof:id":101807933,
-    "wof:lastmodified":1582342590,
+    "wof:lastmodified":1684351862,
     "wof:name":"Borstel",
     "wof:parent_id":1377686569,
     "wof:placetype":"locality",
-    "wof:population":1427,
+    "wof:population":1220,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

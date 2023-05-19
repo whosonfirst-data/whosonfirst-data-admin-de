@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16066069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Steinbach-Hallenberg, Kurort, Stadt",
+    "eurostat:nuts_2021_id":"16066069",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0B",
+    "eurostat:nuts_2021_level_lau":"16066069",
+    "eurostat:population":9575,
+    "eurostat:population_year":2020,
     "geom:area":0.002839,
-    "geom:area_square_m":22238036.815666,
+    "geom:area_square_m":22238036.815665,
     "geom:bbox":"10.542271,50.672954,10.71088,50.716774",
     "geom:latitude":50.693474,
     "geom:longitude":10.60116,
@@ -307,17 +319,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":71,
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063673,
         1377689965,
-        85682541
+        85633111,
+        102063673
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16066069",
+        "eurostat:nuts_2021_id":"16066069",
         "gn:id":2828723,
         "gp:id":696701,
         "qs_pg:id":1213084,
@@ -331,7 +346,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a440751ae09ea7d60227905c353e01f6",
+    "wof:geomhash":"69d1fe309638f93152f9c037fe5c78e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101841225,
-    "wof:lastmodified":1608051002,
+    "wof:lastmodified":1684351952,
     "wof:name":"Steinbach-Hallenberg",
     "wof:parent_id":1377689965,
     "wof:placetype":"locality",
-    "wof:population":5053,
+    "wof:population":9575,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

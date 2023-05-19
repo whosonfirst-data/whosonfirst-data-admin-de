@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kobrow",
+    "eurostat:nuts_2021_id":"13076072",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076072",
+    "eurostat:population":402,
+    "eurostat:population_year":2020,
     "geom:area":0.005066,
     "geom:area_square_m":37124210.041386,
     "geom:bbox":"11.7665175729,53.6013910038,11.8719392418,53.6976045911",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076072",
+        "eurostat:nuts_2021_id":"13076072",
         "gn:id":2886934,
         "gp:id":703858,
         "qs_pg:id":578241,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"762157483a865baaaa09b2a01c43d7b0",
+    "wof:geomhash":"4f75f415f51fb42026dda400637c3fdf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101908277,
-    "wof:lastmodified":1582342348,
+    "wof:lastmodified":1684351994,
     "wof:name":"Kobrow",
     "wof:parent_id":1377685321,
     "wof:placetype":"locality",
-    "wof:population":469,
+    "wof:population":402,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

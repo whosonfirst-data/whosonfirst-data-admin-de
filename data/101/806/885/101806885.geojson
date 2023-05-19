@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuberend",
+    "eurostat:nuts_2021_id":"01059062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059062",
+    "eurostat:population":1164,
+    "eurostat:population_year":2020,
     "geom:area":0.00058,
     "geom:area_square_m":4158584.06455,
     "geom:bbox":"9.50520705096,54.5399836766,9.54939728108,54.5663795887",
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":39,
     "wof:belongsto":[
         85682517,
@@ -150,6 +163,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059062",
+        "eurostat:nuts_2021_id":"01059062",
         "gn:id":2866208,
         "gp:id":29351403,
         "qs_pg:id":1038994,
@@ -161,7 +176,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b9289b0f566eab5352539626a3af3045",
+    "wof:geomhash":"128ab28ab71d0eb0d46619c3455d0673",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +188,11 @@
         }
     ],
     "wof:id":101806885,
-    "wof:lastmodified":1582342619,
+    "wof:lastmodified":1684351856,
     "wof:name":"Neuberend",
     "wof:parent_id":1377684437,
     "wof:placetype":"locality",
-    "wof:population":1142,
+    "wof:population":1164,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09673123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fladungen, St",
+    "eurostat:nuts_2021_id":"09673123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE266",
+    "eurostat:nuts_2021_level_lau":"09673123",
+    "eurostat:population":2212,
+    "eurostat:population_year":2020,
     "geom:area":0.005861,
-    "geom:area_square_m":46067210.569007,
+    "geom:area_square_m":46067210.569008,
     "geom:bbox":"10.0389763715,50.490927167,10.2249167739,50.5642247423",
     "geom:latitude":50.529896,
     "geom:longitude":10.136421,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":557,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -329,6 +342,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09673123",
+        "eurostat:nuts_2021_id":"09673123",
         "gn:id":2926402,
         "gp:id":649867,
         "qs_pg:id":142592,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cbe022aca70298f3599bec8bbf716e52",
+    "wof:geomhash":"4029e8215ffa22d8a7731fdb4dde80b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101810645,
-    "wof:lastmodified":1582342400,
+    "wof:lastmodified":1684351874,
     "wof:name":"Fladungen",
     "wof:parent_id":1377690857,
     "wof:placetype":"locality",
-    "wof:population":2337,
+    "wof:population":2212,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

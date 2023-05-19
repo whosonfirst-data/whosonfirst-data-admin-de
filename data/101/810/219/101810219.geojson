@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Calden",
+    "eurostat:nuts_2021_id":"06633005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633005",
+    "eurostat:population":7568,
+    "eurostat:population_year":2020,
     "geom:area":0.007083,
-    "geom:area_square_m":54630106.584236,
+    "geom:area_square_m":54630106.584237,
     "geom:bbox":"9.265809,51.365863,9.445764,51.45343",
     "geom:latitude":51.410372,
     "geom:longitude":9.356703,
@@ -292,18 +304,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377684475,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633005",
+        "eurostat:nuts_2021_id":"06633005",
         "fct:id":"073a7efc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2940412,
         "gp:id":642977,
@@ -320,7 +335,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a18e0afd5ee7b9c4421691993003d467",
+    "wof:geomhash":"18a15af97a726a2850e25a2686e1a0d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050038,
+    "wof:lastmodified":1684351872,
     "wof:name":"Calden",
     "wof:parent_id":1377684475,
     "wof:placetype":"locality",
-    "wof:population":7752,
+    "wof:population":7568,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

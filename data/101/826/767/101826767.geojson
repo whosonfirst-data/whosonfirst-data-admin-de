@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09376144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nabburg, St",
+    "eurostat:nuts_2021_id":"09376144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE239",
+    "eurostat:nuts_2021_level_lau":"09376144",
+    "eurostat:population":6142,
+    "eurostat:population_year":2020,
     "geom:area":0.007721,
     "geom:area_square_m":62060385.094512,
     "geom:bbox":"12.0925859892,49.4130218146,12.2630084845,49.4880706985",
@@ -163,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":78,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -179,6 +192,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09376144",
+        "eurostat:nuts_2021_id":"09376144",
         "gn:id":2867262,
         "gp:id":677021,
         "qs_pg:id":142098,
@@ -190,7 +205,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8682254fbbb91b5f34b49792c3bbf1ff",
+    "wof:geomhash":"27b64a5ff9ccb7b325dca117916bf942",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +218,11 @@
         }
     ],
     "wof:id":101826767,
-    "wof:lastmodified":1582342439,
+    "wof:lastmodified":1684351936,
     "wof:name":"Nabburg",
     "wof:parent_id":1377686807,
     "wof:placetype":"locality",
-    "wof:population":5994,
+    "wof:population":6142,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

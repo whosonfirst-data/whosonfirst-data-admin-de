@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08436067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riedhausen",
+    "eurostat:nuts_2021_id":"08436067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE148",
+    "eurostat:nuts_2021_level_lau":"08436067",
+    "eurostat:population":696,
+    "eurostat:population_year":2020,
     "geom:area":0.001015,
     "geom:area_square_m":8413112.715502,
     "geom:bbox":"9.39920539616,47.8938753438,9.45765430466,47.9241079207",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -319,6 +332,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08436067",
+        "eurostat:nuts_2021_id":"08436067",
         "fct:id":"075491b6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2847156,
         "gp:id":12623827,
@@ -329,7 +344,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"38e2c8e6201a4a098eeb8d8a5afdd6ab",
+    "wof:geomhash":"e15d9d9c2a45d2689ea2027a62135364",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351972,
     "wof:name":"Riedhausen",
     "wof:parent_id":1377690535,
     "wof:placetype":"locality",
-    "wof:population":643,
+    "wof:population":696,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

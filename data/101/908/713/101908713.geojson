@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dargen",
+    "eurostat:nuts_2021_id":"13075026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075026",
+    "eurostat:population":581,
+    "eurostat:population_year":2020,
     "geom:area":0.003867,
     "geom:area_square_m":28175719.388193,
     "geom:bbox":"13.9979093038,53.8691267052,14.1359283396,53.9199738593",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075026",
+        "eurostat:nuts_2021_id":"13075026",
         "gn:id":2938931,
         "gp:id":665153,
         "qs_pg:id":579456,
@@ -170,7 +185,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ff2b59af8cb3af1a10c49771dfadde02",
+    "wof:geomhash":"a6f2baebeb3e30f229b38170a664a60d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101908713,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351998,
     "wof:name":"Dargen",
     "wof:parent_id":1377685171,
     "wof:placetype":"locality",
-    "wof:population":555,
+    "wof:population":581,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

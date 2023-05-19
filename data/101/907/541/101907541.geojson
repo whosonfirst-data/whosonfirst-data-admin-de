@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05970008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Burbach",
+    "eurostat:nuts_2021_id":"05970008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA5A",
+    "eurostat:nuts_2021_level_lau":"05970008",
+    "eurostat:population":14856,
+    "eurostat:population_year":2020,
     "geom:area":0.010188,
-    "geom:area_square_m":79719494.938857,
+    "geom:area_square_m":79719494.938854,
     "geom:bbox":"8.0103203716,50.6854201686,8.16682898998,50.7973260032",
     "geom:latitude":50.740621,
     "geom:longitude":8.094333,
@@ -305,7 +317,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":73,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -320,6 +333,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05970008",
+        "eurostat:nuts_2021_id":"05970008",
         "gn:id":2941595,
         "gp:id":20162751,
         "wd:id":"Q10952",
@@ -329,7 +344,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd02ee1caba1c6769f324ef29e68c0c3",
+    "wof:geomhash":"f74d6cc36b6e430369c7c232745714fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101907541,
-    "wof:lastmodified":1582342317,
+    "wof:lastmodified":1684351988,
     "wof:name":"Burbach",
     "wof:parent_id":1377685309,
     "wof:placetype":"locality",
-    "wof:population":14942,
+    "wof:population":14856,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neunkirchen-Seelscheid",
+    "eurostat:nuts_2021_id":"05382040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382040",
+    "eurostat:population":19679,
+    "eurostat:population_year":2020,
     "geom:area":0.006488,
-    "geom:area_square_m":50647609.416598,
+    "geom:area_square_m":50647609.416596,
     "geom:bbox":"7.275813,50.808105,7.407406,50.907255",
     "geom:latitude":50.854386,
     "geom:longitude":7.331156,
@@ -291,22 +303,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":351,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690673,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382040",
+        "eurostat:nuts_2021_id":"05382040",
         "fct:id":"0733f1c2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":6553082,
         "gp:id":20169800,
@@ -322,7 +337,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fcefe39a5b969bef8afabc698ec4d17b",
+    "wof:geomhash":"477bfe9ad71beb800b93dc507d1ffe81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050112,
+    "wof:lastmodified":1684351877,
     "wof:name":"Neunkirchen-Seelscheid",
     "wof:parent_id":1377690673,
     "wof:placetype":"locality",
-    "wof:population":19537,
+    "wof:population":19679,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

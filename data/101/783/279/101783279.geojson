@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09278144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laberweinting",
+    "eurostat:nuts_2021_id":"09278144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE22B",
+    "eurostat:nuts_2021_level_lau":"09278144",
+    "eurostat:population":3379,
+    "eurostat:population_year":2020,
     "geom:area":0.009317,
     "geom:area_square_m":75909517.365969,
     "geom:bbox":"12.235133,48.721435,12.399125,48.862326",
@@ -295,18 +307,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063387,
         1377685343,
         404227559,
-        85682571
+        102063387
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09278144",
+        "eurostat:nuts_2021_id":"09278144",
         "gn:id":2882061,
         "gp:id":669745,
         "qs_pg:id":1039322,
@@ -321,7 +336,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"40379460c3460a762d834b3c813e2294",
+    "wof:geomhash":"195d2d5884c14820d420a03f7e20d29e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101783279,
-    "wof:lastmodified":1608050637,
+    "wof:lastmodified":1684351829,
     "wof:name":"Laberweinting",
     "wof:parent_id":1377685343,
     "wof:placetype":"locality",
-    "wof:population":3463,
+    "wof:population":3379,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

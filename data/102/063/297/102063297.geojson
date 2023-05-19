@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"1",
+    "eurostat:name_latin":"Reutlingen",
+    "eurostat:name_local":"Reutlingen",
+    "eurostat:nuts_2021_id":"DE141",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE141",
+    "eurostat:population":288158,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.132661,
-    "geom:area_square_m":1088948228.543198,
+    "geom:area_square_m":1088948228.543235,
     "geom:bbox":"9.114596,48.194882,9.638796,48.605647",
     "geom:latitude":48.406461,
     "geom:longitude":9.365694,
@@ -249,8 +263,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"1094",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Reutlingen",
@@ -263,19 +277,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227573,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE141",
         "hasc:id":"DE.BW.RU"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7b95d23aadadb7fe1c8818f58339e897",
+    "wof:geomhash":"b92ef099996929c892adfc8687066b38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -286,12 +301,12 @@
         }
     ],
     "wof:id":102063297,
-    "wof:lastmodified":1587164313,
+    "wof:lastmodified":1684351509,
     "wof:name":"Reutlingen",
     "wof:parent_id":404227573,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":273353,
+    "wof:population":288158,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"RU",

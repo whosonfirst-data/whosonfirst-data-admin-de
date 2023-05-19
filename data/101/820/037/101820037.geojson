@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12065193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Liebenwalde, Stadt",
+    "eurostat:nuts_2021_id":"12065193",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40A",
+    "eurostat:nuts_2021_level_lau":"12065193",
+    "eurostat:population":4309,
+    "eurostat:population_year":2020,
     "geom:area":0.018933,
-    "geom:area_square_m":141353019.20169,
+    "geom:area_square_m":141353019.201698,
     "geom:bbox":"13.246866,52.795536,13.520948,52.938813",
     "geom:latitude":52.859431,
     "geom:longitude":13.397855,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":52.866667,
     "wd:longitude":13.4,
     "wd:wordcount":127,
@@ -159,14 +172,16 @@
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063995,
         1377683377,
-        85682553
+        85633111,
+        102063995
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12065193",
+        "eurostat:nuts_2021_id":"12065193",
         "gn:id":2877942,
         "gp:id":671673,
         "qs_pg:id":142201,
@@ -181,7 +196,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0a96326294592587f76c30048b0503ec",
+    "wof:geomhash":"5cd7e4eb8d9c1daa1fa5fb9913454c74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -193,11 +208,11 @@
         }
     ],
     "wof:id":101820037,
-    "wof:lastmodified":1608049865,
+    "wof:lastmodified":1684351911,
     "wof:name":"Liebenwalde",
     "wof:parent_id":1377683377,
     "wof:placetype":"locality",
-    "wof:population":4649,
+    "wof:population":4309,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stadtbergen, St",
+    "eurostat:nuts_2021_id":"09772202",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772202",
+    "eurostat:population":15096,
+    "eurostat:population_year":2020,
     "geom:area":0.001428,
     "geom:area_square_m":11736460.344587,
     "geom:bbox":"10.795199,48.341542,10.859811,48.380507",
@@ -319,7 +331,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.366667,
     "wd:longitude":10.85,
     "wd:population":11713,
@@ -329,15 +342,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693469,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772202",
+        "eurostat:nuts_2021_id":"09772202",
         "gn:id":2829790,
         "gp:id":696212,
         "qs_pg:id":141733,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"81a8cf19525eb45515b9fcba1276ca09",
+    "wof:geomhash":"1b37e1888dd50d5fcb3554a1094f9714",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
         }
     ],
     "wof:id":101756239,
-    "wof:lastmodified":1608050842,
+    "wof:lastmodified":1684351793,
     "wof:name":"Stadtbergen",
     "wof:parent_id":1377693469,
     "wof:placetype":"locality",
-    "wof:population":11713,
+    "wof:population":15096,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rieden",
+    "eurostat:nuts_2021_id":"07137093",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137093",
+    "eurostat:population":1165,
+    "eurostat:population_year":2020,
     "geom:area":0.001162,
-    "geom:area_square_m":9157889.613775,
+    "geom:area_square_m":9157889.613776,
     "geom:bbox":"7.15100436914,50.3715043426,7.1995307514,50.4117684165",
     "geom:latitude":50.391894,
     "geom:longitude":7.177127,
@@ -126,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":51,
     "wof:belongsto":[
         85682491,
@@ -137,6 +150,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137093",
+        "eurostat:nuts_2021_id":"07137093",
         "gn:id":2847240,
         "gp:id":688522,
         "qs_pg:id":1038618,
@@ -147,7 +162,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"427c5712ae9a6581049d0cf8c747fe60",
+    "wof:geomhash":"f94a395cefa8ba15630d6dbe93b8b20a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":101812247,
-    "wof:lastmodified":1582342550,
+    "wof:lastmodified":1684351884,
     "wof:name":"Rieden",
     "wof:parent_id":1377685571,
     "wof:placetype":"locality",
-    "wof:population":1307,
+    "wof:population":1165,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

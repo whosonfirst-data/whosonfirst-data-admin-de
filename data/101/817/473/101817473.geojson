@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Franzburg, Stadt",
+    "eurostat:nuts_2021_id":"13073024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073024",
+    "eurostat:population":1395,
+    "eurostat:population_year":2020,
     "geom:area":0.002114,
-    "geom:area_square_m":15294367.592582,
+    "geom:area_square_m":15294367.592581,
     "geom:bbox":"12.8319921068,54.1604517209,12.9211510901,54.2057085619",
     "geom:latitude":54.184688,
     "geom:longitude":12.868444,
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":554,
     "wof:belongsto":[
         85682487,
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073024",
+        "eurostat:nuts_2021_id":"13073024",
         "gn:id":2925488,
         "gp:id":650285,
         "qs_pg:id":244826,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b6b0a6072c379f3b9249a7d6efd81583",
+    "wof:geomhash":"b50589e308ae6bf18890f4ea111a2744",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101817473,
-    "wof:lastmodified":1582342416,
+    "wof:lastmodified":1684351898,
     "wof:name":"Franzburg",
     "wof:parent_id":1377684943,
     "wof:placetype":"locality",
-    "wof:population":1754,
+    "wof:population":1395,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

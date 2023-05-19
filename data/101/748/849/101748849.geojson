@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neubrandenburg, Stadt",
+    "eurostat:nuts_2021_id":"13071107",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071107",
+    "eurostat:population":63761,
+    "eurostat:population_year":2020,
     "geom:area":0.011622,
-    "geom:area_square_m":85399905.329788,
+    "geom:area_square_m":85399905.329786,
     "geom:bbox":"13.137115,53.444173,13.344047,53.619118",
     "geom:latitude":53.541633,
     "geom:longitude":13.24891,
@@ -351,20 +363,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675565,
         1377684397,
-        85682487
+        85633111,
+        1377675565
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071107",
+        "eurostat:nuts_2021_id":"13071107",
         "gn:id":2866135,
         "gp:id":677913,
         "qs_pg:id":345029,
@@ -379,7 +394,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"df2d8f08f54d12a7934e10a014b96ac5",
+    "wof:geomhash":"e97e275fa3390cc8f38e591408523683",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -391,11 +406,11 @@
         }
     ],
     "wof:id":101748849,
-    "wof:lastmodified":1608050583,
+    "wof:lastmodified":1684351790,
     "wof:name":"Neubrandenburg",
     "wof:parent_id":1377684397,
     "wof:placetype":"locality",
-    "wof:population":68082,
+    "wof:population":63761,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

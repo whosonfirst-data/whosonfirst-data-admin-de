@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rickert",
+    "eurostat:nuts_2021_id":"01058136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058136",
+    "eurostat:population":1027,
+    "eurostat:population_year":2020,
     "geom:area":0.000752,
     "geom:area_square_m":5418690.502701,
     "geom:bbox":"9.60193704377,54.3220132059,9.68986079705,54.353960665",
@@ -204,7 +216,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682517,
@@ -215,6 +228,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058136",
+        "eurostat:nuts_2021_id":"01058136",
         "gn:id":2847433,
         "gp:id":29351335,
         "qs_pg:id":1038622,
@@ -225,7 +240,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b04b1d39b365fb2b8b3a30271a63fae4",
+    "wof:geomhash":"53799c0dd05752c6f3f644cecdf870b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -237,11 +252,11 @@
         }
     ],
     "wof:id":101838167,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351947,
     "wof:name":"Rickert",
     "wof:parent_id":1377684223,
     "wof:placetype":"locality",
-    "wof:population":1094,
+    "wof:population":1027,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

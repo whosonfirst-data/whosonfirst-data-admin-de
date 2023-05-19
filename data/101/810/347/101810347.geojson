@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05774016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00fcren, Stadt",
+    "eurostat:nuts_2021_id":"05774016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA47",
+    "eurostat:nuts_2021_level_lau":"05774016",
+    "eurostat:population":21515,
+    "eurostat:population_year":2020,
     "geom:area":0.022143,
-    "geom:area_square_m":170242563.174958,
+    "geom:area_square_m":170242563.174957,
     "geom:bbox":"8.472658,51.46615,8.713105,51.631881",
     "geom:latitude":51.555029,
     "geom:longitude":8.584332,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":116,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063835,
         1377692015,
         404227571,
-        85682513
+        102063835
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05774016",
+        "eurostat:nuts_2021_id":"05774016",
         "gn:id":2941568,
         "gp:id":642459,
         "qs_pg:id":213350,
@@ -354,7 +369,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"44e36c4390729a43ba71b5472aa3fcfa",
+    "wof:geomhash":"9c65cb4efd7fbdd2fb78379c98c454f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -367,11 +382,11 @@
         }
     ],
     "wof:id":101810347,
-    "wof:lastmodified":1608050065,
+    "wof:lastmodified":1684351873,
     "wof:name":"B\u00fcren",
     "wof:parent_id":1377692015,
     "wof:placetype":"locality",
-    "wof:population":22263,
+    "wof:population":21515,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

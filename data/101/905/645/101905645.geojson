@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09180115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ettal",
+    "eurostat:nuts_2021_id":"09180115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21D",
+    "eurostat:nuts_2021_level_lau":"09180115",
+    "eurostat:population":758,
+    "eurostat:population_year":2020,
     "geom:area":0.00178,
-    "geom:area_square_m":14847863.318374,
+    "geom:area_square_m":14847863.318372,
     "geom:bbox":"10.9518867125,47.559233032,11.1182893562,47.5840018879",
     "geom:latitude":47.572417,
     "geom:longitude":11.043285,
@@ -178,7 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -194,6 +207,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09180115",
+        "eurostat:nuts_2021_id":"09180115",
         "fct:id":"073e03ba-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2928684,
         "gp:id":648885,
@@ -206,7 +221,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fff46709594e9abc513971855b0ee7e0",
+    "wof:geomhash":"fae31ecda1726866dbfe567a68773b73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -222,11 +237,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342506,
+    "wof:lastmodified":1684351971,
     "wof:name":"Ettal",
     "wof:parent_id":1377692209,
     "wof:placetype":"locality",
-    "wof:population":814,
+    "wof:population":758,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

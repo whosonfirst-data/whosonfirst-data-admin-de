@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niederahr",
+    "eurostat:nuts_2021_id":"07143273",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143273",
+    "eurostat:population":817,
+    "eurostat:population_year":2020,
     "geom:area":0.00051,
     "geom:area_square_m":4011641.648606,
     "geom:bbox":"7.84169067059,50.4781719325,7.88327060851,50.5124957232",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":155,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143273",
+        "eurostat:nuts_2021_id":"07143273",
         "gn:id":2863678,
         "gp:id":680759,
         "qs_pg:id":577660,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"87240ee408c5bbf97518913adbbcaf51",
+    "wof:geomhash":"5d10224eb50afe3be7db2e22688d06b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101907487,
-    "wof:lastmodified":1582342314,
+    "wof:lastmodified":1684351988,
     "wof:name":"Niederahr",
     "wof:parent_id":1377685825,
     "wof:placetype":"locality",
-    "wof:population":862,
+    "wof:population":817,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

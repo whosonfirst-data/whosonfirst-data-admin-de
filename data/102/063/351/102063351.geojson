@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"B\u00f6blingen",
+    "eurostat:name_local":"B\u00f6blingen",
+    "eurostat:nuts_2021_id":"DE112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:population":393195,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"1",
     "geom:area":0.07537,
-    "geom:area_square_m":615361416.718458,
+    "geom:area_square_m":615361416.718467,
     "geom:bbox":"8.746465,48.49901,9.174173,48.867676",
     "geom:latitude":48.678216,
     "geom:longitude":8.942759,
@@ -180,8 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"618",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"B\u00f6blingen",
@@ -194,19 +208,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227549,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE112",
         "hasc:id":"DE.BW.BL"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8842ba4e94879a6d386c13f363217520",
+    "wof:geomhash":"f2ad68b9cc92085c3cdc886fdab97d83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,12 +232,12 @@
         }
     ],
     "wof:id":102063351,
-    "wof:lastmodified":1587164315,
+    "wof:lastmodified":1684351511,
     "wof:name":"B\u00f6blingen",
     "wof:parent_id":404227549,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":363949,
+    "wof:population":393195,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"BL",

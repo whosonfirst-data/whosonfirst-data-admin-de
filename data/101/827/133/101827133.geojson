@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hirschaid, M",
+    "eurostat:nuts_2021_id":"09471145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471145",
+    "eurostat:population":12380,
+    "eurostat:population_year":2020,
     "geom:area":0.005112,
-    "geom:area_square_m":40791108.206565,
+    "geom:area_square_m":40791108.206568,
     "geom:bbox":"10.905501,49.76843,11.055225,49.850011",
     "geom:latitude":49.811549,
     "geom:longitude":10.978293,
@@ -154,22 +166,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":873,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687131,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471145",
+        "eurostat:nuts_2021_id":"09471145",
         "gn:id":2903810,
         "gp:id":660328,
         "qs_pg:id":455771,
@@ -184,7 +199,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f1846d573a5b52cac0d46ac10fed15bd",
+    "wof:geomhash":"fe4985cdb22699d1b154cbdc55abeb5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +212,11 @@
         }
     ],
     "wof:id":101827133,
-    "wof:lastmodified":1608049800,
+    "wof:lastmodified":1684351940,
     "wof:name":"Hirschaid",
     "wof:parent_id":1377687131,
     "wof:placetype":"locality",
-    "wof:population":11508,
+    "wof:population":12380,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

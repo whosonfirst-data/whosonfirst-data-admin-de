@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09679202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Veitsh\u00f6chheim",
+    "eurostat:nuts_2021_id":"09679202",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26C",
+    "eurostat:nuts_2021_level_lau":"09679202",
+    "eurostat:population":9525,
+    "eurostat:population_year":2020,
     "geom:area":0.001352,
     "geom:area_square_m":10778434.25007,
     "geom:bbox":"9.864593,49.820551,9.920748,49.8627",
@@ -311,22 +323,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":137,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063541,
         1377692033,
         404227569,
-        85682571
+        102063541
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09679202",
+        "eurostat:nuts_2021_id":"09679202",
         "fct:id":"075c5f36-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2817733,
         "gp:id":702115,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9fe4792779e63d68ac2e8a071a878ea1",
+    "wof:geomhash":"46c6ad37201ea774c38f1440b1ee68c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,12 +373,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049413,
+    "wof:lastmodified":1684351791,
     "wof:name":"Veitsh\u00f6chheim",
     "wof:parent_id":1377692033,
     "wof:placetype":"locality",
-    "wof:population":10279,
-    "wof:population_rank":6,
+    "wof:population":9525,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

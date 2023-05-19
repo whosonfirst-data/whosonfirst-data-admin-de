@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Witzin",
+    "eurostat:nuts_2021_id":"13076155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076155",
+    "eurostat:population":453,
+    "eurostat:population_year":2020,
     "geom:area":0.002564,
     "geom:area_square_m":18757362.316848,
     "geom:bbox":"11.8691291404,53.7071548148,11.9963760381,53.7436872724",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076155",
+        "eurostat:nuts_2021_id":"13076155",
         "gn:id":2807171,
         "gp:id":707397,
         "qs_pg:id":92825,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"74463d5f45804404a190a0418e6044ad",
+    "wof:geomhash":"c1df322e6cc07ea7ce3af5634174c52e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101908267,
-    "wof:lastmodified":1582342343,
+    "wof:lastmodified":1684351994,
     "wof:name":"Witzin",
     "wof:parent_id":1377685321,
     "wof:placetype":"locality",
-    "wof:population":536,
+    "wof:population":453,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

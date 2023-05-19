@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Florstadt, Stadt",
+    "eurostat:nuts_2021_id":"06440007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440007",
+    "eurostat:population":8799,
+    "eurostat:population_year":2020,
     "geom:area":0.004984,
-    "geom:area_square_m":39346894.029453,
+    "geom:area_square_m":39346894.029451,
     "geom:bbox":"8.817087,50.289564,8.982013,50.355192",
     "geom:latitude":50.322787,
     "geom:longitude":8.902806,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.315833,
     "wd:longitude":8.863056,
     "wd:wordcount":102,
@@ -313,15 +326,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694267,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440007",
+        "eurostat:nuts_2021_id":"06440007",
         "fct:id":"071bacca-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3208053,
         "gp:id":15002623,
@@ -337,7 +352,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6850ecd50875879c6776278c37defeaa",
+    "wof:geomhash":"33b44f1750985878a69351fbd995d21d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051190,
+    "wof:lastmodified":1684351885,
     "wof:name":"Florstadt",
     "wof:parent_id":1377694267,
     "wof:placetype":"locality",
-    "wof:population":8905,
+    "wof:population":8799,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

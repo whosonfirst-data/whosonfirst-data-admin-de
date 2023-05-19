@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06438009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neu-Isenburg, Stadt",
+    "eurostat:nuts_2021_id":"06438009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71C",
+    "eurostat:nuts_2021_level_lau":"06438009",
+    "eurostat:population":38105,
+    "eurostat:population_year":2020,
     "geom:area":0.003009,
-    "geom:area_square_m":23892780.529364,
+    "geom:area_square_m":23892780.529363,
     "geom:bbox":"8.59089,50.016288,8.762129,50.062978",
     "geom:latitude":50.04488,
     "geom:longitude":8.663312,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.055764,
     "wd:longitude":8.697083,
     "wd:wordcount":1871,
@@ -180,15 +193,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063569,
         1377694021,
         404227581,
-        85682531
+        102063569
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06438009",
+        "eurostat:nuts_2021_id":"06438009",
         "gn:id":2864820,
         "gp:id":22528042,
         "qs_pg:id":142061,
@@ -203,7 +218,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ff452f06cfdf69c0d21409ca4345b859",
+    "wof:geomhash":"d5374a096b9d79a4f48fe1eb6c1f3dec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
         }
     ],
     "wof:id":101811759,
-    "wof:lastmodified":1608049933,
+    "wof:lastmodified":1684351879,
     "wof:name":"Neu-Isenburg",
     "wof:parent_id":1377694021,
     "wof:placetype":"locality",
-    "wof:population":35293,
+    "wof:population":38105,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

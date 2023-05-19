@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Irndorf",
+    "eurostat:nuts_2021_id":"08327027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327027",
+    "eurostat:population":695,
+    "eurostat:population_year":2020,
     "geom:area":0.001716,
     "geom:area_square_m":14179907.716142,
     "geom:bbox":"8.93917861438,48.0553644717,8.99680909179,48.1072790888",
@@ -315,7 +327,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -331,6 +344,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327027",
+        "eurostat:nuts_2021_id":"08327027",
         "fct:id":"071593f8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2895768,
         "gp:id":663687,
@@ -342,7 +357,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b82ead45da6563cfe8698bd10a76141a",
+    "wof:geomhash":"974355f884aa718925c0c92155efa1c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351972,
     "wof:name":"Irndorf",
     "wof:parent_id":1377689597,
     "wof:placetype":"locality",
-    "wof:population":754,
+    "wof:population":695,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

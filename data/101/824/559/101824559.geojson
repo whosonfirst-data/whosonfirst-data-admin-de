@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16075135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saalburg-Ebersdorf, Stadt",
+    "eurostat:nuts_2021_id":"16075135",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0K",
+    "eurostat:nuts_2021_level_lau":"16075135",
+    "eurostat:population":3359,
+    "eurostat:population_year":2020,
     "geom:area":0.009124,
-    "geom:area_square_m":71772567.606499,
+    "geom:area_square_m":71772567.606495,
     "geom:bbox":"11.607582,50.44586,11.808574,50.533497",
     "geom:latitude":50.494747,
     "geom:longitude":11.704249,
@@ -170,21 +182,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":818,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063665,
         1377690779,
-        85682541
+        85633111,
+        102063665
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16075135",
+        "eurostat:nuts_2021_id":"16075135",
         "gn:id":2842706,
         "gp:id":690606,
         "qs_pg:id":71142,
@@ -197,7 +212,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d153afeef415fdad4196afc8ec7fba5",
+    "wof:geomhash":"b8fa0a10cf0ff5492654a9e52396c004",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101824559,
-    "wof:lastmodified":1608051115,
+    "wof:lastmodified":1684351929,
     "wof:name":"Saalburg-Ebersdorf",
     "wof:parent_id":1377690779,
     "wof:placetype":"locality",
-    "wof:population":3585,
+    "wof:population":3359,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

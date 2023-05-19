@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Frankenhausen/Kyffh\u00e4user, Stadt",
+    "eurostat:nuts_2021_id":"16065003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065003",
+    "eurostat:population":10139,
+    "eurostat:population_year":2020,
     "geom:area":0.008555,
-    "geom:area_square_m":66053763.535857,
+    "geom:area_square_m":66053763.535855,
     "geom:bbox":"11.0545977859,51.3107723616,11.2072853654,51.4136853688",
     "geom:latitude":51.361249,
     "geom:longitude":11.124421,
@@ -176,7 +188,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -186,6 +199,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065003",
+        "eurostat:nuts_2021_id":"16065003",
         "gn:id":2953459,
         "gp:id":636421,
         "loc:id":"n86094619",
@@ -197,7 +212,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76ff1526a24c986487475338a4983fb6",
+    "wof:geomhash":"6b468453bb45aa1c5767fd15017eb2ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,12 +224,12 @@
         }
     ],
     "wof:id":101821991,
-    "wof:lastmodified":1582342418,
+    "wof:lastmodified":1684351919,
     "wof:name":"Bad Frankenhausen/Kyffh\u00e4user",
     "wof:parent_id":1377689861,
     "wof:placetype":"locality",
-    "wof:population":8824,
-    "wof:population_rank":5,
+    "wof:population":10139,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

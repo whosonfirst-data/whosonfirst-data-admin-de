@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heiligengrabe",
+    "eurostat:nuts_2021_id":"12068181",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068181",
+    "eurostat:population":4370,
+    "eurostat:population_year":2020,
     "geom:area":0.027855,
-    "geom:area_square_m":206689923.194433,
+    "geom:area_square_m":206689923.194429,
     "geom:bbox":"12.288967,53.014778,12.516775,53.228944",
     "geom:latitude":53.123765,
     "geom:longitude":12.385376,
@@ -144,21 +156,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":427,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063997,
         1377683671,
-        85682553
+        85633111,
+        102063997
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068181",
+        "eurostat:nuts_2021_id":"12068181",
         "gn:id":2907594,
         "gp:id":658534,
         "qs_pg:id":1146695,
@@ -173,7 +188,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ba6ee154cd1b2d9454abd16979b72196",
+    "wof:geomhash":"4bff99a73ed93c73f40071d20b10bf00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101818475,
-    "wof:lastmodified":1608049770,
+    "wof:lastmodified":1684351899,
     "wof:name":"Heiligengrabe",
     "wof:parent_id":1377683671,
     "wof:placetype":"locality",
-    "wof:population":4581,
+    "wof:population":4370,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

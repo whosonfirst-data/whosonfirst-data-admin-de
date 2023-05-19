@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Uedem",
+    "eurostat:nuts_2021_id":"05154056",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154056",
+    "eurostat:population":8224,
+    "eurostat:population_year":2020,
     "geom:area":0.00792,
-    "geom:area_square_m":60727304.831008,
+    "geom:area_square_m":60727304.831012,
     "geom:bbox":"6.211449,51.636124,6.380129,51.715598",
     "geom:latitude":51.676237,
     "geom:longitude":6.293195,
@@ -286,18 +298,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":101,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689599,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154056",
+        "eurostat:nuts_2021_id":"05154056",
         "gn:id":2820465,
         "gp:id":700407,
         "qs_pg:id":1038260,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a5af5b0a2f5121facd8a42dbea92f1a3",
+    "wof:geomhash":"2f5e957b07b6bdbccfe3ec6217d705e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101808993,
-    "wof:lastmodified":1608051688,
+    "wof:lastmodified":1684351866,
     "wof:name":"Uedem",
     "wof:parent_id":1377689599,
     "wof:placetype":"locality",
-    "wof:population":8619,
+    "wof:population":8224,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

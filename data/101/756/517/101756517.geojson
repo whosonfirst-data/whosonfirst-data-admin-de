@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wentorf bei Hamburg",
+    "eurostat:nuts_2021_id":"01053129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053129",
+    "eurostat:population":13439,
+    "eurostat:population_year":2020,
     "geom:area":0.000931,
     "geom:area_square_m":6851199.624313,
     "geom:bbox":"10.235029,53.47954,10.28751,53.508972",
@@ -149,17 +161,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":133,
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064073,
         1377683463,
-        85682517
+        85633111,
+        102064073
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053129",
+        "eurostat:nuts_2021_id":"01053129",
         "fct:id":"075e41d4-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2811031,
         "gp:id":705400,
@@ -174,7 +189,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e961b5d4efb1b98b20790b1790fe6e1",
+    "wof:geomhash":"eeb0d923fb5e4155d0a75691fce590e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050816,
+    "wof:lastmodified":1684351796,
     "wof:name":"Wentorf bei Hamburg",
     "wof:parent_id":1377683463,
     "wof:placetype":"locality",
-    "wof:population":12104,
+    "wof:population":13439,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

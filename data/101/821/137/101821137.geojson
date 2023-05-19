@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12071412",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werben",
+    "eurostat:nuts_2021_id":"12071412",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40G",
+    "eurostat:nuts_2021_level_lau":"12071412",
+    "eurostat:population":1717,
+    "eurostat:population_year":2020,
     "geom:area":0.003265,
-    "geom:area_square_m":24958564.731788,
+    "geom:area_square_m":24958564.731786,
     "geom:bbox":"14.1373684514,51.7858086576,14.2378503868,51.8502218125",
     "geom:latitude":51.813641,
     "geom:longitude":14.185513,
@@ -150,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -160,6 +173,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12071412",
+        "eurostat:nuts_2021_id":"12071412",
         "gn:id":2810985,
         "gp:id":640652,
         "qs_pg:id":1038101,
@@ -171,7 +186,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c37f52e78991bc8ba1daabadb4b38271",
+    "wof:geomhash":"e15c7889c62ea925978806cd91b3fe9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101821137,
-    "wof:lastmodified":1582342422,
+    "wof:lastmodified":1684351915,
     "wof:name":"Werben",
     "wof:parent_id":1377684087,
     "wof:placetype":"locality",
-    "wof:population":1891,
+    "wof:population":1717,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

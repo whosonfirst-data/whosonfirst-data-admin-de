@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06635005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bromskirchen",
+    "eurostat:nuts_2021_id":"06635005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE736",
+    "eurostat:nuts_2021_level_lau":"06635005",
+    "eurostat:population":1927,
+    "eurostat:population_year":2020,
     "geom:area":0.004534,
-    "geom:area_square_m":35216366.241696,
+    "geom:area_square_m":35216366.241699,
     "geom:bbox":"8.501563,51.06123,8.678889,51.103454",
     "geom:latitude":51.084687,
     "geom:longitude":8.592245,
@@ -292,18 +304,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":418,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063781,
         1377684905,
         404227551,
-        85682531
+        102063781
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06635005",
+        "eurostat:nuts_2021_id":"06635005",
         "gn:id":2943783,
         "gp:id":641463,
         "qs_pg:id":847638,
@@ -318,7 +333,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"38770086f7a9dd952a6707e247848a73",
+    "wof:geomhash":"0f7f371f9b72a785f64d60d11c73db0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101810341,
-    "wof:lastmodified":1608050058,
+    "wof:lastmodified":1684351873,
     "wof:name":"Bromskirchen",
     "wof:parent_id":1377684905,
     "wof:placetype":"locality",
-    "wof:population":1917,
+    "wof:population":1927,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

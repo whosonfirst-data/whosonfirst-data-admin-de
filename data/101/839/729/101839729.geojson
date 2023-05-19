@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05958008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bestwig",
+    "eurostat:nuts_2021_id":"05958008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA57",
+    "eurostat:nuts_2021_level_lau":"05958008",
+    "eurostat:population":10623,
+    "eurostat:population_year":2020,
     "geom:area":0.008936,
-    "geom:area_square_m":69027133.619694,
+    "geom:area_square_m":69027133.619692,
     "geom:bbox":"8.348923,51.261806,8.451943,51.408228",
     "geom:latitude":51.340713,
     "geom:longitude":8.400952,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":189,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063783,
         1377692207,
         404227579,
-        85682513
+        102063783
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05958008",
+        "eurostat:nuts_2021_id":"05958008",
         "fct:id":"07162ebc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2949773,
         "gp:id":638486,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"469fbd9d32e0a1c784a8aa581af6eea0",
+    "wof:geomhash":"575f5508b54949a154190e70ea8097bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -345,11 +360,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051848,
+    "wof:lastmodified":1684351948,
     "wof:name":"Bestwig",
     "wof:parent_id":1377692207,
     "wof:placetype":"locality",
-    "wof:population":11764,
+    "wof:population":10623,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

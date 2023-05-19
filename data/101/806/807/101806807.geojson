@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01051024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eddelak",
+    "eurostat:nuts_2021_id":"01051024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF05",
+    "eurostat:nuts_2021_level_lau":"01051024",
+    "eurostat:population":1330,
+    "eurostat:population_year":2020,
     "geom:area":0.001293,
-    "geom:area_square_m":9406550.589613,
+    "geom:area_square_m":9406550.589615,
     "geom:bbox":"9.10366709398,53.9288414345,9.18864686561,53.9665379238",
     "geom:latitude":53.949293,
     "geom:longitude":9.141851,
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01051024",
+        "eurostat:nuts_2021_id":"01051024",
         "gn:id":2933488,
         "gp:id":646472,
         "qs_pg:id":1323664,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a7ee6fe425f9334a8b3fafdaec4853a4",
+    "wof:geomhash":"b4d78ed4483c32e93617c41cc2c649af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101806807,
-    "wof:lastmodified":1582342620,
+    "wof:lastmodified":1684351855,
     "wof:name":"Eddelak",
     "wof:parent_id":1377683399,
     "wof:placetype":"locality",
-    "wof:population":1455,
+    "wof:population":1330,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09774150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krumbach (Schwaben), St",
+    "eurostat:nuts_2021_id":"09774150",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE278",
+    "eurostat:nuts_2021_level_lau":"09774150",
+    "eurostat:population":13522,
+    "eurostat:population_year":2020,
     "geom:area":0.005379,
     "geom:area_square_m":44290472.491286,
     "geom:bbox":"10.3323945893,48.2036038991,10.4337627017,48.2961967832",
@@ -169,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -180,6 +193,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09774150",
+        "eurostat:nuts_2021_id":"09774150",
         "gn:id":2883410,
         "gp:id":669187,
         "qs_pg:id":847420,
@@ -191,7 +206,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"64d8f490f80cc68636d0a2ade16a0a9f",
+    "wof:geomhash":"18dc77406e07aa02fe8076a600ad0d77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101785447,
-    "wof:lastmodified":1582342455,
+    "wof:lastmodified":1684351835,
     "wof:name":"Krumbach (Schwaben)",
     "wof:parent_id":1377692565,
     "wof:placetype":"locality",
-    "wof:population":12805,
+    "wof:population":13522,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08118080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Korntal-M\u00fcnchingen, Stadt",
+    "eurostat:nuts_2021_id":"08118080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE115",
+    "eurostat:nuts_2021_level_lau":"08118080",
+    "eurostat:population":19718,
+    "eurostat:population_year":2020,
     "geom:area":0.002527,
-    "geom:area_square_m":20564785.690701,
+    "geom:area_square_m":20564785.6907,
     "geom:bbox":"9.048036,48.821773,9.142575,48.869061",
     "geom:latitude":48.848005,
     "geom:longitude":9.1019,
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":20.69,
     "wd:latitude":48.830556,
     "wd:longitude":9.121389,
@@ -321,15 +334,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063373,
         1377687345,
         404227549,
-        85682567
+        102063373
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08118080",
+        "eurostat:nuts_2021_id":"08118080",
         "gn:id":6557968,
         "gp:id":668325,
         "qs_pg:id":637991,
@@ -346,7 +361,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"575cafcc08cc93d78f4e0033b2391ace",
+    "wof:geomhash":"1aabd97aae3394292cff72c56864b333",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -359,11 +374,11 @@
         }
     ],
     "wof:id":101756271,
-    "wof:lastmodified":1608050834,
+    "wof:lastmodified":1684351793,
     "wof:name":"Korntal-M\u00fcnchingen",
     "wof:parent_id":1377687345,
     "wof:placetype":"locality",
-    "wof:population":17420,
+    "wof:population":19718,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

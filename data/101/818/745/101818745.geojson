@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ueckerm\u00fcnde, Stadt",
+    "eurostat:nuts_2021_id":"13075136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075136",
+    "eurostat:population":8442,
+    "eurostat:population_year":2020,
     "geom:area":0.004881,
-    "geom:area_square_m":35700649.942841,
+    "geom:area_square_m":35700649.942842,
     "geom:bbox":"13.962978,53.699532,14.139675,53.757647",
     "geom:latitude":53.73115,
     "geom:longitude":14.049267,
@@ -306,7 +318,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":53.733333,
     "wd:longitude":14.033333,
     "wd:population":8846,
@@ -316,14 +329,16 @@
     "woe:name_adm1":"Mecklenburg-Vorpommern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682487,
         102191581,
-        85633111,
-        1377675571,
         1377685059,
-        85682487
+        85633111,
+        1377675571
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075136",
+        "eurostat:nuts_2021_id":"13075136",
         "gn:id":2820471,
         "gp:id":700403,
         "qs_pg:id":141632,
@@ -338,7 +353,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cb340fd6844c29717fd4690eec21b11c",
+    "wof:geomhash":"7e2c8e8d9422fefed53cbf11684e6804",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -350,11 +365,11 @@
         }
     ],
     "wof:id":101818745,
-    "wof:lastmodified":1608049792,
+    "wof:lastmodified":1684351903,
     "wof:name":"Ueckerm\u00fcnde",
     "wof:parent_id":1377685059,
     "wof:placetype":"locality",
-    "wof:population":8846,
+    "wof:population":8442,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

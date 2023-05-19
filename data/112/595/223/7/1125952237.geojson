@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05382064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Swisttal",
+    "eurostat:nuts_2021_id":"05382064",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2C",
+    "eurostat:nuts_2021_level_lau":"05382064",
+    "eurostat:population":18749,
+    "eurostat:population_year":2020,
     "geom:area":0.007935,
     "geom:area_square_m":62169062.314149,
     "geom:bbox":"6.854293,50.635712,6.996749,50.734131",
@@ -276,21 +288,24 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"Town",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063683,
         1377690721,
         404227541,
-        85682513
+        102063683
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05382064",
+        "eurostat:nuts_2021_id":"05382064",
         "gp:id":15002815,
         "qs_pg:id":231122,
         "wd:id":"Q253784"
@@ -303,7 +318,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"4306319ac98ec1b3a7191a8f8db5d07c",
+    "wof:geomhash":"29bf14afd68c7e6fbf47ac8700138c0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":1125952237,
-    "wof:lastmodified":1608053864,
+    "wof:lastmodified":1684352040,
     "wof:name":"Swisttal",
     "wof:parent_id":1377690721,
     "wof:placetype":"locality",
-    "wof:population":17497,
+    "wof:population":18749,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

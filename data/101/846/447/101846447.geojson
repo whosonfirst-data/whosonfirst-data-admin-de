@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hitzhusen",
+    "eurostat:nuts_2021_id":"01060040",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060040",
+    "eurostat:population":1238,
+    "eurostat:population_year":2020,
     "geom:area":0.001098,
-    "geom:area_square_m":7992305.104129,
+    "geom:area_square_m":7992305.104128,
     "geom:bbox":"9.82069170121,53.9061554024,9.8779394765,53.9400808241",
     "geom:latitude":53.92357,
     "geom:longitude":9.849921,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060040",
+        "eurostat:nuts_2021_id":"01060040",
         "gn:id":2903445,
         "gp:id":704247,
         "qs_pg:id":578622,
@@ -168,7 +183,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2f138156f4e94356a0967574ae02d5ad",
+    "wof:geomhash":"6f30e16c5576cb251a0bdef8c8a53376",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101846447,
-    "wof:lastmodified":1582342525,
+    "wof:lastmodified":1684351962,
     "wof:name":"Hitzhusen",
     "wof:parent_id":1377684537,
     "wof:placetype":"locality",
-    "wof:population":1225,
+    "wof:population":1238,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

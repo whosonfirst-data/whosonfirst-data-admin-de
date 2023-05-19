@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leisnig, Stadt",
+    "eurostat:nuts_2021_id":"14522310",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522310",
+    "eurostat:population":8243,
+    "eurostat:population_year":2020,
     "geom:area":0.010031,
-    "geom:area_square_m":77762915.989114,
+    "geom:area_square_m":77762915.989113,
     "geom:bbox":"12.849263,51.126823,13.024397,51.225096",
     "geom:latitude":51.176048,
     "geom:longitude":12.937984,
@@ -187,21 +199,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":141,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685957,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522310",
+        "eurostat:nuts_2021_id":"14522310",
         "gn:id":2879109,
         "gp:id":671082,
         "qs_pg:id":153357,
@@ -216,7 +231,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b889e12af1622c486459dea51dcd6f73",
+    "wof:geomhash":"bbce3580f149eea92ab2237c29539b05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,11 +243,11 @@
         }
     ],
     "wof:id":101821843,
-    "wof:lastmodified":1608050187,
+    "wof:lastmodified":1684351917,
     "wof:name":"Leisnig",
     "wof:parent_id":1377685957,
     "wof:placetype":"locality",
-    "wof:population":6968,
+    "wof:population":8243,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

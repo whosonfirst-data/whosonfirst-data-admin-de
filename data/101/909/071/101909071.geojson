@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16065018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freienbessingen",
+    "eurostat:nuts_2021_id":"16065018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0A",
+    "eurostat:nuts_2021_level_lau":"16065018",
+    "eurostat:population":227,
+    "eurostat:population_year":2020,
     "geom:area":0.001145,
     "geom:area_square_m":8868219.648516,
     "geom:bbox":"10.7504975106,51.2043643163,10.7981184727,51.24815672",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "wof:belongsto":[
         85682541,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16065018",
+        "eurostat:nuts_2021_id":"16065018",
         "gn:id":2925162,
         "gp:id":650449,
         "qs_pg:id":579115,
@@ -153,7 +168,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"26e7fc8b26eb2013b52261de3177a1e4",
+    "wof:geomhash":"7cfcad3d2358a9487fbd1755828db60f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,12 +180,12 @@
         }
     ],
     "wof:id":101909071,
-    "wof:lastmodified":1582342284,
+    "wof:lastmodified":1684352001,
     "wof:name":"Freienbessingen",
     "wof:parent_id":1377689923,
     "wof:placetype":"locality",
-    "wof:population":1050,
-    "wof:population_rank":3,
+    "wof:population":227,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

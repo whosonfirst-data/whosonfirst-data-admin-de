@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09677137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hasloch",
+    "eurostat:nuts_2021_id":"09677137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE26A",
+    "eurostat:nuts_2021_level_lau":"09677137",
+    "eurostat:population":1407,
+    "eurostat:population_year":2020,
     "geom:area":0.001283,
-    "geom:area_square_m":10236505.16413,
+    "geom:area_square_m":10236505.164129,
     "geom:bbox":"9.44660291171,49.7797266741,9.51393281277,49.8231853547",
     "geom:latitude":49.80242,
     "geom:longitude":9.482952,
@@ -301,7 +313,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":423,
     "wof:belongsto":[
         85682571,
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09677137",
+        "eurostat:nuts_2021_id":"09677137",
         "gn:id":2909491,
         "gp:id":657713,
         "qs_pg:id":93722,
@@ -325,7 +340,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3ccc75a509795aa6b0cd153f27393ae0",
+    "wof:geomhash":"c6a725db0aac36a60db011b3b74605a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101874351,
-    "wof:lastmodified":1582342397,
+    "wof:lastmodified":1684351970,
     "wof:name":"Hasloch",
     "wof:parent_id":1377691559,
     "wof:placetype":"locality",
-    "wof:population":1414,
+    "wof:population":1407,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

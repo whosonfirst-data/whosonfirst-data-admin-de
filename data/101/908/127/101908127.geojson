@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dambeck",
+    "eurostat:nuts_2021_id":"13076027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076027",
+    "eurostat:population":281,
+    "eurostat:population_year":2020,
     "geom:area":0.002342,
-    "geom:area_square_m":17328598.433563,
+    "geom:area_square_m":17328598.433566,
     "geom:bbox":"11.7144765097,53.2170535155,11.794500324,53.2749750102",
     "geom:latitude":53.244251,
     "geom:longitude":11.756384,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":42,
     "wof:belongsto":[
         85682487,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076027",
+        "eurostat:nuts_2021_id":"13076027",
         "gn:id":2939246,
         "gp:id":643619,
         "qs_pg:id":931583,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1a6d97579a2cd065fa079912254263ff",
+    "wof:geomhash":"35e0ecceff996bbbf2efb56034043f6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101908127,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351993,
     "wof:name":"Dambeck",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":286,
+    "wof:population":281,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigsfeld",
+    "eurostat:nuts_2021_id":"09471151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471151",
+    "eurostat:population":1267,
+    "eurostat:population_year":2020,
     "geom:area":0.005366,
     "geom:area_square_m":42706677.237706,
     "geom:bbox":"11.0918787274,49.9067919038,11.2191292738,49.9785038218",
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -157,6 +170,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471151",
+        "eurostat:nuts_2021_id":"09471151",
         "fct:id":"071ced24-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2885885,
         "gp:id":12635237,
@@ -167,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"efe0642ffd6c189e1c25ca86ec2e1b0a",
+    "wof:geomhash":"031eb8157f413d2a66420dbbf22a656a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342576,
+    "wof:lastmodified":1684351932,
     "wof:name":"K\u00f6nigsfeld",
     "wof:parent_id":1377687265,
     "wof:placetype":"locality",
-    "wof:population":1372,
+    "wof:population":1267,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

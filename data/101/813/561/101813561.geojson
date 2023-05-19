@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07231075",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lieser",
+    "eurostat:nuts_2021_id":"07231075",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB22",
+    "eurostat:nuts_2021_level_lau":"07231075",
+    "eurostat:population":1239,
+    "eurostat:population_year":2020,
     "geom:area":0.000682,
-    "geom:area_square_m":5430814.038443,
+    "geom:area_square_m":5430814.038441,
     "geom:bbox":"7.00357460067,49.9138506008,7.04793430502,49.943459695",
     "geom:latitude":49.925914,
     "geom:longitude":7.022224,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1399,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07231075",
+        "eurostat:nuts_2021_id":"07231075",
         "gn:id":2877771,
         "gp:id":669312,
         "qs_pg:id":577999,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e4c4c4c496f78fadf1c61ea4d8e9c8ba",
+    "wof:geomhash":"f4c3d69b9bab04121006a6bfa6ddcd7d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +180,11 @@
         }
     ],
     "wof:id":101813561,
-    "wof:lastmodified":1582342562,
+    "wof:lastmodified":1684351892,
     "wof:name":"Lieser",
     "wof:parent_id":1377685883,
     "wof:placetype":"locality",
-    "wof:population":1185,
+    "wof:population":1239,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

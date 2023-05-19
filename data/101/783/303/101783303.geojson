@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09577148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Langenaltheim",
+    "eurostat:nuts_2021_id":"09577148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE25C",
+    "eurostat:nuts_2021_level_lau":"09577148",
+    "eurostat:population":2200,
+    "eurostat:population_year":2020,
     "geom:area":0.00477,
-    "geom:area_square_m":38773496.923909,
+    "geom:area_square_m":38773496.92391,
     "geom:bbox":"10.853285,48.859357,10.974122,48.925621",
     "geom:latitude":48.894902,
     "geom:longitude":10.915948,
@@ -148,18 +160,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063389,
         1377690189,
         404227565,
-        85682571
+        102063389
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09577148",
+        "eurostat:nuts_2021_id":"09577148",
         "gn:id":2881267,
         "gp:id":670067,
         "qs_pg:id":1039305,
@@ -174,7 +189,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8fe33d99ab75d733b235c3cd1103561d",
+    "wof:geomhash":"afe24fe75f0348cb019794871df60189",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -187,11 +202,11 @@
         }
     ],
     "wof:id":101783303,
-    "wof:lastmodified":1608050631,
+    "wof:lastmodified":1684351829,
     "wof:name":"Langenaltheim",
     "wof:parent_id":1377690189,
     "wof:placetype":"locality",
-    "wof:population":2450,
+    "wof:population":2200,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07338023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00f6merberg",
+    "eurostat:nuts_2021_id":"07338023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3I",
+    "eurostat:nuts_2021_level_lau":"07338023",
+    "eurostat:population":9876,
+    "eurostat:population_year":2020,
     "geom:area":0.003461,
-    "geom:area_square_m":27916181.528269,
+    "geom:area_square_m":27916181.528271,
     "geom:bbox":"8.36266025099,49.2498165181,8.46698543602,49.3053414908",
     "geom:latitude":49.278283,
     "geom:longitude":8.409428,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07338023",
+        "eurostat:nuts_2021_id":"07338023",
         "gn:id":3272956,
         "gp:id":684979,
         "qs_pg:id":95338,
@@ -316,7 +331,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd0ee0c183884470548b7987c8d0b0fc",
+    "wof:geomhash":"e7327a479361e28fc2ba6a23557e9574",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":1175611269,
-    "wof:lastmodified":1582342080,
+    "wof:lastmodified":1684352055,
     "wof:name":"R\u00f6merberg",
     "wof:parent_id":1377688325,
     "wof:placetype":"locality",
-    "wof:population":9445,
+    "wof:population":9876,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

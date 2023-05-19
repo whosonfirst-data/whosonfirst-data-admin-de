@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rheurdt",
+    "eurostat:nuts_2021_id":"05154048",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154048",
+    "eurostat:population":6515,
+    "eurostat:population_year":2020,
     "geom:area":0.003892,
-    "geom:area_square_m":29990399.724959,
+    "geom:area_square_m":29990399.724957,
     "geom:bbox":"6.418914,51.416132,6.5214,51.486261",
     "geom:latitude":51.450951,
     "geom:longitude":6.474097,
@@ -295,22 +307,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689581,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154048",
+        "eurostat:nuts_2021_id":"05154048",
         "gn:id":2847586,
         "gp:id":29349264,
         "loc:id":"n95118159",
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c8d66d94f04b3666e24803d1350ceaaf",
+    "wof:geomhash":"be29d74c1bcf526afbc097c59f14a86b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101810271,
-    "wof:lastmodified":1608050090,
+    "wof:lastmodified":1684351873,
     "wof:name":"Rheurdt",
     "wof:parent_id":1377689581,
     "wof:placetype":"locality",
-    "wof:population":6669,
+    "wof:population":6515,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

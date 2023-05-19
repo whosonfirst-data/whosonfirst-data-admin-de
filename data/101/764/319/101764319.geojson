@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08417045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nusplingen",
+    "eurostat:nuts_2021_id":"08417045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE143",
+    "eurostat:nuts_2021_level_lau":"08417045",
+    "eurostat:population":1850,
+    "eurostat:population_year":2020,
     "geom:area":0.002497,
-    "geom:area_square_m":20612071.300198,
+    "geom:area_square_m":20612071.300197,
     "geom:bbox":"8.86227134136,48.1035661127,8.95535164992,48.15330319",
     "geom:latitude":48.12523,
     "geom:longitude":8.906582,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "wof:belongsto":[
         85682567,
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08417045",
+        "eurostat:nuts_2021_id":"08417045",
         "fct:id":"0715b734-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2861628,
         "gp:id":680569,
@@ -320,7 +335,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a91c76cd14ed4dc1871b59d6fffc522",
+    "wof:geomhash":"90c3839b70ac79f618180ace76439b06",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351815,
     "wof:name":"Nusplingen",
     "wof:parent_id":1377690137,
     "wof:placetype":"locality",
-    "wof:population":1782,
+    "wof:population":1850,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

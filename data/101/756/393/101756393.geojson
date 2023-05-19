@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kleinostheim",
+    "eurostat:nuts_2021_id":"09671136",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671136",
+    "eurostat:population":8206,
+    "eurostat:population_year":2020,
     "geom:area":0.001723,
-    "geom:area_square_m":13688741.638522,
+    "geom:area_square_m":13688741.638523,
     "geom:bbox":"9.030027,49.986741,9.10266,50.037459",
     "geom:latitude":50.01584,
     "geom:longitude":9.065368,
@@ -175,22 +187,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":561,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690421,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671136",
+        "eurostat:nuts_2021_id":"09671136",
         "fct:id":"071d0eb2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2888411,
         "gp:id":667076,
@@ -206,7 +221,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"12262b96a88d04b096154bc5d55b8930",
+    "wof:geomhash":"198ec0cf6c0ee61c2281f355ab69bf5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -222,11 +237,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050826,
+    "wof:lastmodified":1684351794,
     "wof:name":"Kleinostheim",
     "wof:parent_id":1377690421,
     "wof:placetype":"locality",
-    "wof:population":8409,
+    "wof:population":8206,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

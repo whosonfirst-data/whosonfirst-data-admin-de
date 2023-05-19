@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Carlsberg",
+    "eurostat:nuts_2021_id":"07332007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332007",
+    "eurostat:population":3454,
+    "eurostat:population_year":2020,
     "geom:area":0.000883,
-    "geom:area_square_m":7087793.194955,
+    "geom:area_square_m":7087793.194956,
     "geom:bbox":"8.003241,49.4809,8.07399,49.51638",
     "geom:latitude":49.498655,
     "geom:longitude":8.03465,
@@ -144,21 +156,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":833,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063485,
         1377686301,
-        85682491
+        85633111,
+        102063485
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332007",
+        "eurostat:nuts_2021_id":"07332007",
         "gn:id":2940309,
         "gp:id":659524,
         "qs_pg:id":579524,
@@ -170,7 +185,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cb0042aa21213b95e23c3095d7c4cd9a",
+    "wof:geomhash":"5c959993185baad797d873ee70a9d9e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101815719,
-    "wof:lastmodified":1587163110,
+    "wof:lastmodified":1684351894,
     "wof:name":"Carlsberg",
     "wof:parent_id":1377686301,
     "wof:placetype":"locality",
-    "wof:population":3536,
+    "wof:population":3454,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

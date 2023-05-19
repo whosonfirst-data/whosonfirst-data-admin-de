@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krebeck",
+    "eurostat:nuts_2021_id":"03159022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159022",
+    "eurostat:population":1033,
+    "eurostat:population_year":2020,
     "geom:area":0.001585,
     "geom:area_square_m":12177387.280937,
     "geom:bbox":"10.0706843477,51.5754589741,10.1544885178,51.6223515062",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159022",
+        "eurostat:nuts_2021_id":"03159022",
         "gn:id":2884597,
         "gp:id":668711,
         "qs_pg:id":578225,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f8a31f94e294463569465229d57299c1",
+    "wof:geomhash":"646c172ab8747fc320fe4463d59f042a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101810177,
-    "wof:lastmodified":1582342410,
+    "wof:lastmodified":1684351872,
     "wof:name":"Krebeck",
     "wof:parent_id":1377686229,
     "wof:placetype":"locality",
-    "wof:population":1135,
+    "wof:population":1033,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

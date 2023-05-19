@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09190160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wildsteig",
+    "eurostat:nuts_2021_id":"09190160",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21N",
+    "eurostat:nuts_2021_level_lau":"09190160",
+    "eurostat:population":1310,
+    "eurostat:population_year":2020,
     "geom:area":0.005706,
-    "geom:area_square_m":47515737.580559,
+    "geom:area_square_m":47515737.580562,
     "geom:bbox":"10.9026367502,47.6155661385,10.9912593865,47.7218245604",
     "geom:latitude":47.66811,
     "geom:longitude":10.943583,
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -176,6 +189,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09190160",
+        "eurostat:nuts_2021_id":"09190160",
         "gn:id":2808810,
         "gp:id":15002843,
         "qs_pg:id":92831,
@@ -189,7 +204,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"2cf064bce97967861a59073998f52377",
+    "wof:geomhash":"2ed2197a643c805684dc79d925e9ffd5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101787601,
-    "wof:lastmodified":1582342647,
+    "wof:lastmodified":1684351842,
     "wof:name":"Wildsteig",
     "wof:parent_id":1377683763,
     "wof:placetype":"locality",
-    "wof:population":1245,
+    "wof:population":1310,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vilsbiburg, St",
+    "eurostat:nuts_2021_id":"09274184",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274184",
+    "eurostat:population":12203,
+    "eurostat:population_year":2020,
     "geom:area":0.008349,
-    "geom:area_square_m":68490217.072018,
+    "geom:area_square_m":68490217.072024,
     "geom:bbox":"12.272638,48.383718,12.429339,48.494208",
     "geom:latitude":48.440789,
     "geom:longitude":12.345517,
@@ -164,22 +176,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":210,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684527,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274184",
+        "eurostat:nuts_2021_id":"09274184",
         "gn:id":2817209,
         "gp:id":702390,
         "qs_pg:id":247072,
@@ -194,7 +209,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"93c1be5ca1e264a7b84f876dce4cf54c",
+    "wof:geomhash":"930c4661acfa2edf73c67d7e8d652f28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,11 +222,11 @@
         }
     ],
     "wof:id":101784337,
-    "wof:lastmodified":1608050660,
+    "wof:lastmodified":1684351832,
     "wof:name":"Vilsbiburg",
     "wof:parent_id":1377684527,
     "wof:placetype":"locality",
-    "wof:population":11416,
+    "wof:population":12203,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

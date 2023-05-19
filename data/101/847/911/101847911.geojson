@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rechenberg-Bienenm\u00fchle",
+    "eurostat:nuts_2021_id":"14522470",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522470",
+    "eurostat:population":1835,
+    "eurostat:population_year":2020,
     "geom:area":0.006721,
-    "geom:area_square_m":52596148.818536,
+    "geom:area_square_m":52596148.818537,
     "geom:bbox":"13.462412,50.708155,13.652174,50.776416",
     "geom:latitude":50.737895,
     "geom:longitude":13.556969,
@@ -306,21 +318,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":163,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377686045,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522470",
+        "eurostat:nuts_2021_id":"14522470",
         "fct:id":"071735dc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2849727,
         "gp:id":687191,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"6e4fb8ac2c970aaa6b71ae258cfdce9f",
+    "wof:geomhash":"3acb271d1603707627fd2ac5a3207d0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,12 +366,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051289,
+    "wof:lastmodified":1684351964,
     "wof:name":"Rechenberg-Bienenm\u00fchle",
     "wof:parent_id":1377686045,
     "wof:placetype":"locality",
-    "wof:population":2506,
-    "wof:population_rank":4,
+    "wof:population":1835,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

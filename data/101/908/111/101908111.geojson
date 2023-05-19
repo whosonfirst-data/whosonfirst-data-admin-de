@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Besitz",
+    "eurostat:nuts_2021_id":"13076010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076010",
+    "eurostat:population":445,
+    "eurostat:population_year":2020,
     "geom:area":0.002997,
     "geom:area_square_m":22122492.157416,
     "geom:bbox":"10.8145575008,53.3210983736,10.918365713,53.3822687044",
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076010",
+        "eurostat:nuts_2021_id":"13076010",
         "gn:id":2949802,
         "gp:id":638472,
         "qs_pg:id":579788,
@@ -304,7 +319,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"1b0be9bd9a729986a488f255f3418d07",
+    "wof:geomhash":"430fa33d559df40f742ff8dc37d48937",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101908111,
-    "wof:lastmodified":1582342345,
+    "wof:lastmodified":1684351993,
     "wof:name":"Besitz",
     "wof:parent_id":1377685235,
     "wof:placetype":"locality",
-    "wof:population":527,
+    "wof:population":445,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

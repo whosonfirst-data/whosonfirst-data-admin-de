@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05122000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Solingen, Klingenstadt",
+    "eurostat:nuts_2021_id":"05122000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA19",
+    "eurostat:nuts_2021_level_lau":"05122000",
+    "eurostat:population":159245,
+    "eurostat:population_year":2020,
     "geom:area":0.011436,
     "geom:area_square_m":88679055.145022,
     "geom:bbox":"6.951094,51.11524,7.173951,51.220503",
@@ -382,17 +394,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063731,
         1377689469,
         404227561,
-        85682513
+        102063731
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05122000",
+        "eurostat:nuts_2021_id":"05122000",
         "gn:id":2831580,
         "gp:id":695336,
         "qs_pg:id":788562,
@@ -408,7 +423,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd2ea9a2e9fb3f6fbc3b3fe88b37b377",
+    "wof:geomhash":"3da2db7106de61ddaac9f43a3538894e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -421,11 +436,11 @@
         }
     ],
     "wof:id":101748649,
-    "wof:lastmodified":1608050581,
+    "wof:lastmodified":1684351787,
     "wof:name":"Solingen",
     "wof:parent_id":1377689469,
     "wof:placetype":"locality",
-    "wof:population":164359,
+    "wof:population":159245,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

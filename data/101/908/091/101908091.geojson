@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kuhstorf",
+    "eurostat:nuts_2021_id":"13076079",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076079",
+    "eurostat:population":738,
+    "eurostat:population_year":2020,
     "geom:area":0.002034,
     "geom:area_square_m":15000796.71385,
     "geom:bbox":"11.2221825242,53.3668107413,11.298534889,53.4072937312",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076079",
+        "eurostat:nuts_2021_id":"13076079",
         "gn:id":2882660,
         "gp:id":669442,
         "qs_pg:id":93535,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"76e13802fd3553c1f08e10d2620cb704",
+    "wof:geomhash":"0a3beb0fc8fc4e28e768492c8b8537b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908091,
-    "wof:lastmodified":1582342342,
+    "wof:lastmodified":1684351993,
     "wof:name":"Kuhstorf",
     "wof:parent_id":1377685279,
     "wof:placetype":"locality",
-    "wof:population":821,
+    "wof:population":738,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

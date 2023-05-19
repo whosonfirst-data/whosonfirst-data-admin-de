@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08237028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freudenstadt, Stadt",
+    "eurostat:nuts_2021_id":"08237028",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12C",
+    "eurostat:nuts_2021_level_lau":"08237028",
+    "eurostat:population":23635,
+    "eurostat:population_year":2020,
     "geom:area":0.010694,
-    "geom:area_square_m":87657857.551646,
+    "geom:area_square_m":87657857.551638,
     "geom:bbox":"8.27340536956,48.4199797273,8.49182233999,48.5607991278",
     "geom:latitude":48.479862,
     "geom:longitude":8.414353,
@@ -208,7 +220,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.463333,
     "wd:longitude":8.411111,
     "wd:wordcount":396,
@@ -226,6 +239,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08237028",
+        "eurostat:nuts_2021_id":"08237028",
         "gn:id":2924894,
         "gp:id":650591,
         "qs_pg:id":1344045,
@@ -237,7 +252,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5660982003b7aee6227ae2cd13602f14",
+    "wof:geomhash":"b73c9cbfe365b3d9f579490518dcab36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -250,11 +265,11 @@
         }
     ],
     "wof:id":101763035,
-    "wof:lastmodified":1582342297,
+    "wof:lastmodified":1684351809,
     "wof:name":"Freudenstadt",
     "wof:parent_id":1377689081,
     "wof:placetype":"locality",
-    "wof:population":23868,
+    "wof:population":23635,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

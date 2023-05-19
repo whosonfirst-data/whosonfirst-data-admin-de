@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werdau, Stadt",
+    "eurostat:nuts_2021_id":"14524300",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524300",
+    "eurostat:population":20623,
+    "eurostat:population_year":2020,
     "geom:area":0.008317,
-    "geom:area_square_m":65101679.958584,
+    "geom:area_square_m":65101679.958588,
     "geom:bbox":"12.253382,50.682609,12.441802,50.776901",
     "geom:latitude":50.727687,
     "geom:longitude":12.353244,
@@ -190,21 +202,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":152,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064215,
         1377686489,
-        85682523
+        85633111,
+        102064215
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524300",
+        "eurostat:nuts_2021_id":"14524300",
         "gn:id":2810968,
         "gp:id":705436,
         "qs_pg:id":978178,
@@ -222,7 +237,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9f9384c5e09a62de105df7a287395f29",
+    "wof:geomhash":"abcd12abb546e6769a05b56213f20767",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -234,11 +249,11 @@
         }
     ],
     "wof:id":101841227,
-    "wof:lastmodified":1608050973,
+    "wof:lastmodified":1684351952,
     "wof:name":"Werdau",
     "wof:parent_id":1377686489,
     "wof:placetype":"locality",
-    "wof:population":24424,
+    "wof:population":20623,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

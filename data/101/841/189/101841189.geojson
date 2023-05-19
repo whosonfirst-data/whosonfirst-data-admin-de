@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Unterwellenborn",
+    "eurostat:nuts_2021_id":"16073111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073111",
+    "eurostat:population":8453,
+    "eurostat:population_year":2020,
     "geom:area":0.007975,
-    "geom:area_square_m":62504205.245286,
+    "geom:area_square_m":62504205.245278,
     "geom:bbox":"11.354079,50.607518,11.521288,50.710357",
     "geom:latitude":50.663633,
     "geom:longitude":11.451295,
@@ -148,21 +160,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":80,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063671,
         1377690653,
-        85682541
+        85633111,
+        102063671
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073111",
+        "eurostat:nuts_2021_id":"16073111",
         "gn:id":2818418,
         "gp:id":701704,
         "qs_pg:id":92942,
@@ -177,7 +192,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"70a06450b0431096219efacd9fc84913",
+    "wof:geomhash":"2b54f5b03811475fe8bec03a6971820f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,12 +204,12 @@
         }
     ],
     "wof:id":101841189,
-    "wof:lastmodified":1608050986,
+    "wof:lastmodified":1684351951,
     "wof:name":"Unterwellenborn",
     "wof:parent_id":1377690653,
     "wof:placetype":"locality",
-    "wof:population":3002,
-    "wof:population_rank":4,
+    "wof:population":8453,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

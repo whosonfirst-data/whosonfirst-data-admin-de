@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landsberg am Lech, GKSt",
+    "eurostat:nuts_2021_id":"09181130",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181130",
+    "eurostat:population":29228,
+    "eurostat:population_year":2020,
     "geom:area":0.00699,
-    "geom:area_square_m":57793441.551217,
+    "geom:area_square_m":57793441.551213,
     "geom:bbox":"10.807484,47.987785,10.92396,48.079139",
     "geom:latitude":48.034765,
     "geom:longitude":10.861328,
@@ -240,21 +252,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063257,
         1377692291,
         404227567,
-        85682571
+        102063257
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181130",
+        "eurostat:nuts_2021_id":"09181130",
         "fct:id":"0749df6e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2881509,
         "gp:id":669984,
@@ -270,7 +285,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"99d064870087416c7723a942e40c1fb6",
+    "wof:geomhash":"fe3dd06e30321ca1d14d251f1b756369",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -286,11 +301,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051935,
+    "wof:lastmodified":1684351839,
     "wof:name":"Landsberg am Lech",
     "wof:parent_id":1377692291,
     "wof:placetype":"locality",
-    "wof:population":27017,
+    "wof:population":29228,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

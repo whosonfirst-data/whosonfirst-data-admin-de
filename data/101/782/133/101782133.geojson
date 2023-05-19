@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571216",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weidenbach, M",
+    "eurostat:nuts_2021_id":"09571216",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571216",
+    "eurostat:population":2270,
+    "eurostat:population_year":2020,
     "geom:area":0.002673,
-    "geom:area_square_m":21595140.867849,
+    "geom:area_square_m":21595140.867851,
     "geom:bbox":"10.5959217346,49.1860325426,10.668905645,49.2382071304",
     "geom:latitude":49.210842,
     "geom:longitude":10.6302,
@@ -289,7 +301,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":76,
     "wof:belongsto":[
         85682571,
@@ -301,6 +314,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571216",
+        "eurostat:nuts_2021_id":"09571216",
         "gn:id":2813023,
         "gp:id":704507,
         "qs_pg:id":934883,
@@ -312,7 +327,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"342c59fe6def416230d925cb9956e663",
+    "wof:geomhash":"e4e01320b60bbe25febc6aa413fee5cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101782133,
-    "wof:lastmodified":1582342460,
+    "wof:lastmodified":1684351823,
     "wof:name":"Weidenbach",
     "wof:parent_id":1377689041,
     "wof:placetype":"locality",
-    "wof:population":2276,
+    "wof:population":2270,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

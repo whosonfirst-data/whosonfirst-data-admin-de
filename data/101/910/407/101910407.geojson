@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16071083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schmiedehausen",
+    "eurostat:nuts_2021_id":"16071083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0G",
+    "eurostat:nuts_2021_level_lau":"16071083",
+    "eurostat:population":364,
+    "eurostat:population_year":2020,
     "geom:area":0.001343,
     "geom:area_square_m":10431880.568127,
     "geom:bbox":"11.6250151069,51.0521366323,11.6892527037,51.089586882",
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":82,
     "wof:belongsto":[
         85682541,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16071083",
+        "eurostat:nuts_2021_id":"16071083",
         "gn:id":2837776,
         "gp:id":692489,
         "qs_pg:id":577043,
@@ -156,7 +171,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"55d006be031312595ed3aadb33d3d20e",
+    "wof:geomhash":"351a6df56dae2a2dc2cea8925c44ab8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +183,11 @@
         }
     ],
     "wof:id":101910407,
-    "wof:lastmodified":1582342654,
+    "wof:lastmodified":1684352006,
     "wof:name":"Schmiedehausen",
     "wof:parent_id":1377690515,
     "wof:placetype":"locality",
-    "wof:population":466,
+    "wof:population":364,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

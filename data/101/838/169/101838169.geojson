@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fockbek",
+    "eurostat:nuts_2021_id":"01058054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058054",
+    "eurostat:population":6369,
+    "eurostat:population_year":2020,
     "geom:area":0.00367,
-    "geom:area_square_m":26477122.267433,
+    "geom:area_square_m":26477122.267436,
     "geom:bbox":"9.54299862011,54.2390406794,9.627915407,54.3441503434",
     "geom:latitude":54.307222,
     "geom:longitude":9.584936,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -298,6 +311,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058054",
+        "eurostat:nuts_2021_id":"01058054",
         "gn:id":2926017,
         "gp:id":650030,
         "qs_pg:id":394136,
@@ -309,7 +324,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c7e8ed8a7444f66ef33a67df06fb7277",
+    "wof:geomhash":"ae5bebeeb68fe98e7df6c68994e891c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101838169,
-    "wof:lastmodified":1582342594,
+    "wof:lastmodified":1684351947,
     "wof:name":"Fockbek",
     "wof:parent_id":1377684223,
     "wof:placetype":"locality",
-    "wof:population":6380,
+    "wof:population":6369,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

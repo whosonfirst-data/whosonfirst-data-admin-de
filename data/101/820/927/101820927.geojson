@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15085230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osterwieck, Stadt",
+    "eurostat:nuts_2021_id":"15085230",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE09",
+    "eurostat:nuts_2021_level_lau":"15085230",
+    "eurostat:population":11010,
+    "eurostat:population_year":2020,
     "geom:area":0.02787,
-    "geom:area_square_m":212222660.954811,
+    "geom:area_square_m":212222660.954804,
     "geom:bbox":"10.561227,51.921454,10.896354,52.050458",
     "geom:latitude":51.988353,
     "geom:longitude":10.741569,
@@ -301,17 +313,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":286,
     "wof:belongsto":[
+        85682519,
         102191581,
-        85633111,
-        102063857,
         1377688603,
-        85682519
+        85633111,
+        102063857
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15085230",
+        "eurostat:nuts_2021_id":"15085230",
         "gn:id":2856330,
         "gp:id":683752,
         "qs_pg:id":476428,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"87f40c48c752a33e33556145bbf0f311",
+    "wof:geomhash":"94c08b605c3d6021d44d4a74d6e7490e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,12 +353,12 @@
         }
     ],
     "wof:id":101820927,
-    "wof:lastmodified":1608049893,
+    "wof:lastmodified":1684351914,
     "wof:name":"Osterwieck",
     "wof:parent_id":1377688603,
     "wof:placetype":"locality",
-    "wof:population":3837,
-    "wof:population_rank":4,
+    "wof:population":11010,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

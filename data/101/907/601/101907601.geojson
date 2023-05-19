@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05762036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Warburg, Hansestadt",
+    "eurostat:nuts_2021_id":"05762036",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA44",
+    "eurostat:nuts_2021_level_lau":"05762036",
+    "eurostat:population":23076,
+    "eurostat:population_year":2020,
     "geom:area":0.021828,
-    "geom:area_square_m":167974562.376198,
+    "geom:area_square_m":167974562.376192,
     "geom:bbox":"8.90536961319,51.4420150081,9.27118641526,51.5789134869",
     "geom:latitude":51.513635,
     "geom:longitude":9.092617,
@@ -327,7 +339,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":3285,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -343,6 +356,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05762036",
+        "eurostat:nuts_2021_id":"05762036",
         "gp:id":708077,
         "wd:id":"Q968"
     },
@@ -350,7 +365,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55f7784a0ca4a9040024400e305d113c",
+    "wof:geomhash":"e5784cf597fb8da371d5021e10bd909e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101907601,
-    "wof:lastmodified":1582342316,
+    "wof:lastmodified":1684351989,
     "wof:name":"Warburg",
     "wof:parent_id":1377684931,
     "wof:placetype":"locality",
-    "wof:population":23391,
+    "wof:population":23076,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

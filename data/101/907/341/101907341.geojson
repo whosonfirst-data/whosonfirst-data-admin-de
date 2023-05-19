@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07137074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monreal",
+    "eurostat:nuts_2021_id":"07137074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB17",
+    "eurostat:nuts_2021_level_lau":"07137074",
+    "eurostat:population":757,
+    "eurostat:population_year":2020,
     "geom:area":0.001838,
-    "geom:area_square_m":14519490.582509,
+    "geom:area_square_m":14519490.582511,
     "geom:bbox":"7.12033505741,50.26298578,7.20576097331,50.3110995902",
     "geom:latitude":50.287854,
     "geom:longitude":7.159589,
@@ -141,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07137074",
+        "eurostat:nuts_2021_id":"07137074",
         "gn:id":2869762,
         "gp:id":675982,
         "qs_pg:id":561854,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"049e9c3b43e156924c620d03e181d456",
+    "wof:geomhash":"506b4d90dbbb43463a3ed346c2c68ae8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101907341,
-    "wof:lastmodified":1582342310,
+    "wof:lastmodified":1684351987,
     "wof:name":"Monreal",
     "wof:parent_id":1377685565,
     "wof:placetype":"locality",
-    "wof:population":864,
+    "wof:population":757,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

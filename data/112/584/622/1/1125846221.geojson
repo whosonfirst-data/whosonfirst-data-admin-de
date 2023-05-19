@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07332018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frankeneck",
+    "eurostat:nuts_2021_id":"07332018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3C",
+    "eurostat:nuts_2021_level_lau":"07332018",
+    "eurostat:population":816,
+    "eurostat:population_year":2020,
     "geom:area":0.00054,
     "geom:area_square_m":4350175.118575,
     "geom:bbox":"7.98477728756,49.3678249975,8.05360637887,49.3929815008",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07332018",
+        "eurostat:nuts_2021_id":"07332018",
         "gn:id":2925614,
         "qs_pg:id":93877,
         "wd:id":"Q565996"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"55757138de220de705c6895230626b28",
+    "wof:geomhash":"d795943d2ed9cfe676673b5110be37f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125846221,
-    "wof:lastmodified":1582343054,
+    "wof:lastmodified":1684352028,
     "wof:name":"Frankeneck",
     "wof:parent_id":1377686279,
     "wof:placetype":"locality",
-    "wof:population":879,
+    "wof:population":816,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

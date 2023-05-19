@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Busenberg",
+    "eurostat:nuts_2021_id":"07340002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340002",
+    "eurostat:population":1185,
+    "eurostat:population_year":2020,
     "geom:area":0.001203,
-    "geom:area_square_m":9729566.052447,
+    "geom:area_square_m":9729566.052445,
     "geom:bbox":"7.81932205488,49.1140405132,7.86357171602,49.1623358159",
     "geom:latitude":49.136145,
     "geom:longitude":7.842669,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340002",
+        "eurostat:nuts_2021_id":"07340002",
         "gn:id":2940733,
         "gp:id":691936,
         "qs_pg:id":1040072,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0e15bd0ae0aa7836144ebd2d63f88d16",
+    "wof:geomhash":"96d35109326c1a60bb960d858ea1adef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101760973,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351804,
     "wof:name":"Busenberg",
     "wof:parent_id":1377686741,
     "wof:placetype":"locality",
-    "wof:population":1418,
+    "wof:population":1185,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

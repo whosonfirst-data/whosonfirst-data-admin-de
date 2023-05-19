@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08337116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wehr, Stadt",
+    "eurostat:nuts_2021_id":"08337116",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE13A",
+    "eurostat:nuts_2021_level_lau":"08337116",
+    "eurostat:population":13135,
+    "eurostat:population_year":2020,
     "geom:area":0.004277,
-    "geom:area_square_m":35644778.993516,
+    "geom:area_square_m":35644778.993518,
     "geom:bbox":"7.871056,47.577087,7.954085,47.67815",
     "geom:latitude":47.625478,
     "geom:longitude":7.915105,
@@ -310,21 +322,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063207,
         1377689809,
         404227543,
-        85682567
+        102063207
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08337116",
+        "eurostat:nuts_2021_id":"08337116",
         "gn:id":2813262,
         "gp:id":704380,
         "qs_pg:id":972972,
@@ -338,7 +353,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"54767c0990f65e97261ef43f574215c7",
+    "wof:geomhash":"76b6d4203dcb185a96c632b213b1257c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -351,11 +366,11 @@
         }
     ],
     "wof:id":101828621,
-    "wof:lastmodified":1608050123,
+    "wof:lastmodified":1684351943,
     "wof:name":"Wehr",
     "wof:parent_id":1377689809,
     "wof:placetype":"locality",
-    "wof:population":13037,
+    "wof:population":13135,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

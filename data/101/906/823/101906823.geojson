@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07331035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gumbsheim",
+    "eurostat:nuts_2021_id":"07331035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3B",
+    "eurostat:nuts_2021_level_lau":"07331035",
+    "eurostat:population":612,
+    "eurostat:population_year":2020,
     "geom:area":0.000417,
-    "geom:area_square_m":3327619.059351,
+    "geom:area_square_m":3327619.059352,
     "geom:bbox":"7.97681960963,49.8058006938,8.02064231582,49.8210931165",
     "geom:latitude":49.813003,
     "geom:longitude":7.998835,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":349,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07331035",
+        "eurostat:nuts_2021_id":"07331035",
         "gn:id":2913773,
         "gp:id":655756,
         "qs_pg:id":578832,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"14383d5ce90ef8914b219a9254e1ae4a",
+    "wof:geomhash":"dcddeb4293aa2725abe2246c58333f4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101906823,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351982,
     "wof:name":"Gumbsheim",
     "wof:parent_id":1377686207,
     "wof:placetype":"locality",
-    "wof:population":540,
+    "wof:population":612,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

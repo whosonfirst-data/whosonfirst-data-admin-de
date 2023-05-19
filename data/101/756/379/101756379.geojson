@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09471207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viereth-Trunstadt",
+    "eurostat:nuts_2021_id":"09471207",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE245",
+    "eurostat:nuts_2021_level_lau":"09471207",
+    "eurostat:population":3547,
+    "eurostat:population_year":2020,
     "geom:area":0.001968,
-    "geom:area_square_m":15664977.715991,
+    "geom:area_square_m":15664977.715992,
     "geom:bbox":"10.713094,49.903313,10.801938,49.941303",
     "geom:latitude":49.922851,
     "geom:longitude":10.755391,
@@ -156,18 +168,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":712,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        1175611271,
         1377687221,
         404227583,
-        85682571
+        1175611271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09471207",
+        "eurostat:nuts_2021_id":"09471207",
         "fct:id":"071cf044-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3207000,
         "gp:id":12635252,
@@ -182,7 +197,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1d91e04ec0dec8b2f2ddb7d5b400628a",
+    "wof:geomhash":"9d851103d49f0a755c32ea6dd84acee5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -198,11 +213,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050816,
+    "wof:lastmodified":1684351794,
     "wof:name":"Viereth-Trunstadt",
     "wof:parent_id":1377687221,
     "wof:placetype":"locality",
-    "wof:population":3684,
+    "wof:population":3547,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcbow",
+    "eurostat:nuts_2021_id":"13074047",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074047",
+    "eurostat:population":1592,
+    "eurostat:population_year":2020,
     "geom:area":0.004829,
-    "geom:area_square_m":35227345.807898,
+    "geom:area_square_m":35227345.807897,
     "geom:bbox":"11.4815158253,53.7988091827,11.6035045541,53.8842603576",
     "geom:latitude":53.844515,
     "geom:longitude":11.543128,
@@ -283,7 +295,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -294,6 +307,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074047",
+        "eurostat:nuts_2021_id":"13074047",
         "gn:id":2875577,
         "gp:id":672839,
         "qs_pg:id":142190,
@@ -304,7 +319,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1f21f4fb1b85b4e84ad6137ba012d143",
+    "wof:geomhash":"f24b766567ba4682fff392038713cede",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":101818837,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351904,
     "wof:name":"L\u00fcbow",
     "wof:parent_id":1377693587,
     "wof:placetype":"locality",
-    "wof:population":1418,
+    "wof:population":1592,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

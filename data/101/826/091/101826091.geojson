@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09476146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00fcps, M",
+    "eurostat:nuts_2021_id":"09476146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE24A",
+    "eurostat:nuts_2021_level_lau":"09476146",
+    "eurostat:population":7759,
+    "eurostat:population_year":2020,
     "geom:area":0.004453,
-    "geom:area_square_m":35247643.458189,
+    "geom:area_square_m":35247643.458188,
     "geom:bbox":"11.224285,50.159269,11.348665,50.234502",
     "geom:latitude":50.193801,
     "geom:longitude":11.276945,
@@ -145,18 +157,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063637,
         1377688281,
         404227583,
-        85682571
+        102063637
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09476146",
+        "eurostat:nuts_2021_id":"09476146",
         "gn:id":2882366,
         "gp:id":669578,
         "qs_pg:id":1039325,
@@ -169,7 +184,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3a7b1f88e535162f9fbecbd7a7e70acd",
+    "wof:geomhash":"dc9ebb61dfbbe07190aec8c3a62a7f4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101826091,
-    "wof:lastmodified":1608050314,
+    "wof:lastmodified":1684351935,
     "wof:name":"K\u00fcps",
     "wof:parent_id":1377688281,
     "wof:placetype":"locality",
-    "wof:population":8282,
+    "wof:population":7759,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

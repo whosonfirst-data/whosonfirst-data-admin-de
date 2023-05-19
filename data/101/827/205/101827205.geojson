@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bargteheide, Stadt",
+    "eurostat:nuts_2021_id":"01062006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062006",
+    "eurostat:population":16077,
+    "eurostat:population_year":2020,
     "geom:area":0.002166,
-    "geom:area_square_m":15842727.411486,
+    "geom:area_square_m":15842727.411484,
     "geom:bbox":"10.205701,53.709585,10.306165,53.749476",
     "geom:latitude":53.729553,
     "geom:longitude":10.263755,
@@ -159,21 +171,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682517,
         102191581,
-        85633111,
-        102064085,
         1377684727,
-        85682517
+        85633111,
+        102064085
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062006",
+        "eurostat:nuts_2021_id":"01062006",
         "gn:id":2952633,
         "gp:id":636928,
         "qs_pg:id":142867,
@@ -188,7 +203,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cfbcb0b96a18e6aea3ff7bc403b9cbd7",
+    "wof:geomhash":"b24fccb4d24bb221128982d43b494e2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -200,11 +215,11 @@
         }
     ],
     "wof:id":101827205,
-    "wof:lastmodified":1608049812,
+    "wof:lastmodified":1684351941,
     "wof:name":"Bargteheide",
     "wof:parent_id":1377684727,
     "wof:placetype":"locality",
-    "wof:population":13640,
+    "wof:population":16077,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

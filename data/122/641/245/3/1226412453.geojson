@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rohrbach",
+    "eurostat:nuts_2021_id":"16073074",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073074",
+    "eurostat:population":192,
+    "eurostat:population_year":2020,
     "geom:area":0.000494,
     "geom:area_square_m":3879184.927004,
     "geom:bbox":"11.1844787831,50.5934633604,11.2294897579,50.6136425929",
@@ -125,7 +137,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -135,6 +148,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073074",
+        "eurostat:nuts_2021_id":"16073074",
         "gn:id":2845699,
         "wk:page":"Rohrbach%2C_Saalfeld-Rudolstadt"
     },
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"19d469519ed7f3e18b4d51a78e12e543",
+    "wof:geomhash":"8db21d8692084c08e2f524e8271eaa7b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1226412453,
-    "wof:lastmodified":1582343145,
+    "wof:lastmodified":1684352057,
     "wof:name":"Rohrbach",
     "wof:parent_id":1377688983,
     "wof:placetype":"locality",
-    "wof:population":194,
+    "wof:population":192,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14625100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Demitz-Thumitz",
+    "eurostat:nuts_2021_id":"14625100",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2C",
+    "eurostat:nuts_2021_level_lau":"14625100",
+    "eurostat:population":2634,
+    "eurostat:population_year":2020,
     "geom:area":0.002713,
     "geom:area_square_m":21043823.488713,
     "geom:bbox":"14.203851,51.127844,14.289094,51.176376",
@@ -157,21 +169,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":115,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064231,
         1377686665,
-        85682523
+        85633111,
+        102064231
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14625100",
+        "eurostat:nuts_2021_id":"14625100",
         "fct:id":"073b33a6-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2938295,
         "gp:id":12625730,
@@ -186,7 +201,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7d3eb6befe0ba9853f4e029ff017768",
+    "wof:geomhash":"ee3102d3d16d401c720b7ad9c53086a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +216,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051446,
+    "wof:lastmodified":1684351920,
     "wof:name":"Demitz-Thumitz",
     "wof:parent_id":1377686665,
     "wof:placetype":"locality",
-    "wof:population":3128,
+    "wof:population":2634,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

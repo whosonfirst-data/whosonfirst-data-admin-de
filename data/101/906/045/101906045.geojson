@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df Meckelsen",
+    "eurostat:nuts_2021_id":"03357017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357017",
+    "eurostat:population":500,
+    "eurostat:population_year":2020,
     "geom:area":0.001666,
     "geom:area_square_m":12320179.885656,
     "geom:bbox":"9.41470641169,53.2574836714,9.48793231344,53.3022286703",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":143,
     "wof:belongsto":[
         85682555,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357017",
+        "eurostat:nuts_2021_id":"03357017",
         "fct:id":"07415006-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2915283,
         "gp:id":654606,
@@ -166,7 +181,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0a84dd76596fc9f8a00a80bee852a497",
+    "wof:geomhash":"4535efb4fbe703055d0fbcfc5464ccc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351975,
     "wof:name":"Gro\u00df Meckelsen",
     "wof:parent_id":1377687711,
     "wof:placetype":"locality",
-    "wof:population":503,
+    "wof:population":500,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

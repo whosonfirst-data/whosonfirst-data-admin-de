@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12068188",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herzberg (Mark)",
+    "eurostat:nuts_2021_id":"12068188",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40D",
+    "eurostat:nuts_2021_level_lau":"12068188",
+    "eurostat:population":617,
+    "eurostat:population_year":2020,
     "geom:area":0.002499,
     "geom:area_square_m":18640629.944885,
     "geom:bbox":"12.9333902863,52.8421217162,13.0256601492,52.923263115",
@@ -56,7 +68,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682553,
         102191581,
@@ -66,6 +79,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12068188",
+        "eurostat:nuts_2021_id":"12068188",
         "gn:id":2905502,
         "gp:id":659539,
         "qs_pg:id":932458
@@ -74,7 +89,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21e3a7d961e4495ff469ed2c57b17b1d",
+    "wof:geomhash":"5d8c25df253a53683adbf696348c466f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -86,11 +101,11 @@
         }
     ],
     "wof:id":101908015,
-    "wof:lastmodified":1582342341,
+    "wof:lastmodified":1684351992,
     "wof:name":"Herzberg (Mark)",
     "wof:parent_id":1377683725,
     "wof:placetype":"locality",
-    "wof:population":726,
+    "wof:population":617,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

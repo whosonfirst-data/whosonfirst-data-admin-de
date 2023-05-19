@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sandhausen",
+    "eurostat:nuts_2021_id":"08226076",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226076",
+    "eurostat:population":15242,
+    "eurostat:population_year":2020,
     "geom:area":0.001781,
-    "geom:area_square_m":14350977.440391,
+    "geom:area_square_m":14350977.44039,
     "geom:bbox":"8.604965,49.313056,8.667381,49.370509",
     "geom:latitude":49.340264,
     "geom:longitude":8.643811,
@@ -322,21 +334,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688649,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226076",
+        "eurostat:nuts_2021_id":"08226076",
         "fct:id":"0755fb5a-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2841835,
         "gp:id":690968,
@@ -352,7 +367,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"17cd4128723b9e2ed9ac5f821caffcef",
+    "wof:geomhash":"78e6b075ea63c64f910b69f63e9c844d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -368,11 +383,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050851,
+    "wof:lastmodified":1684351794,
     "wof:name":"Sandhausen",
     "wof:parent_id":1377688649,
     "wof:placetype":"locality",
-    "wof:population":14336,
+    "wof:population":15242,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522480",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reinsberg",
+    "eurostat:nuts_2021_id":"14522480",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522480",
+    "eurostat:population":2834,
+    "eurostat:population_year":2020,
     "geom:area":0.006238,
-    "geom:area_square_m":48528917.156954,
+    "geom:area_square_m":48528917.156956,
     "geom:bbox":"13.310237,50.982292,13.450167,51.051795",
     "geom:latitude":51.015597,
     "geom:longitude":13.380179,
@@ -136,21 +148,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":29,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377686053,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522480",
+        "eurostat:nuts_2021_id":"14522480",
         "fct:id":"0717360e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2848737,
         "gp:id":687714,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9d6b662aef524846594bf8f1e94402b8",
+    "wof:geomhash":"fcb3c078b944bd7c7f86ebbaf11f111c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051054,
+    "wof:lastmodified":1684351926,
     "wof:name":"Reinsberg",
     "wof:parent_id":1377686053,
     "wof:placetype":"locality",
-    "wof:population":3273,
+    "wof:population":2834,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09274111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Adlkofen",
+    "eurostat:nuts_2021_id":"09274111",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE22",
+    "eurostat:nuts_2021_level_3":"DE227",
+    "eurostat:nuts_2021_level_lau":"09274111",
+    "eurostat:population":4407,
+    "eurostat:population_year":2020,
     "geom:area":0.005839,
     "geom:area_square_m":47810813.303677,
     "geom:bbox":"12.214736,48.503831,12.365158,48.580958",
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":512,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063331,
         1377684391,
         404227559,
-        85682571
+        102063331
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09274111",
+        "eurostat:nuts_2021_id":"09274111",
         "fct:id":"073519ee-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2959422,
         "gp:id":633413,
@@ -200,7 +215,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a3e40b522be97d3ddb8265cdb478a3ef",
+    "wof:geomhash":"c3139c344d5049dccbf5fb5232e7c985",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -216,11 +231,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050684,
+    "wof:lastmodified":1684351832,
     "wof:name":"Adlkofen",
     "wof:parent_id":1377684391,
     "wof:placetype":"locality",
-    "wof:population":3934,
+    "wof:population":4407,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

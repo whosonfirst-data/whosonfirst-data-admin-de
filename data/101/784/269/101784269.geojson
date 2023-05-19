@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09773144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lauingen (Donau), St",
+    "eurostat:nuts_2021_id":"09773144",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE277",
+    "eurostat:nuts_2021_level_lau":"09773144",
+    "eurostat:population":11060,
+    "eurostat:population_year":2020,
     "geom:area":0.005416,
-    "geom:area_square_m":44322888.915364,
+    "geom:area_square_m":44322888.91537,
     "geom:bbox":"10.3558656104,48.5211890574,10.4950706688,48.608300451",
     "geom:latitude":48.562699,
     "geom:longitude":10.427744,
@@ -178,7 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -189,6 +202,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09773144",
+        "eurostat:nuts_2021_id":"09773144",
         "gn:id":2880099,
         "gp:id":670615,
         "qs_pg:id":1277395,
@@ -200,7 +215,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"dc3d01abb91c33bdc4de3537e04300c3",
+    "wof:geomhash":"fea5820607db2b5c972337df2f3c36f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -213,11 +228,11 @@
         }
     ],
     "wof:id":101784269,
-    "wof:lastmodified":1582342484,
+    "wof:lastmodified":1684351831,
     "wof:name":"Lauingen (Donau)",
     "wof:parent_id":1377692463,
     "wof:placetype":"locality",
-    "wof:population":11029,
+    "wof:population":11060,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

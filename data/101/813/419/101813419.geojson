@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06432010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00df-Umstadt, Stadt",
+    "eurostat:nuts_2021_id":"06432010",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE716",
+    "eurostat:nuts_2021_level_lau":"06432010",
+    "eurostat:population":21251,
+    "eurostat:population_year":2020,
     "geom:area":0.010875,
-    "geom:area_square_m":86671115.649674,
+    "geom:area_square_m":86671115.649677,
     "geom:bbox":"8.839497,49.811816,9.043705,49.919476",
     "geom:latitude":49.869049,
     "geom:longitude":8.943781,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.868333,
     "wd:longitude":8.928958,
     "wd:wordcount":947,
@@ -310,15 +323,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063549,
         1377693109,
         404227581,
-        85682531
+        102063549
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06432010",
+        "eurostat:nuts_2021_id":"06432010",
         "gn:id":2914929,
         "gp:id":654735,
         "qs_pg:id":142477,
@@ -333,7 +348,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"81d51f47402531059de546bcc0806b1a",
+    "wof:geomhash":"d5615380f337e7bd113908b6f5db290f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -346,11 +361,11 @@
         }
     ],
     "wof:id":101813419,
-    "wof:lastmodified":1608051370,
+    "wof:lastmodified":1684351891,
     "wof:name":"Gro\u00df-Umstadt",
     "wof:parent_id":1377693109,
     "wof:placetype":"locality",
-    "wof:population":21758,
+    "wof:population":21251,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03353019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hollenstedt",
+    "eurostat:nuts_2021_id":"03353019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE933",
+    "eurostat:nuts_2021_level_lau":"03353019",
+    "eurostat:population":3828,
+    "eurostat:population_year":2020,
     "geom:area":0.002967,
-    "geom:area_square_m":21892988.544063,
+    "geom:area_square_m":21892988.544062,
     "geom:bbox":"9.66862991646,53.3287300723,9.73478254102,53.3958863009",
     "geom:latitude":53.364803,
     "geom:longitude":9.699053,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":58,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03353019",
+        "eurostat:nuts_2021_id":"03353019",
         "gn:id":2900520,
         "gp:id":682758,
         "qs_pg:id":1039539,
@@ -329,7 +344,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0622db5f0fa864237c9beabfd67d0ee4",
+    "wof:geomhash":"9f45725d7ffb1f99b189a49e91426830",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101806345,
-    "wof:lastmodified":1582342622,
+    "wof:lastmodified":1684351850,
     "wof:name":"Hollenstedt",
     "wof:parent_id":1377687387,
     "wof:placetype":"locality",
-    "wof:population":3092,
+    "wof:population":3828,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07316000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neustadt an der Weinstra\u00dfe, Stadt",
+    "eurostat:nuts_2021_id":"07316000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB36",
+    "eurostat:nuts_2021_level_lau":"07316000",
+    "eurostat:population":53264,
+    "eurostat:population_year":2020,
     "geom:area":0.014517,
-    "geom:area_square_m":116958421.478476,
+    "geom:area_square_m":116958421.478477,
     "geom:bbox":"7.999564,49.296083,8.317406,49.400888",
     "geom:latitude":49.341875,
     "geom:longitude":8.152294,
@@ -342,21 +354,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2836,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063431,
         1377686127,
-        85682491
+        85633111,
+        102063431
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07316000",
+        "eurostat:nuts_2021_id":"07316000",
         "fct:id":"0717702e-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2864054,
         "gp:id":679060,
@@ -374,7 +389,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"688d97cae1cccadced69a141defead85",
+    "wof:geomhash":"7570679b192feae6cf2a3a909ff8eea8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -389,11 +404,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050545,
+    "wof:lastmodified":1684351786,
     "wof:name":"Neustadt an der Weinstra\u00dfe",
     "wof:parent_id":1377686127,
     "wof:placetype":"locality",
-    "wof:population":53984,
+    "wof:population":53264,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

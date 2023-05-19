@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Altenstadt",
+    "eurostat:nuts_2021_id":"06440001",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440001",
+    "eurostat:population":12226,
+    "eurostat:population_year":2020,
     "geom:area":0.003796,
     "geom:area_square_m":29993131.457492,
     "geom:bbox":"8.899123,50.252831,9.007927,50.315385",
@@ -301,22 +313,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694211,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440001",
+        "eurostat:nuts_2021_id":"06440001",
         "fct:id":"071bab6c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2957463,
         "gp:id":634591,
@@ -332,7 +347,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cd42653c1fad36405188a174e5975450",
+    "wof:geomhash":"6e3f718daaf4a5a055f01cbeecbf6016",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050045,
+    "wof:lastmodified":1684351874,
     "wof:name":"Altenstadt",
     "wof:parent_id":1377694211,
     "wof:placetype":"locality",
-    "wof:population":12258,
+    "wof:population":12226,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

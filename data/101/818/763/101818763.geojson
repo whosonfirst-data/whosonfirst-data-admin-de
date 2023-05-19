@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hamberge",
+    "eurostat:nuts_2021_id":"01062025",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062025",
+    "eurostat:population":1757,
+    "eurostat:population_year":2020,
     "geom:area":0.000936,
     "geom:area_square_m":6825001.494376,
     "geom:bbox":"10.5532117098,53.8342699273,10.6218534168,53.8566555078",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062025",
+        "eurostat:nuts_2021_id":"01062025",
         "gn:id":2911325,
         "gp:id":20164601,
         "qs_pg:id":578795,
@@ -307,7 +322,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d0ca40941b7e5f6216b4b38b891e706d",
+    "wof:geomhash":"8fb8200ee081e31f7d39f55320834992",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101818763,
-    "wof:lastmodified":1582342357,
+    "wof:lastmodified":1684351903,
     "wof:name":"Hamberge",
     "wof:parent_id":1377684809,
     "wof:placetype":"locality",
-    "wof:population":1357,
+    "wof:population":1757,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

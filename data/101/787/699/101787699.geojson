@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09777171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"St\u00f6tten a.Auerberg",
+    "eurostat:nuts_2021_id":"09777171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27B",
+    "eurostat:nuts_2021_level_lau":"09777171",
+    "eurostat:population":1890,
+    "eurostat:population_year":2020,
     "geom:area":0.0049,
-    "geom:area_square_m":40756874.853727,
+    "geom:area_square_m":40756874.853731,
     "geom:bbox":"10.6591759003,47.6849597542,10.7491762435,47.7751414866",
     "geom:latitude":47.729555,
     "geom:longitude":10.701,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682571,
         102191581,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09777171",
+        "eurostat:nuts_2021_id":"09777171",
         "gn:id":2826341,
         "gp:id":697612,
         "qs_pg:id":279171,
@@ -157,7 +172,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"48c5b5fba2e88f5356126e473ba1d3e3",
+    "wof:geomhash":"6c92cf42513c3daaf7e97ef1984dd7b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +185,11 @@
         }
     ],
     "wof:id":101787699,
-    "wof:lastmodified":1582342647,
+    "wof:lastmodified":1684351843,
     "wof:name":"St\u00f6tten a. Auerberg",
     "wof:parent_id":1377693105,
     "wof:placetype":"locality",
-    "wof:population":1856,
+    "wof:population":1890,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

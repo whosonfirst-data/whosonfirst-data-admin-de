@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Janneby",
+    "eurostat:nuts_2021_id":"01059128",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059128",
+    "eurostat:population":409,
+    "eurostat:population_year":2020,
     "geom:area":0.002013,
     "geom:area_square_m":14407075.981167,
     "geom:bbox":"9.25792545485,54.6069272921,9.32677126004,54.6567880717",
@@ -276,7 +288,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -286,6 +299,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059128",
+        "eurostat:nuts_2021_id":"01059128",
         "gn:id":2895200,
         "qs_pg:id":578427,
         "wd:id":"Q545920"
@@ -295,7 +310,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"c19b67c9925100a12abe1e5331560654",
+    "wof:geomhash":"648a1bbe0e809362c1888805e08c51b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -307,11 +322,11 @@
         }
     ],
     "wof:id":1125828283,
-    "wof:lastmodified":1582343024,
+    "wof:lastmodified":1684352018,
     "wof:name":"Janneby",
     "wof:parent_id":1377684359,
     "wof:placetype":"locality",
-    "wof:population":425,
+    "wof:population":409,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

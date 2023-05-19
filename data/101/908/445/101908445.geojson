@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rothem\u00fchl",
+    "eurostat:nuts_2021_id":"13075118",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075118",
+    "eurostat:population":304,
+    "eurostat:population_year":2020,
     "geom:area":0.003875,
-    "geom:area_square_m":28438819.882307,
+    "geom:area_square_m":28438819.882305,
     "geom:bbox":"13.7850280055,53.5587015184,13.8990697398,53.6277019716",
     "geom:latitude":53.595824,
     "geom:longitude":13.839244,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075118",
+        "eurostat:nuts_2021_id":"13075118",
         "gn:id":2844163,
         "gp:id":658720,
         "qs_pg:id":577170,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"265731e5391a4027db4f18f133244f7f",
+    "wof:geomhash":"0299e7d2835e7725d52ee3e1ed17f543",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101908445,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351996,
     "wof:name":"Rothem\u00fchl",
     "wof:parent_id":1377685141,
     "wof:placetype":"locality",
-    "wof:population":348,
+    "wof:population":304,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

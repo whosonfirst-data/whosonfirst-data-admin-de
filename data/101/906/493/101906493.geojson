@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Almdorf",
+    "eurostat:nuts_2021_id":"01054006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054006",
+    "eurostat:population":543,
+    "eurostat:population_year":2020,
     "geom:area":0.000803,
-    "geom:area_square_m":5757267.988336,
+    "geom:area_square_m":5757267.988338,
     "geom:bbox":"8.98975024632,54.5649323784,9.02987882594,54.6008180035",
     "geom:latitude":54.579373,
     "geom:longitude":9.012973,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054006",
+        "eurostat:nuts_2021_id":"01054006",
         "gn:id":2958251,
         "gp:id":634081,
         "qs_pg:id":94230,
@@ -316,7 +331,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9b19e690de82341d8d26de40481afd62",
+    "wof:geomhash":"e48f574c26d3c0c70f32c77d3c27c4b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101906493,
-    "wof:lastmodified":1582342330,
+    "wof:lastmodified":1684351980,
     "wof:name":"Almdorf",
     "wof:parent_id":1377683657,
     "wof:placetype":"locality",
-    "wof:population":548,
+    "wof:population":543,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

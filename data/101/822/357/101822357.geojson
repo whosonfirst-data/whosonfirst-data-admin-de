@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Horka",
+    "eurostat:nuts_2021_id":"14626200",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626200",
+    "eurostat:population":1694,
+    "eurostat:population_year":2020,
     "geom:area":0.005288,
     "geom:area_square_m":40885238.503835,
     "geom:bbox":"14.8446121166,51.2558702105,14.9761690742,51.3292608167",
@@ -173,7 +185,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":87,
     "wof:belongsto":[
         85682523,
@@ -184,6 +197,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626200",
+        "eurostat:nuts_2021_id":"14626200",
         "gn:id":2899013,
         "gp:id":662291,
         "qs_pg:id":868206,
@@ -194,7 +209,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"886350fa8bcb60da8e962ae5bbd7517d",
+    "wof:geomhash":"fde890803d63008e4ee435053eadf2a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101822357,
-    "wof:lastmodified":1582342581,
+    "wof:lastmodified":1684351922,
     "wof:name":"Horka",
     "wof:parent_id":1377687241,
     "wof:placetype":"locality",
-    "wof:population":1837,
+    "wof:population":1694,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

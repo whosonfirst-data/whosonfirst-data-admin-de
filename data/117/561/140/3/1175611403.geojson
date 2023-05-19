@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05114000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Krefeld, Stadt",
+    "eurostat:nuts_2021_id":"05114000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA14",
+    "eurostat:nuts_2021_level_lau":"05114000",
+    "eurostat:population":227417,
+    "eurostat:population_year":2020,
     "geom:area":0.017631,
-    "geom:area_square_m":136171904.72496,
+    "geom:area_square_m":136171904.724957,
     "geom:bbox":"6.47776485357,51.2868278576,6.70616607217,51.40630715",
     "geom:latitude":51.345247,
     "geom:longitude":6.57968,
@@ -408,7 +420,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682513,
         102191581,
@@ -419,6 +432,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05114000",
+        "eurostat:nuts_2021_id":"05114000",
         "gn:id":2884509,
         "gp:id":668736,
         "qs_pg:id":142270,
@@ -432,7 +447,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c9ab2c1082babbb4287bffd374f1fe6",
+    "wof:geomhash":"8de83e8e2af5828d878ce02ff1f6b126",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -445,11 +460,11 @@
         }
     ],
     "wof:id":1175611403,
-    "wof:lastmodified":1582342081,
+    "wof:lastmodified":1684352056,
     "wof:name":"Krefeld",
     "wof:parent_id":1377689759,
     "wof:placetype":"locality",
-    "wof:population":237984,
+    "wof:population":227417,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

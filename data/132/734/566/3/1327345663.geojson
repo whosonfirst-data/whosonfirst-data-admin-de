@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09472146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haag",
+    "eurostat:nuts_2021_id":"09472146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE246",
+    "eurostat:nuts_2021_level_lau":"09472146",
+    "eurostat:population":954,
+    "eurostat:population_year":2020,
     "geom:area":0.001672,
-    "geom:area_square_m":13319910.244975,
+    "geom:area_square_m":13319910.244973,
     "geom:bbox":"11.5338180792,49.8545627214,11.6100828987,49.8946711467",
     "geom:latitude":49.876704,
     "geom:longitude":11.571911,
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
@@ -137,13 +150,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09472146",
+        "eurostat:nuts_2021_id":"09472146",
         "gn:id":2913241
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"34db2915b7082ca29f78eaad4729f11a",
+    "wof:geomhash":"9790d2afc3c1f3055ec25cb4265aa332",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +171,11 @@
         }
     ],
     "wof:id":1327345663,
-    "wof:lastmodified":1582341877,
+    "wof:lastmodified":1684352062,
     "wof:name":"Haag",
     "wof:parent_id":1377687565,
     "wof:placetype":"locality",
-    "wof:population":919,
+    "wof:population":954,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

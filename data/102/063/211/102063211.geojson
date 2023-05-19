@@ -4,6 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"3",
+    "eurostat:name_latin":"L\u00f6rrach",
+    "eurostat:name_local":"L\u00f6rrach",
+    "eurostat:nuts_2021_id":"DE139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE139",
+    "eurostat:population":229445,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.096738,
     "geom:area_square_m":804996286.746209,
     "geom:bbox":"7.51159,47.53236,8.022339,47.88031",
@@ -180,8 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"807",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"L\u00f6rrach",
@@ -194,19 +208,20 @@
     "statoids:type":"rural district",
     "wof:belongsto":[
         102191581,
-        85633111,
         404227543,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE139",
         "hasc:id":"DE.BW.LR"
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fbedaf47fc57143306c25e868d5fd5f",
+    "wof:geomhash":"8d5b8775e4aa5b12f0350b28853c5188",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -217,12 +232,12 @@
         }
     ],
     "wof:id":102063211,
-    "wof:lastmodified":1587164311,
+    "wof:lastmodified":1684351506,
     "wof:name":"L\u00f6rrach",
     "wof:parent_id":404227543,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":219003,
+    "wof:population":229445,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"LR",

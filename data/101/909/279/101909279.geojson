@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12062289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lebusa",
+    "eurostat:nuts_2021_id":"12062289",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE407",
+    "eurostat:nuts_2021_level_lau":"12062289",
+    "eurostat:population":791,
+    "eurostat:population_year":2020,
     "geom:area":0.004404,
-    "geom:area_square_m":33686842.408942,
+    "geom:area_square_m":33686842.408944,
     "geom:bbox":"13.3450340426,51.755868915,13.4636157288,51.8201315237",
     "geom:latitude":51.789319,
     "geom:longitude":13.400711,
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":62,
     "wof:belongsto":[
         85682553,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12062289",
+        "eurostat:nuts_2021_id":"12062289",
         "gn:id":2879794,
         "gp:id":670766,
         "qs_pg:id":93519,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fa00f6dd41124df10b7bf6d415bb56a3",
+    "wof:geomhash":"8a8558f5c917ec50fb6b178de3ac8788",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101909279,
-    "wof:lastmodified":1582342290,
+    "wof:lastmodified":1684352002,
     "wof:name":"Lebusa",
     "wof:parent_id":1377694553,
     "wof:placetype":"locality",
-    "wof:population":910,
+    "wof:population":791,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

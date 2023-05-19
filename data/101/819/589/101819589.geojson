@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12072017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blankenfelde-Mahlow",
+    "eurostat:nuts_2021_id":"12072017",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40H",
+    "eurostat:nuts_2021_level_lau":"12072017",
+    "eurostat:population":27939,
+    "eurostat:population_year":2020,
     "geom:area":0.007267,
-    "geom:area_square_m":54910314.394982,
+    "geom:area_square_m":54910314.39498,
     "geom:bbox":"13.343397,52.287283,13.4991,52.377968",
     "geom:latitude":52.329948,
     "geom:longitude":13.412584,
@@ -144,17 +156,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":162,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063911,
         1377684137,
-        85682553
+        85633111,
+        102063911
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12072017",
+        "eurostat:nuts_2021_id":"12072017",
         "gn:id":2948065,
         "gp:id":639368,
         "qs_pg:id":1142813,
@@ -168,7 +183,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e3e07f2234528ef4ddf0ea69e7c8e21d",
+    "wof:geomhash":"037af20bd99a059ec7754cc8f6641a3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101819589,
-    "wof:lastmodified":1608050263,
+    "wof:lastmodified":1684351906,
     "wof:name":"Blankenfelde-Mahlow",
     "wof:parent_id":1377684137,
     "wof:placetype":"locality",
-    "wof:population":25655,
+    "wof:population":27939,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

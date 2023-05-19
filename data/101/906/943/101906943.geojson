@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mandern",
+    "eurostat:nuts_2021_id":"07235081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235081",
+    "eurostat:population":861,
+    "eurostat:population_year":2020,
     "geom:area":0.00295,
-    "geom:area_square_m":23643592.710192,
+    "geom:area_square_m":23643592.710191,
     "geom:bbox":"6.71587047588,49.5688547498,6.82426316579,49.628982805",
     "geom:latitude":49.597322,
     "geom:longitude":6.764952,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235081",
+        "eurostat:nuts_2021_id":"07235081",
         "gn:id":2873974,
         "gp:id":20173878,
         "qs_pg:id":577900,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"1e163042fecab4beba232ec774218ac9",
+    "wof:geomhash":"26d2366b842ee04cabcf7fd9c40d1a1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101906943,
-    "wof:lastmodified":1582342333,
+    "wof:lastmodified":1684351983,
     "wof:name":"Mandern",
     "wof:parent_id":1377686029,
     "wof:placetype":"locality",
-    "wof:population":947,
+    "wof:population":861,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

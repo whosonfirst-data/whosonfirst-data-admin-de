@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09183129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neumarkt-Sankt Veit, St",
+    "eurostat:nuts_2021_id":"09183129",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21G",
+    "eurostat:nuts_2021_level_lau":"09183129",
+    "eurostat:population":6285,
+    "eurostat:population_year":2020,
     "geom:area":0.007409,
     "geom:area_square_m":60845450.693141,
     "geom:bbox":"12.4442320493,48.3284586126,12.5794499966,48.4296757098",
@@ -159,7 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":63,
     "wof:belongsto":[
         85682571,
@@ -171,6 +184,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09183129",
+        "eurostat:nuts_2021_id":"09183129",
         "gn:id":2864547,
         "gp:id":678770,
         "qs_pg:id":1038965,
@@ -181,7 +196,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e1f8f6f48d87f6c77c8ce1a412b3ffe",
+    "wof:geomhash":"1574d04bc3edb6c2e129d4d7bbc38abc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +209,11 @@
         }
     ],
     "wof:id":101785369,
-    "wof:lastmodified":1582342457,
+    "wof:lastmodified":1684351834,
     "wof:name":"Neumarkt-Sankt Veit",
     "wof:parent_id":1377692655,
     "wof:placetype":"locality",
-    "wof:population":6231,
+    "wof:population":6285,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

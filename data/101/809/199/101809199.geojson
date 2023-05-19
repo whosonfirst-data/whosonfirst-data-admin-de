@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03254005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Salzdetfurth, Stadt",
+    "eurostat:nuts_2021_id":"03254005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE925",
+    "eurostat:nuts_2021_level_lau":"03254005",
+    "eurostat:population":13139,
+    "eurostat:population_year":2020,
     "geom:area":0.008819,
-    "geom:area_square_m":67029809.914394,
+    "geom:area_square_m":67029809.914398,
     "geom:bbox":"9.955637,52.011212,10.087687,52.130791",
     "geom:latitude":52.072468,
     "geom:longitude":10.02457,
@@ -316,21 +328,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":601,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102063895,
         1377686663,
-        85682555
+        85633111,
+        102063895
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03254005",
+        "eurostat:nuts_2021_id":"03254005",
         "gn:id":2953362,
         "gp:id":636494,
         "qs_pg:id":245789,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f509726b564963d495a95cdc851f40c7",
+    "wof:geomhash":"ede86289a8d02cf5965edf6010312a2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101809199,
-    "wof:lastmodified":1608051633,
+    "wof:lastmodified":1684351868,
     "wof:name":"Bad Salzdetfurth",
     "wof:parent_id":1377686663,
     "wof:placetype":"locality",
-    "wof:population":14349,
+    "wof:population":13139,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

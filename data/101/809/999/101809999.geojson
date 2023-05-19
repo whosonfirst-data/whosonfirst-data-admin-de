@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05374016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00fcckeswagen, Schloss-Stadt",
+    "eurostat:nuts_2021_id":"05374016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA2",
+    "eurostat:nuts_2021_level_3":"DEA2A",
+    "eurostat:nuts_2021_level_lau":"05374016",
+    "eurostat:population":14958,
+    "eurostat:population_year":2020,
     "geom:area":0.006471,
-    "geom:area_square_m":50193967.523708,
+    "geom:area_square_m":50193967.523709,
     "geom:bbox":"7.268179,51.101181,7.39877,51.196782",
     "geom:latitude":51.147602,
     "geom:longitude":7.331285,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1110,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063741,
         1377690429,
         404227541,
-        85682513
+        102063741
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05374016",
+        "eurostat:nuts_2021_id":"05374016",
         "gn:id":2898098,
         "gp:id":662706,
         "qs_pg:id":228823,
@@ -340,7 +355,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ccb9aeff73e605ba3eca4aab86f87eef",
+    "wof:geomhash":"9adee500a5837d9ea44ba5a7e0ac823d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -353,11 +368,11 @@
         }
     ],
     "wof:id":101809999,
-    "wof:lastmodified":1608051608,
+    "wof:lastmodified":1684351870,
     "wof:name":"H\u00fcckeswagen",
     "wof:parent_id":1377690429,
     "wof:placetype":"locality",
-    "wof:population":16369,
+    "wof:population":14958,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

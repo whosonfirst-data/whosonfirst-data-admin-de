@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hagenbach, Stadt",
+    "eurostat:nuts_2021_id":"07334008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334008",
+    "eurostat:population":5444,
+    "eurostat:population_year":2020,
     "geom:area":0.001948,
-    "geom:area_square_m":15799881.490192,
+    "geom:area_square_m":15799881.490194,
     "geom:bbox":"8.22056391562,48.9907211233,8.29152917838,49.0413861263",
     "geom:latitude":49.013322,
     "geom:longitude":8.252453,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":74,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334008",
+        "eurostat:nuts_2021_id":"07334008",
         "gn:id":2912577,
         "gp:id":656404,
         "loc:id":"n91004824",
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"14475500e0b7ed5d139c9ac0f1da887e",
+    "wof:geomhash":"e009a3c1384eef49028b16486c563b25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101760781,
-    "wof:lastmodified":1582342497,
+    "wof:lastmodified":1684351801,
     "wof:name":"Hagenbach",
     "wof:parent_id":1377686383,
     "wof:placetype":"locality",
-    "wof:population":5495,
+    "wof:population":5444,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

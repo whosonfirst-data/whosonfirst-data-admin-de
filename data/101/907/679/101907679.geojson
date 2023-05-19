@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03255035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vahlbruch",
+    "eurostat:nuts_2021_id":"03255035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE92",
+    "eurostat:nuts_2021_level_3":"DE926",
+    "eurostat:nuts_2021_level_lau":"03255035",
+    "eurostat:population":415,
+    "eurostat:population_year":2020,
     "geom:area":0.001888,
-    "geom:area_square_m":14399764.816373,
+    "geom:area_square_m":14399764.816374,
     "geom:bbox":"9.30776215509,51.8881160705,9.38940516825,51.9345261813",
     "geom:latitude":51.915888,
     "geom:longitude":9.351692,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -308,6 +321,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03255035",
+        "eurostat:nuts_2021_id":"03255035",
         "gn:id":2817951,
         "gp:id":701993,
         "qs_pg:id":356254,
@@ -319,7 +334,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0134e05251001056109cd10d3ebe5b0f",
+    "wof:geomhash":"c4590675deebc8896acab4403c8d4416",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -331,11 +346,11 @@
         }
     ],
     "wof:id":101907679,
-    "wof:lastmodified":1582342315,
+    "wof:lastmodified":1684351990,
     "wof:name":"Vahlbruch",
     "wof:parent_id":1377686839,
     "wof:placetype":"locality",
-    "wof:population":542,
+    "wof:population":415,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

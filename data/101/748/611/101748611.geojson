@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16052000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gera, Stadt",
+    "eurostat:nuts_2021_id":"16052000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG02",
+    "eurostat:nuts_2021_level_lau":"16052000",
+    "eurostat:population":93125,
+    "eurostat:population_year":2020,
     "geom:area":0.019458,
-    "geom:area_square_m":151763180.720366,
+    "geom:area_square_m":151763180.720353,
     "geom:bbox":"11.997975,50.799109,12.169535,50.97653",
     "geom:latitude":50.894002,
     "geom:longitude":12.082689,
@@ -476,7 +488,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
@@ -490,6 +503,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16052000",
+        "eurostat:nuts_2021_id":"16052000",
         "gn:id":2921232,
         "gp:id":652153,
         "qs_pg:id":1072956,
@@ -505,7 +520,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"607bbf5d6f79fc9ebffff763768c8397",
+    "wof:geomhash":"e818c814d111785087dbcd0caaa27180",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -517,12 +532,12 @@
         }
     ],
     "wof:id":101748611,
-    "wof:lastmodified":1636499972,
+    "wof:lastmodified":1684351787,
     "wof:name":"Gera",
     "wof:parent_id":1377689335,
     "wof:placetype":"locality",
-    "wof:population":104659,
-    "wof:population_rank":9,
+    "wof:population":93125,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

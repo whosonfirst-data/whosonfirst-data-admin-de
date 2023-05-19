@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schopfloch, M",
+    "eurostat:nuts_2021_id":"09571200",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571200",
+    "eurostat:population":2909,
+    "eurostat:population_year":2020,
     "geom:area":0.001887,
-    "geom:area_square_m":15271054.597423,
+    "geom:area_square_m":15271054.597422,
     "geom:bbox":"10.257941,49.094352,10.341187,49.133631",
     "geom:latitude":49.11218,
     "geom:longitude":10.302732,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":57,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377688989,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571200",
+        "eurostat:nuts_2021_id":"09571200",
         "gn:id":2836407,
         "gp:id":693168,
         "qs_pg:id":1247828,
@@ -324,7 +339,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"c17cd56bac6e42f2504ef4442d0ec12a",
+    "wof:geomhash":"8779ada156b972bd55caa7e3d2b99034",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -337,11 +352,11 @@
         }
     ],
     "wof:id":101782083,
-    "wof:lastmodified":1608050507,
+    "wof:lastmodified":1684351823,
     "wof:name":"Schopfloch",
     "wof:parent_id":1377688989,
     "wof:placetype":"locality",
-    "wof:population":2884,
+    "wof:population":2909,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

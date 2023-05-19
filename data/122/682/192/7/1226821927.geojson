@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16069004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bischofrod",
+    "eurostat:nuts_2021_id":"16069004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0E",
+    "eurostat:nuts_2021_level_lau":"16069004",
+    "eurostat:population":161,
+    "eurostat:population_year":2020,
     "geom:area":0.000689,
-    "geom:area_square_m":5416629.119312,
+    "geom:area_square_m":5416629.119313,
     "geom:bbox":"10.6529308101,50.5298209738,10.7005509073,50.5600001197",
     "geom:latitude":50.543717,
     "geom:longitude":10.679713,
@@ -131,7 +143,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -141,13 +154,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16069004",
+        "eurostat:nuts_2021_id":"16069004",
         "gn:id":2948301
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"b263d24a38c45ec397932899cc984325",
+    "wof:geomhash":"518c6918e36ce39c76c9cfe87d37202b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +174,11 @@
         }
     ],
     "wof:id":1226821927,
-    "wof:lastmodified":1582343145,
+    "wof:lastmodified":1684352058,
     "wof:name":"Bischofrod",
     "wof:parent_id":1377690343,
     "wof:placetype":"locality",
-    "wof:population":187,
+    "wof:population":161,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

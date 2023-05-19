@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09179113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alling",
+    "eurostat:nuts_2021_id":"09179113",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21C",
+    "eurostat:nuts_2021_level_lau":"09179113",
+    "eurostat:population":3941,
+    "eurostat:population_year":2020,
     "geom:area":0.002574,
-    "geom:area_square_m":21235981.679775,
+    "geom:area_square_m":21235981.679774,
     "geom:bbox":"11.223446,48.119531,11.331051,48.165037",
     "geom:latitude":48.143191,
     "geom:longitude":11.2793,
@@ -328,22 +340,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063271,
         1377691973,
         404227567,
-        85682571
+        102063271
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09179113",
+        "eurostat:nuts_2021_id":"09179113",
         "fct:id":"071ccdb2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2958331,
         "gp:id":634025,
@@ -359,7 +374,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0f45957caea14bc1566cdb43f0797302",
+    "wof:geomhash":"8f44273ac82d3fccb251184fc44de9fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049955,
+    "wof:lastmodified":1684351958,
     "wof:name":"Alling",
     "wof:parent_id":1377691973,
     "wof:placetype":"locality",
-    "wof:population":3286,
+    "wof:population":3941,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

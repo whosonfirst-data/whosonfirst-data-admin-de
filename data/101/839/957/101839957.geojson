@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07133006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bad Kreuznach, Stadt",
+    "eurostat:nuts_2021_id":"07133006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB14",
+    "eurostat:nuts_2021_level_lau":"07133006",
+    "eurostat:population":51170,
+    "eurostat:population_year":2020,
     "geom:area":0.006928,
-    "geom:area_square_m":55250201.247948,
+    "geom:area_square_m":55250201.247946,
     "geom:bbox":"7.787047,49.787206,7.954592,49.882025",
     "geom:latitude":49.837386,
     "geom:longitude":7.868373,
@@ -337,20 +349,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Rheinland-Pfalz",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063551,
         1377685363,
-        85682491
+        85633111,
+        102063551
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07133006",
+        "eurostat:nuts_2021_id":"07133006",
         "fct:id":"0736ca96-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2953416,
         "gp:id":636452,
@@ -366,7 +381,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c8580c7488551e675417ab098b77f947",
+    "wof:geomhash":"1d19a89c6101c7780c5eae14120135bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -381,12 +396,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051834,
+    "wof:lastmodified":1684351949,
     "wof:name":"Bad Kreuznach",
     "wof:parent_id":1377685363,
     "wof:placetype":"locality",
-    "wof:population":43213,
-    "wof:population_rank":7,
+    "wof:population":51170,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

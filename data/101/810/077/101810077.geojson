@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05962012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Halver, Stadt",
+    "eurostat:nuts_2021_id":"05962012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA5",
+    "eurostat:nuts_2021_level_3":"DEA58",
+    "eurostat:nuts_2021_level_lau":"05962012",
+    "eurostat:population":16083,
+    "eurostat:population_year":2020,
     "geom:area":0.009933,
     "geom:area_square_m":76976913.696659,
     "geom:bbox":"7.417654,51.124995,7.581295,51.239816",
@@ -311,22 +323,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":393,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063775,
         1377692321,
         404227579,
-        85682513
+        102063775
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05962012",
+        "eurostat:nuts_2021_id":"05962012",
         "gn:id":2911384,
         "gp:id":656923,
         "qs_pg:id":1215231,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"49f52aa71333f1b67c567f6a3ef08011",
+    "wof:geomhash":"bb67d1a7b16b6ac58a96dd8b11c3d9b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101810077,
-    "wof:lastmodified":1608050035,
+    "wof:lastmodified":1684351871,
     "wof:name":"Halver",
     "wof:parent_id":1377692321,
     "wof:placetype":"locality",
-    "wof:population":17650,
+    "wof:population":16083,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

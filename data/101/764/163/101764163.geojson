@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hawangen",
+    "eurostat:nuts_2021_id":"09778149",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778149",
+    "eurostat:population":1315,
+    "eurostat:population_year":2020,
     "geom:area":0.001749,
-    "geom:area_square_m":14475144.253414,
+    "geom:area_square_m":14475144.253413,
     "geom:bbox":"10.2355424184,47.9535822453,10.3044376432,47.9919572142",
     "geom:latitude":47.972891,
     "geom:longitude":10.26797,
@@ -166,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":47,
     "wof:belongsto":[
         85682571,
@@ -178,6 +191,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778149",
+        "eurostat:nuts_2021_id":"09778149",
         "gn:id":2908595,
         "gp:id":658159,
         "qs_pg:id":578736,
@@ -189,7 +204,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0f4db95d05cccfd97b3e48107e8167e2",
+    "wof:geomhash":"326f441ec956a40054fc619e091613a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +217,11 @@
         }
     ],
     "wof:id":101764163,
-    "wof:lastmodified":1582342301,
+    "wof:lastmodified":1684351813,
     "wof:name":"Hawangen",
     "wof:parent_id":1377693185,
     "wof:placetype":"locality",
-    "wof:population":1237,
+    "wof:population":1315,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

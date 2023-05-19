@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16064038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kutzleben",
+    "eurostat:nuts_2021_id":"16064038",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG09",
+    "eurostat:nuts_2021_level_lau":"16064038",
+    "eurostat:population":599,
+    "eurostat:population_year":2020,
     "geom:area":0.002351,
-    "geom:area_square_m":18220289.118897,
+    "geom:area_square_m":18220289.118894,
     "geom:bbox":"10.8419435967,51.1786386609,10.9225684019,51.2205085011",
     "geom:latitude":51.197859,
     "geom:longitude":10.880432,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16064038",
+        "eurostat:nuts_2021_id":"16064038",
         "gn:id":2882184,
         "gp:id":669677,
         "qs_pg:id":578137,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"567715241f7ded96e33c48300c9618e1",
+    "wof:geomhash":"6bce3f40c6c44d45bd5c70c4fb22e92a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -324,11 +339,11 @@
         }
     ],
     "wof:id":101909005,
-    "wof:lastmodified":1582342292,
+    "wof:lastmodified":1684352001,
     "wof:name":"Kutzleben",
     "wof:parent_id":1377689797,
     "wof:placetype":"locality",
-    "wof:population":626,
+    "wof:population":599,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

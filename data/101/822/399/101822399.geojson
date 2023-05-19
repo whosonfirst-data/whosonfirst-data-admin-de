@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15087440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wallhausen",
+    "eurostat:nuts_2021_id":"15087440",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0A",
+    "eurostat:nuts_2021_level_lau":"15087440",
+    "eurostat:population":2466,
+    "eurostat:population_year":2020,
     "geom:area":0.004563,
     "geom:area_square_m":35163206.981918,
     "geom:bbox":"11.1422823006,51.3951328257,11.2709137626,51.4864165898",
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682519,
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15087440",
+        "eurostat:nuts_2021_id":"15087440",
         "gn:id":2814570,
         "gp:id":703710,
         "qs_pg:id":92893,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"b621b5877df83dd574a83ef85a269359",
+    "wof:geomhash":"bab9acb8b756876ebe5c8b9417a1b7d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101822399,
-    "wof:lastmodified":1582342578,
+    "wof:lastmodified":1684351922,
     "wof:name":"Wallhausen",
     "wof:parent_id":1377688799,
     "wof:placetype":"locality",
-    "wof:population":2189,
+    "wof:population":2466,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwasdorf",
+    "eurostat:nuts_2021_id":"13072096",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072096",
+    "eurostat:population":440,
+    "eurostat:population_year":2020,
     "geom:area":0.003328,
-    "geom:area_square_m":24244006.845011,
+    "geom:area_square_m":24244006.845009,
     "geom:bbox":"12.5408425042,53.8826163092,12.6930244225,53.9264780689",
     "geom:latitude":53.905777,
     "geom:longitude":12.618102,
@@ -122,7 +134,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -132,6 +145,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072096",
+        "eurostat:nuts_2021_id":"13072096",
         "gn:id":2834669,
         "wk:page":"Schwasdorf"
     },
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"fc5675d81fd4ec75965279063e3b9336",
+    "wof:geomhash":"f9a719c22cab7810a573e710a7a1c883",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1326810179,
-    "wof:lastmodified":1582341874,
+    "wof:lastmodified":1684352061,
     "wof:name":"Schwasdorf",
     "wof:parent_id":1377684695,
     "wof:placetype":"locality",
-    "wof:population":448,
+    "wof:population":440,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Magstadt",
+    "eurostat:nuts_2021_id":"08115029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115029",
+    "eurostat:population":9711,
+    "eurostat:population_year":2020,
     "geom:area":0.002332,
-    "geom:area_square_m":19015961.436833,
+    "geom:area_square_m":19015961.436836,
     "geom:bbox":"8.929062,48.72854,9.036382,48.763388",
     "geom:latitude":48.744848,
     "geom:longitude":8.979477,
@@ -310,22 +322,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686831,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115029",
+        "eurostat:nuts_2021_id":"08115029",
         "fct:id":"074bdfa8-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2874509,
         "gp:id":673379,
@@ -341,7 +356,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"665b38057b71634e4b769ed5b27afb09",
+    "wof:geomhash":"4d40181c27810fbb3aec09ade891bb61",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050906,
+    "wof:lastmodified":1684351806,
     "wof:name":"Magstadt",
     "wof:parent_id":1377686831,
     "wof:placetype":"locality",
-    "wof:population":9058,
+    "wof:population":9711,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

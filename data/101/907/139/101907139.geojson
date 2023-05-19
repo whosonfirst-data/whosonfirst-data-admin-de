@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140503",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f6rsdorf",
+    "eurostat:nuts_2021_id":"07140503",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140503",
+    "eurostat:population":596,
+    "eurostat:population_year":2020,
     "geom:area":0.002176,
-    "geom:area_square_m":17257502.021078,
+    "geom:area_square_m":17257502.021079,
     "geom:bbox":"7.29328318862,50.0807462727,7.37941310314,50.1351037297",
     "geom:latitude":50.107702,
     "geom:longitude":7.336287,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1035,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140503",
+        "eurostat:nuts_2021_id":"07140503",
         "gn:id":2869167,
         "gp:id":676250,
         "qs_pg:id":374027,
@@ -154,7 +169,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"0324864ee6394ad2172dac01cd5fe751",
+    "wof:geomhash":"d266689109f11f52e9acfedda89595f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101907139,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351985,
     "wof:name":"M\u00f6rsdorf",
     "wof:parent_id":1377685677,
     "wof:placetype":"locality",
-    "wof:population":699,
+    "wof:population":596,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

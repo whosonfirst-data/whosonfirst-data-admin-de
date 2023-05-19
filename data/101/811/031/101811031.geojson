@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wetter (Hessen), Stadt",
+    "eurostat:nuts_2021_id":"06534021",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534021",
+    "eurostat:population":8803,
+    "eurostat:population_year":2020,
     "geom:area":0.01332,
-    "geom:area_square_m":103841269.488878,
+    "geom:area_square_m":103841269.48888,
     "geom:bbox":"8.59123337727,50.8587994631,8.82562211812,50.9785730412",
     "geom:latitude":50.915217,
     "geom:longitude":8.72411,
@@ -301,7 +313,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.883333,
     "wd:longitude":8.716667,
     "wd:population":9000,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534021",
+        "eurostat:nuts_2021_id":"06534021",
         "gn:id":2809985,
         "gp:id":705975,
         "qs_pg:id":1075076,
@@ -327,7 +342,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3f403bf46dc93b2f6e3e18388b84011e",
+    "wof:geomhash":"c9972028fd2fa844e14ea350c5c7f090",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101811031,
-    "wof:lastmodified":1582342385,
+    "wof:lastmodified":1684351878,
     "wof:name":"Wetter (Hessen)",
     "wof:parent_id":1377685205,
     "wof:placetype":"locality",
-    "wof:population":9000,
+    "wof:population":8803,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05758012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herford, Hansestadt",
+    "eurostat:nuts_2021_id":"05758012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA43",
+    "eurostat:nuts_2021_level_lau":"05758012",
+    "eurostat:population":66638,
+    "eurostat:population_year":2020,
     "geom:area":0.010406,
-    "geom:area_square_m":79013871.015885,
+    "geom:area_square_m":79013871.015884,
     "geom:bbox":"8.55633942143,52.0588512678,8.75468550136,52.1698192015",
     "geom:latitude":52.114054,
     "geom:longitude":8.662599,
@@ -339,7 +351,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
@@ -354,6 +367,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05758012",
+        "eurostat:nuts_2021_id":"05758012",
         "gn:id":2906121,
         "gp:id":659230,
         "qs_pg:id":455772,
@@ -364,7 +379,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da2b7fccd48f395c02cb7cc3f51ffb78",
+    "wof:geomhash":"0bc6492529ac0c6badf9b14d583871de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -377,11 +392,11 @@
         }
     ],
     "wof:id":101907701,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351990,
     "wof:name":"Herford",
     "wof:parent_id":1377691755,
     "wof:placetype":"locality",
-    "wof:population":64879,
+    "wof:population":66638,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

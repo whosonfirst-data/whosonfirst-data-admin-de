@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03354019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neu Darchau",
+    "eurostat:nuts_2021_id":"03354019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE934",
+    "eurostat:nuts_2021_level_lau":"03354019",
+    "eurostat:population":1374,
+    "eurostat:population_year":2020,
     "geom:area":0.003062,
-    "geom:area_square_m":22677311.44396,
+    "geom:area_square_m":22677311.443961,
     "geom:bbox":"10.859216573,53.1797479414,10.9716252731,53.2500671442",
     "geom:latitude":53.211677,
     "geom:longitude":10.903949,
@@ -171,7 +183,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":31,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -186,6 +199,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03354019",
+        "eurostat:nuts_2021_id":"03354019",
         "gn:id":2938944,
         "gp:id":677624,
         "qs_pg:id":1025482,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f5394e800d16015d0bfda009b67ee004",
+    "wof:geomhash":"3cb5acddad36def16ac3b3e9a046f803",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101818461,
-    "wof:lastmodified":1582342366,
+    "wof:lastmodified":1684351899,
     "wof:name":"Neu Darchau",
     "wof:parent_id":1377687431,
     "wof:placetype":"locality",
-    "wof:population":1535,
+    "wof:population":1374,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

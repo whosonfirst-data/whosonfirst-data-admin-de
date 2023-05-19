@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberrieden",
+    "eurostat:nuts_2021_id":"09778183",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778183",
+    "eurostat:population":1208,
+    "eurostat:population_year":2020,
     "geom:area":0.00252,
     "geom:area_square_m":20809561.452909,
     "geom:bbox":"10.3555492885,48.0706131548,10.4545864042,48.1192178205",
@@ -160,7 +172,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":722,
     "wof:belongsto":[
         85682571,
@@ -172,6 +185,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778183",
+        "eurostat:nuts_2021_id":"09778183",
         "gn:id":2859296,
         "gp:id":675533,
         "qs_pg:id":93291,
@@ -182,7 +197,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b41a4b32ae81dd958d70494d79eef8a1",
+    "wof:geomhash":"873ae6525f761afa32b9f05e22ea4ee6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -195,11 +210,11 @@
         }
     ],
     "wof:id":101786541,
-    "wof:lastmodified":1582342642,
+    "wof:lastmodified":1684351838,
     "wof:name":"Oberrieden",
     "wof:parent_id":1377693203,
     "wof:placetype":"locality",
-    "wof:population":1247,
+    "wof:population":1208,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

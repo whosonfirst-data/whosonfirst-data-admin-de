@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14523430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Treuen, Stadt",
+    "eurostat:nuts_2021_id":"14523430",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED44",
+    "eurostat:nuts_2021_level_lau":"14523430",
+    "eurostat:population":7784,
+    "eurostat:population_year":2020,
     "geom:area":0.005544,
-    "geom:area_square_m":43568715.731444,
+    "geom:area_square_m":43568715.731443,
     "geom:bbox":"12.2496943355,50.4989600163,12.3680923383,50.5774487194",
     "geom:latitude":50.539865,
     "geom:longitude":12.305284,
@@ -145,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":52,
     "wof:belongsto":[
         85682523,
@@ -156,6 +169,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14523430",
+        "eurostat:nuts_2021_id":"14523430",
         "gn:id":2821251,
         "gp:id":699981,
         "qs_pg:id":876358,
@@ -167,7 +182,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5fc1ca2272a8d465d0c0614677a40b53",
+    "wof:geomhash":"a51407281d40f7cd500d677f088e24f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +194,11 @@
         }
     ],
     "wof:id":101824547,
-    "wof:lastmodified":1582342543,
+    "wof:lastmodified":1684351929,
     "wof:name":"Treuen",
     "wof:parent_id":1377686365,
     "wof:placetype":"locality",
-    "wof:population":9189,
+    "wof:population":7784,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

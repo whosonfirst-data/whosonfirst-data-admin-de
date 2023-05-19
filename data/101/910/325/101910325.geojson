@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gierst\u00e4dt",
+    "eurostat:nuts_2021_id":"16067026",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067026",
+    "eurostat:population":822,
+    "eurostat:population_year":2020,
     "geom:area":0.001357,
-    "geom:area_square_m":10549074.973435,
+    "geom:area_square_m":10549074.973434,
     "geom:bbox":"10.8027947258,51.0279303823,10.8725004428,51.0611050276",
     "geom:latitude":51.042664,
     "geom:longitude":10.846414,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682541,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067026",
+        "eurostat:nuts_2021_id":"16067026",
         "gn:id":2920581,
         "gp:id":652517,
         "qs_pg:id":579018,
@@ -151,7 +166,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"811de75af4c080db7acd918137efcb06",
+    "wof:geomhash":"0ebf35c901187e0d2485b1ecd24800db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101910325,
-    "wof:lastmodified":1582342655,
+    "wof:lastmodified":1684352006,
     "wof:name":"Gierst\u00e4dt",
     "wof:parent_id":1377690167,
     "wof:placetype":"locality",
-    "wof:population":821,
+    "wof:population":822,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

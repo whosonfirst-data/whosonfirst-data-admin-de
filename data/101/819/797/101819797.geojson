@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brome, Flecken",
+    "eurostat:nuts_2021_id":"03151005",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151005",
+    "eurostat:population":3278,
+    "eurostat:population_year":2020,
     "geom:area":0.004904,
-    "geom:area_square_m":36833082.384874,
+    "geom:area_square_m":36833082.38488,
     "geom:bbox":"10.8155534095,52.5414790582,10.9772659513,52.6328260611",
     "geom:latitude":52.599923,
     "geom:longitude":10.909565,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":66,
     "wof:belongsto":[
         85682555,
@@ -305,6 +318,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151005",
+        "eurostat:nuts_2021_id":"03151005",
         "gn:id":2943795,
         "gp:id":641461,
         "qs_pg:id":893645,
@@ -316,7 +331,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e3cb5e41e8d5b93b4bb37a01564c7f8b",
+    "wof:geomhash":"e17bc369b00028f2cc780720c8649b8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101819797,
-    "wof:lastmodified":1582342425,
+    "wof:lastmodified":1684351908,
     "wof:name":"Brome",
     "wof:parent_id":1377684897,
     "wof:placetype":"locality",
-    "wof:population":3428,
+    "wof:population":3278,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

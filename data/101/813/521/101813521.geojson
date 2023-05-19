@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07339067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zornheim",
+    "eurostat:nuts_2021_id":"07339067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3J",
+    "eurostat:nuts_2021_level_lau":"07339067",
+    "eurostat:population":3863,
+    "eurostat:population_year":2020,
     "geom:area":0.000699,
-    "geom:area_square_m":5567149.130336,
+    "geom:area_square_m":5567149.130337,
     "geom:bbox":"8.20751855284,49.8737430406,8.25121561326,49.9006115449",
     "geom:latitude":49.88717,
     "geom:longitude":8.228908,
@@ -139,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1964,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -154,6 +167,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07339067",
+        "eurostat:nuts_2021_id":"07339067",
         "gn:id":2803882,
         "gp:id":709160,
         "qs_pg:id":92783,
@@ -165,7 +180,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"59fa1ddffa96c1a49afcac0f6bf6343f",
+    "wof:geomhash":"af20398169b520c23095432f6fb5b21f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101813521,
-    "wof:lastmodified":1582342566,
+    "wof:lastmodified":1684351892,
     "wof:name":"Zornheim",
     "wof:parent_id":1377686713,
     "wof:placetype":"locality",
-    "wof:population":3559,
+    "wof:population":3863,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

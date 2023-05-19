@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bann",
+    "eurostat:nuts_2021_id":"07335002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335002",
+    "eurostat:population":2233,
+    "eurostat:population_year":2020,
     "geom:area":0.001613,
-    "geom:area_square_m":12982683.074004,
+    "geom:area_square_m":12982683.074005,
     "geom:bbox":"7.59549098366,49.3760601767,7.68000905668,49.4186275161",
     "geom:latitude":49.398567,
     "geom:longitude":7.635942,
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335002",
+        "eurostat:nuts_2021_id":"07335002",
         "gn:id":2952934,
         "gp:id":636795,
         "qs_pg:id":847754,
@@ -160,7 +175,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"33e6ea8e8aeeb464994fbf8b423caa8b",
+    "wof:geomhash":"17e6703618342f7db39a1e5c32115d86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101815653,
-    "wof:lastmodified":1582342554,
+    "wof:lastmodified":1684351894,
     "wof:name":"Bann",
     "wof:parent_id":1377686447,
     "wof:placetype":"locality",
-    "wof:population":2390,
+    "wof:population":2233,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

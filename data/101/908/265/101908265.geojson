@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13074006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bibow",
+    "eurostat:nuts_2021_id":"13074006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80M",
+    "eurostat:nuts_2021_level_lau":"13074006",
+    "eurostat:population":383,
+    "eurostat:population_year":2020,
     "geom:area":0.003248,
-    "geom:area_square_m":23729032.308079,
+    "geom:area_square_m":23729032.308077,
     "geom:bbox":"11.5683393581,53.7588703446,11.6865314179,53.8137802226",
     "geom:latitude":53.784174,
     "geom:longitude":11.632693,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -303,6 +316,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13074006",
+        "eurostat:nuts_2021_id":"13074006",
         "gn:id":2949366,
         "gp:id":670059,
         "qs_pg:id":579777,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c86320573daa3a46920709fdd7479d5d",
+    "wof:geomhash":"b11a732e413ddb57811f9d9c73354f0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -326,11 +341,11 @@
         }
     ],
     "wof:id":101908265,
-    "wof:lastmodified":1582342351,
+    "wof:lastmodified":1684351994,
     "wof:name":"Bibow",
     "wof:parent_id":1377685321,
     "wof:placetype":"locality",
-    "wof:population":313,
+    "wof:population":383,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

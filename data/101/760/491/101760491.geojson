@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braubach, Stadt",
+    "eurostat:nuts_2021_id":"07141501",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141501",
+    "eurostat:population":3002,
+    "eurostat:population_year":2020,
     "geom:area":0.002464,
     "geom:area_square_m":19472342.082404,
     "geom:bbox":"7.6259843675,50.2389828367,7.73340308452,50.2918407143",
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":279,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -183,6 +196,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141501",
+        "eurostat:nuts_2021_id":"07141501",
         "gn:id":2945136,
         "gp:id":640788,
         "qs_pg:id":475883,
@@ -194,7 +209,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8fbd139ae13129210e56b31899c43f14",
+    "wof:geomhash":"e2d78ef6c709342cf19137b33aedda67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +221,11 @@
         }
     ],
     "wof:id":101760491,
-    "wof:lastmodified":1582342493,
+    "wof:lastmodified":1684351799,
     "wof:name":"Braubach",
     "wof:parent_id":1377685763,
     "wof:placetype":"locality",
-    "wof:population":3192,
+    "wof:population":3002,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

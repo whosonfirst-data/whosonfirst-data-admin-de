@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08231000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pforzheim, Stadt",
+    "eurostat:nuts_2021_id":"08231000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE129",
+    "eurostat:nuts_2021_level_lau":"08231000",
+    "eurostat:population":125957,
+    "eurostat:population_year":2020,
     "geom:area":0.012038,
-    "geom:area_square_m":97899099.354766,
+    "geom:area_square_m":97899099.354769,
     "geom:bbox":"8.62851387454,48.8199242853,8.80860927363,48.9295777102",
     "geom:latitude":48.876456,
     "geom:longitude":8.712641,
@@ -430,7 +442,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
@@ -445,6 +458,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08231000",
+        "eurostat:nuts_2021_id":"08231000",
         "gn:id":2853969,
         "gp:id":684946,
         "qs_pg:id":788058,
@@ -458,7 +473,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75f75a07c90c874641968d843240eba3",
+    "wof:geomhash":"feb12f69c8ba619970201be1679499f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -471,11 +486,11 @@
         }
     ],
     "wof:id":101905847,
-    "wof:lastmodified":1582342508,
+    "wof:lastmodified":1684351973,
     "wof:name":"Pforzheim",
     "wof:parent_id":1377689035,
     "wof:placetype":"locality",
-    "wof:population":119313,
+    "wof:population":125957,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

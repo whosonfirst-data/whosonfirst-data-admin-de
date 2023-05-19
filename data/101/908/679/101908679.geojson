@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tensfeld",
+    "eurostat:nuts_2021_id":"01060087",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060087",
+    "eurostat:population":669,
+    "eurostat:population_year":2020,
     "geom:area":0.0011,
     "geom:area_square_m":7984220.445302,
     "geom:bbox":"10.2820603142,54.0247522579,10.3395545342,54.0600591349",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682517,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060087",
+        "eurostat:nuts_2021_id":"01060087",
         "gn:id":2823486,
         "gp:id":20164376,
         "qs_pg:id":92989,
@@ -165,7 +180,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e99f3d30c4037f002de8a4a96d7cf0e8",
+    "wof:geomhash":"45237f8985797a7308c1b2d68a9200bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +192,11 @@
         }
     ],
     "wof:id":101908679,
-    "wof:lastmodified":1582342350,
+    "wof:lastmodified":1684351998,
     "wof:name":"Tensfeld",
     "wof:parent_id":1377684545,
     "wof:placetype":"locality",
-    "wof:population":802,
+    "wof:population":669,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

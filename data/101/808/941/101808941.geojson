@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05774024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f6velhof, Sennegemeinde",
+    "eurostat:nuts_2021_id":"05774024",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA4",
+    "eurostat:nuts_2021_level_3":"DEA47",
+    "eurostat:nuts_2021_level_lau":"05774024",
+    "eurostat:population":16281,
+    "eurostat:population_year":2020,
     "geom:area":0.009182,
-    "geom:area_square_m":70166531.403729,
+    "geom:area_square_m":70166531.403726,
     "geom:bbox":"8.570748,51.792427,8.765406,51.877094",
     "geom:latitude":51.831862,
     "geom:longitude":8.668544,
@@ -296,22 +308,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":224,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063835,
         1377692031,
         404227571,
-        85682513
+        102063835
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05774024",
+        "eurostat:nuts_2021_id":"05774024",
         "gn:id":2898364,
         "gp:id":662586,
         "qs_pg:id":578482,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7c43395d766e6230d13fd928e21b9307",
+    "wof:geomhash":"08b4cba5a15fd97feba8af29d358ca51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101808941,
-    "wof:lastmodified":1608051683,
+    "wof:lastmodified":1684351865,
     "wof:name":"H\u00f6velhof",
     "wof:parent_id":1377692031,
     "wof:placetype":"locality",
-    "wof:population":15962,
+    "wof:population":16281,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

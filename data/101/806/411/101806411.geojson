@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03357045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sottrum",
+    "eurostat:nuts_2021_id":"03357045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE937",
+    "eurostat:nuts_2021_level_lau":"03357045",
+    "eurostat:population":6522,
+    "eurostat:population_year":2020,
     "geom:area":0.003846,
     "geom:area_square_m":28551788.019096,
     "geom:bbox":"9.15227156209,53.0749493397,9.26786775801,53.1357259878",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":132,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03357045",
+        "eurostat:nuts_2021_id":"03357045",
         "gn:id":2830880,
         "gp:id":695645,
         "qs_pg:id":141747,
@@ -326,7 +341,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a648d7ba50101acb08bf2de56ab75140",
+    "wof:geomhash":"11f81b5a09690968f95d0855ac41eca1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101806411,
-    "wof:lastmodified":1582342619,
+    "wof:lastmodified":1684351850,
     "wof:name":"Sottrum",
     "wof:parent_id":1377687721,
     "wof:placetype":"locality",
-    "wof:population":6131,
+    "wof:population":6522,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

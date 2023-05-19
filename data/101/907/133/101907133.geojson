@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07135002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alflen",
+    "eurostat:nuts_2021_id":"07135002",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1C",
+    "eurostat:nuts_2021_level_lau":"07135002",
+    "eurostat:population":784,
+    "eurostat:population_year":2020,
     "geom:area":0.001692,
-    "geom:area_square_m":13397855.881504,
+    "geom:area_square_m":13397855.881503,
     "geom:bbox":"7.01117460576,50.1573104584,7.07816547859,50.2055908872",
     "geom:latitude":50.181262,
     "geom:longitude":7.042592,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":928,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07135002",
+        "eurostat:nuts_2021_id":"07135002",
         "gn:id":2958522,
         "gp:id":633909,
         "qs_pg:id":580015,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c1dfd4c64c5b57f8d6134ffb32719ce9",
+    "wof:geomhash":"b6718563d79ebffda275a3eab9990e40",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101907133,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351985,
     "wof:name":"Alflen",
     "wof:parent_id":1377685499,
     "wof:placetype":"locality",
-    "wof:population":850,
+    "wof:population":784,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

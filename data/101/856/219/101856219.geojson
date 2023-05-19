@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03151007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dedelstorf",
+    "eurostat:nuts_2021_id":"03151007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE914",
+    "eurostat:nuts_2021_level_lau":"03151007",
+    "eurostat:population":1181,
+    "eurostat:population_year":2020,
     "geom:area":0.01012,
-    "geom:area_square_m":75845173.539969,
+    "geom:area_square_m":75845173.539968,
     "geom:bbox":"10.4726583698,52.6425829862,10.64760271,52.749607057",
     "geom:latitude":52.692093,
     "geom:longitude":10.545971,
@@ -301,7 +313,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03151007",
+        "eurostat:nuts_2021_id":"03151007",
         "gn:id":2938619,
         "gp:id":643935,
         "qs_pg:id":94004,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "whosonfirst"
     ],
-    "wof:geomhash":"bf6bfd77ffb665567b4054252283e309",
+    "wof:geomhash":"3de34b1a2220d36b8155c38012bff656",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101856219,
-    "wof:lastmodified":1582342447,
+    "wof:lastmodified":1684351969,
     "wof:name":"Dedelstorf",
     "wof:parent_id":1377684903,
     "wof:placetype":"locality",
-    "wof:population":1515,
+    "wof:population":1181,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

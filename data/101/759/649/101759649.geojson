@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wallerfangen",
+    "eurostat:nuts_2021_id":"10044121",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044121",
+    "eurostat:population":9183,
+    "eurostat:population_year":2020,
     "geom:area":0.005275,
-    "geom:area_square_m":42519141.980181,
+    "geom:area_square_m":42519141.980183,
     "geom:bbox":"6.589121,49.280141,6.734105,49.34953",
     "geom:latitude":49.31981,
     "geom:longitude":6.658856,
@@ -303,21 +315,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":264,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693979,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044121",
+        "eurostat:nuts_2021_id":"10044121",
         "gn:id":2814613,
         "gp:id":703683,
         "qs_pg:id":1243835,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fb8f8d35b46459a00ff06f56ee4bc05f",
+    "wof:geomhash":"488b6d7f26c86c318ed4fafe22c3e38f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101759649,
-    "wof:lastmodified":1608050956,
+    "wof:lastmodified":1684351798,
     "wof:name":"Wallerfangen",
     "wof:parent_id":1377693979,
     "wof:placetype":"locality",
-    "wof:population":9733,
+    "wof:population":9183,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

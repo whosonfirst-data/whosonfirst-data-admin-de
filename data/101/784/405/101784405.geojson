@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09185123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brunnen",
+    "eurostat:nuts_2021_id":"09185123",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21I",
+    "eurostat:nuts_2021_level_lau":"09185123",
+    "eurostat:population":1714,
+    "eurostat:population_year":2020,
     "geom:area":0.003921,
-    "geom:area_square_m":32041737.862235,
+    "geom:area_square_m":32041737.862237,
     "geom:bbox":"11.2796305997,48.6054049375,11.3857341519,48.6698695631",
     "geom:latitude":48.634337,
     "geom:longitude":11.331826,
@@ -172,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:elevation":435.0,
     "wd:latitude":46.995278,
     "wd:longitude":8.604722,
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09185123",
+        "eurostat:nuts_2021_id":"09185123",
         "gn:id":2943163,
         "gp:id":641765,
         "qs_pg:id":8,
@@ -201,7 +216,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"7200f4220eb722a66791c63679b36a9e",
+    "wof:geomhash":"a64ddaa3c51709b7373240d20cce5c2c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +229,11 @@
         }
     ],
     "wof:id":101784405,
-    "wof:lastmodified":1582342486,
+    "wof:lastmodified":1684351833,
     "wof:name":"Brunnen",
     "wof:parent_id":1377693799,
     "wof:placetype":"locality",
-    "wof:population":1606,
+    "wof:population":1714,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

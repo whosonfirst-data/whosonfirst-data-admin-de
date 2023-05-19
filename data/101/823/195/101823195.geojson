@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16074044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kahla, Stadt",
+    "eurostat:nuts_2021_id":"16074044",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0J",
+    "eurostat:nuts_2021_level_lau":"16074044",
+    "eurostat:population":6795,
+    "eurostat:population_year":2020,
     "geom:area":0.001011,
     "geom:area_square_m":7900330.460811,
     "geom:bbox":"11.559101,50.786961,11.61105,50.826035",
@@ -168,21 +180,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":53,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063705,
         1377689009,
-        85682541
+        85633111,
+        102063705
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16074044",
+        "eurostat:nuts_2021_id":"16074044",
         "gn:id":2894247,
         "gp:id":664400,
         "qs_pg:id":476116,
@@ -197,7 +212,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d912a141a857fdc6be438e40f94f946a",
+    "wof:geomhash":"d1a47d21d0d8ca7d4aa664121326c7f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +224,11 @@
         }
     ],
     "wof:id":101823195,
-    "wof:lastmodified":1608051055,
+    "wof:lastmodified":1684351924,
     "wof:name":"Kahla",
     "wof:parent_id":1377689009,
     "wof:placetype":"locality",
-    "wof:population":7422,
+    "wof:population":6795,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09181145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weil",
+    "eurostat:nuts_2021_id":"09181145",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21E",
+    "eurostat:nuts_2021_level_lau":"09181145",
+    "eurostat:population":3854,
+    "eurostat:population_year":2020,
     "geom:area":0.005359,
-    "geom:area_square_m":44234953.557735,
+    "geom:area_square_m":44234953.557739,
     "geom:bbox":"10.882148,48.084899,11.022004,48.168151",
     "geom:latitude":48.12342,
     "geom:longitude":10.947376,
@@ -309,22 +321,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":84,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063257,
         1377692319,
         404227567,
-        85682571
+        102063257
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09181145",
+        "eurostat:nuts_2021_id":"09181145",
         "fct:id":"075dcf92-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812644,
         "gp:id":12634649,
@@ -338,7 +353,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ceff622e04b6688010d2de7578467a87",
+    "wof:geomhash":"438b908e5a4e264d1a0f19320e7b28fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051957,
+    "wof:lastmodified":1684351839,
     "wof:name":"Weil",
     "wof:parent_id":1377692319,
     "wof:placetype":"locality",
-    "wof:population":3664,
+    "wof:population":3854,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

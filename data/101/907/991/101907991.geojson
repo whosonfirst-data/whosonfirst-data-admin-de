@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03354003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Damnatz",
+    "eurostat:nuts_2021_id":"03354003",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE934",
+    "eurostat:nuts_2021_level_lau":"03354003",
+    "eurostat:population":297,
+    "eurostat:population_year":2020,
     "geom:area":0.002194,
-    "geom:area_square_m":16269810.057006,
+    "geom:area_square_m":16269810.057008,
     "geom:bbox":"11.1203455514,53.1188752226,11.2355477417,53.1685764556",
     "geom:latitude":53.141897,
     "geom:longitude":11.166041,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":43,
     "wof:belongsto":[
         85682555,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03354003",
+        "eurostat:nuts_2021_id":"03354003",
         "gn:id":2939093,
         "gp:id":643678,
         "qs_pg:id":579466,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9cd8dcbe8254ae615c677ef8184c6aae",
+    "wof:geomhash":"f0515a1ffe0bbdbab0ea71d03409055f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101907991,
-    "wof:lastmodified":1582342305,
+    "wof:lastmodified":1684351991,
     "wof:name":"Damnatz",
     "wof:parent_id":1377687431,
     "wof:placetype":"locality",
-    "wof:population":345,
+    "wof:population":297,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

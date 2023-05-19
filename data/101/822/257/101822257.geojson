@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16062063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Werther",
+    "eurostat:nuts_2021_id":"16062063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG07",
+    "eurostat:nuts_2021_level_lau":"16062063",
+    "eurostat:population":3166,
+    "eurostat:population_year":2020,
     "geom:area":0.008052,
-    "geom:area_square_m":61985862.070134,
+    "geom:area_square_m":61985862.070139,
     "geom:bbox":"10.594741,51.442886,10.785812,51.550844",
     "geom:latitude":51.494518,
     "geom:longitude":10.693125,
@@ -140,21 +152,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Th\u00fcringen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682541,
         102191581,
-        85633111,
-        102063809,
         1377689539,
-        85682541
+        85633111,
+        102063809
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16062063",
+        "eurostat:nuts_2021_id":"16062063",
         "gn:id":2810711,
         "gp:id":655272,
         "qs_pg:id":1032719,
@@ -168,7 +183,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"159ace9a7beefd80e86c9ce3cd6d9b56",
+    "wof:geomhash":"cd3bc3a1178f1c373ff4931ea4f0b272",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101822257,
-    "wof:lastmodified":1608051459,
+    "wof:lastmodified":1684351921,
     "wof:name":"Werther",
     "wof:parent_id":1377689539,
     "wof:placetype":"locality",
-    "wof:population":3333,
+    "wof:population":3166,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

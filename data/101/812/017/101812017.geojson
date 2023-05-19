@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weinsheim",
+    "eurostat:nuts_2021_id":"07232226",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232226",
+    "eurostat:population":1002,
+    "eurostat:population_year":2020,
     "geom:area":0.002983,
-    "geom:area_square_m":23594639.100835,
+    "geom:area_square_m":23594639.100834,
     "geom:bbox":"6.4330526669,50.2114952024,6.51568244245,50.2677711197",
     "geom:latitude":50.240305,
     "geom:longitude":6.477208,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":18,
     "wof:belongsto":[
         85682491,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232226",
+        "eurostat:nuts_2021_id":"07232226",
         "gn:id":2812148,
         "gp:id":704841,
         "qs_pg:id":576489,
@@ -303,7 +318,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"63f2831f5bd2b64ce7c2de2779a9b75f",
+    "wof:geomhash":"2697f0f5d19fe3e75cfc1a76dda82038",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -315,11 +330,11 @@
         }
     ],
     "wof:id":101812017,
-    "wof:lastmodified":1582342550,
+    "wof:lastmodified":1684351881,
     "wof:name":"Weinsheim",
     "wof:parent_id":1377685943,
     "wof:placetype":"locality",
-    "wof:population":1046,
+    "wof:population":1002,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

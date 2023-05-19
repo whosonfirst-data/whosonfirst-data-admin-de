@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09189139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reit im Winkl",
+    "eurostat:nuts_2021_id":"09189139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE21",
+    "eurostat:nuts_2021_level_3":"DE21M",
+    "eurostat:nuts_2021_level_lau":"09189139",
+    "eurostat:population":2328,
+    "eurostat:population_year":2020,
     "geom:area":0.008496,
-    "geom:area_square_m":70748628.328346,
+    "geom:area_square_m":70748628.328344,
     "geom:bbox":"12.43893,47.625017,12.604631,47.709448",
     "geom:latitude":47.667298,
     "geom:longitude":12.521475,
@@ -322,22 +334,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1321,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063251,
         1377694555,
         404227567,
-        85682571
+        102063251
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09189139",
+        "eurostat:nuts_2021_id":"09189139",
         "fct:id":"07150758-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2848382,
         "gp:id":687843,
@@ -354,7 +369,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"32e0ef4ae66f3533005df5f7378bada7",
+    "wof:geomhash":"694131e0e50bae8e8884ecc0133a371c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -370,11 +385,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051891,
+    "wof:lastmodified":1684351846,
     "wof:name":"Reit im Winkl",
     "wof:parent_id":1377694555,
     "wof:placetype":"locality",
-    "wof:population":2584,
+    "wof:population":2328,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

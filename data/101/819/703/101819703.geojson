@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067357",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuzelle",
+    "eurostat:nuts_2021_id":"12067357",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067357",
+    "eurostat:population":4284,
+    "eurostat:population_year":2020,
     "geom:area":0.01781,
-    "geom:area_square_m":135392692.118275,
+    "geom:area_square_m":135392692.118261,
     "geom:bbox":"14.4790844803,52.0017202526,14.7033723251,52.1295004627",
     "geom:latitude":52.063233,
     "geom:longitude":14.58268,
@@ -151,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":516,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -166,6 +179,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067357",
+        "eurostat:nuts_2021_id":"12067357",
         "gn:id":2863782,
         "gp:id":679183,
         "qs_pg:id":1115750,
@@ -177,7 +192,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7c791089928fc451a105a09570a0157f",
+    "wof:geomhash":"0a1e34efedfff86690474060b0c2dfb2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +204,11 @@
         }
     ],
     "wof:id":101819703,
-    "wof:lastmodified":1582342431,
+    "wof:lastmodified":1684351907,
     "wof:name":"Neuzelle",
     "wof:parent_id":1377683617,
     "wof:placetype":"locality",
-    "wof:population":4539,
+    "wof:population":4284,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

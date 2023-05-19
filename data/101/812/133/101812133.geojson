@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07233027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gillenfeld",
+    "eurostat:nuts_2021_id":"07233027",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB24",
+    "eurostat:nuts_2021_level_lau":"07233027",
+    "eurostat:population":1445,
+    "eurostat:population_year":2020,
     "geom:area":0.001886,
     "geom:area_square_m":14953103.283788,
     "geom:bbox":"6.86586009239,50.1010303859,6.9568804066,50.1472747385",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1305,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -306,6 +319,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07233027",
+        "eurostat:nuts_2021_id":"07233027",
         "gn:id":2920413,
         "gp:id":652586,
         "qs_pg:id":579012,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"f70fa08f81a1622c97283b7b6f359a4f",
+    "wof:geomhash":"48e3a5fa5fb4de2a23e344c81f7ffc02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -329,11 +344,11 @@
         }
     ],
     "wof:id":101812133,
-    "wof:lastmodified":1582342544,
+    "wof:lastmodified":1684351882,
     "wof:name":"Gillenfeld",
     "wof:parent_id":1377685969,
     "wof:placetype":"locality",
-    "wof:population":1493,
+    "wof:population":1445,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

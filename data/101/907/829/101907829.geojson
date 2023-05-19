@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Basedow",
+    "eurostat:nuts_2021_id":"01053006",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053006",
+    "eurostat:population":653,
+    "eurostat:population_year":2020,
     "geom:area":0.001016,
     "geom:area_square_m":7487985.479347,
     "geom:bbox":"10.5610016296,53.3974652868,10.6017678748,53.4455220264",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":85,
     "wof:belongsto":[
         85682517,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053006",
+        "eurostat:nuts_2021_id":"01053006",
         "gn:id":2952296,
         "gp:id":29350695,
         "qs_pg:id":579877,
@@ -301,7 +316,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"020fc4ec4de52073c199b1c2678a6ad6",
+    "wof:geomhash":"80ff031647bf020b94dc056bf439b188",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -313,11 +328,11 @@
         }
     ],
     "wof:id":101907829,
-    "wof:lastmodified":1582342306,
+    "wof:lastmodified":1684351991,
     "wof:name":"Basedow",
     "wof:parent_id":1377683501,
     "wof:placetype":"locality",
-    "wof:population":684,
+    "wof:population":653,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

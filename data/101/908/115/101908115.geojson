@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zierzow",
+    "eurostat:nuts_2021_id":"13076161",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076161",
+    "eurostat:population":348,
+    "eurostat:population_year":2020,
     "geom:area":0.001793,
-    "geom:area_square_m":13251039.915779,
+    "geom:area_square_m":13251039.915778,
     "geom:bbox":"11.6156135199,53.2734614214,11.7024537095,53.3173169322",
     "geom:latitude":53.291281,
     "geom:longitude":11.659905,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076161",
+        "eurostat:nuts_2021_id":"13076161",
         "gn:id":2804281,
         "gp:id":708959,
         "qs_pg:id":965331,
@@ -150,7 +165,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"bfd1daff1a5bd2a6027e99647270bb7b",
+    "wof:geomhash":"e6bdd2399f8279f62e37eb0480b6838a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101908115,
-    "wof:lastmodified":1582342352,
+    "wof:lastmodified":1684351993,
     "wof:name":"Zierzow",
     "wof:parent_id":1377685271,
     "wof:placetype":"locality",
-    "wof:population":401,
+    "wof:population":348,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

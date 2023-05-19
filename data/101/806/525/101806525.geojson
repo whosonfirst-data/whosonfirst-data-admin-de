@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03455014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sande",
+    "eurostat:nuts_2021_id":"03455014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94A",
+    "eurostat:nuts_2021_level_lau":"03455014",
+    "eurostat:population":8792,
+    "eurostat:population_year":2020,
     "geom:area":0.006116,
     "geom:area_square_m":44992147.75005,
     "geom:bbox":"7.928633,53.46109,8.065258,53.52565",
@@ -186,21 +198,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":188,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064051,
         1377688637,
-        85682555
+        85633111,
+        102064051
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03455014",
+        "eurostat:nuts_2021_id":"03455014",
         "gn:id":2841895,
         "gp:id":690935,
         "qs_pg:id":141826,
@@ -217,7 +232,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c7efb4cb9ff0fedf942fe4ca095f489d",
+    "wof:geomhash":"8449b9e31b6e79598e808ba5e8a11a27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -229,11 +244,11 @@
         }
     ],
     "wof:id":101806525,
-    "wof:lastmodified":1608051810,
+    "wof:lastmodified":1684351852,
     "wof:name":"Sande",
     "wof:parent_id":1377688637,
     "wof:placetype":"locality",
-    "wof:population":9359,
+    "wof:population":8792,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00f6beln, Stadt",
+    "eurostat:nuts_2021_id":"14522080",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522080",
+    "eurostat:population":23583,
+    "eurostat:population_year":2020,
     "geom:area":0.011695,
-    "geom:area_square_m":90763701.853245,
+    "geom:area_square_m":90763701.853244,
     "geom:bbox":"13.013837,51.078883,13.258817,51.175666",
     "geom:latitude":51.124678,
     "geom:longitude":13.147683,
@@ -322,21 +334,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":470,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685795,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522080",
+        "eurostat:nuts_2021_id":"14522080",
         "gn:id":2936658,
         "gp:id":644912,
         "qs_pg:id":1040019,
@@ -351,7 +366,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a05e5bcd69b945ed84b8f090d57cd1be",
+    "wof:geomhash":"b8a3ed49297cca4456501012d8f1c4ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
         }
     ],
     "wof:id":101821831,
-    "wof:lastmodified":1608050218,
+    "wof:lastmodified":1684351917,
     "wof:name":"D\u00f6beln",
     "wof:parent_id":1377685795,
     "wof:placetype":"locality",
-    "wof:population":21338,
+    "wof:population":23583,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

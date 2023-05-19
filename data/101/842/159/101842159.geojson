@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Donsieders",
+    "eurostat:nuts_2021_id":"07340007",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340007",
+    "eurostat:population":917,
+    "eurostat:population_year":2020,
     "geom:area":0.001111,
-    "geom:area_square_m":8961509.808914,
+    "geom:area_square_m":8961509.808915,
     "geom:bbox":"7.60461792148,49.253013037,7.68954975673,49.2754492378",
     "geom:latitude":49.264052,
     "geom:longitude":7.639338,
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340007",
+        "eurostat:nuts_2021_id":"07340007",
         "gn:id":2936189,
         "gp:id":645172,
         "qs_pg:id":283023,
@@ -310,7 +325,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"74b9c3378505867d87fc297be52a49b3",
+    "wof:geomhash":"5efd81e69353af50c25c45b517f17dcd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":101842159,
-    "wof:lastmodified":1582342390,
+    "wof:lastmodified":1684351955,
     "wof:name":"Donsieders",
     "wof:parent_id":1377686769,
     "wof:placetype":"locality",
-    "wof:population":994,
+    "wof:population":917,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

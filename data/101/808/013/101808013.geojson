@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03458008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harpstedt, Flecken",
+    "eurostat:nuts_2021_id":"03458008",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94D",
+    "eurostat:nuts_2021_level_lau":"03458008",
+    "eurostat:population":4727,
+    "eurostat:population_year":2020,
     "geom:area":0.003149,
     "geom:area_square_m":23478192.007951,
     "geom:bbox":"8.51487533113,52.8885932656,8.62332064416,52.9387223659",
@@ -298,7 +310,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":56,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -313,6 +326,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03458008",
+        "eurostat:nuts_2021_id":"03458008",
         "gn:id":2910344,
         "gp:id":657385,
         "qs_pg:id":1073146,
@@ -324,7 +339,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c80c102dfdad3435df9ea836f4288f82",
+    "wof:geomhash":"5340c76f8921c2b3d5cbf0325c154666",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101808013,
-    "wof:lastmodified":1582342605,
+    "wof:lastmodified":1684351863,
     "wof:name":"Harpstedt",
     "wof:parent_id":1377688949,
     "wof:placetype":"locality",
-    "wof:population":4558,
+    "wof:population":4727,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

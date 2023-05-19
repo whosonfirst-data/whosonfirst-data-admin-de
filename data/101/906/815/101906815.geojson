@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dannenfels",
+    "eurostat:nuts_2021_id":"07333013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333013",
+    "eurostat:population":836,
+    "eurostat:population_year":2020,
     "geom:area":0.001937,
-    "geom:area_square_m":15517312.063611,
+    "geom:area_square_m":15517312.063612,
     "geom:bbox":"7.89101484242,49.6056943718,7.97284786582,49.6454654004",
     "geom:latitude":49.626786,
     "geom:longitude":7.928954,
@@ -135,7 +147,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -146,6 +159,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333013",
+        "eurostat:nuts_2021_id":"07333013",
         "gn:id":2938985,
         "gp:id":663936,
         "qs_pg:id":579458,
@@ -157,7 +172,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"15515cb89ee2b10f63fd5be1332223f3",
+    "wof:geomhash":"1c1d3d6a5c3d5133aedfa2f5d875e2a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -169,11 +184,11 @@
         }
     ],
     "wof:id":101906815,
-    "wof:lastmodified":1582342329,
+    "wof:lastmodified":1684351981,
     "wof:name":"Dannenfels",
     "wof:parent_id":1377686337,
     "wof:placetype":"locality",
-    "wof:population":971,
+    "wof:population":836,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

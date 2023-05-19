@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10044115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saarlouis, Kreisstadt",
+    "eurostat:nuts_2021_id":"10044115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC04",
+    "eurostat:nuts_2021_level_lau":"10044115",
+    "eurostat:population":34522,
+    "eurostat:population_year":2020,
     "geom:area":0.005309,
     "geom:area_square_m":42799542.232843,
     "geom:bbox":"6.675032,49.260451,6.815619,49.36191",
@@ -347,7 +359,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.316667,
     "wd:longitude":6.75,
     "wd:wordcount":904,
@@ -356,14 +369,16 @@
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063459,
         1377693925,
-        85682479
+        85633111,
+        102063459
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10044115",
+        "eurostat:nuts_2021_id":"10044115",
         "gn:id":2842632,
         "gp:id":690637,
         "qs_pg:id":1279117,
@@ -379,7 +394,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"321196070c11c687f1264a3c18136f3b",
+    "wof:geomhash":"70a3e63d27961e88e9e9b85cd23211ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -391,11 +406,11 @@
         }
     ],
     "wof:id":101874347,
-    "wof:lastmodified":1608050010,
+    "wof:lastmodified":1684351970,
     "wof:name":"Saarlouis",
     "wof:parent_id":1377693925,
     "wof:placetype":"locality",
-    "wof:population":38333,
+    "wof:population":34522,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

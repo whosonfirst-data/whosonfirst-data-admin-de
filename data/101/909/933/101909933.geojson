@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12064417",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reichenow-M\u00f6glin",
+    "eurostat:nuts_2021_id":"12064417",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE409",
+    "eurostat:nuts_2021_level_lau":"12064417",
+    "eurostat:population":552,
+    "eurostat:population_year":2020,
     "geom:area":0.003019,
-    "geom:area_square_m":22648792.468169,
+    "geom:area_square_m":22648792.468173,
     "geom:bbox":"14.0050471102,52.6321748082,14.1294250801,52.6759465321",
     "geom:latitude":52.65392,
     "geom:longitude":14.068745,
@@ -118,7 +130,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "wof:belongsto":[
         85682553,
@@ -129,6 +142,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12064417",
+        "eurostat:nuts_2021_id":"12064417",
         "gn:id":2849067,
         "gp:id":687532,
         "qs_pg:id":933999,
@@ -138,7 +153,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16b93acd6ee9ec0cf1c39e77ccc827a3",
+    "wof:geomhash":"2082924541002b1a49e2d5387d2fe1cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +165,11 @@
         }
     ],
     "wof:id":101909933,
-    "wof:lastmodified":1582342289,
+    "wof:lastmodified":1684352003,
     "wof:name":"Reichenow-M\u00f6glin",
     "wof:parent_id":1377683355,
     "wof:placetype":"locality",
-    "wof:population":554,
+    "wof:population":552,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

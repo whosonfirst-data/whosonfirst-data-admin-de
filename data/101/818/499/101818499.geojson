@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Deutsch Evern",
+    "eurostat:nuts_2021_id":"03355014",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355014",
+    "eurostat:population":3709,
+    "eurostat:population_year":2020,
     "geom:area":0.001486,
-    "geom:area_square_m":11005796.351612,
+    "geom:area_square_m":11005796.351613,
     "geom:bbox":"10.4145464267,53.1698640517,10.4713251242,53.2137388006",
     "geom:latitude":53.191083,
     "geom:longitude":10.442003,
@@ -303,7 +315,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":50,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -318,6 +331,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355014",
+        "eurostat:nuts_2021_id":"03355014",
         "gn:id":2937809,
         "gp:id":644348,
         "qs_pg:id":258448,
@@ -332,7 +347,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"ca16ffcc8541eae5d42b28e654498d85",
+    "wof:geomhash":"2774affcb3a8fdc40123787166382565",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
         }
     ],
     "wof:id":101818499,
-    "wof:lastmodified":1582342360,
+    "wof:lastmodified":1684351900,
     "wof:name":"Deutsch Evern",
     "wof:parent_id":1377687545,
     "wof:placetype":"locality",
-    "wof:population":3727,
+    "wof:population":3709,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

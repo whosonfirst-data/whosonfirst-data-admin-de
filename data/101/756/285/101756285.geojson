@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08236030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ispringen",
+    "eurostat:nuts_2021_id":"08236030",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE12B",
+    "eurostat:nuts_2021_level_lau":"08236030",
+    "eurostat:population":6000,
+    "eurostat:population_year":2020,
     "geom:area":0.001004,
     "geom:area_square_m":8158280.645669,
     "geom:bbox":"8.645517,48.909512,8.707015,48.937939",
@@ -316,22 +328,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":773,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063377,
         1377688929,
         404227555,
-        85682567
+        102063377
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08236030",
+        "eurostat:nuts_2021_id":"08236030",
         "fct:id":"07467612-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2895636,
         "gp:id":663762,
@@ -347,7 +362,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"994e4f98665d146492f4604949390761",
+    "wof:geomhash":"20cdbc73cf7e383ee4638402db66b140",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -363,11 +378,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050833,
+    "wof:lastmodified":1684351793,
     "wof:name":"Ispringen",
     "wof:parent_id":1377688929,
     "wof:placetype":"locality",
-    "wof:population":6007,
+    "wof:population":6000,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

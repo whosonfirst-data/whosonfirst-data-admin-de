@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcneburg, Hansestadt",
+    "eurostat:nuts_2021_id":"03355022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355022",
+    "eurostat:population":75711,
+    "eurostat:population_year":2020,
     "geom:area":0.009575,
-    "geom:area_square_m":70853240.964041,
+    "geom:area_square_m":70853240.964039,
     "geom:bbox":"10.330693,53.191438,10.51427,53.286064",
     "geom:latitude":53.241052,
     "geom:longitude":10.41661,
@@ -369,20 +381,23 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Niedersachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682555,
         102191581,
-        85633111,
-        102064001,
         1377687485,
-        85682555
+        85633111,
+        102064001
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355022",
+        "eurostat:nuts_2021_id":"03355022",
         "gn:id":2875115,
         "gp:id":673066,
         "loc:id":"n79065823",
@@ -398,7 +413,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"67ac69cab4dccb3ea30db5bbea951381",
+    "wof:geomhash":"85f9da5010fcbe48d70284f7e77e2abf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -410,11 +425,11 @@
         }
     ],
     "wof:id":101748837,
-    "wof:lastmodified":1608050591,
+    "wof:lastmodified":1684351789,
     "wof:name":"L\u00fcneburg",
     "wof:parent_id":1377687485,
     "wof:placetype":"locality",
-    "wof:population":71260,
+    "wof:population":75711,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

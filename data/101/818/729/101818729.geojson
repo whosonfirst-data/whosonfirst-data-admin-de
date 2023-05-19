@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01053112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6nberg",
+    "eurostat:nuts_2021_id":"01053112",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF06",
+    "eurostat:nuts_2021_level_lau":"01053112",
+    "eurostat:population":1366,
+    "eurostat:population_year":2020,
     "geom:area":0.001993,
-    "geom:area_square_m":14597068.794059,
+    "geom:area_square_m":14597068.794062,
     "geom:bbox":"10.4034162879,53.6456117125,10.4679858526,53.7027288372",
     "geom:latitude":53.676736,
     "geom:longitude":10.432611,
@@ -282,7 +294,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":277,
     "wof:belongsto":[
         85682517,
@@ -293,6 +306,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01053112",
+        "eurostat:nuts_2021_id":"01053112",
         "gn:id":2836925,
         "gp:id":692867,
         "qs_pg:id":245034,
@@ -306,7 +321,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f57a80efa1b7fc03ea1194c241e5f528",
+    "wof:geomhash":"7fd9e9509478bfb630c2369c482e6fdb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -318,11 +333,11 @@
         }
     ],
     "wof:id":101818729,
-    "wof:lastmodified":1582342368,
+    "wof:lastmodified":1684351903,
     "wof:name":"Sch\u00f6nberg",
     "wof:parent_id":1377683531,
     "wof:placetype":"locality",
-    "wof:population":1304,
+    "wof:population":1366,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

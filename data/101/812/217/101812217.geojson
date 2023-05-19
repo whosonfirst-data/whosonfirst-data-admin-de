@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06440020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ranstadt",
+    "eurostat:nuts_2021_id":"06440020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE71E",
+    "eurostat:nuts_2021_level_lau":"06440020",
+    "eurostat:population":5099,
+    "eurostat:population_year":2020,
     "geom:area":0.004381,
-    "geom:area_square_m":34554170.418908,
+    "geom:area_square_m":34554170.418909,
     "geom:bbox":"8.923696,50.329048,9.060339,50.390878",
     "geom:latitude":50.364149,
     "geom:longitude":8.984664,
@@ -298,22 +310,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063633,
         1377694385,
         404227581,
-        85682531
+        102063633
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06440020",
+        "eurostat:nuts_2021_id":"06440020",
         "fct:id":"071bafc2-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2850425,
         "gp:id":12632592,
@@ -328,7 +343,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc07bf66eb70e9932fb8f8c54052ebec",
+    "wof:geomhash":"7c62da7aa8cff8de20ee107953bf5e65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -344,11 +359,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608051184,
+    "wof:lastmodified":1684351884,
     "wof:name":"Ranstadt",
     "wof:parent_id":1377694385,
     "wof:placetype":"locality",
-    "wof:population":5042,
+    "wof:population":5099,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

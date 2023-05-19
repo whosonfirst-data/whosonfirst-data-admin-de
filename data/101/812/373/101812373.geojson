@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06532022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Waldsolms",
+    "eurostat:nuts_2021_id":"06532022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE722",
+    "eurostat:nuts_2021_level_lau":"06532022",
+    "eurostat:population":4722,
+    "eurostat:population_year":2020,
     "geom:area":0.005677,
-    "geom:area_square_m":44715218.283326,
+    "geom:area_square_m":44715218.283324,
     "geom:bbox":"8.423268,50.395761,8.577542,50.469614",
     "geom:latitude":50.434937,
     "geom:longitude":8.49174,
@@ -305,22 +317,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":222,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063675,
         1377683569,
         404227577,
-        85682531
+        102063675
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06532022",
+        "eurostat:nuts_2021_id":"06532022",
         "gn:id":3208133,
         "gp:id":15002826,
         "qs_pg:id":399973,
@@ -335,7 +350,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"abbe5d614f66309f93414469f11c0c25",
+    "wof:geomhash":"b753f5abc6b6eb47ff989c39fb962355",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101812373,
-    "wof:lastmodified":1608051233,
+    "wof:lastmodified":1684351885,
     "wof:name":"Waldsolms",
     "wof:parent_id":1377683569,
     "wof:placetype":"locality",
-    "wof:population":4839,
+    "wof:population":4722,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

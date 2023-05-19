@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07314000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ludwigshafen am Rhein, Stadt",
+    "eurostat:nuts_2021_id":"07314000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB34",
+    "eurostat:nuts_2021_level_lau":"07314000",
+    "eurostat:population":172253,
+    "eurostat:population_year":2020,
     "geom:area":0.009662,
-    "geom:area_square_m":77619407.533869,
+    "geom:area_square_m":77619407.533867,
     "geom:bbox":"8.298117,49.426698,8.477005,49.550064",
     "geom:latitude":49.482107,
     "geom:longitude":8.396851,
@@ -335,16 +347,19 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682491,
         102191581,
-        85633111,
-        102063469,
         1377686109,
-        85682491
+        85633111,
+        102063469
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07314000",
+        "eurostat:nuts_2021_id":"07314000",
         "fct:id":"071f4d80-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2875376,
         "gp:id":672952,
@@ -360,7 +375,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3bcdb73ac9d34abbd396b3fa8e095eab",
+    "wof:geomhash":"1cabf216954bda8c6c8a86641dea09a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -375,11 +390,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050597,
+    "wof:lastmodified":1684351786,
     "wof:name":"Ludwigshafen am Rhein",
     "wof:parent_id":1377686109,
     "wof:placetype":"locality",
-    "wof:population":163196,
+    "wof:population":172253,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

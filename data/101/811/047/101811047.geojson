@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06632019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schenklengsfeld",
+    "eurostat:nuts_2021_id":"06632019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE733",
+    "eurostat:nuts_2021_level_lau":"06632019",
+    "eurostat:population":4348,
+    "eurostat:population_year":2020,
     "geom:area":0.008166,
-    "geom:area_square_m":63785808.291266,
+    "geom:area_square_m":63785808.291265,
     "geom:bbox":"9.730804,50.789997,9.910004,50.862962",
     "geom:latitude":50.826317,
     "geom:longitude":9.822897,
@@ -289,18 +301,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1236,
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063703,
         1377684421,
         404227551,
-        85682531
+        102063703
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06632019",
+        "eurostat:nuts_2021_id":"06632019",
         "gn:id":2839726,
         "gp:id":691704,
         "qs_pg:id":141815,
@@ -315,7 +330,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"748c08a342de3eaca160ddacc5b99678",
+    "wof:geomhash":"fcaa9aaec1b0d9d015805d1b45d6458e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -328,11 +343,11 @@
         }
     ],
     "wof:id":101811047,
-    "wof:lastmodified":1608049916,
+    "wof:lastmodified":1684351878,
     "wof:name":"Schenklengsfeld",
     "wof:parent_id":1377684421,
     "wof:placetype":"locality",
-    "wof:population":4806,
+    "wof:population":4348,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

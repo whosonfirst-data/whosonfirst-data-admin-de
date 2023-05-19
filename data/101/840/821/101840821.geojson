@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07335049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weilerbach",
+    "eurostat:nuts_2021_id":"07335049",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3F",
+    "eurostat:nuts_2021_level_lau":"07335049",
+    "eurostat:population":4748,
+    "eurostat:population_year":2020,
     "geom:area":0.001978,
-    "geom:area_square_m":15894328.951346,
+    "geom:area_square_m":15894328.951347,
     "geom:bbox":"7.58753291683,49.4353874502,7.6549764262,49.495444733",
     "geom:latitude":49.470753,
     "geom:longitude":7.626143,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":658,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -315,6 +328,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07335049",
+        "eurostat:nuts_2021_id":"07335049",
         "gn:id":2812568,
         "gp:id":979988,
         "qs_pg:id":1038118,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"23ad54f64b96e105cce7853d4041922b",
+    "wof:geomhash":"cedfe48585c75c47a501bc55e48e4d0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101840821,
-    "wof:lastmodified":1582342559,
+    "wof:lastmodified":1684351951,
     "wof:name":"Weilerbach",
     "wof:parent_id":1377686465,
     "wof:placetype":"locality",
-    "wof:population":4476,
+    "wof:population":4748,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

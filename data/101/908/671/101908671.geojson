@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13071169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zettemin",
+    "eurostat:nuts_2021_id":"13071169",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80J",
+    "eurostat:nuts_2021_level_lau":"13071169",
+    "eurostat:population":274,
+    "eurostat:population_year":2020,
     "geom:area":0.002582,
-    "geom:area_square_m":18927406.983849,
+    "geom:area_square_m":18927406.983848,
     "geom:bbox":"12.7891739237,53.6089335698,12.8760652875,53.6654433968",
     "geom:latitude":53.635524,
     "geom:longitude":12.830695,
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13071169",
+        "eurostat:nuts_2021_id":"13071169",
         "gn:id":2804686,
         "gp:id":708794,
         "qs_pg:id":987317,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e5be6fe0091bc7d845844c695529d44d",
+    "wof:geomhash":"22bc41dfb4149b29b4629533010d8cf9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101908671,
-    "wof:lastmodified":1582342349,
+    "wof:lastmodified":1684351998,
     "wof:name":"Zettemin",
     "wof:parent_id":1377684521,
     "wof:placetype":"locality",
-    "wof:population":374,
+    "wof:population":274,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

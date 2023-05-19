@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01054143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Utersum",
+    "eurostat:nuts_2021_id":"01054143",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF07",
+    "eurostat:nuts_2021_level_lau":"01054143",
+    "eurostat:population":398,
+    "eurostat:population_year":2020,
     "geom:area":0.000754,
     "geom:area_square_m":5384674.811823,
     "geom:bbox":"8.39466260107,54.6949408753,8.4295768394,54.7301309545",
@@ -285,7 +297,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -298,6 +311,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01054143",
+        "eurostat:nuts_2021_id":"01054143",
         "gn:id":2818066,
         "gp:id":701911,
         "qs_pg:id":244298,
@@ -311,7 +326,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"e82de08730791f9ec7595173e23be9dd",
+    "wof:geomhash":"0dcb005b26ad20a2286a977feb04b690",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -322,11 +337,11 @@
         }
     ],
     "wof:id":1126005737,
-    "wof:lastmodified":1582343021,
+    "wof:lastmodified":1684352043,
     "wof:name":"Utersum",
     "wof:parent_id":1377683629,
     "wof:placetype":"locality",
-    "wof:population":407,
+    "wof:population":398,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

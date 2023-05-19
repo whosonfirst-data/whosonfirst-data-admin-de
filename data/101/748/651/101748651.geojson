@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05120000",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Remscheid, Stadt",
+    "eurostat:nuts_2021_id":"05120000",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA18",
+    "eurostat:nuts_2021_level_lau":"05120000",
+    "eurostat:population":111338,
+    "eurostat:population_year":2020,
     "geom:area":0.009525,
-    "geom:area_square_m":73825259.661285,
+    "geom:area_square_m":73825259.661287,
     "geom:bbox":"7.131224,51.143277,7.309181,51.225376",
     "geom:latitude":51.182701,
     "geom:longitude":7.224042,
@@ -295,17 +307,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063733,
         1377689459,
         404227561,
-        85682513
+        102063733
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05120000",
+        "eurostat:nuts_2021_id":"05120000",
         "gn:id":2848273,
         "gp:id":687939,
         "qs_pg:id":456007,
@@ -321,7 +336,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7245faf7bbcb5f64b355d1ffbf1668d4",
+    "wof:geomhash":"ba214d0a7a0b458e433c836ee4350e8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -334,11 +349,11 @@
         }
     ],
     "wof:id":101748651,
-    "wof:lastmodified":1608050559,
+    "wof:lastmodified":1684351787,
     "wof:name":"Remscheid",
     "wof:parent_id":1377689459,
     "wof:placetype":"locality",
-    "wof:population":117118,
+    "wof:population":111338,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

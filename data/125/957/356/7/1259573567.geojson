@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sulzbach",
+    "eurostat:nuts_2021_id":"07141132",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141132",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "geom:area":0.000286,
     "geom:area_square_m":2256073.249554,
     "geom:bbox":"7.73092099124,50.2893685226,7.76524361068,50.3079306856",
@@ -104,7 +116,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -114,13 +127,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141132",
+        "eurostat:nuts_2021_id":"07141132",
         "gn:id":2824835
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"9fa0213e12da2e141e06f1c5309a2985",
+    "wof:geomhash":"0d35b67a0480db0c822d054b8452008d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -132,12 +147,12 @@
         }
     ],
     "wof:id":1259573567,
-    "wof:lastmodified":1582343109,
+    "wof:lastmodified":1684352058,
     "wof:name":"Sulzbach",
     "wof:parent_id":1377685749,
     "wof:placetype":"locality",
-    "wof:population":228,
-    "wof:population_rank":2,
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

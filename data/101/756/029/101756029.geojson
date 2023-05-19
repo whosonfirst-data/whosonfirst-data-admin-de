@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12069604",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stahnsdorf",
+    "eurostat:nuts_2021_id":"12069604",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40E",
+    "eurostat:nuts_2021_level_lau":"12069604",
+    "eurostat:population":15371,
+    "eurostat:population_year":2020,
     "geom:area":0.006566,
-    "geom:area_square_m":49580901.892076,
+    "geom:area_square_m":49580901.892072,
     "geom:bbox":"13.136857,52.31918,13.253989,52.399391",
     "geom:latitude":52.361667,
     "geom:longitude":13.200176,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":499,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063937,
         1377683835,
-        85682553
+        85633111,
+        102063937
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12069604",
+        "eurostat:nuts_2021_id":"12069604",
         "gn:id":2829657,
         "gp:id":20161380,
         "qs_pg:id":576843,
@@ -326,7 +341,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"aca2d381c2d9c2c182d1a16dd2079953",
+    "wof:geomhash":"6397d386954342dea031b8b0f9b83828",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -338,11 +353,11 @@
         }
     ],
     "wof:id":101756029,
-    "wof:lastmodified":1608050832,
+    "wof:lastmodified":1684351792,
     "wof:name":"Stahnsdorf",
     "wof:parent_id":1377683835,
     "wof:placetype":"locality",
-    "wof:population":12964,
+    "wof:population":15371,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Osterspai",
+    "eurostat:nuts_2021_id":"07141108",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141108",
+    "eurostat:population":1273,
+    "eurostat:population_year":2020,
     "geom:area":0.001656,
     "geom:area_square_m":13093900.056976,
     "geom:bbox":"7.5882499731,50.2233034647,7.73423150664,50.2511944412",
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141108",
+        "eurostat:nuts_2021_id":"07141108",
         "gn:id":2856377,
         "gp:id":683728,
         "qs_pg:id":1149833,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7e509989078e299d3ea71ecf6e21a0b5",
+    "wof:geomhash":"5af27afaf6166d910d479c0e22c4f5fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101812107,
-    "wof:lastmodified":1582342548,
+    "wof:lastmodified":1684351882,
     "wof:name":"Osterspai",
     "wof:parent_id":1377685763,
     "wof:placetype":"locality",
-    "wof:population":1351,
+    "wof:population":1273,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

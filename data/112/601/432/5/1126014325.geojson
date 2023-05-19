@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01057013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dannau",
+    "eurostat:nuts_2021_id":"01057013",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0A",
+    "eurostat:nuts_2021_level_lau":"01057013",
+    "eurostat:population":610,
+    "eurostat:population_year":2020,
     "geom:area":0.001254,
     "geom:area_square_m":9058836.336222,
     "geom:bbox":"10.5308689532,54.2278933538,10.6064096659,54.2533122065",
@@ -285,7 +297,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -295,6 +308,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01057013",
+        "eurostat:nuts_2021_id":"01057013",
         "gn:id":2939004,
         "qs_pg:id":579460,
         "wd:id":"Q635501"
@@ -304,7 +319,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"f29af46728714fb5f849639725067c71",
+    "wof:geomhash":"ac89159fcb3e0e6c8172191b8d770a7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -316,11 +331,11 @@
         }
     ],
     "wof:id":1126014325,
-    "wof:lastmodified":1582343019,
+    "wof:lastmodified":1684352047,
     "wof:name":"Dannau",
     "wof:parent_id":1377684083,
     "wof:placetype":"locality",
-    "wof:population":682,
+    "wof:population":610,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

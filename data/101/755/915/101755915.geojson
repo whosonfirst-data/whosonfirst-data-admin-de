@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09573134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zirndorf, St",
+    "eurostat:nuts_2021_id":"09573134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE258",
+    "eurostat:nuts_2021_level_lau":"09573134",
+    "eurostat:population":25588,
+    "eurostat:population_year":2020,
     "geom:area":0.003543,
-    "geom:area_square_m":28487912.608358,
+    "geom:area_square_m":28487912.608357,
     "geom:bbox":"10.869222,49.40358,10.986137,49.463554",
     "geom:latitude":49.435098,
     "geom:longitude":10.925344,
@@ -325,7 +337,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.45,
     "wd:longitude":10.95,
     "wd:population":21022,
@@ -335,15 +348,17 @@
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063467,
         1377689419,
         404227565,
-        85682571
+        102063467
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09573134",
+        "eurostat:nuts_2021_id":"09573134",
         "gn:id":2804034,
         "gp:id":709073,
         "qs_pg:id":1346101,
@@ -358,7 +373,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a1dc6edd5613519e7207e04238956b92",
+    "wof:geomhash":"d5169cf64bf9284a02cb59535e97860e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
         }
     ],
     "wof:id":101755915,
-    "wof:lastmodified":1608049403,
+    "wof:lastmodified":1684351791,
     "wof:name":"Zirndorf",
     "wof:parent_id":1377689419,
     "wof:placetype":"locality",
-    "wof:population":21022,
+    "wof:population":25588,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

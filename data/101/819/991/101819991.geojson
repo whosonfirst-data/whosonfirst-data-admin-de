@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Suderburg",
+    "eurostat:nuts_2021_id":"03360023",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360023",
+    "eurostat:population":4588,
+    "eurostat:population_year":2020,
     "geom:area":0.01716,
     "geom:area_square_m":128061778.556085,
     "geom:bbox":"10.3082460659,52.8055403496,10.5185018323,52.9454159399",
@@ -153,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":141,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -168,6 +181,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360023",
+        "eurostat:nuts_2021_id":"03360023",
         "gn:id":2825180,
         "gp:id":698127,
         "qs_pg:id":1069929,
@@ -179,7 +194,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"8e75c13fc1336c259371782734773d0a",
+    "wof:geomhash":"9c9ea86f0999410be561a32b1d17352c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +206,11 @@
         }
     ],
     "wof:id":101819991,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351911,
     "wof:name":"Suderburg",
     "wof:parent_id":1377687993,
     "wof:placetype":"locality",
-    "wof:population":4778,
+    "wof:population":4588,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

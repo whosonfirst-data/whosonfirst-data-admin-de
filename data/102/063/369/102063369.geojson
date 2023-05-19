@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"3",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Ostalbkreis",
+    "eurostat:name_local":"Ostalbkreis",
+    "eurostat:nuts_2021_id":"DE11D",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE11D",
+    "eurostat:population":315009,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"2",
     "geom:area":0.185169,
-    "geom:area_square_m":1505837233.384617,
+    "geom:area_square_m":1505837233.384622,
     "geom:bbox":"9.619062,48.714652,10.457001,49.060174",
     "geom:latitude":48.877534,
     "geom:longitude":10.09014,
@@ -189,8 +203,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"statoids",
-    "src:population_date":"2011-05-09",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "statoids:area_km":"1512",
     "statoids:as_of_date":"2011-05-09",
     "statoids:capital":"Aalen",
@@ -204,12 +218,13 @@
     "wd:wordcount":265,
     "wof:belongsto":[
         102191581,
-        85633111,
         404227549,
+        85633111,
         85682567
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE11D",
         "hasc:id":"DE.BW.OA",
         "wd:id":"Q8522"
     },
@@ -217,7 +232,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4319ccd71c3947845c84f963c4c5e96f",
+    "wof:geomhash":"9ca57c7e08cbe2c562bd16a87e9988c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -228,12 +243,12 @@
         }
     ],
     "wof:id":102063369,
-    "wof:lastmodified":1587164315,
+    "wof:lastmodified":1684351511,
     "wof:name":"Ostalbkreis",
     "wof:parent_id":404227549,
     "wof:placetype":"county",
     "wof:placetype_local":"rural district",
-    "wof:population":306529,
+    "wof:population":315009,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:shortcode":"OA",

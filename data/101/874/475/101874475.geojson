@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01058165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"T\u00fcttendorf",
+    "eurostat:nuts_2021_id":"01058165",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0B",
+    "eurostat:nuts_2021_level_lau":"01058165",
+    "eurostat:population":1231,
+    "eurostat:population_year":2020,
     "geom:area":0.00247,
     "geom:area_square_m":17784104.171527,
     "geom:bbox":"9.93661508461,54.3527752705,10.047519138,54.4110346378",
@@ -140,7 +152,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "wof:belongsto":[
         85682517,
@@ -151,6 +164,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01058165",
+        "eurostat:nuts_2021_id":"01058165",
         "gn:id":2820697,
         "gp:id":700267,
         "qs_pg:id":576679,
@@ -162,7 +177,7 @@
         "quattroshapes_pg",
         "whosonfirst"
     ],
-    "wof:geomhash":"5dec35d8d35b3407c6169ce552623ba4",
+    "wof:geomhash":"5e54aa4ad9cc42f0f8654f46800d8465",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +189,11 @@
         }
     ],
     "wof:id":101874475,
-    "wof:lastmodified":1582342397,
+    "wof:lastmodified":1684351971,
     "wof:name":"T\u00fcttendorf",
     "wof:parent_id":1377684205,
     "wof:placetype":"locality",
-    "wof:population":1197,
+    "wof:population":1231,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weil im Sch\u00f6nbuch",
+    "eurostat:nuts_2021_id":"08115051",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115051",
+    "eurostat:population":10059,
+    "eurostat:population_year":2020,
     "geom:area":0.003181,
-    "geom:area_square_m":26001408.038545,
+    "geom:area_square_m":26001408.038544,
     "geom:bbox":"9.022323,48.588225,9.104725,48.650873",
     "geom:latitude":48.617933,
     "geom:longitude":9.061149,
@@ -329,22 +341,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1438,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686885,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115051",
+        "eurostat:nuts_2021_id":"08115051",
         "fct:id":"075dd064-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2812502,
         "gp:id":704677,
@@ -360,7 +375,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"94837a2d92a95f111206f74f619710a9",
+    "wof:geomhash":"9aeaffb4bba58ebcbff8eeb141472cd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -376,11 +391,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608049211,
+    "wof:lastmodified":1684351811,
     "wof:name":"Weil im Sch\u00f6nbuch",
     "wof:parent_id":1377686885,
     "wof:placetype":"locality",
-    "wof:population":10037,
+    "wof:population":10059,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

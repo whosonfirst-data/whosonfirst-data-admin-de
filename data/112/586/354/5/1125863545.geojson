@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07333042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lohnsfeld",
+    "eurostat:nuts_2021_id":"07333042",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3D",
+    "eurostat:nuts_2021_level_lau":"07333042",
+    "eurostat:population":923,
+    "eurostat:population_year":2020,
     "geom:area":0.000876,
-    "geom:area_square_m":7024254.775206,
+    "geom:area_square_m":7024254.775205,
     "geom:bbox":"7.82637172721,49.5306772059,7.87947753253,49.5633528878",
     "geom:latitude":49.548008,
     "geom:longitude":7.850716,
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07333042",
+        "eurostat:nuts_2021_id":"07333042",
         "gn:id":2876161,
         "qs_pg:id":93487,
         "wd:id":"Q561161"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"dbf00b5f2b72774c9c4303d23c340e5c",
+    "wof:geomhash":"7e83fc256fa5a9f94d37bb046a876011",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125863545,
-    "wof:lastmodified":1582342989,
+    "wof:lastmodified":1684352034,
     "wof:name":"Lohnsfeld",
     "wof:parent_id":1377686355,
     "wof:placetype":"locality",
-    "wof:population":999,
+    "wof:population":923,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

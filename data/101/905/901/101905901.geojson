@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07337043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Impflingen",
+    "eurostat:nuts_2021_id":"07337043",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3H",
+    "eurostat:nuts_2021_level_lau":"07337043",
+    "eurostat:population":885,
+    "eurostat:population_year":2020,
     "geom:area":0.000647,
     "geom:area_square_m":5230613.227989,
     "geom:bbox":"8.09077096455,49.1525603918,8.13401486706,49.1750342814",
@@ -288,7 +300,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -299,6 +312,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07337043",
+        "eurostat:nuts_2021_id":"07337043",
         "gn:id":2896208,
         "gp:id":663482,
         "qs_pg:id":276061,
@@ -309,7 +324,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"cef467b07fae905a3ba6a92604304e44",
+    "wof:geomhash":"ec9c01d82af8991db522cc3837cc75c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -321,11 +336,11 @@
         }
     ],
     "wof:id":101905901,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"Impflingen",
     "wof:parent_id":1377686543,
     "wof:placetype":"locality",
-    "wof:population":835,
+    "wof:population":885,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

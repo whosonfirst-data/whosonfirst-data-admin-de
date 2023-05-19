@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07131018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dorsel",
+    "eurostat:nuts_2021_id":"07131018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB12",
+    "eurostat:nuts_2021_level_lau":"07131018",
+    "eurostat:population":201,
+    "eurostat:population_year":2020,
     "geom:area":0.000906,
     "geom:area_square_m":7145667.249676,
     "geom:bbox":"6.7693117442,50.3693046209,6.82212148711,50.4049729999",
@@ -117,7 +129,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -127,6 +140,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07131018",
+        "eurostat:nuts_2021_id":"07131018",
         "gn:id":2935538,
         "qs_pg:id":579359,
         "wd:id":"Q563858"
@@ -136,7 +151,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"ba53663dc076877382339d1ffe2f1895",
+    "wof:geomhash":"68a6fa284039a1705cd7c50266533eee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +163,11 @@
         }
     ],
     "wof:id":1125828651,
-    "wof:lastmodified":1582343030,
+    "wof:lastmodified":1684352019,
     "wof:name":"Dorsel",
     "wof:parent_id":1377685263,
     "wof:placetype":"locality",
-    "wof:population":212,
+    "wof:population":201,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

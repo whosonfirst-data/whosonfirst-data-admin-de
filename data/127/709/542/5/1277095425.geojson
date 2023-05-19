@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07141120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ruppertshofen",
+    "eurostat:nuts_2021_id":"07141120",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1A",
+    "eurostat:nuts_2021_level_lau":"07141120",
+    "eurostat:population":344,
+    "eurostat:population_year":2020,
     "geom:area":0.000599,
-    "geom:area_square_m":4740145.06789,
+    "geom:area_square_m":4740145.067889,
     "geom:bbox":"7.77393659759,50.181636748,7.82689393526,50.2172496237",
     "geom:latitude":50.201547,
     "geom:longitude":7.803136,
@@ -92,7 +104,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -102,13 +115,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07141120",
+        "eurostat:nuts_2021_id":"07141120",
         "gn:id":2842972
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"8820a58f4168a3f136f2dc06f8a4376b",
+    "wof:geomhash":"de3462cb29d108d6449c1f3d2fa77047",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +135,11 @@
         }
     ],
     "wof:id":1277095425,
-    "wof:lastmodified":1582342038,
+    "wof:lastmodified":1684352059,
     "wof:name":"Ruppertshofen",
     "wof:parent_id":1377685757,
     "wof:placetype":"locality",
-    "wof:population":402,
+    "wof:population":344,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

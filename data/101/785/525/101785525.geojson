@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09772223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zusmarshausen, M",
+    "eurostat:nuts_2021_id":"09772223",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE276",
+    "eurostat:nuts_2021_level_lau":"09772223",
+    "eurostat:population":6436,
+    "eurostat:population_year":2020,
     "geom:area":0.008354,
-    "geom:area_square_m":68576838.719307,
+    "geom:area_square_m":68576838.719302,
     "geom:bbox":"10.505537,48.358134,10.698566,48.453625",
     "geom:latitude":48.406095,
     "geom:longitude":10.597069,
@@ -172,22 +184,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063311,
         1377693497,
         404227547,
-        85682571
+        102063311
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09772223",
+        "eurostat:nuts_2021_id":"09772223",
         "gn:id":2803655,
         "gp:id":709309,
         "qs_pg:id":211095,
@@ -202,7 +217,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"3d37350111dad9a6c2654721f31d91d8",
+    "wof:geomhash":"dfc4100c2d7d18f50108b11ad89dcde7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -215,11 +230,11 @@
         }
     ],
     "wof:id":101785525,
-    "wof:lastmodified":1608050493,
+    "wof:lastmodified":1684351836,
     "wof:name":"Zusmarshausen",
     "wof:parent_id":1377693497,
     "wof:placetype":"locality",
-    "wof:population":6384,
+    "wof:population":6436,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

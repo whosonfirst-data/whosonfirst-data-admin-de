@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06431018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neckarsteinach, Stadt",
+    "eurostat:nuts_2021_id":"06431018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE71",
+    "eurostat:nuts_2021_level_3":"DE715",
+    "eurostat:nuts_2021_level_lau":"06431018",
+    "eurostat:population":3860,
+    "eurostat:population_year":2020,
     "geom:area":0.002176,
-    "geom:area_square_m":17506805.508777,
+    "geom:area_square_m":17506805.508775,
     "geom:bbox":"8.801489,49.394845,8.894462,49.455365",
     "geom:latitude":49.419681,
     "geom:longitude":8.842064,
@@ -311,7 +323,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":49.407778,
     "wd:longitude":8.837361,
     "wd:wordcount":2337,
@@ -320,15 +333,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063449,
         1377692977,
         404227581,
-        85682531
+        102063449
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06431018",
+        "eurostat:nuts_2021_id":"06431018",
         "gn:id":2866759,
         "gp:id":677317,
         "qs_pg:id":977616,
@@ -343,7 +358,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"428e1814173b3791bd4a9f3ae38733cc",
+    "wof:geomhash":"98261f3af4e6a57bf8d160f92d950e3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -356,11 +371,11 @@
         }
     ],
     "wof:id":101815701,
-    "wof:lastmodified":1608051239,
+    "wof:lastmodified":1684351894,
     "wof:name":"Neckarsteinach",
     "wof:parent_id":1377692977,
     "wof:placetype":"locality",
-    "wof:population":3923,
+    "wof:population":3860,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

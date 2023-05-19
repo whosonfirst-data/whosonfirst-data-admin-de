@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09671155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stockstadt a.Main, M",
+    "eurostat:nuts_2021_id":"09671155",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE264",
+    "eurostat:nuts_2021_level_lau":"09671155",
+    "eurostat:population":8002,
+    "eurostat:population_year":2020,
     "geom:area":0.002456,
-    "geom:area_square_m":19529841.969042,
+    "geom:area_square_m":19529841.969041,
     "geom:bbox":"9.015714,49.952634,9.096452,50.010373",
     "geom:latitude":49.975198,
     "geom:longitude":9.050564,
@@ -291,18 +303,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":765,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063577,
         1377690459,
         404227569,
-        85682571
+        102063577
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09671155",
+        "eurostat:nuts_2021_id":"09671155",
         "gn:id":2826670,
         "gp:id":697460,
         "qs_pg:id":71211,
@@ -317,7 +332,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"efef966a7576f88146eb6ae244472cc3",
+    "wof:geomhash":"aaa4f090543ad60ba567bdd613a6a5fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -330,11 +345,11 @@
         }
     ],
     "wof:id":101756405,
-    "wof:lastmodified":1608050840,
+    "wof:lastmodified":1684351795,
     "wof:name":"Stockstadt a. Main",
     "wof:parent_id":1377690459,
     "wof:placetype":"locality",
-    "wof:population":7663,
+    "wof:population":8002,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

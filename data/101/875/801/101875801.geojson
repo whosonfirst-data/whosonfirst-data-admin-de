@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03355019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohnstorf (Elbe)",
+    "eurostat:nuts_2021_id":"03355019",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE935",
+    "eurostat:nuts_2021_level_lau":"03355019",
+    "eurostat:population":2397,
+    "eurostat:population_year":2020,
     "geom:area":0.001395,
     "geom:area_square_m":10294297.415671,
     "geom:bbox":"10.5034195917,53.3290292656,10.6005263166,53.3704680834",
@@ -151,7 +163,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -161,6 +174,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03355019",
+        "eurostat:nuts_2021_id":"03355019",
         "gn:id":2900839,
         "gp:id":661483,
         "qs_pg:id":1157317,
@@ -173,7 +188,7 @@
         "whosonfirst",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4b719e2dd270ef419efa90265d5a0ac9",
+    "wof:geomhash":"4d2596ac3a9f44b922ca02c8ea0df111",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101875801,
-    "wof:lastmodified":1582342443,
+    "wof:lastmodified":1684351971,
     "wof:name":"Hohnstorf (Elbe)",
     "wof:parent_id":1377687563,
     "wof:placetype":"locality",
-    "wof:population":2399,
+    "wof:population":2397,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

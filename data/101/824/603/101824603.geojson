@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14521020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Annaberg-Buchholz, Stadt",
+    "eurostat:nuts_2021_id":"14521020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED42",
+    "eurostat:nuts_2021_level_lau":"14521020",
+    "eurostat:population":19619,
+    "eurostat:population_year":2020,
     "geom:area":0.003571,
-    "geom:area_square_m":28044910.616694,
+    "geom:area_square_m":28044910.616691,
     "geom:bbox":"12.970285,50.538169,13.054011,50.606497",
     "geom:latitude":50.57581,
     "geom:longitude":13.011128,
@@ -226,21 +238,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":699,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064211,
         1377685383,
-        85682523
+        85633111,
+        102064211
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14521020",
+        "eurostat:nuts_2021_id":"14521020",
         "gn:id":2956005,
         "gp:id":635212,
         "qs_pg:id":450324,
@@ -255,7 +270,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"9ef9a15757aa8c27cf539798e9f4328f",
+    "wof:geomhash":"181ff16eb3cbe32b900e117dd0fb153e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -267,12 +282,12 @@
         }
     ],
     "wof:id":101824603,
-    "wof:lastmodified":1608051132,
+    "wof:lastmodified":1684351930,
     "wof:name":"Annaberg-Buchholz",
     "wof:parent_id":1377685383,
     "wof:placetype":"locality",
-    "wof:population":23092,
-    "wof:population_rank":7,
+    "wof:population":19619,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

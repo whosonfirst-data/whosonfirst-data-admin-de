@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05154020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Issum",
+    "eurostat:nuts_2021_id":"05154020",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1B",
+    "eurostat:nuts_2021_level_lau":"05154020",
+    "eurostat:population":11977,
+    "eurostat:population_year":2020,
     "geom:area":0.007111,
-    "geom:area_square_m":54712738.276176,
+    "geom:area_square_m":54712738.276179,
     "geom:bbox":"6.378942,51.46593,6.498747,51.574555",
     "geom:latitude":51.521946,
     "geom:longitude":6.434384,
@@ -286,18 +298,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":54,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063847,
         1377689523,
         404227561,
-        85682513
+        102063847
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05154020",
+        "eurostat:nuts_2021_id":"05154020",
         "gn:id":2895617,
         "gp:id":663776,
         "qs_pg:id":847445,
@@ -312,7 +327,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"042090f274a137f99f9ee924394e67a8",
+    "wof:geomhash":"7c514c08f4d83d85df312141e8146e2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101810275,
-    "wof:lastmodified":1608050043,
+    "wof:lastmodified":1684351873,
     "wof:name":"Issum",
     "wof:parent_id":1377689523,
     "wof:placetype":"locality",
-    "wof:population":12249,
+    "wof:population":11977,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

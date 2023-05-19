@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09672139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oberthulba, M",
+    "eurostat:nuts_2021_id":"09672139",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE265",
+    "eurostat:nuts_2021_level_lau":"09672139",
+    "eurostat:population":5054,
+    "eurostat:population_year":2020,
     "geom:area":0.006584,
     "geom:area_square_m":52118085.283656,
     "geom:bbox":"9.848062,50.162613,10.010082,50.244134",
@@ -157,18 +169,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":189,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063619,
         1377690575,
         404227569,
-        85682571
+        102063619
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09672139",
+        "eurostat:nuts_2021_id":"09672139",
         "gn:id":2858787,
         "gp:id":682432,
         "qs_pg:id":1038863,
@@ -183,7 +198,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"95aca9206ad9f8f2c9ce182002e0b83d",
+    "wof:geomhash":"46c4d76be0aa2e0d6516c1365dd33c4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -196,11 +211,11 @@
         }
     ],
     "wof:id":101812061,
-    "wof:lastmodified":1608051224,
+    "wof:lastmodified":1684351882,
     "wof:name":"Oberthulba",
     "wof:parent_id":1377690575,
     "wof:placetype":"locality",
-    "wof:population":5151,
+    "wof:population":5054,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14626370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niesky, Stadt",
+    "eurostat:nuts_2021_id":"14626370",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED2",
+    "eurostat:nuts_2021_level_3":"DED2D",
+    "eurostat:nuts_2021_level_lau":"14626370",
+    "eurostat:population":9343,
+    "eurostat:population_year":2020,
     "geom:area":0.006954,
-    "geom:area_square_m":53738614.760613,
+    "geom:area_square_m":53738614.760614,
     "geom:bbox":"14.749101,51.258238,14.868163,51.378248",
     "geom:latitude":51.319236,
     "geom:longitude":14.802686,
@@ -193,7 +205,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.289722,
     "wd:longitude":14.83,
     "wd:wordcount":191,
@@ -202,14 +215,16 @@
     "woe:name_adm1":"Sachsen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064233,
         1377687079,
-        85682523
+        85633111,
+        102064233
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14626370",
+        "eurostat:nuts_2021_id":"14626370",
         "gn:id":2862460,
         "gp:id":680149,
         "qs_pg:id":1074082,
@@ -224,7 +239,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"fa1c3c495f32a34b915f2faf41ebe0a1",
+    "wof:geomhash":"bd01373695bfc0189093316369eea65b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -236,12 +251,12 @@
         }
     ],
     "wof:id":101822307,
-    "wof:lastmodified":1608051444,
+    "wof:lastmodified":1684351921,
     "wof:name":"Niesky",
     "wof:parent_id":1377687079,
     "wof:placetype":"locality",
-    "wof:population":11111,
-    "wof:population_rank":6,
+    "wof:population":9343,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

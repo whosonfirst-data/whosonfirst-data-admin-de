@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15083485",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sommersdorf",
+    "eurostat:nuts_2021_id":"15083485",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE07",
+    "eurostat:nuts_2021_level_lau":"15083485",
+    "eurostat:population":1394,
+    "eurostat:population_year":2020,
     "geom:area":0.003832,
-    "geom:area_square_m":29055023.898969,
+    "geom:area_square_m":29055023.898973,
     "geom:bbox":"11.0515164873,52.1463833963,11.1469234171,52.2110901013",
     "geom:latitude":52.175953,
     "geom:longitude":11.099581,
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":35,
     "wof:belongsto":[
         85682519,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15083485",
+        "eurostat:nuts_2021_id":"15083485",
         "gn:id":2831344,
         "gp:id":695444,
         "qs_pg:id":576886,
@@ -313,7 +328,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"cc066a2262988c234a11714ed15b145a",
+    "wof:geomhash":"243e10cf43d70db14211b1ed3b28a2e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101819677,
-    "wof:lastmodified":1582342432,
+    "wof:lastmodified":1684351907,
     "wof:name":"Sommersdorf",
     "wof:parent_id":1377688405,
     "wof:placetype":"locality",
-    "wof:population":1108,
+    "wof:population":1394,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14522290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"K\u00f6nigshain-Wiederau",
+    "eurostat:nuts_2021_id":"14522290",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED43",
+    "eurostat:nuts_2021_level_lau":"14522290",
+    "eurostat:population":2613,
+    "eurostat:population_year":2020,
     "geom:area":0.003977,
-    "geom:area_square_m":30962490.196265,
+    "geom:area_square_m":30962490.196263,
     "geom:bbox":"12.800288,50.943461,12.926924,51.009743",
     "geom:latitude":50.972018,
     "geom:longitude":12.859155,
@@ -147,17 +159,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":46,
     "wof:belongsto":[
+        85682523,
         102191581,
-        85633111,
-        102064223,
         1377685937,
-        85682523
+        85633111,
+        102064223
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14522290",
+        "eurostat:nuts_2021_id":"14522290",
         "gn:id":6548566,
         "gp:id":706204,
         "qs_pg:id":631092,
@@ -171,7 +186,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d96fefa9986863714dbd26c0a11a5f54",
+    "wof:geomhash":"9e12821594db3b3e9b8c35b8e6115f23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +198,11 @@
         }
     ],
     "wof:id":101823397,
-    "wof:lastmodified":1608051059,
+    "wof:lastmodified":1684351926,
     "wof:name":"K\u00f6nigshain-Wiederau",
     "wof:parent_id":1377685937,
     "wof:placetype":"locality",
-    "wof:population":2698,
+    "wof:population":2613,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

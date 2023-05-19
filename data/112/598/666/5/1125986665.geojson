@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01062050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neritz",
+    "eurostat:nuts_2021_id":"01062050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0F",
+    "eurostat:nuts_2021_level_lau":"01062050",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "geom:area":0.000632,
     "geom:area_square_m":4620113.024264,
     "geom:bbox":"10.2593809514,53.7761731641,10.3122873547,53.7983282567",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01062050",
+        "eurostat:nuts_2021_id":"01062050",
         "gn:id":2866482,
         "qs_pg:id":277316,
         "wd:id":"Q651241"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"516314367607e35d3b6eb55a185610ce",
+    "wof:geomhash":"60141723022c0a5aa902078d133f10b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1125986665,
-    "wof:lastmodified":1582343011,
+    "wof:lastmodified":1684352042,
     "wof:name":"Neritz",
     "wof:parent_id":1377684795,
     "wof:placetype":"locality",
-    "wof:population":346,
+    "wof:population":314,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09572131",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Heroldsberg, M",
+    "eurostat:nuts_2021_id":"09572131",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE257",
+    "eurostat:nuts_2021_level_lau":"09572131",
+    "eurostat:population":8427,
+    "eurostat:population_year":2020,
     "geom:area":0.001381,
-    "geom:area_square_m":11082486.191116,
+    "geom:area_square_m":11082486.191117,
     "geom:bbox":"11.133758,49.520652,11.197088,49.568233",
     "geom:latitude":49.543514,
     "geom:longitude":11.162215,
@@ -184,22 +196,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":298,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063513,
         1377689135,
         404227565,
-        85682571
+        102063513
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09572131",
+        "eurostat:nuts_2021_id":"09572131",
         "gn:id":2905878,
         "gp:id":659368,
         "qs_pg:id":351593,
@@ -214,7 +229,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"25721882f2f2f9dc29266fd3b3f6d328",
+    "wof:geomhash":"dd755171adbc58499fd9c4582b7ec5f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -227,11 +242,11 @@
         }
     ],
     "wof:id":101826973,
-    "wof:lastmodified":1608050358,
+    "wof:lastmodified":1684351938,
     "wof:name":"Heroldsberg",
     "wof:parent_id":1377689135,
     "wof:placetype":"locality",
-    "wof:population":7429,
+    "wof:population":8427,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

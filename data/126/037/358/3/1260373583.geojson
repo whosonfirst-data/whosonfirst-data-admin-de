@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03159012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Elbingerode",
+    "eurostat:nuts_2021_id":"03159012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE91",
+    "eurostat:nuts_2021_level_3":"DE91C",
+    "eurostat:nuts_2021_level_lau":"03159012",
+    "eurostat:population":444,
+    "eurostat:population_year":2020,
     "geom:area":0.00076,
-    "geom:area_square_m":5829229.133127,
+    "geom:area_square_m":5829229.133128,
     "geom:bbox":"10.2543926766,51.6399596892,10.309265193,51.6656946575",
     "geom:latitude":51.654842,
     "geom:longitude":10.283001,
@@ -103,7 +115,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -113,6 +126,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03159012",
+        "eurostat:nuts_2021_id":"03159012",
         "gn:id":2931245,
         "wk:page":"Elbingerode"
     },
@@ -120,7 +135,7 @@
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"3c81499e42a94352b7315c13e3b2404e",
+    "wof:geomhash":"41f840b9b22b456eb9d67d878c98f7e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -132,12 +147,12 @@
         }
     ],
     "wof:id":1260373583,
-    "wof:lastmodified":1582342071,
+    "wof:lastmodified":1684352059,
     "wof:name":"Elbingerode",
     "wof:parent_id":1377686237,
     "wof:placetype":"locality",
-    "wof:population":4112,
-    "wof:population_rank":4,
+    "wof:population":444,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

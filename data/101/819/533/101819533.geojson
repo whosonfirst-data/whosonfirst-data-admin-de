@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03360029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wriedel",
+    "eurostat:nuts_2021_id":"03360029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE93A",
+    "eurostat:nuts_2021_level_lau":"03360029",
+    "eurostat:population":2354,
+    "eurostat:population_year":2020,
     "geom:area":0.014012,
     "geom:area_square_m":104211104.916986,
     "geom:bbox":"10.1457562087,52.9320842602,10.3439167395,53.0959080588",
@@ -285,7 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "wof:belongsto":[
         85682555,
@@ -296,6 +309,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03360029",
+        "eurostat:nuts_2021_id":"03360029",
         "gn:id":2806002,
         "gp:id":708078,
         "qs_pg:id":141551,
@@ -307,7 +322,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"396f088d2d959c3a4f61ab979a02f7ad",
+    "wof:geomhash":"5ac8644a4a0f0b02c4cd614eb7e4e157",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -319,11 +334,11 @@
         }
     ],
     "wof:id":101819533,
-    "wof:lastmodified":1582342426,
+    "wof:lastmodified":1684351906,
     "wof:name":"Wriedel",
     "wof:parent_id":1377688001,
     "wof:placetype":"locality",
-    "wof:population":2596,
+    "wof:population":2354,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08226063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plankstadt",
+    "eurostat:nuts_2021_id":"08226063",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE128",
+    "eurostat:nuts_2021_level_lau":"08226063",
+    "eurostat:population":10377,
+    "eurostat:population_year":2020,
     "geom:area":0.001027,
     "geom:area_square_m":8265694.081466,
     "geom:bbox":"8.569423,49.376967,8.617695,49.416463",
@@ -160,22 +172,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":32,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063481,
         1377688641,
         404227555,
-        85682567
+        102063481
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08226063",
+        "eurostat:nuts_2021_id":"08226063",
         "fct:id":"07528826-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2853435,
         "gp:id":685256,
@@ -191,7 +206,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"4b734d462c2e49702dcac995ab8e37fb",
+    "wof:geomhash":"ebef197f6b1ca5c9e5edeabef4ea128f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,12 +222,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050824,
+    "wof:lastmodified":1684351794,
     "wof:name":"Plankstadt",
     "wof:parent_id":1377688641,
     "wof:placetype":"locality",
-    "wof:population":9211,
-    "wof:population_rank":5,
+    "wof:population":10377,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_14524190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meerane, Stadt",
+    "eurostat:nuts_2021_id":"14524190",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DED",
+    "eurostat:nuts_2021_level_2":"DED4",
+    "eurostat:nuts_2021_level_3":"DED45",
+    "eurostat:nuts_2021_level_lau":"14524190",
+    "eurostat:population":14001,
+    "eurostat:population_year":2020,
     "geom:area":0.002554,
-    "geom:area_square_m":19937580.142101,
+    "geom:area_square_m":19937580.142102,
     "geom:bbox":"12.4087682526,50.8207562963,12.5188666012,50.8701252214",
     "geom:latitude":50.843656,
     "geom:longitude":12.461933,
@@ -172,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":148,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -187,6 +200,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_14524190",
+        "eurostat:nuts_2021_id":"14524190",
         "gn:id":2872519,
         "gp:id":674459,
         "qs_pg:id":969536,
@@ -198,7 +213,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"3d532c67d60485dc83e45699f41d59b0",
+    "wof:geomhash":"c5455983486cfd31ca505e7c6437eca6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -210,11 +225,11 @@
         }
     ],
     "wof:id":101823133,
-    "wof:lastmodified":1582342529,
+    "wof:lastmodified":1684351924,
     "wof:name":"Meerane",
     "wof:parent_id":1377686555,
     "wof:placetype":"locality",
-    "wof:population":17325,
+    "wof:population":14001,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

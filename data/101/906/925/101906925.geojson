@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kanzem",
+    "eurostat:nuts_2021_id":"07235055",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235055",
+    "eurostat:population":641,
+    "eurostat:population_year":2020,
     "geom:area":0.000519,
-    "geom:area_square_m":4152672.217603,
+    "geom:area_square_m":4152672.217604,
     "geom:bbox":"6.55841422455,49.6439495054,6.58777408912,49.6738418318",
     "geom:latitude":49.659361,
     "geom:longitude":6.573383,
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":67,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235055",
+        "eurostat:nuts_2021_id":"07235055",
         "gn:id":2893175,
         "gp:id":664797,
         "qs_pg:id":1147400,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d6379899c437032746f2bce94fa1dc7d",
+    "wof:geomhash":"4ab7d4a52b38d5e7c9f0f9aa59130ff5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101906925,
-    "wof:lastmodified":1582342327,
+    "wof:lastmodified":1684351983,
     "wof:name":"Kanzem",
     "wof:parent_id":1377686037,
     "wof:placetype":"locality",
-    "wof:population":602,
+    "wof:population":641,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

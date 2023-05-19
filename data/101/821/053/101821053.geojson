@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_15089045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Borne",
+    "eurostat:nuts_2021_id":"15089045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEE",
+    "eurostat:nuts_2021_level_2":"DEE0",
+    "eurostat:nuts_2021_level_3":"DEE0C",
+    "eurostat:nuts_2021_level_lau":"15089045",
+    "eurostat:population":1189,
+    "eurostat:population_year":2020,
     "geom:area":0.001996,
     "geom:area_square_m":15209675.767553,
     "geom:bbox":"11.52708705,51.9303471395,11.6065223337,51.9694031515",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":147,
     "wof:belongsto":[
         85682519,
@@ -155,6 +168,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_15089045",
+        "eurostat:nuts_2021_id":"15089045",
         "gn:id":2946177,
         "gp:id":640305,
         "qs_pg:id":142822,
@@ -169,7 +184,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e9df3b04b470896545e27f34dede53a6",
+    "wof:geomhash":"29ce711731a9af192dea86f322285805",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -181,11 +196,11 @@
         }
     ],
     "wof:id":101821053,
-    "wof:lastmodified":1582342419,
+    "wof:lastmodified":1684351915,
     "wof:name":"Borne",
     "wof:parent_id":1377689155,
     "wof:placetype":"locality",
-    "wof:population":1415,
+    "wof:population":1189,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

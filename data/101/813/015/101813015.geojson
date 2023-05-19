@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nohfelden",
+    "eurostat:nuts_2021_id":"10046114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046114",
+    "eurostat:population":9878,
+    "eurostat:population_year":2020,
     "geom:area":0.012516,
-    "geom:area_square_m":100355666.034422,
+    "geom:area_square_m":100355666.034423,
     "geom:bbox":"6.989562,49.522013,7.214007,49.639438",
     "geom:latitude":49.573984,
     "geom:longitude":7.084959,
@@ -297,21 +309,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063493,
         1377694109,
-        85682479
+        85633111,
+        102063493
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046114",
+        "eurostat:nuts_2021_id":"10046114",
         "gn:id":2862294,
         "gp:id":680252,
         "loc:id":"n83211507",
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"a9bd27d48808f1d175ab739ebd88cfae",
+    "wof:geomhash":"c999e4d59870dbe44979f2306a098bc2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,12 +354,12 @@
         }
     ],
     "wof:id":101813015,
-    "wof:lastmodified":1608051323,
+    "wof:lastmodified":1684351887,
     "wof:name":"Nohfelden",
     "wof:parent_id":1377694109,
     "wof:placetype":"locality",
-    "wof:population":10687,
-    "wof:population_rank":6,
+    "wof:population":9878,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

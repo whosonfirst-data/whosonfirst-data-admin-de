@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09475146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lichtenberg, St",
+    "eurostat:nuts_2021_id":"09475146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE249",
+    "eurostat:nuts_2021_level_lau":"09475146",
+    "eurostat:population":1037,
+    "eurostat:population_year":2020,
     "geom:area":0.001216,
     "geom:area_square_m":9588356.787791,
     "geom:bbox":"11.6379304721,50.3566197748,11.6946746402,50.3957868418",
@@ -292,7 +304,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":406,
     "wof:belongsto":[
         85682571,
@@ -304,6 +317,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09475146",
+        "eurostat:nuts_2021_id":"09475146",
         "gn:id":2878114,
         "gp:id":671580,
         "qs_pg:id":1039224,
@@ -314,7 +329,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"41736b45727da4688f2279a488010f4a",
+    "wof:geomhash":"c460c3a28b6cb8b4639027f79c01f8bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -327,11 +342,11 @@
         }
     ],
     "wof:id":101824411,
-    "wof:lastmodified":1582342541,
+    "wof:lastmodified":1684351928,
     "wof:name":"Lichtenberg",
     "wof:parent_id":1377688197,
     "wof:placetype":"locality",
-    "wof:population":1184,
+    "wof:population":1037,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

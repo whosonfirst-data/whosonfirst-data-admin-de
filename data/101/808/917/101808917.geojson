@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170052",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Xanten, Stadt",
+    "eurostat:nuts_2021_id":"05170052",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170052",
+    "eurostat:population":21607,
+    "eurostat:population_year":2020,
     "geom:area":0.009426,
-    "geom:area_square_m":72280855.490497,
+    "geom:area_square_m":72280855.490496,
     "geom:bbox":"6.354985,51.61334,6.51804,51.755139",
     "geom:latitude":51.673052,
     "geom:longitude":6.433824,
@@ -337,22 +349,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":2600,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689961,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170052",
+        "eurostat:nuts_2021_id":"05170052",
         "gn:id":2805385,
         "gp:id":708400,
         "qs_pg:id":1037977,
@@ -367,7 +382,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4f24ac1c0b4892515f5d6f8baa92fa84",
+    "wof:geomhash":"f9ffe3767d750caf84d20a19d71f740b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,11 +395,11 @@
         }
     ],
     "wof:id":101808917,
-    "wof:lastmodified":1608051706,
+    "wof:lastmodified":1684351865,
     "wof:name":"Xanten",
     "wof:parent_id":1377689961,
     "wof:placetype":"locality",
-    "wof:population":21587,
+    "wof:population":21607,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

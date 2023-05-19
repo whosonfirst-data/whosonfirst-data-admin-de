@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09674210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Untermerzbach",
+    "eurostat:nuts_2021_id":"09674210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE26",
+    "eurostat:nuts_2021_level_3":"DE267",
+    "eurostat:nuts_2021_level_lau":"09674210",
+    "eurostat:population":1703,
+    "eurostat:population_year":2020,
     "geom:area":0.00349,
     "geom:area_square_m":27671983.343676,
     "geom:bbox":"10.794853,50.072546,10.879029,50.157517",
@@ -161,22 +173,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063593,
         1377691035,
         404227569,
-        85682571
+        102063593
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09674210",
+        "eurostat:nuts_2021_id":"09674210",
         "gn:id":2819075,
         "gp:id":701257,
         "qs_pg:id":141625,
@@ -191,7 +206,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"5f4ff81945b8703f243ee6c13e645384",
+    "wof:geomhash":"2a8467857e2be8583626a146eef2f664",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
         }
     ],
     "wof:id":101825963,
-    "wof:lastmodified":1608051412,
+    "wof:lastmodified":1684351933,
     "wof:name":"Untermerzbach",
     "wof:parent_id":1377691035,
     "wof:placetype":"locality",
-    "wof:population":1759,
+    "wof:population":1703,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

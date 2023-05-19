@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09375210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"W\u00f6rth a.d.Donau, St",
+    "eurostat:nuts_2021_id":"09375210",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE238",
+    "eurostat:nuts_2021_level_lau":"09375210",
+    "eurostat:population":4909,
+    "eurostat:population_year":2020,
     "geom:area":0.006447,
-    "geom:area_square_m":52293187.616546,
+    "geom:area_square_m":52293187.616545,
     "geom:bbox":"12.3244689062,48.9719711509,12.4912740332,49.0471435293",
     "geom:latitude":49.004608,
     "geom:longitude":12.421925,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":49,
     "wof:belongsto":[
         85682571,
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09375210",
+        "eurostat:nuts_2021_id":"09375210",
         "gn:id":2806080,
         "gp:id":708032,
         "qs_pg:id":789264,
@@ -323,7 +338,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"920fea82a8d05aaa94814df7a34169dc",
+    "wof:geomhash":"acede2c04803678f043205495bd6a27b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101781985,
-    "wof:lastmodified":1582342635,
+    "wof:lastmodified":1684351821,
     "wof:name":"W\u00f6rth a.d. Donau",
     "wof:parent_id":1377686649,
     "wof:placetype":"locality",
-    "wof:population":4524,
+    "wof:population":4909,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

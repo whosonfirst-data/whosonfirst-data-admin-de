@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05158016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hilden, Stadt",
+    "eurostat:nuts_2021_id":"05158016",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1C",
+    "eurostat:nuts_2021_level_lau":"05158016",
+    "eurostat:population":55625,
+    "eurostat:population_year":2020,
     "geom:area":0.003356,
     "geom:area_square_m":26020545.162474,
     "geom:bbox":"6.891858,51.14055,6.985862,51.199015",
@@ -323,18 +335,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1013,
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063761,
         1377689651,
         404227561,
-        85682513
+        102063761
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05158016",
+        "eurostat:nuts_2021_id":"05158016",
         "gn:id":2904795,
         "gp:id":659890,
         "qs_pg:id":66861,
@@ -349,7 +364,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f374c8882bfea968eead5a533ff41fa2",
+    "wof:geomhash":"c96549147dc4c7963a717d6a88f3007f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101748675,
-    "wof:lastmodified":1608050551,
+    "wof:lastmodified":1684351787,
     "wof:name":"Hilden",
     "wof:parent_id":1377689651,
     "wof:placetype":"locality",
-    "wof:population":56565,
+    "wof:population":55625,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

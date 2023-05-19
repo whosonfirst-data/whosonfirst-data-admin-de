@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hattert",
+    "eurostat:nuts_2021_id":"07143235",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143235",
+    "eurostat:population":1748,
+    "eurostat:population_year":2020,
     "geom:area":0.001456,
-    "geom:area_square_m":11413456.829029,
+    "geom:area_square_m":11413456.829033,
     "geom:bbox":"7.73958318507,50.6215540106,7.79976504631,50.6783682283",
     "geom:latitude":50.657786,
     "geom:longitude":7.771947,
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1021,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143235",
+        "eurostat:nuts_2021_id":"07143235",
         "gn:id":3207732,
         "gp:id":20163049,
         "qs_pg:id":70102,
@@ -170,7 +185,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"61ee758a87c23ca7c463374cf773529a",
+    "wof:geomhash":"f56e25168cdb9bf6e3c968d8c0ed804c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101810807,
-    "wof:lastmodified":1582342407,
+    "wof:lastmodified":1684351875,
     "wof:name":"Hattert",
     "wof:parent_id":1377685771,
     "wof:placetype":"locality",
-    "wof:population":1767,
+    "wof:population":1748,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

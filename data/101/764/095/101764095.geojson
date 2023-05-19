@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08327054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wurmlingen",
+    "eurostat:nuts_2021_id":"08327054",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE137",
+    "eurostat:nuts_2021_level_lau":"08327054",
+    "eurostat:population":3822,
+    "eurostat:population_year":2020,
     "geom:area":0.00186,
-    "geom:area_square_m":15384885.730752,
+    "geom:area_square_m":15384885.730751,
     "geom:bbox":"8.73811021356,47.9816653543,8.83882950241,48.031287122",
     "geom:latitude":48.005047,
     "geom:longitude":8.779644,
@@ -158,7 +170,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -174,6 +187,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08327054",
+        "eurostat:nuts_2021_id":"08327054",
         "fct:id":"07159696-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2805666,
         "gp:id":708260,
@@ -188,7 +203,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"e42b0c2ee14ecc4852e03df1f2b28f76",
+    "wof:geomhash":"1257775bc46127613a8492292de0ffb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -204,11 +219,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342302,
+    "wof:lastmodified":1684351812,
     "wof:name":"Wurmlingen",
     "wof:parent_id":1377689647,
     "wof:placetype":"locality",
-    "wof:population":3812,
+    "wof:population":3822,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

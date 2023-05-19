@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zimmernsupra",
+    "eurostat:nuts_2021_id":"16067082",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067082",
+    "eurostat:population":346,
+    "eurostat:population_year":2020,
     "geom:area":0.000939,
     "geom:area_square_m":7308115.508124,
     "geom:bbox":"10.833643929,50.9762435775,10.8915797132,51.0063155624",
@@ -138,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":48,
     "wof:belongsto":[
         85682541,
@@ -149,6 +162,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067082",
+        "eurostat:nuts_2021_id":"16067082",
         "gn:id":2804158,
         "gp:id":709019,
         "qs_pg:id":576279,
@@ -160,7 +175,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"e4fee7e0ea0b36740fa81984e6ffd69e",
+    "wof:geomhash":"9ad8326fac0b5dd605d9a28382abb829",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +187,11 @@
         }
     ],
     "wof:id":101910345,
-    "wof:lastmodified":1582342658,
+    "wof:lastmodified":1684352006,
     "wof:name":"Zimmernsupra",
     "wof:parent_id":1377690157,
     "wof:placetype":"locality",
-    "wof:population":391,
+    "wof:population":346,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

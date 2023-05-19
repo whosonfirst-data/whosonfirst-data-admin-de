@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13076148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Weitendorf",
+    "eurostat:nuts_2021_id":"13076148",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80O",
+    "eurostat:nuts_2021_level_lau":"13076148",
+    "eurostat:population":380,
+    "eurostat:population_year":2020,
     "geom:area":0.005755,
-    "geom:area_square_m":42136091.461402,
+    "geom:area_square_m":42136091.461403,
     "geom:bbox":"11.6746453273,53.6439957191,11.7789146281,53.7434088744",
     "geom:latitude":53.690951,
     "geom:longitude":11.732784,
@@ -119,7 +131,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682487,
         102191581,
@@ -129,13 +142,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13076148",
+        "eurostat:nuts_2021_id":"13076148",
         "gn:id":2811675
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"deef7503dc4532404a7b85766bb78553",
+    "wof:geomhash":"410f263657ad4ad9cca2558ca3e16584",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +162,11 @@
         }
     ],
     "wof:id":1310687875,
-    "wof:lastmodified":1582342094,
+    "wof:lastmodified":1684352061,
     "wof:name":"Weitendorf",
     "wof:parent_id":1377685321,
     "wof:placetype":"locality",
-    "wof:population":374,
+    "wof:population":380,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

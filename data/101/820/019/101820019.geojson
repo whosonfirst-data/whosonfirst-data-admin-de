@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_03354018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00fcchow (Wendland), Stadt",
+    "eurostat:nuts_2021_id":"03354018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE93",
+    "eurostat:nuts_2021_level_3":"DE934",
+    "eurostat:nuts_2021_level_lau":"03354018",
+    "eurostat:population":9428,
+    "eurostat:population_year":2020,
     "geom:area":0.011959,
-    "geom:area_square_m":89026233.217281,
+    "geom:area_square_m":89026233.217285,
     "geom:bbox":"11.0642832834,52.9242512885,11.2597755076,53.0344586852",
     "geom:latitude":52.985221,
     "geom:longitude":11.159344,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682555,
         102191581,
@@ -310,6 +323,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_03354018",
+        "eurostat:nuts_2021_id":"03354018",
         "gn:id":2875542,
         "gp:id":672860,
         "qs_pg:id":142187,
@@ -321,7 +336,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"f0bb402b31a6b1d38b88f41be19151e2",
+    "wof:geomhash":"2eb4b02f02d63a660510f5c09001f649",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -333,11 +348,11 @@
         }
     ],
     "wof:id":101820019,
-    "wof:lastmodified":1582342380,
+    "wof:lastmodified":1684351911,
     "wof:name":"L\u00fcchow (Wendland)",
     "wof:parent_id":1377687439,
     "wof:placetype":"locality",
-    "wof:population":9678,
+    "wof:population":9428,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

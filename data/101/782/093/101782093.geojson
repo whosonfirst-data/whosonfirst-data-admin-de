@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09571214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wassertr\u00fcdingen, St",
+    "eurostat:nuts_2021_id":"09571214",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE25",
+    "eurostat:nuts_2021_level_3":"DE256",
+    "eurostat:nuts_2021_level_lau":"09571214",
+    "eurostat:population":6053,
+    "eurostat:population_year":2020,
     "geom:area":0.006593,
-    "geom:area_square_m":53440207.605958,
+    "geom:area_square_m":53440207.605962,
     "geom:bbox":"10.486135,49.005746,10.688235,49.083858",
     "geom:latitude":49.0409,
     "geom:longitude":10.608881,
@@ -304,18 +316,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":140,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063451,
         1377688999,
         404227565,
-        85682571
+        102063451
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09571214",
+        "eurostat:nuts_2021_id":"09571214",
         "gn:id":2813700,
         "gp:id":704135,
         "qs_pg:id":185958,
@@ -330,7 +345,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"0ee0c1ccb2a608326b6cd252e3ec901e",
+    "wof:geomhash":"16a5d93d23b4bafb72115e98285331e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -343,11 +358,11 @@
         }
     ],
     "wof:id":101782093,
-    "wof:lastmodified":1608050537,
+    "wof:lastmodified":1684351823,
     "wof:name":"Wassertr\u00fcdingen",
     "wof:parent_id":1377688999,
     "wof:placetype":"locality",
-    "wof:population":6245,
+    "wof:population":6053,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

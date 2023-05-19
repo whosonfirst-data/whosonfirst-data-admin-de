@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gro\u00dfseifen",
+    "eurostat:nuts_2021_id":"07143227",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143227",
+    "eurostat:population":634,
+    "eurostat:population_year":2020,
     "geom:area":0.000193,
     "geom:area_square_m":1517017.733465,
     "geom:bbox":"7.95796785728,50.6279963138,7.97933796818,50.6408729036",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":290,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143227",
+        "eurostat:nuts_2021_id":"07143227",
         "gn:id":2915035,
         "gp:id":636463,
         "qs_pg:id":93772,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"ac56368283d87d34868d5a9901877c19",
+    "wof:geomhash":"04462e5c6bf4df66ab478580a25dbb57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101907415,
-    "wof:lastmodified":1582342307,
+    "wof:lastmodified":1684351987,
     "wof:name":"Gro\u00dfseifen",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":577,
+    "wof:population":634,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

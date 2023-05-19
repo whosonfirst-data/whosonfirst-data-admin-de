@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12067440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sch\u00f6neiche bei Berlin",
+    "eurostat:nuts_2021_id":"12067440",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40C",
+    "eurostat:nuts_2021_level_lau":"12067440",
+    "eurostat:population":12789,
+    "eurostat:population_year":2020,
     "geom:area":0.002261,
     "geom:area_square_m":17023941.322297,
     "geom:bbox":"13.666980239,52.4542642783,13.7436324087,52.5027642877",
@@ -318,7 +330,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bundesland Brandenburg",
@@ -332,6 +345,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12067440",
+        "eurostat:nuts_2021_id":"12067440",
         "gn:id":2836746,
         "gp:id":20161326,
         "qs_pg:id":482550,
@@ -342,7 +357,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"083ebaaab3e74f64c7b75f4cf4054ad4",
+    "wof:geomhash":"6b898299492be6606a219825df8cdeab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101841447,
-    "wof:lastmodified":1582342519,
+    "wof:lastmodified":1684351953,
     "wof:name":"Sch\u00f6neiche bei Berlin",
     "wof:parent_id":1377683563,
     "wof:placetype":"locality",
-    "wof:population":11990,
+    "wof:population":12789,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

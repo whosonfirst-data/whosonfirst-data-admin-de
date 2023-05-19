@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Euscheid",
+    "eurostat:nuts_2021_id":"07232221",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232221",
+    "eurostat:population":139,
+    "eurostat:population_year":2020,
     "geom:area":0.000451,
     "geom:area_square_m":3577300.949846,
     "geom:bbox":"6.28633481811,50.1244749385,6.31587146771,50.1496921331",
@@ -270,7 +282,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -280,6 +293,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232221",
+        "eurostat:nuts_2021_id":"07232221",
         "gn:id":2928399,
         "qs_pg:id":93904,
         "wd:id":"Q567614"
@@ -289,7 +304,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"a9b24c8418816035b68fd4cb60289d88",
+    "wof:geomhash":"5c3e5fe866f61f3c2647c5a55a25c061",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +316,11 @@
         }
     ],
     "wof:id":1126037523,
-    "wof:lastmodified":1582342982,
+    "wof:lastmodified":1684352053,
     "wof:name":"Euscheid",
     "wof:parent_id":1377685925,
     "wof:placetype":"locality",
-    "wof:population":162,
+    "wof:population":139,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08315070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00f6ffingen, Stadt",
+    "eurostat:nuts_2021_id":"08315070",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE132",
+    "eurostat:nuts_2021_level_lau":"08315070",
+    "eurostat:population":7617,
+    "eurostat:population_year":2020,
     "geom:area":0.010574,
     "geom:area_square_m":87688717.138561,
     "geom:bbox":"8.26748482967,47.8389116581,8.43973374379,47.9434519413",
@@ -310,7 +322,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":88.03,
     "wd:latitude":47.883889,
     "wd:longitude":8.343611,
@@ -330,6 +343,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08315070",
+        "eurostat:nuts_2021_id":"08315070",
         "gn:id":2876461,
         "gp:id":672391,
         "qs_pg:id":1235028,
@@ -341,7 +356,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"57ca7a71c0489d084d10e95e5f8bc23e",
+    "wof:geomhash":"8ef3e70c7241f1e9c1e64c6048b24ffa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -354,11 +369,11 @@
         }
     ],
     "wof:id":101765339,
-    "wof:lastmodified":1582342334,
+    "wof:lastmodified":1684351818,
     "wof:name":"L\u00f6ffingen",
     "wof:parent_id":1377689223,
     "wof:placetype":"locality",
-    "wof:population":6868,
+    "wof:population":7617,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

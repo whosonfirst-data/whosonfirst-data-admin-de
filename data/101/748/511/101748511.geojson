@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08115045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sindelfingen, Stadt",
+    "eurostat:nuts_2021_id":"08115045",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE112",
+    "eurostat:nuts_2021_level_lau":"08115045",
+    "eurostat:population":64905,
+    "eurostat:population_year":2020,
     "geom:area":0.006197,
-    "geom:area_square_m":50560405.184581,
+    "geom:area_square_m":50560405.184578,
     "geom:bbox":"8.904969,48.673666,9.10831,48.74721",
     "geom:latitude":48.712314,
     "geom:longitude":9.003974,
@@ -324,22 +336,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":50.82,
     "wd:latitude":48.713333,
     "wd:longitude":9.002778,
     "wd:population":33011,
     "wd:wordcount":615,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063351,
         1377686867,
         404227549,
-        85682567
+        102063351
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08115045",
+        "eurostat:nuts_2021_id":"08115045",
         "fct:id":"07586f98-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2831948,
         "gp:id":695142,
@@ -355,7 +370,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2f179a5625bd218919298f2038141a8e",
+    "wof:geomhash":"3714d66ab2f4b67af2612fef2a7ff5a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,12 +386,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050570,
+    "wof:lastmodified":1684351785,
     "wof:name":"Sindelfingen",
     "wof:parent_id":1377686867,
     "wof:placetype":"locality",
-    "wof:population":33011,
-    "wof:population_rank":7,
+    "wof:population":64905,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

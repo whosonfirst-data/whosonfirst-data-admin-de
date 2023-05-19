@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06633029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Zierenberg, Stadt",
+    "eurostat:nuts_2021_id":"06633029",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE73",
+    "eurostat:nuts_2021_level_3":"DE734",
+    "eurostat:nuts_2021_level_lau":"06633029",
+    "eurostat:population":6572,
+    "eurostat:population_year":2020,
     "geom:area":0.011208,
-    "geom:area_square_m":86509336.298476,
+    "geom:area_square_m":86509336.298478,
     "geom:bbox":"9.204896,51.289127,9.351952,51.438151",
     "geom:latitude":51.375369,
     "geom:longitude":9.271624,
@@ -304,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":51.366667,
     "wd:longitude":9.3,
     "wd:wordcount":35,
@@ -313,15 +326,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063811,
         1377685319,
         404227551,
-        85682531
+        102063811
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06633029",
+        "eurostat:nuts_2021_id":"06633029",
         "gn:id":2804297,
         "gp:id":708949,
         "qs_pg:id":978231,
@@ -336,7 +351,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"95ff88d08ed6bcbe2cf8f19ae2e1e79d",
+    "wof:geomhash":"f0c330a13dbc90377e0ca1665532f499",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -349,11 +364,11 @@
         }
     ],
     "wof:id":101810225,
-    "wof:lastmodified":1608050091,
+    "wof:lastmodified":1684351872,
     "wof:name":"Zierenberg",
     "wof:parent_id":1377685319,
     "wof:placetype":"locality",
-    "wof:population":6782,
+    "wof:population":6572,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

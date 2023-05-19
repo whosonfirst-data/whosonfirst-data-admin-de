@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09778137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ettringen",
+    "eurostat:nuts_2021_id":"09778137",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27C",
+    "eurostat:nuts_2021_level_lau":"09778137",
+    "eurostat:population":3492,
+    "eurostat:population_year":2020,
     "geom:area":0.004987,
-    "geom:area_square_m":41161013.938379,
+    "geom:area_square_m":41161013.938381,
     "geom:bbox":"10.603562,48.083504,10.701161,48.173589",
     "geom:latitude":48.125897,
     "geom:longitude":10.659473,
@@ -136,18 +148,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":25,
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063255,
         1377693133,
         404227547,
-        85682571
+        102063255
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09778137",
+        "eurostat:nuts_2021_id":"09778137",
         "gn:id":3208331,
         "gp:id":15002615,
         "qs_pg:id":375240,
@@ -162,7 +177,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"c4577441f7dd391bd9f62eabc36083af",
+    "wof:geomhash":"313cca5ca7fe14962c40d4046be7fa6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -175,11 +190,11 @@
         }
     ],
     "wof:id":101786511,
-    "wof:lastmodified":1608051953,
+    "wof:lastmodified":1684351838,
     "wof:name":"Ettringen",
     "wof:parent_id":1377693133,
     "wof:placetype":"locality",
-    "wof:population":3372,
+    "wof:population":3492,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

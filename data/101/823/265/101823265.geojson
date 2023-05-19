@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16077012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00f6\u00dfnitz, Stadt",
+    "eurostat:nuts_2021_id":"16077012",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0M",
+    "eurostat:nuts_2021_level_lau":"16077012",
+    "eurostat:population":3386,
+    "eurostat:population_year":2020,
     "geom:area":0.001811,
-    "geom:area_square_m":14127656.366496,
+    "geom:area_square_m":14127656.366495,
     "geom:bbox":"12.3965074275,50.8625839225,12.4866660461,50.901876781",
     "geom:latitude":50.885609,
     "geom:longitude":12.440635,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":66,
     "wof:belongsto":[
         85682541,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16077012",
+        "eurostat:nuts_2021_id":"16077012",
         "gn:id":2918770,
         "gp:id":653500,
         "qs_pg:id":347865,
@@ -168,7 +183,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"2657bb0f3a59cb05a6843a0d1dae98df",
+    "wof:geomhash":"6b9f94059b58d75d63f759876178477c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -180,11 +195,11 @@
         }
     ],
     "wof:id":101823265,
-    "wof:lastmodified":1582342535,
+    "wof:lastmodified":1684351925,
     "wof:name":"G\u00f6\u00dfnitz",
     "wof:parent_id":1377691081,
     "wof:placetype":"locality",
-    "wof:population":4104,
+    "wof:population":3386,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

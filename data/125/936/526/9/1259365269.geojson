@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16067059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schwabhausen",
+    "eurostat:nuts_2021_id":"16067059",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0C",
+    "eurostat:nuts_2021_level_lau":"16067059",
+    "eurostat:population":773,
+    "eurostat:population_year":2020,
     "geom:area":0.001231,
     "geom:area_square_m":9603172.153995,
     "geom:bbox":"10.7073258748,50.8579656596,10.7493760101,50.9087894489",
@@ -134,7 +146,8 @@
         "geonames"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682541,
         102191581,
@@ -144,13 +157,15 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16067059",
+        "eurostat:nuts_2021_id":"16067059",
         "gn:id":2835494
     },
     "wof:country":"DE",
     "wof:geom_alt":[
         "geonames"
     ],
-    "wof:geomhash":"a4f586ef9b908dc73bdae5940c4002cd",
+    "wof:geomhash":"7ee31e0a7915c5bd1bb381488a6fc423",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":1259365269,
-    "wof:lastmodified":1582343106,
+    "wof:lastmodified":1684352058,
     "wof:name":"Schwabhausen",
     "wof:parent_id":1377690185,
     "wof:placetype":"locality",
-    "wof:population":685,
+    "wof:population":773,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

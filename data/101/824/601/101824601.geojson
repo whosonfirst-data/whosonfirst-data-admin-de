@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_16073067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Probstzella",
+    "eurostat:nuts_2021_id":"16073067",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEG",
+    "eurostat:nuts_2021_level_2":"DEG0",
+    "eurostat:nuts_2021_level_3":"DEG0I",
+    "eurostat:nuts_2021_level_lau":"16073067",
+    "eurostat:population":2851,
+    "eurostat:population_year":2020,
     "geom:area":0.009401,
-    "geom:area_square_m":73858554.441452,
+    "geom:area_square_m":73858554.441448,
     "geom:bbox":"11.2734439087,50.4957090155,11.4825035427,50.6153854973",
     "geom:latitude":50.551259,
     "geom:longitude":11.384247,
@@ -147,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":118,
     "wof:belongsto":[
         85682541,
@@ -158,6 +171,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_16073067",
+        "eurostat:nuts_2021_id":"16073067",
         "gn:id":2851928,
         "gp:id":686086,
         "qs_pg:id":279197,
@@ -172,7 +187,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"fd4e03e059c4ead615b0bfc719a207a9",
+    "wof:geomhash":"405ae3aa9251f7128d8d63779348ece6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +199,11 @@
         }
     ],
     "wof:id":101824601,
-    "wof:lastmodified":1582342542,
+    "wof:lastmodified":1684351930,
     "wof:name":"Probstzella",
     "wof:parent_id":1377688991,
     "wof:placetype":"locality",
-    "wof:population":3122,
+    "wof:population":2851,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

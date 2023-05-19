@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13072057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Kritzmow",
+    "eurostat:nuts_2021_id":"13072057",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80K",
+    "eurostat:nuts_2021_level_lau":"13072057",
+    "eurostat:population":3900,
+    "eurostat:population_year":2020,
     "geom:area":0.002037,
-    "geom:area_square_m":14781488.119204,
+    "geom:area_square_m":14781488.119203,
     "geom:bbox":"12.0112843293,54.0279556046,12.0797647886,54.0950308248",
     "geom:latitude":54.064641,
     "geom:longitude":12.04869,
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":33,
     "wof:belongsto":[
         85682487,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13072057",
+        "eurostat:nuts_2021_id":"13072057",
         "gn:id":2883860,
         "gp:id":666620,
         "qs_pg:id":93541,
@@ -150,7 +165,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"4389d2ce5ea49fd4194bed188fd58be5",
+    "wof:geomhash":"fbaff87ac610680aa1b6bf15cefec76e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +177,11 @@
         }
     ],
     "wof:id":101818959,
-    "wof:lastmodified":1582342363,
+    "wof:lastmodified":1684351905,
     "wof:name":"Kritzmow",
     "wof:parent_id":1377684731,
     "wof:placetype":"locality",
-    "wof:population":3132,
+    "wof:population":3900,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

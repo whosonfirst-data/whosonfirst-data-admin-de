@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08225114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ravenstein, Stadt",
+    "eurostat:nuts_2021_id":"08225114",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE127",
+    "eurostat:nuts_2021_level_lau":"08225114",
+    "eurostat:population":2905,
+    "eurostat:population_year":2020,
     "geom:area":0.006961,
-    "geom:area_square_m":55999345.410494,
+    "geom:area_square_m":55999345.410495,
     "geom:bbox":"9.44773731047,49.3753066404,9.60382291575,49.4498053532",
     "geom:latitude":49.410144,
     "geom:longitude":9.530889,
@@ -300,7 +312,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":55.97,
     "wd:latitude":49.401111,
     "wd:longitude":9.507778,
@@ -316,6 +329,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08225114",
+        "eurostat:nuts_2021_id":"08225114",
         "gn:id":3209117,
         "gp:id":15002749,
         "qs_pg:id":581873,
@@ -326,7 +341,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af9e6bbff9bb47de0354a2342ee56f55",
+    "wof:geomhash":"a162a7ca92ead900778907bc3a502a8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -339,11 +354,11 @@
         }
     ],
     "wof:id":101815741,
-    "wof:lastmodified":1582342553,
+    "wof:lastmodified":1684351895,
     "wof:name":"Ravenstein",
     "wof:parent_id":1377688525,
     "wof:placetype":"locality",
-    "wof:population":2532,
+    "wof:population":2905,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

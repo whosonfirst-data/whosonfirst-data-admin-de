@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10046115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nonnweiler",
+    "eurostat:nuts_2021_id":"10046115",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC06",
+    "eurostat:nuts_2021_level_lau":"10046115",
+    "eurostat:population":8416,
+    "eurostat:population_year":2020,
     "geom:area":0.008313,
-    "geom:area_square_m":66644727.690456,
+    "geom:area_square_m":66644727.690457,
     "geom:bbox":"6.890421,49.509327,7.041316,49.635888",
     "geom:latitude":49.582589,
     "geom:longitude":6.975332,
@@ -318,21 +330,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":68,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063493,
         1377694117,
-        85682479
+        85633111,
+        102063493
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10046115",
+        "eurostat:nuts_2021_id":"10046115",
         "gn:id":2919102,
         "gp:id":680287,
         "qs_pg:id":275886,
@@ -350,7 +365,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"454c4bc8ae43ab31a26988841162db56",
+    "wof:geomhash":"7d0a3bcf75a77d3c04ff5af7721020f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -362,11 +377,11 @@
         }
     ],
     "wof:id":101813011,
-    "wof:lastmodified":1608051376,
+    "wof:lastmodified":1684351886,
     "wof:name":"Nonnweiler",
     "wof:parent_id":1377694117,
     "wof:placetype":"locality",
-    "wof:population":9417,
+    "wof:population":8416,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

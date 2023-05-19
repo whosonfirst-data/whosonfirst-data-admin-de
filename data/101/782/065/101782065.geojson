@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09373134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hohenfels, M",
+    "eurostat:nuts_2021_id":"09373134",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE23",
+    "eurostat:nuts_2021_level_3":"DE236",
+    "eurostat:nuts_2021_level_lau":"09373134",
+    "eurostat:population":2197,
+    "eurostat:population_year":2020,
     "geom:area":0.016932,
-    "geom:area_square_m":136731045.391558,
+    "geom:area_square_m":136731045.391549,
     "geom:bbox":"11.768274,49.151073,11.942517,49.298746",
     "geom:latitude":49.225748,
     "geom:longitude":11.851256,
@@ -304,22 +316,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":324,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063439,
         1377686071,
         404227545,
-        85682571
+        102063439
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09373134",
+        "eurostat:nuts_2021_id":"09373134",
         "gn:id":2901774,
         "gp:id":661168,
         "qs_pg:id":1344356,
@@ -334,7 +349,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"8c77fbcd2c80157ad7ba54d9b5fc57f3",
+    "wof:geomhash":"6558a733d5bcfe7592a60400cbec4cea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -347,11 +362,11 @@
         }
     ],
     "wof:id":101782065,
-    "wof:lastmodified":1608050509,
+    "wof:lastmodified":1684351822,
     "wof:name":"Hohenfels",
     "wof:parent_id":1377686071,
     "wof:placetype":"locality",
-    "wof:population":2156,
+    "wof:population":2197,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

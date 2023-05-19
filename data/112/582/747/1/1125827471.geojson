@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07140146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sohrschied",
+    "eurostat:nuts_2021_id":"07140146",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1D",
+    "eurostat:nuts_2021_level_lau":"07140146",
+    "eurostat:population":121,
+    "eurostat:population_year":2020,
     "geom:area":0.000556,
     "geom:area_square_m":4431444.420918,
     "geom:bbox":"7.33033094636,49.8956885734,7.3810569912,49.9141869861",
@@ -108,7 +120,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -118,6 +131,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07140146",
+        "eurostat:nuts_2021_id":"07140146",
         "gn:id":2831626,
         "qs_pg:id":576898,
         "wd:id":"Q818636"
@@ -127,7 +142,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"dc7c5f22a69415df5a03ef55a480bfa8",
+    "wof:geomhash":"3e4e4f618705c86e20c2a7cae6e80e56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -139,11 +154,11 @@
         }
     ],
     "wof:id":1125827471,
-    "wof:lastmodified":1582343026,
+    "wof:lastmodified":1684352017,
     "wof:name":"Sohrschied",
     "wof:parent_id":1377685687,
     "wof:placetype":"locality",
-    "wof:population":91,
+    "wof:population":121,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08415050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Metzingen, Stadt",
+    "eurostat:nuts_2021_id":"08415050",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE141",
+    "eurostat:nuts_2021_level_lau":"08415050",
+    "eurostat:population":22069,
+    "eurostat:population_year":2020,
     "geom:area":0.004195,
-    "geom:area_square_m":34353090.885729,
+    "geom:area_square_m":34353090.885728,
     "geom:bbox":"9.23861456209,48.4924918786,9.34545259002,48.5619715509",
     "geom:latitude":48.528191,
     "geom:longitude":9.289263,
@@ -340,7 +352,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":48.536667,
     "wd:longitude":9.285833,
     "wd:wordcount":369,
@@ -358,6 +371,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08415050",
+        "eurostat:nuts_2021_id":"08415050",
         "gn:id":2871486,
         "gp:id":675069,
         "qs_pg:id":455905,
@@ -369,7 +384,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5399185b9b62bda7432912a402db4e7f",
+    "wof:geomhash":"8ed05485b1e4c496f04dfd7b43350b0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -382,11 +397,11 @@
         }
     ],
     "wof:id":101826691,
-    "wof:lastmodified":1582342441,
+    "wof:lastmodified":1684351935,
     "wof:name":"Metzingen",
     "wof:parent_id":1377689947,
     "wof:placetype":"locality",
-    "wof:population":22112,
+    "wof:population":22069,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

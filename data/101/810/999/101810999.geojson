@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_06534018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stadtallendorf, Stadt",
+    "eurostat:nuts_2021_id":"06534018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE7",
+    "eurostat:nuts_2021_level_2":"DE72",
+    "eurostat:nuts_2021_level_3":"DE724",
+    "eurostat:nuts_2021_level_lau":"06534018",
+    "eurostat:population":21391,
+    "eurostat:population_year":2020,
     "geom:area":0.00998,
-    "geom:area_square_m":77943508.810225,
+    "geom:area_square_m":77943508.810229,
     "geom:bbox":"8.950202,50.751395,9.098908,50.909881",
     "geom:latitude":50.8319,
     "geom:longitude":9.018738,
@@ -313,7 +325,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:latitude":50.833333,
     "wd:longitude":9.016667,
     "wd:wordcount":922,
@@ -322,15 +335,17 @@
     "woe:name_adm1":"Hessen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682531,
         102191581,
         85633111,
-        102063691,
         1377683911,
         404227577,
-        85682531
+        102063691
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_06534018",
+        "eurostat:nuts_2021_id":"06534018",
         "gn:id":2829804,
         "gp:id":696210,
         "qs_pg:id":1074716,
@@ -345,7 +360,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"eb7b135bc126cb61b557e19d3c02052e",
+    "wof:geomhash":"9cd7cf6cc3c022070278b76473fe378c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -358,11 +373,11 @@
         }
     ],
     "wof:id":101810999,
-    "wof:lastmodified":1608050029,
+    "wof:lastmodified":1684351878,
     "wof:name":"Stadtallendorf",
     "wof:parent_id":1377683911,
     "wof:placetype":"locality",
-    "wof:population":21720,
+    "wof:population":21391,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

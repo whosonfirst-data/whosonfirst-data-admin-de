@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_10041517",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Riegelsberg",
+    "eurostat:nuts_2021_id":"10041517",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEC",
+    "eurostat:nuts_2021_level_2":"DEC0",
+    "eurostat:nuts_2021_level_3":"DEC01",
+    "eurostat:nuts_2021_level_lau":"10041517",
+    "eurostat:population":14366,
+    "eurostat:population_year":2020,
     "geom:area":0.001706,
     "geom:area_square_m":13749954.906148,
     "geom:bbox":"6.90138,49.283276,6.981734,49.331115",
@@ -300,21 +312,24 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Saarland",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682479,
         102191581,
-        85633111,
-        102063433,
         1377693741,
-        85682479
+        85633111,
+        102063433
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_10041517",
+        "eurostat:nuts_2021_id":"10041517",
         "gn:id":2847033,
         "gp:id":688612,
         "qs_pg:id":1038616,
@@ -329,7 +344,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"488c1d3f3f203b15966cc2d822e23b7d",
+    "wof:geomhash":"512f09722527336c38fc4d0f796e58a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -341,11 +356,11 @@
         }
     ],
     "wof:id":101759599,
-    "wof:lastmodified":1608050953,
+    "wof:lastmodified":1684351798,
     "wof:name":"Riegelsberg",
     "wof:parent_id":1377693741,
     "wof:placetype":"locality",
-    "wof:population":15647,
+    "wof:population":14366,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

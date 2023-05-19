@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07235022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fell",
+    "eurostat:nuts_2021_id":"07235022",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB25",
+    "eurostat:nuts_2021_level_lau":"07235022",
+    "eurostat:population":2421,
+    "eurostat:population_year":2020,
     "geom:area":0.001951,
     "geom:area_square_m":15579352.944226,
     "geom:bbox":"6.75750358535,49.7464130292,6.83560457118,49.7981744907",
@@ -129,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":1261,
     "wof:belongsto":[
         85682491,
@@ -140,6 +153,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07235022",
+        "eurostat:nuts_2021_id":"07235022",
         "gn:id":2927273,
         "gp:id":649528,
         "qs_pg:id":93886,
@@ -151,7 +166,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"7f293aebbe46524a4e10bddb2e28ca2b",
+    "wof:geomhash":"7a3e7b1d3b4edbce76aa07575b18ed28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +178,11 @@
         }
     ],
     "wof:id":101813347,
-    "wof:lastmodified":1582342567,
+    "wof:lastmodified":1684351890,
     "wof:name":"Fell",
     "wof:parent_id":1377686065,
     "wof:placetype":"locality",
-    "wof:population":2342,
+    "wof:population":2421,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01060018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dreggers",
+    "eurostat:nuts_2021_id":"01060018",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0D",
+    "eurostat:nuts_2021_level_lau":"01060018",
+    "eurostat:population":51,
+    "eurostat:population_year":2020,
     "geom:area":0.000382,
     "geom:area_square_m":2781726.553842,
     "geom:bbox":"10.3257100594,53.8727422728,10.3595012497,53.8881013255",
@@ -123,7 +135,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682517,
         102191581,
@@ -133,6 +146,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01060018",
+        "eurostat:nuts_2021_id":"01060018",
         "gn:id":2935261,
         "qs_pg:id":579351,
         "wd:id":"Q558203"
@@ -142,7 +157,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"5afcb349c75269ad1ab823d690fdc698",
+    "wof:geomhash":"9a5c34eb0e56d8a09b0e89f6ad4e966f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -154,11 +169,11 @@
         }
     ],
     "wof:id":1126014205,
-    "wof:lastmodified":1582343018,
+    "wof:lastmodified":1684352047,
     "wof:name":"Dreggers",
     "wof:parent_id":1377684607,
     "wof:placetype":"locality",
-    "wof:population":56,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

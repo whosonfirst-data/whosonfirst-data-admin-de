@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05170004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alpen",
+    "eurostat:nuts_2021_id":"05170004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1F",
+    "eurostat:nuts_2021_level_lau":"05170004",
+    "eurostat:population":12479,
+    "eurostat:population_year":2020,
     "geom:area":0.007714,
-    "geom:area_square_m":59253575.511807,
+    "geom:area_square_m":59253575.51181,
     "geom:bbox":"6.413623,51.554727,6.563121,51.631806",
     "geom:latitude":51.596534,
     "geom:longitude":6.488882,
@@ -314,22 +326,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063833,
         1377689865,
         404227561,
-        85682513
+        102063833
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05170004",
+        "eurostat:nuts_2021_id":"05170004",
         "gn:id":2958188,
         "gp:id":634105,
         "qs_pg:id":1040317,
@@ -344,7 +359,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"192fb40c767fc1d26490e3ab8035db28",
+    "wof:geomhash":"a87096c0905e53bd4128a6bc3cb33b27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -357,11 +372,11 @@
         }
     ],
     "wof:id":101808923,
-    "wof:lastmodified":1608051684,
+    "wof:lastmodified":1684351865,
     "wof:name":"Alpen",
     "wof:parent_id":1377689865,
     "wof:placetype":"locality",
-    "wof:population":12908,
+    "wof:population":12479,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

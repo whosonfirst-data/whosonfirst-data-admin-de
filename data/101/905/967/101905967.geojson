@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Althornbach",
+    "eurostat:nuts_2021_id":"07340201",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340201",
+    "eurostat:population":666,
+    "eurostat:population_year":2020,
     "geom:area":0.000697,
     "geom:area_square_m":5630964.713099,
     "geom:bbox":"7.34350623458,49.1938376039,7.40303834255,49.2183093144",
@@ -291,7 +303,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -302,6 +315,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340201",
+        "eurostat:nuts_2021_id":"07340201",
         "gn:id":2957113,
         "gp:id":634726,
         "qs_pg:id":94216,
@@ -313,7 +328,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"a97459f7a1ad91c4cf59b48c00b8d9e6",
+    "wof:geomhash":"b0748f0c6893aec764362a3ecb63fe77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -325,11 +340,11 @@
         }
     ],
     "wof:id":101905967,
-    "wof:lastmodified":1582342507,
+    "wof:lastmodified":1684351975,
     "wof:name":"Althornbach",
     "wof:parent_id":1377686787,
     "wof:placetype":"locality",
-    "wof:population":789,
+    "wof:population":666,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

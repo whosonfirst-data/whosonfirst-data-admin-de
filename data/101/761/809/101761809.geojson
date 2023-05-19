@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08116077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Filderstadt, Stadt",
+    "eurostat:nuts_2021_id":"08116077",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE11",
+    "eurostat:nuts_2021_level_3":"DE113",
+    "eurostat:nuts_2021_level_lau":"08116077",
+    "eurostat:population":46083,
+    "eurostat:population_year":2020,
     "geom:area":0.004645,
-    "geom:area_square_m":37936701.018472,
+    "geom:area_square_m":37936701.018471,
     "geom:bbox":"9.1602,48.623727,9.270617,48.694629",
     "geom:latitude":48.659694,
     "geom:longitude":9.216257,
@@ -334,7 +346,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:area":38.54,
     "wd:latitude":48.666667,
     "wd:longitude":9.216667,
@@ -345,15 +358,17 @@
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063329,
         1377687037,
         404227549,
-        85682567
+        102063329
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08116077",
+        "eurostat:nuts_2021_id":"08116077",
         "fct:id":"07155762-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":3336891,
         "gp:id":649691,
@@ -370,7 +385,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"d6035ad28340ddd8ff33b67ef12a6de8",
+    "wof:geomhash":"0b3d08a14e7594170a57be55ac6aa090",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -386,12 +401,12 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1608050927,
+    "wof:lastmodified":1684351805,
     "wof:name":"Filderstadt",
     "wof:parent_id":1377687037,
     "wof:placetype":"locality",
-    "wof:population":18273,
-    "wof:population_rank":6,
+    "wof:population":46083,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

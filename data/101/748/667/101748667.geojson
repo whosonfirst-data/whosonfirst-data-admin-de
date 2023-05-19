@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_05162004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dormagen, Stadt",
+    "eurostat:nuts_2021_id":"05162004",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEA",
+    "eurostat:nuts_2021_level_2":"DEA1",
+    "eurostat:nuts_2021_level_3":"DEA1D",
+    "eurostat:nuts_2021_level_lau":"05162004",
+    "eurostat:population":64340,
+    "eurostat:population_year":2020,
     "geom:area":0.010948,
-    "geom:area_square_m":85001508.553207,
+    "geom:area_square_m":85001508.553205,
     "geom:bbox":"6.696416,51.046108,6.883558,51.162906",
     "geom:latitude":51.104654,
     "geom:longitude":6.795302,
@@ -328,22 +340,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":170,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Nordrhein-Westfalen",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682513,
         102191581,
         85633111,
-        102063757,
         1377689713,
         404227561,
-        85682513
+        102063757
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_05162004",
+        "eurostat:nuts_2021_id":"05162004",
         "gn:id":2935825,
         "gp:id":645291,
         "qs_pg:id":346802,
@@ -358,7 +373,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"756eaa273c11a4c81d7a7690c1265719",
+    "wof:geomhash":"a959ca8cc7e126934e6d99b11477b06e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -371,11 +386,11 @@
         }
     ],
     "wof:id":101748667,
-    "wof:lastmodified":1608050561,
+    "wof:lastmodified":1684351787,
     "wof:name":"Dormagen",
     "wof:parent_id":1377689713,
     "wof:placetype":"locality",
-    "wof:population":63582,
+    "wof:population":64340,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

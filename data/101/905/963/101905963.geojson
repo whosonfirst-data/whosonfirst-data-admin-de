@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07340035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"N\u00fcnschweiler",
+    "eurostat:nuts_2021_id":"07340035",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3K",
+    "eurostat:nuts_2021_level_lau":"07340035",
+    "eurostat:population":748,
+    "eurostat:population_year":2020,
     "geom:area":0.001251,
     "geom:area_square_m":10104899.999168,
     "geom:bbox":"7.48136370401,49.1966614022,7.54172077696,49.2355169242",
@@ -279,7 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682491,
@@ -290,6 +303,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07340035",
+        "eurostat:nuts_2021_id":"07340035",
         "gn:id":2861662,
         "gp:id":680557,
         "qs_pg:id":577571,
@@ -300,7 +315,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"5f5dbe882cb381a8e909d072dfffa91b",
+    "wof:geomhash":"1e2e8d7688d822be59060d8d58588653",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -312,11 +327,11 @@
         }
     ],
     "wof:id":101905963,
-    "wof:lastmodified":1582342505,
+    "wof:lastmodified":1684351974,
     "wof:name":"N\u00fcnschweiler",
     "wof:parent_id":1377686795,
     "wof:placetype":"locality",
-    "wof:population":827,
+    "wof:population":748,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09475171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Selbitz, St",
+    "eurostat:nuts_2021_id":"09475171",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE24",
+    "eurostat:nuts_2021_level_3":"DE249",
+    "eurostat:nuts_2021_level_lau":"09475171",
+    "eurostat:population":4250,
+    "eurostat:population_year":2020,
     "geom:area":0.003542,
-    "geom:area_square_m":27960747.451566,
+    "geom:area_square_m":27960747.451565,
     "geom:bbox":"11.707263,50.286013,11.803731,50.356897",
     "geom:latitude":50.321143,
     "geom:longitude":11.755212,
@@ -169,22 +181,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":96,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Bayern",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682571,
         102191581,
         85633111,
-        102063625,
         1377688177,
         404227583,
-        85682571
+        102063625
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09475171",
+        "eurostat:nuts_2021_id":"09475171",
         "gn:id":2833269,
         "gp:id":694416,
         "qs_pg:id":246796,
@@ -198,7 +213,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"07959a46df64ebfe08476cee71478b0c",
+    "wof:geomhash":"d6a7f7cd61ab26558e90dd455de2c6dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
         }
     ],
     "wof:id":101824379,
-    "wof:lastmodified":1608051135,
+    "wof:lastmodified":1684351927,
     "wof:name":"Selbitz",
     "wof:parent_id":1377688177,
     "wof:placetype":"locality",
-    "wof:population":4758,
+    "wof:population":4250,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

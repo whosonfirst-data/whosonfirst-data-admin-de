@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13075081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Loissin",
+    "eurostat:nuts_2021_id":"13075081",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80N",
+    "eurostat:nuts_2021_level_lau":"13075081",
+    "eurostat:population":777,
+    "eurostat:population_year":2020,
     "geom:area":0.002141,
     "geom:area_square_m":15517639.439162,
     "geom:bbox":"13.4763147763,54.0946212189,13.5586159603,54.1310753747",
@@ -297,7 +309,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":34,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -312,6 +325,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13075081",
+        "eurostat:nuts_2021_id":"13075081",
         "gn:id":2876065,
         "gp:id":672578,
         "qs_pg:id":1033009,
@@ -323,7 +338,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"60db2df5fafb7434fe00cbb78660c55e",
+    "wof:geomhash":"0a72d8e48b0aac8fe01b01cc6b1b953b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -335,11 +350,11 @@
         }
     ],
     "wof:id":101908723,
-    "wof:lastmodified":1582342346,
+    "wof:lastmodified":1684351999,
     "wof:name":"Loissin",
     "wof:parent_id":1377685123,
     "wof:placetype":"locality",
-    "wof:population":898,
+    "wof:population":777,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

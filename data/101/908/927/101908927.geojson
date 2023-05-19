@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_13073083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sehlen",
+    "eurostat:nuts_2021_id":"13073083",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE8",
+    "eurostat:nuts_2021_level_2":"DE80",
+    "eurostat:nuts_2021_level_3":"DE80L",
+    "eurostat:nuts_2021_level_lau":"13073083",
+    "eurostat:population":848,
+    "eurostat:population_year":2020,
     "geom:area":0.002842,
     "geom:area_square_m":20461929.58958,
     "geom:bbox":"13.3373216619,54.3661685294,13.4512273276,54.4218643736",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":45,
     "wof:belongsto":[
         85682487,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_13073083",
+        "eurostat:nuts_2021_id":"13073083",
         "gn:id":2833488,
         "gp:id":694274,
         "qs_pg:id":576937,
@@ -153,7 +168,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"43c68081d636cffba219986272140408",
+    "wof:geomhash":"949e62ba31d3c1d4b01103f3ef2fe9f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,12 +180,12 @@
         }
     ],
     "wof:id":101908927,
-    "wof:lastmodified":1582342353,
+    "wof:lastmodified":1684352001,
     "wof:name":"Sehlen",
     "wof:parent_id":1377684925,
     "wof:placetype":"locality",
-    "wof:population":1002,
-    "wof:population_rank":3,
+    "wof:population":848,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[

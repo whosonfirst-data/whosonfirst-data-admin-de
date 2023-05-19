@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_01059182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Freienwill",
+    "eurostat:nuts_2021_id":"01059182",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEF",
+    "eurostat:nuts_2021_level_2":"DEF0",
+    "eurostat:nuts_2021_level_3":"DEF0C",
+    "eurostat:nuts_2021_level_lau":"01059182",
+    "eurostat:population":1586,
+    "eurostat:population_year":2020,
     "geom:area":0.00212,
-    "geom:area_square_m":15136458.996624,
+    "geom:area_square_m":15136458.996622,
     "geom:bbox":"9.45161639228,54.70165575,9.54853329134,54.7537011396",
     "geom:latitude":54.730706,
     "geom:longitude":9.497343,
@@ -299,7 +311,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":36,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -314,6 +327,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_01059182",
+        "eurostat:nuts_2021_id":"01059182",
         "gn:id":2925134,
         "gp:id":29351806,
         "qs_pg:id":526676,
@@ -324,7 +339,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d85da92fba7a48569b111484472c9739",
+    "wof:geomhash":"a52954810a99758482fd63e3b8588ea1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -336,11 +351,11 @@
         }
     ],
     "wof:id":101846459,
-    "wof:lastmodified":1582342528,
+    "wof:lastmodified":1684351962,
     "wof:name":"Freienwill",
     "wof:parent_id":1377684375,
     "wof:placetype":"locality",
-    "wof:population":1486,
+    "wof:population":1586,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

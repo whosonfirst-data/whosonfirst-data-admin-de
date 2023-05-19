@@ -4,8 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:coast_type":"1",
+    "eurostat:country_code":"DE",
+    "eurostat:level_code":"3",
+    "eurostat:mount_type":"4",
+    "eurostat:name_latin":"Wittmund",
+    "eurostat:name_local":"Wittmund",
+    "eurostat:nuts_2021_id":"DE94H",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE9",
+    "eurostat:nuts_2021_level_2":"DE94",
+    "eurostat:nuts_2021_level_3":"DE94H",
+    "eurostat:population":57455,
+    "eurostat:population_year":2022,
+    "eurostat:urban_type":"3",
     "geom:area":0.08432,
-    "geom:area_square_m":619231775.41626,
+    "geom:area_square_m":619231775.416264,
     "geom:bbox":"7.407817,53.362889,7.9751725,53.711643",
     "geom:latitude":53.56478,
     "geom:longitude":7.71044,
@@ -141,18 +155,22 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"eurostat",
+    "src:population_date":"2022",
     "wof:belongsto":[
         102191581,
         85633111,
         85682555
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eurostat:nuts_2021_id":"DE94H"
+    },
     "wof:country":"DE",
     "wof:geom_alt":[
         "de-bkg-reversegeo"
     ],
-    "wof:geomhash":"ca991e3935a5f3d5e4bd4974da491194",
+    "wof:geomhash":"68037f5c7ea1be174b7f72d9b19fe69e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,10 +180,12 @@
         }
     ],
     "wof:id":102064049,
-    "wof:lastmodified":1582341923,
+    "wof:lastmodified":1684351529,
     "wof:name":"Wittmund",
     "wof:parent_id":85682555,
     "wof:placetype":"county",
+    "wof:population":57455,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08317151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuried",
+    "eurostat:nuts_2021_id":"08317151",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE13",
+    "eurostat:nuts_2021_level_3":"DE134",
+    "eurostat:nuts_2021_level_lau":"08317151",
+    "eurostat:population":9695,
+    "eurostat:population_year":2020,
     "geom:area":0.007022,
-    "geom:area_square_m":57590962.350419,
+    "geom:area_square_m":57590962.350418,
     "geom:bbox":"7.752297,48.39353,7.860063,48.499981",
     "geom:latitude":48.45119,
     "geom:longitude":7.80996,
@@ -306,22 +318,25 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":40,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Baden-W\u00fcrttemberg",
     "woe:placetype":"LocalAdmin",
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063319,
         1377689293,
         404227543,
-        85682567
+        102063319
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08317151",
+        "eurostat:nuts_2021_id":"08317151",
         "gn:id":3209259,
         "gp:id":663205,
         "qs_pg:id":1031693,
@@ -335,7 +350,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95aa637b19dd45ddf0ac95d1e1fe7c72",
+    "wof:geomhash":"bc1e6effd228116299321618b2b31f0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -348,11 +363,11 @@
         }
     ],
     "wof:id":101763101,
-    "wof:lastmodified":1608049218,
+    "wof:lastmodified":1684351810,
     "wof:name":"Neuried",
     "wof:parent_id":1377689293,
     "wof:placetype":"locality",
-    "wof:population":9286,
+    "wof:population":9695,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

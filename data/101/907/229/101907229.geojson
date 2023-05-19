@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07232311",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Spangdahlem",
+    "eurostat:nuts_2021_id":"07232311",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB2",
+    "eurostat:nuts_2021_level_3":"DEB23",
+    "eurostat:nuts_2021_level_lau":"07232311",
+    "eurostat:population":967,
+    "eurostat:population_year":2020,
     "geom:area":0.001711,
-    "geom:area_square_m":13599217.169386,
+    "geom:area_square_m":13599217.169385,
     "geom:bbox":"6.66319160221,49.9648925787,6.72817589166,50.009067093",
     "geom:latitude":49.989794,
     "geom:longitude":6.693014,
@@ -294,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":38,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -309,6 +322,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07232311",
+        "eurostat:nuts_2021_id":"07232311",
         "gn:id":2830832,
         "gp:id":20163175,
         "qs_pg:id":1118457,
@@ -320,7 +335,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"9e3798a0fc1922c0b4598f4719bd9b54",
+    "wof:geomhash":"7a02e891b656ac610bf5a400d1aa9776",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -332,11 +347,11 @@
         }
     ],
     "wof:id":101907229,
-    "wof:lastmodified":1582342306,
+    "wof:lastmodified":1684351986,
     "wof:name":"Spangdahlem",
     "wof:parent_id":1377685951,
     "wof:placetype":"locality",
-    "wof:population":831,
+    "wof:population":967,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

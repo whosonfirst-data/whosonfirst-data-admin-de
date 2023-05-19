@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_09776127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Stiefenhofen",
+    "eurostat:nuts_2021_id":"09776127",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE2",
+    "eurostat:nuts_2021_level_2":"DE27",
+    "eurostat:nuts_2021_level_3":"DE27A",
+    "eurostat:nuts_2021_level_lau":"09776127",
+    "eurostat:population":1886,
+    "eurostat:population_year":2020,
     "geom:area":0.003451,
     "geom:area_square_m":28779440.710097,
     "geom:bbox":"9.95575282568,47.5597706311,10.0688794498,47.6138530639",
@@ -166,7 +178,8 @@
     ],
     "src:geom_via":"quattroshapes",
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":26,
     "wof:belongsto":[
         85682571,
@@ -178,6 +191,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_09776127",
+        "eurostat:nuts_2021_id":"09776127",
         "fct:id":"071ca3dc-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2829080,
         "gp:id":20157582,
@@ -191,7 +206,7 @@
         "quattroshapes",
         "quattroshapes_pg"
     ],
-    "wof:geomhash":"08d72a3ba9f7857b209b0f4e513af6dc",
+    "wof:geomhash":"df8142e9442c60804cd3fd81e346985d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -207,11 +222,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342604,
+    "wof:lastmodified":1684351965,
     "wof:name":"Stiefenhofen",
     "wof:parent_id":1377692923,
     "wof:placetype":"locality",
-    "wof:population":1738,
+    "wof:population":1886,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07334009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hatzenb\u00fchl",
+    "eurostat:nuts_2021_id":"07334009",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB3",
+    "eurostat:nuts_2021_level_3":"DEB3E",
+    "eurostat:nuts_2021_level_lau":"07334009",
+    "eurostat:population":2832,
+    "eurostat:population_year":2020,
     "geom:area":0.000948,
     "geom:area_square_m":7675625.868682,
     "geom:bbox":"8.20985576991,49.1041124092,8.27223831563,49.1278057129",
@@ -132,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":27,
     "wof:belongsto":[
         85682491,
@@ -143,6 +156,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07334009",
+        "eurostat:nuts_2021_id":"07334009",
         "gn:id":2909204,
         "gp:id":657855,
         "qs_pg:id":1066669,
@@ -154,7 +169,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"b023bc93f982b4f80c0ba8144531b108",
+    "wof:geomhash":"0f87d1e55218acecf1ec6fecc6447f17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +181,11 @@
         }
     ],
     "wof:id":101760807,
-    "wof:lastmodified":1582342496,
+    "wof:lastmodified":1684351802,
     "wof:name":"Hatzenb\u00fchl",
     "wof:parent_id":1377686391,
     "wof:placetype":"locality",
-    "wof:population":2693,
+    "wof:population":2832,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

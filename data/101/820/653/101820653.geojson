@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_12072312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nuthe-Urstromtal",
+    "eurostat:nuts_2021_id":"12072312",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE4",
+    "eurostat:nuts_2021_level_2":"DE40",
+    "eurostat:nuts_2021_level_3":"DE40H",
+    "eurostat:nuts_2021_level_lau":"12072312",
+    "eurostat:population":6564,
+    "eurostat:population_year":2020,
     "geom:area":0.044728,
-    "geom:area_square_m":339741540.172967,
+    "geom:area_square_m":339741540.172961,
     "geom:bbox":"12.951454,51.981044,13.41476,52.208213",
     "geom:latitude":52.100264,
     "geom:longitude":13.204296,
@@ -146,17 +158,20 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":116,
     "wof:belongsto":[
+        85682553,
         102191581,
-        85633111,
-        102063911,
         1377684191,
-        85682553
+        85633111,
+        102063911
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_12072312",
+        "eurostat:nuts_2021_id":"12072312",
         "gn:id":6559247,
         "gp:id":707905,
         "qs_pg:id":639243,
@@ -170,7 +185,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"047e91413a715ee356584ba683412068",
+    "wof:geomhash":"f1d23302c71535f5724c3355ed43b6ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +197,11 @@
         }
     ],
     "wof:id":101820653,
-    "wof:lastmodified":1608049889,
+    "wof:lastmodified":1684351912,
     "wof:name":"Nuthe-Urstromtal",
     "wof:parent_id":1377684191,
     "wof:placetype":"locality",
-    "wof:population":6513,
+    "wof:population":6564,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

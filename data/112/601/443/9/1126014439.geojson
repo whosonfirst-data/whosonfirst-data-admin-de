@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00f6lsberg",
+    "eurostat:nuts_2021_id":"07143211",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143211",
+    "eurostat:population":217,
+    "eurostat:population_year":2020,
     "geom:area":0.000177,
     "geom:area_square_m":1388243.666258,
     "geom:bbox":"7.90644976804,50.6586203922,7.93960769414,50.6736923458",
@@ -120,7 +132,8 @@
         "qs_pg"
     ],
     "src:lbl_centroid":"qs_pg",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85682491,
         102191581,
@@ -130,6 +143,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143211",
+        "eurostat:nuts_2021_id":"07143211",
         "gn:id":2946591,
         "qs_pg:id":579690,
         "wd:id":"Q561558"
@@ -139,7 +154,7 @@
     "wof:geom_alt":[
         "qs_pg"
     ],
-    "wof:geomhash":"6cafdd33c919665ad2ac828fbbeb7558",
+    "wof:geomhash":"ff330fa36e71937f09c29070358ec5de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -151,11 +166,11 @@
         }
     ],
     "wof:id":1126014439,
-    "wof:lastmodified":1582343018,
+    "wof:lastmodified":1684352047,
     "wof:name":"B\u00f6lsberg",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":300,
+    "wof:population":217,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

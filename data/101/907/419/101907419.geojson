@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_07143222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fehl-Ritzhausen",
+    "eurostat:nuts_2021_id":"07143222",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DEB",
+    "eurostat:nuts_2021_level_2":"DEB1",
+    "eurostat:nuts_2021_level_3":"DEB1B",
+    "eurostat:nuts_2021_level_lau":"07143222",
+    "eurostat:population":766,
+    "eurostat:population_year":2020,
     "geom:area":0.000512,
     "geom:area_square_m":4017558.732487,
     "geom:bbox":"7.99032998129,50.6338055916,8.02122610099,50.6599237854",
@@ -144,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":820,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -159,6 +172,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_07143222",
+        "eurostat:nuts_2021_id":"07143222",
         "gn:id":2927581,
         "gp:id":649406,
         "qs_pg:id":579178,
@@ -173,7 +188,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"37bebfe010c81e956b7d26d69ddea31e",
+    "wof:geomhash":"dd2f8a3e6db45838c3c7727527c1e709",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +200,11 @@
         }
     ],
     "wof:id":101907419,
-    "wof:lastmodified":1582342313,
+    "wof:lastmodified":1684351987,
     "wof:name":"Fehl-Ritzhausen",
     "wof:parent_id":1377685767,
     "wof:placetype":"locality",
-    "wof:population":862,
+    "wof:population":766,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

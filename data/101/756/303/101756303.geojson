@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08215101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pfinztal",
+    "eurostat:nuts_2021_id":"08215101",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE12",
+    "eurostat:nuts_2021_level_3":"DE123",
+    "eurostat:nuts_2021_level_lau":"08215101",
+    "eurostat:population":18451,
+    "eurostat:population_year":2020,
     "geom:area":0.003791,
-    "geom:area_square_m":30755229.36663,
+    "geom:area_square_m":30755229.366636,
     "geom:bbox":"8.499636,48.952293,8.599821,49.031468",
     "geom:latitude":48.991939,
     "geom:longitude":8.542296,
@@ -298,18 +310,21 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":61,
     "wof:belongsto":[
+        85682567,
         102191581,
         85633111,
-        102063403,
         1377688223,
         404227555,
-        85682567
+        102063403
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08215101",
+        "eurostat:nuts_2021_id":"08215101",
         "gn:id":2854027,
         "gp:id":684917,
         "qs_pg:id":373931,
@@ -327,7 +342,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "wof:geomhash":"03eff1af7da7dbb69d0d4c7c90cb7b44",
+    "wof:geomhash":"c9ef1b29608db76bfb6469dc8d13604b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -340,11 +355,11 @@
         }
     ],
     "wof:id":101756303,
-    "wof:lastmodified":1608050824,
+    "wof:lastmodified":1684351794,
     "wof:name":"Pfinztal",
     "wof:parent_id":1377688223,
     "wof:placetype":"locality",
-    "wof:population":17636,
+    "wof:population":18451,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],

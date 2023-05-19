@@ -4,8 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"DE",
+    "eurostat:gisco_id":"DE_08426062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ingoldingen",
+    "eurostat:nuts_2021_id":"08426062",
+    "eurostat:nuts_2021_level_0":"DE",
+    "eurostat:nuts_2021_level_1":"DE1",
+    "eurostat:nuts_2021_level_2":"DE14",
+    "eurostat:nuts_2021_level_3":"DE146",
+    "eurostat:nuts_2021_level_lau":"08426062",
+    "eurostat:population":3000,
+    "eurostat:population_year":2020,
     "geom:area":0.005289,
-    "geom:area_square_m":43745325.316691,
+    "geom:area_square_m":43745325.316696,
     "geom:bbox":"9.68616274916,47.9709994084,9.79040255876,48.0715725812",
     "geom:latitude":48.018766,
     "geom:longitude":9.731654,
@@ -168,7 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wd:wordcount":30,
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
@@ -184,6 +197,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "eg:gisco_id":"DE_08426062",
+        "eurostat:nuts_2021_id":"08426062",
         "fct:id":"0715c8aa-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2895993,
         "gp:id":12623753,
@@ -195,7 +210,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97a6381055951d8780e682563e160317",
+    "wof:geomhash":"211bb27e29da9dbadfb97c74f95364ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +226,11 @@
     "wof:lang":[
         "ger"
     ],
-    "wof:lastmodified":1582342303,
+    "wof:lastmodified":1684351814,
     "wof:name":"Ingoldingen",
     "wof:parent_id":1377690311,
     "wof:placetype":"locality",
-    "wof:population":2632,
+    "wof:population":3000,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
