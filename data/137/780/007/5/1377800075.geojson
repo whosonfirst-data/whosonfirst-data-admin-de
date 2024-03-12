@@ -10,6 +10,8 @@
     "geom:latitude":54.56609,
     "geom:longitude":8.548693,
     "gn:country":null,
+    "gn:fcode":"PPLA4",
+    "gn:population":91,
     "iso:country":"DE",
     "lbl:bbox":"8.543693,54.56109,8.553693,54.57109",
     "lbl:latitude":54.56609,
@@ -39,6 +41,9 @@
     ],
     "qs_pg:aaroncc":"DE",
     "qs_pg:gn_country":null,
+    "qs_pg:gn_fcode":"PPLA4",
+    "qs_pg:gn_id":3208549,
+    "qs_pg:gn_pop":91,
     "qs_pg:name":"Hooge",
     "qs_pg:name_adm0":"Deutschland",
     "qs_pg:name_adm1":"Schleswig-Holstein",
@@ -56,6 +61,7 @@
     "qs_pg:woe_id":15002658,
     "src:geom":"qs_pg",
     "src:lbl_centroid":"qs_pg",
+    "src:population":"geonames",
     "woe:adm0_id":23424829,
     "woe:name_adm0":"Deutschland",
     "woe:name_adm1":"Schleswig-Holstein",
@@ -69,8 +75,14 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gn:id":3208549,
         "gp:id":15002658,
         "qs_pg:id":1172481
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":[
+            581865
+        ]
     },
     "wof:country":"DE",
     "wof:created":1497292942,
@@ -86,14 +98,17 @@
         }
     ],
     "wof:id":1377800075,
-    "wof:lastmodified":1566719412,
+    "wof:lastmodified":1706239500,
     "wof:name":"Hooge",
     "wof:parent_id":1377752435,
     "wof:placetype":"neighbourhood",
+    "wof:population":91,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-de",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125841225
+        1125841225,
+        1377806891
     ],
     "wof:tags":[]
 },
