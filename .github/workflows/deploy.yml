@@ -1,0 +1,20 @@
+name: Run test cases
+
+on:
+  push:
+  workflow_dispatch:
+    
+jobs:
+  clone:
+    name: clone test repo and run tests
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout private test repo
+      uses: actions/checkout@v4
+      with:
+        repository: arnesetzer/pelias_rrp_testcases
+        ssh-key: ${{ secrets.DEPLOY_KEY }}
+        ref: main
+        path: pelias_rrp_testcases
+    - name: go in correct dir and run tests
+      run: cd pelias_rrp_testcases && docker run --rm -i -v './pelias.json:/code/pelias.json' -v './test_cases:/code/pelias/fuzzy-tester/test_cases' pelias/fuzzy-tester -e staging
